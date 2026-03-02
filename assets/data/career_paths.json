@@ -1,0 +1,261 @@
+{
+  "nodes": [
+    {
+      "id": "science_maths",
+      "name": "Maths",
+      "parentId": null,
+      "childIds": ["btech", "bsc_maths"]
+    },
+    {
+      "id": "btech",
+      "name": "B.Tech",
+      "parentId": "science_maths",
+      "childIds": ["btech_cs", "btech_mech", "btech_civil"]
+    },
+    {
+      "id": "btech_cs",
+      "name": "Computer Science",
+      "parentId": "btech",
+      "childIds": []
+    },
+    {
+      "id": "btech_mech",
+      "name": "Mechanical Engineering",
+      "parentId": "btech",
+      "childIds": []
+    },
+    {
+      "id": "btech_civil",
+      "name": "Civil Engineering",
+      "parentId": "btech",
+      "childIds": []
+    },
+    {
+      "id": "bsc_maths",
+      "name": "B.Sc Mathematics",
+      "parentId": "science_maths",
+      "childIds": ["msc_maths", "actuarial_science"]
+    },
+    {
+      "id": "msc_maths",
+      "name": "M.Sc Mathematics",
+      "parentId": "bsc_maths",
+      "childIds": []
+    },
+    {
+      "id": "actuarial_science",
+      "name": "Actuarial Science",
+      "parentId": "bsc_maths",
+      "childIds": []
+    },
+
+    {
+      "id": "science_bio",
+      "name": "Biology",
+      "parentId": null,
+      "childIds": ["mbbs", "bsc_bio"]
+    },
+    {
+      "id": "mbbs",
+      "name": "MBBS",
+      "parentId": "science_bio",
+      "childIds": ["md_general", "ms_surgery"]
+    },
+    {
+      "id": "md_general",
+      "name": "MD General Medicine",
+      "parentId": "mbbs",
+      "childIds": []
+    },
+    {
+      "id": "ms_surgery",
+      "name": "MS Surgery",
+      "parentId": "mbbs",
+      "childIds": []
+    },
+    {
+      "id": "bsc_bio",
+      "name": "B.Sc Biology",
+      "parentId": "science_bio",
+      "childIds": ["msc_biotech", "research_bio"]
+    },
+    {
+      "id": "msc_biotech",
+      "name": "M.Sc Biotechnology",
+      "parentId": "bsc_bio",
+      "childIds": []
+    },
+    {
+      "id": "research_bio",
+      "name": "Research Scientist",
+      "parentId": "bsc_bio",
+      "childIds": []
+    },
+
+    {
+      "id": "commerce_ca",
+      "name": "Chartered Accountancy",
+      "parentId": null,
+      "childIds": ["ca_foundation", "ca_inter"]
+    },
+    {
+      "id": "ca_foundation",
+      "name": "CA Foundation",
+      "parentId": "commerce_ca",
+      "childIds": ["ca_final"]
+    },
+    {
+      "id": "ca_final",
+      "name": "CA Final",
+      "parentId": "ca_foundation",
+      "childIds": []
+    },
+    {
+      "id": "ca_inter",
+      "name": "CA Intermediate",
+      "parentId": "commerce_ca",
+      "childIds": ["ca_practice", "ca_corporate"]
+    },
+    {
+      "id": "ca_practice",
+      "name": "CA Practice",
+      "parentId": "ca_inter",
+      "childIds": []
+    },
+    {
+      "id": "ca_corporate",
+      "name": "Corporate Finance",
+      "parentId": "ca_inter",
+      "childIds": []
+    },
+
+    {
+      "id": "commerce_finance",
+      "name": "Finance",
+      "parentId": null,
+      "childIds": ["bcom", "bba_finance"]
+    },
+    {
+      "id": "bcom",
+      "name": "B.Com",
+      "parentId": "commerce_finance",
+      "childIds": ["mcom", "cma"]
+    },
+    {
+      "id": "mcom",
+      "name": "M.Com",
+      "parentId": "bcom",
+      "childIds": []
+    },
+    {
+      "id": "cma",
+      "name": "Cost Management Accountant",
+      "parentId": "bcom",
+      "childIds": []
+    },
+    {
+      "id": "bba_finance",
+      "name": "BBA Finance",
+      "parentId": "commerce_finance",
+      "childIds": ["mba_finance", "investment_banking"]
+    },
+    {
+      "id": "mba_finance",
+      "name": "MBA Finance",
+      "parentId": "bba_finance",
+      "childIds": []
+    },
+    {
+      "id": "investment_banking",
+      "name": "Investment Banking",
+      "parentId": "bba_finance",
+      "childIds": []
+    },
+
+    {
+      "id": "art_design",
+      "name": "Design",
+      "parentId": null,
+      "childIds": ["bdes", "barch"]
+    },
+    {
+      "id": "bdes",
+      "name": "B.Des",
+      "parentId": "art_design",
+      "childIds": ["ux_design", "fashion_design"]
+    },
+    {
+      "id": "ux_design",
+      "name": "UX Design",
+      "parentId": "bdes",
+      "childIds": []
+    },
+    {
+      "id": "fashion_design",
+      "name": "Fashion Design",
+      "parentId": "bdes",
+      "childIds": []
+    },
+    {
+      "id": "barch",
+      "name": "B.Arch",
+      "parentId": "art_design",
+      "childIds": ["interior_design", "urban_planning"]
+    },
+    {
+      "id": "interior_design",
+      "name": "Interior Design",
+      "parentId": "barch",
+      "childIds": []
+    },
+    {
+      "id": "urban_planning",
+      "name": "Urban Planning",
+      "parentId": "barch",
+      "childIds": []
+    },
+
+    {
+      "id": "art_media",
+      "name": "Media",
+      "parentId": null,
+      "childIds": ["bjmc", "bfa"]
+    },
+    {
+      "id": "bjmc",
+      "name": "B.J.M.C (Journalism)",
+      "parentId": "art_media",
+      "childIds": ["print_journalism", "broadcast_journalism"]
+    },
+    {
+      "id": "print_journalism",
+      "name": "Print Journalism",
+      "parentId": "bjmc",
+      "childIds": []
+    },
+    {
+      "id": "broadcast_journalism",
+      "name": "Broadcast Journalism",
+      "parentId": "bjmc",
+      "childIds": []
+    },
+    {
+      "id": "bfa",
+      "name": "B.F.A (Fine Arts)",
+      "parentId": "art_media",
+      "childIds": ["film_direction", "animation"]
+    },
+    {
+      "id": "film_direction",
+      "name": "Film Direction",
+      "parentId": "bfa",
+      "childIds": []
+    },
+    {
+      "id": "animation",
+      "name": "Animation",
+      "parentId": "bfa",
+      "childIds": []
+    }
+  ]
+}

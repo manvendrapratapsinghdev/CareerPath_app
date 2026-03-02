@@ -1,0 +1,19 @@
+{
+  "streams": [
+    {
+      "id": "science",
+      "name": "Science",
+      "categoryIds": ["science_maths", "science_bio"]
+    },
+    {
+      "id": "commerce",
+      "name": "Commerce",
+      "categoryIds": ["commerce_ca", "commerce_finance"]
+    },
+    {
+      "id": "art",
+      "name": "Art",
+      "categoryIds": ["art_design", "art_media"]
+    }
+  ]
+}
