@@ -1,0 +1,117 @@
+import 'dart:convert';
+import 'dart:io';
+
+import 'package:flutter/foundation.dart';
+import 'package:http/http.dart' as http;
+import 'package:http/io_client.dart';
+
+import '../config/api_urls.dart';
+
+/// Low-level HTTP client that talks to the Career Path backend.
+/// All URLs are resolved from [ApiUrls] — no hardcoded strings here.
+class ApiClient {
+  final http.Client _client;
+
+  ApiClient({http.Client? client}) : _client = client ?? _createClient();
+
+  /// In debug builds, bypass SSL certificate verification to handle
+  /// self-signed or expired certificates (e.g. ngrok tunnels).
+  /// In release builds the standard verified client is used.
+  static http.Client _createClient() {
+    final ioClient = HttpClient()
+      ..connectionTimeout = const Duration(seconds: 8)
+      ..idleTimeout = const Duration(seconds: 8);
+    if (kDebugMode) {
+      ioClient.badCertificateCallback = (cert, host, port) => true;
+    }
+    return IOClient(ioClient);
+  }
+
+  // ── helpers ────────────────────────────────────────────────────────────────
+
+  // ngrok requires this header to skip the browser interstitial warning page.
+  static const _defaultHeaders = <String, String>{
+    'ngrok-skip-browser-warning': 'true',
+    'Content-Type': 'application/json',
+  };
+
+  static dynamic _decodeJson(String body) => json.decode(body);
+
+  Future<dynamic> _get(String url) async {
+    debugPrint('[ApiClient] GET $url');
+    final uri = Uri.parse(url);
+    final response = await _client.get(uri, headers: _defaultHeaders);
+    if (response.statusCode != 200) {
+      throw ApiException(
+        'GET $url failed with status ${response.statusCode}',
+        response.statusCode,
+      );
+    }
+    return compute(_decodeJson, response.body);
+  }
+
+  // ── streams ────────────────────────────────────────────────────────────────
+
+  /// Returns all streams with their category_ids (integers).
+  Future<List<Map<String, dynamic>>> getStreams() async {
+    final data = await _get(ApiUrls.streams);
+    return List<Map<String, dynamic>>.from(data as List);
+  }
+
+  // ── stream root nodes ───────────────────────────────────────────────────────
+
+  /// Returns root-level nodes (parent_id IS NULL) for a given stream API integer id.
+  Future<List<Map<String, dynamic>>> getStreamRootNodes(int streamApiId) async {
+    final data = await _get(ApiUrls.streamNodes(streamApiId));
+    return List<Map<String, dynamic>>.from(data as List);
+  }
+
+  // ── nodes ──────────────────────────────────────────────────────────────────
+
+  /// Returns the direct children of a node.
+  Future<List<Map<String, dynamic>>> getNodeChildren(int nodeApiId) async {
+    final data = await _get(ApiUrls.nodeChildren(nodeApiId));
+    return List<Map<String, dynamic>>.from(data as List);
+  }
+
+  /// Returns rich leaf-node details (books, institutes, job sectors).
+  Future<Map<String, dynamic>> getNodeDetails(int nodeApiId) async {
+    final data = await _get(ApiUrls.nodeDetails(nodeApiId));
+    return Map<String, dynamic>.from(data as Map);
+  }
+
+  // ── books ──────────────────────────────────────────────────────────────────
+
+  /// Returns all recommended books.
+  Future<List<Map<String, dynamic>>> getBooks() async {
+    final data = await _get(ApiUrls.books);
+    return List<Map<String, dynamic>>.from(data as List);
+  }
+
+  // ── institutes ─────────────────────────────────────────────────────────────
+
+  /// Returns all educational institutes.
+  Future<List<Map<String, dynamic>>> getInstitutes() async {
+    final data = await _get(ApiUrls.institutes);
+    return List<Map<String, dynamic>>.from(data as List);
+  }
+
+  // ── job sectors ────────────────────────────────────────────────────────────
+
+  /// Returns all job sectors.
+  Future<List<Map<String, dynamic>>> getJobSectors() async {
+    final data = await _get(ApiUrls.jobSectors);
+    return List<Map<String, dynamic>>.from(data as List);
+  }
+
+  void dispose() => _client.close();
+}
+
+class ApiException implements Exception {
+  final String message;
+  final int statusCode;
+  const ApiException(this.message, this.statusCode);
+
+  @override
+  String toString() => 'ApiException($statusCode): $message';
+}
