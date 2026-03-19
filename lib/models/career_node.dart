@@ -3,15 +3,22 @@ class CareerNode {
   final String name;
   final String? parentId;
   final List<String> childIds;
+  final String? intro;
+
+  /// Known child count from the API (populated immediately on load).
+  /// `isLeaf` is based on this — accurate even before children are fetched.
+  final int childCount;
 
   CareerNode({
     required this.id,
     required this.name,
     this.parentId,
     this.childIds = const [],
-  });
+    this.intro,
+    int? childCount,
+  }) : childCount = childCount ?? childIds.length;
 
-  bool get isLeaf => childIds.isEmpty;
+  bool get isLeaf => childCount == 0;
 
   factory CareerNode.fromJson(Map<String, dynamic> json) {
     return CareerNode(

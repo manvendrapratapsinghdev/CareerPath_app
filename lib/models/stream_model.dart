@@ -2,12 +2,19 @@ class StreamModel {
   final String id;
   final String name;
   final List<String> categoryIds;
+  final String? intro;
+
+  /// Count of root nodes from the /api/streams response.
+  /// Available immediately — before categories are lazily loaded.
+  final int rootNodeCount;
 
   StreamModel({
     required this.id,
     required this.name,
     required this.categoryIds,
-  });
+    this.intro,
+    int? rootNodeCount,
+  }) : rootNodeCount = rootNodeCount ?? categoryIds.length;
 
   factory StreamModel.fromJson(Map<String, dynamic> json) {
     return StreamModel(
