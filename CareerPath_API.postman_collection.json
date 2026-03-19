@@ -1,0 +1,720 @@
+{
+  "info": {
+    "name": "Career Path API",
+    "description": "Postman collection for the Flask Career Path Guidance API.\nHierarchy: Stream → Node (infinite tree). A node with no children is a leaf.\nBooks, institutes and job sectors can only be assigned to leaf nodes.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_postman_id": "8a4d5ff7-5d6e-4ed6-9686-e1d4b9bdc6f2"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://127.0.0.1:5000"
+    },
+    {
+      "key": "adminToken",
+      "value": ""
+    },
+    {
+      "key": "streamId",
+      "value": "1"
+    },
+    {
+      "key": "nodeId",
+      "value": "1",
+      "description": "Use a root node ID (parent_id=null) to browse the tree top-down."
+    },
+    {
+      "key": "leafNodeId",
+      "value": "10",
+      "description": "ID of a leaf node (no children) — required for /details and /assignments."
+    },
+    {
+      "key": "bookId",
+      "value": "1"
+    },
+    {
+      "key": "instId",
+      "value": "1"
+    },
+    {
+      "key": "sectorId",
+      "value": "1"
+    }
+  ],
+  "item": [
+    {
+      "name": "Public",
+      "item": [
+        {
+          "name": "Health Check",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/health",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "health"]
+            },
+            "description": "Returns {\"status\": \"ok\"} if the server is running."
+          },
+          "response": []
+        },
+        {
+          "name": "Streams",
+          "item": [
+            {
+              "name": "List Streams",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/api/streams",
+                  "host": ["{{baseUrl}}"],
+                  "path": ["api", "streams"]
+                },
+                "description": "Returns all streams. Each stream includes root_node_ids (top-level nodes with parent_id=null)."
+              },
+              "response": []
+            },
+            {
+              "name": "Get Stream By ID",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/api/streams/{{streamId}}",
+                  "host": ["{{baseUrl}}"],
+                  "path": ["api", "streams", "{{streamId}}"]
+                },
+                "description": "Returns a single stream with root_node_ids."
+              },
+              "response": []
+            },
+            {
+              "name": "List Root Nodes By Stream",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/api/streams/{{streamId}}/nodes",
+                  "host": ["{{baseUrl}}"],
+                  "path": ["api", "streams", "{{streamId}}", "nodes"]
+                },
+                "description": "Returns root-level nodes (parent_id=null) for a stream. These are the top-level entry points for the infinite tree. Each node includes is_leaf and child_ids."
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "Nodes",
+          "item": [
+            {
+              "name": "Get Node By ID",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/api/nodes/{{nodeId}}",
+                  "host": ["{{baseUrl}}"],
+                  "path": ["api", "nodes", "{{nodeId}}"]
+                },
+                "description": "Returns one node with stream_id, parent_id, is_leaf (computed) and child_ids."
+              },
+              "response": []
+            },
+            {
+              "name": "List Children By Node",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/api/nodes/{{nodeId}}/children",
+                  "host": ["{{baseUrl}}"],
+                  "path": ["api", "nodes", "{{nodeId}}", "children"]
+                },
+                "description": "Returns direct child nodes. Each child includes is_leaf and child_ids for further traversal."
+              },
+              "response": []
+            },
+            {
+              "name": "Get Node Details (leaf only)",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/api/nodes/{{leafNodeId}}/details",
+                  "host": ["{{baseUrl}}"],
+                  "path": ["api", "nodes", "{{leafNodeId}}", "details"]
+                },
+                "description": "Returns books, institutes, and job sectors linked to a node.\nReturns 400 if the node has children (non-leaf). Use a {{leafNodeId}} for this request."
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "Resources",
+          "item": [
+            {
+              "name": "List All Books",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/api/books",
+                  "host": ["{{baseUrl}}"],
+                  "path": ["api", "books"]
+                },
+                "description": "Returns all books ordered by title."
+              },
+              "response": []
+            },
+            {
+              "name": "List All Institutes",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/api/institutes",
+                  "host": ["{{baseUrl}}"],
+                  "path": ["api", "institutes"]
+                },
+                "description": "Returns all institutes ordered by name."
+              },
+              "response": []
+            },
+            {
+              "name": "List All Job Sectors",
+              "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/api/job_sectors",
+                  "host": ["{{baseUrl}}"],
+                  "path": ["api", "job_sectors"]
+                },
+                "description": "Returns all job sectors ordered by name."
+              },
+              "response": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Admin",
+      "item": [
+        {
+          "name": "Auth",
+          "item": [
+            {
+              "name": "Login",
+              "event": [
+                {
+                  "listen": "test",
+                  "script": {
+                    "exec": [
+                      "var json = pm.response.json();",
+                      "if (json.token) {",
+                      "  pm.collectionVariables.set('adminToken', json.token);",
+                      "}"
+                    ],
+                    "type": "text/javascript"
+                  }
+                }
+              ],
+              "request": {
+                "method": "POST",
+                "header": [
+                  { "key": "Content-Type", "value": "application/json" }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"username\": \"admin\",\n  \"password\": \"admin\"\n}"
+                },
+                "url": {
+                  "raw": "{{baseUrl}}/api/admin/login",
+                  "host": ["{{baseUrl}}"],
+                  "path": ["api", "admin", "login"]
+                },
+                "description": "Authenticates and returns a JWT token. The test script auto-saves the token to {{adminToken}}."
+              },
+              "response": []
+            },
+            {
+              "name": "Verify Token",
+              "request": {
+                "method": "GET",
+                "header": [
+                  { "key": "Authorization", "value": "Bearer {{adminToken}}" }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/api/admin/verify",
+                  "host": ["{{baseUrl}}"],
+                  "path": ["api", "admin", "verify"]
+                },
+                "description": "Returns {\"valid\": true} if the token is valid."
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "Streams",
+          "item": [
+            {
+              "name": "Create Stream",
+              "request": {
+                "method": "POST",
+                "header": [
+                  { "key": "Content-Type", "value": "application/json" },
+                  { "key": "Authorization", "value": "Bearer {{adminToken}}" }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"slug\": \"new_stream\",\n  \"name\": \"New Stream\",\n  \"intro\": \"Optional intro text\"\n}"
+                },
+                "url": {
+                  "raw": "{{baseUrl}}/api/admin/streams",
+                  "host": ["{{baseUrl}}"],
+                  "path": ["api", "admin", "streams"]
+                },
+                "description": "Creates a new stream. Required: slug, name."
+              },
+              "response": []
+            },
+            {
+              "name": "Update Stream",
+              "request": {
+                "method": "PUT",
+                "header": [
+                  { "key": "Content-Type", "value": "application/json" },
+                  { "key": "Authorization", "value": "Bearer {{adminToken}}" }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"name\": \"Updated Stream Name\",\n  \"intro\": \"Updated intro\"\n}"
+                },
+                "url": {
+                  "raw": "{{baseUrl}}/api/admin/streams/{{streamId}}",
+                  "host": ["{{baseUrl}}"],
+                  "path": ["api", "admin", "streams", "{{streamId}}"]
+                },
+                "description": "Updates a stream by ID."
+              },
+              "response": []
+            },
+            {
+              "name": "Delete Stream",
+              "request": {
+                "method": "DELETE",
+                "header": [
+                  { "key": "Authorization", "value": "Bearer {{adminToken}}" }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/api/admin/streams/{{streamId}}",
+                  "host": ["{{baseUrl}}"],
+                  "path": ["api", "admin", "streams", "{{streamId}}"]
+                },
+                "description": "Deletes a stream and all its nodes (cascade)."
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "Nodes",
+          "item": [
+            {
+              "name": "List All Nodes",
+              "request": {
+                "method": "GET",
+                "header": [
+                  { "key": "Authorization", "value": "Bearer {{adminToken}}" }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/api/admin/nodes",
+                  "host": ["{{baseUrl}}"],
+                  "path": ["api", "admin", "nodes"]
+                },
+                "description": "Returns flat list of all nodes with their stream names and computed is_leaf."
+              },
+              "response": []
+            },
+            {
+              "name": "List Leaf Nodes",
+              "request": {
+                "method": "GET",
+                "header": [
+                  { "key": "Authorization", "value": "Bearer {{adminToken}}" }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/api/admin/nodes?is_leaf=true",
+                  "host": ["{{baseUrl}}"],
+                  "path": ["api", "admin", "nodes"],
+                  "query": [
+                    { "key": "is_leaf", "value": "true" }
+                  ]
+                },
+                "description": "Returns only leaf nodes (nodes with no children)."
+              },
+              "response": []
+            },
+            {
+              "name": "List Nodes By Stream",
+              "request": {
+                "method": "GET",
+                "header": [
+                  { "key": "Authorization", "value": "Bearer {{adminToken}}" }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/api/admin/nodes?stream_id={{streamId}}",
+                  "host": ["{{baseUrl}}"],
+                  "path": ["api", "admin", "nodes"],
+                  "query": [
+                    { "key": "stream_id", "value": "{{streamId}}" }
+                  ]
+                },
+                "description": "Returns all nodes belonging to a specific stream."
+              },
+              "response": []
+            },
+            {
+              "name": "Create Node",
+              "request": {
+                "method": "POST",
+                "header": [
+                  { "key": "Content-Type", "value": "application/json" },
+                  { "key": "Authorization", "value": "Bearer {{adminToken}}" }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"slug\": \"new_career\",\n  \"name\": \"New Career\",\n  \"stream_id\": 1,\n  \"parent_id\": null,\n  \"intro\": \"Optional intro\"\n}"
+                },
+                "url": {
+                  "raw": "{{baseUrl}}/api/admin/nodes",
+                  "host": ["{{baseUrl}}"],
+                  "path": ["api", "admin", "nodes"]
+                },
+                "description": "Creates a new node. Required: slug, name, stream_id.\nSet parent_id=null to create a root node; set parent_id to an existing node ID to create a sub-node.\nis_leaf is computed automatically — do not pass it."
+              },
+              "response": []
+            },
+            {
+              "name": "Update Node",
+              "request": {
+                "method": "PUT",
+                "header": [
+                  { "key": "Content-Type", "value": "application/json" },
+                  { "key": "Authorization", "value": "Bearer {{adminToken}}" }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"name\": \"Updated Node Name\",\n  \"intro\": \"Updated intro\"\n}"
+                },
+                "url": {
+                  "raw": "{{baseUrl}}/api/admin/nodes/{{nodeId}}",
+                  "host": ["{{baseUrl}}"],
+                  "path": ["api", "admin", "nodes", "{{nodeId}}"]
+                },
+                "description": "Updates a node by ID. You may also update stream_id or parent_id to re-parent a node."
+              },
+              "response": []
+            },
+            {
+              "name": "Delete Node",
+              "request": {
+                "method": "DELETE",
+                "header": [
+                  { "key": "Authorization", "value": "Bearer {{adminToken}}" }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/api/admin/nodes/{{nodeId}}",
+                  "host": ["{{baseUrl}}"],
+                  "path": ["api", "admin", "nodes", "{{nodeId}}"]
+                },
+                "description": "Deletes a node and all its descendants (cascade)."
+              },
+              "response": []
+            },
+            {
+              "name": "Get Node Assignments",
+              "request": {
+                "method": "GET",
+                "header": [
+                  { "key": "Authorization", "value": "Bearer {{adminToken}}" }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/api/admin/nodes/{{leafNodeId}}/assignments",
+                  "host": ["{{baseUrl}}"],
+                  "path": ["api", "admin", "nodes", "{{leafNodeId}}", "assignments"]
+                },
+                "description": "Returns current books, institutes and job sectors assigned to a node."
+              },
+              "response": []
+            },
+            {
+              "name": "Set Node Assignments (leaf only)",
+              "request": {
+                "method": "PUT",
+                "header": [
+                  { "key": "Content-Type", "value": "application/json" },
+                  { "key": "Authorization", "value": "Bearer {{adminToken}}" }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"book_ids\": [1, 2, 3],\n  \"institute_ids\": [1, 2],\n  \"job_sector_ids\": [1, 2, 3]\n}"
+                },
+                "url": {
+                  "raw": "{{baseUrl}}/api/admin/nodes/{{leafNodeId}}/assignments",
+                  "host": ["{{baseUrl}}"],
+                  "path": ["api", "admin", "nodes", "{{leafNodeId}}", "assignments"]
+                },
+                "description": "Atomically replaces all resource assignments for a node.\nReturns 400 if the node has children (non-leaf). Pass empty arrays to clear all assignments."
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "Books",
+          "item": [
+            {
+              "name": "List All Books",
+              "request": {
+                "method": "GET",
+                "header": [
+                  { "key": "Authorization", "value": "Bearer {{adminToken}}" }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/api/admin/books",
+                  "host": ["{{baseUrl}}"],
+                  "path": ["api", "admin", "books"]
+                },
+                "description": "Returns all books ordered by title."
+              },
+              "response": []
+            },
+            {
+              "name": "Create Book",
+              "request": {
+                "method": "POST",
+                "header": [
+                  { "key": "Content-Type", "value": "application/json" },
+                  { "key": "Authorization", "value": "Bearer {{adminToken}}" }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"title\": \"Python for Data Analysis\",\n  \"author\": \"Wes McKinney\",\n  \"url\": \"https://example.com\",\n  \"description\": \"Optional description\"\n}"
+                },
+                "url": {
+                  "raw": "{{baseUrl}}/api/admin/books",
+                  "host": ["{{baseUrl}}"],
+                  "path": ["api", "admin", "books"]
+                },
+                "description": "Creates a new book. Required: title."
+              },
+              "response": []
+            },
+            {
+              "name": "Update Book",
+              "request": {
+                "method": "PUT",
+                "header": [
+                  { "key": "Content-Type", "value": "application/json" },
+                  { "key": "Authorization", "value": "Bearer {{adminToken}}" }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"title\": \"Updated Title\",\n  \"author\": \"Updated Author\",\n  \"url\": \"https://example.com\",\n  \"description\": \"Updated description\"\n}"
+                },
+                "url": {
+                  "raw": "{{baseUrl}}/api/admin/books/{{bookId}}",
+                  "host": ["{{baseUrl}}"],
+                  "path": ["api", "admin", "books", "{{bookId}}"]
+                },
+                "description": "Updates a book by ID."
+              },
+              "response": []
+            },
+            {
+              "name": "Delete Book",
+              "request": {
+                "method": "DELETE",
+                "header": [
+                  { "key": "Authorization", "value": "Bearer {{adminToken}}" }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/api/admin/books/{{bookId}}",
+                  "host": ["{{baseUrl}}"],
+                  "path": ["api", "admin", "books", "{{bookId}}"]
+                },
+                "description": "Deletes a book by ID."
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "Institutes",
+          "item": [
+            {
+              "name": "List All Institutes",
+              "request": {
+                "method": "GET",
+                "header": [
+                  { "key": "Authorization", "value": "Bearer {{adminToken}}" }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/api/admin/institutes",
+                  "host": ["{{baseUrl}}"],
+                  "path": ["api", "admin", "institutes"]
+                },
+                "description": "Returns all institutes ordered by name."
+              },
+              "response": []
+            },
+            {
+              "name": "Create Institute",
+              "request": {
+                "method": "POST",
+                "header": [
+                  { "key": "Content-Type", "value": "application/json" },
+                  { "key": "Authorization", "value": "Bearer {{adminToken}}" }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"name\": \"IISc Bangalore\",\n  \"city\": \"Bangalore\",\n  \"website\": \"https://iisc.ac.in\",\n  \"description\": \"Optional description\"\n}"
+                },
+                "url": {
+                  "raw": "{{baseUrl}}/api/admin/institutes",
+                  "host": ["{{baseUrl}}"],
+                  "path": ["api", "admin", "institutes"]
+                },
+                "description": "Creates a new institute. Required: name."
+              },
+              "response": []
+            },
+            {
+              "name": "Update Institute",
+              "request": {
+                "method": "PUT",
+                "header": [
+                  { "key": "Content-Type", "value": "application/json" },
+                  { "key": "Authorization", "value": "Bearer {{adminToken}}" }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"name\": \"Updated Institute Name\",\n  \"city\": \"New City\",\n  \"website\": \"https://example.com\",\n  \"description\": \"Updated description\"\n}"
+                },
+                "url": {
+                  "raw": "{{baseUrl}}/api/admin/institutes/{{instId}}",
+                  "host": ["{{baseUrl}}"],
+                  "path": ["api", "admin", "institutes", "{{instId}}"]
+                },
+                "description": "Updates an institute by ID."
+              },
+              "response": []
+            },
+            {
+              "name": "Delete Institute",
+              "request": {
+                "method": "DELETE",
+                "header": [
+                  { "key": "Authorization", "value": "Bearer {{adminToken}}" }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/api/admin/institutes/{{instId}}",
+                  "host": ["{{baseUrl}}"],
+                  "path": ["api", "admin", "institutes", "{{instId}}"]
+                },
+                "description": "Deletes an institute by ID."
+              },
+              "response": []
+            }
+          ]
+        },
+        {
+          "name": "Job Sectors",
+          "item": [
+            {
+              "name": "List All Job Sectors",
+              "request": {
+                "method": "GET",
+                "header": [
+                  { "key": "Authorization", "value": "Bearer {{adminToken}}" }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/api/admin/job_sectors",
+                  "host": ["{{baseUrl}}"],
+                  "path": ["api", "admin", "job_sectors"]
+                },
+                "description": "Returns all job sectors ordered by name."
+              },
+              "response": []
+            },
+            {
+              "name": "Create Job Sector",
+              "request": {
+                "method": "POST",
+                "header": [
+                  { "key": "Content-Type", "value": "application/json" },
+                  { "key": "Authorization", "value": "Bearer {{adminToken}}" }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"name\": \"FinTech\",\n  \"description\": \"Optional description\"\n}"
+                },
+                "url": {
+                  "raw": "{{baseUrl}}/api/admin/job_sectors",
+                  "host": ["{{baseUrl}}"],
+                  "path": ["api", "admin", "job_sectors"]
+                },
+                "description": "Creates a new job sector. Required: name."
+              },
+              "response": []
+            },
+            {
+              "name": "Update Job Sector",
+              "request": {
+                "method": "PUT",
+                "header": [
+                  { "key": "Content-Type", "value": "application/json" },
+                  { "key": "Authorization", "value": "Bearer {{adminToken}}" }
+                ],
+                "body": {
+                  "mode": "raw",
+                  "raw": "{\n  \"name\": \"Updated Sector Name\",\n  \"description\": \"Updated description\"\n}"
+                },
+                "url": {
+                  "raw": "{{baseUrl}}/api/admin/job_sectors/{{sectorId}}",
+                  "host": ["{{baseUrl}}"],
+                  "path": ["api", "admin", "job_sectors", "{{sectorId}}"]
+                },
+                "description": "Updates a job sector by ID."
+              },
+              "response": []
+            },
+            {
+              "name": "Delete Job Sector",
+              "request": {
+                "method": "DELETE",
+                "header": [
+                  { "key": "Authorization", "value": "Bearer {{adminToken}}" }
+                ],
+                "url": {
+                  "raw": "{{baseUrl}}/api/admin/job_sectors/{{sectorId}}",
+                  "host": ["{{baseUrl}}"],
+                  "path": ["api", "admin", "job_sectors", "{{sectorId}}"]
+                },
+                "description": "Deletes a job sector by ID."
+              },
+              "response": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
