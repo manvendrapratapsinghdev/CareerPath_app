@@ -51,11 +51,13 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final colorScheme = Theme.of(context).colorScheme;
+
     return DefaultTabController(
       length: 2,
       child: Scaffold(
         appBar: AppBar(
-          title: const Text('Career Map'),
+          title: const Text('Career'),
           actions: [
             GestureDetector(
               onTap: _navigateToEditProfile,
@@ -63,25 +65,36 @@ class _HomeScreenState extends State<HomeScreen> {
                 padding: const EdgeInsets.only(right: 12),
                 child: CircleAvatar(
                   radius: 18,
-                  backgroundColor: Theme.of(context).colorScheme.primaryContainer,
+                  backgroundColor: colorScheme.primaryContainer,
                   child: Text(
                     _profile?.name.isNotEmpty == true
                         ? _profile!.name[0].toUpperCase()
                         : '?',
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
-                      color: Theme.of(context).colorScheme.onPrimaryContainer,
+                      color: colorScheme.onPrimaryContainer,
                     ),
                   ),
                 ),
               ),
             ),
           ],
-          bottom: const TabBar(
-            tabs: [
-              Tab(text: 'Suggestions (for you)'),
-              Tab(text: 'Explore'),
-            ],
+          bottom: PreferredSize(
+            preferredSize: const Size.fromHeight(72),
+            child: Column(
+              children: [
+                const Divider(height: 1, thickness: 0.5),
+                TabBar(
+                  indicatorSize: TabBarIndicatorSize.label,
+                  dividerColor: Colors.transparent,
+                  tabs: const [
+                    Tab(icon: Icon(Icons.lightbulb_outline), text: 'Suggestions'),
+                    Tab(icon: Icon(Icons.explore_outlined), text: 'Explore'),
+                  ],
+                ),
+                const Divider(height: 1, thickness: 0.5),
+              ],
+            ),
           ),
         ),
         body: TabBarView(

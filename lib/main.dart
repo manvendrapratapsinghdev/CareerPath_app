@@ -1,49 +1,46 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'data/career_paths_json_parser.dart';
 import 'data/profile_repository.dart';
-import 'data/streams_json_parser.dart';
 import 'screens/home_screen.dart';
 import 'screens/profile_screen.dart';
+import 'services/api_client.dart';
 import 'services/career_data_service.dart';
+import 'services/network_service.dart';
 import 'services/profile_service.dart';
+import 'widgets/network_aware_wrapper.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  try {
-    final prefs = await SharedPreferences.getInstance();
-    final profileRepo = ProfileRepository(prefs);
-    final profileService = ProfileService(profileRepo);
+  final prefs = await SharedPreferences.getInstance();
+  final profileRepo = ProfileRepository(prefs);
+  final profileService = ProfileService(profileRepo);
+  final careerDataService = CareerDataService(ApiClient());
+  final networkService = NetworkService();
 
-    final careerDataService = CareerDataService(
-      StreamsJsonParser(),
-      CareerPathsJsonParser(),
-    );
-    await careerDataService.initialize();
+  // Check profile from local storage only — no network call here.
+  final hasProfile = await profileService.isProfileComplete();
 
-    final hasProfile = await profileService.isProfileComplete();
-
-    runApp(CareerPathApp(
-      profileService: profileService,
-      careerDataService: careerDataService,
-      hasProfile: hasProfile,
-    ));
-  } catch (e) {
-    runApp(const _ErrorApp());
-  }
+  runApp(CareerPathApp(
+    profileService: profileService,
+    careerDataService: careerDataService,
+    networkService: networkService,
+    hasProfile: hasProfile,
+  ));
 }
 
 class CareerPathApp extends StatelessWidget {
   final ProfileService profileService;
   final CareerDataService careerDataService;
+  final NetworkService networkService;
   final bool hasProfile;
 
   const CareerPathApp({
     super.key,
     required this.profileService,
     required this.careerDataService,
+    required this.networkService,
     required this.hasProfile,
   });
 
@@ -51,9 +48,45 @@ class CareerPathApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Career Path Guidance',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: const Color(0xFF6750A4),
+          brightness: Brightness.light,
+        ),
         useMaterial3: true,
+        cardTheme: CardThemeData(
+          elevation: 2,
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(16),
+          ),
+        ),
+        appBarTheme: const AppBarTheme(
+          centerTitle: true,
+          scrolledUnderElevation: 2,
+        ),
+        filledButtonTheme: FilledButtonThemeData(
+          style: FilledButton.styleFrom(
+            minimumSize: const Size(double.infinity, 52),
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(14),
+            ),
+          ),
+        ),
+        outlinedButtonTheme: OutlinedButtonThemeData(
+          style: OutlinedButton.styleFrom(
+            minimumSize: const Size(double.infinity, 52),
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(14),
+            ),
+          ),
+        ),
+        inputDecorationTheme: InputDecorationTheme(
+          filled: true,
+          border: OutlineInputBorder(
+            borderRadius: BorderRadius.circular(14),
+          ),
+        ),
       ),
       routes: {
         '/home': (_) => HomeScreen(
@@ -61,40 +94,14 @@ class CareerPathApp extends StatelessWidget {
               careerDataService: careerDataService,
             ),
       },
-      home: hasProfile
-          ? HomeScreen(
-              profileService: profileService,
-              careerDataService: careerDataService,
-            )
-          : ProfileScreen(profileService: profileService),
-    );
-  }
-}
-
-class _ErrorApp extends StatelessWidget {
-  const _ErrorApp();
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Padding(
-            padding: const EdgeInsets.all(24),
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                const Icon(Icons.error_outline, size: 64, color: Colors.red),
-                const SizedBox(height: 16),
-                const Text(
-                  'Failed to initialize the app. Please restart.',
-                  textAlign: TextAlign.center,
-                  style: TextStyle(fontSize: 16),
-                ),
-              ],
-            ),
-          ),
-        ),
+      home: NetworkAwareWrapper(
+        networkService: networkService,
+        child: hasProfile
+            ? HomeScreen(
+                profileService: profileService,
+                careerDataService: careerDataService,
+              )
+            : ProfileScreen(profileService: profileService),
       ),
     );
   }
