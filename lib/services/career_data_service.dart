@@ -1,40 +1,163 @@
 import 'package:flutter/foundation.dart' show visibleForTesting;
 
-import '../data/career_paths_json_parser.dart';
-import '../data/streams_json_parser.dart';
+import '../models/book.dart';
 import '../models/career_node.dart';
+import '../models/institute.dart';
+import '../models/job_sector.dart';
+import '../models/leaf_details.dart';
 import '../models/stream_model.dart';
+import 'api_client.dart';
 
+/// Fetches all career data from the backend API and caches it in memory.
+///
+/// Public synchronous methods (getAllStreams, getCategoriesForStream,
+/// getChildrenOf, getNodeById) work exactly like before – screens need no
+/// changes – because all data is pre-loaded during [initialize].
+///
+/// The new [getLeafDetails] method performs a single async API call to
+/// retrieve rich data (books / institutes / job sectors) for a leaf node.
 class CareerDataService {
-  final StreamsJsonParser _streamsParser;
-  final CareerPathsJsonParser _careerPathsParser;
+  final ApiClient _api;
 
   List<StreamModel> _streams = [];
   Map<String, CareerNode> _nodesMap = {};
-  bool _initialized = false;
+  Map<int, Book> _booksMap = {};
+  Map<int, Institute> _institutesMap = {};
+  Map<int, JobSector> _jobSectorsMap = {};
 
-  CareerDataService(this._streamsParser, this._careerPathsParser);
+  /// Maps slug → backend integer primary key (needed for leaf-details fetch).
+  final Map<String, int> _slugToApiId = {};
 
-  /// Initializes by loading both JSON files into memory. Call once at app start.
+  CareerDataService(this._api);
+
+  // ── initialisation ─────────────────────────────────────────────────────────
+
+  Future<void>? _initFuture;
+
+  /// Idempotent: first call triggers the API fetch; subsequent calls return
+  /// the same future so initialization only ever runs once.
+  /// Call [reset] first to force a fresh attempt after a previous failure.
+  Future<void> ensureInitialized() => _initFuture ??= initialize();
+
+  /// Clears cached state so [ensureInitialized] triggers a fresh API fetch.
+  void reset() {
+    _initFuture = null;
+    _streams = [];
+    _nodesMap = {};
+    _slugToApiId.clear();
+    _fetchedStreamCategories.clear();
+    _fetchedChildren.clear();
+  }
+
+  bool get isInitialized => _streams.isNotEmpty;
+
+  /// Single API call at startup — just fetches the stream list.
+  /// Root nodes and children are loaded lazily when the user navigates.
   Future<void> initialize() async {
-    try {
-      _streams = await _streamsParser.loadFromAssets();
-      _nodesMap = await _careerPathsParser.loadFromAssets();
-      _initialized = true;
-    } catch (e) {
-      _streams = [];
-      _nodesMap = {};
-      _initialized = false;
-      rethrow;
+    final streamsRaw = await _api.getStreams();
+
+    _slugToApiId.clear();
+    for (final s in streamsRaw) {
+      _slugToApiId[s['slug'] as String] = s['id'] as int;
     }
+
+    _streams = streamsRaw.map((s) {
+      return StreamModel(
+        id: s['slug'] as String,
+        name: s['name'] as String,
+        intro: s['intro'] as String?,
+        rootNodeCount: (s['root_node_ids'] as List).length,
+        categoryIds: [], // populated lazily via fetchStreamCategories()
+      );
+    }).toList();
   }
 
-  /// Returns all available streams.
-  List<StreamModel> getAllStreams() {
-    return List.unmodifiable(_streams);
+  // ── lazy loaders ───────────────────────────────────────────────────────────
+
+  final Set<String> _fetchedStreamCategories = {};
+  final Set<String> _fetchedChildren = {};
+
+  /// Fetches and caches the root nodes for [streamSlug].
+  /// Subsequent calls return immediately from cache.
+  Future<List<CareerNode>> fetchStreamCategories(String streamSlug) async {
+    if (_fetchedStreamCategories.contains(streamSlug)) {
+      return getCategoriesForStream(streamSlug);
+    }
+
+    final apiId = _slugToApiId[streamSlug];
+    if (apiId == null) return [];
+
+    final rootNodes = await _api.getStreamRootNodes(apiId);
+    final slugs = <String>[];
+    for (final n in rootNodes) {
+      final slug = n['slug'] as String;
+      _slugToApiId[slug] = n['id'] as int;
+      _nodesMap[slug] = CareerNode(
+        id: slug,
+        name: n['name'] as String,
+        intro: n['intro'] as String?,
+        childCount: (n['child_ids'] as List? ?? []).length,
+      );
+      slugs.add(slug);
+    }
+
+    final idx = _streams.indexWhere((s) => s.id == streamSlug);
+    if (idx >= 0) {
+      _streams[idx] = StreamModel(
+        id: _streams[idx].id,
+        name: _streams[idx].name,
+        intro: _streams[idx].intro,
+        rootNodeCount: _streams[idx].rootNodeCount,
+        categoryIds: slugs,
+      );
+    }
+    _fetchedStreamCategories.add(streamSlug);
+    return getCategoriesForStream(streamSlug);
   }
 
-  /// Returns top-level career categories for a given stream ID.
+  /// Fetches and caches the children of [nodeSlug].
+  /// Subsequent calls return immediately from cache.
+  Future<List<CareerNode>> fetchChildrenOf(String nodeSlug) async {
+    if (_fetchedChildren.contains(nodeSlug)) {
+      return getChildrenOf(nodeSlug);
+    }
+
+    final apiId = _slugToApiId[nodeSlug];
+    if (apiId == null) return [];
+
+    final childrenRaw = await _api.getNodeChildren(apiId);
+    final childSlugs = <String>[];
+    for (final c in childrenRaw) {
+      final slug = c['slug'] as String;
+      _slugToApiId[slug] = c['id'] as int;
+      _nodesMap[slug] = CareerNode(
+        id: slug,
+        name: c['name'] as String,
+        intro: c['intro'] as String?,
+        childCount: (c['child_ids'] as List? ?? []).length,
+      );
+      childSlugs.add(slug);
+    }
+
+    // Update parent's childIds so getChildrenOf() works from cache
+    final parent = _nodesMap[nodeSlug];
+    if (parent != null) {
+      _nodesMap[nodeSlug] = CareerNode(
+        id: parent.id,
+        name: parent.name,
+        intro: parent.intro,
+        childIds: childSlugs,
+        childCount: parent.childCount,
+      );
+    }
+    _fetchedChildren.add(nodeSlug);
+    return getChildrenOf(nodeSlug);
+  }
+
+  // ── synchronous accessors (unchanged public interface) ─────────────────────
+
+  List<StreamModel> getAllStreams() => List.unmodifiable(_streams);
+
   List<CareerNode> getCategoriesForStream(String streamId) {
     final stream = _streams.cast<StreamModel?>().firstWhere(
           (s) => s!.id == streamId,
@@ -47,7 +170,6 @@ class CareerDataService {
         .toList();
   }
 
-  /// Returns child career nodes for a given parent node ID.
   List<CareerNode> getChildrenOf(String nodeId) {
     final node = _nodesMap[nodeId];
     if (node == null) return [];
@@ -57,17 +179,51 @@ class CareerDataService {
         .toList();
   }
 
-  /// Returns a single career node by ID, or null if not found.
-  CareerNode? getNodeById(String nodeId) {
-    return _nodesMap[nodeId];
+  CareerNode? getNodeById(String nodeId) => _nodesMap[nodeId];
+
+  // ── resource accessors ─────────────────────────────────────────────────────
+
+  /// Get a book by its API ID.
+  Book? getBookById(int id) => _booksMap[id];
+
+  /// Get all cached books.
+  List<Book> getAllBooks() => List.unmodifiable(_booksMap.values);
+
+  /// Get an institute by its API ID.
+  Institute? getInstituteById(int id) => _institutesMap[id];
+
+  /// Get all cached institutes.
+  List<Institute> getAllInstitutes() => List.unmodifiable(_institutesMap.values);
+
+  /// Get a job sector by its API ID.
+  JobSector? getJobSectorById(int id) => _jobSectorsMap[id];
+
+  /// Get all cached job sectors.
+  List<JobSector> getAllJobSectors() => List.unmodifiable(_jobSectorsMap.values);
+
+  // ── new async accessor ─────────────────────────────────────────────────────
+
+  /// Fetches rich leaf-node details (books, institutes, job sectors) from the
+  /// backend. Returns null when no details are stored for this node.
+  Future<LeafDetails?> getLeafDetails(String nodeId) async {
+    final apiId = _slugToApiId[nodeId];
+    if (apiId == null) return null;
+    try {
+      final data = await _api.getNodeDetails(apiId);
+      return LeafDetails.fromJson(data);
+    } on ApiException catch (e) {
+      if (e.statusCode == 404) return null;
+      rethrow;
+    }
   }
 
-  /// Initializes with pre-parsed data. For testing only.
+  // ── testing helper ─────────────────────────────────────────────────────────
+
   @visibleForTesting
   void initializeWithData(
       List<StreamModel> streams, Map<String, CareerNode> nodes) {
     _streams = streams;
     _nodesMap = nodes;
-    _initialized = true;
   }
 }
+
