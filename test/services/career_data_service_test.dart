@@ -1,8 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:career_path/data/career_paths_json_parser.dart';
-import 'package:career_path/data/streams_json_parser.dart';
 import 'package:career_path/models/career_node.dart';
 import 'package:career_path/models/stream_model.dart';
+import 'package:career_path/services/api_client.dart';
 import 'package:career_path/services/career_data_service.dart';
 
 void main() {
@@ -23,7 +22,7 @@ void main() {
   };
 
   setUp(() {
-    service = CareerDataService(StreamsJsonParser(), CareerPathsJsonParser());
+    service = CareerDataService(ApiClient());
     service.initializeWithData(testStreams, testNodes);
   });
 

@@ -113,6 +113,8 @@ void main() {
     testWidgets('skip navigates to home without saving', (tester) async {
       await tester.pumpWidget(buildApp());
 
+      await tester.drag(find.byType(SingleChildScrollView), const Offset(0, -300));
+      await tester.pumpAndSettle();
       await tester.tap(find.text('Skip'));
       await tester.pumpAndSettle();
 

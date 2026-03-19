@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:career_path/data/career_paths_json_parser.dart';
 import 'package:career_path/data/profile_repository.dart';
-import 'package:career_path/data/streams_json_parser.dart';
 import 'package:career_path/screens/home_screen.dart';
+import 'package:career_path/services/api_client.dart';
 import 'package:career_path/services/career_data_service.dart';
 import 'package:career_path/services/profile_service.dart';
 
@@ -16,10 +15,7 @@ void main() {
     SharedPreferences.setMockInitialValues(prefsValues ?? {});
     final prefs = await SharedPreferences.getInstance();
     profileService = ProfileService(ProfileRepository(prefs));
-    careerDataService = CareerDataService(
-      StreamsJsonParser(),
-      CareerPathsJsonParser(),
-    );
+    careerDataService = CareerDataService(ApiClient());
   }
 
   Widget buildApp() {
