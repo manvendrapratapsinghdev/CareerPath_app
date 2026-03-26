@@ -26,7 +26,7 @@ class SubOptionScreen extends StatefulWidget {
 }
 
 class _SubOptionScreenState extends State<SubOptionScreen> {
-  late final Future<List<CareerNode>> _childrenFuture;
+  late Future<List<CareerNode>> _childrenFuture;
   late final CareerNode? _currentNode;
   Future<LeafDetails?>? _leafDetailsFuture;
   bool _booksExpanded = false;
@@ -40,13 +40,13 @@ class _SubOptionScreenState extends State<SubOptionScreen> {
     _childrenFuture = _loadChildren();
   }
 
-  Future<List<CareerNode>> _loadChildren() async {
-    final children =
-        await widget.careerDataService.fetchChildrenOf(widget.nodeId);
+  Future<List<CareerNode>> _loadChildren({bool forceRefresh = false}) async {
+    final children = await widget.careerDataService
+        .fetchChildrenOf(widget.nodeId, forceRefresh: forceRefresh);
     if (children.isEmpty && mounted) {
       setState(() {
-        _leafDetailsFuture =
-            widget.careerDataService.getLeafDetails(widget.nodeId);
+        _leafDetailsFuture = widget.careerDataService
+            .getLeafDetails(widget.nodeId, forceRefresh: forceRefresh);
       });
     }
     return children;
@@ -54,12 +54,8 @@ class _SubOptionScreenState extends State<SubOptionScreen> {
 
   Future<void> _refreshData() async {
     setState(() {
-      _childrenFuture.then((children) {
-        if (children.isEmpty) {
-          _leafDetailsFuture =
-              widget.careerDataService.getLeafDetails(widget.nodeId);
-        }
-      });
+      _leafDetailsFuture = null;
+      _childrenFuture = _loadChildren(forceRefresh: true);
     });
   }
 

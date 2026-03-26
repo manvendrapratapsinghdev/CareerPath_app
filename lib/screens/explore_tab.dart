@@ -58,7 +58,7 @@ class _ExploreTabState extends State<ExploreTab> {
   }
 
   Future<void> _refreshData() async {
-    widget.careerDataService.reset();
+    widget.careerDataService.reset(clearHttpCache: true);
     setState(() {
       _expandedStreams = {};
       _categoryFutures.clear();

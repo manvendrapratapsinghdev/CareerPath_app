@@ -40,21 +40,23 @@ class CareerDataService {
   Future<void> ensureInitialized() => _initFuture ??= initialize();
 
   /// Clears cached state so [ensureInitialized] triggers a fresh API fetch.
-  void reset() {
+  /// Pass [clearHttpCache] to also evict all HTTP-level cached responses.
+  void reset({bool clearHttpCache = false}) {
     _initFuture = null;
     _streams = [];
     _nodesMap = {};
     _slugToApiId.clear();
     _fetchedStreamCategories.clear();
     _fetchedChildren.clear();
+    if (clearHttpCache) _api.clearCache();
   }
 
   bool get isInitialized => _streams.isNotEmpty;
 
   /// Single API call at startup — just fetches the stream list.
   /// Root nodes and children are loaded lazily when the user navigates.
-  Future<void> initialize() async {
-    final streamsRaw = await _api.getStreams();
+  Future<void> initialize({bool forceRefresh = false}) async {
+    final streamsRaw = await _api.getStreams(forceRefresh: forceRefresh);
 
     _slugToApiId.clear();
     for (final s in streamsRaw) {
@@ -78,16 +80,19 @@ class CareerDataService {
   final Set<String> _fetchedChildren = {};
 
   /// Fetches and caches the root nodes for [streamSlug].
-  /// Subsequent calls return immediately from cache.
-  Future<List<CareerNode>> fetchStreamCategories(String streamSlug) async {
-    if (_fetchedStreamCategories.contains(streamSlug)) {
+  /// Pass [forceRefresh] to bypass both service- and HTTP-level caches.
+  Future<List<CareerNode>> fetchStreamCategories(String streamSlug,
+      {bool forceRefresh = false}) async {
+    if (!forceRefresh && _fetchedStreamCategories.contains(streamSlug)) {
       return getCategoriesForStream(streamSlug);
     }
+    _fetchedStreamCategories.remove(streamSlug);
 
     final apiId = _slugToApiId[streamSlug];
     if (apiId == null) return [];
 
-    final rootNodes = await _api.getStreamRootNodes(apiId);
+    final rootNodes =
+        await _api.getStreamRootNodes(apiId, forceRefresh: forceRefresh);
     final slugs = <String>[];
     for (final n in rootNodes) {
       final slug = n['slug'] as String;
@@ -116,16 +121,19 @@ class CareerDataService {
   }
 
   /// Fetches and caches the children of [nodeSlug].
-  /// Subsequent calls return immediately from cache.
-  Future<List<CareerNode>> fetchChildrenOf(String nodeSlug) async {
-    if (_fetchedChildren.contains(nodeSlug)) {
+  /// Pass [forceRefresh] to bypass both service- and HTTP-level caches.
+  Future<List<CareerNode>> fetchChildrenOf(String nodeSlug,
+      {bool forceRefresh = false}) async {
+    if (!forceRefresh && _fetchedChildren.contains(nodeSlug)) {
       return getChildrenOf(nodeSlug);
     }
+    _fetchedChildren.remove(nodeSlug);
 
     final apiId = _slugToApiId[nodeSlug];
     if (apiId == null) return [];
 
-    final childrenRaw = await _api.getNodeChildren(apiId);
+    final childrenRaw =
+        await _api.getNodeChildren(apiId, forceRefresh: forceRefresh);
     final childSlugs = <String>[];
     for (final c in childrenRaw) {
       final slug = c['slug'] as String;
@@ -205,11 +213,12 @@ class CareerDataService {
 
   /// Fetches rich leaf-node details (books, institutes, job sectors) from the
   /// backend. Returns null when no details are stored for this node.
-  Future<LeafDetails?> getLeafDetails(String nodeId) async {
+  Future<LeafDetails?> getLeafDetails(String nodeId,
+      {bool forceRefresh = false}) async {
     final apiId = _slugToApiId[nodeId];
     if (apiId == null) return null;
     try {
-      final data = await _api.getNodeDetails(apiId);
+      final data = await _api.getNodeDetails(apiId, forceRefresh: forceRefresh);
       return LeafDetails.fromJson(data);
     } on ApiException catch (e) {
       if (e.statusCode == 404) return null;

@@ -69,16 +69,16 @@ class _SuggestionsTabState extends State<SuggestionsTab> {
     _loadData();
   }
 
-  Future<void> _loadData() async {
+  Future<void> _loadData({bool forceRefresh = false}) async {
     if (mounted) setState(() { _isLoading = true; _error = null; });
-    widget.careerDataService.reset();
+    widget.careerDataService.reset(clearHttpCache: forceRefresh);
     try {
       final profile = await widget.profileService.getProfile();
       List<CareerNode> categories = [];
       if (profile != null && profile.stream.isNotEmpty) {
         await widget.careerDataService.ensureInitialized();
         categories = await widget.careerDataService
-            .fetchStreamCategories(profile.stream);
+            .fetchStreamCategories(profile.stream, forceRefresh: forceRefresh);
       }
       if (mounted) {
         setState(() {
@@ -204,7 +204,7 @@ class _SuggestionsTabState extends State<SuggestionsTab> {
     }
 
     return RefreshIndicator(
-      onRefresh: _loadData,
+      onRefresh: () => _loadData(forceRefresh: true),
       child: ListView.builder(
         padding: const EdgeInsets.all(16),
         itemCount: _categories.length + 1,
