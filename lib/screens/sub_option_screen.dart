@@ -7,6 +7,7 @@ import '../models/career_node.dart';
 import '../models/institute.dart';
 import '../models/job_sector.dart';
 import '../models/leaf_details.dart';
+import '../services/api_client.dart';
 import '../services/career_data_service.dart';
 
 class SubOptionScreen extends StatefulWidget {
@@ -95,9 +96,13 @@ class _SubOptionScreenState extends State<SubOptionScreen> {
                     return const Center(child: CircularProgressIndicator());
                   }
                   if (snapshot.hasError) {
+                    final isServerDown =
+                        snapshot.error is ServerDownException;
                     return Center(
                       child: Text(
-                        'Error loading data.\nCheck your connection and try again.',
+                        isServerDown
+                            ? 'Server is down.\nPlease contact admin (9807942950) to start the server.'
+                            : 'Error loading data.\nCheck your connection and try again.',
                         textAlign: TextAlign.center,
                         style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                               color: colorScheme.error,

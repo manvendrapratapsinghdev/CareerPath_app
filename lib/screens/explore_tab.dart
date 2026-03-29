@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../models/breadcrumb_entry.dart';
 import '../models/career_node.dart';
 import '../models/stream_model.dart';
+import '../services/api_client.dart';
 import '../services/career_data_service.dart';
 import 'sub_option_screen.dart';
 
@@ -226,6 +227,24 @@ class _StreamSection extends StatelessWidget {
                     return const Padding(
                       padding: EdgeInsets.all(16),
                       child: Center(child: CircularProgressIndicator()),
+                    );
+                  }
+                  if (snapshot.hasError) {
+                    final isServerDown =
+                        snapshot.error is ServerDownException;
+                    return Padding(
+                      padding: const EdgeInsets.all(16),
+                      child: Center(
+                        child: Text(
+                          isServerDown
+                              ? 'Server is down.\nPlease contact admin (9807942950) to start the server.'
+                              : 'Failed to load categories',
+                          textAlign: TextAlign.center,
+                          style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                                color: Theme.of(context).colorScheme.error,
+                              ),
+                        ),
+                      ),
                     );
                   }
                   final categories = snapshot.data ?? [];

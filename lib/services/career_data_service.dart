@@ -1,4 +1,4 @@
-import 'package:flutter/foundation.dart' show visibleForTesting;
+import 'package:flutter/foundation.dart';
 
 import '../models/book.dart';
 import '../models/career_node.dart';
@@ -53,10 +53,48 @@ class CareerDataService {
 
   bool get isInitialized => _streams.isNotEmpty;
 
+  /// Fallback streams data used when the API is unreachable.
+  static const List<Map<String, dynamic>> _fallbackStreams = [
+    {
+      'id': 1,
+      'intro': null,
+      'name': 'Science',
+      'root_node_ids': [335, 336, 337, 338, 339, 352, 354],
+      'slug': 'science',
+    },
+    {
+      'id': 2,
+      'intro': null,
+      'name': 'Commerce',
+      'root_node_ids': [340, 341, 342, 343, 344],
+      'slug': 'commerce',
+    },
+    {
+      'id': 3,
+      'intro': null,
+      'name': 'Art',
+      'root_node_ids': [345, 346, 347, 348, 349, 350, 351],
+      'slug': 'art',
+    },
+  ];
+
+  /// Whether the service is running on fallback data (API was unreachable).
+  bool _usingFallback = false;
+  bool get usingFallback => _usingFallback;
+
   /// Single API call at startup — just fetches the stream list.
   /// Root nodes and children are loaded lazily when the user navigates.
+  /// Falls back to hardcoded streams data if the API is unreachable.
   Future<void> initialize({bool forceRefresh = false}) async {
-    final streamsRaw = await _api.getStreams(forceRefresh: forceRefresh);
+    List<Map<String, dynamic>> streamsRaw;
+    try {
+      streamsRaw = await _api.getStreams(forceRefresh: forceRefresh);
+      _usingFallback = false;
+    } catch (e) {
+      debugPrint('[CareerDataService] API failed, using fallback streams: $e');
+      streamsRaw = _fallbackStreams;
+      _usingFallback = true;
+    }
 
     _slugToApiId.clear();
     for (final s in streamsRaw) {
@@ -91,8 +129,13 @@ class CareerDataService {
     final apiId = _slugToApiId[streamSlug];
     if (apiId == null) return [];
 
-    final rootNodes =
-        await _api.getStreamRootNodes(apiId, forceRefresh: forceRefresh);
+    final List<Map<String, dynamic>> rootNodes;
+    try {
+      rootNodes =
+          await _api.getStreamRootNodes(apiId, forceRefresh: forceRefresh);
+    } catch (e) {
+      throw const ServerDownException();
+    }
     final slugs = <String>[];
     for (final n in rootNodes) {
       final slug = n['slug'] as String;
@@ -132,8 +175,13 @@ class CareerDataService {
     final apiId = _slugToApiId[nodeSlug];
     if (apiId == null) return [];
 
-    final childrenRaw =
-        await _api.getNodeChildren(apiId, forceRefresh: forceRefresh);
+    final List<Map<String, dynamic>> childrenRaw;
+    try {
+      childrenRaw =
+          await _api.getNodeChildren(apiId, forceRefresh: forceRefresh);
+    } catch (e) {
+      throw const ServerDownException();
+    }
     final childSlugs = <String>[];
     for (final c in childrenRaw) {
       final slug = c['slug'] as String;
@@ -222,7 +270,9 @@ class CareerDataService {
       return LeafDetails.fromJson(data);
     } on ApiException catch (e) {
       if (e.statusCode == 404) return null;
-      rethrow;
+      throw const ServerDownException();
+    } catch (_) {
+      throw const ServerDownException();
     }
   }
 

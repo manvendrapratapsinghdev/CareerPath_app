@@ -159,3 +159,13 @@ class ApiException implements Exception {
   @override
   String toString() => 'ApiException($statusCode): $message';
 }
+
+/// Thrown when a non-streams API call fails, indicating the backend is down.
+class ServerDownException implements Exception {
+  final String message;
+  const ServerDownException([this.message =
+      'Server is down. Please contact admin (9807942950) to start the server.']);
+
+  @override
+  String toString() => 'ServerDownException: $message';
+}
