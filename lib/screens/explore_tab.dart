@@ -1,10 +1,16 @@
 import 'package:flutter/material.dart';
 
+import '../config/app_theme.dart';
 import '../models/breadcrumb_entry.dart';
 import '../models/career_node.dart';
 import '../models/stream_model.dart';
 import '../services/api_client.dart';
 import '../services/career_data_service.dart';
+import '../widgets/accent_icon_box.dart';
+import '../widgets/animated_list_item.dart';
+import '../widgets/empty_state.dart';
+import '../widgets/page_transitions.dart';
+import '../widgets/shimmer_loading.dart';
 import 'sub_option_screen.dart';
 
 class ExploreTab extends StatefulWidget {
@@ -17,22 +23,7 @@ class ExploreTab extends StatefulWidget {
 }
 
 class _ExploreTabState extends State<ExploreTab> {
-  // Palettes cycle by index — driven entirely by API data, no slug hardcoding.
-  static const _iconPalette = <IconData>[
-    Icons.science,
-    Icons.account_balance,
-    Icons.palette,
-    Icons.school,
-    Icons.work_outline,
-  ];
-
-  static const _colorPalette = <Color>[
-    Color(0xFF4CAF50),
-    Color(0xFF2196F3),
-    Color(0xFFFF9800),
-    Color(0xFF9C27B0),
-    Color(0xFF009688),
-  ];
+  static const _iconPalette = AppColors.streamIcons;
 
   late Map<String, bool> _expandedStreams;
   final Map<String, Future<List<CareerNode>>> _categoryFutures = {};
@@ -86,58 +77,55 @@ class _ExploreTabState extends State<ExploreTab> {
       future: _initFuture,
       builder: (context, snapshot) {
         if (snapshot.connectionState == ConnectionState.waiting) {
-          return const Center(child: CircularProgressIndicator());
+          return const Padding(
+            padding: AppSpacing.pagePadding,
+            child: SkeletonList(itemCount: 3),
+          );
         }
         if (snapshot.hasError) {
-          return Center(
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                const Icon(Icons.error_outline, size: 48, color: Colors.red),
-                const SizedBox(height: 12),
-                const Text('Failed to load data',
-                    style: TextStyle(fontWeight: FontWeight.bold)),
-                const SizedBox(height: 8),
-                ElevatedButton.icon(
-                  onPressed: _refreshData,
-                  icon: const Icon(Icons.refresh),
-                  label: const Text('Retry'),
-                ),
-              ],
-            ),
+          return ErrorState(
+            message: 'Failed to load data',
+            onRetry: _refreshData,
           );
         }
 
         final streams = widget.careerDataService.getAllStreams();
         if (streams.isEmpty) {
-          return const Center(child: Text('No streams available.'));
+          return const EmptyState(
+            icon: Icons.explore_off_rounded,
+            title: 'No streams available',
+            subtitle: 'Check back later for career streams',
+          );
         }
 
         return RefreshIndicator(
           onRefresh: _refreshData,
           child: ListView.builder(
-            padding: const EdgeInsets.all(16),
+            padding: AppSpacing.pagePadding,
             itemCount: streams.length,
             itemBuilder: (context, index) {
               final stream = streams[index];
-              return _StreamSection(
-                stream: stream,
-                categoryFuture: _categoryFutures[stream.id],
-                careerDataService: widget.careerDataService,
-                icon: _iconPalette[index % _iconPalette.length],
-                color: _colorPalette[index % _colorPalette.length],
-                isExpanded: _expandedStreams[stream.id] ?? false,
-                onExpanded: () {
-                  setState(() {
-                    final willExpand = !(_expandedStreams[stream.id] ?? false);
-                    _expandedStreams[stream.id] = willExpand;
-                    if (willExpand) {
-                      _categoryFutures[stream.id] ??=
-                          widget.careerDataService
-                              .fetchStreamCategories(stream.id);
-                    }
-                  });
-                },
+              return AnimatedListItem(
+                index: index,
+                child: _StreamSection(
+                  stream: stream,
+                  categoryFuture: _categoryFutures[stream.id],
+                  careerDataService: widget.careerDataService,
+                  icon: _iconPalette[index % _iconPalette.length],
+                  color: AppColors.accentPalette[index % AppColors.accentPalette.length],
+                  isExpanded: _expandedStreams[stream.id] ?? false,
+                  onExpanded: () {
+                    setState(() {
+                      final willExpand = !(_expandedStreams[stream.id] ?? false);
+                      _expandedStreams[stream.id] = willExpand;
+                      if (willExpand) {
+                        _categoryFutures[stream.id] ??=
+                            widget.careerDataService
+                                .fetchStreamCategories(stream.id);
+                      }
+                    });
+                  },
+                ),
               );
             },
           ),
@@ -171,177 +159,211 @@ class _StreamSection extends StatelessWidget {
     final colorScheme = Theme.of(context).colorScheme;
 
     return Padding(
-      padding: const EdgeInsets.only(bottom: 12),
+      padding: const EdgeInsets.only(bottom: AppSpacing.md),
       child: Card(
-        margin: EdgeInsets.zero,
-        child: ExpansionTile(
-          shape: const Border(),
-          collapsedShape: const Border(),
-          title: Row(
-            children: [
-              Container(
-                width: 44,
-                height: 44,
-                decoration: BoxDecoration(
-                  color: color.withValues(alpha: 0.12),
-                  borderRadius: BorderRadius.circular(12),
+        child: Theme(
+          data: Theme.of(context).copyWith(dividerColor: Colors.transparent),
+          child: ExpansionTile(
+            shape: const Border(),
+            collapsedShape: const Border(),
+            tilePadding: const EdgeInsets.symmetric(
+              horizontal: AppSpacing.base,
+              vertical: AppSpacing.xs,
+            ),
+            title: Row(
+              children: [
+                AccentIconBox(icon: icon, color: color),
+                const SizedBox(width: AppSpacing.md),
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        stream.name,
+                        style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                              fontWeight: FontWeight.w700,
+                              color: color,
+                            ),
+                      ),
+                      Text(
+                        '${stream.rootNodeCount} categor${stream.rootNodeCount != 1 ? 'ies' : 'y'}',
+                        style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                              color: colorScheme.onSurfaceVariant,
+                            ),
+                      ),
+                    ],
+                  ),
                 ),
-                child: Icon(icon, color: color, size: 24),
+              ],
+            ),
+            initiallyExpanded: isExpanded,
+            onExpansionChanged: (_) => onExpanded(),
+            children: [
+              Divider(
+                height: 1,
+                indent: AppSpacing.base,
+                endIndent: AppSpacing.base,
+                color: colorScheme.outline.withValues(alpha: 0.3),
               ),
-              const SizedBox(width: 12),
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      stream.name,
-                      style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                            fontWeight: FontWeight.bold,
-                            color: color,
-                          ),
+              _buildCategoryContent(context, colorScheme),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+
+  Widget _buildCategoryContent(BuildContext context, ColorScheme colorScheme) {
+    if (categoryFuture == null) {
+      return const Padding(
+        padding: EdgeInsets.all(AppSpacing.base),
+        child: SkeletonList(itemCount: 2),
+      );
+    }
+
+    return FutureBuilder<List<CareerNode>>(
+      future: categoryFuture,
+      builder: (context, snapshot) {
+        if (snapshot.connectionState == ConnectionState.waiting) {
+          return const Padding(
+            padding: EdgeInsets.symmetric(
+              horizontal: AppSpacing.sm,
+              vertical: AppSpacing.sm,
+            ),
+            child: SkeletonList(itemCount: 2),
+          );
+        }
+        if (snapshot.hasError) {
+          final isServerDown = snapshot.error is ServerDownException;
+          return Padding(
+            padding: const EdgeInsets.all(AppSpacing.base),
+            child: Center(
+              child: Text(
+                isServerDown
+                    ? 'Server is down.\nPlease contact admin (9807942950) to start the server.'
+                    : 'Failed to load categories',
+                textAlign: TextAlign.center,
+                style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                      color: colorScheme.error,
                     ),
-                    Text(
-                      '${stream.rootNodeCount} categor${stream.rootNodeCount != 1 ? 'ies' : 'y'}',
-                      style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                            color: colorScheme.onSurfaceVariant,
-                          ),
+              ),
+            ),
+          );
+        }
+
+        final categories = snapshot.data ?? [];
+        if (categories.isEmpty) {
+          return Padding(
+            padding: const EdgeInsets.all(AppSpacing.lg),
+            child: Center(
+              child: Text(
+                'No categories available',
+                style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                      color: colorScheme.onSurfaceVariant,
+                      fontStyle: FontStyle.italic,
                     ),
+              ),
+            ),
+          );
+        }
+
+        return Padding(
+          padding: const EdgeInsets.symmetric(
+            horizontal: AppSpacing.sm,
+            vertical: AppSpacing.sm,
+          ),
+          child: Column(
+            children: List.generate(categories.length, (i) {
+              final node = categories[i];
+              return AnimatedListItem(
+                index: i,
+                child: _CategoryTile(
+                  node: node,
+                  color: color,
+                  careerDataService: careerDataService,
+                ),
+              );
+            }),
+          ),
+        );
+      },
+    );
+  }
+}
+
+class _CategoryTile extends StatelessWidget {
+  final CareerNode node;
+  final Color color;
+  final CareerDataService careerDataService;
+
+  const _CategoryTile({
+    required this.node,
+    required this.color,
+    required this.careerDataService,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final colorScheme = Theme.of(context).colorScheme;
+
+    return Padding(
+      padding: const EdgeInsets.only(bottom: AppSpacing.sm),
+      child: Card(
+        clipBehavior: Clip.antiAlias,
+        child: InkWell(
+          onTap: () {
+            Navigator.push(
+              context,
+              SmoothPageRoute(
+                page: SubOptionScreen(
+                  careerDataService: careerDataService,
+                  nodeId: node.id,
+                  breadcrumbs: [
+                    BreadcrumbEntry(nodeId: node.id, label: node.name),
                   ],
                 ),
               ),
-            ],
-          ),
-          initiallyExpanded: isExpanded,
-          onExpansionChanged: (_) => onExpanded(),
-          children: [
-            if (categoryFuture == null)
-              const Padding(
-                padding: EdgeInsets.all(16),
-                child: Center(child: CircularProgressIndicator()),
-              )
-            else
-              FutureBuilder<List<CareerNode>>(
-                future: categoryFuture,
-                builder: (context, snapshot) {
-                  if (snapshot.connectionState == ConnectionState.waiting) {
-                    return const Padding(
-                      padding: EdgeInsets.all(16),
-                      child: Center(child: CircularProgressIndicator()),
-                    );
-                  }
-                  if (snapshot.hasError) {
-                    final isServerDown =
-                        snapshot.error is ServerDownException;
-                    return Padding(
-                      padding: const EdgeInsets.all(16),
-                      child: Center(
-                        child: Text(
-                          isServerDown
-                              ? 'Server is down.\nPlease contact admin (9807942950) to start the server.'
-                              : 'Failed to load categories',
-                          textAlign: TextAlign.center,
-                          style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                                color: Theme.of(context).colorScheme.error,
-                              ),
-                        ),
+            );
+          },
+          child: Padding(
+            padding: const EdgeInsets.symmetric(
+              horizontal: AppSpacing.base,
+              vertical: AppSpacing.md,
+            ),
+            child: Row(
+              children: [
+                AccentIconBox(
+                  icon: Icons.folder_outlined,
+                  color: color,
+                  size: 40,
+                  iconSize: 20,
+                ),
+                const SizedBox(width: AppSpacing.md),
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        node.name,
+                        style: Theme.of(context).textTheme.titleSmall,
                       ),
-                    );
-                  }
-                  final categories = snapshot.data ?? [];
-                  if (categories.isEmpty) {
-                    return Padding(
-                      padding: const EdgeInsets.all(16),
-                      child: Center(
-                        child: Text(
-                          'No categories available',
-                          style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                      if (!node.isLeaf)
+                        Text(
+                          '${node.childCount} sub-paths',
+                          style: Theme.of(context).textTheme.bodySmall?.copyWith(
                                 color: colorScheme.onSurfaceVariant,
-                                fontStyle: FontStyle.italic,
                               ),
                         ),
-                      ),
-                    );
-                  }
-                  return Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 8),
-                    child: Column(
-                      children: categories
-                          .map(
-                            (node) => Padding(
-                              padding: const EdgeInsets.only(bottom: 8),
-                              child: Card(
-                                clipBehavior: Clip.antiAlias,
-                                child: InkWell(
-                                  onTap: () {
-                                    Navigator.push(
-                                      context,
-                                      MaterialPageRoute(
-                                        builder: (_) => SubOptionScreen(
-                                          careerDataService: careerDataService,
-                                          nodeId: node.id,
-                                          breadcrumbs: [
-                                            BreadcrumbEntry(
-                                                nodeId: node.id, label: node.name),
-                                          ],
-                                        ),
-                                      ),
-                                    );
-                                  },
-                                  child: Padding(
-                                    padding: const EdgeInsets.symmetric(
-                                        horizontal: 16, vertical: 14),
-                                    child: Row(
-                                      children: [
-                                        Container(
-                                          width: 40,
-                                          height: 40,
-                                          decoration: BoxDecoration(
-                                            color: color.withValues(alpha: 0.1),
-                                            borderRadius:
-                                                BorderRadius.circular(10),
-                                          ),
-                                          child: Icon(Icons.folder_outlined,
-                                              color: color, size: 22),
-                                        ),
-                                        const SizedBox(width: 14),
-                                        Expanded(
-                                          child: Column(
-                                            crossAxisAlignment:
-                                                CrossAxisAlignment.start,
-                                            children: [
-                                              Text(node.name,
-                                                  style: Theme.of(context)
-                                                      .textTheme
-                                                      .titleSmall),
-                                              if (!node.isLeaf)
-                                                Text(
-                                                  '${node.childCount} sub-paths',
-                                                  style: Theme.of(context)
-                                                      .textTheme
-                                                      .bodySmall
-                                                      ?.copyWith(
-                                                        color: colorScheme
-                                                            .onSurfaceVariant,
-                                                      ),
-                                                ),
-                                            ],
-                                          ),
-                                        ),
-                                        Icon(Icons.chevron_right,
-                                            color: colorScheme.onSurfaceVariant),
-                                      ],
-                                    ),
-                                  ),
-                                ),
-                              ),
-                            ),
-                          )
-                          .toList(),
-                    ),
-                  );
-                },
-              ),
-          ],
+                    ],
+                  ),
+                ),
+                Icon(
+                  Icons.chevron_right_rounded,
+                  color: colorScheme.onSurfaceVariant,
+                ),
+              ],
+            ),
+          ),
         ),
       ),
     );

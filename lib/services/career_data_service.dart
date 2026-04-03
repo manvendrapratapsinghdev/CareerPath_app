@@ -283,6 +283,13 @@ class CareerDataService {
       List<StreamModel> streams, Map<String, CareerNode> nodes) {
     _streams = streams;
     _nodesMap = nodes;
+    _initFuture = Future.value();
+    for (final stream in streams) {
+      _fetchedStreamCategories.add(stream.id);
+    }
+    for (final nodeId in nodes.keys) {
+      _fetchedChildren.add(nodeId);
+    }
   }
 }
 

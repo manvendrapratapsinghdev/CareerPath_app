@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 
+import '../config/app_theme.dart';
 import '../models/profile_data.dart';
 import '../services/career_data_service.dart';
 import '../services/profile_service.dart';
+import '../widgets/page_transitions.dart';
 import 'explore_tab.dart';
 import 'profile_screen.dart';
 import 'suggestions_tab.dart';
@@ -23,87 +25,148 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   ProfileData? _profile;
+  int _currentIndex = 0;
+  late final PageController _pageController;
 
   @override
   void initState() {
     super.initState();
+    _pageController = PageController();
     _loadProfile();
+  }
+
+  @override
+  void dispose() {
+    _pageController.dispose();
+    super.dispose();
   }
 
   Future<void> _loadProfile() async {
     final profile = await widget.profileService.getProfile();
-    if (mounted) {
-      setState(() => _profile = profile);
-    }
+    if (mounted) setState(() => _profile = profile);
   }
 
   void _navigateToEditProfile() {
     Navigator.push(
       context,
-      MaterialPageRoute(
-        builder: (_) => ProfileScreen(
+      SmoothPageRoute(
+        page: ProfileScreen(
           profileService: widget.profileService,
           existingProfile: _profile,
         ),
       ),
+    ).then((_) => _loadProfile());
+  }
+
+  void _onTabChanged(int index) {
+    setState(() => _currentIndex = index);
+    _pageController.animateToPage(
+      index,
+      duration: const Duration(milliseconds: 300),
+      curve: Curves.easeOutCubic,
     );
+  }
+
+  String get _greeting {
+    final hour = DateTime.now().hour;
+    if (hour < 12) return 'Good Morning';
+    if (hour < 17) return 'Good Afternoon';
+    return 'Good Evening';
   }
 
   @override
   Widget build(BuildContext context) {
     final colorScheme = Theme.of(context).colorScheme;
+    final name = _profile?.name;
+    final hasName = name != null && name.isNotEmpty;
 
-    return DefaultTabController(
-      length: 2,
-      child: Scaffold(
-        appBar: AppBar(
-          title: const Text('Career'),
-          actions: [
-            GestureDetector(
+    return Scaffold(
+      appBar: AppBar(
+        toolbarHeight: 68,
+        title: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(
+              '$_greeting${hasName ? ',' : ''}',
+              style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                    color: colorScheme.onSurfaceVariant,
+                  ),
+            ),
+            if (hasName)
+              Text(
+                name,
+                style: Theme.of(context).textTheme.titleLarge,
+              ),
+          ],
+        ),
+        actions: [
+          Padding(
+            padding: const EdgeInsets.only(right: AppSpacing.md),
+            child: GestureDetector(
               onTap: _navigateToEditProfile,
-              child: Padding(
-                padding: const EdgeInsets.only(right: 12),
-                child: CircleAvatar(
-                  radius: 18,
-                  backgroundColor: colorScheme.primaryContainer,
+              child: Container(
+                width: 40,
+                height: 40,
+                decoration: BoxDecoration(
+                  gradient: AppColors.primaryGradient,
+                  shape: BoxShape.circle,
+                  boxShadow: AppShadows.soft(AppColors.primaryLight),
+                ),
+                child: Center(
                   child: Text(
-                    _profile?.name.isNotEmpty == true
-                        ? _profile!.name[0].toUpperCase()
-                        : '?',
-                    style: TextStyle(
-                      fontWeight: FontWeight.bold,
-                      color: colorScheme.onPrimaryContainer,
+                    hasName ? name[0].toUpperCase() : '?',
+                    style: const TextStyle(
+                      fontWeight: FontWeight.w700,
+                      color: Colors.white,
+                      fontSize: 16,
                     ),
                   ),
                 ),
               ),
             ),
-          ],
-          bottom: PreferredSize(
-            preferredSize: const Size.fromHeight(72),
-            child: Column(
-              children: [
-                const Divider(height: 1, thickness: 0.5),
-                TabBar(
-                  indicatorSize: TabBarIndicatorSize.label,
-                  dividerColor: Colors.transparent,
-                  tabs: const [
-                    Tab(icon: Icon(Icons.lightbulb_outline), text: 'Suggestions'),
-                    Tab(icon: Icon(Icons.explore_outlined), text: 'Explore'),
-                  ],
-                ),
-                const Divider(height: 1, thickness: 0.5),
-              ],
+          ),
+        ],
+      ),
+      body: PageView(
+        controller: _pageController,
+        onPageChanged: (index) => setState(() => _currentIndex = index),
+        children: [
+          SuggestionsTab(
+            profileService: widget.profileService,
+            careerDataService: widget.careerDataService,
+          ),
+          ExploreTab(careerDataService: widget.careerDataService),
+        ],
+      ),
+      bottomNavigationBar: Container(
+        decoration: BoxDecoration(
+          border: Border(
+            top: BorderSide(
+              color: colorScheme.outline.withValues(alpha: 0.3),
+              width: 0.5,
             ),
           ),
         ),
-        body: TabBarView(
-          children: [
-            SuggestionsTab(
-              profileService: widget.profileService,
-              careerDataService: widget.careerDataService,
+        child: NavigationBar(
+          selectedIndex: _currentIndex,
+          onDestinationSelected: _onTabChanged,
+          elevation: 0,
+          backgroundColor: Theme.of(context).appBarTheme.backgroundColor,
+          surfaceTintColor: Colors.transparent,
+          indicatorColor: colorScheme.primary.withValues(alpha: 0.1),
+          height: 64,
+          labelBehavior: NavigationDestinationLabelBehavior.alwaysShow,
+          destinations: const [
+            NavigationDestination(
+              icon: Icon(Icons.lightbulb_outline_rounded),
+              selectedIcon: Icon(Icons.lightbulb_rounded),
+              label: 'For You',
             ),
-            ExploreTab(careerDataService: widget.careerDataService),
+            NavigationDestination(
+              icon: Icon(Icons.explore_outlined),
+              selectedIcon: Icon(Icons.explore_rounded),
+              label: 'Explore',
+            ),
           ],
         ),
       ),

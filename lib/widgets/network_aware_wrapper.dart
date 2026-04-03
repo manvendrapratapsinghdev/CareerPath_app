@@ -1,5 +1,6 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
+import '../config/app_theme.dart';
 import '../services/network_service.dart';
 
 class NetworkAwareWrapper extends StatefulWidget {
@@ -86,7 +87,7 @@ class _NetworkAwareWrapperState extends State<NetworkAwareWrapper>
                   bottom: false,
                   child: Container(
                     width: double.infinity,
-                    color: const Color(0xFFB00020),
+                    color: AppColors.error,
                     padding: const EdgeInsets.symmetric(
                         vertical: 8, horizontal: 16),
                     child: const Row(

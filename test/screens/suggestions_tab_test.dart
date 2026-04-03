@@ -58,23 +58,21 @@ void main() {
       await tester.pumpWidget(buildApp());
       await tester.pumpAndSettle();
 
-      expect(
-        find.text('Complete your profile to see personalized suggestions'),
-        findsOneWidget,
-      );
-      expect(find.text('Go to Profile'), findsOneWidget);
+      expect(find.text('Personalize your feed'), findsOneWidget);
+      expect(find.text('Set Up Profile'), findsOneWidget);
     });
 
-    testWidgets('Go to Profile button navigates to ProfileScreen',
+    testWidgets('Set Up Profile button navigates to ProfileScreen',
         (tester) async {
       await initServices();
       await tester.pumpWidget(buildApp());
       await tester.pumpAndSettle();
 
-      await tester.tap(find.text('Go to Profile'));
+      await tester.tap(find.text('Set Up Profile'));
       await tester.pumpAndSettle();
 
-      expect(find.text('Create Profile'), findsOneWidget);
+      // ProfileScreen should show the welcome text
+      expect(find.text('Welcome!'), findsOneWidget);
     });
 
     testWidgets('shows career categories when stream is saved',
@@ -101,8 +99,21 @@ void main() {
 
       expect(find.text('Chartered Accountancy'), findsOneWidget);
       expect(find.text('Finance'), findsOneWidget);
+      // 2 category cards (dashboard header is a Container, not a Card)
       expect(find.byType(Card), findsNWidgets(2));
-      expect(find.byIcon(Icons.chevron_right), findsNWidgets(2));
+      expect(find.byIcon(Icons.chevron_right_rounded), findsNWidgets(2));
+    });
+
+    testWidgets('shows dashboard header with stream info', (tester) async {
+      await initServices(prefsValues: {
+        'profile_name': 'Alice',
+        'profile_stream': 'science',
+      });
+      await tester.pumpWidget(buildApp());
+      await tester.pumpAndSettle();
+
+      expect(find.text('Science Stream'), findsOneWidget);
+      expect(find.text('2 career paths available'), findsOneWidget);
     });
 
     testWidgets('tapping a category navigates to SubOptionScreen',

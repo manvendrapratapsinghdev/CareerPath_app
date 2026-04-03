@@ -1,10 +1,16 @@
 import 'package:flutter/material.dart';
 
+import '../config/app_theme.dart';
 import '../models/breadcrumb_entry.dart';
 import '../models/career_node.dart';
 import '../models/profile_data.dart';
 import '../services/career_data_service.dart';
 import '../services/profile_service.dart';
+import '../widgets/accent_icon_box.dart';
+import '../widgets/animated_list_item.dart';
+import '../widgets/empty_state.dart';
+import '../widgets/page_transitions.dart';
+import '../widgets/shimmer_loading.dart';
 import 'profile_screen.dart';
 import 'sub_option_screen.dart';
 
@@ -28,40 +34,7 @@ class _SuggestionsTabState extends State<SuggestionsTab> {
   bool _isLoading = true;
   String? _error;
 
-  // Palettes cycle by index — no slug hardcoding needed.
-  static const _iconPalette = <IconData>[
-    Icons.school,
-    Icons.biotech,
-    Icons.calculate,
-    Icons.science,
-    Icons.design_services,
-    Icons.account_balance,
-    Icons.trending_up,
-    Icons.gavel,
-    Icons.people,
-    Icons.translate,
-    Icons.movie_creation,
-    Icons.business_center,
-    Icons.theater_comedy,
-    Icons.work_outline,
-  ];
-
-  static const _colorPalette = <Color>[
-    Color(0xFF4CAF50),
-    Color(0xFF009688),
-    Color(0xFF2196F3),
-    Color(0xFF3F51B5),
-    Color(0xFF673AB7),
-    Color(0xFF795548),
-    Color(0xFF00BCD4),
-    Color(0xFFFF9800),
-    Color(0xFFE91E63),
-    Color(0xFF9C27B0),
-    Color(0xFFFF5722),
-    Color(0xFFF44336),
-    Color(0xFF607D8B),
-    Color(0xFF8D6E63),
-  ];
+  static const _iconPalette = AppColors.categoryIcons;
 
   @override
   void initState() {
@@ -71,7 +44,9 @@ class _SuggestionsTabState extends State<SuggestionsTab> {
 
   Future<void> _loadData({bool forceRefresh = false}) async {
     if (mounted) setState(() { _isLoading = true; _error = null; });
-    widget.careerDataService.reset(clearHttpCache: forceRefresh);
+    if (forceRefresh) {
+      widget.careerDataService.reset(clearHttpCache: true);
+    }
     try {
       final profile = await widget.profileService.getProfile();
       List<CareerNode> categories = [];
@@ -100,8 +75,8 @@ class _SuggestionsTabState extends State<SuggestionsTab> {
   void _navigateToSubOption(CareerNode node) {
     Navigator.push(
       context,
-      MaterialPageRoute(
-        builder: (_) => SubOptionScreen(
+      SmoothPageRoute(
+        page: SubOptionScreen(
           careerDataService: widget.careerDataService,
           nodeId: node.id,
           breadcrumbs: [BreadcrumbEntry(nodeId: node.id, label: node.name)],
@@ -113,82 +88,151 @@ class _SuggestionsTabState extends State<SuggestionsTab> {
   void _navigateToProfile() {
     Navigator.push(
       context,
-      MaterialPageRoute(
-        builder: (_) => ProfileScreen(
-          profileService: widget.profileService,
-        ),
+      SmoothPageRoute(
+        page: ProfileScreen(profileService: widget.profileService),
       ),
     );
   }
 
   @override
   Widget build(BuildContext context) {
-    if (_isLoading) {
-      return const Center(child: CircularProgressIndicator());
-    }
+    if (_isLoading) return _buildLoadingState();
+    if (_error != null) return ErrorState(message: _error!, onRetry: _loadData);
+    if (_profile == null || _profile!.stream.isEmpty) return _buildNoProfileState();
+    return _buildContent();
+  }
 
-    if (_error != null) {
-      return Center(
-        child: Padding(
-          padding: const EdgeInsets.all(32),
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              const Icon(Icons.cloud_off, size: 64, color: Colors.grey),
-              const SizedBox(height: 16),
-              Text(_error!,
-                  textAlign: TextAlign.center,
-                  style: Theme.of(context).textTheme.bodyMedium),
-              const SizedBox(height: 24),
-              ElevatedButton.icon(
-                onPressed: _loadData,
-                icon: const Icon(Icons.refresh),
-                label: const Text('Retry'),
+  Widget _buildLoadingState() {
+    return Padding(
+      padding: AppSpacing.pagePadding,
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          // Skeleton for header card
+          ShimmerLoading(
+            child: Container(
+              height: 100,
+              decoration: BoxDecoration(
+                color: Colors.white,
+                borderRadius: AppRadius.lgAll,
               ),
-            ],
+            ),
           ),
-        ),
+          const SizedBox(height: AppSpacing.lg),
+          // Skeleton list
+          const SkeletonList(itemCount: 4),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildNoProfileState() {
+    return EmptyState(
+      icon: Icons.person_add_alt_1_rounded,
+      title: 'Personalize your feed',
+      subtitle: 'Complete your profile to see career\nsuggestions tailored just for you',
+      actionLabel: 'Set Up Profile',
+      onAction: _navigateToProfile,
+    );
+  }
+
+  Widget _buildContent() {
+    if (_categories.isEmpty) {
+      return EmptyState(
+        icon: Icons.inbox_rounded,
+        title: 'No paths yet',
+        subtitle: 'Career categories for your stream\nwill appear here soon',
+        actionLabel: 'Refresh',
+        onAction: () => _loadData(forceRefresh: true),
       );
     }
 
-    if (_profile == null || _profile!.stream.isEmpty) {
-      return _buildNoStreamPrompt();
-    }
+    return RefreshIndicator(
+      onRefresh: () => _loadData(forceRefresh: true),
+      child: ListView.builder(
+        padding: AppSpacing.pagePadding,
+        itemCount: _categories.length + 1,
+        itemBuilder: (context, index) {
+          if (index == 0) return _buildDashboardHeader();
 
-    return _buildCategoryList();
+          final i = index - 1;
+          final node = _categories[i];
+          final color = AppColors.accentPalette[i % AppColors.accentPalette.length];
+          final icon = _iconPalette[i % _iconPalette.length];
+
+          return AnimatedListItem(
+            index: i,
+            child: _CategoryCard(
+              node: node,
+              icon: icon,
+              color: color,
+              onTap: () => _navigateToSubOption(node),
+            ),
+          );
+        },
+      ),
+    );
   }
 
-  Widget _buildNoStreamPrompt() {
+  Widget _buildDashboardHeader() {
     final colorScheme = Theme.of(context).colorScheme;
-    return Center(
-      child: Padding(
-        padding: const EdgeInsets.all(32),
-        child: Column(
-          mainAxisSize: MainAxisSize.min,
+    final streamName = _profile?.stream ?? '';
+    final streamColor = _getStreamColor(streamName);
+
+    return Padding(
+      padding: const EdgeInsets.only(bottom: AppSpacing.lg),
+      child: Container(
+        padding: const EdgeInsets.all(AppSpacing.lg),
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+            colors: [
+              streamColor.withValues(alpha: 0.08),
+              streamColor.withValues(alpha: 0.03),
+            ],
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+          ),
+          borderRadius: AppRadius.lgAll,
+          border: Border.all(
+            color: streamColor.withValues(alpha: 0.15),
+            width: 0.5,
+          ),
+        ),
+        child: Row(
           children: [
             Container(
-              width: 100,
-              height: 100,
+              width: 52,
+              height: 52,
               decoration: BoxDecoration(
-                color: colorScheme.primaryContainer,
-                shape: BoxShape.circle,
+                color: streamColor.withValues(alpha: 0.12),
+                borderRadius: AppRadius.mdAll,
               ),
-              child: Icon(Icons.person_add_alt_1,
-                  size: 48, color: colorScheme.onPrimaryContainer),
+              child: Icon(
+                _getStreamIcon(streamName),
+                color: streamColor,
+                size: 26,
+              ),
             ),
-            const SizedBox(height: 24),
-            Text(
-              'Complete your profile to see personalized suggestions',
-              textAlign: TextAlign.center,
-              style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-                    color: colorScheme.onSurfaceVariant,
+            const SizedBox(width: AppSpacing.base),
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    '${streamName[0].toUpperCase()}${streamName.substring(1)} Stream',
+                    style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                          color: streamColor,
+                        ),
                   ),
-            ),
-            const SizedBox(height: 24),
-            FilledButton.icon(
-              onPressed: _navigateToProfile,
-              icon: const Icon(Icons.arrow_forward),
-              label: const Text('Go to Profile'),
+                  const SizedBox(height: 2),
+                  Text(
+                    '${_categories.length} career paths available',
+                    style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                          color: colorScheme.onSurfaceVariant,
+                        ),
+                  ),
+                ],
+              ),
             ),
           ],
         ),
@@ -196,83 +240,83 @@ class _SuggestionsTabState extends State<SuggestionsTab> {
     );
   }
 
-  Widget _buildCategoryList() {
-    if (_categories.isEmpty) {
-      return const Center(
-        child: Text('No career categories available for your stream.'),
-      );
+  Color _getStreamColor(String stream) {
+    switch (stream.toLowerCase()) {
+      case 'science': return AppColors.science;
+      case 'commerce': return AppColors.commerce;
+      case 'art': return AppColors.art;
+      default: return AppColors.primaryLight;
     }
+  }
 
-    return RefreshIndicator(
-      onRefresh: () => _loadData(forceRefresh: true),
-      child: ListView.builder(
-        padding: const EdgeInsets.all(16),
-        itemCount: _categories.length + 1,
-        itemBuilder: (context, index) {
-        if (index == 0) {
-          return Padding(
-            padding: const EdgeInsets.only(bottom: 16, left: 4),
-            child: Text(
-              'Explore career paths in your stream',
-              style: Theme.of(context).textTheme.titleSmall?.copyWith(
-                    color: Theme.of(context).colorScheme.onSurfaceVariant,
+  IconData _getStreamIcon(String stream) {
+    switch (stream.toLowerCase()) {
+      case 'science': return Icons.science_rounded;
+      case 'commerce': return Icons.account_balance_rounded;
+      case 'art': return Icons.palette_rounded;
+      default: return Icons.school_rounded;
+    }
+  }
+}
+
+class _CategoryCard extends StatelessWidget {
+  final CareerNode node;
+  final IconData icon;
+  final Color color;
+  final VoidCallback onTap;
+
+  const _CategoryCard({
+    required this.node,
+    required this.icon,
+    required this.color,
+    required this.onTap,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final colorScheme = Theme.of(context).colorScheme;
+
+    return Padding(
+      padding: const EdgeInsets.only(bottom: AppSpacing.md),
+      child: Card(
+        clipBehavior: Clip.antiAlias,
+        child: InkWell(
+          onTap: onTap,
+          child: Padding(
+            padding: const EdgeInsets.all(AppSpacing.base),
+            child: Row(
+              children: [
+                AccentIconBox(icon: icon, color: color, size: 48),
+                const SizedBox(width: AppSpacing.base),
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        node.name,
+                        style: Theme.of(context).textTheme.titleMedium,
+                      ),
+                      if (node.childIds.isNotEmpty) ...[
+                        const SizedBox(height: 2),
+                        Text(
+                          '${node.childIds.length} paths available',
+                          style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                                color: colorScheme.onSurfaceVariant,
+                              ),
+                        ),
+                      ],
+                    ],
                   ),
-            ),
-          );
-        }
-        final node = _categories[index - 1];
-        final i = index - 1;
-        final icon = _iconPalette[i % _iconPalette.length];
-        final color = _colorPalette[i % _colorPalette.length];
-
-        return Padding(
-          padding: const EdgeInsets.only(bottom: 12),
-          child: Card(
-            clipBehavior: Clip.antiAlias,
-            child: InkWell(
-              onTap: () => _navigateToSubOption(node),
-              child: Padding(
-                padding: const EdgeInsets.all(16),
-                child: Row(
-                  children: [
-                    Container(
-                      width: 48,
-                      height: 48,
-                      decoration: BoxDecoration(
-                        color: color.withValues(alpha: 0.12),
-                        borderRadius: BorderRadius.circular(12),
-                      ),
-                      child: Icon(icon, color: color),
-                    ),
-                    const SizedBox(width: 16),
-                    Expanded(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text(
-                            node.name,
-                            style: Theme.of(context).textTheme.titleMedium,
-                          ),
-                          if (node.childIds.isNotEmpty)
-                            Text(
-                              '${node.childIds.length} paths available',
-                              style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                                    color: Theme.of(context).colorScheme.onSurfaceVariant,
-                                  ),
-                            ),
-                        ],
-                      ),
-                    ),
-                    Icon(Icons.chevron_right,
-                        color: Theme.of(context).colorScheme.onSurfaceVariant),
-                  ],
                 ),
-              ),
+                Icon(
+                  Icons.chevron_right_rounded,
+                  color: colorScheme.onSurfaceVariant,
+                ),
+              ],
             ),
           ),
-        );
-      },
-    ),
-      );
+        ),
+      ),
+    );
   }
 }
