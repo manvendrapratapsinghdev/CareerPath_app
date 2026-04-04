@@ -25,6 +25,11 @@ class AnalyticsService {
     await _analytics!.logEvent(name: name, parameters: params);
   }
 
+  // ── Generic event ───────────────────────────────────────────────────────
+
+  Future<void> logEvent(String name, [Map<String, Object>? params]) =>
+      _log(name, params);
+
   // ── Screen tracking ─────────────────────────────────────────────────────
 
   Future<void> logScreenView(String screenName) async {

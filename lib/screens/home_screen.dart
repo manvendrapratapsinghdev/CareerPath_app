@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import '../config/app_theme.dart';
 import '../models/profile_data.dart';
@@ -55,6 +56,62 @@ class _HomeScreenState extends State<HomeScreen> {
     _pageController = PageController();
     _loadProfile();
     widget.analyticsService?.logScreenView('home');
+    _checkRatePrompt();
+  }
+
+  void _checkRatePrompt() {
+    final service = widget.ratePromptService;
+    if (service == null || !service.shouldShowPrompt()) return;
+    service.markShownThisSession();
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (mounted) _showRateDialog();
+    });
+  }
+
+  void _showRateDialog() {
+    final colorScheme = Theme.of(context).colorScheme;
+    showDialog(
+      context: context,
+      builder: (ctx) => AlertDialog(
+        icon: Icon(Icons.star_rounded, size: 48, color: colorScheme.primary),
+        title: const Text('Enjoying CareerPath?'),
+        content: const Text(
+          'If you find this app helpful, please take a moment to rate us on the Play Store.',
+        ),
+        actions: [
+          TextButton(
+            onPressed: () {
+              widget.analyticsService?.logEvent('rate_prompt_dont_ask_again');
+              widget.ratePromptService?.recordDontAskAgain();
+              Navigator.pop(ctx);
+            },
+            child: const Text("Don't Ask Again"),
+          ),
+          TextButton(
+            onPressed: () {
+              widget.analyticsService?.logEvent('rate_prompt_not_now');
+              Navigator.pop(ctx);
+            },
+            child: const Text('Not Now'),
+          ),
+          FilledButton(
+            onPressed: () {
+              widget.analyticsService?.logEvent('rate_prompt_rate_now');
+              widget.ratePromptService?.recordDontAskAgain();
+              Navigator.pop(ctx);
+              launchUrl(
+                Uri.parse(
+                  'https://play.google.com/store/apps/details?id=com.tacrotech.careerpath',
+                ),
+                mode: LaunchMode.externalApplication,
+              );
+            },
+            child: const Text('Rate Now'),
+          ),
+        ],
+      ),
+    );
+    widget.analyticsService?.logEvent('rate_prompt_shown');
   }
 
   @override
