@@ -5,6 +5,7 @@ import '../models/profile_data.dart';
 import '../services/analytics_service.dart';
 import '../services/bookmark_service.dart';
 import '../services/career_data_service.dart';
+import '../services/exploration_service.dart';
 import '../services/profile_service.dart';
 import '../widgets/page_transitions.dart';
 import 'bookmarks_tab.dart';
@@ -16,6 +17,7 @@ import 'suggestions_tab.dart';
 class HomeScreen extends StatefulWidget {
   final ProfileService profileService;
   final BookmarkService bookmarkService;
+  final ExplorationService explorationService;
   final CareerDataService careerDataService;
   final AnalyticsService? analyticsService;
 
@@ -23,6 +25,7 @@ class HomeScreen extends StatefulWidget {
     super.key,
     required this.profileService,
     required this.bookmarkService,
+    required this.explorationService,
     required this.careerDataService,
     this.analyticsService,
   });
@@ -166,16 +169,19 @@ class _HomeScreenState extends State<HomeScreen> {
           SuggestionsTab(
             profileService: widget.profileService,
             bookmarkService: widget.bookmarkService,
+            explorationService: widget.explorationService,
             careerDataService: widget.careerDataService,
             analyticsService: widget.analyticsService,
           ),
           ExploreTab(
             careerDataService: widget.careerDataService,
             bookmarkService: widget.bookmarkService,
+            explorationService: widget.explorationService,
             analyticsService: widget.analyticsService,
           ),
           BookmarksTab(
             bookmarkService: widget.bookmarkService,
+            explorationService: widget.explorationService,
             careerDataService: widget.careerDataService,
             analyticsService: widget.analyticsService,
           ),

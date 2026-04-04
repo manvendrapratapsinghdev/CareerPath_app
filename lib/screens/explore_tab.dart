@@ -8,6 +8,7 @@ import '../services/analytics_service.dart';
 import '../services/api_client.dart';
 import '../services/bookmark_service.dart';
 import '../services/career_data_service.dart';
+import '../services/exploration_service.dart';
 import '../widgets/accent_icon_box.dart';
 import '../widgets/animated_list_item.dart';
 import '../widgets/empty_state.dart';
@@ -18,12 +19,14 @@ import 'sub_option_screen.dart';
 class ExploreTab extends StatefulWidget {
   final CareerDataService careerDataService;
   final BookmarkService? bookmarkService;
+  final ExplorationService? explorationService;
   final AnalyticsService? analyticsService;
 
   const ExploreTab({
     super.key,
     required this.careerDataService,
     this.bookmarkService,
+    this.explorationService,
     this.analyticsService,
   });
 
@@ -121,6 +124,7 @@ class _ExploreTabState extends State<ExploreTab> {
                   categoryFuture: _categoryFutures[stream.id],
                   careerDataService: widget.careerDataService,
                   bookmarkService: widget.bookmarkService,
+                  explorationService: widget.explorationService,
                   analyticsService: widget.analyticsService,
                   icon: _iconPalette[index % _iconPalette.length],
                   color: AppColors.accentPalette[index % AppColors.accentPalette.length],
@@ -152,6 +156,7 @@ class _StreamSection extends StatelessWidget {
   final Future<List<CareerNode>>? categoryFuture;
   final CareerDataService careerDataService;
   final BookmarkService? bookmarkService;
+  final ExplorationService? explorationService;
   final AnalyticsService? analyticsService;
   final IconData icon;
   final Color color;
@@ -163,6 +168,7 @@ class _StreamSection extends StatelessWidget {
     required this.categoryFuture,
     required this.careerDataService,
     this.bookmarkService,
+    this.explorationService,
     this.analyticsService,
     required this.icon,
     required this.color,
@@ -298,6 +304,7 @@ class _StreamSection extends StatelessWidget {
                   color: color,
                   careerDataService: careerDataService,
                   bookmarkService: bookmarkService,
+                  explorationService: explorationService,
                   analyticsService: analyticsService,
                 ),
               );
@@ -314,6 +321,7 @@ class _CategoryTile extends StatelessWidget {
   final Color color;
   final CareerDataService careerDataService;
   final BookmarkService? bookmarkService;
+  final ExplorationService? explorationService;
   final AnalyticsService? analyticsService;
 
   const _CategoryTile({
@@ -321,6 +329,7 @@ class _CategoryTile extends StatelessWidget {
     required this.color,
     required this.careerDataService,
     this.bookmarkService,
+    this.explorationService,
     this.analyticsService,
   });
 
@@ -340,6 +349,7 @@ class _CategoryTile extends StatelessWidget {
                 page: SubOptionScreen(
                   careerDataService: careerDataService,
                   bookmarkService: bookmarkService,
+                  explorationService: explorationService,
                   analyticsService: analyticsService,
                   nodeId: node.id,
                   breadcrumbs: [

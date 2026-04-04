@@ -7,6 +7,7 @@ import '../models/profile_data.dart';
 import '../services/analytics_service.dart';
 import '../services/bookmark_service.dart';
 import '../services/career_data_service.dart';
+import '../services/exploration_service.dart';
 import '../services/profile_service.dart';
 import '../widgets/accent_icon_box.dart';
 import '../widgets/animated_list_item.dart';
@@ -19,6 +20,7 @@ import 'sub_option_screen.dart';
 class SuggestionsTab extends StatefulWidget {
   final ProfileService profileService;
   final BookmarkService? bookmarkService;
+  final ExplorationService? explorationService;
   final CareerDataService careerDataService;
   final AnalyticsService? analyticsService;
 
@@ -26,6 +28,7 @@ class SuggestionsTab extends StatefulWidget {
     super.key,
     required this.profileService,
     this.bookmarkService,
+    this.explorationService,
     required this.careerDataService,
     this.analyticsService,
   });
@@ -46,6 +49,17 @@ class _SuggestionsTabState extends State<SuggestionsTab> {
   void initState() {
     super.initState();
     _loadData();
+    widget.explorationService?.addListener(_onExplorationChanged);
+  }
+
+  @override
+  void dispose() {
+    widget.explorationService?.removeListener(_onExplorationChanged);
+    super.dispose();
+  }
+
+  void _onExplorationChanged() {
+    if (mounted) setState(() {});
   }
 
   Future<void> _loadData({bool forceRefresh = false}) async {
@@ -86,6 +100,7 @@ class _SuggestionsTabState extends State<SuggestionsTab> {
         page: SubOptionScreen(
           careerDataService: widget.careerDataService,
           bookmarkService: widget.bookmarkService,
+          explorationService: widget.explorationService,
           analyticsService: widget.analyticsService,
           nodeId: node.id,
           breadcrumbs: [BreadcrumbEntry(nodeId: node.id, label: node.name)],
@@ -240,12 +255,48 @@ class _SuggestionsTabState extends State<SuggestionsTab> {
                           color: colorScheme.onSurfaceVariant,
                         ),
                   ),
+                  if (widget.explorationService != null &&
+                      _categories.isNotEmpty) ...[
+                    const SizedBox(height: AppSpacing.sm),
+                    _buildProgressBar(streamColor),
+                  ],
                 ],
               ),
             ),
           ],
         ),
       ),
+    );
+  }
+
+  Widget _buildProgressBar(Color color) {
+    final categoryIds = _categories.map((c) => c.id).toList();
+    final visited =
+        widget.explorationService!.visitedCountFor(categoryIds);
+    final total = categoryIds.length;
+    final progress = total > 0 ? visited / total : 0.0;
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        ClipRRect(
+          borderRadius: AppRadius.pillAll,
+          child: LinearProgressIndicator(
+            value: progress,
+            backgroundColor: color.withValues(alpha: 0.12),
+            valueColor: AlwaysStoppedAnimation<Color>(color),
+            minHeight: 6,
+          ),
+        ),
+        const SizedBox(height: 4),
+        Text(
+          '$visited of $total explored',
+          style: Theme.of(context).textTheme.labelSmall?.copyWith(
+                color: color,
+                fontWeight: FontWeight.w600,
+              ),
+        ),
+      ],
     );
   }
 

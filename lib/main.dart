@@ -4,6 +4,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 import 'config/app_theme.dart';
 import 'data/bookmark_repository.dart';
+import 'data/exploration_repository.dart';
 import 'data/profile_repository.dart';
 import 'screens/home_screen.dart';
 import 'screens/profile_screen.dart';
@@ -11,6 +12,7 @@ import 'services/analytics_service.dart';
 import 'services/api_client.dart';
 import 'services/bookmark_service.dart';
 import 'services/career_data_service.dart';
+import 'services/exploration_service.dart';
 import 'services/network_service.dart';
 import 'services/profile_service.dart';
 import 'widgets/network_aware_wrapper.dart';
@@ -27,6 +29,7 @@ void main() async {
   final profileRepo = ProfileRepository(prefs);
   final profileService = ProfileService(profileRepo);
   final bookmarkService = BookmarkService(BookmarkRepository(prefs));
+  final explorationService = ExplorationService(ExplorationRepository(prefs));
   final careerDataService = CareerDataService(ApiClient());
   final networkService = NetworkService();
   final analyticsService = AnalyticsService();
@@ -37,6 +40,7 @@ void main() async {
   runApp(CareerPathApp(
     profileService: profileService,
     bookmarkService: bookmarkService,
+    explorationService: explorationService,
     careerDataService: careerDataService,
     networkService: networkService,
     analyticsService: analyticsService,
@@ -47,6 +51,7 @@ void main() async {
 class CareerPathApp extends StatelessWidget {
   final ProfileService profileService;
   final BookmarkService bookmarkService;
+  final ExplorationService explorationService;
   final CareerDataService careerDataService;
   final NetworkService networkService;
   final AnalyticsService analyticsService;
@@ -56,6 +61,7 @@ class CareerPathApp extends StatelessWidget {
     super.key,
     required this.profileService,
     required this.bookmarkService,
+    required this.explorationService,
     required this.careerDataService,
     required this.networkService,
     required this.analyticsService,
@@ -75,6 +81,7 @@ class CareerPathApp extends StatelessWidget {
         '/home': (_) => HomeScreen(
               profileService: profileService,
               bookmarkService: bookmarkService,
+              explorationService: explorationService,
               careerDataService: careerDataService,
               analyticsService: analyticsService,
             ),
@@ -85,6 +92,7 @@ class CareerPathApp extends StatelessWidget {
             ? HomeScreen(
                 profileService: profileService,
                 bookmarkService: bookmarkService,
+                explorationService: explorationService,
                 careerDataService: careerDataService,
                 analyticsService: analyticsService,
               )

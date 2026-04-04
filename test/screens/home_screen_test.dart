@@ -6,14 +6,17 @@ import 'package:career_path/models/career_node.dart';
 import 'package:career_path/models/stream_model.dart';
 import 'package:career_path/screens/home_screen.dart';
 import 'package:career_path/data/bookmark_repository.dart';
+import 'package:career_path/data/exploration_repository.dart';
 import 'package:career_path/services/api_client.dart';
 import 'package:career_path/services/bookmark_service.dart';
 import 'package:career_path/services/career_data_service.dart';
+import 'package:career_path/services/exploration_service.dart';
 import 'package:career_path/services/profile_service.dart';
 
 void main() {
   late ProfileService profileService;
   late BookmarkService bookmarkService;
+  late ExplorationService explorationService;
   late CareerDataService careerDataService;
 
   Future<void> initServices({Map<String, Object>? prefsValues}) async {
@@ -21,6 +24,7 @@ void main() {
     final prefs = await SharedPreferences.getInstance();
     profileService = ProfileService(ProfileRepository(prefs));
     bookmarkService = BookmarkService(BookmarkRepository(prefs));
+    explorationService = ExplorationService(ExplorationRepository(prefs));
     careerDataService = CareerDataService(ApiClient());
     // Pre-load data so tabs don't hit the network.
     careerDataService.initializeWithData(
@@ -34,6 +38,7 @@ void main() {
       home: HomeScreen(
         profileService: profileService,
         bookmarkService: bookmarkService,
+        explorationService: explorationService,
         careerDataService: careerDataService,
       ),
     );

@@ -6,6 +6,7 @@ import '../models/career_node.dart';
 import '../services/analytics_service.dart';
 import '../services/bookmark_service.dart';
 import '../services/career_data_service.dart';
+import '../services/exploration_service.dart';
 import '../widgets/accent_icon_box.dart';
 import '../widgets/animated_list_item.dart';
 import '../widgets/empty_state.dart';
@@ -15,12 +16,14 @@ import 'sub_option_screen.dart';
 
 class BookmarksTab extends StatefulWidget {
   final BookmarkService bookmarkService;
+  final ExplorationService? explorationService;
   final CareerDataService careerDataService;
   final AnalyticsService? analyticsService;
 
   const BookmarksTab({
     super.key,
     required this.bookmarkService,
+    this.explorationService,
     required this.careerDataService,
     this.analyticsService,
   });
@@ -56,6 +59,7 @@ class _BookmarksTabState extends State<BookmarksTab> {
         page: SubOptionScreen(
           careerDataService: widget.careerDataService,
           bookmarkService: widget.bookmarkService,
+          explorationService: widget.explorationService,
           analyticsService: widget.analyticsService,
           nodeId: node.id,
           breadcrumbs: [BreadcrumbEntry(nodeId: node.id, label: node.name)],
