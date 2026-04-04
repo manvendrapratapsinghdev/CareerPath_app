@@ -128,70 +128,80 @@ class _ProfileScreenState extends State<ProfileScreen>
     final colorScheme = Theme.of(context).colorScheme;
     final l = AppLocalizations.of(context)!;
 
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(_isEditing ? l.profile_editProfileTitle : ''),
-        backgroundColor: Colors.transparent,
-        elevation: 0,
-      ),
-      body: SafeArea(
-        child: FadeTransition(
-          opacity: _fadeAnim,
-          child: SlideTransition(
-            position: _slideAnim,
-            child: SingleChildScrollView(
-              padding: const EdgeInsets.symmetric(
-                horizontal: AppSpacing.xl,
-                vertical: AppSpacing.base,
-              ),
-              child: Form(
-                key: _formKey,
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.stretch,
-                  children: [
-                    // Hero section
-                    _buildHeroSection(colorScheme),
-                    const SizedBox(height: AppSpacing.xxl),
+    final body = FadeTransition(
+      opacity: _fadeAnim,
+      child: SlideTransition(
+        position: _slideAnim,
+        child: SingleChildScrollView(
+          padding: EdgeInsets.fromLTRB(
+            AppSpacing.xl,
+            _isEditing ? AppSpacing.base : MediaQuery.of(context).padding.top + AppSpacing.lg,
+            AppSpacing.xl,
+            AppSpacing.base,
+          ),
+          child: Form(
+            key: _formKey,
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                // Hero section
+                _buildHeroSection(colorScheme),
+                const SizedBox(height: AppSpacing.xxl),
 
-                    // Name field
-                    _buildNameField(),
-                    const SizedBox(height: AppSpacing.xl),
+                // Name field
+                _buildNameField(),
+                const SizedBox(height: AppSpacing.xl),
 
-                    // Stream selection
-                    _buildStreamSection(),
+                // Stream selection
+                _buildStreamSection(),
 
-                    // Theme toggle (only when editing)
-                    if (_isEditing && widget.themeService != null) ...[
-                      const SizedBox(height: AppSpacing.xl),
-                      _buildThemeSection(),
-                    ],
+                // Theme toggle (only when editing)
+                if (_isEditing && widget.themeService != null) ...[
+                  const SizedBox(height: AppSpacing.xl),
+                  _buildThemeSection(),
+                ],
 
-                    // Language selector (only when editing)
-                    if (_isEditing && widget.localeService != null) ...[
-                      const SizedBox(height: AppSpacing.xl),
-                      _buildLanguageSection(),
-                    ],
+                // Language selector (only when editing)
+                if (_isEditing && widget.localeService != null) ...[
+                  const SizedBox(height: AppSpacing.xl),
+                  _buildLanguageSection(),
+                ],
 
-                    // Feedback button (only when editing)
-                    if (_isEditing && widget.feedbackService != null) ...[
-                      const SizedBox(height: AppSpacing.xl),
-                      _buildFeedbackButton(),
-                    ],
-                    const SizedBox(height: AppSpacing.xxl),
+                // Feedback button (only when editing)
+                if (_isEditing && widget.feedbackService != null) ...[
+                  const SizedBox(height: AppSpacing.xl),
+                  _buildFeedbackButton(),
+                ],
+                const SizedBox(height: AppSpacing.xxl),
 
-                    // Actions
-                    _buildActions(),
-                    const SizedBox(height: AppSpacing.xxl),
+                // Actions
+                _buildActions(),
+                const SizedBox(height: AppSpacing.xxl),
 
-                    // Footer
-                    _buildFooter(context),
-                  ],
-                ),
-              ),
+                // Footer
+                _buildFooter(context),
+              ],
             ),
           ),
         ),
       ),
+    );
+
+    // Onboarding: full-screen Stack, no AppBar
+    if (!_isEditing) {
+      return Scaffold(
+        body: body,
+      );
+    }
+
+    // Edit mode: standard Scaffold with AppBar
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(l.profile_editProfileTitle),
+        backgroundColor: Colors.transparent,
+        elevation: 0,
+      ),
+      body: SafeArea(child: body),
     );
   }
 
