@@ -119,6 +119,11 @@ class _ProfileScreenState extends State<ProfileScreen>
   }
 
   void _skip() {
+    // If a stream is selected, name is mandatory — block skip
+    if (_selectedStream != null && _nameController.text.trim().isEmpty) {
+      _formKey.currentState!.validate();
+      return;
+    }
     widget.analyticsService?.logProfileSkipped();
     Navigator.pushReplacementNamed(context, '/home');
   }
