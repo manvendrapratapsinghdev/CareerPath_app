@@ -5,6 +5,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'config/app_theme.dart';
 import 'data/bookmark_repository.dart';
 import 'data/exploration_repository.dart';
+import 'data/leaf_details_cache.dart';
 import 'data/profile_repository.dart';
 import 'screens/home_screen.dart';
 import 'screens/onboarding_screen.dart';
@@ -30,7 +31,8 @@ void main() async {
   final prefs = await SharedPreferences.getInstance();
   final profileRepo = ProfileRepository(prefs);
   final profileService = ProfileService(profileRepo);
-  final bookmarkService = BookmarkService(BookmarkRepository(prefs));
+  final leafDetailsCache = LeafDetailsCache(prefs);
+  final bookmarkService = BookmarkService(BookmarkRepository(prefs), leafDetailsCache);
   final explorationService = ExplorationService(ExplorationRepository(prefs));
   final careerDataService = CareerDataService(ApiClient());
   final networkService = NetworkService();

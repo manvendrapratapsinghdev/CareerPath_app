@@ -74,15 +74,29 @@ class _SubOptionScreenState extends State<SubOptionScreen> {
     if (children.isEmpty && mounted) {
       setState(() {
         _isLeaf = true;
-        _leafDetailsFuture = widget.careerDataService
-            .getLeafDetails(widget.nodeId, forceRefresh: forceRefresh)
-            .then((details) {
-          if (mounted) setState(() => _leafDetails = details);
-          return details;
-        });
+        _leafDetailsFuture = _loadLeafDetails(forceRefresh);
       });
     }
     return children;
+  }
+
+  Future<LeafDetails?> _loadLeafDetails(bool forceRefresh) async {
+    try {
+      final details = await widget.careerDataService
+          .getLeafDetails(widget.nodeId, forceRefresh: forceRefresh);
+      if (details != null) {
+        widget.bookmarkService?.cacheDetails(widget.nodeId, details);
+      }
+      if (mounted) setState(() => _leafDetails = details);
+      return details;
+    } catch (_) {
+      // Offline fallback: try cached details
+      final cached = widget.bookmarkService?.getCachedDetails(widget.nodeId);
+      if (cached != null && mounted) {
+        setState(() => _leafDetails = cached);
+      }
+      return cached;
+    }
   }
 
   void _shareCareerPath() {
@@ -141,7 +155,10 @@ class _SubOptionScreenState extends State<SubOptionScreen> {
                   widget.analyticsService
                       ?.logBookmarkRemoved(_currentNode?.name ?? widget.nodeId);
                 }
-                widget.bookmarkService!.toggle(widget.nodeId);
+                widget.bookmarkService!.toggle(
+                  widget.nodeId,
+                  details: _leafDetails,
+                );
               },
               icon: Icon(
                 widget.bookmarkService!.isBookmarked(widget.nodeId)
