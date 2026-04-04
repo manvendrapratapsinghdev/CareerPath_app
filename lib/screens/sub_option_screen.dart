@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:share_plus/share_plus.dart';
 
 import '../config/app_theme.dart';
 import '../models/breadcrumb_entry.dart';
@@ -39,6 +40,7 @@ class _SubOptionScreenState extends State<SubOptionScreen> {
   late Future<List<CareerNode>> _childrenFuture;
   late final CareerNode? _currentNode;
   Future<LeafDetails?>? _leafDetailsFuture;
+  LeafDetails? _leafDetails;
   bool _booksExpanded = false;
   bool _institutesExpanded = false;
   bool _jobSectorsExpanded = false;
@@ -69,10 +71,41 @@ class _SubOptionScreenState extends State<SubOptionScreen> {
       setState(() {
         _isLeaf = true;
         _leafDetailsFuture = widget.careerDataService
-            .getLeafDetails(widget.nodeId, forceRefresh: forceRefresh);
+            .getLeafDetails(widget.nodeId, forceRefresh: forceRefresh)
+            .then((details) {
+          if (mounted) setState(() => _leafDetails = details);
+          return details;
+        });
       });
     }
     return children;
+  }
+
+  void _shareCareerPath() {
+    final name = _currentNode?.name ?? '';
+    final buffer = StringBuffer('Career Path: $name\n');
+    if (_currentNode?.intro != null && _currentNode!.intro!.isNotEmpty) {
+      buffer.writeln('\n${_currentNode.intro}');
+    }
+    if (_leafDetails != null) {
+      if (_leafDetails!.institutes.isNotEmpty) {
+        buffer.writeln('\nTop Institutes:');
+        for (final inst in _leafDetails!.institutes.take(3)) {
+          buffer.write('- ${inst.name}');
+          if (inst.city != null) buffer.write(' (${inst.city})');
+          buffer.writeln();
+        }
+      }
+      if (_leafDetails!.jobSectors.isNotEmpty) {
+        buffer.writeln('\nJob Sectors:');
+        for (final sector in _leafDetails!.jobSectors.take(3)) {
+          buffer.writeln('- ${sector.name}');
+        }
+      }
+    }
+    buffer.writeln('\nExplore more on CareerPath app!');
+    widget.analyticsService?.logShareCareerPath(name);
+    SharePlus.instance.share(ShareParams(text: buffer.toString()));
   }
 
   Future<void> _refreshData() async {
@@ -114,6 +147,12 @@ class _SubOptionScreenState extends State<SubOptionScreen> {
               tooltip: widget.bookmarkService!.isBookmarked(widget.nodeId)
                   ? 'Remove bookmark'
                   : 'Save career path',
+            ),
+          if (_isLeaf)
+            IconButton(
+              onPressed: _shareCareerPath,
+              icon: const Icon(Icons.share_rounded),
+              tooltip: 'Share',
             ),
         ],
       ),

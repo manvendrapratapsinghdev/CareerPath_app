@@ -63,6 +63,13 @@ class AnalyticsService {
         'section_name': sectionName,
       });
 
+  // ── Share events ───────────────────────────────────────────────────────
+
+  Future<void> logShareCareerPath(String nodeName) =>
+      _analytics.logEvent(name: 'share_career_path', parameters: {
+        'node_name': nodeName,
+      });
+
   // ── Search events ──────────────────────────────────────────────────────
 
   Future<void> logSearch(String query, int resultCount) =>
