@@ -3,16 +3,22 @@ import 'package:url_launcher/url_launcher.dart';
 
 import '../config/app_theme.dart';
 import '../models/profile_data.dart';
+import '../services/analytics_service.dart';
 import '../services/profile_service.dart';
+import '../services/theme_service.dart';
 
 class ProfileScreen extends StatefulWidget {
   final ProfileService profileService;
   final ProfileData? existingProfile;
+  final AnalyticsService? analyticsService;
+  final ThemeService? themeService;
 
   const ProfileScreen({
     super.key,
     required this.profileService,
     this.existingProfile,
+    this.analyticsService,
+    this.themeService,
   });
 
   @override
@@ -90,6 +96,11 @@ class _ProfileScreenState extends State<ProfileScreen>
     setState(() => _isSaving = false);
 
     if (success) {
+      if (_isEditing) {
+        widget.analyticsService?.logProfileUpdated(_selectedStream!);
+      } else {
+        widget.analyticsService?.logProfileCreated(_selectedStream!);
+      }
       Navigator.pushReplacementNamed(context, '/home');
     } else {
       ScaffoldMessenger.of(context).showSnackBar(
@@ -98,7 +109,10 @@ class _ProfileScreenState extends State<ProfileScreen>
     }
   }
 
-  void _skip() => Navigator.pushReplacementNamed(context, '/home');
+  void _skip() {
+    widget.analyticsService?.logProfileSkipped();
+    Navigator.pushReplacementNamed(context, '/home');
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -135,6 +149,12 @@ class _ProfileScreenState extends State<ProfileScreen>
 
                     // Stream selection
                     _buildStreamSection(),
+
+                    // Theme toggle (only when editing)
+                    if (_isEditing && widget.themeService != null) ...[
+                      const SizedBox(height: AppSpacing.xl),
+                      _buildThemeSection(),
+                    ],
                     const SizedBox(height: AppSpacing.xxl),
 
                     // Actions
@@ -317,6 +337,37 @@ class _ProfileScreenState extends State<ProfileScreen>
           ),
         ),
       ),
+    );
+  }
+
+  Widget _buildThemeSection() {
+    final currentMode = widget.themeService!.themeMode;
+    const modes = [
+      (ThemeMode.system, 'System', Icons.brightness_auto_rounded),
+      (ThemeMode.light, 'Light', Icons.light_mode_rounded),
+      (ThemeMode.dark, 'Dark', Icons.dark_mode_rounded),
+    ];
+
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text('Appearance', style: Theme.of(context).textTheme.titleSmall),
+        const SizedBox(height: AppSpacing.md),
+        SegmentedButton<ThemeMode>(
+          segments: modes
+              .map((m) => ButtonSegment(
+                    value: m.$1,
+                    label: Text(m.$2),
+                    icon: Icon(m.$3),
+                  ))
+              .toList(),
+          selected: {currentMode},
+          onSelectionChanged: (selected) {
+            widget.themeService!.setThemeMode(selected.first);
+            setState(() {});
+          },
+        ),
+      ],
     );
   }
 

@@ -7,6 +7,7 @@ import '../services/bookmark_service.dart';
 import '../services/career_data_service.dart';
 import '../services/exploration_service.dart';
 import '../services/profile_service.dart';
+import '../services/theme_service.dart';
 import '../widgets/page_transitions.dart';
 import 'bookmarks_tab.dart';
 import 'explore_tab.dart';
@@ -20,6 +21,7 @@ class HomeScreen extends StatefulWidget {
   final ExplorationService explorationService;
   final CareerDataService careerDataService;
   final AnalyticsService? analyticsService;
+  final ThemeService? themeService;
 
   const HomeScreen({
     super.key,
@@ -28,6 +30,7 @@ class HomeScreen extends StatefulWidget {
     required this.explorationService,
     required this.careerDataService,
     this.analyticsService,
+    this.themeService,
   });
 
   @override
@@ -66,6 +69,7 @@ class _HomeScreenState extends State<HomeScreen> {
           profileService: widget.profileService,
           existingProfile: _profile,
           analyticsService: widget.analyticsService,
+          themeService: widget.themeService,
         ),
       ),
     ).then((_) => _loadProfile());

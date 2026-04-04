@@ -7,6 +7,7 @@ import 'package:career_path/data/exploration_repository.dart';
 import 'package:career_path/services/api_client.dart';
 import 'package:career_path/services/bookmark_service.dart';
 import 'package:career_path/services/exploration_service.dart';
+import 'package:career_path/services/theme_service.dart';
 import 'package:career_path/services/career_data_service.dart';
 import 'package:career_path/services/analytics_service.dart';
 import 'package:career_path/services/network_service.dart';
@@ -24,6 +25,7 @@ void main() {
 
     final bookmarkService = BookmarkService(BookmarkRepository(prefs));
     final explorationService = ExplorationService(ExplorationRepository(prefs));
+    final themeService = ThemeService(prefs);
 
     await tester.pumpWidget(CareerPathApp(
       prefs: prefs,
@@ -33,6 +35,7 @@ void main() {
       careerDataService: careerDataService,
       networkService: networkService,
       analyticsService: analyticsService,
+      themeService: themeService,
       hasProfile: false,
       onboardingSeen: true,
     ));

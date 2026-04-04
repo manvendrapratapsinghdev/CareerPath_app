@@ -16,6 +16,7 @@ import 'services/career_data_service.dart';
 import 'services/exploration_service.dart';
 import 'services/network_service.dart';
 import 'services/profile_service.dart';
+import 'services/theme_service.dart';
 import 'widgets/network_aware_wrapper.dart';
 
 void main() async {
@@ -34,6 +35,7 @@ void main() async {
   final careerDataService = CareerDataService(ApiClient());
   final networkService = NetworkService();
   final analyticsService = AnalyticsService();
+  final themeService = ThemeService(prefs);
 
   // Check profile and onboarding from local storage — no network call here.
   final hasProfile = await profileService.isProfileComplete();
@@ -47,6 +49,7 @@ void main() async {
     careerDataService: careerDataService,
     networkService: networkService,
     analyticsService: analyticsService,
+    themeService: themeService,
     hasProfile: hasProfile,
     onboardingSeen: onboardingSeen,
   ));
@@ -60,6 +63,7 @@ class CareerPathApp extends StatelessWidget {
   final CareerDataService careerDataService;
   final NetworkService networkService;
   final AnalyticsService analyticsService;
+  final ThemeService themeService;
   final bool hasProfile;
   final bool onboardingSeen;
 
@@ -72,18 +76,21 @@ class CareerPathApp extends StatelessWidget {
     required this.careerDataService,
     required this.networkService,
     required this.analyticsService,
+    required this.themeService,
     required this.hasProfile,
     required this.onboardingSeen,
   });
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return ListenableBuilder(
+      listenable: themeService,
+      builder: (context, _) => MaterialApp(
       title: 'Career Path Guidance',
       debugShowCheckedModeBanner: false,
       theme: AppTheme.light,
       darkTheme: AppTheme.dark,
-      themeMode: ThemeMode.system,
+      themeMode: themeService.themeMode,
       navigatorObservers: [analyticsService.observer],
       routes: {
         '/home': (_) => HomeScreen(
@@ -92,6 +99,7 @@ class CareerPathApp extends StatelessWidget {
               explorationService: explorationService,
               careerDataService: careerDataService,
               analyticsService: analyticsService,
+              themeService: themeService,
             ),
         '/profile': (_) => ProfileScreen(
               profileService: profileService,
@@ -102,6 +110,7 @@ class CareerPathApp extends StatelessWidget {
         networkService: networkService,
         child: _buildInitialScreen(),
       ),
+    ),
     );
   }
 
