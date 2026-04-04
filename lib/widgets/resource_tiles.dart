@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:url_launcher/url_launcher.dart';
-
 import '../config/app_theme.dart';
 import '../models/book.dart';
 import '../models/institute.dart';
@@ -102,9 +100,24 @@ class BookTile extends StatelessWidget {
   final Book book;
   const BookTile({super.key, required this.book});
 
+  void _openBook(BuildContext context) {
+    if (book.url == null || book.url!.isEmpty) return;
+    Navigator.push(
+      context,
+      SmoothPageRoute(
+        page: WebViewScreen(
+          title: book.title,
+          url: book.url!,
+        ),
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     const color = Color(0xFF6366F1);
+    final hasUrl = book.url != null && book.url!.isNotEmpty;
+
     return ResourceTileWrapper(
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -123,31 +136,10 @@ class BookTile extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                book.url != null
-                    ? InkWell(
-                        onTap: () async {
-                          final uri = Uri.tryParse(book.url!);
-                          if (uri != null && await canLaunchUrl(uri)) {
-                            await launchUrl(uri,
-                                mode: LaunchMode.externalApplication);
-                          }
-                        },
-                        child: Text(
-                          book.title,
-                          style: Theme.of(context)
-                              .textTheme
-                              .titleSmall
-                              ?.copyWith(
-                                color: color,
-                                decoration: TextDecoration.underline,
-                                decorationColor: color,
-                              ),
-                        ),
-                      )
-                    : Text(
-                        book.title,
-                        style: Theme.of(context).textTheme.titleSmall,
-                      ),
+                Text(
+                  book.title,
+                  style: Theme.of(context).textTheme.titleSmall,
+                ),
                 if (book.author != null) ...[
                   const SizedBox(height: 2),
                   Text(
@@ -168,6 +160,14 @@ class BookTile extends StatelessWidget {
               ],
             ),
           ),
+          if (hasUrl)
+            IconButton(
+              onPressed: () => _openBook(context),
+              icon: const Icon(Icons.chevron_right_rounded, color: color),
+              tooltip: 'View book',
+              constraints: const BoxConstraints(minWidth: 36, minHeight: 36),
+              padding: EdgeInsets.zero,
+            ),
         ],
       ),
     );
@@ -197,69 +197,54 @@ class InstituteTile extends StatelessWidget {
     final hasWebsite = institute.website != null && institute.website!.isNotEmpty;
 
     return ResourceTileWrapper(
-      child: InkWell(
-        onTap: hasWebsite ? () => _openWebsite(context) : null,
-        borderRadius: AppRadius.smAll,
-        child: Row(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Container(
-              width: 32,
-              height: 32,
-              decoration: BoxDecoration(
-                color: color.withValues(alpha: 0.08),
-                borderRadius: AppRadius.smAll,
-              ),
-              child: const Icon(Icons.location_city_rounded, size: 16, color: color),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Container(
+            width: 32,
+            height: 32,
+            decoration: BoxDecoration(
+              color: color.withValues(alpha: 0.08),
+              borderRadius: AppRadius.smAll,
             ),
-            const SizedBox(width: AppSpacing.md),
-            Expanded(
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    institute.name,
-                    style: Theme.of(context).textTheme.titleSmall,
-                  ),
-                  if (institute.city != null) ...[
-                    const SizedBox(height: 2),
-                    Text(institute.city!,
-                        style: Theme.of(context).textTheme.bodySmall),
-                  ],
-                  if (hasWebsite) ...[
-                    const SizedBox(height: AppSpacing.xs),
-                    Row(
-                      children: [
-                        const Icon(Icons.open_in_new_rounded, size: 12, color: color),
-                        const SizedBox(width: 4),
-                        Expanded(
-                          child: Text(
-                            institute.website!,
-                            style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                                  color: color,
-                                ),
-                            maxLines: 1,
-                            overflow: TextOverflow.ellipsis,
-                          ),
-                        ),
-                      ],
-                    ),
-                  ],
-                  if (institute.description != null &&
-                      institute.description!.isNotEmpty) ...[
-                    const SizedBox(height: AppSpacing.xs),
-                    Text(
-                      institute.description!,
-                      style: Theme.of(context).textTheme.bodySmall,
-                      maxLines: 2,
-                      overflow: TextOverflow.ellipsis,
-                    ),
-                  ],
+            child: const Icon(Icons.location_city_rounded, size: 16, color: color),
+          ),
+          const SizedBox(width: AppSpacing.md),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  institute.name,
+                  style: Theme.of(context).textTheme.titleSmall,
+                ),
+                if (institute.city != null) ...[
+                  const SizedBox(height: 2),
+                  Text(institute.city!,
+                      style: Theme.of(context).textTheme.bodySmall),
                 ],
+                if (institute.description != null &&
+                    institute.description!.isNotEmpty) ...[
+                  const SizedBox(height: AppSpacing.xs),
+                  Text(
+                    institute.description!,
+                    style: Theme.of(context).textTheme.bodySmall,
+                    maxLines: 2,
+                    overflow: TextOverflow.ellipsis,
+                  ),
+                ],
+              ],
             ),
           ),
+          if (hasWebsite)
+            IconButton(
+              onPressed: () => _openWebsite(context),
+              icon: const Icon(Icons.chevron_right_rounded, color: color),
+              tooltip: 'Visit website',
+              constraints: const BoxConstraints(minWidth: 36, minHeight: 36),
+              padding: EdgeInsets.zero,
+            ),
         ],
-        ),
       ),
     );
   }
