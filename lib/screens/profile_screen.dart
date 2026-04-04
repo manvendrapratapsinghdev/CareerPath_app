@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:url_launcher/url_launcher.dart';
-
 import '../config/app_theme.dart';
 import '../models/profile_data.dart';
 import '../services/analytics_service.dart';
+import 'package:url_launcher/url_launcher.dart';
+
 import '../services/profile_service.dart';
 import '../services/theme_service.dart';
 
@@ -403,13 +403,29 @@ class _ProfileScreenState extends State<ProfileScreen>
   }
 
   Widget _buildFooter(BuildContext context) {
+    final style = Theme.of(context).textTheme.bodySmall;
+    final linkStyle = style?.copyWith(
+      color: Theme.of(context).colorScheme.primary,
+      decoration: TextDecoration.underline,
+      decorationColor: Theme.of(context).colorScheme.primary,
+    );
+
     return Text.rich(
       TextSpan(
         children: [
-          TextSpan(
-            text: 'Developed by SoLA under ',
-            style: Theme.of(context).textTheme.bodySmall,
+          TextSpan(text: 'Developed by ', style: style),
+          WidgetSpan(
+            alignment: PlaceholderAlignment.baseline,
+            baseline: TextBaseline.alphabetic,
+            child: GestureDetector(
+              onTap: () => launchUrl(
+                Uri.parse('https://www.linkedin.com/in/manvendrapratapsinghdev/'),
+                mode: LaunchMode.externalApplication,
+              ),
+              child: Text('Manvendra Pratap Singh', style: linkStyle),
+            ),
           ),
+          TextSpan(text: ' under ', style: style),
           WidgetSpan(
             alignment: PlaceholderAlignment.baseline,
             baseline: TextBaseline.alphabetic,
@@ -418,16 +434,10 @@ class _ProfileScreenState extends State<ProfileScreen>
                 Uri.parse('https://iitj.irins.org/profile/615298'),
                 mode: LaunchMode.externalApplication,
               ),
-              child: Text(
-                'Dr Dinesh Mohan Joshi',
-                style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                      color: Theme.of(context).colorScheme.primary,
-                      decoration: TextDecoration.underline,
-                      decorationColor: Theme.of(context).colorScheme.primary,
-                    ),
-              ),
+              child: Text('Dr Dinesh Mohan Joshi', style: linkStyle),
             ),
           ),
+          TextSpan(text: ' (SoLA)', style: style),
         ],
       ),
       textAlign: TextAlign.center,

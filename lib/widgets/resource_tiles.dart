@@ -116,7 +116,8 @@ class BookTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     const color = Color(0xFF6366F1);
-    final hasUrl = book.url != null && book.url!.isNotEmpty;
+    final uri = book.url != null ? Uri.tryParse(book.url!) : null;
+    final hasUrl = uri != null && uri.hasScheme && uri.host.isNotEmpty;
 
     return ResourceTileWrapper(
       child: Row(
