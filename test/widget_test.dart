@@ -26,6 +26,7 @@ void main() {
     final explorationService = ExplorationService(ExplorationRepository(prefs));
 
     await tester.pumpWidget(CareerPathApp(
+      prefs: prefs,
       profileService: profileService,
       bookmarkService: bookmarkService,
       explorationService: explorationService,
@@ -33,6 +34,7 @@ void main() {
       networkService: networkService,
       analyticsService: analyticsService,
       hasProfile: false,
+      onboardingSeen: true,
     ));
     await tester.pumpAndSettle();
 

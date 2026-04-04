@@ -7,6 +7,7 @@ import 'data/bookmark_repository.dart';
 import 'data/exploration_repository.dart';
 import 'data/profile_repository.dart';
 import 'screens/home_screen.dart';
+import 'screens/onboarding_screen.dart';
 import 'screens/profile_screen.dart';
 import 'services/analytics_service.dart';
 import 'services/api_client.dart';
@@ -34,10 +35,12 @@ void main() async {
   final networkService = NetworkService();
   final analyticsService = AnalyticsService();
 
-  // Check profile from local storage only — no network call here.
+  // Check profile and onboarding from local storage — no network call here.
   final hasProfile = await profileService.isProfileComplete();
+  final onboardingSeen = prefs.getBool('onboarding_seen') ?? false;
 
   runApp(CareerPathApp(
+    prefs: prefs,
     profileService: profileService,
     bookmarkService: bookmarkService,
     explorationService: explorationService,
@@ -45,10 +48,12 @@ void main() async {
     networkService: networkService,
     analyticsService: analyticsService,
     hasProfile: hasProfile,
+    onboardingSeen: onboardingSeen,
   ));
 }
 
 class CareerPathApp extends StatelessWidget {
+  final SharedPreferences prefs;
   final ProfileService profileService;
   final BookmarkService bookmarkService;
   final ExplorationService explorationService;
@@ -56,9 +61,11 @@ class CareerPathApp extends StatelessWidget {
   final NetworkService networkService;
   final AnalyticsService analyticsService;
   final bool hasProfile;
+  final bool onboardingSeen;
 
   const CareerPathApp({
     super.key,
+    required this.prefs,
     required this.profileService,
     required this.bookmarkService,
     required this.explorationService,
@@ -66,6 +73,7 @@ class CareerPathApp extends StatelessWidget {
     required this.networkService,
     required this.analyticsService,
     required this.hasProfile,
+    required this.onboardingSeen,
   });
 
   @override
@@ -85,22 +93,52 @@ class CareerPathApp extends StatelessWidget {
               careerDataService: careerDataService,
               analyticsService: analyticsService,
             ),
+        '/profile': (_) => ProfileScreen(
+              profileService: profileService,
+              analyticsService: analyticsService,
+            ),
       },
       home: NetworkAwareWrapper(
         networkService: networkService,
-        child: hasProfile
-            ? HomeScreen(
-                profileService: profileService,
-                bookmarkService: bookmarkService,
-                explorationService: explorationService,
-                careerDataService: careerDataService,
-                analyticsService: analyticsService,
-              )
-            : ProfileScreen(
-                profileService: profileService,
-                analyticsService: analyticsService,
-              ),
+        child: _buildInitialScreen(),
       ),
+    );
+  }
+
+  Widget _buildInitialScreen() {
+    if (hasProfile) {
+      return HomeScreen(
+        profileService: profileService,
+        bookmarkService: bookmarkService,
+        explorationService: explorationService,
+        careerDataService: careerDataService,
+        analyticsService: analyticsService,
+      );
+    }
+    if (!onboardingSeen) {
+      return _OnboardingWrapper(prefs: prefs);
+    }
+    return ProfileScreen(
+      profileService: profileService,
+      analyticsService: analyticsService,
+    );
+  }
+}
+
+class _OnboardingWrapper extends StatelessWidget {
+  final SharedPreferences prefs;
+
+  const _OnboardingWrapper({required this.prefs});
+
+  @override
+  Widget build(BuildContext context) {
+    return OnboardingScreen(
+      onComplete: () async {
+        await prefs.setBool('onboarding_seen', true);
+        if (context.mounted) {
+          Navigator.pushReplacementNamed(context, '/profile');
+        }
+      },
     );
   }
 }
