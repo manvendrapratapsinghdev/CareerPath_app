@@ -52,16 +52,18 @@ class _SuggestionsTabState extends State<SuggestionsTab> {
   void initState() {
     super.initState();
     _loadData();
-    widget.explorationService?.addListener(_onExplorationChanged);
+    widget.explorationService?.addListener(_onServiceChanged);
+    widget.recentlyViewedService?.addListener(_onServiceChanged);
   }
 
   @override
   void dispose() {
-    widget.explorationService?.removeListener(_onExplorationChanged);
+    widget.explorationService?.removeListener(_onServiceChanged);
+    widget.recentlyViewedService?.removeListener(_onServiceChanged);
     super.dispose();
   }
 
-  void _onExplorationChanged() {
+  void _onServiceChanged() {
     if (mounted) setState(() {});
   }
 
@@ -104,6 +106,7 @@ class _SuggestionsTabState extends State<SuggestionsTab> {
           careerDataService: widget.careerDataService,
           bookmarkService: widget.bookmarkService,
           explorationService: widget.explorationService,
+          recentlyViewedService: widget.recentlyViewedService,
           analyticsService: widget.analyticsService,
           nodeId: node.id,
           breadcrumbs: [BreadcrumbEntry(nodeId: node.id, label: node.name)],
@@ -174,15 +177,19 @@ class _SuggestionsTabState extends State<SuggestionsTab> {
       );
     }
 
+    final recentIds = widget.recentlyViewedService?.recentIds ?? [];
+    final hasRecent = recentIds.isNotEmpty;
+
     return RefreshIndicator(
       onRefresh: () => _loadData(forceRefresh: true),
       child: ListView.builder(
         padding: AppSpacing.pagePadding,
-        itemCount: _categories.length + 1,
+        itemCount: _categories.length + 1 + (hasRecent ? 1 : 0),
         itemBuilder: (context, index) {
           if (index == 0) return _buildDashboardHeader();
+          if (hasRecent && index == 1) return _buildRecentlyViewed(recentIds);
 
-          final i = index - 1;
+          final i = index - 1 - (hasRecent ? 1 : 0);
           final node = _categories[i];
           final color = AppColors.accentPalette[i % AppColors.accentPalette.length];
           final icon = _iconPalette[i % _iconPalette.length];
@@ -197,6 +204,77 @@ class _SuggestionsTabState extends State<SuggestionsTab> {
             ),
           );
         },
+      ),
+    );
+  }
+
+  Widget _buildRecentlyViewed(List<String> recentIds) {
+    final colorScheme = Theme.of(context).colorScheme;
+    final resolvedNodes = <CareerNode>[];
+    for (final id in recentIds) {
+      final node = widget.careerDataService.getNodeById(id);
+      if (node != null) resolvedNodes.add(node);
+    }
+    if (resolvedNodes.isEmpty) return const SizedBox.shrink();
+
+    return Padding(
+      padding: const EdgeInsets.only(bottom: AppSpacing.lg),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            'Recently Viewed',
+            style: Theme.of(context).textTheme.titleMedium,
+          ),
+          const SizedBox(height: AppSpacing.sm),
+          SizedBox(
+            height: 80,
+            child: ListView.separated(
+              scrollDirection: Axis.horizontal,
+              itemCount: resolvedNodes.length,
+              separatorBuilder: (_, _) => const SizedBox(width: AppSpacing.sm),
+              itemBuilder: (context, index) {
+                final node = resolvedNodes[index];
+                return ActionChip(
+                  avatar: Icon(
+                    node.isLeaf
+                        ? Icons.work_outline_rounded
+                        : Icons.folder_outlined,
+                    size: 18,
+                    color: colorScheme.primary,
+                  ),
+                  label: SizedBox(
+                    width: 100,
+                    child: Text(
+                      node.name,
+                      maxLines: 2,
+                      overflow: TextOverflow.ellipsis,
+                      style: Theme.of(context).textTheme.labelMedium,
+                    ),
+                  ),
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      SmoothPageRoute(
+                        page: SubOptionScreen(
+                          careerDataService: widget.careerDataService,
+                          bookmarkService: widget.bookmarkService,
+                          explorationService: widget.explorationService,
+                          recentlyViewedService: widget.recentlyViewedService,
+                          analyticsService: widget.analyticsService,
+                          nodeId: node.id,
+                          breadcrumbs: [
+                            BreadcrumbEntry(nodeId: node.id, label: node.name),
+                          ],
+                        ),
+                      ),
+                    );
+                  },
+                );
+              },
+            ),
+          ),
+        ],
       ),
     );
   }
