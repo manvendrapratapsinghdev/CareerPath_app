@@ -8,19 +8,19 @@
 | P0 | Search | Done | `99c85e5` |
 | P1 | Share Career Paths | Done | `d6ae7c7` |
 | P1 | Exploration Progress | Done | `5bc23bc` |
-| P1 | Push Notifications | Pending | Needs FCM backend |
+| ~P1~ | ~Push Notifications~ | Dropped | — |
 | P2 | Better Onboarding Tour | Done | `91df906` |
 | P2 | Career Comparison | Done | `47e2f76` |
 | P2 | Career Quiz | Done | `fbbaad5` |
 | P3 | Dark Mode Toggle | Done | `2790117` |
 | P3 | Offline Saved Paths | Done | `10d7ff2` |
 | P3 | Offline-First SQLite DB | Done | `fca2d96` |
-| P1 | Firebase Analytics | Pending | Re-add with google-services.json |
-| P2 | Rate the App Prompt | Pending | — |
-| P2 | Feedback Form | Pending | — |
-| P2 | Career Path Depth Indicator | Pending | — |
-| P2 | Recently Viewed | Pending | — |
-| P3 | App Localization (Hindi) | Pending | — |
+| P1 | Firebase Analytics | Done | `889548d` |
+| P2 | Rate the App Prompt | Done | `33f7497` |
+| P2 | Feedback Form | Done | `a13c972` |
+| P2 | Career Path Depth Indicator | Done | `2806f80` |
+| P2 | Recently Viewed | Done | `34ffeb1` |
+| P3 | App Localization (10 Indian Languages) | Done | `6d49478` |
 
 ---
 
@@ -90,11 +90,6 @@
 - Configure google-services.json for Android
 - AnalyticsService already stubbed — just needs real Firebase instance
 - Track: screen views, navigation, bookmarks, search, quiz, share events
-
-### Push Notifications (P1)
-- Requires Firebase Cloud Messaging backend setup
-- "New career paths added in Science!"
-- Weekly digest: "Career of the Week"
 
 ### Rate the App Prompt (P2)
 - Show "Rate us" dialog after 5+ sessions or 3+ days of use
