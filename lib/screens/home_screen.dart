@@ -7,6 +7,7 @@ import '../services/analytics_service.dart';
 import '../services/bookmark_service.dart';
 import '../services/career_data_service.dart';
 import '../services/exploration_service.dart';
+import '../services/feedback_service.dart';
 import '../services/rate_prompt_service.dart';
 import '../services/recently_viewed_service.dart';
 import '../services/profile_service.dart';
@@ -25,6 +26,7 @@ class HomeScreen extends StatefulWidget {
   final ExplorationService explorationService;
   final RecentlyViewedService? recentlyViewedService;
   final RatePromptService? ratePromptService;
+  final FeedbackService? feedbackService;
   final CareerDataService careerDataService;
   final AnalyticsService? analyticsService;
   final ThemeService? themeService;
@@ -36,6 +38,7 @@ class HomeScreen extends StatefulWidget {
     required this.explorationService,
     this.recentlyViewedService,
     this.ratePromptService,
+    this.feedbackService,
     required this.careerDataService,
     this.analyticsService,
     this.themeService,
@@ -133,6 +136,7 @@ class _HomeScreenState extends State<HomeScreen> {
           profileService: widget.profileService,
           existingProfile: _profile,
           analyticsService: widget.analyticsService,
+          feedbackService: widget.feedbackService,
           themeService: widget.themeService,
         ),
       ),

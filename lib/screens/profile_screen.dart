@@ -4,13 +4,16 @@ import '../models/profile_data.dart';
 import '../services/analytics_service.dart';
 import 'package:url_launcher/url_launcher.dart';
 
+import '../services/feedback_service.dart';
 import '../services/profile_service.dart';
 import '../services/theme_service.dart';
+import 'feedback_screen.dart';
 
 class ProfileScreen extends StatefulWidget {
   final ProfileService profileService;
   final ProfileData? existingProfile;
   final AnalyticsService? analyticsService;
+  final FeedbackService? feedbackService;
   final ThemeService? themeService;
 
   const ProfileScreen({
@@ -18,6 +21,7 @@ class ProfileScreen extends StatefulWidget {
     required this.profileService,
     this.existingProfile,
     this.analyticsService,
+    this.feedbackService,
     this.themeService,
   });
 
@@ -154,6 +158,12 @@ class _ProfileScreenState extends State<ProfileScreen>
                     if (_isEditing && widget.themeService != null) ...[
                       const SizedBox(height: AppSpacing.xl),
                       _buildThemeSection(),
+                    ],
+
+                    // Feedback button (only when editing)
+                    if (_isEditing && widget.feedbackService != null) ...[
+                      const SizedBox(height: AppSpacing.xl),
+                      _buildFeedbackButton(),
                     ],
                     const SizedBox(height: AppSpacing.xxl),
 
@@ -368,6 +378,30 @@ class _ProfileScreenState extends State<ProfileScreen>
           },
         ),
       ],
+    );
+  }
+
+  Widget _buildFeedbackButton() {
+    final colorScheme = Theme.of(context).colorScheme;
+    return Card(
+      clipBehavior: Clip.antiAlias,
+      child: ListTile(
+        leading: Icon(Icons.feedback_outlined, color: colorScheme.primary),
+        title: const Text('Send Feedback'),
+        subtitle: const Text('Bug reports, feature requests & more'),
+        trailing: Icon(Icons.chevron_right, color: colorScheme.onSurfaceVariant),
+        onTap: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder: (_) => FeedbackScreen(
+                feedbackService: widget.feedbackService!,
+                analyticsService: widget.analyticsService,
+              ),
+            ),
+          );
+        },
+      ),
     );
   }
 

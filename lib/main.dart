@@ -123,6 +123,7 @@ class CareerPathApp extends StatelessWidget {
               explorationService: explorationService,
               recentlyViewedService: recentlyViewedService,
               ratePromptService: ratePromptService,
+              feedbackService: feedbackService,
               careerDataService: careerDataService,
               analyticsService: analyticsService,
               themeService: themeService,
