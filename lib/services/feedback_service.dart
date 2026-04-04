@@ -3,7 +3,7 @@ import 'package:url_launcher/url_launcher.dart';
 import '../models/feedback_data.dart';
 
 class FeedbackService {
-  static const _feedbackEmail = 'feedback@tacrotech.com';
+  static const _feedbackEmail = 'iosmanvendra@gmail.com';
 
   Uri buildMailtoUri(FeedbackData data) {
     final subject = 'CareerPath Feedback: ${data.category.label}';
