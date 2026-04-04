@@ -12,6 +12,7 @@ import '../widgets/page_transitions.dart';
 import 'bookmarks_tab.dart';
 import 'explore_tab.dart';
 import 'profile_screen.dart';
+import 'quiz_screen.dart';
 import 'search_screen.dart';
 import 'suggestions_tab.dart';
 
@@ -134,6 +135,16 @@ class _HomeScreenState extends State<HomeScreen> {
             },
             icon: const Icon(Icons.search_rounded),
             tooltip: 'Search',
+          ),
+          IconButton(
+            onPressed: () {
+              Navigator.push(
+                context,
+                SmoothPageRoute(page: const QuizScreen()),
+              );
+            },
+            icon: const Icon(Icons.psychology_rounded),
+            tooltip: 'Career Quiz',
           ),
           Padding(
             padding: const EdgeInsets.only(right: AppSpacing.md),
