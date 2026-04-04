@@ -14,6 +14,13 @@
 | P2 | Career Quiz | Done | `fbbaad5` |
 | P3 | Dark Mode Toggle | Done | `2790117` |
 | P3 | Offline Saved Paths | Done | `10d7ff2` |
+| P3 | Offline-First SQLite DB | Done | `fca2d96` |
+| P1 | Firebase Analytics | Pending | Re-add with google-services.json |
+| P2 | Rate the App Prompt | Pending | — |
+| P2 | Feedback Form | Pending | — |
+| P2 | Career Path Depth Indicator | Pending | — |
+| P2 | Recently Viewed | Pending | — |
+| P3 | App Localization (Hindi) | Pending | — |
 
 ---
 
@@ -63,17 +70,57 @@
 - System / Light / Dark segmented button in profile edit screen
 - Reactive theme switching via ListenableBuilder
 
----
-
-## Remaining Features
-
-### Push Notifications (P1) — Pending
-- Requires Firebase Cloud Messaging backend setup
-- "New career paths added in Science!"
-- Weekly digest: "Career of the Week"
-
 ### 9. Offline Access for Saved Paths
 - LeafDetailsCache stores details JSON in SharedPreferences
 - Auto-caches when details load for bookmarked nodes
 - Falls back to cache when API fails (offline)
-- Cache removed when bookmark is removed
+
+### 10. Offline-First SQLite DB
+- Bundled 2MB career_path.db in assets
+- LocalDatabase + LocalDataSource replaces API calls
+- Eager-loads all 380 nodes on startup
+- DataSource abstraction for API/local swap
+
+---
+
+## Remaining Features
+
+### Firebase Analytics (P1)
+- Re-add firebase_core + firebase_analytics packages
+- Configure google-services.json for Android
+- AnalyticsService already stubbed — just needs real Firebase instance
+- Track: screen views, navigation, bookmarks, search, quiz, share events
+
+### Push Notifications (P1)
+- Requires Firebase Cloud Messaging backend setup
+- "New career paths added in Science!"
+- Weekly digest: "Career of the Week"
+
+### Rate the App Prompt (P2)
+- Show "Rate us" dialog after 5+ sessions or 3+ days of use
+- Track session count in SharedPreferences
+- Link to Play Store listing
+- "Not now" and "Don't ask again" options
+
+### Feedback Form (P2)
+- In-app feedback form accessible from profile/settings
+- Fields: rating (stars), category (bug/feature/other), message
+- Submit via email intent or backend API
+- Optional screenshot attachment
+
+### Career Path Depth Indicator (P2)
+- Visual indicator showing current depth in the career tree
+- Breadcrumb enhancement: show "Level 3 of 5" or step dots
+- Helps users understand how deep the exploration goes
+
+### Recently Viewed (P2)
+- Track last 10-15 visited career nodes
+- "Recently Viewed" section on home screen (horizontal scroll)
+- Persisted in SharedPreferences
+- Quick access to resume exploration
+
+### App Localization — Hindi (P3)
+- Use Flutter's intl/l10n system
+- Translate: UI labels, onboarding text, quiz questions
+- Career data stays in English (from backend)
+- Language toggle in profile/settings
