@@ -327,6 +327,31 @@ class CareerDataService {
         .toList();
   }
 
+  // ── depth computation ──────────────────────────────────────────────────────
+
+  /// Returns the maximum depth from [nodeId] to any leaf descendant.
+  /// Returns 0 for leaf nodes, null if the node doesn't exist or tree
+  /// is incomplete (API mode with unfetched children).
+  int? getMaxDepthFrom(String nodeId) {
+    if (!isLocal) return null;
+    final node = _nodesMap[nodeId];
+    if (node == null) return null;
+    return _depthDfs(nodeId, <String>{});
+  }
+
+  int _depthDfs(String nodeId, Set<String> visited) {
+    if (visited.contains(nodeId)) return 0;
+    visited.add(nodeId);
+    final node = _nodesMap[nodeId];
+    if (node == null || node.childIds.isEmpty) return 0;
+    int maxChild = 0;
+    for (final childId in node.childIds) {
+      final d = _depthDfs(childId, visited);
+      if (d > maxChild) maxChild = d;
+    }
+    return maxChild + 1;
+  }
+
   // ── resource accessors ─────────────────────────────────────────────────────
 
   /// Get a book by its API ID.
