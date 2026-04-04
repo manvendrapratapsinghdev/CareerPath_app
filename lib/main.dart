@@ -1,4 +1,3 @@
-import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -12,7 +11,6 @@ import 'data/profile_repository.dart';
 import 'screens/home_screen.dart';
 import 'screens/onboarding_screen.dart';
 import 'screens/profile_screen.dart';
-import 'services/analytics_service.dart';
 import 'services/bookmark_service.dart';
 import 'services/career_data_service.dart';
 import 'services/exploration_service.dart';
@@ -23,11 +21,6 @@ import 'widgets/network_aware_wrapper.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  try {
-    await Firebase.initializeApp();
-  } catch (_) {
-    // Firebase not configured yet — analytics will be no-op.
-  }
 
   final prefs = await SharedPreferences.getInstance();
   final profileRepo = ProfileRepository(prefs);
@@ -35,11 +28,11 @@ void main() async {
   final leafDetailsCache = LeafDetailsCache(prefs);
   final bookmarkService = BookmarkService(BookmarkRepository(prefs), leafDetailsCache);
   final explorationService = ExplorationService(ExplorationRepository(prefs));
+
   final localDb = LocalDatabase();
   await localDb.init();
   final careerDataService = CareerDataService(LocalDataSource(localDb));
   final networkService = NetworkService();
-  final analyticsService = AnalyticsService();
   final themeService = ThemeService(prefs);
 
   // Check profile and onboarding from local storage — no network call here.
@@ -53,7 +46,6 @@ void main() async {
     explorationService: explorationService,
     careerDataService: careerDataService,
     networkService: networkService,
-    analyticsService: analyticsService,
     themeService: themeService,
     hasProfile: hasProfile,
     onboardingSeen: onboardingSeen,
@@ -67,7 +59,6 @@ class CareerPathApp extends StatelessWidget {
   final ExplorationService explorationService;
   final CareerDataService careerDataService;
   final NetworkService networkService;
-  final AnalyticsService analyticsService;
   final ThemeService themeService;
   final bool hasProfile;
   final bool onboardingSeen;
@@ -80,7 +71,6 @@ class CareerPathApp extends StatelessWidget {
     required this.explorationService,
     required this.careerDataService,
     required this.networkService,
-    required this.analyticsService,
     required this.themeService,
     required this.hasProfile,
     required this.onboardingSeen,
@@ -96,19 +86,16 @@ class CareerPathApp extends StatelessWidget {
       theme: AppTheme.light,
       darkTheme: AppTheme.dark,
       themeMode: themeService.themeMode,
-      navigatorObservers: [analyticsService.observer],
       routes: {
         '/home': (_) => HomeScreen(
               profileService: profileService,
               bookmarkService: bookmarkService,
               explorationService: explorationService,
               careerDataService: careerDataService,
-              analyticsService: analyticsService,
               themeService: themeService,
             ),
         '/profile': (_) => ProfileScreen(
               profileService: profileService,
-              analyticsService: analyticsService,
             ),
       },
       home: NetworkAwareWrapper(
@@ -126,7 +113,7 @@ class CareerPathApp extends StatelessWidget {
         bookmarkService: bookmarkService,
         explorationService: explorationService,
         careerDataService: careerDataService,
-        analyticsService: analyticsService,
+        themeService: themeService,
       );
     }
     if (!onboardingSeen) {
@@ -134,7 +121,6 @@ class CareerPathApp extends StatelessWidget {
     }
     return ProfileScreen(
       profileService: profileService,
-      analyticsService: analyticsService,
     );
   }
 }

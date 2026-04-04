@@ -128,13 +128,20 @@ class CareerDataService {
   Future<void> _eagerLoadAllNodes() async {
     final allNodes = await (_api as LocalDataSource).getAllNodes();
 
-    // Build apiId→slug reverse lookup (O(1) per lookup instead of O(n))
-    final apiIdToSlug = <int, String>{};
+    // Build stream apiId→slug lookup from _slugToApiId (populated by initialize())
+    final streamIdToSlug = <int, String>{};
+    for (final s in _streams) {
+      final apiId = _slugToApiId[s.id];
+      if (apiId != null) streamIdToSlug[apiId] = s.id;
+    }
+
+    // Build node apiId→slug reverse lookup
+    final nodeIdToSlug = <int, String>{};
     for (final n in allNodes) {
       final slug = n['slug'] as String;
       final apiId = n['id'] as int;
       _slugToApiId[slug] = apiId;
-      apiIdToSlug[apiId] = slug;
+      nodeIdToSlug[apiId] = slug;
     }
 
     // Build stream categoryIds collectors
@@ -146,7 +153,7 @@ class CareerDataService {
       final childIds = (n['child_ids'] as List? ?? []);
       final childSlugs = <String>[];
       for (final cid in childIds) {
-        final cs = apiIdToSlug[cid as int];
+        final cs = nodeIdToSlug[cid as int];
         if (cs != null) childSlugs.add(cs);
       }
 
@@ -161,7 +168,7 @@ class CareerDataService {
 
       // Collect root nodes per stream
       if (n['parent_id'] == null) {
-        final streamSlug = apiIdToSlug[n['stream_id'] as int];
+        final streamSlug = streamIdToSlug[n['stream_id'] as int];
         if (streamSlug != null) {
           (streamCategories[streamSlug] ??= []).add(slug);
         }

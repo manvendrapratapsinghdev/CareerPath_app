@@ -127,7 +127,7 @@ class _SuggestionsTabState extends State<SuggestionsTab> {
   }
 
   Widget _buildLoadingState() {
-    return Padding(
+    return SingleChildScrollView(
       padding: AppSpacing.pagePadding,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,

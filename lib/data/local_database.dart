@@ -2,30 +2,28 @@ import 'dart:io';
 
 import 'package:flutter/services.dart';
 import 'package:path/path.dart' as p;
-import 'package:path_provider/path_provider.dart';
 import 'package:sqflite/sqflite.dart';
 
 /// Manages the bundled SQLite database lifecycle.
-/// Copies from assets on first launch, opens read-only for queries.
+/// Always copies from assets to ensure latest data.
 class LocalDatabase {
   Database? _db;
 
   static const _assetPath = 'assets/data/career_path.db';
   static const _dbFileName = 'career_path.db';
 
-  /// Copies the asset DB to the documents directory (if needed) and opens it.
   Future<void> init() async {
-    final dir = await getApplicationDocumentsDirectory();
-    final dbPath = p.join(dir.path, _dbFileName);
+    final dbDir = await getDatabasesPath();
+    final dbPath = p.join(dbDir, _dbFileName);
 
-    if (!File(dbPath).existsSync()) {
-      final data = await rootBundle.load(_assetPath);
-      final bytes = data.buffer.asUint8List(
-        data.offsetInBytes,
-        data.lengthInBytes,
-      );
-      await File(dbPath).writeAsBytes(bytes, flush: true);
-    }
+    // Always copy from assets to ensure latest DB
+    await Directory(dbDir).create(recursive: true);
+    final data = await rootBundle.load(_assetPath);
+    final bytes = data.buffer.asUint8List(
+      data.offsetInBytes,
+      data.lengthInBytes,
+    );
+    await File(dbPath).writeAsBytes(bytes, flush: true);
 
     _db = await openDatabase(dbPath, readOnly: true);
   }

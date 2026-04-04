@@ -120,6 +120,9 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                   // Next / Get Started
                   FilledButton(
                     onPressed: _next,
+                    style: FilledButton.styleFrom(
+                      minimumSize: const Size(120, 44),
+                    ),
                     child: Text(isLast ? 'Get Started' : 'Next'),
                   ),
                 ],
