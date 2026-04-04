@@ -1,5 +1,6 @@
 import 'package:flutter/foundation.dart';
 
+import '../data/local_data_source.dart';
 import '../models/book.dart';
 import '../models/career_node.dart';
 import '../models/institute.dart';
@@ -7,6 +8,7 @@ import '../models/job_sector.dart';
 import '../models/leaf_details.dart';
 import '../models/stream_model.dart';
 import 'api_client.dart';
+import 'data_source.dart';
 
 /// Fetches all career data from the backend API and caches it in memory.
 ///
@@ -17,7 +19,7 @@ import 'api_client.dart';
 /// The new [getLeafDetails] method performs a single async API call to
 /// retrieve rich data (books / institutes / job sectors) for a leaf node.
 class CareerDataService {
-  final ApiClient _api;
+  final DataSource _api;
 
   List<StreamModel> _streams = [];
   Map<String, CareerNode> _nodesMap = {};
@@ -29,6 +31,8 @@ class CareerDataService {
   final Map<String, int> _slugToApiId = {};
 
   CareerDataService(this._api);
+
+  bool get isLocal => _api is LocalDataSource;
 
   // ── initialisation ─────────────────────────────────────────────────────────
 
@@ -48,7 +52,10 @@ class CareerDataService {
     _slugToApiId.clear();
     _fetchedStreamCategories.clear();
     _fetchedChildren.clear();
-    if (clearHttpCache) _api.clearCache();
+    if (clearHttpCache) {
+      final api = _api;
+      if (api is ApiClient) api.clearCache();
+    }
   }
 
   bool get isInitialized => _streams.isNotEmpty;
@@ -107,9 +114,88 @@ class CareerDataService {
         name: s['name'] as String,
         intro: s['intro'] as String?,
         rootNodeCount: (s['root_node_ids'] as List).length,
-        categoryIds: [], // populated lazily via fetchStreamCategories()
+        categoryIds: [], // populated lazily or eagerly below
       );
     }).toList();
+
+    // Eager-load all nodes when using local database
+    if (_api is LocalDataSource) {
+      await _eagerLoadAllNodes();
+    }
+  }
+
+  /// Loads all 380 nodes at once from the local database.
+  /// Populates _nodesMap, _slugToApiId, stream categoryIds, and child links.
+  Future<void> _eagerLoadAllNodes() async {
+    final allNodes =
+        await (_api as LocalDataSource).getAllNodes();
+
+    // First pass: create all nodes and slug→id mappings
+    for (final n in allNodes) {
+      final slug = n['slug'] as String;
+      final apiId = n['id'] as int;
+      _slugToApiId[slug] = apiId;
+      _nodesMap[slug] = CareerNode(
+        id: slug,
+        name: n['name'] as String,
+        intro: n['intro'] as String?,
+        childCount: (n['child_ids'] as List? ?? []).length,
+      );
+    }
+
+    // Second pass: wire up childIds and stream categoryIds
+    for (final n in allNodes) {
+      final slug = n['slug'] as String;
+      final childSlugs = <String>[];
+      for (final childId in (n['child_ids'] as List? ?? [])) {
+        // Find slug for this child API id
+        final childSlug = _slugToApiId.entries
+            .where((e) => e.value == childId)
+            .map((e) => e.key)
+            .firstOrNull;
+        if (childSlug != null) childSlugs.add(childSlug);
+      }
+
+      if (childSlugs.isNotEmpty) {
+        final existing = _nodesMap[slug]!;
+        _nodesMap[slug] = CareerNode(
+          id: existing.id,
+          name: existing.name,
+          intro: existing.intro,
+          childIds: childSlugs,
+          childCount: existing.childCount,
+        );
+      }
+
+      // If root node (no parent), add to stream's categoryIds
+      if (n['parent_id'] == null) {
+        final streamId = n['stream_id'] as int;
+        final streamSlug = _slugToApiId.entries
+            .where((e) => e.value == streamId)
+            .map((e) => e.key)
+            .firstOrNull;
+        if (streamSlug != null) {
+          final idx = _streams.indexWhere((s) => s.id == streamSlug);
+          if (idx >= 0 &&
+              !_streams[idx].categoryIds.contains(slug)) {
+            _streams[idx] = StreamModel(
+              id: _streams[idx].id,
+              name: _streams[idx].name,
+              intro: _streams[idx].intro,
+              rootNodeCount: _streams[idx].rootNodeCount,
+              categoryIds: [..._streams[idx].categoryIds, slug],
+            );
+          }
+        }
+      }
+
+      _fetchedChildren.add(slug);
+    }
+
+    // Mark all streams as fetched
+    for (final s in _streams) {
+      _fetchedStreamCategories.add(s.id);
+    }
   }
 
   // ── lazy loaders ───────────────────────────────────────────────────────────
@@ -282,7 +368,8 @@ class CareerDataService {
     } on ApiException catch (e) {
       if (e.statusCode == 404) return null;
       throw const ServerDownException();
-    } catch (_) {
+    } on Exception {
+      if (_api is LocalDataSource) rethrow;
       throw const ServerDownException();
     }
   }
