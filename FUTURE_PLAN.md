@@ -1,116 +1,77 @@
 # CareerPath — Future Plan
 
-## Current State
-
-The app is a solid career exploration tool — clean UI, smooth navigation, hierarchical browsing, and personalized suggestions. But it's essentially a read-only information viewer with no reason for users to come back after their first session. The features below aim to fix that.
-
----
-
 ## Priority Roadmap
 
-| Priority | Feature | Effort | Impact |
+| Priority | Feature | Status | Commit |
 |----------|---------|--------|--------|
-| P0 | Bookmarks / Save Paths | Small | High |
-| P0 | Search | Medium | High |
-| P1 | Share Career Paths | Small | High |
-| P1 | Exploration Progress | Small | Medium |
-| P1 | Push Notifications | Medium | High |
-| P2 | Career Quiz | Large | Very High |
-| P2 | Career Comparison | Medium | Medium |
-| P2 | Better Onboarding Tour | Small | Medium |
-| P3 | Dark Mode Toggle | Small | Low |
-| P3 | Offline Saved Paths | Medium | Medium |
+| P0 | Bookmarks / Save Paths | Done | `26a99f8` |
+| P0 | Search | Done | `99c85e5` |
+| P1 | Share Career Paths | Done | `d6ae7c7` |
+| P1 | Exploration Progress | Done | `5bc23bc` |
+| P1 | Push Notifications | Pending | Needs FCM backend |
+| P2 | Better Onboarding Tour | Done | `91df906` |
+| P2 | Career Comparison | Done | `47e2f76` |
+| P2 | Career Quiz | Done | `fbbaad5` |
+| P3 | Dark Mode Toggle | Done | `2790117` |
+| P3 | Offline Saved Paths | Pending | — |
 
 ---
 
-## P0 — Must Have
+## Completed Features
 
 ### 1. Bookmarks / Save Career Paths
-
-Users discover a career path they like but have no way to save it. Next time they open the app, they have to navigate the whole tree again.
-
-- Add a bookmark icon on leaf nodes
-- "Saved Paths" section on the home screen
-- Local storage (SharedPreferences) — no backend changes needed
+- Bookmark icon on leaf career nodes in AppBar
+- "Saved" tab in bottom navigation
+- SharedPreferences persistence via BookmarkRepository + BookmarkService
+- ChangeNotifier pattern for real-time UI updates
 
 ### 2. Search
-
-Users currently must drill through 3-5 levels of hierarchy to find anything. A search bar on the home screen that searches across all career nodes, institutes, and books would dramatically improve usability.
-
-- Search by career name, institute, or book title
-- Show results grouped by type
-- Uses existing `/api/` endpoints or client-side filtering
-
----
-
-## P1 — High Value
+- SearchScreen with debounced text input (300ms)
+- Client-side search across all loaded CareerNode objects
+- 50-result cap, accessible from search icon in AppBar
 
 ### 3. Share Career Paths
-
-Let users share a career path summary (name + intro + top institutes) via WhatsApp, Instagram, etc. This is free organic marketing — students share with friends.
-
-- Share button on leaf detail view
-- Use Flutter's `share_plus` package
-- Generate a formatted text snippet
+- Share icon on leaf detail screens (next to bookmark)
+- Formats career name, intro, top institutes, and job sectors
+- Uses share_plus for native sharing
 
 ### 4. Exploration Progress Tracker
+- ExplorationRepository + ExplorationService tracking visited nodes
+- Progress bar on SuggestionsTab dashboard ("X of Y explored")
+- Auto-marks nodes visited when SubOptionScreen opens
 
-Show users how much of their stream they've explored.
+### 5. Better Onboarding Tour
+- 3-screen swipeable intro on first launch
+- Explore Paths → Save & Compare → Find Your Future
+- Skip button, animated page indicators
+- Persists onboarding_seen flag
 
-- "You've explored 4/18 Science careers"
-- Progress bar per stream on the home screen
-- Track visited leaf nodes locally
-- Encourages completionist behavior
+### 6. Career Comparison
+- Compare mode in Saved tab (checkbox selection, 2-3 paths)
+- Side-by-side CompareScreen showing institutes, job sectors, books
+- Loads leaf details in parallel
 
-### 5. Push Notifications
+### 7. Career Quiz / Assessment
+- 8-question personality/interest quiz
+- Maps answers to 14 career categories via weighted scoring
+- Top 3 results with specific career suggestions
+- Shareable results, retake option
+- Accessible from brain icon in AppBar
 
+### 8. Dark Mode Toggle
+- ThemeService backed by SharedPreferences
+- System / Light / Dark segmented button in profile edit screen
+- Reactive theme switching via ListenableBuilder
+
+---
+
+## Remaining Features
+
+### Push Notifications (P1)
+- Requires Firebase Cloud Messaging backend setup
 - "New career paths added in Science!"
-- "Did you know about Marine Biology? Explore now"
 - Weekly digest: "Career of the Week"
-- Uses Firebase Cloud Messaging (Firebase already integrated)
 
----
-
-## P2 — Differentiators
-
-### 6. Career Quiz / Assessment
-
-A short personality/interest quiz that recommends career paths. Quizzes are inherently shareable — "I got Data Scientist! What did you get?"
-
-- 5-10 questions
-- Map answers to career leaf nodes
-- Shareable result card
-
-### 7. Career Comparison
-
-Let users select 2-3 career paths and compare them side-by-side — institutes, job sectors, required skills. No competing app does this well for Indian students.
-
-### 8. Better Onboarding Tour
-
-Current onboarding is name + stream only. Improve with:
-
-- A quick 3-screen app tour (swipeable) showing key features
-- "What interests you?" tags (technology, healthcare, creative arts) for better personalization beyond just stream
-
----
-
-## P3 — Nice to Have
-
-### 9. Dark Mode Toggle
-
-The app follows system theme but has no manual toggle. Many students prefer dark mode — give them control in the profile screen.
-
-### 10. Offline Access for Saved Paths
-
-Cache bookmarked career details locally so users can read them without internet. Important for students in areas with unreliable connectivity.
-
----
-
-## How We Work
-
-Pick one feature at a time. For each:
-
-1. Finalize requirements
-2. Design and implement
-3. Test and commit
-4. Move on to the next
+### Offline Access for Saved Paths (P3)
+- Cache bookmarked career leaf details locally
+- Important for unreliable connectivity areas
