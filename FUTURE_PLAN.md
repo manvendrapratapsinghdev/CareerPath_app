@@ -13,7 +13,7 @@
 | P2 | Career Comparison | Done | `47e2f76` |
 | P2 | Career Quiz | Done | `fbbaad5` |
 | P3 | Dark Mode Toggle | Done | `2790117` |
-| P3 | Offline Saved Paths | Pending | — |
+| P3 | Offline Saved Paths | Done | `10d7ff2` |
 
 ---
 
@@ -67,11 +67,13 @@
 
 ## Remaining Features
 
-### Push Notifications (P1)
+### Push Notifications (P1) — Pending
 - Requires Firebase Cloud Messaging backend setup
 - "New career paths added in Science!"
 - Weekly digest: "Career of the Week"
 
-### Offline Access for Saved Paths (P3)
-- Cache bookmarked career leaf details locally
-- Important for unreliable connectivity areas
+### 9. Offline Access for Saved Paths
+- LeafDetailsCache stores details JSON in SharedPreferences
+- Auto-caches when details load for bookmarked nodes
+- Falls back to cache when API fails (offline)
+- Cache removed when bookmark is removed
