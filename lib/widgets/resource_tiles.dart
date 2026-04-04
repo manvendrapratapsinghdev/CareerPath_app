@@ -121,56 +121,54 @@ class BookTile extends StatelessWidget {
     final hasUrl = uri != null && uri.hasScheme && uri.host.isNotEmpty;
 
     return ResourceTileWrapper(
-      child: Row(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Container(
-            width: 32,
-            height: 32,
-            decoration: BoxDecoration(
-              color: color.withValues(alpha: 0.08),
-              borderRadius: AppRadius.smAll,
+      child: InkWell(
+        onTap: hasUrl ? () => _openBook(context) : null,
+        borderRadius: AppRadius.smAll,
+        child: Row(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Container(
+              width: 32,
+              height: 32,
+              decoration: BoxDecoration(
+                color: color.withValues(alpha: 0.08),
+                borderRadius: AppRadius.smAll,
+              ),
+              child: const Icon(Icons.book_rounded, size: 16, color: color),
             ),
-            child: const Icon(Icons.book_rounded, size: 16, color: color),
-          ),
-          const SizedBox(width: AppSpacing.md),
-          Expanded(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(
-                  book.title,
-                  style: Theme.of(context).textTheme.titleSmall,
-                ),
-                if (book.author != null) ...[
-                  const SizedBox(height: 2),
+            const SizedBox(width: AppSpacing.md),
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
                   Text(
-                    AppLocalizations.of(context)!.common_byAuthor(book.author!),
-                    style: Theme.of(context).textTheme.bodySmall,
+                    book.title,
+                    style: Theme.of(context).textTheme.titleSmall,
                   ),
+                  if (book.author != null) ...[
+                    const SizedBox(height: 2),
+                    Text(
+                      AppLocalizations.of(context)!.common_byAuthor(book.author!),
+                      style: Theme.of(context).textTheme.bodySmall,
+                    ),
+                  ],
+                  if (book.description != null &&
+                      book.description!.isNotEmpty) ...[
+                    const SizedBox(height: AppSpacing.xs),
+                    Text(
+                      book.description!,
+                      style: Theme.of(context).textTheme.bodySmall,
+                      maxLines: 2,
+                      overflow: TextOverflow.ellipsis,
+                    ),
+                  ],
                 ],
-                if (book.description != null &&
-                    book.description!.isNotEmpty) ...[
-                  const SizedBox(height: AppSpacing.xs),
-                  Text(
-                    book.description!,
-                    style: Theme.of(context).textTheme.bodySmall,
-                    maxLines: 2,
-                    overflow: TextOverflow.ellipsis,
-                  ),
-                ],
-              ],
+              ),
             ),
-          ),
-          if (hasUrl)
-            IconButton(
-              onPressed: () => _openBook(context),
-              icon: const Icon(Icons.chevron_right_rounded, color: color),
-              tooltip: AppLocalizations.of(context)!.common_viewBook,
-              constraints: const BoxConstraints(minWidth: 36, minHeight: 36),
-              padding: EdgeInsets.zero,
-            ),
-        ],
+            if (hasUrl)
+              const Icon(Icons.chevron_right_rounded, color: color, size: 20),
+          ],
+        ),
       ),
     );
   }
@@ -199,54 +197,52 @@ class InstituteTile extends StatelessWidget {
     final hasWebsite = institute.website != null && institute.website!.isNotEmpty;
 
     return ResourceTileWrapper(
-      child: Row(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Container(
-            width: 32,
-            height: 32,
-            decoration: BoxDecoration(
-              color: color.withValues(alpha: 0.08),
-              borderRadius: AppRadius.smAll,
+      child: InkWell(
+        onTap: hasWebsite ? () => _openWebsite(context) : null,
+        borderRadius: AppRadius.smAll,
+        child: Row(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Container(
+              width: 32,
+              height: 32,
+              decoration: BoxDecoration(
+                color: color.withValues(alpha: 0.08),
+                borderRadius: AppRadius.smAll,
+              ),
+              child: const Icon(Icons.location_city_rounded, size: 16, color: color),
             ),
-            child: const Icon(Icons.location_city_rounded, size: 16, color: color),
-          ),
-          const SizedBox(width: AppSpacing.md),
-          Expanded(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(
-                  institute.name,
-                  style: Theme.of(context).textTheme.titleSmall,
-                ),
-                if (institute.city != null) ...[
-                  const SizedBox(height: 2),
-                  Text(institute.city!,
-                      style: Theme.of(context).textTheme.bodySmall),
-                ],
-                if (institute.description != null &&
-                    institute.description!.isNotEmpty) ...[
-                  const SizedBox(height: AppSpacing.xs),
+            const SizedBox(width: AppSpacing.md),
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
                   Text(
-                    institute.description!,
-                    style: Theme.of(context).textTheme.bodySmall,
-                    maxLines: 2,
-                    overflow: TextOverflow.ellipsis,
+                    institute.name,
+                    style: Theme.of(context).textTheme.titleSmall,
                   ),
+                  if (institute.city != null) ...[
+                    const SizedBox(height: 2),
+                    Text(institute.city!,
+                        style: Theme.of(context).textTheme.bodySmall),
+                  ],
+                  if (institute.description != null &&
+                      institute.description!.isNotEmpty) ...[
+                    const SizedBox(height: AppSpacing.xs),
+                    Text(
+                      institute.description!,
+                      style: Theme.of(context).textTheme.bodySmall,
+                      maxLines: 2,
+                      overflow: TextOverflow.ellipsis,
+                    ),
+                  ],
                 ],
-              ],
+              ),
             ),
-          ),
-          if (hasWebsite)
-            IconButton(
-              onPressed: () => _openWebsite(context),
-              icon: const Icon(Icons.chevron_right_rounded, color: color),
-              tooltip: AppLocalizations.of(context)!.common_visitWebsite,
-              constraints: const BoxConstraints(minWidth: 36, minHeight: 36),
-              padding: EdgeInsets.zero,
-            ),
-        ],
+            if (hasWebsite)
+              const Icon(Icons.chevron_right_rounded, color: color, size: 20),
+          ],
+        ),
       ),
     );
   }
