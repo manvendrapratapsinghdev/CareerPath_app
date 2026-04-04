@@ -32,46 +32,45 @@
 7. **Run `flutter analyze` before committing** — zero warnings policy
 8. **Run `flutter test` before committing** — all tests must pass
 
-## Agent Workflows
+## Multi-Agent Development Pipeline
 
-### Large Tasks (multi-feature, broad requests)
+Full pipeline definition: `.claude/agents/system.md`
 
-1. **GLOBAL REQUIREMENT** (once) → understand full vision → break into sub-tasks → present to user → WAIT for approval
-2. **Sub-task 1**: Design → Dev → Review → Git ✅
-3. **Sub-task 2**: Design → Dev → Review → Git ✅
-4. **Sub-task N**: Design → Dev → Review → Git ✅
+### 7 Agents with Strict Gating + Retry Loops
 
-Each sub-task gets its own commit. Never start the next until the current one is committed.
+| Agent | Prompt File | Role |
+|-------|-------------|------|
+| RequirementAgent | `.claude/agents/requirement.md` | Raw input → structured spec |
+| TaskBreakdownAgent | `.claude/agents/task_breakdown.md` | Spec → atomic tasks |
+| DeveloperAgent | `.claude/agents/feature.md` | Writes/revises code |
+| ReviewAgent | `.claude/agents/review.md` | Code quality check (loop until PASS) |
+| QAAgent | `.claude/agents/qa.md` | Tests + validation (loop until PASS) |
+| CommitAgent | `.claude/agents/commit.md` | Gated commit (review=PASS AND qa=PASS) |
+| TeamLead | Orchestrator (main context) | Retry loops, gating, state tracking |
 
-### Small Tasks (single feature/fix)
+### Execution Flow
 
-When asked to implement a feature, follow this sequence:
+```
+User Request
+  → RequirementAgent → structured spec
+  → TaskBreakdownAgent → ordered task list
+  → For each task:
+      → DeveloperAgent → code
+      → ReviewAgent → loop until PASS (max 3)
+      → QAAgent → loop until PASS (max 3)
+      → CommitAgent → commit ✅
+  → Next task (only after previous committed)
+  → All done → summary report
+```
 
-### 1. Requirements Phase
-- Clarify ambiguous requirements before writing code
-- Define acceptance criteria as testable assertions
-- Identify which existing files will be modified vs new files needed
+### Control Rules
+1. **No task starts until previous task is COMMITTED**
+2. **Review must PASS before QA runs**
+3. **QA must PASS before Commit runs**
+4. **3 retry failures → escalate to user**
+5. **Each task gets its own commit — no monolithic commits**
 
-### 2. Design Phase
-- Determine which layer(s) are affected (model/data/service/screen/widget)
-- Plan API endpoint additions (if any) in ApiUrls
-- Plan navigation changes (if any)
-- Ensure design follows existing patterns
-
-### 3. Implementation Phase
-- Models first → Data layer → Services → Screens (bottom-up)
-- Generate tests alongside implementation
-- Run `flutter analyze` after each file change
-- Run `flutter test` after implementation complete
-
-### 4. Review Phase
-- Check for large widgets (>200 lines) — extract sub-widgets
-- Check for deep nesting (>5 levels) — flatten
-- Check for missing error handling on API calls
-- Check for missing null safety
-- Verify test coverage for new code
-
-### 5. Git Phase
+### Git Phase
 - Branch naming: `feature/<name>`, `fix/<name>`, `refactor/<name>`
 - Commit messages: conventional commits (feat:, fix:, refactor:, test:, chore:)
 - One logical change per commit

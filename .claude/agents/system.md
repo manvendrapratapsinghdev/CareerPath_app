@@ -1,128 +1,210 @@
-# CareerPath Multi-Agent Development System
+# CareerPath Multi-Agent Development Pipeline
 
-## System Architecture
-
-```
-┌─────────────────────────────────────────────────────────┐
-│                    USER REQUEST                          │
-└─────────────────────┬───────────────────────────────────┘
-                      │
-┌─────────────────────▼───────────────────────────────────┐
-│              ORCHESTRATOR (Main Claude)                   │
-│                                                          │
-│  ┌──────────────┐  ┌──────────┐  ┌───────────────────┐  │
-│  │ Task Registry │  │ State    │  │ Permission Check  │  │
-│  │ (TaskCreate)  │  │ Manager  │  │ (CLAUDE.md rules) │  │
-│  └──────────────┘  └──────────┘  └───────────────────┘  │
-└──┬────┬────┬────┬────┬──────────────────────────────────┘
-   │    │    │    │    │
-   ▼    ▼    ▼    ▼    ▼
-┌────┐┌────┐┌────┐┌────┐┌────┐
-│ R  ││ D  ││ Dev││ QA ││ Git│  ← Sub-agents (Agent tool)
-│ E  ││ E  ││    ││    ││    │
-│ Q  ││ S  ││    ││    ││    │
-└────┘└────┘└────┘└────┘└────┘
-```
-
-## How It Works in Practice
-
-This system uses Claude Code's REAL capabilities:
-- **Orchestrator** = Main conversation (you, Claude)
-- **Agents** = Sub-agents via `Agent` tool with specialized prompts
-- **Task tracking** = `TaskCreate`/`TaskUpdate` tools
-- **Background jobs** = `run_in_background` parameter
-- **Shared memory** = CLAUDE.md + memory files
-- **Permission gate** = settings.local.json + CLAUDE.md rules
-
-## Execution Protocol
-
-### For Large/Multi-Feature Tasks (MANDATORY)
-```
-Phase 0 — GLOBAL REQUIREMENT (once):
-  1. Understand the full vision/goal
-  2. Break into independent sub-tasks (each deliverable on its own)
-  3. Present sub-task list to user → WAIT for approval before proceeding
-  4. Create a task for each sub-task
-
-Phase 1..N — Execute each sub-task sequentially:
-  Sub-task N:
-    a. Design  → architecture plan for this sub-task
-    b. Dev     → implement, run analyze + test
-    c. Review  → run QA checklist
-    d. Git     → commit with conventional message ✅
-  (repeat for each sub-task)
-
-DO NOT start the next sub-task until the current one is committed.
-Each sub-task produces its own commit — no giant monolithic commits.
-```
-
-### For Small Feature Requests
-```
-1. Orchestrator receives request
-2. Create tasks for each phase
-3. Launch Requirement Agent (sub-agent) → outputs spec
-4. Launch Design Agent (sub-agent) → outputs plan
-5. Present plan to user → wait for approval if >3 files
-6. Launch Development Agent (sub-agent, may use worktree)
-7. Launch QA Agent in parallel with development completion
-8. Launch Git Agent → branch, commit, PR summary
-9. Report completion with summary
-```
-
-### For Bug Fixes
-```
-1. Orchestrator receives bug report
-2. Launch Explore agent → find root cause
-3. Create fix plan (1-2 sentences)
-4. Apply fix directly (no sub-agent needed for small fixes)
-5. Run flutter analyze + flutter test
-6. Commit with `fix: <description>`
-```
-
-### For Refactoring
-```
-1. Orchestrator receives refactor request
-2. Launch refactor agent (see .claude/agents/refactor.md)
-3. Atomic changes with test verification between each
-4. Commit each refactor separately
-```
-
-## Agent Communication Protocol
-
-Agents communicate through their return values. Format:
+## System Architecture — 7 Agents with Strict Gating
 
 ```
-AGENT_OUTPUT = {
-  status: "success" | "needs_approval" | "blocked",
-  artifacts: [list of created/modified files],
-  issues: [list of problems found],
-  next_action: "what should happen next",
-  confidence: 0-100
+┌─────────────────────────────────────────────────────────────────────┐
+│                         USER REQUEST                                 │
+└────────────────────────────┬────────────────────────────────────────┘
+                             │
+┌────────────────────────────▼────────────────────────────────────────┐
+│                 TEAM LEAD / ORCHESTRATOR                              │
+│                   (Main Claude Context)                               │
+│                                                                      │
+│  ┌──────────────┐  ┌──────────────┐  ┌───────────────────────────┐  │
+│  │ Task Registry │  │ Pipeline     │  │ Permission Gate           │  │
+│  │ (TaskCreate)  │  │ State        │  │ (CLAUDE.md rules)         │  │
+│  └──────────────┘  └──────────────┘  └───────────────────────────┘  │
+└──┬─────┬─────┬─────┬─────┬─────┬─────┬─────────────────────────────┘
+   │     │     │     │     │     │     │
+   ▼     ▼     ▼     ▼     ▼     ▼     ▼
+┌─────┐┌─────┐┌─────┐┌──────┐┌────┐┌────┐┌──────┐
+│ REQ ││BREAK││ DEV ││REVIEW││ QA ││ GIT││ LEAD │
+│     ││DOWN ││     ││      ││    ││    ││      │
+└─────┘└─────┘└─────┘└──────┘└────┘└────┘└──────┘
+```
+
+```
+┌────────────────────────┬─────────────────────────────┬────────────────────────────────────────────────────────────┐
+│         Agent          │            Role             │                           Output                           │
+├────────────────────────┼─────────────────────────────┼────────────────────────────────────────────────────────────┤
+│ RequirementAgent       │ Raw input → structured spec │ Functional reqs, edge cases, acceptance criteria           │
+├────────────────────────┼─────────────────────────────┼────────────────────────────────────────────────────────────┤
+│ TaskBreakdownAgent     │ Spec → atomic tasks         │ Ordered task list with deps, files, complexity             │
+├────────────────────────┼─────────────────────────────┼────────────────────────────────────────────────────────────┤
+│ DeveloperAgent         │ Writes/revises code         │ Implementation files (handles review/QA feedback)          │
+├────────────────────────┼─────────────────────────────┼────────────────────────────────────────────────────────────┤
+│ ReviewAgent            │ Code quality check          │ PASS or NEEDS_REVISION → loops to Developer                │
+├────────────────────────┼─────────────────────────────┼────────────────────────────────────────────────────────────┤
+│ QAAgent                │ Tests + validation          │ PASS or FAIL with bug report → loops to Developer          │
+├────────────────────────┼─────────────────────────────┼────────────────────────────────────────────────────────────┤
+│ CommitAgent            │ Gated commit                │ Only when review=PASS AND qa=PASS                          │
+├────────────────────────┼─────────────────────────────┼────────────────────────────────────────────────────────────┤
+│ TeamLead (Orchestrator)│ Orchestrates all            │ Retry loops, dependency gating, state tracking             │
+└────────────────────────┴─────────────────────────────┴────────────────────────────────────────────────────────────┘
+```
+
+## Pipeline Execution Protocol
+
+### Phase 0: Requirement Understanding
+```
+Input:  Raw user request
+Agent:  RequirementAgent (.claude/agents/requirement.md)
+Output: REQUIREMENT_SPEC with acceptance criteria
+Gate:   status == "success" (if "needs_clarification" → ask user)
+```
+
+### Phase 1: Task Breakdown
+```
+Input:  REQUIREMENT_SPEC
+Agent:  TaskBreakdownAgent (.claude/agents/task_breakdown.md)
+Output: TASK_BREAKDOWN with ordered task list
+Gate:   status == "success"
+Action: Create TaskCreate entries for each task
+        Present task list to user → WAIT for approval if >3 tasks
+```
+
+### Phase 2: Task Execution Loop (repeat for each task)
+```
+For TASK in EXECUTION_ORDER:
+  
+  ┌─── 2a. DEVELOP ──────────────────────────────────────┐
+  │ Agent:  DeveloperAgent (.claude/agents/feature.md)    │
+  │ Input:  Task spec + any revision feedback             │
+  │ Output: Created/modified files                        │
+  └───────────────────────┬───────────────────────────────┘
+                          │
+  ┌─── 2b. REVIEW (loop) ┴───────────────────────────────┐
+  │ Agent:  ReviewAgent (.claude/agents/review.md)        │
+  │ Input:  Files from Developer                          │
+  │ Output: PASS or NEEDS_REVISION                        │
+  │                                                       │
+  │ If NEEDS_REVISION:                                    │
+  │   → Send feedback to DeveloperAgent                   │
+  │   → Developer revises                                 │
+  │   → Re-review                                         │
+  │   → Max 3 iterations, then escalate to user           │
+  └───────────────────────┬───────────────────────────────┘
+                          │ (only on PASS)
+  ┌─── 2c. QA (loop) ────┴───────────────────────────────┐
+  │ Agent:  QAAgent (.claude/agents/qa.md)                │
+  │ Input:  Files + acceptance criteria                   │
+  │ Output: PASS or FAIL with bug report                  │
+  │                                                       │
+  │ If FAIL:                                              │
+  │   → Send bug report to DeveloperAgent                 │
+  │   → Developer fixes                                   │
+  │   → Re-run QA (full cycle)                            │
+  │   → Max 3 iterations, then escalate to user           │
+  └───────────────────────┬───────────────────────────────┘
+                          │ (only on PASS)
+  ┌─── 2d. COMMIT ───────┴───────────────────────────────┐
+  │ Agent:  CommitAgent (.claude/agents/commit.md)        │
+  │ Input:  Task + gate statuses                          │
+  │ Gate:   review=PASS AND qa=PASS                       │
+  │ Output: Git commit                                    │
+  │ Action: Mark task COMPLETED                           │
+  └───────────────────────────────────────────────────────┘
+```
+
+### Phase 3: Completion
+```
+All tasks COMPLETED → Report summary to user
+Include: files created/modified, commits made, test results
+```
+
+## Pipeline State
+
+The orchestrator tracks this state throughout execution:
+
+```json
+{
+  "feature": "<feature name>",
+  "phase": "requirements | breakdown | execution | complete",
+  "tasks": [
+    {
+      "id": "TASK-1",
+      "title": "<title>",
+      "status": "pending | in_progress | completed | blocked",
+      "dev_iterations": 0,
+      "review_status": "pending | pass | needs_revision",
+      "review_iterations": 0,
+      "qa_status": "pending | pass | fail",
+      "qa_iterations": 0,
+      "commit_hash": null
+    }
+  ],
+  "current_task": "TASK-1",
+  "history": [
+    {"timestamp": "<time>", "event": "<what happened>"}
+  ]
 }
 ```
 
-All decisions route through the Orchestrator (main conversation).
-Agents never directly modify files that another agent is working on.
+## Control Logic
 
-## Background Quality Gates
+### Strict Gating Rules
+1. **No task starts until previous task is COMMITTED**
+2. **Review cannot start until Dev is complete**
+3. **QA cannot start until Review = PASS**
+4. **Commit cannot happen until Review = PASS AND QA = PASS**
+5. **If Review or QA fails 3 times → escalate to user**
 
-After ANY code change, automatically run:
-1. `flutter analyze` → must have 0 errors (warnings acceptable)
-2. `flutter test` → must not introduce new failures
-3. If either fails → fix before proceeding
+### Retry Protocol
+```
+REVIEW LOOP:
+  attempt = 1
+  while review != PASS and attempt <= 3:
+    if attempt > 1:
+      DeveloperAgent.revise(review_feedback)
+    ReviewAgent.review(files)
+    attempt++
+  if review != PASS:
+    ESCALATE("Review failed after 3 attempts", feedback)
 
-## Escalation to Human
+QA LOOP:
+  attempt = 1
+  while qa != PASS and attempt <= 3:
+    if attempt > 1:
+      DeveloperAgent.fix(bug_report)
+    QAAgent.validate(files, acceptance_criteria)
+    attempt++
+  if qa != PASS:
+    ESCALATE("QA failed after 3 attempts", bug_report)
+```
 
-Require explicit user approval for:
+### Escalation to User
+Require user approval for:
 - Adding new dependencies to pubspec.yaml
 - Creating new top-level directories
 - Changing architecture patterns
 - Modifying main.dart DI chain
 - Any change affecting >5 files
-- Test failures that can't be auto-resolved after 2 attempts
-- Security-sensitive changes (auth, API keys, certificates)
+- Review/QA failure after 3 retry loops
+- Security-sensitive changes
 
-## Current Baseline (2026-03-26)
-- Analysis: 8 issues (5 info, 1 warning, 1 error in widget_test.dart)
-- Tests: 51 passed, 4 failed (pre-existing)
-- Files: 23 lib/, 9 test/
+## Agent Prompt Templates
+
+Each agent is invoked as a Claude Code sub-agent with:
+```
+Agent(
+  subagent_type: "general-purpose",
+  prompt: "<agent prompt from .claude/agents/{agent}.md> + <task-specific context>",
+  description: "<AgentName>: <task title>"
+)
+```
+
+Agent files:
+- `.claude/agents/requirement.md` — RequirementAgent
+- `.claude/agents/task_breakdown.md` — TaskBreakdownAgent
+- `.claude/agents/feature.md` — DeveloperAgent
+- `.claude/agents/review.md` — ReviewAgent (Code Review)
+- `.claude/agents/qa.md` — QAAgent
+- `.claude/agents/commit.md` — CommitAgent
+- `.claude/agents/system.md` — This file (Orchestrator reference)
+- `.claude/agents/refactor.md` — RefactorAgent (standalone)
+
+## Quality Baseline
+- Analysis: Run `flutter analyze` — track error/warning count
+- Tests: Run `flutter test` — track pass/fail count
+- Baseline is established at pipeline start and verified at each commit
