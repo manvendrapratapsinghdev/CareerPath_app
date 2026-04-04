@@ -124,77 +124,63 @@ class CareerDataService {
     }
   }
 
-  /// Loads all 380 nodes at once from the local database.
-  /// Populates _nodesMap, _slugToApiId, stream categoryIds, and child links.
+  /// Loads all nodes at once from the local database in O(n).
   Future<void> _eagerLoadAllNodes() async {
-    final allNodes =
-        await (_api as LocalDataSource).getAllNodes();
+    final allNodes = await (_api as LocalDataSource).getAllNodes();
 
-    // First pass: create all nodes and slug→id mappings
+    // Build apiId→slug reverse lookup (O(1) per lookup instead of O(n))
+    final apiIdToSlug = <int, String>{};
     for (final n in allNodes) {
       final slug = n['slug'] as String;
       final apiId = n['id'] as int;
       _slugToApiId[slug] = apiId;
+      apiIdToSlug[apiId] = slug;
+    }
+
+    // Build stream categoryIds collectors
+    final streamCategories = <String, List<String>>{};
+
+    // Single pass: create nodes with child links
+    for (final n in allNodes) {
+      final slug = n['slug'] as String;
+      final childIds = (n['child_ids'] as List? ?? []);
+      final childSlugs = <String>[];
+      for (final cid in childIds) {
+        final cs = apiIdToSlug[cid as int];
+        if (cs != null) childSlugs.add(cs);
+      }
+
       _nodesMap[slug] = CareerNode(
         id: slug,
         name: n['name'] as String,
         intro: n['intro'] as String?,
-        childCount: (n['child_ids'] as List? ?? []).length,
+        childIds: childSlugs,
+        childCount: childIds.length,
       );
-    }
+      _fetchedChildren.add(slug);
 
-    // Second pass: wire up childIds and stream categoryIds
-    for (final n in allNodes) {
-      final slug = n['slug'] as String;
-      final childSlugs = <String>[];
-      for (final childId in (n['child_ids'] as List? ?? [])) {
-        // Find slug for this child API id
-        final childSlug = _slugToApiId.entries
-            .where((e) => e.value == childId)
-            .map((e) => e.key)
-            .firstOrNull;
-        if (childSlug != null) childSlugs.add(childSlug);
-      }
-
-      if (childSlugs.isNotEmpty) {
-        final existing = _nodesMap[slug]!;
-        _nodesMap[slug] = CareerNode(
-          id: existing.id,
-          name: existing.name,
-          intro: existing.intro,
-          childIds: childSlugs,
-          childCount: existing.childCount,
-        );
-      }
-
-      // If root node (no parent), add to stream's categoryIds
+      // Collect root nodes per stream
       if (n['parent_id'] == null) {
-        final streamId = n['stream_id'] as int;
-        final streamSlug = _slugToApiId.entries
-            .where((e) => e.value == streamId)
-            .map((e) => e.key)
-            .firstOrNull;
+        final streamSlug = apiIdToSlug[n['stream_id'] as int];
         if (streamSlug != null) {
-          final idx = _streams.indexWhere((s) => s.id == streamSlug);
-          if (idx >= 0 &&
-              !_streams[idx].categoryIds.contains(slug)) {
-            _streams[idx] = StreamModel(
-              id: _streams[idx].id,
-              name: _streams[idx].name,
-              intro: _streams[idx].intro,
-              rootNodeCount: _streams[idx].rootNodeCount,
-              categoryIds: [..._streams[idx].categoryIds, slug],
-            );
-          }
+          (streamCategories[streamSlug] ??= []).add(slug);
         }
       }
-
-      _fetchedChildren.add(slug);
     }
 
-    // Mark all streams as fetched
-    for (final s in _streams) {
-      _fetchedStreamCategories.add(s.id);
+    // Wire stream categoryIds
+    for (int i = 0; i < _streams.length; i++) {
+      final cats = streamCategories[_streams[i].id];
+      if (cats != null) {
+        _streams[i] = StreamModel(
+          id: _streams[i].id,
+          name: _streams[i].name,
+          intro: _streams[i].intro,
+          rootNodeCount: _streams[i].rootNodeCount,
+          categoryIds: cats,
+        );
+        _fetchedStreamCategories.add(_streams[i].id);
+      }
     }
   }
 
