@@ -237,6 +237,17 @@ class CareerDataService {
 
   CareerNode? getNodeById(String nodeId) => _nodesMap[nodeId];
 
+  /// Searches loaded nodes by name (case-insensitive substring match).
+  /// Returns at most [limit] results.
+  List<CareerNode> searchNodes(String query, {int limit = 50}) {
+    if (query.trim().isEmpty) return [];
+    final lower = query.toLowerCase();
+    return _nodesMap.values
+        .where((n) => n.name.toLowerCase().contains(lower))
+        .take(limit)
+        .toList();
+  }
+
   // ── resource accessors ─────────────────────────────────────────────────────
 
   /// Get a book by its API ID.

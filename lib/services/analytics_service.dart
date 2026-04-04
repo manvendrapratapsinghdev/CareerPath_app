@@ -63,6 +63,14 @@ class AnalyticsService {
         'section_name': sectionName,
       });
 
+  // ── Search events ──────────────────────────────────────────────────────
+
+  Future<void> logSearch(String query, int resultCount) =>
+      _analytics.logEvent(name: 'search', parameters: {
+        'query': query,
+        'result_count': resultCount,
+      });
+
   // ── Bookmark events ─────────────────────────────────────────────────────
 
   Future<void> logBookmarkAdded(String nodeName) =>

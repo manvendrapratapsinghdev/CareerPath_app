@@ -10,6 +10,7 @@ import '../widgets/page_transitions.dart';
 import 'bookmarks_tab.dart';
 import 'explore_tab.dart';
 import 'profile_screen.dart';
+import 'search_screen.dart';
 import 'suggestions_tab.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -111,6 +112,22 @@ class _HomeScreenState extends State<HomeScreen> {
           ],
         ),
         actions: [
+          IconButton(
+            onPressed: () {
+              Navigator.push(
+                context,
+                SmoothPageRoute(
+                  page: SearchScreen(
+                    careerDataService: widget.careerDataService,
+                    bookmarkService: widget.bookmarkService,
+                    analyticsService: widget.analyticsService,
+                  ),
+                ),
+              );
+            },
+            icon: const Icon(Icons.search_rounded),
+            tooltip: 'Search',
+          ),
           Padding(
             padding: const EdgeInsets.only(right: AppSpacing.md),
             child: GestureDetector(
