@@ -91,4 +91,9 @@ class AnalyticsService {
 
   Future<void> logTabChanged(String tabName) =>
       _log('tab_changed', {'tab_name': tabName});
+
+  // ── Feedback events ────────────────────────────────────────────────────
+
+  Future<void> logFeedbackSubmitted(String category, int rating) =>
+      _log('feedback_submitted', {'category': category, 'rating': rating});
 }

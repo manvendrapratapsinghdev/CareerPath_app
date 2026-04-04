@@ -18,6 +18,7 @@ import 'services/analytics_service.dart';
 import 'services/bookmark_service.dart';
 import 'services/career_data_service.dart';
 import 'services/exploration_service.dart';
+import 'services/feedback_service.dart';
 import 'services/network_service.dart';
 import 'services/profile_service.dart';
 import 'services/rate_prompt_service.dart';
@@ -48,6 +49,7 @@ void main() async {
   final careerDataService = CareerDataService(LocalDataSource(localDb));
   final networkService = NetworkService();
   final analyticsService = AnalyticsService();
+  final feedbackService = FeedbackService();
   final themeService = ThemeService(prefs);
 
   // Check profile and onboarding from local storage — no network call here.
@@ -64,6 +66,7 @@ void main() async {
     careerDataService: careerDataService,
     networkService: networkService,
     analyticsService: analyticsService,
+    feedbackService: feedbackService,
     themeService: themeService,
     hasProfile: hasProfile,
     onboardingSeen: onboardingSeen,
@@ -80,6 +83,7 @@ class CareerPathApp extends StatelessWidget {
   final CareerDataService careerDataService;
   final NetworkService networkService;
   final AnalyticsService analyticsService;
+  final FeedbackService feedbackService;
   final ThemeService themeService;
   final bool hasProfile;
   final bool onboardingSeen;
@@ -95,6 +99,7 @@ class CareerPathApp extends StatelessWidget {
     required this.careerDataService,
     required this.networkService,
     required this.analyticsService,
+    required this.feedbackService,
     required this.themeService,
     required this.hasProfile,
     required this.onboardingSeen,
