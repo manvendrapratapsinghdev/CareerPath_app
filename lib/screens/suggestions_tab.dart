@@ -8,6 +8,7 @@ import '../services/analytics_service.dart';
 import '../services/bookmark_service.dart';
 import '../services/career_data_service.dart';
 import '../services/exploration_service.dart';
+import '../services/recently_viewed_service.dart';
 import '../services/profile_service.dart';
 import '../widgets/accent_icon_box.dart';
 import '../widgets/animated_list_item.dart';
@@ -21,6 +22,7 @@ class SuggestionsTab extends StatefulWidget {
   final ProfileService profileService;
   final BookmarkService? bookmarkService;
   final ExplorationService? explorationService;
+  final RecentlyViewedService? recentlyViewedService;
   final CareerDataService careerDataService;
   final AnalyticsService? analyticsService;
 
@@ -29,6 +31,7 @@ class SuggestionsTab extends StatefulWidget {
     required this.profileService,
     this.bookmarkService,
     this.explorationService,
+    this.recentlyViewedService,
     required this.careerDataService,
     this.analyticsService,
   });

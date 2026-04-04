@@ -5,6 +5,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'config/app_theme.dart';
 import 'data/bookmark_repository.dart';
 import 'data/exploration_repository.dart';
+import 'data/recently_viewed_repository.dart';
 import 'data/leaf_details_cache.dart';
 import 'data/local_database.dart';
 import 'data/local_data_source.dart';
@@ -18,6 +19,7 @@ import 'services/career_data_service.dart';
 import 'services/exploration_service.dart';
 import 'services/network_service.dart';
 import 'services/profile_service.dart';
+import 'services/recently_viewed_service.dart';
 import 'services/theme_service.dart';
 import 'widgets/network_aware_wrapper.dart';
 
@@ -35,6 +37,7 @@ void main() async {
   final leafDetailsCache = LeafDetailsCache(prefs);
   final bookmarkService = BookmarkService(BookmarkRepository(prefs), leafDetailsCache);
   final explorationService = ExplorationService(ExplorationRepository(prefs));
+  final recentlyViewedService = RecentlyViewedService(RecentlyViewedRepository(prefs));
 
   final localDb = LocalDatabase();
   await localDb.init();
@@ -52,6 +55,7 @@ void main() async {
     profileService: profileService,
     bookmarkService: bookmarkService,
     explorationService: explorationService,
+    recentlyViewedService: recentlyViewedService,
     careerDataService: careerDataService,
     networkService: networkService,
     analyticsService: analyticsService,
@@ -66,6 +70,7 @@ class CareerPathApp extends StatelessWidget {
   final ProfileService profileService;
   final BookmarkService bookmarkService;
   final ExplorationService explorationService;
+  final RecentlyViewedService recentlyViewedService;
   final CareerDataService careerDataService;
   final NetworkService networkService;
   final AnalyticsService analyticsService;
@@ -79,6 +84,7 @@ class CareerPathApp extends StatelessWidget {
     required this.profileService,
     required this.bookmarkService,
     required this.explorationService,
+    required this.recentlyViewedService,
     required this.careerDataService,
     required this.networkService,
     required this.analyticsService,
@@ -103,6 +109,7 @@ class CareerPathApp extends StatelessWidget {
               profileService: profileService,
               bookmarkService: bookmarkService,
               explorationService: explorationService,
+              recentlyViewedService: recentlyViewedService,
               careerDataService: careerDataService,
               analyticsService: analyticsService,
               themeService: themeService,
