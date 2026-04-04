@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:career_path/l10n/app_localizations.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:career_path/data/profile_repository.dart';
 import 'package:career_path/models/profile_data.dart';
@@ -17,6 +19,14 @@ void main() {
 
   Widget buildApp({ProfileData? existingProfile}) {
     return MaterialApp(
+      locale: const Locale('en'),
+      supportedLocales: const [Locale('en')],
+      localizationsDelegates: const [
+        AppLocalizations.delegate,
+        GlobalMaterialLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate,
+        GlobalCupertinoLocalizations.delegate,
+      ],
       routes: {
         '/home': (_) => const Scaffold(body: Text('Home Screen')),
       },

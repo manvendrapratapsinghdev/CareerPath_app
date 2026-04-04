@@ -9,6 +9,7 @@ import '../services/bookmark_service.dart';
 import '../services/career_data_service.dart';
 import '../services/exploration_service.dart';
 import '../services/feedback_service.dart';
+import '../services/locale_service.dart';
 import '../services/rate_prompt_service.dart';
 import '../services/recently_viewed_service.dart';
 import '../services/profile_service.dart';
@@ -31,6 +32,7 @@ class HomeScreen extends StatefulWidget {
   final CareerDataService careerDataService;
   final AnalyticsService? analyticsService;
   final ThemeService? themeService;
+  final LocaleService? localeService;
 
   const HomeScreen({
     super.key,
@@ -43,6 +45,7 @@ class HomeScreen extends StatefulWidget {
     required this.careerDataService,
     this.analyticsService,
     this.themeService,
+    this.localeService,
   });
 
   @override
@@ -138,6 +141,7 @@ class _HomeScreenState extends State<HomeScreen> {
           analyticsService: widget.analyticsService,
           feedbackService: widget.feedbackService,
           themeService: widget.themeService,
+          localeService: widget.localeService,
         ),
       ),
     ).then((_) => _loadProfile());

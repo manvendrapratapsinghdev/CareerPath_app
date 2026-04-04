@@ -142,6 +142,7 @@ class CareerPathApp extends StatelessWidget {
               careerDataService: careerDataService,
               analyticsService: analyticsService,
               themeService: themeService,
+              localeService: localeService,
             ),
         '/profile': (_) => ProfileScreen(
               profileService: profileService,
