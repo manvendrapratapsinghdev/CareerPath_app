@@ -426,6 +426,7 @@ class _ProfileScreenState extends State<ProfileScreen>
           selected: {currentMode},
           onSelectionChanged: (selected) {
             widget.themeService!.setThemeMode(selected.first);
+            widget.analyticsService?.logThemeChanged(selected.first.name);
             setState(() {});
           },
         ),
@@ -459,6 +460,7 @@ class _ProfileScreenState extends State<ProfileScreen>
           onChanged: (locale) {
             if (locale != null) {
               widget.localeService!.setLocale(locale);
+              widget.analyticsService?.logLanguageChanged(locale.languageCode);
               setState(() {});
             }
           },

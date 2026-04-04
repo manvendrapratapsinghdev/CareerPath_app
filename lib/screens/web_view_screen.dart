@@ -2,14 +2,18 @@ import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
+import '../services/analytics_service.dart';
+
 class WebViewScreen extends StatefulWidget {
   final String title;
   final String url;
+  final AnalyticsService? analyticsService;
 
   const WebViewScreen({
     super.key,
     required this.title,
     required this.url,
+    this.analyticsService,
   });
 
   @override
@@ -77,6 +81,7 @@ class _WebViewScreenState extends State<WebViewScreen> {
             child: Center(
               child: FloatingActionButton.extended(
                 onPressed: () {
+                  widget.analyticsService?.logOpenInBrowser(widget.url);
                   launchUrl(
                     Uri.parse(widget.url),
                     mode: LaunchMode.externalApplication,

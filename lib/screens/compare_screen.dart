@@ -4,17 +4,20 @@ import '../config/app_theme.dart';
 import '../l10n/app_localizations.dart';
 import '../models/career_node.dart';
 import '../models/leaf_details.dart';
+import '../services/analytics_service.dart';
 import '../services/career_data_service.dart';
 import '../widgets/shimmer_loading.dart';
 
 class CompareScreen extends StatefulWidget {
   final CareerDataService careerDataService;
   final List<CareerNode> nodes;
+  final AnalyticsService? analyticsService;
 
   const CompareScreen({
     super.key,
     required this.careerDataService,
     required this.nodes,
+    this.analyticsService,
   });
 
   @override
@@ -29,6 +32,9 @@ class _CompareScreenState extends State<CompareScreen> {
     super.initState();
     _detailsFuture = Future.wait(
       widget.nodes.map((n) => widget.careerDataService.getLeafDetails(n.id)),
+    );
+    widget.analyticsService?.logCompareOpened(
+      widget.nodes.map((n) => n.name).toList(),
     );
   }
 

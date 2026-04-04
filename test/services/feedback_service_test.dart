@@ -17,7 +17,7 @@ void main() {
     );
     final uri = service.buildMailtoUri(data);
     expect(uri.scheme, 'mailto');
-    expect(uri.path, 'feedback@tacrotech.com');
+    expect(uri.path, 'iosmanvendra@gmail.com');
   });
 
   test('buildMailtoUri includes subject with category', () {

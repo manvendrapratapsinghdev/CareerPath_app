@@ -169,7 +169,7 @@ class CareerPathApp extends StatelessWidget {
       );
     }
     if (!onboardingSeen) {
-      return _OnboardingWrapper(prefs: prefs);
+      return _OnboardingWrapper(prefs: prefs, analyticsService: analyticsService);
     }
     return ProfileScreen(
       profileService: profileService,
@@ -180,13 +180,15 @@ class CareerPathApp extends StatelessWidget {
 
 class _OnboardingWrapper extends StatelessWidget {
   final SharedPreferences prefs;
+  final AnalyticsService analyticsService;
 
-  const _OnboardingWrapper({required this.prefs});
+  const _OnboardingWrapper({required this.prefs, required this.analyticsService});
 
   @override
   Widget build(BuildContext context) {
     return OnboardingScreen(
       onComplete: () async {
+        analyticsService.logOnboardingCompleted();
         await prefs.setBool('onboarding_seen', true);
         if (context.mounted) {
           Navigator.pushReplacementNamed(context, '/profile');

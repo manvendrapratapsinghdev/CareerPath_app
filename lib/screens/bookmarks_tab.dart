@@ -98,6 +98,7 @@ class _BookmarksTabState extends State<BookmarksTab> {
         page: CompareScreen(
           careerDataService: widget.careerDataService,
           nodes: selectedNodes,
+          analyticsService: widget.analyticsService,
         ),
       ),
     );

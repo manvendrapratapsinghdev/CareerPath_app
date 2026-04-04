@@ -96,4 +96,45 @@ class AnalyticsService {
 
   Future<void> logFeedbackSubmitted(String category, int rating) =>
       _log('feedback_submitted', {'category': category, 'rating': rating});
+
+  // ── Node view events ──────────────────────────────────────────────────
+
+  Future<void> logNodeViewed(String nodeName, {required bool isLeaf}) =>
+      _log('node_viewed', {'node_name': nodeName, 'is_leaf': isLeaf.toString()});
+
+  // ── Quiz events ───────────────────────────────────────────────────────
+
+  Future<void> logQuizStarted() => _log('quiz_started');
+
+  Future<void> logQuizCompleted(List<String> topCategories) =>
+      _log('quiz_completed', {'top_categories': topCategories.join(', ')});
+
+  // ── Compare events ────────────────────────────────────────────────────
+
+  Future<void> logCompareOpened(List<String> nodeNames) =>
+      _log('compare_opened', {'node_names': nodeNames.join(', ')});
+
+  // ── Language events ───────────────────────────────────────────────────
+
+  Future<void> logLanguageChanged(String languageCode) =>
+      _log('language_changed', {'language': languageCode});
+
+  // ── Theme events ──────────────────────────────────────────────────────
+
+  Future<void> logThemeChanged(String themeMode) =>
+      _log('theme_changed', {'theme_mode': themeMode});
+
+  // ── Onboarding events ─────────────────────────────────────────────────
+
+  Future<void> logOnboardingCompleted() => _log('onboarding_completed');
+
+  // ── WebView events ────────────────────────────────────────────────────
+
+  Future<void> logOpenInBrowser(String url) =>
+      _log('open_in_browser', {'url': url});
+
+  // ── Recently Viewed events ────────────────────────────────────────────
+
+  Future<void> logRecentlyViewedTapped(String nodeName) =>
+      _log('recently_viewed_tapped', {'node_name': nodeName});
 }

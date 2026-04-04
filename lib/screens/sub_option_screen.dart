@@ -62,6 +62,10 @@ class _SubOptionScreenState extends State<SubOptionScreen> {
     widget.bookmarkService?.addListener(_onBookmarkChanged);
     widget.explorationService?.markVisited(widget.nodeId);
     widget.recentlyViewedService?.addVisit(widget.nodeId);
+    widget.analyticsService?.logNodeViewed(
+      _currentNode?.name ?? widget.nodeId,
+      isLeaf: _currentNode?.isLeaf ?? false,
+    );
   }
 
   @override

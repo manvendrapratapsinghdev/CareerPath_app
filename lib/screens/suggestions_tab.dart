@@ -255,6 +255,7 @@ class _SuggestionsTabState extends State<SuggestionsTab> {
                     ),
                   ),
                   onPressed: () {
+                    widget.analyticsService?.logRecentlyViewedTapped(node.name);
                     Navigator.push(
                       context,
                       SmoothPageRoute(

@@ -213,7 +213,7 @@ class _HomeScreenState extends State<HomeScreen> {
             onPressed: () {
               Navigator.push(
                 context,
-                SmoothPageRoute(page: const QuizScreen()),
+                SmoothPageRoute(page: QuizScreen(analyticsService: widget.analyticsService)),
               );
             },
             icon: const Icon(Icons.psychology_rounded),

@@ -2,9 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:share_plus/share_plus.dart';
 
 import '../config/app_theme.dart';
+import '../services/analytics_service.dart';
 
 class QuizScreen extends StatefulWidget {
-  const QuizScreen({super.key});
+  final AnalyticsService? analyticsService;
+
+  const QuizScreen({super.key, this.analyticsService});
 
   @override
   State<QuizScreen> createState() => _QuizScreenState();
@@ -108,12 +111,17 @@ class _QuizScreenState extends State<QuizScreen> {
   };
 
   void _selectOption(_Option option) {
+    if (_currentIndex == 0) {
+      widget.analyticsService?.logQuizStarted();
+    }
     for (final tag in option.tags) {
       _scores[tag] = (_scores[tag] ?? 0) + 1;
     }
     if (_currentIndex < _questions.length - 1) {
       setState(() => _currentIndex++);
     } else {
+      final topNames = _topCategories.map((e) => e.key).toList();
+      widget.analyticsService?.logQuizCompleted(topNames);
       setState(() => _showResult = true);
     }
   }
