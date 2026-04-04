@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
 class WebViewScreen extends StatefulWidget {
@@ -66,7 +67,28 @@ class _WebViewScreenState extends State<WebViewScreen> {
               )
             : null,
       ),
-      body: WebViewWidget(controller: _controller),
+      body: Stack(
+        children: [
+          WebViewWidget(controller: _controller),
+          Positioned(
+            left: 0,
+            right: 0,
+            bottom: 50,
+            child: Center(
+              child: FloatingActionButton.extended(
+                onPressed: () {
+                  launchUrl(
+                    Uri.parse(widget.url),
+                    mode: LaunchMode.externalApplication,
+                  );
+                },
+                icon: const Icon(Icons.open_in_browser_rounded),
+                label: const Text('Open in Browser'),
+              ),
+            ),
+          ),
+        ],
+      ),
     );
   }
 }
