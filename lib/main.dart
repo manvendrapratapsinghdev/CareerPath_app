@@ -1,5 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
+import 'l10n/app_localizations.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'config/app_theme.dart';
@@ -23,6 +25,7 @@ import 'services/network_service.dart';
 import 'services/profile_service.dart';
 import 'services/rate_prompt_service.dart';
 import 'services/recently_viewed_service.dart';
+import 'services/locale_service.dart';
 import 'services/theme_service.dart';
 import 'widgets/network_aware_wrapper.dart';
 
@@ -51,6 +54,7 @@ void main() async {
   final analyticsService = AnalyticsService();
   final feedbackService = FeedbackService();
   final themeService = ThemeService(prefs);
+  final localeService = LocaleService(prefs);
 
   // Check profile and onboarding from local storage — no network call here.
   final hasProfile = await profileService.isProfileComplete();
@@ -68,6 +72,7 @@ void main() async {
     analyticsService: analyticsService,
     feedbackService: feedbackService,
     themeService: themeService,
+    localeService: localeService,
     hasProfile: hasProfile,
     onboardingSeen: onboardingSeen,
   ));
@@ -85,6 +90,7 @@ class CareerPathApp extends StatelessWidget {
   final AnalyticsService analyticsService;
   final FeedbackService feedbackService;
   final ThemeService themeService;
+  final LocaleService localeService;
   final bool hasProfile;
   final bool onboardingSeen;
 
@@ -101,6 +107,7 @@ class CareerPathApp extends StatelessWidget {
     required this.analyticsService,
     required this.feedbackService,
     required this.themeService,
+    required this.localeService,
     required this.hasProfile,
     required this.onboardingSeen,
   });
@@ -108,13 +115,21 @@ class CareerPathApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListenableBuilder(
-      listenable: themeService,
+      listenable: Listenable.merge([themeService, localeService]),
       builder: (context, _) => MaterialApp(
       title: 'Career Path Guidance',
       debugShowCheckedModeBanner: false,
       theme: AppTheme.light,
       darkTheme: AppTheme.dark,
       themeMode: themeService.themeMode,
+      locale: localeService.locale,
+      supportedLocales: LocaleService.supportedLocales,
+      localizationsDelegates: const [
+        GlobalMaterialLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate,
+        GlobalCupertinoLocalizations.delegate,
+        AppLocalizations.delegate,
+      ],
       navigatorObservers: [analyticsService.observer],
       routes: {
         '/home': (_) => HomeScreen(
