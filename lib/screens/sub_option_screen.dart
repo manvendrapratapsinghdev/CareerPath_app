@@ -12,6 +12,7 @@ import '../services/career_data_service.dart';
 import '../services/exploration_service.dart';
 import '../services/recently_viewed_service.dart';
 import '../widgets/accent_icon_box.dart';
+import '../widgets/depth_indicator.dart';
 import '../widgets/animated_list_item.dart';
 import '../widgets/empty_state.dart';
 import '../widgets/page_transitions.dart';
@@ -70,6 +71,13 @@ class _SubOptionScreenState extends State<SubOptionScreen> {
 
   void _onBookmarkChanged() {
     if (mounted) setState(() {});
+  }
+
+  int? _computeMaxDepth() {
+    final rootId = widget.breadcrumbs.first.nodeId;
+    final depthFromRoot = widget.careerDataService.getMaxDepthFrom(rootId);
+    if (depthFromRoot == null) return null;
+    return depthFromRoot + 1; // +1 to include root level
   }
 
   Future<List<CareerNode>> _loadChildren({bool forceRefresh = false}) async {
@@ -189,6 +197,8 @@ class _SubOptionScreenState extends State<SubOptionScreen> {
             _BreadcrumbBar(
               breadcrumbs: widget.breadcrumbs,
               colorScheme: colorScheme,
+              currentDepth: widget.breadcrumbs.length,
+              maxDepth: _computeMaxDepth(),
             ),
           // Content
           Expanded(
@@ -341,10 +351,14 @@ class _SubOptionScreenState extends State<SubOptionScreen> {
 class _BreadcrumbBar extends StatelessWidget {
   final List<BreadcrumbEntry> breadcrumbs;
   final ColorScheme colorScheme;
+  final int currentDepth;
+  final int? maxDepth;
 
   const _BreadcrumbBar({
     required this.breadcrumbs,
     required this.colorScheme,
+    required this.currentDepth,
+    this.maxDepth,
   });
 
   @override
@@ -360,14 +374,25 @@ class _BreadcrumbBar extends StatelessWidget {
           ),
         ),
       ),
-      child: SingleChildScrollView(
-        scrollDirection: Axis.horizontal,
+      child: Padding(
         padding: const EdgeInsets.symmetric(
           horizontal: AppSpacing.base,
           vertical: AppSpacing.sm,
         ),
-        child: Row(
-          children: _buildCrumbs(context),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            SingleChildScrollView(
+              scrollDirection: Axis.horizontal,
+              child: Row(children: _buildCrumbs(context)),
+            ),
+            const SizedBox(height: 4),
+            DepthIndicator(
+              currentDepth: currentDepth,
+              maxDepth: maxDepth,
+            ),
+          ],
         ),
       ),
     );
