@@ -4,7 +4,9 @@ import '../config/app_theme.dart';
 import '../models/breadcrumb_entry.dart';
 import '../models/career_node.dart';
 import '../models/leaf_details.dart';
+import '../services/analytics_service.dart';
 import '../services/api_client.dart';
+import '../services/bookmark_service.dart';
 import '../services/career_data_service.dart';
 import '../widgets/accent_icon_box.dart';
 import '../widgets/animated_list_item.dart';
@@ -15,12 +17,16 @@ import '../widgets/shimmer_loading.dart';
 
 class SubOptionScreen extends StatefulWidget {
   final CareerDataService careerDataService;
+  final BookmarkService? bookmarkService;
+  final AnalyticsService? analyticsService;
   final String nodeId;
   final List<BreadcrumbEntry> breadcrumbs;
 
   const SubOptionScreen({
     super.key,
     required this.careerDataService,
+    this.bookmarkService,
+    this.analyticsService,
     required this.nodeId,
     required this.breadcrumbs,
   });
@@ -36,12 +42,24 @@ class _SubOptionScreenState extends State<SubOptionScreen> {
   bool _booksExpanded = false;
   bool _institutesExpanded = false;
   bool _jobSectorsExpanded = false;
+  bool _isLeaf = false;
 
   @override
   void initState() {
     super.initState();
     _currentNode = widget.careerDataService.getNodeById(widget.nodeId);
     _childrenFuture = _loadChildren();
+    widget.bookmarkService?.addListener(_onBookmarkChanged);
+  }
+
+  @override
+  void dispose() {
+    widget.bookmarkService?.removeListener(_onBookmarkChanged);
+    super.dispose();
+  }
+
+  void _onBookmarkChanged() {
+    if (mounted) setState(() {});
   }
 
   Future<List<CareerNode>> _loadChildren({bool forceRefresh = false}) async {
@@ -49,6 +67,7 @@ class _SubOptionScreenState extends State<SubOptionScreen> {
         .fetchChildrenOf(widget.nodeId, forceRefresh: forceRefresh);
     if (children.isEmpty && mounted) {
       setState(() {
+        _isLeaf = true;
         _leafDetailsFuture = widget.careerDataService
             .getLeafDetails(widget.nodeId, forceRefresh: forceRefresh);
       });
@@ -72,6 +91,31 @@ class _SubOptionScreenState extends State<SubOptionScreen> {
         title: Text(
           widget.breadcrumbs.isNotEmpty ? widget.breadcrumbs.last.label : '',
         ),
+        actions: [
+          if (_isLeaf && widget.bookmarkService != null)
+            IconButton(
+              onPressed: () {
+                final isNowBookmarked =
+                    !widget.bookmarkService!.isBookmarked(widget.nodeId);
+                if (isNowBookmarked) {
+                  widget.analyticsService
+                      ?.logBookmarkAdded(_currentNode?.name ?? widget.nodeId);
+                } else {
+                  widget.analyticsService
+                      ?.logBookmarkRemoved(_currentNode?.name ?? widget.nodeId);
+                }
+                widget.bookmarkService!.toggle(widget.nodeId);
+              },
+              icon: Icon(
+                widget.bookmarkService!.isBookmarked(widget.nodeId)
+                    ? Icons.bookmark_rounded
+                    : Icons.bookmark_outline_rounded,
+              ),
+              tooltip: widget.bookmarkService!.isBookmarked(widget.nodeId)
+                  ? 'Remove bookmark'
+                  : 'Save career path',
+            ),
+        ],
       ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -160,6 +204,8 @@ class _SubOptionScreenState extends State<SubOptionScreen> {
                     SmoothPageRoute(
                       page: SubOptionScreen(
                         careerDataService: widget.careerDataService,
+                        bookmarkService: widget.bookmarkService,
+                        analyticsService: widget.analyticsService,
                         nodeId: child.id,
                         breadcrumbs: [
                           ...widget.breadcrumbs,

@@ -4,7 +4,9 @@ import '../config/app_theme.dart';
 import '../models/breadcrumb_entry.dart';
 import '../models/career_node.dart';
 import '../models/stream_model.dart';
+import '../services/analytics_service.dart';
 import '../services/api_client.dart';
+import '../services/bookmark_service.dart';
 import '../services/career_data_service.dart';
 import '../widgets/accent_icon_box.dart';
 import '../widgets/animated_list_item.dart';
@@ -15,8 +17,15 @@ import 'sub_option_screen.dart';
 
 class ExploreTab extends StatefulWidget {
   final CareerDataService careerDataService;
+  final BookmarkService? bookmarkService;
+  final AnalyticsService? analyticsService;
 
-  const ExploreTab({super.key, required this.careerDataService});
+  const ExploreTab({
+    super.key,
+    required this.careerDataService,
+    this.bookmarkService,
+    this.analyticsService,
+  });
 
   @override
   State<ExploreTab> createState() => _ExploreTabState();
@@ -111,6 +120,8 @@ class _ExploreTabState extends State<ExploreTab> {
                   stream: stream,
                   categoryFuture: _categoryFutures[stream.id],
                   careerDataService: widget.careerDataService,
+                  bookmarkService: widget.bookmarkService,
+                  analyticsService: widget.analyticsService,
                   icon: _iconPalette[index % _iconPalette.length],
                   color: AppColors.accentPalette[index % AppColors.accentPalette.length],
                   isExpanded: _expandedStreams[stream.id] ?? false,
@@ -119,6 +130,7 @@ class _ExploreTabState extends State<ExploreTab> {
                       final willExpand = !(_expandedStreams[stream.id] ?? false);
                       _expandedStreams[stream.id] = willExpand;
                       if (willExpand) {
+                        widget.analyticsService?.logStreamExpanded(stream.name);
                         _categoryFutures[stream.id] ??=
                             widget.careerDataService
                                 .fetchStreamCategories(stream.id);
@@ -139,6 +151,8 @@ class _StreamSection extends StatelessWidget {
   final StreamModel stream;
   final Future<List<CareerNode>>? categoryFuture;
   final CareerDataService careerDataService;
+  final BookmarkService? bookmarkService;
+  final AnalyticsService? analyticsService;
   final IconData icon;
   final Color color;
   final bool isExpanded;
@@ -148,6 +162,8 @@ class _StreamSection extends StatelessWidget {
     required this.stream,
     required this.categoryFuture,
     required this.careerDataService,
+    this.bookmarkService,
+    this.analyticsService,
     required this.icon,
     required this.color,
     required this.isExpanded,
@@ -281,6 +297,8 @@ class _StreamSection extends StatelessWidget {
                   node: node,
                   color: color,
                   careerDataService: careerDataService,
+                  bookmarkService: bookmarkService,
+                  analyticsService: analyticsService,
                 ),
               );
             }),
@@ -295,11 +313,15 @@ class _CategoryTile extends StatelessWidget {
   final CareerNode node;
   final Color color;
   final CareerDataService careerDataService;
+  final BookmarkService? bookmarkService;
+  final AnalyticsService? analyticsService;
 
   const _CategoryTile({
     required this.node,
     required this.color,
     required this.careerDataService,
+    this.bookmarkService,
+    this.analyticsService,
   });
 
   @override
@@ -317,6 +339,8 @@ class _CategoryTile extends StatelessWidget {
               SmoothPageRoute(
                 page: SubOptionScreen(
                   careerDataService: careerDataService,
+                  bookmarkService: bookmarkService,
+                  analyticsService: analyticsService,
                   nodeId: node.id,
                   breadcrumbs: [
                     BreadcrumbEntry(nodeId: node.id, label: node.name),

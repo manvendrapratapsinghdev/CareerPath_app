@@ -4,6 +4,8 @@ import '../config/app_theme.dart';
 import '../models/breadcrumb_entry.dart';
 import '../models/career_node.dart';
 import '../models/profile_data.dart';
+import '../services/analytics_service.dart';
+import '../services/bookmark_service.dart';
 import '../services/career_data_service.dart';
 import '../services/profile_service.dart';
 import '../widgets/accent_icon_box.dart';
@@ -16,12 +18,16 @@ import 'sub_option_screen.dart';
 
 class SuggestionsTab extends StatefulWidget {
   final ProfileService profileService;
+  final BookmarkService? bookmarkService;
   final CareerDataService careerDataService;
+  final AnalyticsService? analyticsService;
 
   const SuggestionsTab({
     super.key,
     required this.profileService,
+    this.bookmarkService,
     required this.careerDataService,
+    this.analyticsService,
   });
 
   @override
@@ -73,11 +79,14 @@ class _SuggestionsTabState extends State<SuggestionsTab> {
   }
 
   void _navigateToSubOption(CareerNode node) {
+    widget.analyticsService?.logCategoryTapped(node.name);
     Navigator.push(
       context,
       SmoothPageRoute(
         page: SubOptionScreen(
           careerDataService: widget.careerDataService,
+          bookmarkService: widget.bookmarkService,
+          analyticsService: widget.analyticsService,
           nodeId: node.id,
           breadcrumbs: [BreadcrumbEntry(nodeId: node.id, label: node.name)],
         ),
