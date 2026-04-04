@@ -10,6 +10,7 @@ import 'data/leaf_details_cache.dart';
 import 'data/local_database.dart';
 import 'data/local_data_source.dart';
 import 'data/profile_repository.dart';
+import 'data/rate_prompt_repository.dart';
 import 'screens/home_screen.dart';
 import 'screens/onboarding_screen.dart';
 import 'screens/profile_screen.dart';
@@ -19,6 +20,7 @@ import 'services/career_data_service.dart';
 import 'services/exploration_service.dart';
 import 'services/network_service.dart';
 import 'services/profile_service.dart';
+import 'services/rate_prompt_service.dart';
 import 'services/recently_viewed_service.dart';
 import 'services/theme_service.dart';
 import 'widgets/network_aware_wrapper.dart';
@@ -38,6 +40,8 @@ void main() async {
   final bookmarkService = BookmarkService(BookmarkRepository(prefs), leafDetailsCache);
   final explorationService = ExplorationService(ExplorationRepository(prefs));
   final recentlyViewedService = RecentlyViewedService(RecentlyViewedRepository(prefs));
+  final ratePromptService = RatePromptService(RatePromptRepository(prefs));
+  await ratePromptService.recordSession();
 
   final localDb = LocalDatabase();
   await localDb.init();
@@ -56,6 +60,7 @@ void main() async {
     bookmarkService: bookmarkService,
     explorationService: explorationService,
     recentlyViewedService: recentlyViewedService,
+    ratePromptService: ratePromptService,
     careerDataService: careerDataService,
     networkService: networkService,
     analyticsService: analyticsService,
@@ -71,6 +76,7 @@ class CareerPathApp extends StatelessWidget {
   final BookmarkService bookmarkService;
   final ExplorationService explorationService;
   final RecentlyViewedService recentlyViewedService;
+  final RatePromptService ratePromptService;
   final CareerDataService careerDataService;
   final NetworkService networkService;
   final AnalyticsService analyticsService;
@@ -85,6 +91,7 @@ class CareerPathApp extends StatelessWidget {
     required this.bookmarkService,
     required this.explorationService,
     required this.recentlyViewedService,
+    required this.ratePromptService,
     required this.careerDataService,
     required this.networkService,
     required this.analyticsService,
@@ -110,6 +117,7 @@ class CareerPathApp extends StatelessWidget {
               bookmarkService: bookmarkService,
               explorationService: explorationService,
               recentlyViewedService: recentlyViewedService,
+              ratePromptService: ratePromptService,
               careerDataService: careerDataService,
               analyticsService: analyticsService,
               themeService: themeService,
