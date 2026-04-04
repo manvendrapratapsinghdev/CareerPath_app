@@ -10,6 +10,7 @@ import '../services/api_client.dart';
 import '../services/bookmark_service.dart';
 import '../services/career_data_service.dart';
 import '../services/exploration_service.dart';
+import '../services/recently_viewed_service.dart';
 import '../widgets/accent_icon_box.dart';
 import '../widgets/animated_list_item.dart';
 import '../widgets/empty_state.dart';
@@ -21,6 +22,7 @@ class SubOptionScreen extends StatefulWidget {
   final CareerDataService careerDataService;
   final BookmarkService? bookmarkService;
   final ExplorationService? explorationService;
+  final RecentlyViewedService? recentlyViewedService;
   final AnalyticsService? analyticsService;
   final String nodeId;
   final List<BreadcrumbEntry> breadcrumbs;
@@ -30,6 +32,7 @@ class SubOptionScreen extends StatefulWidget {
     required this.careerDataService,
     this.bookmarkService,
     this.explorationService,
+    this.recentlyViewedService,
     this.analyticsService,
     required this.nodeId,
     required this.breadcrumbs,
@@ -56,6 +59,7 @@ class _SubOptionScreenState extends State<SubOptionScreen> {
     _childrenFuture = _loadChildren();
     widget.bookmarkService?.addListener(_onBookmarkChanged);
     widget.explorationService?.markVisited(widget.nodeId);
+    widget.recentlyViewedService?.addVisit(widget.nodeId);
   }
 
   @override
@@ -266,6 +270,7 @@ class _SubOptionScreenState extends State<SubOptionScreen> {
                         careerDataService: widget.careerDataService,
                         bookmarkService: widget.bookmarkService,
                         explorationService: widget.explorationService,
+                        recentlyViewedService: widget.recentlyViewedService,
                         analyticsService: widget.analyticsService,
                         nodeId: child.id,
                         breadcrumbs: [
