@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../config/app_theme.dart';
+import '../l10n/app_localizations.dart';
 import '../models/breadcrumb_entry.dart';
 import '../models/career_node.dart';
 import '../services/analytics_service.dart';
@@ -119,6 +120,7 @@ class _BookmarksTabState extends State<BookmarksTab> {
   }
 
   Widget _buildContent() {
+    final l = AppLocalizations.of(context)!;
     final ids = widget.bookmarkService.bookmarkedIds;
     final nodes = ids
         .map((id) => widget.careerDataService.getNodeById(id))
@@ -127,10 +129,10 @@ class _BookmarksTabState extends State<BookmarksTab> {
         .toList();
 
     if (nodes.isEmpty) {
-      return const EmptyState(
+      return EmptyState(
         icon: Icons.bookmark_outline_rounded,
-        title: 'No saved paths yet',
-        subtitle: 'Bookmark career paths you like\nand they\'ll appear here',
+        title: l.bookmarks_noSavedTitle,
+        subtitle: l.bookmarks_noSavedSubtitle,
       );
     }
 
@@ -158,7 +160,7 @@ class _BookmarksTabState extends State<BookmarksTab> {
             child: FilledButton.icon(
               onPressed: () => _startComparison(nodes),
               icon: const Icon(Icons.compare_arrows_rounded),
-              label: Text('Compare ${_selected.length} paths'),
+              label: Text(l.bookmarks_compareNPaths(_selected.length)),
               style: FilledButton.styleFrom(
                 minimumSize: const Size.fromHeight(48),
               ),
@@ -169,6 +171,7 @@ class _BookmarksTabState extends State<BookmarksTab> {
   }
 
   Widget _buildHeader(int count) {
+    final l = AppLocalizations.of(context)!;
     if (count < 2) return const SizedBox.shrink();
 
     return Padding(
@@ -178,8 +181,8 @@ class _BookmarksTabState extends State<BookmarksTab> {
           Expanded(
             child: Text(
               _compareMode
-                  ? 'Select 2-3 paths to compare'
-                  : '$count saved paths',
+                  ? l.bookmarks_selectToCompare
+                  : l.bookmarks_savedPathsCount(count),
               style: Theme.of(context).textTheme.bodySmall?.copyWith(
                     color: Theme.of(context).colorScheme.onSurfaceVariant,
                   ),
@@ -191,7 +194,7 @@ class _BookmarksTabState extends State<BookmarksTab> {
               _compareMode ? Icons.close_rounded : Icons.compare_arrows_rounded,
               size: 18,
             ),
-            label: Text(_compareMode ? 'Cancel' : 'Compare'),
+            label: Text(_compareMode ? l.bookmarks_cancel : l.bookmarks_compare),
           ),
         ],
       ),
@@ -199,6 +202,7 @@ class _BookmarksTabState extends State<BookmarksTab> {
   }
 
   Widget _buildNodeTile(CareerNode node) {
+    final l = AppLocalizations.of(context)!;
     final isSelected = _selected.contains(node.id);
 
     return Padding(
@@ -235,7 +239,7 @@ class _BookmarksTabState extends State<BookmarksTab> {
                       ),
                       const SizedBox(height: 2),
                       Text(
-                        'Saved career path',
+                        l.bookmarks_savedCareerPath,
                         style: Theme.of(context).textTheme.bodySmall?.copyWith(
                               color: Theme.of(context)
                                   .colorScheme
@@ -253,7 +257,7 @@ class _BookmarksTabState extends State<BookmarksTab> {
                     },
                     icon: const Icon(Icons.bookmark_rounded),
                     color: Theme.of(context).colorScheme.primary,
-                    tooltip: 'Remove bookmark',
+                    tooltip: l.bookmarks_removeBookmark,
                   ),
               ],
             ),

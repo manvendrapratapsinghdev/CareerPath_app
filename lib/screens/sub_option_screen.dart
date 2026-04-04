@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:share_plus/share_plus.dart';
 
 import '../config/app_theme.dart';
+import '../l10n/app_localizations.dart';
 import '../models/breadcrumb_entry.dart';
 import '../models/career_node.dart';
 import '../models/leaf_details.dart';
@@ -133,7 +134,7 @@ class _SubOptionScreenState extends State<SubOptionScreen> {
         }
       }
     }
-    buffer.writeln('\nExplore more on CareerPath app!');
+    buffer.writeln('\n${AppLocalizations.of(context)!.sub_shareFooter}');
     widget.analyticsService?.logShareCareerPath(name);
     SharePlus.instance.share(ShareParams(text: buffer.toString()));
   }
@@ -147,6 +148,7 @@ class _SubOptionScreenState extends State<SubOptionScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final l = AppLocalizations.of(context)!;
     final colorScheme = Theme.of(context).colorScheme;
 
     return Scaffold(
@@ -178,14 +180,14 @@ class _SubOptionScreenState extends State<SubOptionScreen> {
                     : Icons.bookmark_outline_rounded,
               ),
               tooltip: widget.bookmarkService!.isBookmarked(widget.nodeId)
-                  ? 'Remove bookmark'
-                  : 'Save career path',
+                  ? l.sub_removeBookmark
+                  : l.sub_saveCareerPath,
             ),
           if (_isLeaf)
             IconButton(
               onPressed: _shareCareerPath,
               icon: const Icon(Icons.share_rounded),
-              tooltip: 'Share',
+              tooltip: l.sub_shareTooltip,
             ),
         ],
       ),
@@ -217,8 +219,8 @@ class _SubOptionScreenState extends State<SubOptionScreen> {
                     final isServerDown = snapshot.error is ServerDownException;
                     return ErrorState(
                       message: isServerDown
-                          ? 'Server is down.\nPlease contact admin (9807942950) to start the server.'
-                          : 'Error loading data.\nCheck your connection and try again.',
+                          ? l.sub_serverDownError
+                          : l.sub_loadError,
                       onRetry: _refreshData,
                     );
                   }
@@ -260,6 +262,7 @@ class _SubOptionScreenState extends State<SubOptionScreen> {
     List<CareerNode> children,
     ColorScheme colorScheme,
   ) {
+    final l = AppLocalizations.of(context)!;
     return ListView.builder(
       padding: AppSpacing.pagePadding,
       itemCount: children.length,
@@ -315,8 +318,8 @@ class _SubOptionScreenState extends State<SubOptionScreen> {
                             const SizedBox(height: 2),
                             Text(
                               child.isLeaf
-                                  ? 'Career endpoint'
-                                  : '${child.childCount} options ahead',
+                                  ? l.sub_careerEndpoint
+                                  : l.sub_optionsAhead(child.childCount),
                               style: Theme.of(context)
                                   .textTheme
                                   .bodySmall
@@ -481,6 +484,7 @@ class _LeafView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final l = AppLocalizations.of(context)!;
     final colorScheme = Theme.of(context).colorScheme;
 
     return SingleChildScrollView(
@@ -489,7 +493,7 @@ class _LeafView extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           // Hero header
-          _buildHero(context),
+          _buildHero(context, l),
           const SizedBox(height: AppSpacing.lg),
 
           // Intro text
@@ -521,10 +525,10 @@ class _LeafView extends StatelessWidget {
             const SkeletonList(itemCount: 3),
           ] else if (details != null) ...[
             ResourceSection(
-              title: 'Recommended Books',
+              title: l.sub_recommendedBooks,
               subtitle: details!.books.isEmpty
-                  ? 'No books available'
-                  : '${details!.books.length} book${details!.books.length != 1 ? 's' : ''}',
+                  ? l.sub_noBooksAvailable
+                  : l.sub_booksCount(details!.books.length),
               icon: Icons.menu_book_rounded,
               color: const Color(0xFF6366F1),
               isExpanded: booksExpanded,
@@ -533,10 +537,10 @@ class _LeafView extends StatelessWidget {
             ),
             const SizedBox(height: AppSpacing.md),
             ResourceSection(
-              title: 'Top Institutes',
+              title: l.sub_topInstitutes,
               subtitle: details!.institutes.isEmpty
-                  ? 'No institutes available'
-                  : '${details!.institutes.length} institute${details!.institutes.length != 1 ? 's' : ''}',
+                  ? l.sub_noInstitutesAvailable
+                  : l.sub_institutesCount(details!.institutes.length),
               icon: Icons.school_rounded,
               color: const Color(0xFF14B8A6),
               isExpanded: institutesExpanded,
@@ -547,10 +551,10 @@ class _LeafView extends StatelessWidget {
             ),
             const SizedBox(height: AppSpacing.md),
             ResourceSection(
-              title: 'Job Sectors',
+              title: l.sub_jobSectors,
               subtitle: details!.jobSectors.isEmpty
-                  ? 'No sectors available'
-                  : '${details!.jobSectors.length} sector${details!.jobSectors.length != 1 ? 's' : ''}',
+                  ? l.sub_noSectorsAvailable
+                  : l.sub_sectorsCount(details!.jobSectors.length),
               icon: Icons.work_rounded,
               color: const Color(0xFFF59E0B),
               isExpanded: jobSectorsExpanded,
@@ -560,10 +564,10 @@ class _LeafView extends StatelessWidget {
                   .toList(),
             ),
           ] else ...[
-            const EmptyState(
+            EmptyState(
               icon: Icons.upcoming_rounded,
-              title: 'More details coming soon!',
-              subtitle: 'Resources for this career path\nare being curated',
+              title: l.sub_moreDetailsSoonTitle,
+              subtitle: l.sub_moreDetailsSoonSubtitle,
             ),
           ],
 
@@ -573,7 +577,7 @@ class _LeafView extends StatelessWidget {
     );
   }
 
-  Widget _buildHero(BuildContext context) {
+  Widget _buildHero(BuildContext context, AppLocalizations l) {
     return Center(
       child: Column(
         children: [
@@ -612,7 +616,7 @@ class _LeafView extends StatelessWidget {
               borderRadius: AppRadius.pillAll,
             ),
             child: Text(
-              'Final Career Option',
+              l.sub_finalCareerOption,
               style: Theme.of(context).textTheme.labelMedium?.copyWith(
                     color: AppColors.success,
                     fontWeight: FontWeight.w600,

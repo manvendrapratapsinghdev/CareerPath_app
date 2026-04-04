@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import '../config/app_theme.dart';
+import '../l10n/app_localizations.dart';
 import '../models/profile_data.dart';
 import '../services/analytics_service.dart';
 import '../services/bookmark_service.dart';
@@ -73,14 +74,13 @@ class _HomeScreenState extends State<HomeScreen> {
 
   void _showRateDialog() {
     final colorScheme = Theme.of(context).colorScheme;
+    final l = AppLocalizations.of(context)!;
     showDialog(
       context: context,
       builder: (ctx) => AlertDialog(
         icon: Icon(Icons.star_rounded, size: 48, color: colorScheme.primary),
-        title: const Text('Enjoying CareerPath?'),
-        content: const Text(
-          'If you find this app helpful, please take a moment to rate us on the Play Store.',
-        ),
+        title: Text(l.home_rateDialogTitle),
+        content: Text(l.home_rateDialogContent),
         actions: [
           TextButton(
             onPressed: () {
@@ -88,14 +88,14 @@ class _HomeScreenState extends State<HomeScreen> {
               widget.ratePromptService?.recordDontAskAgain();
               Navigator.pop(ctx);
             },
-            child: const Text("Don't Ask Again"),
+            child: Text(l.home_rateDialogDontAskAgain),
           ),
           TextButton(
             onPressed: () {
               widget.analyticsService?.logEvent('rate_prompt_not_now');
               Navigator.pop(ctx);
             },
-            child: const Text('Not Now'),
+            child: Text(l.home_rateDialogNotNow),
           ),
           FilledButton(
             onPressed: () {
@@ -109,7 +109,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 mode: LaunchMode.externalApplication,
               );
             },
-            child: const Text('Rate Now'),
+            child: Text(l.home_rateDialogRateNow),
           ),
         ],
       ),
@@ -154,15 +154,17 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
-  String get _greeting {
+  String _greeting(BuildContext context) {
+    final l = AppLocalizations.of(context)!;
     final hour = DateTime.now().hour;
-    if (hour < 12) return 'Good Morning';
-    if (hour < 17) return 'Good Afternoon';
-    return 'Good Evening';
+    if (hour < 12) return l.home_goodMorning;
+    if (hour < 17) return l.home_goodAfternoon;
+    return l.home_goodEvening;
   }
 
   @override
   Widget build(BuildContext context) {
+    final l = AppLocalizations.of(context)!;
     final colorScheme = Theme.of(context).colorScheme;
     final name = _profile?.name;
     final hasName = name != null && name.isNotEmpty;
@@ -174,7 +176,7 @@ class _HomeScreenState extends State<HomeScreen> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              '$_greeting${hasName ? ',' : ''}',
+              '${_greeting(context)}${hasName ? ',' : ''}',
               style: Theme.of(context).textTheme.bodySmall?.copyWith(
                     color: colorScheme.onSurfaceVariant,
                   ),
@@ -201,7 +203,7 @@ class _HomeScreenState extends State<HomeScreen> {
               );
             },
             icon: const Icon(Icons.search_rounded),
-            tooltip: 'Search',
+            tooltip: l.home_searchTooltip,
           ),
           IconButton(
             onPressed: () {
@@ -211,7 +213,7 @@ class _HomeScreenState extends State<HomeScreen> {
               );
             },
             icon: const Icon(Icons.psychology_rounded),
-            tooltip: 'Career Quiz',
+            tooltip: l.home_careerQuizTooltip,
           ),
           Padding(
             padding: const EdgeInsets.only(right: AppSpacing.md),
@@ -288,21 +290,21 @@ class _HomeScreenState extends State<HomeScreen> {
           indicatorColor: colorScheme.primary.withValues(alpha: 0.1),
           height: 64,
           labelBehavior: NavigationDestinationLabelBehavior.alwaysShow,
-          destinations: const [
+          destinations: [
             NavigationDestination(
-              icon: Icon(Icons.lightbulb_outline_rounded),
-              selectedIcon: Icon(Icons.lightbulb_rounded),
-              label: 'For You',
+              icon: const Icon(Icons.lightbulb_outline_rounded),
+              selectedIcon: const Icon(Icons.lightbulb_rounded),
+              label: l.home_tabForYou,
             ),
             NavigationDestination(
-              icon: Icon(Icons.explore_outlined),
-              selectedIcon: Icon(Icons.explore_rounded),
-              label: 'Explore',
+              icon: const Icon(Icons.explore_outlined),
+              selectedIcon: const Icon(Icons.explore_rounded),
+              label: l.home_tabExplore,
             ),
             NavigationDestination(
-              icon: Icon(Icons.bookmark_outline_rounded),
-              selectedIcon: Icon(Icons.bookmark_rounded),
-              label: 'Saved',
+              icon: const Icon(Icons.bookmark_outline_rounded),
+              selectedIcon: const Icon(Icons.bookmark_rounded),
+              label: l.home_tabSaved,
             ),
           ],
         ),

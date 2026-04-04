@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 
 import '../config/app_theme.dart';
+import '../l10n/app_localizations.dart';
 import '../models/breadcrumb_entry.dart';
 import '../models/career_node.dart';
 import '../services/analytics_service.dart';
@@ -80,6 +81,7 @@ class _SearchScreenState extends State<SearchScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final l = AppLocalizations.of(context)!;
     final colorScheme = Theme.of(context).colorScheme;
 
     return Scaffold(
@@ -89,7 +91,7 @@ class _SearchScreenState extends State<SearchScreen> {
           autofocus: true,
           onChanged: _onSearch,
           decoration: InputDecoration(
-            hintText: 'Search career paths...',
+            hintText: l.search_hint,
             border: InputBorder.none,
             hintStyle: TextStyle(color: colorScheme.onSurfaceVariant),
           ),
@@ -111,19 +113,20 @@ class _SearchScreenState extends State<SearchScreen> {
   }
 
   Widget _buildBody(ColorScheme colorScheme) {
+    final l = AppLocalizations.of(context)!;
     if (_controller.text.isEmpty) {
-      return const EmptyState(
+      return EmptyState(
         icon: Icons.search_rounded,
-        title: 'Search careers',
-        subtitle: 'Type to search across all\nloaded career paths',
+        title: l.search_emptyTitle,
+        subtitle: l.search_emptySubtitle,
       );
     }
 
     if (_results.isEmpty) {
-      return const EmptyState(
+      return EmptyState(
         icon: Icons.search_off_rounded,
-        title: 'No results',
-        subtitle: 'Try a different search term\nor explore more paths first',
+        title: l.search_noResultsTitle,
+        subtitle: l.search_noResultsSubtitle,
       );
     }
 
@@ -162,8 +165,8 @@ class _SearchScreenState extends State<SearchScreen> {
                           const SizedBox(height: 2),
                           Text(
                             node.isLeaf
-                                ? 'Career endpoint'
-                                : '${node.childCount} options ahead',
+                                ? l.search_careerEndpoint
+                                : l.search_optionsAhead(node.childCount),
                             style: Theme.of(context)
                                 .textTheme
                                 .bodySmall

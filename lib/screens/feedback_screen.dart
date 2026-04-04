@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../config/app_theme.dart';
+import '../l10n/app_localizations.dart';
 import '../models/feedback_data.dart';
 import '../services/analytics_service.dart';
 import '../services/feedback_service.dart';
@@ -33,9 +34,10 @@ class _FeedbackScreenState extends State<FeedbackScreen> {
   }
 
   Future<void> _submit() async {
+    final l = AppLocalizations.of(context)!;
     if (_rating == 0) {
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Please select a rating')),
+        SnackBar(content: Text(l.feedback_selectRating)),
       );
       return;
     }
@@ -57,24 +59,23 @@ class _FeedbackScreenState extends State<FeedbackScreen> {
     if (launched) {
       widget.analyticsService?.logFeedbackSubmitted(_category.name, _rating);
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Thanks for your feedback!')),
+        SnackBar(content: Text(l.feedback_thanks)),
       );
       Navigator.pop(context);
     } else {
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(
-          content: Text('No email app found. Please install one or email us directly.'),
-        ),
+        SnackBar(content: Text(l.feedback_noEmailApp)),
       );
     }
   }
 
   @override
   Widget build(BuildContext context) {
+    final l = AppLocalizations.of(context)!;
     final colorScheme = Theme.of(context).colorScheme;
 
     return Scaffold(
-      appBar: AppBar(title: const Text('Send Feedback')),
+      appBar: AppBar(title: Text(l.feedback_title)),
       body: SafeArea(
         child: SingleChildScrollView(
           padding: AppSpacing.pagePadding,
@@ -83,30 +84,30 @@ class _FeedbackScreenState extends State<FeedbackScreen> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text('How would you rate this app?',
+                Text(l.feedback_ratingPrompt,
                     style: Theme.of(context).textTheme.titleMedium),
                 const SizedBox(height: AppSpacing.sm),
                 _buildStarRating(colorScheme),
                 const SizedBox(height: AppSpacing.lg),
-                Text('Category',
+                Text(l.feedback_category,
                     style: Theme.of(context).textTheme.titleMedium),
                 const SizedBox(height: AppSpacing.sm),
-                _buildCategorySelector(),
+                _buildCategorySelector(l),
                 const SizedBox(height: AppSpacing.lg),
-                Text('Your Message',
+                Text(l.feedback_yourMessage,
                     style: Theme.of(context).textTheme.titleMedium),
                 const SizedBox(height: AppSpacing.sm),
                 TextFormField(
                   controller: _messageController,
                   maxLines: 5,
                   maxLength: 1000,
-                  decoration: const InputDecoration(
-                    hintText: 'Tell us what you think...',
-                    border: OutlineInputBorder(),
+                  decoration: InputDecoration(
+                    hintText: l.feedback_messageHint,
+                    border: const OutlineInputBorder(),
                   ),
                   validator: (value) {
                     if (value == null || value.trim().length < 10) {
-                      return 'Please enter at least 10 characters';
+                      return l.feedback_messageValidation;
                     }
                     return null;
                   },
@@ -122,7 +123,7 @@ class _FeedbackScreenState extends State<FeedbackScreen> {
                             width: 20,
                             child: CircularProgressIndicator(strokeWidth: 2),
                           )
-                        : const Text('Submit Feedback'),
+                        : Text(l.feedback_submit),
                   ),
                 ),
               ],
@@ -151,10 +152,21 @@ class _FeedbackScreenState extends State<FeedbackScreen> {
     );
   }
 
-  Widget _buildCategorySelector() {
+  String _categoryLabel(AppLocalizations l, FeedbackCategory c) {
+    switch (c) {
+      case FeedbackCategory.bug:
+        return l.feedback_categoryBug;
+      case FeedbackCategory.feature:
+        return l.feedback_categoryFeature;
+      case FeedbackCategory.other:
+        return l.feedback_categoryOther;
+    }
+  }
+
+  Widget _buildCategorySelector(AppLocalizations l) {
     return SegmentedButton<FeedbackCategory>(
       segments: FeedbackCategory.values
-          .map((c) => ButtonSegment(value: c, label: Text(c.label)))
+          .map((c) => ButtonSegment(value: c, label: Text(_categoryLabel(l, c))))
           .toList(),
       selected: {_category},
       onSelectionChanged: (selected) {

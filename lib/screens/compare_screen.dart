@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../config/app_theme.dart';
+import '../l10n/app_localizations.dart';
 import '../models/career_node.dart';
 import '../models/leaf_details.dart';
 import '../services/career_data_service.dart';
@@ -33,9 +34,10 @@ class _CompareScreenState extends State<CompareScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final l = AppLocalizations.of(context)!;
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Compare Careers'),
+        title: Text(l.compare_title),
       ),
       body: FutureBuilder<List<LeafDetails?>>(
         future: _detailsFuture,
@@ -49,7 +51,7 @@ class _CompareScreenState extends State<CompareScreen> {
           if (snapshot.hasError) {
             return Center(
               child: Text(
-                'Failed to load details',
+                l.compare_failedToLoadDetails,
                 style: Theme.of(context).textTheme.bodyLarge,
               ),
             );
@@ -62,6 +64,7 @@ class _CompareScreenState extends State<CompareScreen> {
   }
 
   Widget _buildComparison(BuildContext context, List<LeafDetails?> details) {
+    final l = AppLocalizations.of(context)!;
     final colors = [
       AppColors.science,
       AppColors.commerce,
@@ -77,7 +80,7 @@ class _CompareScreenState extends State<CompareScreen> {
           _buildSection(
             context,
             icon: Icons.star_rounded,
-            title: 'Career Path',
+            title: l.compare_careerPath,
             child: Row(
               children: List.generate(details.length, (i) {
                 final d = details[i];
@@ -126,7 +129,7 @@ class _CompareScreenState extends State<CompareScreen> {
           _buildSection(
             context,
             icon: Icons.school_rounded,
-            title: 'Top Institutes',
+            title: l.compare_topInstitutes,
             child: _buildComparisonRow(
               context,
               details,
@@ -137,7 +140,7 @@ class _CompareScreenState extends State<CompareScreen> {
                           '${i.name}${i.city != null ? ' (${i.city})' : ''}')
                       .toList() ??
                   [],
-              emptyLabel: 'No institutes',
+              emptyLabel: l.compare_noInstitutes,
             ),
           ),
           const SizedBox(height: AppSpacing.lg),
@@ -146,13 +149,13 @@ class _CompareScreenState extends State<CompareScreen> {
           _buildSection(
             context,
             icon: Icons.work_rounded,
-            title: 'Job Sectors',
+            title: l.compare_jobSectors,
             child: _buildComparisonRow(
               context,
               details,
               colors,
               (d) => d?.jobSectors.take(3).map((s) => s.name).toList() ?? [],
-              emptyLabel: 'No sectors',
+              emptyLabel: l.compare_noSectors,
             ),
           ),
           const SizedBox(height: AppSpacing.lg),
@@ -161,13 +164,13 @@ class _CompareScreenState extends State<CompareScreen> {
           _buildSection(
             context,
             icon: Icons.menu_book_rounded,
-            title: 'Recommended Books',
+            title: l.compare_recommendedBooks,
             child: _buildComparisonRow(
               context,
               details,
               colors,
               (d) => d?.books.take(3).map((b) => b.title).toList() ?? [],
-              emptyLabel: 'No books',
+              emptyLabel: l.compare_noBooks,
             ),
           ),
 

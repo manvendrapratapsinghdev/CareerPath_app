@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../config/app_theme.dart';
+import '../l10n/app_localizations.dart';
 
 /// A polished empty state widget with icon, title, subtitle, and optional CTA.
 class EmptyState extends StatelessWidget {
@@ -74,23 +75,24 @@ class EmptyState extends StatelessWidget {
 
 /// An error state widget with retry action.
 class ErrorState extends StatelessWidget {
-  final String message;
+  final String? message;
   final VoidCallback? onRetry;
 
   const ErrorState({
     super.key,
-    this.message = 'Something went wrong',
+    this.message,
     this.onRetry,
   });
 
   @override
   Widget build(BuildContext context) {
+    final l = AppLocalizations.of(context)!;
     return EmptyState(
       icon: Icons.error_outline_rounded,
       iconColor: Theme.of(context).colorScheme.error,
-      title: 'Oops!',
-      subtitle: message,
-      actionLabel: onRetry != null ? 'Try Again' : null,
+      title: l.common_oops,
+      subtitle: message ?? l.common_somethingWentWrong,
+      actionLabel: onRetry != null ? l.common_tryAgain : null,
       onAction: onRetry,
     );
   }

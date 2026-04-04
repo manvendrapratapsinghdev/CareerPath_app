@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../config/app_theme.dart';
+import '../l10n/app_localizations.dart';
 import '../models/breadcrumb_entry.dart';
 import '../models/career_node.dart';
 import '../models/profile_data.dart';
@@ -91,7 +92,7 @@ class _SuggestionsTabState extends State<SuggestionsTab> {
       if (mounted) {
         setState(() {
           _isLoading = false;
-          _error = 'Failed to connect to server. Check your connection and retry.';
+          _error = '_connection_error_';
         });
       }
     }
@@ -126,10 +127,11 @@ class _SuggestionsTabState extends State<SuggestionsTab> {
 
   @override
   Widget build(BuildContext context) {
+    final l = AppLocalizations.of(context)!;
     if (_isLoading) return _buildLoadingState();
-    if (_error != null) return ErrorState(message: _error!, onRetry: _loadData);
-    if (_profile == null || _profile!.stream.isEmpty) return _buildNoProfileState();
-    return _buildContent();
+    if (_error != null) return ErrorState(message: l.suggestions_connectionError, onRetry: _loadData);
+    if (_profile == null || _profile!.stream.isEmpty) return _buildNoProfileState(l);
+    return _buildContent(l);
   }
 
   Widget _buildLoadingState() {
@@ -156,23 +158,23 @@ class _SuggestionsTabState extends State<SuggestionsTab> {
     );
   }
 
-  Widget _buildNoProfileState() {
+  Widget _buildNoProfileState(AppLocalizations l) {
     return EmptyState(
       icon: Icons.person_add_alt_1_rounded,
-      title: 'Personalize your feed',
-      subtitle: 'Complete your profile to see career\nsuggestions tailored just for you',
-      actionLabel: 'Set Up Profile',
+      title: l.suggestions_personalizeTitle,
+      subtitle: l.suggestions_personalizeSubtitle,
+      actionLabel: l.suggestions_setUpProfile,
       onAction: _navigateToProfile,
     );
   }
 
-  Widget _buildContent() {
+  Widget _buildContent(AppLocalizations l) {
     if (_categories.isEmpty) {
       return EmptyState(
         icon: Icons.inbox_rounded,
-        title: 'No paths yet',
-        subtitle: 'Career categories for your stream\nwill appear here soon',
-        actionLabel: 'Refresh',
+        title: l.suggestions_noPathsTitle,
+        subtitle: l.suggestions_noPathsSubtitle,
+        actionLabel: l.suggestions_refresh,
         onAction: () => _loadData(forceRefresh: true),
       );
     }
@@ -223,7 +225,7 @@ class _SuggestionsTabState extends State<SuggestionsTab> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
-            'Recently Viewed',
+            AppLocalizations.of(context)!.suggestions_recentlyViewed,
             style: Theme.of(context).textTheme.titleMedium,
           ),
           const SizedBox(height: AppSpacing.sm),
@@ -280,6 +282,7 @@ class _SuggestionsTabState extends State<SuggestionsTab> {
   }
 
   Widget _buildDashboardHeader() {
+    final l = AppLocalizations.of(context)!;
     final colorScheme = Theme.of(context).colorScheme;
     final streamName = _profile?.stream ?? '';
     final streamColor = _getStreamColor(streamName);
@@ -324,14 +327,14 @@ class _SuggestionsTabState extends State<SuggestionsTab> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    '${streamName[0].toUpperCase()}${streamName.substring(1)} Stream',
+                    l.suggestions_streamLabel('${streamName[0].toUpperCase()}${streamName.substring(1)}'),
                     style: Theme.of(context).textTheme.titleMedium?.copyWith(
                           color: streamColor,
                         ),
                   ),
                   const SizedBox(height: 2),
                   Text(
-                    '${_categories.length} career paths available',
+                    l.suggestions_careerPathsAvailable(_categories.length),
                     style: Theme.of(context).textTheme.bodySmall?.copyWith(
                           color: colorScheme.onSurfaceVariant,
                         ),
@@ -371,7 +374,7 @@ class _SuggestionsTabState extends State<SuggestionsTab> {
         ),
         const SizedBox(height: 4),
         Text(
-          '$visited of $total explored',
+          AppLocalizations.of(context)!.suggestions_exploredProgress(visited, total),
           style: Theme.of(context).textTheme.labelSmall?.copyWith(
                 color: color,
                 fontWeight: FontWeight.w600,
@@ -415,6 +418,7 @@ class _CategoryCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final l = AppLocalizations.of(context)!;
     final colorScheme = Theme.of(context).colorScheme;
 
     return Padding(
@@ -440,7 +444,7 @@ class _CategoryCard extends StatelessWidget {
                       if (node.childIds.isNotEmpty) ...[
                         const SizedBox(height: 2),
                         Text(
-                          '${node.childIds.length} paths available',
+                          l.suggestions_pathsAvailable(node.childIds.length),
                           style: Theme.of(context).textTheme.bodySmall?.copyWith(
                                 color: colorScheme.onSurfaceVariant,
                               ),

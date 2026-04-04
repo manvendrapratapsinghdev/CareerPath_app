@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../config/app_theme.dart';
+import '../l10n/app_localizations.dart';
 import '../models/book.dart';
 import '../models/institute.dart';
 import '../models/job_sector.dart';
@@ -73,7 +74,7 @@ class ResourceSection extends StatelessWidget {
               padding: const EdgeInsets.all(AppSpacing.base),
               child: Center(
                 child: Text(
-                  'None available yet',
+                  AppLocalizations.of(context)!.common_noneAvailableYet,
                   style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                         color: colorScheme.onSurfaceVariant,
                         fontStyle: FontStyle.italic,
@@ -144,7 +145,7 @@ class BookTile extends StatelessWidget {
                 if (book.author != null) ...[
                   const SizedBox(height: 2),
                   Text(
-                    'by ${book.author}',
+                    AppLocalizations.of(context)!.common_byAuthor(book.author!),
                     style: Theme.of(context).textTheme.bodySmall,
                   ),
                 ],
@@ -165,7 +166,7 @@ class BookTile extends StatelessWidget {
             IconButton(
               onPressed: () => _openBook(context),
               icon: const Icon(Icons.chevron_right_rounded, color: color),
-              tooltip: 'View book',
+              tooltip: AppLocalizations.of(context)!.common_viewBook,
               constraints: const BoxConstraints(minWidth: 36, minHeight: 36),
               padding: EdgeInsets.zero,
             ),
@@ -241,7 +242,7 @@ class InstituteTile extends StatelessWidget {
             IconButton(
               onPressed: () => _openWebsite(context),
               icon: const Icon(Icons.chevron_right_rounded, color: color),
-              tooltip: 'Visit website',
+              tooltip: AppLocalizations.of(context)!.common_visitWebsite,
               constraints: const BoxConstraints(minWidth: 36, minHeight: 36),
               padding: EdgeInsets.zero,
             ),

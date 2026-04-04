@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import '../config/app_theme.dart';
+import '../l10n/app_localizations.dart';
 import '../services/network_service.dart';
 
 class NetworkAwareWrapper extends StatefulWidget {
@@ -90,15 +91,15 @@ class _NetworkAwareWrapperState extends State<NetworkAwareWrapper>
                     color: AppColors.error,
                     padding: const EdgeInsets.symmetric(
                         vertical: 8, horizontal: 16),
-                    child: const Row(
+                    child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Icon(Icons.wifi_off,
+                        const Icon(Icons.wifi_off,
                             color: Colors.white, size: 18),
-                        SizedBox(width: 8),
+                        const SizedBox(width: 8),
                         Text(
-                          'No Internet Connection',
-                          style: TextStyle(
+                          AppLocalizations.of(context)!.common_noInternetConnection,
+                          style: const TextStyle(
                             color: Colors.white,
                             fontSize: 13,
                             fontWeight: FontWeight.w600,

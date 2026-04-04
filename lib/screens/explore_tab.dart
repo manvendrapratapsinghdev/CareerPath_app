@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../config/app_theme.dart';
+import '../l10n/app_localizations.dart';
 import '../models/breadcrumb_entry.dart';
 import '../models/career_node.dart';
 import '../models/stream_model.dart';
@@ -85,6 +86,7 @@ class _ExploreTabState extends State<ExploreTab> {
 
   @override
   Widget build(BuildContext context) {
+    final l = AppLocalizations.of(context)!;
     return FutureBuilder<void>(
       future: _initFuture,
       builder: (context, snapshot) {
@@ -96,17 +98,17 @@ class _ExploreTabState extends State<ExploreTab> {
         }
         if (snapshot.hasError) {
           return ErrorState(
-            message: 'Failed to load data',
+            message: l.explore_failedToLoadData,
             onRetry: _refreshData,
           );
         }
 
         final streams = widget.careerDataService.getAllStreams();
         if (streams.isEmpty) {
-          return const EmptyState(
+          return EmptyState(
             icon: Icons.explore_off_rounded,
-            title: 'No streams available',
-            subtitle: 'Check back later for career streams',
+            title: l.explore_noStreamsTitle,
+            subtitle: l.explore_noStreamsSubtitle,
           );
         }
 
@@ -178,6 +180,7 @@ class _StreamSection extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final l = AppLocalizations.of(context)!;
     final colorScheme = Theme.of(context).colorScheme;
 
     return Padding(
@@ -208,7 +211,7 @@ class _StreamSection extends StatelessWidget {
                             ),
                       ),
                       Text(
-                        '${stream.rootNodeCount} categor${stream.rootNodeCount != 1 ? 'ies' : 'y'}',
+                        l.explore_categoriesCount(stream.rootNodeCount),
                         style: Theme.of(context).textTheme.bodySmall?.copyWith(
                               color: colorScheme.onSurfaceVariant,
                             ),
@@ -236,6 +239,7 @@ class _StreamSection extends StatelessWidget {
   }
 
   Widget _buildCategoryContent(BuildContext context, ColorScheme colorScheme) {
+    final l = AppLocalizations.of(context)!;
     if (categoryFuture == null) {
       return const Padding(
         padding: EdgeInsets.all(AppSpacing.base),
@@ -262,8 +266,8 @@ class _StreamSection extends StatelessWidget {
             child: Center(
               child: Text(
                 isServerDown
-                    ? 'Server is down.\nPlease contact admin (9807942950) to start the server.'
-                    : 'Failed to load categories',
+                    ? l.explore_serverDown
+                    : l.explore_failedToLoadCategories,
                 textAlign: TextAlign.center,
                 style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                       color: colorScheme.error,
@@ -279,7 +283,7 @@ class _StreamSection extends StatelessWidget {
             padding: const EdgeInsets.all(AppSpacing.lg),
             child: Center(
               child: Text(
-                'No categories available',
+                l.explore_noCategoriesAvailable,
                 style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                       color: colorScheme.onSurfaceVariant,
                       fontStyle: FontStyle.italic,
@@ -383,7 +387,7 @@ class _CategoryTile extends StatelessWidget {
                       ),
                       if (!node.isLeaf)
                         Text(
-                          '${node.childCount} sub-paths',
+                          AppLocalizations.of(context)!.explore_subPathsCount(node.childCount),
                           style: Theme.of(context).textTheme.bodySmall?.copyWith(
                                 color: colorScheme.onSurfaceVariant,
                               ),

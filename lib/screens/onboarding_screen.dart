@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../config/app_theme.dart';
+import '../l10n/app_localizations.dart';
 
 class OnboardingScreen extends StatefulWidget {
   final VoidCallback onComplete;
@@ -15,27 +16,24 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
   final _controller = PageController();
   int _currentPage = 0;
 
-  static const _pages = [
+  List<_PageData> _pages(AppLocalizations l) => [
     _PageData(
       icon: Icons.explore_rounded,
       color: AppColors.science,
-      title: 'Explore Career Paths',
-      description:
-          'Browse through Science, Commerce, and Art streams to discover career options that match your interests.',
+      title: l.onboarding_page1Title,
+      description: l.onboarding_page1Description,
     ),
     _PageData(
       icon: Icons.bookmark_rounded,
       color: AppColors.commerce,
-      title: 'Save & Compare',
-      description:
-          'Bookmark careers you like, search across all paths, and share discoveries with friends.',
+      title: l.onboarding_page2Title,
+      description: l.onboarding_page2Description,
     ),
     _PageData(
       icon: Icons.school_rounded,
       color: AppColors.art,
-      title: 'Find Your Future',
-      description:
-          'Get details on top institutes, recommended books, and job sectors for every career endpoint.',
+      title: l.onboarding_page3Title,
+      description: l.onboarding_page3Description,
     ),
   ];
 
@@ -45,8 +43,10 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
     super.dispose();
   }
 
+  static const _pageCount = 3;
+
   void _next() {
-    if (_currentPage < _pages.length - 1) {
+    if (_currentPage < _pageCount - 1) {
       _controller.nextPage(
         duration: const Duration(milliseconds: 300),
         curve: Curves.easeOutCubic,
@@ -58,8 +58,10 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final l = AppLocalizations.of(context)!;
     final colorScheme = Theme.of(context).colorScheme;
-    final isLast = _currentPage == _pages.length - 1;
+    final pages = _pages(l);
+    final isLast = _currentPage == pages.length - 1;
 
     return Scaffold(
       body: SafeArea(
@@ -72,7 +74,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                 padding: const EdgeInsets.all(AppSpacing.base),
                 child: TextButton(
                   onPressed: widget.onComplete,
-                  child: const Text('Skip'),
+                  child: Text(l.onboarding_skip),
                 ),
               ),
             ),
@@ -82,9 +84,9 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
               child: PageView.builder(
                 controller: _controller,
                 onPageChanged: (i) => setState(() => _currentPage = i),
-                itemCount: _pages.length,
+                itemCount: pages.length,
                 itemBuilder: (context, index) =>
-                    _buildPage(context, _pages[index]),
+                    _buildPage(context, pages[index]),
               ),
             ),
 
@@ -101,7 +103,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                   // Page dots
                   Row(
                     children: List.generate(
-                      _pages.length,
+                      pages.length,
                       (i) => AnimatedContainer(
                         duration: const Duration(milliseconds: 250),
                         margin: const EdgeInsets.only(right: AppSpacing.sm),
@@ -123,7 +125,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                     style: FilledButton.styleFrom(
                       minimumSize: const Size(120, 44),
                     ),
-                    child: Text(isLast ? 'Get Started' : 'Next'),
+                    child: Text(isLast ? l.onboarding_getStarted : l.onboarding_next),
                   ),
                 ],
               ),
