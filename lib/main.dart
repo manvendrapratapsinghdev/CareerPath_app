@@ -1,108 +1,199 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
+import 'l10n/app_localizations.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+import 'config/app_theme.dart';
+import 'data/bookmark_repository.dart';
+import 'data/exploration_repository.dart';
+import 'data/recently_viewed_repository.dart';
+import 'data/leaf_details_cache.dart';
+import 'data/local_database.dart';
+import 'data/local_data_source.dart';
 import 'data/profile_repository.dart';
+import 'data/rate_prompt_repository.dart';
 import 'screens/home_screen.dart';
+import 'screens/onboarding_screen.dart';
 import 'screens/profile_screen.dart';
-import 'services/api_client.dart';
+import 'services/analytics_service.dart';
+import 'services/bookmark_service.dart';
 import 'services/career_data_service.dart';
+import 'services/exploration_service.dart';
+import 'services/feedback_service.dart';
 import 'services/network_service.dart';
 import 'services/profile_service.dart';
+import 'services/rate_prompt_service.dart';
+import 'services/recently_viewed_service.dart';
+import 'services/locale_service.dart';
+import 'services/theme_service.dart';
 import 'widgets/network_aware_wrapper.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  try {
+    await Firebase.initializeApp();
+  } catch (_) {
+    // Firebase not configured — analytics will be no-op.
+  }
 
   final prefs = await SharedPreferences.getInstance();
   final profileRepo = ProfileRepository(prefs);
   final profileService = ProfileService(profileRepo);
-  final careerDataService = CareerDataService(ApiClient());
-  final networkService = NetworkService();
+  final leafDetailsCache = LeafDetailsCache(prefs);
+  final bookmarkService = BookmarkService(BookmarkRepository(prefs), leafDetailsCache);
+  final explorationService = ExplorationService(ExplorationRepository(prefs));
+  final recentlyViewedService = RecentlyViewedService(RecentlyViewedRepository(prefs));
+  final ratePromptService = RatePromptService(RatePromptRepository(prefs));
+  await ratePromptService.recordSession();
 
-  // Check profile from local storage only — no network call here.
+  final localDb = LocalDatabase();
+  await localDb.init();
+  final careerDataService = CareerDataService(LocalDataSource(localDb));
+  final networkService = NetworkService();
+  final analyticsService = AnalyticsService();
+  final feedbackService = FeedbackService();
+  final themeService = ThemeService(prefs);
+  final localeService = LocaleService(prefs);
+
+  // Check profile and onboarding from local storage — no network call here.
   final hasProfile = await profileService.isProfileComplete();
+  final onboardingSeen = prefs.getBool('onboarding_seen') ?? false;
 
   runApp(CareerPathApp(
+    prefs: prefs,
     profileService: profileService,
+    bookmarkService: bookmarkService,
+    explorationService: explorationService,
+    recentlyViewedService: recentlyViewedService,
+    ratePromptService: ratePromptService,
     careerDataService: careerDataService,
     networkService: networkService,
+    analyticsService: analyticsService,
+    feedbackService: feedbackService,
+    themeService: themeService,
+    localeService: localeService,
     hasProfile: hasProfile,
+    onboardingSeen: onboardingSeen,
   ));
 }
 
 class CareerPathApp extends StatelessWidget {
+  final SharedPreferences prefs;
   final ProfileService profileService;
+  final BookmarkService bookmarkService;
+  final ExplorationService explorationService;
+  final RecentlyViewedService recentlyViewedService;
+  final RatePromptService ratePromptService;
   final CareerDataService careerDataService;
   final NetworkService networkService;
+  final AnalyticsService analyticsService;
+  final FeedbackService feedbackService;
+  final ThemeService themeService;
+  final LocaleService localeService;
   final bool hasProfile;
+  final bool onboardingSeen;
 
   const CareerPathApp({
     super.key,
+    required this.prefs,
     required this.profileService,
+    required this.bookmarkService,
+    required this.explorationService,
+    required this.recentlyViewedService,
+    required this.ratePromptService,
     required this.careerDataService,
     required this.networkService,
+    required this.analyticsService,
+    required this.feedbackService,
+    required this.themeService,
+    required this.localeService,
     required this.hasProfile,
+    required this.onboardingSeen,
   });
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return ListenableBuilder(
+      listenable: Listenable.merge([themeService, localeService]),
+      builder: (context, _) => MaterialApp(
       title: 'Career Path Guidance',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(
-          seedColor: const Color(0xFF6750A4),
-          brightness: Brightness.light,
-        ),
-        useMaterial3: true,
-        cardTheme: CardThemeData(
-          elevation: 2,
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(16),
-          ),
-        ),
-        appBarTheme: const AppBarTheme(
-          centerTitle: true,
-          scrolledUnderElevation: 2,
-        ),
-        filledButtonTheme: FilledButtonThemeData(
-          style: FilledButton.styleFrom(
-            minimumSize: const Size(double.infinity, 52),
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(14),
-            ),
-          ),
-        ),
-        outlinedButtonTheme: OutlinedButtonThemeData(
-          style: OutlinedButton.styleFrom(
-            minimumSize: const Size(double.infinity, 52),
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(14),
-            ),
-          ),
-        ),
-        inputDecorationTheme: InputDecorationTheme(
-          filled: true,
-          border: OutlineInputBorder(
-            borderRadius: BorderRadius.circular(14),
-          ),
-        ),
-      ),
+      theme: AppTheme.light,
+      darkTheme: AppTheme.dark,
+      themeMode: themeService.themeMode,
+      locale: localeService.locale,
+      supportedLocales: LocaleService.supportedLocales,
+      localizationsDelegates: const [
+        GlobalMaterialLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate,
+        GlobalCupertinoLocalizations.delegate,
+        AppLocalizations.delegate,
+      ],
+      navigatorObservers: [analyticsService.observer],
       routes: {
         '/home': (_) => HomeScreen(
               profileService: profileService,
+              bookmarkService: bookmarkService,
+              explorationService: explorationService,
+              recentlyViewedService: recentlyViewedService,
+              ratePromptService: ratePromptService,
+              feedbackService: feedbackService,
               careerDataService: careerDataService,
+              analyticsService: analyticsService,
+              themeService: themeService,
+              localeService: localeService,
+            ),
+        '/profile': (_) => ProfileScreen(
+              profileService: profileService,
+              analyticsService: analyticsService,
             ),
       },
       home: NetworkAwareWrapper(
         networkService: networkService,
-        child: hasProfile
-            ? HomeScreen(
-                profileService: profileService,
-                careerDataService: careerDataService,
-              )
-            : ProfileScreen(profileService: profileService),
+        child: _buildInitialScreen(),
       ),
+    ),
+    );
+  }
+
+  Widget _buildInitialScreen() {
+    if (hasProfile) {
+      return HomeScreen(
+        profileService: profileService,
+        bookmarkService: bookmarkService,
+        explorationService: explorationService,
+        careerDataService: careerDataService,
+        analyticsService: analyticsService,
+        themeService: themeService,
+      );
+    }
+    if (!onboardingSeen) {
+      return _OnboardingWrapper(prefs: prefs, analyticsService: analyticsService);
+    }
+    return ProfileScreen(
+      profileService: profileService,
+      analyticsService: analyticsService,
+    );
+  }
+}
+
+class _OnboardingWrapper extends StatelessWidget {
+  final SharedPreferences prefs;
+  final AnalyticsService analyticsService;
+
+  const _OnboardingWrapper({required this.prefs, required this.analyticsService});
+
+  @override
+  Widget build(BuildContext context) {
+    return OnboardingScreen(
+      onComplete: () async {
+        analyticsService.logOnboardingCompleted();
+        await prefs.setBool('onboarding_seen', true);
+        if (context.mounted) {
+          Navigator.pushReplacementNamed(context, '/profile');
+        }
+      },
     );
   }
 }

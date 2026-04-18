@@ -1,0 +1,254 @@
+{
+  "@@locale": "en",
+
+  "appTitle": "Career Path Guidance",
+
+  "home_goodMorning": "Good Morning",
+  "home_goodAfternoon": "Good Afternoon",
+  "home_goodEvening": "Good Evening",
+  "home_searchTooltip": "Search",
+  "home_careerQuizTooltip": "Career Quiz",
+  "home_tabForYou": "For You",
+  "home_tabExplore": "Explore",
+  "home_tabSaved": "Saved",
+  "home_rateDialogTitle": "Enjoying CareerPath?",
+  "home_rateDialogContent": "If you find this app helpful, please take a moment to rate us on the Play Store.",
+  "home_rateDialogDontAskAgain": "Don't Ask Again",
+  "home_rateDialogNotNow": "Not Now",
+  "home_rateDialogRateNow": "Rate Now",
+
+  "onboarding_skip": "Skip",
+  "onboarding_next": "Next",
+  "onboarding_getStarted": "Get Started",
+  "onboarding_page1Title": "Explore Career Paths",
+  "onboarding_page1Description": "Browse through Science, Commerce, and Art streams to discover career options that match your interests.",
+  "onboarding_page2Title": "Save & Compare",
+  "onboarding_page2Description": "Bookmark careers you like, search across all paths, and share discoveries with friends.",
+  "onboarding_page3Title": "Find Your Future",
+  "onboarding_page3Description": "Get details on top institutes, recommended books, and job sectors for every career endpoint.",
+
+  "profile_editProfileTitle": "Edit Profile",
+  "profile_welcomeTitle": "Welcome!",
+  "profile_updateDetailsTitle": "Update your details",
+  "profile_updateDetailsSubtitle": "Keep your profile up to date",
+  "profile_welcomeSubtitle": "Tell us a bit about yourself to get\npersonalized career suggestions",
+  "profile_yourName": "Your Name",
+  "profile_enterYourName": "Enter your name",
+  "profile_nameValidationError": "Please enter your name",
+  "profile_yourStream": "Your 10+2 Stream",
+  "profile_selectStreamError": "Please select a stream",
+  "profile_streamScience": "Science",
+  "profile_streamScienceDesc": "Physics, Chemistry, Biology, Math",
+  "profile_streamCommerce": "Commerce",
+  "profile_streamCommerceDesc": "Accounting, Economics, Business",
+  "profile_streamArt": "Art",
+  "profile_streamArtDesc": "Literature, History, Fine Arts",
+  "profile_appearance": "Appearance",
+  "profile_themeSystem": "System",
+  "profile_themeLight": "Light",
+  "profile_themeDark": "Dark",
+  "profile_language": "Language",
+  "profile_sendFeedback": "Send Feedback",
+  "profile_sendFeedbackSubtitle": "Bug reports, feature requests & more",
+  "profile_updateProfile": "Update Profile",
+  "profile_getStarted": "Get Started",
+  "profile_skipForNow": "Skip for now",
+  "profile_saveError": "Failed to save profile. Please try again.",
+  "profile_developedBy": "Developed by ",
+  "profile_under": " under ",
+  "profile_sola": " (SoLA)",
+
+  "quiz_title": "Career Quiz",
+  "quiz_resultsTitle": "Your Results",
+  "quiz_topCareerAreas": "Your Top Career Areas",
+  "quiz_retake": "Retake",
+  "quiz_share": "Share",
+  "quiz_shareHeader": "My CareerPath Quiz Results!\n\n",
+  "quiz_shareFooter": "\nTake the quiz on CareerPath app!",
+  "quiz_q1": "What kind of activity excites you most?",
+  "quiz_q1Opt1": "Experimenting and building things",
+  "quiz_q1Opt2": "Solving puzzles and analyzing data",
+  "quiz_q1Opt3": "Creating art, music, or stories",
+  "quiz_q1Opt4": "Leading teams and organizing events",
+  "quiz_q2": "Which subject do you enjoy the most?",
+  "quiz_q2Opt1": "Physics or Mathematics",
+  "quiz_q2Opt2": "Biology or Chemistry",
+  "quiz_q2Opt3": "Economics or Business Studies",
+  "quiz_q2Opt4": "Languages or Social Studies",
+  "quiz_q3": "In a group project, you usually...",
+  "quiz_q3Opt1": "Do the technical or hands-on work",
+  "quiz_q3Opt2": "Research and gather information",
+  "quiz_q3Opt3": "Design the presentation or visuals",
+  "quiz_q3Opt4": "Coordinate and manage the team",
+  "quiz_q4": "What type of work environment appeals to you?",
+  "quiz_q4Opt1": "Lab, workshop, or tech office",
+  "quiz_q4Opt2": "Hospital, clinic, or research center",
+  "quiz_q4Opt3": "Studio, agency, or freelance",
+  "quiz_q4Opt4": "Corporate office or courtroom",
+  "quiz_q5": "Which skill are you most proud of?",
+  "quiz_q5Opt1": "Problem-solving and logical thinking",
+  "quiz_q5Opt2": "Attention to detail and patience",
+  "quiz_q5Opt3": "Creativity and imagination",
+  "quiz_q5Opt4": "Communication and persuasion",
+  "quiz_q6": "What would you watch a documentary about?",
+  "quiz_q6Opt1": "Space exploration or AI",
+  "quiz_q6Opt2": "Medical breakthroughs or nature",
+  "quiz_q6Opt3": "Film making or art history",
+  "quiz_q6Opt4": "Business empires or legal battles",
+  "quiz_q7": "Your ideal weekend project?",
+  "quiz_q7Opt1": "Building an app or fixing gadgets",
+  "quiz_q7Opt2": "Reading research papers or gardening",
+  "quiz_q7Opt3": "Painting, writing, or photography",
+  "quiz_q7Opt4": "Planning a startup or debating",
+  "quiz_q8": "Which impact matters most to you?",
+  "quiz_q8Opt1": "Innovating technology for the future",
+  "quiz_q8Opt2": "Saving lives and improving health",
+  "quiz_q8Opt3": "Inspiring people through art and culture",
+  "quiz_q8Opt4": "Building businesses and shaping policy",
+  "quiz_progressLabel": "{current}/{total}",
+  "@quiz_progressLabel": {
+    "placeholders": {
+      "current": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+
+  "bookmarks_noSavedTitle": "No saved paths yet",
+  "bookmarks_noSavedSubtitle": "Bookmark career paths you like\nand they'll appear here",
+  "bookmarks_savedCareerPath": "Saved career path",
+  "bookmarks_removeBookmark": "Remove bookmark",
+  "bookmarks_selectToCompare": "Select 2-3 paths to compare",
+  "bookmarks_savedPathsCount": "{count} saved paths",
+  "@bookmarks_savedPathsCount": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "bookmarks_cancel": "Cancel",
+  "bookmarks_compare": "Compare",
+  "bookmarks_compareNPaths": "Compare {count} paths",
+  "@bookmarks_compareNPaths": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+
+  "explore_failedToLoadData": "Failed to load data",
+  "explore_noStreamsTitle": "No streams available",
+  "explore_noStreamsSubtitle": "Check back later for career streams",
+  "explore_categoriesCount": "{count} categories",
+  "@explore_categoriesCount": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "explore_subPathsCount": "{count} sub-paths",
+  "@explore_subPathsCount": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "explore_serverDown": "Server is down.\nPlease contact admin (9807942950) to start the server.",
+  "explore_failedToLoadCategories": "Failed to load categories",
+  "explore_noCategoriesAvailable": "No categories available",
+
+  "suggestions_personalizeTitle": "Personalize your feed",
+  "suggestions_personalizeSubtitle": "Complete your profile to see career\nsuggestions tailored just for you",
+  "suggestions_setUpProfile": "Set Up Profile",
+  "suggestions_noPathsTitle": "No paths yet",
+  "suggestions_noPathsSubtitle": "Career categories for your stream\nwill appear here soon",
+  "suggestions_refresh": "Refresh",
+  "suggestions_recentlyViewed": "Recently Viewed",
+  "suggestions_streamLabel": "{stream} Stream",
+  "@suggestions_streamLabel": {
+    "placeholders": { "stream": { "type": "String" } }
+  },
+  "suggestions_careerPathsAvailable": "{count} career paths available",
+  "@suggestions_careerPathsAvailable": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "suggestions_exploredProgress": "{visited} of {total} explored",
+  "@suggestions_exploredProgress": {
+    "placeholders": {
+      "visited": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "suggestions_pathsAvailable": "{count} paths available",
+  "@suggestions_pathsAvailable": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "suggestions_connectionError": "Failed to connect to server. Check your connection and retry.",
+
+  "search_hint": "Search career paths...",
+  "search_emptyTitle": "Search careers",
+  "search_emptySubtitle": "Type to search across all\nloaded career paths",
+  "search_noResultsTitle": "No results",
+  "search_noResultsSubtitle": "Try a different search term\nor explore more paths first",
+  "search_careerEndpoint": "Career endpoint",
+  "search_optionsAhead": "{count} options ahead",
+  "@search_optionsAhead": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+
+  "sub_careerEndpoint": "Career endpoint",
+  "sub_optionsAhead": "{count} options ahead",
+  "@sub_optionsAhead": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "sub_removeBookmark": "Remove bookmark",
+  "sub_saveCareerPath": "Save career path",
+  "sub_shareTooltip": "Share",
+  "sub_finalCareerOption": "Final Career Option",
+  "sub_recommendedBooks": "Recommended Books",
+  "sub_noBooksAvailable": "No books available",
+  "sub_booksCount": "{count} books",
+  "@sub_booksCount": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "sub_topInstitutes": "Top Institutes",
+  "sub_noInstitutesAvailable": "No institutes available",
+  "sub_institutesCount": "{count} institutes",
+  "@sub_institutesCount": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "sub_jobSectors": "Job Sectors",
+  "sub_noSectorsAvailable": "No sectors available",
+  "sub_sectorsCount": "{count} sectors",
+  "@sub_sectorsCount": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "sub_moreDetailsSoonTitle": "More details coming soon!",
+  "sub_moreDetailsSoonSubtitle": "Resources for this career path\nare being curated",
+  "sub_serverDownError": "Server is down.\nPlease contact admin (9807942950) to start the server.",
+  "sub_loadError": "Error loading data.\nCheck your connection and try again.",
+  "sub_shareFooter": "\nExplore more on CareerPath app!",
+
+  "compare_title": "Compare Careers",
+  "compare_careerPath": "Career Path",
+  "compare_topInstitutes": "Top Institutes",
+  "compare_jobSectors": "Job Sectors",
+  "compare_recommendedBooks": "Recommended Books",
+  "compare_noInstitutes": "No institutes",
+  "compare_noSectors": "No sectors",
+  "compare_noBooks": "No books",
+  "compare_failedToLoadDetails": "Failed to load details",
+
+  "feedback_title": "Send Feedback",
+  "feedback_ratingPrompt": "How would you rate this app?",
+  "feedback_category": "Category",
+  "feedback_yourMessage": "Your Message",
+  "feedback_messageHint": "Tell us what you think...",
+  "feedback_messageValidation": "Please enter at least 10 characters",
+  "feedback_submit": "Submit Feedback",
+  "feedback_selectRating": "Please select a rating",
+  "feedback_thanks": "Thanks for your feedback!",
+  "feedback_noEmailApp": "No email app found. Please install one or email us directly.",
+  "feedback_categoryBug": "Bug Report",
+  "feedback_categoryFeature": "Feature Request",
+  "feedback_categoryOther": "Other",
+
+  "common_oops": "Oops!",
+  "common_somethingWentWrong": "Something went wrong",
+  "common_tryAgain": "Try Again",
+  "common_noInternetConnection": "No Internet Connection",
+  "common_noneAvailableYet": "None available yet",
+  "common_byAuthor": "by {author}",
+  "@common_byAuthor": {
+    "placeholders": { "author": { "type": "String" } }
+  },
+  "common_viewBook": "View book",
+  "common_visitWebsite": "Visit website"
+}

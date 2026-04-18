@@ -1,5 +1,6 @@
-import 'package:flutter/foundation.dart' show visibleForTesting;
+import 'package:flutter/foundation.dart';
 
+import '../data/local_data_source.dart';
 import '../models/book.dart';
 import '../models/career_node.dart';
 import '../models/institute.dart';
@@ -7,6 +8,7 @@ import '../models/job_sector.dart';
 import '../models/leaf_details.dart';
 import '../models/stream_model.dart';
 import 'api_client.dart';
+import 'data_source.dart';
 
 /// Fetches all career data from the backend API and caches it in memory.
 ///
@@ -17,7 +19,7 @@ import 'api_client.dart';
 /// The new [getLeafDetails] method performs a single async API call to
 /// retrieve rich data (books / institutes / job sectors) for a leaf node.
 class CareerDataService {
-  final ApiClient _api;
+  final DataSource _api;
 
   List<StreamModel> _streams = [];
   Map<String, CareerNode> _nodesMap = {};
@@ -29,6 +31,8 @@ class CareerDataService {
   final Map<String, int> _slugToApiId = {};
 
   CareerDataService(this._api);
+
+  bool get isLocal => _api is LocalDataSource;
 
   // ── initialisation ─────────────────────────────────────────────────────────
 
@@ -48,15 +52,56 @@ class CareerDataService {
     _slugToApiId.clear();
     _fetchedStreamCategories.clear();
     _fetchedChildren.clear();
-    if (clearHttpCache) _api.clearCache();
+    if (clearHttpCache) {
+      final api = _api;
+      if (api is ApiClient) api.clearCache();
+    }
   }
 
   bool get isInitialized => _streams.isNotEmpty;
 
+  /// Fallback streams data used when the API is unreachable.
+  static const List<Map<String, dynamic>> _fallbackStreams = [
+    {
+      'id': 1,
+      'intro': null,
+      'name': 'Science',
+      'root_node_ids': [335, 336, 337, 338, 339, 352, 354],
+      'slug': 'science',
+    },
+    {
+      'id': 2,
+      'intro': null,
+      'name': 'Commerce',
+      'root_node_ids': [340, 341, 342, 343, 344],
+      'slug': 'commerce',
+    },
+    {
+      'id': 3,
+      'intro': null,
+      'name': 'Art',
+      'root_node_ids': [345, 346, 347, 348, 349, 350, 351],
+      'slug': 'art',
+    },
+  ];
+
+  /// Whether the service is running on fallback data (API was unreachable).
+  bool _usingFallback = false;
+  bool get usingFallback => _usingFallback;
+
   /// Single API call at startup — just fetches the stream list.
   /// Root nodes and children are loaded lazily when the user navigates.
+  /// Falls back to hardcoded streams data if the API is unreachable.
   Future<void> initialize({bool forceRefresh = false}) async {
-    final streamsRaw = await _api.getStreams(forceRefresh: forceRefresh);
+    List<Map<String, dynamic>> streamsRaw;
+    try {
+      streamsRaw = await _api.getStreams(forceRefresh: forceRefresh);
+      _usingFallback = false;
+    } catch (e) {
+      debugPrint('[CareerDataService] API failed, using fallback streams: $e');
+      streamsRaw = _fallbackStreams;
+      _usingFallback = true;
+    }
 
     _slugToApiId.clear();
     for (final s in streamsRaw) {
@@ -69,9 +114,81 @@ class CareerDataService {
         name: s['name'] as String,
         intro: s['intro'] as String?,
         rootNodeCount: (s['root_node_ids'] as List).length,
-        categoryIds: [], // populated lazily via fetchStreamCategories()
+        categoryIds: [], // populated lazily or eagerly below
       );
     }).toList();
+
+    // Eager-load all nodes when using local database
+    if (_api is LocalDataSource) {
+      await _eagerLoadAllNodes();
+    }
+  }
+
+  /// Loads all nodes at once from the local database in O(n).
+  Future<void> _eagerLoadAllNodes() async {
+    final allNodes = await (_api as LocalDataSource).getAllNodes();
+
+    // Build stream apiId→slug lookup from _slugToApiId (populated by initialize())
+    final streamIdToSlug = <int, String>{};
+    for (final s in _streams) {
+      final apiId = _slugToApiId[s.id];
+      if (apiId != null) streamIdToSlug[apiId] = s.id;
+    }
+
+    // Build node apiId→slug reverse lookup
+    final nodeIdToSlug = <int, String>{};
+    for (final n in allNodes) {
+      final slug = n['slug'] as String;
+      final apiId = n['id'] as int;
+      _slugToApiId[slug] = apiId;
+      nodeIdToSlug[apiId] = slug;
+    }
+
+    // Build stream categoryIds collectors
+    final streamCategories = <String, List<String>>{};
+
+    // Single pass: create nodes with child links
+    for (final n in allNodes) {
+      final slug = n['slug'] as String;
+      final childIds = (n['child_ids'] as List? ?? []);
+      final childSlugs = <String>[];
+      for (final cid in childIds) {
+        final cs = nodeIdToSlug[cid as int];
+        if (cs != null) childSlugs.add(cs);
+      }
+
+      _nodesMap[slug] = CareerNode(
+        id: slug,
+        name: n['name'] as String,
+        intro: n['intro'] as String?,
+        childIds: childSlugs,
+        childCount: childIds.length,
+      );
+      _fetchedChildren.add(slug);
+
+      // Collect root nodes per stream
+      if (n['parent_id'] == null) {
+        final streamSlug = streamIdToSlug[n['stream_id'] as int];
+        if (streamSlug != null) {
+          (streamCategories[streamSlug] ??= []).add(slug);
+        }
+      }
+    }
+
+    // Wire stream categoryIds
+    for (int i = 0; i < _streams.length; i++) {
+      final cats = streamCategories[_streams[i].id];
+      if (cats != null) {
+        _streams[i] = StreamModel(
+          id: _streams[i].id,
+          name: _streams[i].name,
+          intro: _streams[i].intro,
+          rootNodeCount: _streams[i].rootNodeCount,
+          categoryIds: cats,
+        );
+        _fetchedStreamCategories.add(_streams[i].id);
+      }
+    }
   }
 
   // ── lazy loaders ───────────────────────────────────────────────────────────
@@ -91,8 +208,13 @@ class CareerDataService {
     final apiId = _slugToApiId[streamSlug];
     if (apiId == null) return [];
 
-    final rootNodes =
-        await _api.getStreamRootNodes(apiId, forceRefresh: forceRefresh);
+    final List<Map<String, dynamic>> rootNodes;
+    try {
+      rootNodes =
+          await _api.getStreamRootNodes(apiId, forceRefresh: forceRefresh);
+    } catch (e) {
+      throw const ServerDownException();
+    }
     final slugs = <String>[];
     for (final n in rootNodes) {
       final slug = n['slug'] as String;
@@ -132,8 +254,13 @@ class CareerDataService {
     final apiId = _slugToApiId[nodeSlug];
     if (apiId == null) return [];
 
-    final childrenRaw =
-        await _api.getNodeChildren(apiId, forceRefresh: forceRefresh);
+    final List<Map<String, dynamic>> childrenRaw;
+    try {
+      childrenRaw =
+          await _api.getNodeChildren(apiId, forceRefresh: forceRefresh);
+    } catch (e) {
+      throw const ServerDownException();
+    }
     final childSlugs = <String>[];
     for (final c in childrenRaw) {
       final slug = c['slug'] as String;
@@ -189,6 +316,42 @@ class CareerDataService {
 
   CareerNode? getNodeById(String nodeId) => _nodesMap[nodeId];
 
+  /// Searches loaded nodes by name (case-insensitive substring match).
+  /// Returns at most [limit] results.
+  List<CareerNode> searchNodes(String query, {int limit = 50}) {
+    if (query.trim().isEmpty) return [];
+    final lower = query.toLowerCase();
+    return _nodesMap.values
+        .where((n) => n.name.toLowerCase().contains(lower))
+        .take(limit)
+        .toList();
+  }
+
+  // ── depth computation ──────────────────────────────────────────────────────
+
+  /// Returns the maximum depth from [nodeId] to any leaf descendant.
+  /// Returns 0 for leaf nodes, null if the node doesn't exist or tree
+  /// is incomplete (API mode with unfetched children).
+  int? getMaxDepthFrom(String nodeId) {
+    if (!isLocal) return null;
+    final node = _nodesMap[nodeId];
+    if (node == null) return null;
+    return _depthDfs(nodeId, <String>{});
+  }
+
+  int _depthDfs(String nodeId, Set<String> visited) {
+    if (visited.contains(nodeId)) return 0;
+    visited.add(nodeId);
+    final node = _nodesMap[nodeId];
+    if (node == null || node.childIds.isEmpty) return 0;
+    int maxChild = 0;
+    for (final childId in node.childIds) {
+      final d = _depthDfs(childId, visited);
+      if (d > maxChild) maxChild = d;
+    }
+    return maxChild + 1;
+  }
+
   // ── resource accessors ─────────────────────────────────────────────────────
 
   /// Get a book by its API ID.
@@ -222,7 +385,10 @@ class CareerDataService {
       return LeafDetails.fromJson(data);
     } on ApiException catch (e) {
       if (e.statusCode == 404) return null;
-      rethrow;
+      throw const ServerDownException();
+    } on Exception {
+      if (_api is LocalDataSource) rethrow;
+      throw const ServerDownException();
     }
   }
 
@@ -233,6 +399,13 @@ class CareerDataService {
       List<StreamModel> streams, Map<String, CareerNode> nodes) {
     _streams = streams;
     _nodesMap = nodes;
+    _initFuture = Future.value();
+    for (final stream in streams) {
+      _fetchedStreamCategories.add(stream.id);
+    }
+    for (final nodeId in nodes.keys) {
+      _fetchedChildren.add(nodeId);
+    }
   }
 }
 

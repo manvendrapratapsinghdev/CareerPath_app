@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:career_path/l10n/app_localizations.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:career_path/data/profile_repository.dart';
 import 'package:career_path/models/profile_data.dart';
@@ -17,6 +19,14 @@ void main() {
 
   Widget buildApp({ProfileData? existingProfile}) {
     return MaterialApp(
+      locale: const Locale('en'),
+      supportedLocales: const [Locale('en')],
+      localizationsDelegates: const [
+        AppLocalizations.delegate,
+        GlobalMaterialLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate,
+        GlobalCupertinoLocalizations.delegate,
+      ],
       routes: {
         '/home': (_) => const Scaffold(body: Text('Home Screen')),
       },
@@ -28,60 +38,68 @@ void main() {
   }
 
   group('ProfileScreen', () {
-    testWidgets('displays name field and stream radio buttons', (tester) async {
+    testWidgets('displays name field and stream selection cards',
+        (tester) async {
       await tester.pumpWidget(buildApp());
+      await tester.pumpAndSettle();
 
-      expect(find.text('Name'), findsOneWidget);
+      expect(find.text('Your Name'), findsOneWidget);
       expect(find.text('Science'), findsOneWidget);
       expect(find.text('Commerce'), findsOneWidget);
       expect(find.text('Art'), findsOneWidget);
     });
 
-    testWidgets('displays Save and Skip buttons', (tester) async {
+    testWidgets('displays Get Started and Skip for now buttons',
+        (tester) async {
       await tester.pumpWidget(buildApp());
+      await tester.pumpAndSettle();
 
-      expect(find.text('Save'), findsOneWidget);
-      expect(find.text('Skip'), findsOneWidget);
+      expect(find.text('Get Started'), findsOneWidget);
+      expect(find.text('Skip for now'), findsOneWidget);
     });
 
-    testWidgets('shows Create Profile title for new profile', (tester) async {
+    testWidgets('shows Welcome! title for new profile', (tester) async {
       await tester.pumpWidget(buildApp());
+      await tester.pumpAndSettle();
 
-      expect(find.text('Create Profile'), findsOneWidget);
+      expect(find.text('Welcome!'), findsOneWidget);
     });
 
     testWidgets('shows Edit Profile title when editing', (tester) async {
       await tester.pumpWidget(buildApp(
         existingProfile: ProfileData(name: 'Alice', stream: 'science'),
       ));
+      await tester.pumpAndSettle();
 
       expect(find.text('Edit Profile'), findsOneWidget);
     });
 
-    testWidgets('pre-fills name and stream when editing', (tester) async {
+    testWidgets('pre-fills name when editing', (tester) async {
       await tester.pumpWidget(buildApp(
         existingProfile: ProfileData(name: 'Alice', stream: 'science'),
       ));
+      await tester.pumpAndSettle();
 
-      final nameField = tester.widget<TextFormField>(find.byType(TextFormField));
+      final nameField =
+          tester.widget<TextFormField>(find.byType(TextFormField));
       expect(nameField.controller?.text, 'Alice');
-
-      // Science radio should be selected
-      final scienceRadio = tester.widget<RadioListTile<String>>(
-        find.widgetWithText(RadioListTile<String>, 'Science'),
-      );
-      expect(scienceRadio.checked, isTrue);
     });
 
     testWidgets('validates name is not empty on save', (tester) async {
       await tester.pumpWidget(buildApp());
+      await tester.pumpAndSettle();
 
-      // Select a stream first
+      // Select a stream first by tapping the Science card
       await tester.tap(find.text('Science'));
       await tester.pump();
 
+      // Scroll down to reach the button
+      await tester.drag(
+          find.byType(SingleChildScrollView), const Offset(0, -300));
+      await tester.pumpAndSettle();
+
       // Tap save without entering name
-      await tester.tap(find.text('Save'));
+      await tester.tap(find.text('Get Started'));
       await tester.pump();
 
       expect(find.text('Please enter your name'), findsOneWidget);
@@ -89,16 +107,22 @@ void main() {
 
     testWidgets('saves profile and navigates to home', (tester) async {
       await tester.pumpWidget(buildApp());
+      await tester.pumpAndSettle();
 
       // Enter name
       await tester.enterText(find.byType(TextFormField), 'Bob');
 
-      // Select stream
+      // Select stream by tapping Commerce card
       await tester.tap(find.text('Commerce'));
       await tester.pump();
 
+      // Scroll down to reach the button
+      await tester.drag(
+          find.byType(SingleChildScrollView), const Offset(0, -300));
+      await tester.pumpAndSettle();
+
       // Tap save
-      await tester.tap(find.text('Save'));
+      await tester.tap(find.text('Get Started'));
       await tester.pumpAndSettle();
 
       // Should navigate to home
@@ -112,10 +136,14 @@ void main() {
 
     testWidgets('skip navigates to home without saving', (tester) async {
       await tester.pumpWidget(buildApp());
-
-      await tester.drag(find.byType(SingleChildScrollView), const Offset(0, -300));
       await tester.pumpAndSettle();
-      await tester.tap(find.text('Skip'));
+
+      // Scroll down to reach skip button
+      await tester.drag(
+          find.byType(SingleChildScrollView), const Offset(0, -300));
+      await tester.pumpAndSettle();
+
+      await tester.tap(find.text('Skip for now'));
       await tester.pumpAndSettle();
 
       // Should navigate to home

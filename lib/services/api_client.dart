@@ -6,6 +6,7 @@ import 'package:http/http.dart' as http;
 import 'package:http/io_client.dart';
 
 import '../config/api_urls.dart';
+import 'data_source.dart';
 
 /// A single cached response entry.
 class _CacheEntry {
@@ -17,7 +18,7 @@ class _CacheEntry {
 
 /// Low-level HTTP client that talks to the Career Path backend.
 /// All URLs are resolved from [ApiUrls] — no hardcoded strings here.
-class ApiClient {
+class ApiClient implements DataSource {
   final http.Client _client;
 
   /// In-memory response cache keyed by URL.
@@ -84,6 +85,7 @@ class ApiClient {
   // ── streams ────────────────────────────────────────────────────────────────
 
   /// Returns all streams with their category_ids (integers).
+  @override
   Future<List<Map<String, dynamic>>> getStreams(
       {bool forceRefresh = false}) async {
     final data = await _get(ApiUrls.streams, bypassCache: forceRefresh);
@@ -93,6 +95,7 @@ class ApiClient {
   // ── stream root nodes ───────────────────────────────────────────────────────
 
   /// Returns root-level nodes (parent_id IS NULL) for a given stream API integer id.
+  @override
   Future<List<Map<String, dynamic>>> getStreamRootNodes(int streamApiId,
       {bool forceRefresh = false}) async {
     final data = await _get(ApiUrls.streamNodes(streamApiId),
@@ -103,6 +106,7 @@ class ApiClient {
   // ── nodes ──────────────────────────────────────────────────────────────────
 
   /// Returns the direct children of a node.
+  @override
   Future<List<Map<String, dynamic>>> getNodeChildren(int nodeApiId,
       {bool forceRefresh = false}) async {
     final data = await _get(ApiUrls.nodeChildren(nodeApiId),
@@ -111,6 +115,7 @@ class ApiClient {
   }
 
   /// Returns rich leaf-node details (books, institutes, job sectors).
+  @override
   Future<Map<String, dynamic>> getNodeDetails(int nodeApiId,
       {bool forceRefresh = false}) async {
     final data = await _get(ApiUrls.nodeDetails(nodeApiId),
@@ -158,4 +163,14 @@ class ApiException implements Exception {
 
   @override
   String toString() => 'ApiException($statusCode): $message';
+}
+
+/// Thrown when a non-streams API call fails, indicating the backend is down.
+class ServerDownException implements Exception {
+  final String message;
+  const ServerDownException([this.message =
+      'Server is down. Please contact admin (9807942950) to start the server.']);
+
+  @override
+  String toString() => 'ServerDownException: $message';
 }
