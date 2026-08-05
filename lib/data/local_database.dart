@@ -131,7 +131,8 @@ class LocalDatabase {
         [nodeId],
       ),
       db.rawQuery(
-        'SELECT i.id, i.name, i.city, i.website, i.description '
+        'SELECT i.id, i.source_id, i.name, i.city, i.district, i.state, '
+        'i.website, i.description '
         'FROM institutes i JOIN node_institutes ni ON ni.institute_id = i.id '
         'WHERE ni.node_id = ? ORDER BY i.name',
         [nodeId],
@@ -150,8 +151,12 @@ class LocalDatabase {
       'name': node['name'],
       'intro': node['intro'],
       'books': results[0].map((b) => Map<String, dynamic>.from(b)).toList(),
-      'institutes': results[1].map((i) => Map<String, dynamic>.from(i)).toList(),
-      'job_sectors': results[2].map((j) => Map<String, dynamic>.from(j)).toList(),
+      'institutes': results[1]
+          .map((i) => Map<String, dynamic>.from(i))
+          .toList(),
+      'job_sectors': results[2]
+          .map((j) => Map<String, dynamic>.from(j))
+          .toList(),
     };
   }
 

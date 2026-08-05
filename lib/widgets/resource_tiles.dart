@@ -52,14 +52,14 @@ class ResourceSection extends StatelessWidget {
                   Text(
                     title,
                     style: Theme.of(context).textTheme.titleSmall?.copyWith(
-                          fontWeight: FontWeight.w700,
-                        ),
+                      fontWeight: FontWeight.w700,
+                    ),
                   ),
                   Text(
                     subtitle,
                     style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                          color: colorScheme.onSurfaceVariant,
-                        ),
+                      color: colorScheme.onSurfaceVariant,
+                    ),
                   ),
                 ],
               ),
@@ -76,16 +76,19 @@ class ResourceSection extends StatelessWidget {
                 child: Text(
                   AppLocalizations.of(context)!.common_noneAvailableYet,
                   style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                        color: colorScheme.onSurfaceVariant,
-                        fontStyle: FontStyle.italic,
-                      ),
+                    color: colorScheme.onSurfaceVariant,
+                    fontStyle: FontStyle.italic,
+                  ),
                 ),
               ),
             )
           else
             Padding(
               padding: const EdgeInsets.fromLTRB(
-                AppSpacing.base, 0, AppSpacing.base, AppSpacing.md,
+                AppSpacing.base,
+                0,
+                AppSpacing.base,
+                AppSpacing.md,
               ),
               child: Column(children: children),
             ),
@@ -106,10 +109,7 @@ class BookTile extends StatelessWidget {
     Navigator.push(
       context,
       SmoothPageRoute(
-        page: WebViewScreen(
-          title: book.title,
-          url: book.url!,
-        ),
+        page: WebViewScreen(title: book.title, url: book.url!),
       ),
     );
   }
@@ -148,7 +148,9 @@ class BookTile extends StatelessWidget {
                   if (book.author != null) ...[
                     const SizedBox(height: 2),
                     Text(
-                      AppLocalizations.of(context)!.common_byAuthor(book.author!),
+                      AppLocalizations.of(
+                        context,
+                      )!.common_byAuthor(book.author!),
                       style: Theme.of(context).textTheme.bodySmall,
                     ),
                   ],
@@ -183,10 +185,7 @@ class InstituteTile extends StatelessWidget {
     Navigator.push(
       context,
       SmoothPageRoute(
-        page: WebViewScreen(
-          title: institute.name,
-          url: institute.website!,
-        ),
+        page: WebViewScreen(title: institute.name, url: institute.website!),
       ),
     );
   }
@@ -194,7 +193,8 @@ class InstituteTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     const color = Color(0xFF14B8A6);
-    final hasWebsite = institute.website != null && institute.website!.isNotEmpty;
+    final hasWebsite =
+        institute.website != null && institute.website!.isNotEmpty;
 
     return ResourceTileWrapper(
       child: InkWell(
@@ -210,7 +210,11 @@ class InstituteTile extends StatelessWidget {
                 color: color.withValues(alpha: 0.08),
                 borderRadius: AppRadius.smAll,
               ),
-              child: const Icon(Icons.location_city_rounded, size: 16, color: color),
+              child: const Icon(
+                Icons.location_city_rounded,
+                size: 16,
+                color: color,
+              ),
             ),
             const SizedBox(width: AppSpacing.md),
             Expanded(
@@ -221,10 +225,12 @@ class InstituteTile extends StatelessWidget {
                     institute.name,
                     style: Theme.of(context).textTheme.titleSmall,
                   ),
-                  if (institute.city != null) ...[
+                  if (institute.location != null) ...[
                     const SizedBox(height: 2),
-                    Text(institute.city!,
-                        style: Theme.of(context).textTheme.bodySmall),
+                    Text(
+                      institute.location!,
+                      style: Theme.of(context).textTheme.bodySmall,
+                    ),
                   ],
                   if (institute.description != null &&
                       institute.description!.isNotEmpty) ...[
@@ -266,8 +272,11 @@ class JobSectorTile extends StatelessWidget {
               color: color.withValues(alpha: 0.08),
               borderRadius: AppRadius.smAll,
             ),
-            child:
-                const Icon(Icons.trending_up_rounded, size: 16, color: color),
+            child: const Icon(
+              Icons.trending_up_rounded,
+              size: 16,
+              color: color,
+            ),
           ),
           const SizedBox(width: AppSpacing.md),
           Expanded(

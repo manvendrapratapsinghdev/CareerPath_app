@@ -1,0 +1,813 @@
+{
+  "metadata": {
+    "created_at": "2026-07-25T16:59:16.527459+00:00",
+    "inventory_path": "research/rajasthan_nirf_master_inventory.json",
+    "inventory_sha256": "9fa80895e534fa419ba4775274dc513afa4b71e6d58e591b1fd0e1954baa6953",
+    "batch_count": 10,
+    "batch_size": 10,
+    "assignment_count": 100,
+    "selection": "Pending institutions, ranked/banded first by best visible NIRF rank or band, then by city and institution name."
+  },
+  "assignments": [
+    {
+      "batch": 1,
+      "slot": 1,
+      "institution_id": "all-india-institute-of-medical-sciences-jodhpur",
+      "nirf_name": "All India Institute of Medical Sciences Jodhpur",
+      "nirf_city": "Jodhpur",
+      "ranked_or_banded": true
+    },
+    {
+      "batch": 1,
+      "slot": 2,
+      "institution_id": "suresh-gyan-vihar-university",
+      "nirf_name": "Suresh Gyan Vihar University",
+      "nirf_city": "Jaipur",
+      "ranked_or_banded": true
+    },
+    {
+      "batch": 1,
+      "slot": 3,
+      "institution_id": "maharana-pratap-university-of-agriculture-and-technology-udaipur",
+      "nirf_name": "Maharana Pratap University of Agriculture & Technology, Udaipur",
+      "nirf_city": "Udaipur",
+      "ranked_or_banded": true
+    },
+    {
+      "batch": 1,
+      "slot": 4,
+      "institution_id": "jaipuria-institute-of-management-jaipur",
+      "nirf_name": "JAIPURIA INSTITUTE OF MANAGEMENT",
+      "nirf_city": "Jaipur",
+      "ranked_or_banded": true
+    },
+    {
+      "batch": 1,
+      "slot": 5,
+      "institution_id": "nims-university-rajasthan",
+      "nirf_name": "NIMS University, Jaipur",
+      "nirf_city": "Jaipur",
+      "ranked_or_banded": true
+    },
+    {
+      "batch": 1,
+      "slot": 6,
+      "institution_id": "lnm-institute-of-information-technology",
+      "nirf_name": "The LNM Institute of Information Technology, Jaipur",
+      "nirf_city": "Jaipur",
+      "ranked_or_banded": true
+    },
+    {
+      "batch": 1,
+      "slot": 7,
+      "institution_id": "aryabhatta-college-of-engineering-and-research-center",
+      "nirf_name": "Aryabhatta College Of Engineering And Research Center",
+      "nirf_city": "Ajmer",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 1,
+      "slot": 8,
+      "institution_id": "aryabhatta-college-of-management",
+      "nirf_name": "Aryabhatta College of Management",
+      "nirf_city": "Ajmer",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 1,
+      "slot": 9,
+      "institution_id": "aryabhatta-international-college-of-technical-education-ajmer",
+      "nirf_name": "Aryabhatta International College of Technical Education, Ajmer",
+      "nirf_city": "Ajmer",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 1,
+      "slot": 10,
+      "institution_id": "bhagwant-university-ajmer",
+      "nirf_name": "Bhagwant University-Ajmer",
+      "nirf_city": "Ajmer",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 2,
+      "slot": 1,
+      "institution_id": "govt-mahila-engineering-college-ajmer",
+      "nirf_name": "Govt. Mahila Engineering College,Ajmer",
+      "nirf_city": "Ajmer",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 2,
+      "slot": 2,
+      "institution_id": "samrat-prithviraj-chauhan-government-college-ajmer",
+      "nirf_name": "Samrat Prithviraj Chauhan Government College, Ajmer",
+      "nirf_city": "Ajmer",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 2,
+      "slot": 3,
+      "institution_id": "shri-govind-singh-gurjar-government-college-nasirabad",
+      "nirf_name": "Shri Govind Singh Gurjar Government College, Nasirabad",
+      "nirf_city": "Ajmer",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 2,
+      "slot": 4,
+      "institution_id": "sophia-girls-college",
+      "nirf_name": "Sophia Girls College",
+      "nirf_city": "Ajmer",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 2,
+      "slot": 5,
+      "institution_id": "swami-vivekanand-mahila-mahavidhyalaya-roopangarh",
+      "nirf_name": "Swami Vivekanand Mahila Mahavidhyalaya, Roopangarh",
+      "nirf_city": "Ajmer",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 2,
+      "slot": 6,
+      "institution_id": "alwar-pharmacy-college",
+      "nirf_name": "Alwar Pharmacy College",
+      "nirf_city": "Alwar",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 2,
+      "slot": 7,
+      "institution_id": "babu-sobharam-govt-arts-college-alwar",
+      "nirf_name": "Babu Sobharam Govt. Arts College, Alwar",
+      "nirf_city": "Alwar",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 2,
+      "slot": 8,
+      "institution_id": "r-r-college-alwar",
+      "nirf_name": "R.R. College, Alwar",
+      "nirf_city": "Alwar",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 2,
+      "slot": 9,
+      "institution_id": "vivekanand-college-anjana",
+      "nirf_name": "VIVEKANAND COLLEGE, ANJANA",
+      "nirf_city": "ANJANA",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 2,
+      "slot": 10,
+      "institution_id": "m-b-r-government-college-balotra",
+      "nirf_name": "M.B.R. Government College, Balotra",
+      "nirf_city": "Balotra",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 3,
+      "slot": 1,
+      "institution_id": "aravali-pg-mahavidhyalay",
+      "nirf_name": "ARAVALI PG MAHAVIDHYALAY",
+      "nirf_city": "BANSWARA",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 3,
+      "slot": 2,
+      "institution_id": "h-d-joshi-govt-girls-college-banswara",
+      "nirf_name": "H.D.JOSHI GOVT.GIRLS, COLLEGE, BANSWARA",
+      "nirf_city": "Banswara",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 3,
+      "slot": 3,
+      "institution_id": "vagad-shree-college",
+      "nirf_name": "VAGAD SHREE COLLEGE",
+      "nirf_city": "BANSWARA",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 3,
+      "slot": 4,
+      "institution_id": "government-college-barmer",
+      "nirf_name": "Government College, Barmer",
+      "nirf_city": "Barmer",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 3,
+      "slot": 5,
+      "institution_id": "shri-agrasen-kanya-snatakottar-mahavidhyalaya",
+      "nirf_name": "SHRI AGRASEN KANYA SNATAKOTTAR MAHAVIDHYALAYA",
+      "nirf_city": "Bayana",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 3,
+      "slot": 6,
+      "institution_id": "sanatan-dharma-government-college-beawar",
+      "nirf_name": "Sanatan Dharma Government College, Beawar",
+      "nirf_city": "Beawar",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 3,
+      "slot": 7,
+      "institution_id": "eklavya-vidhyapith-mahavidyalya-bhadra",
+      "nirf_name": "Eklavya Vidhyapith Mahavidyalya, Bhadra",
+      "nirf_city": "Bhadra",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 3,
+      "slot": 8,
+      "institution_id": "msj-college-bharatpur",
+      "nirf_name": "MSJ College, Bharatpur",
+      "nirf_city": "Bharatpur",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 3,
+      "slot": 9,
+      "institution_id": "r-d-girls-college-bharatpur",
+      "nirf_name": "R. D. Girls College, Bharatpur",
+      "nirf_city": "Bharatpur",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 3,
+      "slot": 10,
+      "institution_id": "s-s-rambharose-lal-verma-govt-acharya-sanskrit-college-bharatpur",
+      "nirf_name": "S.S. RAMBHAROSE LAL VERMA GOVT. ACHARYA SANSKRIT COLLEGE BHARATPUR",
+      "nirf_city": "BHARATPUR",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 4,
+      "slot": 1,
+      "institution_id": "govt-birla-college-bhawanimandi-distt-jhalawar",
+      "nirf_name": "Govt. Birla College, Bhawanimandi, Distt. Jhalawar",
+      "nirf_city": "BHAWANIMANDI",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 4,
+      "slot": 2,
+      "institution_id": "college-of-agriculture-suwana-bhilwara",
+      "nirf_name": "College of Agriculture, Suwana, Bhilwara",
+      "nirf_city": "Bhilwara",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 4,
+      "slot": 3,
+      "institution_id": "sangam-university",
+      "nirf_name": "Sangam University",
+      "nirf_city": "Bhilwara",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 4,
+      "slot": 4,
+      "institution_id": "shri-pragya-mahavidyalaya-bijainagar",
+      "nirf_name": "Shri Pragya Mahavidyalaya, Bijainagar",
+      "nirf_city": "Bijainagar",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 4,
+      "slot": 5,
+      "institution_id": "engineering-college-bikaner",
+      "nirf_name": "Engineering College Bikaner",
+      "nirf_city": "Bikaner",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 4,
+      "slot": 6,
+      "institution_id": "government-dungar-college-bikaner",
+      "nirf_name": "Government Dungar College, Bikaner",
+      "nirf_city": "BIKANER",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 4,
+      "slot": 7,
+      "institution_id": "institute-of-management-studies-s-b-j-s-rampuria-jain-college",
+      "nirf_name": "INSTITUTE OF MANAGEMENT STUDIES, S.B.J.S. RAMPURIA JAIN COLLEGE",
+      "nirf_city": "Bikaner",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 4,
+      "slot": 8,
+      "institution_id": "rajasthan-agricultural-university",
+      "nirf_name": "Rajasthan Agricultural University",
+      "nirf_city": "Bikaner",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 4,
+      "slot": 9,
+      "institution_id": "rajasthan-university-of-veterinary-and-animal-sciences",
+      "nirf_name": "Rajasthan University of Veterinary & Animal Sciences",
+      "nirf_city": "Bikaner",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 4,
+      "slot": 10,
+      "institution_id": "rnb-global-university",
+      "nirf_name": "RNB Global University",
+      "nirf_city": "Bikaner",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 5,
+      "slot": 1,
+      "institution_id": "shri-ganga-shardool-government-sanskrit-pg-college-bikaner",
+      "nirf_name": "Shri Ganga Shardool Government Sanskrit PG college Bikaner",
+      "nirf_city": "BIKANER",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 5,
+      "slot": 2,
+      "institution_id": "shri-jain-p-g-college-bikaner",
+      "nirf_name": "Shri Jain P. G. College - Bikaner",
+      "nirf_city": "BIKANER",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 5,
+      "slot": 3,
+      "institution_id": "u-s-ostwal-science-and-arts-college",
+      "nirf_name": "U.S. OSTWAL SCIENCE AND ARTS COLLEGE",
+      "nirf_city": "Chittorgarh",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 5,
+      "slot": 4,
+      "institution_id": "s-s-g-pareek-p-g-girl-s-college-chomu",
+      "nirf_name": "S S G Pareek P G Girl's College, Chomu",
+      "nirf_city": "Chomu",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 5,
+      "slot": 5,
+      "institution_id": "shrimati-govindi-devi-sahariya-government-sanskrit-ug-college-kaladera",
+      "nirf_name": "Shrimati Govindi Devi Sahariya Government Sanskrit UG College Kaladera",
+      "nirf_city": "chomu",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 5,
+      "slot": 6,
+      "institution_id": "govt-lohia-college-churu",
+      "nirf_name": "Govt. Lohia College, Churu",
+      "nirf_city": "Churu",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 5,
+      "slot": 7,
+      "institution_id": "swami-vivekanand-college",
+      "nirf_name": "Swami Vivekanand College",
+      "nirf_city": "Danta-Kelwara",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 5,
+      "slot": 8,
+      "institution_id": "govt-girls-college-dausa",
+      "nirf_name": "Govt. Girls College, Dausa",
+      "nirf_city": "Dausa",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 5,
+      "slot": 9,
+      "institution_id": "govt-p-g-college-dausa",
+      "nirf_name": "Govt. P G College, Dausa",
+      "nirf_city": "Dausa",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 5,
+      "slot": 10,
+      "institution_id": "government-college-dhariawad",
+      "nirf_name": "GOVERNMENT COLLEGE, DHARIAWAD",
+      "nirf_city": "DHARIYAWAD",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 6,
+      "slot": 1,
+      "institution_id": "govt-p-g-college-dhaulpur",
+      "nirf_name": "Govt. P.G. College, Dhaulpur",
+      "nirf_city": "Dhaulpur",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 6,
+      "slot": 2,
+      "institution_id": "swami-vivekanand-college-punali",
+      "nirf_name": "Swami Vivekanand College,Punali",
+      "nirf_city": "Dungarapur",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 6,
+      "slot": 3,
+      "institution_id": "bhogi-lal-pandiya-govt-college-dungarpur",
+      "nirf_name": "BHOGI LAL PANDIYA, GOVT.COLLEGE, DUNGARPUR",
+      "nirf_city": "DUNGARPUR",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 6,
+      "slot": 4,
+      "institution_id": "gurukul-arts-college",
+      "nirf_name": "GURUKUL ARTS COLLEGE",
+      "nirf_city": "DUNGARPUR",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 6,
+      "slot": 5,
+      "institution_id": "vinayak-girls-college",
+      "nirf_name": "VINAYAK GIRLS COLLEGE",
+      "nirf_city": "FATEHPUR SHEKHAWATI",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 6,
+      "slot": 6,
+      "institution_id": "surendera-dental-college-and-research-institute",
+      "nirf_name": "Surendera Dental College and Research Institute",
+      "nirf_city": "Ganganagar",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 6,
+      "slot": 7,
+      "institution_id": "agrawal-kanya-mahavidhyalaya-gangapurcity",
+      "nirf_name": "Agrawal Kanya Mahavidhyalaya, Gangapurcity",
+      "nirf_city": "GANGAPUR CITY",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 6,
+      "slot": 8,
+      "institution_id": "vagad-college-davela-kotra",
+      "nirf_name": "VAGAD COLLEGE, DAVELA, KOTRA",
+      "nirf_city": "GARHI",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 6,
+      "slot": 9,
+      "institution_id": "b-r-choudhary-college",
+      "nirf_name": "B.R.CHOUDHARY COLLEGE",
+      "nirf_city": "GOLUWALA",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 6,
+      "slot": 10,
+      "institution_id": "ambika-college-pallu",
+      "nirf_name": "AMBIKA COLLEGE, PALLU",
+      "nirf_city": "HANUMANGARH",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 7,
+      "slot": 1,
+      "institution_id": "pulkit-college-for-higher-education",
+      "nirf_name": "PULKIT COLLEGE FOR HIGHER EDUCATION",
+      "nirf_city": "Hanumangarh",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 7,
+      "slot": 2,
+      "institution_id": "pragati-college",
+      "nirf_name": "Pragati College",
+      "nirf_city": "Hindoli, Bundi",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 7,
+      "slot": 3,
+      "institution_id": "astha-mahavidhyalaya-itawa",
+      "nirf_name": "Astha Mahavidhyalaya Itawa",
+      "nirf_city": "Itawa",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 7,
+      "slot": 4,
+      "institution_id": "agrawal-p-g-college-jaipur",
+      "nirf_name": "Agrawal P.G. College, Jaipur",
+      "nirf_city": "JAIPUR",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 7,
+      "slot": 5,
+      "institution_id": "anand-international-college-of-engineering",
+      "nirf_name": "Anand International College of Engineering",
+      "nirf_city": "Jaipur",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 7,
+      "slot": 6,
+      "institution_id": "arya-college-of-engg-and-information-technology-jaipur",
+      "nirf_name": "Arya College of Engg. & Information Technology, Jaipur",
+      "nirf_city": "Jaipur",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 7,
+      "slot": 7,
+      "institution_id": "arya-college-of-engineering",
+      "nirf_name": "Arya College of Engineering",
+      "nirf_city": "Jaipur",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 7,
+      "slot": 8,
+      "institution_id": "arya-college-of-pharmacy-jaipur",
+      "nirf_name": "ARYA COLLEGE OF PHARMACY, JAIPUR",
+      "nirf_city": "JAIPUR",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 7,
+      "slot": 9,
+      "institution_id": "bbd-govt-pg-college-chimanpura-jaipur",
+      "nirf_name": "BBD GOVT PG COLLEGE CHIMANPURA, JAIPUR",
+      "nirf_city": "JAIPUR",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 7,
+      "slot": 10,
+      "institution_id": "bhartiya-skill-development-university",
+      "nirf_name": "Bhartiya Skill Development University",
+      "nirf_city": "Jaipur",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 8,
+      "slot": 1,
+      "institution_id": "biyani-girls-college-jaipur",
+      "nirf_name": "Biyani Girls College, Jaipur",
+      "nirf_city": "Jaipur",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 8,
+      "slot": 2,
+      "institution_id": "biyani-institute-of-science-and-management",
+      "nirf_name": "Biyani Institute of Science & Management",
+      "nirf_city": "Jaipur",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 8,
+      "slot": 3,
+      "institution_id": "biyani-instituteitute-of-science-and-management-jaipur",
+      "nirf_name": "BIYANI INSTITUTEITUTE OF SCIENCE AND MANAGEMENT, JAIPUR",
+      "nirf_city": "Jaipur",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 8,
+      "slot": 4,
+      "institution_id": "biyani-law-college",
+      "nirf_name": "Biyani Law College",
+      "nirf_city": "JAIPUR",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 8,
+      "slot": 5,
+      "institution_id": "ch-charan-singh-national-institute-of-agricultural-marketing",
+      "nirf_name": "CH. CHARAN SINGH NATIONAL INSTITUTE OF AGRICULTURAL MARKETING",
+      "nirf_city": "JAIPUR",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 8,
+      "slot": 6,
+      "institution_id": "global-institute-of-technology",
+      "nirf_name": "Global Institute of Technology",
+      "nirf_city": "Jaipur",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 8,
+      "slot": 7,
+      "institution_id": "iis",
+      "nirf_name": "IIS",
+      "nirf_city": "Jaipur",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 8,
+      "slot": 8,
+      "institution_id": "institute-of-rural-management",
+      "nirf_name": "Institute of Rural Management",
+      "nirf_city": "Jaipur",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 8,
+      "slot": 9,
+      "institution_id": "international-school-of-informatics-and-management",
+      "nirf_name": "International School of Informatics & Management",
+      "nirf_city": "Jaipur",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 8,
+      "slot": 10,
+      "institution_id": "j-k-lakshmipat-university",
+      "nirf_name": "J. K. Lakshmipat University",
+      "nirf_city": "Jaipur",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 9,
+      "slot": 1,
+      "institution_id": "jagannath-university",
+      "nirf_name": "Jagannath University",
+      "nirf_city": "Jaipur",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 9,
+      "slot": 2,
+      "institution_id": "jaipur-engineering-college-and-research-center-jaipur",
+      "nirf_name": "Jaipur Engineering College & Research Center,jaipur",
+      "nirf_city": "Jaipur",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 9,
+      "slot": 3,
+      "institution_id": "jaipur-national-university-jaipur",
+      "nirf_name": "Jaipur National University, Jaipur",
+      "nirf_city": "Jaipur",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 9,
+      "slot": 4,
+      "institution_id": "jayoti-vidyapeeth-women-s-university",
+      "nirf_name": "Jayoti Vidyapeeth Women's University",
+      "nirf_city": "Jaipur",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 9,
+      "slot": 5,
+      "institution_id": "jecrc-university",
+      "nirf_name": "JECRC University",
+      "nirf_city": "Jaipur",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 9,
+      "slot": 6,
+      "institution_id": "kanoria-p-g-mahila-mahavidyalaya-jaipur",
+      "nirf_name": "Kanoria P G Mahila Mahavidyalaya, Jaipur",
+      "nirf_city": "Jaipur",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 9,
+      "slot": 7,
+      "institution_id": "maharishi-arvind-institute-of-science-and-management",
+      "nirf_name": "Maharishi Arvind Institute Of Science And Management",
+      "nirf_city": "Jaipur",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 9,
+      "slot": 8,
+      "institution_id": "national-institute-of-ayurveda-jaipur",
+      "nirf_name": "National Institute of Ayurveda, Jaipur",
+      "nirf_city": "Jaipur",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 9,
+      "slot": 9,
+      "institution_id": "nimt-technical-and-professional-college",
+      "nirf_name": "NIMT Technical and Professional College",
+      "nirf_city": "Jaipur",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 9,
+      "slot": 10,
+      "institution_id": "parishkar-college-of-global-excellence-jaipur",
+      "nirf_name": "Parishkar College of Global Excellence, Jaipur",
+      "nirf_city": "Jaipur",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 10,
+      "slot": 1,
+      "institution_id": "poddar-international-college",
+      "nirf_name": "Poddar International College",
+      "nirf_city": "Jaipur",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 10,
+      "slot": 2,
+      "institution_id": "poddar-management-and-technical-campus",
+      "nirf_name": "PODDAR MANAGEMENT AND TECHNICAL CAMPUS",
+      "nirf_city": "Jaipur",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 10,
+      "slot": 3,
+      "institution_id": "poornima-college-of-engineering-jaipur",
+      "nirf_name": "Poornima College of Engineering,Jaipur",
+      "nirf_city": "Jaipur",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 10,
+      "slot": 4,
+      "institution_id": "poornima-institute-of-engineering-and-technology-jaipur",
+      "nirf_name": "Poornima Institute of Engineering & Technology,Jaipur",
+      "nirf_city": "Jaipur",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 10,
+      "slot": 5,
+      "institution_id": "poornima-university",
+      "nirf_name": "Poornima University",
+      "nirf_city": "Jaipur",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 10,
+      "slot": 6,
+      "institution_id": "r-k-vigyan-p-g-mahavidyalaya-jaipur",
+      "nirf_name": "R K Vigyan P G Mahavidyalaya, Jaipur",
+      "nirf_city": "JAIPUR",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 10,
+      "slot": 7,
+      "institution_id": "rajasthan-university-of-health-sciences-jaipur",
+      "nirf_name": "Rajasthan University of Health Sciences, Jaipur",
+      "nirf_city": "Jaipur",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 10,
+      "slot": 8,
+      "institution_id": "s-s-g-pareek-pg-college-jaipur",
+      "nirf_name": "S S G Pareek PG College, Jaipur",
+      "nirf_city": "Jaipur",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 10,
+      "slot": 9,
+      "institution_id": "s-s-jain-subodh-girls-college-jaipur",
+      "nirf_name": "S S Jain Subodh Girls College, Jaipur",
+      "nirf_city": "Jaipur",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 10,
+      "slot": 10,
+      "institution_id": "s-s-jain-subodh-management-institute",
+      "nirf_name": "S S Jain Subodh Management Institute",
+      "nirf_city": "Jaipur",
+      "ranked_or_banded": false
+    }
+  ]
+}

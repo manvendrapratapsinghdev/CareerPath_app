@@ -46,29 +46,34 @@ class LeafDetails {
       'name': name,
       'intro': intro,
       'books': books
-          .map((b) => {
-                'id': b.id,
-                'title': b.title,
-                'author': b.author,
-                'url': b.url,
-                'description': b.description,
-              })
+          .map(
+            (b) => {
+              'id': b.id,
+              'title': b.title,
+              'author': b.author,
+              'url': b.url,
+              'description': b.description,
+            },
+          )
           .toList(),
       'institutes': institutes
-          .map((i) => {
-                'id': i.id,
-                'name': i.name,
-                'city': i.city,
-                'website': i.website,
-                'description': i.description,
-              })
+          .map(
+            (i) => {
+              'id': i.id,
+              'source_id': i.sourceId,
+              'name': i.name,
+              'city': i.city,
+              'district': i.district,
+              'state': i.state,
+              'website': i.website,
+              'description': i.description,
+            },
+          )
           .toList(),
       'job_sectors': jobSectors
-          .map((j) => {
-                'id': j.id,
-                'name': j.name,
-                'description': j.description,
-              })
+          .map(
+            (j) => {'id': j.id, 'name': j.name, 'description': j.description},
+          )
           .toList(),
     };
   }

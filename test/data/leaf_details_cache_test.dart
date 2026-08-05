@@ -18,7 +18,14 @@ void main() {
       const Book(id: 1, title: 'Test Book', author: 'Author'),
     ],
     institutes: [
-      const Institute(id: 1, name: 'Test Institute', city: 'Delhi'),
+      const Institute(
+        id: 1,
+        sourceId: 'test-institute',
+        name: 'Test Institute',
+        city: 'Jaipur',
+        district: 'Jaipur',
+        state: 'Rajasthan',
+      ),
     ],
     jobSectors: [
       const JobSector(id: 1, name: 'Tech', description: 'Technology sector'),
@@ -51,6 +58,10 @@ void main() {
     expect(retrieved.books.first.title, 'Test Book');
     expect(retrieved.institutes.length, 1);
     expect(retrieved.institutes.first.name, 'Test Institute');
+    expect(retrieved.institutes.first.sourceId, 'test-institute');
+    expect(retrieved.institutes.first.district, 'Jaipur');
+    expect(retrieved.institutes.first.state, 'Rajasthan');
+    expect(retrieved.institutes.first.location, 'Jaipur, Rajasthan');
     expect(retrieved.jobSectors.length, 1);
     expect(retrieved.jobSectors.first.name, 'Tech');
   });

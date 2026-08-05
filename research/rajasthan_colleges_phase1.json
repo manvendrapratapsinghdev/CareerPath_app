@@ -1,0 +1,746 @@
+{
+  "metadata": {
+    "title": "Rajasthan popular colleges - phase 1 candidate inventory",
+    "generated_on": "2026-07-25",
+    "phase": 1,
+    "status": "superseded",
+    "superseded_by": "research/rajasthan_nirf_master_inventory.json",
+    "state": "Rajasthan",
+    "selection_rule": "Institutions located in Rajasthan that appear in a published NIRF 2025 rank or rank band in the Overall, University, Engineering, Management, Pharmacy, Medical, Law, Architecture and Planning, or State Public University categories.",
+    "important_scope_note": "This is an objective ranked-institution seed list, not a list of every college in Rajasthan. Ranks from different NIRF categories are not directly comparable.",
+    "course_data_status": "provisional_major_degree_families",
+    "website_data_status": "not_started",
+    "phase_2_rule": "Verify one institution at a time using its official website. Fill official_website and replace provisional course families with the exact current course catalogue. Remove an institution if no official website can be established through Google and authoritative records.",
+    "college_count": 18,
+    "district_count": 6,
+    "ranking_system": {
+      "name": "National Institutional Ranking Framework",
+      "abbreviation": "NIRF",
+      "year": 2025,
+      "publisher": "Ministry of Education, Government of India",
+      "ranking_home": "https://www.nirfindia.org/Rankings/2025/Ranking.html"
+    }
+  },
+  "districts": [
+    {
+      "district": "Ajmer",
+      "colleges": [
+        {
+          "id": "central-university-of-rajasthan",
+          "name": "Central University of Rajasthan",
+          "city": "Kishangarh",
+          "institution_kind": "Central university",
+          "nirf_institute_ids": [
+            "IR-O-U-0392",
+            "IR-P-U-0392"
+          ],
+          "rankings": [
+            {
+              "category": "University",
+              "rank": 89,
+              "rank_band": null,
+              "score": 48.47,
+              "source": "https://www.nirfindia.org/Rankings/2025/UniversityRanking.html"
+            },
+            {
+              "category": "Pharmacy",
+              "rank": 27,
+              "rank_band": null,
+              "score": 60.44,
+              "source": "https://www.nirfindia.org/Rankings/2025/PharmacyRanking.html"
+            }
+          ],
+          "provisional_courses": [
+            "Integrated and postgraduate science programmes",
+            "Pharmacy",
+            "Engineering and technology",
+            "Management",
+            "Commerce",
+            "Humanities and languages",
+            "Social sciences",
+            "Education",
+            "Doctoral programmes"
+          ],
+          "course_catalogue_status": "pending_official_website_verification",
+          "official_website": null,
+          "website_verification_status": "pending"
+        }
+      ]
+    },
+    {
+      "district": "Jaipur",
+      "colleges": [
+        {
+          "id": "malaviya-national-institute-of-technology-jaipur",
+          "name": "Malaviya National Institute of Technology Jaipur",
+          "city": "Jaipur",
+          "institution_kind": "National Institute of Technology",
+          "nirf_institute_ids": [
+            "IR-O-U-0410",
+            "IR-E-U-0410",
+            "IR-M-U-0410",
+            "IR-A-U-0410"
+          ],
+          "rankings": [
+            {
+              "category": "Overall",
+              "rank": 77,
+              "rank_band": null,
+              "score": 51.88,
+              "source": "https://www.nirfindia.org/Rankings/2025/OverallRanking.html"
+            },
+            {
+              "category": "Engineering",
+              "rank": 42,
+              "rank_band": null,
+              "score": 57.45,
+              "source": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking.html"
+            },
+            {
+              "category": "Management",
+              "rank": 62,
+              "rank_band": null,
+              "score": 52.07,
+              "source": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html"
+            },
+            {
+              "category": "Architecture and Planning",
+              "rank": 12,
+              "rank_band": null,
+              "score": 60.48,
+              "source": "https://www.nirfindia.org/Rankings/2025/ArchitectureRanking.html"
+            }
+          ],
+          "provisional_courses": [
+            "B.Tech",
+            "B.Arch",
+            "M.Tech",
+            "M.Plan",
+            "MBA",
+            "M.Sc",
+            "Ph.D"
+          ],
+          "course_catalogue_status": "pending_official_website_verification",
+          "official_website": null,
+          "website_verification_status": "pending"
+        },
+        {
+          "id": "manipal-university-jaipur",
+          "name": "Manipal University Jaipur",
+          "city": "Jaipur",
+          "institution_kind": "Private university",
+          "nirf_institute_ids": [
+            "IR-O-U-0749",
+            "IR-E-U-0749",
+            "IR-M-U-0749",
+            "IR-L-U-0749",
+            "IR-A-U-0749"
+          ],
+          "rankings": [
+            {
+              "category": "Overall",
+              "rank": 98,
+              "rank_band": null,
+              "score": 49.38,
+              "source": "https://www.nirfindia.org/Rankings/2025/OverallRanking.html"
+            },
+            {
+              "category": "University",
+              "rank": 58,
+              "rank_band": null,
+              "score": 51.57,
+              "source": "https://www.nirfindia.org/Rankings/2025/UniversityRanking.html"
+            },
+            {
+              "category": "Engineering",
+              "rank": 58,
+              "rank_band": null,
+              "score": 52.69,
+              "source": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking.html"
+            },
+            {
+              "category": "Management",
+              "rank": 81,
+              "rank_band": null,
+              "score": 47.56,
+              "source": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html"
+            },
+            {
+              "category": "Law",
+              "rank": 32,
+              "rank_band": null,
+              "score": 54.83,
+              "source": "https://www.nirfindia.org/Rankings/2025/LawRanking.html"
+            },
+            {
+              "category": "Architecture and Planning",
+              "rank": 21,
+              "rank_band": null,
+              "score": 56.83,
+              "source": "https://www.nirfindia.org/Rankings/2025/ArchitectureRanking.html"
+            }
+          ],
+          "provisional_courses": [
+            "Engineering and technology",
+            "Architecture and design",
+            "Computer applications",
+            "Business and commerce",
+            "Law",
+            "Sciences",
+            "Humanities and social sciences",
+            "Journalism and media",
+            "Hotel management",
+            "Postgraduate and doctoral programmes"
+          ],
+          "course_catalogue_status": "pending_official_website_verification",
+          "official_website": null,
+          "website_verification_status": "pending"
+        },
+        {
+          "id": "jaipuria-institute-of-management-jaipur",
+          "name": "Jaipuria Institute of Management Jaipur",
+          "city": "Jaipur",
+          "institution_kind": "Private management institute",
+          "nirf_institute_ids": [
+            "IR-M-S-309"
+          ],
+          "rankings": [
+            {
+              "category": "Management",
+              "rank": 74,
+              "rank_band": null,
+              "score": 49.26,
+              "source": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html"
+            }
+          ],
+          "provisional_courses": [
+            "PGDM",
+            "Management executive education"
+          ],
+          "course_catalogue_status": "pending_official_website_verification",
+          "official_website": null,
+          "website_verification_status": "pending"
+        },
+        {
+          "id": "suresh-gyan-vihar-university",
+          "name": "Suresh Gyan Vihar University",
+          "city": "Jaipur",
+          "institution_kind": "Private university",
+          "nirf_institute_ids": [
+            "IR-P-U-0427"
+          ],
+          "rankings": [
+            {
+              "category": "University",
+              "rank": null,
+              "rank_band": "101-150",
+              "score": null,
+              "source": "https://www.nirfindia.org/Rankings/2025/UniversityRanking150.html"
+            },
+            {
+              "category": "Pharmacy",
+              "rank": 39,
+              "rank_band": null,
+              "score": 55.28,
+              "source": "https://www.nirfindia.org/Rankings/2025/PharmacyRanking.html"
+            }
+          ],
+          "provisional_courses": [
+            "Pharmacy",
+            "Engineering and technology",
+            "Computer applications",
+            "Management and commerce",
+            "Sciences",
+            "Agriculture",
+            "Hotel management",
+            "Education",
+            "Humanities",
+            "Postgraduate and doctoral programmes"
+          ],
+          "course_catalogue_status": "pending_official_website_verification",
+          "official_website": null,
+          "website_verification_status": "pending"
+        },
+        {
+          "id": "nims-university-rajasthan",
+          "name": "NIMS University Rajasthan",
+          "city": "Jaipur",
+          "institution_kind": "Private university",
+          "nirf_institute_ids": [
+            "IR-P-U-0415"
+          ],
+          "rankings": [
+            {
+              "category": "University",
+              "rank": null,
+              "rank_band": "101-150",
+              "score": null,
+              "source": "https://www.nirfindia.org/Rankings/2025/UniversityRanking150.html"
+            },
+            {
+              "category": "Pharmacy",
+              "rank": 79,
+              "rank_band": null,
+              "score": 43.92,
+              "source": "https://www.nirfindia.org/Rankings/2025/PharmacyRanking.html"
+            }
+          ],
+          "provisional_courses": [
+            "Medicine",
+            "Dentistry",
+            "Nursing",
+            "Pharmacy",
+            "Allied health sciences",
+            "Engineering and technology",
+            "Management and commerce",
+            "Law",
+            "Sciences",
+            "Humanities",
+            "Postgraduate and doctoral programmes"
+          ],
+          "course_catalogue_status": "pending_official_website_verification",
+          "official_website": null,
+          "website_verification_status": "pending"
+        },
+        {
+          "id": "sawai-man-singh-medical-college",
+          "name": "Sawai Man Singh Medical College",
+          "city": "Jaipur",
+          "institution_kind": "Government medical college",
+          "nirf_institute_ids": [
+            "IR-D-N-17"
+          ],
+          "rankings": [
+            {
+              "category": "Medical",
+              "rank": 39,
+              "rank_band": null,
+              "score": 52.69,
+              "source": "https://www.nirfindia.org/Rankings/2025/MedicalRanking.html"
+            }
+          ],
+          "provisional_courses": [
+            "MBBS",
+            "MD",
+            "MS",
+            "DM",
+            "M.Ch",
+            "Medical postgraduate diplomas"
+          ],
+          "course_catalogue_status": "pending_official_website_verification",
+          "official_website": null,
+          "website_verification_status": "pending"
+        },
+        {
+          "id": "mahatma-gandhi-university-of-medical-sciences-and-technology",
+          "name": "Mahatma Gandhi University of Medical Sciences & Technology",
+          "city": "Jaipur",
+          "institution_kind": "Private medical university",
+          "nirf_institute_ids": [],
+          "rankings": [
+            {
+              "category": "University",
+              "rank": null,
+              "rank_band": "151-200",
+              "score": null,
+              "source": "https://www.nirfindia.org/Rankings/2025/UniversityRanking200.html"
+            }
+          ],
+          "provisional_courses": [
+            "Medicine",
+            "Dentistry",
+            "Nursing",
+            "Physiotherapy",
+            "Occupational therapy",
+            "Allied health sciences",
+            "Postgraduate medical programmes",
+            "Doctoral programmes"
+          ],
+          "course_catalogue_status": "pending_official_website_verification",
+          "official_website": null,
+          "website_verification_status": "pending"
+        },
+        {
+          "id": "amity-university-rajasthan",
+          "name": "Amity University Rajasthan",
+          "city": "Jaipur",
+          "institution_kind": "Private university",
+          "nirf_institute_ids": [],
+          "rankings": [
+            {
+              "category": "Engineering",
+              "rank": null,
+              "rank_band": "151-200",
+              "score": null,
+              "source": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking200.html"
+            }
+          ],
+          "provisional_courses": [
+            "Engineering and technology",
+            "Computer applications",
+            "Management and commerce",
+            "Law",
+            "Architecture and design",
+            "Journalism and communication",
+            "Sciences",
+            "Psychology and behavioural sciences",
+            "Humanities",
+            "Postgraduate and doctoral programmes"
+          ],
+          "course_catalogue_status": "pending_official_website_verification",
+          "official_website": null,
+          "website_verification_status": "pending"
+        },
+        {
+          "id": "lnm-institute-of-information-technology",
+          "name": "The LNM Institute of Information Technology",
+          "city": "Jaipur",
+          "institution_kind": "Deemed university",
+          "nirf_institute_ids": [],
+          "rankings": [
+            {
+              "category": "Engineering",
+              "rank": null,
+              "rank_band": "201-300",
+              "score": null,
+              "source": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking300.html"
+            }
+          ],
+          "provisional_courses": [
+            "B.Tech in computing, communication, electronics and mechanical disciplines",
+            "M.Tech",
+            "M.Sc",
+            "Ph.D"
+          ],
+          "course_catalogue_status": "pending_official_website_verification",
+          "official_website": null,
+          "website_verification_status": "pending"
+        },
+        {
+          "id": "iihmr-university",
+          "name": "IIHMR University",
+          "city": "Jaipur",
+          "institution_kind": "Private university",
+          "nirf_institute_ids": [],
+          "rankings": [
+            {
+              "category": "Management",
+              "rank": null,
+              "rank_band": "101-125",
+              "score": null,
+              "source": "https://www.nirfindia.org/Rankings/2025/ManagementRanking150.html"
+            }
+          ],
+          "provisional_courses": [
+            "MBA in hospital and health management",
+            "MBA in pharmaceutical management",
+            "MBA in development management",
+            "Master of Public Health",
+            "Doctoral programmes",
+            "Executive education"
+          ],
+          "course_catalogue_status": "pending_official_website_verification",
+          "official_website": null,
+          "website_verification_status": "pending"
+        }
+      ]
+    },
+    {
+      "district": "Jhunjhunu",
+      "colleges": [
+        {
+          "id": "bits-pilani",
+          "name": "Birla Institute of Technology & Science, Pilani",
+          "city": "Pilani",
+          "institution_kind": "Deemed university",
+          "nirf_institute_ids": [
+            "IR-O-U-0391",
+            "IR-E-U-0391",
+            "IR-P-U-0391"
+          ],
+          "rankings": [
+            {
+              "category": "Overall",
+              "rank": 16,
+              "rank_band": null,
+              "score": 65.06,
+              "source": "https://www.nirfindia.org/Rankings/2025/OverallRanking.html"
+            },
+            {
+              "category": "University",
+              "rank": 7,
+              "rank_band": null,
+              "score": 67.24,
+              "source": "https://www.nirfindia.org/Rankings/2025/UniversityRanking.html"
+            },
+            {
+              "category": "Engineering",
+              "rank": 11,
+              "rank_band": null,
+              "score": 67.02,
+              "source": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking.html"
+            },
+            {
+              "category": "Pharmacy",
+              "rank": 2,
+              "rank_band": null,
+              "score": 82.28,
+              "source": "https://www.nirfindia.org/Rankings/2025/PharmacyRanking.html"
+            }
+          ],
+          "provisional_courses": [
+            "B.E.",
+            "B.Pharm",
+            "Integrated M.Sc",
+            "M.E.",
+            "M.Pharm",
+            "MBA",
+            "Ph.D"
+          ],
+          "course_catalogue_status": "pending_official_website_verification",
+          "official_website": null,
+          "website_verification_status": "pending"
+        }
+      ]
+    },
+    {
+      "district": "Jodhpur",
+      "colleges": [
+        {
+          "id": "indian-institute-of-technology-jodhpur",
+          "name": "Indian Institute of Technology Jodhpur",
+          "city": "Jodhpur",
+          "institution_kind": "Indian Institute of Technology",
+          "nirf_institute_ids": [
+            "IR-O-U-0395",
+            "IR-E-U-0395",
+            "IR-M-U-0395"
+          ],
+          "rankings": [
+            {
+              "category": "Overall",
+              "rank": 66,
+              "rank_band": null,
+              "score": 53.17,
+              "source": "https://www.nirfindia.org/Rankings/2025/OverallRanking.html"
+            },
+            {
+              "category": "Engineering",
+              "rank": 27,
+              "rank_band": null,
+              "score": 61.31,
+              "source": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking.html"
+            },
+            {
+              "category": "Management",
+              "rank": 98,
+              "rank_band": null,
+              "score": 45.02,
+              "source": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html"
+            }
+          ],
+          "provisional_courses": [
+            "B.Tech",
+            "B.S.",
+            "M.Tech",
+            "M.Sc",
+            "MBA",
+            "M.Des",
+            "Ph.D"
+          ],
+          "course_catalogue_status": "pending_official_website_verification",
+          "official_website": null,
+          "website_verification_status": "pending"
+        },
+        {
+          "id": "aiims-jodhpur",
+          "name": "All India Institute of Medical Sciences Jodhpur",
+          "city": "Jodhpur",
+          "institution_kind": "All India Institute of Medical Sciences",
+          "nirf_institute_ids": [
+            "IR-D-U-0689"
+          ],
+          "rankings": [
+            {
+              "category": "Medical",
+              "rank": 19,
+              "rank_band": null,
+              "score": 63.18,
+              "source": "https://www.nirfindia.org/Rankings/2025/MedicalRanking.html"
+            }
+          ],
+          "provisional_courses": [
+            "MBBS",
+            "B.Sc Nursing",
+            "MD",
+            "MS",
+            "DM",
+            "M.Ch",
+            "M.Sc",
+            "Public health and allied health programmes",
+            "Doctoral programmes"
+          ],
+          "course_catalogue_status": "pending_official_website_verification",
+          "official_website": null,
+          "website_verification_status": "pending"
+        }
+      ]
+    },
+    {
+      "district": "Tonk",
+      "colleges": [
+        {
+          "id": "banasthali-vidyapith",
+          "name": "Banasthali Vidyapith",
+          "city": "Banasthali",
+          "institution_kind": "Deemed university for women",
+          "nirf_institute_ids": [
+            "IR-O-U-0389",
+            "IR-E-U-0389",
+            "IR-P-U-0389"
+          ],
+          "rankings": [
+            {
+              "category": "University",
+              "rank": 66,
+              "rank_band": null,
+              "score": 50.65,
+              "source": "https://www.nirfindia.org/Rankings/2025/UniversityRanking.html"
+            },
+            {
+              "category": "Engineering",
+              "rank": 71,
+              "rank_band": null,
+              "score": 50.38,
+              "source": "https://www.nirfindia.org/Rankings/2025/EngineeringRanking.html"
+            },
+            {
+              "category": "Pharmacy",
+              "rank": 22,
+              "rank_band": null,
+              "score": 63.96,
+              "source": "https://www.nirfindia.org/Rankings/2025/PharmacyRanking.html"
+            }
+          ],
+          "provisional_courses": [
+            "Arts and humanities",
+            "Sciences",
+            "Commerce and management",
+            "Engineering and technology",
+            "Computer applications",
+            "Design",
+            "Pharmacy",
+            "Education",
+            "Aviation",
+            "Postgraduate and doctoral programmes"
+          ],
+          "course_catalogue_status": "pending_official_website_verification",
+          "official_website": null,
+          "website_verification_status": "pending"
+        }
+      ]
+    },
+    {
+      "district": "Udaipur",
+      "colleges": [
+        {
+          "id": "indian-institute-of-management-udaipur",
+          "name": "Indian Institute of Management Udaipur",
+          "city": "Udaipur",
+          "institution_kind": "Indian Institute of Management",
+          "nirf_institute_ids": [
+            "IR-M-S-8942"
+          ],
+          "rankings": [
+            {
+              "category": "Management",
+              "rank": 21,
+              "rank_band": null,
+              "score": 61.79,
+              "source": "https://www.nirfindia.org/Rankings/2025/ManagementRanking.html"
+            }
+          ],
+          "provisional_courses": [
+            "MBA",
+            "One-year MBA in Global Supply Chain Management",
+            "One-year MBA in Digital Enterprise Management",
+            "Ph.D",
+            "Executive education"
+          ],
+          "course_catalogue_status": "pending_official_website_verification",
+          "official_website": null,
+          "website_verification_status": "pending"
+        },
+        {
+          "id": "mohanlal-sukhadia-university",
+          "name": "Mohanlal Sukhadia University",
+          "city": "Udaipur",
+          "institution_kind": "State public university",
+          "nirf_institute_ids": [
+            "IR-P-U-0413"
+          ],
+          "rankings": [
+            {
+              "category": "Pharmacy",
+              "rank": 64,
+              "rank_band": null,
+              "score": 48.19,
+              "source": "https://www.nirfindia.org/Rankings/2025/PharmacyRanking.html"
+            },
+            {
+              "category": "State Public University",
+              "rank": null,
+              "rank_band": "51-100",
+              "score": null,
+              "source": "https://www.nirfindia.org/Rankings/2025/STATEPUBLICUNIVERSITYRanking100.html"
+            }
+          ],
+          "provisional_courses": [
+            "Arts and humanities",
+            "Sciences",
+            "Commerce",
+            "Management",
+            "Computer applications",
+            "Law",
+            "Education",
+            "Pharmacy",
+            "Postgraduate and doctoral programmes"
+          ],
+          "course_catalogue_status": "pending_official_website_verification",
+          "official_website": null,
+          "website_verification_status": "pending"
+        },
+        {
+          "id": "maharana-pratap-university-of-agriculture-and-technology",
+          "name": "Maharana Pratap University of Agriculture & Technology",
+          "city": "Udaipur",
+          "institution_kind": "State agricultural university",
+          "nirf_institute_ids": [],
+          "rankings": [
+            {
+              "category": "State Public University",
+              "rank": null,
+              "rank_band": "51-100",
+              "score": null,
+              "source": "https://www.nirfindia.org/Rankings/2025/STATEPUBLICUNIVERSITYRanking100.html"
+            }
+          ],
+          "provisional_courses": [
+            "Agriculture",
+            "Agricultural engineering",
+            "Dairy and food technology",
+            "Fisheries",
+            "Community and applied sciences",
+            "M.Sc",
+            "M.Tech",
+            "MBA",
+            "Ph.D"
+          ],
+          "course_catalogue_status": "pending_official_website_verification",
+          "official_website": null,
+          "website_verification_status": "pending"
+        }
+      ]
+    }
+  ]
+}
