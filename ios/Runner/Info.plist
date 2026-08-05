@@ -26,6 +26,10 @@
 		<string>$(FLUTTER_BUILD_NUMBER)</string>
 		<key>LSRequiresIPhoneOS</key>
 		<true/>
+		<key>NSMicrophoneUsageDescription</key>
+		<string>Career Path uses the microphone to turn your spoken career questions into text.</string>
+		<key>NSSpeechRecognitionUsageDescription</key>
+		<string>Career Path uses speech recognition to fill the AI Guide message box from your voice.</string>
 		<key>UIApplicationSceneManifest</key>
 		<dict>
 			<key>UIApplicationSupportsMultipleScenes</key>

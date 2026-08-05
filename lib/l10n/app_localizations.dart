@@ -983,8 +983,56 @@ abstract class AppLocalizations {
   /// No description provided for @ai_checkingData.
   ///
   /// In en, this message translates to:
-  /// **'Checking CareerPath data...'**
+  /// **'AI is exploring your career path...'**
   String get ai_checkingData;
+
+  /// No description provided for @ai_voiceInputStart.
+  ///
+  /// In en, this message translates to:
+  /// **'Speak your question'**
+  String get ai_voiceInputStart;
+
+  /// No description provided for @ai_voiceInputStop.
+  ///
+  /// In en, this message translates to:
+  /// **'Stop listening'**
+  String get ai_voiceInputStop;
+
+  /// No description provided for @ai_voiceListening.
+  ///
+  /// In en, this message translates to:
+  /// **'Listening...'**
+  String get ai_voiceListening;
+
+  /// No description provided for @ai_voiceUnavailable.
+  ///
+  /// In en, this message translates to:
+  /// **'Voice input is unavailable. Check microphone permission and try again.'**
+  String get ai_voiceUnavailable;
+
+  /// No description provided for @ai_voiceError.
+  ///
+  /// In en, this message translates to:
+  /// **'I couldn\'t hear that. Please try again.'**
+  String get ai_voiceError;
+
+  /// No description provided for @ai_readAloud.
+  ///
+  /// In en, this message translates to:
+  /// **'Read response aloud'**
+  String get ai_readAloud;
+
+  /// No description provided for @ai_stopReading.
+  ///
+  /// In en, this message translates to:
+  /// **'Stop reading'**
+  String get ai_stopReading;
+
+  /// No description provided for @ai_readAloudUnavailable.
+  ///
+  /// In en, this message translates to:
+  /// **'Audio playback is unavailable on this device.'**
+  String get ai_readAloudUnavailable;
 
   /// No description provided for @ai_errorMessage.
   ///

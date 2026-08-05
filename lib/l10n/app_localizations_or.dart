@@ -478,7 +478,33 @@ class AppLocalizationsOr extends AppLocalizations {
   String get ai_startNew => 'Start new chat';
 
   @override
-  String get ai_checkingData => 'Checking CareerPath data...';
+  String get ai_checkingData => 'AI is exploring your career path...';
+
+  @override
+  String get ai_voiceInputStart => 'Speak your question';
+
+  @override
+  String get ai_voiceInputStop => 'Stop listening';
+
+  @override
+  String get ai_voiceListening => 'Listening...';
+
+  @override
+  String get ai_voiceUnavailable =>
+      'Voice input is unavailable. Check microphone permission and try again.';
+
+  @override
+  String get ai_voiceError => 'I couldn\'t hear that. Please try again.';
+
+  @override
+  String get ai_readAloud => 'Read response aloud';
+
+  @override
+  String get ai_stopReading => 'Stop reading';
+
+  @override
+  String get ai_readAloudUnavailable =>
+      'Audio playback is unavailable on this device.';
 
   @override
   String get ai_errorMessage =>
