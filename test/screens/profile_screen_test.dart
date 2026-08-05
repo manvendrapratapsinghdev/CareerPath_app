@@ -37,6 +37,45 @@ void main() {
     );
   }
 
+  Widget buildHomeFlowApp() {
+    return MaterialApp(
+      locale: const Locale('en'),
+      supportedLocales: const [Locale('en')],
+      localizationsDelegates: const [
+        AppLocalizations.delegate,
+        GlobalMaterialLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate,
+        GlobalCupertinoLocalizations.delegate,
+      ],
+      routes: {
+        '/home': (_) => const Scaffold(body: Text('Replacement Home')),
+      },
+      home: Builder(
+        builder: (context) => Scaffold(
+          body: Column(
+            children: [
+              const Text('Existing Home'),
+              ElevatedButton(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (_) => ProfileScreen(
+                        profileService: profileService,
+                        returnToPreviousScreen: true,
+                      ),
+                    ),
+                  );
+                },
+                child: const Text('Open Profile'),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+
   group('ProfileScreen', () {
     testWidgets('displays name field and stream selection cards',
         (tester) async {
@@ -152,6 +191,42 @@ void main() {
       // Profile should not be saved
       final profile = await profileService.getProfile();
       expect(profile, isNull);
+    });
+
+    testWidgets('skip pops when profile was opened from home', (tester) async {
+      await tester.pumpWidget(buildHomeFlowApp());
+      await tester.tap(find.text('Open Profile'));
+      await tester.pumpAndSettle();
+
+      await tester.drag(
+          find.byType(SingleChildScrollView), const Offset(0, -300));
+      await tester.pumpAndSettle();
+
+      await tester.tap(find.text('Skip for now'));
+      await tester.pumpAndSettle();
+
+      expect(find.text('Existing Home'), findsOneWidget);
+      expect(find.text('Replacement Home'), findsNothing);
+    });
+
+    testWidgets('save pops when profile was opened from home', (tester) async {
+      await tester.pumpWidget(buildHomeFlowApp());
+      await tester.tap(find.text('Open Profile'));
+      await tester.pumpAndSettle();
+
+      await tester.enterText(find.byType(TextFormField), 'Bob');
+      await tester.tap(find.text('Commerce'));
+      await tester.pump();
+      await tester.drag(
+          find.byType(SingleChildScrollView), const Offset(0, -300));
+      await tester.pumpAndSettle();
+
+      await tester.tap(find.text('Get Started'));
+      await tester.pumpAndSettle();
+
+      expect(find.text('Existing Home'), findsOneWidget);
+      expect(find.text('Replacement Home'), findsNothing);
+      expect((await profileService.getProfile())?.name, 'Bob');
     });
   });
 }

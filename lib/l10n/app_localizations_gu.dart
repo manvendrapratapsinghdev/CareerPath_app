@@ -33,6 +33,9 @@ class AppLocalizationsGu extends AppLocalizations {
   String get home_tabExplore => 'શોધખોળ';
 
   @override
+  String get home_tabAiGuide => 'AI Guide';
+
+  @override
   String get home_tabSaved => 'સાચવેલું';
 
   @override
@@ -428,6 +431,85 @@ class AppLocalizationsGu extends AppLocalizations {
   @override
   String get suggestions_connectionError =>
       'સર્વર સાથે કનેક્ટ કરવામાં નિષ્ફળ. તમારું કનેક્શન તપાસો અને ફરી પ્રયાસ કરો.';
+
+  @override
+  String get ai_title => 'CareerPath AI Guide';
+
+  @override
+  String get ai_subtitle => 'Ask about your career path';
+
+  @override
+  String get ai_scopeNotice =>
+      'Answers use information available in CareerPath Explore. AI can make errors.';
+
+  @override
+  String get ai_starterScience => 'What can I do after 12th Science?';
+
+  @override
+  String get ai_starterCompare =>
+      'What career options are available in Computer Science?';
+
+  @override
+  String get ai_starterDesign => 'Show careers related to design';
+
+  @override
+  String get ai_inputHint => 'Ask about courses or careers...';
+
+  @override
+  String get ai_newChat => 'New chat';
+
+  @override
+  String get ai_clearChat => 'Clear chat';
+
+  @override
+  String get ai_newChatTitle => 'Start a new chat?';
+
+  @override
+  String get ai_newChatMessage =>
+      'This conversation is not saved and cannot be recovered.';
+
+  @override
+  String get ai_cancel => 'Cancel';
+
+  @override
+  String get ai_startNew => 'Start new chat';
+
+  @override
+  String get ai_checkingData => 'Checking CareerPath data...';
+
+  @override
+  String get ai_errorMessage =>
+      'AI Guide is temporarily unavailable. Explore is still available.';
+
+  @override
+  String get ai_retry => 'Retry';
+
+  @override
+  String get ai_openExplore => 'Open Explore';
+
+  @override
+  String get ai_copy => 'Copy response';
+
+  @override
+  String get ai_copied => 'Response copied';
+
+  @override
+  String get ai_stop => 'Stop response';
+
+  @override
+  String get ai_sources => 'Sources';
+
+  @override
+  String get ai_blockedTitle => 'Chat temporarily blocked';
+
+  @override
+  String get ai_blockedMessage =>
+      'Please try again later. You can continue browsing career paths in Explore.';
+
+  @override
+  String ai_messageTooLong(int count) {
+    return 'Keep your message under $count characters.';
+  }
 
   @override
   String get search_hint => 'કારકિર્દી માર્ગો શોધો...';

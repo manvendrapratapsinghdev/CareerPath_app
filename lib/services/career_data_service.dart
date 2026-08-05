@@ -23,9 +23,9 @@ class CareerDataService {
 
   List<StreamModel> _streams = [];
   Map<String, CareerNode> _nodesMap = {};
-  Map<int, Book> _booksMap = {};
-  Map<int, Institute> _institutesMap = {};
-  Map<int, JobSector> _jobSectorsMap = {};
+  final Map<int, Book> _booksMap = {};
+  final Map<int, Institute> _institutesMap = {};
+  final Map<int, JobSector> _jobSectorsMap = {};
 
   /// Maps slug → backend integer primary key (needed for leaf-details fetch).
   final Map<String, int> _slugToApiId = {};
@@ -161,6 +161,9 @@ class CareerDataService {
         id: slug,
         name: n['name'] as String,
         intro: n['intro'] as String?,
+        parentId: n['parent_id'] == null
+            ? null
+            : nodeIdToSlug[n['parent_id'] as int],
         childIds: childSlugs,
         childCount: childIds.length,
       );
@@ -198,8 +201,10 @@ class CareerDataService {
 
   /// Fetches and caches the root nodes for [streamSlug].
   /// Pass [forceRefresh] to bypass both service- and HTTP-level caches.
-  Future<List<CareerNode>> fetchStreamCategories(String streamSlug,
-      {bool forceRefresh = false}) async {
+  Future<List<CareerNode>> fetchStreamCategories(
+    String streamSlug, {
+    bool forceRefresh = false,
+  }) async {
     if (!forceRefresh && _fetchedStreamCategories.contains(streamSlug)) {
       return getCategoriesForStream(streamSlug);
     }
@@ -210,8 +215,10 @@ class CareerDataService {
 
     final List<Map<String, dynamic>> rootNodes;
     try {
-      rootNodes =
-          await _api.getStreamRootNodes(apiId, forceRefresh: forceRefresh);
+      rootNodes = await _api.getStreamRootNodes(
+        apiId,
+        forceRefresh: forceRefresh,
+      );
     } catch (e) {
       throw const ServerDownException();
     }
@@ -244,8 +251,10 @@ class CareerDataService {
 
   /// Fetches and caches the children of [nodeSlug].
   /// Pass [forceRefresh] to bypass both service- and HTTP-level caches.
-  Future<List<CareerNode>> fetchChildrenOf(String nodeSlug,
-      {bool forceRefresh = false}) async {
+  Future<List<CareerNode>> fetchChildrenOf(
+    String nodeSlug, {
+    bool forceRefresh = false,
+  }) async {
     if (!forceRefresh && _fetchedChildren.contains(nodeSlug)) {
       return getChildrenOf(nodeSlug);
     }
@@ -256,8 +265,10 @@ class CareerDataService {
 
     final List<Map<String, dynamic>> childrenRaw;
     try {
-      childrenRaw =
-          await _api.getNodeChildren(apiId, forceRefresh: forceRefresh);
+      childrenRaw = await _api.getNodeChildren(
+        apiId,
+        forceRefresh: forceRefresh,
+      );
     } catch (e) {
       throw const ServerDownException();
     }
@@ -295,9 +306,9 @@ class CareerDataService {
 
   List<CareerNode> getCategoriesForStream(String streamId) {
     final stream = _streams.cast<StreamModel?>().firstWhere(
-          (s) => s!.id == streamId,
-          orElse: () => null,
-        );
+      (s) => s!.id == streamId,
+      orElse: () => null,
+    );
     if (stream == null) return [];
     return stream.categoryIds
         .map((id) => _nodesMap[id])
@@ -315,6 +326,8 @@ class CareerDataService {
   }
 
   CareerNode? getNodeById(String nodeId) => _nodesMap[nodeId];
+
+  List<CareerNode> getAllNodes() => List.unmodifiable(_nodesMap.values);
 
   /// Searches loaded nodes by name (case-insensitive substring match).
   /// Returns at most [limit] results.
@@ -364,20 +377,24 @@ class CareerDataService {
   Institute? getInstituteById(int id) => _institutesMap[id];
 
   /// Get all cached institutes.
-  List<Institute> getAllInstitutes() => List.unmodifiable(_institutesMap.values);
+  List<Institute> getAllInstitutes() =>
+      List.unmodifiable(_institutesMap.values);
 
   /// Get a job sector by its API ID.
   JobSector? getJobSectorById(int id) => _jobSectorsMap[id];
 
   /// Get all cached job sectors.
-  List<JobSector> getAllJobSectors() => List.unmodifiable(_jobSectorsMap.values);
+  List<JobSector> getAllJobSectors() =>
+      List.unmodifiable(_jobSectorsMap.values);
 
   // ── new async accessor ─────────────────────────────────────────────────────
 
   /// Fetches rich leaf-node details (books, institutes, job sectors) from the
   /// backend. Returns null when no details are stored for this node.
-  Future<LeafDetails?> getLeafDetails(String nodeId,
-      {bool forceRefresh = false}) async {
+  Future<LeafDetails?> getLeafDetails(
+    String nodeId, {
+    bool forceRefresh = false,
+  }) async {
     final apiId = _slugToApiId[nodeId];
     if (apiId == null) return null;
     try {
@@ -396,7 +413,9 @@ class CareerDataService {
 
   @visibleForTesting
   void initializeWithData(
-      List<StreamModel> streams, Map<String, CareerNode> nodes) {
+    List<StreamModel> streams,
+    Map<String, CareerNode> nodes,
+  ) {
     _streams = streams;
     _nodesMap = nodes;
     _initFuture = Future.value();
@@ -408,4 +427,3 @@ class CareerDataService {
     }
   }
 }
-

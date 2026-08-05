@@ -120,9 +120,12 @@ class _SuggestionsTabState extends State<SuggestionsTab> {
     Navigator.push(
       context,
       SmoothPageRoute(
-        page: ProfileScreen(profileService: widget.profileService),
+        page: ProfileScreen(
+          profileService: widget.profileService,
+          returnToPreviousScreen: true,
+        ),
       ),
-    );
+    ).then((_) => _loadData());
   }
 
   @override

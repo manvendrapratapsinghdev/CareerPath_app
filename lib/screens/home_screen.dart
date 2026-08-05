@@ -3,7 +3,10 @@ import 'package:url_launcher/url_launcher.dart';
 
 import '../config/app_theme.dart';
 import '../l10n/app_localizations.dart';
+import '../models/ai_chat.dart';
+import '../models/breadcrumb_entry.dart';
 import '../models/profile_data.dart';
+import '../services/ai_chat_repository.dart';
 import '../services/analytics_service.dart';
 import '../services/bookmark_service.dart';
 import '../services/career_data_service.dart';
@@ -15,12 +18,14 @@ import '../services/recently_viewed_service.dart';
 import '../services/profile_service.dart';
 import '../services/theme_service.dart';
 import '../widgets/page_transitions.dart';
+import 'ai_chat_tab.dart';
 import 'bookmarks_tab.dart';
 import 'explore_tab.dart';
 import 'profile_screen.dart';
 import 'quiz_screen.dart';
 import 'search_screen.dart';
 import 'suggestions_tab.dart';
+import 'sub_option_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   final ProfileService profileService;
@@ -33,6 +38,7 @@ class HomeScreen extends StatefulWidget {
   final AnalyticsService? analyticsService;
   final ThemeService? themeService;
   final LocaleService? localeService;
+  final AiChatRepository? aiChatRepository;
 
   const HomeScreen({
     super.key,
@@ -46,6 +52,7 @@ class HomeScreen extends StatefulWidget {
     this.analyticsService,
     this.themeService,
     this.localeService,
+    this.aiChatRepository,
   });
 
   @override
@@ -56,11 +63,14 @@ class _HomeScreenState extends State<HomeScreen> {
   ProfileData? _profile;
   int _currentIndex = 0;
   late final PageController _pageController;
+  late final AiChatRepository _aiChatRepository;
 
   @override
   void initState() {
     super.initState();
     _pageController = PageController();
+    _aiChatRepository =
+        widget.aiChatRepository ?? UnavailableAiChatRepository();
     _loadProfile();
     widget.analyticsService?.logScreenView('home');
     _checkRatePrompt();
@@ -142,19 +152,50 @@ class _HomeScreenState extends State<HomeScreen> {
           feedbackService: widget.feedbackService,
           themeService: widget.themeService,
           localeService: widget.localeService,
+          returnToPreviousScreen: true,
         ),
       ),
     ).then((_) => _loadProfile());
   }
 
   void _onTabChanged(int index) {
-    const tabNames = ['for_you', 'explore', 'saved'];
+    const tabNames = ['for_you', 'explore', 'ai_chat', 'saved'];
     widget.analyticsService?.logTabChanged(tabNames[index]);
     setState(() => _currentIndex = index);
     _pageController.animateToPage(
       index,
       duration: const Duration(milliseconds: 300),
       curve: Curves.easeOutCubic,
+    );
+  }
+
+  Future<void> _openAiSource(AiChatSource? source) async {
+    final nodeId = source?.exploreNodeId;
+    if (nodeId == null || nodeId.isEmpty) {
+      _onTabChanged(1);
+      return;
+    }
+
+    await widget.careerDataService.ensureInitialized();
+    if (!mounted) return;
+    final node = widget.careerDataService.getNodeById(nodeId);
+    if (node == null) {
+      _onTabChanged(1);
+      return;
+    }
+
+    Navigator.push(
+      context,
+      SmoothPageRoute(
+        page: SubOptionScreen(
+          careerDataService: widget.careerDataService,
+          bookmarkService: widget.bookmarkService,
+          explorationService: widget.explorationService,
+          analyticsService: widget.analyticsService,
+          nodeId: node.id,
+          breadcrumbs: [BreadcrumbEntry(nodeId: node.id, label: node.name)],
+        ),
+      ),
     );
   }
 
@@ -172,6 +213,9 @@ class _HomeScreenState extends State<HomeScreen> {
     final colorScheme = Theme.of(context).colorScheme;
     final name = _profile?.name;
     final hasName = name != null && name.isNotEmpty;
+    final profileTooltip = hasName
+        ? l.profile_editProfileTitle
+        : l.suggestions_setUpProfile;
 
     return Scaffold(
       appBar: AppBar(
@@ -182,14 +226,11 @@ class _HomeScreenState extends State<HomeScreen> {
             Text(
               '${_greeting(context)}${hasName ? ',' : ''}',
               style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                    color: colorScheme.onSurfaceVariant,
-                  ),
+                color: colorScheme.onSurfaceVariant,
+              ),
             ),
             if (hasName)
-              Text(
-                name,
-                style: Theme.of(context).textTheme.titleLarge,
-              ),
+              Text(name, style: Theme.of(context).textTheme.titleLarge),
           ],
         ),
         actions: [
@@ -213,7 +254,9 @@ class _HomeScreenState extends State<HomeScreen> {
             onPressed: () {
               Navigator.push(
                 context,
-                SmoothPageRoute(page: QuizScreen(analyticsService: widget.analyticsService)),
+                SmoothPageRoute(
+                  page: QuizScreen(analyticsService: widget.analyticsService),
+                ),
               );
             },
             icon: const Icon(Icons.psychology_rounded),
@@ -221,23 +264,39 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
           Padding(
             padding: const EdgeInsets.only(right: AppSpacing.md),
-            child: GestureDetector(
-              onTap: _navigateToEditProfile,
-              child: Container(
-                width: 40,
-                height: 40,
-                decoration: BoxDecoration(
-                  gradient: AppColors.primaryGradient,
-                  shape: BoxShape.circle,
-                  boxShadow: AppShadows.soft(AppColors.primaryLight),
-                ),
-                child: Center(
-                  child: Text(
-                    hasName ? name[0].toUpperCase() : '?',
-                    style: const TextStyle(
-                      fontWeight: FontWeight.w700,
-                      color: Colors.white,
-                      fontSize: 16,
+            child: Tooltip(
+              message: profileTooltip,
+              excludeFromSemantics: true,
+              child: Semantics(
+                button: true,
+                label: profileTooltip,
+                onTap: _navigateToEditProfile,
+                excludeSemantics: true,
+                child: GestureDetector(
+                  onTap: _navigateToEditProfile,
+                  child: Container(
+                    width: 40,
+                    height: 40,
+                    decoration: BoxDecoration(
+                      gradient: AppColors.primaryGradient,
+                      shape: BoxShape.circle,
+                      boxShadow: AppShadows.soft(AppColors.primaryLight),
+                    ),
+                    child: Center(
+                      child: hasName
+                          ? Text(
+                              name[0].toUpperCase(),
+                              style: const TextStyle(
+                                fontWeight: FontWeight.w700,
+                                color: Colors.white,
+                                fontSize: 16,
+                              ),
+                            )
+                          : const Icon(
+                              Icons.person_rounded,
+                              color: Colors.white,
+                              size: 24,
+                            ),
                     ),
                   ),
                 ),
@@ -249,7 +308,7 @@ class _HomeScreenState extends State<HomeScreen> {
       body: PageView(
         controller: _pageController,
         onPageChanged: (index) {
-          const tabNames = ['for_you', 'explore', 'saved'];
+          const tabNames = ['for_you', 'explore', 'ai_chat', 'saved'];
           widget.analyticsService?.logTabChanged(tabNames[index]);
           setState(() => _currentIndex = index);
         },
@@ -267,6 +326,12 @@ class _HomeScreenState extends State<HomeScreen> {
             bookmarkService: widget.bookmarkService,
             explorationService: widget.explorationService,
             analyticsService: widget.analyticsService,
+          ),
+          AiChatTab(
+            repository: _aiChatRepository,
+            analyticsService: widget.analyticsService,
+            streamId: _profile?.stream,
+            onOpenExplore: _openAiSource,
           ),
           BookmarksTab(
             bookmarkService: widget.bookmarkService,
@@ -304,6 +369,11 @@ class _HomeScreenState extends State<HomeScreen> {
               icon: const Icon(Icons.explore_outlined),
               selectedIcon: const Icon(Icons.explore_rounded),
               label: l.home_tabExplore,
+            ),
+            NavigationDestination(
+              icon: const Icon(Icons.auto_awesome_outlined),
+              selectedIcon: const Icon(Icons.auto_awesome_rounded),
+              label: l.home_tabAiGuide,
             ),
             NavigationDestination(
               icon: const Icon(Icons.bookmark_outline_rounded),

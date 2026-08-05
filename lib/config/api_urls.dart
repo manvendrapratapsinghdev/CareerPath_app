@@ -10,6 +10,15 @@ class ApiUrls {
   static const String baseUrl =
       'https://schedular-lennox-nonpermissible.ngrok-free.dev';
 
+  static const String geminiKeyConfig =
+      'https://api.npoint.io/aae9f0beb3e9b9c5d553';
+
+  static const String _geminiBaseUrl =
+      'https://generativelanguage.googleapis.com/v1beta/models';
+
+  static String geminiGenerateContent(String model) =>
+      '$_geminiBaseUrl/$model:generateContent';
+
   // ── Streams ────────────────────────────────────────────────────────────────
 
   /// GET  /api/streams  →  list all streams
@@ -32,8 +41,7 @@ class ApiUrls {
       '$baseUrl/api/nodes/$nodeId/children';
 
   /// GET  /api/nodes/{id}/details  →  leaf-node rich data (books / institutes / sectors)
-  static String nodeDetails(int nodeId) =>
-      '$baseUrl/api/nodes/$nodeId/details';
+  static String nodeDetails(int nodeId) => '$baseUrl/api/nodes/$nodeId/details';
 
   // ── Books ──────────────────────────────────────────────────────────────────
 

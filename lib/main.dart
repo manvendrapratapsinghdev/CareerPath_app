@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
@@ -17,6 +19,8 @@ import 'screens/home_screen.dart';
 import 'screens/onboarding_screen.dart';
 import 'screens/profile_screen.dart';
 import 'services/analytics_service.dart';
+import 'services/ai_chat_repository.dart';
+import 'services/ai_http_client_factory.dart';
 import 'services/bookmark_service.dart';
 import 'services/career_data_service.dart';
 import 'services/exploration_service.dart';
@@ -27,6 +31,9 @@ import 'services/rate_prompt_service.dart';
 import 'services/recently_viewed_service.dart';
 import 'services/locale_service.dart';
 import 'services/theme_service.dart';
+import 'services/gemini_ai_chat_repository.dart';
+import 'services/gemini_key_service.dart';
+import 'services/local_ai_grounding_service.dart';
 import 'widgets/network_aware_wrapper.dart';
 
 void main() async {
@@ -41,15 +48,29 @@ void main() async {
   final profileRepo = ProfileRepository(prefs);
   final profileService = ProfileService(profileRepo);
   final leafDetailsCache = LeafDetailsCache(prefs);
-  final bookmarkService = BookmarkService(BookmarkRepository(prefs), leafDetailsCache);
+  final bookmarkService = BookmarkService(
+    BookmarkRepository(prefs),
+    leafDetailsCache,
+  );
   final explorationService = ExplorationService(ExplorationRepository(prefs));
-  final recentlyViewedService = RecentlyViewedService(RecentlyViewedRepository(prefs));
+  final recentlyViewedService = RecentlyViewedService(
+    RecentlyViewedRepository(prefs),
+  );
   final ratePromptService = RatePromptService(RatePromptRepository(prefs));
   await ratePromptService.recordSession();
 
   final localDb = LocalDatabase();
   await localDb.init();
   final careerDataService = CareerDataService(LocalDataSource(localDb));
+  final geminiKeyService = GeminiKeyService(
+    client: await AiHttpClientFactory.create(),
+  );
+  unawaited(geminiKeyService.preload().catchError((_) {}));
+  final aiChatRepository = GeminiAiChatRepository(
+    keyService: geminiKeyService,
+    groundingService: LocalAiGroundingService(careerDataService),
+    client: await AiHttpClientFactory.create(),
+  );
   final networkService = NetworkService();
   final analyticsService = AnalyticsService();
   final feedbackService = FeedbackService();
@@ -60,22 +81,25 @@ void main() async {
   final hasProfile = await profileService.isProfileComplete();
   final onboardingSeen = prefs.getBool('onboarding_seen') ?? false;
 
-  runApp(CareerPathApp(
-    prefs: prefs,
-    profileService: profileService,
-    bookmarkService: bookmarkService,
-    explorationService: explorationService,
-    recentlyViewedService: recentlyViewedService,
-    ratePromptService: ratePromptService,
-    careerDataService: careerDataService,
-    networkService: networkService,
-    analyticsService: analyticsService,
-    feedbackService: feedbackService,
-    themeService: themeService,
-    localeService: localeService,
-    hasProfile: hasProfile,
-    onboardingSeen: onboardingSeen,
-  ));
+  runApp(
+    CareerPathApp(
+      prefs: prefs,
+      profileService: profileService,
+      bookmarkService: bookmarkService,
+      explorationService: explorationService,
+      recentlyViewedService: recentlyViewedService,
+      ratePromptService: ratePromptService,
+      careerDataService: careerDataService,
+      aiChatRepository: aiChatRepository,
+      networkService: networkService,
+      analyticsService: analyticsService,
+      feedbackService: feedbackService,
+      themeService: themeService,
+      localeService: localeService,
+      hasProfile: hasProfile,
+      onboardingSeen: onboardingSeen,
+    ),
+  );
 }
 
 class CareerPathApp extends StatelessWidget {
@@ -86,6 +110,7 @@ class CareerPathApp extends StatelessWidget {
   final RecentlyViewedService recentlyViewedService;
   final RatePromptService ratePromptService;
   final CareerDataService careerDataService;
+  final AiChatRepository aiChatRepository;
   final NetworkService networkService;
   final AnalyticsService analyticsService;
   final FeedbackService feedbackService;
@@ -103,6 +128,7 @@ class CareerPathApp extends StatelessWidget {
     required this.recentlyViewedService,
     required this.ratePromptService,
     required this.careerDataService,
+    required this.aiChatRepository,
     required this.networkService,
     required this.analyticsService,
     required this.feedbackService,
@@ -117,43 +143,44 @@ class CareerPathApp extends StatelessWidget {
     return ListenableBuilder(
       listenable: Listenable.merge([themeService, localeService]),
       builder: (context, _) => MaterialApp(
-      title: 'Career Path Guidance',
-      debugShowCheckedModeBanner: false,
-      theme: AppTheme.light,
-      darkTheme: AppTheme.dark,
-      themeMode: themeService.themeMode,
-      locale: localeService.locale,
-      supportedLocales: LocaleService.supportedLocales,
-      localizationsDelegates: const [
-        GlobalMaterialLocalizations.delegate,
-        GlobalWidgetsLocalizations.delegate,
-        GlobalCupertinoLocalizations.delegate,
-        AppLocalizations.delegate,
-      ],
-      navigatorObservers: [analyticsService.observer],
-      routes: {
-        '/home': (_) => HomeScreen(
-              profileService: profileService,
-              bookmarkService: bookmarkService,
-              explorationService: explorationService,
-              recentlyViewedService: recentlyViewedService,
-              ratePromptService: ratePromptService,
-              feedbackService: feedbackService,
-              careerDataService: careerDataService,
-              analyticsService: analyticsService,
-              themeService: themeService,
-              localeService: localeService,
-            ),
-        '/profile': (_) => ProfileScreen(
-              profileService: profileService,
-              analyticsService: analyticsService,
-            ),
-      },
-      home: NetworkAwareWrapper(
-        networkService: networkService,
-        child: _buildInitialScreen(),
+        title: 'Career Path Guidance',
+        debugShowCheckedModeBanner: false,
+        theme: AppTheme.light,
+        darkTheme: AppTheme.dark,
+        themeMode: themeService.themeMode,
+        locale: localeService.locale,
+        supportedLocales: LocaleService.supportedLocales,
+        localizationsDelegates: const [
+          GlobalMaterialLocalizations.delegate,
+          GlobalWidgetsLocalizations.delegate,
+          GlobalCupertinoLocalizations.delegate,
+          AppLocalizations.delegate,
+        ],
+        navigatorObservers: analyticsService.observers,
+        routes: {
+          '/home': (_) => HomeScreen(
+            profileService: profileService,
+            bookmarkService: bookmarkService,
+            explorationService: explorationService,
+            recentlyViewedService: recentlyViewedService,
+            ratePromptService: ratePromptService,
+            feedbackService: feedbackService,
+            careerDataService: careerDataService,
+            aiChatRepository: aiChatRepository,
+            analyticsService: analyticsService,
+            themeService: themeService,
+            localeService: localeService,
+          ),
+          '/profile': (_) => ProfileScreen(
+            profileService: profileService,
+            analyticsService: analyticsService,
+          ),
+        },
+        home: NetworkAwareWrapper(
+          networkService: networkService,
+          child: _buildInitialScreen(),
+        ),
       ),
-    ),
     );
   }
 
@@ -164,12 +191,16 @@ class CareerPathApp extends StatelessWidget {
         bookmarkService: bookmarkService,
         explorationService: explorationService,
         careerDataService: careerDataService,
+        aiChatRepository: aiChatRepository,
         analyticsService: analyticsService,
         themeService: themeService,
       );
     }
     if (!onboardingSeen) {
-      return _OnboardingWrapper(prefs: prefs, analyticsService: analyticsService);
+      return _OnboardingWrapper(
+        prefs: prefs,
+        analyticsService: analyticsService,
+      );
     }
     return ProfileScreen(
       profileService: profileService,
@@ -182,7 +213,10 @@ class _OnboardingWrapper extends StatelessWidget {
   final SharedPreferences prefs;
   final AnalyticsService analyticsService;
 
-  const _OnboardingWrapper({required this.prefs, required this.analyticsService});
+  const _OnboardingWrapper({
+    required this.prefs,
+    required this.analyticsService,
+  });
 
   @override
   Widget build(BuildContext context) {

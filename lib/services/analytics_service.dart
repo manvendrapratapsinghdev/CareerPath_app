@@ -1,4 +1,5 @@
 import 'package:firebase_analytics/firebase_analytics.dart';
+import 'package:flutter/widgets.dart';
 
 /// Centralized analytics service wrapping Firebase Analytics.
 /// Safe to use even if Firebase fails to initialize — all methods become no-ops.
@@ -15,8 +16,11 @@ class AnalyticsService {
     }
   }
 
-  FirebaseAnalyticsObserver get observer =>
-      FirebaseAnalyticsObserver(analytics: _analytics ?? FirebaseAnalytics.instance);
+  List<NavigatorObserver> get observers {
+    final analytics = _analytics;
+    if (analytics == null) return const [];
+    return [FirebaseAnalyticsObserver(analytics: analytics)];
+  }
 
   bool get _enabled => _analytics != null;
 
@@ -55,8 +59,10 @@ class AnalyticsService {
   Future<void> logCategoryTapped(String categoryName) =>
       _log('category_tapped', {'category_name': categoryName});
 
-  Future<void> logNodeTapped(String nodeName, {required bool isLeaf}) =>
-      _log('node_tapped', {'node_name': nodeName, 'is_leaf': isLeaf.toString()});
+  Future<void> logNodeTapped(String nodeName, {required bool isLeaf}) => _log(
+    'node_tapped',
+    {'node_name': nodeName, 'is_leaf': isLeaf.toString()},
+  );
 
   // ── Leaf detail events ──────────────────────────────────────────────────
 
@@ -99,8 +105,10 @@ class AnalyticsService {
 
   // ── Node view events ──────────────────────────────────────────────────
 
-  Future<void> logNodeViewed(String nodeName, {required bool isLeaf}) =>
-      _log('node_viewed', {'node_name': nodeName, 'is_leaf': isLeaf.toString()});
+  Future<void> logNodeViewed(String nodeName, {required bool isLeaf}) => _log(
+    'node_viewed',
+    {'node_name': nodeName, 'is_leaf': isLeaf.toString()},
+  );
 
   // ── Quiz events ───────────────────────────────────────────────────────
 

@@ -164,6 +164,12 @@ abstract class AppLocalizations {
   /// **'Explore'**
   String get home_tabExplore;
 
+  /// No description provided for @home_tabAiGuide.
+  ///
+  /// In en, this message translates to:
+  /// **'AI Guide'**
+  String get home_tabAiGuide;
+
   /// No description provided for @home_tabSaved.
   ///
   /// In en, this message translates to:
@@ -895,6 +901,150 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Failed to connect to server. Check your connection and retry.'**
   String get suggestions_connectionError;
+
+  /// No description provided for @ai_title.
+  ///
+  /// In en, this message translates to:
+  /// **'CareerPath AI Guide'**
+  String get ai_title;
+
+  /// No description provided for @ai_subtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Ask about your career path'**
+  String get ai_subtitle;
+
+  /// No description provided for @ai_scopeNotice.
+  ///
+  /// In en, this message translates to:
+  /// **'Answers use information available in CareerPath Explore. AI can make errors.'**
+  String get ai_scopeNotice;
+
+  /// No description provided for @ai_starterScience.
+  ///
+  /// In en, this message translates to:
+  /// **'What can I do after 12th Science?'**
+  String get ai_starterScience;
+
+  /// No description provided for @ai_starterCompare.
+  ///
+  /// In en, this message translates to:
+  /// **'What career options are available in Computer Science?'**
+  String get ai_starterCompare;
+
+  /// No description provided for @ai_starterDesign.
+  ///
+  /// In en, this message translates to:
+  /// **'Show careers related to design'**
+  String get ai_starterDesign;
+
+  /// No description provided for @ai_inputHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Ask about courses or careers...'**
+  String get ai_inputHint;
+
+  /// No description provided for @ai_newChat.
+  ///
+  /// In en, this message translates to:
+  /// **'New chat'**
+  String get ai_newChat;
+
+  /// No description provided for @ai_clearChat.
+  ///
+  /// In en, this message translates to:
+  /// **'Clear chat'**
+  String get ai_clearChat;
+
+  /// No description provided for @ai_newChatTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Start a new chat?'**
+  String get ai_newChatTitle;
+
+  /// No description provided for @ai_newChatMessage.
+  ///
+  /// In en, this message translates to:
+  /// **'This conversation is not saved and cannot be recovered.'**
+  String get ai_newChatMessage;
+
+  /// No description provided for @ai_cancel.
+  ///
+  /// In en, this message translates to:
+  /// **'Cancel'**
+  String get ai_cancel;
+
+  /// No description provided for @ai_startNew.
+  ///
+  /// In en, this message translates to:
+  /// **'Start new chat'**
+  String get ai_startNew;
+
+  /// No description provided for @ai_checkingData.
+  ///
+  /// In en, this message translates to:
+  /// **'Checking CareerPath data...'**
+  String get ai_checkingData;
+
+  /// No description provided for @ai_errorMessage.
+  ///
+  /// In en, this message translates to:
+  /// **'AI Guide is temporarily unavailable. Explore is still available.'**
+  String get ai_errorMessage;
+
+  /// No description provided for @ai_retry.
+  ///
+  /// In en, this message translates to:
+  /// **'Retry'**
+  String get ai_retry;
+
+  /// No description provided for @ai_openExplore.
+  ///
+  /// In en, this message translates to:
+  /// **'Open Explore'**
+  String get ai_openExplore;
+
+  /// No description provided for @ai_copy.
+  ///
+  /// In en, this message translates to:
+  /// **'Copy response'**
+  String get ai_copy;
+
+  /// No description provided for @ai_copied.
+  ///
+  /// In en, this message translates to:
+  /// **'Response copied'**
+  String get ai_copied;
+
+  /// No description provided for @ai_stop.
+  ///
+  /// In en, this message translates to:
+  /// **'Stop response'**
+  String get ai_stop;
+
+  /// No description provided for @ai_sources.
+  ///
+  /// In en, this message translates to:
+  /// **'Sources'**
+  String get ai_sources;
+
+  /// No description provided for @ai_blockedTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Chat temporarily blocked'**
+  String get ai_blockedTitle;
+
+  /// No description provided for @ai_blockedMessage.
+  ///
+  /// In en, this message translates to:
+  /// **'Please try again later. You can continue browsing career paths in Explore.'**
+  String get ai_blockedMessage;
+
+  /// No description provided for @ai_messageTooLong.
+  ///
+  /// In en, this message translates to:
+  /// **'Keep your message under {count} characters.'**
+  String ai_messageTooLong(int count);
 
   /// No description provided for @search_hint.
   ///

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/semantics.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:career_path/l10n/app_localizations.dart';
@@ -29,10 +30,9 @@ void main() {
     explorationService = ExplorationService(ExplorationRepository(prefs));
     careerDataService = CareerDataService(ApiClient());
     // Pre-load data so tabs don't hit the network.
-    careerDataService.initializeWithData(
-      [StreamModel(id: 'science', name: 'Science', categoryIds: [])],
-      <String, CareerNode>{},
-    );
+    careerDataService.initializeWithData([
+      StreamModel(id: 'science', name: 'Science', categoryIds: []),
+    ], <String, CareerNode>{});
   }
 
   Widget buildApp() {
@@ -55,8 +55,9 @@ void main() {
   }
 
   group('HomeScreen', () {
-    testWidgets('displays bottom navigation with For You and Explore',
-        (tester) async {
+    testWidgets('displays all tabs with AI Guide between Explore and Saved', (
+      tester,
+    ) async {
       tester.view.physicalSize = const Size(1080, 1920);
       tester.view.devicePixelRatio = 1.0;
       addTearDown(tester.view.resetPhysicalSize);
@@ -69,6 +70,20 @@ void main() {
       expect(find.byType(NavigationBar), findsOneWidget);
       expect(find.text('For You'), findsOneWidget);
       expect(find.text('Explore'), findsOneWidget);
+      expect(find.text('AI Guide'), findsOneWidget);
+      expect(find.text('Saved'), findsOneWidget);
+
+      final labels = tester
+          .widgetList<Text>(
+            find.descendant(
+              of: find.byType(NavigationBar),
+              matching: find.byType(Text),
+            ),
+          )
+          .map((text) => text.data)
+          .whereType<String>()
+          .toList();
+      expect(labels, ['For You', 'Explore', 'AI Guide', 'Saved']);
     });
 
     testWidgets('For You tab is selected by default', (tester) async {
@@ -96,8 +111,8 @@ void main() {
 
       final hasGreeting =
           find.textContaining('Good Morning').evaluate().isNotEmpty ||
-              find.textContaining('Good Afternoon').evaluate().isNotEmpty ||
-              find.textContaining('Good Evening').evaluate().isNotEmpty;
+          find.textContaining('Good Afternoon').evaluate().isNotEmpty ||
+          find.textContaining('Good Evening').evaluate().isNotEmpty;
       expect(hasGreeting, isTrue);
     });
 
@@ -107,31 +122,62 @@ void main() {
       addTearDown(tester.view.resetPhysicalSize);
       addTearDown(tester.view.resetDevicePixelRatio);
 
-      await initServices(prefsValues: {
-        'profile_name': 'Alice',
-        'profile_stream': 'science',
-      });
+      await initServices(
+        prefsValues: {'profile_name': 'Alice', 'profile_stream': 'science'},
+      );
       await tester.pumpWidget(buildApp());
       await tester.pumpAndSettle();
 
       expect(find.text('Alice'), findsOneWidget);
     });
 
-    testWidgets('has a profile avatar with initial in the app bar',
-        (tester) async {
+    testWidgets('has a profile avatar with initial in the app bar', (
+      tester,
+    ) async {
       tester.view.physicalSize = const Size(1080, 1920);
       tester.view.devicePixelRatio = 1.0;
       addTearDown(tester.view.resetPhysicalSize);
       addTearDown(tester.view.resetDevicePixelRatio);
 
-      await initServices(prefsValues: {
-        'profile_name': 'Alice',
-        'profile_stream': 'science',
-      });
+      await initServices(
+        prefsValues: {'profile_name': 'Alice', 'profile_stream': 'science'},
+      );
       await tester.pumpWidget(buildApp());
       await tester.pumpAndSettle();
 
       expect(find.text('A'), findsOneWidget);
+      expect(find.byIcon(Icons.person_rounded), findsNothing);
+    });
+
+    testWidgets('shows a labeled profile icon when name is unavailable', (
+      tester,
+    ) async {
+      tester.view.physicalSize = const Size(1080, 1920);
+      tester.view.devicePixelRatio = 1.0;
+      addTearDown(tester.view.resetPhysicalSize);
+      addTearDown(tester.view.resetDevicePixelRatio);
+      final semantics = tester.ensureSemantics();
+      try {
+        await initServices();
+        await tester.pumpWidget(buildApp());
+        await tester.pumpAndSettle();
+
+        expect(find.text('?'), findsNothing);
+        expect(find.byIcon(Icons.person_rounded), findsOneWidget);
+        expect(
+          tester.getSemantics(find.byIcon(Icons.person_rounded)).label,
+          'Set Up Profile',
+        );
+        expect(
+          tester
+              .getSemantics(find.byIcon(Icons.person_rounded))
+              .getSemanticsData()
+              .hasAction(SemanticsAction.tap),
+          isTrue,
+        );
+      } finally {
+        semantics.dispose();
+      }
     });
 
     testWidgets('avatar navigates to ProfileScreen', (tester) async {
@@ -140,10 +186,9 @@ void main() {
       addTearDown(tester.view.resetPhysicalSize);
       addTearDown(tester.view.resetDevicePixelRatio);
 
-      await initServices(prefsValues: {
-        'profile_name': 'Bob',
-        'profile_stream': 'commerce',
-      });
+      await initServices(
+        prefsValues: {'profile_name': 'Bob', 'profile_stream': 'commerce'},
+      );
       await tester.pumpWidget(buildApp());
       await tester.pumpAndSettle();
 
@@ -151,6 +196,35 @@ void main() {
       await tester.pumpAndSettle();
 
       expect(find.text('Edit Profile'), findsOneWidget);
+    });
+
+    testWidgets('anonymous profile skip returns to the existing home screen', (
+      tester,
+    ) async {
+      tester.view.physicalSize = const Size(1080, 1920);
+      tester.view.devicePixelRatio = 1.0;
+      addTearDown(tester.view.resetPhysicalSize);
+      addTearDown(tester.view.resetDevicePixelRatio);
+
+      await initServices();
+      await tester.pumpWidget(buildApp());
+      await tester.pumpAndSettle();
+
+      await tester.tap(find.byIcon(Icons.person_rounded));
+      await tester.pumpAndSettle();
+      expect(find.text('Welcome!'), findsOneWidget);
+
+      await tester.drag(
+        find.byType(SingleChildScrollView),
+        const Offset(0, -300),
+      );
+      await tester.pumpAndSettle();
+      await tester.tap(find.text('Skip for now'));
+      await tester.pumpAndSettle();
+
+      expect(find.byType(NavigationBar), findsOneWidget);
+      expect(find.byIcon(Icons.person_rounded), findsOneWidget);
+      expect(find.text('Welcome!'), findsNothing);
     });
 
     testWidgets('can switch to Explore tab', (tester) async {
@@ -170,6 +244,24 @@ void main() {
       await tester.pump(const Duration(milliseconds: 300));
 
       expect(find.byType(NavigationBar), findsOneWidget);
+    });
+
+    testWidgets('can switch to AI Guide tab', (tester) async {
+      tester.view.physicalSize = const Size(1080, 1920);
+      tester.view.devicePixelRatio = 1.0;
+      addTearDown(tester.view.resetPhysicalSize);
+      addTearDown(tester.view.resetDevicePixelRatio);
+
+      await initServices();
+      await tester.pumpWidget(buildApp());
+      await tester.pumpAndSettle();
+
+      await tester.tap(find.text('AI Guide'));
+      await tester.pump();
+      await tester.pump(const Duration(milliseconds: 300));
+
+      expect(find.text('CareerPath AI Guide'), findsOneWidget);
+      expect(find.text('What can I do after 12th Science?'), findsOneWidget);
     });
   });
 }

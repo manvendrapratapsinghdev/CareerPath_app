@@ -18,6 +18,7 @@ class ProfileScreen extends StatefulWidget {
   final FeedbackService? feedbackService;
   final ThemeService? themeService;
   final LocaleService? localeService;
+  final bool returnToPreviousScreen;
 
   const ProfileScreen({
     super.key,
@@ -27,6 +28,7 @@ class ProfileScreen extends StatefulWidget {
     this.feedbackService,
     this.themeService,
     this.localeService,
+    this.returnToPreviousScreen = false,
   });
 
   @override
@@ -86,6 +88,14 @@ class _ProfileScreenState extends State<ProfileScreen>
 
   bool get _isEditing => widget.existingProfile != null;
 
+  void _finishProfileFlow({required bool profileChanged}) {
+    if (widget.returnToPreviousScreen && Navigator.canPop(context)) {
+      Navigator.pop(context, profileChanged);
+      return;
+    }
+    Navigator.pushReplacementNamed(context, '/home');
+  }
+
   Future<void> _save() async {
     if (!_formKey.currentState!.validate()) return;
     if (_selectedStream == null) {
@@ -109,7 +119,7 @@ class _ProfileScreenState extends State<ProfileScreen>
       } else {
         widget.analyticsService?.logProfileCreated(_selectedStream!);
       }
-      Navigator.pushReplacementNamed(context, '/home');
+      _finishProfileFlow(profileChanged: true);
     } else {
       final l = AppLocalizations.of(context)!;
       ScaffoldMessenger.of(context).showSnackBar(
@@ -125,7 +135,7 @@ class _ProfileScreenState extends State<ProfileScreen>
       return;
     }
     widget.analyticsService?.logProfileSkipped();
-    Navigator.pushReplacementNamed(context, '/home');
+    _finishProfileFlow(profileChanged: false);
   }
 
   @override
