@@ -425,6 +425,86 @@ void main() {
     expect(find.byTooltip('Read response aloud'), findsOneWidget);
   });
 
+  testWidgets('automatically reads response when voice contributed to prompt', (
+    tester,
+  ) async {
+    final speechService = _FakeSpeechRecognitionService();
+    final textToSpeechService = _FakeTextToSpeechService();
+    final repository = _FakeAiChatRepository(
+      const AiChatResponse(
+        requestId: 'response',
+        status: AiChatStatus.answered,
+        answer: 'Explore computer science careers.',
+      ),
+    );
+
+    await tester.pumpWidget(
+      _buildApp(
+        repository: repository,
+        speechRecognitionService: speechService,
+        textToSpeechService: textToSpeechService,
+      ),
+    );
+    await tester.enterText(find.byType(TextField), 'Please show');
+    await tester.tap(find.byTooltip('Speak your question'));
+    await tester.pump();
+    speechService.emitResult('computer science careers');
+    await tester.pump();
+    speechService.emitStatus('done');
+    await tester.pump();
+
+    await tester.tap(
+      find.ancestor(
+        of: find.byIcon(Icons.arrow_upward_rounded),
+        matching: find.byType(IconButton),
+      ),
+    );
+    await tester.pumpAndSettle();
+
+    expect(repository.requests, hasLength(1));
+    expect(
+      repository.requests.single.messages.single.content,
+      'Please show computer science careers',
+    );
+    expect(textToSpeechService.spokenTexts, [
+      'Explore computer science careers.',
+    ]);
+    expect(find.byTooltip('Stop reading'), findsOneWidget);
+  });
+
+  testWidgets('does not automatically read response for typed-only prompt', (
+    tester,
+  ) async {
+    final textToSpeechService = _FakeTextToSpeechService();
+    final repository = _FakeAiChatRepository(
+      const AiChatResponse(
+        requestId: 'response',
+        status: AiChatStatus.answered,
+        answer: 'Explore computer science careers.',
+      ),
+    );
+
+    await tester.pumpWidget(
+      _buildApp(
+        repository: repository,
+        textToSpeechService: textToSpeechService,
+      ),
+    );
+    await tester.enterText(
+      find.byType(TextField),
+      'Show computer science careers',
+    );
+    await tester.tap(
+      find.ancestor(
+        of: find.byIcon(Icons.arrow_upward_rounded),
+        matching: find.byType(IconButton),
+      ),
+    );
+    await tester.pumpAndSettle();
+
+    expect(textToSpeechService.spokenTexts, isEmpty);
+  });
+
   testWidgets('shows an interactive message while exploring career data', (
     tester,
   ) async {

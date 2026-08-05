@@ -23,6 +23,17 @@ CareerDataService _careerService() {
         name: 'Computer Science',
         intro: 'Learn software, algorithms, and computing.',
       ),
+      'bsc-computer-science': CareerNode(
+        id: 'bsc-computer-science',
+        name: 'B.Sc Computer Science',
+        intro: 'An undergraduate computer science course.',
+      ),
+      'precision-farming': CareerNode(
+        id: 'precision-farming',
+        name: 'AgriTech / Precision Farming Specialist',
+      ),
+      'novelist': CareerNode(id: 'novelist', name: 'Author / Novelist'),
+      'journalist': CareerNode(id: 'journalist', name: 'Broadcast Journalist'),
     },
   );
   return service;
@@ -66,5 +77,20 @@ void main() {
     );
 
     expect(result.isEmpty, isTrue);
+  });
+
+  test('matches compact course aliases such as BSC to B.Sc', () async {
+    final grounding = LocalAiGroundingService(_careerService());
+
+    final result = await grounding.retrieve(
+      query: 'List colleges for BSC',
+      streamId: 'science',
+    );
+
+    expect(result.sources.first.exploreNodeId, 'bsc-computer-science');
+    expect(
+      result.sources.map((source) => source.exploreNodeId),
+      isNot(contains('novelist')),
+    );
   });
 }

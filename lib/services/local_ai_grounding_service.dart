@@ -22,13 +22,17 @@ class LocalAiGroundingService {
     'can',
     'compare',
     'do',
+    'find',
     'for',
+    'give',
     'i',
     'in',
     'is',
+    'list',
     'me',
     'of',
     'or',
+    'please',
     'show',
     'tell',
     'the',
@@ -40,19 +44,30 @@ class LocalAiGroundingService {
 
   static const _careerIntentWords = {
     'book',
+    'books',
     'career',
+    'careers',
     'college',
+    'colleges',
     'course',
+    'courses',
     'education',
     'institute',
+    'institutes',
     'job',
+    'jobs',
     'option',
+    'options',
     'path',
+    'paths',
     'recommend',
     'school',
+    'schools',
     'sector',
+    'sectors',
     'suggest',
     'stream',
+    'streams',
     'study',
   };
 
@@ -73,11 +88,19 @@ class LocalAiGroundingService {
     for (final node in allNodes) {
       final name = node.name.toLowerCase();
       final intro = node.intro?.toLowerCase() ?? '';
+      final compactName = _compact(name);
+      final compactIntro = _compact(intro);
       var score = 0;
       for (final token in queryTokens) {
-        if (name == token) score += 12;
-        if (name.contains(token)) score += 6;
-        if (intro.contains(token)) score += 2;
+        var tokenScore = 0;
+        if (name == token || compactName == token) {
+          tokenScore = 12;
+        } else if (name.contains(token) || compactName.contains(token)) {
+          tokenScore = 6;
+        } else if (intro.contains(token) || compactIntro.contains(token)) {
+          tokenScore = 2;
+        }
+        score += tokenScore;
       }
       if (score > 0) scored.add((node: node, score: score));
     }
@@ -197,5 +220,9 @@ class LocalAiGroundingService {
         .map((match) => match.group(0)!)
         .where((token) => token.length > 1 && !_stopWords.contains(token))
         .toSet();
+  }
+
+  String _compact(String value) {
+    return value.replaceAll(RegExp(r'[^a-z0-9]+'), '');
   }
 }

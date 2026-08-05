@@ -7,16 +7,15 @@ import 'ai_http_client_factory_stub.dart'
 
 /// Creates the HTTP clients used for direct AI-provider communication.
 ///
-/// Normal builds use the platform trust roots. A developer can opt a debug
-/// build into the bundled HT Media inspection CA when testing behind the
-/// company proxy:
-/// `--dart-define=AI_TRUST_HT_MEDIA_DEBUG_CA=true`.
+/// Debug builds trust the bundled HT Media inspection CA so emulator requests
+/// work behind the company proxy. A developer can explicitly disable it with:
+/// `--dart-define=AI_TRUST_HT_MEDIA_DEBUG_CA=false`.
 ///
 /// The override is intentionally unavailable in profile and release builds.
 class AiHttpClientFactory {
   static const _trustDebugCa = bool.fromEnvironment(
     'AI_TRUST_HT_MEDIA_DEBUG_CA',
-    defaultValue: false,
+    defaultValue: true,
   );
   static const _debugCaAsset = 'assets/certificates/ht_media_netskope_ca.pem';
 

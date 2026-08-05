@@ -44,6 +44,8 @@ class _AiChatTabState extends State<AiChatTab> {
   bool _isListening = false;
   int _speechSessionToken = 0;
   String _speechInputPrefix = '';
+  bool _composerUsedVoiceInput = false;
+  bool _lastRequestUsedVoiceInput = false;
   String? _speakingMessageId;
 
   @override
@@ -109,9 +111,13 @@ class _AiChatTabState extends State<AiChatTab> {
       return;
     }
 
+    final requestUsedVoiceInput =
+        suggestedText == null && _composerUsedVoiceInput;
     await _stopListening(cancel: false);
     await _stopReadAloud();
     if (!mounted) return;
+    _lastRequestUsedVoiceInput = requestUsedVoiceInput;
+    _composerUsedVoiceInput = false;
     _textController.clear();
     FocusScope.of(context).unfocus();
     widget.analyticsService?.logEvent('ai_chat_prompt_sent', {
@@ -136,6 +142,9 @@ class _AiChatTabState extends State<AiChatTab> {
         'source_count': last.sources.length,
       },
     );
+    if (requestUsedVoiceInput) {
+      await _autoReadResponse(last);
+    }
   }
 
   Future<void> _retry() async {
@@ -144,6 +153,11 @@ class _AiChatTabState extends State<AiChatTab> {
       locale: Localizations.localeOf(context).languageCode,
       streamId: widget.streamId,
     );
+    if (!mounted || !_lastRequestUsedVoiceInput) return;
+    final messages = _chatController.messages;
+    if (messages.isNotEmpty) {
+      await _autoReadResponse(messages.last);
+    }
   }
 
   Future<void> _confirmNewChat() async {
@@ -202,6 +216,8 @@ class _AiChatTabState extends State<AiChatTab> {
     await _stopReadAloud();
     if (!mounted) return;
     _chatController.startNewChat();
+    _composerUsedVoiceInput = false;
+    _lastRequestUsedVoiceInput = false;
     _textController.clear();
     widget.analyticsService?.logEvent('ai_chat_new_started');
   }
@@ -288,6 +304,9 @@ class _AiChatTabState extends State<AiChatTab> {
   void _onSpeechResult(String recognizedWords, bool _) {
     if (!mounted || !_isListening) return;
     final spokenText = recognizedWords.trim();
+    if (spokenText.isNotEmpty) {
+      _composerUsedVoiceInput = true;
+    }
     final combined = [
       if (_speechInputPrefix.isNotEmpty) _speechInputPrefix,
       if (spokenText.isNotEmpty) spokenText,
@@ -296,6 +315,15 @@ class _AiChatTabState extends State<AiChatTab> {
       text: combined,
       selection: TextSelection.collapsed(offset: combined.length),
     );
+  }
+
+  Future<void> _autoReadResponse(AiChatMessage message) async {
+    if (message.role != AiChatRole.assistant ||
+        message.isError ||
+        message.content.trim().isEmpty) {
+      return;
+    }
+    await _toggleReadAloud(message);
   }
 
   void _onSpeechStatus(String status) {

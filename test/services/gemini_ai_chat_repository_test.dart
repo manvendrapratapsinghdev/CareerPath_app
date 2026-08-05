@@ -31,6 +31,11 @@ CareerDataService _careerService() {
         name: 'Computer Science',
         intro: 'Software and computing.',
       ),
+      'bsc-computer-science': CareerNode(
+        id: 'bsc-computer-science',
+        name: 'B.Sc Computer Science',
+        intro: 'An undergraduate computer science course.',
+      ),
     },
   );
   return service;
@@ -139,6 +144,157 @@ void main() {
     expect(response.status, AiChatStatus.insufficientData);
     expect(response.answer, GeminiAiChatRepository.insufficientAnswer);
   });
+
+  test('uses previous grounded context for a referential follow-up', () async {
+    late http.Request captured;
+    final repository = GeminiAiChatRepository(
+      keyService: _keyService(),
+      groundingService: LocalAiGroundingService(_careerService()),
+      client: MockClient((request) async {
+        captured = request;
+        return http.Response(
+          jsonEncode({
+            'candidates': [
+              {
+                'content': {
+                  'parts': [
+                    {
+                      'text': jsonEncode({
+                        'status': 'answered',
+                        'answer': 'You can explore engineering paths.',
+                        'sourceIds': ['career_node:engineering'],
+                      }),
+                    },
+                  ],
+                },
+              },
+            ],
+          }),
+          200,
+        );
+      }),
+    );
+    final request = AiChatRequest(
+      requestId: 'request-follow-up',
+      sessionId: 'session-1',
+      locale: 'en',
+      streamId: 'science',
+      messages: const [
+        AiChatMessage(
+          id: 'message-1',
+          role: AiChatRole.user,
+          content: 'Tell me about engineering',
+        ),
+        AiChatMessage(
+          id: 'message-2',
+          role: AiChatRole.assistant,
+          content: 'Engineering applies science and technology.',
+          status: AiChatStatus.answered,
+          sources: [
+            AiChatSource(
+              sourceId: 'career_node:engineering',
+              sourceType: 'career_node',
+              title: 'Engineering',
+              exploreNodeId: 'engineering',
+            ),
+          ],
+        ),
+        AiChatMessage(
+          id: 'message-3',
+          role: AiChatRole.user,
+          content: 'Tell me more about that',
+        ),
+      ],
+    );
+
+    final response = await repository.send(request);
+
+    expect(captured.body, contains('SOURCE career_node:engineering'));
+    expect(response.status, AiChatStatus.answered);
+    expect(response.sources.single.exploreNodeId, 'engineering');
+  });
+
+  test('explains when matched course data has no college listings', () async {
+    var geminiCalled = false;
+    final repository = GeminiAiChatRepository(
+      keyService: _keyService(),
+      groundingService: LocalAiGroundingService(_careerService()),
+      client: MockClient((_) async {
+        geminiCalled = true;
+        return http.Response('{}', 200);
+      }),
+    );
+
+    final response = await repository.send(_request('List colleges for BSC'));
+
+    expect(response.status, AiChatStatus.insufficientData);
+    expect(
+      response.answer,
+      contains('does not list colleges or institutes for this path'),
+    );
+    expect(
+      response.sources.map((source) => source.exploreNodeId),
+      contains('bsc-computer-science'),
+    );
+    expect(geminiCalled, isFalse);
+  });
+
+  test(
+    'grounds a where follow-up before reporting missing institutes',
+    () async {
+      var geminiCalled = false;
+      final repository = GeminiAiChatRepository(
+        keyService: _keyService(),
+        groundingService: LocalAiGroundingService(_careerService()),
+        client: MockClient((_) async {
+          geminiCalled = true;
+          return http.Response('{}', 200);
+        }),
+      );
+      final request = AiChatRequest(
+        requestId: 'request-where-follow-up',
+        sessionId: 'session-1',
+        locale: 'en',
+        streamId: 'science',
+        messages: const [
+          AiChatMessage(
+            id: 'message-1',
+            role: AiChatRole.user,
+            content: 'Tell me about engineering',
+          ),
+          AiChatMessage(
+            id: 'message-2',
+            role: AiChatRole.assistant,
+            content: 'Engineering applies science and technology.',
+            status: AiChatStatus.answered,
+            sources: [
+              AiChatSource(
+                sourceId: 'career_node:engineering',
+                sourceType: 'career_node',
+                title: 'Engineering',
+                exploreNodeId: 'engineering',
+              ),
+            ],
+          ),
+          AiChatMessage(
+            id: 'message-3',
+            role: AiChatRole.user,
+            content: 'From where can I do that?',
+          ),
+        ],
+      );
+
+      final response = await repository.send(request);
+
+      expect(response.status, AiChatStatus.insufficientData);
+      expect(response.answer, contains('does not list colleges or institutes'));
+      expect(
+        response.sources.map((source) => source.exploreNodeId),
+        contains('engineering'),
+      );
+      expect(geminiCalled, isFalse);
+    },
+  );
 
   test('warns once and blocks repeated abusive language locally', () async {
     final repository = GeminiAiChatRepository(

@@ -36,6 +36,16 @@ class GeminiAiChatRepository extends AiChatRepository {
     r'(ignore|bypass).*(instructions|rules|guardrails)',
     caseSensitive: false,
   );
+  static final _contextReferencePattern = RegExp(
+    r'\b(it|that|this|these|those|them|there|same|previous)\b|'
+    r'\b(tell me more|what about)\b',
+    caseSensitive: false,
+  );
+  static final _instituteIntentPattern = RegExp(
+    r'\b(college|colleges|institute|institutes|university|universities)\b|'
+    r'\b(from where|where can|where should)\b',
+    caseSensitive: false,
+  );
 
   final GeminiKeyService _keyService;
   final LocalAiGroundingService _groundingService;
@@ -121,8 +131,12 @@ class GeminiAiChatRepository extends AiChatRepository {
       );
     }
 
+    final groundingQuery = _buildGroundingQuery(
+      request.messages,
+      latestMessage,
+    );
     final grounding = await _groundingService.retrieve(
-      query: latestMessage,
+      query: groundingQuery,
       streamId: request.streamId,
     );
     if (grounding.isEmpty) {
@@ -130,6 +144,14 @@ class GeminiAiChatRepository extends AiChatRepository {
         request,
         AiChatStatus.insufficientData,
         insufficientAnswer,
+      );
+    }
+    if (_isMissingInstituteData(latestMessage, grounding)) {
+      return _response(
+        request,
+        AiChatStatus.insufficientData,
+        _insufficientAnswerFor(latestMessage, grounding),
+        sources: grounding.sources.take(3).toList(growable: false),
       );
     }
 
@@ -161,7 +183,8 @@ class GeminiAiChatRepository extends AiChatRepository {
       return _response(
         request,
         AiChatStatus.insufficientData,
-        insufficientAnswer,
+        _insufficientAnswerFor(latestMessage, grounding),
+        sources: grounding.sources.take(3).toList(growable: false),
       );
     }
 
@@ -176,7 +199,8 @@ class GeminiAiChatRepository extends AiChatRepository {
       return _response(
         request,
         AiChatStatus.insufficientData,
-        insufficientAnswer,
+        _insufficientAnswerFor(latestMessage, grounding),
+        sources: grounding.sources.take(3).toList(growable: false),
       );
     }
 
@@ -196,6 +220,62 @@ class GeminiAiChatRepository extends AiChatRepository {
       suggestedPrompts: suggestedPrompts,
       dataVersion: 'bundled-career-path-db',
     );
+  }
+
+  String _buildGroundingQuery(
+    List<AiChatMessage> messages,
+    String latestMessage,
+  ) {
+    if (!_contextReferencePattern.hasMatch(latestMessage) ||
+        messages.length < 2) {
+      return latestMessage;
+    }
+
+    final context = <String>[];
+    for (final message
+        in messages
+            .take(messages.length - 1)
+            .toList(growable: false)
+            .reversed
+            .take(4)) {
+      if (message.role == AiChatRole.user &&
+          message.content.trim().isNotEmpty) {
+        context.add(message.content.trim());
+      }
+      for (final source in message.sources) {
+        if (source.title.trim().isNotEmpty) {
+          context.add(source.title.trim());
+        }
+      }
+    }
+    if (context.isEmpty) return latestMessage;
+    return '$latestMessage ${context.join(' ')}';
+  }
+
+  String _insufficientAnswerFor(
+    String latestMessage,
+    AiGroundingContext grounding,
+  ) {
+    if (!_isMissingInstituteData(latestMessage, grounding)) {
+      return insufficientAnswer;
+    }
+
+    final topics = grounding.sources
+        .take(3)
+        .map((source) => source.title)
+        .join(', ');
+    return 'CareerPath has information about $topics, but the Explore data '
+        'does not list colleges or institutes for this path. Open Explore to '
+        'review the available course and career details.';
+  }
+
+  bool _isMissingInstituteData(
+    String latestMessage,
+    AiGroundingContext grounding,
+  ) {
+    return _instituteIntentPattern.hasMatch(latestMessage) &&
+        !grounding.text.contains('Institutes:') &&
+        grounding.sources.isNotEmpty;
   }
 
   Map<String, dynamic> _buildGeminiRequest(
@@ -322,11 +402,13 @@ class GeminiAiChatRepository extends AiChatRepository {
     AiChatStatus status,
     String answer, {
     bool chatBlocked = false,
+    List<AiChatSource> sources = const [],
   }) {
     return AiChatResponse(
       requestId: request.requestId,
       status: status,
       answer: answer,
+      sources: sources,
       chatBlocked: chatBlocked,
       dataVersion: 'bundled-career-path-db',
     );
