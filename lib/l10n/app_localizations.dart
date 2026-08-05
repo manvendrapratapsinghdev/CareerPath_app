@@ -1136,6 +1136,48 @@ abstract class AppLocalizations {
   /// **'{count} options ahead'**
   String search_optionsAhead(int count);
 
+  /// No description provided for @resource_filterTooltip.
+  ///
+  /// In en, this message translates to:
+  /// **'Filter'**
+  String get resource_filterTooltip;
+
+  /// No description provided for @resource_filterLocationTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Filter by location'**
+  String get resource_filterLocationTitle;
+
+  /// No description provided for @resource_filterSearchHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Search locations...'**
+  String get resource_filterSearchHint;
+
+  /// No description provided for @resource_filterClear.
+  ///
+  /// In en, this message translates to:
+  /// **'Clear'**
+  String get resource_filterClear;
+
+  /// No description provided for @resource_filterApply.
+  ///
+  /// In en, this message translates to:
+  /// **'Apply filters'**
+  String get resource_filterApply;
+
+  /// No description provided for @resource_filterAllLocations.
+  ///
+  /// In en, this message translates to:
+  /// **'All locations'**
+  String get resource_filterAllLocations;
+
+  /// No description provided for @resource_filterSelectedCount.
+  ///
+  /// In en, this message translates to:
+  /// **'{count} selected'**
+  String resource_filterSelectedCount(int count);
+
   /// No description provided for @sub_careerEndpoint.
   ///
   /// In en, this message translates to:

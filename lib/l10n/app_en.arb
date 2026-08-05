@@ -219,6 +219,16 @@
   "@search_optionsAhead": {
     "placeholders": { "count": { "type": "int" } }
   },
+  "resource_filterTooltip": "Filter",
+  "resource_filterLocationTitle": "Filter by location",
+  "resource_filterSearchHint": "Search locations...",
+  "resource_filterClear": "Clear",
+  "resource_filterApply": "Apply filters",
+  "resource_filterAllLocations": "All locations",
+  "resource_filterSelectedCount": "{count} selected",
+  "@resource_filterSelectedCount": {
+    "placeholders": { "count": { "type": "int" } }
+  },
 
   "sub_careerEndpoint": "Career endpoint",
   "sub_optionsAhead": "{count} options ahead",

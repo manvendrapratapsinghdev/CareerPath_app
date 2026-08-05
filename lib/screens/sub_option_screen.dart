@@ -19,6 +19,8 @@ import '../widgets/empty_state.dart';
 import '../widgets/page_transitions.dart';
 import '../widgets/resource_tiles.dart';
 import '../widgets/shimmer_loading.dart';
+import 'resource_filter_screen.dart';
+import 'resource_list_screen.dart';
 
 class SubOptionScreen extends StatefulWidget {
   final CareerDataService careerDataService;
@@ -49,9 +51,6 @@ class _SubOptionScreenState extends State<SubOptionScreen> {
   late final CareerNode? _currentNode;
   Future<LeafDetails?>? _leafDetailsFuture;
   LeafDetails? _leafDetails;
-  bool _booksExpanded = false;
-  bool _institutesExpanded = false;
-  bool _jobSectorsExpanded = false;
   bool _isLeaf = false;
 
   @override
@@ -86,8 +85,10 @@ class _SubOptionScreenState extends State<SubOptionScreen> {
   }
 
   Future<List<CareerNode>> _loadChildren({bool forceRefresh = false}) async {
-    final children = await widget.careerDataService
-        .fetchChildrenOf(widget.nodeId, forceRefresh: forceRefresh);
+    final children = await widget.careerDataService.fetchChildrenOf(
+      widget.nodeId,
+      forceRefresh: forceRefresh,
+    );
     if (children.isEmpty && mounted) {
       setState(() {
         _isLeaf = true;
@@ -99,8 +100,10 @@ class _SubOptionScreenState extends State<SubOptionScreen> {
 
   Future<LeafDetails?> _loadLeafDetails(bool forceRefresh) async {
     try {
-      final details = await widget.careerDataService
-          .getLeafDetails(widget.nodeId, forceRefresh: forceRefresh);
+      final details = await widget.careerDataService.getLeafDetails(
+        widget.nodeId,
+        forceRefresh: forceRefresh,
+      );
       if (details != null) {
         widget.bookmarkService?.cacheDetails(widget.nodeId, details);
       }
@@ -164,14 +167,17 @@ class _SubOptionScreenState extends State<SubOptionScreen> {
           if (_isLeaf && widget.bookmarkService != null)
             IconButton(
               onPressed: () {
-                final isNowBookmarked =
-                    !widget.bookmarkService!.isBookmarked(widget.nodeId);
+                final isNowBookmarked = !widget.bookmarkService!.isBookmarked(
+                  widget.nodeId,
+                );
                 if (isNowBookmarked) {
-                  widget.analyticsService
-                      ?.logBookmarkAdded(_currentNode?.name ?? widget.nodeId);
+                  widget.analyticsService?.logBookmarkAdded(
+                    _currentNode?.name ?? widget.nodeId,
+                  );
                 } else {
-                  widget.analyticsService
-                      ?.logBookmarkRemoved(_currentNode?.name ?? widget.nodeId);
+                  widget.analyticsService?.logBookmarkRemoved(
+                    _currentNode?.name ?? widget.nodeId,
+                  );
                 }
                 widget.bookmarkService!.toggle(
                   widget.nodeId,
@@ -236,17 +242,9 @@ class _SubOptionScreenState extends State<SubOptionScreen> {
                         return _LeafView(
                           node: _currentNode,
                           details: leafSnapshot.data,
-                          isLoading: leafSnapshot.connectionState ==
+                          isLoading:
+                              leafSnapshot.connectionState ==
                               ConnectionState.waiting,
-                          booksExpanded: _booksExpanded,
-                          institutesExpanded: _institutesExpanded,
-                          jobSectorsExpanded: _jobSectorsExpanded,
-                          onBooksToggle: () =>
-                              setState(() => _booksExpanded = !_booksExpanded),
-                          onInstitutesToggle: () => setState(
-                              () => _institutesExpanded = !_institutesExpanded),
-                          onJobSectorsToggle: () => setState(
-                              () => _jobSectorsExpanded = !_jobSectorsExpanded),
                         );
                       },
                     );
@@ -324,9 +322,7 @@ class _SubOptionScreenState extends State<SubOptionScreen> {
                               child.isLeaf
                                   ? l.sub_careerEndpoint
                                   : l.sub_optionsAhead(child.childCount),
-                              style: Theme.of(context)
-                                  .textTheme
-                                  .bodySmall
+                              style: Theme.of(context).textTheme.bodySmall
                                   ?.copyWith(
                                     color: colorScheme.onSurfaceVariant,
                                   ),
@@ -395,10 +391,7 @@ class _BreadcrumbBar extends StatelessWidget {
               child: Row(children: _buildCrumbs(context)),
             ),
             const SizedBox(height: 4),
-            DepthIndicator(
-              currentDepth: currentDepth,
-              maxDepth: maxDepth,
-            ),
+            DepthIndicator(currentDepth: currentDepth, maxDepth: maxDepth),
           ],
         ),
       ),
@@ -412,14 +405,16 @@ class _BreadcrumbBar extends StatelessWidget {
       final isLast = i == breadcrumbs.length - 1;
 
       if (i > 0) {
-        widgets.add(Padding(
-          padding: const EdgeInsets.symmetric(horizontal: AppSpacing.xs),
-          child: Icon(
-            Icons.chevron_right_rounded,
-            size: 16,
-            color: colorScheme.onSurfaceVariant,
+        widgets.add(
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: AppSpacing.xs),
+            child: Icon(
+              Icons.chevron_right_rounded,
+              size: 16,
+              color: colorScheme.onSurfaceVariant,
+            ),
           ),
-        ));
+        );
       }
 
       widgets.add(
@@ -467,24 +462,102 @@ class _LeafView extends StatelessWidget {
   final CareerNode? node;
   final LeafDetails? details;
   final bool isLoading;
-  final bool booksExpanded;
-  final bool institutesExpanded;
-  final bool jobSectorsExpanded;
-  final VoidCallback onBooksToggle;
-  final VoidCallback onInstitutesToggle;
-  final VoidCallback onJobSectorsToggle;
 
   const _LeafView({
     required this.node,
     required this.details,
     required this.isLoading,
-    required this.booksExpanded,
-    required this.institutesExpanded,
-    required this.jobSectorsExpanded,
-    required this.onBooksToggle,
-    required this.onInstitutesToggle,
-    required this.onJobSectorsToggle,
   });
+
+  void _openBooks(BuildContext context, AppLocalizations l) {
+    Navigator.push(
+      context,
+      SmoothPageRoute(
+        page: ResourceListScreen(
+          title: l.sub_recommendedBooks,
+          searchHint: l.home_searchTooltip,
+          noResultsTitle: l.search_noResultsTitle,
+          noResultsSubtitle: l.search_noResultsSubtitle,
+          items: details!.books,
+          searchableText: (book) => [
+            book.title,
+            book.author,
+            book.description,
+          ].whereType<String>().join(' '),
+          itemBuilder: (book) => BookTile(book: book),
+        ),
+      ),
+    );
+  }
+
+  void _openInstitutes(BuildContext context, AppLocalizations l) {
+    final locationCounts = <String, int>{};
+    for (final institute in details!.institutes) {
+      final location = institute.district ?? institute.city;
+      if (location != null && location.trim().isNotEmpty) {
+        locationCounts.update(
+          location,
+          (count) => count + 1,
+          ifAbsent: () => 1,
+        );
+      }
+    }
+    final locationOptions =
+        locationCounts.entries
+            .map(
+              (entry) => ResourceFilterOption(
+                id: entry.key,
+                label: entry.key,
+                count: entry.value,
+              ),
+            )
+            .toList()
+          ..sort((a, b) => a.label.compareTo(b.label));
+
+    Navigator.push(
+      context,
+      SmoothPageRoute(
+        page: ResourceListScreen(
+          title: l.sub_topInstitutes,
+          searchHint: l.home_searchTooltip,
+          noResultsTitle: l.search_noResultsTitle,
+          noResultsSubtitle: l.search_noResultsSubtitle,
+          items: details!.institutes,
+          searchableText: (institute) => [
+            institute.name,
+            institute.city,
+            institute.district,
+            institute.state,
+            institute.description,
+          ].whereType<String>().join(' '),
+          itemBuilder: (institute) => InstituteTile(institute: institute),
+          filterOptions: locationOptions,
+          filterPredicate: (institute, selectedLocations) {
+            final location = institute.district ?? institute.city;
+            return location != null && selectedLocations.contains(location);
+          },
+        ),
+      ),
+    );
+  }
+
+  void _openJobSectors(BuildContext context, AppLocalizations l) {
+    Navigator.push(
+      context,
+      SmoothPageRoute(
+        page: ResourceListScreen(
+          title: l.sub_jobSectors,
+          searchHint: l.home_searchTooltip,
+          noResultsTitle: l.search_noResultsTitle,
+          noResultsSubtitle: l.search_noResultsSubtitle,
+          items: details!.jobSectors,
+          searchableText: (sector) =>
+              [sector.name, sector.description].whereType<String>().join(' '),
+          itemBuilder: (sector) => JobSectorTile(sector: sector),
+        ),
+      ),
+    );
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -516,9 +589,9 @@ class _LeafView extends StatelessWidget {
               child: Text(
                 node!.intro!,
                 style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                      color: colorScheme.onSurfaceVariant,
-                      height: 1.6,
-                    ),
+                  color: colorScheme.onSurfaceVariant,
+                  height: 1.6,
+                ),
               ),
             ),
             const SizedBox(height: AppSpacing.lg),
@@ -529,15 +602,13 @@ class _LeafView extends StatelessWidget {
             const SkeletonList(itemCount: 3),
           ] else if (details != null) ...[
             ResourceSection(
-              title: l.sub_recommendedBooks,
-              subtitle: details!.books.isEmpty
-                  ? l.sub_noBooksAvailable
-                  : l.sub_booksCount(details!.books.length),
-              icon: Icons.menu_book_rounded,
-              color: const Color(0xFF6366F1),
-              isExpanded: booksExpanded,
-              onToggle: onBooksToggle,
-              children: details!.books.map((b) => BookTile(book: b)).toList(),
+              title: l.sub_jobSectors,
+              subtitle: details!.jobSectors.isEmpty
+                  ? l.sub_noSectorsAvailable
+                  : l.sub_sectorsCount(details!.jobSectors.length),
+              icon: Icons.work_rounded,
+              color: const Color(0xFFF59E0B),
+              onTap: () => _openJobSectors(context, l),
             ),
             const SizedBox(height: AppSpacing.md),
             ResourceSection(
@@ -547,25 +618,17 @@ class _LeafView extends StatelessWidget {
                   : l.sub_institutesCount(details!.institutes.length),
               icon: Icons.school_rounded,
               color: const Color(0xFF14B8A6),
-              isExpanded: institutesExpanded,
-              onToggle: onInstitutesToggle,
-              children: details!.institutes
-                  .map((i) => InstituteTile(institute: i))
-                  .toList(),
+              onTap: () => _openInstitutes(context, l),
             ),
             const SizedBox(height: AppSpacing.md),
             ResourceSection(
-              title: l.sub_jobSectors,
-              subtitle: details!.jobSectors.isEmpty
-                  ? l.sub_noSectorsAvailable
-                  : l.sub_sectorsCount(details!.jobSectors.length),
-              icon: Icons.work_rounded,
-              color: const Color(0xFFF59E0B),
-              isExpanded: jobSectorsExpanded,
-              onToggle: onJobSectorsToggle,
-              children: details!.jobSectors
-                  .map((s) => JobSectorTile(sector: s))
-                  .toList(),
+              title: l.sub_recommendedBooks,
+              subtitle: details!.books.isEmpty
+                  ? l.sub_noBooksAvailable
+                  : l.sub_booksCount(details!.books.length),
+              icon: Icons.menu_book_rounded,
+              color: const Color(0xFF6366F1),
+              onTap: () => _openBooks(context, l),
             ),
           ] else ...[
             EmptyState(
@@ -622,9 +685,9 @@ class _LeafView extends StatelessWidget {
             child: Text(
               l.sub_finalCareerOption,
               style: Theme.of(context).textTheme.labelMedium?.copyWith(
-                    color: AppColors.success,
-                    fontWeight: FontWeight.w600,
-                  ),
+                color: AppColors.success,
+                fontWeight: FontWeight.w600,
+              ),
             ),
           ),
         ],

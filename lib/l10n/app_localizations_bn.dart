@@ -564,6 +564,29 @@ class AppLocalizationsBn extends AppLocalizations {
   }
 
   @override
+  String get resource_filterTooltip => 'Filter';
+
+  @override
+  String get resource_filterLocationTitle => 'Filter by location';
+
+  @override
+  String get resource_filterSearchHint => 'Search locations...';
+
+  @override
+  String get resource_filterClear => 'Clear';
+
+  @override
+  String get resource_filterApply => 'Apply filters';
+
+  @override
+  String get resource_filterAllLocations => 'All locations';
+
+  @override
+  String resource_filterSelectedCount(int count) {
+    return '$count selected';
+  }
+
+  @override
   String get sub_careerEndpoint => 'ক্যারিয়ার এন্ডপয়েন্ট';
 
   @override

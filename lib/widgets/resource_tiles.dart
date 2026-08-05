@@ -8,15 +8,13 @@ import '../screens/web_view_screen.dart';
 import '../widgets/page_transitions.dart';
 import 'accent_icon_box.dart';
 
-/// An expandable card section for a group of resources (books, institutes, etc).
+/// A summary card that opens a resource list on a dedicated screen.
 class ResourceSection extends StatelessWidget {
   final String title;
   final String subtitle;
   final IconData icon;
   final Color color;
-  final bool isExpanded;
-  final VoidCallback onToggle;
-  final List<Widget> children;
+  final VoidCallback onTap;
 
   const ResourceSection({
     super.key,
@@ -24,9 +22,7 @@ class ResourceSection extends StatelessWidget {
     required this.subtitle,
     required this.icon,
     required this.color,
-    required this.isExpanded,
-    required this.onToggle,
-    required this.children,
+    required this.onTap,
   });
 
   @override
@@ -34,65 +30,44 @@ class ResourceSection extends StatelessWidget {
     final colorScheme = Theme.of(context).colorScheme;
 
     return Card(
-      child: ExpansionTile(
-        shape: const Border(),
-        collapsedShape: const Border(),
-        tilePadding: const EdgeInsets.symmetric(
-          horizontal: AppSpacing.base,
-          vertical: AppSpacing.xs,
-        ),
-        title: Row(
-          children: [
-            AccentIconBox(icon: icon, color: color, size: 36, iconSize: 18),
-            const SizedBox(width: AppSpacing.md),
-            Expanded(
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    title,
-                    style: Theme.of(context).textTheme.titleSmall?.copyWith(
-                      fontWeight: FontWeight.w700,
+      clipBehavior: Clip.antiAlias,
+      child: InkWell(
+        onTap: onTap,
+        child: Padding(
+          padding: const EdgeInsets.symmetric(
+            horizontal: AppSpacing.base,
+            vertical: AppSpacing.md,
+          ),
+          child: Row(
+            children: [
+              AccentIconBox(icon: icon, color: color, size: 36, iconSize: 18),
+              const SizedBox(width: AppSpacing.md),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      title,
+                      style: Theme.of(context).textTheme.titleSmall?.copyWith(
+                        fontWeight: FontWeight.w700,
+                      ),
                     ),
-                  ),
-                  Text(
-                    subtitle,
-                    style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                      color: colorScheme.onSurfaceVariant,
+                    Text(
+                      subtitle,
+                      style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                        color: colorScheme.onSurfaceVariant,
+                      ),
                     ),
-                  ),
-                ],
-              ),
-            ),
-          ],
-        ),
-        initiallyExpanded: isExpanded,
-        onExpansionChanged: (_) => onToggle(),
-        children: [
-          if (children.isEmpty)
-            Padding(
-              padding: const EdgeInsets.all(AppSpacing.base),
-              child: Center(
-                child: Text(
-                  AppLocalizations.of(context)!.common_noneAvailableYet,
-                  style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                    color: colorScheme.onSurfaceVariant,
-                    fontStyle: FontStyle.italic,
-                  ),
+                  ],
                 ),
               ),
-            )
-          else
-            Padding(
-              padding: const EdgeInsets.fromLTRB(
-                AppSpacing.base,
-                0,
-                AppSpacing.base,
-                AppSpacing.md,
+              Icon(
+                Icons.chevron_right_rounded,
+                color: colorScheme.onSurfaceVariant,
               ),
-              child: Column(children: children),
-            ),
-        ],
+            ],
+          ),
+        ),
       ),
     );
   }
@@ -313,8 +288,14 @@ class ResourceTileWrapper extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.only(top: AppSpacing.md),
-      child: child,
+      padding: const EdgeInsets.only(top: AppSpacing.sm),
+      child: Card(
+        clipBehavior: Clip.antiAlias,
+        child: Padding(
+          padding: const EdgeInsets.all(AppSpacing.base),
+          child: child,
+        ),
+      ),
     );
   }
 }
