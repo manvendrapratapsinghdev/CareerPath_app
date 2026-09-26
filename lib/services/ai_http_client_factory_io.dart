@@ -4,6 +4,22 @@ import 'package:flutter/services.dart';
 import 'package:http/http.dart' as http;
 import 'package:http/io_client.dart';
 
+Future<Object? Function()?> createAiIoHttpClientFactory({
+  required bool trustDebugCa,
+  required String debugCaAsset,
+}) async {
+  if (!trustDebugCa) return null;
+  final certificate = await rootBundle.load(debugCaAsset);
+  final bytes = certificate.buffer.asUint8List(
+    certificate.offsetInBytes,
+    certificate.lengthInBytes,
+  );
+  return () => HttpClient(
+    context: SecurityContext(withTrustedRoots: true)
+      ..setTrustedCertificatesBytes(bytes),
+  );
+}
+
 Future<http.Client> createAiHttpClient({
   required bool trustDebugCa,
   required String debugCaAsset,

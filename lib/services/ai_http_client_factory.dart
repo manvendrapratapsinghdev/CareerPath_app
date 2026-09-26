@@ -21,6 +21,15 @@ class AiHttpClientFactory {
 
   const AiHttpClientFactory._();
 
+  /// `dart:io` client factory for the Gemini Live WebSocket, trusting the
+  /// same debug CA as [create]. Null when the default trust store is enough.
+  static Future<Object? Function()?> createIoFactory() {
+    return platform.createAiIoHttpClientFactory(
+      trustDebugCa: kDebugMode && _trustDebugCa,
+      debugCaAsset: _debugCaAsset,
+    );
+  }
+
   static Future<http.Client> create() {
     return platform.createAiHttpClient(
       trustDebugCa: kDebugMode && _trustDebugCa,
