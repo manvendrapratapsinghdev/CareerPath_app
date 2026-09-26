@@ -45,6 +45,22 @@ class AiChatSource {
   }
 }
 
+/// One titled section of a structured answer (`<Title>…</Title>` body).
+class AiAnswerSection {
+  final String title;
+  final String body;
+
+  const AiAnswerSection({required this.title, required this.body});
+
+  factory AiAnswerSection.fromJson(Map<String, dynamic> json) =>
+      AiAnswerSection(
+        title: json['title'] as String? ?? '',
+        body: json['body'] as String? ?? '',
+      );
+
+  Map<String, dynamic> toJson() => {'title': title, 'body': body};
+}
+
 class AiChatMessage {
   final String id;
   final AiChatRole role;
@@ -54,6 +70,12 @@ class AiChatMessage {
   final List<String> suggestedPrompts;
   final bool isError;
 
+  /// Structured summary behind the answer, when one was produced.
+  final List<AiAnswerSection> sections;
+
+  /// True when the turn happened in a voice conversation.
+  final bool fromVoice;
+
   const AiChatMessage({
     required this.id,
     required this.role,
@@ -62,6 +84,8 @@ class AiChatMessage {
     this.sources = const [],
     this.suggestedPrompts = const [],
     this.isError = false,
+    this.sections = const [],
+    this.fromVoice = false,
   });
 
   Map<String, dynamic> toRequestJson() => {

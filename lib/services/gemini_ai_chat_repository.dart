@@ -6,6 +6,7 @@ import '../config/ai_provider_config.dart';
 import '../config/api_urls.dart';
 import '../models/ai_chat.dart';
 import 'ai_chat_repository.dart';
+import 'ai_guardrails.dart';
 import 'gemini_key_service.dart';
 import 'local_ai_grounding_service.dart';
 
@@ -23,19 +24,6 @@ class GeminiAiChatRepository extends AiChatRepository {
       'Chat has been temporarily blocked because of repeated inappropriate '
       'language. Please try again later or continue in Explore.';
 
-  static final _abusivePattern = RegExp(
-    r'\b(fuck|fucking|shit|bitch|bastard|asshole|idiot|stupid|slut|whore)\b',
-    caseSensitive: false,
-  );
-  static final _safetySupportPattern = RegExp(
-    r'\b(suicide|kill myself|self harm|self-harm|want to die)\b',
-    caseSensitive: false,
-  );
-  static final _promptInjectionPattern = RegExp(
-    r'(reveal|show|print).*(system prompt|api key|secret|instructions)|'
-    r'(ignore|bypass).*(instructions|rules|guardrails)',
-    caseSensitive: false,
-  );
   static final _contextReferencePattern = RegExp(
     r'\b(it|that|this|these|those|them|there|same|previous)\b|'
     r'\b(tell me more|what about)\b',
@@ -84,14 +72,11 @@ class GeminiAiChatRepository extends AiChatRepository {
       );
     }
 
-    if (_safetySupportPattern.hasMatch(latestMessage)) {
+    if (AiGuardrails.needsSafetySupport(latestMessage)) {
       return _response(
         request,
         AiChatStatus.safetySupport,
-        'I’m really sorry you’re feeling this way. Please stop and tell a '
-        'trusted adult, parent, teacher, counselor, or local emergency service '
-        'right now. You deserve immediate support, and you should not handle '
-        'this alone.',
+        AiGuardrails.safetySupportAnswer,
       );
     }
 
@@ -104,16 +89,15 @@ class GeminiAiChatRepository extends AiChatRepository {
       );
     }
 
-    if (_promptInjectionPattern.hasMatch(latestMessage)) {
+    if (AiGuardrails.isPromptInjection(latestMessage)) {
       return _response(
         request,
         AiChatStatus.policyWarning,
-        'I can’t reveal private instructions or credentials. I can help with '
-        'career and education questions using CareerPath Explore data.',
+        AiGuardrails.promptInjectionAnswer,
       );
     }
 
-    if (_abusivePattern.hasMatch(latestMessage)) {
+    if (AiGuardrails.isAbusive(latestMessage)) {
       _policyStrikes++;
       if (_policyStrikes >= 2) {
         _chatBlocked = true;
