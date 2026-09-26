@@ -34,6 +34,7 @@ import 'services/theme_service.dart';
 import 'services/gemini_ai_chat_repository.dart';
 import 'services/ai_voice_services.dart';
 import 'services/gemini_key_service.dart';
+import 'services/institute_catalog_service.dart';
 import 'services/voice_preview_service.dart';
 import 'services/voice_settings_service.dart';
 import 'services/local_ai_grounding_service.dart';
@@ -69,7 +70,10 @@ void main() async {
     client: await AiHttpClientFactory.create(),
   );
   unawaited(geminiKeyService.preload().catchError((_) {}));
-  final groundingService = LocalAiGroundingService(careerDataService);
+  final groundingService = LocalAiGroundingService(
+    careerDataService,
+    catalog: InstituteCatalogService(localDb.getInstituteCatalog),
+  );
   final aiChatRepository = GeminiAiChatRepository(
     keyService: geminiKeyService,
     groundingService: groundingService,

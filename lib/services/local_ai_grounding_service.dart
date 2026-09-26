@@ -1,7 +1,9 @@
 import '../config/ai_provider_config.dart';
 import '../models/ai_chat.dart';
 import '../models/career_node.dart';
+import '../models/institute_catalog.dart';
 import 'career_data_service.dart';
+import 'institute_catalog_service.dart';
 
 class AiGroundingContext {
   final String text;
@@ -73,7 +75,10 @@ class LocalAiGroundingService {
 
   final CareerDataService _careerDataService;
 
-  const LocalAiGroundingService(this._careerDataService);
+  /// Optional institutes, courses and NIRF rankings.
+  final InstituteCatalogService? catalog;
+
+  const LocalAiGroundingService(this._careerDataService, {this.catalog});
 
   Future<AiGroundingContext> retrieve({
     required String query,
@@ -147,13 +152,46 @@ class LocalAiGroundingService {
       }
     }
 
-    if (selected.isEmpty) {
+    var institutes = const <InstituteRecord>[];
+    var rankings = const <(InstituteRecord, InstituteRanking)>[];
+    final catalog = this.catalog;
+    if (catalog != null) {
+      await catalog.ensureLoaded();
+      if (InstituteCatalogService.asksForRankings(query)) {
+        rankings = catalog.rankings(query);
+      }
+      institutes = catalog.search(query, limit: 4);
+    }
+
+    if (selected.isEmpty && institutes.isEmpty && rankings.isEmpty) {
       return const AiGroundingContext(text: '', sources: []);
     }
 
     final buffer = StringBuffer(
       'CAREERPATH EXPLORE DATA. Use only these records.\n',
     );
+    // Precise institute and ranking matches go first so they survive the
+    // context limit.
+    if (rankings.isNotEmpty) {
+      buffer.writeln('\nSOURCE nirf_rankings');
+      for (final (record, ranking) in rankings) {
+        buffer.writeln(
+          '${record.institute.name}: ${ranking.label} rank '
+          '${ranking.rankLabel}'
+          '${ranking.score == null ? '' : ', score ${ranking.score}'}',
+        );
+      }
+    }
+    if (institutes.isNotEmpty) {
+      buffer.writeln(
+        '\nInstitutes: ${institutes.map((r) => r.institute.name).join(", ")}',
+      );
+      for (final record in institutes) {
+        buffer
+          ..writeln('\nSOURCE institute:${record.institute.id}')
+          ..writeln(InstituteCatalogService.describe(record));
+      }
+    }
     for (final node in selected) {
       buffer
         ..writeln('\nSOURCE career_node:${node.id}')
@@ -201,16 +239,30 @@ class LocalAiGroundingService {
     }
     return AiGroundingContext(
       text: text,
-      sources: selected
-          .map(
-            (node) => AiChatSource(
-              sourceId: 'career_node:${node.id}',
-              sourceType: 'career_node',
-              title: node.name,
-              exploreNodeId: node.id,
-            ),
-          )
-          .toList(growable: false),
+      sources: [
+        for (final (record, ranking) in rankings.take(3))
+          AiChatSource(
+            sourceId:
+                'ranking:${record.institute.id}:${ranking.year}:${ranking.category}',
+            sourceType: 'ranking',
+            title:
+                '${record.institute.name} · ${ranking.label} #${ranking.rankLabel}',
+          ),
+        for (final record in institutes)
+          AiChatSource(
+            sourceId: 'institute:${record.institute.id}',
+            sourceType: 'institute',
+            title: record.institute.name,
+          ),
+        ...selected.map(
+          (node) => AiChatSource(
+            sourceId: 'career_node:${node.id}',
+            sourceType: 'career_node',
+            title: node.name,
+            exploreNodeId: node.id,
+          ),
+        ),
+      ],
     );
   }
 

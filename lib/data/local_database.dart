@@ -160,6 +160,65 @@ class LocalDatabase {
     };
   }
 
+  // ── Institute catalog (courses, rankings, categories) — 5 queries ──────
+
+  Future<List<Map<String, dynamic>>> getInstituteCatalog() async {
+    final results = await Future.wait([
+      db.rawQuery(
+        'SELECT id, source_id, name, city, district, state, website, '
+        'description FROM institutes ORDER BY name',
+      ),
+      db.rawQuery(
+        'SELECT id, institute_id, name, level, credential, specialization, '
+        'duration, mode, eligibility, official_course_url '
+        'FROM institute_courses ORDER BY institute_id, name',
+      ),
+      db.rawQuery(
+        'SELECT ccn.course_id, cn.slug FROM course_career_nodes ccn '
+        'JOIN career_nodes cn ON cn.id = ccn.node_id',
+      ),
+      db.rawQuery(
+        'SELECT institute_id, system, year, category, rank, rank_band, '
+        'score, source_url FROM institute_rankings '
+        'ORDER BY year DESC, category, rank',
+      ),
+      db.rawQuery('SELECT institute_id, category FROM institute_categories'),
+    ]);
+    final courseCareers = <int, List<String>>{};
+    for (final row in results[2]) {
+      (courseCareers[row['course_id'] as int] ??= []).add(
+        row['slug'] as String,
+      );
+    }
+    final courses = <int, List<Map<String, dynamic>>>{};
+    for (final row in results[1]) {
+      final course = Map<String, dynamic>.from(row)
+        ..['career_slugs'] = courseCareers[row['id'] as int] ?? const [];
+      (courses[row['institute_id'] as int] ??= []).add(course);
+    }
+    final rankings = <int, List<Map<String, dynamic>>>{};
+    for (final row in results[3]) {
+      (rankings[row['institute_id'] as int] ??= []).add(
+        Map<String, dynamic>.from(row),
+      );
+    }
+    final categories = <int, List<String>>{};
+    for (final row in results[4]) {
+      (categories[row['institute_id'] as int] ??= []).add(
+        row['category'] as String,
+      );
+    }
+    return results[0].map((row) {
+      final id = row['id'] as int;
+      return {
+        ...row,
+        'courses': courses[id] ?? const [],
+        'rankings': rankings[id] ?? const [],
+        'categories': categories[id] ?? const [],
+      };
+    }).toList();
+  }
+
   // ── All Nodes (for eager-load) — 2 queries total ───────────────────────
 
   Future<List<Map<String, dynamic>>> getAllNodes() async {
