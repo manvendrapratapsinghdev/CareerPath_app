@@ -814,4 +814,43 @@ class AppLocalizationsHi extends AppLocalizations {
   @override
   String get ai_voiceConnectionLost =>
       'आवाज़ कनेक्शन टूट गया। जारी रखने के लिए बात करें दबाएँ।';
+
+  @override
+  String get ai_trendingTitle => 'ट्रेंडिंग सवाल';
+
+  @override
+  String get ai_feedbackHelpful => 'मददगार';
+
+  @override
+  String get ai_feedbackNotHelpful => 'मददगार नहीं';
+
+  @override
+  String get ai_feedbackTitle => 'क्या बेहतर हो सकता है?';
+
+  @override
+  String get ai_feedbackReasonWrong => 'सही नहीं';
+
+  @override
+  String get ai_feedbackReasonIrrelevant => 'सवाल से जुड़ा नहीं';
+
+  @override
+  String get ai_feedbackReasonMissing => 'जानकारी अधूरी';
+
+  @override
+  String get ai_feedbackReasonUnclear => 'समझना मुश्किल';
+
+  @override
+  String get ai_feedbackCommentHint => 'और बताइए (वैकल्पिक)';
+
+  @override
+  String get ai_feedbackSubmit => 'भेजें';
+
+  @override
+  String get ai_feedbackThanks => 'आपकी प्रतिक्रिया के लिए धन्यवाद!';
+
+  @override
+  String get ai_learnMore => 'इसके बारे में और जानें';
+
+  @override
+  String get ai_openInExplore => 'Explore में खोलें';
 }

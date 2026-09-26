@@ -7,6 +7,7 @@ import '../models/ai_chat.dart';
 import '../models/breadcrumb_entry.dart';
 import '../models/profile_data.dart';
 import '../services/ai_chat_repository.dart';
+import '../services/ai_guide_extras.dart';
 import '../services/ai_voice_services.dart';
 import '../services/analytics_service.dart';
 import '../services/bookmark_service.dart';
@@ -41,6 +42,7 @@ class HomeScreen extends StatefulWidget {
   final LocaleService? localeService;
   final AiChatRepository? aiChatRepository;
   final AiVoiceServices? aiVoiceServices;
+  final AiGuideExtras? aiGuideExtras;
 
   const HomeScreen({
     super.key,
@@ -56,6 +58,7 @@ class HomeScreen extends StatefulWidget {
     this.localeService,
     this.aiChatRepository,
     this.aiVoiceServices,
+    this.aiGuideExtras,
   });
 
   @override
@@ -333,6 +336,7 @@ class _HomeScreenState extends State<HomeScreen> {
           AiChatTab(
             repository: _aiChatRepository,
             voiceServices: widget.aiVoiceServices,
+            extras: widget.aiGuideExtras,
             analyticsService: widget.analyticsService,
             streamId: _profile?.stream,
             onOpenExplore: _openAiSource,

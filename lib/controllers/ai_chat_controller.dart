@@ -124,6 +124,36 @@ class AiChatController extends ChangeNotifier {
     await sendMessage(text: prompt, locale: locale, streamId: streamId);
   }
 
+  /// Adds a question and an answer that was already known locally (for
+  /// example a tapped deep-dive question), without a model call.
+  void addLocalExchange({
+    required String question,
+    required String answer,
+    List<AiChatSource> sources = const [],
+    List<String> suggestedPrompts = const [],
+  }) {
+    if (question.trim().isEmpty || answer.trim().isEmpty) return;
+    _messages
+      ..add(
+        AiChatMessage(
+          id: _newId(),
+          role: AiChatRole.user,
+          content: question.trim(),
+        ),
+      )
+      ..add(
+        AiChatMessage(
+          id: _newId(),
+          role: AiChatRole.assistant,
+          content: answer.trim(),
+          status: AiChatStatus.answered,
+          sources: sources,
+          suggestedPrompts: suggestedPrompts.take(3).toList(growable: false),
+        ),
+      );
+    notifyListeners();
+  }
+
   /// Adds a question the student asked in a voice conversation.
   void addVoiceQuestion(String text) {
     final normalized = text.trim();

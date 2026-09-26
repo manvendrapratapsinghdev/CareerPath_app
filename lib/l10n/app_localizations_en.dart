@@ -817,4 +817,43 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get ai_voiceConnectionLost =>
       'Voice connection was lost. Tap Talk to continue.';
+
+  @override
+  String get ai_trendingTitle => 'Trending questions';
+
+  @override
+  String get ai_feedbackHelpful => 'Helpful';
+
+  @override
+  String get ai_feedbackNotHelpful => 'Not helpful';
+
+  @override
+  String get ai_feedbackTitle => 'What could be better?';
+
+  @override
+  String get ai_feedbackReasonWrong => 'Not accurate';
+
+  @override
+  String get ai_feedbackReasonIrrelevant => 'Not relevant';
+
+  @override
+  String get ai_feedbackReasonMissing => 'Missing information';
+
+  @override
+  String get ai_feedbackReasonUnclear => 'Hard to understand';
+
+  @override
+  String get ai_feedbackCommentHint => 'Tell us more (optional)';
+
+  @override
+  String get ai_feedbackSubmit => 'Submit';
+
+  @override
+  String get ai_feedbackThanks => 'Thanks for your feedback!';
+
+  @override
+  String get ai_learnMore => 'Learn more about this';
+
+  @override
+  String get ai_openInExplore => 'Open in Explore';
 }

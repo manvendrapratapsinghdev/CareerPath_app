@@ -1603,6 +1603,84 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Voice connection was lost. Tap Talk to continue.'**
   String get ai_voiceConnectionLost;
+
+  /// No description provided for @ai_trendingTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Trending questions'**
+  String get ai_trendingTitle;
+
+  /// No description provided for @ai_feedbackHelpful.
+  ///
+  /// In en, this message translates to:
+  /// **'Helpful'**
+  String get ai_feedbackHelpful;
+
+  /// No description provided for @ai_feedbackNotHelpful.
+  ///
+  /// In en, this message translates to:
+  /// **'Not helpful'**
+  String get ai_feedbackNotHelpful;
+
+  /// No description provided for @ai_feedbackTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'What could be better?'**
+  String get ai_feedbackTitle;
+
+  /// No description provided for @ai_feedbackReasonWrong.
+  ///
+  /// In en, this message translates to:
+  /// **'Not accurate'**
+  String get ai_feedbackReasonWrong;
+
+  /// No description provided for @ai_feedbackReasonIrrelevant.
+  ///
+  /// In en, this message translates to:
+  /// **'Not relevant'**
+  String get ai_feedbackReasonIrrelevant;
+
+  /// No description provided for @ai_feedbackReasonMissing.
+  ///
+  /// In en, this message translates to:
+  /// **'Missing information'**
+  String get ai_feedbackReasonMissing;
+
+  /// No description provided for @ai_feedbackReasonUnclear.
+  ///
+  /// In en, this message translates to:
+  /// **'Hard to understand'**
+  String get ai_feedbackReasonUnclear;
+
+  /// No description provided for @ai_feedbackCommentHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Tell us more (optional)'**
+  String get ai_feedbackCommentHint;
+
+  /// No description provided for @ai_feedbackSubmit.
+  ///
+  /// In en, this message translates to:
+  /// **'Submit'**
+  String get ai_feedbackSubmit;
+
+  /// No description provided for @ai_feedbackThanks.
+  ///
+  /// In en, this message translates to:
+  /// **'Thanks for your feedback!'**
+  String get ai_feedbackThanks;
+
+  /// No description provided for @ai_learnMore.
+  ///
+  /// In en, this message translates to:
+  /// **'Learn more about this'**
+  String get ai_learnMore;
+
+  /// No description provided for @ai_openInExplore.
+  ///
+  /// In en, this message translates to:
+  /// **'Open in Explore'**
+  String get ai_openInExplore;
 }
 
 class _AppLocalizationsDelegate

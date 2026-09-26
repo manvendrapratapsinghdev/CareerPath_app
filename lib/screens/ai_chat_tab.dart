@@ -8,6 +8,7 @@ import '../controllers/live_voice_controller.dart';
 import '../l10n/app_localizations.dart';
 import '../models/ai_chat.dart';
 import '../services/ai_chat_repository.dart';
+import '../services/ai_guide_extras.dart';
 import '../services/ai_voice_services.dart';
 import '../services/analytics_service.dart';
 import '../services/speech_recognition_service.dart';
@@ -24,6 +25,9 @@ class AiChatTab extends StatefulWidget {
   /// Enables voice conversations; without it the Talk button is hidden.
   final AiVoiceServices? voiceServices;
 
+  /// Trending starters, source deep dives and answer feedback.
+  final AiGuideExtras? extras;
+
   const AiChatTab({
     super.key,
     required this.repository,
@@ -33,6 +37,7 @@ class AiChatTab extends StatefulWidget {
     this.speechRecognitionService,
     this.textToSpeechService,
     this.voiceServices,
+    this.extras,
   });
 
   @override
@@ -55,6 +60,8 @@ class _AiChatTabState extends State<AiChatTab> {
   bool _lastRequestUsedVoiceInput = false;
   String? _speakingMessageId;
   LiveVoiceController? _voice;
+  List<String>? _trending;
+  final Map<String, bool> _feedback = {};
 
   bool get _voiceActive => _voice?.isActive ?? false;
 
@@ -85,6 +92,11 @@ class _AiChatTabState extends State<AiChatTab> {
       },
     );
     widget.analyticsService?.logEvent('ai_chat_opened');
+    widget.extras?.trending.questions().then((questions) {
+      if (mounted && questions != null && questions.isNotEmpty) {
+        setState(() => _trending = questions);
+      }
+    });
   }
 
   @override
@@ -239,6 +251,65 @@ class _AiChatTabState extends State<AiChatTab> {
   void _openExplore([AiChatSource? source]) {
     widget.analyticsService?.logEvent('ai_chat_source_opened');
     widget.onOpenExplore(source);
+  }
+
+  // ── Deep dives and feedback ─────────────────────────────────────────────
+
+  Future<void> _openSourceSheet(AiChatSource source) async {
+    final extras = widget.extras;
+    if (extras == null) return _openExplore(source);
+    final hindi = Localizations.localeOf(context).languageCode == 'hi';
+    final dive = extras.deepDive.deepDive(source, hindi: hindi);
+    final action = await showModalBottomSheet<int>(
+      context: context,
+      isScrollControlled: true,
+      showDragHandle: true,
+      builder: (_) => _SourceSheet(source: source, deepDive: dive),
+    );
+    if (action == null || !mounted) return;
+    if (action < 0) return _openExplore(source);
+    final faqs = (await dive).faqs;
+    if (action >= faqs.length) return;
+    _chatController.addLocalExchange(
+      question: faqs[action].$1,
+      answer: faqs[action].$2,
+      sources: [source],
+      suggestedPrompts: [
+        for (var i = 0; i < faqs.length; i++)
+          if (i != action) faqs[i].$1,
+      ],
+    );
+  }
+
+  Future<void> _giveFeedback(AiChatMessage message, bool helpful) async {
+    final extras = widget.extras;
+    if (extras == null) return;
+    var reasons = const <String>[];
+    var comment = '';
+    if (!helpful) {
+      final result = await showModalBottomSheet<(List<String>, String)>(
+        context: context,
+        isScrollControlled: true,
+        showDragHandle: true,
+        builder: (_) => const _FeedbackSheet(),
+      );
+      if (result == null || !mounted) return;
+      (reasons, comment) = result;
+    }
+    setState(() => _feedback[message.id] = helpful);
+    final messages = _chatController.messages;
+    final index = messages.indexWhere((m) => m.id == message.id);
+    await extras.feedback.save(
+      messageId: message.id,
+      helpful: helpful,
+      question: index > 0 ? messages[index - 1].content : '',
+      answer: message.content,
+      reasons: reasons,
+      comment: comment,
+    );
+    if (mounted) {
+      _showVoiceMessage(AppLocalizations.of(context)!.ai_feedbackThanks);
+    }
   }
 
   // ── Voice conversation ──────────────────────────────────────────────────
@@ -559,7 +630,7 @@ class _AiChatTabState extends State<AiChatTab> {
         Expanded(
           child: _chatController.hasMessages || _voiceActive
               ? _buildConversation(l)
-              : _ChatEmptyState(onPromptSelected: _send),
+              : _ChatEmptyState(onPromptSelected: _send, trending: _trending),
         ),
         if (_chatController.chatBlocked)
           _BlockedNotice(onOpenExplore: () => _openExplore())
@@ -634,6 +705,11 @@ class _AiChatTabState extends State<AiChatTab> {
           onToggleReadAloud: () => _toggleReadAloud(message),
           onOpenExplore: _openExplore,
           onSuggestedPrompt: _send,
+          onSourceTap: widget.extras == null ? null : _openSourceSheet,
+          feedback: _feedback[message.id],
+          onFeedback: widget.extras == null || message.isError
+              ? null
+              : (helpful) => _giveFeedback(message, helpful),
         );
       },
     );
@@ -744,18 +820,17 @@ class _ChatHeader extends StatelessWidget {
 
 class _ChatEmptyState extends StatelessWidget {
   final ValueChanged<String> onPromptSelected;
+  final List<String>? trending;
 
-  const _ChatEmptyState({required this.onPromptSelected});
+  const _ChatEmptyState({required this.onPromptSelected, this.trending});
 
   @override
   Widget build(BuildContext context) {
     final l = AppLocalizations.of(context)!;
     final colorScheme = Theme.of(context).colorScheme;
-    final prompts = [
-      l.ai_starterScience,
-      l.ai_starterCompare,
-      l.ai_starterDesign,
-    ];
+    final prompts =
+        trending ??
+        [l.ai_starterScience, l.ai_starterCompare, l.ai_starterDesign];
 
     return SingleChildScrollView(
       padding: const EdgeInsets.all(AppSpacing.xl),
@@ -794,6 +869,19 @@ class _ChatEmptyState extends StatelessWidget {
             ),
           ),
           const SizedBox(height: AppSpacing.xl),
+          if (trending != null)
+            Padding(
+              padding: const EdgeInsets.only(bottom: AppSpacing.sm),
+              child: Align(
+                alignment: Alignment.centerLeft,
+                child: Text(
+                  l.ai_trendingTitle,
+                  style: Theme.of(
+                    context,
+                  ).textTheme.titleSmall?.copyWith(fontWeight: FontWeight.w700),
+                ),
+              ),
+            ),
           ...prompts.map(
             (prompt) => Padding(
               padding: const EdgeInsets.only(bottom: AppSpacing.sm),
@@ -828,6 +916,9 @@ class _MessageBubble extends StatelessWidget {
   final VoidCallback onToggleReadAloud;
   final ValueChanged<AiChatSource?> onOpenExplore;
   final ValueChanged<String> onSuggestedPrompt;
+  final ValueChanged<AiChatSource>? onSourceTap;
+  final bool? feedback;
+  final ValueChanged<bool>? onFeedback;
 
   const _MessageBubble({
     required this.message,
@@ -835,6 +926,9 @@ class _MessageBubble extends StatelessWidget {
     required this.onToggleReadAloud,
     required this.onOpenExplore,
     required this.onSuggestedPrompt,
+    this.onSourceTap,
+    this.feedback,
+    this.onFeedback,
   });
 
   @override
@@ -883,13 +977,16 @@ class _MessageBubble extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text(
-                message.content,
-                style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                  color: isUser ? colorScheme.onPrimary : null,
-                  height: 1.45,
+              if (!isUser && message.sections.isNotEmpty)
+                _AnswerSections(sections: message.sections)
+              else
+                Text(
+                  message.content,
+                  style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                    color: isUser ? colorScheme.onPrimary : null,
+                    height: 1.45,
+                  ),
                 ),
-              ),
               if (!isUser && message.sources.isNotEmpty) ...[
                 const SizedBox(height: AppSpacing.md),
                 Text(
@@ -908,7 +1005,9 @@ class _MessageBubble extends StatelessWidget {
                         (source) => ActionChip(
                           avatar: const Icon(Icons.explore_outlined, size: 17),
                           label: Text(source.title),
-                          onPressed: () => onOpenExplore(source),
+                          onPressed: () => onSourceTap != null
+                              ? onSourceTap!(source)
+                              : onOpenExplore(source),
                         ),
                       )
                       .toList(growable: false),
@@ -921,6 +1020,30 @@ class _MessageBubble extends StatelessWidget {
                   child: Row(
                     mainAxisSize: MainAxisSize.min,
                     children: [
+                      if (onFeedback != null) ...[
+                        IconButton(
+                          visualDensity: VisualDensity.compact,
+                          tooltip: l.ai_feedbackHelpful,
+                          onPressed: () => onFeedback!(true),
+                          icon: Icon(
+                            feedback == true
+                                ? Icons.thumb_up_rounded
+                                : Icons.thumb_up_outlined,
+                            size: 18,
+                          ),
+                        ),
+                        IconButton(
+                          visualDensity: VisualDensity.compact,
+                          tooltip: l.ai_feedbackNotHelpful,
+                          onPressed: () => onFeedback!(false),
+                          icon: Icon(
+                            feedback == false
+                                ? Icons.thumb_down_rounded
+                                : Icons.thumb_down_outlined,
+                            size: 18,
+                          ),
+                        ),
+                      ],
                       IconButton(
                         visualDensity: VisualDensity.compact,
                         tooltip: isSpeaking ? l.ai_stopReading : l.ai_readAloud,
@@ -1467,6 +1590,234 @@ class _VoiceSettingsSheetState extends State<_VoiceSettingsSheet> {
                       : const Icon(Icons.play_circle_outline_rounded),
                 ),
               ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+/// Structured answer: each section as a bold heading and its text.
+class _AnswerSections extends StatelessWidget {
+  final List<AiAnswerSection> sections;
+
+  const _AnswerSections({required this.sections});
+
+  @override
+  Widget build(BuildContext context) {
+    final textTheme = Theme.of(context).textTheme;
+    final colorScheme = Theme.of(context).colorScheme;
+    final generic =
+        sections.length == 1 &&
+        const {
+          'summary',
+          'answer',
+        }.contains(sections.first.title.toLowerCase());
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        for (var i = 0; i < sections.length; i++) ...[
+          if (i > 0) const SizedBox(height: AppSpacing.md),
+          if (!generic)
+            Padding(
+              padding: const EdgeInsets.only(bottom: AppSpacing.xs),
+              child: Row(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.only(top: 2),
+                    child: Icon(
+                      Icons.auto_awesome_rounded,
+                      size: 15,
+                      color: colorScheme.primary,
+                    ),
+                  ),
+                  const SizedBox(width: AppSpacing.xs),
+                  Expanded(
+                    child: Text(
+                      sections[i].title,
+                      style: textTheme.titleSmall?.copyWith(
+                        fontWeight: FontWeight.w700,
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          Text(
+            sections[i].body,
+            style: textTheme.bodyMedium?.copyWith(height: 1.45),
+          ),
+        ],
+      ],
+    );
+  }
+}
+
+/// "Learn more about this": a short intro, questions with instant answers
+/// and a link to Explore. Pops the tapped question index, or -1 for Explore.
+class _SourceSheet extends StatelessWidget {
+  final AiChatSource source;
+  final Future<AiDeepDive> deepDive;
+
+  const _SourceSheet({required this.source, required this.deepDive});
+
+  @override
+  Widget build(BuildContext context) {
+    final l = AppLocalizations.of(context)!;
+    return SafeArea(
+      child: ConstrainedBox(
+        constraints: BoxConstraints(
+          maxHeight: MediaQuery.sizeOf(context).height * 0.8,
+        ),
+        child: FutureBuilder<AiDeepDive>(
+          future: deepDive,
+          builder: (context, snapshot) {
+            final dive = snapshot.data;
+            return ListView(
+              shrinkWrap: true,
+              padding: const EdgeInsets.fromLTRB(
+                AppSpacing.xl,
+                0,
+                AppSpacing.xl,
+                AppSpacing.xl,
+              ),
+              children: [
+                Text(
+                  l.ai_learnMore.toUpperCase(),
+                  style: Theme.of(context).textTheme.labelSmall?.copyWith(
+                    color: Theme.of(context).colorScheme.primary,
+                    fontWeight: FontWeight.w700,
+                  ),
+                ),
+                const SizedBox(height: AppSpacing.xs),
+                Text(
+                  source.title,
+                  style: Theme.of(
+                    context,
+                  ).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.w700),
+                ),
+                const SizedBox(height: AppSpacing.md),
+                if (dive == null)
+                  const Padding(
+                    padding: EdgeInsets.symmetric(vertical: AppSpacing.xl),
+                    child: Center(child: CircularProgressIndicator()),
+                  )
+                else ...[
+                  Text(
+                    dive.intro,
+                    style: Theme.of(
+                      context,
+                    ).textTheme.bodyLarge?.copyWith(height: 1.5),
+                  ),
+                  const SizedBox(height: AppSpacing.md),
+                  for (var i = 0; i < dive.faqs.length; i++)
+                    Padding(
+                      padding: const EdgeInsets.only(bottom: AppSpacing.sm),
+                      child: OutlinedButton.icon(
+                        onPressed: () => Navigator.pop(context, i),
+                        icon: const Icon(
+                          Icons.chat_bubble_outline_rounded,
+                          size: 18,
+                        ),
+                        label: Align(
+                          alignment: Alignment.centerLeft,
+                          child: Text(dive.faqs[i].$1),
+                        ),
+                      ),
+                    ),
+                  const SizedBox(height: AppSpacing.xs),
+                  FilledButton.tonalIcon(
+                    onPressed: () => Navigator.pop(context, -1),
+                    icon: const Icon(Icons.explore_rounded),
+                    label: Text(l.ai_openInExplore),
+                  ),
+                ],
+              ],
+            );
+          },
+        ),
+      ),
+    );
+  }
+}
+
+/// "Not helpful" reasons and an optional comment; pops (reasons, comment).
+class _FeedbackSheet extends StatefulWidget {
+  const _FeedbackSheet();
+
+  @override
+  State<_FeedbackSheet> createState() => _FeedbackSheetState();
+}
+
+class _FeedbackSheetState extends State<_FeedbackSheet> {
+  final _selected = <String>{};
+  final _comment = TextEditingController();
+
+  @override
+  void dispose() {
+    _comment.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final l = AppLocalizations.of(context)!;
+    final reasons = [
+      l.ai_feedbackReasonWrong,
+      l.ai_feedbackReasonIrrelevant,
+      l.ai_feedbackReasonMissing,
+      l.ai_feedbackReasonUnclear,
+    ];
+    return Padding(
+      padding: EdgeInsets.fromLTRB(
+        AppSpacing.xl,
+        0,
+        AppSpacing.xl,
+        AppSpacing.xl + MediaQuery.viewInsetsOf(context).bottom,
+      ),
+      child: SafeArea(
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            Text(
+              l.ai_feedbackTitle,
+              style: Theme.of(context).textTheme.titleLarge,
+            ),
+            const SizedBox(height: AppSpacing.md),
+            Wrap(
+              spacing: AppSpacing.sm,
+              runSpacing: AppSpacing.sm,
+              children: [
+                for (final reason in reasons)
+                  FilterChip(
+                    label: Text(reason),
+                    selected: _selected.contains(reason),
+                    onSelected: (on) => setState(
+                      () =>
+                          on ? _selected.add(reason) : _selected.remove(reason),
+                    ),
+                  ),
+              ],
+            ),
+            const SizedBox(height: AppSpacing.md),
+            TextField(
+              controller: _comment,
+              maxLines: 3,
+              decoration: InputDecoration(
+                hintText: l.ai_feedbackCommentHint,
+                border: const OutlineInputBorder(),
+              ),
+            ),
+            const SizedBox(height: AppSpacing.md),
+            FilledButton(
+              onPressed: () => Navigator.pop(context, (
+                _selected.toList(),
+                _comment.text.trim(),
+              )),
+              child: Text(l.ai_feedbackSubmit),
+            ),
           ],
         ),
       ),

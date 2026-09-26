@@ -34,6 +34,8 @@ import 'services/recently_viewed_service.dart';
 import 'services/locale_service.dart';
 import 'services/theme_service.dart';
 import 'services/guided_ai_chat_repository.dart';
+import 'services/ai_gemini_json.dart';
+import 'services/ai_guide_extras.dart';
 import 'services/ai_voice_services.dart';
 import 'services/gemini_key_service.dart';
 import 'services/institute_catalog_service.dart';
@@ -98,6 +100,20 @@ void main() async {
     extraGrounding: semanticIndex.search,
     client: await AiHttpClientFactory.create(),
   );
+  final aiGemini = AiGeminiJson(
+    keyService: geminiKeyService,
+    client: await AiHttpClientFactory.create(),
+  );
+  final aiGuideExtras = AiGuideExtras(
+    trending: AiTrendingService(
+      gemini: aiGemini,
+      careers: careerDataService,
+      catalog: instituteCatalog,
+      prefs: prefs,
+    ),
+    deepDive: AiDeepDiveService(gemini: aiGemini, grounding: groundingService),
+    feedback: AiFeedbackService(prefs),
+  );
   final aiVoiceServices = AiVoiceServices(
     keyService: geminiKeyService,
     grounding: groundingService,
@@ -129,6 +145,7 @@ void main() async {
       careerDataService: careerDataService,
       aiChatRepository: aiChatRepository,
       aiVoiceServices: aiVoiceServices,
+      aiGuideExtras: aiGuideExtras,
       networkService: networkService,
       analyticsService: analyticsService,
       feedbackService: feedbackService,
@@ -150,6 +167,7 @@ class CareerPathApp extends StatelessWidget {
   final CareerDataService careerDataService;
   final AiChatRepository aiChatRepository;
   final AiVoiceServices? aiVoiceServices;
+  final AiGuideExtras? aiGuideExtras;
   final NetworkService networkService;
   final AnalyticsService analyticsService;
   final FeedbackService feedbackService;
@@ -169,6 +187,7 @@ class CareerPathApp extends StatelessWidget {
     required this.careerDataService,
     required this.aiChatRepository,
     this.aiVoiceServices,
+    this.aiGuideExtras,
     required this.networkService,
     required this.analyticsService,
     required this.feedbackService,
@@ -208,6 +227,7 @@ class CareerPathApp extends StatelessWidget {
             careerDataService: careerDataService,
             aiChatRepository: aiChatRepository,
             aiVoiceServices: aiVoiceServices,
+            aiGuideExtras: aiGuideExtras,
             analyticsService: analyticsService,
             themeService: themeService,
             localeService: localeService,
@@ -234,6 +254,7 @@ class CareerPathApp extends StatelessWidget {
         careerDataService: careerDataService,
         aiChatRepository: aiChatRepository,
         aiVoiceServices: aiVoiceServices,
+        aiGuideExtras: aiGuideExtras,
         analyticsService: analyticsService,
         themeService: themeService,
       );

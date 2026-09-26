@@ -34,6 +34,7 @@ class _FakeAiChatRepository extends AiChatRepository {
       sources: response.sources,
       suggestedPrompts: response.suggestedPrompts,
       chatBlocked: response.chatBlocked,
+      sections: response.sections,
     );
   }
 }
@@ -642,5 +643,37 @@ void main() {
     await tester.tap(find.byTooltip('Clear chat'));
     await tester.pumpAndSettle();
     expect(find.text('Voice settings'), findsOneWidget);
+  });
+
+  testWidgets('structured answers render their section headings', (
+    tester,
+  ) async {
+    final repository = _FakeAiChatRepository(
+      const AiChatResponse(
+        requestId: 'r',
+        status: AiChatStatus.answered,
+        answer: 'Engineering is a Science path.',
+        sections: [
+          AiAnswerSection(
+            title: 'Here you go:',
+            body: 'Engineering is a path.',
+          ),
+          AiAnswerSection(title: 'Options', body: '• Computer Science'),
+        ],
+      ),
+    );
+    await tester.pumpWidget(_buildApp(repository: repository));
+    await tester.enterText(find.byType(TextField), 'Tell me about engineering');
+    await tester.pump();
+    await tester.tap(
+      find.ancestor(
+        of: find.byIcon(Icons.arrow_upward_rounded),
+        matching: find.byType(IconButton),
+      ),
+    );
+    await tester.pumpAndSettle();
+
+    expect(find.text('Options'), findsOneWidget);
+    expect(find.text('• Computer Science'), findsOneWidget);
   });
 }
