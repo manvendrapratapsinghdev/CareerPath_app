@@ -32,7 +32,10 @@ import 'services/recently_viewed_service.dart';
 import 'services/locale_service.dart';
 import 'services/theme_service.dart';
 import 'services/gemini_ai_chat_repository.dart';
+import 'services/ai_voice_services.dart';
 import 'services/gemini_key_service.dart';
+import 'services/voice_preview_service.dart';
+import 'services/voice_settings_service.dart';
 import 'services/local_ai_grounding_service.dart';
 import 'widgets/network_aware_wrapper.dart';
 
@@ -66,10 +69,21 @@ void main() async {
     client: await AiHttpClientFactory.create(),
   );
   unawaited(geminiKeyService.preload().catchError((_) {}));
+  final groundingService = LocalAiGroundingService(careerDataService);
   final aiChatRepository = GeminiAiChatRepository(
     keyService: geminiKeyService,
-    groundingService: LocalAiGroundingService(careerDataService),
+    groundingService: groundingService,
     client: await AiHttpClientFactory.create(),
+  );
+  final aiVoiceServices = AiVoiceServices(
+    keyService: geminiKeyService,
+    grounding: groundingService,
+    settings: VoiceSettingsService(prefs),
+    preview: VoicePreviewService(
+      keyService: geminiKeyService,
+      client: await AiHttpClientFactory.create(),
+    ),
+    httpClientFactory: await AiHttpClientFactory.createIoFactory(),
   );
   final networkService = NetworkService();
   final analyticsService = AnalyticsService();
@@ -91,6 +105,7 @@ void main() async {
       ratePromptService: ratePromptService,
       careerDataService: careerDataService,
       aiChatRepository: aiChatRepository,
+      aiVoiceServices: aiVoiceServices,
       networkService: networkService,
       analyticsService: analyticsService,
       feedbackService: feedbackService,
@@ -111,6 +126,7 @@ class CareerPathApp extends StatelessWidget {
   final RatePromptService ratePromptService;
   final CareerDataService careerDataService;
   final AiChatRepository aiChatRepository;
+  final AiVoiceServices? aiVoiceServices;
   final NetworkService networkService;
   final AnalyticsService analyticsService;
   final FeedbackService feedbackService;
@@ -129,6 +145,7 @@ class CareerPathApp extends StatelessWidget {
     required this.ratePromptService,
     required this.careerDataService,
     required this.aiChatRepository,
+    this.aiVoiceServices,
     required this.networkService,
     required this.analyticsService,
     required this.feedbackService,
@@ -167,6 +184,7 @@ class CareerPathApp extends StatelessWidget {
             feedbackService: feedbackService,
             careerDataService: careerDataService,
             aiChatRepository: aiChatRepository,
+            aiVoiceServices: aiVoiceServices,
             analyticsService: analyticsService,
             themeService: themeService,
             localeService: localeService,
@@ -192,6 +210,7 @@ class CareerPathApp extends StatelessWidget {
         explorationService: explorationService,
         careerDataService: careerDataService,
         aiChatRepository: aiChatRepository,
+        aiVoiceServices: aiVoiceServices,
         analyticsService: analyticsService,
         themeService: themeService,
       );

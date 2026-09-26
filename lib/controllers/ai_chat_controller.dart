@@ -123,6 +123,45 @@ class AiChatController extends ChangeNotifier {
     await sendMessage(text: prompt, locale: locale, streamId: streamId);
   }
 
+  /// Adds a question the student asked in a voice conversation.
+  void addVoiceQuestion(String text) {
+    final normalized = text.trim();
+    if (normalized.isEmpty) return;
+    _messages.add(
+      AiChatMessage(
+        id: _newId(),
+        role: AiChatRole.user,
+        content: normalized,
+        fromVoice: true,
+      ),
+    );
+    notifyListeners();
+  }
+
+  /// Adds the guide's spoken answer from a voice conversation.
+  void addVoiceAnswer({
+    required String content,
+    List<AiChatSource> sources = const [],
+    List<String> suggestedPrompts = const [],
+    List<AiAnswerSection> sections = const [],
+  }) {
+    final normalized = content.trim();
+    if (normalized.isEmpty) return;
+    _messages.add(
+      AiChatMessage(
+        id: _newId(),
+        role: AiChatRole.assistant,
+        content: normalized,
+        status: AiChatStatus.answered,
+        sources: sources,
+        suggestedPrompts: suggestedPrompts.take(3).toList(growable: false),
+        sections: sections,
+        fromVoice: true,
+      ),
+    );
+    notifyListeners();
+  }
+
   void stop() {
     if (!isSending) return;
     _generation++;

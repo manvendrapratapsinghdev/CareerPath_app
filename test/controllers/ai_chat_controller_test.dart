@@ -185,4 +185,22 @@ void main() {
       expect(finalHistory.last.content, 'Question 5');
     });
   });
+
+  test('voice turns join the conversation and its history', () {
+    final controller = AiChatController(_FakeAiChatRepository());
+
+    controller
+      ..addVoiceQuestion('  What is engineering?  ')
+      ..addVoiceAnswer(
+        content: 'Engineering is a Science path.',
+        suggestedPrompts: const ['a', 'b', 'c', 'd'],
+      )
+      ..addVoiceQuestion('   ');
+
+    expect(controller.messages, hasLength(2));
+    expect(controller.messages.first.content, 'What is engineering?');
+    expect(controller.messages.first.fromVoice, isTrue);
+    expect(controller.messages.last.status, AiChatStatus.answered);
+    expect(controller.messages.last.suggestedPrompts, hasLength(3));
+  });
 }

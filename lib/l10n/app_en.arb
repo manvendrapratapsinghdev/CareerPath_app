@@ -297,5 +297,26 @@
     "placeholders": { "author": { "type": "String" } }
   },
   "common_viewBook": "View book",
-  "common_visitWebsite": "Visit website"
+  "common_visitWebsite": "Visit website",
+  "ai_voiceTalk": "Talk",
+  "ai_voiceTalkTooltip": "Start a voice conversation",
+  "ai_voiceEnd": "End voice conversation",
+  "ai_voiceConnecting": "Connecting…",
+  "ai_voiceReconnecting": "Reconnecting…",
+  "ai_voiceLiveListening": "Listening… ask your question",
+  "ai_voiceThinking": "Thinking…",
+  "ai_voiceAnswering": "Answering…",
+  "ai_voiceWelcome": "Hi! I am your CareerPath AI Guide.",
+  "ai_voiceSettings": "Voice settings",
+  "ai_voiceInterruptions": "Allow interruptions",
+  "ai_voiceInterruptionsHint": "Start speaking to stop the guide and ask something new.",
+  "ai_voiceSpokenAnswers": "Spoken answers",
+  "ai_voiceSpokenAnswersHint": "Turn off to read answers as text only.",
+  "ai_voiceChoose": "Guide voice",
+  "ai_voicePreview": "Preview voice",
+  "ai_voicePreviewUnavailable": "Voice preview is unavailable right now.",
+  "ai_voiceConnectFailed": "Voice conversation couldn't start. Check your connection and try again.",
+  "ai_voiceNoResponse": "I couldn't get a response. Please ask again.",
+  "ai_voiceIdleEnded": "Voice conversation ended after a minute of silence.",
+  "ai_voiceConnectionLost": "Voice connection was lost. Tap Talk to continue."
 }

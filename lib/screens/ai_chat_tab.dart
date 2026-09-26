@@ -1,11 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
+import '../config/ai_provider_config.dart';
 import '../config/app_theme.dart';
 import '../controllers/ai_chat_controller.dart';
+import '../controllers/live_voice_controller.dart';
 import '../l10n/app_localizations.dart';
 import '../models/ai_chat.dart';
 import '../services/ai_chat_repository.dart';
+import '../services/ai_voice_services.dart';
 import '../services/analytics_service.dart';
 import '../services/speech_recognition_service.dart';
 import '../services/text_to_speech_service.dart';
@@ -18,6 +21,9 @@ class AiChatTab extends StatefulWidget {
   final SpeechRecognitionService? speechRecognitionService;
   final TextToSpeechService? textToSpeechService;
 
+  /// Enables voice conversations; without it the Talk button is hidden.
+  final AiVoiceServices? voiceServices;
+
   const AiChatTab({
     super.key,
     required this.repository,
@@ -26,6 +32,7 @@ class AiChatTab extends StatefulWidget {
     this.streamId,
     this.speechRecognitionService,
     this.textToSpeechService,
+    this.voiceServices,
   });
 
   @override
@@ -47,6 +54,9 @@ class _AiChatTabState extends State<AiChatTab> {
   bool _composerUsedVoiceInput = false;
   bool _lastRequestUsedVoiceInput = false;
   String? _speakingMessageId;
+  LiveVoiceController? _voice;
+
+  bool get _voiceActive => _voice?.isActive ?? false;
 
   @override
   void initState() {
@@ -79,6 +89,9 @@ class _AiChatTabState extends State<AiChatTab> {
 
   @override
   void dispose() {
+    _voice
+      ?..removeListener(_onVoiceChanged)
+      ..dispose();
     _chatController
       ..removeListener(_onChatChanged)
       ..dispose();
@@ -212,6 +225,7 @@ class _AiChatTabState extends State<AiChatTab> {
   }
 
   Future<void> _startNewChat() async {
+    await _voice?.stop();
     await _stopListening(cancel: true);
     await _stopReadAloud();
     if (!mounted) return;
@@ -225,6 +239,125 @@ class _AiChatTabState extends State<AiChatTab> {
   void _openExplore([AiChatSource? source]) {
     widget.analyticsService?.logEvent('ai_chat_source_opened');
     widget.onOpenExplore(source);
+  }
+
+  // ── Voice conversation ──────────────────────────────────────────────────
+
+  Future<void> _toggleVoice() async {
+    final services = widget.voiceServices;
+    if (services == null) return;
+    if (_voiceActive) {
+      await _voice?.stop();
+      widget.analyticsService?.logEvent('ai_chat_voice_ended');
+      return;
+    }
+    final l = AppLocalizations.of(context)!;
+    await _stopListening(cancel: true);
+    await _stopReadAloud();
+    // The speech service owns the microphone permission prompt.
+    if (!_isSpeechInitialized) {
+      try {
+        _isSpeechInitialized = await _speechRecognitionService.initialize(
+          onStatus: _onSpeechStatus,
+          onError: _onSpeechError,
+        );
+      } catch (_) {
+        _isSpeechInitialized = false;
+      }
+    }
+    if (!mounted) return;
+    if (!_isSpeechInitialized) {
+      _showVoiceMessage(l.ai_voiceUnavailable);
+      return;
+    }
+    final voice = _voice ??=
+        services.createController(streamId: () => widget.streamId)
+          ..addListener(_onVoiceChanged)
+          ..onQuestion = _chatController.addVoiceQuestion
+          ..onAnswer = _onVoiceAnswer
+          ..onWelcome = _onVoiceWelcome
+          ..onUnavailable = _onVoiceUnavailable
+          ..onEnded = _onVoiceEnded;
+    final settings = services.settings;
+    try {
+      await voice.start(
+        voiceName: settings.voiceName,
+        interruptions: settings.interruptions,
+        playAudio: settings.spokenAnswers,
+        welcomeGreeting: _chatController.hasMessages ? null : l.ai_voiceWelcome,
+        welcomeStarters: [
+          l.ai_starterScience,
+          l.ai_starterCompare,
+          l.ai_starterDesign,
+        ],
+      );
+      widget.analyticsService?.logEvent('ai_chat_voice_started');
+    } catch (_) {
+      if (mounted) _showVoiceMessage(l.ai_voiceConnectFailed);
+    }
+  }
+
+  void _onVoiceChanged() {
+    if (!mounted) return;
+    setState(() {});
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (!mounted || !_scrollController.hasClients) return;
+      _scrollController.jumpTo(_scrollController.position.maxScrollExtent);
+    });
+  }
+
+  void _onVoiceAnswer(VoiceAnswer answer) {
+    _chatController.addVoiceAnswer(
+      content: answer.spokenText,
+      sources: answer.turn.sources.take(3).toList(growable: false),
+      suggestedPrompts: answer.turn.suggestions,
+      sections: answer.turn.sections,
+    );
+  }
+
+  void _onVoiceWelcome(String transcript, List<String> starters) {
+    _chatController.addVoiceAnswer(
+      content: transcript,
+      suggestedPrompts: starters,
+    );
+  }
+
+  void _onVoiceUnavailable() {
+    if (!mounted) return;
+    _showVoiceMessage(AppLocalizations.of(context)!.ai_voiceNoResponse);
+  }
+
+  void _onVoiceEnded(String reason) {
+    if (!mounted) return;
+    final l = AppLocalizations.of(context)!;
+    _showVoiceMessage(
+      reason == 'idle' ? l.ai_voiceIdleEnded : l.ai_voiceConnectionLost,
+    );
+  }
+
+  String _voiceLabel(AppLocalizations l) => switch (_voice?.state) {
+    LiveVoiceState.connecting => l.ai_voiceConnecting,
+    LiveVoiceState.reconnecting => l.ai_voiceReconnecting,
+    LiveVoiceState.thinking => l.ai_voiceThinking,
+    LiveVoiceState.speaking => l.ai_voiceAnswering,
+    _ => l.ai_voiceLiveListening,
+  };
+
+  Future<void> _openVoiceSettings() async {
+    final services = widget.voiceServices;
+    if (services == null) return;
+    await showModalBottomSheet<void>(
+      context: context,
+      isScrollControlled: true,
+      showDragHandle: true,
+      builder: (_) => _VoiceSettingsSheet(services: services),
+    );
+    await services.preview.stop();
+    // A running conversation picks up the new settings on restart.
+    if (_voiceActive) {
+      await _voice?.stop();
+      await _toggleVoice();
+    }
   }
 
   void _showVoiceMessage(String message) {
@@ -416,14 +549,29 @@ class _AiChatTabState extends State<AiChatTab> {
     final l = AppLocalizations.of(context)!;
     return Column(
       children: [
-        _ChatHeader(onNewChat: _confirmNewChat, onClearChat: _confirmNewChat),
+        _ChatHeader(
+          onNewChat: _confirmNewChat,
+          onClearChat: _confirmNewChat,
+          onVoiceSettings: widget.voiceServices == null
+              ? null
+              : _openVoiceSettings,
+        ),
         Expanded(
-          child: _chatController.hasMessages
+          child: _chatController.hasMessages || _voiceActive
               ? _buildConversation(l)
               : _ChatEmptyState(onPromptSelected: _send),
         ),
         if (_chatController.chatBlocked)
           _BlockedNotice(onOpenExplore: () => _openExplore())
+        else if (_voiceActive)
+          _VoiceBar(
+            label: _voiceLabel(l),
+            busy:
+                _voice!.state == LiveVoiceState.connecting ||
+                _voice!.state == LiveVoiceState.thinking ||
+                _voice!.state == LiveVoiceState.reconnecting,
+            onEnd: _toggleVoice,
+          )
         else
           _ChatComposer(
             controller: _textController,
@@ -432,10 +580,14 @@ class _AiChatTabState extends State<AiChatTab> {
             onSend: _send,
             onStop: _chatController.stop,
             onToggleListening: _toggleListening,
+            onTalk: widget.voiceServices == null ? null : _toggleVoice,
           ),
       ],
     );
   }
+
+  String get _liveTranscript =>
+      _voiceActive ? _voice!.liveTranscript.trim() : '';
 
   Widget _buildConversation(AppLocalizations l) {
     return ListView.builder(
@@ -448,9 +600,25 @@ class _AiChatTabState extends State<AiChatTab> {
         AppSpacing.xl,
       ),
       itemCount:
-          _chatController.messages.length + (_chatController.isSending ? 1 : 0),
+          _chatController.messages.length +
+          (_chatController.isSending ? 1 : 0) +
+          (_liveTranscript.isEmpty ? 0 : 1),
       itemBuilder: (context, index) {
-        if (index == _chatController.messages.length) {
+        if (index >= _chatController.messages.length) {
+          if (_liveTranscript.isNotEmpty) {
+            return _MessageBubble(
+              message: AiChatMessage(
+                id: 'live',
+                role: AiChatRole.assistant,
+                content: _liveTranscript,
+                fromVoice: true,
+              ),
+              isSpeaking: false,
+              onToggleReadAloud: () {},
+              onOpenExplore: _openExplore,
+              onSuggestedPrompt: _send,
+            );
+          }
           return const _ThinkingIndicator();
         }
         final message = _chatController.messages[index];
@@ -475,8 +643,13 @@ class _AiChatTabState extends State<AiChatTab> {
 class _ChatHeader extends StatelessWidget {
   final VoidCallback onNewChat;
   final VoidCallback onClearChat;
+  final VoidCallback? onVoiceSettings;
 
-  const _ChatHeader({required this.onNewChat, required this.onClearChat});
+  const _ChatHeader({
+    required this.onNewChat,
+    required this.onClearChat,
+    this.onVoiceSettings,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -537,8 +710,20 @@ class _ChatHeader extends StatelessWidget {
           ),
           PopupMenuButton<String>(
             tooltip: l.ai_clearChat,
-            onSelected: (_) => onClearChat(),
+            onSelected: (value) =>
+                value == 'voice' ? onVoiceSettings?.call() : onClearChat(),
             itemBuilder: (context) => [
+              if (onVoiceSettings != null)
+                PopupMenuItem(
+                  value: 'voice',
+                  child: Row(
+                    children: [
+                      const Icon(Icons.record_voice_over_outlined),
+                      const SizedBox(width: AppSpacing.md),
+                      Text(l.ai_voiceSettings),
+                    ],
+                  ),
+                ),
               PopupMenuItem(
                 value: 'clear',
                 child: Row(
@@ -951,7 +1136,10 @@ class _ChatComposer extends StatefulWidget {
     required this.onSend,
     required this.onStop,
     required this.onToggleListening,
+    this.onTalk,
   });
+
+  final VoidCallback? onTalk;
 
   @override
   State<_ChatComposer> createState() => _ChatComposerState();
@@ -1054,6 +1242,18 @@ class _ChatComposerState extends State<_ChatComposer> {
                     ),
                   ),
                 ),
+                if (widget.onTalk != null && !widget.isSending) ...[
+                  const SizedBox(width: AppSpacing.sm),
+                  SizedBox(
+                    width: 48,
+                    height: 48,
+                    child: IconButton.filledTonal(
+                      tooltip: l.ai_voiceTalkTooltip,
+                      onPressed: widget.onTalk,
+                      icon: const Icon(Icons.graphic_eq_rounded),
+                    ),
+                  ),
+                ],
                 const SizedBox(width: AppSpacing.sm),
                 SizedBox(
                   width: 48,
@@ -1084,6 +1284,187 @@ class _ChatComposerState extends State<_ChatComposer> {
                         ? colorScheme.error
                         : colorScheme.onSurfaceVariant,
                   ),
+                ),
+              ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+/// Replaces the composer while a voice conversation is running.
+class _VoiceBar extends StatelessWidget {
+  final String label;
+  final bool busy;
+  final VoidCallback onEnd;
+
+  const _VoiceBar({
+    required this.label,
+    required this.busy,
+    required this.onEnd,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final l = AppLocalizations.of(context)!;
+    final colorScheme = Theme.of(context).colorScheme;
+    return SafeArea(
+      top: false,
+      child: Container(
+        padding: const EdgeInsets.fromLTRB(
+          AppSpacing.base,
+          AppSpacing.md,
+          AppSpacing.base,
+          AppSpacing.md,
+        ),
+        decoration: BoxDecoration(
+          color: colorScheme.surface,
+          border: Border(top: BorderSide(color: colorScheme.outlineVariant)),
+        ),
+        child: Row(
+          children: [
+            Container(
+              width: 44,
+              height: 44,
+              decoration: const BoxDecoration(
+                gradient: AppColors.primaryGradient,
+                shape: BoxShape.circle,
+              ),
+              child: busy
+                  ? const Padding(
+                      padding: EdgeInsets.all(12),
+                      child: CircularProgressIndicator(
+                        strokeWidth: 2,
+                        color: Colors.white,
+                      ),
+                    )
+                  : const Icon(Icons.graphic_eq_rounded, color: Colors.white),
+            ),
+            const SizedBox(width: AppSpacing.md),
+            Expanded(
+              child: Text(
+                label,
+                style: Theme.of(
+                  context,
+                ).textTheme.titleSmall?.copyWith(fontWeight: FontWeight.w600),
+              ),
+            ),
+            IconButton.filledTonal(
+              tooltip: l.ai_voiceEnd,
+              onPressed: onEnd,
+              icon: const Icon(Icons.close_rounded),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+/// Voice preferences: interruptions, spoken answers and the guide's voice.
+class _VoiceSettingsSheet extends StatefulWidget {
+  final AiVoiceServices services;
+
+  const _VoiceSettingsSheet({required this.services});
+
+  @override
+  State<_VoiceSettingsSheet> createState() => _VoiceSettingsSheetState();
+}
+
+class _VoiceSettingsSheetState extends State<_VoiceSettingsSheet> {
+  String? _previewing;
+
+  Future<void> _preview(String voice) async {
+    setState(() => _previewing = voice);
+    try {
+      await widget.services.preview.play(voice);
+    } catch (_) {
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text(
+              AppLocalizations.of(context)!.ai_voicePreviewUnavailable,
+            ),
+          ),
+        );
+      }
+    } finally {
+      if (mounted && _previewing == voice) setState(() => _previewing = null);
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final l = AppLocalizations.of(context)!;
+    final settings = widget.services.settings;
+    final colorScheme = Theme.of(context).colorScheme;
+    return SafeArea(
+      child: SizedBox(
+        height: MediaQuery.sizeOf(context).height * .8,
+        child: ListView(
+          padding: const EdgeInsets.fromLTRB(
+            AppSpacing.xl,
+            0,
+            AppSpacing.xl,
+            AppSpacing.xl,
+          ),
+          children: [
+            Text(
+              l.ai_voiceSettings,
+              style: Theme.of(context).textTheme.titleLarge,
+            ),
+            SwitchListTile(
+              contentPadding: EdgeInsets.zero,
+              title: Text(l.ai_voiceInterruptions),
+              subtitle: Text(l.ai_voiceInterruptionsHint),
+              value: settings.interruptions,
+              onChanged: (value) async {
+                await settings.setInterruptions(value);
+                setState(() {});
+              },
+            ),
+            SwitchListTile(
+              contentPadding: EdgeInsets.zero,
+              title: Text(l.ai_voiceSpokenAnswers),
+              subtitle: Text(l.ai_voiceSpokenAnswersHint),
+              value: settings.spokenAnswers,
+              onChanged: (value) async {
+                await settings.setSpokenAnswers(value);
+                setState(() {});
+              },
+            ),
+            const SizedBox(height: AppSpacing.sm),
+            Text(
+              l.ai_voiceChoose,
+              style: Theme.of(
+                context,
+              ).textTheme.titleSmall?.copyWith(fontWeight: FontWeight.w700),
+            ),
+            for (final (name, style) in AiProviderConfig.voices)
+              ListTile(
+                contentPadding: EdgeInsets.zero,
+                leading: Icon(
+                  settings.voiceName == name
+                      ? Icons.radio_button_checked_rounded
+                      : Icons.radio_button_off_rounded,
+                  color: colorScheme.primary,
+                ),
+                title: Text(name),
+                subtitle: Text(style),
+                onTap: () async {
+                  await settings.setVoiceName(name);
+                  setState(() {});
+                },
+                trailing: IconButton(
+                  tooltip: l.ai_voicePreview,
+                  onPressed: _previewing == null ? () => _preview(name) : null,
+                  icon: _previewing == name
+                      ? const SizedBox.square(
+                          dimension: 20,
+                          child: CircularProgressIndicator(strokeWidth: 2),
+                        )
+                      : const Icon(Icons.play_circle_outline_rounded),
                 ),
               ),
           ],

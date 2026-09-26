@@ -763,4 +763,74 @@ class AppLocalizationsTa extends AppLocalizations {
 
   @override
   String get common_visitWebsite => 'இணையதளத்தைப் பாருங்கள்';
+
+  @override
+  String get ai_voiceTalk => 'Talk';
+
+  @override
+  String get ai_voiceTalkTooltip => 'Start a voice conversation';
+
+  @override
+  String get ai_voiceEnd => 'End voice conversation';
+
+  @override
+  String get ai_voiceConnecting => 'Connecting…';
+
+  @override
+  String get ai_voiceReconnecting => 'Reconnecting…';
+
+  @override
+  String get ai_voiceLiveListening => 'Listening… ask your question';
+
+  @override
+  String get ai_voiceThinking => 'Thinking…';
+
+  @override
+  String get ai_voiceAnswering => 'Answering…';
+
+  @override
+  String get ai_voiceWelcome => 'Hi! I am your CareerPath AI Guide.';
+
+  @override
+  String get ai_voiceSettings => 'Voice settings';
+
+  @override
+  String get ai_voiceInterruptions => 'Allow interruptions';
+
+  @override
+  String get ai_voiceInterruptionsHint =>
+      'Start speaking to stop the guide and ask something new.';
+
+  @override
+  String get ai_voiceSpokenAnswers => 'Spoken answers';
+
+  @override
+  String get ai_voiceSpokenAnswersHint =>
+      'Turn off to read answers as text only.';
+
+  @override
+  String get ai_voiceChoose => 'Guide voice';
+
+  @override
+  String get ai_voicePreview => 'Preview voice';
+
+  @override
+  String get ai_voicePreviewUnavailable =>
+      'Voice preview is unavailable right now.';
+
+  @override
+  String get ai_voiceConnectFailed =>
+      'Voice conversation couldn\'t start. Check your connection and try again.';
+
+  @override
+  String get ai_voiceNoResponse =>
+      'I couldn\'t get a response. Please ask again.';
+
+  @override
+  String get ai_voiceIdleEnded =>
+      'Voice conversation ended after a minute of silence.';
+
+  @override
+  String get ai_voiceConnectionLost =>
+      'Voice connection was lost. Tap Talk to continue.';
 }

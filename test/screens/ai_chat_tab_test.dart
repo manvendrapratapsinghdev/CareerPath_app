@@ -4,6 +4,14 @@ import 'package:career_path/l10n/app_localizations.dart';
 import 'package:career_path/models/ai_chat.dart';
 import 'package:career_path/screens/ai_chat_tab.dart';
 import 'package:career_path/services/ai_chat_repository.dart';
+import 'package:career_path/services/ai_voice_services.dart';
+import 'package:career_path/services/api_client.dart';
+import 'package:career_path/services/career_data_service.dart';
+import 'package:career_path/services/gemini_key_service.dart';
+import 'package:career_path/services/local_ai_grounding_service.dart';
+import 'package:career_path/services/voice_preview_service.dart';
+import 'package:career_path/services/voice_settings_service.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:career_path/services/speech_recognition_service.dart';
 import 'package:career_path/services/text_to_speech_service.dart';
 import 'package:flutter/material.dart';
@@ -139,6 +147,7 @@ Widget _buildApp({
   ValueChanged<AiChatSource?>? onOpenExplore,
   SpeechRecognitionService? speechRecognitionService,
   TextToSpeechService? textToSpeechService,
+  AiVoiceServices? voiceServices,
 }) {
   return MaterialApp(
     locale: const Locale('en'),
@@ -156,8 +165,20 @@ Widget _buildApp({
         speechRecognitionService:
             speechRecognitionService ?? _FakeSpeechRecognitionService(),
         textToSpeechService: textToSpeechService ?? _FakeTextToSpeechService(),
+        voiceServices: voiceServices,
       ),
     ),
+  );
+}
+
+Future<AiVoiceServices> _voiceServices() async {
+  SharedPreferences.setMockInitialValues({});
+  final keys = GeminiKeyService();
+  return AiVoiceServices(
+    keyService: keys,
+    grounding: LocalAiGroundingService(CareerDataService(ApiClient())),
+    settings: VoiceSettingsService(await SharedPreferences.getInstance()),
+    preview: VoicePreviewService(keyService: keys),
   );
 }
 
@@ -597,5 +618,29 @@ void main() {
     expect(find.text('A question'), findsNothing);
     expect(find.text('A grounded answer'), findsNothing);
     expect(find.text('What can I do after 12th Science?'), findsOneWidget);
+  });
+
+  testWidgets('Talk and voice settings appear only with voice services', (
+    tester,
+  ) async {
+    final repository = _FakeAiChatRepository(
+      const AiChatResponse(
+        requestId: 'r',
+        status: AiChatStatus.answered,
+        answer: 'ok',
+      ),
+    );
+    await tester.pumpWidget(_buildApp(repository: repository));
+    expect(find.byTooltip('Start a voice conversation'), findsNothing);
+
+    await tester.pumpWidget(
+      _buildApp(repository: repository, voiceServices: await _voiceServices()),
+    );
+    await tester.pumpAndSettle();
+    expect(find.byTooltip('Start a voice conversation'), findsOneWidget);
+
+    await tester.tap(find.byTooltip('Clear chat'));
+    await tester.pumpAndSettle();
+    expect(find.text('Voice settings'), findsOneWidget);
   });
 }

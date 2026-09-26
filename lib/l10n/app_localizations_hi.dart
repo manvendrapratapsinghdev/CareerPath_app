@@ -746,4 +746,72 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get common_visitWebsite => 'वेबसाइट पर जाएँ';
+
+  @override
+  String get ai_voiceTalk => 'बात करें';
+
+  @override
+  String get ai_voiceTalkTooltip => 'आवाज़ से बातचीत शुरू करें';
+
+  @override
+  String get ai_voiceEnd => 'आवाज़ बातचीत बंद करें';
+
+  @override
+  String get ai_voiceConnecting => 'जुड़ रहे हैं…';
+
+  @override
+  String get ai_voiceReconnecting => 'फिर से जुड़ रहे हैं…';
+
+  @override
+  String get ai_voiceLiveListening => 'सुन रही हूँ… अपना सवाल पूछें';
+
+  @override
+  String get ai_voiceThinking => 'सोच रही हूँ…';
+
+  @override
+  String get ai_voiceAnswering => 'जवाब दे रही हूँ…';
+
+  @override
+  String get ai_voiceWelcome => 'नमस्ते! मैं आपकी CareerPath AI गाइड हूँ।';
+
+  @override
+  String get ai_voiceSettings => 'आवाज़ सेटिंग्स';
+
+  @override
+  String get ai_voiceInterruptions => 'बीच में टोकने दें';
+
+  @override
+  String get ai_voiceInterruptionsHint =>
+      'बोलना शुरू करें और गाइड रुककर आपका नया सवाल सुनेगी।';
+
+  @override
+  String get ai_voiceSpokenAnswers => 'बोलकर जवाब';
+
+  @override
+  String get ai_voiceSpokenAnswersHint =>
+      'बंद करने पर जवाब केवल लिखकर दिखेंगे।';
+
+  @override
+  String get ai_voiceChoose => 'गाइड की आवाज़';
+
+  @override
+  String get ai_voicePreview => 'आवाज़ सुनें';
+
+  @override
+  String get ai_voicePreviewUnavailable => 'आवाज़ का नमूना अभी उपलब्ध नहीं है।';
+
+  @override
+  String get ai_voiceConnectFailed =>
+      'आवाज़ बातचीत शुरू नहीं हो सकी। कनेक्शन जाँचकर फिर कोशिश करें।';
+
+  @override
+  String get ai_voiceNoResponse => 'जवाब नहीं मिल सका। कृपया फिर से पूछें।';
+
+  @override
+  String get ai_voiceIdleEnded =>
+      'एक मिनट तक कुछ न बोलने पर आवाज़ बातचीत बंद हो गई।';
+
+  @override
+  String get ai_voiceConnectionLost =>
+      'आवाज़ कनेक्शन टूट गया। जारी रखने के लिए बात करें दबाएँ।';
 }

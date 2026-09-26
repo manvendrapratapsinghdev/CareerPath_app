@@ -1477,6 +1477,132 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Visit website'**
   String get common_visitWebsite;
+
+  /// No description provided for @ai_voiceTalk.
+  ///
+  /// In en, this message translates to:
+  /// **'Talk'**
+  String get ai_voiceTalk;
+
+  /// No description provided for @ai_voiceTalkTooltip.
+  ///
+  /// In en, this message translates to:
+  /// **'Start a voice conversation'**
+  String get ai_voiceTalkTooltip;
+
+  /// No description provided for @ai_voiceEnd.
+  ///
+  /// In en, this message translates to:
+  /// **'End voice conversation'**
+  String get ai_voiceEnd;
+
+  /// No description provided for @ai_voiceConnecting.
+  ///
+  /// In en, this message translates to:
+  /// **'Connecting…'**
+  String get ai_voiceConnecting;
+
+  /// No description provided for @ai_voiceReconnecting.
+  ///
+  /// In en, this message translates to:
+  /// **'Reconnecting…'**
+  String get ai_voiceReconnecting;
+
+  /// No description provided for @ai_voiceLiveListening.
+  ///
+  /// In en, this message translates to:
+  /// **'Listening… ask your question'**
+  String get ai_voiceLiveListening;
+
+  /// No description provided for @ai_voiceThinking.
+  ///
+  /// In en, this message translates to:
+  /// **'Thinking…'**
+  String get ai_voiceThinking;
+
+  /// No description provided for @ai_voiceAnswering.
+  ///
+  /// In en, this message translates to:
+  /// **'Answering…'**
+  String get ai_voiceAnswering;
+
+  /// No description provided for @ai_voiceWelcome.
+  ///
+  /// In en, this message translates to:
+  /// **'Hi! I am your CareerPath AI Guide.'**
+  String get ai_voiceWelcome;
+
+  /// No description provided for @ai_voiceSettings.
+  ///
+  /// In en, this message translates to:
+  /// **'Voice settings'**
+  String get ai_voiceSettings;
+
+  /// No description provided for @ai_voiceInterruptions.
+  ///
+  /// In en, this message translates to:
+  /// **'Allow interruptions'**
+  String get ai_voiceInterruptions;
+
+  /// No description provided for @ai_voiceInterruptionsHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Start speaking to stop the guide and ask something new.'**
+  String get ai_voiceInterruptionsHint;
+
+  /// No description provided for @ai_voiceSpokenAnswers.
+  ///
+  /// In en, this message translates to:
+  /// **'Spoken answers'**
+  String get ai_voiceSpokenAnswers;
+
+  /// No description provided for @ai_voiceSpokenAnswersHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Turn off to read answers as text only.'**
+  String get ai_voiceSpokenAnswersHint;
+
+  /// No description provided for @ai_voiceChoose.
+  ///
+  /// In en, this message translates to:
+  /// **'Guide voice'**
+  String get ai_voiceChoose;
+
+  /// No description provided for @ai_voicePreview.
+  ///
+  /// In en, this message translates to:
+  /// **'Preview voice'**
+  String get ai_voicePreview;
+
+  /// No description provided for @ai_voicePreviewUnavailable.
+  ///
+  /// In en, this message translates to:
+  /// **'Voice preview is unavailable right now.'**
+  String get ai_voicePreviewUnavailable;
+
+  /// No description provided for @ai_voiceConnectFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Voice conversation couldn\'t start. Check your connection and try again.'**
+  String get ai_voiceConnectFailed;
+
+  /// No description provided for @ai_voiceNoResponse.
+  ///
+  /// In en, this message translates to:
+  /// **'I couldn\'t get a response. Please ask again.'**
+  String get ai_voiceNoResponse;
+
+  /// No description provided for @ai_voiceIdleEnded.
+  ///
+  /// In en, this message translates to:
+  /// **'Voice conversation ended after a minute of silence.'**
+  String get ai_voiceIdleEnded;
+
+  /// No description provided for @ai_voiceConnectionLost.
+  ///
+  /// In en, this message translates to:
+  /// **'Voice connection was lost. Tap Talk to continue.'**
+  String get ai_voiceConnectionLost;
 }
 
 class _AppLocalizationsDelegate
