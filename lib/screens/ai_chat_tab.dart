@@ -253,6 +253,17 @@ class _AiChatTabState extends State<AiChatTab> {
     widget.onOpenExplore(source);
   }
 
+  bool get _isHindiUi => Localizations.localeOf(context).languageCode == 'hi';
+
+  /// Hindi voice for Devanagari answers (or a Hindi UI), otherwise English.
+  String _speechLanguageFor(String text) {
+    final devanagari = RegExp(r'[\u0900-\u097F]').allMatches(text).length;
+    final latin = RegExp(r'[A-Za-z]').allMatches(text).length;
+    return devanagari > latin || (_isHindiUi && devanagari > 0)
+        ? 'hi-IN'
+        : 'en-US';
+  }
+
   // ── Deep dives and feedback ─────────────────────────────────────────────
 
   Future<void> _openSourceSheet(AiChatSource source) async {
@@ -488,7 +499,10 @@ class _AiChatTabState extends State<AiChatTab> {
     }
     try {
       _isSpeechSessionActive = true;
-      await _speechRecognitionService.startListening(onResult: _onSpeechResult);
+      await _speechRecognitionService.startListening(
+        onResult: _onSpeechResult,
+        localeId: _isHindiUi ? 'hi_IN' : null,
+      );
       if (!mounted || sessionToken != _speechSessionToken || !_isListening) {
         await _speechRecognitionService.cancel();
         return;
@@ -587,7 +601,10 @@ class _AiChatTabState extends State<AiChatTab> {
 
     setState(() => _speakingMessageId = message.id);
     try {
-      final started = await _textToSpeechService.speak(message.content);
+      final started = await _textToSpeechService.speak(
+        message.content,
+        language: _speechLanguageFor(message.content),
+      );
       if (!mounted) return;
       if (!started) {
         setState(() => _speakingMessageId = null);

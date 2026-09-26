@@ -33,7 +33,7 @@ class AppLocalizationsHi extends AppLocalizations {
   String get home_tabExplore => 'खोजें';
 
   @override
-  String get home_tabAiGuide => 'AI Guide';
+  String get home_tabAiGuide => 'AI गाइड';
 
   @override
   String get home_tabSaved => 'सहेजे गए';
@@ -431,108 +431,106 @@ class AppLocalizationsHi extends AppLocalizations {
       'सर्वर से कनेक्ट करने में विफल। अपना कनेक्शन जाँचें और पुनः प्रयास करें।';
 
   @override
-  String get ai_title => 'CareerPath AI Guide';
+  String get ai_title => 'CareerPath AI गाइड';
 
   @override
-  String get ai_subtitle => 'Ask about your career path';
+  String get ai_subtitle => 'अपने करियर के बारे में पूछें';
 
   @override
   String get ai_scopeNotice =>
-      'Answers use information available in CareerPath Explore. AI can make errors.';
+      'जवाब CareerPath Explore की जानकारी से दिए जाते हैं। AI से गलती हो सकती है।';
 
   @override
-  String get ai_starterScience => 'What can I do after 12th Science?';
+  String get ai_starterScience => '12वीं साइंस के बाद मैं क्या कर सकता हूँ?';
 
   @override
-  String get ai_starterCompare =>
-      'What career options are available in Computer Science?';
+  String get ai_starterCompare => 'कंप्यूटर साइंस में कौन-कौन से करियर हैं?';
 
   @override
-  String get ai_starterDesign => 'Show careers related to design';
+  String get ai_starterDesign => 'डिज़ाइन से जुड़े करियर दिखाओ';
 
   @override
-  String get ai_inputHint => 'Ask about courses or careers...';
+  String get ai_inputHint => 'कोर्स या करियर के बारे में पूछें...';
 
   @override
-  String get ai_newChat => 'New chat';
+  String get ai_newChat => 'नई चैट';
 
   @override
-  String get ai_clearChat => 'Clear chat';
+  String get ai_clearChat => 'चैट साफ़ करें';
 
   @override
-  String get ai_newChatTitle => 'Start a new chat?';
+  String get ai_newChatTitle => 'नई चैट शुरू करें?';
 
   @override
   String get ai_newChatMessage =>
-      'This conversation is not saved and cannot be recovered.';
+      'यह बातचीत सेव नहीं होती और वापस नहीं मिलेगी।';
 
   @override
-  String get ai_cancel => 'Cancel';
+  String get ai_cancel => 'रद्द करें';
 
   @override
-  String get ai_startNew => 'Start new chat';
+  String get ai_startNew => 'नई चैट शुरू करें';
 
   @override
-  String get ai_checkingData => 'AI is exploring your career path...';
+  String get ai_checkingData => 'AI आपका करियर रास्ता देख रहा है...';
 
   @override
-  String get ai_voiceInputStart => 'Speak your question';
+  String get ai_voiceInputStart => 'अपना सवाल बोलें';
 
   @override
-  String get ai_voiceInputStop => 'Stop listening';
+  String get ai_voiceInputStop => 'सुनना बंद करें';
 
   @override
-  String get ai_voiceListening => 'Listening...';
+  String get ai_voiceListening => 'सुन रहे हैं...';
 
   @override
   String get ai_voiceUnavailable =>
-      'Voice input is unavailable. Check microphone permission and try again.';
+      'वॉइस इनपुट उपलब्ध नहीं है। माइक्रोफ़ोन की अनुमति जाँचकर फिर कोशिश करें।';
 
   @override
-  String get ai_voiceError => 'I couldn\'t hear that. Please try again.';
+  String get ai_voiceError => 'मैं सुन नहीं पाई। कृपया फिर से कोशिश करें।';
 
   @override
-  String get ai_readAloud => 'Read response aloud';
+  String get ai_readAloud => 'जवाब सुनें';
 
   @override
-  String get ai_stopReading => 'Stop reading';
+  String get ai_stopReading => 'सुनना बंद करें';
 
   @override
-  String get ai_readAloudUnavailable =>
-      'Audio playback is unavailable on this device.';
+  String get ai_readAloudUnavailable => 'इस डिवाइस पर ऑडियो उपलब्ध नहीं है।';
 
   @override
   String get ai_errorMessage =>
-      'AI Guide is temporarily unavailable. Explore is still available.';
+      'AI गाइड अभी उपलब्ध नहीं है। Explore अभी भी उपलब्ध है।';
 
   @override
-  String get ai_retry => 'Retry';
+  String get ai_retry => 'फिर कोशिश करें';
 
   @override
-  String get ai_openExplore => 'Open Explore';
+  String get ai_openExplore => 'Explore खोलें';
 
   @override
-  String get ai_copy => 'Copy response';
+  String get ai_copy => 'जवाब कॉपी करें';
 
   @override
-  String get ai_copied => 'Response copied';
+  String get ai_copied => 'जवाब कॉपी हो गया';
 
   @override
-  String get ai_stop => 'Stop response';
+  String get ai_stop => 'जवाब रोकें';
 
   @override
-  String get ai_sources => 'Sources';
+  String get ai_sources => 'स्रोत';
 
   @override
-  String get ai_blockedTitle => 'Chat temporarily blocked';
+  String get ai_blockedTitle => 'चैट कुछ समय के लिए बंद है';
 
   @override
   String get ai_blockedMessage =>
-      'Please try again later. You can continue browsing career paths in Explore.';
+      'कृपया बाद में कोशिश करें। तब तक Explore में करियर देख सकते हैं।';
 
   @override
   String ai_messageTooLong(int count) {
-    return 'Keep your message under $count characters.';
+    return 'अपना संदेश $count अक्षरों से छोटा रखें।';
   }
 
   @override

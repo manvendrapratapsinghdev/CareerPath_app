@@ -109,6 +109,7 @@ class _FakeTextToSpeechService implements TextToSpeechService {
   VoidCallback? _onComplete;
   ValueChanged<String>? _onError;
   final List<String> spokenTexts = [];
+  final List<String> spokenLanguages = [];
   int stopCount = 0;
 
   @override
@@ -125,6 +126,7 @@ class _FakeTextToSpeechService implements TextToSpeechService {
   @override
   Future<bool> speak(String text, {String language = 'en-US'}) async {
     spokenTexts.add(text);
+    spokenLanguages.add(language);
     _onStart?.call();
     return true;
   }
@@ -149,10 +151,11 @@ Widget _buildApp({
   SpeechRecognitionService? speechRecognitionService,
   TextToSpeechService? textToSpeechService,
   AiVoiceServices? voiceServices,
+  Locale locale = const Locale('en'),
 }) {
   return MaterialApp(
-    locale: const Locale('en'),
-    supportedLocales: const [Locale('en')],
+    locale: locale,
+    supportedLocales: const [Locale('en'), Locale('hi')],
     localizationsDelegates: const [
       AppLocalizations.delegate,
       GlobalMaterialLocalizations.delegate,
@@ -675,5 +678,46 @@ void main() {
 
     expect(find.text('Options'), findsOneWidget);
     expect(find.text('• Computer Science'), findsOneWidget);
+  });
+
+  testWidgets('Hindi UI listens in Hindi and reads Hindi answers in Hindi', (
+    tester,
+  ) async {
+    final speech = _FakeSpeechRecognitionService();
+    final tts = _FakeTextToSpeechService();
+    final repository = _FakeAiChatRepository(
+      const AiChatResponse(
+        requestId: 'r',
+        status: AiChatStatus.answered,
+        answer: 'इंजीनियरिंग एक विज्ञान का रास्ता है।',
+      ),
+    );
+    await tester.pumpWidget(
+      _buildApp(
+        repository: repository,
+        speechRecognitionService: speech,
+        textToSpeechService: tts,
+        locale: const Locale('hi'),
+      ),
+    );
+    await tester.pumpAndSettle();
+
+    expect(find.text('CareerPath AI गाइड'), findsOneWidget);
+    await tester.tap(find.byTooltip('अपना सवाल बोलें'));
+    await tester.pump();
+    expect(speech.requestedLocaleId, 'hi_IN');
+
+    speech.emitResult('इंजीनियरिंग क्या है', isFinal: true);
+    await tester.pump();
+    await tester.tap(
+      find.ancestor(
+        of: find.byIcon(Icons.arrow_upward_rounded),
+        matching: find.byType(IconButton),
+      ),
+    );
+    await tester.pumpAndSettle();
+
+    expect(repository.requests.single.locale, 'hi');
+    expect(tts.spokenLanguages, ['hi-IN']);
   });
 }
