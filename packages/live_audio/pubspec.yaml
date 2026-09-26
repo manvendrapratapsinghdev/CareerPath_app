@@ -1,0 +1,23 @@
+name: live_audio
+description: >-
+  Native 24 kHz PCM16 microphone capture and streaming playback with echo
+  cancellation and noise suppression, for realtime voice conversations.
+version: 1.0.0
+publish_to: 'none'
+
+environment:
+  sdk: ^3.9.2
+  flutter: '>=3.3.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.careerpath.live_audio
+        pluginClass: LiveAudioPlugin
+      ios:
+        pluginClass: LiveAudioPlugin

@@ -51,6 +51,8 @@ dependencies:
   firebase_analytics: ^12.2.0
   speech_to_text: ^7.4.0
   flutter_tts: ^4.2.5
+  live_audio:
+    path: packages/live_audio
 
 dev_dependencies:
   flutter_test:

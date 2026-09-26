@@ -1,0 +1,139 @@
+import org.gradle.api.artifacts.transform.TransformAction
+import org.gradle.api.artifacts.transform.TransformOutputs
+import org.gradle.api.artifacts.transform.TransformParameters
+import org.gradle.api.artifacts.transform.InputArtifact
+import org.gradle.api.artifacts.type.ArtifactTypeDefinition
+import org.gradle.api.file.FileSystemLocation
+import org.gradle.api.provider.Provider
+import java.util.zip.ZipFile
+
+group = "com.careerpath.live_audio"
+version = "1.0-SNAPSHOT"
+
+abstract class ExtractAec3ClassesTransform implements TransformAction<TransformParameters.None> {
+    @InputArtifact
+    abstract Provider<FileSystemLocation> getInputArtifact()
+
+    @Override
+    void transform(TransformOutputs outputs) {
+        def archive = new ZipFile(inputArtifact.get().asFile)
+        try {
+            def classes = archive.getEntry("classes.jar")
+            if (classes == null) throw new GradleException("AEC3 classes.jar is missing")
+            def output = outputs.file("aec3-classes.jar")
+            output.withOutputStream { stream ->
+                archive.getInputStream(classes).withCloseable { input -> input.transferTo(stream) }
+            }
+        } finally {
+            archive.close()
+        }
+    }
+}
+
+buildscript {
+    ext.kotlin_version = "2.1.0"
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath("com.android.tools.build:gradle:8.9.1")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version")
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+apply plugin: "com.android.library"
+apply plugin: "kotlin-android"
+
+configurations {
+    aec3Classes {
+        transitive = false
+    }
+    aec3Native {
+        transitive = false
+    }
+}
+
+def extractAec3Native = tasks.register("extractAec3Native") {
+    def outputDirectory = layout.buildDirectory.dir("generated/aec3-jni")
+    inputs.files(configurations.aec3Native)
+    outputs.dir(outputDirectory)
+    doLast {
+        delete(outputDirectory)
+        copy {
+            from(configurations.aec3Native.collect { zipTree(it) }) {
+                include "jni/**"
+                eachFile { fileCopyDetails ->
+                    fileCopyDetails.path = fileCopyDetails.path.replaceFirst("^jni/", "")
+                }
+                includeEmptyDirs = false
+            }
+            into outputDirectory
+        }
+    }
+}
+
+android {
+    namespace = "com.careerpath.live_audio"
+
+    compileSdk = 36
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_11
+    }
+
+    sourceSets {
+        main.java.srcDirs += "src/main/kotlin"
+        main.jniLibs.srcDir(layout.buildDirectory.dir("generated/aec3-jni").get().asFile)
+        test.java.srcDirs += "src/test/kotlin"
+    }
+
+    defaultConfig {
+        minSdk = 24
+    }
+
+    dependencies {
+        registerTransform(ExtractAec3ClassesTransform) {
+            from.attribute(ArtifactTypeDefinition.ARTIFACT_TYPE_ATTRIBUTE, "aar")
+            to.attribute(ArtifactTypeDefinition.ARTIFACT_TYPE_ATTRIBUTE, "jar")
+        }
+        aec3Classes("cn.enaium.webrtc.aec3:webrtc-aec3-kmp-android:1.0.2") {
+            attributes {
+                attribute(ArtifactTypeDefinition.ARTIFACT_TYPE_ATTRIBUTE, "jar")
+            }
+        }
+        aec3Native("cn.enaium.webrtc.aec3:webrtc-aec3-kmp-android:1.0.2@aar")
+        implementation(files(configurations.aec3Classes))
+        testImplementation("org.jetbrains.kotlin:kotlin-test")
+        testImplementation("org.mockito:mockito-core:5.0.0")
+    }
+
+    testOptions {
+        unitTests.all {
+            useJUnitPlatform()
+
+            testLogging {
+               events "passed", "skipped", "failed", "standardOut", "standardError"
+               outputs.upToDateWhen {false}
+               showStandardStreams = true
+            }
+        }
+    }
+}
+
+tasks.named("preBuild").configure {
+    dependsOn(extractAec3Native)
+}
