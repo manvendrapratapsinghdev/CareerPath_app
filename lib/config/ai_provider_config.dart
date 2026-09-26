@@ -15,6 +15,17 @@ class AiProviderConfig {
   static const int maxDetailedNodes = 5;
   static const int maxOutputTokens = 1200;
 
+  // ── Semantic search ──────────────────────────────────────────────────────
+
+  static const String embeddingModel = 'gemini-embedding-001';
+  static const int embeddingDimensions = 768;
+  static const double semanticCutOff = 0.6;
+  static const int semanticTopK = 4;
+
+  /// The shared key allows about 100 embedded items per minute.
+  static const int embeddingBatchSize = 90;
+  static const Duration embeddingBatchPause = Duration(seconds: 60);
+
   // ── Voice conversation (Gemini Live) ─────────────────────────────────────
 
   static const String liveModel = String.fromEnvironment(

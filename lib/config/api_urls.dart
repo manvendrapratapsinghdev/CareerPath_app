@@ -19,6 +19,9 @@ class ApiUrls {
   static String geminiGenerateContent(String model) =>
       '$_geminiBaseUrl/$model:generateContent';
 
+  static String geminiBatchEmbed(String model) =>
+      '$_geminiBaseUrl/$model:batchEmbedContents';
+
   /// Gemini Live realtime voice WebSocket (phone → Google directly).
   static const String geminiLiveWebSocket =
       'wss://generativelanguage.googleapis.com/ws/'

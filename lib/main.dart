@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:path_provider/path_provider.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'l10n/app_localizations.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -36,6 +37,7 @@ import 'services/guided_ai_chat_repository.dart';
 import 'services/ai_voice_services.dart';
 import 'services/gemini_key_service.dart';
 import 'services/institute_catalog_service.dart';
+import 'services/semantic_index_service.dart';
 import 'services/voice_preview_service.dart';
 import 'services/voice_settings_service.dart';
 import 'services/local_ai_grounding_service.dart';
@@ -71,14 +73,29 @@ void main() async {
     client: await AiHttpClientFactory.create(),
   );
   unawaited(geminiKeyService.preload().catchError((_) {}));
+  final instituteCatalog = InstituteCatalogService(localDb.getInstituteCatalog);
   final groundingService = LocalAiGroundingService(
     careerDataService,
-    catalog: InstituteCatalogService(localDb.getInstituteCatalog),
+    catalog: instituteCatalog,
+  );
+  final semanticIndex = SemanticIndexService(
+    keyService: geminiKeyService,
+    directory: getApplicationSupportDirectory,
+    client: await AiHttpClientFactory.create(),
+  );
+  // Builds in the background, paced to the key's quota; search by meaning
+  // joins keyword grounding as vectors become available.
+  unawaited(
+    SemanticIndexService.itemsFrom(
+      careerDataService,
+      instituteCatalog,
+    ).then(semanticIndex.build).catchError((_) {}),
   );
   final aiChatRepository = GuidedAiChatRepository(
     keyService: geminiKeyService,
     groundingService: groundingService,
     loadAppHelp: () => rootBundle.loadString('assets/data/ai_guide_help.txt'),
+    extraGrounding: semanticIndex.search,
     client: await AiHttpClientFactory.create(),
   );
   final aiVoiceServices = AiVoiceServices(
