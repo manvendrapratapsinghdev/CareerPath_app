@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'l10n/app_localizations.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -31,7 +32,7 @@ import 'services/rate_prompt_service.dart';
 import 'services/recently_viewed_service.dart';
 import 'services/locale_service.dart';
 import 'services/theme_service.dart';
-import 'services/gemini_ai_chat_repository.dart';
+import 'services/guided_ai_chat_repository.dart';
 import 'services/ai_voice_services.dart';
 import 'services/gemini_key_service.dart';
 import 'services/institute_catalog_service.dart';
@@ -74,9 +75,10 @@ void main() async {
     careerDataService,
     catalog: InstituteCatalogService(localDb.getInstituteCatalog),
   );
-  final aiChatRepository = GeminiAiChatRepository(
+  final aiChatRepository = GuidedAiChatRepository(
     keyService: geminiKeyService,
     groundingService: groundingService,
+    loadAppHelp: () => rootBundle.loadString('assets/data/ai_guide_help.txt'),
     client: await AiHttpClientFactory.create(),
   );
   final aiVoiceServices = AiVoiceServices(

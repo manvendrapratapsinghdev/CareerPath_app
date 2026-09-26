@@ -103,6 +103,9 @@ class AiChatResponse {
   final bool chatBlocked;
   final String? dataVersion;
 
+  /// Structured summary behind [answer], when the model produced one.
+  final List<AiAnswerSection> sections;
+
   const AiChatResponse({
     required this.requestId,
     required this.status,
@@ -111,6 +114,7 @@ class AiChatResponse {
     this.suggestedPrompts = const [],
     this.chatBlocked = false,
     this.dataVersion,
+    this.sections = const [],
   });
 
   factory AiChatResponse.fromJson(Map<String, dynamic> json) {
@@ -138,6 +142,17 @@ class AiChatResponse {
           : const [],
       chatBlocked: json['chatBlocked'] as bool? ?? false,
       dataVersion: json['dataVersion'] as String?,
+      sections: json['sections'] is List
+          ? (json['sections'] as List)
+                .whereType<Map>()
+                .map(
+                  (section) => AiAnswerSection.fromJson(
+                    Map<String, dynamic>.from(section),
+                  ),
+                )
+                .where((section) => section.body.isNotEmpty)
+                .toList(growable: false)
+          : const [],
     );
   }
 }

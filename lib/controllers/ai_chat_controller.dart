@@ -79,6 +79,7 @@ class AiChatController extends ChangeNotifier {
           status: response.status,
           sources: response.sources,
           suggestedPrompts: response.suggestedPrompts,
+          sections: response.sections,
         ),
       );
     } on Exception catch (error) {
