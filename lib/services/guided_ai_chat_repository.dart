@@ -8,6 +8,7 @@ import '../config/api_urls.dart';
 import '../models/ai_chat.dart';
 import 'ai_chat_repository.dart';
 import 'ai_guardrails.dart';
+import 'ai_language.dart';
 import 'ai_response_parser.dart';
 import 'gemini_key_service.dart';
 import 'guided_ai_prompts.dart';
@@ -30,6 +31,9 @@ class GuidedAiChatRepository extends AiChatRepository {
   static const insufficientAnswerHindi =
       'माफ़ कीजिए, CareerPath में इसके बारे में पर्याप्त जानकारी नहीं है। '
       'उपलब्ध करियर देखने के लिए Explore टैब खोलें।';
+  static const insufficientAnswerHinglish =
+      'Sorry, CareerPath mein iske baare mein poori jaankari nahi hai. '
+      'Available career paths dekhne ke liye Explore tab kholiye.';
   static const unsupportedLanguageAnswer =
       'Please use English or Hindi so I can help you safely.';
   static const rateLimitAnswer =
@@ -88,7 +92,7 @@ class GuidedAiChatRepository extends AiChatRepository {
     final question = request.messages.isEmpty
         ? ''
         : request.messages.last.content.trim();
-    final hindi = request.locale == 'hi' || _looksHindi(question);
+    final language = _replyLanguage(question, request.locale);
     AiChatResponse reply(
       AiChatStatus status,
       String answer, {
@@ -157,7 +161,7 @@ class GuidedAiChatRepository extends AiChatRepository {
       case VoiceIntent.smallTalk:
         return reply(AiChatStatus.answered, LiveVoiceTools.smallTalkAnswer);
       case VoiceIntent.appHelp:
-        return _appHelp(request, question, hindi);
+        return _appHelp(request, question, language);
     }
 
     final searchQuery = intent.searchQuery.isNotEmpty
@@ -165,14 +169,14 @@ class GuidedAiChatRepository extends AiChatRepository {
         : intent.rewritten ?? question;
     final grounding = await _retrieve(searchQuery, request.streamId);
     if (grounding.isEmpty) {
-      return _fallback(request, storedFollowUp, hindi);
+      return _fallback(request, storedFollowUp, language);
     }
 
     final raw = await _generate(
       GuidedAiPrompts.answer(
         question: intent.rewritten ?? question,
         records: grounding.text,
-        hindi: hindi,
+        language: language,
         overview: intent.intent == VoiceIntent.overview,
       ),
       question,
@@ -180,7 +184,7 @@ class GuidedAiChatRepository extends AiChatRepository {
     );
     final parsed = AiResponseParser.parse(raw);
     if (parsed.isEmpty || _isRefusal(parsed)) {
-      return _fallback(request, storedFollowUp, hindi);
+      return _fallback(request, storedFollowUp, language);
     }
 
     for (var i = 0; i < parsed.questions.length; i++) {
@@ -273,7 +277,7 @@ class GuidedAiChatRepository extends AiChatRepository {
   Future<AiChatResponse> _appHelp(
     AiChatRequest request,
     String question,
-    bool hindi,
+    ReplyLanguage language,
   ) async {
     final help = await _loadAppHelp();
     final raw = await _post(
@@ -281,7 +285,7 @@ class GuidedAiChatRepository extends AiChatRepository {
       contents: [
         _userTurn(
           'APP HELP:\n$help\n\nQUESTION: $question\n\n'
-          'Reply in ${hindi ? 'Hindi (Devanagari)' : 'English'}.',
+          'Reply in ${AiLanguage.instruction(language)}.',
         ),
       ],
     );
@@ -298,7 +302,7 @@ class GuidedAiChatRepository extends AiChatRepository {
   AiChatResponse _fallback(
     AiChatRequest request,
     String? storedFollowUp,
-    bool hindi,
+    ReplyLanguage language,
   ) {
     if (storedFollowUp != null) {
       return AiChatResponse(
@@ -311,7 +315,12 @@ class GuidedAiChatRepository extends AiChatRepository {
     return _response(
       request,
       AiChatStatus.insufficientData,
-      hindi ? insufficientAnswerHindi : insufficientAnswer,
+      AiLanguage.pick(
+        language,
+        english: insufficientAnswer,
+        hindi: insufficientAnswerHindi,
+        hinglish: insufficientAnswerHinglish,
+      ),
     );
   }
 
@@ -451,9 +460,16 @@ class GuidedAiChatRepository extends AiChatRepository {
             text.contains('उपलब्ध नहीं'));
   }
 
-  static bool _looksHindi(String text) =>
-      RegExp(r'[ऀ-ॿ]').allMatches(text).length >
-      RegExp(r'[A-Za-z]').allMatches(text).length;
+  /// The language to answer in, detected from the question itself so a
+  /// Hindi-UI student typing English (or Hinglish) still gets that language
+  /// back. The UI locale is only a fallback when there is no question text
+  /// to detect from.
+  static ReplyLanguage _replyLanguage(String question, String locale) {
+    if (question.trim().isEmpty) {
+      return locale == 'hi' ? ReplyLanguage.hindi : ReplyLanguage.english;
+    }
+    return AiLanguage.detect(question);
+  }
 
   static String _normalise(String text) => text
       .toLowerCase()
