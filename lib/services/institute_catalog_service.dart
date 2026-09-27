@@ -60,6 +60,61 @@ class InstituteCatalogService {
     'innovation',
   };
 
+  /// Indian states/UTs as they appear in the bundled records, keyed by their
+  /// normalised (lowercase, no spaces) form so both the full name and common
+  /// abbreviations resolve to the same value.
+  static const _stateAliases = <String, String>{
+    'andhrapradesh': 'andhra pradesh',
+    'ap': 'andhra pradesh',
+    'arunachalpradesh': 'arunachal pradesh',
+    'assam': 'assam',
+    'bihar': 'bihar',
+    'chhattisgarh': 'chhattisgarh',
+    'cg': 'chhattisgarh',
+    'goa': 'goa',
+    'gujarat': 'gujarat',
+    'haryana': 'haryana',
+    'himachalpradesh': 'himachal pradesh',
+    'hp': 'himachal pradesh',
+    'jharkhand': 'jharkhand',
+    'karnataka': 'karnataka',
+    'kerala': 'kerala',
+    'madhyapradesh': 'madhya pradesh',
+    'mp': 'madhya pradesh',
+    'maharashtra': 'maharashtra',
+    'manipur': 'manipur',
+    'meghalaya': 'meghalaya',
+    'mizoram': 'mizoram',
+    'nagaland': 'nagaland',
+    'odisha': 'odisha',
+    'orissa': 'odisha',
+    'punjab': 'punjab',
+    'rajasthan': 'rajasthan',
+    'sikkim': 'sikkim',
+    'tamilnadu': 'tamil nadu',
+    'tn': 'tamil nadu',
+    'telangana': 'telangana',
+    'ts': 'telangana',
+    'tripura': 'tripura',
+    'uttarpradesh': 'uttar pradesh',
+    'up': 'uttar pradesh',
+    'uttarakhand': 'uttarakhand',
+    'uk': 'uttarakhand',
+    'ua': 'uttarakhand',
+    'westbengal': 'west bengal',
+    'wb': 'west bengal',
+    'delhi': 'delhi',
+    'newdelhi': 'delhi',
+    'ncr': 'delhi',
+    'jammuandkashmir': 'jammu and kashmir',
+    'jammukashmir': 'jammu and kashmir',
+    'jk': 'jammu and kashmir',
+    'ladakh': 'ladakh',
+    'puducherry': 'puducherry',
+    'pondicherry': 'puducherry',
+    'chandigarh': 'chandigarh',
+  };
+
   final Future<List<Map<String, dynamic>>> Function() _loader;
   List<InstituteRecord>? _records;
   Future<void>? _loading;
@@ -72,6 +127,33 @@ class InstituteCatalogService {
 
   List<InstituteRecord> get records => _records ?? const [];
 
+  /// Distinct source-defined institutional groups currently available.
+  /// Values are read from the database; the app does not own a fixed list.
+  List<String> get institutionTypes {
+    final values =
+        records
+            .map((record) => record.institute.institutionType?.trim())
+            .whereType<String>()
+            .where((value) => value.isNotEmpty)
+            .toSet()
+            .toList()
+          ..sort();
+    return List.unmodifiable(values);
+  }
+
+  /// Records belonging to the source-defined [institutionType].
+  List<InstituteRecord> byInstitutionType(String institutionType) {
+    final requested = institutionType.trim().toLowerCase();
+    if (requested.isEmpty) return const [];
+    return records
+        .where(
+          (record) =>
+              record.institute.institutionType?.trim().toLowerCase() ==
+              requested,
+        )
+        .toList(growable: false);
+  }
+
   Future<void> ensureLoaded() {
     if (_records != null) return Future.value();
     return _loading ??= _loader()
@@ -81,26 +163,67 @@ class InstituteCatalogService {
         .whenComplete(() => _loading = null);
   }
 
+  /// Two-token state names (e.g. "uttar" + "pradesh") that a single-token
+  /// alias can't cover, since query tokens lose word order.
+  static const _multiWordStates = <(String, String, String)>[
+    ('andhra', 'pradesh', 'andhra pradesh'),
+    ('arunachal', 'pradesh', 'arunachal pradesh'),
+    ('himachal', 'pradesh', 'himachal pradesh'),
+    ('madhya', 'pradesh', 'madhya pradesh'),
+    ('uttar', 'pradesh', 'uttar pradesh'),
+    ('west', 'bengal', 'west bengal'),
+    ('tamil', 'nadu', 'tamil nadu'),
+    ('jammu', 'kashmir', 'jammu and kashmir'),
+  ];
+
   static bool asksForRankings(String query) =>
       _tokens(query).any(_rankingWords.contains);
 
-  /// Institutes whose name, location or course names match [query].
+  /// The state named in [tokens], if any, in its canonical form.
+  static String? _requestedState(Set<String> tokens) {
+    for (final entry in _stateAliases.entries) {
+      if (tokens.contains(entry.key)) return entry.value;
+    }
+    for (final (first, second, state) in _multiWordStates) {
+      if (tokens.contains(first) && tokens.contains(second)) return state;
+    }
+    return null;
+  }
+
+  static String _normalizedState(String? state) {
+    final lower = (state ?? '').toLowerCase().trim();
+    final compact = lower.replaceAll(RegExp(r'[^a-z]'), '');
+    return _stateAliases[compact] ?? lower;
+  }
+
+  /// Institutes whose name, location or course names match [query]. When the
+  /// question names a state, only institutes actually in that state are
+  /// considered — otherwise a loosely-matching college from another state can
+  /// still hit the score threshold below and crowd out real results.
   List<InstituteRecord> search(String query, {int limit = 5}) {
     final tokens = _tokens(query).difference(_stopWords);
     if (tokens.isEmpty) return const [];
+    final requestedState = _requestedState(tokens);
     final scored = <(InstituteRecord, int)>[];
     for (final record in records) {
       final institute = record.institute;
+      if (requestedState != null &&
+          _normalizedState(institute.state) != requestedState) {
+        continue;
+      }
       final name = institute.name.toLowerCase();
       final place =
           '${institute.city ?? ''} ${institute.district ?? ''} '
-                  '${institute.state ?? ''}'
+                  '${institute.state ?? ''} ${institute.institutionType ?? ''}'
               .toLowerCase();
       final courses = record.courses
           .map((c) => '${c.name} ${c.specialization ?? ''}')
           .join(' ')
           .toLowerCase();
-      var score = 0;
+      // A requested state that matched already confirms relevance, even when
+      // the query used an abbreviation ("UP") that never appears in the
+      // stored place text.
+      var score = requestedState != null ? 6 : 0;
       for (final token in tokens) {
         if (_hasWord(name, token)) {
           score += 10;
@@ -162,6 +285,8 @@ class InstituteCatalogService {
         'Website: ${institute.website}',
       if (institute.description?.trim().isNotEmpty == true)
         'Description: ${_clip(institute.description!.trim(), 400)}',
+      if (institute.institutionType?.trim().isNotEmpty == true)
+        'Institution type: ${institute.institutionType!.trim()}',
       if (record.categories.isNotEmpty)
         'Categories: ${record.categories.join(', ')}',
       if (record.courses.isNotEmpty)

@@ -49,6 +49,24 @@ final _rows = <Map<String, dynamic>>[
       },
     ],
   },
+  {
+    'id': 9,
+    'name': 'Udaipur Arts College',
+    'city': 'Udaipur',
+    'state': 'Rajasthan',
+    'courses': [
+      {'id': 502, 'name': 'BA', 'level': 'Undergraduate'},
+    ],
+  },
+  {
+    'id': 11,
+    'name': 'Lucknow University',
+    'city': 'Lucknow',
+    'state': 'Uttar Pradesh',
+    'courses': [
+      {'id': 503, 'name': 'BA', 'level': 'Undergraduate'},
+    ],
+  },
 ];
 
 void main() {
@@ -79,6 +97,21 @@ void main() {
       InstituteCatalogService.describe(catalog.records.first),
       contains('B.Tech Computer Science (Undergraduate, 4 years'),
     );
+  });
+
+  test('search only returns the state named in the query', () async {
+    final catalog = InstituteCatalogService(() async => _rows);
+    await catalog.ensureLoaded();
+
+    final upResults = catalog.search('colleges in Uttar Pradesh that offer BA');
+    expect(upResults.map((r) => r.institute.id), [11]);
+
+    final abbreviated = catalog.search('BA colleges in UP');
+    expect(abbreviated.map((r) => r.institute.id), [11]);
+
+    final rajasthanResults = catalog.search('BA colleges in Rajasthan');
+    expect(rajasthanResults.map((r) => r.institute.id), isNot(contains(11)));
+    expect(rajasthanResults, isNotEmpty);
   });
 
   test('grounding adds institutes and rankings with sources', () async {
