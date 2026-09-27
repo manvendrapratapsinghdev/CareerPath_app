@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Legacy institute type classification result",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "institution_id",
+    "database_id",
+    "name",
+    "website",
+    "outcome",
+    "institution_type",
+    "source_url",
+    "confidence",
+    "evidence",
+    "notes"
+  ],
+  "properties": {
+    "institution_id": {"type": "string", "minLength": 1},
+    "database_id": {"type": "integer", "minimum": 1},
+    "name": {"type": "string", "minLength": 1},
+    "website": {"type": "string"},
+    "outcome": {"enum": ["classified", "manual_review"]},
+    "institution_type": {"type": ["string", "null"]},
+    "source_url": {"type": ["string", "null"]},
+    "confidence": {"type": ["string", "null"], "enum": ["high", "medium", "low", null]},
+    "evidence": {"type": ["string", "null"]},
+    "notes": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1}
+    }
+  }
+}

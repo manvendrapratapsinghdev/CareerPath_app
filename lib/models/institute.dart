@@ -2,6 +2,9 @@
 class Institute {
   final int id;
   final String? sourceId;
+
+  /// Data-driven institutional grouping from the source inventory.
+  final String? institutionType;
   final String name;
   final String? city;
   final String? district;
@@ -12,6 +15,7 @@ class Institute {
   const Institute({
     required this.id,
     this.sourceId,
+    this.institutionType,
     required this.name,
     this.city,
     this.district,
@@ -24,6 +28,7 @@ class Institute {
     return Institute(
       id: json['id'] as int,
       sourceId: json['source_id'] as String?,
+      institutionType: json['institution_type'] as String?,
       name: json['name'] as String,
       city: json['city'] as String?,
       district: json['district'] as String?,

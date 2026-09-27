@@ -61,6 +61,7 @@ class LeafDetails {
             (i) => {
               'id': i.id,
               'source_id': i.sourceId,
+              'institution_type': i.institutionType,
               'name': i.name,
               'city': i.city,
               'district': i.district,

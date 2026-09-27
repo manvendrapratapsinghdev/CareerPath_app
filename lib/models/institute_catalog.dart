@@ -142,6 +142,7 @@ class InstituteRecord {
   Map<String, dynamic> toJson() => {
     'id': institute.id,
     'source_id': institute.sourceId,
+    'institution_type': institute.institutionType,
     'name': institute.name,
     'city': institute.city,
     'district': institute.district,

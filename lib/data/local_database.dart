@@ -132,7 +132,7 @@ class LocalDatabase {
       ),
       db.rawQuery(
         'SELECT i.id, i.source_id, i.name, i.city, i.district, i.state, '
-        'i.website, i.description '
+        'i.institution_type, i.website, i.description '
         'FROM institutes i JOIN node_institutes ni ON ni.institute_id = i.id '
         'WHERE ni.node_id = ? ORDER BY i.name',
         [nodeId],
@@ -165,8 +165,8 @@ class LocalDatabase {
   Future<List<Map<String, dynamic>>> getInstituteCatalog() async {
     final results = await Future.wait([
       db.rawQuery(
-        'SELECT id, source_id, name, city, district, state, website, '
-        'description FROM institutes ORDER BY name',
+        'SELECT id, source_id, name, city, district, state, '
+        'institution_type, website, description FROM institutes ORDER BY name',
       ),
       db.rawQuery(
         'SELECT id, institute_id, name, level, credential, specialization, '

@@ -23,6 +23,8 @@ from typing import Any
 
 from bs4 import BeautifulSoup, Tag
 
+from discover_nirf_state_inventory import institution_type as derive_institution_type
+
 
 BASE_URL = "https://www.nirfindia.org/Rankings/2025/"
 STATE = "Rajasthan"
@@ -413,6 +415,7 @@ def build_inventory(
                 "nirf_name": entry.name,
                 "nirf_city": entry.city,
                 "state": STATE,
+                "institution_type": derive_institution_type(entry.name, []),
                 "district": None,
                 "district_verification_status": "pending_official_source",
                 "participating_categories": set(),
@@ -451,6 +454,9 @@ def build_inventory(
         )
         institution["participating_categories"] = sorted(
             institution["participating_categories"]
+        )
+        institution["institution_type"] = derive_institution_type(
+            institution["nirf_name"], institution["participating_categories"]
         )
         institution["rankings"].sort(
             key=lambda ranking: (
