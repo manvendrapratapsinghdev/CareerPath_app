@@ -44,10 +44,12 @@ def write_json_atomic(path: Path, payload: Any) -> None:
 def normalize_agent_result(
     result: dict[str, Any],
     institution_id: str,
+    *,
+    database_path: Path = DATABASE_PATH,
 ) -> dict[str, Any]:
     """Apply deterministic identifier normalization before validation."""
     prefix = f"{institution_id}-"
-    career_nodes = load_career_nodes()
+    career_nodes = load_career_nodes(database_path)
     for course in result.get("courses", []):
         course_id = course.get("course_id")
         if isinstance(course_id, str) and not course_id.startswith(prefix):
@@ -71,6 +73,7 @@ def normalize_agent_result(
             and result.get("course_catalogue_status")
             == "verified_official_website"
             and bool(result.get("courses"))
+            and bool(result.get("government_listing_sources"))
             and len(result.get("verification_sources", [])) >= 2
         )
         if not verified_prerequisites:
@@ -111,8 +114,11 @@ def utc_now() -> str:
     return datetime.now(timezone.utc).isoformat()
 
 
-def load_inventory_institution(institution_id: str) -> dict[str, Any]:
-    inventory = load_json(INVENTORY_PATH)
+def load_inventory_institution(
+    institution_id: str,
+    inventory_path: Path = INVENTORY_PATH,
+) -> dict[str, Any]:
+    inventory = load_json(inventory_path)
     matches = [
         item
         for item in inventory.get("institutions", [])
@@ -126,17 +132,25 @@ def load_inventory_institution(institution_id: str) -> dict[str, Any]:
     return matches[0]
 
 
-def build_prompt(institution: dict[str, Any]) -> str:
+def build_prompt(
+    institution: dict[str, Any],
+    *,
+    prompt_path: Path = PROMPT_PATH,
+) -> str:
     context = {
         "id": institution["id"],
         "nirf_name": institution["nirf_name"],
         "nirf_city": institution["nirf_city"],
         "state": institution["state"],
+        "institution_type": institution.get("institution_type"),
         "participating_categories": institution["participating_categories"],
         "rankings": institution["rankings"],
+        "government_listing_sources": institution.get(
+            "government_listing_sources", []
+        ),
     }
-    template = PROMPT_PATH.read_text(encoding="utf-8")
-    return template.replace(
+    template = prompt_path.read_text(encoding="utf-8")
+    return template.replace("{{STATE}}", institution["state"]).replace(
         "{{INSTITUTION_CONTEXT}}",
         json.dumps(context, ensure_ascii=False, indent=2),
     )
@@ -166,8 +180,10 @@ def is_official_url(url: str, domains: set[str]) -> bool:
     )
 
 
-def load_career_nodes() -> dict[int, dict[str, Any]]:
-    connection = sqlite3.connect(f"file:{DATABASE_PATH}?mode=ro", uri=True)
+def load_career_nodes(
+    database_path: Path = DATABASE_PATH,
+) -> dict[int, dict[str, Any]]:
+    connection = sqlite3.connect(f"file:{database_path}?mode=ro", uri=True)
     connection.row_factory = sqlite3.Row
     try:
         nodes = {
@@ -204,6 +220,9 @@ def load_career_nodes() -> dict[int, dict[str, Any]]:
 def validate_agent_result(
     result: dict[str, Any],
     expected_institution_id: str,
+    *,
+    inventory_path: Path = INVENTORY_PATH,
+    database_path: Path = DATABASE_PATH,
 ) -> list[str]:
     schema = load_json(SCHEMA_PATH)
     validator = Draft202012Validator(
@@ -223,12 +242,45 @@ def validate_agent_result(
             "institution_id does not match the assigned institution: "
             f"{result['institution_id']!r} != {expected_institution_id!r}"
         )
-    expected_institution = load_inventory_institution(expected_institution_id)
-    if result["nirf_name"] != expected_institution["nirf_name"]:
+    expected_institution = load_inventory_institution(
+        expected_institution_id,
+        inventory_path,
+    )
+    normalized_result_name = " ".join(result["nirf_name"].split())
+    normalized_inventory_name = " ".join(
+        expected_institution["nirf_name"].split()
+    )
+    if normalized_result_name != normalized_inventory_name:
         errors.append(
             "nirf_name does not match the assigned inventory record: "
             f"{result['nirf_name']!r} != "
             f"{expected_institution['nirf_name']!r}"
+        )
+    government_sources = expected_institution.get("government_listing_sources")
+    if government_sources is not None:
+        if not isinstance(government_sources, list) or not government_sources:
+            errors.append(
+                "institution is not backed by a government-directory listing"
+            )
+        elif any(
+            not isinstance(source, str)
+            or not source.startswith(("http://", "https://"))
+            for source in government_sources
+        ):
+            errors.append(
+                "government_listing_sources must contain only HTTP(S) URLs"
+            )
+
+    result_government_sources = set(result["government_listing_sources"])
+    inventory_government_sources = {
+        source for source in (government_sources or []) if isinstance(source, str)
+    }
+    if result["verification_outcome"] == "verified" and not (
+        result_government_sources & inventory_government_sources
+    ):
+        errors.append(
+            "verified outcome requires government listing evidence matching "
+            "the assigned inventory"
         )
 
     outcome = result["verification_outcome"]
@@ -302,12 +354,20 @@ def validate_agent_result(
         errors.append("allowed_official_domains contains duplicates")
     if result["website_verification_status"] == "verified" and not domains:
         errors.append("verified website did not produce an official domain")
+    government_sources = {
+        source
+        for source in expected_institution.get(
+            "government_listing_sources", []
+        )
+        if isinstance(source, str)
+    }
     for source in result["verification_sources"]:
         if domains and not is_official_url(source["url"], domains):
-            errors.append(
-                f"verification source is outside official domains: "
-                f"{source['url']}"
-            )
+            if source["url"] not in government_sources:
+                errors.append(
+                    f"verification source is outside official domains: "
+                    f"{source['url']}"
+                )
     for course in result["courses"]:
         if domains and not is_official_url(
             course["official_course_url"],
@@ -327,7 +387,7 @@ def validate_agent_result(
                 f"{course['course_id']}: mapped course requires null mapping_gap"
             )
 
-    nodes = load_career_nodes()
+    nodes = load_career_nodes(database_path)
     course_ids: set[str] = set()
     for course in result["courses"]:
         course_id = course["course_id"]

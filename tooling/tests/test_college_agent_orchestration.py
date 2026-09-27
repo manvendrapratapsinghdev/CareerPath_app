@@ -42,6 +42,7 @@ name_match = re.search(r'"nirf_name":\s*"([^"]+)"', prompt)
 payload = {
     "institution_id": institution_id,
     "nirf_name": name_match.group(1) if name_match else institution_id,
+    "government_listing_sources": [],
     "verification_outcome": "manual_review",
     "district": None,
     "district_verification_status": "pending_official_source",
@@ -165,6 +166,80 @@ class CollegeAgentOrchestrationTest(unittest.TestCase):
             self.assertEqual(
                 sum(item["batch"] == batch for item in assignments),
                 expected_batch_size,
+            )
+
+    def test_manifest_supports_two_hundred_candidates_and_requested_priority(
+        self,
+    ) -> None:
+        priority_types = [
+            "iit",
+            "iim",
+            "iiit",
+            "nit",
+            "central_institute",
+            "central_university",
+            "state_university",
+            "private_college",
+            "private_university",
+            "government_college",
+            "government_polytechnic",
+            "medical",
+            "law",
+            "agriculture",
+            "specialized",
+        ]
+        records = [
+            {
+                "id": f"other-{index}",
+                "nirf_name": f"Other Institute {index}",
+                "nirf_city": "Bhopal",
+                "institution_type": "other",
+                "rankings": [],
+                "website_verification_status": "pending",
+                "record_status": "candidate",
+            }
+            for index in range(200 - len(priority_types))
+        ]
+        records.extend(
+            {
+                "id": f"priority-{institution_type}",
+                "nirf_name": f"Priority {institution_type}",
+                "nirf_city": "Bhopal",
+                "institution_type": institution_type,
+                "rankings": [],
+                "website_verification_status": "pending",
+                "record_status": "candidate",
+            }
+            for institution_type in priority_types
+        )
+        with tempfile.TemporaryDirectory() as temporary_directory:
+            inventory_path = Path(temporary_directory) / "inventory.json"
+            inventory_path.write_text(
+                json.dumps({"institutions": records}),
+                encoding="utf-8",
+            )
+            manifest = build_manifest(
+                batch_count=20,
+                batch_size=10,
+                candidate_limit=200,
+                inventory_path=inventory_path,
+            )
+
+        assignments = manifest["assignments"]
+        self.assertEqual(len(assignments), 200)
+        self.assertEqual(manifest["metadata"]["batch_count"], 20)
+        self.assertEqual(
+            [item["institution_type"] for item in assignments[: len(priority_types)]],
+            priority_types,
+        )
+        self.assertEqual(
+            len({item["institution_id"] for item in assignments}),
+            200,
+        )
+        for batch in range(1, 21):
+            self.assertEqual(
+                sum(item["batch"] == batch for item in assignments),
+                10,
             )
 
     def test_manifest_excludes_previously_attempted_institutions(self) -> None:

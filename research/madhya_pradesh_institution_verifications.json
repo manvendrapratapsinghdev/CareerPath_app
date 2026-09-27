@@ -1,0 +1,234 @@
+{
+  "metadata": {
+    "title": "Madhya Pradesh institution official-site verifications",
+    "updated_on": "2026-09-27",
+    "policy": "Official institute websites were used for institute identity, website, location, descriptions, and course records. No rankings were added without a current authoritative ranking source."
+  },
+  "institutions": [
+    {
+      "id": "mp_iit_indore",
+      "district": "Indore",
+      "district_verification_status": "verified_official_website",
+      "official_website": "https://www.iiti.ac.in/",
+      "website_verification_status": "verified",
+      "description": "Institute of national importance offering engineering, science, humanities, postgraduate and doctoral education and research.",
+      "description_verification_status": "verified_official_website",
+      "allowed_official_domains": [],
+      "verification_sources": [
+        {"type": "official_institute_site", "url": "https://www.iiti.ac.in/", "supports": ["Institute identity and official website"]},
+        {"type": "official_academic_source", "url": "https://academic.iiti.ac.in/Admission/2026/mtech/2026-Advertisement_of_MTech_MS_(Research)_and_MA_Programs_AY_2026-27.pdf", "supports": ["Postgraduate programme and admission information"]},
+        {"type": "official_department_site", "url": "http://cse.iiti.ac.in/index.php", "supports": ["Computer Science and Engineering programme"]}
+      ],
+      "course_catalogue_status": "verified_official_website",
+      "courses": [
+        {"course_id": "mp_iit_indore_btech_cse", "name": "Computer Science and Engineering", "level": "Undergraduate", "credential": "B.Tech", "specialization": "Computer Science and Engineering", "duration": "4 years", "mode": "On-campus", "eligibility": "Selection through the Joint Entrance Examination is stated by the department.", "official_course_url": "http://cse.iiti.ac.in/index.php", "verification_status": "verified", "career_path_mappings": [{"career_node_id": 80, "career_node_slug": "btech_cs", "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science", "relation": "direct_discipline", "confidence": "high", "mapping_status": "reviewed_against_local_tree"}]},
+        {"course_id": "mp_iit_indore_msc_astronomy", "name": "M.Sc. in Astronomy", "level": "Postgraduate", "credential": "M.Sc.", "specialization": "Astronomy", "duration": "2 years", "mode": "On-campus", "eligibility": "Bachelor’s degree in Physics, Mathematics, Computer Science, Electrical Engineering or Mechanical Engineering plus JAM Physics, as stated in the curriculum document.", "official_course_url": "https://academic.iiti.ac.in/app/storage/app/coursecurriculum/xV6s3Ld4WRrN1eNyPh6x1IFEuv67KqlgEBTuMyw4.pdf", "verification_status": "verified", "career_path_mappings": [], "mapping_gap": "No dedicated astronomy node exists in the local career tree."},
+        {"course_id": "mp_iit_indore_mtech_cis", "name": "M.Tech. in Communication and Information Systems", "level": "Postgraduate", "credential": "M.Tech.", "specialization": "AI-ML/Cybersecurity or VLSI Design and Nano-electronics", "duration": null, "mode": "On-campus", "eligibility": null, "official_course_url": "https://academic.iiti.ac.in/app/storage/app/coursecurriculum/7HDeSUGBFvLFbyMMzQReT2lz0Et6a8XGSzp3bPEd.pdf", "verification_status": "verified", "career_path_mappings": [], "mapping_gap": "Official course page reviewed; duration, eligibility and a direct local-node mapping were not exposed."}
+      ],
+      "record_status": "verified"
+    },
+    {
+      "id": "mp_manit_bhopal",
+      "district": "Bhopal",
+      "district_verification_status": "verified_official_website",
+      "official_website": "https://www.manit.ac.in/",
+      "website_verification_status": "verified",
+      "description": "Technical institute also known as National Institute of Technology, Bhopal, offering undergraduate, postgraduate and research programmes.",
+      "description_verification_status": "verified_official_website",
+      "allowed_official_domains": [],
+      "verification_sources": [
+        {"type": "official_institute_site", "url": "https://www.manit.ac.in/about-us", "supports": ["Institute identity and programme scope"]},
+        {"type": "official_department_site", "url": "https://cse.manit.ac.in/civil-engineering-department", "supports": ["Civil Engineering and Structural Engineering programmes"]},
+        {"type": "official_department_site", "url": "https://cse.manit.ac.in/content/department-management-studies-dms", "supports": ["Management programme"]}
+      ],
+      "course_catalogue_status": "verified_official_website",
+      "courses": [
+        {"course_id": "mp_manit_bhopal_btech_civil", "name": "B.Tech. in Civil Engineering", "level": "Undergraduate", "credential": "B.Tech", "specialization": "Civil Engineering", "duration": null, "mode": "On-campus", "eligibility": null, "official_course_url": "https://cse.manit.ac.in/civil-engineering-department", "verification_status": "verified", "career_path_mappings": [{"career_node_id": 84, "career_node_slug": "btech_civil", "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering", "relation": "direct_discipline", "confidence": "high", "mapping_status": "reviewed_against_local_tree"}]},
+        {"course_id": "mp_manit_bhopal_mtech_structural", "name": "M.Tech. in Structural Engineering", "level": "Postgraduate", "credential": "M.Tech.", "specialization": "Structural Engineering", "duration": null, "mode": "On-campus", "eligibility": null, "official_course_url": "https://cse.manit.ac.in/civil-engineering-department", "verification_status": "verified", "career_path_mappings": [], "mapping_gap": "No dedicated structural-engineering node exists in the local career tree."},
+        {"course_id": "mp_manit_bhopal_mba", "name": "Master of Business Administration", "level": "Postgraduate", "credential": "MBA", "specialization": null, "duration": null, "mode": "On-campus", "eligibility": null, "official_course_url": "https://cse.manit.ac.in/content/department-management-studies-dms", "verification_status": "verified", "career_path_mappings": [], "mapping_gap": "No specific MBA leaf node was identified in the local career tree."},
+        {"course_id": "mp_manit_bhopal_mca", "name": "Master of Computer Applications", "level": "Postgraduate", "credential": "MCA", "specialization": null, "duration": null, "mode": "On-campus", "eligibility": null, "official_course_url": "https://conf.manit.ac.in/", "verification_status": "verified", "career_path_mappings": [], "mapping_gap": "The local tree has a BCA node but no dedicated MCA node."}
+      ],
+      "record_status": "verified"
+    },
+    {
+      "id": "mp_abv_iiitm_gwalior",
+      "district": "Gwalior",
+      "district_verification_status": "verified_official_website",
+      "official_website": "https://iiitm.ac.in/",
+      "website_verification_status": "verified",
+      "description": "Autonomous institution of national importance with an interdisciplinary focus integrating information technology and management.",
+      "description_verification_status": "verified_official_website",
+      "allowed_official_domains": [],
+      "verification_sources": [
+        {"type": "official_institute_site", "url": "https://iiitm.ac.in/", "supports": ["Institute identity, location and interdisciplinary programme areas"]},
+        {"type": "official_institute_document", "url": "https://iiitm.ac.in/public/uploads/media_uploads/1787290711_041Stipend-form-M-Tech-PhD-v3.pdf", "supports": ["M.Tech. and Ph.D. programme references"]}
+      ],
+      "course_catalogue_status": "verified_official_website",
+      "courses": [
+        {"course_id": "mp_abv_iiitm_gwalior_ug_computer_science", "name": "Undergraduate degree in Computer Science", "level": "Undergraduate", "credential": "Undergraduate degree", "specialization": "Computer Science", "duration": null, "mode": "On-campus", "eligibility": null, "official_course_url": "https://iiitm.ac.in/", "verification_status": "verified", "career_path_mappings": [], "mapping_gap": "Exact current award title and a direct local mapping were not exposed on the reviewed official page."},
+        {"course_id": "mp_abv_iiitm_gwalior_ug_information_technology", "name": "Undergraduate degree in Information Technology", "level": "Undergraduate", "credential": "Undergraduate degree", "specialization": "Information Technology", "duration": null, "mode": "On-campus", "eligibility": null, "official_course_url": "https://iiitm.ac.in/", "verification_status": "verified", "career_path_mappings": [], "mapping_gap": "Exact current award title and a direct local mapping were not exposed on the reviewed official page."},
+        {"course_id": "mp_abv_iiitm_gwalior_pg_management", "name": "Master’s degree in Management", "level": "Postgraduate", "credential": "Master’s degree", "specialization": "Management", "duration": null, "mode": "On-campus", "eligibility": null, "official_course_url": "https://iiitm.ac.in/", "verification_status": "verified", "career_path_mappings": [], "mapping_gap": "Exact current award title and a direct local mapping were not exposed on the reviewed official page."},
+        {"course_id": "mp_abv_iiitm_gwalior_phd", "name": "Doctoral programmes in Engineering Sciences, Management, IT, Computer Science and Electronics", "level": "Doctoral", "credential": "Ph.D.", "specialization": "Engineering Sciences, Management, IT, Computer Science and Electronics", "duration": null, "mode": "On-campus", "eligibility": null, "official_course_url": "https://iiitm.ac.in/public/uploads/media_uploads/1787290711_041Stipend-form-M-Tech-PhD-v3.pdf", "verification_status": "verified", "career_path_mappings": [], "mapping_gap": "Exact current programme catalogue details were not exposed on the reviewed official page."}
+      ],
+      "record_status": "verified"
+    },
+    {
+      "id": "mp_iiser_bhopal",
+      "district": "Bhopal",
+      "district_verification_status": "verified_official_website",
+      "official_website": "https://www.iiserb.ac.in/",
+      "website_verification_status": "verified",
+      "description": "Science-education and research institute with interdisciplinary undergraduate science programmes and postgraduate and research education.",
+      "description_verification_status": "verified_official_website",
+      "allowed_official_domains": [],
+      "verification_sources": [
+        {"type": "official_academic_source", "url": "https://acad.iiserb.ac.in/aa_manuals/UG_Manual_2025.pdf", "supports": ["Undergraduate programme structure"]},
+        {"type": "official_department_site", "url": "http://phy.iiserb.ac.in/academics", "supports": ["Physics BS-MS programme"]},
+        {"type": "official_department_site", "url": "https://eco.iiserb.ac.in/", "supports": ["Economic Sciences BS and BS-MS programmes"]}
+      ],
+      "course_catalogue_status": "verified_official_website",
+      "courses": [
+        {"course_id": "mp_iiser_bhopal_bs_ms_physics", "name": "BS-MS in Physics", "level": "Integrated undergraduate/postgraduate", "credential": "BS-MS", "specialization": "Physics", "duration": "5 years", "mode": "On-campus", "eligibility": null, "official_course_url": "http://phy.iiserb.ac.in/academics", "verification_status": "verified", "career_path_mappings": [{"career_node_id": 24, "career_node_slug": "bsc_physics", "career_breadcrumb": "Common Paths > B.Sc Physics", "relation": "direct_discipline", "confidence": "high", "mapping_status": "reviewed_against_local_tree"}]},
+        {"course_id": "mp_iiser_bhopal_bs_ms_chemistry", "name": "BS-MS in Chemistry", "level": "Integrated undergraduate/postgraduate", "credential": "BS-MS", "specialization": "Chemistry", "duration": null, "mode": "On-campus", "eligibility": null, "official_course_url": "https://chm.iiserb.ac.in/", "verification_status": "verified", "career_path_mappings": [{"career_node_id": 25, "career_node_slug": "bsc_chemistry", "career_breadcrumb": "Common Paths > B.Sc Chemistry", "relation": "direct_discipline", "confidence": "high", "mapping_status": "reviewed_against_local_tree"}]},
+        {"course_id": "mp_iiser_bhopal_bs_economic_sciences", "name": "BS in Economic Sciences", "level": "Undergraduate", "credential": "BS", "specialization": "Economic Sciences", "duration": "4 years", "mode": "On-campus", "eligibility": null, "official_course_url": "https://eco.iiserb.ac.in/", "verification_status": "verified", "career_path_mappings": [{"career_node_id": 68, "career_node_slug": "ba_economics", "career_breadcrumb": "Social Sciences & Education > BA Economics", "relation": "direct_discipline", "confidence": "medium", "mapping_status": "reviewed_with_career_tree_label_issue"}]},
+        {"course_id": "mp_iiser_bhopal_bs_ms_economic_sciences", "name": "BS-MS (Dual Degree) in Economic Sciences", "level": "Integrated undergraduate/postgraduate", "credential": "BS-MS", "specialization": "Economic Sciences", "duration": "5 years total", "mode": "On-campus", "eligibility": null, "official_course_url": "https://eco.iiserb.ac.in/", "verification_status": "verified", "career_path_mappings": [{"career_node_id": 68, "career_node_slug": "ba_economics", "career_breadcrumb": "Social Sciences & Education > BA Economics", "relation": "direct_discipline", "confidence": "medium", "mapping_status": "reviewed_with_career_tree_label_issue"}]}
+      ],
+      "record_status": "verified"
+    },
+    {
+      "id": "mp_iim_indore",
+      "district": "Indore",
+      "district_verification_status": "verified_official_website",
+      "official_website": "https://iimidr.ac.in/",
+      "website_verification_status": "verified",
+      "description": "Management institute offering full-time residential management programmes, an integrated management programme, executive education and doctoral programmes.",
+      "description_verification_status": "verified_official_website",
+      "allowed_official_domains": [],
+      "verification_sources": [
+        {"type": "official_programme_page", "url": "https://iimidr.ac.in/programmes/academic-programmes/", "supports": ["Academic programme names and durations where stated"]},
+        {"type": "official_programme_document", "url": "https://iimidr.ac.in/wp-content/uploads/2026/01/EPGP2026BatchProfile.pdf", "supports": ["Executive programme reference"]}
+      ],
+      "course_catalogue_status": "verified_official_website",
+      "courses": [
+        {"course_id": "mp_iim_indore_pgp_management", "name": "Post Graduate Programme in Management", "level": "Postgraduate", "credential": "PGP/MBA", "specialization": "Management", "duration": "2 years", "mode": "Full-time residential", "eligibility": null, "official_course_url": "https://iimidr.ac.in/programmes/academic-programmes/", "verification_status": "verified", "career_path_mappings": [], "mapping_gap": "No specific management leaf node was identified in the local career tree."},
+        {"course_id": "mp_iim_indore_ipm", "name": "Five Year Integrated Programme in Management", "level": "Integrated undergraduate/postgraduate", "credential": "IPM", "specialization": "Management", "duration": "5 years", "mode": "Full-time residential", "eligibility": "Candidates who have passed Class XII/Higher Secondary or equivalent.", "official_course_url": "https://iimidr.ac.in/programmes/academic-programmes/", "verification_status": "verified", "career_path_mappings": [], "mapping_gap": "No specific management leaf node was identified in the local career tree."},
+        {"course_id": "mp_iim_indore_epgp", "name": "Executive Post Graduate Programme in Management", "level": "Postgraduate/executive", "credential": "EPGP", "specialization": "Management", "duration": "1 year residential", "mode": "Full-time residential", "eligibility": null, "official_course_url": "https://iimidr.ac.in/programmes/academic-programmes/", "verification_status": "verified", "career_path_mappings": [], "mapping_gap": "No specific management leaf node was identified in the local career tree."},
+        {"course_id": "mp_iim_indore_pgphrm", "name": "Post Graduate Programme in Human Resource Management", "level": "Postgraduate", "credential": "PGP-HRM", "specialization": "Human Resource Management", "duration": "2 years", "mode": "Full-time residential", "eligibility": null, "official_course_url": "https://iimidr.ac.in/programmes/academic-programmes/", "verification_status": "verified", "career_path_mappings": [], "mapping_gap": "No specific human-resources leaf node was identified in the local career tree."},
+        {"course_id": "mp_iim_indore_dpm", "name": "Doctoral Programme in Management", "level": "Doctoral", "credential": "DPM", "specialization": "Management", "duration": null, "mode": "Full-time residential", "eligibility": null, "official_course_url": "https://iimidr.ac.in/programmes/academic-programmes/", "verification_status": "verified", "career_path_mappings": [], "mapping_gap": "No specific management research leaf node was identified in the local career tree."}
+      ],
+      "record_status": "verified"
+    },
+    {
+      "id": "mp_nliu_bhopal",
+      "district": "Bhopal",
+      "district_verification_status": "verified_official_website",
+      "official_website": "https://nliu.ac.in/",
+      "website_verification_status": "verified",
+      "description": "National law university offering undergraduate, postgraduate and specialist legal education.",
+      "description_verification_status": "verified_official_website",
+      "allowed_official_domains": [],
+      "verification_sources": [
+        {"type": "official_admission_notification", "url": "https://nliu.ac.in/wp-content/uploads/2024/05/Admission-Notification1.pdf", "supports": ["B.A. LL.B. (Hons.) and LL.M. programme references"]},
+        {"type": "official_admission_notice", "url": "https://nliu.ac.in/wp-content/uploads/2024/12/BALLB-Instructions-for-NRI-Sponsored-2025BALLB.pdf", "supports": ["B.Sc. LL.B. (Hons.) Cyber Security and science-stream eligibility"]}
+      ],
+      "course_catalogue_status": "verified_official_website",
+      "courses": [
+        {"course_id": "mp_nliu_bhopal_ballb_hons", "name": "B.A. LL.B. (Hons.)", "level": "Integrated undergraduate", "credential": "B.A. LL.B. (Hons.)", "specialization": "Law", "duration": "5 years", "mode": "On-campus", "eligibility": null, "official_course_url": "https://nliu.ac.in/wp-content/uploads/2024/05/Admission-Notification1.pdf", "verification_status": "verified", "career_path_mappings": [{"career_node_id": 343, "career_node_slug": "commerce_law", "career_breadcrumb": "Law & Legal", "relation": "direct_discipline", "confidence": "high", "mapping_status": "reviewed_with_career_tree_label_issue"}]},
+        {"course_id": "mp_nliu_bhopal_bsc_llib_cyber", "name": "B.Sc. LL.B. (Hons.) [Cyber Security]", "level": "Integrated undergraduate", "credential": "B.Sc. LL.B. (Hons.)", "specialization": "Cyber Security", "duration": "5 years", "mode": "On-campus", "eligibility": "10+2/Higher Secondary in the science stream.", "official_course_url": "https://nliu.ac.in/wp-content/uploads/2024/12/BALLB-Instructions-for-NRI-Sponsored-2025BALLB.pdf", "verification_status": "verified", "career_path_mappings": [{"career_node_id": 343, "career_node_slug": "commerce_law", "career_breadcrumb": "Law & Legal", "relation": "direct_discipline", "confidence": "high", "mapping_status": "reviewed_with_career_tree_label_issue"}]},
+        {"course_id": "mp_nliu_bhopal_llm", "name": "LL.M.", "level": "Postgraduate", "credential": "LL.M.", "specialization": "Law", "duration": "1 year", "mode": "On-campus", "eligibility": null, "official_course_url": "https://nliu.ac.in/wp-content/uploads/2024/05/Admission-Notification1.pdf", "verification_status": "verified", "career_path_mappings": [], "mapping_gap": "The local tree contains law career outcomes but no dedicated LL.M. course node."}
+      ],
+      "record_status": "verified"
+    },
+    {
+      "id": "mp_jnkvv_jabalpur",
+      "district": "Jabalpur",
+      "district_verification_status": "verified_official_website",
+      "official_website": "https://www.jnkvv.org/",
+      "website_verification_status": "verified",
+      "description": "Agricultural university with agriculture, agricultural engineering, horticulture, forestry and related teaching and research.",
+      "description_verification_status": "verified_official_website",
+      "allowed_official_domains": [],
+      "verification_sources": [
+        {"type": "official_college_page", "url": "https://www.jnkvv.org/colleges-details/college-of-agriculture-jabalpur", "supports": ["College identity and agriculture programme"]},
+        {"type": "official_curriculum_document", "url": "https://www.jnkvv.org/public/file/1764064317.COURSE%20CURRICULUM%20B.Tech..pdf", "supports": ["B.Tech. Agricultural Engineering curriculum"]},
+        {"type": "official_regulations_document", "url": "http://di.jnkvv.org/images/PDFs/Academic_Regulations.pdf", "supports": ["Postgraduate agriculture and forestry programme references"]}
+      ],
+      "course_catalogue_status": "verified_official_website",
+      "courses": [
+        {"course_id": "mp_jnkvv_jabalpur_bsc_hons_agriculture", "name": "B.Sc. (Hons.) Agriculture", "level": "Undergraduate", "credential": "B.Sc. (Hons.)", "specialization": "Agriculture", "duration": null, "mode": "On-campus", "eligibility": null, "official_course_url": "https://www.jnkvv.org/colleges-details/college-of-agriculture-jabalpur", "verification_status": "verified", "career_path_mappings": [{"career_node_id": 30, "career_node_slug": "bsc_agriculture", "career_breadcrumb": "Common Paths > B.Sc Agriculture", "relation": "direct_discipline", "confidence": "high", "mapping_status": "reviewed_against_local_tree"}]},
+        {"course_id": "mp_jnkvv_jabalpur_btech_agricultural_engineering", "name": "B.Tech. Agricultural Engineering", "level": "Undergraduate", "credential": "B.Tech", "specialization": "Agricultural Engineering", "duration": null, "mode": "On-campus", "eligibility": null, "official_course_url": "https://www.jnkvv.org/public/file/1764064317.COURSE%20CURRICULUM%20B.Tech..pdf", "verification_status": "verified", "career_path_mappings": [{"career_node_id": 365, "career_node_slug": "agri_tech_specialist", "career_breadcrumb": "Common Paths > B.Sc Agriculture > AgriTech / Precision Farming Specialist", "relation": "specialization", "confidence": "medium", "mapping_status": "reviewed_with_career_tree_label_issue"}]},
+        {"course_id": "mp_jnkvv_jabalpur_msc_agriculture", "name": "M.Sc. (Agriculture)", "level": "Postgraduate", "credential": "M.Sc.", "specialization": "Agriculture", "duration": null, "mode": "On-campus", "eligibility": null, "official_course_url": "http://di.jnkvv.org/images/PDFs/Academic_Regulations.pdf", "verification_status": "verified", "career_path_mappings": [{"career_node_id": 165, "career_node_slug": "agri_scientist", "career_breadcrumb": "Common Paths > B.Sc Agriculture > Agricultural Scientist", "relation": "career_outcome", "confidence": "medium", "mapping_status": "reviewed_with_career_tree_label_issue"}]},
+        {"course_id": "mp_jnkvv_jabalpur_msc_forestry", "name": "M.Sc. (Forestry)", "level": "Postgraduate", "credential": "M.Sc.", "specialization": "Forestry", "duration": null, "mode": "On-campus", "eligibility": null, "official_course_url": "http://di.jnkvv.org/images/PDFs/Academic_Regulations.pdf", "verification_status": "verified", "career_path_mappings": [], "mapping_gap": "No dedicated forestry node exists in the local career tree."}
+      ],
+      "record_status": "verified"
+    },
+    {
+      "id": "mp_rgpv_bhopal",
+      "district": "Bhopal",
+      "district_verification_status": "verified_official_website",
+      "official_website": "https://www.rgpv.ac.in/",
+      "website_verification_status": "verified",
+      "description": "University of Technology of the Government of Madhya Pradesh offering engineering, pharmacy, architecture, management and computer-application programmes.",
+      "description_verification_status": "verified_official_website",
+      "allowed_official_domains": [],
+      "verification_sources": [
+        {"type": "official_programme_document", "url": "https://www.rgpv.ac.in/PDF/Programmes_offered.pdf", "supports": ["Official programme list"]},
+        {"type": "official_institute_document", "url": "https://www.rgpv.ac.in/CDN/PubContent/Advertisement/broucher130418113645.pdf", "supports": ["University identity and programme scope"]}
+      ],
+      "course_catalogue_status": "verified_official_website",
+      "courses": [
+        {"course_id": "mp_rgpv_bhopal_btech_cse", "name": "B.Tech. in Computer Science and Engineering", "level": "Undergraduate", "credential": "B.Tech", "specialization": "Computer Science and Engineering", "duration": null, "mode": "On-campus", "eligibility": null, "official_course_url": "https://www.rgpv.ac.in/PDF/Programmes_offered.pdf", "verification_status": "verified", "career_path_mappings": [{"career_node_id": 80, "career_node_slug": "btech_cs", "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science", "relation": "direct_discipline", "confidence": "high", "mapping_status": "reviewed_against_local_tree"}]},
+        {"course_id": "mp_rgpv_bhopal_btech_ece", "name": "B.Tech. in Electronics and Communication Engineering", "level": "Undergraduate", "credential": "B.Tech", "specialization": "Electronics and Communication Engineering", "duration": null, "mode": "On-campus", "eligibility": null, "official_course_url": "https://www.rgpv.ac.in/PDF/Programmes_offered.pdf", "verification_status": "verified", "career_path_mappings": [], "mapping_gap": "No dedicated electronics and communication node exists in the local career tree."},
+        {"course_id": "mp_rgpv_bhopal_mca", "name": "Master of Computer Applications", "level": "Postgraduate", "credential": "MCA", "specialization": null, "duration": null, "mode": "On-campus", "eligibility": null, "official_course_url": "https://www.rgpv.ac.in/PDF/Programmes_offered.pdf", "verification_status": "verified", "career_path_mappings": [], "mapping_gap": "The local tree has a BCA node but no dedicated MCA node."},
+        {"course_id": "mp_rgpv_bhopal_mtech_structural", "name": "M.Tech. in Structural Engineering", "level": "Postgraduate", "credential": "M.Tech.", "specialization": "Structural Engineering", "duration": null, "mode": "On-campus", "eligibility": null, "official_course_url": "https://www.rgpv.ac.in/PDF/Programmes_offered.pdf", "verification_status": "verified", "career_path_mappings": [], "mapping_gap": "No dedicated structural-engineering node exists in the local career tree."},
+        {"course_id": "mp_rgpv_bhopal_mpharm", "name": "Master of Pharmacy", "level": "Postgraduate", "credential": "M.Pharm.", "specialization": "Pharmacy", "duration": null, "mode": "On-campus", "eligibility": null, "official_course_url": "https://www.rgpv.ac.in/PDF/Programmes_offered.pdf", "verification_status": "verified", "career_path_mappings": [], "mapping_gap": "The local tree has no dedicated pharmacy postgraduate node."}
+      ],
+      "record_status": "verified"
+    },
+    {
+      "id": "mp_davv_indore",
+      "district": "Indore",
+      "district_verification_status": "verified_official_website",
+      "official_website": "https://www.dauniv.ac.in/",
+      "website_verification_status": "verified",
+      "description": "State university with teaching departments and affiliated colleges across science, engineering, technology, management, law and media.",
+      "description_verification_status": "verified_official_website",
+      "allowed_official_domains": [],
+      "verification_sources": [
+        {"type": "official_institute_page", "url": "https://www.dauniv.ac.in/iet", "supports": ["Institute and engineering programme references"]},
+        {"type": "official_syllabus_document", "url": "https://www.dauniv.ac.in/frontassets/syllabus/syllabus_i_ii___2_.pdf", "supports": ["MBA programme reference and duration"]},
+        {"type": "official_department_page", "url": "https://scs.dauniv.ac.in/about.php", "supports": ["Computer science and cyber-security programme areas"]}
+      ],
+      "course_catalogue_status": "verified_official_website",
+      "courses": [
+        {"course_id": "mp_davv_indore_btech_computer_engineering", "name": "B.Tech. in Computer Engineering", "level": "Undergraduate", "credential": "B.Tech", "specialization": "Computer Engineering", "duration": null, "mode": "On-campus", "eligibility": null, "official_course_url": "https://www.dauniv.ac.in/iet", "verification_status": "verified", "career_path_mappings": [{"career_node_id": 80, "career_node_slug": "btech_cs", "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science", "relation": "specialization", "confidence": "medium", "mapping_status": "reviewed_with_career_tree_label_issue"}]},
+        {"course_id": "mp_davv_indore_btech_cs_business_systems", "name": "B.Tech. in Computer Science and Business Systems", "level": "Undergraduate", "credential": "B.Tech", "specialization": "Computer Science and Business Systems", "duration": null, "mode": "On-campus", "eligibility": null, "official_course_url": "https://www.dauniv.ac.in/iet", "verification_status": "verified", "career_path_mappings": [{"career_node_id": 80, "career_node_slug": "btech_cs", "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science", "relation": "specialization", "confidence": "medium", "mapping_status": "reviewed_with_career_tree_label_issue"}]},
+        {"course_id": "mp_davv_indore_mba", "name": "MBA (Full Time)", "level": "Postgraduate", "credential": "MBA", "specialization": "Management", "duration": "2 years", "mode": "Full-time", "eligibility": null, "official_course_url": "https://www.dauniv.ac.in/frontassets/syllabus/syllabus_i_ii___2_.pdf", "verification_status": "verified", "career_path_mappings": [], "mapping_gap": "No specific MBA leaf node was identified in the local career tree."},
+        {"course_id": "mp_davv_indore_mtech_computer_science", "name": "M.Tech. in Computer Science / Network Management and Information Security", "level": "Postgraduate", "credential": "M.Tech.", "specialization": "Computer Science, Network Management and Information Security", "duration": null, "mode": "On-campus", "eligibility": null, "official_course_url": "https://scs.dauniv.ac.in/assets/pdf/Course_Scheme_July_December_odd_semester_2026_New.pdf", "verification_status": "verified", "career_path_mappings": [], "mapping_gap": "The local tree has no exact postgraduate network-security course node."},
+        {"course_id": "mp_davv_indore_msc_integrated_cyber_security", "name": "M.Sc. (Integrated) Cyber Security", "level": "Integrated programme", "credential": "M.Sc.", "specialization": "Cyber Security", "duration": null, "mode": "On-campus", "eligibility": null, "official_course_url": "https://scs.dauniv.ac.in/assets/pdf/Course_Scheme_July_December_odd_semester_2026_New.pdf", "verification_status": "verified", "career_path_mappings": [{"career_node_id": 309, "career_node_slug": "cybersecurity_analyst", "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science > Cybersecurity Analyst", "relation": "career_outcome", "confidence": "medium", "mapping_status": "reviewed_with_career_tree_label_issue"}]}
+      ],
+      "record_status": "verified"
+    },
+    {
+      "id": "mp_mpmsu_jabalpur",
+      "district": "Jabalpur",
+      "district_verification_status": "verified_official_website",
+      "official_website": "https://mpmsu.mponline.gov.in/portal/",
+      "website_verification_status": "verified",
+      "description": "State medical-science university and governing body for affiliated medicine, dental, nursing, paramedical, Ayurveda, homeopathic, Unani and yoga colleges across Madhya Pradesh.",
+      "description_verification_status": "verified_official_website",
+      "allowed_official_domains": [],
+      "verification_sources": [
+        {"type": "official_university_portal", "url": "https://mpmsu.mponline.gov.in/portal/", "supports": ["University identity, governed disciplines and affiliated-college scope"]}
+      ],
+      "course_catalogue_status": "verified_official_website",
+      "courses": [
+        {"course_id": "mp_mpmsu_jabalpur_medicine_mbbs", "name": "Medicine / MBBS", "level": "Undergraduate professional medicine", "credential": "MBBS", "specialization": "Medicine", "duration": null, "mode": "On-campus", "eligibility": null, "official_course_url": "https://mpmsu.mponline.gov.in/portal/", "verification_status": "verified", "career_path_mappings": [], "mapping_gap": "The reviewed portal confirms Medicine as a governed discipline but does not itemize MBBS details."},
+        {"course_id": "mp_mpmsu_jabalpur_dental_bds", "name": "Dental / BDS", "level": "Undergraduate professional dentistry", "credential": "BDS", "specialization": "Dental", "duration": null, "mode": "On-campus", "eligibility": null, "official_course_url": "https://mpmsu.mponline.gov.in/portal/", "verification_status": "verified", "career_path_mappings": [], "mapping_gap": "The reviewed portal confirms Dental as a governed discipline but does not itemize BDS details."},
+        {"course_id": "mp_mpmsu_jabalpur_nursing_bsc", "name": "Nursing / B.Sc. Nursing", "level": "Undergraduate nursing", "credential": "B.Sc. Nursing", "specialization": "Nursing", "duration": null, "mode": "On-campus", "eligibility": null, "official_course_url": "https://mpmsu.mponline.gov.in/portal/", "verification_status": "verified", "career_path_mappings": [{"career_node_id": 19, "career_node_slug": "bsc_nursing", "career_breadcrumb": "Biology / PCB > B.Sc Nursing", "relation": "direct_discipline", "confidence": "medium", "mapping_status": "reviewed_against_local_tree"}]},
+        {"course_id": "mp_mpmsu_jabalpur_paramedical", "name": "Paramedical programmes", "level": "Undergraduate/postgraduate/professional", "credential": "Paramedical programme", "specialization": "Paramedical and Allied Health", "duration": null, "mode": "On-campus", "eligibility": null, "official_course_url": "https://mpmsu.mponline.gov.in/portal/", "verification_status": "verified", "career_path_mappings": [{"career_node_id": 339, "career_node_slug": "science_paramedical", "career_breadcrumb": "Paramedical & Health Sciences", "relation": "direct_discipline", "confidence": "medium", "mapping_status": "reviewed_with_career_tree_label_issue"}]}
+      ],
+      "record_status": "verified"
+    }
+  ]
+}

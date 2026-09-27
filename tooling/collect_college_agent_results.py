@@ -14,7 +14,7 @@ from college_agents.common import (
     validate_agent_result,
     write_json_atomic,
 )
-from validate_rajasthan_verifications import validate
+from validate_verifications import validate
 
 
 DEFAULT_VERIFICATIONS = (
@@ -40,6 +40,7 @@ def curated_record(result: dict[str, Any]) -> dict[str, Any]:
         "course_catalogue_status",
         "courses",
         "agent_notes",
+        "government_listing_sources",
     )
     return {
         "id": result["institution_id"],
@@ -55,6 +56,18 @@ def parse_args() -> argparse.Namespace:
         "--verifications",
         type=Path,
         default=DEFAULT_VERIFICATIONS,
+    )
+    parser.add_argument(
+        "--inventory",
+        type=Path,
+        default=DEFAULT_INVENTORY,
+        help="State inventory used for result validation.",
+    )
+    parser.add_argument(
+        "--database",
+        type=Path,
+        default=DEFAULT_DATABASE,
+        help="Career database used for mapping and final validation.",
     )
     parser.add_argument(
         "--output",
@@ -107,7 +120,12 @@ def main() -> int:
         institution_id = result.get("institution_id")
         if not isinstance(institution_id, str):
             raise SystemExit(f"{result_path}: missing institution_id")
-        errors = validate_agent_result(result, institution_id)
+        errors = validate_agent_result(
+            result,
+            institution_id,
+            inventory_path=args.inventory.resolve(),
+            database_path=args.database.resolve(),
+        )
         if errors:
             raise SystemExit(
                 f"{result_path} failed validation:\n- " + "\n- ".join(errors)
@@ -141,7 +159,11 @@ def main() -> int:
             "for an atomic replacement"
         )
     write_json_atomic(output_path, payload)
-    errors = validate(output_path, DEFAULT_INVENTORY, DEFAULT_DATABASE)
+    errors = validate(
+        output_path,
+        args.inventory.resolve(),
+        args.database.resolve(),
+    )
     if errors:
         output_path.unlink(missing_ok=True)
         raise SystemExit(

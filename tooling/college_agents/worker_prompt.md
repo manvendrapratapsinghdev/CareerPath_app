@@ -1,4 +1,4 @@
-You are verifying exactly one Rajasthan institution for a student career app.
+You are verifying exactly one {{STATE}} institution for a student career app.
 
 INSTITUTION_CONTEXT
 {{INSTITUTION_CONTEXT}}
@@ -14,9 +14,11 @@ Research rules:
    desktop-control tools. Discover and read public pages through command-line
    HTTPS requests. The worker has outbound network access but no interactive
    browser session. Use $TMPDIR for temporary files; never write to /tmp.
-3. Use Google or another search engine for discovery, but use only the
-   institution's actual official website as evidence for the website, district,
-   description, programme catalogue, duration, and eligibility.
+3. The institution must be listed in the government-directory sources included
+   in INSTITUTION_CONTEXT. If that government listing cannot be established,
+   return manual_review and do not verify or import the institution. Use only
+   the institution's actual official website as evidence for the website,
+   district, description, programme catalogue, duration, and eligibility.
 4. Never use Shiksha, Careers360, Collegedunia, CollegeDunia, Wikipedia,
    university aggregators, social profiles, or search snippets as verification
    sources.
@@ -44,8 +46,8 @@ Research rules:
    closest-specialization mapping with medium/low confidence when no exact node
    exists. If no responsible mapping exists, return an empty
    career_path_mappings array and add mapping_gap.
-11. Do not read research/rajasthan_institution_verifications.json or any prior
-    agent result. This run must independently verify the institution.
+11. Do not read any curated verification file or prior agent result. This run
+    must independently verify the institution.
 12. The managed network proxy can cause a local certificate-chain error. First
     try normal TLS verification. If and only if that exact proxy certificate
     error occurs, curl --insecure may be used for public GET requests after
@@ -62,6 +64,11 @@ Outcome rules:
   authoritative-domain check, no official institution website can be
   established. Include every query and result in website_search_evidence.
   Do not treat the absence of one Google result as proof.
+
+For every result, include government_listing_sources copied from the matching
+INSTITUTION_CONTEXT government_listing_sources. For verified records, this
+array must be non-empty and must point to the government discovery listing that
+contains the assigned institution.
 
 For verified records, verification_sources must include the official homepage,
 the page proving district/campus identity, and every catalogue page used.

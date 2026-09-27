@@ -1,0 +1,1818 @@
+{
+  "metadata": {
+    "created_at": "2026-09-27T13:37:53.150495+00:00",
+    "inventory_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/madhya_pradesh_nirf_state_inventory.json",
+    "inventory_sha256": "21ad5be62c3e5574f58d3fb08dcb3c647cecce7a63ac5f447502c008d962a352",
+    "batch_count": 40,
+    "requested_batch_count": 40,
+    "batch_size": 5,
+    "candidate_limit": 200,
+    "eligible_candidate_count": 200,
+    "assignment_count": 200,
+    "selection": [
+      "Priority order is IIT, IIM, NIT/IIIT, central university or institute, state university, private university/college, government/aided degree college, polytechnic, medical, law, agriculture, then specialized institutions. Within a tier, ranked/banded institutions are ordered by best visible rank or band, then city and name. Caller-supplied previously attempted ids are excluded. Only records that remain fully verified are eligible for collection and import."
+    ]
+  },
+  "assignments": [
+    {
+      "batch": 1,
+      "slot": 1,
+      "institution_id": "indian-institute-of-technology-indore",
+      "nirf_name": "Indian Institute of Technology Indore",
+      "nirf_city": "Indore",
+      "institution_type": "iit",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 1,
+      "slot": 2,
+      "institution_id": "indian-institute-of-management-indore",
+      "nirf_name": "Indian Institute of Management Indore",
+      "nirf_city": "Indore",
+      "institution_type": "iim",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 1,
+      "slot": 3,
+      "institution_id": "maulana-azad-national-institute-of-technology",
+      "nirf_name": "Maulana Azad National Institute of Technology",
+      "nirf_city": "Bhopal",
+      "institution_type": "nit",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 1,
+      "slot": 4,
+      "institution_id": "atal-bihari-vajpayee-indian-institute-of-information-technology-and-management",
+      "nirf_name": "Atal Bihari Vajpayee Indian Institute of Information Technology and Management",
+      "nirf_city": "Gwalior",
+      "institution_type": "iiit",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 1,
+      "slot": 5,
+      "institution_id": "pandit-dwarka-prasad-mishra-indian-institute-of-information-technology-design-and-manufacturing-iiitdm-jabalpur",
+      "nirf_name": "Pandit Dwarka Prasad Mishra Indian Institute of Information Technology, Design and Manufacturing (IIITDM) Jabalpur",
+      "nirf_city": "Jabalpur",
+      "institution_type": "iiit",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 2,
+      "slot": 1,
+      "institution_id": "indian-institute-of-forest-management",
+      "nirf_name": "Indian Institute of Forest Management",
+      "nirf_city": "Bhopal",
+      "institution_type": "central_institute",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 2,
+      "slot": 2,
+      "institution_id": "indian-institute-of-science-education-research-bhopal",
+      "nirf_name": "Indian Institute of Science Education & Research Bhopal",
+      "nirf_city": "Bhopal",
+      "institution_type": "central_institute",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 2,
+      "slot": 3,
+      "institution_id": "lakshmibai-national-institute-of-physical-education-gwalior-ministry-of-youth-affairs-and-sports-government-of-india",
+      "nirf_name": "LAKSHMIBAI NATIONAL INSTITUTE OF PHYSICAL EDUCATION, Gwalior (Ministry of Youth Affairs and Sports, Government of India)",
+      "nirf_city": "Gwalior",
+      "institution_type": "central_institute",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 2,
+      "slot": 4,
+      "institution_id": "indira-gandhi-national-tribal-university",
+      "nirf_name": "Indira Gandhi National Tribal University",
+      "nirf_city": "Amarkantak",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 2,
+      "slot": 5,
+      "institution_id": "sardar-patel-university",
+      "nirf_name": "Sardar Patel University",
+      "nirf_city": "Balaghat",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 3,
+      "slot": 1,
+      "institution_id": "school-of-agriculture-science-technology-research-sardar-patel-university-balaghat-m-p",
+      "nirf_name": "School of Agriculture Science, Technology & Research, Sardar Patel University, Balaghat (M. P.)",
+      "nirf_city": "Balaghat",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 3,
+      "slot": 2,
+      "institution_id": "barkatullah-university-bhopal",
+      "nirf_name": "Barkatullah University, Bhopal",
+      "nirf_city": "Bhopal",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 3,
+      "slot": 3,
+      "institution_id": "bhabha-university-bhopal",
+      "nirf_name": "Bhabha University, Bhopal",
+      "nirf_city": "Bhopal",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 3,
+      "slot": 4,
+      "institution_id": "jagran-lakecity-university-bhopal",
+      "nirf_name": "Jagran Lakecity University, Bhopal",
+      "nirf_city": "Bhopal",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 3,
+      "slot": 5,
+      "institution_id": "lnct-university",
+      "nirf_name": "LNCT University",
+      "nirf_city": "Bhopal",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 4,
+      "slot": 1,
+      "institution_id": "m-p-bhoj-open-university-bhopal",
+      "nirf_name": "M.P. Bhoj (Open) University, Bhopal",
+      "nirf_city": "Bhopal",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 4,
+      "slot": 2,
+      "institution_id": "madhyanchal-professional-university",
+      "nirf_name": "Madhyanchal Professional University",
+      "nirf_city": "Bhopal",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 4,
+      "slot": 3,
+      "institution_id": "national-law-institute-university-bhopal",
+      "nirf_name": "National Law Institute University, Bhopal",
+      "nirf_city": "Bhopal",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 4,
+      "slot": 4,
+      "institution_id": "rkdf-university",
+      "nirf_name": "RKDF University",
+      "nirf_city": "Bhopal",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 4,
+      "slot": 5,
+      "institution_id": "sarvepalli-radhakrishnan-university",
+      "nirf_name": "SARVEPALLI RADHAKRISHNAN UNIVERSITY",
+      "nirf_city": "Bhopal",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 5,
+      "slot": 1,
+      "institution_id": "maharaja-chhatrasal-bundelkhand-university",
+      "nirf_name": "MAHARAJA CHHATRASAL BUNDELKHAND UNIVERSITY",
+      "nirf_city": "CHHATARPUR",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 5,
+      "slot": 2,
+      "institution_id": "itm-university",
+      "nirf_name": "ITM University",
+      "nirf_city": "Gwalior",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 5,
+      "slot": 3,
+      "institution_id": "jiwaji-university-gwalior",
+      "nirf_name": "Jiwaji University, Gwalior",
+      "nirf_city": "GWALIOR",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 5,
+      "slot": 4,
+      "institution_id": "malwanchal-university",
+      "nirf_name": "Malwanchal University",
+      "nirf_city": "Indore",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 5,
+      "slot": 5,
+      "institution_id": "medi-caps-university",
+      "nirf_name": "Medi-Caps University",
+      "nirf_city": "Indore",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 6,
+      "slot": 1,
+      "institution_id": "oriental-university-indore",
+      "nirf_name": "Oriental University - Indore",
+      "nirf_city": "Indore",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 6,
+      "slot": 2,
+      "institution_id": "renaissance-university-indore",
+      "nirf_name": "RENAISSANCE UNIVERSITY INDORE",
+      "nirf_city": "INDORE",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 6,
+      "slot": 3,
+      "institution_id": "sage-university-indore",
+      "nirf_name": "SAGE University Indore",
+      "nirf_city": "Indore",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 6,
+      "slot": 4,
+      "institution_id": "symbiosis-university-of-applied-sciences",
+      "nirf_name": "Symbiosis University of Applied Sciences",
+      "nirf_city": "Indore",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 6,
+      "slot": 5,
+      "institution_id": "dharmashastra-national-law-university",
+      "nirf_name": "Dharmashastra National Law University",
+      "nirf_city": "Jabalpur",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 7,
+      "slot": 1,
+      "institution_id": "mangalayatan-university-jabalpur",
+      "nirf_name": "MANGALAYATAN UNIVERSITY, JABALPUR",
+      "nirf_city": "Jabalpur",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 7,
+      "slot": 2,
+      "institution_id": "nanaji-deshmukh-veterinary-science-university",
+      "nirf_name": "Nanaji Deshmukh Veterinary Science University",
+      "nirf_city": "Jabalpur",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 7,
+      "slot": 3,
+      "institution_id": "mandsaur-university",
+      "nirf_name": "Mandsaur University",
+      "nirf_city": "Mandsaur",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 7,
+      "slot": 4,
+      "institution_id": "rabindranath-tagore-university",
+      "nirf_name": "Rabindranath Tagore University",
+      "nirf_city": "Raisen",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 7,
+      "slot": 5,
+      "institution_id": "mansarovar-global-university",
+      "nirf_name": "Mansarovar Global University",
+      "nirf_city": "Sehore",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 8,
+      "slot": 1,
+      "institution_id": "sri-satya-sai-university-of-technology-medical-sciences-sehore",
+      "nirf_name": "SRI SATYA SAI UNIVERSITY OF TECHNOLOGY & MEDICAL SCIENCES, SEHORE",
+      "nirf_city": "Sehore",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 8,
+      "slot": 2,
+      "institution_id": "avantika-university",
+      "nirf_name": "Avantika University",
+      "nirf_city": "Ujjain",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 8,
+      "slot": 3,
+      "institution_id": "vikram-university",
+      "nirf_name": "Vikram University",
+      "nirf_city": "Ujjain",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 8,
+      "slot": 4,
+      "institution_id": "sharda-vihar-shiksha-college",
+      "nirf_name": "Sharda Vihar Shiksha College",
+      "nirf_city": "Bhopal",
+      "institution_type": "private_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 8,
+      "slot": 5,
+      "institution_id": "jaypee-university-of-engineering-technology",
+      "nirf_name": "Jaypee University of Engineering & Technology",
+      "nirf_city": "Guna",
+      "institution_type": "private_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 9,
+      "slot": 1,
+      "institution_id": "amity-university-gwalior",
+      "nirf_name": "Amity University, Gwalior",
+      "nirf_city": "Gwalior",
+      "institution_type": "private_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 9,
+      "slot": 2,
+      "institution_id": "govt-college-alampur",
+      "nirf_name": "GOVT. COLLEGE ALAMPUR",
+      "nirf_city": "alampur",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 9,
+      "slot": 3,
+      "institution_id": "govt-college-alot",
+      "nirf_name": "Govt. College, Alot",
+      "nirf_city": "Alote",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 9,
+      "slot": 4,
+      "institution_id": "dr-pancham-singh-kavde-of-dr-bhimrao-ambedkar-government-college-amla",
+      "nirf_name": "DR PANCHAM SINGH KAVDE of Dr. Bhimrao Ambedkar Government College Amla",
+      "nirf_city": "AMLA",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 9,
+      "slot": 5,
+      "institution_id": "govt-college-astha-sehore",
+      "nirf_name": "Govt. College, Astha, Sehore",
+      "nirf_city": "Ashta",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 10,
+      "slot": 1,
+      "institution_id": "govt-college-athner-betul",
+      "nirf_name": "Govt. College, Athner Betul",
+      "nirf_city": "Athner",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 10,
+      "slot": 2,
+      "institution_id": "govt-arts-commerce-college-badnawar-dhar",
+      "nirf_name": "Govt. Arts & Commerce College, Badnawar, Dhar",
+      "nirf_city": "Badnawar",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 10,
+      "slot": 3,
+      "institution_id": "govt-college-badod",
+      "nirf_name": "Govt. College Badod",
+      "nirf_city": "Badod",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 10,
+      "slot": 4,
+      "institution_id": "govt-aranya-bharti-college-baihar-balaghat",
+      "nirf_name": "Govt. Aranya Bharti College, Baihar, Balaghat",
+      "nirf_city": "Baihar",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 10,
+      "slot": 5,
+      "institution_id": "government-college-lal-barah",
+      "nirf_name": "GOVERNMENT COLLEGE, LAL BARAH",
+      "nirf_city": "BALAGHAT",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 11,
+      "slot": 1,
+      "institution_id": "government-girls-college-betul",
+      "nirf_name": "GOVERNMENT GIRLS COLLEGE, BETUL",
+      "nirf_city": "BETUL",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 11,
+      "slot": 2,
+      "institution_id": "govt-college-bhaisdehi-betul",
+      "nirf_name": "Govt. College, Bhaisdehi, Betul",
+      "nirf_city": "BHAINSDEHI",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 11,
+      "slot": 3,
+      "institution_id": "govt-college-bhitarwar",
+      "nirf_name": "GOVT COLLEGE, BHITARWAR",
+      "nirf_city": "BHITARWAR",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 11,
+      "slot": 4,
+      "institution_id": "anand-institute-of-management-mba",
+      "nirf_name": "Anand Institute Of Management (MBA)",
+      "nirf_city": "Bhopal",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 11,
+      "slot": 5,
+      "institution_id": "bansal-institute-of-science-technology-raisen-road-kokta-anand-nagar-bhopal-462021",
+      "nirf_name": "Bansal Institute of Science & Technology, Raisen Road, Kokta, Anand Nagar, Bhopal - 462021",
+      "nirf_city": "Bhopal",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 12,
+      "slot": 1,
+      "institution_id": "bhopal-institute-of-technology-and-management-mba",
+      "nirf_name": "Bhopal Institute of Technology and Management MBA",
+      "nirf_city": "Bhopal",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 12,
+      "slot": 2,
+      "institution_id": "bsss-college",
+      "nirf_name": "BSSS College",
+      "nirf_city": "Bhopal",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 12,
+      "slot": 3,
+      "institution_id": "career-college",
+      "nirf_name": "Career College",
+      "nirf_city": "Bhopal",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 12,
+      "slot": 4,
+      "institution_id": "career-college-of-nursing",
+      "nirf_name": "Career College of Nursing",
+      "nirf_city": "Bhopal",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 12,
+      "slot": 5,
+      "institution_id": "corporate-institute-of-science-technology-hataikheda-near-patel-nagar-raisen-road-bhopal",
+      "nirf_name": "Corporate Institute of Science & Technology, Hataikheda, Near Patel Nagar, Raisen Road, Bhopal",
+      "nirf_city": "Bhopal",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 13,
+      "slot": 1,
+      "institution_id": "duke-college-of-management",
+      "nirf_name": "Duke College of Management",
+      "nirf_city": "Bhopal",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 13,
+      "slot": 2,
+      "institution_id": "extol-college-bawariya-kalan-bhopal",
+      "nirf_name": "Extol College, Bawariya Kalan, Bhopal",
+      "nirf_city": "bhopal",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 13,
+      "slot": 3,
+      "institution_id": "gandhi-pr-college-d-1-danish-nagar-hoshangabad-road-bhopal",
+      "nirf_name": "Gandhi PR College D-1, Danish Nagar, Hoshangabad Road, Bhopal",
+      "nirf_city": "Bhopal",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 13,
+      "slot": 4,
+      "institution_id": "government-maharani-laxmi-bai-girls-post-graduate-autonomous-college-bhopal",
+      "nirf_name": "Government Maharani Laxmi Bai Girls Post Graduate Autonomous College, Bhopal",
+      "nirf_city": "Bhopal",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 13,
+      "slot": 5,
+      "institution_id": "govt-college-bidwal-dist-dhar-m-p",
+      "nirf_name": "Govt. College, Bidwal Dist.- Dhar (M.P.)",
+      "nirf_city": "Bidwal",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 14,
+      "slot": 1,
+      "institution_id": "government-college-bijuri-distt-anuppur-m-p",
+      "nirf_name": "GOVERNMENT COLLEGE BIJURI, DISTT. ANUPPUR M.P.",
+      "nirf_city": "BIJURI",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 14,
+      "slot": 2,
+      "institution_id": "government-college-budhni",
+      "nirf_name": "GOVERNMENT COLLEGE, BUDHNI",
+      "nirf_city": "Budhni",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 14,
+      "slot": 3,
+      "institution_id": "government-college-dobi",
+      "nirf_name": "GOVERNMENT COLLEGE, DOBI",
+      "nirf_city": "BUDHNI",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 14,
+      "slot": 4,
+      "institution_id": "govt-college-burhanpur",
+      "nirf_name": "Govt. College, Burhanpur",
+      "nirf_city": "Burhanpur",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 14,
+      "slot": 5,
+      "institution_id": "govt-college-bhabhra",
+      "nirf_name": "Govt. College, Bhabhra",
+      "nirf_city": "CHANDRA SHEKHAR AZAD NAGAR",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 15,
+      "slot": 1,
+      "institution_id": "govt-naveen-college-rajnagar",
+      "nirf_name": "Govt Naveen College Rajnagar",
+      "nirf_city": "Chattarpur",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 15,
+      "slot": 2,
+      "institution_id": "government-college-bakswaha",
+      "nirf_name": "GOVERNMENT COLLEGE BAKSWAHA",
+      "nirf_city": "Chhatarpur",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 15,
+      "slot": 3,
+      "institution_id": "govt-degree-college-badamalhara-chhatarpur",
+      "nirf_name": "GOVT DEGREE COLLEGE BADAMALHARA CHHATARPUR",
+      "nirf_city": "Chhatarpur",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 15,
+      "slot": 4,
+      "institution_id": "b-k-p-college-of-computer-education",
+      "nirf_name": "B.K.P. College of Computer Education",
+      "nirf_city": "DEORI",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 15,
+      "slot": 5,
+      "institution_id": "govt-college-devendra-nagar",
+      "nirf_name": "Govt College Devendra nagar",
+      "nirf_city": "Devendra Nagar",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 16,
+      "slot": 1,
+      "institution_id": "govt-college-dhamnod",
+      "nirf_name": "Govt. College, Dhamnod",
+      "nirf_city": "DHAMNOD",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 16,
+      "slot": 2,
+      "institution_id": "govt-college-bagh",
+      "nirf_name": "Govt. College Bagh",
+      "nirf_city": "Dhar",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 16,
+      "slot": 3,
+      "institution_id": "govt-college-dharampuri",
+      "nirf_name": "Govt. College, Dharampuri",
+      "nirf_city": "Dharampuri",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 16,
+      "slot": 4,
+      "institution_id": "govt-adarsh-college-dindori-m-p",
+      "nirf_name": "Govt. Adarsh College Dindori M.P.",
+      "nirf_city": "Dindori",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 16,
+      "slot": 5,
+      "institution_id": "govt-college-multai-betul",
+      "nirf_name": "Govt. College, Multai, Betul",
+      "nirf_city": "Dist. Betul",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 17,
+      "slot": 1,
+      "institution_id": "govt-college-gandhwani-dist-dhar",
+      "nirf_name": "GOVT. COLLEGE GANDHWANI, DIST. DHAR",
+      "nirf_city": "Gandhwani",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 17,
+      "slot": 2,
+      "institution_id": "govt-college-ghansor",
+      "nirf_name": "GOVT. COLLEGE GHANSOR",
+      "nirf_city": "GHANSOR",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 17,
+      "slot": 3,
+      "institution_id": "govt-college-jabera",
+      "nirf_name": "govt college jabera",
+      "nirf_city": "govt college jabera damoh 470881",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 17,
+      "slot": 4,
+      "institution_id": "divyansh-college",
+      "nirf_name": "DIVYANSH COLLEGE",
+      "nirf_city": "GUNA",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 17,
+      "slot": 5,
+      "institution_id": "gandhi-vocational-college",
+      "nirf_name": "GANDHI VOCATIONAL COLLEGE",
+      "nirf_city": "GUNA",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 18,
+      "slot": 1,
+      "institution_id": "govt-vrinda-sahay-pg-college-dabra",
+      "nirf_name": "Govt Vrinda Sahay PG College Dabra",
+      "nirf_city": "Gwalior",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 18,
+      "slot": 2,
+      "institution_id": "govt-college-harda-harda",
+      "nirf_name": "Govt. College, Harda, Harda",
+      "nirf_city": "Harda",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 18,
+      "slot": 3,
+      "institution_id": "government-college-harrai",
+      "nirf_name": "Government College Harrai",
+      "nirf_city": "Harrai",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 18,
+      "slot": 4,
+      "institution_id": "school-of-computer-and-electronics-ips-academy-rajendra-nagar-a-b-road-indore-452012",
+      "nirf_name": "\"School of Computer and Electronics, IPS Academy, Rajendra Nagar, A.B. Road, Indore-452012",
+      "nirf_city": "Indore",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 18,
+      "slot": 5,
+      "institution_id": "acropolis-institute-of-management-studies-research-manglia-chouraha-indore",
+      "nirf_name": "Acropolis Institute of Management Studies & Research, Manglia Chouraha, Indore",
+      "nirf_city": "Indore",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 19,
+      "slot": 1,
+      "institution_id": "acropolis-institute-of-technology-and-research",
+      "nirf_name": "Acropolis Institute Of Technology And Research",
+      "nirf_city": "Indore",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 19,
+      "slot": 2,
+      "institution_id": "altius-institute-of-universal-studies-indore",
+      "nirf_name": "Altius Institute of Universal Studies - Indore",
+      "nirf_city": "INDORE",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 19,
+      "slot": 3,
+      "institution_id": "annie-besant-college-annapurna-road-indore",
+      "nirf_name": "Annie Besant College Annapurna Road, Indore",
+      "nirf_city": "INDORE",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 19,
+      "slot": 4,
+      "institution_id": "bombay-hospital-college-of-nursing-ring-road-indore",
+      "nirf_name": "Bombay Hospital College of Nursing, Ring Road, Indore",
+      "nirf_city": "Indore",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 19,
+      "slot": 5,
+      "institution_id": "college-of-professional-studies-atc",
+      "nirf_name": "College of Professional Studies- ATC",
+      "nirf_city": "Indore",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 20,
+      "slot": 1,
+      "institution_id": "devi-ahilya-arts-commece-college-indore",
+      "nirf_name": "Devi Ahilya Arts & Commece College, Indore",
+      "nirf_city": "indore",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 20,
+      "slot": 2,
+      "institution_id": "govt-arts-commerce-college-a-b-road-indore",
+      "nirf_name": "Govt. Arts & Commerce College A.B.Road, Indore",
+      "nirf_city": "Indore",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 20,
+      "slot": 3,
+      "institution_id": "government-college-ishagarh",
+      "nirf_name": "GOVERNMENT COLLEGE, ISHAGARH",
+      "nirf_city": "ISHAGARH",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 20,
+      "slot": 4,
+      "institution_id": "baderia-global-institute-of-engineering-management-jabalpur",
+      "nirf_name": "Baderia Global Institute of Engineering & Management, Jabalpur",
+      "nirf_city": "Jabalpur",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 20,
+      "slot": 5,
+      "institution_id": "government-arts-and-commerce-college-barela",
+      "nirf_name": "GOVERNMENT ARTS AND COMMERCE COLLEGE, BARELA",
+      "nirf_city": "JABALPUR",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 21,
+      "slot": 1,
+      "institution_id": "government-college-bargi",
+      "nirf_name": "GOVERNMENT COLLEGE, BARGI",
+      "nirf_city": "Jabalpur",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 21,
+      "slot": 2,
+      "institution_id": "government-engineering-college",
+      "nirf_name": "Government Engineering College",
+      "nirf_city": "Jabalpur",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 21,
+      "slot": 3,
+      "institution_id": "govt-mahakoshal-autonmous-arts-commerece-college-civil-line-jabalpur",
+      "nirf_name": "Govt . Mahakoshal Autonmous Arts. & Commerece College, Civil Line Jabalpur",
+      "nirf_city": "Jabalpur",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 21,
+      "slot": 4,
+      "institution_id": "govt-autonmous-science-college-civil-linesr-jabalpur",
+      "nirf_name": "Govt. Autonmous Science College, Civil Linesr, Jabalpur",
+      "nirf_city": "Jabalpur",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 21,
+      "slot": 5,
+      "institution_id": "govt-autonomous-m-k-b-arts-commerce-college-for-women-wright-town-jabalpur",
+      "nirf_name": "Govt. Autonomous M.K.B. Arts & Commerce College for Women, Wright Town Jabalpur",
+      "nirf_city": "Jabalpur",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 22,
+      "slot": 1,
+      "institution_id": "government-college-jaitahari",
+      "nirf_name": "GOVERNMENT COLLEGE, JAITAHARI",
+      "nirf_city": "Jaithari (Anuppur)484330",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 22,
+      "slot": 2,
+      "institution_id": "govt-college-jatara",
+      "nirf_name": "Govt. College Jatara",
+      "nirf_city": "Jatara",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 22,
+      "slot": 3,
+      "institution_id": "government-college-jawarnagar",
+      "nirf_name": "Government College, Jawarnagar",
+      "nirf_city": "Jawar",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 22,
+      "slot": 4,
+      "institution_id": "government-college-meghnagar",
+      "nirf_name": "Government college meghnagar",
+      "nirf_city": "jhabua",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 22,
+      "slot": 5,
+      "institution_id": "govt-college-jobat",
+      "nirf_name": "Govt. College, Jobat",
+      "nirf_city": "Jobat",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 23,
+      "slot": 1,
+      "institution_id": "goverment-college-joura-morena",
+      "nirf_name": "Goverment College, Joura, Morena",
+      "nirf_city": "Joura",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 23,
+      "slot": 2,
+      "institution_id": "acharya-narendra-dev-college-kailaras",
+      "nirf_name": "ACHARYA NARENDRA DEV COLLEGE , KAILARAS",
+      "nirf_city": "KAILARAS",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 23,
+      "slot": 3,
+      "institution_id": "govt-arts-comm-college-kannod",
+      "nirf_name": "Govt. Arts & Comm. College, Kannod",
+      "nirf_city": "Kannod",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 23,
+      "slot": 4,
+      "institution_id": "govt-college-karera",
+      "nirf_name": "GOVT. COLLEGE KARERA",
+      "nirf_city": "Karera",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 23,
+      "slot": 5,
+      "institution_id": "govt-college-kasrawad",
+      "nirf_name": "Govt. College, Kasrawad",
+      "nirf_city": "kasrawad",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 24,
+      "slot": 1,
+      "institution_id": "govt-arts-college-katangi-balaghat",
+      "nirf_name": "Govt. Arts College, Katangi, Balaghat",
+      "nirf_city": "KATANGI",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 24,
+      "slot": 2,
+      "institution_id": "government-college-bahorivand",
+      "nirf_name": "GOVERNMENT COLLEGE, BAHORIVAND",
+      "nirf_city": "KATNI",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 24,
+      "slot": 3,
+      "institution_id": "government-arts-and-commerce-college-keolari-seoni",
+      "nirf_name": "Government Arts And Commerce College, Keolari, Seoni",
+      "nirf_city": "KEOLARI",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 24,
+      "slot": 4,
+      "institution_id": "government-navin-college-khirjanji",
+      "nirf_name": "GOVERNMENT NAVIN COLLEGE, KHIRJANJI",
+      "nirf_city": "Khairlanji",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 24,
+      "slot": 5,
+      "institution_id": "govt-college-bhikangaon",
+      "nirf_name": "Govt. College, Bhikangaon",
+      "nirf_city": "Khargone",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 25,
+      "slot": 1,
+      "institution_id": "govt-college-khategaon",
+      "nirf_name": "Govt. College, Khategaon",
+      "nirf_city": "Khategaon",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 25,
+      "slot": 2,
+      "institution_id": "govt-college-khimlasa-sagar-mp",
+      "nirf_name": "Govt College Khimlasa, Sagar-MP",
+      "nirf_city": "Khimlasa",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 25,
+      "slot": 3,
+      "institution_id": "government-college-khurai",
+      "nirf_name": "GOVERNMENT COLLEGE KHURAI",
+      "nirf_city": "KHURAI",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 25,
+      "slot": 4,
+      "institution_id": "government-ug-college-kirnapur",
+      "nirf_name": "GOVERNMENT UG COLLEGE, KIRNAPUR",
+      "nirf_city": "kirnapur",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 25,
+      "slot": 5,
+      "institution_id": "govt-college-kukshi-dist-dhar",
+      "nirf_name": "Govt. College, Kukshi Dist. Dhar",
+      "nirf_city": "KUKSHI",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 26,
+      "slot": 1,
+      "institution_id": "govt-college-kumbhraj",
+      "nirf_name": "GOVT COLLEGE KUMBHRAJ",
+      "nirf_city": "KUMBHRAJ",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 26,
+      "slot": 2,
+      "institution_id": "govt-college-kurwai-vidisha",
+      "nirf_name": "Govt. College, Kurwai, Vidisha",
+      "nirf_city": "KURWAI",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 26,
+      "slot": 3,
+      "institution_id": "govt-college-ladkui-distt-sehore",
+      "nirf_name": "Govt. College Ladkui Distt. Sehore",
+      "nirf_city": "Ladkui",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 26,
+      "slot": 4,
+      "institution_id": "govt-college-lahar",
+      "nirf_name": "Govt College Lahar",
+      "nirf_city": "Lahar",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 26,
+      "slot": 5,
+      "institution_id": "government-college-lateri",
+      "nirf_name": "GOVERNMENT COLLEGE, LATERI",
+      "nirf_city": "Lateri",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 27,
+      "slot": 1,
+      "institution_id": "govt-college-lavkush-nagar",
+      "nirf_name": "GOVT COLLEGE LAVKUSH NAGAR",
+      "nirf_city": "LAVKUSH NAGAR",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 27,
+      "slot": 2,
+      "institution_id": "government-college-indergarh-datia",
+      "nirf_name": "GOVERNMENT COLLEGE, INDERGARH, DATIA",
+      "nirf_city": "M.P",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 27,
+      "slot": 3,
+      "institution_id": "government-chhatrasal-maharaja-college",
+      "nirf_name": "Government Chhatrasal Maharaja College",
+      "nirf_city": "Maharajpur",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 27,
+      "slot": 4,
+      "institution_id": "government-college-malajkhand",
+      "nirf_name": "GOVERNMENT COLLEGE, MALAJKHAND",
+      "nirf_city": "malanjkhand",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 27,
+      "slot": 5,
+      "institution_id": "govt-college-manawar",
+      "nirf_name": "Govt. College, Manawar",
+      "nirf_city": "MANAWAR",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 28,
+      "slot": 1,
+      "institution_id": "government-college-anjaniya-dist-mandla",
+      "nirf_name": "Government College Anjaniya,Dist- Mandla",
+      "nirf_city": "Mandla",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 28,
+      "slot": 2,
+      "institution_id": "govt-college-mawai-district-mandla-m-p",
+      "nirf_name": "GOVT COLLEGE MAWAI, DISTRICT - MANDLA (M.P.)",
+      "nirf_city": "MANDLA",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 28,
+      "slot": 3,
+      "institution_id": "govt-college-mandleshwar",
+      "nirf_name": "Govt. College, Mandleshwar",
+      "nirf_city": "Mandleshwar",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 28,
+      "slot": 4,
+      "institution_id": "government-college-bhanpura",
+      "nirf_name": "GOVERNMENT COLLEGE, BHANPURA",
+      "nirf_city": "Mandsaur",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 28,
+      "slot": 5,
+      "institution_id": "government-college-sitamau",
+      "nirf_name": "GOVERNMENT COLLEGE, SITAMAU",
+      "nirf_city": "MANDSAUR",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 29,
+      "slot": 1,
+      "institution_id": "b-s-patel-college-sepura-mehgaon",
+      "nirf_name": "B S PATEL COLLEGE, SEPURA, MEHGAON",
+      "nirf_city": "MEHGAON",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 29,
+      "slot": 2,
+      "institution_id": "bherulal-patider-govt-p-g-college-mhow",
+      "nirf_name": "Bherulal Patider Govt. P.G. College, Mhow",
+      "nirf_city": "Mhow",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 29,
+      "slot": 3,
+      "institution_id": "ambah-pg-college-ambah",
+      "nirf_name": "AMBAH PG COLLEGE , AMBAH",
+      "nirf_city": "Morena",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 29,
+      "slot": 4,
+      "institution_id": "government-college-banmor",
+      "nirf_name": "GOVERNMENT COLLEGE BANMOR",
+      "nirf_city": "MORENA",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 29,
+      "slot": 5,
+      "institution_id": "govt-college-nalkheda",
+      "nirf_name": "Govt. College, Nalkheda",
+      "nirf_city": "Nalkheda",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 30,
+      "slot": 1,
+      "institution_id": "government-college-sukhtawa",
+      "nirf_name": "GOVERNMENT COLLEGE, SUKHTAWA",
+      "nirf_city": "NARMADAPURAM",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 30,
+      "slot": 2,
+      "institution_id": "govt-college-dolriya",
+      "nirf_name": "Govt. College Dolriya",
+      "nirf_city": "NARMADAPURAM",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 30,
+      "slot": 3,
+      "institution_id": "govt-college-narshingarh-rajgarh",
+      "nirf_name": "Govt. College, Narshingarh, Rajgarh",
+      "nirf_city": "Narsinghgarh",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 30,
+      "slot": 4,
+      "institution_id": "govt-college-nasrullaganj-sehore",
+      "nirf_name": "Govt. College, Nasrullaganj, Sehore",
+      "nirf_city": "Nasrullaganj",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 30,
+      "slot": 5,
+      "institution_id": "govt-college-neemuch",
+      "nirf_name": "Govt. College, Neemuch",
+      "nirf_city": "Neemuch",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 31,
+      "slot": 1,
+      "institution_id": "govt-arts-commerce-college-nevali",
+      "nirf_name": "Govt. Arts & Commerce College, Nevali",
+      "nirf_city": "NIWALI",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 31,
+      "slot": 2,
+      "institution_id": "amar-shahid-chandrashekhar-azad-govt-postgraduate-college-niwari",
+      "nirf_name": "Amar Shahid Chandrashekhar Azad Govt. Postgraduate College, NIWARI",
+      "nirf_city": "Niwari",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 31,
+      "slot": 3,
+      "institution_id": "govt-arts-college-niwas-mandla",
+      "nirf_name": "Govt. Arts College, Niwas, Mandla",
+      "nirf_city": "NIWAS",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 31,
+      "slot": 4,
+      "institution_id": "govt-college-pachmarhi-hoshangabad",
+      "nirf_name": "Govt. College, Pachmarhi, Hoshangabad",
+      "nirf_city": "Pachmarhi",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 31,
+      "slot": 5,
+      "institution_id": "chhatrasal-govt-p-g-college-panna-m-p",
+      "nirf_name": "chhatrasal Govt. p G college, panna, M p",
+      "nirf_city": "PANNA",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 32,
+      "slot": 1,
+      "institution_id": "government-college-ajaigarh",
+      "nirf_name": "Government College Ajaigarh",
+      "nirf_city": "Panna",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 32,
+      "slot": 2,
+      "institution_id": "government-college-amanganj",
+      "nirf_name": "Government College Amanganj",
+      "nirf_city": "Panna",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 32,
+      "slot": 3,
+      "institution_id": "government-college-patharia",
+      "nirf_name": "Government College Patharia",
+      "nirf_city": "Patharia",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 32,
+      "slot": 4,
+      "institution_id": "bhagwan-birsa-munda-government-college-pati",
+      "nirf_name": "Bhagwan Birsa Munda Government College Pati",
+      "nirf_city": "Pati Barwani",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 32,
+      "slot": 5,
+      "institution_id": "government-college-phoop",
+      "nirf_name": "Government College, Phoop",
+      "nirf_city": "Phoop",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 33,
+      "slot": 1,
+      "institution_id": "govt-chatrsal-college-pichore",
+      "nirf_name": "GOVT. CHATRSAL COLLEGE PICHORE",
+      "nirf_city": "PICHHORE",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 33,
+      "slot": 2,
+      "institution_id": "goverment-naveen-college-bankhedi-hoshangabad-m-p",
+      "nirf_name": "GOVERMENT NAVEEN COLLEGE BANKHEDI HOSHANGABAD M P",
+      "nirf_city": "PIPARIYA",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 33,
+      "slot": 3,
+      "institution_id": "govt-college-bareli-raisen",
+      "nirf_name": "Govt. College, Bareli, Raisen",
+      "nirf_city": "Raisen",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 33,
+      "slot": 4,
+      "institution_id": "govt-college-begumgunj-raisen",
+      "nirf_name": "Govt. College, Begumgunj, Raisen",
+      "nirf_city": "Raisen",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 33,
+      "slot": 5,
+      "institution_id": "govt-college-pachore-rajgarh",
+      "nirf_name": "Govt. College, Pachore, Rajgarh",
+      "nirf_city": "Rajgarh",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 34,
+      "slot": 1,
+      "institution_id": "government-college-rampura",
+      "nirf_name": "Government College, Rampura",
+      "nirf_city": "Rampura",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 34,
+      "slot": 2,
+      "institution_id": "arihant-college-of-professional-education-sailana",
+      "nirf_name": "ARIHANT COLLEGE OF PROFESSIONAL EDUCATION, SAILANA",
+      "nirf_city": "Ratlam",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 34,
+      "slot": 3,
+      "institution_id": "governement-college-namli",
+      "nirf_name": "Governement College Namli",
+      "nirf_city": "Ratlam",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 34,
+      "slot": 4,
+      "institution_id": "government-college-rawti-ratlam-m-p",
+      "nirf_name": "Government College, Rawti Ratlam M.P",
+      "nirf_city": "RATLAM",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 34,
+      "slot": 5,
+      "institution_id": "govt-arts-science-college-ratlam",
+      "nirf_name": "Govt. Arts & Science College, Ratlam",
+      "nirf_city": "Ratlam",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 35,
+      "slot": 1,
+      "institution_id": "govt-college-piploda",
+      "nirf_name": "GOVT. COLLEGE PIPLODA",
+      "nirf_city": "Ratlam",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 35,
+      "slot": 2,
+      "institution_id": "govt-madhav-sadashivrao-golvalkar-college-rewa",
+      "nirf_name": "Govt Madhav Sadashivrao Golvalkar College Rewa",
+      "nirf_city": "Rewa",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 35,
+      "slot": 3,
+      "institution_id": "adina-institute-of-science-and-technology-sagar",
+      "nirf_name": "Adina Institute of Science And Technology, Sagar",
+      "nirf_city": "Sagar",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 35,
+      "slot": 4,
+      "institution_id": "government-college-dhana",
+      "nirf_name": "Government College Dhana",
+      "nirf_city": "Sagar",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 35,
+      "slot": 5,
+      "institution_id": "akshat-college-sitpura-satna",
+      "nirf_name": "AKSHAT COLLEGE SITPURA SATNA",
+      "nirf_city": "Satna",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 36,
+      "slot": 1,
+      "institution_id": "christukula-mission-womens-english-medium-college",
+      "nirf_name": "CHRISTUKULA MISSION WOMENS ENGLISH MEDIUM COLLEGE",
+      "nirf_city": "Satna",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 36,
+      "slot": 2,
+      "institution_id": "government-college-satwas",
+      "nirf_name": "GOVERNMENT COLLEGE, SATWAS",
+      "nirf_city": "Satwas",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 36,
+      "slot": 3,
+      "institution_id": "alpha-college-shyampur",
+      "nirf_name": "ALPHA COLLEGE, SHYAMPUR",
+      "nirf_city": "sehore",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 36,
+      "slot": 4,
+      "institution_id": "government-college-rheti",
+      "nirf_name": "GOVERNMENT COLLEGE RHETI",
+      "nirf_city": "Sehore",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 36,
+      "slot": 5,
+      "institution_id": "d-p-chtaturvedi-science-commerce-college-seoni",
+      "nirf_name": "D.P. Chtaturvedi Science, Commerce College, Seoni",
+      "nirf_city": "SEONI",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 37,
+      "slot": 1,
+      "institution_id": "government-abhyananda-sanskrit-college-kalyanpur",
+      "nirf_name": "Government Abhyananda Sanskrit College, Kalyanpur",
+      "nirf_city": "Shahdol",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 37,
+      "slot": 2,
+      "institution_id": "government-college-jaisinghnagar",
+      "nirf_name": "Government College Jaisinghnagar",
+      "nirf_city": "Shahdol",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 37,
+      "slot": 3,
+      "institution_id": "govt-college-shahganj",
+      "nirf_name": "Govt. College Shahganj",
+      "nirf_city": "shahganj",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 37,
+      "slot": 4,
+      "institution_id": "govt-college-shahpur-betul",
+      "nirf_name": "Govt. College Shahpur, Betul",
+      "nirf_city": "SHAHPUR",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 37,
+      "slot": 5,
+      "institution_id": "govt-college-mohan-badodia",
+      "nirf_name": "Govt. College, Mohan Badodia",
+      "nirf_city": "Shajapur",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 38,
+      "slot": 1,
+      "institution_id": "a-v-s-s-college-banuli-singrauli",
+      "nirf_name": "A.V.S.S COLLEGE.BANULI ,SINGRAULI",
+      "nirf_city": "SINGARLI",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 38,
+      "slot": 2,
+      "institution_id": "government-college-singoli",
+      "nirf_name": "GOVERNMENT COLLEGE, SINGOLI",
+      "nirf_city": "Singoli",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 38,
+      "slot": 3,
+      "institution_id": "government-girls-college-singrauli",
+      "nirf_name": "Government Girls College Singrauli",
+      "nirf_city": "Singrauli",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 38,
+      "slot": 4,
+      "institution_id": "govt-jagannath-singh-smriti-college-chitrangi-dist-singrauli-m-p",
+      "nirf_name": "Govt Jagannath Singh Smriti College Chitrangi dist - singrauli (M.P.)",
+      "nirf_city": "SINGRAULI",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 38,
+      "slot": 5,
+      "institution_id": "govt-college-deosar-singrauli-m-p",
+      "nirf_name": "Govt. College Deosar, Singrauli (M.P.)",
+      "nirf_city": "Singrauli",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 39,
+      "slot": 1,
+      "institution_id": "government-college-soyatkala",
+      "nirf_name": "Government College Soyatkala",
+      "nirf_city": "Soyatkala",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 39,
+      "slot": 2,
+      "institution_id": "gov-college-tarana",
+      "nirf_name": "Gov.College, Tarana",
+      "nirf_city": "Tarana",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 39,
+      "slot": 3,
+      "institution_id": "government-college-palera",
+      "nirf_name": "Government college palera",
+      "nirf_city": "Tikamgarh",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 39,
+      "slot": 4,
+      "institution_id": "government-college-tonk-khurd",
+      "nirf_name": "GOVERNMENT COLLEGE, TONK KHURD",
+      "nirf_city": "TONKKHURD",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 39,
+      "slot": 5,
+      "institution_id": "bhartiya-institute-of-professional-studies-ujjain",
+      "nirf_name": "BHARTIYA INSTITUTE OF PROFESSIONAL STUDIES UJJAIN",
+      "nirf_city": "Ujjain",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 40,
+      "slot": 1,
+      "institution_id": "bhratiya-college-madhav-nagar-front-of-railway-station-ujjain",
+      "nirf_name": "Bhratiya College, Madhav Nagar Front Of Railway Station, Ujjain",
+      "nirf_city": "UJJAIN",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 40,
+      "slot": 2,
+      "institution_id": "future-vision-college-ujjain",
+      "nirf_name": "Future Vision College, Ujjain",
+      "nirf_city": "UJJAIN",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 40,
+      "slot": 3,
+      "institution_id": "govt-college-makdone",
+      "nirf_name": "Govt College Makdone",
+      "nirf_city": "Ujjain",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 40,
+      "slot": 4,
+      "institution_id": "govt-girls-pg-college-ujjain",
+      "nirf_name": "Govt Girls' PG College, Ujjain",
+      "nirf_city": "Ujjain",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 40,
+      "slot": 5,
+      "institution_id": "cist-college",
+      "nirf_name": "CIST College",
+      "nirf_city": "VIDISHA",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    }
+  ]
+}

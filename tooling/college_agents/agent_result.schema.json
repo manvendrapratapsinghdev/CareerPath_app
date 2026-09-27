@@ -1,11 +1,12 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Rajasthan college official-site verification result",
+  "title": "State college official-site verification result",
   "type": "object",
   "additionalProperties": false,
   "required": [
     "institution_id",
     "nirf_name",
+    "government_listing_sources",
     "verification_outcome",
     "district",
     "district_verification_status",
@@ -24,6 +25,10 @@
   "properties": {
     "institution_id": {"type": "string", "minLength": 1},
     "nirf_name": {"type": "string", "minLength": 1},
+    "government_listing_sources": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1}
+    },
     "verification_outcome": {
       "enum": ["verified", "remove_candidate", "manual_review"]
     },

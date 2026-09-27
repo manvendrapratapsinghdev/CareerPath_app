@@ -39,8 +39,8 @@ class VerifiedInstitutionImportTest(unittest.TestCase):
         )
 
         self.assertEqual(first, second)
-        self.assertEqual(first["institutions"], 103)
-        self.assertEqual(first["courses"], 2800)
+        self.assertEqual(first["institutions"], 121)
+        self.assertEqual(first["courses"], 3410)
         self.assertGreater(first["career_mappings"], 0)
 
         connection = sqlite3.connect(self.database)
@@ -90,11 +90,11 @@ class VerifiedInstitutionImportTest(unittest.TestCase):
         finally:
             connection.close()
 
-        self.assertEqual(verified_institutes, 103)
-        self.assertEqual(courses, 2800)
+        self.assertEqual(verified_institutes, 240)
+        self.assertEqual(courses, 8376)
         self.assertEqual(missing_locations, 0)
         self.assertEqual(unverified_courses, 0)
-        self.assertEqual(mapping_gaps, 110)
+        self.assertEqual(mapping_gaps, 193)
         self.assertEqual(imported_foreign_key_errors, [])
 
     def test_location_and_ranking_indexes_are_queryable(self) -> None:
@@ -122,7 +122,7 @@ class VerifiedInstitutionImportTest(unittest.TestCase):
         finally:
             connection.close()
 
-        self.assertEqual(jaipur_count, 43)
+        self.assertEqual(jaipur_count, 46)
         self.assertGreater(ranking_count, 0)
         self.assertEqual(location_index, 1)
 
