@@ -18,6 +18,10 @@ class VoiceTurn {
   List<AiAnswerSection> sections = const [];
   List<String> suggestions = const [];
   String? directAnswer;
+
+  /// A search ran but found nothing — the guide is answering from general
+  /// knowledge or admitting it doesn't know, not from CareerPath records.
+  bool noRecordsFound = false;
 }
 
 /// Answers the voice assistant's tool calls on the device, from the same
@@ -139,6 +143,7 @@ class LiveVoiceTools {
       streamId: streamId?.call(),
     );
     turn.sources = context.sources;
+    turn.noRecordsFound = context.isEmpty;
     return {
       'record_count': context.sources.length,
       'records': context.isEmpty ? 'NO RECORDS FOUND' : context.text,

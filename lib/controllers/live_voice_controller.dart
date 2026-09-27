@@ -381,6 +381,10 @@ class LiveVoiceController extends ChangeNotifier {
           await _audio.writePlayer(pcm);
         })
         .catchError((Object error) {
+          // A write racing a stop triggered by an interruption or reconnect
+          // is expected — the generation has already moved on, so the audio
+          // was meant to be discarded, not a real device failure.
+          if (generation != _playbackGeneration) return;
           debugPrint('[AI Guide voice] playback failed (${error.runtimeType})');
         });
   }

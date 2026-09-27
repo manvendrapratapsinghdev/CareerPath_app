@@ -1,16 +1,23 @@
 import 'dart:async';
+import 'dart:typed_data';
 
+import 'package:career_path/controllers/live_voice_controller.dart';
 import 'package:career_path/l10n/app_localizations.dart';
 import 'package:career_path/models/ai_chat.dart';
+import 'package:career_path/models/career_node.dart';
+import 'package:career_path/models/stream_model.dart';
 import 'package:career_path/screens/ai_chat_tab.dart';
 import 'package:career_path/services/ai_chat_repository.dart';
 import 'package:career_path/services/ai_voice_services.dart';
 import 'package:career_path/services/api_client.dart';
 import 'package:career_path/services/career_data_service.dart';
 import 'package:career_path/services/gemini_key_service.dart';
+import 'package:career_path/services/gemini_live_client.dart';
+import 'package:career_path/services/live_voice_tools.dart';
 import 'package:career_path/services/local_ai_grounding_service.dart';
 import 'package:career_path/services/voice_preview_service.dart';
 import 'package:career_path/services/voice_settings_service.dart';
+import 'package:live_audio/live_audio.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:career_path/services/speech_recognition_service.dart';
 import 'package:career_path/services/text_to_speech_service.dart';
@@ -143,6 +150,94 @@ class _FakeTextToSpeechService implements TextToSpeechService {
 
   @override
   void dispose() {}
+}
+
+class _FakeKeys extends GeminiKeyService {
+  @override
+  Future<String> getKey() async => 'test-key';
+}
+
+class _FakeVoiceAudio extends VoiceAssistantAudioBridge {
+  @override
+  Future<bool> requestAudioFocus(String mode) async => true;
+  @override
+  Future<void> releaseAudioFocus() async {}
+  @override
+  Future<void> setScreenAwake(bool enabled) async {}
+  @override
+  Future<Map<String, dynamic>> startRecorder({
+    String? audioSource,
+    NativeAudioProcessingConfig processingConfig =
+        const NativeAudioProcessingConfig(),
+  }) async => const {};
+  @override
+  Future<List<PcmCaptureChunk>> readRecorderFrames({
+    int frameBytes = 3840,
+  }) async => const [];
+  @override
+  Future<void> stopRecorder() async {}
+  @override
+  Future<void> startPlayer({
+    PcmPlaybackMode mode = PcmPlaybackMode.assistant,
+    bool iosOutputVolumeCompensationEnabled = true,
+    Duration iosPlaybackDrainDelay = Duration.zero,
+    String? queryType,
+  }) async {}
+  @override
+  Future<void> writePlayer(Uint8List bytes) async {}
+  @override
+  Future<PcmPlaybackPosition> playbackPosition() async =>
+      const PcmPlaybackPosition(
+        playedFrames: 0,
+        queuedFrames: 0,
+        sampleRate: 24000,
+        isPlaying: false,
+      );
+  @override
+  Future<void> stopPlayer() async {}
+}
+
+class _FakeLiveClient extends GeminiLiveClient {
+  final _events = StreamController<LiveEvent>.broadcast();
+
+  @override
+  Stream<LiveEvent> get events => _events.stream;
+  @override
+  bool get isOpen => true;
+  @override
+  Future<void> connect({
+    required String apiKey,
+    required Map<String, dynamic> setup,
+  }) async {}
+  @override
+  void sendText(String text) {}
+  @override
+  void sendAudio(Uint8List pcm16k) {}
+  @override
+  void sendToolResponses(List<Map<String, dynamic>> responses) {}
+  @override
+  Future<void> close() async {}
+
+  void emit(LiveEvent event) => _events.add(event);
+}
+
+/// Hands back a pre-built [LiveVoiceController] (backed by fakes) instead of
+/// constructing a real one, so a voice conversation can be driven in a
+/// widget test.
+class _FakeVoiceServices extends AiVoiceServices {
+  final LiveVoiceController controller;
+
+  _FakeVoiceServices({
+    required this.controller,
+    required super.keyService,
+    required super.grounding,
+    required super.settings,
+    required super.preview,
+  });
+
+  @override
+  LiveVoiceController createController({String? Function()? streamId}) =>
+      controller;
 }
 
 Widget _buildApp({
@@ -720,4 +815,185 @@ void main() {
     expect(repository.requests.single.locale, 'hi');
     expect(tts.spokenLanguages, ['hi-IN']);
   });
+
+  testWidgets(
+    'live voice hides per-turn sources, shows them for an unanswered '
+    'question, and summarises them once the conversation ends',
+    (tester) async {
+      SharedPreferences.setMockInitialValues({});
+      final data = CareerDataService(ApiClient())
+        ..initializeWithData(
+          [
+            StreamModel(
+              id: 'science',
+              name: 'Science',
+              categoryIds: ['engineering'],
+            ),
+          ],
+          {
+            'engineering': CareerNode(
+              id: 'engineering',
+              name: 'Engineering',
+              intro: 'Study technology.',
+            ),
+          },
+        );
+      final grounding = LocalAiGroundingService(data);
+      final client = _FakeLiveClient();
+      final controller = LiveVoiceController(
+        keyService: _FakeKeys(),
+        tools: LiveVoiceTools(grounding: grounding, loadAppHelp: () async => ''),
+        audio: _FakeVoiceAudio(),
+        client: client,
+      );
+      final repository = _FakeAiChatRepository(
+        const AiChatResponse(
+          requestId: 'r',
+          status: AiChatStatus.answered,
+          answer: 'ok',
+        ),
+      );
+
+      await tester.pumpWidget(
+        _buildApp(
+          repository: repository,
+          voiceServices: _FakeVoiceServices(
+            controller: controller,
+            keyService: _FakeKeys(),
+            grounding: grounding,
+            settings: VoiceSettingsService(await SharedPreferences.getInstance()),
+            preview: VoicePreviewService(keyService: _FakeKeys()),
+          ),
+        ),
+      );
+      await tester.pumpAndSettle();
+
+      // The mic keeps a periodic timer running for as long as voice is
+      // active, so `pumpAndSettle` (which waits for everything to go quiet)
+      // never returns here — advance by fixed steps instead.
+      Future<void> settle() =>
+          tester.pump(const Duration(milliseconds: 100));
+
+      await tester.tap(find.byTooltip('Start a voice conversation'));
+      await settle();
+
+      // Clear the welcome turn (chat starts empty, so start() speaks one)
+      // before driving the actual test turns.
+      client
+        ..emit(const LiveOutputTranscript('Hi! Ask me anything.'))
+        ..emit(const LiveTurnComplete());
+      await settle();
+
+      // Turn 1: a career question with matching records.
+      client.emit(
+        const LiveToolCall([
+          LiveFunctionCall(
+            id: '1',
+            name: 'route_query',
+            args: {
+              'query': 'Tell me about engineering',
+              'intent': 'career',
+              'standalone_query': 'engineering',
+              'is_follow_up': false,
+              'requires_search': true,
+              'input_language': 'english',
+            },
+          ),
+        ]),
+      );
+      await settle();
+      client.emit(
+        const LiveToolCall([
+          LiveFunctionCall(
+            id: '2',
+            name: 'search_careers',
+            args: {'query': 'engineering'},
+          ),
+        ]),
+      );
+      await settle();
+      client.emit(
+        const LiveToolCall([
+          LiveFunctionCall(
+            id: '3',
+            name: 'format_answer',
+            args: {
+              'draft':
+                  '<Title>Here you go:</Title> Engineering is about technology.'
+                  '\nQuestions:\n1. What can I study?\nAnswers:\n1. Computer '
+                  'Science.',
+            },
+          ),
+        ]),
+      );
+      await settle();
+      client
+        ..emit(LiveAudio(Uint8List.fromList([1, 2])))
+        ..emit(const LiveOutputTranscript('Engineering is about technology.'))
+        ..emit(const LiveTurnComplete());
+      await settle();
+
+      expect(find.text('Engineering is about technology.'), findsOneWidget);
+      // The source was found, so it's held back rather than shown per-turn.
+      expect(find.widgetWithText(ActionChip, 'Engineering'), findsNothing);
+      expect(find.text('Open Explore'), findsNothing);
+
+      // Turn 2: a question with no matching records.
+      client.emit(
+        const LiveToolCall([
+          LiveFunctionCall(
+            id: '4',
+            name: 'route_query',
+            args: {
+              'query': 'Tell me about astronomy telescopes',
+              'intent': 'career',
+              'standalone_query': 'astronomy telescopes',
+              'is_follow_up': false,
+              'requires_search': true,
+              'input_language': 'english',
+            },
+          ),
+        ]),
+      );
+      await settle();
+      client.emit(
+        const LiveToolCall([
+          LiveFunctionCall(
+            id: '5',
+            name: 'search_careers',
+            args: {'query': 'astronomy telescopes'},
+          ),
+        ]),
+      );
+      await settle();
+      client
+        ..emit(LiveAudio(Uint8List.fromList([3, 4])))
+        ..emit(
+          const LiveOutputTranscript(
+            "I couldn't find that in CareerPath yet.",
+          ),
+        )
+        ..emit(const LiveTurnComplete());
+      await settle();
+
+      expect(
+        find.text("I couldn't find that in CareerPath yet."),
+        findsOneWidget,
+      );
+      // No records for this turn — surfaced immediately, like typed chat's
+      // insufficient-data fallback.
+      expect(find.text('Open Explore'), findsOneWidget);
+
+      // Ending the conversation summarises the sources gathered along the
+      // way — the "Engineering" one held back from turn 1.
+      await tester.tap(find.byTooltip('End voice conversation'));
+      await tester.pumpAndSettle();
+
+      expect(
+        find.text("Here's what we covered — tap to explore further:"),
+        findsOneWidget,
+      );
+      expect(find.widgetWithText(ActionChip, 'Engineering'), findsOneWidget);
+    },
+  );
 }

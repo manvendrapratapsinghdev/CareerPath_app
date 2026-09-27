@@ -203,4 +203,15 @@ void main() {
     expect(controller.messages.last.status, AiChatStatus.answered);
     expect(controller.messages.last.suggestedPrompts, hasLength(3));
   });
+
+  test('a voice answer can be marked insufficient, with its own status', () {
+    final controller = AiChatController(_FakeAiChatRepository())
+      ..addVoiceAnswer(
+        content: "This detail isn't available in CareerPath yet.",
+        status: AiChatStatus.insufficientData,
+      );
+
+    expect(controller.messages.single.status, AiChatStatus.insufficientData);
+    expect(controller.messages.single.sources, isEmpty);
+  });
 }

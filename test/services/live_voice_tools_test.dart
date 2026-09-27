@@ -68,6 +68,7 @@ void main() {
     expect(search['record_count'], greaterThan(0));
     expect(search['records'], contains('SOURCE career_node:engineering'));
     expect(tools.turn.sources.first.exploreNodeId, 'engineering');
+    expect(tools.turn.noRecordsFound, isFalse);
 
     final formatted = await tools.execute(
       _call('format_answer', {
@@ -130,6 +131,25 @@ void main() {
       _call('route_query', _route('how do I talk', VoiceIntent.appHelp)),
     );
     expect(help['app_help_context'], contains('Tap Talk'));
+  });
+
+  test('a search with no matching records is flagged for the UI', () async {
+    final tools = _tools();
+
+    await tools.execute(
+      _call(
+        'route_query',
+        _route('Tell me about astronomy', VoiceIntent.career),
+      ),
+    );
+    final search = await tools.execute(
+      _call('search_careers', {'query': 'astronomy telescopes'}),
+    );
+
+    expect(search['record_count'], 0);
+    expect(search['records'], 'NO RECORDS FOUND');
+    expect(tools.turn.sources, isEmpty);
+    expect(tools.turn.noRecordsFound, isTrue);
   });
 
   test('memory feeds reconnect context', () {

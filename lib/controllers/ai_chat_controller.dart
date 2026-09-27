@@ -172,6 +172,7 @@ class AiChatController extends ChangeNotifier {
   /// Adds the guide's spoken answer from a voice conversation.
   void addVoiceAnswer({
     required String content,
+    AiChatStatus status = AiChatStatus.answered,
     List<AiChatSource> sources = const [],
     List<String> suggestedPrompts = const [],
     List<AiAnswerSection> sections = const [],
@@ -183,7 +184,7 @@ class AiChatController extends ChangeNotifier {
         id: _newId(),
         role: AiChatRole.assistant,
         content: normalized,
-        status: AiChatStatus.answered,
+        status: status,
         sources: sources,
         suggestedPrompts: suggestedPrompts.take(3).toList(growable: false),
         sections: sections,

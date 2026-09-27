@@ -63,6 +63,11 @@ class _AiChatTabState extends State<AiChatTab> {
   List<String>? _trending;
   final Map<String, bool> _feedback = {};
 
+  // Sources found during the live voice conversation, shown once the
+  // conversation ends rather than after every turn — repeating a chip row
+  // after each spoken answer is noisy for a voice interaction.
+  final _voiceSessionSources = <AiChatSource>[];
+
   bool get _voiceActive => _voice?.isActive ?? false;
 
   @override
@@ -330,6 +335,7 @@ class _AiChatTabState extends State<AiChatTab> {
     if (services == null) return;
     if (_voiceActive) {
       await _voice?.stop();
+      _flushVoiceSources();
       widget.analyticsService?.logEvent('ai_chat_voice_ended');
       return;
     }
@@ -361,6 +367,7 @@ class _AiChatTabState extends State<AiChatTab> {
           ..onUnavailable = _onVoiceUnavailable
           ..onEnded = _onVoiceEnded;
     final settings = services.settings;
+    _voiceSessionSources.clear();
     try {
       await voice.start(
         voiceName: settings.voiceName,
@@ -389,11 +396,37 @@ class _AiChatTabState extends State<AiChatTab> {
   }
 
   void _onVoiceAnswer(VoiceAnswer answer) {
+    final turn = answer.turn;
+    final found = turn.sources.take(3).toList(growable: false);
+    if (found.isNotEmpty) _voiceSessionSources.addAll(found);
     _chatController.addVoiceAnswer(
       content: answer.spokenText,
-      sources: answer.turn.sources.take(3).toList(growable: false),
-      suggestedPrompts: answer.turn.suggestions,
-      sections: answer.turn.sections,
+      // Sources are noisy read out after every spoken turn; only surface
+      // them inline when the guide couldn't find an answer (matching typed
+      // chat's insufficient-data fallback). Otherwise they're saved and
+      // shown once together when the conversation ends.
+      status: turn.noRecordsFound
+          ? AiChatStatus.insufficientData
+          : AiChatStatus.answered,
+      sources: turn.noRecordsFound ? found : const [],
+      suggestedPrompts: turn.suggestions,
+      sections: turn.sections,
+    );
+  }
+
+  /// Shows the sources gathered across the finished voice conversation in
+  /// one interactive summary, instead of after every spoken turn.
+  void _flushVoiceSources() {
+    if (_voiceSessionSources.isEmpty) return;
+    final seen = <String>{};
+    final unique = [
+      for (final source in _voiceSessionSources)
+        if (seen.add(source.sourceId)) source,
+    ];
+    _voiceSessionSources.clear();
+    _chatController.addVoiceAnswer(
+      content: AppLocalizations.of(context)!.ai_voiceSourcesSummary,
+      sources: unique.take(6).toList(growable: false),
     );
   }
 
@@ -412,6 +445,7 @@ class _AiChatTabState extends State<AiChatTab> {
   void _onVoiceEnded(String reason) {
     if (!mounted) return;
     final l = AppLocalizations.of(context)!;
+    _flushVoiceSources();
     _showVoiceMessage(
       reason == 'idle' ? l.ai_voiceIdleEnded : l.ai_voiceConnectionLost,
     );

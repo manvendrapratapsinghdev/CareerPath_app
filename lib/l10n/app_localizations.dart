@@ -1604,6 +1604,12 @@ abstract class AppLocalizations {
   /// **'Voice connection was lost. Tap Talk to continue.'**
   String get ai_voiceConnectionLost;
 
+  /// No description provided for @ai_voiceSourcesSummary.
+  ///
+  /// In en, this message translates to:
+  /// **'Here\'s what we covered — tap to explore further:'**
+  String get ai_voiceSourcesSummary;
+
   /// No description provided for @ai_trendingTitle.
   ///
   /// In en, this message translates to:

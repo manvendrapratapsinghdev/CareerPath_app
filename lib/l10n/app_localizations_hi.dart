@@ -814,6 +814,10 @@ class AppLocalizationsHi extends AppLocalizations {
       'आवाज़ कनेक्शन टूट गया। जारी रखने के लिए बात करें दबाएँ।';
 
   @override
+  String get ai_voiceSourcesSummary =>
+      'हमने इन पर बात की — आगे जानने के लिए टैप करें:';
+
+  @override
   String get ai_trendingTitle => 'ट्रेंडिंग सवाल';
 
   @override

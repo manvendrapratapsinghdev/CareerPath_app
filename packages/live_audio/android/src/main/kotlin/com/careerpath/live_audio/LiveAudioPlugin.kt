@@ -71,7 +71,16 @@ class LiveAudioPlugin : FlutterPlugin, MethodChannel.MethodCallHandler, Activity
                 "pcmAudioWrite" -> writePlayer(call.arguments as? ByteArray, result)
                 "pcmAudioPosition" -> result.success(playerPosition())
                 "pcmAudioDrainAndStop" -> drainPlayer(result)
-                "pcmAudioStop" -> { stopPlayer(); result.success(null) }
+                "pcmAudioStop" -> {
+                    // Run on the same single-thread executor as writePlayer so a
+                    // stop can never release() the AudioTrack while a write is
+                    // still in flight on it (that race surfaced to Dart as a
+                    // spurious PLAYER_WRITE/"playback failed" error).
+                    audioExecutor.execute {
+                        stopPlayer()
+                        activity?.runOnUiThread { result.success(null) } ?: result.success(null)
+                    }
+                }
                 "audioFocusRequest" -> result.success(requestFocus(call.argument<String>("mode") ?: "continuous"))
                 "audioFocusRelease" -> { releaseFocus(); result.success(null) }
                 "screenAwakeEnable" -> { keepAwake(true); result.success(null) }

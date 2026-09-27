@@ -821,6 +821,10 @@ class AppLocalizationsMr extends AppLocalizations {
       'Voice connection was lost. Tap Talk to continue.';
 
   @override
+  String get ai_voiceSourcesSummary =>
+      'Here\'s what we covered — tap to explore further:';
+
+  @override
   String get ai_trendingTitle => 'Trending questions';
 
   @override
