@@ -1,0 +1,11 @@
+html,body{width:1024px;height:500px}
+.canvas{width:1024px;height:500px}
+.canvas::before{background-size:28px 28px;-webkit-mask-image:radial-gradient(600px 400px at 30% 40%,#000 10%,transparent 75%)}
+.fgcopy{position:absolute;left:64px;top:0;bottom:0;width:520px;display:flex;flex-direction:column;justify-content:center;z-index:20}
+.fgcopy .brand{font-size:30px;gap:14px}.fgcopy .brand img{width:52px;height:52px}
+.fgcopy h1{font-size:60px;margin-top:22px;line-height:1.03}
+.fgcopy .sub{font-size:22px;margin:16px 0 0;max-width:470px}
+.phone.fg{width:250px;padding:8px;border-radius:42px}
+.phone.fg img.screen,.phone.fg::after{border-radius:35px}.phone.fg::after{inset:8px}
+.phone.fg i{display:none}
+.callout.fg{border-radius:16px}

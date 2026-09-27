@@ -1,0 +1,21 @@
+html,body{width:1920px;height:1080px}
+.canvas{width:1920px;height:1080px;
+  background:
+    radial-gradient(900px 700px at 90% -10%, color-mix(in srgb, var(--violet) 70%, transparent), transparent 70%),
+    radial-gradient(800px 800px at -5% 20%, color-mix(in srgb, var(--indigo) 55%, transparent), transparent 70%),
+    radial-gradient(900px 600px at 75% 115%, color-mix(in srgb, var(--accent) 38%, transparent), transparent 70%),
+    linear-gradient(135deg, #16123F 0%, #0C0A24 60%, #0A0820 100%);}
+.canvas::before{-webkit-mask-image:radial-gradient(900px 700px at 25% 45%,#000 10%,transparent 75%)}
+.tcopy{position:absolute;left:120px;top:0;bottom:0;width:760px;display:flex;flex-direction:column;justify-content:center;align-items:flex-start;z-index:20}
+.tcopy h1{font-size:96px;margin-top:36px}
+.tcopy .sub{margin:28px 0 0;text-align:left;max-width:680px}
+.tcopy .chips{justify-content:flex-start}
+.tablet{position:absolute;width:640px;padding:22px;border-radius:52px;
+  background:linear-gradient(145deg,#3A3A48 0%,#111117 30%,#0A0A0E 70%,#2B2B36 100%);
+  box-shadow:inset 0 0 0 2px rgba(255,255,255,.12),0 0 0 1.5px rgba(0,0,0,.6),0 70px 120px -20px rgba(0,0,0,.65),0 30px 60px -10px rgba(10,6,40,.6);z-index:5}
+.tablet::after{content:'';position:absolute;inset:22px;border-radius:32px;background:linear-gradient(125deg,rgba(255,255,255,.10) 0%,transparent 28%);pointer-events:none}
+.tablet img.screen{display:block;width:100%;aspect-ratio:1640/2360;border-radius:32px;background:#F8FAFC}
+.tablet i{position:absolute;top:-5px;right:90px;width:70px;height:6px;border-radius:3px;background:linear-gradient(#4a4a58,#2a2a34)}
+.tablet.sm{width:540px;padding:19px;border-radius:46px}
+.tablet.sm::after{inset:19px;border-radius:28px}.tablet.sm img.screen{border-radius:28px}
+.callout{border-radius:26px}

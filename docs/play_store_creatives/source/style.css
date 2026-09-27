@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&display=block');
+
+:root {
+  --ink: #0C0A24;
+  --indigo: #4F46E5;
+  --violet: #7C3AED;
+  --lilac: #A5B4FC;
+  --accent: #34D399;
+  --accent-2: #818CF8;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body { width: 1080px; height: 1920px; overflow: hidden; background: var(--ink); }
+
+body {
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+}
+
+.canvas {
+  position: relative;
+  width: 1080px;
+  height: 1920px;
+  overflow: hidden;
+  background:
+    radial-gradient(900px 700px at 85% -5%, color-mix(in srgb, var(--violet) 70%, transparent), transparent 70%),
+    radial-gradient(800px 800px at -10% 30%, color-mix(in srgb, var(--indigo) 55%, transparent), transparent 70%),
+    radial-gradient(900px 700px at 50% 105%, color-mix(in srgb, var(--accent) 38%, transparent), transparent 70%),
+    linear-gradient(180deg, #16123F 0%, #0C0A24 55%, #0A0820 100%);
+}
+
+/* subtle dot grid */
+.canvas::before {
+  content: '';
+  position: absolute; inset: 0;
+  background-image: radial-gradient(rgba(255,255,255,.10) 1.4px, transparent 1.6px);
+  background-size: 36px 36px;
+  -webkit-mask-image: radial-gradient(900px 700px at 50% 30%, #000 10%, transparent 75%);
+  pointer-events: none;
+}
+
+/* decorative orbit rings */
+.ring {
+  position: absolute;
+  border-radius: 50%;
+  border: 2px solid rgba(255,255,255,.07);
+  pointer-events: none;
+}
+
+.glow {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(90px);
+  pointer-events: none;
+}
+
+/* ---------- copy ---------- */
+.copy {
+  position: absolute;
+  top: 128px; left: 0; right: 0;
+  padding: 0 84px;
+  text-align: center;
+  z-index: 20;
+}
+
+.eyebrow {
+  display: inline-flex; align-items: center; gap: 14px;
+  padding: 14px 28px 14px 18px;
+  border-radius: 999px;
+  background: rgba(255,255,255,.08);
+  border: 1.5px solid rgba(255,255,255,.14);
+  font-size: 26px; font-weight: 700; letter-spacing: .14em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,.9);
+  backdrop-filter: blur(10px);
+}
+.eyebrow .dot {
+  width: 34px; height: 34px; border-radius: 50%;
+  display: grid; place-items: center;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  box-shadow: 0 0 24px color-mix(in srgb, var(--accent) 70%, transparent);
+}
+.eyebrow .dot svg { width: 20px; height: 20px; }
+
+h1 {
+  margin-top: 40px;
+  font-size: 94px; line-height: 1.02;
+  font-weight: 800; letter-spacing: -0.035em;
+}
+h1 .hl {
+  background: linear-gradient(95deg, var(--accent) 0%, var(--accent-2) 100%);
+  -webkit-background-clip: text; background-clip: text;
+  color: transparent;
+}
+
+.sub {
+  margin: 30px auto 0;
+  max-width: 820px;
+  font-size: 34px; line-height: 1.4; font-weight: 500;
+  color: rgba(226,228,255,.72);
+}
+
+/* ---------- device ---------- */
+.phone {
+  position: absolute;
+  width: 600px;
+  padding: 18px;
+  border-radius: 100px;
+  background: linear-gradient(145deg, #3A3A48 0%, #111117 30%, #0A0A0E 70%, #2B2B36 100%);
+  box-shadow:
+    inset 0 0 0 2px rgba(255,255,255,.12),
+    0 0 0 1.5px rgba(0,0,0,.6),
+    0 70px 120px -20px rgba(0,0,0,.65),
+    0 30px 60px -10px rgba(10,6,40,.6);
+  z-index: 5;
+}
+.phone::after { /* glass sheen */
+  content: '';
+  position: absolute; inset: 18px;
+  border-radius: 82px;
+  background: linear-gradient(125deg, rgba(255,255,255,.10) 0%, transparent 28%);
+  pointer-events: none;
+}
+.phone img.screen {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1206 / 2622;
+  border-radius: 82px;
+  background: #F8FAFC;
+}
+/* side buttons */
+.phone i {
+  position: absolute; width: 6px; border-radius: 3px;
+  background: linear-gradient(90deg, #2a2a34, #4a4a58);
+}
+.phone i.b1 { left: -5px; top: 250px; height: 70px; }
+.phone i.b2 { left: -5px; top: 350px; height: 110px; }
+.phone i.b3 { right: -5px; top: 320px; height: 150px; }
+
+.phone.sm { width: 500px; padding: 15px; border-radius: 84px; }
+.phone.sm img.screen, .phone.sm::after { border-radius: 69px; }
+.phone.sm::after { inset: 15px; }
+
+/* ---------- floating real-UI callouts ---------- */
+.callout {
+  position: absolute;
+  z-index: 15;
+  border-radius: 34px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow:
+    0 40px 80px -20px rgba(8,4,40,.7),
+    0 0 0 1.5px rgba(255,255,255,.5),
+    0 0 60px color-mix(in srgb, var(--accent) 30%, transparent);
+}
+.callout img { display: block; width: 100%; }
+
+/* ---------- misc ---------- */
+.spark { position: absolute; z-index: 16; }
+
+.brand {
+  display: inline-flex; align-items: center; gap: 18px;
+  font-size: 40px; font-weight: 800; letter-spacing: -0.02em;
+}
+.brand img { width: 72px; height: 72px; border-radius: 50%; box-shadow: 0 10px 30px rgba(79,70,229,.6); }
+
+.chips {
+  display: flex; justify-content: center; flex-wrap: wrap; gap: 16px;
+  margin-top: 34px;
+}
+.chip {
+  display: inline-flex; align-items: center; gap: 12px;
+  padding: 14px 24px;
+  border-radius: 999px;
+  font-size: 27px; font-weight: 600;
+  color: #fff;
+  background: rgba(255,255,255,.08);
+  border: 1.5px solid rgba(255,255,255,.14);
+}
+.chip b { width: 14px; height: 14px; border-radius: 50%; display: inline-block; }
