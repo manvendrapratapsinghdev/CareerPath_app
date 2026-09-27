@@ -85,37 +85,35 @@
 
 ## Remaining Features
 
-### Firebase Analytics (P1)
-- Re-add firebase_core + firebase_analytics packages
-- Configure google-services.json for Android
-- AnalyticsService already stubbed — just needs real Firebase instance
-- Track: screen views, navigation, bookmarks, search, quiz, share events
+*(Source: [TASK_LIST.md](TASK_LIST.md) Phase 2 and Future Scope — verified against the codebase.)*
 
-### Rate the App Prompt (P2)
-- Show "Rate us" dialog after 5+ sessions or 3+ days of use
-- Track session count in SharedPreferences
-- Link to Play Store listing
-- "Not now" and "Don't ask again" options
+### 11. AI Guide — Voice Conversation (in progress, `feature/ai-guide-voice`)
+- Gemini Live voice session, mic streaming, barge-in, spoken welcome: built and committed
+- Still missing: transcript revealed in step with audio playback (currently delivered as one block per turn), rotating landing titles, animated "Ask me about…" hint text, Lottie loaders, auto-start voice after welcome
+- Search by meaning (semantic index) built but still backfilling on-device at the Gemini key's quota rate; keyword search covers the gap
 
-### Feedback Form (P2)
-- In-app feedback form accessible from profile/settings
-- Fields: rating (stars), category (bug/feature/other), message
-- Submit via email intent or backend API
-- Optional screenshot attachment
+### 12. Backend Admin Panel (P1)
+- React-based admin project, authentication and role-based access control
+- CRUD interfaces for streams, categories/nodes, books, institutes, job sectors
+- Form validation and audit logging for data changes
+- Not started — no admin panel exists yet
 
-### Career Path Depth Indicator (P2)
-- Visual indicator showing current depth in the career tree
-- Breadcrumb enhancement: show "Level 3 of 5" or step dots
-- Helps users understand how deep the exploration goes
+### 13. Personalized Recommendation Engine (P1)
+- Local interaction tracking (browsed paths, viewed nodes) beyond what ExplorationService already records
+- Scoring model combining behavior + profile signals
+- Surface recommendations in the Suggestions Tab
+- Not started
 
-### Recently Viewed (P2)
-- Track last 10-15 visited career nodes
-- "Recently Viewed" section on home screen (horizontal scroll)
-- Persisted in SharedPreferences
-- Quick access to resume exploration
+### 14. Analytics & Usage Insights Dashboard (P2)
+- Firebase Analytics event tracking is live in the app
+- Still missing: backend pipeline and admin dashboard panels (most-browsed paths, stream engagement, geographic distribution, search trend analysis)
 
-### App Localization — Hindi (P3)
-- Use Flutter's intl/l10n system
-- Translate: UI labels, onboarding text, quiz questions
-- Career data stays in English (from backend)
-- Language toggle in profile/settings
+### 15. NLP Query Interface for Explore/Search (P2)
+- The AI Guide already does intent routing and grounded answers in chat form
+- Still missing: a dedicated entity-recognition → query-to-node mapping pipeline wired into the Explore tab's own search results UI (as opposed to the conversational AI Guide)
+
+### Future Scope (not started)
+- **F1 — Institute Self-Registration**: registration form, admin review/approval, course-to-node mapping
+- **F2 — Expert & Consultant Registration**: profile creation, expertise-to-node linking, LinkedIn display, admin verification
+- **F3 — Fee Structure & Affordability**: fee data model, admin entry UI, display in leaf detail view
+- **F4 — Peer Community & Discussion Forums**: topic threads per career node, moderation tools
