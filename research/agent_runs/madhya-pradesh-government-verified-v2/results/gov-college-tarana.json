@@ -1,0 +1,104 @@
+{
+  "institution_id": "gov-college-tarana",
+  "nirf_name": "Gov.College, Tarana",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "remove_candidate",
+  "district": null,
+  "district_verification_status": "not_found",
+  "official_website": null,
+  "website_verification_status": "not_found",
+  "description": null,
+  "description_verification_status": "not_found",
+  "record_status": "remove_candidate",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_nirf_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Lists Gov.College, Tarana in Tarana, Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "government_nirf_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Lists Gov.College, Tarana in Tarana, Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "official_state_college_directory",
+      "url": "https://highereducation.mp.gov.in/?page=3ReniKuyIMmDd4opO%2FkIdA%3D%3D",
+      "supports": [
+        "Official Madhya Pradesh Higher Education directory includes the Tarana college entry."
+      ]
+    },
+    {
+      "type": "official_state_college_directory_record",
+      "url": "https://highereducation.mp.gov.in/CollegeDisp/getTable",
+      "supports": [
+        "Official directory record identifies orgid 483 as Govt College, Tarana, college code 1808."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "Gov College Tarana Madhya Pradesh official website",
+      "result": "No distinct official institution website was established; returned results were generic or unrelated.",
+      "url": "https://www.bing.com/search?q=Gov+College+Tarana+Madhya+Pradesh+official+website"
+    },
+    {
+      "query": "Government College Tarana Ujjain official",
+      "result": "No distinct official institution website was established.",
+      "url": "https://www.bing.com/search?q=Government+College+Tarana+Ujjain+official"
+    },
+    {
+      "query": "site:mp.gov.in Tarana college",
+      "result": "No direct institution website was identified from the search results.",
+      "url": "https://www.bing.com/search?q=site%3Amp.gov.in+Tarana+college"
+    },
+    {
+      "query": "site:ac.in \"Tarana\" college Ujjain",
+      "result": "No relevant official institution domain was identified.",
+      "url": "https://www.bing.com/search?q=site%3Aac.in+%22Tarana%22+college+Ujjain"
+    },
+    {
+      "query": "site:edu.in \"Tarana\" college Ujjain",
+      "result": "No relevant official institution domain was identified.",
+      "url": "https://www.bing.com/search?q=site%3Aedu.in+%22Tarana%22+college+Ujjain"
+    },
+    {
+      "query": "\"hegctarujj@mp.gov.in\"",
+      "result": "No direct official college website was identified.",
+      "url": "https://www.bing.com/search?q=%22hegctarujj%40mp.gov.in%22"
+    },
+    {
+      "query": "\"Govt College, Tarana\"",
+      "result": "No direct official college website was identified.",
+      "url": "https://www.bing.com/search?q=%22Govt+College%2C+Tarana%22"
+    },
+    {
+      "query": "\"शा.कॉलेज,तराना\"",
+      "result": "No direct official college website was identified.",
+      "url": "https://www.bing.com/search?q=%22%E0%A4%B6%E0%A4%BE.%E0%A4%95%E0%A5%89%E0%A4%B2%E0%A5%87%E0%A4%9C%2C%E0%A4%A4%E0%A4%B0%E0%A4%BE%E0%A4%A8%E0%A4%BE%22"
+    },
+    {
+      "query": "Direct candidate-domain checks for gctarana and govtcollegetarana variants",
+      "result": "Candidate hostnames did not resolve; no authoritative institution domain was established.",
+      "url": null
+    }
+  ],
+  "course_catalogue_status": "not_found",
+  "courses": [],
+  "agent_notes": [
+    "The institution is independently confirmed in both supplied NIRF 2025 government listings.",
+    "The official Madhya Pradesh Higher Education directory identifies the matching record as Govt College, Tarana, orgid 483 and college code 1808; its directory data associates the record with Ujjain, but district was not imported because the task requires institution-website evidence.",
+    "After multiple focused searches and direct candidate-domain checks, no distinct official institution website could be established.",
+    "The state directory's public college-website form is CAPTCHA-gated; no redirect or domain was guessed or imported.",
+    "Normal TLS verification encountered the managed-network self-signed certificate-chain error; the permitted --insecure fallback was used only for public GET requests to expected official/search hosts.",
+    "No description or programme catalogue was imported because no actual official institution website was established."
+  ]
+}

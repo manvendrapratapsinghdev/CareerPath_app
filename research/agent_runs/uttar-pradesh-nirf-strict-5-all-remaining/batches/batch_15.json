@@ -1,0 +1,57 @@
+{
+  "batch": 15,
+  "started_at": "2026-09-27T14:05:56.035188+00:00",
+  "finished_at": "2026-09-27T14:10:58.455108+00:00",
+  "assignment_count": 5,
+  "completed_count": 1,
+  "skipped_count": 3,
+  "failed_count": 1,
+  "results": [
+    {
+      "institution_id": "abes-engineering-college",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/abes-engineering-college.json",
+      "finished_at": "2026-09-27T14:05:56.078642+00:00"
+    },
+    {
+      "institution_id": "abes-institute-of-technology-ghaziabad",
+      "nirf_name": "ABES INSTITUTE OF TECHNOLOGY, GHAZIABAD",
+      "status": "completed",
+      "started_at": "2026-09-27T14:05:56.045456+00:00",
+      "finished_at": "2026-09-27T14:09:41.217611+00:00",
+      "duration_seconds": 225.116,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/abes-institute-of-technology-ghaziabad.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/logs/abes-institute-of-technology-ghaziabad.jsonl"
+    },
+    {
+      "institution_id": "ajay-kumar-garg-engineering-college",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/ajay-kumar-garg-engineering-college.json",
+      "finished_at": "2026-09-27T14:05:56.079903+00:00"
+    },
+    {
+      "institution_id": "ajay-kumar-garg-institute-of-management",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/ajay-kumar-garg-institute-of-management.json",
+      "finished_at": "2026-09-27T14:05:56.077994+00:00"
+    },
+    {
+      "institution_id": "goswami-tulsi-das-govt-degree-college-karwi",
+      "nirf_name": "GOSWAMI TULSI DAS GOVT. DEGREE COLLEGE, KARWI",
+      "status": "failed",
+      "started_at": "2026-09-27T14:05:56.045525+00:00",
+      "finished_at": "2026-09-27T14:10:58.451576+00:00",
+      "duration_seconds": 302.372,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [
+        "verified outcome requires a source supporting district or campus location"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/logs/goswami-tulsi-das-govt-degree-college-karwi.jsonl"
+    }
+  ]
+}

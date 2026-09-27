@@ -1,0 +1,91 @@
+{
+  "batch": 9,
+  "started_at": "2026-09-27T07:10:02.448993+00:00",
+  "finished_at": "2026-09-27T07:10:13.683803+00:00",
+  "assignment_count": 5,
+  "completed_count": 0,
+  "skipped_count": 0,
+  "failed_count": 5,
+  "results": [
+    {
+      "institution_id": "amity-university-gwalior",
+      "nirf_name": "Amity University, Gwalior",
+      "status": "failed",
+      "started_at": "2026-09-27T07:10:02.460694+00:00",
+      "finished_at": "2026-09-27T07:10:13.633166+00:00",
+      "duration_seconds": 11.172,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/amity-university-gwalior.jsonl"
+    },
+    {
+      "institution_id": "dr-pancham-singh-kavde-of-dr-bhimrao-ambedkar-government-college-amla",
+      "nirf_name": "DR PANCHAM SINGH KAVDE of Dr. Bhimrao Ambedkar Government College Amla",
+      "status": "failed",
+      "started_at": "2026-09-27T07:10:02.478522+00:00",
+      "finished_at": "2026-09-27T07:10:13.680645+00:00",
+      "duration_seconds": 11.202,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/dr-pancham-singh-kavde-of-dr-bhimrao-ambedkar-government-college-amla.jsonl"
+    },
+    {
+      "institution_id": "govt-college-alampur",
+      "nirf_name": "GOVT. COLLEGE ALAMPUR",
+      "status": "failed",
+      "started_at": "2026-09-27T07:10:02.468416+00:00",
+      "finished_at": "2026-09-27T07:10:13.118067+00:00",
+      "duration_seconds": 10.649,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/govt-college-alampur.jsonl"
+    },
+    {
+      "institution_id": "govt-college-alot",
+      "nirf_name": "Govt. College, Alot",
+      "status": "failed",
+      "started_at": "2026-09-27T07:10:02.468746+00:00",
+      "finished_at": "2026-09-27T07:10:13.651189+00:00",
+      "duration_seconds": 11.182,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/govt-college-alot.jsonl"
+    },
+    {
+      "institution_id": "govt-college-astha-sehore",
+      "nirf_name": "Govt. College, Astha, Sehore",
+      "status": "failed",
+      "started_at": "2026-09-27T07:10:02.478884+00:00",
+      "finished_at": "2026-09-27T07:10:13.681957+00:00",
+      "duration_seconds": 11.203,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/govt-college-astha-sehore.jsonl"
+    }
+  ]
+}

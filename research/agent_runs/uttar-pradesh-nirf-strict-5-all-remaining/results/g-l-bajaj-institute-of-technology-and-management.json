@@ -1,0 +1,385 @@
+{
+  "institution_id": "g-l-bajaj-institute-of-technology-and-management",
+  "nirf_name": "G.L.Bajaj Institute of Technology and Management",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/EngineeringRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": null,
+  "district_verification_status": "not_found",
+  "official_website": "https://www.glbitm.org/",
+  "website_verification_status": "verified",
+  "description": "G.L. Bajaj Institute of Technology and Management is an AICTE-approved, Dr. A.P.J. Abdul Kalam Technical University-affiliated institute at Plot No. 2, APJ Abdul Kalam Road, Knowledge Park 3, Greater Noida, Uttar Pradesh. Its official catalogue lists undergraduate B.Tech and postgraduate MBA, MCA, and M.Tech programmes.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/EngineeringRankingALL.html",
+      "supports": [
+        "Exact institution name listed with Greater Noida, Uttar Pradesh in the 2025 Engineering directory."
+      ]
+    },
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html",
+      "supports": [
+        "Exact institution name listed with Greater Noida, Uttar Pradesh in the 2025 Management directory."
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://www.glbitm.org/",
+      "supports": [
+        "Official homepage identifies GL Bajaj Institute of Technology and Management and gives the Greater Noida, Uttar Pradesh campus address."
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "https://www.glbitm.org/contact_us.aspx?mpgid=131&pgidtrail=131",
+      "supports": [
+        "Official contact page gives Plot No. 2, APJ Abdul Kalam Road, Knowledge Park 3, Greater Noida, Uttar Pradesh, India, Pin-201306."
+      ]
+    },
+    {
+      "type": "official_institution_description",
+      "url": "https://www.glbitm.org/best-engineering-institute-in-greater-noida",
+      "supports": [
+        "Official The Institute page describes the institute, its AICTE approval, and affiliation to Dr. A.P.J. Abdul Kalam Technical University."
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://www.glbitm.org/cpage.aspx?mpgid=27&pgidtrail=179",
+      "supports": [
+        "Official Courses Offered & Intake page lists the AICTE-approved programme rows used below."
+      ]
+    },
+    {
+      "type": "official_courses_admission_index",
+      "url": "https://www.glbitm.org/courses-and-admission/",
+      "supports": [
+        "Official Courses & Admission page exposes the institution's undergraduate and postgraduate programme areas."
+      ]
+    },
+    {
+      "type": "official_admissions_page",
+      "url": "https://www.glbitm.org/course_admission.aspx?mpgid=37&pgid1=46&pgidtrail=49",
+      "supports": [
+        "Official admission page confirms the current B.Tech admission-process section."
+      ]
+    }
+  ],
+  "website_search_evidence": [],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "g-l-bajaj-institute-of-technology-and-management-glbitm-btech-computer-science-and-engineering",
+      "name": "COMPUTER SCIENCE AND ENGINEERING",
+      "level": "UNDER GRADUATE",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.glbitm.org/cpage.aspx?mpgid=27&pgidtrail=179",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-bajaj-institute-of-technology-and-management-glbitm-btech-cse-artificial-intelligence",
+      "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE)",
+      "level": "UNDER GRADUATE",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.glbitm.org/cpage.aspx?mpgid=27&pgidtrail=179",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 81,
+          "career_node_slug": "btech_ai",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > AI & Machine Learning",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-bajaj-institute-of-technology-and-management-glbitm-btech-cse-data-science",
+      "name": "COMPUTER SCIENCE AND ENGINEERING (DATA SCIENCE)",
+      "level": "UNDER GRADUATE",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.glbitm.org/cpage.aspx?mpgid=27&pgidtrail=179",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 338,
+          "career_node_slug": "science_data",
+          "career_breadcrumb": "Data Science & Analytics",
+          "relation": "closest-specialization: Data Science & Analytics",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-bajaj-institute-of-technology-and-management-glbitm-btech-cse-artificial-intelligence-and-machine-learning",
+      "name": "COMPUTER SCIENCE AND ENGINEERING (ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING)",
+      "level": "UNDER GRADUATE",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.glbitm.org/cpage.aspx?mpgid=27&pgidtrail=179",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 81,
+          "career_node_slug": "btech_ai",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > AI & Machine Learning",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-bajaj-institute-of-technology-and-management-glbitm-btech-electrical-and-computer-engineering",
+      "name": "ELECTRICAL AND COMPUTER ENGINEERING",
+      "level": "UNDER GRADUATE",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.glbitm.org/cpage.aspx?mpgid=27&pgidtrail=179",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "closest-specialization: Electrical Engineering",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-bajaj-institute-of-technology-and-management-glbitm-btech-electronics-and-communication-engineering",
+      "name": "ELECTRONICS & COMMUNICATION ENGINEERING",
+      "level": "UNDER GRADUATE",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.glbitm.org/cpage.aspx?mpgid=27&pgidtrail=179",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-bajaj-institute-of-technology-and-management-glbitm-btech-computer-science-and-information-technology",
+      "name": "COMPUTER SCIENCE AND INFORMATION TECHNOLOGY",
+      "level": "UNDER GRADUATE",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.glbitm.org/cpage.aspx?mpgid=27&pgidtrail=179",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 89,
+          "career_node_slug": "btech_it",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Information Technology",
+          "relation": "closest-specialization: Information Technology",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-bajaj-institute-of-technology-and-management-glbitm-btech-mechanical-engineering",
+      "name": "MECHANICAL ENGINEERING",
+      "level": "UNDER GRADUATE",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.glbitm.org/cpage.aspx?mpgid=27&pgidtrail=179",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-bajaj-institute-of-technology-and-management-glbitm-btech-computer-science-and-enginereing-hindi",
+      "name": "COMPUTER SCIENCE AND ENGINEREING (HINDI)",
+      "level": "UNDER GRADUATE",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.glbitm.org/cpage.aspx?mpgid=27&pgidtrail=179",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "nearest-parent: Computer Science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-bajaj-institute-of-technology-and-management-glbitm-mba-master-of-business-administration",
+      "name": "MASTER OF BUSINESS ADMINISTRATION",
+      "level": "POST GRADUATE",
+      "credential": "MBA",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.glbitm.org/cpage.aspx?mpgid=27&pgidtrail=179",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 208,
+          "career_node_slug": "mba_general",
+          "career_breadcrumb": "Management & Business > BBA (General) > MBA → CEO / Director Track",
+          "relation": "direct degree node: MBA",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-bajaj-institute-of-technology-and-management-glbitm-mca-masters-in-computer-applications",
+      "name": "MASTERS IN COMPUTER APPLICATIONS",
+      "level": "POST GRADUATE",
+      "credential": "MCA",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.glbitm.org/cpage.aspx?mpgid=27&pgidtrail=179",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 93,
+          "career_node_slug": "mca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications) > MCA → Software Engineer",
+          "relation": "direct degree node: MCA",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-bajaj-institute-of-technology-and-management-glbitm-mba-business-analytics",
+      "name": "MBA (BUSINESS ANALYTICS)",
+      "level": "POST GRADUATE",
+      "credential": "MBA",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.glbitm.org/cpage.aspx?mpgid=27&pgidtrail=179",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 169,
+          "career_node_slug": "bi_analyst",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Data Science > Business Intelligence Analyst",
+          "relation": "closest-specialization: Business Intelligence Analyst",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-bajaj-institute-of-technology-and-management-glbitm-mtech-computer-science-and-engineering",
+      "name": "COMPUTER SCIENCE AND ENGINEERING",
+      "level": "POST GRADUATE",
+      "credential": "M.Tech",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.glbitm.org/cpage.aspx?mpgid=27&pgidtrail=179",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "nearest-parent: Computer Science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "Normal TLS retrieval of the expected NIRF and official hosts returned the managed proxy's self-signed certificate-chain error; after confirming the expected public hosts, curl --insecure was used only for public GET requests.",
+    "The official homepage and contact page confirm the single Greater Noida campus at Plot No. 2, APJ Abdul Kalam Road, Knowledge Park 3, Uttar Pradesh 201306. The inspected official pages do not state the district name, so district is left null.",
+    "The official Courses Offered & Intake page is the authoritative catalogue used here and lists 13 AICTE-approved degree rows: 9 undergraduate B.Tech rows and 4 postgraduate rows (MBA, MCA, MBA (Business Analytics), and M.Tech). Duration, eligibility, and study mode were not stated in the central catalogue, so duration and eligibility are null and mode is not_stated.",
+    "The career tree has exact discipline nodes for most programmes; nearest-parent or closest-specialization mappings are labelled where the tree has no exact programme node.",
+    "Automatically downgraded from verified because one or more required official-source verification prerequisites were not satisfied."
+  ]
+}

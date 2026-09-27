@@ -1,0 +1,15 @@
+{
+  "institution_id": "legacy-243",
+  "database_id": 243,
+  "name": "Geological Survey of India Training Institute",
+  "website": "https://www.gsi.gov.in",
+  "outcome": "classified",
+  "institution_type": "central_institute",
+  "source_url": "https://gsi.gov.in/about-gsi/",
+  "confidence": "high",
+  "evidence": "The official About GSI page states that Geological Survey of India is an attached office to the Ministry of Mines, while its official training page identifies the Geological Survey of India Training Institute, supporting classification as a central institute.",
+  "notes": [
+    "The supplied www.gsi.gov.in domain canonicalizes to the official gsi.gov.in domain; the official training page used for identity confirmation is https://gsi.gov.in/Trainning/courseAnnouncement/.",
+    "Normal TLS verification returned the exact proxy error 'self signed certificate in certificate chain'; public GET requests were retried with curl --insecure."
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "institution_id": "legacy-122",
+  "database_id": 122,
+  "name": "Indira Gandhi Institute of Aeronautics",
+  "website": "https://www.igiaviationacademy.com",
+  "outcome": "manual_review",
+  "institution_type": null,
+  "source_url": null,
+  "confidence": null,
+  "evidence": null,
+  "notes": [
+    "The supplied official hostname could not be reached via command-line HTTPS: DNS resolution returned “Could not resolve host.”",
+    "Public DNS-over-HTTPS checks returned NXDOMAIN for both www.igiaviationacademy.com and igiaviationacademy.com.",
+    "No official-page evidence was available; the curl --insecure fallback was not used because no proxy certificate-chain error occurred."
+  ]
+}

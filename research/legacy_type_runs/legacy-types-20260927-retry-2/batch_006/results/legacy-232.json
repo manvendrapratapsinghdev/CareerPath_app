@@ -1,0 +1,16 @@
+{
+  "institution_id": "legacy-232",
+  "database_id": 232,
+  "name": "Chanakya IAS Academy",
+  "website": "https://www.chanakya-ias.com",
+  "outcome": "manual_review",
+  "institution_type": null,
+  "source_url": null,
+  "confidence": null,
+  "evidence": null,
+  "notes": [
+    "The supplied official hostname could not be resolved; public DNS-over-HTTPS checks returned NXDOMAIN for both www.chanakya-ias.com and chanakya-ias.com.",
+    "No curl --insecure fallback was used because the failure was DNS resolution, not a proxy certificate-chain error.",
+    "The official website and institutional type could therefore not be verified under the research rules."
+  ]
+}

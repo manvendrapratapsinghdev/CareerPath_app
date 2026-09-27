@@ -1,0 +1,83 @@
+{
+  "institution_id": "govt-college-pachore-rajgarh",
+  "nirf_name": "Govt. College, Pachore, Rajgarh",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Rajgarh",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://highereducation.mp.gov.in/?orgid=332",
+  "website_verification_status": "verified",
+  "description": "Government postgraduate college in Pachore, Rajgarh district, Madhya Pradesh; the official profile lists its establishment year as 1987.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Contains the exact institution name Govt. College, Pachore, Rajgarh with city Rajgarh and state Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://highereducation.mp.gov.in/?orgid=332",
+      "supports": [
+        "Official college microsite header identifies Veer Savarkar Government Postgraduate College, Pachore, Rajgarh district."
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "https://highereducation.mp.gov.in/?page=ulsywSoKLwZs3bcmwVxbOw%3D%3D&orgid=332",
+      "supports": [
+        "Official At A Glance page identifies the same Pachore, Rajgarh campus and lists establishment year 1987."
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=YvX%2BU3aP%2FUurTCjFaalGaA%3D%3D&orgid=332",
+      "supports": [
+        "Official Regular Courses page provides PG, UG and Diploma programme sections but contains no course rows or programme names."
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=eXuuq1gG%2FHOF%2BTjCmZ3rlA%3D%3D&orgid=332",
+      "supports": [
+        "Official Distance Education Courses page provides PG, UG and Diploma sections but contains no course rows or programme names."
+      ]
+    },
+    {
+      "type": "official_academic_catalogue_check",
+      "url": "https://highereducation.mp.gov.in/?page=ydPr7StgjVwbV%2FUfv2qHag%3D%3D&orgid=332",
+      "supports": [
+        "Official Departments page contains only empty table headers and no department entries."
+      ]
+    },
+    {
+      "type": "official_catalogue_gap_check",
+      "url": "https://highereducation.mp.gov.in/?page=aBsp0Y2aMVPyHP0fUAJbVg%3D%3D&orgid=332",
+      "supports": [
+        "Official Prospectus page is under construction and provides no programme catalogue."
+      ]
+    },
+    {
+      "type": "official_catalogue_gap_check",
+      "url": "https://highereducation.mp.gov.in/?page=wkPA602gc%2BXbxqeRkQABew%3D%3D&orgid=332",
+      "supports": [
+        "Official New Course Started page is under construction and provides no programme names."
+      ]
+    }
+  ],
+  "website_search_evidence": [],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [],
+  "agent_notes": [
+    "The NIRF 2025 College Ranking ALL listing establishes the exact government-listed institution and Rajgarh, Madhya Pradesh campus.",
+    "The official Madhya Pradesh Higher Education college microsite at orgid=332 confirms the Pachore, Rajgarh campus identity.",
+    "The official Regular Courses and Distance Education Courses pages are present but incomplete: their PG, UG and Diploma tables contain headers only, with no active programme names, durations or eligibility details. The Departments page has no entries, while Prospectus and New Course Started pages are under construction. No courses were imported because programme names could not be verified from the actual official college website.",
+    "Normal TLS verification failed first on the expected official NIRF hostname with the managed proxy self-signed certificate-chain error; curl --insecure was then used only for public GET requests to confirmed official/search hosts. No credentials or private data were sent."
+  ]
+}

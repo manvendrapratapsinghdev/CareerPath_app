@@ -1,0 +1,691 @@
+{
+  "institution_id": "dr-a-p-j-abdul-kalam-technical-university",
+  "nirf_name": "Dr. A.P.J. Abdul Kalam Technical University",
+  "verification_outcome": "manual_review",
+  "district": "Lucknow",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://aktu.ac.in/",
+  "website_verification_status": "verified",
+  "description": "Dr. A.P.J. Abdul Kalam Technical University is a Government of Uttar Pradesh technical university at Sec-11, Jankipuram Vistar, Lucknow, with affiliating jurisdiction across Uttar Pradesh.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [
+    "fms.aktu.ac.in"
+  ],
+  "verification_sources": [
+    {
+      "type": "official_homepage",
+      "url": "https://aktu.ac.in/",
+      "supports": [
+        "official institution identity",
+        "Lucknow campus context",
+        "institution description",
+        "programme overview and link to current 2026-27 admission guidelines"
+      ]
+    },
+    {
+      "type": "official_contact_page",
+      "url": "https://aktu.ac.in/contact-us.html",
+      "supports": [
+        "Sec-11, Jankipuram Vistar, Lucknow address",
+        "PIN 226031",
+        "campus and city identity"
+      ]
+    },
+    {
+      "type": "official_current_admission_guidelines",
+      "url": "https://fms.aktu.ac.in/Resources/aktu/pdf/uptac%20202526.pdf",
+      "supports": [
+        "current 2026-27 programme list",
+        "admission programme families",
+        "official current admission context"
+      ]
+    },
+    {
+      "type": "official_bachelors_catalogue",
+      "url": "https://aktu.ac.in/bachelors-ordinance.html",
+      "supports": [
+        "official bachelors programme catalogue page",
+        "bachelor programme family cross-check"
+      ]
+    },
+    {
+      "type": "official_masters_catalogue",
+      "url": "https://aktu.ac.in/masters-ordinance.html",
+      "supports": [
+        "official masters programme catalogue page",
+        "master programme family cross-check"
+      ]
+    },
+    {
+      "type": "official_phd_policy_catalogue",
+      "url": "https://aktu.ac.in/phdPolicies.html",
+      "supports": [
+        "official PhD programme policy entry",
+        "doctoral programme existence"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "Dr. A.P.J. Abdul Kalam Technical University Lucknow official website",
+      "result": "DuckDuckGo discovery returned https://aktu.ac.in/; the official homepage was fetched and its identity and Lucknow title and content were verified directly.",
+      "url": "https://aktu.ac.in/"
+    },
+    {
+      "query": "site:aktu.ac.in Jankipuram Lucknow address AKTU",
+      "result": "DuckDuckGo discovery returned the official contact-us and ReachUsHere pages; the official contact page was fetched and verified directly.",
+      "url": "https://aktu.ac.in/contact-us.html"
+    },
+    {
+      "query": "site:aktu.ac.in AKTU courses programmes B.Tech MBA MCA Ph.D",
+      "result": "No usable search result was relied on; programme names were verified from the university's current 2026-27 admission guideline and official programme pages.",
+      "url": "https://fms.aktu.ac.in/Resources/aktu/pdf/uptac%20202526.pdf"
+    },
+    {
+      "query": "site:aktu.ac.in admission programme duration eligibility AKTU",
+      "result": "No usable search result was relied on; duration and eligibility were left null because the official central catalogue did not explicitly state them for the listed programme families.",
+      "url": "https://fms.aktu.ac.in/Resources/aktu/pdf/uptac%20202526.pdf"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "dr-a-p-j-abdul-kalam-technical-university-aktu-2026-001",
+      "name": "B Tech(All Branches)",
+      "level": "undergraduate",
+      "credential": "B Tech",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://fms.aktu.ac.in/Resources/aktu/pdf/uptac%20202526.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-a-p-j-abdul-kalam-technical-university-aktu-2026-002",
+      "name": "M Tech (Integrated)",
+      "level": "integrated",
+      "credential": "Integrated M Tech",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://fms.aktu.ac.in/Resources/aktu/pdf/uptac%20202526.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-a-p-j-abdul-kalam-technical-university-aktu-2026-003",
+      "name": "B Arch",
+      "level": "undergraduate",
+      "credential": "B Arch",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://fms.aktu.ac.in/Resources/aktu/pdf/uptac%20202526.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 56,
+          "career_node_slug": "barch",
+          "career_breadcrumb": "Design & Architecture > B.Arch (Architecture)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-a-p-j-abdul-kalam-technical-university-aktu-2026-004",
+      "name": "B Des",
+      "level": "undergraduate",
+      "credential": "B Des",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://fms.aktu.ac.in/Resources/aktu/pdf/uptac%20202526.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 55,
+          "career_node_slug": "bdes",
+          "career_breadcrumb": "Design & Architecture > B.Des (Design)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-a-p-j-abdul-kalam-technical-university-aktu-2026-005",
+      "name": "B Pharm",
+      "level": "undergraduate",
+      "credential": "B Pharm",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://fms.aktu.ac.in/Resources/aktu/pdf/uptac%20202526.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 143,
+          "career_node_slug": "pharmacist",
+          "career_breadcrumb": "Biology / PCB > Medical Updated > Clinical Pharmacist",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-a-p-j-abdul-kalam-technical-university-aktu-2026-006",
+      "name": "Pharm D",
+      "level": "undergraduate",
+      "credential": "Pharm D",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://fms.aktu.ac.in/Resources/aktu/pdf/uptac%20202526.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 143,
+          "career_node_slug": "pharmacist",
+          "career_breadcrumb": "Biology / PCB > Medical Updated > Clinical Pharmacist",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-a-p-j-abdul-kalam-technical-university-aktu-2026-007",
+      "name": "BHMCT",
+      "level": "undergraduate",
+      "credential": "BHMCT",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://fms.aktu.ac.in/Resources/aktu/pdf/uptac%20202526.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 79,
+          "career_node_slug": "hotel_mgmt",
+          "career_breadcrumb": "Performing Arts & Sports > Hotel Management & Tourism",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-a-p-j-abdul-kalam-technical-university-aktu-2026-008",
+      "name": "BFAD",
+      "level": "undergraduate",
+      "credential": "BFAD",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://fms.aktu.ac.in/Resources/aktu/pdf/uptac%20202526.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 60,
+          "career_node_slug": "bfa",
+          "career_breadcrumb": "Media & Journalism > B.F.A (Fine Arts)",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-a-p-j-abdul-kalam-technical-university-aktu-2026-009",
+      "name": "BFA",
+      "level": "undergraduate",
+      "credential": "BFA",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://fms.aktu.ac.in/Resources/aktu/pdf/uptac%20202526.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 60,
+          "career_node_slug": "bfa",
+          "career_breadcrumb": "Media & Journalism > B.F.A (Fine Arts)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-a-p-j-abdul-kalam-technical-university-aktu-2026-010",
+      "name": "MBA (Integrated)",
+      "level": "integrated",
+      "credential": "Integrated MBA",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://fms.aktu.ac.in/Resources/aktu/pdf/uptac%20202526.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 208,
+          "career_node_slug": "mba_general",
+          "career_breadcrumb": "Management & Business > BBA (General) > MBA → CEO / Director Track",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-a-p-j-abdul-kalam-technical-university-aktu-2026-011",
+      "name": "MCA (Integrated)",
+      "level": "integrated",
+      "credential": "Integrated MCA",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://fms.aktu.ac.in/Resources/aktu/pdf/uptac%20202526.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 93,
+          "career_node_slug": "mca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications) > MCA → Software Engineer",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-a-p-j-abdul-kalam-technical-university-aktu-2026-012",
+      "name": "BBA",
+      "level": "undergraduate",
+      "credential": "BBA",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://fms.aktu.ac.in/Resources/aktu/pdf/uptac%20202526.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 46,
+          "career_node_slug": "bba",
+          "career_breadcrumb": "Management & Business > BBA (General)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-a-p-j-abdul-kalam-technical-university-aktu-2026-013",
+      "name": "BCA",
+      "level": "undergraduate",
+      "credential": "BCA",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://fms.aktu.ac.in/Resources/aktu/pdf/uptac%20202526.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-a-p-j-abdul-kalam-technical-university-aktu-2026-014",
+      "name": "B Tech Lateral",
+      "level": "undergraduate",
+      "credential": "B Tech (Lateral)",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://fms.aktu.ac.in/Resources/aktu/pdf/uptac%20202526.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-a-p-j-abdul-kalam-technical-university-aktu-2026-015",
+      "name": "B Pharm Lateral",
+      "level": "undergraduate",
+      "credential": "B Pharm (Lateral)",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://fms.aktu.ac.in/Resources/aktu/pdf/uptac%20202526.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 143,
+          "career_node_slug": "pharmacist",
+          "career_breadcrumb": "Biology / PCB > Medical Updated > Clinical Pharmacist",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-a-p-j-abdul-kalam-technical-university-aktu-2026-016",
+      "name": "MBA",
+      "level": "postgraduate",
+      "credential": "MBA",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://fms.aktu.ac.in/Resources/aktu/pdf/uptac%20202526.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 208,
+          "career_node_slug": "mba_general",
+          "career_breadcrumb": "Management & Business > BBA (General) > MBA → CEO / Director Track",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-a-p-j-abdul-kalam-technical-university-aktu-2026-017",
+      "name": "MBA Lateral",
+      "level": "postgraduate",
+      "credential": "MBA (Lateral)",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://fms.aktu.ac.in/Resources/aktu/pdf/uptac%20202526.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 208,
+          "career_node_slug": "mba_general",
+          "career_breadcrumb": "Management & Business > BBA (General) > MBA → CEO / Director Track",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-a-p-j-abdul-kalam-technical-university-aktu-2026-018",
+      "name": "MCA",
+      "level": "postgraduate",
+      "credential": "MCA",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://fms.aktu.ac.in/Resources/aktu/pdf/uptac%20202526.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 93,
+          "career_node_slug": "mca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications) > MCA → Software Engineer",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-a-p-j-abdul-kalam-technical-university-aktu-2026-019",
+      "name": "MCA Lateral",
+      "level": "postgraduate",
+      "credential": "MCA (Lateral)",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://fms.aktu.ac.in/Resources/aktu/pdf/uptac%20202526.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 93,
+          "career_node_slug": "mca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications) > MCA → Software Engineer",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-a-p-j-abdul-kalam-technical-university-aktu-2026-020",
+      "name": "M Tech",
+      "level": "postgraduate",
+      "credential": "M Tech",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://fms.aktu.ac.in/Resources/aktu/pdf/uptac%20202526.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-a-p-j-abdul-kalam-technical-university-aktu-2026-021",
+      "name": "M Pharm",
+      "level": "postgraduate",
+      "credential": "M Pharm",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://fms.aktu.ac.in/Resources/aktu/pdf/uptac%20202526.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 144,
+          "career_node_slug": "pharma_researcher",
+          "career_breadcrumb": "Biology / PCB > Medical Updated > Pharmaceutical Researcher",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-a-p-j-abdul-kalam-technical-university-aktu-2026-022",
+      "name": "M Des",
+      "level": "postgraduate",
+      "credential": "M Des",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://fms.aktu.ac.in/Resources/aktu/pdf/uptac%20202526.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 55,
+          "career_node_slug": "bdes",
+          "career_breadcrumb": "Design & Architecture > B.Des (Design)",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-a-p-j-abdul-kalam-technical-university-aktu-2026-023",
+      "name": "M Arch",
+      "level": "postgraduate",
+      "credential": "M Arch",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://fms.aktu.ac.in/Resources/aktu/pdf/uptac%20202526.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 56,
+          "career_node_slug": "barch",
+          "career_breadcrumb": "Design & Architecture > B.Arch (Architecture)",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-a-p-j-abdul-kalam-technical-university-aktu-2026-024",
+      "name": "M PLAN",
+      "level": "postgraduate",
+      "credential": "M PLAN",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://fms.aktu.ac.in/Resources/aktu/pdf/uptac%20202526.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 107,
+          "career_node_slug": "bplan_sci",
+          "career_breadcrumb": "Maths / PCM > B.Arch (Architecture) > B.Plan → Town & Regional Planner",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-a-p-j-abdul-kalam-technical-university-aktu-2026-025",
+      "name": "MURP",
+      "level": "postgraduate",
+      "credential": "MURP",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://fms.aktu.ac.in/Resources/aktu/pdf/uptac%20202526.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 107,
+          "career_node_slug": "bplan_sci",
+          "career_breadcrumb": "Maths / PCM > B.Arch (Architecture) > B.Plan → Town & Regional Planner",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-a-p-j-abdul-kalam-technical-university-aktu-2026-026",
+      "name": "PhD programme",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://aktu.ac.in/phdPolicies.html",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [],
+      "mapping_gap": "The official source names a generic PhD programme without a research discipline; no responsible career-tree mapping exists for an unspecified doctoral field."
+    }
+  ],
+  "agent_notes": [
+    "The official identity and Lucknow campus are verified from the university homepage and official contact page.",
+    "The current 2026-27 admission guideline lists active degree programme families, but it is an admissions notification rather than a complete programme catalogue with programme-level duration and eligibility; the university bachelors and masters pages are largely ordinance archives. The catalogue is therefore treated as partial and requires manual review.",
+    "No active diploma or certificate programme was explicitly listed in the official current sources reviewed.",
+    "B.Voc and other historical ordinance entries were excluded because the official current 2026-27 guideline does not list them as current admission programmes.",
+    "The official current sources did not explicitly verify programme duration or programme-specific eligibility, so those fields remain null.",
+    "Normal TLS verification was attempted first and failed with the exact managed-proxy error: curl error 60, self signed certificate in certificate chain. After confirming the expected official hostnames, curl --insecure was used only for public GET requests."
+  ]
+}

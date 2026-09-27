@@ -1,0 +1,746 @@
+{
+  "institution_id": "siddharth-university-kapilvastu",
+  "nirf_name": "SIDDHARTH UNIVERSITY, KAPILVASTU",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Siddharthnagar",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://www.suksn.edu.in/",
+  "website_verification_status": "verified",
+  "description": "Siddharth University is a state university established in June 2015 at Kapilvastu, Siddharth Nagar, Uttar Pradesh.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Lists SIDDHARTH UNIVERSITY, KAPILVASTU in Siddharthnagar, Uttar Pradesh."
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://www.suksn.edu.in/",
+      "supports": [
+        "Identifies the official website as Siddharth University and describes the university as a state university at Kapilvastu, Siddharth Nagar, Uttar Pradesh."
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "https://www.suksn.edu.in/contact-us.aspx",
+      "supports": [
+        "Shows the campus address as Siddharth University, Kapilvastu, Siddharth Nagar - 272202."
+      ]
+    },
+    {
+      "type": "official_programme_catalogue",
+      "url": "https://www.suksn.edu.in/courses.aspx",
+      "supports": [
+        "Lists five undergraduate and twenty-one postgraduate programmes."
+      ]
+    },
+    {
+      "type": "official_admissions_page",
+      "url": "https://www.suksn.edu.in/suk-admission.aspx",
+      "supports": [
+        "Shows current Admissions 2026-27 and separate admission-link text for B.P.Ed. and M. Ed."
+      ]
+    },
+    {
+      "type": "official_doctoral_page",
+      "url": "https://www.suksn.edu.in/StudentsphdCorner.aspx",
+      "supports": [
+        "Provides the official Ph.D. Student's Corner and Ph.D. ordinance materials."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "Siddharth University Kapilvastu official website",
+      "result": "Google search request returned HTTP 429; no result was used as verification.",
+      "url": "https://www.google.com/search?q=Siddharth+University+Kapilvastu+official+website"
+    },
+    {
+      "query": "Siddharth University Kapilvastu suksn official site",
+      "result": "Bing RSS results were unrelated to the institution; no search result was used as verification.",
+      "url": "https://www.bing.com/search?format=rss&q=Siddharth%20University%20Kapilvastu%20suksn"
+    },
+    {
+      "query": "Direct HTTPS check of https://www.suksn.edu.in/",
+      "result": "The expected official host returned the Siddharth University homepage over HTTPS.",
+      "url": "https://www.suksn.edu.in/"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "siddharth-university-kapilvastu-bachelors-of-arts",
+      "name": "Bachelors of Arts (B.A.)",
+      "level": "Undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "On-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.suksn.edu.in/courses.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "siddharth-university-kapilvastu-bachelors-of-commerce",
+      "name": "Bachelors of Commerce (B.Com.)",
+      "level": "Undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "On-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.suksn.edu.in/courses.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "siddharth-university-kapilvastu-bachelors-of-business-administration",
+      "name": "Bachelors of Business Administration (B.B.A.)",
+      "level": "Undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "On-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.suksn.edu.in/courses.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 46,
+          "career_node_slug": "bba",
+          "career_breadcrumb": "Management & Business > BBA (General)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "siddharth-university-kapilvastu-bachelors-of-science",
+      "name": "Bachelors of Science (B.Sc.)",
+      "level": "Undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "On-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.suksn.edu.in/courses.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 337,
+          "career_node_slug": "science_common",
+          "career_breadcrumb": "Common Paths",
+          "relation": "nearest_parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "siddharth-university-kapilvastu-bachelors-of-science-home-science",
+      "name": "Bachelors of Science (B.Sc. Home Science)",
+      "level": "Undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Home Science",
+      "duration": null,
+      "mode": "On-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.suksn.edu.in/courses.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 337,
+          "career_node_slug": "science_common",
+          "career_breadcrumb": "Common Paths",
+          "relation": "nearest_parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "siddharth-university-kapilvastu-masters-of-arts-ancient-history",
+      "name": "Masters of Arts ( Ancient History )",
+      "level": "Postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Ancient History",
+      "duration": null,
+      "mode": "On-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.suksn.edu.in/courses.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "siddharth-university-kapilvastu-masters-of-arts-sociology",
+      "name": "Masters of Arts ( Sociology )",
+      "level": "Postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Sociology",
+      "duration": null,
+      "mode": "On-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.suksn.edu.in/courses.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "siddharth-university-kapilvastu-masters-of-arts-psychology",
+      "name": "Masters of Arts ( Psychology )",
+      "level": "Postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Psychology",
+      "duration": null,
+      "mode": "On-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.suksn.edu.in/courses.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 66,
+          "career_node_slug": "ba_psychology",
+          "career_breadcrumb": "Social Sciences & Education > BA Psychology",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "siddharth-university-kapilvastu-masters-of-arts-history",
+      "name": "Masters of Arts ( History )",
+      "level": "Postgraduate",
+      "credential": "Master's degree",
+      "specialization": "History",
+      "duration": null,
+      "mode": "On-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.suksn.edu.in/courses.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "siddharth-university-kapilvastu-masters-of-arts-economics",
+      "name": "Masters of Arts ( Economics )",
+      "level": "Postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Economics",
+      "duration": null,
+      "mode": "On-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.suksn.edu.in/courses.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "siddharth-university-kapilvastu-masters-of-arts-political-science",
+      "name": "Masters of Arts ( Political Science )",
+      "level": "Postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Political Science",
+      "duration": null,
+      "mode": "On-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.suksn.edu.in/courses.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "siddharth-university-kapilvastu-masters-of-arts-hindi",
+      "name": "Masters of Arts ( Hindi )",
+      "level": "Postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Hindi",
+      "duration": null,
+      "mode": "On-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.suksn.edu.in/courses.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "siddharth-university-kapilvastu-masters-of-arts-english",
+      "name": "Masters of Arts ( English )",
+      "level": "Postgraduate",
+      "credential": "Master's degree",
+      "specialization": "English",
+      "duration": null,
+      "mode": "On-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.suksn.edu.in/courses.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "siddharth-university-kapilvastu-masters-of-arts-sanskrit",
+      "name": "Masters of Arts ( Sanskrit )",
+      "level": "Postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Sanskrit",
+      "duration": null,
+      "mode": "On-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.suksn.edu.in/courses.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "siddharth-university-kapilvastu-masters-of-arts-public-administration",
+      "name": "Masters of Arts ( Public Administration )",
+      "level": "Postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Public Administration",
+      "duration": null,
+      "mode": "On-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.suksn.edu.in/courses.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "siddharth-university-kapilvastu-masters-of-arts-urdu",
+      "name": "Masters of Arts ( Urdu )",
+      "level": "Postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Urdu",
+      "duration": null,
+      "mode": "On-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.suksn.edu.in/courses.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "siddharth-university-kapilvastu-masters-of-arts-geography",
+      "name": "Masters of Arts ( Geography )",
+      "level": "Postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Geography",
+      "duration": null,
+      "mode": "On-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.suksn.edu.in/courses.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest_parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "siddharth-university-kapilvastu-master-of-commerce",
+      "name": "Master of Commerce (M.Com.)",
+      "level": "Postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "On-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.suksn.edu.in/courses.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "siddharth-university-kapilvastu-masters-of-science-physics",
+      "name": "Masters of Science ( Physics )",
+      "level": "Postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Physics",
+      "duration": null,
+      "mode": "On-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.suksn.edu.in/courses.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 24,
+          "career_node_slug": "bsc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "siddharth-university-kapilvastu-masters-of-science-biotechnology",
+      "name": "Masters of Science ( Biotechnology )",
+      "level": "Postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Biotechnology",
+      "duration": null,
+      "mode": "On-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.suksn.edu.in/courses.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "siddharth-university-kapilvastu-master-of-business-administration",
+      "name": "Master of Business Administration (M.B.A.)",
+      "level": "Postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "On-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.suksn.edu.in/courses.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "siddharth-university-kapilvastu-masters-of-science-chemistry",
+      "name": "Masters of Science ( Chemistry )",
+      "level": "Postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Chemistry",
+      "duration": null,
+      "mode": "On-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.suksn.edu.in/courses.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "siddharth-university-kapilvastu-masters-of-science-mathematics",
+      "name": "Masters of Science ( Mathematics )",
+      "level": "Postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Mathematics",
+      "duration": null,
+      "mode": "On-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.suksn.edu.in/courses.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "siddharth-university-kapilvastu-masters-of-science-zoology",
+      "name": "Masters of Science ( Zoology )",
+      "level": "Postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Zoology",
+      "duration": null,
+      "mode": "On-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.suksn.edu.in/courses.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest_specialization",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "siddharth-university-kapilvastu-masters-of-science-botany",
+      "name": "Masters of Science ( Botany )",
+      "level": "Postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Botany",
+      "duration": null,
+      "mode": "On-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.suksn.edu.in/courses.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest_specialization",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "siddharth-university-kapilvastu-masters-of-science-home-science",
+      "name": "Masters of Science ( Home Science )",
+      "level": "Postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Home Science",
+      "duration": null,
+      "mode": "On-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.suksn.edu.in/courses.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 337,
+          "career_node_slug": "science_common",
+          "career_breadcrumb": "Common Paths",
+          "relation": "nearest_parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "siddharth-university-kapilvastu-bped",
+      "name": "B.P.Ed.",
+      "level": "Undergraduate",
+      "credential": "B.P.Ed.",
+      "specialization": null,
+      "duration": null,
+      "mode": "On-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.suksn.edu.in/suk-admission.aspx",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 78,
+          "career_node_slug": "sports_career",
+          "career_breadcrumb": "Performing Arts & Sports > Sports & Physical Education",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "siddharth-university-kapilvastu-med",
+      "name": "M. Ed.",
+      "level": "Postgraduate",
+      "credential": "M.Ed.",
+      "specialization": null,
+      "duration": null,
+      "mode": "On-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.suksn.edu.in/suk-admission.aspx",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "siddharth-university-kapilvastu-phd",
+      "name": "Ph.D.",
+      "level": "Doctoral",
+      "credential": "Ph.D.",
+      "specialization": null,
+      "duration": null,
+      "mode": "On-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.suksn.edu.in/StudentsphdCorner.aspx",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [],
+      "mapping_gap": "The official Ph.D. page confirms the doctoral programme family and publishes ordinance/student materials, but does not expose a current discipline-specific programme list for responsible career-tree mapping."
+    }
+  ],
+  "agent_notes": [
+    "The NIRF 2025 Overall Ranking government directory was independently checked and contains the exact institution name with Siddharthnagar, Uttar Pradesh.",
+    "Normal TLS verification first failed with the exact proxy error 'self signed certificate in certificate chain'. curl --insecure was then used only for public GET requests to the expected nirfindia.org and suksn.edu.in hosts.",
+    "The official Programme page lists five undergraduate and twenty-one postgraduate programmes. The current Admissions 2026-27 page separately exposes B.P.Ed. and M. Ed., while the Ph.D. Student's Corner is a separate administrative page; the official site does not provide one complete current catalogue covering all of these offerings and doctoral disciplines.",
+    "Duration and eligibility were left null because the central official catalogue pages do not explicitly state them.",
+    "The official SWAYAM page describes rotating external SWAYAM/NPTEL offerings and links to the national course explorer; those offerings were not treated as Siddharth University-owned degree, diploma, certificate, or doctoral programmes.",
+    "Search-engine snippets and non-official sites were not used as verification evidence."
+  ]
+}

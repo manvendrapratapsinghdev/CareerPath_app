@@ -1,0 +1,417 @@
+{
+  "institution_id": "kendriya-hindi-sansthan",
+  "nirf_name": "Kendriya Hindi Sansthan",
+  "verification_outcome": "verified",
+  "district": "Agra",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://khs.ac.in/en",
+  "website_verification_status": "verified",
+  "description": "Central Institute of Hindi (Kendriya Hindi Sansthan) is an autonomous educational institute governed by Kendriya Hindi Shikshan Mandal, established in 1961 by the Department of Higher Education, Ministry of Education, Government of India. Its headquarters is in Agra and it operates eight regional centres.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "official_homepage",
+      "url": "https://khs.ac.in/en",
+      "supports": [
+        "current official website",
+        "institution identity",
+        "Agra location"
+      ]
+    },
+    {
+      "type": "official_institute_overview",
+      "url": "https://khs.ac.in/en/about-us/institute-overview",
+      "supports": [
+        "institution identity",
+        "establishment",
+        "Agra headquarters",
+        "institution description"
+      ]
+    },
+    {
+      "type": "official_campus_directory",
+      "url": "https://khs.ac.in/en/academics/study-centres-campuses",
+      "supports": [
+        "Sansthan Headquarters, Agra",
+        "regional-centre list"
+      ]
+    },
+    {
+      "type": "official_contact_page",
+      "url": "https://khs.ac.in/en/contact-us",
+      "supports": [
+        "Agra Center address",
+        "Agra-282005, Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "official_programme_catalogue",
+      "url": "https://khs.ac.in/en/academics/programmes-offered",
+      "supports": [
+        "complete official course catalogue",
+        "course group structure",
+        "absence of doctoral listing"
+      ]
+    },
+    {
+      "type": "official_teaching_related_catalogue",
+      "url": "https://khs.ac.in/en/teaching-related-courses",
+      "supports": [
+        "Hindi language certificate and diploma courses",
+        "evening postgraduate diplomas"
+      ]
+    },
+    {
+      "type": "official_teacher_training_catalogue",
+      "url": "https://khs.ac.in/en/hindi-teacher-training-programmes",
+      "supports": [
+        "Hindi teacher-training programme names",
+        "two-year/three-year/one-year durations",
+        "official target audiences",
+        "distance programme duration"
+      ]
+    },
+    {
+      "type": "official_admission_notice",
+      "url": "https://khs.ac.in/en/academics/admission-notice",
+      "supports": [
+        "current 2026-28 admission listing for Hindi Shikshan Nishnat, Parangat and Praveen"
+      ]
+    },
+    {
+      "type": "official_refresher_page",
+      "url": "https://khs.ac.in/en/refresher-and-enrichment-programmes",
+      "supports": [
+        "identification of short-term refresher/orientation activities excluded from credential catalogue"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "Kendriya Hindi Sansthan Agra",
+      "result": "DuckDuckGo returned https://khs.ac.in/en and https://hindisansthan.in/; the current khs.ac.in site links hindisansthan.in as Old Website.",
+      "url": "https://html.duckduckgo.com/html/?q=Kendriya%20Hindi%20Sansthan%20Agra"
+    },
+    {
+      "query": "\"Kendriya Hindi Sansthan\" official website",
+      "result": "Bing returned no relevant official institution result and was dominated by unrelated Kendriya Vidyalaya Sangathan results.",
+      "url": "https://www.bing.com/search?q=%22Kendriya+Hindi+Sansthan%22+official+website"
+    },
+    {
+      "query": "site:gov.in \"Kendriya Hindi Sansthan\"",
+      "result": "Bing returned unrelated Kendriya Vidyalaya Sangathan results; official-domain verification was completed directly on khs.ac.in.",
+      "url": "https://www.bing.com/search?q=site%3Agov.in+%22Kendriya+Hindi+Sansthan%22"
+    }
+  ],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "kendriya-hindi-sansthan-khs-hindi-language-proficiency-certificate",
+      "name": "Hindi Language Proficiency Certificate - 100",
+      "level": "Certificate",
+      "credential": "Certificate",
+      "specialization": "Hindi language",
+      "duration": null,
+      "mode": "self-financed at Delhi Centre",
+      "eligibility": "Foreign students",
+      "official_course_url": "https://khs.ac.in/en/teaching-related-courses",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "closest-specialization (Hindi language)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "kendriya-hindi-sansthan-khs-hindi-language-proficiency-diploma",
+      "name": "Hindi Language Proficiency Diploma - 200",
+      "level": "Diploma",
+      "credential": "Diploma",
+      "specialization": "Hindi language",
+      "duration": null,
+      "mode": "self-financed at Delhi Centre",
+      "eligibility": "Foreign students",
+      "official_course_url": "https://khs.ac.in/en/teaching-related-courses",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "closest-specialization (Hindi language)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "kendriya-hindi-sansthan-khs-hindi-language-advanced-diploma",
+      "name": "Hindi Language Advanced Diploma - 300",
+      "level": "Advanced Diploma",
+      "credential": "Advanced Diploma",
+      "specialization": "Hindi language",
+      "duration": null,
+      "mode": "self-financed at Delhi Centre",
+      "eligibility": "Foreign students",
+      "official_course_url": "https://khs.ac.in/en/teaching-related-courses",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "closest-specialization (Hindi language)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "kendriya-hindi-sansthan-khs-post-graduate-hindi-diploma",
+      "name": "Post Graduate Hindi Diploma - 400",
+      "level": "Postgraduate Diploma",
+      "credential": "Post Graduate Diploma",
+      "specialization": "Hindi language",
+      "duration": null,
+      "mode": "not specified by official catalogue",
+      "eligibility": "Foreign students",
+      "official_course_url": "https://khs.ac.in/en/teaching-related-courses",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "closest-specialization (Hindi language)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "kendriya-hindi-sansthan-khs-post-ma-diploma-applied-linguistics",
+      "name": "Post M.A. Diploma in Applied Linguistics",
+      "level": "Postgraduate Diploma",
+      "credential": "Post M.A. Diploma",
+      "specialization": "Applied Linguistics",
+      "duration": null,
+      "mode": "self-financed evening course",
+      "eligibility": null,
+      "official_course_url": "https://khs.ac.in/en/teaching-related-courses",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "nearest-parent (Languages & Literature; applied linguistics)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "kendriya-hindi-sansthan-khs-pg-diploma-translation-theory-practice",
+      "name": "PG Diploma in Translation Theory and Practice",
+      "level": "Postgraduate Diploma",
+      "credential": "PG Diploma",
+      "specialization": "Translation Theory and Practice",
+      "duration": null,
+      "mode": "self-financed evening course",
+      "eligibility": null,
+      "official_course_url": "https://khs.ac.in/en/teaching-related-courses",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 290,
+          "career_node_slug": "foreign_translator",
+          "career_breadcrumb": "Languages & Literature > BA Foreign Language (French/German/Japanese) > Foreign Language Translator",
+          "relation": "closest-specialization (translation; tree specialization is foreign-language-specific)",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "kendriya-hindi-sansthan-khs-pg-diploma-mass-com-journalism",
+      "name": "PG Diploma in Mass com. and Journalism",
+      "level": "Postgraduate Diploma",
+      "credential": "PG Diploma",
+      "specialization": "Mass com. and Journalism",
+      "duration": null,
+      "mode": "self-financed evening course",
+      "eligibility": null,
+      "official_course_url": "https://khs.ac.in/en/teaching-related-courses",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 59,
+          "career_node_slug": "bjmc",
+          "career_breadcrumb": "Media & Journalism > B.J.M.C (Journalism & Mass Comm)",
+          "relation": "direct discipline (journalism and mass communication)",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "kendriya-hindi-sansthan-khs-hindi-shikshan-nishnat",
+      "name": "Hindi Shikshan Nishnat",
+      "level": "Postgraduate Teacher Training",
+      "credential": "Equivalent to M.Ed.",
+      "specialization": "Hindi teaching",
+      "duration": "2 years",
+      "mode": "not specified by official catalogue",
+      "eligibility": "Hindi teachers and interested students of non-Hindi states",
+      "official_course_url": "https://khs.ac.in/en/hindi-teacher-training-programmes",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "closest-specialization (teacher education; official equivalence is M.Ed.)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "kendriya-hindi-sansthan-khs-hindi-shikshan-parangat",
+      "name": "Hindi Shikshan Parangat",
+      "level": "Teacher Training",
+      "credential": "Equivalent to B.Ed.",
+      "specialization": "Hindi teaching",
+      "duration": "2 years",
+      "mode": "not specified by official catalogue",
+      "eligibility": "Hindi teachers and interested students of non-Hindi states",
+      "official_course_url": "https://khs.ac.in/en/hindi-teacher-training-programmes",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "direct discipline (B.Ed.-equivalent teacher education)",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "kendriya-hindi-sansthan-khs-hindi-shikshan-praveen",
+      "name": "Hindi Shikshan Praveen",
+      "level": "Teacher Training",
+      "credential": "Equivalent to B.T.C./ D.EI.Ed.",
+      "specialization": "Hindi teaching",
+      "duration": "2 years",
+      "mode": "not specified by official catalogue",
+      "eligibility": "Hindi teachers and interested students of non-Hindi states",
+      "official_course_url": "https://khs.ac.in/en/hindi-teacher-training-programmes",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "closest-specialization (teacher education; official equivalence is B.T.C./ D.EI.Ed.)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "kendriya-hindi-sansthan-khs-three-year-hindi-teaching-diploma",
+      "name": "Three year Hindi Teaching Diploma course",
+      "level": "Teacher Training Diploma",
+      "credential": "Diploma",
+      "specialization": "Hindi teaching",
+      "duration": "3 years",
+      "mode": "not specified by official catalogue",
+      "eligibility": "Hindi teachers and interested students of non-Hindi states",
+      "official_course_url": "https://khs.ac.in/en/hindi-teacher-training-programmes",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "closest-specialization (teacher education)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "kendriya-hindi-sansthan-khs-intensive-hindi-teaching-training-dimapur",
+      "name": "Intensive Hindi Teaching Training Course (Dimapur)",
+      "level": "Teacher Training",
+      "credential": "Training programme",
+      "specialization": "Hindi teacher training",
+      "duration": "1 year",
+      "mode": "not specified by official catalogue",
+      "eligibility": "Untrained Hindi teachers of North-East states",
+      "official_course_url": "https://khs.ac.in/en/hindi-teacher-training-programmes",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "closest-specialization (teacher education)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "kendriya-hindi-sansthan-khs-distance-teaching-programmes",
+      "name": "Distance Teaching Programmes (Self-Financed)",
+      "level": "Teacher Training",
+      "credential": "Training programme",
+      "specialization": "Hindi teacher training",
+      "duration": "2 years",
+      "mode": "distance",
+      "eligibility": "In-service Hindi teachers of non-Hindi-speaking states",
+      "official_course_url": "https://khs.ac.in/en/hindi-teacher-training-programmes",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "closest-specialization (teacher education)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "Normal TLS verification failed with the exact managed-network proxy error 'self signed certificate in certificate chain'; curl --insecure was then used only for public GET requests to the expected search domains and official khs.ac.in domain.",
+    "The current official khs.ac.in site links hindisansthan.in as its Old Website; only khs.ac.in was used for institutional and programme evidence, so no additional official domain was required.",
+    "The official catalogue identifies Agra as the headquarters and separately names regional-centre offerings such as the Dimapur course; those official centre qualifiers were retained to avoid conflating campuses.",
+    "The catalogue lists no doctoral programme. Refresher/orientation activities and research areas were excluded as short-term or non-credential offerings.",
+    "Duration and eligibility were left null where the central official catalogue did not explicitly state them; no separate brochure was downloaded merely to fill those fields."
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "institution_id": "legacy-314",
+  "database_id": 314,
+  "name": "RAK College of Nursing",
+  "website": "https://www.rakcollegeofnursing.ac.in",
+  "outcome": "manual_review",
+  "institution_type": null,
+  "source_url": null,
+  "confidence": null,
+  "evidence": null,
+  "notes": [
+    "The supplied official hostname returned DNS NXDOMAIN for HTTPS requests, so no official-domain page could be retrieved to establish the institutional type.",
+    "The --insecure fallback was not used because the failure was DNS resolution, not a certificate-chain error."
+  ]
+}

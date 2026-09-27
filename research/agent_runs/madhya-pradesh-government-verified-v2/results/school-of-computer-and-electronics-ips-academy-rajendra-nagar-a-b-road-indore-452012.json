@@ -1,0 +1,156 @@
+{
+  "institution_id": "school-of-computer-and-electronics-ips-academy-rajendra-nagar-a-b-road-indore-452012",
+  "nirf_name": "\"School of Computer and Electronics, IPS Academy, Rajendra Nagar, A.B. Road, Indore-452012",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "verified",
+  "district": "Indore",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://soc.ipsa.ac.in/soc",
+  "website_verification_status": "verified",
+  "description": "The School of Computers at IPS Academy is a computer-focused institution at IPS Academy Knowledge Village, Rajendra Nagar, Indore, approved by AICTE and affiliated to Devi Ahilya Vishwavidyalaya, Indore.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [
+    "portal.ipsa.ac.in"
+  ],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact assigned institution listing with Indore, Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://soc.ipsa.ac.in/soc",
+      "supports": [
+        "Official IPS Academy School of Computers website"
+      ]
+    },
+    {
+      "type": "official_site_identity",
+      "url": "https://portal.ipsa.ac.in/api/soc/info",
+      "supports": [
+        "Official site identity, School of Computers slug, and official domain"
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "https://portal.ipsa.ac.in/api/soc/pages/contact",
+      "supports": [
+        "School Of Computers name and Rajendra Nagar A.B. Road, Indore-452012 address"
+      ]
+    },
+    {
+      "type": "official_homepage_content",
+      "url": "https://portal.ipsa.ac.in/api/soc/pages/home",
+      "supports": [
+        "Computer-focused institutional description, AICTE approval, and DAVV Indore affiliation"
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://portal.ipsa.ac.in/api/soc/courses",
+      "supports": [
+        "Current programme names, durations, and eligibility"
+      ]
+    },
+    {
+      "type": "official_course_names_catalogue",
+      "url": "https://portal.ipsa.ac.in/api/soc/courses/names",
+      "supports": [
+        "Current programme-name catalogue"
+      ]
+    },
+    {
+      "type": "official_public_catalogue",
+      "url": "https://portal.ipsa.ac.in/api/public/colleges-with-courses",
+      "supports": [
+        "Public IPS Academy catalogue listing for the Computers unit"
+      ]
+    }
+  ],
+  "website_search_evidence": [],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "school-of-computer-and-electronics-ips-academy-rajendra-nagar-a-b-road-indore-452012-23",
+      "name": "BCA (Bachelor of Computer Applications)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "Not specified on official catalogue",
+      "eligibility": "10+ 2 in any stream except Agriculture.",
+      "official_course_url": "https://soc.ipsa.ac.in/soc#courses",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "school-of-computer-and-electronics-ips-academy-rajendra-nagar-a-b-road-indore-452012-25",
+      "name": "MCA (Integrated)",
+      "level": "integrated",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "5 Years",
+      "mode": "Not specified on official catalogue",
+      "eligibility": "10+2 with Mathematics/Accounts/Statistics",
+      "official_course_url": "https://soc.ipsa.ac.in/soc#courses",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 93,
+          "career_node_slug": "mca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications) > MCA → Software Engineer",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "school-of-computer-and-electronics-ips-academy-rajendra-nagar-a-b-road-indore-452012-83",
+      "name": "MCA (Master of Computer Applications)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "Not specified on official catalogue",
+      "eligibility": "Any Graduate with Mathematics or 10+2 with Mathematics",
+      "official_course_url": "https://soc.ipsa.ac.in/soc#courses",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 93,
+          "career_node_slug": "mca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications) > MCA → Software Engineer",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The NIRF 2025 College directory lists the exact assigned institution name with Indore, Madhya Pradesh.",
+    "The official site currently labels the unit School Of Computers/COMPUTERS rather than the NIRF label, but its official contact page gives the same IPS Academy campus address at Rajendra Nagar A.B. Road, Indore-452012.",
+    "The official public catalogue for the soc unit lists exactly three current programmes; no additional active diploma, certificate, or doctoral programmes were listed.",
+    "The official catalogue explicitly verifies duration and eligibility. Delivery mode is not explicitly stated, so it is recorded as not specified.",
+    "Normal TLS verification encountered the managed proxy self-signed certificate-chain error; curl --insecure was used only for public GET requests to confirmed official domains."
+  ]
+}

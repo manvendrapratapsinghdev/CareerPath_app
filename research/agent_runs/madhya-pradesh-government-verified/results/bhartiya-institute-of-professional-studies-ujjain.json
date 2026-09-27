@@ -1,0 +1,81 @@
+{
+  "institution_id": "bhartiya-institute-of-professional-studies-ujjain",
+  "nirf_name": "BHARTIYA INSTITUTE OF PROFESSIONAL STUDIES UJJAIN",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "remove_candidate",
+  "district": null,
+  "district_verification_status": "pending_official_source",
+  "official_website": null,
+  "website_verification_status": "not_found",
+  "description": null,
+  "description_verification_status": "not_found",
+  "record_status": "remove_candidate",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html",
+      "supports": [
+        "exact institution name",
+        "listed city Ujjain",
+        "listed state Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "government_directory_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "exact institution name",
+        "listed city Ujjain",
+        "listed state Madhya Pradesh"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"BHARTIYA INSTITUTE OF PROFESSIONAL STUDIES UJJAIN\"",
+      "result": "No matching official institution website was returned; results were unrelated Bhartiya-branded sites.",
+      "url": "https://www.bing.com/search?q=%22BHARTIYA+INSTITUTE+OF+PROFESSIONAL+STUDIES+UJJAIN%22"
+    },
+    {
+      "query": "\"Bhartiya Institute of Professional Studies\" Ujjain official",
+      "result": "No matching official institution website was returned; results were unrelated Bhartiya-branded sites and general government services.",
+      "url": "https://www.bing.com/search?q=%22Bhartiya+Institute+of+Professional+Studies%22+Ujjain+official"
+    },
+    {
+      "query": "\"Bhartiya Institute of Professional Studies\" Ujjain website",
+      "result": "No matching official institution website was returned; results were unrelated Bhartiya-branded sites and general government services.",
+      "url": "https://www.bing.com/search?q=%22Bhartiya+Institute+of+Professional+Studies%22+Ujjain+website"
+    },
+    {
+      "query": "site:gov.in \"BHARTIYA INSTITUTE OF PROFESSIONAL STUDIES\" Ujjain",
+      "result": "No matching official institution website or authoritative institution page was returned.",
+      "url": "https://www.bing.com/search?q=site%3Agov.in+%22BHARTIYA+INSTITUTE+OF+PROFESSIONAL+STUDIES%22+Ujjain"
+    },
+    {
+      "query": "site:ac.in \"BHARTIYA INSTITUTE OF PROFESSIONAL STUDIES\" Ujjain",
+      "result": "No matching official institution website or authoritative institution page was returned.",
+      "url": "https://www.bing.com/search?q=site%3Aac.in+%22BHARTIYA+INSTITUTE+OF+PROFESSIONAL+STUDIES%22+Ujjain"
+    },
+    {
+      "query": "site:edu.in \"BHARTIYA INSTITUTE OF PROFESSIONAL STUDIES\" Ujjain",
+      "result": "No matching official institution website or authoritative institution page was returned.",
+      "url": "https://www.bing.com/search?q=site%3Aedu.in+%22BHARTIYA+INSTITUTE+OF+PROFESSIONAL+STUDIES%22+Ujjain"
+    },
+    {
+      "query": "site:vikramuniv.ac.in \"Bhartiya Institute of Professional Studies\"",
+      "result": "No matching official affiliated-institution page was returned.",
+      "url": "https://www.bing.com/search?q=site%3Avikramuniv.ac.in+%22Bhartiya+Institute+of+Professional+Studies%22"
+    }
+  ],
+  "course_catalogue_status": "not_found",
+  "courses": [],
+  "agent_notes": [
+    "The exact institution is present in both supplied NIRF 2025 government listings at Ujjain, Madhya Pradesh.",
+    "Normal TLS to www.nirfindia.org failed with the managed proxy's self-signed certificate-chain error; public GETs were retried with curl --insecure after confirming the hostname. No credentials or private data were sent.",
+    "After three focused institution-name searches and four authoritative-domain checks, no official institution website or official programme catalogue could be established; therefore the candidate is removed under the stated outcome rules."
+  ]
+}

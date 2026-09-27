@@ -1,0 +1,169 @@
+{
+  "institution_id": "s-m-b-govt-college-nathdwara",
+  "nirf_name": "S.M.B. GOVT. COLLEGE, NATHDWARA",
+  "verification_outcome": "verified",
+  "district": "Rajsamand",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://dceapp.rajasthan.gov.in/",
+  "website_verification_status": "verified",
+  "description": "A government college in Nathdwara, Rajsamand district, Rajasthan, offering undergraduate B.A., B.Com, B.Sc. (Biology), and B.Sc. (Maths) programmes.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "official_homepage",
+      "url": "https://dceapp.rajasthan.gov.in/",
+      "supports": [
+        "Official Department of College Education, Government of Rajasthan portal"
+      ]
+    },
+    {
+      "type": "official_admissions_page",
+      "url": "https://dceapp.rajasthan.gov.in/onlineAdmission.aspx",
+      "supports": [
+        "Current Department of College Education online admission portal for 2026-2027",
+        "Links to official UG and PG catalogues"
+      ]
+    },
+    {
+      "type": "official_campus_course_catalogue",
+      "url": "https://dceapp.rajasthan.gov.in/document/1539552499File01_05_2026_02_01_062026_UGCourses.pdf",
+      "supports": [
+        "RAJSAMAND district listing",
+        "S.M.B. GOVERNMENT COLLEGE, NATHDWARA campus identity",
+        "B.A., B.Com, B.Sc. (Biology), and B.Sc. (Maths) course names"
+      ]
+    },
+    {
+      "type": "official_pg_catalogue",
+      "url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "supports": [
+        "Current Government PG Colleges listing checked for additional programmes; no S.M.B. Government College, Nathdwara entry found"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "S.M.B. Govt College Nathdwara official",
+      "result": "Google returned an access interstitial and no usable institution result.",
+      "url": "https://www.google.com/search?q=S.M.B.+Govt+College+Nathdwara+official"
+    },
+    {
+      "query": "\"S.M.B. Government College Nathdwara\"",
+      "result": "Bing returned unrelated results and no usable official institution website.",
+      "url": "https://www.bing.com/search?q=%22S.M.B.%20Government%20College%20Nathdwara%22"
+    },
+    {
+      "query": "site:dceapp.rajasthan.gov.in \"S.M.B. GOVERNMENT COLLEGE, NATHDWARA\"",
+      "result": "Bing returned no usable indexed institution result; the official DCE portal was then checked directly.",
+      "url": "https://www.bing.com/search?q=site%3Adceapp.rajasthan.gov.in+%22S.M.B.+GOVERNMENT+COLLEGE%2C+NATHDWARA%22"
+    },
+    {
+      "query": "site:hte.rajasthan.gov.in \"S.M.B. GOVERNMENT COLLEGE, NATHDWARA\"",
+      "result": "Bing returned no usable indexed institution result; the official Rajasthan education portals were then checked directly.",
+      "url": "https://www.bing.com/search?q=site%3Ahte.rajasthan.gov.in+%22S.M.B.+GOVERNMENT+COLLEGE%2C+NATHDWARA%22"
+    }
+  ],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "s-m-b-govt-college-nathdwara-ba",
+      "name": "B.A.",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not specified",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/document/1539552499File01_05_2026_02_01_062026_UGCourses.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "s-m-b-govt-college-nathdwara-bcom",
+      "name": "B.Com",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not specified",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/document/1539552499File01_05_2026_02_01_062026_UGCourses.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "s-m-b-govt-college-nathdwara-bsc-biology",
+      "name": "B.Sc. (Biology)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Biology",
+      "duration": null,
+      "mode": "not specified",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/document/1539552499File01_05_2026_02_01_062026_UGCourses.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "s-m-b-govt-college-nathdwara-bsc-maths",
+      "name": "B.Sc. (Maths)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Maths",
+      "duration": null,
+      "mode": "not specified",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/document/1539552499File01_05_2026_02_01_062026_UGCourses.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The official UG catalogue identifies the exact campus as S.M.B. GOVERNMENT COLLEGE, NATHDWARA in RAJSAMAND district, distinct from Government Girls College, Nathdwara.",
+    "The current official PG colleges page was checked and has no S.M.B. Government College, Nathdwara entry; no additional PG, diploma, certificate, or doctoral programme was discoverable from the official catalogue.",
+    "The official catalogue does not state duration, eligibility, or mode, so duration and eligibility are null and mode is recorded as not specified.",
+    "Normal TLS was attempted first; the managed proxy returned the exact self-signed certificate-chain error, so curl --insecure was used only for public GETs to the expected search and official Rajasthan education domains."
+  ]
+}

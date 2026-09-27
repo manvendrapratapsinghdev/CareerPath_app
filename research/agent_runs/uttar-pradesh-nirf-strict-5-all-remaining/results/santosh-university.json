@@ -1,0 +1,1428 @@
+{
+  "institution_id": "santosh-university",
+  "nirf_name": "Santosh University",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/DentalRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/MedicalRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Ghaziabad",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://www.santosh.ac.in/",
+  "website_verification_status": "verified",
+  "description": "Santosh Deemed to be University is a medical and dental university at No. 1 Santosh Nagar, Pratap Vihar, Ghaziabad, Uttar Pradesh, with Santosh Medical College, Santosh Dental College and associated health-sciences programmes.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/DentalRankingALL.html",
+      "supports": [
+        "lists Santosh University in Ghaziabad, Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/MedicalRankingALL.html",
+      "supports": [
+        "lists Santosh University in Ghaziabad, Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://www.santosh.ac.in/",
+      "supports": [
+        "official institutional identity and Ghaziabad address"
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "https://www.santosh.ac.in/university",
+      "supports": [
+        "university identity and Santosh medical and dental institutions"
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "https://www.santosh.ac.in/contact",
+      "supports": [
+        "No.1 Santosh Nagar, Pratap Vihar, Ghaziabad, Uttar Pradesh 201009"
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "https://www.santosh.ac.in/college/medical-college",
+      "supports": [
+        "Santosh Medical College campus and medical programmes"
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "https://www.santosh.ac.in/college/dental-college",
+      "supports": [
+        "Santosh Dental College campus and dental programmes"
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://www.santosh.ac.in/admissions",
+      "supports": [
+        "current admissions catalogue and programme links"
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://www.santosh.ac.in/medical-programs",
+      "supports": [
+        "medical and allied-health programme catalogue"
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://www.santosh.ac.in/dental-programs",
+      "supports": [
+        "dental programme catalogue"
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://www.santosh.ac.in/pg-medical",
+      "supports": [
+        "current PG medical programme family and three-year duration label"
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://www.santosh.ac.in/pg-dental",
+      "supports": [
+        "current PG dental programme family and three-year duration label"
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://www.santosh.ac.in/program-fees-DM-medical",
+      "supports": [
+        "current DM medical programme family and three-year duration label"
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://www.santosh.ac.in/phd-notices",
+      "supports": [
+        "current Ph.D. admissions notice for September 2026"
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://www.santosh.ac.in/fellowship",
+      "supports": [
+        "Fellowship in Stem Cell & Regenerative Medicine programme page"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "Santosh University Ghaziabad official website",
+      "result": "Search discovery identified santosh.ac.in; the official homepage was fetched directly and matched the institution and Ghaziabad campus.",
+      "url": "https://www.santosh.ac.in/"
+    },
+    {
+      "query": "site:santosh.ac.in Santosh University Ghaziabad",
+      "result": "Search discovery identified the official admissions page; the page and linked programme catalogue were fetched directly from santosh.ac.in.",
+      "url": "https://www.santosh.ac.in/admissions"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "santosh-university-mbbs",
+      "name": "MBBS",
+      "level": "undergraduate",
+      "credential": "MBBS",
+      "specialization": null,
+      "duration": "5½ years (4½ years + one-year Compulsory Rotatory Resident Internship [CRRI])",
+      "mode": "not stated by official site",
+      "eligibility": null,
+      "official_course_url": "https://www.santosh.ac.in/program/mbbs",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "santosh-university-dm-nephrology",
+      "name": "DM Nephrology",
+      "level": "postgraduate",
+      "credential": "Doctorate of Medicine (DM)",
+      "specialization": "Nephrology",
+      "duration": "3 years",
+      "mode": "not stated by official site",
+      "eligibility": null,
+      "official_course_url": "https://www.santosh.ac.in/program/dm-nephrology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "nearest-parent: MBBS",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "santosh-university-md-anaesthesiology",
+      "name": "MD Anaesthesiology",
+      "level": "postgraduate",
+      "credential": "MD",
+      "specialization": "Anaesthesiology",
+      "duration": "3 years",
+      "mode": "not stated by official site",
+      "eligibility": null,
+      "official_course_url": "https://www.santosh.ac.in/program/md-anaesthesiology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "nearest-parent: MBBS",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "santosh-university-md-dermatology",
+      "name": "MD Dermatology",
+      "level": "postgraduate",
+      "credential": "MD",
+      "specialization": "Dermatology",
+      "duration": "3 years",
+      "mode": "not stated by official site",
+      "eligibility": null,
+      "official_course_url": "https://www.santosh.ac.in/program/md-dermatology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 131,
+          "career_node_slug": "md_derma",
+          "career_breadcrumb": "Biology / PCB > MBBS > MD Dermatology",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "santosh-university-md-general-medicine",
+      "name": "MD General Medicine",
+      "level": "postgraduate",
+      "credential": "MD",
+      "specialization": "General Medicine",
+      "duration": "3 years",
+      "mode": "not stated by official site",
+      "eligibility": null,
+      "official_course_url": "https://www.santosh.ac.in/program/md-general-medicine",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 128,
+          "career_node_slug": "md_general",
+          "career_breadcrumb": "Biology / PCB > MBBS > MD General Medicine",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "santosh-university-md-paediatrics",
+      "name": "MD Paediatrics",
+      "level": "postgraduate",
+      "credential": "MD",
+      "specialization": "Paediatrics",
+      "duration": "3 years",
+      "mode": "not stated by official site",
+      "eligibility": null,
+      "official_course_url": "https://www.santosh.ac.in/program/md-paediatrics",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 130,
+          "career_node_slug": "md_paediatrics",
+          "career_breadcrumb": "Biology / PCB > MBBS > MD Paediatrics",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "santosh-university-md-psychiatry",
+      "name": "MD Psychiatry",
+      "level": "postgraduate",
+      "credential": "MD",
+      "specialization": "Psychiatry",
+      "duration": "3 years",
+      "mode": "not stated by official site",
+      "eligibility": null,
+      "official_course_url": "https://www.santosh.ac.in/program/md-psychiatry",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 132,
+          "career_node_slug": "md_psychiatry",
+          "career_breadcrumb": "Biology / PCB > MBBS > MD Psychiatry",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "santosh-university-md-respiratory-medicine",
+      "name": "MD Respiratory Medicine",
+      "level": "postgraduate",
+      "credential": "MD",
+      "specialization": "Respiratory Medicine",
+      "duration": "3 years",
+      "mode": "not stated by official site",
+      "eligibility": null,
+      "official_course_url": "https://www.santosh.ac.in/program/md-respiratory-medicine",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "nearest-parent: MBBS",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "santosh-university-md-emergency-medicine",
+      "name": "MD Emergency Medicine",
+      "level": "postgraduate",
+      "credential": "MD",
+      "specialization": "Emergency Medicine",
+      "duration": "3 years",
+      "mode": "not stated by official site",
+      "eligibility": null,
+      "official_course_url": "https://www.santosh.ac.in/program/md-emergency-medicine",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "nearest-parent: MBBS",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "santosh-university-md-immunohematology-and-blood-transfusion",
+      "name": "MD Immunohematology and Blood Transfusion",
+      "level": "postgraduate",
+      "credential": "MD",
+      "specialization": "Immunohematology and Blood Transfusion",
+      "duration": "3 years",
+      "mode": "not stated by official site",
+      "eligibility": "MBBS with NEET qualification.",
+      "official_course_url": "https://www.santosh.ac.in/program/md-immunohematology-and-blood-transfusion",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "nearest-parent: MBBS",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "santosh-university-md-anatomy",
+      "name": "MD Anatomy",
+      "level": "postgraduate",
+      "credential": "MD",
+      "specialization": "Anatomy",
+      "duration": "3 years",
+      "mode": "not stated by official site",
+      "eligibility": null,
+      "official_course_url": "https://www.santosh.ac.in/program/md-anatomy",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "nearest-parent: MBBS",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "santosh-university-md-biochemistry",
+      "name": "MD Biochemistry",
+      "level": "postgraduate",
+      "credential": "MD",
+      "specialization": "Biochemistry",
+      "duration": "3 years",
+      "mode": "not stated by official site",
+      "eligibility": null,
+      "official_course_url": "https://www.santosh.ac.in/program/md-biochemistry",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "nearest-parent: MBBS",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "santosh-university-md-community-medicine",
+      "name": "MD Community Medicine",
+      "level": "postgraduate",
+      "credential": "MD",
+      "specialization": "Community Medicine",
+      "duration": "3 years",
+      "mode": "not stated by official site",
+      "eligibility": null,
+      "official_course_url": "https://www.santosh.ac.in/program/md-community-medicine",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "nearest-parent: MBBS",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "santosh-university-md-microbiology",
+      "name": "MD Microbiology",
+      "level": "postgraduate",
+      "credential": "MD",
+      "specialization": "Microbiology",
+      "duration": "3 years",
+      "mode": "not stated by official site",
+      "eligibility": null,
+      "official_course_url": "https://www.santosh.ac.in/program/md-microbiology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "nearest-parent: MBBS",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "santosh-university-md-pathology",
+      "name": "MD Pathology",
+      "level": "postgraduate",
+      "credential": "MD",
+      "specialization": "Pathology",
+      "duration": "3 years",
+      "mode": "not stated by official site",
+      "eligibility": null,
+      "official_course_url": "https://www.santosh.ac.in/program/md-pathology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "nearest-parent: MBBS",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "santosh-university-md-pharmacology",
+      "name": "MD Pharmacology",
+      "level": "postgraduate",
+      "credential": "MD",
+      "specialization": "Pharmacology",
+      "duration": "3 years",
+      "mode": "not stated by official site",
+      "eligibility": null,
+      "official_course_url": "https://www.santosh.ac.in/program/md-pharmacology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "nearest-parent: MBBS",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "santosh-university-md-physiology",
+      "name": "MD Physiology",
+      "level": "postgraduate",
+      "credential": "MD",
+      "specialization": "Physiology",
+      "duration": "3 years",
+      "mode": "not stated by official site",
+      "eligibility": null,
+      "official_course_url": "https://www.santosh.ac.in/program/md-physiology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "nearest-parent: MBBS",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "santosh-university-md-radiology",
+      "name": "MD Radiology",
+      "level": "postgraduate",
+      "credential": "MD",
+      "specialization": "Radiology",
+      "duration": "3 years",
+      "mode": "not stated by official site",
+      "eligibility": "Recognized MBBS degree or equivalent qualification, with permanent registration as stated on the official programme page.",
+      "official_course_url": "https://www.santosh.ac.in/program/md-radiology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 133,
+          "career_node_slug": "md_radiology",
+          "career_breadcrumb": "Biology / PCB > MBBS > MD Radiology",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "santosh-university-ms-ent",
+      "name": "MS ENT",
+      "level": "postgraduate",
+      "credential": "MS",
+      "specialization": "ENT",
+      "duration": "3 years",
+      "mode": "not stated by official site",
+      "eligibility": null,
+      "official_course_url": "https://www.santosh.ac.in/program/ms-ent",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "nearest-parent: MBBS",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "santosh-university-ms-general-surgery",
+      "name": "MS General Surgery",
+      "level": "postgraduate",
+      "credential": "MS",
+      "specialization": "General Surgery",
+      "duration": "3 years",
+      "mode": "not stated by official site",
+      "eligibility": null,
+      "official_course_url": "https://www.santosh.ac.in/program/ms-general-surgery",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 129,
+          "career_node_slug": "ms_surgery",
+          "career_breadcrumb": "Biology / PCB > MBBS > MS Surgery",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "santosh-university-ms-obstetrics-gynaecology",
+      "name": "MS Obstetrics & Gynaecology",
+      "level": "postgraduate",
+      "credential": "MS",
+      "specialization": "Obstetrics & Gynaecology",
+      "duration": "3 years",
+      "mode": "not stated by official site",
+      "eligibility": null,
+      "official_course_url": "https://www.santosh.ac.in/program/ms-obstetrics-gynaecology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "nearest-parent: MBBS",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "santosh-university-ms-ophthalmology",
+      "name": "MS Ophthalmology",
+      "level": "postgraduate",
+      "credential": "MS",
+      "specialization": "Ophthalmology",
+      "duration": "3 years",
+      "mode": "not stated by official site",
+      "eligibility": null,
+      "official_course_url": "https://www.santosh.ac.in/program/ms-ophthalmology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "nearest-parent: MBBS",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "santosh-university-ms-orthopaedics",
+      "name": "MS Orthopaedics",
+      "level": "postgraduate",
+      "credential": "MS",
+      "specialization": "Orthopaedics",
+      "duration": "3 years",
+      "mode": "not stated by official site",
+      "eligibility": null,
+      "official_course_url": "https://www.santosh.ac.in/program/ms-orthopaedics",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "nearest-parent: MBBS",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "santosh-university-msc-clinical-psychology",
+      "name": "M.Sc Clinical Psychology",
+      "level": "postgraduate",
+      "credential": "M.Sc",
+      "specialization": "Clinical Psychology",
+      "duration": "2 years",
+      "mode": "not stated by official site",
+      "eligibility": "Graduation in psychology, science/life/health sciences, BOT, BPT, MBBS, Nursing, or equivalent qualifications as listed on the official page.",
+      "official_course_url": "https://www.santosh.ac.in/program/msc-clinical-psychology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 266,
+          "career_node_slug": "clinical_psychologist",
+          "career_breadcrumb": "Social Sciences & Education > BA Psychology > Clinical Psychologist",
+          "relation": "closest-specialization: Clinical Psychologist",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "santosh-university-bachelor-of-nutrition-and-dietetics-honours",
+      "name": "Bachelor of Nutrition & Dietetics (Honours)",
+      "level": "undergraduate",
+      "credential": "Bachelor degree",
+      "specialization": "Nutrition & Dietetics",
+      "duration": null,
+      "mode": "not stated by official site",
+      "eligibility": "Passed 10+2 with Physics, Chemistry, Botany and Zoology/Biology including English, or equivalent qualification from a recognized board.",
+      "official_course_url": "https://www.santosh.ac.in/program/bachelor-of-nutrition-and-dietetics-honours",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 369,
+          "career_node_slug": "sports_nutritionist",
+          "career_breadcrumb": "Performing Arts & Sports > Sports & Physical Education > Sports Nutritionist",
+          "relation": "closest-specialization: Sports Nutritionist",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "santosh-university-bachelor-of-optometry",
+      "name": "Bachelor of Optometry",
+      "level": "undergraduate",
+      "credential": "Bachelor degree",
+      "specialization": "Optometry",
+      "duration": null,
+      "mode": "not stated by official site",
+      "eligibility": "10+2 or equivalent with Physics, Chemistry and Biology/Mathematics; the official page states pass marks of 45% in the relevant subjects.",
+      "official_course_url": "https://www.santosh.ac.in/program/bachelor-of-optometry",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 36,
+          "career_node_slug": "bsc_optometry",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Optometry",
+          "relation": "closest-specialization: B.Sc Optometry",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "santosh-university-msc-medical-lab-technology",
+      "name": "M.Sc Medical Lab Technology",
+      "level": "postgraduate",
+      "credential": "M.Sc",
+      "specialization": "Medical Lab Technology",
+      "duration": null,
+      "mode": "not stated by official site",
+      "eligibility": "Bachelor in Medical Laboratory Science (BMLS) with minimum 55% aggregate.",
+      "official_course_url": "https://www.santosh.ac.in/program/msc-medical-lab-technology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 37,
+          "career_node_slug": "dmlt",
+          "career_breadcrumb": "Paramedical & Health Sciences > DMLT (Medical Lab Technology)",
+          "relation": "closest-specialization: DMLT (Medical Lab Technology)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "santosh-university-master-of-medical-radiology-and-imaging-technology",
+      "name": "Master of Medical Radiology & Imaging Technology",
+      "level": "postgraduate",
+      "credential": "Master degree",
+      "specialization": "Medical Radiology & Imaging Technology",
+      "duration": null,
+      "mode": "not stated by official site",
+      "eligibility": "B.Sc Allied Health Sciences, Medical Radio Diagnosis Technology, Radiology and Imaging Sciences, Medical Imaging Technology, Radiography, BMRDIT, or equivalent from a recognized institution/university.",
+      "official_course_url": "https://www.santosh.ac.in/program/master-of-medical-radiology-and-imaging-technology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 38,
+          "career_node_slug": "bsc_radiology",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Radiology & Imaging Technology",
+          "relation": "closest-specialization: B.Sc Radiology & Imaging Technology",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "santosh-university-msc-medical-microbiology",
+      "name": "M.Sc Medical Microbiology",
+      "level": "postgraduate",
+      "credential": "M.Sc",
+      "specialization": "Medical Microbiology",
+      "duration": null,
+      "mode": "not stated by official site",
+      "eligibility": "B.Sc ZBC, B.Sc Anatomy, BDS, BMLT, BPT, BMM, B.Pharm, BAMS or Biotechnology with at least 50% aggregate marks, as listed on the official page.",
+      "official_course_url": "https://www.santosh.ac.in/program/msc-medical-microbiology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 34,
+          "career_node_slug": "bsc_microbio",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Microbiology",
+          "relation": "closest-specialization: B.Sc Microbiology",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "santosh-university-msc-medical-anatomy",
+      "name": "M.Sc Medical Anatomy",
+      "level": "postgraduate",
+      "credential": "M.Sc",
+      "specialization": "Medical Anatomy",
+      "duration": "2 years",
+      "mode": "not stated by official site",
+      "eligibility": "B.Sc with at least one biological-science subject, BAMS, MBBS, BPT, B.Pharm or equivalent graduation from a recognized university.",
+      "official_course_url": "https://www.santosh.ac.in/program/msc-medical-anatomy",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest-parent: Paramedical & Health Sciences",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "santosh-university-msc-medical-biochemistry",
+      "name": "M.Sc Medical Biochemistry",
+      "level": "postgraduate",
+      "credential": "M.Sc",
+      "specialization": "Medical Biochemistry",
+      "duration": null,
+      "mode": "not stated by official site",
+      "eligibility": "MBBS, BDS, BMLT, BOT, BMM, B.Pharm, BAMS, Bio-Tech, B.Sc Biochemistry, B.Sc Nursing or specified B.Sc science degree with 50% aggregate marks, as listed on the official page.",
+      "official_course_url": "https://www.santosh.ac.in/program/msc-medical-biochemistry",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 35,
+          "career_node_slug": "bsc_biochem",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Biochemistry",
+          "relation": "closest-specialization: B.Sc Biochemistry",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "santosh-university-msc-medical-physiology",
+      "name": "M.Sc Medical Physiology",
+      "level": "postgraduate",
+      "credential": "M.Sc",
+      "specialization": "Medical Physiology",
+      "duration": "3 years",
+      "mode": "not stated by official site",
+      "eligibility": "B.Sc in Biological Sciences or Life Sciences.",
+      "official_course_url": "https://www.santosh.ac.in/program/msc-medical-physiology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest-parent: Paramedical & Health Sciences",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "santosh-university-master-of-hospital-administration-mha",
+      "name": "Master of Hospital Administration (MHA)",
+      "level": "postgraduate",
+      "credential": "Master degree",
+      "specialization": "Hospital Administration",
+      "duration": null,
+      "mode": "not stated by official site",
+      "eligibility": "Degree in Bachelor of Public Health, MBBS, Ayush, BBA, BHA, B.Sc Nursing, B.Pharm or equivalent; the official page also states graduation-mark requirements.",
+      "official_course_url": "https://www.santosh.ac.in/program/master-of-hospital-administration-mha",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest-parent: Paramedical & Health Sciences",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "santosh-university-md-forensic-medicine",
+      "name": "MD Forensic Medicine",
+      "level": "postgraduate",
+      "credential": "MD",
+      "specialization": "Forensic Medicine",
+      "duration": "3 years",
+      "mode": "not stated by official site",
+      "eligibility": null,
+      "official_course_url": "https://www.santosh.ac.in/program/md-forensic-medicine",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "nearest-parent: MBBS",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "santosh-university-master-of-optometry",
+      "name": "Master of Optometry",
+      "level": "postgraduate",
+      "credential": "Master degree",
+      "specialization": "Optometry",
+      "duration": "2 years",
+      "mode": "not stated by official site",
+      "eligibility": "Bachelor of Optometry or equivalent from a recognized university with minimum 5.5 CGPA.",
+      "official_course_url": "https://www.santosh.ac.in/program/master-of-optometry",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 36,
+          "career_node_slug": "bsc_optometry",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Optometry",
+          "relation": "closest-specialization: B.Sc Optometry",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "santosh-university-bachelor-of-anaesthesia-and-operation-theatre-technology",
+      "name": "Bachelor of Anaesthesia and Operation Theatre Technology",
+      "level": "undergraduate",
+      "credential": "Bachelor degree",
+      "specialization": "Anaesthesia and Operation Theatre Technology",
+      "duration": "3 years",
+      "mode": "not stated by official site",
+      "eligibility": "10+2/equivalent with Physics, Chemistry and Biology as principal subjects of study.",
+      "official_course_url": "https://www.santosh.ac.in/program/bachelor-of-anaesthesia-and-operation-theatre-technology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest-parent: Paramedical & Health Sciences",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "santosh-university-msc-medical-pharmacology",
+      "name": "M.Sc Medical Pharmacology",
+      "level": "postgraduate",
+      "credential": "M.Sc",
+      "specialization": "Medical Pharmacology",
+      "duration": "3 years",
+      "mode": "not stated by official site",
+      "eligibility": "B.Sc ZBC, B.Sc Anatomy, BDS, MBBS, BMLT, BPT, BOMM, B.Pharm, BAMS or Biotechnology with at least 50% aggregate marks.",
+      "official_course_url": "https://www.santosh.ac.in/program/msc-medical-pharmacology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "closest-specialization: Medical Updated",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "santosh-university-m-sc-forensic-science",
+      "name": "M.Sc Forensic Science",
+      "level": "postgraduate",
+      "credential": "M.Sc",
+      "specialization": "Forensic Science",
+      "duration": "2 years",
+      "mode": "not stated by official site",
+      "eligibility": "B.Sc in a listed science/forensic discipline, B.Pharm, MBBS, BDS, BHMS, BAMS or equivalent with 50% aggregate marks.",
+      "official_course_url": "https://www.santosh.ac.in/program/m-sc-forensic-science",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 27,
+          "career_node_slug": "bsc_forensic",
+          "career_breadcrumb": "Common Paths > B.Sc Forensic Science",
+          "relation": "closest-specialization: B.Sc Forensic Science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "santosh-university-bachelor-of-emergency-medical-technologist-paramedic",
+      "name": "Bachelor of Emergency Medical Technologist (Paramedic)",
+      "level": "undergraduate",
+      "credential": "Bachelor degree",
+      "specialization": "Emergency Medical Technology (Paramedic)",
+      "duration": "4 years (3 years + 1 year Internship)",
+      "mode": "not stated by official site",
+      "eligibility": "Science graduates with Physics, Chemistry and Biology.",
+      "official_course_url": "https://www.santosh.ac.in/program/bachelor-of-emergency-medical-technologist-paramedic",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest-parent: Paramedical & Health Sciences",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "santosh-university-b-sc-in-critical-care-technology",
+      "name": "B.Sc. In Critical care Technology",
+      "level": "undergraduate",
+      "credential": "B.Sc",
+      "specialization": "Critical Care Technology",
+      "duration": null,
+      "mode": "not stated by official site",
+      "eligibility": "10+2 or equivalent with 12 years of schooling from a recognized board or university; minimum 35% in each subject including English.",
+      "official_course_url": "https://www.santosh.ac.in/program/b-sc-in-critical-care-technology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest-parent: Paramedical & Health Sciences",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "santosh-university-b-sc-orthopaedics-technology",
+      "name": "B.Sc. Orthopaedics Technology",
+      "level": "undergraduate",
+      "credential": "B.Sc",
+      "specialization": "Orthopaedics Technology",
+      "duration": "3 years",
+      "mode": "not stated by official site",
+      "eligibility": "10+2 or equivalent in the science stream with Physics, Chemistry and Biology or Mathematics; the official page states the applicable marks and age requirements.",
+      "official_course_url": "https://www.santosh.ac.in/program/b-sc-orthopaedics-technology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest-parent: Paramedical & Health Sciences",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "santosh-university-mphil-clinical-psychology",
+      "name": "M.PHIL Clinical Psychology",
+      "level": "postgraduate",
+      "credential": "M.Phil",
+      "specialization": "Clinical Psychology",
+      "duration": "2 years",
+      "mode": "not stated by official site",
+      "eligibility": "PG Degree in Clinical Psychology.",
+      "official_course_url": "https://www.santosh.ac.in/program/mphil-clinical-psychology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 266,
+          "career_node_slug": "clinical_psychologist",
+          "career_breadcrumb": "Social Sciences & Education > BA Psychology > Clinical Psychologist",
+          "relation": "closest-specialization: Clinical Psychologist",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "santosh-university-pg-diploma-in-public-health",
+      "name": "PG Diploma in Public Health",
+      "level": "postgraduate",
+      "credential": "PG Diploma",
+      "specialization": "Public Health",
+      "duration": "2 years",
+      "mode": "not stated by official site",
+      "eligibility": null,
+      "official_course_url": "https://www.santosh.ac.in/program/pg-diploma-in-public-health",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest-parent: Paramedical & Health Sciences",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "santosh-university-pg-diploma-in-forensic-medicine",
+      "name": "PG Diploma in Forensic Medicine",
+      "level": "postgraduate",
+      "credential": "PG Diploma",
+      "specialization": "Forensic Medicine",
+      "duration": null,
+      "mode": "not stated by official site",
+      "eligibility": null,
+      "official_course_url": "https://www.santosh.ac.in/program/pg-diploma-in-forensic-medicine",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 27,
+          "career_node_slug": "bsc_forensic",
+          "career_breadcrumb": "Common Paths > B.Sc Forensic Science",
+          "relation": "closest-specialization: B.Sc Forensic Science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "santosh-university-diploma-in-dental-hygienist-course-dhc",
+      "name": "Diploma in Dental Hygienist Course (DHC)",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": "Dental Hygienist",
+      "duration": "2 years",
+      "mode": "not stated by official site",
+      "eligibility": "At least 17 years of age and medically fit; 10+2/two-year intermediate or equivalent with Physics, Chemistry and Biology from a recognized university/board.",
+      "official_course_url": "https://www.santosh.ac.in/program/diploma-in-dental-hygienist-course-dhc",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 16,
+          "career_node_slug": "bds",
+          "career_breadcrumb": "Biology / PCB > BDS (Dental Surgery)",
+          "relation": "nearest-parent: BDS (Dental Surgery)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "santosh-university-diploma-in-dental-mechanic-course-dmc",
+      "name": "Diploma in Dental Mechanic Course (DMC)",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": "Dental Mechanic",
+      "duration": null,
+      "mode": "not stated by official site",
+      "eligibility": "At least 17 years of age and medically fit; 10+2/two-year intermediate or equivalent with Physics, Chemistry and Biology from a recognized university/board.",
+      "official_course_url": "https://www.santosh.ac.in/program/diploma-in-dental-mechanic-course-dmc",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 16,
+          "career_node_slug": "bds",
+          "career_breadcrumb": "Biology / PCB > BDS (Dental Surgery)",
+          "relation": "nearest-parent: BDS (Dental Surgery)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "santosh-university-bds",
+      "name": "BDS",
+      "level": "undergraduate",
+      "credential": "BDS",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated by official site",
+      "eligibility": null,
+      "official_course_url": "https://www.santosh.ac.in/program/bds",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 16,
+          "career_node_slug": "bds",
+          "career_breadcrumb": "Biology / PCB > BDS (Dental Surgery)",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "santosh-university-mds-conservative-dentistry-and-endodontics",
+      "name": "MDS Conservative Dentistry & Endodontics",
+      "level": "postgraduate",
+      "credential": "MDS",
+      "specialization": "Conservative Dentistry & Endodontics",
+      "duration": "3 years",
+      "mode": "not stated by official site",
+      "eligibility": "BDS degree from a recognized university and one-year rotating internship; minimum marks requirements apply as stated on the official page.",
+      "official_course_url": "https://www.santosh.ac.in/program/mds-conservative-dentistry-and-endodontics",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 135,
+          "career_node_slug": "mds_endo",
+          "career_breadcrumb": "Biology / PCB > BDS (Dental Surgery) > MDS Endodontics",
+          "relation": "closest-specialization: MDS Endodontics",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "santosh-university-mds-periodontology",
+      "name": "MDS Periodontology",
+      "level": "postgraduate",
+      "credential": "MDS",
+      "specialization": "Periodontology",
+      "duration": "3 years",
+      "mode": "not stated by official site",
+      "eligibility": "BDS degree from a recognized university and one-year rotating internship; minimum marks requirements apply as stated on the official page.",
+      "official_course_url": "https://www.santosh.ac.in/program/mds-periodontology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 16,
+          "career_node_slug": "bds",
+          "career_breadcrumb": "Biology / PCB > BDS (Dental Surgery)",
+          "relation": "nearest-parent: BDS (Dental Surgery)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "santosh-university-mds-oral-and-maxillofacial-surgery",
+      "name": "MDS Oral & Maxillofacial Surgery",
+      "level": "postgraduate",
+      "credential": "MDS",
+      "specialization": "Oral & Maxillofacial Surgery",
+      "duration": "3 years",
+      "mode": "not stated by official site",
+      "eligibility": "BDS degree from a recognized university and one-year rotating internship; minimum marks requirements apply as stated on the official page.",
+      "official_course_url": "https://www.santosh.ac.in/program/mds-oral-and-maxillofacial-surgery",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 16,
+          "career_node_slug": "bds",
+          "career_breadcrumb": "Biology / PCB > BDS (Dental Surgery)",
+          "relation": "nearest-parent: BDS (Dental Surgery)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "santosh-university-mds-orthodontics-and-dentofacial-orthopaedics",
+      "name": "MDS Orthodontics & Dentofacial Orthopaedics",
+      "level": "postgraduate",
+      "credential": "MDS",
+      "specialization": "Orthodontics & Dentofacial Orthopaedics",
+      "duration": "3 years",
+      "mode": "not stated by official site",
+      "eligibility": "BDS degree from a recognized university and one-year rotating internship; minimum marks requirements apply as stated on the official page.",
+      "official_course_url": "https://www.santosh.ac.in/program/mds-orthodontics-and-dentofacial-orthopaedics",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 134,
+          "career_node_slug": "mds_ortho",
+          "career_breadcrumb": "Biology / PCB > BDS (Dental Surgery) > MDS Orthodontics",
+          "relation": "closest-specialization: MDS Orthodontics",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "santosh-university-mds-paediatric-and-preventive-dentistry",
+      "name": "MDS Pediatric & Preventive Dentistry",
+      "level": "postgraduate",
+      "credential": "MDS",
+      "specialization": "Pediatric & Preventive Dentistry",
+      "duration": "3 years",
+      "mode": "not stated by official site",
+      "eligibility": "BDS degree from a recognized university and one-year rotating internship; minimum marks requirements apply as stated on the official page.",
+      "official_course_url": "https://www.santosh.ac.in/program/mds-paediatric-and-preventive-dentistry",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 16,
+          "career_node_slug": "bds",
+          "career_breadcrumb": "Biology / PCB > BDS (Dental Surgery)",
+          "relation": "nearest-parent: BDS (Dental Surgery)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "santosh-university-mds-prosthodontics-and-crown-bridge",
+      "name": "MDS Prosthodontics and Crown & Bridge",
+      "level": "postgraduate",
+      "credential": "MDS",
+      "specialization": "Prosthodontics and Crown & Bridge",
+      "duration": "3 years",
+      "mode": "not stated by official site",
+      "eligibility": "BDS degree from a recognized university and one-year rotating internship; minimum marks requirements apply as stated on the official page.",
+      "official_course_url": "https://www.santosh.ac.in/program/mds-prosthodontics-and-crown-bridge",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 16,
+          "career_node_slug": "bds",
+          "career_breadcrumb": "Biology / PCB > BDS (Dental Surgery)",
+          "relation": "nearest-parent: BDS (Dental Surgery)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "santosh-university-mds-oral-pathology-and-microbiology",
+      "name": "MDS Oral Pathology & Microbiology",
+      "level": "postgraduate",
+      "credential": "MDS",
+      "specialization": "Oral Pathology & Microbiology",
+      "duration": "3 years",
+      "mode": "not stated by official site",
+      "eligibility": "BDS degree from a recognized university and one-year rotating internship; minimum marks requirements apply as stated on the official page.",
+      "official_course_url": "https://www.santosh.ac.in/program/mds-oral-pathology-and-microbiology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 16,
+          "career_node_slug": "bds",
+          "career_breadcrumb": "Biology / PCB > BDS (Dental Surgery)",
+          "relation": "nearest-parent: BDS (Dental Surgery)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "santosh-university-fellowship-stem-cell-regenerative-medicine",
+      "name": "Fellowship in Stem Cell & Regenerative Medicine",
+      "level": "fellowship",
+      "credential": "Fellowship",
+      "specialization": "Stem Cell & Regenerative Medicine",
+      "duration": null,
+      "mode": "not stated by official site",
+      "eligibility": null,
+      "official_course_url": "https://www.santosh.ac.in/fellowship",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 147,
+          "career_node_slug": "research_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech > Research Scientist (Biology)",
+          "relation": "closest-specialization: Research Scientist (Biology)",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "santosh-university-phd-programmes-september-2026",
+      "name": "Admissions Open for Ph.D Programmes (Full Time Part Time - September 2026)",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Ph.D. programmes",
+      "duration": null,
+      "mode": "not stated by official site",
+      "eligibility": null,
+      "official_course_url": "https://www.santosh.ac.in/phd-notices",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [],
+      "mapping_gap": "The current official Ph.D. notice does not expose discipline-specific programme catalogue entries; mapping would require guessing."
+    }
+  ],
+  "agent_notes": [
+    "NIRF Dental and Medical 2025 directory pages directly list Santosh University in Ghaziabad, Uttar Pradesh; the Overall source was also checked but no matching row was observed.",
+    "The managed proxy returned the exact curl error \"self signed certificate in certificate chain\" for expected public HTTPS hosts; public GET requests then used curl --insecure only after confirming the expected nirfindia.org and santosh.ac.in hostnames.",
+    "The official site exposes 54 current degree/diploma programme pages through its admissions, medical-programs and dental-programs catalogues, plus an active Fellowship in Stem Cell & Regenerative Medicine page.",
+    "The official certificate route https://www.santosh.ac.in/certificate returns a 301 redirect to /university and does not expose a current certificate programme.",
+    "The Ph.D. page exposes a current September 2026 admissions notice, and the medical/dental college pages mention Ph.D. offerings, but no discipline-specific Ph.D. catalogue entries are exposed on the official website; the Ph.D. entry is therefore a programme-family record with no career mapping and this result requires manual review.",
+    "The PG Diploma in Forensic Medicine page contains a copy-pasted duration sentence naming PG Diploma in Public Health; duration was left null for that course rather than inferring it.",
+    "Career mappings were read from assets/data/career_path.db with sqlite read-only access; nearest-parent and closest-specialization relations are labelled where no exact node exists."
+  ]
+}

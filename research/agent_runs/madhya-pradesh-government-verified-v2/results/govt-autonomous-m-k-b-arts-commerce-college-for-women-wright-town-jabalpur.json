@@ -1,0 +1,155 @@
+{
+  "institution_id": "govt-autonomous-m-k-b-arts-commerce-college-for-women-wright-town-jabalpur",
+  "nirf_name": "Govt. Autonomous M.K.B. Arts & Commerce College for Women, Wright Town Jabalpur",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "remove_candidate",
+  "district": "Jabalpur",
+  "district_verification_status": "verified_official_website",
+  "official_website": null,
+  "website_verification_status": "not_found",
+  "description": null,
+  "description_verification_status": "not_found",
+  "record_status": "remove_candidate",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "exact institution listing",
+        "Jabalpur campus",
+        "Madhya Pradesh state"
+      ]
+    },
+    {
+      "type": "state_higher_education_directory",
+      "url": "https://highereducation.mp.gov.in/?page=%2BET3GfsYS27lDIaDwKrviA%3D%3D",
+      "supports": [
+        "autonomous-college listing",
+        "Govt M K B Arts and Commerce College",
+        "Jabalpur district"
+      ]
+    },
+    {
+      "type": "district_government_directory",
+      "url": "https://jabalpur.nic.in/en/public-utility-category/colleges/",
+      "supports": [
+        "official Jabalpur college-directory check; no matching M.K.B. institution website link found"
+      ]
+    },
+    {
+      "type": "state_gis_authoritative_domain_check",
+      "url": "https://esriservices.mp.gov.in/portal/sharing/rest/content/items/3b334ef79c7d4011907691d02d999192/data?f=json",
+      "supports": [
+        "official MP Higher Education GIS application and advertised college feature service; backend query unavailable"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Govt. Autonomous M.K.B. Arts & Commerce College for Women\" Jabalpur official website",
+      "result": "Search service returned a robot-verification or rate-limit page; no authoritative institution website was established.",
+      "url": null
+    },
+    {
+      "query": "\"M.K.B. Arts\" Jabalpur college website",
+      "result": "No authoritative institution-controlled website was returned.",
+      "url": null
+    },
+    {
+      "query": "site:mp.gov.in \"M.K.B.\" \"Wright Town\" college",
+      "result": "No official institution website URL was returned.",
+      "url": null
+    },
+    {
+      "query": "\"Mankunwar Bai\" Jabalpur college",
+      "result": "No authoritative institution-controlled website was returned.",
+      "url": null
+    },
+    {
+      "query": "\"Mankunwar Bai Arts and Commerce College for Women\"",
+      "result": "No authoritative institution-controlled website was returned.",
+      "url": null
+    },
+    {
+      "query": "\"M.K.B. College\" Jabalpur",
+      "result": "No authoritative institution-controlled website was returned.",
+      "url": null
+    },
+    {
+      "query": "\"M.K.B. Arts\" Jabalpur",
+      "result": "No authoritative institution-controlled website was returned.",
+      "url": null
+    },
+    {
+      "query": "\"Govt M K B Arts and Commerce College\"",
+      "result": "No authoritative institution-controlled website was returned.",
+      "url": null
+    },
+    {
+      "query": "\"Govt Autonomous M K B Arts and Commerce College\" Jabalpur",
+      "result": "No authoritative institution-controlled website was returned.",
+      "url": null
+    },
+    {
+      "query": "\"Govt M K B Arts and Commerce College\" Jabalpur",
+      "result": "No authoritative institution-controlled website was returned.",
+      "url": null
+    },
+    {
+      "query": "MK B Arts Commerce College Women Wright Town Jabalpur official",
+      "result": "No authoritative institution-controlled website was returned.",
+      "url": null
+    },
+    {
+      "query": "site:ac.in MKB college Jabalpur Wright Town",
+      "result": "Returned unrelated results and no matching institution website.",
+      "url": null
+    },
+    {
+      "query": "site:highereducation.mp.gov.in/ClgProfile \"3304\"",
+      "result": "Returned unrelated results and no matching official college profile URL.",
+      "url": null
+    },
+    {
+      "query": "\"3304\" \"M K B\" college Jabalpur",
+      "result": "Returned unrelated results and no matching official college profile URL.",
+      "url": null
+    },
+    {
+      "query": "site:mp.gov.in hegmkbaaccjab",
+      "result": "No official institution website URL was returned.",
+      "url": null
+    },
+    {
+      "query": "hegmkbaaccjab@mp.gov.in",
+      "result": "No authoritative institution website URL was returned.",
+      "url": null
+    },
+    {
+      "query": "authoritative-domain check: official MP Higher Education autonomous-college directory",
+      "result": "The official directory lists the college in Jabalpur but does not provide an institution-controlled website URL.",
+      "url": "https://highereducation.mp.gov.in/?page=%2BET3GfsYS27lDIaDwKrviA%3D%3D"
+    },
+    {
+      "query": "authoritative-domain check: official Jabalpur district college directory",
+      "result": "The official English directory was checked; the target M.K.B. college was not listed and no institution website link was found.",
+      "url": "https://jabalpur.nic.in/en/public-utility-category/colleges/"
+    },
+    {
+      "query": "authoritative-domain check: official MP Higher Education GIS feature service",
+      "result": "The public feature-service backend returned \"Could not access any server machines\", so the college website field could not be retrieved.",
+      "url": "https://esriservices.mp.gov.in/server/rest/services/Higher_Education/FeatureServer/0"
+    }
+  ],
+  "course_catalogue_status": "not_found",
+  "courses": [],
+  "agent_notes": [
+    "The exact institution row was confirmed in the NIRF 2025 College directory, and the Madhya Pradesh Higher Education autonomous-college directory independently lists the Jabalpur college.",
+    "After multiple focused name, abbreviation, MP-government-domain, higher-education-domain, and .ac.in searches plus authoritative-domain checks, no institution-controlled official website could be established.",
+    "No official programme catalogue was found; no courses, duration, eligibility, description, or career mappings were imported.",
+    "Normal TLS verification produced the exact managed-proxy self-signed certificate-chain error; curl --insecure was used only for public GET requests after confirming the expected official domains."
+  ]
+}

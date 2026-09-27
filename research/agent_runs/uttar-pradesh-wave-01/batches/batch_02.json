@@ -1,0 +1,146 @@
+{
+  "batch": 2,
+  "started_at": "2026-09-26T21:13:08.593336+00:00",
+  "finished_at": "2026-09-26T21:23:08.702089+00:00",
+  "assignment_count": 10,
+  "completed_count": 0,
+  "skipped_count": 3,
+  "failed_count": 7,
+  "results": [
+    {
+      "institution_id": "chaudhary-charan-singh-university",
+      "nirf_name": "Chaudhary Charan Singh University",
+      "status": "failed",
+      "started_at": "2026-09-26T21:13:08.657410+00:00",
+      "finished_at": "2026-09-26T21:18:08.686262+00:00",
+      "duration_seconds": 300.025,
+      "return_code": -15,
+      "timed_out": true,
+      "errors": [
+        "agent timed out after 300 seconds",
+        "codex exec exited with code -15",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-wave-01/logs/chaudhary-charan-singh-university.jsonl"
+    },
+    {
+      "institution_id": "deendayal-upadhyaya-state-institute-of-rural-development",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-wave-01/results/deendayal-upadhyaya-state-institute-of-rural-development.json",
+      "finished_at": "2026-09-26T21:13:08.628251+00:00"
+    },
+    {
+      "institution_id": "dr-a-p-j-abdul-kalam-technical-university",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-wave-01/results/dr-a-p-j-abdul-kalam-technical-university.json",
+      "finished_at": "2026-09-26T21:13:08.629691+00:00"
+    },
+    {
+      "institution_id": "dr-shakuntala-misra-national-rehabilitation-university",
+      "nirf_name": "Dr. Shakuntala Misra National Rehabilitation University",
+      "status": "failed",
+      "started_at": "2026-09-26T21:13:08.616226+00:00",
+      "finished_at": "2026-09-26T21:18:08.642126+00:00",
+      "duration_seconds": 300.023,
+      "return_code": -15,
+      "timed_out": true,
+      "errors": [
+        "agent timed out after 300 seconds",
+        "codex exec exited with code -15",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-wave-01/logs/dr-shakuntala-misra-national-rehabilitation-university.jsonl"
+    },
+    {
+      "institution_id": "harcourt-butler-technical-university",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-wave-01/results/harcourt-butler-technical-university.json",
+      "finished_at": "2026-09-26T21:13:08.627097+00:00"
+    },
+    {
+      "institution_id": "indian-institute-of-technology-bhu",
+      "nirf_name": "Indian Institute of Technology (BHU)",
+      "status": "failed",
+      "started_at": "2026-09-26T21:18:08.657656+00:00",
+      "finished_at": "2026-09-26T21:23:08.695489+00:00",
+      "duration_seconds": 300.036,
+      "return_code": -15,
+      "timed_out": true,
+      "errors": [
+        "agent timed out after 300 seconds",
+        "codex exec exited with code -15",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-wave-01/logs/indian-institute-of-technology-bhu.jsonl"
+    },
+    {
+      "institution_id": "institute-of-co-operative-and-corporate-management-research-training",
+      "nirf_name": "Institute of Co-operative and Corporate Management, Research & Training",
+      "status": "failed",
+      "started_at": "2026-09-26T21:13:08.620723+00:00",
+      "finished_at": "2026-09-26T21:18:08.640591+00:00",
+      "duration_seconds": 300.017,
+      "return_code": -15,
+      "timed_out": true,
+      "errors": [
+        "agent timed out after 300 seconds",
+        "codex exec exited with code -15",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-wave-01/logs/institute-of-co-operative-and-corporate-management-research-training.jsonl"
+    },
+    {
+      "institution_id": "institute-of-engineering-and-technology",
+      "nirf_name": "Institute of Engineering and Technology",
+      "status": "failed",
+      "started_at": "2026-09-26T21:13:08.638363+00:00",
+      "finished_at": "2026-09-26T21:18:08.691914+00:00",
+      "duration_seconds": 300.051,
+      "return_code": -15,
+      "timed_out": true,
+      "errors": [
+        "agent timed out after 300 seconds",
+        "codex exec exited with code -15",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-wave-01/logs/institute-of-engineering-and-technology.jsonl"
+    },
+    {
+      "institution_id": "kamla-nehru-institute-of-technology",
+      "nirf_name": "Kamla Nehru Institute of Technology",
+      "status": "failed",
+      "started_at": "2026-09-26T21:18:08.657745+00:00",
+      "finished_at": "2026-09-26T21:22:32.528685+00:00",
+      "duration_seconds": 263.859,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [
+        "verified outcome requires a source supporting the course catalogue"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-wave-01/logs/kamla-nehru-institute-of-technology.jsonl"
+    },
+    {
+      "institution_id": "king-george-s-medical-university",
+      "nirf_name": "King George's Medical University",
+      "status": "failed",
+      "started_at": "2026-09-26T21:13:08.638472+00:00",
+      "finished_at": "2026-09-26T21:18:08.691039+00:00",
+      "duration_seconds": 300.05,
+      "return_code": -15,
+      "timed_out": true,
+      "errors": [
+        "agent timed out after 300 seconds",
+        "codex exec exited with code -15",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-wave-01/logs/king-george-s-medical-university.jsonl"
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "institution_id": "career-college-of-nursing",
+  "nirf_name": "Career College of Nursing",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "verified",
+  "district": "Bhopal",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://careernursing.org/",
+  "website_verification_status": "verified",
+  "description": "Career College of Nursing is a nursing institution in Govindpura, Bhopal, established by the Career Society in 2015 and providing nursing education with clinical training.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Lists Career College of Nursing",
+        "Lists city as Bhopal",
+        "Lists state as Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://careernursing.org/",
+      "supports": [
+        "Identifies Career College of Nursing Bhopal",
+        "Lists the official course catalogue as M.Sc. Nursing, B.Sc. Nursing, and G.N.M. (General Nursing and Midwifery)"
+      ]
+    },
+    {
+      "type": "official_about",
+      "url": "https://careernursing.org/about",
+      "supports": [
+        "States the Career Society established Career College of Nursing, Bhopal in 2015",
+        "Describes the institution's nursing education and clinical training"
+      ]
+    },
+    {
+      "type": "official_contact",
+      "url": "https://careernursing.org/contact",
+      "supports": [
+        "Identifies the campus as Career College of Nursing, Bhopal",
+        "Gives the address as Opposite Dussehra Maidan, Govindpura (BHEL), Bhopal, Madhya Pradesh 462023, India"
+      ]
+    },
+    {
+      "type": "official_course_page",
+      "url": "https://careernursing.org/msc-nursing",
+      "supports": [
+        "Proves the current programme name M.Sc. Nursing",
+        "States duration, eligibility, degree award, and specialties offered"
+      ]
+    },
+    {
+      "type": "official_course_page",
+      "url": "https://careernursing.org/bsc-nursing",
+      "supports": [
+        "Proves the current programme name B.Sc. Nursing",
+        "States duration, eligibility, and degree award"
+      ]
+    },
+    {
+      "type": "official_course_page",
+      "url": "https://careernursing.org/gnm-nursing",
+      "supports": [
+        "Proves the current programme name G.N.M. (General Nursing and Midwifery)",
+        "States duration, eligibility, and diploma award"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Career College of Nursing\" Bhopal official",
+      "result": "Brave Search returned https://careernursing.org/ as the institution homepage; used for discovery only, not verification.",
+      "url": "https://careernursing.org/"
+    },
+    {
+      "query": "Career College Nursing Bhopal Madhya Pradesh official website",
+      "result": "Brave Search returned https://careernursing.org/ as the institution homepage; used for discovery only, not verification.",
+      "url": "https://careernursing.org/"
+    }
+  ],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "career-college-of-nursing-msc-nursing",
+      "name": "M.Sc. Nursing",
+      "level": "postgraduate",
+      "credential": "Master of Science (Nursing) degree",
+      "specialization": "Medical-Surgical Nursing; Cardiovascular & Thoracic Nursing; Critical Care Nursing; Oncology Nursing; Neurosciences Nursing; Nephro-Urology Nursing; Orthopedic Nursing; Gastroenterology Nursing; Obstetric & Gynecological Nursing; Child Health (Paediatric) Nursing; Mental Health (Psychiatric) Nursing; Community Health Nursing",
+      "duration": "2 Years",
+      "mode": "not stated on official website",
+      "eligibility": "Registered Nurse and Registered Midwife with any State Nursing Council; B.Sc. Nursing / B.Sc. (Hons.) Nursing / Post Basic B.Sc. Nursing with minimum 55% marks; completion of B.Sc. Nursing or equivalent with proper clinical exposure; minimum one year of work experience after Basic or Post Basic B.Sc. Nursing; simultaneous enrollment in other courses is not permitted.",
+      "official_course_url": "https://careernursing.org/msc-nursing",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 19,
+          "career_node_slug": "bsc_nursing",
+          "career_breadcrumb": "Biology / PCB > B.Sc Nursing",
+          "relation": "nearest-parent: nursing discipline; no exact M.Sc Nursing node exists in the career tree",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 140,
+          "career_node_slug": "clinical_nurse",
+          "career_breadcrumb": "Biology / PCB > B.Sc Nursing > Clinical Nurse Specialist",
+          "relation": "explicit programme objective: Clinical Nurse Specialist",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 141,
+          "career_node_slug": "nurse_educator",
+          "career_breadcrumb": "Biology / PCB > B.Sc Nursing > Nurse Educator",
+          "relation": "explicit programme objective: nurse educator",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "career-college-of-nursing-bsc-nursing",
+      "name": "B.Sc. Nursing",
+      "level": "undergraduate",
+      "credential": "Bachelor of Science (Nursing) degree",
+      "specialization": null,
+      "duration": "4 Years",
+      "mode": "not stated on official website",
+      "eligibility": "10+2 (Science stream) with 45% marks (PCB) from a recognized board; candidates from State Open School or NIOS with Science and English are eligible; candidate must have completed 17 years of age on or before 31st December of the admission year; 5% relaxation in marks for SC/ST candidates; reservations as per State Government Policy.",
+      "official_course_url": "https://careernursing.org/bsc-nursing",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 19,
+          "career_node_slug": "bsc_nursing",
+          "career_breadcrumb": "Biology / PCB > B.Sc Nursing",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "career-college-of-nursing-gnm-nursing",
+      "name": "G.N.M. (General Nursing and Midwifery)",
+      "level": "diploma",
+      "credential": "Diploma in General Nursing and Midwifery (G.N.M.)",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "not stated on official website",
+      "eligibility": "10+2 with English and a minimum of 40% marks in aggregate from a recognised board; candidates from State Open School or NIOS with English are eligible; 10+2 with ANM (Vocational) or Health Care Science (Vocational) with 40% marks are also eligible; registered ANMs with pass marks are accepted; age limit 17-35 years as on 31st December of the admission year; 5% relaxation for SC/ST candidates; reservations as per State Government Policy.",
+      "official_course_url": "https://careernursing.org/gnm-nursing",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 19,
+          "career_node_slug": "bsc_nursing",
+          "career_breadcrumb": "Biology / PCB > B.Sc Nursing",
+          "relation": "nearest-parent: nursing discipline; no exact GNM node exists in the career tree",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The NIRF 2025 Overall listing contains separate Bhopal rows for Career College and Career College of Nursing; this record uses the exact Career College of Nursing row.",
+    "The official homepage Courses menu and course cards list exactly three current programmes, each backed by a dedicated official programme page; no additional active degree, diploma, certificate, or doctoral programme was listed in the official catalogue.",
+    "The official site describes the institution as established by the Career Society and approved by the State Government, while INSTITUTION_CONTEXT labels the type as government_college; this type label should be reviewed separately if required.",
+    "The official programme pages do not explicitly label study mode, so mode is recorded as not stated rather than inferred.",
+    "Normal TLS verification failed with the documented local proxy certificate error (curl error 60: self signed certificate in certificate chain); curl --insecure was then used only for public GET requests to the expected NIRF and careernursing.org hostnames."
+  ]
+}

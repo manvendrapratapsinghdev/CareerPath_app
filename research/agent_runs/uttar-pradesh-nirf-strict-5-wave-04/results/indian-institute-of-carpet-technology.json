@@ -1,0 +1,194 @@
+{
+  "institution_id": "indian-institute-of-carpet-technology",
+  "nirf_name": "INDIAN INSTITUTE OF CARPET TECHNOLOGY",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/EngineeringRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": null,
+  "district_verification_status": "not_found",
+  "official_website": "https://www.iict.ac.in/",
+  "website_verification_status": "verified",
+  "description": "Indian Institute of Carpet Technology (IICT) is a Ministry of Textiles, Government of India institute established to support the textile, carpet and allied industries. Its official profile places the campus on Chauri Road in Bhadohi and describes education, design, research and development, and technical-support activities.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/EngineeringRankingALL.html",
+      "supports": [
+        "The NIRF 2025 Engineering listing contains INDIAN INSTITUTE OF CARPET TECHNOLOGY, Bhadohi, Uttar Pradesh."
+      ]
+    },
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "The NIRF 2025 Overall listing contains INDIAN INSTITUTE OF CARPET TECHNOLOGY, Bhadohi, Uttar Pradesh."
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://www.iict.ac.in/",
+      "supports": [
+        "Official homepage identifies INDIAN INSTITUTE OF CARPET TECHNOLOGY and gives the Chauri Road, Bhadohi address and Ministry of Textiles affiliation."
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "https://www.iict.ac.in/inst_profile.htm",
+      "supports": [
+        "Official institute profile states that the institute is located in Bhadohi and describes the IICT campus location."
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://www.iict.ac.in/Main%20Course.htm",
+      "supports": [
+        "Official course index lists regular, short-term, and distance course categories and marks distance courses as discontinued."
+      ]
+    },
+    {
+      "type": "official_programme",
+      "url": "https://www.iict.ac.in/course.htm",
+      "supports": [
+        "Official regular-course page names B. Tech Course in Carpet and Textile Technology (CTT)."
+      ]
+    },
+    {
+      "type": "official_admissions",
+      "url": "https://www.iict.ac.in/Admission2026-27.htm",
+      "supports": [
+        "Current official admissions page names First Year B. Tech. (Carpet & Textile Technology) and Second Year B. Tech. Lateral admission (Carpet & Textile Technology)."
+      ]
+    },
+    {
+      "type": "official_short_term_catalogue",
+      "url": "https://www.iict.ac.in/short.htm",
+      "supports": [
+        "Official short-term catalogue names Carpet and Textile Design with CAD (6 Months) and Carpet Yarn Dyeing (4 Months), and refers to the four-year B.Tech. CTT degree."
+      ]
+    },
+    {
+      "type": "official_short_term_programme",
+      "url": "https://www.iict.ac.in/STTP_6MonthCADTraining.htm",
+      "supports": [
+        "Official programme page names Carpet and Textile Design with CAD (6 Months)."
+      ]
+    },
+    {
+      "type": "official_short_term_programme",
+      "url": "https://www.iict.ac.in/STTP_4MonthCYDTraining.htm",
+      "supports": [
+        "Official programme page names Carpet Yarn Dyeing (4 Months)."
+      ]
+    },
+    {
+      "type": "official_distance_catalogue",
+      "url": "https://www.iict.ac.in/distance_course.htm",
+      "supports": [
+        "Official distance-course page is an old IDLP page linked from the catalogue and does not provide a current named programme list."
+      ]
+    },
+    {
+      "type": "official_distance_programme",
+      "url": "https://www.iict.ac.in/idlp_new.htm",
+      "supports": [
+        "Legacy official IDLP page describes unnamed diploma and certificate course families but conflicts with the course index's discontinued-distance-course label."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "INDIAN INSTITUTE OF CARPET TECHNOLOGY Bhadohi official website",
+      "result": "The command-line search response did not return a usable official institution result; the public official domain was then directly verified.",
+      "url": "https://www.bing.com/search?q=INDIAN+INSTITUTE+OF+CARPET+TECHNOLOGY+Bhadohi+official+website"
+    },
+    {
+      "query": "Indian Institute of Carpet Technology Bhadohi courses official",
+      "result": "The command-line search response did not return a usable official institution result; the public official domain was then directly verified.",
+      "url": "https://www.bing.com/search?q=Indian+Institute+of+Carpet+Technology+Bhadohi+courses+official"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "indian-institute-of-carpet-technology-btech-carpet-textile-technology",
+      "name": "B. Tech Course in Carpet and Textile Technology (CTT)",
+      "level": "undergraduate",
+      "credential": "B.Tech degree",
+      "specialization": "Carpet and Textile Technology (CTT)",
+      "duration": "4 years",
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.iict.ac.in/course.htm",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-carpet-technology-carpet-textile-design-cad",
+      "name": "Carpet and Textile Design with CAD (6 Months)",
+      "level": "short-term",
+      "credential": "short-term training course",
+      "specialization": null,
+      "duration": "6 months",
+      "mode": "short-term training",
+      "eligibility": null,
+      "official_course_url": "https://www.iict.ac.in/STTP_6MonthCADTraining.htm",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 237,
+          "career_node_slug": "textile_designer",
+          "career_breadcrumb": "Design & Architecture > NIFT (Fashion Technology) > Textile Designer",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-carpet-technology-carpet-yarn-dyeing",
+      "name": "Carpet Yarn Dyeing (4 Months)",
+      "level": "short-term",
+      "credential": "short-term training course",
+      "specialization": null,
+      "duration": "4 months",
+      "mode": "short-term training",
+      "eligibility": null,
+      "official_course_url": "https://www.iict.ac.in/STTP_4MonthCYDTraining.htm",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 236,
+          "career_node_slug": "fashion_tech",
+          "career_breadcrumb": "Design & Architecture > NIFT (Fashion Technology) > Fashion Technologist",
+          "relation": "closest-specialization",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The official website clearly identifies the Bhadohi campus and matches the two supplied NIRF 2025 listings.",
+    "The official course index is incomplete and inconsistent: it marks distance courses as discontinued, while a linked legacy IDLP page still describes unnamed diploma and certificate families and says admission is open. Those distance programmes were not imported.",
+    "The short-term catalogue exposes two named programmes, but its session and expiry information is uneven, so the active catalogue requires manual review.",
+    "The official site did not explicitly state a district name; it verified the campus city and address as Bhadohi, so district is left null.",
+    "Normal TLS requests produced the managed-proxy curl error self signed certificate in certificate chain; after confirming the expected public hosts, curl --insecure was used only for public GET requests."
+  ]
+}

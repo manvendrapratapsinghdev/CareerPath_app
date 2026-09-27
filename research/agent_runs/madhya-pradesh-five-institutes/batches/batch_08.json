@@ -1,0 +1,91 @@
+{
+  "batch": 8,
+  "started_at": "2026-09-27T07:10:25.931982+00:00",
+  "finished_at": "2026-09-27T07:10:37.757746+00:00",
+  "assignment_count": 5,
+  "completed_count": 0,
+  "skipped_count": 0,
+  "failed_count": 5,
+  "results": [
+    {
+      "institution_id": "avantika-university",
+      "nirf_name": "Avantika University",
+      "status": "failed",
+      "started_at": "2026-09-27T07:10:25.943680+00:00",
+      "finished_at": "2026-09-27T07:10:37.756909+00:00",
+      "duration_seconds": 11.813,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/avantika-university.jsonl"
+    },
+    {
+      "institution_id": "jaypee-university-of-engineering-technology",
+      "nirf_name": "Jaypee University of Engineering & Technology",
+      "status": "failed",
+      "started_at": "2026-09-27T07:10:25.956278+00:00",
+      "finished_at": "2026-09-27T07:10:37.114450+00:00",
+      "duration_seconds": 11.158,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/jaypee-university-of-engineering-technology.jsonl"
+    },
+    {
+      "institution_id": "sharda-vihar-shiksha-college",
+      "nirf_name": "Sharda Vihar Shiksha College",
+      "status": "failed",
+      "started_at": "2026-09-27T07:10:25.956218+00:00",
+      "finished_at": "2026-09-27T07:10:37.239849+00:00",
+      "duration_seconds": 11.283,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/sharda-vihar-shiksha-college.jsonl"
+    },
+    {
+      "institution_id": "sri-satya-sai-university-of-technology-medical-sciences-sehore",
+      "nirf_name": "SRI SATYA SAI UNIVERSITY OF TECHNOLOGY & MEDICAL SCIENCES, SEHORE",
+      "status": "failed",
+      "started_at": "2026-09-27T07:10:25.943598+00:00",
+      "finished_at": "2026-09-27T07:10:36.748612+00:00",
+      "duration_seconds": 10.804,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/sri-satya-sai-university-of-technology-medical-sciences-sehore.jsonl"
+    },
+    {
+      "institution_id": "vikram-university",
+      "nirf_name": "Vikram University",
+      "status": "failed",
+      "started_at": "2026-09-27T07:10:25.943417+00:00",
+      "finished_at": "2026-09-27T07:10:37.255697+00:00",
+      "duration_seconds": 11.312,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/vikram-university.jsonl"
+    }
+  ]
+}

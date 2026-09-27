@@ -1,0 +1,148 @@
+{
+  "institution_id": "gov-college-tarana",
+  "nirf_name": "Gov.College, Tarana",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "verified",
+  "district": "Ujjain",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://highereducation.mp.gov.in/?orgid=483",
+  "website_verification_status": "verified",
+  "description": "Government College, Tarana is a government college in Tarana, Ujjain district, Madhya Pradesh, established in 1989.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Government listing contains Gov.College, Tarana in Tarana, Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Government listing contains Gov.College, Tarana in Tarana, Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://highereducation.mp.gov.in/?orgid=483",
+      "supports": [
+        "Official institution homepage for orgid 483."
+      ]
+    },
+    {
+      "type": "official_identity",
+      "url": "https://highereducation.mp.gov.in/CollegeDisp/getTable",
+      "supports": [
+        "Official DHE directory maps orgid 483 and CollegeCode 1808 to Govt College, Tarana, District Ujjain."
+      ]
+    },
+    {
+      "type": "official_description",
+      "url": "https://highereducation.mp.gov.in/?page=NuoWyx8uLZ%2B3iSdd8vfEog%3D%3D&orgid=483",
+      "supports": [
+        "Official At A Glance page states establishment year 1989 and campus summary."
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=QaUQqV2yGw02h2y%2F2mWx%2Bw%3D%3D&orgid=483",
+      "supports": [
+        "Official Programmes Offered page lists the three populated UG programmes, their 10+2 minimum qualification, and empty PG and Diploma tables."
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=k%2BsYXT2vt7x2Gl8Ozv5smg%3D%3D&orgid=483",
+      "supports": [
+        "Official Distance Education Programme page has empty PG, UG, and Diploma tables."
+      ]
+    }
+  ],
+  "website_search_evidence": [],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "gov-college-tarana-b-a-plain",
+      "name": "B. A. (B.A.- Plain)",
+      "level": "Undergraduate",
+      "credential": "Bachelor of Arts",
+      "specialization": null,
+      "duration": null,
+      "mode": "On-campus",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=QaUQqV2yGw02h2y%2F2mWx%2Bw%3D%3D&orgid=483",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "gov-college-tarana-b-sc-botany-chemistry-zoology",
+      "name": "B. Sc. (Botany - Chemistry - Zoology)",
+      "level": "Undergraduate",
+      "credential": "Bachelor of Science",
+      "specialization": "Botany - Chemistry - Zoology",
+      "duration": null,
+      "mode": "On-campus",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=QaUQqV2yGw02h2y%2F2mWx%2Bw%3D%3D&orgid=483",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "gov-college-tarana-b-sc-chemistry-mathematics-physics",
+      "name": "B. Sc. (Chemistry - Mathematics - Physics)",
+      "level": "Undergraduate",
+      "credential": "Bachelor of Science",
+      "specialization": "Chemistry - Mathematics - Physics",
+      "duration": null,
+      "mode": "On-campus",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=QaUQqV2yGw02h2y%2F2mWx%2Bw%3D%3D&orgid=483",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 335,
+          "career_node_slug": "science_maths",
+          "career_breadcrumb": "Maths / PCM",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "Normal TLS verification produced the managed proxy self-signed certificate-chain error; after confirming the expected official hosts, public GET requests used curl --insecure.",
+    "The official DHE directory identifies the exact campus as orgid 483, CollegeCode 1808, Govt College, Tarana, District Ujjain; the NIRF listing identifies the city as Tarana.",
+    "The official How to Reach page is under construction, but the institution identity and district are unambiguous from the official DHE directory record.",
+    "The regular programme catalogue exposes three UG programmes; PG and Diploma sections are empty. The distance catalogue exposes empty PG, UG, and Diploma sections, and At A Glance reports zero PG and zero Diploma/Certificate students. Duration is not stated and remains null.",
+    "Career mappings use nearest-parent or closest-specialization relations because the local career tree has no exact B.A. Plain or combined B.Sc. subject-combination nodes."
+  ]
+}

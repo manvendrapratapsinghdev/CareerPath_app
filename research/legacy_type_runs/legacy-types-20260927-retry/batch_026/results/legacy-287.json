@@ -1,0 +1,15 @@
+{
+  "institution_id": "legacy-287",
+  "database_id": 287,
+  "name": "Bharatiya Vidya Bhavan",
+  "website": "https://www.bharatiyavidyabhavan.org",
+  "outcome": "manual_review",
+  "institution_type": null,
+  "source_url": null,
+  "confidence": null,
+  "evidence": null,
+  "notes": [
+    "The supplied official hostname returned DNS NXDOMAIN for both www and apex domains, so the institution and institutional type could not be verified from official pages.",
+    "The --insecure fallback was not used because no proxy certificate-chain error occurred."
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "institution_id": "vagad-shree-college",
+  "nirf_name": "VAGAD SHREE COLLEGE",
+  "verification_outcome": "manual_review",
+  "district": "Dungarpur",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://vagadcollege.org/",
+  "website_verification_status": "ambiguous",
+  "description": "Vagad College is presented by its official site as a college in Badgi operated by Harsh Shiksha & Seva Sansthan Badgi, a non-government organization focused on education and related development work.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "official_homepage",
+      "url": "https://vagadcollege.org/",
+      "supports": [
+        "candidate institution identity as Vagad College",
+        "ITEP recognition for academic session 2026-27",
+        "B.A.–B.Ed and B.Sc.–B.Ed programme names",
+        "NCET eligibility for ITEP"
+      ]
+    },
+    {
+      "type": "official_campus_contact",
+      "url": "https://vagadcollege.org/contact.html",
+      "supports": [
+        "Badgi campus",
+        "Galiyakot tehsil",
+        "Dungarpur district",
+        "Rajasthan address"
+      ]
+    },
+    {
+      "type": "official_about_page",
+      "url": "https://vagadcollege.org/about.html",
+      "supports": [
+        "institution operator Harsh Shiksha & Seva Sansthan Badgi",
+        "institution description"
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://vagadcollege.org/courses.html",
+      "supports": [
+        "B.A.",
+        "B.Sc.",
+        "B.A.B.Ed. / B.Sc.B.Ed. (4 Year Integrated)",
+        "M.A. ( Geography )",
+        "M.Sc. ( Zoology )",
+        "4 Year Integrated duration"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "Vagad Shree College Banswara official website",
+      "result": "Google returned an unusual-traffic/anti-bot response and no usable institution result page.",
+      "url": "https://www.google.com/search?q=Vagad+Shree+College+Banswara+official+website"
+    },
+    {
+      "query": "\"Vagad Shree College\" Banswara courses",
+      "result": "Google returned an unusual-traffic/anti-bot response and no usable institution result page.",
+      "url": "https://www.google.com/search?q=%22Vagad+Shree+College%22+Banswara+courses"
+    },
+    {
+      "query": "\"Vagad Shree College\" Banswara official",
+      "result": "Bing RSS returned unrelated results and no Vagad institution domain.",
+      "url": "https://www.bing.com/search?format=rss&q=%22Vagad+Shree+College%22+Banswara+official"
+    },
+    {
+      "query": "Candidate domain check: vagadcollege.org",
+      "result": "Public HTTPS GET returned the page title \"Vagad College - Home\" and homepage content identifying Vagad College, Badgi.",
+      "url": "https://vagadcollege.org/"
+    }
+  ],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "vagad-shree-college-ba",
+      "name": "B.A.",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "unspecified",
+      "eligibility": null,
+      "official_course_url": "https://vagadcollege.org/courses.html",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "vagad-shree-college-bsc",
+      "name": "B.Sc.",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "unspecified",
+      "eligibility": null,
+      "official_course_url": "https://vagadcollege.org/courses.html",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 337,
+          "career_node_slug": "science_common",
+          "career_breadcrumb": "Common Paths",
+          "relation": "nearest-parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "vagad-shree-college-ba-bed-itep",
+      "name": "B.A.–B.Ed",
+      "level": "undergraduate",
+      "credential": "Integrated bachelor's degree",
+      "specialization": null,
+      "duration": "4 Year Integrated",
+      "mode": "unspecified",
+      "eligibility": "Only students who have appeared in the NTA-organized National Common Entrance Test (NCET) are eligible to apply.",
+      "official_course_url": "https://vagadcollege.org/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "vagad-shree-college-bsc-bed-itep",
+      "name": "B.Sc.–B.Ed",
+      "level": "undergraduate",
+      "credential": "Integrated bachelor's degree",
+      "specialization": null,
+      "duration": "4 Year Integrated",
+      "mode": "unspecified",
+      "eligibility": "Only students who have appeared in the NTA-organized National Common Entrance Test (NCET) are eligible to apply.",
+      "official_course_url": "https://vagadcollege.org/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "closest-specialization (teacher education component)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 337,
+          "career_node_slug": "science_common",
+          "career_breadcrumb": "Common Paths",
+          "relation": "nearest-parent (science component)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "vagad-shree-college-ma-geography",
+      "name": "M.A. ( Geography )",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Geography",
+      "duration": null,
+      "mode": "unspecified",
+      "eligibility": null,
+      "official_course_url": "https://vagadcollege.org/courses.html",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "vagad-shree-college-msc-zoology",
+      "name": "M.Sc. ( Zoology )",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Zoology",
+      "duration": null,
+      "mode": "unspecified",
+      "eligibility": null,
+      "official_course_url": "https://vagadcollege.org/courses.html",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "Manual review is required because the target NIRF record is VAGAD SHREE COLLEGE in BANSWARA, while the candidate official site brands itself Vagad College and places the campus at Badgi, Tehsil Galiyakot, District Dungarpur, Rajasthan.",
+    "The official site name and district therefore do not exactly match the target context; the catalogue below is verified on the candidate site but should not be treated as definitively attributed to the Banswara NIRF record until identity is resolved.",
+    "Commented-out Proposed M.A. and Proposed M.Sc. entries on the official courses page were excluded as inactive.",
+    "Normal TLS verification returned the managed proxy's self-signed certificate-chain error; curl --insecure was used only for public GET requests to the expected search hosts and candidate official domain."
+  ]
+}

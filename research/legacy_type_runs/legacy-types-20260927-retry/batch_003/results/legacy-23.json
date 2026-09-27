@@ -1,0 +1,14 @@
+{
+  "institution_id": "legacy-23",
+  "database_id": 23,
+  "name": "CMC Vellore",
+  "website": "https://www.cmch-vellore.edu",
+  "outcome": "classified",
+  "institution_type": "medical",
+  "source_url": "https://www.cmch-vellore.edu/about-us/",
+  "confidence": "high",
+  "evidence": "The official About Us page describes CMC Vellore as an “unaided minority educational institution” that grew into a “full-fledged medical college” providing medical, nursing, and allied health sciences education.",
+  "notes": [
+    "Used curl --insecure after normal TLS verification failed with the managed proxy's self-signed certificate-chain error."
+  ]
+}

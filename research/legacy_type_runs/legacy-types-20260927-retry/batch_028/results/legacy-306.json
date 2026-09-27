@@ -1,0 +1,15 @@
+{
+  "institution_id": "legacy-306",
+  "database_id": 306,
+  "name": "National Institute of Event Management (NIEM)",
+  "website": "https://www.niem.edu.in",
+  "outcome": "manual_review",
+  "institution_type": null,
+  "source_url": null,
+  "confidence": null,
+  "evidence": null,
+  "notes": [
+    "The supplied official hostname could not be reached: normal HTTPS requests failed because niem.edu.in and www.niem.edu.in returned DNS NXDOMAIN from independent public DNS-over-HTTPS resolvers.",
+    "No curl --insecure fallback was used because the failure was DNS resolution, not a proxy certificate-chain error."
+  ]
+}

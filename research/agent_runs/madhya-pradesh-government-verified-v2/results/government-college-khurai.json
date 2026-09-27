@@ -1,0 +1,92 @@
+{
+  "institution_id": "government-college-khurai",
+  "nirf_name": "GOVERNMENT COLLEGE KHURAI",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Sagar",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://highereducation.mp.gov.in/?orgid=367",
+  "website_verification_status": "verified",
+  "description": null,
+  "description_verification_status": "not_found",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact listing for GOVERNMENT COLLEGE KHURAI in KHURAI, Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "official_institution_homepage",
+      "url": "https://highereducation.mp.gov.in/?orgid=367",
+      "supports": [
+        "Official Madhya Pradesh Higher Education institution page for orgid 367"
+      ]
+    },
+    {
+      "type": "official_identity_directory",
+      "url": "https://highereducation.mp.gov.in/CollegeDisp/getTable",
+      "supports": [
+        "Official record for Govt College, Khurai, CollegeCode 1010, District Sagar"
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=PgfeFle10bsFo9uTeyZJ9A%3D%3D&orgid=367",
+      "supports": [
+        "Official Regular Courses page with PG, UG, and Diploma programme sections; no programme rows were published"
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=eH2FGW5l%2FkkRdb6SqkDkzA%3D%3D&orgid=367",
+      "supports": [
+        "Official Distance Education Courses page with PG, UG, and Diploma sections; no programme rows were published"
+      ]
+    },
+    {
+      "type": "official_admissions_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=cdouTEXgfqJoN72Ur6tzOA%3D%3D&orgid=367",
+      "supports": [
+        "Official Prospectus page; no importable programme catalogue entries were published"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Government College Khurai\" Madhya Pradesh official",
+      "result": "Search did not establish a separately branded target-owned official website; the Google request returned HTTP 429 through the managed proxy.",
+      "url": null
+    },
+    {
+      "query": "site:mp.gov.in \"Government College Khurai\"",
+      "result": "No target-owned official website was established from the focused search; the official Madhya Pradesh Higher Education portal was independently verified.",
+      "url": null
+    },
+    {
+      "query": "site:ac.in \"Government College Khurai\"",
+      "result": "No target institution website was established from the focused search.",
+      "url": null
+    },
+    {
+      "query": "\"1010 Khurai college mp\"",
+      "result": "The result at gpckhurai.in was directly checked and excluded because it identifies Government Polytechnic College, Khurai, a different institution.",
+      "url": "https://www.gpckhurai.in/"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [],
+  "agent_notes": [
+    "The NIRF 2025 College listing confirms GOVERNMENT COLLEGE KHURAI, KHURAI, Madhya Pradesh.",
+    "The official Madhya Pradesh Higher Education directory maps orgid 367 and CollegeCode 1010 to Govt College, Khurai, District Sagar.",
+    "The official institution-specific MP Higher Education page for orgid 367 was established as the available official homepage. A separately branded target-owned domain was not established.",
+    "The official Regular Courses and Distance Education pages contain programme headings and tables but no programme rows. The Prospectus and New Course pages also contain no importable catalogue entries, so the record requires manual review.",
+    "The similarly named gpckhurai.in was excluded because it identifies Government Polytechnic College, Khurai.",
+    "Normal TLS verification encountered the managed proxy self-signed certificate-chain error; public GET requests were retried with curl --insecure after confirming the expected official or search hostnames."
+  ]
+}

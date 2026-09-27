@@ -1,0 +1,735 @@
+{
+  "institution_id": "king-george-s-medical-university",
+  "nirf_name": "King George`s Medical University",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/DentalRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/MedicalRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Lucknow",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://www.kgmu.org/",
+  "website_verification_status": "verified",
+  "description": "King George's Medical University is a government medical university founded in 1905, with medical, dental, nursing, and allied and healthcare sciences faculties at Shah Mina Road, Chowk, Lucknow, Uttar Pradesh 226003.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory_dental",
+      "url": "https://www.nirfindia.org/Rankings/2025/DentalRankingALL.html",
+      "supports": [
+        "Lists King George`s Medical University in Lucknow, Uttar Pradesh."
+      ]
+    },
+    {
+      "type": "government_directory_medical",
+      "url": "https://www.nirfindia.org/Rankings/2025/MedicalRankingALL.html",
+      "supports": [
+        "Lists King George`s Medical University in Lucknow, Uttar Pradesh."
+      ]
+    },
+    {
+      "type": "government_directory_overall",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Lists King George`s Medical University in Lucknow, Uttar Pradesh."
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://www.kgmu.org/",
+      "supports": [
+        "Official KGMU homepage and institutional identity.",
+        "Links to official admissions, academic programme, faculty, and campus pages."
+      ]
+    },
+    {
+      "type": "official_identity_and_campus",
+      "url": "https://kgmu.org/overview.php",
+      "supports": [
+        "Identifies King George's Medical University, U.P., Lucknow.",
+        "Provides the Shah Mina Road, Chowk, Lucknow address and campus/faculty information.",
+        "States active MBBS and BDS education and postgraduate/super-specialty programme aggregates."
+      ]
+    },
+    {
+      "type": "official_faculty_directory",
+      "url": "https://www.kgmu.org/department.php",
+      "supports": [
+        "Official Faculty of Medical Sciences and Faculty of Dental Sciences directories."
+      ]
+    },
+    {
+      "type": "official_paramedical_faculty",
+      "url": "https://www.kgmu.org/paramedical_about_faculty.php",
+      "supports": [
+        "Identifies the Faculty of Allied and Healthcare Sciences in Lucknow.",
+        "States that 14 diploma programmes are offered.",
+        "Lists the three new undergraduate programmes and their durations."
+      ]
+    },
+    {
+      "type": "official_paramedical_programme_index",
+      "url": "https://www.kgmu.org/paramedical_program_offered.php",
+      "supports": [
+        "Official programme index linking current new bachelor and ongoing course lists."
+      ]
+    },
+    {
+      "type": "official_paramedical_bachelor_catalogue",
+      "url": "https://www.kgmu.org/download/New_Bachelor_Courses_Starting_from_Academic_Session_2025-26.pdf",
+      "supports": [
+        "Names Bachelor of Physiotherapy (BPT), Bachelor in Medical Laboratory Science (BMLS), and Bachelor of Optometry (B. Optom.).",
+        "Provides official durations for all three programmes."
+      ]
+    },
+    {
+      "type": "official_paramedical_ongoing_catalogue",
+      "url": "https://www.kgmu.org/download/Ongoing_Available_Courses.pdf",
+      "supports": [
+        "Names B.Sc. in Radiotherapy Technology and the 14 active diploma courses.",
+        "Provides official durations for all listed courses."
+      ]
+    },
+    {
+      "type": "official_nursing_catalogue",
+      "url": "https://www.kgmu.org/department_details.php?dept_id=81&dept_type=2",
+      "supports": [
+        "Identifies the KGMU Institute of Nursing, Lucknow.",
+        "States active B.Sc. Nursing, M.Sc. Nursing in Psychiatric nursing and Medical surgical nursing, Post graduate diploma in psychiatric nursing, and Certificate in Community Health for Nurses (CCHN)."
+      ]
+    },
+    {
+      "type": "official_admissions_page",
+      "url": "https://www.kgmu.org/admission_courses.php",
+      "supports": [
+        "Official admissions page linking Admission and University Courses Code resources."
+      ]
+    },
+    {
+      "type": "official_catalogue_gap",
+      "url": "https://www.kgmu.org/academic_program.php",
+      "supports": [
+        "Official Academic Program page was requested but returned 'Connection failed' during verification."
+      ]
+    },
+    {
+      "type": "official_catalogue_gap",
+      "url": "https://www.kgmu.org/university-crs-code.php",
+      "supports": [
+        "Official University Courses Code page exposed the heading but no complete named course table during verification."
+      ]
+    },
+    {
+      "type": "official_catalogue_gap",
+      "url": "https://www.kgmu.org/courses_admission.php",
+      "supports": [
+        "Official linked Course/Admission endpoint returned an incomplete page without a complete named catalogue during verification."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "site:kgmu.org \"King George Medical University\" Lucknow",
+      "result": "Bing returned official KGMU homepage and overview results on kgmu.org.",
+      "url": "https://www.kgmu.org/overview.php"
+    },
+    {
+      "query": "King George Medical University Lucknow official website",
+      "result": "Search results were noisy; the official kgmu.org domain was confirmed by direct public HTTPS retrieval.",
+      "url": "https://www.kgmu.org/"
+    },
+    {
+      "query": "site:kgmu.org \"Courses/Admission\" \"King George\"",
+      "result": "No useful official catalogue result was returned in the focused search; official programme pages were discovered through the verified homepage navigation.",
+      "url": null
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "king-george-s-medical-university-kgu-mbbs",
+      "name": "MBBS",
+      "level": "undergraduate",
+      "credential": "MBBS",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://kgmu.org/overview.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgu-bds",
+      "name": "BDS",
+      "level": "undergraduate",
+      "credential": "BDS",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://kgmu.org/overview.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 16,
+          "career_node_slug": "bds",
+          "career_breadcrumb": "Biology / PCB > BDS (Dental Surgery)",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgu-bsc-nursing",
+      "name": "B.Sc. Nursing",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/department_details.php?dept_id=81&dept_type=2",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 19,
+          "career_node_slug": "bsc_nursing",
+          "career_breadcrumb": "Biology / PCB > B.Sc Nursing",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgu-msc-nursing-psychiatric",
+      "name": "M.Sc. Nursing",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Psychiatric nursing",
+      "duration": null,
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/department_details.php?dept_id=81&dept_type=2",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 140,
+          "career_node_slug": "clinical_nurse",
+          "career_breadcrumb": "Biology / PCB > B.Sc Nursing > Clinical Nurse Specialist",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgu-msc-nursing-medical-surgical",
+      "name": "M.Sc. Nursing",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Medical surgical nursing",
+      "duration": null,
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/department_details.php?dept_id=81&dept_type=2",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 140,
+          "career_node_slug": "clinical_nurse",
+          "career_breadcrumb": "Biology / PCB > B.Sc Nursing > Clinical Nurse Specialist",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgu-pg-diploma-psychiatric-nursing",
+      "name": "Post graduate diploma in psychiatric nursing",
+      "level": "postgraduate",
+      "credential": "Postgraduate diploma",
+      "specialization": "Psychiatric nursing",
+      "duration": null,
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/department_details.php?dept_id=81&dept_type=2",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 140,
+          "career_node_slug": "clinical_nurse",
+          "career_breadcrumb": "Biology / PCB > B.Sc Nursing > Clinical Nurse Specialist",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgu-cchn",
+      "name": "Certificate in Community Health for Nurses (CCHN)",
+      "level": "certificate",
+      "credential": "Certificate",
+      "specialization": null,
+      "duration": null,
+      "mode": "hybrid",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/department_details.php?dept_id=81&dept_type=2",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 142,
+          "career_node_slug": "public_health_nurse",
+          "career_breadcrumb": "Biology / PCB > B.Sc Nursing > Public Health Nurse",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgu-bpt",
+      "name": "Bachelor of Physiotherapy (BPT)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "4 1/2 years (04 year + 6 months Internship)",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/download/New_Bachelor_Courses_Starting_from_Academic_Session_2025-26.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 23,
+          "career_node_slug": "bpt",
+          "career_breadcrumb": "Biology / PCB > BPT (Physiotherapy)",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgu-bmls",
+      "name": "Bachelor in Medical Laboratory Science (BMLS)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "4 years (03 1/2 year + 6 months Internship)",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/download/New_Bachelor_Courses_Starting_from_Academic_Session_2025-26.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 37,
+          "career_node_slug": "dmlt",
+          "career_breadcrumb": "Paramedical & Health Sciences > DMLT (Medical Lab Technology)",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgu-b-optom",
+      "name": "Bachelor of Optometry (B. Optom.)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "4 years (03 year + 1 year Internship)",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/download/New_Bachelor_Courses_Starting_from_Academic_Session_2025-26.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 36,
+          "career_node_slug": "bsc_optometry",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Optometry",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgu-bsc-radiotherapy-technology",
+      "name": "B.Sc. in Radiotherapy Technology",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/download/Ongoing_Available_Courses.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 38,
+          "career_node_slug": "bsc_radiology",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Radiology & Imaging Technology",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgu-diploma-anaesthesia-critical-care-technician",
+      "name": "Diploma in Anaesthesia and Critical Care Technician",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/download/Ongoing_Available_Courses.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest-parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgu-diploma-blood-transfusion-technician",
+      "name": "Diploma in Blood Transfusion Technician",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/download/Ongoing_Available_Courses.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 187,
+          "career_node_slug": "blood_bank_tech",
+          "career_breadcrumb": "Paramedical & Health Sciences > DMLT (Medical Lab Technology) > Blood Bank Technician",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgu-diploma-cardiology-technician",
+      "name": "Diploma in Cardiology Technician",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/download/Ongoing_Available_Courses.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest-parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgu-diploma-ct-scan-technician",
+      "name": "Diploma in C.T. Scan Technician",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/download/Ongoing_Available_Courses.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 189,
+          "career_node_slug": "mri_technician",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Radiology & Imaging Technology > MRI / CT Scan Technician",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgu-diploma-dialysis-technician",
+      "name": "Diploma in Dialysis Technician",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/download/Ongoing_Available_Courses.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest-parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgu-diploma-emergency-trauma-care-technician",
+      "name": "Diploma in Emergency and Trauma Care Technician",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/download/Ongoing_Available_Courses.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest-parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgu-diploma-lab-technician",
+      "name": "Diploma in Lab Technician",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/download/Ongoing_Available_Courses.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 185,
+          "career_node_slug": "lab_tech_medical",
+          "career_breadcrumb": "Paramedical & Health Sciences > DMLT (Medical Lab Technology) > Medical Lab Technician",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgu-diploma-mri-technician",
+      "name": "Diploma in M.R.I. Technician",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/download/Ongoing_Available_Courses.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 189,
+          "career_node_slug": "mri_technician",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Radiology & Imaging Technology > MRI / CT Scan Technician",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgu-diploma-operation-theatre-technician",
+      "name": "Diploma in Operation Theatre Technician",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/download/Ongoing_Available_Courses.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest-parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgu-diploma-optometry",
+      "name": "Diploma in Optometry",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/download/Ongoing_Available_Courses.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 36,
+          "career_node_slug": "bsc_optometry",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Optometry",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgu-diploma-physiotherapy",
+      "name": "Diploma in Physiotherapy",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/download/Ongoing_Available_Courses.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 23,
+          "career_node_slug": "bpt",
+          "career_breadcrumb": "Biology / PCB > BPT (Physiotherapy)",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgu-diploma-radiotherapy-technician",
+      "name": "Diploma in Radiotherapy Technician",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/download/Ongoing_Available_Courses.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 188,
+          "career_node_slug": "radiographer",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Radiology & Imaging Technology > Radiographer",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgu-diploma-sanitation",
+      "name": "Diploma in Sanitation",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": "1 Year",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/download/Ongoing_Available_Courses.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest-parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgu-diploma-x-ray-technician",
+      "name": "Diploma in X-Ray Technician",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/download/Ongoing_Available_Courses.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 188,
+          "career_node_slug": "radiographer",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Radiology & Imaging Technology > Radiographer",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "Government-directory membership was independently confirmed: all three supplied 2025 NIRF pages contain King George`s Medical University, Lucknow, Uttar Pradesh.",
+    "The official homepage and overview establish the KGMU campus identity and Lucknow location; no similarly named campus was used.",
+    "The official paramedical catalogue is current and names three new bachelor programmes plus B.Sc. in Radiotherapy Technology and 14 diploma programmes. The official nursing page names the current nursing programmes listed here.",
+    "The central official catalogue is incomplete for full university coverage: academic_program.php returned 'Connection failed'; courses_admission.php and university-crs-code.php did not expose a complete named catalogue; the overview aggregates MD/MS/Diploma, MDS, DM and M.Ch offerings without specialty names. Manual review is required before importing this record as a complete institution catalogue.",
+    "Normal TLS verification returned curl error 60 ('self signed certificate in certificate chain') for the expected public official/government/search hosts. Public GET requests were retried with curl --insecure after confirming the hostnames; no credentials or private data were sent."
+  ]
+}

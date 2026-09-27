@@ -1,0 +1,2326 @@
+{
+  "institution_id": "madhyanchal-professional-university",
+  "nirf_name": "Madhyanchal Professional University",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/EngineeringRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/PharmacyRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Bhopal",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://mpu.ac.in/",
+  "website_verification_status": "verified",
+  "description": "Madhyanchal Professional University is a private university established in 2018 under Vanshpati Smriti Shiksha Samiti. Its Ratibad (PGOI Campus) is in Bhopal district, Madhya Pradesh, and the university offers diploma through doctoral study across multiple academic disciplines.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "official_homepage",
+      "url": "https://mpu.ac.in/",
+      "supports": [
+        "official institution name and domain",
+        "Bhopal location and programme overview"
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "https://mpu.ac.in/contact",
+      "supports": [
+        "Ratibad (PGOI Campus), Bhopal-462044, Madhya Pradesh address"
+      ]
+    },
+    {
+      "type": "official_institution_profile",
+      "url": "https://mpu.ac.in/About-Madhyanchal",
+      "supports": [
+        "2018 establishment",
+        "Ratibad, Bhopal district campus identity",
+        "private-university profile and academic scope"
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://mpu.ac.in/CoursesOffered",
+      "supports": [
+        "central official catalogue listing 87 named programmes across eight academic sections"
+      ]
+    },
+    {
+      "type": "official_admission_catalogue",
+      "url": "https://mpu.ac.in/admission-eligibility",
+      "supports": [
+        "official duration and eligibility tables for programme families"
+      ]
+    },
+    {
+      "type": "official_engineering_programme_page",
+      "url": "https://mpu.ac.in/engineering",
+      "supports": [
+        "current Engineering & Technology programme cards"
+      ]
+    },
+    {
+      "type": "official_pharmacy_programme_page",
+      "url": "https://mpu.ac.in/pharmacy-new",
+      "supports": [
+        "current Pharmacy programme cards"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Madhyanchal Professional University\" official",
+      "result": "Bing RSS returned the institution's official homepage, titled Best University in MP | Private University in Bhopal | MPU.",
+      "url": "https://mpu.ac.in/"
+    },
+    {
+      "query": "Madhyanchal Professional University Bhopal website",
+      "result": "The focused search was noisy, but the direct official-domain check confirmed the institution homepage at mpu.ac.in and its Bhopal campus contact page.",
+      "url": "https://mpu.ac.in/"
+    },
+    {
+      "query": "NIRF 2025 Engineering and Pharmacy ranking listings for Madhyanchal Professional University",
+      "result": "Direct authoritative-domain GETs found Madhyanchal Professional University, Bhopal, Madhya Pradesh in both supplied NIRF 2025 listing pages.",
+      "url": "https://www.nirfindia.org/Rankings/2025/EngineeringRankingALL.html"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "madhyanchal-professional-university-b-tech-in-mechanical-engineering",
+      "name": "B. Tech in Mechanical Engineering",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct/closest discipline: Mechanical Engineering",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-b-tech-in-electrical-and-electronics-engineering",
+      "name": "B. Tech in Electrical and Electronics Engineering",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "closest-specialization: Electrical Engineering",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-b-tech-in-minning-engineering",
+      "name": "B. Tech in Minning Engineering",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest-parent: B.Tech / B.E. (no exact career node)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-b-tech-in-rural-engineering",
+      "name": "B. Tech in Rural Engineering",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest-parent: B.Tech / B.E. (no exact career node)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-b-tech-in-electronics-and-communication-engineering",
+      "name": "B. Tech in Electronics and Communication Engineering",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "closest-specialization: Electrical Engineering",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-b-tech-in-electrical-engineering",
+      "name": "B. Tech in Electrical Engineering",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "closest-specialization: Electrical Engineering",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-b-tech-in-civil-engineering",
+      "name": "B. Tech in Civil Engineering",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "direct/closest discipline: Civil Engineering",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-b-tech-computer-science-and-engineering",
+      "name": "B. Tech Computer Science and Engineering",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct discipline: Computer Science",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-m-tech-digital-communication-engineering",
+      "name": "M. Tech Digital Communication Engineering",
+      "level": "postgraduate",
+      "credential": "M.Tech",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "closest-specialization: Electrical Engineering",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-m-tech-thermal-engineering",
+      "name": "M. Tech Thermal Engineering",
+      "level": "postgraduate",
+      "credential": "M.Tech",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct/closest discipline: Mechanical Engineering",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-m-tech-ctm-engineering",
+      "name": "M. Tech CTM Engineering",
+      "level": "postgraduate",
+      "credential": "M.Tech",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "direct/closest discipline: Civil Engineering",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-m-tech-structure-engineering",
+      "name": "M. Tech Structure Engineering",
+      "level": "postgraduate",
+      "credential": "M.Tech",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "direct/closest discipline: Civil Engineering",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-m-tech-computer-science-and-engineering",
+      "name": "M. Tech Computer Science and Engineering",
+      "level": "postgraduate",
+      "credential": "M.Tech",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct discipline: Computer Science",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-diploma-in-civil-engineering",
+      "name": "Diploma in Civil Engineering",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 116,
+          "career_node_slug": "diploma_civil_career",
+          "career_breadcrumb": "Maths / PCM > Diploma Engineering (Polytechnic) > Civil Site Supervisor",
+          "relation": "closest-specialization: Civil Site Supervisor",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-diploma-in-mechanical-engineering",
+      "name": "Diploma in Mechanical Engineering",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 115,
+          "career_node_slug": "diploma_mech_career",
+          "career_breadcrumb": "Maths / PCM > Diploma Engineering (Polytechnic) > Mechanical Draughtsman / Technician",
+          "relation": "closest-specialization: Mechanical Draughtsman / Technician",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-diploma-in-electrical-and-electronics-engineering",
+      "name": "Diploma in Electrical and Electronics Engineering",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 118,
+          "career_node_slug": "diploma_elec_career",
+          "career_breadcrumb": "Maths / PCM > Diploma Engineering (Polytechnic) > Electrical Technician",
+          "relation": "closest-specialization: Electrical Technician",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-ph-d-in-mechanical-engineering",
+      "name": "Ph. D in Mechanical Engineering",
+      "level": "doctoral",
+      "credential": "Ph.D",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct/closest discipline: Mechanical Engineering",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-ph-d-electronics-and-communication-engineering",
+      "name": "Ph. D Electronics and Communication Engineering",
+      "level": "doctoral",
+      "credential": "Ph.D",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "closest-specialization: Electrical Engineering",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-ph-d-computer-science-and-engineering",
+      "name": "Ph. D Computer Science and Engineering",
+      "level": "doctoral",
+      "credential": "Ph.D",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct discipline: Computer Science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-ph-d-in-civil-engineering",
+      "name": "Ph. D in Civil Engineering",
+      "level": "doctoral",
+      "credential": "Ph.D",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "direct/closest discipline: Civil Engineering",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-b-sc-h-agriculture",
+      "name": "B. Sc (H) Agriculture",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-b-sc-h-life-science",
+      "name": "B. Sc (H) Life Science",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest-specialization: Biology / Biotech",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-b-sc-h-physical-science",
+      "name": "B. Sc (H) Physical Science",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 24,
+          "career_node_slug": "bsc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics",
+          "relation": "closest-specialization: Physics",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-b-a-m",
+      "name": "B.A.M.",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [],
+      "mapping_gap": "The official catalogue provides only the acronym and does not expand the programme, so no responsible career-tree mapping can be established without guessing."
+    },
+    {
+      "course_id": "madhyanchal-professional-university-b-g-d",
+      "name": "B.G.D.",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [],
+      "mapping_gap": "The official catalogue provides only the acronym and does not expand the programme, so no responsible career-tree mapping can be established without guessing."
+    },
+    {
+      "course_id": "madhyanchal-professional-university-m-sc-botany",
+      "name": "M. Sc. (Botany)",
+      "level": "postgraduate",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest-specialization: Biology / Biotech",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-m-sc-zoology",
+      "name": "M. Sc. (Zoology)",
+      "level": "postgraduate",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest-specialization: Biology / Biotech",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-m-sc-biotechnology",
+      "name": "M. Sc. (Biotechnology)",
+      "level": "postgraduate",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 146,
+          "career_node_slug": "msc_biotech",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech > M.Sc Biotechnology → Researcher",
+          "relation": "closest-specialization: M.Sc Biotechnology",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-m-sc-environment-science",
+      "name": "M. Sc. (Environment Science)",
+      "level": "postgraduate",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 26,
+          "career_node_slug": "bsc_env",
+          "career_breadcrumb": "Common Paths > B.Sc Environmental Science",
+          "relation": "closest-specialization: Environmental Science",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-m-sc-bio-tech",
+      "name": "M. Sc. (Bio-Tech)",
+      "level": "postgraduate",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 146,
+          "career_node_slug": "msc_biotech",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech > M.Sc Biotechnology → Researcher",
+          "relation": "closest-specialization: M.Sc Biotechnology",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-m-sc-applied-chemistry",
+      "name": "M. Sc. (Applied Chemistry)",
+      "level": "postgraduate",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "closest-specialization: Chemistry",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-m-sc-geography",
+      "name": "M. Sc. (Geography)",
+      "level": "postgraduate",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [],
+      "mapping_gap": "The local career tree has no responsible Geography node for this programme."
+    },
+    {
+      "course_id": "madhyanchal-professional-university-m-sc-physics",
+      "name": "M. Sc. (Physics)",
+      "level": "postgraduate",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 153,
+          "career_node_slug": "msc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics > M.Sc Physics → Researcher / Professor",
+          "relation": "closest-specialization: Physics",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-m-sc-mathematics",
+      "name": "M. Sc. (Mathematics)",
+      "level": "postgraduate",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 90,
+          "career_node_slug": "msc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics > M.Sc Mathematics → Professor / Researcher",
+          "relation": "closest-specialization: M.Sc Mathematics",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-m-sc-statistics",
+      "name": "M. Sc. (Statistics)",
+      "level": "postgraduate",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 6,
+          "career_node_slug": "bsc_stats",
+          "career_breadcrumb": "Maths / PCM > B.Sc Statistics",
+          "relation": "closest-specialization: B.Sc Statistics",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-m-phil-physical-science",
+      "name": "M. Phil (Physical Science)",
+      "level": "postgraduate",
+      "credential": "M.Phil",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 24,
+          "career_node_slug": "bsc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics",
+          "relation": "closest-specialization: Physics",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-ph-d-physical-science",
+      "name": "Ph. D (Physical Science)",
+      "level": "doctoral",
+      "credential": "Ph.D",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 24,
+          "career_node_slug": "bsc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics",
+          "relation": "closest-specialization: Physics",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-ph-d-life-science",
+      "name": "Ph. D (Life Science)",
+      "level": "doctoral",
+      "credential": "Ph.D",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest-specialization: Biology / Biotech",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-dca",
+      "name": "DCA",
+      "level": "diploma",
+      "credential": "DCA",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "closest/nearest discipline: Computer Applications or Computer Science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-pgdca",
+      "name": "PGDCA",
+      "level": "postgraduate_diploma",
+      "credential": "PGDCA",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "closest/nearest discipline: Computer Applications or Computer Science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-b-sc-cs",
+      "name": "B. Sc (CS)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 32,
+          "career_node_slug": "bsc_cs",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Computer Science",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-b-sc-it",
+      "name": "B. Sc (IT)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 32,
+          "career_node_slug": "bsc_cs",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Computer Science",
+          "relation": "closest/nearest discipline: Computer Applications or Computer Science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-bca",
+      "name": "BCA",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-m-sc-cs",
+      "name": "M. Sc (CS)",
+      "level": "postgraduate",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 32,
+          "career_node_slug": "bsc_cs",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Computer Science",
+          "relation": "closest/nearest discipline: Computer Applications or Computer Science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-m-sc-it",
+      "name": "M. Sc (IT)",
+      "level": "postgraduate",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 32,
+          "career_node_slug": "bsc_cs",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Computer Science",
+          "relation": "closest/nearest discipline: Computer Applications or Computer Science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-ph-d-cs",
+      "name": "Ph. D (CS)",
+      "level": "doctoral",
+      "credential": "Ph.D",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 32,
+          "career_node_slug": "bsc_cs",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Computer Science",
+          "relation": "closest/nearest discipline: Computer Applications or Computer Science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-ph-d-it",
+      "name": "Ph. D (IT)",
+      "level": "doctoral",
+      "credential": "Ph.D",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 32,
+          "career_node_slug": "bsc_cs",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Computer Science",
+          "relation": "closest/nearest discipline: Computer Applications or Computer Science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-bba",
+      "name": "BBA",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 46,
+          "career_node_slug": "bba",
+          "career_breadcrumb": "Management & Business > BBA (General)",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-mba-plain",
+      "name": "MBA (Plain)",
+      "level": "postgraduate",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest-parent: Management & Business",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-mba-agri-business-management",
+      "name": "MBA (Agri business management)",
+      "level": "postgraduate",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest-parent: Management & Business",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-mba-rural-management",
+      "name": "MBA (Rural management)",
+      "level": "postgraduate",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest-parent: Management & Business",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-mba-entrepreneurship",
+      "name": "MBA (Entrepreneurship)",
+      "level": "postgraduate",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 49,
+          "career_node_slug": "entrepreneurship",
+          "career_breadcrumb": "Management & Business > Entrepreneurship / Startup",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-mba-ngo-management",
+      "name": "MBA (NGO management)",
+      "level": "postgraduate",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest-parent: Management & Business",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-mba-hopital-administration",
+      "name": "MBA (Hopital Administration)",
+      "level": "postgraduate",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest-parent: Management & Business",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-mba-banking-insurance",
+      "name": "MBA (Banking Insurance)",
+      "level": "postgraduate",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 344,
+          "career_node_slug": "commerce_banking",
+          "career_breadcrumb": "Banking & Insurance",
+          "relation": "closest-specialization: Banking & Insurance",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-mba-it",
+      "name": "MBA (IT)",
+      "level": "postgraduate",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest-parent: Management & Business",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-mba-retail-management",
+      "name": "MBA (Retail management)",
+      "level": "postgraduate",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest-parent: Management & Business",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-ph-d-in-management",
+      "name": "Ph. D in Management",
+      "level": "doctoral",
+      "credential": "Ph.D",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest-parent: Management & Business",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-b-com-h",
+      "name": "B. Com (H)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct/closest discipline: B.Com",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-b-com-computers",
+      "name": "B. Com (Computers)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct/closest discipline: B.Com",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-m-com",
+      "name": "M. Com",
+      "level": "postgraduate",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 198,
+          "career_node_slug": "mcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons) > M.Com → Professor / Researcher",
+          "relation": "closest-specialization: M.Com",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-ph-d-commerce",
+      "name": "Ph. D (Commerce)",
+      "level": "doctoral",
+      "credential": "Ph.D",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest-parent: Management & Business",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-d-pharm",
+      "name": "D. Pharm",
+      "level": "diploma",
+      "credential": "D.Pharm",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "nearest-parent: Medical Updated (pharmacy label in career tree)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-b-pharm",
+      "name": "B. Pharm",
+      "level": "undergraduate",
+      "credential": "B.Pharm",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "nearest-parent: Medical Updated (pharmacy label in career tree)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-m-pharm-pharmaceutics",
+      "name": "M. Pharm (Pharmaceutics)",
+      "level": "postgraduate",
+      "credential": "M.Pharm",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 144,
+          "career_node_slug": "pharma_researcher",
+          "career_breadcrumb": "Biology / PCB > Medical Updated > Pharmaceutical Researcher",
+          "relation": "closest-specialization: Pharmaceutical Researcher",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-ph-d-pharmacy",
+      "name": "Ph.D (Pharmacy)",
+      "level": "doctoral",
+      "credential": "Ph.D",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 144,
+          "career_node_slug": "pharma_researcher",
+          "career_breadcrumb": "Biology / PCB > Medical Updated > Pharmaceutical Researcher",
+          "relation": "closest-specialization: Pharmaceutical Researcher",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-g-n-m",
+      "name": "G.N.M.",
+      "level": "diploma",
+      "credential": "G.N.M.",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 19,
+          "career_node_slug": "bsc_nursing",
+          "career_breadcrumb": "Biology / PCB > B.Sc Nursing",
+          "relation": "direct/nearest discipline: B.Sc Nursing",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-b-sc-n",
+      "name": "B.Sc. (N)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 19,
+          "career_node_slug": "bsc_nursing",
+          "career_breadcrumb": "Biology / PCB > B.Sc Nursing",
+          "relation": "direct/nearest discipline: B.Sc Nursing",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-b-a-h-linguistic",
+      "name": "B.A. (H) Linguistic",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "nearest-parent: Languages & Literature",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-b-f-d",
+      "name": "B.F.D.",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 55,
+          "career_node_slug": "bdes",
+          "career_breadcrumb": "Design & Architecture > B.Des (Design)",
+          "relation": "closest-specialization: B.Des (Design); acronym not expanded by official site",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-b-a-h-social-science",
+      "name": "B.A. (H) Social Science",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent: Social Sciences & Education",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-m-a-history",
+      "name": "M.A. (History)",
+      "level": "postgraduate",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "closest-specialization: BA History",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-m-a-hindi",
+      "name": "M.A. (Hindi)",
+      "level": "postgraduate",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "closest-specialization: BA Hindi / Regional Language",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-m-a-english",
+      "name": "M.A. (English)",
+      "level": "postgraduate",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "closest-specialization: BA English Literature",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-m-a-sanskrit",
+      "name": "M.A. (Sanskrit)",
+      "level": "postgraduate",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "nearest-parent: Languages & Literature",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-m-s-w",
+      "name": "M.S.W.",
+      "level": "postgraduate",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent: Social Sciences & Education",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-m-a-political-science",
+      "name": "M.A. (Political Science)",
+      "level": "postgraduate",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "closest-specialization: BA Political Science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-m-a-geography",
+      "name": "M.A. (Geography)",
+      "level": "postgraduate",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent: Social Sciences & Education",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-m-a-sociology",
+      "name": "M.A. (Sociology)",
+      "level": "postgraduate",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "closest-specialization: BA Sociology",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-m-a-psychology",
+      "name": "M.A. (Psychology)",
+      "level": "postgraduate",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 66,
+          "career_node_slug": "ba_psychology",
+          "career_breadcrumb": "Social Sciences & Education > BA Psychology",
+          "relation": "closest-specialization: BA Psychology",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-m-a-economics",
+      "name": "M.A. (Economics)",
+      "level": "postgraduate",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "closest-specialization: BA Economics",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-m-a-mass-media-and-communication",
+      "name": "M.A. (Mass Media & Communication)",
+      "level": "postgraduate",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 59,
+          "career_node_slug": "bjmc",
+          "career_breadcrumb": "Media & Journalism > B.J.M.C (Journalism & Mass Comm)",
+          "relation": "closest-specialization: B.J.M.C (Journalism & Mass Comm)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-ph-d-social-science",
+      "name": "Ph. D (Social Science)",
+      "level": "doctoral",
+      "credential": "Ph.D",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent: Social Sciences & Education",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-ph-d-linguistics",
+      "name": "Ph. D (Linguistics)",
+      "level": "doctoral",
+      "credential": "Ph.D",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "nearest-parent: Languages & Literature",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-b-ed",
+      "name": "B. Ed",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "direct/closest discipline: Education",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-m-a-education",
+      "name": "M.A. Education",
+      "level": "postgraduate",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "direct/closest discipline: Education",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-p-hd-in-education",
+      "name": "P.hd in Education",
+      "level": "doctoral",
+      "credential": "Ph.D",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/CoursesOffered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "direct/closest discipline: Education",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-diploma-in-electrical-engineering",
+      "name": "Diploma in Electrical Engineering",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/engineering",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 118,
+          "career_node_slug": "diploma_elec_career",
+          "career_breadcrumb": "Maths / PCM > Diploma Engineering (Polytechnic) > Electrical Technician",
+          "relation": "closest-specialization: Electrical Technician",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-diploma-in-electrical-and-electronic-engineering",
+      "name": "Diploma in Electrical & Electronic Engineering",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/engineering",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 118,
+          "career_node_slug": "diploma_elec_career",
+          "career_breadcrumb": "Maths / PCM > Diploma Engineering (Polytechnic) > Electrical Technician",
+          "relation": "closest-specialization: Electrical Technician",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-diploma-in-computer-science-engineering",
+      "name": "Diploma in Computer Science Engineering",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/engineering",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 11,
+          "career_node_slug": "diploma_engg",
+          "career_breadcrumb": "Maths / PCM > Diploma Engineering (Polytechnic)",
+          "relation": "nearest-parent: Diploma Engineering (Polytechnic)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-diploma-in-electronic-and-communication-engineering",
+      "name": "Diploma in Electronic & Communication Engineering",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/engineering",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 118,
+          "career_node_slug": "diploma_elec_career",
+          "career_breadcrumb": "Maths / PCM > Diploma Engineering (Polytechnic) > Electrical Technician",
+          "relation": "closest-specialization: Electrical Technician",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-diploma-in-agriculture-engineering",
+      "name": "Diploma in Agriculture Engineering",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/engineering",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "closest-specialization: Agriculture",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-bachelor-of-technology-in-agriculture",
+      "name": "Bachelor of Technology in Agriculture",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/engineering",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "closest-specialization: Agriculture",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-b-tech-in-artificial-intelligence-ai-and-machine-learning",
+      "name": "B.Tech in Artificial Intelligence (AI) and Machine Learning",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/engineering",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 33,
+          "career_node_slug": "bsc_ai",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Artificial Intelligence",
+          "relation": "closest-specialization: Artificial Intelligence",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-b-tech-in-data-science",
+      "name": "B.Tech in Data Science",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/engineering",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 31,
+          "career_node_slug": "bsc_ds",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Data Science",
+          "relation": "closest-specialization: Data Science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-lateral-b-tech",
+      "name": "Lateral B.Tech",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/engineering",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest-parent: B.Tech / B.E. (no exact career node)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-m-tech-in-agricultural-engineering",
+      "name": "M.Tech in Agricultural Engineering",
+      "level": "postgraduate",
+      "credential": "M.Tech",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/engineering",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "closest-specialization: Agriculture",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "madhyanchal-professional-university-dtd-b-pharma",
+      "name": "DTD B. Pharma",
+      "level": "undergraduate",
+      "credential": "B.Pharm",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mpu.ac.in/pharmacy-new",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "nearest-parent: Medical Updated (pharmacy label in career tree)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "Government-directory verification succeeded: both supplied NIRF 2025 Engineering and Pharmacy pages list the exact institution name with city Bhopal and state Madhya Pradesh.",
+    "The official identity and campus are clear at mpu.ac.in, contact, and About pages.",
+    "INSTITUTION_CONTEXT labels the institution_type as state_university, while the official site labels MPU as a private university; this classification mismatch also warrants manual review.",
+    "The central official CoursesOffered page lists 87 named programmes; the current Engineering and Pharmacy pages add 11 unique programme names, while also exposing placeholder links and an empty Pharmacy PhD tab. These official pages are inconsistent, so a complete active catalogue cannot be established without manual review.",
+    "Normal TLS verification first failed with curl error 60 for the managed proxy's self-signed certificate in the certificate chain. After confirming the expected public hostnames, public GET requests used curl --insecure as permitted by the research rules.",
+    "Career mappings were reviewed against the read-only assets/data/career_path.db tree; three acronym/discipline items remain unmapped where no responsible node could be established."
+  ]
+}

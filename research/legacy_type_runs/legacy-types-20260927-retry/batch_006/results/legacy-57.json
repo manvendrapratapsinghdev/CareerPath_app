@@ -1,0 +1,15 @@
+{
+  "institution_id": "legacy-57",
+  "database_id": 57,
+  "name": "IIT Bombay (Mathematics)",
+  "website": "https://www.math.iitb.ac.in",
+  "outcome": "classified",
+  "institution_type": "iit",
+  "source_url": "https://www.iitb.ac.in/institute-vision-mission",
+  "confidence": "high",
+  "evidence": "IIT Bombay's official Institute Vision & Mission page states that “IIT Bombay, an Institute of National Importance established by an Act of Parliament”; the supplied Mathematics subdomain identifies the Department of Mathematics at IIT Bombay.",
+  "notes": [
+    "The supplied official Mathematics page was verified at https://www.math.iitb.ac.in/index.php.",
+    "Normal TLS verification produced the managed proxy error “self signed certificate in certificate chain”; curl --insecure was used only for public GET requests to the expected official hostnames."
+  ]
+}

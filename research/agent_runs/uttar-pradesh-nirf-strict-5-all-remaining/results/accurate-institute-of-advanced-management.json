@@ -1,0 +1,115 @@
+{
+  "institution_id": "accurate-institute-of-advanced-management",
+  "nirf_name": "Accurate Institute of Advanced Management",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": null,
+  "district_verification_status": "pending_official_source",
+  "official_website": "https://www.aiam.in/",
+  "website_verification_status": "verified",
+  "description": "Accurate Institute of Advanced Management is a management institute in Greater Noida, Uttar Pradesh, offering a two-year full-time MBA affiliated with AKTU, Lucknow.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html",
+      "supports": [
+        "Exact institution name",
+        "Greater Noida city",
+        "Uttar Pradesh state"
+      ]
+    },
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Exact institution name",
+        "Greater Noida city",
+        "Uttar Pradesh state"
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://www.aiam.in/",
+      "supports": [
+        "Official website identity",
+        "Current MBA admission/program navigation"
+      ]
+    },
+    {
+      "type": "official_institution_profile",
+      "url": "https://www.aiam.in/institute.php",
+      "supports": [
+        "Exact institution identity",
+        "Greater Noida campus",
+        "Institution description",
+        "MBA offering"
+      ]
+    },
+    {
+      "type": "official_location",
+      "url": "https://www.aiam.in/location.php",
+      "supports": [
+        "Exact campus postal address",
+        "49 Knowledge Park-III, Greater Noida, Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://www.aiam.in/program.php",
+      "supports": [
+        "MBA Program name",
+        "Two-year full-time duration",
+        "Eligibility",
+        "Official specialization information"
+      ]
+    },
+    {
+      "type": "official_catalogue_index",
+      "url": "https://www.aiam.in/sitemap.xml",
+      "supports": [
+        "Official catalogue URL inventory",
+        "Program page as the site's listed programme page"
+      ]
+    }
+  ],
+  "website_search_evidence": [],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "accurate-institute-of-advanced-management-mba",
+      "name": "MBA Program",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "dual specializations out of Marketing, HR, IT & Finance and IB",
+      "duration": "Two year (full time)",
+      "mode": "full-time",
+      "eligibility": "Graduation Degree from any recognized University with more than 50% marks without compartment, grace and honours.",
+      "official_course_url": "https://www.aiam.in/program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "Both supplied NIRF 2025 Management and Overall listings contain the exact institution name with Greater Noida, Uttar Pradesh; the separately listed Accurate Institute of Management & Technology was excluded.",
+    "The official site navigation and sitemap expose one current programme page, MBA Program; no additional active degree, diploma, certificate, or doctoral programme was found in the official catalogue.",
+    "The official site verifies Greater Noida and the campus address but does not explicitly name a district, so district remains null pending an official district source.",
+    "Normal TLS returned the managed proxy self-signed certificate-chain error; curl --insecure was used only for public GET requests to the expected NIRF and official domains.",
+    "Automatically downgraded from verified because one or more required official-source verification prerequisites were not satisfied."
+  ]
+}

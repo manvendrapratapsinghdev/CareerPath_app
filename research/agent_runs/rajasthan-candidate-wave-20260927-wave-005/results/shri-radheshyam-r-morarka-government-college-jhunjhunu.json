@@ -1,0 +1,412 @@
+{
+  "institution_id": "shri-radheshyam-r-morarka-government-college-jhunjhunu",
+  "nirf_name": "Shri Radheshyam R. Morarka Government College, Jhunjhunu",
+  "verification_outcome": "manual_review",
+  "district": "Jhunjhunu",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://hte.rajasthan.gov.in/32067",
+  "website_verification_status": "verified",
+  "description": "Shri Radheshyam R. Morarka Government College is a co-educational government college at the Jhunjhunu district headquarters, affiliated with Pandit Deendayal Upadhyaya Shekhawati University, Sikar.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "official_government_college_homepage",
+      "url": "https://hte.rajasthan.gov.in/32067",
+      "supports": [
+        "official institution identity",
+        "Jhunjhunu campus",
+        "official website",
+        "homepage programme cards"
+      ]
+    },
+    {
+      "type": "official_address_and_history",
+      "url": "https://hte.rajasthan.gov.in/80634",
+      "supports": [
+        "Jhunjhunu district-headquarters campus",
+        "institution history",
+        "affiliation"
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://hte.rajasthan.gov.in/59379",
+      "supports": [
+        "official UG and PG programme names",
+        "UG and PG durations"
+      ]
+    },
+    {
+      "type": "official_ug_admission_page",
+      "url": "https://hte.rajasthan.gov.in/59376",
+      "supports": [
+        "current 2026-27 UG admissions",
+        "BA, BCOM, BSC and BBA admission activity"
+      ]
+    },
+    {
+      "type": "official_pg_admission_page",
+      "url": "https://hte.rajasthan.gov.in/95328",
+      "supports": [
+        "current 2026-27 PG admissions",
+        "MA and MSc subject offerings"
+      ]
+    },
+    {
+      "type": "official_departments_page",
+      "url": "https://hte.rajasthan.gov.in/59375",
+      "supports": [
+        "department and programme families"
+      ]
+    },
+    {
+      "type": "official_prospectus_page",
+      "url": "https://hte.rajasthan.gov.in/96339",
+      "supports": [
+        "official 2026-27 prospectus link"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "Shri Radheshyam R Morarka Government College Jhunjhunu official website",
+      "result": "Bing RSS returned unrelated results; Rajasthan HTE’s official portal search identified exact PageId 32067.",
+      "url": "https://www.bing.com/search?q=Shri+Radheshyam+R+Morarka+Government+College+Jhunjhunu+official+website"
+    },
+    {
+      "query": "site:rajasthan.gov.in \"Radheshyam R. Morarka\"",
+      "result": "No useful exact Bing result; the official Rajasthan HTE portal was searched directly.",
+      "url": "https://www.bing.com/search?q=site%3Arajasthan.gov.in+%22Radheshyam+R.+Morarka%22"
+    },
+    {
+      "query": "site:hte.rajasthan.gov.in \"Shri Radheshyam R. Morarka Government College\"",
+      "result": "No useful exact Bing result; official HTE search distinguished PageId 32067 for Jhunjhunu from PageId 32073 for Nawalgarh.",
+      "url": "https://www.bing.com/search?q=site%3Ahte.rajasthan.gov.in+%22Shri+Radheshyam+R.+Morarka+Government+College%22"
+    },
+    {
+      "query": "Jhunjhunu",
+      "result": "The official Rajasthan HTE search returned PageId 32067, Shri Radheshyam R.Morarka Govt. College, Jhunjhunu, and separately PageId 32073 for the Nawalgarh campus.",
+      "url": "https://hte.rajasthan.gov.in/"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "shri-radheshyam-r-morarka-government-college-jhunjhunu-bachelor-of-arts-ba",
+      "name": "Bachelor of Arts (B.A.)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "03 Year Duration (Semester I - VI)",
+      "mode": "not stated on official page",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/59379",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent discipline family for general BA social-sciences subjects",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "nearest-parent discipline family for general BA language subjects",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-radheshyam-r-morarka-government-college-jhunjhunu-bachelor-of-commerce-b-com",
+      "name": "Bachelor of Commerce (B. Com.)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "03 Year Duration (Semester I - VI)",
+      "mode": "not stated on official page",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/59379",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-radheshyam-r-morarka-government-college-jhunjhunu-bachelor-of-business-administration-bba",
+      "name": "Bachelor of Business administration (B.B.A.)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "03 Year Duration (Semester I - VI)",
+      "mode": "not stated on official page",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/59379",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 46,
+          "career_node_slug": "bba",
+          "career_breadcrumb": "Management & Business > BBA (General)",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-radheshyam-r-morarka-government-college-jhunjhunu-bachelor-of-science-biology-group",
+      "name": "Bachelor of Science (B.Sc.) Biology Group",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Biology Group",
+      "duration": "03 Year Duration (Semester I - VI)",
+      "mode": "not stated on official page",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/59379",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-radheshyam-r-morarka-government-college-jhunjhunu-bachelor-of-science-mathematics-group",
+      "name": "Bachelor of Science (B.Sc.) Mathematics Group",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Mathematics Group",
+      "duration": "03 Year Duration (Semester I - VI)",
+      "mode": "not stated on official page",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/59379",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-radheshyam-r-morarka-government-college-jhunjhunu-bca-part-i",
+      "name": "BCA Part I",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated on official page",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/32067",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-radheshyam-r-morarka-government-college-jhunjhunu-master-of-arts-geography",
+      "name": "Master of Arts (M.A.) Geography",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Geography",
+      "duration": "02 Year Duration (Semester I - IV)",
+      "mode": "not stated on official page",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/59379",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "closest-specialization mapping for Geography",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-radheshyam-r-morarka-government-college-jhunjhunu-master-of-arts-political-science",
+      "name": "Master of Arts (M.A.) Political Science",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Political Science",
+      "duration": "02 Year Duration (Semester I - IV)",
+      "mode": "not stated on official page",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/59379",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-radheshyam-r-morarka-government-college-jhunjhunu-master-of-science-botany",
+      "name": "Master of Science (M.Sc.) Botany",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Botany",
+      "duration": "02 Year Duration (Semester I - IV)",
+      "mode": "not stated on official page",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/59379",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 336,
+          "career_node_slug": "science_bio",
+          "career_breadcrumb": "Biology / PCB",
+          "relation": "nearest-parent biological-sciences mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-radheshyam-r-morarka-government-college-jhunjhunu-master-of-science-chemistry",
+      "name": "Master of Science (M.Sc.) Chemistry",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Chemistry",
+      "duration": "02 Year Duration (Semester I - IV)",
+      "mode": "not stated on official page",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/59379",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 155,
+          "career_node_slug": "msc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry > M.Sc Chemistry → Researcher",
+          "relation": "direct specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-radheshyam-r-morarka-government-college-jhunjhunu-master-of-science-mathematics",
+      "name": "Master of Science (M.Sc.) Mathematics",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Mathematics",
+      "duration": "02 Year Duration (Semester I - IV)",
+      "mode": "not stated on official page",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/59379",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 90,
+          "career_node_slug": "msc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics > M.Sc Mathematics → Professor / Researcher",
+          "relation": "direct specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-radheshyam-r-morarka-government-college-jhunjhunu-master-of-science-physics",
+      "name": "Master of Science (M.Sc.) Physics",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Physics",
+      "duration": "02 Year Duration (Semester I - IV)",
+      "mode": "not stated on official page",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/59379",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 153,
+          "career_node_slug": "msc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics > M.Sc Physics → Researcher / Professor",
+          "relation": "direct specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-radheshyam-r-morarka-government-college-jhunjhunu-master-of-science-zoology",
+      "name": "Master of Science (M.Sc.) Zoology",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Zoology",
+      "duration": "02 Year Duration (Semester I - IV)",
+      "mode": "not stated on official page",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/59379",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 336,
+          "career_node_slug": "science_bio",
+          "career_breadcrumb": "Biology / PCB",
+          "relation": "nearest-parent biological-sciences mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "Official HTE search identified PageId 32067 for the Jhunjhunu campus and PageId 32073 for a separate Nawalgarh campus; only PageId 32067 was used.",
+    "The official Courses page lists 12 programme families and explicitly states 03 Year Duration for UG Semester I-VI and 02 Year Duration for PG Semester I-IV. No official eligibility statements were found, so eligibility fields are null.",
+    "The official catalogue is internally inconsistent: the homepage displays BCA Part I, while the Courses page and 2026-27 UG Admission page do not list BCA; the current UG Admission page lists BA, BCOM, BSC and BBA.",
+    "The History and Departments pages mention Computer Application and Sociology in UG, but do not provide consistent current course/admission catalogue entries; they were not added as separate courses.",
+    "The official 2026-27 prospectus page linked a PDF that returned 404 during this run, so catalogue completeness remains partial and the record requires manual review.",
+    "The managed proxy produced the exact self-signed certificate-chain error on initial normal-TLS search requests; curl --insecure was used only for public requests to expected search and Rajasthan HTE hosts."
+  ]
+}

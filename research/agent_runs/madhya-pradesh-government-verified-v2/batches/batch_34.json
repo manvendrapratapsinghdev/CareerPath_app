@@ -1,0 +1,62 @@
+{
+  "batch": 34,
+  "started_at": "2026-09-27T14:07:27.144516+00:00",
+  "finished_at": "2026-09-27T14:17:57.963944+00:00",
+  "assignment_count": 5,
+  "completed_count": 3,
+  "skipped_count": 2,
+  "failed_count": 0,
+  "results": [
+    {
+      "institution_id": "arihant-college-of-professional-education-sailana",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified-v2/results/arihant-college-of-professional-education-sailana.json",
+      "finished_at": "2026-09-27T14:07:27.171757+00:00"
+    },
+    {
+      "institution_id": "governement-college-namli",
+      "nirf_name": "Governement College Namli",
+      "status": "completed",
+      "started_at": "2026-09-27T14:07:27.154160+00:00",
+      "finished_at": "2026-09-27T14:11:08.637216+00:00",
+      "duration_seconds": 221.452,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified-v2/results/governement-college-namli.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified-v2/logs/governement-college-namli.jsonl"
+    },
+    {
+      "institution_id": "government-college-rampura",
+      "nirf_name": "Government College, Rampura",
+      "status": "completed",
+      "started_at": "2026-09-27T14:07:27.154222+00:00",
+      "finished_at": "2026-09-27T14:13:07.090263+00:00",
+      "duration_seconds": 339.839,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified-v2/results/government-college-rampura.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified-v2/logs/government-college-rampura.jsonl"
+    },
+    {
+      "institution_id": "government-college-rawti-ratlam-m-p",
+      "nirf_name": "Government College, Rawti Ratlam M.P",
+      "status": "completed",
+      "started_at": "2026-09-27T14:07:27.163479+00:00",
+      "finished_at": "2026-09-27T14:17:57.962804+00:00",
+      "duration_seconds": 630.824,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified-v2/results/government-college-rawti-ratlam-m-p.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified-v2/logs/government-college-rawti-ratlam-m-p.jsonl"
+    },
+    {
+      "institution_id": "govt-arts-science-college-ratlam",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified-v2/results/govt-arts-science-college-ratlam.json",
+      "finished_at": "2026-09-27T14:07:27.174308+00:00"
+    }
+  ]
+}

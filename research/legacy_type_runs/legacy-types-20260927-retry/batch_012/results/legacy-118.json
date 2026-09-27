@@ -1,0 +1,14 @@
+{
+  "institution_id": "legacy-118",
+  "database_id": 118,
+  "name": "IIT Bombay (Cyber Security)",
+  "website": "https://www.cse.iitb.ac.in",
+  "outcome": "classified",
+  "institution_type": "iit",
+  "source_url": "https://www.iitb.ac.in/about",
+  "confidence": "high",
+  "evidence": "IIT Bombay's official About page identifies it as one of India's premier technical universities and states that Parliament designated it an 'Institute of National Importance' in 1961; the supplied CSE site identifies the organization as IIT Bombay.",
+  "notes": [
+    "Normal TLS verification returned a self-signed certificate-in-chain error, so curl --insecure was used for public GET requests."
+  ]
+}

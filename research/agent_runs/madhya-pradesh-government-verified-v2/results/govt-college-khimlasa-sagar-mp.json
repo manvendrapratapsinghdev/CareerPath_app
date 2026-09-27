@@ -1,0 +1,93 @@
+{
+  "institution_id": "govt-college-khimlasa-sagar-mp",
+  "nirf_name": "Govt College Khimlasa, Sagar-MP",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Sagar",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://highereducation.mp.gov.in/?orgid=366",
+  "website_verification_status": "verified",
+  "description": "A government college campus in Khimlasa, Sagar district, Madhya Pradesh.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing_nirf_college",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Contains Govt College Khimlasa, Sagar-MP with city Khimlasa and state Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "government_listing_nirf_overall",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Contains Govt College Khimlasa, Sagar-MP with city Khimlasa and state Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://highereducation.mp.gov.in/?orgid=366",
+      "supports": [
+        "The institution-specific official portal header identifies Shaskiya Mahavidyalaya Khimlasa, District Sagar, Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "official_identity_page",
+      "url": "https://highereducation.mp.gov.in/ContactUSCWReport?page=RAbW2VkultJql7wUdnU7gw%3D%3D&orgid=366",
+      "supports": [
+        "The official Contact Us page carries the same institution-specific Khimlasa and Sagar identity."
+      ]
+    },
+    {
+      "type": "official_regular_courses_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=wZn6X1bOIkMxZ3cdwsUXSQ%3D%3D&orgid=366",
+      "supports": [
+        "The page exposes PG Programme, UG Programme, and Diploma Programme sections, but contains no named course rows."
+      ]
+    },
+    {
+      "type": "official_distance_courses_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=3IfbdJoMRJP05MshLmpV0w%3D%3D&orgid=366",
+      "supports": [
+        "The page exposes Distance Education Programme tables, but contains no named course rows."
+      ]
+    },
+    {
+      "type": "official_prospectus_page",
+      "url": "https://highereducation.mp.gov.in/?page=ljY3d84LCLdydLLJ5p9m0g%3D%3D&orgid=366",
+      "supports": [
+        "The official prospectus page contains no programme or prospectus entry."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Govt College Khimlasa\" official website",
+      "result": "No direct institution website result was returned; unrelated general government results were returned.",
+      "url": null
+    },
+    {
+      "query": "\"Govt College Khimlasa, Sagar-MP\"",
+      "result": "No direct institution website result was returned.",
+      "url": null
+    },
+    {
+      "query": "site:mp.gov.in Khimlasa college",
+      "result": "No direct institution page was returned; the official Madhya Pradesh Higher Education portal was checked directly.",
+      "url": null
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [],
+  "agent_notes": [
+    "The exact institution is present in both supplied NIRF 2025 government listings.",
+    "The official Madhya Pradesh Higher Education college portal identifies the campus as Shaskiya Mahavidyalaya Khimlasa, District Sagar, Madhya Pradesh, under orgid=366.",
+    "The official Regular Courses and Distance Education pages contain category headings and empty tables, while the Prospectus page has no entry; named active programmes cannot be established without guessing, so no courses or career mappings were imported.",
+    "Normal TLS returned the managed proxy error 'self signed certificate in certificate chain'; curl --insecure was then used only for public GET requests to the confirmed NIRF and highereducation.mp.gov.in hosts."
+  ]
+}

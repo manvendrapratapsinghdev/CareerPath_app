@@ -1,0 +1,155 @@
+{
+  "batch": 11,
+  "institution_ids": [
+    "legacy-396",
+    "legacy-399",
+    "legacy-400",
+    "legacy-401",
+    "legacy-407",
+    "legacy-408",
+    "legacy-412",
+    "legacy-413",
+    "legacy-415",
+    "legacy-425"
+  ],
+  "results": [
+    {
+      "institution_id": "legacy-396",
+      "status": "completed",
+      "started_at": "2026-09-27T12:37:26.154369+00:00",
+      "finished_at": "2026-09-27T12:44:44.841136+00:00",
+      "duration_seconds": 438.692,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/legacy_type_runs/legacy-types-20260927-retry-2/batch_011/results/legacy-396.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/legacy_type_runs/legacy-types-20260927-retry-2/batch_011/logs/legacy-396.jsonl"
+    },
+    {
+      "institution_id": "legacy-399",
+      "status": "completed",
+      "started_at": "2026-09-27T12:37:26.150218+00:00",
+      "finished_at": "2026-09-27T12:42:41.323216+00:00",
+      "duration_seconds": 315.171,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/legacy_type_runs/legacy-types-20260927-retry-2/batch_011/results/legacy-399.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/legacy_type_runs/legacy-types-20260927-retry-2/batch_011/logs/legacy-399.jsonl"
+    },
+    {
+      "institution_id": "legacy-400",
+      "status": "completed",
+      "started_at": "2026-09-27T12:37:26.153859+00:00",
+      "finished_at": "2026-09-27T12:46:49.491848+00:00",
+      "duration_seconds": 563.34,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/legacy_type_runs/legacy-types-20260927-retry-2/batch_011/results/legacy-400.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/legacy_type_runs/legacy-types-20260927-retry-2/batch_011/logs/legacy-400.jsonl"
+    },
+    {
+      "institution_id": "legacy-401",
+      "status": "completed",
+      "started_at": "2026-09-27T12:37:26.150136+00:00",
+      "finished_at": "2026-09-27T12:43:52.364262+00:00",
+      "duration_seconds": 386.212,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/legacy_type_runs/legacy-types-20260927-retry-2/batch_011/results/legacy-401.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/legacy_type_runs/legacy-types-20260927-retry-2/batch_011/logs/legacy-401.jsonl"
+    },
+    {
+      "institution_id": "legacy-407",
+      "status": "completed",
+      "started_at": "2026-09-27T12:37:26.153710+00:00",
+      "finished_at": "2026-09-27T12:43:27.940283+00:00",
+      "duration_seconds": 361.785,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/legacy_type_runs/legacy-types-20260927-retry-2/batch_011/results/legacy-407.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/legacy_type_runs/legacy-types-20260927-retry-2/batch_011/logs/legacy-407.jsonl"
+    },
+    {
+      "institution_id": "legacy-408",
+      "status": "completed",
+      "started_at": "2026-09-27T12:37:26.150417+00:00",
+      "finished_at": "2026-09-27T12:43:42.588474+00:00",
+      "duration_seconds": 376.597,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/legacy_type_runs/legacy-types-20260927-retry-2/batch_011/results/legacy-408.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/legacy_type_runs/legacy-types-20260927-retry-2/batch_011/logs/legacy-408.jsonl"
+    },
+    {
+      "institution_id": "legacy-412",
+      "status": "failed",
+      "started_at": "2026-09-27T12:37:26.154221+00:00",
+      "finished_at": "2026-09-27T12:48:30.458088+00:00",
+      "duration_seconds": 664.312,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [
+        "source_url is outside the supplied official website"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/legacy_type_runs/legacy-types-20260927-retry-2/batch_011/logs/legacy-412.jsonl"
+    },
+    {
+      "institution_id": "legacy-413",
+      "status": "failed",
+      "started_at": "2026-09-27T12:37:26.150487+00:00",
+      "finished_at": "2026-09-27T12:45:21.690073+00:00",
+      "duration_seconds": 475.536,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [
+        "source_url is outside the supplied official website"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/legacy_type_runs/legacy-types-20260927-retry-2/batch_011/logs/legacy-413.jsonl"
+    },
+    {
+      "institution_id": "legacy-415",
+      "status": "completed",
+      "started_at": "2026-09-27T12:37:26.150519+00:00",
+      "finished_at": "2026-09-27T12:46:39.892956+00:00",
+      "duration_seconds": 553.743,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/legacy_type_runs/legacy-types-20260927-retry-2/batch_011/results/legacy-415.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/legacy_type_runs/legacy-types-20260927-retry-2/batch_011/logs/legacy-415.jsonl"
+    },
+    {
+      "institution_id": "legacy-425",
+      "status": "failed",
+      "started_at": "2026-09-27T12:37:26.150746+00:00",
+      "finished_at": "2026-09-27T12:50:57.140545+00:00",
+      "duration_seconds": 810.984,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [
+        "source_url is outside the supplied official website"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/legacy_type_runs/legacy-types-20260927-retry-2/batch_011/logs/legacy-425.jsonl"
+    }
+  ],
+  "completed": 7,
+  "failed": 3,
+  "collection": {
+    "batch": "batch_011",
+    "result_count": 7,
+    "classified": 0,
+    "manual_review": 7,
+    "skipped_existing": 0,
+    "validation_errors": {},
+    "collected_at": "2026-09-27T12:50:57.485021+00:00"
+  },
+  "finished_at": "2026-09-27T12:50:57.489844+00:00"
+}

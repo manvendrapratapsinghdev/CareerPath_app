@@ -1,0 +1,618 @@
+{
+  "institution_id": "govt-college-athner-betul",
+  "nirf_name": "Govt. College, Athner Betul",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "verified",
+  "district": "Betul",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://highereducation.mp.gov.in/?orgid=58",
+  "website_verification_status": "verified",
+  "description": "A Government of Madhya Pradesh college campus in Athner, Betul district, established in 1987, with official undergraduate and postgraduate programmes.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact listing: Govt. College, Athner Betul; Athner; Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://highereducation.mp.gov.in/?orgid=58",
+      "supports": [
+        "Official campus profile identifies शासकीय महाविद्यालय आठनेर."
+      ]
+    },
+    {
+      "type": "official_district_identity",
+      "url": "https://highereducation.mp.gov.in/CollegeDisp/getTable",
+      "supports": [
+        "Official data identifies orgid 58 as Govt College, Athner in Betul district."
+      ]
+    },
+    {
+      "type": "official_campus_profile",
+      "url": "https://highereducation.mp.gov.in/CollegeProfile/AtAGlance?orgid=58",
+      "supports": [
+        "Official profile lists establishment year 1987 and UG/PG student counts."
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/CollegeProfile/Course?orgid=58",
+      "supports": [
+        "Official regular catalogue lists current PG and UG programmes and an empty Diploma Programme section."
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/CollegeProfile/CourseDistance?orgid=58",
+      "supports": [
+        "Official distance catalogue lists current PG and UG programmes and an empty Diploma Distance Programme section."
+      ]
+    }
+  ],
+  "website_search_evidence": [],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "govt-college-athner-betul-regular-ma-economics",
+      "name": "M. A. (Economics)",
+      "level": "postgraduate",
+      "credential": "Master of Arts",
+      "specialization": "Economics",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/CollegeProfile/Course?orgid=58",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-athner-betul-regular-ma-sociology",
+      "name": "M. A. (Sociology)",
+      "level": "postgraduate",
+      "credential": "Master of Arts",
+      "specialization": "Sociology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/CollegeProfile/Course?orgid=58",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-athner-betul-regular-bsc-chemistry-mathematics-physics",
+      "name": "B. Sc. (Chemistry - Mathematics - Physics)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Science",
+      "specialization": "Chemistry - Mathematics - Physics",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/CollegeProfile/Course?orgid=58",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 24,
+          "career_node_slug": "bsc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-athner-betul-regular-ba-economics-hindi-political-science",
+      "name": "B. A. (Economics - Hindi - Political Science)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Arts",
+      "specialization": "Economics - Hindi - Political Science",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/CollegeProfile/Course?orgid=58",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-athner-betul-regular-bsc-botany-chemistry-zoology",
+      "name": "B. Sc. (Botany - Chemistry - Zoology)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Science",
+      "specialization": "Botany - Chemistry - Zoology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/CollegeProfile/Course?orgid=58",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-athner-betul-distance-msc-biotechnology",
+      "name": "M. Sc. (Biotechnology)",
+      "level": "postgraduate",
+      "credential": "Master of Science",
+      "specialization": "Biotechnology",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/CollegeProfile/CourseDistance?orgid=58",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 146,
+          "career_node_slug": "msc_biotech",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech > M.Sc Biotechnology → Researcher",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-athner-betul-distance-msc-botany",
+      "name": "M. Sc. (Botany)",
+      "level": "postgraduate",
+      "credential": "Master of Science",
+      "specialization": "Botany",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/CollegeProfile/CourseDistance?orgid=58",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-athner-betul-distance-msc-chemistry",
+      "name": "M. Sc. (Chemistry)",
+      "level": "postgraduate",
+      "credential": "Master of Science",
+      "specialization": "Chemistry",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/CollegeProfile/CourseDistance?orgid=58",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 155,
+          "career_node_slug": "msc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry > M.Sc Chemistry → Researcher",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-athner-betul-distance-msc-computer-science",
+      "name": "M. Sc. (Computer Science)",
+      "level": "postgraduate",
+      "credential": "Master of Science",
+      "specialization": "Computer Science",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/CollegeProfile/CourseDistance?orgid=58",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 32,
+          "career_node_slug": "bsc_cs",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Computer Science",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-athner-betul-distance-msc-mathematics",
+      "name": "M. Sc. (Mathematics)",
+      "level": "postgraduate",
+      "credential": "Master of Science",
+      "specialization": "Mathematics",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/CollegeProfile/CourseDistance?orgid=58",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 90,
+          "career_node_slug": "msc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics > M.Sc Mathematics → Professor / Researcher",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-athner-betul-distance-msc-physics",
+      "name": "M. Sc. (Physics)",
+      "level": "postgraduate",
+      "credential": "Master of Science",
+      "specialization": "Physics",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/CollegeProfile/CourseDistance?orgid=58",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 153,
+          "career_node_slug": "msc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics > M.Sc Physics → Researcher / Professor",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-athner-betul-distance-msc-zoology",
+      "name": "M. Sc. (Zoology)",
+      "level": "postgraduate",
+      "credential": "Master of Science",
+      "specialization": "Zoology",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/CollegeProfile/CourseDistance?orgid=58",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-athner-betul-distance-msw-social-work",
+      "name": "M. S. W. (Social Work)",
+      "level": "postgraduate",
+      "credential": "Master of Social Work",
+      "specialization": "Social Work",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/CollegeProfile/CourseDistance?orgid=58",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 269,
+          "career_node_slug": "social_worker",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology > Social Worker",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-athner-betul-distance-ma-economics",
+      "name": "M. A. (Economics)",
+      "level": "postgraduate",
+      "credential": "Master of Arts",
+      "specialization": "Economics",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/CollegeProfile/CourseDistance?orgid=58",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-athner-betul-distance-ma-hindi",
+      "name": "M. A. (Hindi)",
+      "level": "postgraduate",
+      "credential": "Master of Arts",
+      "specialization": "Hindi",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/CollegeProfile/CourseDistance?orgid=58",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-athner-betul-distance-ma-history",
+      "name": "M. A. (History)",
+      "level": "postgraduate",
+      "credential": "Master of Arts",
+      "specialization": "History",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/CollegeProfile/CourseDistance?orgid=58",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-athner-betul-distance-ma-political-science",
+      "name": "M. A. (Political Science)",
+      "level": "postgraduate",
+      "credential": "Master of Arts",
+      "specialization": "Political Science",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/CollegeProfile/CourseDistance?orgid=58",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-athner-betul-distance-ma-sociology",
+      "name": "M. A. (Sociology)",
+      "level": "postgraduate",
+      "credential": "Master of Arts",
+      "specialization": "Sociology",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/CollegeProfile/CourseDistance?orgid=58",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-athner-betul-distance-ba-plain",
+      "name": "B. A. (B.A.- Plain)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Arts",
+      "specialization": null,
+      "duration": null,
+      "mode": "distance",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/CollegeProfile/CourseDistance?orgid=58",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-athner-betul-distance-bsc-botany-chemistry-zoology",
+      "name": "B. Sc. (Botany - Chemistry - Zoology)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Science",
+      "specialization": "Botany - Chemistry - Zoology",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/CollegeProfile/CourseDistance?orgid=58",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-athner-betul-distance-bsc-chemistry-mathematics-physics",
+      "name": "B. Sc. (Chemistry - Mathematics - Physics)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Science",
+      "specialization": "Chemistry - Mathematics - Physics",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/CollegeProfile/CourseDistance?orgid=58",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 24,
+          "career_node_slug": "bsc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "NIRF lists the exact institution as Govt. College, Athner Betul in Athner, Madhya Pradesh. The official Higher Education Department data links orgid 58 to Govt College, Athner in Betul district, and the orgid-scoped campus homepage identifies शासकीय महाविद्यालय आठनेर.",
+    "The official regular and distance catalogue pages list 2 regular PG, 3 regular UG, 13 distance PG, and 3 distance UG programmes. Diploma tables are empty; the official At A Glance page reports 0 diploma/certificate students and 0 PhD awarded, and no additional certificate or doctoral programme is listed.",
+    "Duration remains null because the official catalogue does not state it. Eligibility is populated only where the regular course table explicitly shows 10+2; all other eligibility values remain null.",
+    "The career mappings were read-only queries from assets/data/career_path.db. M.Sc mappings marked reviewed_with_career_tree_label_issue preserve the database labels that include downstream career outcomes.",
+    "The managed network proxy produced the exact self-signed-certificate-chain error on normal TLS; curl --insecure was then used only for public GET requests to the expected NIRF and official Madhya Pradesh Higher Education domains."
+  ]
+}

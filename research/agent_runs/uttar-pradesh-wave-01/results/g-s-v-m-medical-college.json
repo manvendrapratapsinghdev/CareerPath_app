@@ -1,0 +1,786 @@
+{
+  "institution_id": "g-s-v-m-medical-college",
+  "nirf_name": "G.S.V.M. Medical College",
+  "verification_outcome": "manual_review",
+  "district": null,
+  "district_verification_status": "pending_official_source",
+  "official_website": "https://gsvmmedicalcollege.com/",
+  "website_verification_status": "verified",
+  "description": "G.S.V.M. Medical College is a medical college in Swaroop Nagar, Kanpur, Uttar Pradesh. The official site says it was established in November 1955 and is named after Ganesh Shankar Vidyarthi.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "official_homepage",
+      "url": "https://gsvmmedicalcollege.com/",
+      "supports": [
+        "institution_name",
+        "Kanpur campus identity",
+        "official_website"
+      ]
+    },
+    {
+      "type": "official_campus_contact",
+      "url": "https://gsvmmedicalcollege.com/contact-us/",
+      "supports": [
+        "Swaroop Nagar, Kanpur, Uttar Pradesh campus address"
+      ]
+    },
+    {
+      "type": "official_about_page",
+      "url": "https://gsvmmedicalcollege.com/about-us/",
+      "supports": [
+        "institution description",
+        "established in November 1955",
+        "institution naming"
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://gsvmmedicalcollege.com/courses/",
+      "supports": [
+        "programme catalogue",
+        "course names",
+        "course durations"
+      ]
+    },
+    {
+      "type": "official_programme_page_review",
+      "url": "https://gsvmmedicalcollege.com/undergraduate/",
+      "supports": [
+        "official undergraduate page review"
+      ]
+    },
+    {
+      "type": "official_programme_page_review",
+      "url": "https://gsvmmedicalcollege.com/post-graduate/",
+      "supports": [
+        "official postgraduate page review"
+      ]
+    },
+    {
+      "type": "official_programme_page_review",
+      "url": "https://gsvmmedicalcollege.com/post-graduatemd-ms/",
+      "supports": [
+        "official MD/MS page review"
+      ]
+    },
+    {
+      "type": "official_programme_page_review",
+      "url": "https://gsvmmedicalcollege.com/md/",
+      "supports": [
+        "official MD page review"
+      ]
+    },
+    {
+      "type": "official_programme_page_review",
+      "url": "https://gsvmmedicalcollege.com/ms/",
+      "supports": [
+        "official MS page review"
+      ]
+    },
+    {
+      "type": "official_programme_page_review",
+      "url": "https://gsvmmedicalcollege.com/paramedical/",
+      "supports": [
+        "official paramedical page review"
+      ]
+    },
+    {
+      "type": "official_programme_page_review",
+      "url": "https://gsvmmedicalcollege.com/nursing/",
+      "supports": [
+        "official nursing page review"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "GSVM Medical College Kanpur",
+      "result": "Bing RSS returned the official homepage titled “GSVM Medical College – GSVM Medical College, Kanpur”.",
+      "url": "https://www.bing.com/search?format=rss&q=GSVM%20Medical%20College%20Kanpur"
+    },
+    {
+      "query": "GSVM Medical College Kanpur address",
+      "result": "Bing RSS returned the official homepage, official courses page, and official medical-college page for the Kanpur institution.",
+      "url": "https://www.bing.com/search?format=rss&q=GSVM%20Medical%20College%20Kanpur%20address"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "g-s-v-m-medical-college-gsvm-mbbs",
+      "name": "MBBS",
+      "level": "undergraduate",
+      "credential": "MBBS",
+      "specialization": null,
+      "duration": "4 Years & 6 Months (Followed by One-year of compulsory Internship)",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://gsvmmedicalcollege.com/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-s-v-m-medical-college-gsvm-post-graduate-md-ms",
+      "name": "Post Graduate (MD/MS)",
+      "level": "postgraduate",
+      "credential": "MD/MS",
+      "specialization": null,
+      "duration": "3 completed years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://gsvmmedicalcollege.com/courses/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "nearest-parent for grouped MD/MS catalogue entry",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-s-v-m-medical-college-gsvm-super-speciality-dm-mch",
+      "name": "Super Speciality (DM/Mch)",
+      "level": "super-speciality",
+      "credential": "DM/Mch",
+      "specialization": "Neurosurgery",
+      "duration": "3 completed years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://gsvmmedicalcollege.com/courses/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 129,
+          "career_node_slug": "ms_surgery",
+          "career_breadcrumb": "Biology / PCB > MBBS > MS Surgery",
+          "relation": "closest-specialization for catalogue Neurosurgery entry",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-s-v-m-medical-college-gsvm-certificate-emergency-trauma-care-assistant",
+      "name": "Certificate in Emergency & Trauma Care Assistant",
+      "level": "certificate",
+      "credential": "Certificate",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://gsvmmedicalcollege.com/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest-parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-s-v-m-medical-college-gsvm-diploma-anaesthesia-critical-care-technician",
+      "name": "Diploma in Anaesthesia and Critical Care Technician",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://gsvmmedicalcollege.com/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest-parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-s-v-m-medical-college-gsvm-diploma-audio-speech-therapy-technician",
+      "name": "Diploma in Audio and Speech therapy Technician",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://gsvmmedicalcollege.com/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest-parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-s-v-m-medical-college-gsvm-diploma-bcg-technician-tuberculosis-program-management",
+      "name": "Diploma in BCG Technician and Tuberculosis Program Management",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://gsvmmedicalcollege.com/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest-parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-s-v-m-medical-college-gsvm-diploma-blood-transfusion-technician",
+      "name": "Diploma in Blood Transfusion Technician",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://gsvmmedicalcollege.com/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 187,
+          "career_node_slug": "blood_bank_tech",
+          "career_breadcrumb": "Paramedical & Health Sciences > DMLT (Medical Lab Technology) > Blood Bank Technician",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-s-v-m-medical-college-gsvm-diploma-burn-plastic-surgery-technician",
+      "name": "Diploma in Burn and Plastic Surgery Technician",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://gsvmmedicalcollege.com/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest-parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-s-v-m-medical-college-gsvm-diploma-cssd-technician",
+      "name": "Diploma in C.S.S.D., Technician",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://gsvmmedicalcollege.com/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest-parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-s-v-m-medical-college-gsvm-diploma-ct-scan-technician",
+      "name": "Diploma in C.T. Scan Technician",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://gsvmmedicalcollege.com/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 189,
+          "career_node_slug": "mri_technician",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Radiology & Imaging Technology > MRI / CT Scan Technician",
+          "relation": "closest-specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-s-v-m-medical-college-gsvm-diploma-cardiology-technician",
+      "name": "Diploma in Cardiology Technician",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://gsvmmedicalcollege.com/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest-parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-s-v-m-medical-college-gsvm-diploma-dialysis-technician",
+      "name": "Diploma in Dialysis Technician",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://gsvmmedicalcollege.com/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest-parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-s-v-m-medical-college-gsvm-diploma-emergency-trauma-care-technician",
+      "name": "Diploma in Emergency & Trauma Care Technician",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://gsvmmedicalcollege.com/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest-parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-s-v-m-medical-college-gsvm-diploma-hospital-domiciliary-care-assistant",
+      "name": "Diploma in Hospital and Domiciliary care Assistant",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://gsvmmedicalcollege.com/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest-parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-s-v-m-medical-college-gsvm-diploma-hospital-record-keeping",
+      "name": "Diploma in Hospital Record Keeping",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://gsvmmedicalcollege.com/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest-parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-s-v-m-medical-college-gsvm-diploma-mri-technician",
+      "name": "Diploma in M.R.I. technician",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://gsvmmedicalcollege.com/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 189,
+          "career_node_slug": "mri_technician",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Radiology & Imaging Technology > MRI / CT Scan Technician",
+          "relation": "closest-specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-s-v-m-medical-college-gsvm-diploma-neonatal-care-technician",
+      "name": "Diploma in Neonatal Care Technician",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://gsvmmedicalcollege.com/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest-parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-s-v-m-medical-college-gsvm-diploma-ot-technician",
+      "name": "Diploma in O.T. Technician",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://gsvmmedicalcollege.com/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest-parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-s-v-m-medical-college-gsvm-diploma-occupational-therapy",
+      "name": "Diploma in Occupational Therapy",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://gsvmmedicalcollege.com/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest-parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-s-v-m-medical-college-gsvm-diploma-ophthalmic-assistant",
+      "name": "Diploma in Ophthalmic Assistant",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://gsvmmedicalcollege.com/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest-parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-s-v-m-medical-college-gsvm-diploma-optometry",
+      "name": "Diploma in Optometry",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://gsvmmedicalcollege.com/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 36,
+          "career_node_slug": "bsc_optometry",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Optometry",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-s-v-m-medical-college-gsvm-diploma-orthopaedic-plaster-technician",
+      "name": "Diploma in Orthopaedic and Plaster Technician",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://gsvmmedicalcollege.com/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest-parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-s-v-m-medical-college-gsvm-diploma-orthotic-prosthetic-technician",
+      "name": "Diploma in Orthotic and Prosthetic Technician",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://gsvmmedicalcollege.com/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest-parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-s-v-m-medical-college-gsvm-diploma-respiratory-therapy-technician",
+      "name": "Diploma in Respiratory Therapy technician",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://gsvmmedicalcollege.com/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest-parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-s-v-m-medical-college-gsvm-diploma-sanitation",
+      "name": "Diploma in Sanitation",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://gsvmmedicalcollege.com/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest-parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-s-v-m-medical-college-gsvm-bsc-nursing",
+      "name": "B.Sc Nursing",
+      "level": "undergraduate",
+      "credential": "B.Sc Nursing",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://gsvmmedicalcollege.com/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 19,
+          "career_node_slug": "bsc_nursing",
+          "career_breadcrumb": "Biology / PCB > B.Sc Nursing",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-s-v-m-medical-college-gsvm-msc-nursing",
+      "name": "M.Sc Nursing",
+      "level": "postgraduate",
+      "credential": "M.Sc Nursing",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://gsvmmedicalcollege.com/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 19,
+          "career_node_slug": "bsc_nursing",
+          "career_breadcrumb": "Biology / PCB > B.Sc Nursing",
+          "relation": "nearest-parent for postgraduate nursing entry",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-s-v-m-medical-college-gsvm-post-basic-nursing",
+      "name": "Post-basic Nursing",
+      "level": "undergraduate",
+      "credential": "Post-basic Nursing",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://gsvmmedicalcollege.com/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 19,
+          "career_node_slug": "bsc_nursing",
+          "career_breadcrumb": "Biology / PCB > B.Sc Nursing",
+          "relation": "nearest-parent for post-basic nursing entry",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "Normal TLS verification failed with the managed network proxy's self-signed certificate-chain error; curl --insecure was used only for public GET requests after confirming the expected official/search hostnames.",
+    "The official catalogue is available, but it groups postgraduate programmes as Post Graduate (MD/MS) and Super Speciality (DM/Mch) without specializations; the MD and MS pages do not add specialization lists.",
+    "The paramedical catalogue row has malformed/inconsistent formatting, so individual paramedical durations and eligibility were left null; the catalogue only safely supports the category-level 1-2 completed years statement.",
+    "The official contact page confirms the Swaroop Nagar, Kanpur, Uttar Pradesh campus, but does not explicitly name the district as Kanpur Nagar; district is left null pending exact official wording."
+  ]
+}

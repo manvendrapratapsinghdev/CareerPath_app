@@ -1,0 +1,395 @@
+{
+  "institution_id": "govt-college-burhanpur",
+  "nirf_name": "Govt. College, Burhanpur",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Burhanpur",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://highereducation.mp.gov.in/?orgid=92",
+  "website_verification_status": "verified",
+  "description": "The official Madhya Pradesh Higher Education profile identifies Chhatrapati Shivaji Maharaj Government College in Burhanpur and lists eight undergraduate B.A. combinations across economics, political science, sociology, English, Hindi, and Urdu.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "The NIRF 2025 College listing contains the assigned name “Govt. College, Burhanpur”, city Burhanpur, and state Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "official_directory_identity",
+      "url": "https://highereducation.mp.gov.in/CollegeDisp/getTable",
+      "supports": [
+        "The official MP Higher Education directory record for orgid 92 identifies “Chhatrapati Shivaji Maharaj Government College, Burhanpur”, college code 2505, and district Burhanpur."
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://highereducation.mp.gov.in/?orgid=92",
+      "supports": [
+        "The institution-specific official profile identifies “छत्रपति शिवाजी महाराज शासकीय महाविद्यालय बुरहानपुर” under the Higher Education Department, Government of Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "https://highereducation.mp.gov.in/?page=oIsrzJrMJAQXJ2kym484gg%3D%3D&orgid=92",
+      "supports": [
+        "The official How to Reach page places the college on the Indore–Ichhapur highway, opposite ITI, in Burhanpur."
+      ]
+    },
+    {
+      "type": "official_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=K3NwhszyCfa5RvmxrZfS5g%3D%3D&orgid=92",
+      "supports": [
+        "The official Programmes Offered page lists eight UG B.A. programme names and minimum qualification 10+2."
+      ]
+    },
+    {
+      "type": "official_catalogue_scope",
+      "url": "https://highereducation.mp.gov.in/?page=p5LVs73VnVRKZzJRr4mJNQ%3D%3D&orgid=92",
+      "supports": [
+        "The official Distance Education Programme page has empty PG, UG, and Diploma tables."
+      ]
+    },
+    {
+      "type": "official_catalogue_gap",
+      "url": "https://highereducation.mp.gov.in/?page=GPIWNYEFJnDgZPfaud4s4Q%3D%3D&orgid=92",
+      "supports": [
+        "The official Prospectus page is under construction."
+      ]
+    },
+    {
+      "type": "official_catalogue_gap",
+      "url": "https://highereducation.mp.gov.in/?page=Grj0ME8W6hcDun8FAV00RQ%3D%3D&orgid=92",
+      "supports": [
+        "The official New Course Started page is under construction."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Govt. College, Burhanpur\" official website",
+      "result": "Google returned an access/challenge page; Bing RSS returned no matching official institution website. Direct inspection then found the institution-specific official MP Higher Education profile.",
+      "url": "https://www.google.com/search?q=%22Govt.%20College%2C%20Burhanpur%22%20official%20website"
+    },
+    {
+      "query": "\"Government College Burhanpur\" Madhya Pradesh official",
+      "result": "Google returned an access/challenge page; Bing RSS returned no matching official institution website.",
+      "url": "https://www.bing.com/search?q=%22Government%20College%20Burhanpur%22%20Madhya%20Pradesh%20official"
+    },
+    {
+      "query": "site:ac.in Burhanpur government college",
+      "result": "Bing returned no relevant official institution result.",
+      "url": "https://www.bing.com/search?q=site%3Aac.in%20Burhanpur%20government%20college"
+    },
+    {
+      "query": "site:mp.gov.in \"Govt. College, Burhanpur\"",
+      "result": "Bing returned general government results; the official MP Higher Education college directory was then checked.",
+      "url": "https://www.bing.com/search?q=site%3Amp.gov.in%20%22Govt.%20College%2C%20Burhanpur%22"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "govt-college-burhanpur-ba-economics-political-science-sociology",
+      "name": "B. A. (Economics - Political Science - Sociology)",
+      "level": "undergraduate",
+      "credential": "B. A.",
+      "specialization": "Economics - Political Science - Sociology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=K3NwhszyCfa5RvmxrZfS5g%3D%3D&orgid=92",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-burhanpur-ba-economics-hindi-political-science",
+      "name": "B. A. (Economics - Hindi - Political Science)",
+      "level": "undergraduate",
+      "credential": "B. A.",
+      "specialization": "Economics - Hindi - Political Science",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=K3NwhszyCfa5RvmxrZfS5g%3D%3D&orgid=92",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-burhanpur-ba-economics-sociology-urdu",
+      "name": "B. A. (Economics - Sociology - Urdu)",
+      "level": "undergraduate",
+      "credential": "B. A.",
+      "specialization": "Economics - Sociology - Urdu",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=K3NwhszyCfa5RvmxrZfS5g%3D%3D&orgid=92",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-burhanpur-ba-english-hindi-political-science",
+      "name": "B. A. (English - Hindi - Political Science)",
+      "level": "undergraduate",
+      "credential": "B. A.",
+      "specialization": "English - Hindi - Political Science",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=K3NwhszyCfa5RvmxrZfS5g%3D%3D&orgid=92",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-burhanpur-ba-hindi-political-science-sociology",
+      "name": "B. A. (Hindi - Political Science - Sociology)",
+      "level": "undergraduate",
+      "credential": "B. A.",
+      "specialization": "Hindi - Political Science - Sociology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=K3NwhszyCfa5RvmxrZfS5g%3D%3D&orgid=92",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-burhanpur-ba-economics-political-science-urdu",
+      "name": "B. A. (Economics - Political Science - Urdu)",
+      "level": "undergraduate",
+      "credential": "B. A.",
+      "specialization": "Economics - Political Science - Urdu",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=K3NwhszyCfa5RvmxrZfS5g%3D%3D&orgid=92",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-burhanpur-ba-political-science-sociology-urdu",
+      "name": "B. A. (Political Science - Sociology - Urdu)",
+      "level": "undergraduate",
+      "credential": "B. A.",
+      "specialization": "Political Science - Sociology - Urdu",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=K3NwhszyCfa5RvmxrZfS5g%3D%3D&orgid=92",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-burhanpur-ba-economics-english-political-science",
+      "name": "B. A. (Economics - English - Political Science)",
+      "level": "undergraduate",
+      "credential": "B. A.",
+      "specialization": "Economics - English - Political Science",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=K3NwhszyCfa5RvmxrZfS5g%3D%3D&orgid=92",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The NIRF short name differs from the current MP Higher Education profile name; both official records identify a government college in Burhanpur, and the profile's How to Reach page confirms the campus location.",
+    "The official Regular Courses page lists eight UG B.A. combinations, each with minimum qualification 10+2 and 180 seats; no duration is stated, so duration is null.",
+    "The Regular Courses page has empty PG and Diploma tables; the Distance Education page has empty PG, UG, and Diploma tables.",
+    "The official Prospectus and New Course Started pages are under construction, and the regular catalogue shows a last-update date of 18 December 2025; the full active degree, diploma, certificate, and doctoral catalogue cannot be established independently, so manual review is required.",
+    "Normal TLS to the expected NIRF and official MP Higher Education hosts failed with the managed proxy's self-signed certificate-chain error; public GETs were retried with curl --insecure after confirming the expected hostnames.",
+    "Career mappings were read-only queries from assets/data/career_path.db. The database has no Urdu node; Urdu components are noted as mapping gaps."
+  ]
+}

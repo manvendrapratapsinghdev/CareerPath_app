@@ -1,0 +1,112 @@
+{
+  "institution_id": "govt-college-dolriya",
+  "nirf_name": "Govt. College Dolriya",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Narmadapuram",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://highereducation.mp.gov.in/?orgid=199",
+  "website_verification_status": "verified",
+  "description": "A Government of Madhya Pradesh Higher Education Department institution identified as Govt College, Dolriya (college code 3218), in Narmadapuram district.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "official_institution_homepage",
+      "url": "https://highereducation.mp.gov.in/?orgid=199",
+      "supports": [
+        "institution-specific official page identifies Govt College, Dolriya with college code 3218",
+        "page is owned by the Madhya Pradesh Higher Education Department"
+      ]
+    },
+    {
+      "type": "official_district_directory",
+      "url": "https://highereducation.mp.gov.in/CollegeDisp/getTable",
+      "supports": [
+        "official MP Higher Education directory lists Govt College, Dolriya, CollegeCode 3218, District Narmadapuram"
+      ]
+    },
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "NIRF 2025 College listing contains Govt. College Dolriya, NARMADAPURAM, Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "NIRF 2025 Overall listing contains Govt. College Dolriya, NARMADAPURAM, Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "official_regular_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/CollegeProfile/Course?orgid=199",
+      "supports": [
+        "official page labels PG Programme, UG Programme, and Diploma Programme sections, but publishes no course rows, qualification entries, or seats"
+      ]
+    },
+    {
+      "type": "official_distance_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/CollegeProfile/CourseDistance?orgid=199",
+      "supports": [
+        "official page labels PG, UG, and Diploma distance sections, but publishes no course rows, qualification entries, or seats"
+      ]
+    },
+    {
+      "type": "official_new_course_page",
+      "url": "https://highereducation.mp.gov.in/?page=FfyOWtGZXbln67aqAiYG8A%3D%3D&orgid=199",
+      "supports": [
+        "official New Course Started page contains no published course entries"
+      ]
+    },
+    {
+      "type": "official_prospectus_page",
+      "url": "https://highereducation.mp.gov.in/?page=lwa78UfDfSNSF9XxlXYuYA%3D%3D&orgid=199",
+      "supports": [
+        "official Prospectus page contains no published prospectus or programme catalogue"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Govt. College Dolriya\" official website",
+      "result": "Bing RSS returned generic government portals and no institution-specific official-domain result; discovery only, not used as verification.",
+      "url": "https://www.bing.com/search?format=rss&q=%22Govt.+College+Dolriya%22+official+website"
+    },
+    {
+      "query": "\"Govt College Dolriya\" Narmadapuram",
+      "result": "Bing RSS returned generic government portals and no institution-specific official-domain result; discovery only, not used as verification.",
+      "url": "https://www.bing.com/search?format=rss&q=%22Govt+College+Dolriya%22+Narmadapuram"
+    },
+    {
+      "query": "site:mp.gov.in \"Govt. College Dolriya\"",
+      "result": "No institution-specific result was returned by the focused search; the official MP Higher Education domain was then checked directly.",
+      "url": "https://www.bing.com/search?format=rss&q=site%3Amp.gov.in+%22Govt.+College+Dolriya%22"
+    },
+    {
+      "query": "site:gov.in \"Govt. College Dolriya\"",
+      "result": "No institution-specific result was returned by the focused search; the official MP Higher Education domain was then checked directly.",
+      "url": "https://www.bing.com/search?format=rss&q=site%3Agov.in+%22Govt.+College+Dolriya%22"
+    },
+    {
+      "query": "authoritative-domain check: highereducation.mp.gov.in college directory for Govt College Dolriya",
+      "result": "The official MP Higher Education college-directory endpoint returned Govt College, Dolriya, CollegeCode 3218, District Narmadapuram, and an mp.gov.in contact.",
+      "url": "https://highereducation.mp.gov.in/CollegeDisp/getTable"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [],
+  "agent_notes": [
+    "The NIRF 2025 College and Overall listings independently match the institution name, city, and Madhya Pradesh state.",
+    "The official MP Higher Education institution page is unambiguous for this campus: orgid 199 and college code 3218 identify Govt College, Dolriya.",
+    "The official Regular Courses and Distance Education Courses pages contain only empty PG/UG/Diploma table shells; no active programme names, duration, eligibility, or seats are published. Prospectus and New Course Started pages are also empty, so no courses were imported and the catalogue is partial.",
+    "Because the official catalogue is incomplete, the institution requires manual review and no career-path mappings can be responsibly created.",
+    "Normal TLS verification failed with the managed proxy self-signed certificate-chain error; curl --insecure was used only for public GET requests to the expected official/search domains."
+  ]
+}

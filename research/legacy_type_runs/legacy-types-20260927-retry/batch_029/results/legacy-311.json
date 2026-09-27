@@ -1,0 +1,15 @@
+{
+  "institution_id": "legacy-311",
+  "database_id": 311,
+  "name": "National Institute of Homoeopathy",
+  "website": "https://www.nih.nic.in",
+  "outcome": "manual_review",
+  "institution_type": null,
+  "source_url": null,
+  "confidence": null,
+  "evidence": null,
+  "notes": [
+    "Normal TLS verification failed with a self-signed certificate in the proxy certificate chain; curl --insecure was used for public GET requests as permitted.",
+    "The official hostname returned a 502 connection-refused response, so the institution type could not be established from official site content without inference."
+  ]
+}

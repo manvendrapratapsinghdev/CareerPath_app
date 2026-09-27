@@ -1,0 +1,105 @@
+{
+  "institution_id": "mandsaur-university",
+  "nirf_name": "Mandsaur University",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/AgricultureRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/EngineeringRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": null,
+  "district_verification_status": "pending_official_source",
+  "official_website": "https://www.meu.edu.in/",
+  "website_verification_status": "verified",
+  "description": null,
+  "description_verification_status": "pending",
+  "record_status": "manual_review",
+  "allowed_official_domains": [
+    "mandsauruniversity.edu.in"
+  ],
+  "verification_sources": [
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/AgricultureRankingALL.html",
+      "supports": [
+        "Lists Mandsaur University in Mandsaur, Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/EngineeringRankingALL.html",
+      "supports": [
+        "Lists Mandsaur University in Mandsaur, Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html",
+      "supports": [
+        "Lists Mandsaur University in Mandsaur, Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Lists Mandsaur University in Mandsaur, Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "official_domain_redirect",
+      "url": "https://mandsauruniversity.edu.in/",
+      "supports": [
+        "HTTP 301 redirects to https://www.meu.edu.in/, establishing the current official domain transition."
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://www.meu.edu.in/",
+      "supports": [
+        "Canonical official homepage was reached but returned a Cloudflare security challenge to the non-interactive worker."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "Mandsaur University official domain",
+      "result": "https://mandsauruniversity.edu.in/ returned HTTP 301 with Location: https://www.meu.edu.in/.",
+      "url": "https://mandsauruniversity.edu.in/"
+    },
+    {
+      "query": "Official homepage CLI GET",
+      "result": "https://www.meu.edu.in/ returned HTTP 403 with a Cloudflare security challenge; homepage content could not be read.",
+      "url": "https://www.meu.edu.in/"
+    },
+    {
+      "query": "Official catalogue page: B.Tech Computer Science Engineering",
+      "result": "The official programme URL returned HTTP 403 with a Cloudflare security challenge; no programme facts were imported.",
+      "url": "https://www.meu.edu.in/b-tech-computer-science-engineering/"
+    },
+    {
+      "query": "Official catalogue page: B.Sc Nursing",
+      "result": "The official programme URL returned HTTP 403 with a Cloudflare security challenge; no programme facts were imported.",
+      "url": "https://www.meu.edu.in/bsc-nursing/"
+    },
+    {
+      "query": "Official catalogue page: B.A. Tourism and Hospitality",
+      "result": "The official programme URL returned HTTP 403 with a Cloudflare security challenge; no programme facts were imported.",
+      "url": "https://www.meu.edu.in/ba-tourism-and-hospitality/"
+    },
+    {
+      "query": "Official catalogue page: Diploma in Mechanical",
+      "result": "The official programme URL returned HTTP 403 with a Cloudflare security challenge; no programme facts were imported.",
+      "url": "https://www.meu.edu.in/diploma-in-mechanical/"
+    }
+  ],
+  "course_catalogue_status": "not_found",
+  "courses": [],
+  "agent_notes": [
+    "Government-directory membership was independently confirmed in all four supplied NIRF 2025 sources.",
+    "The current official domain was identified through the direct redirect from mandsauruniversity.edu.in to www.meu.edu.in.",
+    "The official homepage and checked programme pages were blocked by a Cloudflare security challenge, so the current official catalogue, campus/district details, description, durations, and eligibility could not be verified. Manual review is required.",
+    "Normal TLS verification encountered the managed-network error self signed certificate in certificate chain; curl --insecure was used only for public GET requests to the expected NIRF and official domains."
+  ]
+}

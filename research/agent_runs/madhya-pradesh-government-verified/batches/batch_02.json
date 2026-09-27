@@ -1,0 +1,91 @@
+{
+  "batch": 2,
+  "started_at": "2026-09-27T07:08:33.984045+00:00",
+  "finished_at": "2026-09-27T07:08:42.973570+00:00",
+  "assignment_count": 5,
+  "completed_count": 0,
+  "skipped_count": 0,
+  "failed_count": 5,
+  "results": [
+    {
+      "institution_id": "indian-institute-of-forest-management",
+      "nirf_name": "Indian Institute of Forest Management",
+      "status": "failed",
+      "started_at": "2026-09-27T07:08:33.999604+00:00",
+      "finished_at": "2026-09-27T07:08:42.434385+00:00",
+      "duration_seconds": 8.435,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/indian-institute-of-forest-management.jsonl"
+    },
+    {
+      "institution_id": "indian-institute-of-science-education-research-bhopal",
+      "nirf_name": "Indian Institute of Science Education & Research Bhopal",
+      "status": "failed",
+      "started_at": "2026-09-27T07:08:33.999784+00:00",
+      "finished_at": "2026-09-27T07:08:42.438179+00:00",
+      "duration_seconds": 8.438,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/indian-institute-of-science-education-research-bhopal.jsonl"
+    },
+    {
+      "institution_id": "indira-gandhi-national-tribal-university",
+      "nirf_name": "Indira Gandhi National Tribal University",
+      "status": "failed",
+      "started_at": "2026-09-27T07:08:34.004643+00:00",
+      "finished_at": "2026-09-27T07:08:41.949128+00:00",
+      "duration_seconds": 7.944,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/indira-gandhi-national-tribal-university.jsonl"
+    },
+    {
+      "institution_id": "lakshmibai-national-institute-of-physical-education-gwalior-ministry-of-youth-affairs-and-sports-government-of-india",
+      "nirf_name": "LAKSHMIBAI NATIONAL INSTITUTE OF PHYSICAL EDUCATION, Gwalior (Ministry\r\n                                                of Youth Affairs and Sports, Government of India)",
+      "status": "failed",
+      "started_at": "2026-09-27T07:08:33.999456+00:00",
+      "finished_at": "2026-09-27T07:08:42.970814+00:00",
+      "duration_seconds": 8.971,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/lakshmibai-national-institute-of-physical-education-gwalior-ministry-of-youth-affairs-and-sports-government-of-india.jsonl"
+    },
+    {
+      "institution_id": "sardar-patel-university",
+      "nirf_name": "Sardar Patel University",
+      "status": "failed",
+      "started_at": "2026-09-27T07:08:33.999687+00:00",
+      "finished_at": "2026-09-27T07:08:42.945239+00:00",
+      "duration_seconds": 8.945,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/sardar-patel-university.jsonl"
+    }
+  ]
+}

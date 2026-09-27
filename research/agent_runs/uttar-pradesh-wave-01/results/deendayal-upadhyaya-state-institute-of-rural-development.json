@@ -1,0 +1,97 @@
+{
+  "institution_id": "deendayal-upadhyaya-state-institute-of-rural-development",
+  "nirf_name": "Deendayal Upadhyaya State Institute of Rural Development",
+  "verification_outcome": "manual_review",
+  "district": "Lucknow",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://sird.up.gov.in/",
+  "website_verification_status": "verified",
+  "description": "An apex institute of the Uttar Pradesh state government dedicated to training, research, and consultancy for rural-development programmes, with its campus at Bakshi Ka Talab, Lucknow.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "official_homepage",
+      "url": "https://sird.up.gov.in/",
+      "supports": [
+        "official institution name",
+        "official website identity"
+      ]
+    },
+    {
+      "type": "official_institution_description",
+      "url": "https://sird.up.gov.in/about.html",
+      "supports": [
+        "Uttar Pradesh state-government institute",
+        "training, research, and consultancy mandate",
+        "campus location near Lucknow",
+        "institution history"
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "https://sird.up.gov.in/contact.html",
+      "supports": [
+        "Deendayal Upadhyaya State Institute of Rural Development",
+        "Bakshi Ka Talab, Lucknow - 226202",
+        "campus contact identity"
+      ]
+    },
+    {
+      "type": "official_site_header",
+      "url": "https://sird.up.gov.in/js/header-menu.js",
+      "supports": [
+        "institution name",
+        "Department of Rural Development, Government of Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "official_training_catalogue_scope",
+      "url": "https://sird.up.gov.in/key_training.html",
+      "supports": [
+        "official training activity catalogue",
+        "training-focused institutional offerings"
+      ]
+    },
+    {
+      "type": "official_training_calendar",
+      "url": "https://sird.up.gov.in/Training_Calendar.html",
+      "supports": [
+        "official training calendar listings"
+      ]
+    },
+    {
+      "type": "official_online_training_page",
+      "url": "https://sird.up.gov.in/Online_Training_Program.html",
+      "supports": [
+        "official online training and webinar listings"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Deendayal Upadhyaya State Institute of Rural Development\" Lucknow",
+      "result": "Google request returned HTTP 429 and no usable result list.",
+      "url": "https://www.google.com/search?q=%22Deendayal+Upadhyaya+State+Institute+of+Rural+Development%22+Lucknow"
+    },
+    {
+      "query": "\"Deendayal Upadhyaya State Institute of Rural Development\" Lucknow",
+      "result": "Bing returned unrelated Coursera results and no official institution result.",
+      "url": "https://www.bing.com/search?q=%22Deendayal+Upadhyaya+State+Institute+of+Rural+Development%22+Lucknow"
+    },
+    {
+      "query": "sird.up.gov.in",
+      "result": "Bing returned unrelated forum results and no official institution result.",
+      "url": "https://www.bing.com/search?q=sird.up.gov.in"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [],
+  "agent_notes": [
+    "The official website confirms the Lucknow campus and presents the institute as a training, research, and consultancy institution.",
+    "The reviewed official pages provide training activities, training calendars, and historical webinars, but no active degree, diploma, certificate, or doctoral programme catalogue, admissions page, or programme eligibility details.",
+    "Historical webinars and short-term training events were excluded as courses under the verification rules; manual review is required because the formal programme catalogue is incomplete.",
+    "Normal TLS verification produced the managed-network proxy error 'self signed certificate in certificate chain'; after confirming the expected official and search hostnames, curl --insecure was used only for public GET requests."
+  ]
+}

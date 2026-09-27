@@ -1,0 +1,536 @@
+{
+  "institution_id": "st-wilfred-s-college-for-girls",
+  "nirf_name": "St. Wilfred?s College for Girls",
+  "verification_outcome": "manual_review",
+  "district": "Jaipur",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://wilfredgirlscollege.com/",
+  "website_verification_status": "verified",
+  "description": "St. Wilfred’s College for Girls is a women’s higher-education college in Jaipur, Rajasthan, offering undergraduate, postgraduate, diploma and certificate programmes.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "official_homepage",
+      "url": "https://wilfredgirlscollege.com/",
+      "supports": [
+        "official institution identity",
+        "Jaipur campus address",
+        "institution description",
+        "UG, PG, diploma and certificate programme listings"
+      ]
+    },
+    {
+      "type": "official_campus_contact",
+      "url": "https://wilfredgirlscollege.com/contact/",
+      "supports": [
+        "St. Wilfred College for Girls identity",
+        "Sector-5, Near Technology Park Vashishtha Marg, Shipra Path, Mansarovar, Jaipur, Rajasthan 302020 campus address"
+      ]
+    },
+    {
+      "type": "official_about_page",
+      "url": "https://wilfredgirlscollege.com/about/",
+      "supports": [
+        "women’s higher-education focus",
+        "undergraduate and postgraduate nature",
+        "institution identity"
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://wilfredgirlscollege.com/courses-offered/",
+      "supports": [
+        "current UG programme names",
+        "UG three-year duration",
+        "PG programme names and subject offerings"
+      ]
+    },
+    {
+      "type": "official_diploma_catalogue",
+      "url": "https://wilfredgirlscollege.com/diploma/",
+      "supports": [
+        "Diploma in Fashion Designing",
+        "Certificate in Fashion designing",
+        "eligibility and duration for both programmes"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "St Wilfred College for Girls Jaipur",
+      "result": "Naver surfaced the St. Wilfred group domain with a snippet listing St. Wilfred’s College for Girls among Jaipur institutions.",
+      "url": "https://search.naver.com/search.naver?query=St%20Wilfred%20College%20for%20Girls%20Jaipur"
+    },
+    {
+      "query": "site:stwilfredscollege.com \"St. Wilfred's College for Girls\"",
+      "result": "Naver returned the related St. Wilfred’s PG College domain, which identifies a distinct similarly named campus and was excluded from programme verification.",
+      "url": "https://search.naver.com/search.naver?query=site%3Astwilfredscollege.com%20%22St.%20Wilfred%27s%20College%20for%20Girls%22"
+    },
+    {
+      "query": "site:stwilfreds.com \"St. Wilfred's College for Girls\"",
+      "result": "Naver surfaced the St. Wilfred group domain with a snippet listing St. Wilfred’s College for Girls among Jaipur institutions.",
+      "url": "https://search.naver.com/search.naver?query=site%3Astwilfreds.com%20%22St.%20Wilfred%27s%20College%20for%20Girls%22"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "st-wilfred-s-college-for-girls-st-wilfreds-college-for-girls-ba",
+      "name": "Bachelor of Arts",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Political Science; Geography; Economics; Mathematics; Public Admin; Drawing & Painting; Home Science; English Literature; Sociology; History; Statistics",
+      "duration": "3 Year Programme",
+      "mode": "not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://wilfredgirlscollege.com/courses-offered/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent for Geography and Home Science",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        },
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "closest-specialization for Mathematics",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        },
+        {
+          "career_node_id": 283,
+          "career_node_slug": "public_admin",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science > Public Administration Officer",
+          "relation": "closest-specialization for Public Admin",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        },
+        {
+          "career_node_id": 60,
+          "career_node_slug": "bfa",
+          "career_breadcrumb": "Media & Journalism > B.F.A (Fine Arts)",
+          "relation": "closest-specialization for Drawing & Painting",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        },
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 6,
+          "career_node_slug": "bsc_stats",
+          "career_breadcrumb": "Maths / PCM > B.Sc Statistics",
+          "relation": "closest-specialization for Statistics",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "st-wilfred-s-college-for-girls-st-wilfreds-college-for-girls-bcom",
+      "name": "Bachelor of Commerce",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Commerce; Accountancy; Business Studies; Economics",
+      "duration": "3 Year Programme",
+      "mode": "not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://wilfredgirlscollege.com/courses-offered/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "st-wilfred-s-college-for-girls-st-wilfreds-college-for-girls-bsc",
+      "name": "Bachelor of Science",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Chemistry; Geography; Physics; Mathematics; Zoology; Botany",
+      "duration": "3 Year Programme",
+      "mode": "not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://wilfredgirlscollege.com/courses-offered/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 337,
+          "career_node_slug": "science_common",
+          "career_breadcrumb": "Common Paths",
+          "relation": "nearest-parent for Geography",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        },
+        {
+          "career_node_id": 24,
+          "career_node_slug": "bsc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 336,
+          "career_node_slug": "science_bio",
+          "career_breadcrumb": "Biology / PCB",
+          "relation": "nearest-parent for Zoology and Botany",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "st-wilfred-s-college-for-girls-st-wilfreds-college-for-girls-bca",
+      "name": "Bachelor of Computer Applications",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Computer Science; Programming; Database Management; Networking",
+      "duration": "3 Year Programme",
+      "mode": "not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://wilfredgirlscollege.com/courses-offered/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "st-wilfred-s-college-for-girls-st-wilfreds-college-for-girls-ma-msc-geography",
+      "name": "M.A. / M.Sc Geography",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://wilfredgirlscollege.com/courses-offered/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "st-wilfred-s-college-for-girls-st-wilfreds-college-for-girls-ma-msc-psychology",
+      "name": "M.A. / M.Sc Psychology",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://wilfredgirlscollege.com/courses-offered/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 66,
+          "career_node_slug": "ba_psychology",
+          "career_breadcrumb": "Social Sciences & Education > BA Psychology",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "st-wilfred-s-college-for-girls-st-wilfreds-college-for-girls-ma-english-literature",
+      "name": "M.A. English Literature",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://wilfredgirlscollege.com/courses-offered/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "st-wilfred-s-college-for-girls-st-wilfreds-college-for-girls-msc-botany",
+      "name": "M.Sc Botany",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://wilfredgirlscollege.com/courses-offered/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 336,
+          "career_node_slug": "science_bio",
+          "career_breadcrumb": "Biology / PCB",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "st-wilfred-s-college-for-girls-st-wilfreds-college-for-girls-msc-chemistry",
+      "name": "M.Sc Chemistry",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://wilfredgirlscollege.com/courses-offered/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 155,
+          "career_node_slug": "msc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry > M.Sc Chemistry → Researcher",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "st-wilfred-s-college-for-girls-st-wilfreds-college-for-girls-msc-physics",
+      "name": "M.Sc Physics",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://wilfredgirlscollege.com/courses-offered/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 153,
+          "career_node_slug": "msc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics > M.Sc Physics → Researcher / Professor",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "st-wilfred-s-college-for-girls-st-wilfreds-college-for-girls-msc-mathematics",
+      "name": "M.Sc Mathematics",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://wilfredgirlscollege.com/courses-offered/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 90,
+          "career_node_slug": "msc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics > M.Sc Mathematics → Professor / Researcher",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "st-wilfred-s-college-for-girls-st-wilfreds-college-for-girls-msc-zoology",
+      "name": "M.Sc Zoology",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://wilfredgirlscollege.com/courses-offered/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 336,
+          "career_node_slug": "science_bio",
+          "career_breadcrumb": "Biology / PCB",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "st-wilfred-s-college-for-girls-st-wilfreds-college-for-girls-mcom",
+      "name": "M.Com",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://wilfredgirlscollege.com/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "st-wilfred-s-college-for-girls-st-wilfreds-college-for-girls-diploma-fashion-designing",
+      "name": "Diploma in Fashion Designing",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": "1 year",
+      "mode": "not stated on official catalogue",
+      "eligibility": "12th Pass",
+      "official_course_url": "https://wilfredgirlscollege.com/diploma/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 230,
+          "career_node_slug": "fashion_design",
+          "career_breadcrumb": "Design & Architecture > B.Des (Design) > Fashion Designer",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "st-wilfred-s-college-for-girls-st-wilfreds-college-for-girls-certificate-fashion-designing",
+      "name": "Certificate in Fashion designing",
+      "level": "certificate",
+      "credential": "Certificate",
+      "specialization": null,
+      "duration": "6 Months",
+      "mode": "not stated on official catalogue",
+      "eligibility": "12th pass",
+      "official_course_url": "https://wilfredgirlscollege.com/diploma/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 230,
+          "career_node_slug": "fashion_design",
+          "career_breadcrumb": "Design & Architecture > B.Des (Design) > Fashion Designer",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "Normal TLS verification produced the exact managed-proxy self-signed certificate-chain error for the expected official/search hosts; curl --insecure was then used only for public GET requests after hostname confirmation.",
+    "The official website identity and Jaipur campus are verified. The current catalogue is internally incomplete/inconsistent: courses-offered lists four UG and eight PG entries, while the homepage additionally lists M.Com, Diploma in Fashion Designing and Certificate in Fashion Designing; M.Com is not repeated on courses-offered. Degree and PG eligibility/duration are not stated centrally, so those fields remain null.",
+    "No doctoral programme was listed on the current official homepage, Courses Offered page or Diploma page.",
+    "The related stwilfredscollege.com domain was excluded because it identifies a distinct St. Wilfred’s PG College campus.",
+    "Career-tree mappings use nearest parents or closest specializations where exact Geography, Home Science, Botany or Zoology nodes are unavailable; no separate doctoral or certificate career nodes were found."
+  ]
+}

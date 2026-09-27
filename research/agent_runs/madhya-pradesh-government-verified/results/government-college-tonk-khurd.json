@@ -1,0 +1,66 @@
+{
+  "institution_id": "government-college-tonk-khurd",
+  "nirf_name": "GOVERNMENT COLLEGE, TONK KHURD",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Dewas",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://dewas.nic.in/en/",
+  "website_verification_status": "verified",
+  "description": "A government college located at Devli Road, Tehsil Chouraha, TonkKhurd, Dewas district, Madhya Pradesh.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact institution name, city TONKKHURD, and state Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://dewas.nic.in/en/",
+      "supports": [
+        "Official District Dewas government website"
+      ]
+    },
+    {
+      "type": "official_identity_and_campus",
+      "url": "https://dewas.nic.in/en/public-utility/government-college-tonkkhurd/",
+      "supports": [
+        "Government College, TonkKhurd identity",
+        "Dewas district",
+        "Campus address and contact details"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "Government College Tonk Khurd official website",
+      "result": "Focused search returned the official District Dewas page; no separate institution domain was established.",
+      "url": "https://dewas.nic.in/en/public-utility/government-college-tonkkhurd/"
+    },
+    {
+      "query": "\"Government College, Tonk Khurd\" Madhya Pradesh",
+      "result": "Focused search returned the matching official District Dewas college page; no separate institution homepage was established.",
+      "url": "https://dewas.nic.in/en/public-utility/government-college-tonkkhurd/"
+    },
+    {
+      "query": "\"tonkkhurdcollege@gmail.com\"",
+      "result": "Focused search matched the official District Dewas page, which publishes the college contact email.",
+      "url": "https://dewas.nic.in/en/public-utility/government-college-tonkkhurd/"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [],
+  "agent_notes": [
+    "The NIRF 2025 listing contains the exact institution, city TONKKHURD, and state Madhya Pradesh.",
+    "The official District Dewas portal verifies the campus identity, Dewas district, and address.",
+    "No separate institution-owned official domain or official programme/course/admissions catalogue was established. The official page has no active programme list, duration, or eligibility, so manual review is required and no courses were imported.",
+    "Initial normal curl to the expected NIRF hostname failed with the managed proxy error 'self signed certificate in certificate chain'; subsequent public GETs used curl --insecure after hostname confirmation."
+  ]
+}

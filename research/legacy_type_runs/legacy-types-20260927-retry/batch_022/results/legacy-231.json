@@ -1,0 +1,15 @@
+{
+  "institution_id": "legacy-231",
+  "database_id": 231,
+  "name": "Foreign Service Institute",
+  "website": "https://www.mea.gov.in/foreign-service-institute.htm",
+  "outcome": "classified",
+  "institution_type": "central_institute",
+  "source_url": "https://www.mea.gov.in/other-offices",
+  "confidence": "medium",
+  "evidence": "The Ministry of External Affairs' official Other Offices page lists the Sushma Swaraj Institute of Foreign Service with a Dean and official mea.gov.in contacts, establishing it as a central government institute under MEA.",
+  "notes": [
+    "The supplied legacy URL currently returns the official MEA 404 page; current MEA pages identify the corresponding Foreign Service institute under the Ministry.",
+    "Used curl --insecure only after normal curl produced the exact self-signed certificate-in-chain proxy error."
+  ]
+}

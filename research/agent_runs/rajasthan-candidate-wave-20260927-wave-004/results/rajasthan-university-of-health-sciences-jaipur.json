@@ -1,0 +1,749 @@
+{
+  "institution_id": "rajasthan-university-of-health-sciences-jaipur",
+  "nirf_name": "Rajasthan University of Health Sciences, Jaipur",
+  "verification_outcome": "manual_review",
+  "district": "Jaipur",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://ruhsraj.org/",
+  "website_verification_status": "verified",
+  "description": "Rajasthan University of Health Sciences (RUHS) was established under the Rajasthan University of Health Sciences Act, 2005 and provides academic and research facilities in medical and health sciences through government and affiliated private colleges and institutions.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [
+    "admissions.ruhsraj.org"
+  ],
+  "verification_sources": [
+    {
+      "type": "official_homepage",
+      "url": "https://ruhsraj.org/",
+      "supports": [
+        "official institution name",
+        "Jaipur campus identity",
+        "official primary website"
+      ]
+    },
+    {
+      "type": "official_about_page",
+      "url": "https://ruhsraj.org/about-ruhs/",
+      "supports": [
+        "institution description",
+        "Jaipur address",
+        "Rajasthan University of Health Sciences Act, 2005"
+      ]
+    },
+    {
+      "type": "official_contact_page",
+      "url": "https://ruhsraj.org/contact-us/",
+      "supports": [
+        "campus address",
+        "Jaipur city identity"
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://ruhsraj.org/courses/",
+      "supports": [
+        "official programme catalogue",
+        "programme names",
+        "faculty groupings",
+        "programme durations available through the official course search"
+      ]
+    },
+    {
+      "type": "official_phd_catalogue",
+      "url": "https://ruhsraj.org/ph-d-programs/",
+      "supports": [
+        "Ph.D. Programs section",
+        "Medicine, Pharmacy and Dentistry doctoral faculty listings"
+      ]
+    },
+    {
+      "type": "official_admissions_portal",
+      "url": "https://admissions.ruhsraj.org/",
+      "supports": [
+        "current 2026-27 admissions portal",
+        "active programme families",
+        "Post Basic Nursing, PGET and Ph.D admissions"
+      ]
+    },
+    {
+      "type": "official_admission_programme_page",
+      "url": "https://admissions.ruhsraj.org/PBBScN",
+      "supports": [
+        "2026-27 Post Basic B.Sc. Nursing",
+        "2026-27 Post Basic Diploma in Nursing- Advance Course"
+      ]
+    },
+    {
+      "type": "official_admission_programme_page",
+      "url": "https://admissions.ruhsraj.org/PGET",
+      "supports": [
+        "2026-27 M.Sc. Nursing",
+        "M.Sc. Medical",
+        "Master of Public Health (MPH)",
+        "M. Pharmacy",
+        "M.Sc. Radiotherapy Technology",
+        "P.G. Diploma in Perfusion Technology",
+        "Post Basic B.Sc. Nursing",
+        "Ph.D admissions"
+      ]
+    },
+    {
+      "type": "official_admission_programme_page",
+      "url": "https://admissions.ruhsraj.org/MScN",
+      "supports": [
+        "2026-27 M.Sc. Nursing admissions"
+      ]
+    },
+    {
+      "type": "official_admission_programme_page",
+      "url": "https://admissions.ruhsraj.org/MScMed",
+      "supports": [
+        "2026-27 M.Sc. Medical admissions"
+      ]
+    },
+    {
+      "type": "official_admission_programme_page",
+      "url": "https://admissions.ruhsraj.org/MPH",
+      "supports": [
+        "2026-27 Master of Public Health admissions"
+      ]
+    },
+    {
+      "type": "official_admission_programme_page",
+      "url": "https://admissions.ruhsraj.org/MPharm",
+      "supports": [
+        "2026-27 Master of Pharmacy admissions"
+      ]
+    },
+    {
+      "type": "official_admission_programme_page",
+      "url": "https://admissions.ruhsraj.org/MScRT",
+      "supports": [
+        "M.Sc. Radiotherapy Technology admissions"
+      ]
+    },
+    {
+      "type": "official_admission_programme_page",
+      "url": "https://admissions.ruhsraj.org/PGDPT",
+      "supports": [
+        "P.G. Diploma in Perfusion Technology admissions"
+      ]
+    },
+    {
+      "type": "official_admission_programme_page",
+      "url": "https://admissions.ruhsraj.org/PhD",
+      "supports": [
+        "RUHS P.E.T. 2026",
+        "current Ph.D admissions"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Rajasthan University of Health Sciences\"",
+      "result": "Bing identified the RUHS official domain family, including the RUHS examination portal, admissions portal and old RUHS site; non-official results were ignored.",
+      "url": "https://www.bing.com/search?q=%22Rajasthan+University+of+Health+Sciences%22"
+    },
+    {
+      "query": "site:ruhsraj.org \"Rajasthan University of Health Sciences\"",
+      "result": "Bing returned official RUHS pages on ruhsraj.org, including the primary site and official admissions portal.",
+      "url": "https://www.bing.com/search?q=site%3Aruhsraj.org+%22Rajasthan+University+of+Health+Sciences%22"
+    },
+    {
+      "query": "site:ruhsraj.org/courses MBBS",
+      "result": "The search was used to locate the official Courses page, which was then fetched directly from ruhsraj.org for verification.",
+      "url": "https://www.bing.com/search?q=site%3Aruhsraj.org%2Fcourses+MBBS"
+    },
+    {
+      "query": "site:ruhsraj.org/ph-d-programs \"Ph.D. Programs\"",
+      "result": "The search was used to locate the official RUHS Ph.D. Programs page, which was then fetched directly from ruhsraj.org.",
+      "url": "https://www.bing.com/search?q=site%3Aruhsraj.org%2Fph-d-programs+%22Ph.D.+Programs%22"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "rajasthan-university-of-health-sciences-jaipur-ruhs-jaipur-mbbs",
+      "name": "MBBS",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "5.5 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://ruhsraj.org/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-university-of-health-sciences-jaipur-ruhs-jaipur-md",
+      "name": "MD (23 Branches)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://ruhsraj.org/courses/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-university-of-health-sciences-jaipur-ruhs-jaipur-ms",
+      "name": "MS(6 Branches)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://ruhsraj.org/courses/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-university-of-health-sciences-jaipur-ruhs-jaipur-dm",
+      "name": "DM (06 Branches)",
+      "level": "superspeciality",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://ruhsraj.org/courses/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "nearest_parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-university-of-health-sciences-jaipur-ruhs-jaipur-mch",
+      "name": "MCH (06 Branches)",
+      "level": "superspeciality",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://ruhsraj.org/courses/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "nearest_parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-university-of-health-sciences-jaipur-ruhs-jaipur-msc-medical",
+      "name": "M.Sc. Medical",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://admissions.ruhsraj.org/MScMed",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-university-of-health-sciences-jaipur-ruhs-jaipur-mph",
+      "name": "Master of Public Health (MPH)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://admissions.ruhsraj.org/MPH",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest_parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-university-of-health-sciences-jaipur-ruhs-jaipur-bds",
+      "name": "BDS",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "5 YEARS",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://ruhsraj.org/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 16,
+          "career_node_slug": "bds",
+          "career_breadcrumb": "Biology / PCB > BDS (Dental Surgery)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-university-of-health-sciences-jaipur-ruhs-jaipur-mds",
+      "name": "MDS (09 Branches)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "3 YEARS",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://ruhsraj.org/courses/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 16,
+          "career_node_slug": "bds",
+          "career_breadcrumb": "Biology / PCB > BDS (Dental Surgery)",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-university-of-health-sciences-jaipur-ruhs-jaipur-dpharmacy",
+      "name": "D.Pharmacy",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://ruhsraj.org/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-university-of-health-sciences-jaipur-ruhs-jaipur-bpharmacy",
+      "name": "B.Pharmacy",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "4 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://ruhsraj.org/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-university-of-health-sciences-jaipur-ruhs-jaipur-mpharmacy",
+      "name": "M.Pharmacy(05 Branches)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://admissions.ruhsraj.org/MPharm",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-university-of-health-sciences-jaipur-ruhs-jaipur-bnursing",
+      "name": "B.Nursing",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "4 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://ruhsraj.org/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 19,
+          "career_node_slug": "bsc_nursing",
+          "career_breadcrumb": "Biology / PCB > B.Sc Nursing",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-university-of-health-sciences-jaipur-ruhs-jaipur-post-basic-bsc-nursing",
+      "name": "Post Basic B.Sc. Nursing",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://admissions.ruhsraj.org/PBBScN",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 19,
+          "career_node_slug": "bsc_nursing",
+          "career_breadcrumb": "Biology / PCB > B.Sc Nursing",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-university-of-health-sciences-jaipur-ruhs-jaipur-post-basic-diploma-nursing",
+      "name": "Post Basic Diploma in Nursing- Advance Course",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://admissions.ruhsraj.org/PBBScN",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 19,
+          "career_node_slug": "bsc_nursing",
+          "career_breadcrumb": "Biology / PCB > B.Sc Nursing",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-university-of-health-sciences-jaipur-ruhs-jaipur-msc-nursing",
+      "name": "M.SC. Nursing (05 Branches)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://admissions.ruhsraj.org/MScN",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 19,
+          "career_node_slug": "bsc_nursing",
+          "career_breadcrumb": "Biology / PCB > B.Sc Nursing",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-university-of-health-sciences-jaipur-ruhs-jaipur-bpt",
+      "name": "BPT",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "4.5 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://ruhsraj.org/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 23,
+          "career_node_slug": "bpt",
+          "career_breadcrumb": "Biology / PCB > BPT (Physiotherapy)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-university-of-health-sciences-jaipur-ruhs-jaipur-bsc-mlt",
+      "name": "B.Sc. MLT",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://ruhsraj.org/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 37,
+          "career_node_slug": "dmlt",
+          "career_breadcrumb": "Paramedical & Health Sciences > DMLT (Medical Lab Technology)",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-university-of-health-sciences-jaipur-ruhs-jaipur-bsc-hons-ophthalmic-techniques",
+      "name": "B.Sc. (HONS.) Ophthalmic Techniques",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Ophthalmic Techniques",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://ruhsraj.org/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 36,
+          "career_node_slug": "bsc_optometry",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Optometry",
+          "relation": "closest_specialization",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-university-of-health-sciences-jaipur-ruhs-jaipur-brt",
+      "name": "Bachelor of Radiation Technology",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Radiation Technology",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://ruhsraj.org/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 38,
+          "career_node_slug": "bsc_radiology",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Radiology & Imaging Technology",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-university-of-health-sciences-jaipur-ruhs-jaipur-pg-diploma-perfusion",
+      "name": "P.G. Diploma in Perfusion Technology",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": "Perfusion Technology",
+      "duration": "3",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://admissions.ruhsraj.org/PGDPT",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest_parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-university-of-health-sciences-jaipur-ruhs-jaipur-msc-radiotherapy",
+      "name": "M.Sc. Radiotherapy Technology",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Radiotherapy Technology",
+      "duration": "3",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://admissions.ruhsraj.org/MScRT",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 38,
+          "career_node_slug": "bsc_radiology",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Radiology & Imaging Technology",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-university-of-health-sciences-jaipur-ruhs-jaipur-phd-medicine",
+      "name": "Ph.D Courses",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": "Medicine",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://admissions.ruhsraj.org/PhD",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "closest_discipline",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-university-of-health-sciences-jaipur-ruhs-jaipur-phd-pharmacy",
+      "name": "Ph.D Courses",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": "Pharmacy",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://admissions.ruhsraj.org/PhD",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "closest_discipline",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-university-of-health-sciences-jaipur-ruhs-jaipur-phd-dentistry",
+      "name": "Ph.D Courses",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": "Dentistry",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://admissions.ruhsraj.org/PhD",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 16,
+          "career_node_slug": "bds",
+          "career_breadcrumb": "Biology / PCB > BDS (Dental Surgery)",
+          "relation": "closest_discipline",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The official Courses page provides programme-family names and branch counts, but it does not expose all individual MD, MS, MDS, M.Pharmacy or M.Sc. Nursing branch names. No specializations were invented.",
+    "The official central table aggregates IPH/PH; the official course search and current admissions portal expose M.Sc. Medical and Master of Public Health (MPH).",
+    "The current admissions portal additionally lists Post Basic Diploma in Nursing- Advance Course and confirms current 2026-27 postgraduate and Ph.D admissions.",
+    "Eligibility was left null because the official catalogue and admissions pages reviewed did not state it directly. Some paramedical durations are absent or displayed without a unit, so those fields remain null or preserve the official unitless value.",
+    "The managed proxy produced the documented self-signed certificate-chain error; curl --insecure was used only for public GET requests to expected search and RUHS official hostnames."
+  ]
+}

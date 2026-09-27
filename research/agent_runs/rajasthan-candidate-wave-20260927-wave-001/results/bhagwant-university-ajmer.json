@@ -1,0 +1,1762 @@
+{
+  "institution_id": "bhagwant-university-ajmer",
+  "nirf_name": "Bhagwant University-Ajmer",
+  "verification_outcome": "verified",
+  "district": "Ajmer",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://bhagwantuniversity.ac.in/",
+  "website_verification_status": "verified",
+  "description": "Bhagwant University is a state private university established under Rajasthan Act No. 18 of 2008 and located on Sikar Road in Ajmer, Rajasthan; its official site describes a 112-acre campus and undergraduate, postgraduate, diploma and doctoral programmes.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [
+    "200.234.36.77"
+  ],
+  "verification_sources": [
+    {
+      "type": "official_homepage",
+      "url": "https://bhagwantuniversity.ac.in/",
+      "supports": [
+        "Bhagwant University identity",
+        "homepage title identifies Ajmer, Rajasthan"
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "https://bhagwantuniversity.ac.in/contact",
+      "supports": [
+        "official contact page identifies Sikar Road, Ajmer-305004, Rajasthan",
+        "official website field names bhagwantuniversity.ac.in"
+      ]
+    },
+    {
+      "type": "official_about",
+      "url": "https://bhagwantuniversity.ac.in/about",
+      "supports": [
+        "state private university established under Rajasthan Act No. 18 of 2008",
+        "Ajmer campus and 112-acre campus description",
+        "institutional programme and discipline description"
+      ]
+    },
+    {
+      "type": "official_academic_catalogue",
+      "url": "https://bhagwantuniversity.ac.in/academics",
+      "supports": [
+        "official Courses Offered categories",
+        "undergraduate, postgraduate, diploma, integrated and certificate programme names"
+      ]
+    },
+    {
+      "type": "official_active_course_catalogue",
+      "url": "http://200.234.36.77:9097/courses?isVisible=true&limit=1000",
+      "supports": [
+        "63 visible course records",
+        "current degree names, specializations, durations, eligibility and course slugs"
+      ]
+    },
+    {
+      "type": "official_doctoral_catalogue",
+      "url": "https://bhagwantuniversity.ac.in/mphil-phd-notification",
+      "supports": [
+        "Ph.D. programme description",
+        "doctoral subject areas and official eligibility"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "Bhagwant University Ajmer official website courses",
+      "result": "Bing returned bhagwantuniversity.ac.in as a Bhagwant University result; the official domain was then read directly.",
+      "url": "https://bhagwantuniversity.ac.in/"
+    },
+    {
+      "query": "site:bhagwantuniversity.ac.in Bhagwant University law pharmacy courses Ajmer",
+      "result": "Bing returned bhagwantuniversity.ac.in for the institution/category query; discovery led to the official programme routes.",
+      "url": "https://bhagwantuniversity.ac.in/academics"
+    },
+    {
+      "query": "site:bhagwantuniversity.ac.in \"Sikar Road\" Ajmer",
+      "result": "Bing returned bhagwantuniversity.ac.in for the Sikar Road/Ajmer query; the official contact and about pages confirmed the campus.",
+      "url": "https://bhagwantuniversity.ac.in/contact"
+    },
+    {
+      "query": "site:bhagwantuniversity.ac.in Bhagwant University admissions programs",
+      "result": "Bing returned bhagwantuniversity.ac.in for the admissions/programmes query; the official admissions and catalogue routes were then read directly.",
+      "url": "https://bhagwantuniversity.ac.in/admission"
+    }
+  ],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-276",
+      "name": "B.A.",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "not_stated",
+      "eligibility": "Should Pass 12th Examination from recognized Board.",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/b-a",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-176",
+      "name": "B.A.LL.B",
+      "level": "integrated",
+      "credential": "integrated_degree",
+      "specialization": "Law",
+      "duration": "5 years",
+      "mode": "not_stated",
+      "eligibility": "Should Pass 12th Examination from recognized Board",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/b-a-ll-b",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 63,
+          "career_node_slug": "ba_llb",
+          "career_breadcrumb": "Law & Civil Services > BA LLB (5-Year Integrated)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-188",
+      "name": "B.B.A",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Bachelor of Business Administration (B.B.A)",
+      "duration": "3 years",
+      "mode": "not_stated",
+      "eligibility": "Should Pass 12th Examination from recognized Board.",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/b-b-a",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 46,
+          "career_node_slug": "bba",
+          "career_breadcrumb": "Management & Business > BBA (General)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-196",
+      "name": "B.B.A. + M.B.A (Integrated)",
+      "level": "integrated",
+      "credential": "integrated_degree",
+      "specialization": "All Branches",
+      "duration": "4 years",
+      "mode": "not_stated",
+      "eligibility": "Should Pass 12th Examination From Recognized Board",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/b-b-a-m-b-a",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 46,
+          "career_node_slug": "bba",
+          "career_breadcrumb": "Management & Business > BBA (General)",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-177",
+      "name": "B.B.A.LL.B",
+      "level": "integrated",
+      "credential": "integrated_degree",
+      "specialization": "Law",
+      "duration": "5 years",
+      "mode": "not_stated",
+      "eligibility": "Should Pass 12th Examination from recognized Board",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/b-b-a-ll-b",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 50,
+          "career_node_slug": "bba_llb",
+          "career_breadcrumb": "Law & Legal > BBA LLB (5-Year Integrated)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-203",
+      "name": "B.Com",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Commerce",
+      "duration": "3 years",
+      "mode": "not_stated",
+      "eligibility": "Should Pass 12th Examination With Commerce Completed from recognized Board.",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/b-com",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-217",
+      "name": "B.Ed.",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": "Should Pass Graduation Examination any Stream with 50% Marks from recognized Board/University.",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/b-ed",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-274",
+      "name": "B.Lib",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Bachelor of Library and Information Science",
+      "duration": "1 year",
+      "mode": "not_stated",
+      "eligibility": "Should Pass Graduation Examination any Stream from recognized Board/University. OR Should Pass D.Lis. Examination With 50% from recognized Board/University.",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/b-lis",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "No library-science node exists in career_path.db."
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-210",
+      "name": "B.P.T",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Physiotherapy",
+      "duration": "5 years",
+      "mode": "not_stated",
+      "eligibility": "Should Pass 12th Examination with PCB and English, (minimum 50% marks) from recognized Board. OR Candidate should have completed the minimum age of 17 years as on 31st December of the year of admission to B.P.T. first year course and Maximum age limit is 28 Years.",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/b-p-t",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 23,
+          "career_node_slug": "bpt",
+          "career_breadcrumb": "Biology / PCB > BPT (Physiotherapy)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-207",
+      "name": "B.Pharma",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not_stated",
+      "eligibility": "Should Pass 12th Examination With PCB and D.Pharma Completed from recognized Board/University",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/b-pharma",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-70",
+      "name": "B.Sc",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Agriculture",
+      "duration": "4 years",
+      "mode": "not_stated",
+      "eligibility": "Passed 12th with a Science stream (Physics, Chemistry, and Biology/ Mathematics/ Agriculture) from a recognized board, securing at least 50–60% aggregate marks from recognized Board/University. And Should Passed Entrance Exams: • Rajasthan JET (Joint University Entrance Test) • CUET (Common University Entrance Test)",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/b-sc",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-182",
+      "name": "B.Sc",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "All Branches",
+      "duration": "3 years",
+      "mode": "not_stated",
+      "eligibility": "Should Pass 12th Examination any Stream from recognized Board",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/b-sc-1",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 79,
+          "career_node_slug": "hotel_mgmt",
+          "career_breadcrumb": "Performing Arts & Sports > Hotel Management & Tourism",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-220",
+      "name": "B.Sc.",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "All Branches",
+      "duration": "3 years",
+      "mode": "not_stated",
+      "eligibility": "Should Pass 12th (Science Stream) Examination from recognized Board.",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/b-sc-6",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 336,
+          "career_node_slug": "science_bio",
+          "career_breadcrumb": "Biology / PCB",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-295",
+      "name": "B.Sc",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Information Technology",
+      "duration": "3 years",
+      "mode": "not_stated",
+      "eligibility": "Should Pass 12th Examination from recognized Board.",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/b-sc-8",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 89,
+          "career_node_slug": "btech_it",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Information Technology",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-216",
+      "name": "B.Sc. + B.Ed.",
+      "level": "integrated",
+      "credential": "integrated_degree",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not_stated",
+      "eligibility": "Should Pass 12th (Science Stream) Examination from recognized Board/University",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/b-sc-b-ed",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-265",
+      "name": "B.Tech",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Mechanical",
+      "duration": "4 years",
+      "mode": "not_stated",
+      "eligibility": "Should Pass 12th Examination With PCM and Diploma Completed from recognized Board/University.",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/b-tech-5",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-246",
+      "name": "B.Tech",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "ECE",
+      "duration": "4 years",
+      "mode": "not_stated",
+      "eligibility": "Should Pass 12th Examination With PCM and Diploma Completed from recognized Board/University.",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/b-tech-3",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-259",
+      "name": "B.Tech",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Petroleum",
+      "duration": "4 years",
+      "mode": "not_stated",
+      "eligibility": "Should Pass 12th Examination with PCM and Diploma Completed from recognized Board/University.",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/b-tech-4",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 327,
+          "career_node_slug": "petroleum_engineer",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Chemical Engineering > Petroleum Engineer",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-240",
+      "name": "B.Tech",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "EEE",
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": "Should Pass 12th Examination With PCM and Diploma Completed from recognized Board/University.",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/b-tech-regular",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-231",
+      "name": "B.Tech",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Civil",
+      "duration": "4 years",
+      "mode": "not_stated",
+      "eligibility": "Should Pass 12th Examination with PCM and Diploma Completed from recognized Board/University.",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/b-tech",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-268",
+      "name": "B.Tech.",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Agriculture",
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": "Should Pass 12th Examination With PCM and Diploma Completed from recognized Board/University.",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/b-tech-6",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-270",
+      "name": "B.Tech.",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Aeronautical",
+      "duration": "4 years",
+      "mode": "not_stated",
+      "eligibility": "Should Pass 12th Examination With PCM and Diploma Completed from recognized Board/University.",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/b-tech-7",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 87,
+          "career_node_slug": "btech_aero",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Aerospace Engineering",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-298",
+      "name": "B.Tech",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "CSE",
+      "duration": "4 years",
+      "mode": "not_stated",
+      "eligibility": "Should Pass 12th Examination With PCM and Diploma Completed from recognized Board/University.",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/b-tech-8",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-237",
+      "name": "B.Tech(Mining)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Mining",
+      "duration": "4 years",
+      "mode": "not_stated",
+      "eligibility": "Should Pass 12th Examination With PCM and Diploma Completed from recognized Board/University.",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/b-tech-1",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 111,
+          "career_node_slug": "mining_geologist",
+          "career_breadcrumb": "Maths / PCM > B.Sc Geology / Earth Sciences > Mining Geologist",
+          "relation": "closest_specialization",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-215",
+      "name": "BA + B.Ed.",
+      "level": "integrated",
+      "credential": "integrated_degree",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not_stated",
+      "eligibility": "Should Pass 12th Examination from recognized Board",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/ba-b-ed",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-293",
+      "name": "BCA",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Computer Application",
+      "duration": "3 years",
+      "mode": "not_stated",
+      "eligibility": "Should Pass 12th Examination from recognized Board.",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/bca",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-273",
+      "name": "D.Lib",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": "Diploma of Library and information Science",
+      "duration": "1 year",
+      "mode": "not_stated",
+      "eligibility": "Should Pass 12th Examination from recognized Board.",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/d-lis",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "No library-science node exists in career_path.db."
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-206",
+      "name": "D.Pharma",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": "Should Pass 12th Examination with PCB from recognized Board",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/d-pharma",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-258",
+      "name": "Diploma",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": "Petroleum",
+      "duration": "3 years",
+      "mode": "not_stated",
+      "eligibility": "Should Pass 10th With Mathematics Subjects or ITI Completed from recognized Board.",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/diploma-5",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 327,
+          "career_node_slug": "petroleum_engineer",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Chemical Engineering > Petroleum Engineer",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-244",
+      "name": "Diploma",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": "ECE",
+      "duration": "3 years",
+      "mode": "not_stated",
+      "eligibility": "Should Pass 10th With mathematics Subjects or ITI Completed from recognized Board.",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/diploma-4",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-264",
+      "name": "Diploma",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": "Mechanical",
+      "duration": "3 years",
+      "mode": "not_stated",
+      "eligibility": "Should Pass 10th With Mathematics Subjects or ITI Completed from recognized Board.",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/diploma-6",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 115,
+          "career_node_slug": "diploma_mech_career",
+          "career_breadcrumb": "Maths / PCM > Diploma Engineering (Polytechnic) > Mechanical Draughtsman / Technician",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-272",
+      "name": "Diploma",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": "Fire & Safety",
+      "duration": "1 year",
+      "mode": "not_stated",
+      "eligibility": "Should Pass 12th Examination any Stream from recognized Board.",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/diploma-7",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "No fire-safety node exists in career_path.db."
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-239",
+      "name": "Diploma",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": "EEE",
+      "duration": "3 years",
+      "mode": "not_stated",
+      "eligibility": "Should Pass 10th With Mathematics Subjects or ITI Completed from recognized Board.",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/diploma-3",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 118,
+          "career_node_slug": "diploma_elec_career",
+          "career_breadcrumb": "Maths / PCM > Diploma Engineering (Polytechnic) > Electrical Technician",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-230",
+      "name": "Diploma",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": "Civil",
+      "duration": "3 years",
+      "mode": "not_stated",
+      "eligibility": "Should Pass 10th With Mathematics Subjects or ITI Completed from recognized Board.",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/diploma-1",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 116,
+          "career_node_slug": "diploma_civil_career",
+          "career_breadcrumb": "Maths / PCM > Diploma Engineering (Polytechnic) > Civil Site Supervisor",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-236",
+      "name": "Diploma",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": "Mining",
+      "duration": "3 years",
+      "mode": "not_stated",
+      "eligibility": "Should Pass 10th with Mathematics Subjects or ITI Completed from recognized Board.",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/diploma-2",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 11,
+          "career_node_slug": "diploma_engg",
+          "career_breadcrumb": "Maths / PCM > Diploma Engineering (Polytechnic)",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-187",
+      "name": "Diploma",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": "Hotel Management",
+      "duration": "1.5 years",
+      "mode": "not_stated",
+      "eligibility": "Should Pass 12th Examination any Stream from recognized Board",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/diploma",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 79,
+          "career_node_slug": "hotel_mgmt",
+          "career_breadcrumb": "Performing Arts & Sports > Hotel Management & Tourism",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-297",
+      "name": "Diploma",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": "CSE",
+      "duration": "3 years",
+      "mode": "not_stated",
+      "eligibility": "Should Pass 10th With Mathematics Subjects or ITI Completed from recognized Board.",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/diploma-8",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-178",
+      "name": "LL.B",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Law",
+      "duration": "3 years",
+      "mode": "not_stated",
+      "eligibility": "Should Pass Graduation Examination any Stream With (General 45%, OBC - 43% and SC/ST - 40%) from recognized Board/ University",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/ll-b",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 343,
+          "career_node_slug": "commerce_law",
+          "career_breadcrumb": "Law & Legal",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-179",
+      "name": "LL.M",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "All Branches",
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": "Should Pass Graduation Examination (LL.B) With at least 55% aggregate marks from recognized Board/University.",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/ll-m",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 343,
+          "career_node_slug": "commerce_law",
+          "career_breadcrumb": "Law & Legal",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-219",
+      "name": "M.A",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "All Branches",
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": "Should Pass Graduation Examination any Stream from recognized Board.",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/m-a",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-189",
+      "name": "M.B.A",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "All Branches",
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": "Graduation in Any Discipline from recognized University",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/m-b-a",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 208,
+          "career_node_slug": "mba_general",
+          "career_breadcrumb": "Management & Business > BBA (General) > MBA → CEO / Director Track",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-204",
+      "name": "M.Com",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "ABST(Accountancy and Business Statistics)",
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": "Graduation in Commerce from recognized University",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/m-com",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 198,
+          "career_node_slug": "mcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons) > M.Com → Professor / Researcher",
+          "relation": "direct_programme_family",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-218",
+      "name": "M.Ed.",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": "Should have B.Ed. Examination with 55% Marks from recognized Board/University.",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/m-ed",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-275",
+      "name": "M.Lib",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Master of Library and information Science",
+      "duration": "1 year",
+      "mode": "not_stated",
+      "eligibility": "Should Pass Post Graduation Examination (B.Lis.) With 55% from recognized Board/University.",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/m-lis",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "No library-science node exists in career_path.db."
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-211",
+      "name": "M.P.T",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "All Branches",
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": "Should Pass B.P.T. Examination with (minimum 55% marks), Completion of compulsory internship, from recognized Board/University/Intuition and Hospital.",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/m-p-t",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 23,
+          "career_node_slug": "bpt",
+          "career_breadcrumb": "Biology / PCB > BPT (Physiotherapy)",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-208",
+      "name": "M.Pharma",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "All Branches",
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": "Should Pass Graduation (B.Pharma) Examination from recognized Board/University",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/m-pharma",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-205",
+      "name": "M.S.W",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Master of Social Work.",
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": "Should Pass Graduation Examination any stream with minimum of 50% from recognized Board/University",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/m-s-w",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-223",
+      "name": "M.Sc.",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "All Branches",
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": "Should Pass Graduation Examination (B.Sc.) with 55% from recognized Board/University.",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/m-sc-5",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 336,
+          "career_node_slug": "science_bio",
+          "career_breadcrumb": "Biology / PCB",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-71",
+      "name": "M.Sc.",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "All Branches",
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": "Should Pass Bachelor's degree (BSc. - Agriculture) with at least 55% aggregate marks from recognized Board/University.",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/master-of-science-in-agriculture-m-sc-agriculture",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-296",
+      "name": "M.Sc.",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Big Data",
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": "Should Pass Bachelor's degree (Computer Science, I.T., Mathematics, Statistics, or Engineering (B.E./B.Tech)) with at least 55% aggregate marks from recognized Board/University.",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/m-sc-13",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 338,
+          "career_node_slug": "science_data",
+          "career_breadcrumb": "Data Science & Analytics",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-169",
+      "name": "M.Sc.(I.T.)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Information Technology",
+      "duration": "4 years",
+      "mode": "not_stated",
+      "eligibility": "Should Pass Bachelor's degree (B.Sc. - I.T.) with at least 55% aggregate marks from recognized Board/University.",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/certificate-programs",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 89,
+          "career_node_slug": "btech_it",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Information Technology",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-299",
+      "name": "M.Tech.(CSE)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "All Branches",
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": "B.E./ B.TECH. With 55% Marks Completed from recognized Board/University.",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/m-tech-regular-11",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-271",
+      "name": "M.Tech(Aeronautical)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Aeronautical",
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": "B.E/B.TECH With 55% Marks Completed from recognized Board/University.",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/m-tech-regular-10",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 87,
+          "career_node_slug": "btech_aero",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Aerospace Engineering",
+          "relation": "closest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-269",
+      "name": "M.Tech(Agriculture (Farm Machinery & Power))",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Agriculture (Farm Machinery & Power)",
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": "B.E./B.Tech with 55% marks completed from recognized Board/University.",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/m-tech-regular-9",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-252",
+      "name": "M.Tech(Civil)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "All Branches",
+      "duration": "3 years",
+      "mode": "not_stated",
+      "eligibility": "B.E. / B.TECH With 55% Marks Completed from recognized Board/University",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/m-tech-part-time-3",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-249",
+      "name": "M.Tech(ECE)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "All Branches",
+      "duration": "3 years",
+      "mode": "not_stated",
+      "eligibility": "B.E/B.TECH With 55% Marks Completed from recognized Board/University.",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/m-tech-part-time",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-255",
+      "name": "M.Tech(EEE)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "All Branches",
+      "duration": "3 years",
+      "mode": "not_stated",
+      "eligibility": "B.E/B.TECH With 55% Marks Completed from recognized Board/University.",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/m-tech-part-time-6",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-266",
+      "name": "M.Tech(Mechanical)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "All Branches",
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": "B.E./B.TECH With 55% Marks Completed from recognized Board/University.",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/m-tech-regular-7",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-238",
+      "name": "M.Tech(Mining)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Mining",
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": "B.E / B.TECH With 55% Marks Completed from recognized Board/University.",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/m-tech-regular",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 111,
+          "career_node_slug": "mining_geologist",
+          "career_breadcrumb": "Maths / PCM > B.Sc Geology / Earth Sciences > Mining Geologist",
+          "relation": "closest_specialization",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-262",
+      "name": "M.Tech(Petroleum)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "All Branches",
+      "duration": "3 years",
+      "mode": "not_stated",
+      "eligibility": "B.E/B.TECH With 55% Marks Completed from recognized Board/University.",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/m-tech-part-time-9",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 327,
+          "career_node_slug": "petroleum_engineer",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Chemical Engineering > Petroleum Engineer",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-294",
+      "name": "MCA",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Computer Application",
+      "duration": "3 years",
+      "mode": "not_stated",
+      "eligibility": "Should Pass Bachelor's degree (BCA, B.Sc., B.Tech. Or Similar) with at least 55% aggregate marks and Mathematics as a subject in Class 12 Or graduation from recognized Board/University.",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/mca",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 93,
+          "career_node_slug": "mca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications) > MCA → Software Engineer",
+          "relation": "direct_programme_family",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-292",
+      "name": "PGDCA (Post Graduate Diploma in Computer Application)",
+      "level": "postgraduate",
+      "credential": "diploma",
+      "specialization": "Computer Application",
+      "duration": "1 year",
+      "mode": "not_stated",
+      "eligibility": "Should Pass Graduation Examination any Stream from recognized Board/University.",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/pgdca",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-course-291",
+      "name": "PGDYEHS",
+      "level": "postgraduate",
+      "credential": "diploma",
+      "specialization": "Post Graduate Diploma in Yoga Education & Human Science",
+      "duration": "1 year",
+      "mode": "not_stated",
+      "eligibility": "Should Pass Graduation Examination any Stream from recognized Board/University.",
+      "official_course_url": "https://bhagwantuniversity.ac.in/course/pgdyehs",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "closest_parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-academics-diploma-agriculture",
+      "name": "Agriculture",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://bhagwantuniversity.ac.in/academics",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-academics-ma-humanities",
+      "name": "M.A.(Humanities & Social Sciences)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://bhagwantuniversity.ac.in/academics",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-academics-ma-yoga",
+      "name": "M.A (Yoga)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://bhagwantuniversity.ac.in/academics",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [],
+      "mapping_gap": "No yoga node exists in career_path.db."
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-academics-msc-yoga",
+      "name": "M.Sc.(Yoga)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://bhagwantuniversity.ac.in/academics",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [],
+      "mapping_gap": "No yoga node exists in career_path.db."
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-certificate-hotel-management",
+      "name": "Hotel Management",
+      "level": "certificate",
+      "credential": "certificate",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://bhagwantuniversity.ac.in/academics",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 79,
+          "career_node_slug": "hotel_mgmt",
+          "career_breadcrumb": "Performing Arts & Sports > Hotel Management & Tourism",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-certificate-french-speaking",
+      "name": "French Speaking (Humanities & Social Sciences)",
+      "level": "certificate",
+      "credential": "certificate",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://bhagwantuniversity.ac.in/academics",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 74,
+          "career_node_slug": "ba_foreign_lang",
+          "career_breadcrumb": "Languages & Literature > BA Foreign Language (French/German/Japanese)",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-certificate-english-speaking",
+      "name": "English Speaking (Humanities & Social Sciences)",
+      "level": "certificate",
+      "credential": "certificate",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://bhagwantuniversity.ac.in/academics",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-certificate-yoga",
+      "name": "Yoga",
+      "level": "certificate",
+      "credential": "certificate",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://bhagwantuniversity.ac.in/academics",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [],
+      "mapping_gap": "No yoga node exists in career_path.db."
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-certificate-digital-marketing",
+      "name": "Digital Marketing",
+      "level": "certificate",
+      "credential": "certificate",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://bhagwantuniversity.ac.in/academics",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 213,
+          "career_node_slug": "digital_marketer",
+          "career_breadcrumb": "Management & Business > BBA Marketing > Digital Marketing Specialist",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bhagwant-university-ajmer-bu-doctoral-phd",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "doctoral_degree",
+      "specialization": "Psychology; History; Botany; Physics; Chemistry; Mathematics; Nursing",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "Master's degree with minimum 55%",
+      "official_course_url": "https://bhagwantuniversity.ac.in/mphil-phd-notification",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 66,
+          "career_node_slug": "ba_psychology",
+          "career_breadcrumb": "Social Sciences & Education > BA Psychology",
+          "relation": "doctoral_subject_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "doctoral_subject_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 336,
+          "career_node_slug": "science_bio",
+          "career_breadcrumb": "Biology / PCB",
+          "relation": "doctoral_subject_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 24,
+          "career_node_slug": "bsc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics",
+          "relation": "doctoral_subject_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "doctoral_subject_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "doctoral_subject_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 19,
+          "career_node_slug": "bsc_nursing",
+          "career_breadcrumb": "Biology / PCB > B.Sc Nursing",
+          "relation": "doctoral_subject_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The official homepage and route shell identify Bhagwant University, Ajmer; official site settings/contact data give Sikar Road, Ajmer, Rajasthan 305004 and the about page describes the Ajmer campus.",
+    "The official Academics page lists 72 programme entries across undergraduate, postgraduate, diploma, integrated and certificate categories; the visible-course catalogue API supplies 63 current course records, including duration and eligibility. The four Academics-only non-certificate entries, five certificate entries and the separate official Ph.D. page were included with null duration/eligibility where no programme-specific official detail was available.",
+    "The website's TLS handshake succeeded but GET requests to the official HTTPS host timed out; normal TLS also produced the managed proxy self-signed-certificate-in-chain error on the first request. Public GETs were therefore performed with curl --insecure after hostname confirmation, and the public catalogue payload was read from the official site's exposed backend at 200.234.36.77:9097. No credentials or private data were sent.",
+    "The catalogue contains no dedicated library-science, fire-safety or yoga node in career_path.db; those courses intentionally have empty career_path_mappings and mapping_gap explanations. All other courses have a direct discipline or clearly labelled nearest-parent/closest-specialization mapping reviewed against the local career tree.",
+    "The official API stores duration as numeric year values; they are rendered here with the years unit. Programme mode is not stated by the official catalogue and is left as not_stated."
+  ]
+}

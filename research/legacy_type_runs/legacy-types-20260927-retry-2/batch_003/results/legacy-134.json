@@ -1,0 +1,16 @@
+{
+  "institution_id": "legacy-134",
+  "database_id": 134,
+  "name": "Indian Military Academy (IMA) Dehradun",
+  "website": "https://www.ima.nic.in",
+  "outcome": "manual_review",
+  "institution_type": null,
+  "source_url": null,
+  "confidence": null,
+  "evidence": null,
+  "notes": [
+    "The supplied official hostname did not resolve for public HTTPS requests; the apex domain also failed DNS resolution.",
+    "Normal TLS was attempted first. After observing the managed proxy certificate-chain error, curl --insecure was tried for the official hostname, but no page could be retrieved.",
+    "No qualifying official-domain evidence was available to establish the institutional type."
+  ]
+}

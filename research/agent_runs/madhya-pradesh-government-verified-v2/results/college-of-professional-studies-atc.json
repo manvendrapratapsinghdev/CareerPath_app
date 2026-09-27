@@ -1,0 +1,93 @@
+{
+  "institution_id": "college-of-professional-studies-atc",
+  "nirf_name": "College of Professional Studies- ATC",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Indore",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://www.skitm.in/",
+  "website_verification_status": "verified",
+  "description": "College of Professional Studies – ATC is listed among the hosting schools of Shivajirao Kadam Institute of Technology and Management (SKITM), whose campus is near Ralamandal Sanctuary in Tillore Khurd, Indore, Madhya Pradesh.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact institution listing with Indore, Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://www.skitm.in/",
+      "supports": [
+        "Official SKITM website identity"
+      ]
+    },
+    {
+      "type": "official_institution_identity",
+      "url": "https://www.skitm.in/about-skitm",
+      "supports": [
+        "Hosting Schools list includes College of Professional Studies – ATC"
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "https://www.skitm.in/contact",
+      "supports": [
+        "Campus address near Ralamandal Sanctuary, Tillore Khurd, Indore, Madhya Pradesh 452020"
+      ]
+    },
+    {
+      "type": "official_academic_catalogue",
+      "url": "https://www.skitm.in/academics",
+      "supports": [
+        "Official group-level academic catalogue reviewed"
+      ]
+    },
+    {
+      "type": "official_central_brochure",
+      "url": "https://www.skitm.in/download-brochure",
+      "supports": [
+        "Official 2026 brochure reviewed; it lists group-level schools but no CPS-ATC-specific catalogue"
+      ]
+    },
+    {
+      "type": "official_admissions_page",
+      "url": "https://www.skitm.in/apply-to-skitm",
+      "supports": [
+        "Official admissions content reviewed for programme attribution"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"College of Professional Studies- ATC\" Indore official website",
+      "result": "General web search did not surface an institution-specific official result; no search snippet was used for verification.",
+      "url": null
+    },
+    {
+      "query": "College of Professional Studies ATC Indore official site",
+      "result": "General web search results were non-specific; no search snippet was used for verification.",
+      "url": null
+    },
+    {
+      "query": "AISHE directory exact institution lookup: COLLEGE OF PROFESSIONAL STUDIES ATC",
+      "result": "The official AISHE directory returned the exact Indore record with www.skitm.in as the website; the domain was then independently verified through the official site.",
+      "url": "https://dashboard.aishe.gov.in/hedirectory/"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [],
+  "agent_notes": [
+    "The NIRF 2025 College participation list contains the exact assigned institution with city Indore and state Madhya Pradesh.",
+    "The official SKITM site confirms the CPS-ATC hosting-school identity and the Tillore Khurd/Ralamandal, Indore campus.",
+    "The official site exposes group-level Engineering, Management, Pharmacy, and Law pages, but no active CPS-ATC-specific programme catalogue or admissions page. Group-wide programmes were not imported because they cannot be safely attributed to this institution.",
+    "The official central brochure also lists group-level schools without CPS-ATC-specific programme details; course catalogue remains partial and requires manual review.",
+    "Normal TLS returned the managed proxy's exact self-signed certificate-chain error; public GETs to expected domains were retried with curl --insecure."
+  ]
+}

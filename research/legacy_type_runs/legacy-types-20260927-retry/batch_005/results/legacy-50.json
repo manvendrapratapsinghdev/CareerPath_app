@@ -1,0 +1,15 @@
+{
+  "institution_id": "legacy-50",
+  "database_id": 50,
+  "name": "TISS Mumbai",
+  "website": "https://www.tiss.edu",
+  "outcome": "manual_review",
+  "institution_type": null,
+  "source_url": null,
+  "confidence": null,
+  "evidence": null,
+  "notes": [
+    "Normal TLS verification failed with the managed proxy's self-signed certificate-chain error; curl --insecure was used only for public GET requests to the official hostname.",
+    "Official-domain GET requests timed out without returning page content, so the institutional type could not be established confidently."
+  ]
+}

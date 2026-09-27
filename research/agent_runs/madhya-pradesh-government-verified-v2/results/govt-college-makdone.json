@@ -1,0 +1,89 @@
+{
+  "institution_id": "govt-college-makdone",
+  "nirf_name": "Govt College Makdone",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Ujjain",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://highereducation.mp.gov.in/?orgid=490",
+  "website_verification_status": "verified",
+  "description": "Govt. College Makdone is in Ujjain district, Madhya Pradesh, regulated by the Department of Higher Education, Madhya Pradesh, and affiliated with Vikram University, Ujjain.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Lists Govt College Makdone in Ujjain, Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "government_directory_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Lists Govt College Makdone in Ujjain, Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "official_government_college_directory",
+      "url": "https://highereducation.mp.gov.in/CollegeDisp/getTable",
+      "supports": [
+        "Identifies the matching institution as Govt. College, Maakdone, Ujjain, college code 1816, orgid 490."
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://highereducation.mp.gov.in/?orgid=490",
+      "supports": [
+        "Confirms the institution-specific official page, campus name, Ujjain district, Madhya Pradesh, regulatory authority, and university affiliation."
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=%2BWG2jA7kUHtTmVN%2Bx57Rgg%3D%3D&orgid=490",
+      "supports": [
+        "The official Programmes Offered page contains PG Programme, UG Programme, and Diploma Programme sections, but no programme rows."
+      ]
+    },
+    {
+      "type": "official_academic_page",
+      "url": "https://highereducation.mp.gov.in/?page=a4%2BP4ArPDCIjTd4TggdgUg%3D%3D&orgid=490",
+      "supports": [
+        "The official Departments page contains no department entries."
+      ]
+    },
+    {
+      "type": "official_prospectus_page",
+      "url": "https://highereducation.mp.gov.in/?page=cB1ODKcBLAz9tnHMstvEzA%3D%3D&orgid=490",
+      "supports": [
+        "The official Prospectus page is under construction and provides no programme catalogue."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Govt College Makdone\" official website",
+      "result": "No separate institutional domain was established; the official Madhya Pradesh Higher Education portal provides the institution-specific page at orgid=490.",
+      "url": "https://www.bing.com/search?q=%22Govt+College+Makdone%22+official+website"
+    },
+    {
+      "query": "site:mp.gov.in \"Makdone\" college",
+      "result": "The focused authoritative-domain search did not establish a separate institutional domain; the official Madhya Pradesh Higher Education college directory identifies the matching campus and links it to orgid=490.",
+      "url": "https://www.bing.com/search?q=site%3Amp.gov.in+%22Makdone%22+college"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [],
+  "agent_notes": [
+    "The institution was confirmed in both supplied NIRF 2025 government directories with the assigned name and Ujjain city.",
+    "The official Madhya Pradesh Higher Education directory identifies the matching campus as Govt. College, Maakdone, Ujjain, with college code 1816 and orgid 490.",
+    "Normal curl TLS verification failed with the managed proxy's exact self-signed certificate-chain error; public GET requests were retried with curl --insecure against the expected official domains.",
+    "The institution-specific Regular Courses page exposes only empty PG, UG, and Diploma tables. The Departments page is empty and the Prospectus page is under construction.",
+    "No exact active programme name, duration, or eligibility could be verified from the institution's actual official website. No course was inferred from generic catalogue headings; manual review is required."
+  ]
+}

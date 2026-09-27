@@ -1,0 +1,338 @@
+{
+  "institution_id": "govt-p-g-college-dhaulpur",
+  "nirf_name": "Govt. P.G. College, Dhaulpur",
+  "verification_outcome": "verified",
+  "district": "Dhaulpur",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://dceapp.rajasthan.gov.in/",
+  "website_verification_status": "verified",
+  "description": "Government P.G. College, Dholpur is a Rajasthan government college in Dhaulpur district, affiliated with Maharaja Surajmal Brij University, Bharatpur, and listed in the Department of College Education's current UG and PG catalogues.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "official_homepage",
+      "url": "https://dceapp.rajasthan.gov.in/",
+      "supports": [
+        "Official Department of College Education, Government of Rajasthan portal",
+        "Current 2026-27 UG and PG admissions and catalogue links"
+      ]
+    },
+    {
+      "type": "official_campus_identity_and_pg_catalogue",
+      "url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "supports": [
+        "Government P.G. College, Dholpur",
+        "District Dhaulpur",
+        "Affiliation with Maharaja Surajmal Brij University, Bharatpur",
+        "Current PG programme names"
+      ]
+    },
+    {
+      "type": "official_ug_catalogue",
+      "url": "https://dceapp.rajasthan.gov.in/document/1539552499File01_05_2026_02_01_062026_UGCourses.pdf",
+      "supports": [
+        "Government P.G. College, Dholpur in DHAULPUR district",
+        "Current UG programme names B.A., B.Com, B.Sc. (Biology), and B.Sc. (Maths)"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "Govt. P.G. College Dhaulpur Rajasthan official website",
+      "result": "Google returned HTTP 429 from the managed network; no usable search result was available.",
+      "url": "https://www.google.com/search?q=Govt.%20P.G.%20College%20Dhaulpur%20Rajasthan%20official%20website"
+    },
+    {
+      "query": "Government PG College Dholpur Rajasthan official",
+      "result": "Bing did not surface an institution-specific official page; the relevant official discovery path was the Rajasthan Department of College Education portal.",
+      "url": "https://www.bing.com/search?q=Government%20PG%20College%20Dholpur%20Rajasthan%20official"
+    },
+    {
+      "query": "site:hte.rajasthan.gov.in Dholpur Government College",
+      "result": "No Dholpur-specific HTE page was surfaced by the focused search.",
+      "url": "https://www.bing.com/search?q=site%3Ahte.rajasthan.gov.in%20Dholpur%20Government%20College"
+    },
+    {
+      "query": "dceapp.rajasthan.gov.in Government of Rajasthan Department of College Education",
+      "result": "The official Rajasthan Department of College Education homepage was identified and directly links to current UG/PG admissions and college-course catalogues.",
+      "url": "https://dceapp.rajasthan.gov.in/"
+    }
+  ],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "govt-p-g-college-dhaulpur-ba",
+      "name": "B.A.",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/document/1539552499File01_05_2026_02_01_062026_UGCourses.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "The official course is broad B.A.; the career tree has no generic B.A. node and the catalogue does not state a subject."
+    },
+    {
+      "course_id": "govt-p-g-college-dhaulpur-bcom",
+      "name": "B.Com",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/document/1539552499File01_05_2026_02_01_062026_UGCourses.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-p-g-college-dhaulpur-bsc-biology",
+      "name": "B.Sc. (Biology)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Biology",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/document/1539552499File01_05_2026_02_01_062026_UGCourses.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-p-g-college-dhaulpur-bsc-maths",
+      "name": "B.Sc. (Maths)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Maths",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/document/1539552499File01_05_2026_02_01_062026_UGCourses.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-p-g-college-dhaulpur-ma-economics",
+      "name": "M.A.(Economics)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Economics",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-p-g-college-dhaulpur-ma-geography",
+      "name": "M.A.(Geography)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Geography",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-p-g-college-dhaulpur-ma-hindi-sfs",
+      "name": "M.A.(Hindi)SFS",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Hindi",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-p-g-college-dhaulpur-ma-history",
+      "name": "M.A.(History)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "History",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-p-g-college-dhaulpur-ma-political-science-sfs",
+      "name": "M.A.(Political Science)SFS",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Political Science",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-p-g-college-dhaulpur-msc-chemistry",
+      "name": "M.Sc.(Chemistry)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Chemistry",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 155,
+          "career_node_slug": "msc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry > M.Sc Chemistry → Researcher",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-p-g-college-dhaulpur-msc-mathematics",
+      "name": "M.Sc.(Mathematics)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Mathematics",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 90,
+          "career_node_slug": "msc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics > M.Sc Mathematics → Professor / Researcher",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-p-g-college-dhaulpur-msc-zoology",
+      "name": "M.Sc.(Zoology)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Zoology",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest-specialization",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The official shared Rajasthan Department of College Education portal is the current government admissions/catalogue source used for this college; no separate college-owned domain was needed to verify the record.",
+    "The live PG catalogue lists eight PG programmes for Government P.G. College, Dholpur in Dhaulpur district; the current UG catalogue lists four UG programmes. No additional active diploma, certificate, or doctoral programme for this college was listed in the official current catalogues.",
+    "Normal TLS verification first encountered the managed network proxy's self-signed certificate-chain error. curl --insecure was then used only for public GET requests to the confirmed official/search hosts; no credentials or private data were sent."
+  ]
+}

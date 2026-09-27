@@ -1,0 +1,100 @@
+{
+  "institution_id": "government-girls-college-betul",
+  "nirf_name": "GOVERNMENT GIRLS COLLEGE, BETUL",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Betul",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://highereducation.mp.gov.in/?orgid=66",
+  "website_verification_status": "verified",
+  "description": "Veerangana Rani Durgavati Government Girls College is a government girls college campus in Betul, Madhya Pradesh, presented on the Madhya Pradesh Department of Higher Education college portal.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Government-directory listing contains GOVERNMENT GIRLS COLLEGE, BETUL in BETUL, Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Government-directory listing contains GOVERNMENT GIRLS COLLEGE, BETUL in BETUL, Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "official_homepage_and_identity",
+      "url": "https://highereducation.mp.gov.in/?orgid=66",
+      "supports": [
+        "Official MP Higher Education college portal identifies the campus as वीरांगना रानी दुर्गावती शासकीय कन्या महाविद्यालय, बैतूल (म.प्र.)."
+      ]
+    },
+    {
+      "type": "official_directory",
+      "url": "https://highereducation.mp.gov.in/CollegeDisp/CollegeDispIndex",
+      "supports": [
+        "Official MP Higher Education college directory identifies CollegeID 66 as Veerangana Rani Durgavati Government Girls College, Betul, District Betul."
+      ]
+    },
+    {
+      "type": "official_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=zd1yo%2FePEFn5x1cuoX4h3Q%3D%3D&orgid=66",
+      "supports": [
+        "Official Regular Courses page contains PG Programme, UG Programme, and Diploma Programme sections, but all tables are empty."
+      ]
+    },
+    {
+      "type": "official_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=iF2we3gMWtq%2BU3Y20D%2BN%2BQ%3D%3D&orgid=66",
+      "supports": [
+        "Official Distance Education Courses page contains PG, UG, and Diploma sections, but all tables are empty."
+      ]
+    },
+    {
+      "type": "official_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=PcWNQj7lpzYbWqEBZdGWqQ%3D%3D&orgid=66",
+      "supports": [
+        "Official Departments page has an empty department-wise table."
+      ]
+    },
+    {
+      "type": "official_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=UmQ4%2FDP0rJdLEkn4Mdr5Aw%3D%3D&orgid=66",
+      "supports": [
+        "Official Prospectus page displays an under-construction page."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Government Girls College Betul\" official website",
+      "result": "No institution-specific official result was surfaced in command-line Bing HTML results; generic government results were returned.",
+      "url": "https://www.bing.com/search?q=%22Government+Girls+College+Betul%22+official+website"
+    },
+    {
+      "query": "site:mp.gov.in \"Government Girls College\" Betul",
+      "result": "No institution-specific official result was surfaced in command-line Bing HTML results; the official MP Higher Education directory was then checked directly.",
+      "url": "https://www.bing.com/search?q=site%3Amp.gov.in+%22Government+Girls+College%22+Betul"
+    },
+    {
+      "query": "Government Girls College Betul MP courses admission",
+      "result": "No institution-specific official result was surfaced in command-line Bing HTML results; the official MP Higher Education college portal was checked directly.",
+      "url": "https://www.bing.com/search?q=Government+Girls+College+Betul+MP+courses+admission"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [],
+  "agent_notes": [
+    "The official MP Higher Education college directory identifies CollegeID 66 as Veerangana Rani Durgavati Government Girls College, Betul and links to https://highereducation.mp.gov.in/?orgid=66.",
+    "The official Regular Courses and Distance Education Courses pages contain empty PG, UG, and Diploma tables. The Departments page is also empty, while the Prospectus and institution-introduction pages are under construction.",
+    "A complete active programme catalogue cannot be established, so the record requires manual review.",
+    "The government-directory pages initially failed normal TLS with the exact managed-proxy self-signed certificate-chain error; public GETs were retried with curl --insecure after confirming the expected official NIRF hostname."
+  ]
+}

@@ -1,0 +1,340 @@
+{
+  "institution_id": "govt-college-bhitarwar",
+  "nirf_name": "GOVT COLLEGE, BHITARWAR",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Gwalior",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://highereducation.mp.gov.in/?orgid=184",
+  "website_verification_status": "verified",
+  "description": "Government College Bhitarwar is a co-educational Madhya Pradesh government college at Main Road, Bhitarwar, in Gwalior district, affiliated with Jiwaji University, Gwalior.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [
+    "epravesh.highereducation.mp.gov.in"
+  ],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact institution name GOVT COLLEGE, BHITARWAR",
+        "City BHITARWAR",
+        "State Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Exact institution name GOVT COLLEGE, BHITARWAR",
+        "City BHITARWAR",
+        "State Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://highereducation.mp.gov.in/?orgid=184",
+      "supports": [
+        "Official college website identity",
+        "College header identifies Shasकीय Mahavidyalaya Bhitarwar, District Gwalior",
+        "Madhya Pradesh Department of Higher Education affiliation"
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "https://epravesh.highereducation.mp.gov.in/EBrochure_College_Details.aspx?cm_id=RCrjNYftsWI=",
+      "supports": [
+        "College name Govt College, Bhitarwar",
+        "College district Gwalior",
+        "College taluka Bhitarwar",
+        "Address MAIN ROAD BHITARWAR",
+        "Jiwaji University, Gwalior"
+      ]
+    },
+    {
+      "type": "official_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=fRrCSIfWPPvMQD5%2BilU5hg%3D%3D&orgid=184",
+      "supports": [
+        "Official Programmes Offered page",
+        "PG Programme, UG Programme and Diploma Programme catalogue sections; no programme rows rendered"
+      ]
+    },
+    {
+      "type": "official_admissions_catalogue",
+      "url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "supports": [
+        "Official e-Pravesh college catalogue record 0314 - Govt College, Bhitarwar",
+        "Current course family B. A.",
+        "Official College_Website field points to https://highereducation.mp.gov.in/?orgid=184"
+      ]
+    },
+    {
+      "type": "official_programme_detail_endpoint",
+      "url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx/Bind_Degree_Wise_Branch_intake_EBroucher",
+      "supports": [
+        "Active B. A. branch and intake records for college ID 28",
+        "Active Honours (ARTS)(4th Year) branch and intake records for college ID 28"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "GOVT COLLEGE BHITARWAR official website Madhya Pradesh",
+      "result": "Bing results were not institution-specific; direct official-domain checks were required.",
+      "url": "https://www.bing.com/search?q=GOVT+COLLEGE+BHITARWAR+official+website+Madhya+Pradesh"
+    },
+    {
+      "query": "\"Government College Bhitarwar\" Madhya Pradesh college",
+      "result": "Bing results were not institution-specific and did not establish the official college website.",
+      "url": "https://www.bing.com/search?q=%22Government+College+Bhitarwar%22+Madhya+Pradesh+college"
+    },
+    {
+      "query": "site:highereducation.mp.gov.in Bhitarwar college",
+      "result": "Brave Search surfaced official Madhya Pradesh Higher Education and e-Pravesh pages; the official e-Pravesh catalogue was then fetched directly and matched the Bhitarwar college record and official website field.",
+      "url": "https://search.brave.com/search?q=site%3Ahighereducation.mp.gov.in+Bhitarwar+college"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "govt-college-bhitarwar-ba-english-literature",
+      "name": "B. A.",
+      "level": "UG",
+      "credential": "Bachelor's degree",
+      "specialization": "English Literature",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bhitarwar-ba-economics",
+      "name": "B. A.",
+      "level": "UG",
+      "credential": "Bachelor's degree",
+      "specialization": "Economics",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bhitarwar-ba-sociology",
+      "name": "B. A.",
+      "level": "UG",
+      "credential": "Bachelor's degree",
+      "specialization": "Sociology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bhitarwar-ba-political-science",
+      "name": "B. A.",
+      "level": "UG",
+      "credential": "Bachelor's degree",
+      "specialization": "Political Science",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bhitarwar-ba-hindi-literature",
+      "name": "B. A.",
+      "level": "UG",
+      "credential": "Bachelor's degree",
+      "specialization": "Hindi Literature",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bhitarwar-honours-arts-4th-year-english-literature",
+      "name": "Honours (ARTS)(4th Year)",
+      "level": "UG",
+      "credential": "Honours degree",
+      "specialization": "English literature",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bhitarwar-honours-arts-4th-year-economics",
+      "name": "Honours (ARTS)(4th Year)",
+      "level": "UG",
+      "credential": "Honours degree",
+      "specialization": "Economics",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bhitarwar-honours-arts-4th-year-political-science",
+      "name": "Honours (ARTS)(4th Year)",
+      "level": "UG",
+      "credential": "Honours degree",
+      "specialization": "political science",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bhitarwar-honours-arts-4th-year-sociology",
+      "name": "Honours (ARTS)(4th Year)",
+      "level": "UG",
+      "credential": "Honours degree",
+      "specialization": "Sociology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bhitarwar-honours-arts-4th-year-hindi-literature",
+      "name": "Honours (ARTS)(4th Year)",
+      "level": "UG",
+      "credential": "Honours degree",
+      "specialization": "Hindi literature",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The official college Regular Courses page contains PG Programme, UG Programme and Diploma Programme sections but no programme rows, so a complete institution-level catalogue cannot be established from that page; manual review is required.",
+    "The official Madhya Pradesh e-Pravesh catalogue identifies the matching campus as 0314 - Govt College, Bhitarwar (JIWAJI UNIVERSITY, GWALIOR), at MAIN ROAD BHITARWAR, Gwalior district, and lists active B. A. branches. Its official branch endpoint also returns active Honours (ARTS)(4th Year) branches, although that programme is not surfaced in the college page's regular-course table.",
+    "No official central catalogue page explicitly states duration or eligibility for these programmes; those fields are left null.",
+    "Normal TLS verification first failed with the managed proxy self-signed-certificate-in-chain error. Public official pages were fetched with curl --insecure only after confirming the expected official hostnames."
+  ]
+}

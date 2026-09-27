@@ -1,0 +1,75 @@
+{
+  "institution_id": "d-a-v-college-bulandshahr-mob-no-9897534305-05732-234655",
+  "nirf_name": "D.A.V. College, Bulandshahr Mob.No.9897534305 05732-234655",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": null,
+  "district_verification_status": "pending_official_source",
+  "official_website": "https://davpgcollegebulandshahr.edu.in/",
+  "website_verification_status": "ambiguous",
+  "description": null,
+  "description_verification_status": "pending",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact institution name, BULANDSHAHR city, and Uttar Pradesh state listing"
+      ]
+    },
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Exact institution name, BULANDSHAHR city, and Uttar Pradesh state listing"
+      ]
+    },
+    {
+      "type": "official_website_access_attempt",
+      "url": "https://davpgcollegebulandshahr.edu.in/",
+      "supports": [
+        "Candidate official domain identified, but direct access returned an HTTP 403 Cloudflare JavaScript challenge"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "D.A.V. College Bulandshahr 9897534305 official website",
+      "result": "Bing returned no usable official-domain result; unrelated results were ignored.",
+      "url": null
+    },
+    {
+      "query": "D.A.V. College Bulandshahr official",
+      "result": "DuckDuckGo discovery returned davpgcollegebulandshahr.edu.in titled DAV (PG) College, Bulandshahr; treated only as discovery evidence, not verification.",
+      "url": "https://davpgcollegebulandshahr.edu.in/"
+    },
+    {
+      "query": "site:davpgcollegebulandshahr.edu.in courses",
+      "result": "No indexed official course page was returned.",
+      "url": null
+    },
+    {
+      "query": "site:davpgcollegebulandshahr.edu.in admission",
+      "result": "No indexed official admission page was returned.",
+      "url": null
+    },
+    {
+      "query": "GET https://davpgcollegebulandshahr.edu.in/",
+      "result": "HTTP 403 Cloudflare managed JavaScript challenge; official homepage content could not be read.",
+      "url": "https://davpgcollegebulandshahr.edu.in/"
+    }
+  ],
+  "course_catalogue_status": "not_found",
+  "courses": [],
+  "agent_notes": [
+    "The exact institution row was independently matched in both supplied 2025 NIRF government listings.",
+    "Normal TLS verification first failed with curl error 60: self-signed certificate in certificate chain. The --insecure fallback was used only for public GET requests after confirming the expected hostnames.",
+    "The candidate official domain returned Cloudflare HTTP 403 challenges for the homepage and common catalogue/admission paths, so the official campus identity, district, description, and programme catalogue could not be verified.",
+    "Search results were used only to discover a candidate domain and were not used as verification sources. No courses were imported; manual review is required."
+  ]
+}

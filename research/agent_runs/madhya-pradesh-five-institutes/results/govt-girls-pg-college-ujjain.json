@@ -1,0 +1,62 @@
+{
+  "institution_id": "govt-girls-pg-college-ujjain",
+  "nirf_name": "Govt Girls' PG College, Ujjain",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": null,
+  "district_verification_status": "pending_official_source",
+  "official_website": "https://govtgirlspgcollegeujjain.com/",
+  "website_verification_status": "ambiguous",
+  "description": null,
+  "description_verification_status": "pending",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "The exact institution name is listed with Ujjain, Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "official_homepage_unavailable",
+      "url": "https://govtgirlspgcollegeujjain.com/",
+      "supports": [
+        "The discovered institutional domain currently serves a domain-expired landing page; the live institutional homepage could not be established."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "Govt Girls PG College Ujjain official website",
+      "result": "Search results identified govtgirlspgcollegeujjain.com, but the live domain is currently unavailable or expired.",
+      "url": "https://govtgirlspgcollegeujjain.com/"
+    },
+    {
+      "query": "Government Girls PG College, Ujjain",
+      "result": "Search results identified programme pages on govtgirlspgcollegeujjain.com and the Ujjain district government directory; programme snippets were not used as verification evidence.",
+      "url": "https://govtgirlspgcollegeujjain.com/undergraduate-programmes/"
+    },
+    {
+      "query": "site:mp.gov.in \"Government Girls PG College\" Ujjain",
+      "result": "No active Madhya Pradesh government-hosted institutional website was established; results pointed to the Ujjain district directory and the expired institutional domain.",
+      "url": "https://ujjain.nic.in/en/public-utility/government-girls-pg-college/"
+    },
+    {
+      "query": "site:ac.in \"Govt Girls PG College\" Ujjain",
+      "result": "No matching active official .ac.in institutional website was established.",
+      "url": null
+    }
+  ],
+  "course_catalogue_status": "not_found",
+  "courses": [],
+  "agent_notes": [
+    "The exact institution is established in the supplied NIRF 2025 College listing with city Ujjain and state Madhya Pradesh.",
+    "Normal TLS verification first failed with the managed proxy's exact self-signed-certificate-in-chain error; public GET retries used curl --insecure only after confirming the expected NIRF, search, and institution hostnames.",
+    "The discovered institutional domain currently serves a domain-expired landing page and its programme pages could not be read as a current official catalogue. Search snippets were not used to import courses, duration, eligibility, or description.",
+    "Manual review is required to confirm a currently active official website and complete current programme catalogue."
+  ]
+}

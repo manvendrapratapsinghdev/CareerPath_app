@@ -1,0 +1,14 @@
+{
+  "institution_id": "legacy-248",
+  "database_id": 248,
+  "name": "India Meteorological Department (IMD)",
+  "website": "https://www.imd.gov.in",
+  "outcome": "classified",
+  "institution_type": "central_institute",
+  "source_url": "https://mausam.imd.gov.in/responsive/mandate.php",
+  "confidence": "high",
+  "evidence": "The official IMD Mandate page identifies it as India's National Meteorological Service and the principal government agency for meteorology and allied subjects, with the page header placing it under the Ministry of Earth Sciences, Government of India.",
+  "notes": [
+    "Normal TLS verification failed with curl error 60 due to a self-signed certificate in the proxy certificate chain; used curl --insecure for public GET requests to the official IMD subdomain."
+  ]
+}

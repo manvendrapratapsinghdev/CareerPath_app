@@ -1,0 +1,91 @@
+{
+  "batch": 1,
+  "started_at": "2026-09-27T07:13:21.592232+00:00",
+  "finished_at": "2026-09-27T07:13:42.120498+00:00",
+  "assignment_count": 5,
+  "completed_count": 0,
+  "skipped_count": 0,
+  "failed_count": 5,
+  "results": [
+    {
+      "institution_id": "indian-institute-of-information-technology-allahabad",
+      "nirf_name": "Indian Institute of Information Technology Allahabad",
+      "status": "failed",
+      "started_at": "2026-09-27T07:13:21.768855+00:00",
+      "finished_at": "2026-09-27T07:13:42.100470+00:00",
+      "duration_seconds": 20.331,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-wave-02/logs/indian-institute-of-information-technology-allahabad.jsonl"
+    },
+    {
+      "institution_id": "indian-institute-of-management-lucknow",
+      "nirf_name": "Indian Institute of Management Lucknow",
+      "status": "failed",
+      "started_at": "2026-09-27T07:13:21.728731+00:00",
+      "finished_at": "2026-09-27T07:13:42.072882+00:00",
+      "duration_seconds": 20.344,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-wave-02/logs/indian-institute-of-management-lucknow.jsonl"
+    },
+    {
+      "institution_id": "indian-institute-of-technology-banaras-hindu-university-varanasi",
+      "nirf_name": "Indian Institute of Technology (Banaras Hindu University) Varanasi",
+      "status": "failed",
+      "started_at": "2026-09-27T07:13:21.773201+00:00",
+      "finished_at": "2026-09-27T07:13:42.053380+00:00",
+      "duration_seconds": 20.28,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-wave-02/logs/indian-institute-of-technology-banaras-hindu-university-varanasi.jsonl"
+    },
+    {
+      "institution_id": "indian-institute-of-technology-kanpur",
+      "nirf_name": "Indian Institute of Technology Kanpur",
+      "status": "failed",
+      "started_at": "2026-09-27T07:13:21.735115+00:00",
+      "finished_at": "2026-09-27T07:13:41.985397+00:00",
+      "duration_seconds": 20.25,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-wave-02/logs/indian-institute-of-technology-kanpur.jsonl"
+    },
+    {
+      "institution_id": "motilal-nehru-national-institute-of-technology",
+      "nirf_name": "Motilal Nehru National Institute of Technology",
+      "status": "failed",
+      "started_at": "2026-09-27T07:13:21.753129+00:00",
+      "finished_at": "2026-09-27T07:13:41.850228+00:00",
+      "duration_seconds": 20.096,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-wave-02/logs/motilal-nehru-national-institute-of-technology.jsonl"
+    }
+  ]
+}

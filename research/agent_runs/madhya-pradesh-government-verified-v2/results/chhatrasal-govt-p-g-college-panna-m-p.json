@@ -1,0 +1,106 @@
+{
+  "institution_id": "chhatrasal-govt-p-g-college-panna-m-p",
+  "nirf_name": "chhatrasal Govt. p G college, panna, M p",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "remove_candidate",
+  "district": null,
+  "district_verification_status": "not_found",
+  "official_website": null,
+  "website_verification_status": "not_found",
+  "description": null,
+  "description_verification_status": "not_found",
+  "record_status": "remove_candidate",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "The exact assigned institution name is listed with city PANNA and state Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "government_district_directory",
+      "url": "https://panna.nic.in/en/public-utility/chhatrasal-govt-p-g-college/",
+      "supports": [
+        "District Panna government page identifies PM College of excellence Chhatrasal Govt P G College at Near Bus Stand, Panna (M.P.)."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Chhatrasal\" \"Panna\" government college official",
+      "result": "No official institution website established from the retrieved search results.",
+      "url": "https://www.bing.com/search?q=%22Chhatrasal%22+%22Panna%22+government+college+official"
+    },
+    {
+      "query": "\"Chhatrasal Govt P G College Panna\"",
+      "result": "No official institution website established from the retrieved search results.",
+      "url": "https://www.bing.com/search?q=%22Chhatrasal+Govt+P+G+College+Panna%22"
+    },
+    {
+      "query": "\"Chhatrasal Government Post Graduate College\" Panna",
+      "result": "No official institution website established from the retrieved search results.",
+      "url": "https://www.bing.com/search?q=%22Chhatrasal+Government+Post+Graduate+College%22+Panna"
+    },
+    {
+      "query": "site:mp.gov.in \"Chhatrasal\" \"Panna\" college",
+      "result": "No official college website established from the retrieved search results.",
+      "url": "https://www.bing.com/search?q=site%3Amp.gov.in+%22Chhatrasal%22+%22Panna%22+college"
+    },
+    {
+      "query": "site:edu.in \"Chhatrasal\" \"Panna\" college",
+      "result": "No official college website established from the retrieved search results.",
+      "url": "https://www.bing.com/search?q=site%3Aedu.in+%22Chhatrasal%22+%22Panna%22+college"
+    },
+    {
+      "query": "Chhatrasal Panna college -shiksha -careers360",
+      "result": "No official institution website established from the retrieved search results.",
+      "url": "https://www.google.com/search?q=Chhatrasal+Panna+college+-shiksha+-careers360"
+    },
+    {
+      "query": "\"Chhatrasal Government College\" Panna",
+      "result": "No official institution website established from the retrieved search results.",
+      "url": "https://www.google.com/search?q=%22Chhatrasal+Government+College%22+Panna"
+    },
+    {
+      "query": "site:mponline.gov.in Panna college Chhatrasal",
+      "result": "No official institution website established from the retrieved search results.",
+      "url": "https://www.google.com/search?q=site%3Amponline.gov.in+Panna+college+Chhatrasal"
+    },
+    {
+      "query": "site:highereducation.mp.gov.in Panna college",
+      "result": "No official institution website established from the retrieved search results.",
+      "url": "https://www.google.com/search?q=site%3Ahighereducation.mp.gov.in+Panna+college"
+    },
+    {
+      "query": "hegcpgcpan@mp.gov.in",
+      "result": "Google autocomplete returned no related official-site result; direct search pages were CAPTCHA-blocked.",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&q=hegcpgcpan%40mp.gov.in"
+    },
+    {
+      "query": "Chhatrasal Govt PG College Panna",
+      "result": "Autocomplete returned name variants but no official website domain.",
+      "url": "https://suggestqueries.google.com/complete/search?client=firefox&q=Chhatrasal+Govt+PG+College+Panna"
+    },
+    {
+      "query": "Candidate official-domain check: chhatrasalcollegepanna, chhatrasalpgcollegepanna, gpgcollegepanna, govtcollegepanna, govtpgcollegepanna and related .in/.ac.in/.edu.in/.mp.gov.in variants",
+      "result": "All checked candidate hostnames failed DNS resolution; no official institution domain established.",
+      "url": null
+    },
+    {
+      "query": "https://highereducation.mp.gov.in/ClgProfile",
+      "result": "The official Madhya Pradesh Higher Education College Profile endpoint returned a government login page, not a public institution website or public course catalogue for this college.",
+      "url": "https://highereducation.mp.gov.in/ClgProfile"
+    }
+  ],
+  "course_catalogue_status": "not_found",
+  "courses": [],
+  "agent_notes": [
+    "Managed proxy certificate-chain fallback: normal TLS curl returned the exact self-signed certificate in certificate chain error; curl --insecure was used only for public GETs to expected official, search, and government domains.",
+    "The NIRF listing and District Panna government directory establish the assigned Panna campus identity, but no institution-controlled official website or official programme catalogue could be established after multiple focused searches and authoritative-domain checks.",
+    "No courses were imported because the research rules require the institution's actual official website as evidence for programme catalogue facts."
+  ]
+}

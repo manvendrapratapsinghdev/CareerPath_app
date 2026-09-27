@@ -1,0 +1,91 @@
+{
+  "batch": 36,
+  "started_at": "2026-09-27T07:16:37.999714+00:00",
+  "finished_at": "2026-09-27T07:16:53.216783+00:00",
+  "assignment_count": 5,
+  "completed_count": 0,
+  "skipped_count": 0,
+  "failed_count": 5,
+  "results": [
+    {
+      "institution_id": "alpha-college-shyampur",
+      "nirf_name": "ALPHA COLLEGE, SHYAMPUR",
+      "status": "failed",
+      "started_at": "2026-09-27T07:16:38.037980+00:00",
+      "finished_at": "2026-09-27T07:16:52.237158+00:00",
+      "duration_seconds": 14.199,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/alpha-college-shyampur.jsonl"
+    },
+    {
+      "institution_id": "christukula-mission-womens-english-medium-college",
+      "nirf_name": "CHRISTUKULA MISSION WOMENS ENGLISH MEDIUM COLLEGE",
+      "status": "failed",
+      "started_at": "2026-09-27T07:16:38.053041+00:00",
+      "finished_at": "2026-09-27T07:16:53.210376+00:00",
+      "duration_seconds": 15.157,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/christukula-mission-womens-english-medium-college.jsonl"
+    },
+    {
+      "institution_id": "d-p-chtaturvedi-science-commerce-college-seoni",
+      "nirf_name": "D.P. Chtaturvedi Science, Commerce College, Seoni",
+      "status": "failed",
+      "started_at": "2026-09-27T07:16:38.066898+00:00",
+      "finished_at": "2026-09-27T07:16:49.800053+00:00",
+      "duration_seconds": 11.732,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/d-p-chtaturvedi-science-commerce-college-seoni.jsonl"
+    },
+    {
+      "institution_id": "government-college-rheti",
+      "nirf_name": "GOVERNMENT COLLEGE RHETI",
+      "status": "failed",
+      "started_at": "2026-09-27T07:16:38.049253+00:00",
+      "finished_at": "2026-09-27T07:16:53.206855+00:00",
+      "duration_seconds": 15.157,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/government-college-rheti.jsonl"
+    },
+    {
+      "institution_id": "government-college-satwas",
+      "nirf_name": "GOVERNMENT COLLEGE, SATWAS",
+      "status": "failed",
+      "started_at": "2026-09-27T07:16:38.039605+00:00",
+      "finished_at": "2026-09-27T07:16:53.156578+00:00",
+      "duration_seconds": 15.117,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/government-college-satwas.jsonl"
+    }
+  ]
+}

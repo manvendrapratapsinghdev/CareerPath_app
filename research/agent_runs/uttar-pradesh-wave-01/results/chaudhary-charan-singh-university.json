@@ -1,0 +1,3464 @@
+{
+  "institution_id": "chaudhary-charan-singh-university",
+  "nirf_name": "Chaudhary Charan Singh University",
+  "verification_outcome": "verified",
+  "district": "Meerut",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://www.ccsuniversity.ac.in/",
+  "website_verification_status": "verified",
+  "description": "Chaudhary Charan Singh University is a state university in Meerut, Uttar Pradesh, established in 1965, with its University Campus at Ramgarhi, Meerut.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [
+    "api.ccsuniversity.ac.in",
+    "cdn.ccsuniversity.ac.in"
+  ],
+  "verification_sources": [
+    {
+      "type": "official_homepage",
+      "url": "https://www.ccsuniversity.ac.in/",
+      "supports": [
+        "official website identity",
+        "Chaudhary Charan Singh University, Meerut"
+      ]
+    },
+    {
+      "type": "campus_identity_and_address",
+      "url": "https://www.ccsuniversity.ac.in/contact",
+      "supports": [
+        "Chaudhary Charan Singh University, Ramgarhi, Meerut, Uttar Pradesh 250004"
+      ]
+    },
+    {
+      "type": "institutional_history",
+      "url": "https://www.ccsuniversity.ac.in/history",
+      "supports": [
+        "institution established in 1965",
+        "University history and campus description"
+      ]
+    },
+    {
+      "type": "official_programme_catalogue",
+      "url": "https://www.ccsuniversity.ac.in/prog-offered-courses",
+      "supports": [
+        "official Programmes Offered catalogue",
+        "undergraduate, postgraduate, doctoral, diploma and certificate programme names"
+      ]
+    },
+    {
+      "type": "official_regular_and_self_finance_catalogue",
+      "url": "https://www.ccsuniversity.ac.in/regular-courses",
+      "supports": [
+        "official regular and self-finance course catalogue"
+      ]
+    },
+    {
+      "type": "official_admissions_page",
+      "url": "https://www.ccsuniversity.ac.in/admission",
+      "supports": [
+        "2026-27 campus admission links and official admission brochure"
+      ]
+    },
+    {
+      "type": "official_2026_27_campus_brochure",
+      "url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "supports": [
+        "2026-27 University Campus programme catalogue",
+        "programme durations",
+        "eligibility conditions",
+        "active government-aided and self-financed programmes"
+      ]
+    },
+    {
+      "type": "official_syllabus_catalogue_api",
+      "url": "https://api.ccsuniversity.ac.in/syllabus/course/",
+      "supports": [
+        "official syllabus/course catalogue corroborating current campus programme families"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "Chaudhary Charan Singh University Meerut official",
+      "result": "Google returned an automated-traffic CAPTCHA response; no search snippet was used as verification. The official domain was then checked directly.",
+      "url": "https://www.google.com/search?q=Chaudhary+Charan+Singh+University+Meerut+official"
+    },
+    {
+      "query": "site:ccsuniversity.ac.in Chaudhary Charan Singh University Meerut courses",
+      "result": "Google returned an automated-traffic CAPTCHA response; no search snippet was used as verification. The official domain was then checked directly.",
+      "url": "https://www.google.com/search?q=site%3Accsuniversity.ac.in+Chaudhary+Charan+Singh+University+Meerut+courses"
+    },
+    {
+      "query": "Chaudhary Charan Singh University Meerut official site courses",
+      "result": "Bing did not provide a reliable official result in the command-line response; the expected official domain was independently confirmed by direct HTTPS GET.",
+      "url": "https://www.bing.com/search?q=Chaudhary+Charan+Singh+University+Meerut+official+site+courses"
+    }
+  ],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-gov-msc-ag-gpb",
+      "name": "M.Sc. (Ag.)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Genetics and Plant Breeding",
+      "duration": "2 years (4 semesters)",
+      "mode": "government-aided campus",
+      "eligibility": "Four-year bachelor's degree in Agriculture with 50% marks in aggregate for General/OBC candidates.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "direct agriculture discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-gov-msc-ag-horticulture",
+      "name": "M.Sc. (Ag.)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Horticulture",
+      "duration": "2 years (4 semesters)",
+      "mode": "government-aided campus",
+      "eligibility": "Four-year bachelor's degree in Agriculture with 50% marks in aggregate for General/OBC candidates.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "direct agriculture discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-gov-ma-english",
+      "name": "M.A.",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "English",
+      "duration": "2 years (4 semesters)",
+      "mode": "government-aided campus",
+      "eligibility": "Bachelor's degree with the concerned subject as one of the main subjects.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "closest official-tree English discipline node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-gov-ma-hindi",
+      "name": "M.A.",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Hindi",
+      "duration": "2 years (4 semesters)",
+      "mode": "government-aided campus",
+      "eligibility": "Bachelor's degree with the concerned subject as one of the main subjects.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "closest official-tree Hindi discipline node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-gov-ma-urdu",
+      "name": "M.A.",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Urdu",
+      "duration": "2 years (4 semesters)",
+      "mode": "government-aided campus",
+      "eligibility": "Bachelor's degree with the concerned subject as one of the main subjects.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "nearest parent for Urdu; no exact Urdu postgraduate node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-gov-ma-economics",
+      "name": "M.A.",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Economics",
+      "duration": "2 years (4 semesters)",
+      "mode": "government-aided campus",
+      "eligibility": "Bachelor's degree with the concerned subject as one of the main subjects; additional official eligibility routes apply for candidates with Mathematics, B.B.A., B.Com. or B.C.A.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "closest official-tree Economics discipline node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-gov-ma-history",
+      "name": "M.A.",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "History",
+      "duration": "2 years (4 semesters)",
+      "mode": "government-aided campus",
+      "eligibility": "Bachelor's degree with the concerned subject as one of the main subjects.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "closest official-tree History discipline node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-gov-ma-political-science",
+      "name": "M.A.",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Political Science",
+      "duration": "2 years (4 semesters)",
+      "mode": "government-aided campus",
+      "eligibility": "Bachelor's degree with the concerned subject as one of the main subjects.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "closest official-tree Political Science discipline node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-gov-ma-psychology",
+      "name": "M.A.",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Psychology",
+      "duration": "2 years (4 semesters)",
+      "mode": "government-aided campus",
+      "eligibility": "Any bachelor's degree with minimum 50% marks in the qualifying degree; official weightage rules also apply.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 66,
+          "career_node_slug": "ba_psychology",
+          "career_breadcrumb": "Social Sciences & Education > BA Psychology",
+          "relation": "closest official-tree Psychology discipline node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-gov-ma-sociology",
+      "name": "M.A.",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Sociology",
+      "duration": "2 years (4 semesters)",
+      "mode": "government-aided campus",
+      "eligibility": "Bachelor's degree with the concerned subject as one of the main subjects; B.Sc. or B.B.A. graduates are also eligible under the official conditions.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "closest official-tree Sociology discipline node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-gov-ma-sanskrit",
+      "name": "M.A.",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Sanskrit",
+      "duration": "2 years (4 semesters)",
+      "mode": "government-aided campus",
+      "eligibility": "Bachelor's degree with the concerned subject as one of the main subjects.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "nearest parent for Sanskrit; no exact Sanskrit node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-gov-ba-hons-english",
+      "name": "B.A. Honors",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "English",
+      "duration": "4 years (8 semesters)",
+      "mode": "self-financed campus",
+      "eligibility": "Intermediate in any discipline with 45% marks in aggregate.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "direct English discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-gov-ba-hons-hindi",
+      "name": "B.A. Honors",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Hindi",
+      "duration": "4 years (8 semesters)",
+      "mode": "self-financed campus",
+      "eligibility": "Intermediate in any discipline with 45% marks in aggregate.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct Hindi discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-gov-ba-hons-urdu",
+      "name": "B.A. Honors",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Urdu",
+      "duration": "4 years (8 semesters)",
+      "mode": "self-financed campus",
+      "eligibility": "Intermediate in any discipline with 45% marks in aggregate.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "nearest parent for Urdu; no exact Urdu node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-gov-ba-hons-economics",
+      "name": "B.A. Honors",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Economics",
+      "duration": "4 years (8 semesters)",
+      "mode": "self-financed campus",
+      "eligibility": "Intermediate in any discipline with 45% marks in aggregate.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct Economics discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-gov-ba-hons-history",
+      "name": "B.A. Honors",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "History",
+      "duration": "4 years (8 semesters)",
+      "mode": "self-financed campus",
+      "eligibility": "Intermediate in any discipline with 45% marks in aggregate.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct History discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-gov-ba-hons-political-science",
+      "name": "B.A. Honors",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Political Science",
+      "duration": "4 years (8 semesters)",
+      "mode": "self-financed campus",
+      "eligibility": "Intermediate in any discipline with 45% marks in aggregate.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct Political Science discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-gov-ba-hons-psychology",
+      "name": "B.A. Honors",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Psychology",
+      "duration": "4 years (8 semesters)",
+      "mode": "self-financed campus",
+      "eligibility": "Intermediate in any discipline with 45% marks in aggregate.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 66,
+          "career_node_slug": "ba_psychology",
+          "career_breadcrumb": "Social Sciences & Education > BA Psychology",
+          "relation": "direct Psychology discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-gov-ba-hons-sociology",
+      "name": "B.A. Honors",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Sociology",
+      "duration": "4 years (8 semesters)",
+      "mode": "self-financed campus",
+      "eligibility": "Intermediate in any discipline with 45% marks in aggregate.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct Sociology discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-gov-ba-hons-sanskrit",
+      "name": "B.A. Honors",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Sanskrit",
+      "duration": "4 years (8 semesters)",
+      "mode": "self-financed campus",
+      "eligibility": "Intermediate in any discipline with 45% marks in aggregate.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "nearest parent for Sanskrit; no exact Sanskrit node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-gov-adv-diploma-russian",
+      "name": "Advanced Diploma in Russian Language and Literature",
+      "level": "diploma",
+      "credential": "advanced diploma",
+      "specialization": "Russian Language and Literature",
+      "duration": "1 year",
+      "mode": "self-financed campus",
+      "eligibility": "Graduation in any discipline and 48% marks in Diploma in Russian Language or equivalent.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 74,
+          "career_node_slug": "ba_foreign_lang",
+          "career_breadcrumb": "Languages & Literature > BA Foreign Language (French/German/Japanese)",
+          "relation": "closest foreign-language discipline mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-gov-diploma-russian",
+      "name": "Diploma in Russian Language",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": "Russian Language",
+      "duration": "1 year",
+      "mode": "self-financed campus",
+      "eligibility": "45% marks in Intermediate and 48% marks in Certificate of Proficiency in Russian or equivalent.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 74,
+          "career_node_slug": "ba_foreign_lang",
+          "career_breadcrumb": "Languages & Literature > BA Foreign Language (French/German/Japanese)",
+          "relation": "closest foreign-language discipline mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-gov-cert-russian",
+      "name": "Certificate of Proficiency in Russian",
+      "level": "certificate",
+      "credential": "certificate",
+      "specialization": "Russian Language",
+      "duration": "1 year",
+      "mode": "self-financed campus",
+      "eligibility": "10+2 or Higher Secondary in any discipline with 45% marks.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 74,
+          "career_node_slug": "ba_foreign_lang",
+          "career_breadcrumb": "Languages & Literature > BA Foreign Language (French/German/Japanese)",
+          "relation": "closest foreign-language discipline mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-gov-med",
+      "name": "M.Ed.",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Education",
+      "duration": "2 years",
+      "mode": "government-aided campus",
+      "eligibility": "Minimum 50% marks or equivalent grade in B.Ed., B.A.-B.Ed., B.Sc.-B.Ed., B.El.Ed. or D.El.Ed. with an undergraduate degree and 50% marks in each.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "closest official-tree Education discipline node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-gov-msc-botany",
+      "name": "M.Sc.",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Botany",
+      "duration": "2 years (4 semesters)",
+      "mode": "government-aided campus",
+      "eligibility": "B.Sc. degree with the concerned subject as one of the main subjects, with 45% marks in aggregate and 50% marks in the subject.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest biology discipline node for Botany",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-gov-msc-chemistry",
+      "name": "M.Sc.",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Chemistry",
+      "duration": "2 years (4 semesters)",
+      "mode": "government-aided campus",
+      "eligibility": "B.Sc. degree with the concerned subject as one of the main subjects, with 45% marks in aggregate and 50% marks in the subject.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "closest official-tree Chemistry discipline node",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-gov-msc-mathematics",
+      "name": "M.Sc.",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Mathematics",
+      "duration": "2 years (4 semesters)",
+      "mode": "government-aided campus",
+      "eligibility": "B.Sc. degree with the concerned subject as one of the main subjects, with 45% marks in aggregate and 50% marks in the subject.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "closest official-tree Mathematics discipline node",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-gov-msc-microbiology",
+      "name": "M.Sc.",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Microbiology",
+      "duration": "2 years (4 semesters)",
+      "mode": "government-aided campus",
+      "eligibility": "B.Sc. degree with the concerned subject as one of the main subjects, with 45% marks in aggregate and 50% marks in the subject; Microbiology also accepts specified CBZ, medical, paramedical, M.L.T., biotechnology and food microbiology backgrounds.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 34,
+          "career_node_slug": "bsc_microbio",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Microbiology",
+          "relation": "closest official-tree Microbiology discipline node",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-gov-msc-physics",
+      "name": "M.Sc.",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Physics",
+      "duration": "2 years (4 semesters)",
+      "mode": "government-aided campus",
+      "eligibility": "B.Sc. degree with the concerned subject as one of the main subjects, with 45% marks in aggregate and 50% marks in the subject; Physics accepts specified Physics and Mathematics combinations.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 24,
+          "career_node_slug": "bsc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics",
+          "relation": "closest official-tree Physics discipline node",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-gov-msc-statistics",
+      "name": "M.Sc.",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Statistics",
+      "duration": "2 years (4 semesters)",
+      "mode": "government-aided campus",
+      "eligibility": "B.Sc. degree with the concerned subject as one of the main subjects, with 45% marks in aggregate and 50% marks in the subject; B.A./B.Sc. with Statistics or Mathematics is also eligible.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 6,
+          "career_node_slug": "bsc_stats",
+          "career_breadcrumb": "Maths / PCM > B.Sc Statistics",
+          "relation": "closest official-tree Statistics discipline node",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-gov-msc-toxicology",
+      "name": "M.Sc.",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Toxicology",
+      "duration": "2 years (4 semesters)",
+      "mode": "government-aided campus",
+      "eligibility": "B.Sc. degree with the concerned subject as one of the main subjects, with 45% marks in aggregate and 50% marks in the subject; Chemistry, Botany, Zoology or Forensic Science backgrounds are eligible.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "nearest biology parent for Toxicology; no exact Toxicology node exists",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-gov-msc-zoology",
+      "name": "M.Sc.",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Zoology",
+      "duration": "2 years (4 semesters)",
+      "mode": "government-aided campus",
+      "eligibility": "B.Sc. degree with the concerned subject as one of the main subjects, with 45% marks in aggregate and 50% marks in the subject.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest biology discipline node for Zoology",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-gov-bsc-hons-botany",
+      "name": "B.Sc. Honors",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Botany",
+      "duration": "4 years (8 semesters)",
+      "mode": "self-financed campus",
+      "eligibility": "10+2 with Biology or PCMB with 45% marks.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest biology discipline node for Botany",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-gov-bsc-hons-chemistry",
+      "name": "B.Sc. Honors",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Chemistry",
+      "duration": "4 years (8 semesters)",
+      "mode": "self-financed campus",
+      "eligibility": "10+2 with CBZ, PCM or PCMB with 45% marks.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "direct Chemistry discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-gov-bsc-hons-physics",
+      "name": "B.Sc. Honors",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Physics",
+      "duration": "4 years (8 semesters)",
+      "mode": "self-financed campus",
+      "eligibility": "10+2 with PCM or PCMB with 45% marks.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 24,
+          "career_node_slug": "bsc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics",
+          "relation": "direct Physics discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-gov-bsc-hons-statistics",
+      "name": "B.Sc. Honors",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Statistics",
+      "duration": "4 years (8 semesters)",
+      "mode": "self-financed campus",
+      "eligibility": "10+2 with PCM or PCMB with 45% marks.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 6,
+          "career_node_slug": "bsc_stats",
+          "career_breadcrumb": "Maths / PCM > B.Sc Statistics",
+          "relation": "direct Statistics discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-gov-bsc-hons-zoology",
+      "name": "B.Sc. Honors",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Zoology",
+      "duration": "4 years (8 semesters)",
+      "mode": "self-financed campus",
+      "eligibility": "10+2 with Biology or PCMB with 45% marks.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest biology discipline node for Zoology",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-gov-bsc-hons-mathematics",
+      "name": "B.Sc. Honors",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Mathematics",
+      "duration": "4 years (8 semesters)",
+      "mode": "self-financed campus",
+      "eligibility": "10+2 with PCM or PCMB with 45% marks.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct Mathematics discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-msc-ag-food",
+      "name": "M.Sc. (Ag.)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Food Science and Technology",
+      "duration": "2 years",
+      "mode": "self-financed campus",
+      "eligibility": "Bachelor's degree in Agriculture, Biology (CBZ), Food Science or a bachelor's degree with Food Science as a subject, with 50% marks.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 28,
+          "career_node_slug": "bsc_food_tech",
+          "career_breadcrumb": "Common Paths > B.Sc Food Technology",
+          "relation": "closest food-technology discipline mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-msc-ag-seed",
+      "name": "M.Sc. (Ag.)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Seed Science and Technology",
+      "duration": "2 years",
+      "mode": "self-financed campus",
+      "eligibility": "Bachelor's degree in Agriculture, Seed Science, Biotechnology or Biology Group (CBZ) with 50% marks.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "direct agriculture discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-msc-ag-entomology",
+      "name": "M.Sc. (Ag.)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Entomology",
+      "duration": "2 years",
+      "mode": "self-financed campus",
+      "eligibility": "Bachelor's degree in Agriculture, Horticulture, Forestry or B.Sc. with Chemistry, Botany and Zoology, with 50% marks.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "direct agriculture discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-msc-ag-plant-pathology",
+      "name": "M.Sc. (Ag.)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Plant Pathology",
+      "duration": "2 years",
+      "mode": "self-financed campus",
+      "eligibility": "Bachelor's degree in Agriculture, Horticulture, Forestry or B.Sc. with Chemistry, Botany and Zoology, with 50% marks.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "direct agriculture discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-ma-yoga",
+      "name": "M.A. (Yoga Science)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Yoga Science",
+      "duration": null,
+      "mode": "self-financed campus",
+      "eligibility": "Bachelor's degree in any subject with 45% marks.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 78,
+          "career_node_slug": "sports_career",
+          "career_breadcrumb": "Performing Arts & Sports > Sports & Physical Education",
+          "relation": "nearest parent for Yoga Science; no exact Yoga node exists",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-mfa-drawing",
+      "name": "Master of Fine Arts",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Drawing and Painting",
+      "duration": null,
+      "mode": "self-financed campus",
+      "eligibility": "B.F.A. or B.A. degree including the concerned subject, with 50% marks in aggregate.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 60,
+          "career_node_slug": "bfa",
+          "career_breadcrumb": "Media & Journalism > B.F.A (Fine Arts)",
+          "relation": "closest fine-arts discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-mfa-applied",
+      "name": "Master of Fine Arts",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Applied Arts",
+      "duration": null,
+      "mode": "self-financed campus",
+      "eligibility": "B.A. degree with any subject, with 50% marks for General/OBC and 45% for SC/ST.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 60,
+          "career_node_slug": "bfa",
+          "career_breadcrumb": "Media & Journalism > B.F.A (Fine Arts)",
+          "relation": "closest fine-arts discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-ma-geography",
+      "name": "M.A.",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Geography",
+      "duration": null,
+      "mode": "self-financed campus",
+      "eligibility": "Bachelor's degree with 45% marks in aggregate.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 9,
+          "career_node_slug": "bsc_geology",
+          "career_breadcrumb": "Maths / PCM > B.Sc Geology / Earth Sciences",
+          "relation": "nearest earth-sciences parent for Geography; no exact Geography node exists",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-ma-journalism",
+      "name": "Master of Journalism and Mass Communication",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Journalism and Mass Communication",
+      "duration": null,
+      "mode": "self-financed campus",
+      "eligibility": "Bachelor's degree in any discipline, preferably B.J.M.C., with 40% marks for General/OBC and 35% for SC/ST.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 59,
+          "career_node_slug": "bjmc",
+          "career_breadcrumb": "Media & Journalism > B.J.M.C (Journalism & Mass Comm)",
+          "relation": "closest journalism discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-ma-ancient-history",
+      "name": "M.A.",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Ancient Indian History, Culture and Archaeology",
+      "duration": null,
+      "mode": "self-financed campus",
+      "eligibility": "Graduate in any stream with minimum 45% marks from a recognised university.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "closest History discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-msw",
+      "name": "Master of Social Work",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Social Work",
+      "duration": "2 years (4 semesters)",
+      "mode": "self-financed campus",
+      "eligibility": "Bachelor's degree in any discipline with 48% marks.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "nearest social-sciences parent for Social Work",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-mped",
+      "name": "Master of Physical Education",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Physical Education",
+      "duration": null,
+      "mode": "self-financed campus",
+      "eligibility": "B.P.Ed. or equivalent with at least 50% marks, or B.Sc. in Health and Physical Education with at least 50% marks.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 78,
+          "career_node_slug": "sports_career",
+          "career_breadcrumb": "Performing Arts & Sports > Sports & Physical Education",
+          "relation": "direct Physical Education discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-mlisc",
+      "name": "Master of Library and Information Science",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Library and Information Science",
+      "duration": null,
+      "mode": "self-financed campus",
+      "eligibility": "B.Lib.Sc. or B.L.I.Sc. with 50% marks.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest parent; no exact Library and Information Science node exists",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-llm",
+      "name": "LL.M.",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Law",
+      "duration": null,
+      "mode": "self-financed campus",
+      "eligibility": "LL.B. three-year or five-year course with 49.5% marks for General and 48% for SC/ST/OBC, or equivalent grade point in aggregate.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 347,
+          "career_node_slug": "art_law",
+          "career_breadcrumb": "Law & Civil Services",
+          "relation": "nearest Law parent; no exact LL.M. node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-mpa",
+      "name": "Master of Public Administration",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Public Administration",
+      "duration": null,
+      "mode": "self-financed campus",
+      "eligibility": "Bachelor's degree with 50% marks in any discipline.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "closest Public Administration discipline mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-mba-ha",
+      "name": "M.B.A. (Hospital Administration)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Hospital Administration",
+      "duration": "2 years",
+      "mode": "self-financed campus",
+      "eligibility": "Bachelor's degree with 45% marks.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 208,
+          "career_node_slug": "mba_general",
+          "career_breadcrumb": "Management & Business > BBA (General) > MBA → CEO / Director Track",
+          "relation": "closest management parent for Hospital Administration",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-mba",
+      "name": "M.B.A. 2 years Programme",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Business Administration",
+      "duration": "2 years (4 semesters)",
+      "mode": "self-financed campus",
+      "eligibility": "Bachelor's degree with 45% marks.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 208,
+          "career_node_slug": "mba_general",
+          "career_breadcrumb": "Management & Business > BBA (General) > MBA → CEO / Director Track",
+          "relation": "direct MBA mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-mca",
+      "name": "MCA 2 years",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Computer Applications",
+      "duration": "2 years (4 semesters)",
+      "mode": "self-financed campus",
+      "eligibility": "Graduate in any stream with Mathematics at 10+2 or graduate level, or BCA/B.Sc. Computer Science/IT with 50% marks.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 93,
+          "career_node_slug": "mca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications) > MCA → Software Engineer",
+          "relation": "direct MCA mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-mcom",
+      "name": "M.Com. (NEP)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Commerce",
+      "duration": null,
+      "mode": "self-financed campus",
+      "eligibility": "Graduate in Commerce or Management with 55% marks.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 198,
+          "career_node_slug": "mcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons) > M.Com → Professor / Researcher",
+          "relation": "direct M.Com mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-ma-home-science",
+      "name": "M.A.",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Home Science",
+      "duration": null,
+      "mode": "self-financed campus",
+      "eligibility": "All science graduates or B.A. with Home Science as one subject.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 337,
+          "career_node_slug": "science_common",
+          "career_breadcrumb": "Common Paths",
+          "relation": "nearest science parent; no exact Home Science node exists",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-ma-jyotirvigyan",
+      "name": "M.A. in Jyotirvigyan",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Jyotirvigyan",
+      "duration": null,
+      "mode": "self-financed campus",
+      "eligibility": "Bachelor's degree under the 10+2+3 pattern with minimum 33% marks.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "nearest humanities/languages parent; no exact Jyotirvigyan node exists",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-msc-forensic",
+      "name": "M.Sc. Forensic Science",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Forensic Science",
+      "duration": null,
+      "mode": "self-financed campus",
+      "eligibility": "Bachelor's degree in Forensic Science, Life Science, Zoology, Botany, Biotechnology, Chemistry, Physics, Microbiology, Biochemistry, Genetics, Toxicology, Engineering, Pharmacy or Medicine with 55% marks.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 27,
+          "career_node_slug": "bsc_forensic",
+          "career_breadcrumb": "Common Paths > B.Sc Forensic Science",
+          "relation": "direct Forensic Science mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-mtech-cse",
+      "name": "M.Tech. (CSE)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Computer Science and Engineering",
+      "duration": "2 years (4 semesters)",
+      "mode": "self-financed campus",
+      "eligibility": "M.Sc. in Mathematics, Physics, Statistics, Computer Science or Information Technology with minimum 50% for General or 45% for reserved categories, or MCA/B.Tech. with the stated marks or a valid GATE score.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "closest Computer Science engineering node",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-mtech-ece",
+      "name": "M.Tech. (ECE)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Electronics and Communication Engineering",
+      "duration": "2 years (4 semesters)",
+      "mode": "self-financed campus",
+      "eligibility": "M.Sc. in Physics, Electronics and Instrumentation, Electronics and Telecommunication or Electronics and Communication with minimum 50% for General or 45% for reserved categories, or B.Tech. with the stated marks or a valid GATE score.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "direct ECE mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-mpharm-pharmchem",
+      "name": "M.Pharm",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Pharmaceutical Chemistry",
+      "duration": "2 years (4 semesters)",
+      "mode": "self-financed campus",
+      "eligibility": "B.Pharm with 55% marks.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "closest Pharmacy parent; career-tree label is Medical Updated",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-mpharm-pharmaceutics",
+      "name": "M.Pharm",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Pharmaceutics",
+      "duration": "2 years (4 semesters)",
+      "mode": "self-financed campus",
+      "eligibility": "B.Pharm with 55% marks.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "closest Pharmacy parent; career-tree label is Medical Updated",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-pgd-gis",
+      "name": "PG Diploma in G.I.S and Remote Sensing",
+      "level": "diploma",
+      "credential": "postgraduate diploma",
+      "specialization": "GIS and Remote Sensing",
+      "duration": null,
+      "mode": "self-financed campus",
+      "eligibility": "Second Class Bachelor's degree with 45% marks in any discipline.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 9,
+          "career_node_slug": "bsc_geology",
+          "career_breadcrumb": "Maths / PCM > B.Sc Geology / Earth Sciences",
+          "relation": "closest Earth Sciences mapping for GIS and Remote Sensing",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-adv-diploma-french",
+      "name": "Advanced Diploma in French Language and Literature",
+      "level": "diploma",
+      "credential": "advanced diploma",
+      "specialization": "French Language and Literature",
+      "duration": null,
+      "mode": "self-financed campus",
+      "eligibility": "Graduation in any discipline and 48% marks in Diploma in French Language or equivalent.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 74,
+          "career_node_slug": "ba_foreign_lang",
+          "career_breadcrumb": "Languages & Literature > BA Foreign Language (French/German/Japanese)",
+          "relation": "direct foreign-language mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-diploma-french",
+      "name": "Diploma in French Language",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": "French Language",
+      "duration": null,
+      "mode": "self-financed campus",
+      "eligibility": "Intermediate with 45% marks and 48% marks in Certificate of Proficiency in French or equivalent.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 74,
+          "career_node_slug": "ba_foreign_lang",
+          "career_breadcrumb": "Languages & Literature > BA Foreign Language (French/German/Japanese)",
+          "relation": "direct foreign-language mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-cert-french",
+      "name": "Certificate of Proficiency in French",
+      "level": "certificate",
+      "credential": "certificate",
+      "specialization": "French Language",
+      "duration": null,
+      "mode": "self-financed campus",
+      "eligibility": "10+2 or Higher Secondary in any discipline with 45% marks.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 74,
+          "career_node_slug": "ba_foreign_lang",
+          "career_breadcrumb": "Languages & Literature > BA Foreign Language (French/German/Japanese)",
+          "relation": "direct foreign-language mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-pgd-yoga",
+      "name": "PG Diploma in Yoga science",
+      "level": "diploma",
+      "credential": "postgraduate diploma",
+      "specialization": "Yoga Science",
+      "duration": null,
+      "mode": "self-financed campus",
+      "eligibility": "Bachelor's degree under the 10+2+3 pattern with minimum 33% marks.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 78,
+          "career_node_slug": "sports_career",
+          "career_breadcrumb": "Performing Arts & Sports > Sports & Physical Education",
+          "relation": "nearest parent for Yoga Science; no exact Yoga node exists",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-pgd-karmkand",
+      "name": "PG Diploma in Karmkand",
+      "level": "diploma",
+      "credential": "postgraduate diploma",
+      "specialization": "Karmkand",
+      "duration": null,
+      "mode": "self-financed campus",
+      "eligibility": "Bachelor's degree under the 10+2+3 pattern with minimum 33% marks.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "nearest humanities/languages parent; no exact Karmkand node exists",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-pgd-vedic-mathematics",
+      "name": "PG Diploma in Vedic Mathematics",
+      "level": "diploma",
+      "credential": "postgraduate diploma",
+      "specialization": "Vedic Mathematics",
+      "duration": null,
+      "mode": "self-financed campus",
+      "eligibility": "Graduation in any discipline.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "closest Mathematics mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-pgd-pr",
+      "name": "Post Graduate Diploma in Public Relations & Advertising",
+      "level": "diploma",
+      "credential": "postgraduate diploma",
+      "specialization": "Public Relations and Advertising",
+      "duration": null,
+      "mode": "self-financed campus",
+      "eligibility": "Graduation in any stream with 45% marks for General/OBC and 40% for SC/ST.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 62,
+          "career_node_slug": "digital_media",
+          "career_breadcrumb": "Media & Journalism > Digital Media & Content",
+          "relation": "closest media and communications mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-pgd-video-editing",
+      "name": "PG Diploma on Video Editing",
+      "level": "diploma",
+      "credential": "postgraduate diploma",
+      "specialization": "Video Editing",
+      "duration": null,
+      "mode": "self-financed campus",
+      "eligibility": "Graduation in any stream with 45% marks for General/OBC and 40% for SC/ST.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 61,
+          "career_node_slug": "bsc_film",
+          "career_breadcrumb": "Media & Journalism > B.Sc Film & Television",
+          "relation": "closest film and television mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-pgd-disaster",
+      "name": "PG Diploma in Disaster Management",
+      "level": "diploma",
+      "credential": "postgraduate diploma",
+      "specialization": "Disaster Management",
+      "duration": null,
+      "mode": "self-financed campus",
+      "eligibility": "Graduation in any stream.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 26,
+          "career_node_slug": "bsc_env",
+          "career_breadcrumb": "Common Paths > B.Sc Environmental Science",
+          "relation": "closest environment and sustainability mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-pgd-guidance",
+      "name": "PG Diploma in Guidance & Counselling",
+      "level": "diploma",
+      "credential": "postgraduate diploma",
+      "specialization": "Guidance and Counselling",
+      "duration": null,
+      "mode": "self-financed campus",
+      "eligibility": "Postgraduate degree in Psychology or Education with 55% marks, with applicable relaxation for SC/ST.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 66,
+          "career_node_slug": "ba_psychology",
+          "career_breadcrumb": "Social Sciences & Education > BA Psychology",
+          "relation": "closest Psychology discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-pgd-geoinformatics",
+      "name": "PG Diploma in Geoinformatics",
+      "level": "diploma",
+      "credential": "postgraduate diploma",
+      "specialization": "Geoinformatics",
+      "duration": null,
+      "mode": "self-financed campus",
+      "eligibility": "Graduate in any stream.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 9,
+          "career_node_slug": "bsc_geology",
+          "career_breadcrumb": "Maths / PCM > B.Sc Geology / Earth Sciences",
+          "relation": "closest Earth Sciences mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-diploma-folk-art",
+      "name": "Diploma in Indian Folk Art",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": "Indian Folk Art",
+      "duration": null,
+      "mode": "self-financed campus",
+      "eligibility": "High school.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 60,
+          "career_node_slug": "bfa",
+          "career_breadcrumb": "Media & Journalism > B.F.A (Fine Arts)",
+          "relation": "direct fine-arts mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-diploma-art-craft",
+      "name": "Diploma in Art & Craft",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": "Art and Craft",
+      "duration": null,
+      "mode": "self-financed campus",
+      "eligibility": "High school.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 60,
+          "career_node_slug": "bfa",
+          "career_breadcrumb": "Media & Journalism > B.F.A (Fine Arts)",
+          "relation": "direct fine-arts mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-msc-biotechnology",
+      "name": "Biotechnology",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Biotechnology",
+      "duration": null,
+      "mode": "self-financed campus",
+      "eligibility": "Bachelor's degree in Biology, Biotechnology, Microbiology, B.Pharm, B.Tech. Biotechnology or laboratory/medical laboratory techniques with 50% marks.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 146,
+          "career_node_slug": "msc_biotech",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech > M.Sc Biotechnology → Researcher",
+          "relation": "direct Biotechnology postgraduate mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-msc-biochemistry",
+      "name": "Biochemistry",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Biochemistry",
+      "duration": null,
+      "mode": "self-financed campus",
+      "eligibility": "Bachelor's degree with PCM, CBZ or MLT with 50% marks.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 35,
+          "career_node_slug": "bsc_biochem",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Biochemistry",
+          "relation": "direct Biochemistry discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-msc-polymer-chemistry",
+      "name": "M.Sc. Chemistry",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Polymer Science and Chemical Technology",
+      "duration": null,
+      "mode": "self-financed campus",
+      "eligibility": "Bachelor's degree with PCM, CBZ or Polymer Science, or B.E./B.Tech. in any branch, with 50% marks.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 155,
+          "career_node_slug": "msc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry > M.Sc Chemistry → Researcher",
+          "relation": "direct Chemistry postgraduate mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-msc-applied-microbiology",
+      "name": "Applied Microbiology",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Applied Microbiology",
+      "duration": null,
+      "mode": "self-financed campus",
+      "eligibility": "Bachelor's degree in Biology, Medical, Paramedical, Microbiology, Biotechnology, B.Sc. M.L.T. or B.Sc. Food Microbiology Safety and Quality Control with 50% marks.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 34,
+          "career_node_slug": "bsc_microbio",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Microbiology",
+          "relation": "direct Microbiology discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-msc-medical-microbiology",
+      "name": "Medical Microbiology",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Medical Microbiology",
+      "duration": null,
+      "mode": "self-financed campus",
+      "eligibility": "Bachelor's degree in Biology, MBBS/BDS, BMLT, B.V.Sc. or allied subject with 50% marks.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 34,
+          "career_node_slug": "bsc_microbio",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Microbiology",
+          "relation": "direct Microbiology discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-msc-bioinformatics",
+      "name": "Bioinformatics",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Bioinformatics",
+      "duration": null,
+      "mode": "self-financed campus",
+      "eligibility": "Bachelor's degree in Biology, Agriculture, Biotechnology, Computer Science, Mathematics, Statistics, Microbiology or BMLT with 50% marks.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest Biology and Biotechnology mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-msc-environmental-science",
+      "name": "Environmental Science",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Environmental Science",
+      "duration": null,
+      "mode": "self-financed campus",
+      "eligibility": "Bachelor's degree in Science, Microbiology, Biotechnology, MBBS, BDS or B.E./B.Tech. Civil Engineering with 50% marks.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 26,
+          "career_node_slug": "bsc_env",
+          "career_breadcrumb": "Common Paths > B.Sc Environmental Science",
+          "relation": "direct Environmental Science mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-ma-home-food-nutrition",
+      "name": "Home Science – Food and Nutrition",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Food and Nutrition",
+      "duration": null,
+      "mode": "self-financed campus",
+      "eligibility": "Graduate from B.Sc. Home Science, Community Science, B.Sc. Clinical Nutrition and Dietetics, B.Sc. Food Science and Quality Control or Food Technology.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 28,
+          "career_node_slug": "bsc_food_tech",
+          "career_breadcrumb": "Common Paths > B.Sc Food Technology",
+          "relation": "closest food-science discipline mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-blisc",
+      "name": "Bachelor of Library and Information Science (B.L.I.Sc.)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Library and Information Science",
+      "duration": null,
+      "mode": "self-financed campus",
+      "eligibility": "Bachelor's degree with 45% marks in any discipline under the 10+2+3 system.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest parent; no exact Library and Information Science node exists",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-ba-llb",
+      "name": "BA- LL.B. (Five-year course)",
+      "level": "undergraduate",
+      "credential": "integrated degree",
+      "specialization": "Law",
+      "duration": "5 years",
+      "mode": "self-financed campus",
+      "eligibility": "10+2 with 45% marks for General, 42% for OBC and 40% for SC/ST.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 63,
+          "career_node_slug": "ba_llb",
+          "career_breadcrumb": "Law & Civil Services > BA LLB (5-Year Integrated)",
+          "relation": "direct BA LLB mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-bajmc",
+      "name": "Bachelor of Journalism and Mass Communication (B.A. J.M.C. Honors)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Journalism and Mass Communication",
+      "duration": null,
+      "mode": "self-financed campus",
+      "eligibility": "10+2 with 45% marks for General/OBC and 40% for SC/ST.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 59,
+          "career_node_slug": "bjmc",
+          "career_breadcrumb": "Media & Journalism > B.J.M.C (Journalism & Mass Comm)",
+          "relation": "direct journalism mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-film-theatre",
+      "name": "Bachelor in Film & Theatre Studies",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Film and Theatre Studies",
+      "duration": null,
+      "mode": "self-financed campus",
+      "eligibility": "10+2 with 45% marks for General/OBC and 40% for SC/ST.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 77,
+          "career_node_slug": "theatre_course",
+          "career_breadcrumb": "Performing Arts & Sports > Theatre & Drama (NSD)",
+          "relation": "closest theatre discipline mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-bsc-microbiology",
+      "name": "B.Sc. (H) (Microbiology)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Microbiology",
+      "duration": null,
+      "mode": "self-financed campus",
+      "eligibility": "10+2 with Biology or Agriculture and 45% marks.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 34,
+          "career_node_slug": "bsc_microbio",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Microbiology",
+          "relation": "direct Microbiology mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-bsc-ag",
+      "name": "B.Sc. Ag. (Hons.)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Agriculture",
+      "duration": "4 years",
+      "mode": "self-financed campus",
+      "eligibility": "10+2 Senior Secondary with Agriculture, PCB, PCBM or PCM; minimum 50% aggregate for General/OBC/EWS and 40% for SC/ST/PWD.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "direct agriculture mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-bcom-hons",
+      "name": "B.Com. (Honours)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Commerce",
+      "duration": null,
+      "mode": "self-financed campus",
+      "eligibility": "10+2/Intermediate with at least 65% marks for General/OBC and 60% for SC/ST.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct B.Com mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-bsc-cs",
+      "name": "B.Sc (Honours) Computer Science",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Computer Science",
+      "duration": "3 years (6 semesters)",
+      "mode": "self-financed campus",
+      "eligibility": "10+2 with Mathematics in any stream with 60% marks.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 32,
+          "career_node_slug": "bsc_cs",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Computer Science",
+          "relation": "direct Computer Science mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-bsc-home-girls",
+      "name": "B.Sc. Home Science (For girls only)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Home Science",
+      "duration": null,
+      "mode": "self-financed campus",
+      "eligibility": "10+2 in any stream with 45% marks for General/OBC and 40% for SC/ST.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 337,
+          "career_node_slug": "science_common",
+          "career_breadcrumb": "Common Paths",
+          "relation": "nearest science parent; no exact Home Science node exists",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-bsc-clinical-nutrition",
+      "name": "B.Sc. Home Science (Clinical Nutrition and Dietetics)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Clinical Nutrition and Dietetics",
+      "duration": null,
+      "mode": "self-financed campus",
+      "eligibility": "10+2 with Science, Arts or Commerce with 45% marks for General/OBC and 40% for SC/ST.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 28,
+          "career_node_slug": "bsc_food_tech",
+          "career_breadcrumb": "Common Paths > B.Sc Food Technology",
+          "relation": "closest food-science discipline mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-ba-geography",
+      "name": "B.A. (Honors) Geography",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Geography",
+      "duration": null,
+      "mode": "self-financed campus",
+      "eligibility": "Intermediate in any stream.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 9,
+          "career_node_slug": "bsc_geology",
+          "career_breadcrumb": "Maths / PCM > B.Sc Geology / Earth Sciences",
+          "relation": "nearest Earth Sciences parent for Geography; no exact Geography node exists",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-ba-yoga",
+      "name": "B.A. (Honors) Yoga Science",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Yoga Science",
+      "duration": null,
+      "mode": "self-financed campus",
+      "eligibility": "Intermediate in any stream with 45% marks.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 78,
+          "career_node_slug": "sports_career",
+          "career_breadcrumb": "Performing Arts & Sports > Sports & Physical Education",
+          "relation": "nearest parent for Yoga Science; no exact Yoga node exists",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-bsc-biotech",
+      "name": "B.Sc. (Hons.)Biotechnology",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Biotechnology",
+      "duration": null,
+      "mode": "self-financed campus",
+      "eligibility": "10+2 with 45% marks for General/OBC and 40% for SC/ST in the specified Biology, Chemistry, Computer Science, PCB, PCBE, PCMB, PCM, Agriculture or Mathematics combinations.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "direct Biotechnology mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-bfa",
+      "name": "B.F.A. Homors",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Fine Arts",
+      "duration": null,
+      "mode": "self-financed campus",
+      "eligibility": "Intermediate in any stream.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 60,
+          "career_node_slug": "bfa",
+          "career_breadcrumb": "Media & Journalism > B.F.A (Fine Arts)",
+          "relation": "direct Fine Arts mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-bpharm",
+      "name": "B.Pharm",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Pharmacy",
+      "duration": "4 years (8 semesters)",
+      "mode": "self-financed campus",
+      "eligibility": "10+2 with English and Physics, Chemistry, Mathematics/Biology as optional subjects individually; candidate must complete 17 years of age by 31 December of the admission year.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "direct Pharmacy mapping; career-tree label is Medical Updated",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-fashion-design",
+      "name": "Bachelor of Fashion Design (Hons.)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Fashion Design",
+      "duration": null,
+      "mode": "self-financed campus",
+      "eligibility": "Intermediate in any stream.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 55,
+          "career_node_slug": "bdes",
+          "career_breadcrumb": "Design & Architecture > B.Des (Design)",
+          "relation": "closest design and fashion mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-jewellery-design",
+      "name": "B-Voc in Jewellery Design & Technology",
+      "level": "undergraduate",
+      "credential": "vocational degree",
+      "specialization": "Jewellery Design and Technology",
+      "duration": null,
+      "mode": "self-financed campus",
+      "eligibility": "Intermediate in any stream.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 55,
+          "career_node_slug": "bdes",
+          "career_breadcrumb": "Design & Architecture > B.Des (Design)",
+          "relation": "closest design mapping; no exact Jewellery Design node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-bsc-forensic",
+      "name": "B.Sc. (Hons.) Forensic Science",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Forensic Science",
+      "duration": null,
+      "mode": "self-financed campus",
+      "eligibility": "10+2 with Physics, Chemistry and Biology.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 27,
+          "career_node_slug": "bsc_forensic",
+          "career_breadcrumb": "Common Paths > B.Sc Forensic Science",
+          "relation": "direct Forensic Science mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-bba-hons",
+      "name": "B.B.A. (Hons.)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Business Administration",
+      "duration": "3 years (6 semesters)",
+      "mode": "self-financed campus",
+      "eligibility": "10+2 in all streams with 45% marks for General/OBC and 40% for SC/ST.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 46,
+          "career_node_slug": "bba",
+          "career_breadcrumb": "Management & Business > BBA (General)",
+          "relation": "closest BBA mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-bba-ha",
+      "name": "B.B.A.(H.A)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Hospital Administration",
+      "duration": "3 years (6 semesters)",
+      "mode": "self-financed campus",
+      "eligibility": "Intermediate or Higher Secondary (10+2 or equivalent) in Humanities, Science or Commerce with 50% marks and 45% for SC/ST.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 46,
+          "career_node_slug": "bba",
+          "career_breadcrumb": "Management & Business > BBA (General)",
+          "relation": "closest BBA parent for Hospital Administration",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-bped",
+      "name": "Bachelor of Physical Education (B.P.Ed.)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Physical Education",
+      "duration": null,
+      "mode": "self-financed campus",
+      "eligibility": "Bachelor's degree with sports participation or Physical Education qualifications under the detailed official criteria.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 78,
+          "career_node_slug": "sports_career",
+          "career_breadcrumb": "Performing Arts & Sports > Sports & Physical Education",
+          "relation": "direct Physical Education mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-llb",
+      "name": "LL.B. (3 years)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Law",
+      "duration": "3 years",
+      "mode": "self-financed campus",
+      "eligibility": "10+2+3/4/5 with minimum 45% marks for General, 42% for OBC and 40% for SC/ST; specified postgraduate route also applies under the official rules.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 347,
+          "career_node_slug": "art_law",
+          "career_breadcrumb": "Law & Civil Services",
+          "relation": "nearest Law parent; no exact LL.B. node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-bpes",
+      "name": "B.P.E.S",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Physical Education and Sports",
+      "duration": null,
+      "mode": "self-financed campus",
+      "eligibility": "10+2 with 45% marks for General/OBC and 40% for SC/ST with sports certificate; admission is based on physical fitness efficiency test, interview and counselling.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 78,
+          "career_node_slug": "sports_career",
+          "career_breadcrumb": "Performing Arts & Sports > Sports & Physical Education",
+          "relation": "direct sports and physical-education mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-btech-ae",
+      "name": "B.Tech. (AE)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Agriculture Engineering",
+      "duration": "4 years (8 semesters)",
+      "mode": "self-financed campus",
+      "eligibility": "10+2 with PCM, PCB or Agriculture, with 45% marks or 40% for reserved categories.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "closest agriculture engineering mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-btech-cs",
+      "name": "B.Tech. (CS)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Computer Science",
+      "duration": "4 years (8 semesters)",
+      "mode": "self-financed campus",
+      "eligibility": "10+2 with Physics and Mathematics plus one specified optional subject, with 45% marks or 40% for reserved categories.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct Computer Science engineering mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-btech-it",
+      "name": "B.Tech. (IT)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Information Technology",
+      "duration": "4 years (8 semesters)",
+      "mode": "self-financed campus",
+      "eligibility": "10+2 with Physics and Mathematics plus one specified optional subject, with 45% marks or 40% for reserved categories.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 89,
+          "career_node_slug": "btech_it",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Information Technology",
+          "relation": "direct Information Technology mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-btech-ec",
+      "name": "B.Tech. (EC)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Electronics and Communication Engineering",
+      "duration": "4 years (8 semesters)",
+      "mode": "self-financed campus",
+      "eligibility": "10+2 with Physics and Mathematics plus one specified optional subject, with 45% marks or 40% for reserved categories.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "direct ECE mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-btech-me",
+      "name": "B.Tech. (ME)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Mechanical Engineering",
+      "duration": "4 years (8 semesters)",
+      "mode": "self-financed campus",
+      "eligibility": "10+2 with Physics, Chemistry and Mathematics, with 45% marks or 40% for reserved categories.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct Mechanical Engineering mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-btech-ce",
+      "name": "B.Tech. (CE)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Civil Engineering",
+      "duration": "4 years (8 semesters)",
+      "mode": "self-financed campus",
+      "eligibility": "10+2 with Physics, Chemistry and Mathematics, with 45% marks or 40% for reserved categories.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "direct Civil Engineering mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-sfs-btech-ei",
+      "name": "B.Tech. (EI)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Electronics and Instrumentation Engineering",
+      "duration": "4 years (8 semesters)",
+      "mode": "self-financed campus",
+      "eligibility": "10+2 with Physics, Chemistry and Mathematics, with 45% marks or 40% for reserved categories.",
+      "official_course_url": "https://cdn.ccsuniversity.ac.in/public/pdf/2026/06/University%20Campus%20Admission%20Brochure%20(2026-27)%20Updated%200n%2018-06-2026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "closest instrumentation and electrical engineering mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-extra-diploma-urdu",
+      "name": "Urdu",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": "Urdu",
+      "duration": null,
+      "mode": "campus",
+      "eligibility": null,
+      "official_course_url": "https://www.ccsuniversity.ac.in/prog-offered-courses",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "nearest language parent; no exact Urdu diploma node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-extra-pgd-jyotir-vigyan",
+      "name": "PG Diploma (Jyotir Vigyan)",
+      "level": "diploma",
+      "credential": "postgraduate diploma",
+      "specialization": "Jyotir Vigyan",
+      "duration": null,
+      "mode": "campus",
+      "eligibility": null,
+      "official_course_url": "https://www.ccsuniversity.ac.in/prog-offered-courses",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "nearest humanities/languages parent; no exact Jyotir Vigyan node exists",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-extra-diploma-vedic-mathematics",
+      "name": "Vedic Mathematics",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": "Vedic Mathematics",
+      "duration": null,
+      "mode": "campus",
+      "eligibility": null,
+      "official_course_url": "https://www.ccsuniversity.ac.in/prog-offered-courses",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "closest Mathematics mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-cert-art-parenting",
+      "name": "Certificate Course in ‘Art of Parenting’",
+      "level": "certificate",
+      "credential": "certificate",
+      "specialization": "Art of Parenting",
+      "duration": "30 hours (three weeks)",
+      "mode": "campus",
+      "eligibility": "Interested students, employees, teachers or members of the public.",
+      "official_course_url": "https://www.ccsuniversity.ac.in/prog-offered-courses",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 66,
+          "career_node_slug": "ba_psychology",
+          "career_breadcrumb": "Social Sciences & Education > BA Psychology",
+          "relation": "closest Psychology and counselling mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-cert-happiness-wellbeing",
+      "name": "Certificate Course in ‘Inculcating Happiness and Well-being’",
+      "level": "certificate",
+      "credential": "certificate",
+      "specialization": "Happiness and Well-being",
+      "duration": "30 hours (three weeks)",
+      "mode": "campus",
+      "eligibility": "Interested students, employees, teachers or members of the public.",
+      "official_course_url": "https://www.ccsuniversity.ac.in/prog-offered-courses",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 66,
+          "career_node_slug": "ba_psychology",
+          "career_breadcrumb": "Social Sciences & Education > BA Psychology",
+          "relation": "closest Psychology and well-being mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-phd-physics",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": "Physics",
+      "duration": null,
+      "mode": "campus",
+      "eligibility": null,
+      "official_course_url": "https://www.ccsuniversity.ac.in/prog-offered-courses",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 24,
+          "career_node_slug": "bsc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics",
+          "relation": "direct Physics discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-phd-zoology",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": "Zoology",
+      "duration": null,
+      "mode": "campus",
+      "eligibility": null,
+      "official_course_url": "https://www.ccsuniversity.ac.in/prog-offered-courses",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest biology discipline node for Zoology",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-phd-microbiology",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": "Microbiology",
+      "duration": null,
+      "mode": "campus",
+      "eligibility": null,
+      "official_course_url": "https://www.ccsuniversity.ac.in/prog-offered-courses",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 34,
+          "career_node_slug": "bsc_microbio",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Microbiology",
+          "relation": "direct Microbiology discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-phd-toxicology",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": "Toxicology",
+      "duration": null,
+      "mode": "campus",
+      "eligibility": null,
+      "official_course_url": "https://www.ccsuniversity.ac.in/prog-offered-courses",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "nearest biology parent for Toxicology",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-phd-journalism",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": "Journalism And Mass Communication",
+      "duration": null,
+      "mode": "campus",
+      "eligibility": null,
+      "official_course_url": "https://www.ccsuniversity.ac.in/prog-offered-courses",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 59,
+          "career_node_slug": "bjmc",
+          "career_breadcrumb": "Media & Journalism > B.J.M.C (Journalism & Mass Comm)",
+          "relation": "direct Journalism and Mass Communication mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-phd-education",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": "Education",
+      "duration": null,
+      "mode": "campus",
+      "eligibility": null,
+      "official_course_url": "https://www.ccsuniversity.ac.in/prog-offered-courses",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "direct Education mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-phd-physical-education",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": "Physical Education",
+      "duration": null,
+      "mode": "campus",
+      "eligibility": null,
+      "official_course_url": "https://www.ccsuniversity.ac.in/prog-offered-courses",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 78,
+          "career_node_slug": "sports_career",
+          "career_breadcrumb": "Performing Arts & Sports > Sports & Physical Education",
+          "relation": "direct Physical Education mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-phd-business",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": "Institute of Business Studies",
+      "duration": null,
+      "mode": "campus",
+      "eligibility": null,
+      "official_course_url": "https://www.ccsuniversity.ac.in/prog-offered-courses",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest management parent for Institute of Business Studies",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-phd-law",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": "Institute of Legal Studies",
+      "duration": null,
+      "mode": "campus",
+      "eligibility": null,
+      "official_course_url": "https://www.ccsuniversity.ac.in/prog-offered-courses",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 347,
+          "career_node_slug": "art_law",
+          "career_breadcrumb": "Law & Civil Services",
+          "relation": "nearest Law parent for Institute of Legal Studies",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-phd-english",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": "English",
+      "duration": null,
+      "mode": "campus",
+      "eligibility": null,
+      "official_course_url": "https://www.ccsuniversity.ac.in/prog-offered-courses",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "direct English mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-phd-horticulture",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": "Horticulture",
+      "duration": null,
+      "mode": "campus",
+      "eligibility": null,
+      "official_course_url": "https://www.ccsuniversity.ac.in/prog-offered-courses",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "closest Agriculture discipline for Horticulture",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-phd-genetics-plant-breeding",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": "Genetics Plant Breeding",
+      "duration": null,
+      "mode": "campus",
+      "eligibility": null,
+      "official_course_url": "https://www.ccsuniversity.ac.in/prog-offered-courses",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "closest Agriculture discipline for Genetics and Plant Breeding",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-phd-botany",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": "Botany",
+      "duration": null,
+      "mode": "campus",
+      "eligibility": null,
+      "official_course_url": "https://www.ccsuniversity.ac.in/prog-offered-courses",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest biology discipline node for Botany",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-phd-chemistry",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": "Chemistry",
+      "duration": null,
+      "mode": "campus",
+      "eligibility": null,
+      "official_course_url": "https://www.ccsuniversity.ac.in/prog-offered-courses",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "direct Chemistry mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-phd-mathematics",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": "Mathematics",
+      "duration": null,
+      "mode": "campus",
+      "eligibility": null,
+      "official_course_url": "https://www.ccsuniversity.ac.in/prog-offered-courses",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct Mathematics mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-phd-statistics",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": "Statistics",
+      "duration": null,
+      "mode": "campus",
+      "eligibility": null,
+      "official_course_url": "https://www.ccsuniversity.ac.in/prog-offered-courses",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 6,
+          "career_node_slug": "bsc_stats",
+          "career_breadcrumb": "Maths / PCM > B.Sc Statistics",
+          "relation": "direct Statistics mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-phd-sociology",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": "Sociology",
+      "duration": null,
+      "mode": "campus",
+      "eligibility": null,
+      "official_course_url": "https://www.ccsuniversity.ac.in/prog-offered-courses",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct Sociology mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-phd-psychology",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": "Psychology",
+      "duration": null,
+      "mode": "campus",
+      "eligibility": null,
+      "official_course_url": "https://www.ccsuniversity.ac.in/prog-offered-courses",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 66,
+          "career_node_slug": "ba_psychology",
+          "career_breadcrumb": "Social Sciences & Education > BA Psychology",
+          "relation": "direct Psychology mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-phd-political-science",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": "Political Science",
+      "duration": null,
+      "mode": "campus",
+      "eligibility": null,
+      "official_course_url": "https://www.ccsuniversity.ac.in/prog-offered-courses",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct Political Science mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-phd-history",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": "History",
+      "duration": null,
+      "mode": "campus",
+      "eligibility": null,
+      "official_course_url": "https://www.ccsuniversity.ac.in/prog-offered-courses",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct History mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-phd-economics",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": "Economics",
+      "duration": null,
+      "mode": "campus",
+      "eligibility": null,
+      "official_course_url": "https://www.ccsuniversity.ac.in/prog-offered-courses",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct Economics mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-phd-urdu",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": "Urdu",
+      "duration": null,
+      "mode": "campus",
+      "eligibility": null,
+      "official_course_url": "https://www.ccsuniversity.ac.in/prog-offered-courses",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "nearest language parent for Urdu; no exact Urdu node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-phd-hindi",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": "Hindi",
+      "duration": null,
+      "mode": "campus",
+      "eligibility": null,
+      "official_course_url": "https://www.ccsuniversity.ac.in/prog-offered-courses",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct Hindi mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-dsc-physics",
+      "name": "D.Sc.",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": "Physics",
+      "duration": null,
+      "mode": "campus",
+      "eligibility": null,
+      "official_course_url": "https://www.ccsuniversity.ac.in/prog-offered-courses",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 24,
+          "career_node_slug": "bsc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics",
+          "relation": "direct Physics mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chaudhary-charan-singh-university-ccsu-dlitt-political-science",
+      "name": "DLitt",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": "Political Science",
+      "duration": null,
+      "mode": "campus",
+      "eligibility": null,
+      "official_course_url": "https://www.ccsuniversity.ac.in/prog-offered-courses",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct Political Science mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "Normal TLS verification was attempted first. Public GET requests then used curl --insecure only after the managed proxy returned the exact self signed certificate in chain error.",
+    "Google and Bing command-line discovery responses were not used as evidence because Google returned CAPTCHA pages and Bing did not provide a reliable official result; the official domain was independently confirmed by direct HTTPS GET.",
+    "The 2026-27 University Campus Information Brochure and official Programmes Offered, Regular Courses and Self-Finance Courses pages were used as the catalogue. Entries explicitly marked Suspended in the official brochure were excluded. Short-term events and syllabus-only subject papers were excluded.",
+    "Some career-tree disciplines such as Geography, Yoga, Library and Information Science, Sanskrit, Urdu, Home Science and Pharmacy do not have exact nodes; those courses use clearly labelled nearest-parent or closest-specialization mappings with reduced confidence."
+  ]
+}

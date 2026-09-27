@@ -1,0 +1,779 @@
+{
+  "institution_id": "rajasthan-agricultural-university",
+  "nirf_name": "Rajasthan Agricultural University",
+  "verification_outcome": "manual_review",
+  "district": "Bikaner",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://raubikaner.org/",
+  "website_verification_status": "verified",
+  "description": "Swami Keshwanand Rajasthan Agricultural University in Bikaner is authorized to provide education in agriculture and allied sciences, with constituent institutions covering agriculture, community science, and agri-business management.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "official_homepage",
+      "url": "https://raubikaner.org/",
+      "supports": [
+        "official institution identity",
+        "Bikaner location"
+      ]
+    },
+    {
+      "type": "official_overview",
+      "url": "https://raubikaner.org/overview/",
+      "supports": [
+        "university identity",
+        "Bikaner constituent colleges",
+        "agriculture, home science, and agri-business management academic areas"
+      ]
+    },
+    {
+      "type": "official_programme_catalogue",
+      "url": "https://raubikaner.org/college_of_agriculture/",
+      "supports": [
+        "College of Agriculture, Bikaner",
+        "B.Sc. (Hons.) Ag.",
+        "M.Sc. Ag. disciplines",
+        "Ph.D. agriculture disciplines",
+        "agriculture programme durations"
+      ]
+    },
+    {
+      "type": "official_programme_catalogue",
+      "url": "https://raubikaner.org/college_of_home_science/",
+      "supports": [
+        "College of Community Science, SKRAU, Bikaner",
+        "community science academic programmes",
+        "admission routes"
+      ]
+    },
+    {
+      "type": "official_programme_catalogue",
+      "url": "https://raubikaner.org/iabm/",
+      "supports": [
+        "IABM Bikaner academic programmes",
+        "MBA (Agri Business)",
+        "Doctor of Philosophy (Agri Business)",
+        "PGDAIM"
+      ]
+    },
+    {
+      "type": "official_postgraduate_catalogue",
+      "url": "https://raubikaner.org/deanpg/",
+      "supports": [
+        "faculty-wise postgraduate and doctoral subjects",
+        "agriculture, home science, and agri-business management postgraduate/doctoral catalogue",
+        "postgraduate/doctoral admission route"
+      ]
+    },
+    {
+      "type": "official_admissions_notice",
+      "url": "https://raubikaner.org/2026/06/12/jet-pre-pg-ph-d-2026-notification-coordinator-new-date-etc/",
+      "supports": [
+        "official 2026 JET/Pre-PG/Ph.D. admissions notice"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "Rajasthan Agricultural University official website Bikaner",
+      "result": "Google returned an anti-automation page without a usable institution result; the official domain was then checked directly.",
+      "url": "https://www.google.com/search?q=Rajasthan+Agricultural+University+official+website+Bikaner"
+    },
+    {
+      "query": "\"Rajasthan Agricultural University\" Bikaner official",
+      "result": "Bing returned mostly unrelated Rajasthan results and no reliable official institution result for this query.",
+      "url": "https://www.bing.com/search?q=%22Rajasthan+Agricultural+University%22+Bikaner+official"
+    },
+    {
+      "query": "site:raubikaner.org \"Swami Keshwanand Rajasthan Agricultural University\" Bikaner",
+      "result": "The focused official-domain search did not provide a reliable snippet; direct HTTPS retrieval of raubikaner.org confirmed the official homepage title and Bikaner identity.",
+      "url": "https://www.bing.com/search?q=site%3Araubikaner.org+%22Swami+Keshwanand+Rajasthan+Agricultural+University%22+Bikaner"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "rajasthan-agricultural-university-rau-bsc-hons-agriculture",
+      "name": "B.Sc. (Hons.) Ag.",
+      "level": "undergraduate",
+      "credential": "Bachelor of Science (Honours)",
+      "specialization": "Agriculture",
+      "duration": "4 years (8 semesters)",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://raubikaner.org/college_of_agriculture/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-agricultural-university-rau-msc-ag-agronomy",
+      "name": "M.Sc. Ag.",
+      "level": "postgraduate",
+      "credential": "Master of Science (Agriculture)",
+      "specialization": "Agronomy",
+      "duration": "2 years (4 semesters)",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://raubikaner.org/college_of_agriculture/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 165,
+          "career_node_slug": "agri_scientist",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture > Agricultural Scientist",
+          "relation": "closest-specialization: agricultural science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-agricultural-university-rau-msc-ag-agricultural-economics",
+      "name": "M.Sc. Ag.",
+      "level": "postgraduate",
+      "credential": "Master of Science (Agriculture)",
+      "specialization": "Agricultural Economics",
+      "duration": "2 years (4 semesters)",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://raubikaner.org/college_of_agriculture/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 272,
+          "career_node_slug": "economist",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics > Economist",
+          "relation": "closest-specialization: agricultural economics",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-agricultural-university-rau-msc-ag-biotechnology",
+      "name": "M.Sc. Ag.",
+      "level": "postgraduate",
+      "credential": "Master of Science (Agriculture)",
+      "specialization": "Biotechnology",
+      "duration": "2 years (4 semesters)",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://raubikaner.org/college_of_agriculture/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 146,
+          "career_node_slug": "msc_biotech",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech > M.Sc Biotechnology → Researcher",
+          "relation": "direct discipline mapping: biotechnology research",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-agricultural-university-rau-msc-ag-entomology",
+      "name": "M.Sc. Ag.",
+      "level": "postgraduate",
+      "credential": "Master of Science (Agriculture)",
+      "specialization": "Entomology",
+      "duration": "2 years (4 semesters)",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://raubikaner.org/college_of_agriculture/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 165,
+          "career_node_slug": "agri_scientist",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture > Agricultural Scientist",
+          "relation": "closest-specialization: agricultural science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-agricultural-university-rau-msc-ag-horticulture",
+      "name": "M.Sc. Ag.",
+      "level": "postgraduate",
+      "credential": "Master of Science (Agriculture)",
+      "specialization": "Horticulture",
+      "duration": "2 years (4 semesters)",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://raubikaner.org/college_of_agriculture/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 165,
+          "career_node_slug": "agri_scientist",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture > Agricultural Scientist",
+          "relation": "closest-specialization: agricultural science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-agricultural-university-rau-msc-ag-plant-breeding-genetics",
+      "name": "M.Sc. Ag.",
+      "level": "postgraduate",
+      "credential": "Master of Science (Agriculture)",
+      "specialization": "Plant Breeding and Genetics",
+      "duration": "2 years (4 semesters)",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://raubikaner.org/college_of_agriculture/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 165,
+          "career_node_slug": "agri_scientist",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture > Agricultural Scientist",
+          "relation": "closest-specialization: agricultural science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-agricultural-university-rau-msc-ag-plant-pathology",
+      "name": "M.Sc. Ag.",
+      "level": "postgraduate",
+      "credential": "Master of Science (Agriculture)",
+      "specialization": "Plant Pathology",
+      "duration": "2 years (4 semesters)",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://raubikaner.org/college_of_agriculture/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 165,
+          "career_node_slug": "agri_scientist",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture > Agricultural Scientist",
+          "relation": "closest-specialization: agricultural science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-agricultural-university-rau-msc-ag-soil-science",
+      "name": "M.Sc. Ag.",
+      "level": "postgraduate",
+      "credential": "Master of Science (Agriculture)",
+      "specialization": "Soil Science",
+      "duration": "2 years (4 semesters)",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://raubikaner.org/college_of_agriculture/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 165,
+          "career_node_slug": "agri_scientist",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture > Agricultural Scientist",
+          "relation": "closest-specialization: agricultural science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-agricultural-university-rau-msc-ag-agricultural-extension-education",
+      "name": "M.Sc. Ag.",
+      "level": "postgraduate",
+      "credential": "Master of Science (Agriculture)",
+      "specialization": "Agricultural Extension Education",
+      "duration": "2 years (4 semesters)",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://raubikaner.org/college_of_agriculture/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 165,
+          "career_node_slug": "agri_scientist",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture > Agricultural Scientist",
+          "relation": "nearest-parent: agricultural science; extension career absent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-agricultural-university-rau-phd-ag-agronomy",
+      "name": "Ph.D. programme",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Agronomy",
+      "duration": "3 years (6 semesters)",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://raubikaner.org/college_of_agriculture/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 165,
+          "career_node_slug": "agri_scientist",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture > Agricultural Scientist",
+          "relation": "closest-specialization: agricultural science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-agricultural-university-rau-phd-ag-agricultural-economics",
+      "name": "Ph.D. programme",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Agricultural Economics",
+      "duration": "3 years (6 semesters)",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://raubikaner.org/college_of_agriculture/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 272,
+          "career_node_slug": "economist",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics > Economist",
+          "relation": "closest-specialization: agricultural economics",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-agricultural-university-rau-phd-ag-biotechnology",
+      "name": "Ph.D. programme",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Biotechnology",
+      "duration": "3 years (6 semesters)",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://raubikaner.org/college_of_agriculture/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 330,
+          "career_node_slug": "biotech_researcher",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Biotechnology > Biotech Researcher",
+          "relation": "closest-specialization: doctoral biotechnology research",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-agricultural-university-rau-phd-ag-entomology",
+      "name": "Ph.D. programme",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Entomology",
+      "duration": "3 years (6 semesters)",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://raubikaner.org/college_of_agriculture/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 165,
+          "career_node_slug": "agri_scientist",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture > Agricultural Scientist",
+          "relation": "closest-specialization: agricultural science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-agricultural-university-rau-phd-ag-horticulture",
+      "name": "Ph.D. programme",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Horticulture",
+      "duration": "3 years (6 semesters)",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://raubikaner.org/college_of_agriculture/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 165,
+          "career_node_slug": "agri_scientist",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture > Agricultural Scientist",
+          "relation": "closest-specialization: agricultural science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-agricultural-university-rau-phd-ag-plant-breeding-genetics",
+      "name": "Ph.D. programme",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Plant Breeding and Genetics",
+      "duration": "3 years (6 semesters)",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://raubikaner.org/college_of_agriculture/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 165,
+          "career_node_slug": "agri_scientist",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture > Agricultural Scientist",
+          "relation": "closest-specialization: agricultural science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-agricultural-university-rau-phd-ag-plant-pathology",
+      "name": "Ph.D. programme",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Plant Pathology",
+      "duration": "3 years (6 semesters)",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://raubikaner.org/college_of_agriculture/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 165,
+          "career_node_slug": "agri_scientist",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture > Agricultural Scientist",
+          "relation": "closest-specialization: agricultural science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-agricultural-university-rau-phd-ag-soil-science",
+      "name": "Ph.D. programme",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Soil Science",
+      "duration": "3 years (6 semesters)",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://raubikaner.org/college_of_agriculture/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 165,
+          "career_node_slug": "agri_scientist",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture > Agricultural Scientist",
+          "relation": "closest-specialization: agricultural science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-agricultural-university-rau-phd-ag-agricultural-extension-education",
+      "name": "Ph.D. programme",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Agricultural Extension Education",
+      "duration": "3 years (6 semesters)",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://raubikaner.org/college_of_agriculture/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 271,
+          "career_node_slug": "community_developer",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology > Community Development Officer",
+          "relation": "closest-specialization: extension/community development",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-agricultural-university-rau-bsc-hons-community-science",
+      "name": "B.Sc. (Hons) Community Science",
+      "level": "undergraduate",
+      "credential": "Bachelor of Science (Honours)",
+      "specialization": "Community Science",
+      "duration": "4 years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://raubikaner.org/college_of_home_science/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 271,
+          "career_node_slug": "community_developer",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology > Community Development Officer",
+          "relation": "closest-specialization: extension/community development",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-agricultural-university-rau-bsc-hons-food-nutrition-dietetics",
+      "name": "B.Sc. (Hons) Food Nutrition and dietetics",
+      "level": "undergraduate",
+      "credential": "Bachelor of Science (Honours)",
+      "specialization": "Food Nutrition and dietetics",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://raubikaner.org/college_of_home_science/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 369,
+          "career_node_slug": "sports_nutritionist",
+          "career_breadcrumb": "Performing Arts & Sports > Sports & Physical Education > Sports Nutritionist",
+          "relation": "closest-specialization: nutrition/dietetics",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-agricultural-university-rau-msc-csc-food-nutrition",
+      "name": "M.Sc.(CSc) Food and Nutrition",
+      "level": "postgraduate",
+      "credential": "Master of Science (Community Science)",
+      "specialization": "Food and Nutrition",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://raubikaner.org/college_of_home_science/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 369,
+          "career_node_slug": "sports_nutritionist",
+          "career_breadcrumb": "Performing Arts & Sports > Sports & Physical Education > Sports Nutritionist",
+          "relation": "closest-specialization: nutrition/dietetics",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-agricultural-university-rau-msc-csc-extension-education-communication-management",
+      "name": "M.Sc.(CSc) Extension Education and Communication Management",
+      "level": "postgraduate",
+      "credential": "Master of Science (Community Science)",
+      "specialization": "Extension Education and Communication Management",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://raubikaner.org/college_of_home_science/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 271,
+          "career_node_slug": "community_developer",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology > Community Development Officer",
+          "relation": "closest-specialization: extension/community development",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-agricultural-university-rau-msc-csc-human-development-family-studies",
+      "name": "M.Sc.(CSc) Human Development and Family Studies",
+      "level": "postgraduate",
+      "credential": "Master of Science (Community Science)",
+      "specialization": "Human Development and Family Studies",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://raubikaner.org/college_of_home_science/",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "No responsible general human-development/family-studies node exists in the local career tree."
+    },
+    {
+      "course_id": "rajasthan-agricultural-university-rau-msc-csc-resource-management-consumer-science",
+      "name": "M.Sc.(CSc) Resource Management and Consumer Science",
+      "level": "postgraduate",
+      "credential": "Master of Science (Community Science)",
+      "specialization": "Resource Management and Consumer Science",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://raubikaner.org/college_of_home_science/",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "No responsible resource-management/consumer-science node exists in the local career tree."
+    },
+    {
+      "course_id": "rajasthan-agricultural-university-rau-phd-csc-food-nutrition",
+      "name": "Ph.D (CSc) Food & Nutrition",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy (Community Science)",
+      "specialization": "Food & Nutrition",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://raubikaner.org/college_of_home_science/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 369,
+          "career_node_slug": "sports_nutritionist",
+          "career_breadcrumb": "Performing Arts & Sports > Sports & Physical Education > Sports Nutritionist",
+          "relation": "closest-specialization: nutrition/dietetics",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-agricultural-university-rau-phd-csc-extension-education-communication-management",
+      "name": "Ph.D (CSc) Extension Education and Communication Management",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy (Community Science)",
+      "specialization": "Extension Education and Communication Management",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://raubikaner.org/college_of_home_science/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 271,
+          "career_node_slug": "community_developer",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology > Community Development Officer",
+          "relation": "closest-specialization: extension/community development",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-agricultural-university-rau-mba-agri-business",
+      "name": "MBA (Agri Business) Programme",
+      "level": "postgraduate",
+      "credential": "Master of Business Administration",
+      "specialization": "Agri Business Management",
+      "duration": "2 years",
+      "mode": "full-time residential",
+      "eligibility": null,
+      "official_course_url": "https://raubikaner.org/iabm/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 208,
+          "career_node_slug": "mba_general",
+          "career_breadcrumb": "Management & Business > BBA (General) > MBA → CEO / Director Track",
+          "relation": "nearest-parent: MBA/management",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-agricultural-university-rau-phd-agri-business",
+      "name": "Doctor of Philosophy (Agri Business) Programme",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Agri Business Management",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://raubikaner.org/iabm/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 208,
+          "career_node_slug": "mba_general",
+          "career_breadcrumb": "Management & Business > BBA (General) > MBA → CEO / Director Track",
+          "relation": "nearest-parent: MBA/management",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-agricultural-university-rau-pgd-agri-input-management",
+      "name": "Post Graduate Diploma in Agri Input Management (PGDAIM)",
+      "level": "postgraduate diploma",
+      "credential": "Post Graduate Diploma",
+      "specialization": "Agri Input Management",
+      "duration": "1 year",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://raubikaner.org/iabm/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 209,
+          "career_node_slug": "business_consultant",
+          "career_breadcrumb": "Management & Business > BBA (General) > Business Consultant",
+          "relation": "closest-specialization: agri-business management",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "Official homepage and campus pages establish the Bikaner institution as Swami Keshwanand Rajasthan Agricultural University; the supplied NIRF name is an abbreviated/legacy form.",
+    "The official site distributes programme information across separate college and postgraduate pages rather than one complete central catalogue.",
+    "The College of Agriculture page describes M.Sc./Ph.D. Biotechnology, while the Dean-PG intake table lists Agri. Chemistry & Soil Sc. and omits Biotechnology; the College of Agriculture page also includes Biotechnology in its opening Ph.D. paragraph but omits it from the detailed Ph.D. bullet list. These conflicts require manual review.",
+    "The Community Science page lists Human Development and Family Studies and Resource Management and Consumer Science, while the Dean-PG intake table marks Human Development and Family Studies as deferred and does not list Resource Management and Consumer Science.",
+    "The IABM page uses both Agri Business and Agri Business Management in different programme sections; the exact wording shown in the programme listing is retained.",
+    "Date-bound 2024/25 IABM admission eligibility text was not copied into current eligibility fields; eligibility remains null unless a current central catalogue statement explicitly supports it.",
+    "The managed network proxy produced the permitted local self-signed certificate-chain error on the initial normal-TLS public GET; public GETs to confirmed search and official hosts used curl --insecure afterward."
+  ]
+}

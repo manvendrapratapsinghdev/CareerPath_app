@@ -1,0 +1,15 @@
+{
+  "institution_id": "legacy-198",
+  "database_id": 198,
+  "name": "State Bank Institute of Learning and Development",
+  "website": "https://www.sbild.in",
+  "outcome": "manual_review",
+  "institution_type": null,
+  "source_url": null,
+  "confidence": null,
+  "evidence": null,
+  "notes": [
+    "The supplied official hostname did not resolve via normal HTTPS requests or public DNS; no official page was available to establish the institutional type.",
+    "The TLS-insecure fallback was not used because the failure was DNS resolution, not a proxy certificate-chain error."
+  ]
+}

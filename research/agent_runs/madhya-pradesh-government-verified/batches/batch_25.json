@@ -1,0 +1,91 @@
+{
+  "batch": 25,
+  "started_at": "2026-09-27T07:13:17.030919+00:00",
+  "finished_at": "2026-09-27T07:13:42.062759+00:00",
+  "assignment_count": 5,
+  "completed_count": 0,
+  "skipped_count": 0,
+  "failed_count": 5,
+  "results": [
+    {
+      "institution_id": "government-college-khurai",
+      "nirf_name": "GOVERNMENT COLLEGE KHURAI",
+      "status": "failed",
+      "started_at": "2026-09-27T07:13:17.083462+00:00",
+      "finished_at": "2026-09-27T07:13:41.716663+00:00",
+      "duration_seconds": 24.628,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/government-college-khurai.jsonl"
+    },
+    {
+      "institution_id": "government-ug-college-kirnapur",
+      "nirf_name": "GOVERNMENT UG COLLEGE, KIRNAPUR",
+      "status": "failed",
+      "started_at": "2026-09-27T07:13:17.100979+00:00",
+      "finished_at": "2026-09-27T07:13:42.020574+00:00",
+      "duration_seconds": 24.919,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/government-ug-college-kirnapur.jsonl"
+    },
+    {
+      "institution_id": "govt-college-khategaon",
+      "nirf_name": "Govt. College, Khategaon",
+      "status": "failed",
+      "started_at": "2026-09-27T07:13:17.099684+00:00",
+      "finished_at": "2026-09-27T07:13:41.764566+00:00",
+      "duration_seconds": 24.665,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/govt-college-khategaon.jsonl"
+    },
+    {
+      "institution_id": "govt-college-khimlasa-sagar-mp",
+      "nirf_name": "Govt College Khimlasa, Sagar-MP",
+      "status": "failed",
+      "started_at": "2026-09-27T07:13:17.089817+00:00",
+      "finished_at": "2026-09-27T07:13:42.040786+00:00",
+      "duration_seconds": 24.951,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/govt-college-khimlasa-sagar-mp.jsonl"
+    },
+    {
+      "institution_id": "govt-college-kukshi-dist-dhar",
+      "nirf_name": "Govt. College, Kukshi Dist. Dhar",
+      "status": "failed",
+      "started_at": "2026-09-27T07:13:17.073893+00:00",
+      "finished_at": "2026-09-27T07:13:41.748239+00:00",
+      "duration_seconds": 24.674,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/govt-college-kukshi-dist-dhar.jsonl"
+    }
+  ]
+}

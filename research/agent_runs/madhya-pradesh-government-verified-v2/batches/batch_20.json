@@ -1,0 +1,78 @@
+{
+  "batch": 20,
+  "started_at": "2026-09-27T12:01:07.545016+00:00",
+  "finished_at": "2026-09-27T12:13:24.438490+00:00",
+  "assignment_count": 5,
+  "completed_count": 4,
+  "skipped_count": 0,
+  "failed_count": 1,
+  "results": [
+    {
+      "institution_id": "baderia-global-institute-of-engineering-management-jabalpur",
+      "nirf_name": "Baderia Global Institute of Engineering & Management, Jabalpur",
+      "status": "completed",
+      "started_at": "2026-09-27T12:01:07.757596+00:00",
+      "finished_at": "2026-09-27T12:11:34.026818+00:00",
+      "duration_seconds": 626.229,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified-v2/results/baderia-global-institute-of-engineering-management-jabalpur.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified-v2/logs/baderia-global-institute-of-engineering-management-jabalpur.jsonl"
+    },
+    {
+      "institution_id": "devi-ahilya-arts-commece-college-indore",
+      "nirf_name": "Devi Ahilya Arts & Commece College, Indore",
+      "status": "completed",
+      "started_at": "2026-09-27T12:01:07.841075+00:00",
+      "finished_at": "2026-09-27T12:12:41.572325+00:00",
+      "duration_seconds": 693.648,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified-v2/results/devi-ahilya-arts-commece-college-indore.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified-v2/logs/devi-ahilya-arts-commece-college-indore.jsonl"
+    },
+    {
+      "institution_id": "government-arts-and-commerce-college-barela",
+      "nirf_name": "GOVERNMENT ARTS AND COMMERCE COLLEGE, BARELA",
+      "status": "completed",
+      "started_at": "2026-09-27T12:01:07.911858+00:00",
+      "finished_at": "2026-09-27T12:12:16.294520+00:00",
+      "duration_seconds": 668.31,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified-v2/results/government-arts-and-commerce-college-barela.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified-v2/logs/government-arts-and-commerce-college-barela.jsonl"
+    },
+    {
+      "institution_id": "government-college-ishagarh",
+      "nirf_name": "GOVERNMENT COLLEGE, ISHAGARH",
+      "status": "failed",
+      "started_at": "2026-09-27T12:01:07.778388+00:00",
+      "finished_at": "2026-09-27T12:10:58.050968+00:00",
+      "duration_seconds": 590.184,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [
+        "verification source is outside official domains: https://ashoknagar.nic.in/en/public-utility-category/college/"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified-v2/logs/government-college-ishagarh.jsonl"
+    },
+    {
+      "institution_id": "govt-arts-commerce-college-a-b-road-indore",
+      "nirf_name": "Govt. Arts & Commerce College A.B.Road, Indore",
+      "status": "completed",
+      "started_at": "2026-09-27T12:01:07.777954+00:00",
+      "finished_at": "2026-09-27T12:13:24.433238+00:00",
+      "duration_seconds": 736.583,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified-v2/results/govt-arts-commerce-college-a-b-road-indore.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified-v2/logs/govt-arts-commerce-college-a-b-road-indore.jsonl"
+    }
+  ]
+}

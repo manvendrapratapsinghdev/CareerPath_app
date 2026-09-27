@@ -1,0 +1,91 @@
+{
+  "batch": 6,
+  "started_at": "2026-09-27T07:10:02.448985+00:00",
+  "finished_at": "2026-09-27T07:10:13.690917+00:00",
+  "assignment_count": 5,
+  "completed_count": 0,
+  "skipped_count": 0,
+  "failed_count": 5,
+  "results": [
+    {
+      "institution_id": "dharmashastra-national-law-university",
+      "nirf_name": "Dharmashastra National Law University",
+      "status": "failed",
+      "started_at": "2026-09-27T07:10:02.474409+00:00",
+      "finished_at": "2026-09-27T07:10:12.985042+00:00",
+      "duration_seconds": 10.51,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/dharmashastra-national-law-university.jsonl"
+    },
+    {
+      "institution_id": "oriental-university-indore",
+      "nirf_name": "Oriental University - Indore",
+      "status": "failed",
+      "started_at": "2026-09-27T07:10:02.466167+00:00",
+      "finished_at": "2026-09-27T07:10:13.686984+00:00",
+      "duration_seconds": 11.221,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/oriental-university-indore.jsonl"
+    },
+    {
+      "institution_id": "renaissance-university-indore",
+      "nirf_name": "RENAISSANCE UNIVERSITY INDORE",
+      "status": "failed",
+      "started_at": "2026-09-27T07:10:02.460650+00:00",
+      "finished_at": "2026-09-27T07:10:11.230627+00:00",
+      "duration_seconds": 8.77,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/renaissance-university-indore.jsonl"
+    },
+    {
+      "institution_id": "sage-university-indore",
+      "nirf_name": "SAGE University Indore",
+      "status": "failed",
+      "started_at": "2026-09-27T07:10:02.473766+00:00",
+      "finished_at": "2026-09-27T07:10:13.652049+00:00",
+      "duration_seconds": 11.178,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/sage-university-indore.jsonl"
+    },
+    {
+      "institution_id": "symbiosis-university-of-applied-sciences",
+      "nirf_name": "Symbiosis University of Applied Sciences",
+      "status": "failed",
+      "started_at": "2026-09-27T07:10:02.477654+00:00",
+      "finished_at": "2026-09-27T07:10:13.308256+00:00",
+      "duration_seconds": 10.83,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/symbiosis-university-of-applied-sciences.jsonl"
+    }
+  ]
+}

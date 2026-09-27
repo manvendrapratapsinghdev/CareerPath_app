@@ -1,0 +1,76 @@
+{
+  "institution_id": "government-degree-college-haripur-nihastha",
+  "nirf_name": "Government Degree College, Haripur Nihastha",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "remove_candidate",
+  "district": null,
+  "district_verification_status": "not_found",
+  "official_website": null,
+  "website_verification_status": "not_found",
+  "description": null,
+  "description_verification_status": "not_found",
+  "record_status": "remove_candidate",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Exact institution listing found: Government Degree College, Haripur Nihastha; city RAEBARELI; state Uttar Pradesh."
+      ]
+    },
+    {
+      "type": "authoritative_domain_check",
+      "url": "https://raebareli.nic.in/?s=Haripur+Nihastha",
+      "supports": [
+        "Official Raebareli district portal returned no results."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Government Degree College, Haripur Nihastha\" official website",
+      "result": "Bing returned unrelated government portals and no identifiable official institution website.",
+      "url": "https://www.bing.com/search?format=rss&q=%22Government+Degree+College%2C+Haripur+Nihastha%22+official+website"
+    },
+    {
+      "query": "\"Government Degree College Haripur Nihastha\" Raebareli",
+      "result": "Bing returned unrelated government portals and no identifiable official institution website.",
+      "url": "https://www.bing.com/search?format=rss&q=%22Government+Degree+College+Haripur+Nihastha%22+Raebareli"
+    },
+    {
+      "query": "site:up.gov.in \"Haripur Nihastha\"",
+      "result": "No matching Uttar Pradesh government institution page was found; results were unrelated Haripur pages.",
+      "url": "https://www.bing.com/search?format=rss&q=site%3Aup.gov.in+%22Haripur+Nihastha%22"
+    },
+    {
+      "query": "site:ac.in \"Haripur Nihastha\"",
+      "result": "No matching academic institution website was found; results were unrelated Haripur pages.",
+      "url": "https://www.bing.com/search?format=rss&q=site%3Aac.in+%22Haripur+Nihastha%22"
+    },
+    {
+      "query": "\"Government Degree College, Haripur Nihastha\" official",
+      "result": "DuckDuckGo returned an anti-bot challenge and no usable result.",
+      "url": "https://html.duckduckgo.com/html/?q=%22Government+Degree+College%2C+Haripur+Nihastha%22+official"
+    },
+    {
+      "query": "\"Government Degree College Haripur Nihastha\" Raebareli",
+      "result": "Google search access returned rate-limit/CAPTCHA responses and no usable result.",
+      "url": "https://www.google.com/search?q=%22Government+Degree+College+Haripur+Nihastha%22+Raebareli"
+    },
+    {
+      "query": "Government Degree College Haripur Nihastha official website",
+      "result": "Official Raebareli district portal search returned no results for the institution.",
+      "url": "https://raebareli.nic.in/?s=Government+Degree+College+Haripur+Nihastha"
+    }
+  ],
+  "course_catalogue_status": "not_found",
+  "courses": [],
+  "agent_notes": [
+    "The NIRF government listing was independently confirmed for the exact institution, city, and state.",
+    "No identifiable official institution website was established after multiple focused searches and an authoritative Raebareli district-domain check; therefore no district, description, or programme data was imported.",
+    "Normal TLS verification encountered the managed proxy self-signed-certificate-chain error; curl --insecure was used only for public GET requests to the expected official/search hostnames."
+  ]
+}

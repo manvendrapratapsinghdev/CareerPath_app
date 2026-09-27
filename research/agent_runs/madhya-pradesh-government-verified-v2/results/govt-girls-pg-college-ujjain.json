@@ -1,0 +1,1031 @@
+{
+  "institution_id": "govt-girls-pg-college-ujjain",
+  "nirf_name": "Govt Girls' PG College, Ujjain",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "verified",
+  "district": "Ujjain",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://highereducation.mp.gov.in/?orgid=491",
+  "website_verification_status": "verified",
+  "description": "A government women's postgraduate college at Dashahara Maidan in Ujjain, Madhya Pradesh, offering regular undergraduate, postgraduate, and distance-education programmes.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Lists Govt Girls' PG College, Ujjain in Ujjain, Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://highereducation.mp.gov.in/?orgid=491",
+      "supports": [
+        "Identifies Shaskiya Kanya Snatakottar Mahavidyalaya, Dashahara Maidan, Ujjain, Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "official_directory",
+      "url": "https://highereducation.mp.gov.in/CollegeDisp/getTable",
+      "supports": [
+        "Identifies orgid 491 as Govtgirls PG College, Ujjain, district Ujjain."
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=ogc0tY%2B1oyq%2F2M8N0nn1cQ%3D%3D&orgid=491",
+      "supports": [
+        "Lists regular PG and UG programmes and an empty Diploma Programme table."
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=FJ0dmq5Q0CwwNH1Qzm8idw%3D%3D&orgid=491",
+      "supports": [
+        "Lists distance PG and UG programmes and an empty Diploma Distance Programme table."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Govt Girls' PG College\" Ujjain official website",
+      "result": "Google returned HTTP 429; no search result was used as verification.",
+      "url": "https://www.google.com/search?q=%22Govt+Girls%27+PG+College%22+Ujjain+official+website"
+    },
+    {
+      "query": "site:mp.gov.in \"Govt Girls' PG College\" Ujjain",
+      "result": "Bing returned unrelated results; the official site was established through the MP Higher Education government college directory.",
+      "url": "https://www.bing.com/search?q=site%3Amp.gov.in+%22Govt+Girls%27+PG+College%22+Ujjain"
+    },
+    {
+      "query": "Government Girls Post Graduate College Ujjain Madhya Pradesh",
+      "result": "Bing returned generic government results; the official MP Higher Education directory was then queried directly.",
+      "url": "https://www.bing.com/search?q=Government+Girls+Post+Graduate+College+Ujjain+Madhya+Pradesh"
+    }
+  ],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "govt-girls-pg-college-ujjain-regular-pg-ma-english",
+      "name": "M. A. (English)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "English",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=ogc0tY%2B1oyq%2F2M8N0nn1cQ%3D%3D&orgid=491",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "closest-specialization: English; tree label is BA English Literature",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-girls-pg-college-ujjain-regular-pg-ma-political-science",
+      "name": "M. A. (Political Science)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Political Science",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=ogc0tY%2B1oyq%2F2M8N0nn1cQ%3D%3D&orgid=491",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct discipline: Political Science",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-girls-pg-college-ujjain-regular-pg-ma-psychology",
+      "name": "M. A. (Psychology)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Psychology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=ogc0tY%2B1oyq%2F2M8N0nn1cQ%3D%3D&orgid=491",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 66,
+          "career_node_slug": "ba_psychology",
+          "career_breadcrumb": "Social Sciences & Education > BA Psychology",
+          "relation": "direct discipline: Psychology",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-girls-pg-college-ujjain-regular-pg-ma-economics",
+      "name": "M. A. (Economics)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Economics",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=ogc0tY%2B1oyq%2F2M8N0nn1cQ%3D%3D&orgid=491",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct discipline: Economics",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-girls-pg-college-ujjain-regular-pg-ma-music-vocal",
+      "name": "M. A. (Music Vocal)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Music Vocal",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=ogc0tY%2B1oyq%2F2M8N0nn1cQ%3D%3D&orgid=491",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 75,
+          "career_node_slug": "music_course",
+          "career_breadcrumb": "Performing Arts & Sports > Music (BA / Diploma)",
+          "relation": "direct discipline: Music; tree label is BA / Diploma",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-girls-pg-college-ujjain-regular-pg-ma-music-instrument",
+      "name": "M. A. (Music Instrument)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Music Instrument",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=ogc0tY%2B1oyq%2F2M8N0nn1cQ%3D%3D&orgid=491",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 75,
+          "career_node_slug": "music_course",
+          "career_breadcrumb": "Performing Arts & Sports > Music (BA / Diploma)",
+          "relation": "direct discipline: Music; tree label is BA / Diploma",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-girls-pg-college-ujjain-regular-pg-ma-hindi",
+      "name": "M. A. (Hindi)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Hindi",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=ogc0tY%2B1oyq%2F2M8N0nn1cQ%3D%3D&orgid=491",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct discipline: Hindi; tree label is BA Hindi / Regional Language",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-girls-pg-college-ujjain-regular-pg-ma-history",
+      "name": "M. A. (History)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "History",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=ogc0tY%2B1oyq%2F2M8N0nn1cQ%3D%3D&orgid=491",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct discipline: History",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-girls-pg-college-ujjain-regular-pg-ma-sanskrit",
+      "name": "M. A. (Sanskrit)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Sanskrit",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=ogc0tY%2B1oyq%2F2M8N0nn1cQ%3D%3D&orgid=491",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "nearest-parent: Languages & Literature; no Sanskrit node exists",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-girls-pg-college-ujjain-regular-pg-ma-sociology",
+      "name": "M. A. (Sociology)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Sociology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=ogc0tY%2B1oyq%2F2M8N0nn1cQ%3D%3D&orgid=491",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct discipline: Sociology",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-girls-pg-college-ujjain-regular-pg-ma-drawing-painting",
+      "name": "M. A. (DRAWING AND PAINTING)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "DRAWING AND PAINTING",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=ogc0tY%2B1oyq%2F2M8N0nn1cQ%3D%3D&orgid=491",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 60,
+          "career_node_slug": "bfa",
+          "career_breadcrumb": "Media & Journalism > B.F.A (Fine Arts)",
+          "relation": "closest-specialization: Fine Arts / painting",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-girls-pg-college-ujjain-regular-pg-mcom-commerce",
+      "name": "M. Com. (Commerce)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Commerce",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=ogc0tY%2B1oyq%2F2M8N0nn1cQ%3D%3D&orgid=491",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "closest-specialization: Commerce; no M.Com node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-girls-pg-college-ujjain-regular-pg-msc-home-science",
+      "name": "M. Sc. (Home Science (Family Resource Management)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=ogc0tY%2B1oyq%2F2M8N0nn1cQ%3D%3D&orgid=491",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "No responsible Home Science or Family Resource Management node exists in career_nodes."
+    },
+    {
+      "course_id": "govt-girls-pg-college-ujjain-regular-pg-msc-pharmaceutical-chemistry",
+      "name": "M. Sc. (Pharmaceutical Chemistry)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Pharmaceutical Chemistry",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=ogc0tY%2B1oyq%2F2M8N0nn1cQ%3D%3D&orgid=491",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "closest-specialization: Chemistry; no Pharmaceutical Chemistry node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-girls-pg-college-ujjain-regular-pg-msc-mathematics",
+      "name": "M. Sc. (Mathematics)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Mathematics",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=ogc0tY%2B1oyq%2F2M8N0nn1cQ%3D%3D&orgid=491",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 90,
+          "career_node_slug": "msc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics > M.Sc Mathematics → Professor / Researcher",
+          "relation": "direct discipline: M.Sc Mathematics",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-girls-pg-college-ujjain-regular-pg-msc-computer-science",
+      "name": "M. Sc. (Computer Science)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Computer Science",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=ogc0tY%2B1oyq%2F2M8N0nn1cQ%3D%3D&orgid=491",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 32,
+          "career_node_slug": "bsc_cs",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Computer Science",
+          "relation": "closest-specialization: Computer Science; tree label is B.Sc Computer Science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-girls-pg-college-ujjain-regular-pg-msc-zoology",
+      "name": "M. Sc. (Zoology)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Zoology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=ogc0tY%2B1oyq%2F2M8N0nn1cQ%3D%3D&orgid=491",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest-specialization: Zoology via Biology / Biotech; no Zoology node exists",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-girls-pg-college-ujjain-regular-pg-msc-biotechnology",
+      "name": "M. Sc. (Biotechnology)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Biotechnology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=ogc0tY%2B1oyq%2F2M8N0nn1cQ%3D%3D&orgid=491",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 146,
+          "career_node_slug": "msc_biotech",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech > M.Sc Biotechnology → Researcher",
+          "relation": "direct discipline: M.Sc Biotechnology",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-girls-pg-college-ujjain-regular-pg-msc-chemistry",
+      "name": "M. Sc. (Chemistry)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Chemistry",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=ogc0tY%2B1oyq%2F2M8N0nn1cQ%3D%3D&orgid=491",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 155,
+          "career_node_slug": "msc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry > M.Sc Chemistry → Researcher",
+          "relation": "direct discipline: M.Sc Chemistry",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-girls-pg-college-ujjain-regular-ug-ba-plain",
+      "name": "B. A. (B.A.- Plain)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "B.A.- Plain",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=ogc0tY%2B1oyq%2F2M8N0nn1cQ%3D%3D&orgid=491",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent: Social Sciences & Education; no generic BA node exists",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-girls-pg-college-ujjain-regular-ug-bcom-commerce",
+      "name": "B. Com (Commerce)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Commerce",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=ogc0tY%2B1oyq%2F2M8N0nn1cQ%3D%3D&orgid=491",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct discipline: Commerce",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-girls-pg-college-ujjain-regular-ug-bcom-computer-application",
+      "name": "B. Com (Commerce with Computer Application)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Commerce with Computer Application",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=ogc0tY%2B1oyq%2F2M8N0nn1cQ%3D%3D&orgid=491",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct discipline: Commerce",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "closest-specialization: Computer Application component",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-girls-pg-college-ujjain-regular-ug-bcom-tax-procedure",
+      "name": "B. Com (Commerce with Tax Procedure and Practice)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Commerce with Tax Procedure and Practice",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=ogc0tY%2B1oyq%2F2M8N0nn1cQ%3D%3D&orgid=491",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct discipline: Commerce",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-girls-pg-college-ujjain-regular-ug-bhsc-home-science",
+      "name": "B. H. Sc. (Home Science)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Home Science",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=ogc0tY%2B1oyq%2F2M8N0nn1cQ%3D%3D&orgid=491",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "No responsible Home Science node exists in career_nodes."
+    },
+    {
+      "course_id": "govt-girls-pg-college-ujjain-regular-ug-bsc-cs-maths-stats",
+      "name": "B. Sc. (Computer Science - Mathematics - Statistics)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Computer Science - Mathematics - Statistics",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=ogc0tY%2B1oyq%2F2M8N0nn1cQ%3D%3D&orgid=491",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 32,
+          "career_node_slug": "bsc_cs",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Computer Science",
+          "relation": "direct discipline component: Computer Science",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct discipline component: Mathematics",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 6,
+          "career_node_slug": "bsc_stats",
+          "career_breadcrumb": "Maths / PCM > B.Sc Statistics",
+          "relation": "direct discipline component: Statistics",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-girls-pg-college-ujjain-regular-ug-bsc-physics-maths-stats",
+      "name": "B. Sc. (Physics - Mathematics - Statistics)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Physics - Mathematics - Statistics",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=ogc0tY%2B1oyq%2F2M8N0nn1cQ%3D%3D&orgid=491",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 24,
+          "career_node_slug": "bsc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics",
+          "relation": "direct discipline component: Physics",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct discipline component: Mathematics",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 6,
+          "career_node_slug": "bsc_stats",
+          "career_breadcrumb": "Maths / PCM > B.Sc Statistics",
+          "relation": "direct discipline component: Statistics",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-girls-pg-college-ujjain-regular-ug-bsc-cs-maths-physics",
+      "name": "B. Sc. (Computer Science - Mathematics - Physics)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Computer Science - Mathematics - Physics",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=ogc0tY%2B1oyq%2F2M8N0nn1cQ%3D%3D&orgid=491",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 32,
+          "career_node_slug": "bsc_cs",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Computer Science",
+          "relation": "direct discipline component: Computer Science",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct discipline component: Mathematics",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 24,
+          "career_node_slug": "bsc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics",
+          "relation": "direct discipline component: Physics",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-girls-pg-college-ujjain-regular-ug-bsc-botany-chemistry-microbiology",
+      "name": "B. Sc. (Botany - Chemistry - Microbiology)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Botany - Chemistry - Microbiology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=ogc0tY%2B1oyq%2F2M8N0nn1cQ%3D%3D&orgid=491",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest-specialization: Botany; tree label is Biology / Biotech",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        },
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "direct discipline component: Chemistry",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 34,
+          "career_node_slug": "bsc_microbio",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Microbiology",
+          "relation": "direct discipline component: Microbiology",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-girls-pg-college-ujjain-regular-ug-bsc-botany-pharmaceutical-chemistry-zoology",
+      "name": "B. Sc. (Botany - Pharmaceutical Chemistry - Zoology)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Botany - Pharmaceutical Chemistry - Zoology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=ogc0tY%2B1oyq%2F2M8N0nn1cQ%3D%3D&orgid=491",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest-specialization: Botany and Zoology via Biology / Biotech; no separate nodes exist",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        },
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "closest-specialization: Pharmaceutical Chemistry via Chemistry",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-girls-pg-college-ujjain-regular-ug-bsc-biotechnology-chemistry-zoology",
+      "name": "B. Sc. (Biotechnology - Chemistry - Zoology)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Biotechnology - Chemistry - Zoology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=ogc0tY%2B1oyq%2F2M8N0nn1cQ%3D%3D&orgid=491",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest-specialization: Biotechnology and Zoology via Biology / Biotech",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        },
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "direct discipline component: Chemistry",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-girls-pg-college-ujjain-regular-ug-bsc-chemistry-maths-physics",
+      "name": "B. Sc. (Chemistry - Mathematics - Physics)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Chemistry - Mathematics - Physics",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=ogc0tY%2B1oyq%2F2M8N0nn1cQ%3D%3D&orgid=491",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "direct discipline component: Chemistry",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct discipline component: Mathematics",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 24,
+          "career_node_slug": "bsc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics",
+          "relation": "direct discipline component: Physics",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-girls-pg-college-ujjain-regular-ug-bsc-botany-chemistry-zoology",
+      "name": "B. Sc. (Botany - Chemistry - Zoology)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Botany - Chemistry - Zoology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=ogc0tY%2B1oyq%2F2M8N0nn1cQ%3D%3D&orgid=491",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest-specialization: Botany and Zoology via Biology / Biotech; no separate nodes exist",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        },
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "direct discipline component: Chemistry",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-girls-pg-college-ujjain-distance-pg-ma-economics",
+      "name": "M. A. (Economics)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Economics",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": "Post-Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=FJ0dmq5Q0CwwNH1Qzm8idw%3D%3D&orgid=491",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct discipline: Economics; tree label is BA Economics",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-girls-pg-college-ujjain-distance-pg-ma-hindi",
+      "name": "M. A. (Hindi)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Hindi",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": "Post-Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=FJ0dmq5Q0CwwNH1Qzm8idw%3D%3D&orgid=491",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct discipline: Hindi; tree label is BA Hindi / Regional Language",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-girls-pg-college-ujjain-distance-ug-ba-plain",
+      "name": "B. A. (B.A.- Plain)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "B.A.- Plain",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=FJ0dmq5Q0CwwNH1Qzm8idw%3D%3D&orgid=491",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent: Social Sciences & Education; no generic BA node exists",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-girls-pg-college-ujjain-distance-ug-bcom-commerce",
+      "name": "B. Com (Commerce)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Commerce",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=FJ0dmq5Q0CwwNH1Qzm8idw%3D%3D&orgid=491",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct discipline: Commerce",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-girls-pg-college-ujjain-distance-ug-bsc-botany-chemistry-zoology",
+      "name": "B. Sc. (Botany - Chemistry - Zoology)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Botany - Chemistry - Zoology",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=FJ0dmq5Q0CwwNH1Qzm8idw%3D%3D&orgid=491",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest-specialization: Botany and Zoology via Biology / Biotech; no separate nodes exist",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        },
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "direct discipline component: Chemistry",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "Normal TLS requests to the expected public hosts failed with the managed-proxy self-signed certificate-chain error; curl --insecure was used only for public GET requests to confirmed public hosts.",
+    "The official catalogue explicitly shows regular PG and UG tables, distance PG and UG tables, and empty diploma tables; no certificate or doctoral programme was listed on the official catalogue pages reviewed.",
+    "Duration was left null because neither official catalogue page states programme duration. Programme names and eligibility values were copied from the official tables."
+  ]
+}

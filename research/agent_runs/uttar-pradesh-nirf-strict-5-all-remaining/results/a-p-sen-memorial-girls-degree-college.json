@@ -1,0 +1,88 @@
+{
+  "institution_id": "a-p-sen-memorial-girls-degree-college",
+  "nirf_name": "A.P. SEN MEMORIAL GIRLS DEGREE COLLEGE",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "remove_candidate",
+  "district": null,
+  "district_verification_status": "not_found",
+  "official_website": null,
+  "website_verification_status": "not_found",
+  "description": null,
+  "description_verification_status": "not_found",
+  "record_status": "remove_candidate",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact institution name",
+        "Lucknow",
+        "Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Exact institution name",
+        "Lucknow",
+        "Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "university_authority",
+      "url": "https://www.lkouniv.ac.in/en/page/vacancies-in-colleges",
+      "supports": [
+        "University of Lucknow names A. P. Sen Memorial Girls' P.G. College and A.P. Sen Memorial Girl's College in Lucknow; no institution homepage link is provided"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "A.P. SEN MEMORIAL GIRLS DEGREE COLLEGE Lucknow official website",
+      "result": "Focused search returned unrelated results and did not identify an institution website.",
+      "url": "https://www.bing.com/search?q=A.P.+SEN+MEMORIAL+GIRLS+DEGREE+COLLEGE+Lucknow+official+website"
+    },
+    {
+      "query": "AP Sen Memorial Girls Degree College Lucknow admission official",
+      "result": "Focused search returned unrelated AP and college-board results and did not identify an institution website.",
+      "url": "https://www.bing.com/search?q=AP+Sen+Memorial+Girls+Degree+College+Lucknow+admission+official"
+    },
+    {
+      "query": "A.P. Sen Memorial Girls Degree College Lucknow official",
+      "result": "Focused exact-name search did not identify an institution website.",
+      "url": "https://www.google.com/search?q=%22A.P.+Sen+Memorial+Girls+Degree+College%22+Lucknow+official"
+    },
+    {
+      "query": "site:ac.in \"A.P. SEN MEMORIAL GIRLS DEGREE COLLEGE\"",
+      "result": "Authoritative-domain search did not identify an institution-domain result.",
+      "url": "https://www.bing.com/search?q=site%3Aac.in+%22A.P.+SEN+MEMORIAL+GIRLS+DEGREE+COLLEGE%22"
+    },
+    {
+      "query": "site:lkouniv.ac.in \"Sen Memorial Girls\"",
+      "result": "No relevant institution website was identified; the University of Lucknow page only provides university-hosted vacancy notices.",
+      "url": "https://www.bing.com/search?q=site%3Alkouniv.ac.in+%22Sen+Memorial+Girls%22"
+    },
+    {
+      "query": "site:up.gov.in \"Sen Memorial Girls\"",
+      "result": "No relevant official institutional-domain result was identified.",
+      "url": "https://www.bing.com/search?q=site%3Aup.gov.in+%22Sen+Memorial+Girls%22"
+    },
+    {
+      "query": "site:edu.in \"Sen Memorial Girls\" Lucknow",
+      "result": "No relevant official institutional-domain result was identified.",
+      "url": "https://www.bing.com/search?q=site%3Aedu.in+%22Sen+Memorial+Girls%22+Lucknow"
+    }
+  ],
+  "course_catalogue_status": "not_found",
+  "courses": [],
+  "agent_notes": [
+    "The institution was confirmed in both supplied NIRF 2025 government listings at Lucknow, Uttar Pradesh.",
+    "Normal TLS verification produced the documented self-signed proxy certificate-chain error; public GET requests then used curl --insecure only for the expected public domains.",
+    "After multiple focused searches, authoritative-domain checks, and direct HTTPS/DNS checks of plausible institutional domains, no official institution website or official programme catalogue could be established. No course data was imported."
+  ]
+}

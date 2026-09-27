@@ -1,0 +1,52 @@
+{
+  "batch": 7,
+  "started_at": "2026-09-27T12:39:46.464663+00:00",
+  "finished_at": "2026-09-27T12:54:52.910007+00:00",
+  "assignment_count": 5,
+  "completed_count": 0,
+  "skipped_count": 4,
+  "failed_count": 1,
+  "results": [
+    {
+      "institution_id": "chaudhary-charan-singh-university-meerut",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/chaudhary-charan-singh-university-meerut.json",
+      "finished_at": "2026-09-27T12:39:52.717421+00:00"
+    },
+    {
+      "institution_id": "iimt-university-meerut",
+      "nirf_name": "IIMT University Meerut",
+      "status": "failed",
+      "started_at": "2026-09-27T12:39:51.350065+00:00",
+      "finished_at": "2026-09-27T12:54:52.067492+00:00",
+      "duration_seconds": 900.694,
+      "return_code": -15,
+      "timed_out": true,
+      "errors": [
+        "agent timed out after 900 seconds",
+        "codex exec exited with code -15",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/logs/iimt-university-meerut.jsonl"
+    },
+    {
+      "institution_id": "sardar-vallabhbhai-patel-university-of-agriculture-technology",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/sardar-vallabhbhai-patel-university-of-agriculture-technology.json",
+      "finished_at": "2026-09-27T12:39:52.691779+00:00"
+    },
+    {
+      "institution_id": "shobhit-university",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/shobhit-university.json",
+      "finished_at": "2026-09-27T12:39:52.820060+00:00"
+    },
+    {
+      "institution_id": "up-pandit-deen-dayal-upadhyaya-veterinary-university-gau-anusandhan-sansthan-mathura",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/up-pandit-deen-dayal-upadhyaya-veterinary-university-gau-anusandhan-sansthan-mathura.json",
+      "finished_at": "2026-09-27T12:39:52.733695+00:00"
+    }
+  ]
+}

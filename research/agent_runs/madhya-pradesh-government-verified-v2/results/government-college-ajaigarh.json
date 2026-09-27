@@ -1,0 +1,95 @@
+{
+  "institution_id": "government-college-ajaigarh",
+  "nirf_name": "Government College Ajaigarh",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Panna",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://highereducation.mp.gov.in/?orgid=306",
+  "website_verification_status": "verified",
+  "description": "Government degree college in Ajaygarh, Panna, Madhya Pradesh.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Government College Ajaigarh listing",
+        "Panna",
+        "Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://highereducation.mp.gov.in/?orgid=306",
+      "supports": [
+        "Institution-specific official homepage",
+        "Government degree college identity",
+        "Ajaygarh and Panna, Madhya Pradesh campus identity"
+      ]
+    },
+    {
+      "type": "official_department_directory",
+      "url": "https://highereducation.mp.gov.in/?page=3ReniKuyIMmDd4opO%2FkIdA%3D%3D",
+      "supports": [
+        "Madhya Pradesh Higher Education Department government college directory",
+        "Ajaygarh college entry",
+        "Panna district association"
+      ]
+    },
+    {
+      "type": "official_regular_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=uZsJDCAZdxdUZqzikLd0lg%3D%3D&orgid=306",
+      "supports": [
+        "Official Programmes Offered page",
+        "PG, UG, and Diploma catalogue sections with no programme rows currently shown"
+      ]
+    },
+    {
+      "type": "official_distance_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=U4e7%2B4a4fH9A71Cv%2Fy5ydA%3D%3D&orgid=306",
+      "supports": [
+        "Official Distance Education Programme page",
+        "PG, UG, and Diploma distance catalogue sections with no programme rows currently shown"
+      ]
+    },
+    {
+      "type": "official_prospectus_page",
+      "url": "https://highereducation.mp.gov.in/?page=C3829tbJw4I8jQUVAEjl6A%3D%3D&orgid=306",
+      "supports": [
+        "Official Prospectus page"
+      ]
+    },
+    {
+      "type": "official_new_course_page",
+      "url": "https://highereducation.mp.gov.in/?page=NoVjv5mUppEu%2BAPENS33YQ%3D%3D&orgid=306",
+      "supports": [
+        "Official New Course Started page"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "Government College Ajaigarh official website",
+      "result": "Search-engine results did not establish an official institution site; the official Madhya Pradesh Higher Education Department directory was checked directly.",
+      "url": null
+    },
+    {
+      "query": "\"Government College Ajaigarh\" site:mp.gov.in OR site:mponline.gov.in OR site:ac.in",
+      "result": "Search-engine results did not establish an official institution site; the official Madhya Pradesh Higher Education Department directory was checked directly.",
+      "url": null
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [],
+  "agent_notes": [
+    "The official Regular Courses page contains PG Programme, UG Programme, and Diploma Programme headings but no programme rows; the official Distance Education page likewise contains no programme rows.",
+    "The official Prospectus and New Course Started pages contain no programme catalogue entries, so no course names were imported and the catalogue remains incomplete.",
+    "The institution page links the former http://www.mpcolleges.nic.in/gdcajaigarh page, but that hostname did not resolve during this run; the current official Higher Education Department institution page was used instead.",
+    "Normal TLS verification returned the managed proxy error “self signed certificate in certificate chain”; curl --insecure was then used only for public GETs to confirmed official/search domains."
+  ]
+}

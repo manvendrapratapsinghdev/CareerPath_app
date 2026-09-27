@@ -1,0 +1,85 @@
+{
+  "institution_id": "govt-college-ladkui-distt-sehore",
+  "nirf_name": "Govt. College Ladkui Distt. Sehore",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Sehore",
+  "district_verification_status": "pending_official_source",
+  "official_website": "https://highereducation.mp.gov.in/?orgid=401",
+  "website_verification_status": "ambiguous",
+  "description": null,
+  "description_verification_status": "pending",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact institution name listed with city Ladkui and state Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Exact institution name listed with city Ladkui and state Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "official_state_college_directory",
+      "url": "https://highereducation.mp.gov.in/CollegeDisp/CollegeDispIndex",
+      "supports": [
+        "Official Madhya Pradesh Higher Education college directory lists the Ladkui campus as सरदार वल्‍लभ भाई पटेल शासकीय महाविद्यालय, लाड़कुई"
+      ]
+    },
+    {
+      "type": "official_state_college_registry",
+      "url": "https://highereducation.mp.gov.in/CollegeDisp/getTable",
+      "supports": [
+        "Public official registry record identifies orgid 401, college code 2910, Sardar Vallabh Bhai Patel Government College, Ladkui, District Sehore, and official email hegcladseh@mp.gov.in"
+      ]
+    },
+    {
+      "type": "official_college_linked_homepage",
+      "url": "https://highereducation.mp.gov.in/?orgid=401",
+      "supports": [
+        "Official directory-linked college URL for orgid 401; fetched page is generic Higher Education content and does not independently identify the campus or provide a programme catalogue"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Govt. College Ladkui Distt. Sehore\" official website",
+      "result": "No direct official institution website surfaced; returned unrelated or general government pages.",
+      "url": null
+    },
+    {
+      "query": "\"Government College Ladkui\" Sehore Madhya Pradesh",
+      "result": "No direct official institution website surfaced.",
+      "url": null
+    },
+    {
+      "query": "\"Ladkui\" college site:mp.gov.in",
+      "result": "No direct Ladkui institution page surfaced in focused search results.",
+      "url": null
+    },
+    {
+      "query": "\"Ladkui\" \"Sehore\" college official",
+      "result": "No direct institution website surfaced in focused search results.",
+      "url": null
+    }
+  ],
+  "course_catalogue_status": "not_found",
+  "courses": [],
+  "agent_notes": [
+    "The exact NIRF institution row was independently confirmed in both supplied 2025 government listings, with city Ladkui and state Madhya Pradesh.",
+    "The official Madhya Pradesh Higher Education registry maps orgid 401 and college code 2910 to Sardar Vallabh Bhai Patel Government College, Ladkui, District Sehore; this establishes a likely identity match but uses a different official name from the NIRF record.",
+    "The directory-linked URL https://highereducation.mp.gov.in/?orgid=401 resolves to a generic Higher Education page with an error section and no institution-specific campus description or active programme catalogue, so the official website identity remains ambiguous and the record requires manual review.",
+    "No courses were imported because no institution-specific official catalogue was found. State admissions portals and affiliated-university pages were not used as substitutes for the institution's actual official website.",
+    "Normal TLS verification first failed with the managed proxy self-signed certificate-chain error for the expected official hosts; --insecure was used only for public requests to nirfindia.org and highereducation.mp.gov.in."
+  ]
+}

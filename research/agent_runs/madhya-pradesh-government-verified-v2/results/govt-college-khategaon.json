@@ -1,0 +1,64 @@
+{
+  "institution_id": "govt-college-khategaon",
+  "nirf_name": "Govt. College, Khategaon",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Dewas",
+  "district_verification_status": "pending_official_source",
+  "official_website": null,
+  "website_verification_status": "ambiguous",
+  "description": null,
+  "description_verification_status": "pending",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact institution row: Govt. College, Khategaon; city Khategaon; state Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "official_district_directory",
+      "url": "https://dewas.nic.in/en/public-utility/government-college-khategaon/",
+      "supports": [
+        "Government directory record for Government College, Khategaon.",
+        "Address identifies Nemawar Road, Khategaon, Dewas, Madhya Pradesh."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "Govt. College Khategaon official website Madhya Pradesh",
+      "result": "The directly readable authoritative result was the Dewas district government directory; no institution-owned official homepage was established.",
+      "url": "https://dewas.nic.in/en/public-utility/government-college-khategaon/"
+    },
+    {
+      "query": "\"Government College, Khategaon\"",
+      "result": "Exact-name results did not establish an institution-owned official homepage; non-official aggregators were excluded.",
+      "url": null
+    },
+    {
+      "query": "hegckhadew@mp.gov.in",
+      "result": "Results surfaced the official Madhya Pradesh Higher Education Institute Portal pages for InstId=NTQ0, but direct HTTPS retrieval timed out.",
+      "url": "https://mphighereducation.nic.in/InstitutePortal/Public/Institute_Cont_Details.aspx?InstId=NTQ0"
+    },
+    {
+      "query": "site:mphighereducation.nic.in/InstitutePortal/Public/ NTQ0",
+      "result": "The official MP Higher Education portal course and objective URLs were identified, but direct HTTPS retrieval timed out; no course names were imported from snippets.",
+      "url": "https://mphighereducation.nic.in/InstitutePortal/Public/CoursesIn_Institute.aspx?InstId=NTQ0"
+    }
+  ],
+  "course_catalogue_status": "not_found",
+  "courses": [],
+  "agent_notes": [
+    "NIRF government listing is established and matches the assigned Khategaon campus and city.",
+    "No institution-owned official homepage was directly established. The official MP Higher Education Institute Portal profile for InstId=NTQ0 was identified, but its contact, objective, and course pages were not directly readable because HTTPS requests timed out; manual review is required.",
+    "No programme, duration, eligibility, or description facts were imported from search snippets or non-official aggregators.",
+    "Normal TLS first produced the exact local proxy error 'self signed certificate in certificate chain'; curl --insecure was then used only for public GET requests to the expected official domains.",
+    "Dewas is shown by the official district government directory address, but institution-site confirmation remains pending."
+  ]
+}

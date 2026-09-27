@@ -1,0 +1,15 @@
+{
+  "institution_id": "legacy-42",
+  "database_id": 42,
+  "name": "NCTE Recognised B.Ed Colleges",
+  "website": "https://ncte.gov.in",
+  "outcome": "manual_review",
+  "institution_type": null,
+  "source_url": null,
+  "confidence": null,
+  "evidence": null,
+  "notes": [
+    "The official NCTE site identifies National Council for Teacher Education as a statutory Government of India body that regulates teacher education, but this record names a plural collection of recognised B.Ed colleges rather than one institute.",
+    "Used curl --insecure for public GET requests after normal TLS verification failed with the managed proxy certificate-chain error."
+  ]
+}

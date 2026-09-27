@@ -1,0 +1,82 @@
+{
+  "institution_id": "duke-college-of-management",
+  "nirf_name": "Duke College of Management",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "remove_candidate",
+  "district": null,
+  "district_verification_status": "not_found",
+  "official_website": null,
+  "website_verification_status": "not_found",
+  "description": null,
+  "description_verification_status": "not_found",
+  "record_status": "remove_candidate",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html",
+      "supports": [
+        "Duke College of Management listing",
+        "Bhopal campus city",
+        "Madhya Pradesh state"
+      ]
+    },
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Duke College of Management listing",
+        "Bhopal campus city",
+        "Madhya Pradesh state"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "Duke College of Management Bhopal official website",
+      "result": "Bing RSS returned no exact institution website; results were unrelated sites such as Bikewale, Duke University, KTM India, and Duke India.",
+      "url": "https://www.bing.com/search?q=Duke+College+of+Management+Bhopal+official+website&format=rss"
+    },
+    {
+      "query": "\"Duke College of Management\" Bhopal courses",
+      "result": "Bing RSS returned no exact institution or course-site result; results were unrelated sites.",
+      "url": "https://www.bing.com/search?q=%22Duke+College+of+Management%22+Bhopal+courses&format=rss"
+    },
+    {
+      "query": "\"Duke College of Management\" Bhopal contact address",
+      "result": "Bing RSS returned no exact institution website or contact page; results were unrelated sites.",
+      "url": "https://www.bing.com/search?q=%22Duke+College+of+Management%22+Bhopal+contact+address&format=rss"
+    },
+    {
+      "query": "site:ac.in \"Duke College of Management\"",
+      "result": "No matching .ac.in institution website was returned; only unrelated generic results appeared.",
+      "url": "https://www.bing.com/search?q=site%3Aac.in+%22Duke+College+of+Management%22&format=rss"
+    },
+    {
+      "query": "site:edu.in \"Duke College of Management\"",
+      "result": "No matching .edu.in institution website was returned; only unrelated generic results appeared.",
+      "url": "https://www.bing.com/search?q=site%3Aedu.in+%22Duke+College+of+Management%22&format=rss"
+    },
+    {
+      "query": "site:gov.in \"Duke College of Management\"",
+      "result": "No matching government-domain institution website was returned.",
+      "url": "https://www.bing.com/search?q=site%3Agov.in+%22Duke+College+of+Management%22&format=rss"
+    },
+    {
+      "query": "site:mp.gov.in \"Duke College of Management\"",
+      "result": "No matching Madhya Pradesh government-domain institution website was returned.",
+      "url": "https://www.bing.com/search?q=site%3Amp.gov.in+%22Duke+College+of+Management%22&format=rss"
+    }
+  ],
+  "course_catalogue_status": "not_found",
+  "courses": [],
+  "agent_notes": [
+    "The institution is listed by name, city, and state in both supplied NIRF 2025 government listings.",
+    "No official institutional homepage or official programme catalogue could be established after focused searches and .ac.in, .edu.in, .gov.in, and .mp.gov.in authoritative-domain checks.",
+    "Normal TLS verification produced the managed proxy's self-signed certificate-chain error; public GET requests were then made with curl --insecure after confirming the expected public hosts.",
+    "Because no official website was established, district, description, programme catalogue, durations, and eligibility were not imported."
+  ]
+}

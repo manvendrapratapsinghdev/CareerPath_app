@@ -1,0 +1,400 @@
+{
+  "institution_id": "institute-of-co-operative-and-corporate-management-research-training",
+  "nirf_name": "Institute of Co-operative and Corporate Management, Research & Training",
+  "verification_outcome": "verified",
+  "district": "Lucknow",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://iccmrt.ac.in/",
+  "website_verification_status": "verified",
+  "description": "Established by the Government of Uttar Pradesh in 1978, ICCMRT is a Lucknow higher-education institute offering management education, computer training, research, consultancy, and training.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "official_homepage",
+      "url": "https://iccmrt.ac.in/",
+      "supports": [
+        "official ICCMRT identity",
+        "current programme cards",
+        "Lucknow branding"
+      ]
+    },
+    {
+      "type": "official_contact_identity",
+      "url": "https://iccmrt.ac.in/contact-us/",
+      "supports": [
+        "full institution name",
+        "Government of Uttar Pradesh establishment statement",
+        "467 Sector-21, Institutional Area, Ring Road, Indira Nagar, Lucknow-226016 campus address"
+      ]
+    },
+    {
+      "type": "official_about_description",
+      "url": "https://iccmrt.ac.in/about-us/",
+      "supports": [
+        "institution history",
+        "management education, computer training, research and consultancy description",
+        "Lucknow campus address"
+      ]
+    },
+    {
+      "type": "official_education_catalogue",
+      "url": "https://iccmrt.ac.in/education/",
+      "supports": [
+        "complete academic catalogue",
+        "AKTU, University of Lucknow and TSU affiliations",
+        "programme names",
+        "numeric duration for existing MBA, BBA and B.Com programmes",
+        "2026-27 TSU degree and certificate programme activity"
+      ]
+    },
+    {
+      "type": "official_admissions_catalogue",
+      "url": "https://iccmrt.ac.in/admissions/",
+      "supports": [
+        "exact current programme names",
+        "approved intakes",
+        "TSU degree programme list",
+        "TSU certificate programme list"
+      ]
+    },
+    {
+      "type": "official_mba_page",
+      "url": "https://iccmrt.ac.in/mba-programme/",
+      "supports": [
+        "AKTU MBA programme",
+        "two-year full-time duration",
+        "eligibility"
+      ]
+    },
+    {
+      "type": "official_bba_page",
+      "url": "https://iccmrt.ac.in/bba/",
+      "supports": [
+        "University of Lucknow BBA",
+        "AKTU BBA",
+        "three-year full-time duration",
+        "eligibility"
+      ]
+    },
+    {
+      "type": "official_bcom_page",
+      "url": "https://iccmrt.ac.in/bcom/",
+      "supports": [
+        "University of Lucknow B.Com (Honours)",
+        "three-year full-time duration",
+        "eligibility"
+      ]
+    },
+    {
+      "type": "official_training_scope",
+      "url": "https://iccmrt.ac.in/training/",
+      "supports": [
+        "separate ADO/ADCO, ACABC and drone training activities, distinct from the academic programme catalogue"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Institute of Co-operative and Corporate Management\" Lucknow",
+      "result": "Bing discovery was attempted; results were noisy under the managed proxy. Direct HTTPS retrieval of the expected official domain https://iccmrt.ac.in/ returned HTTP 200 and official pages identified the institution and Lucknow campus.",
+      "url": "https://www.bing.com/search?q=%22Institute+of+Co-operative+and+Corporate+Management%22+Lucknow"
+    },
+    {
+      "query": "ICCMRT official website Lucknow",
+      "result": "Bing discovery was attempted; direct retrieval of https://iccmrt.ac.in/ returned HTTP 200 and the official homepage, contact page, education page and admissions page established the institution identity and catalogue.",
+      "url": "https://www.bing.com/search?q=ICCMRT+official+website+Lucknow"
+    },
+    {
+      "query": "site:iccmrt.ac.in ICCMRT Lucknow official",
+      "result": "Brave search returned HTTP 429 in this environment; the expected official domain was independently checked by public HTTPS GET and verified from its own pages.",
+      "url": "https://search.brave.com/search?q=site%3Aiccmrt.ac.in+ICCMRT+Lucknow+official"
+    }
+  ],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "institute-of-co-operative-and-corporate-management-research-training-iccmrt-aktu-mba",
+      "name": "Master of Business Administration (MBA)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Dual specialization options: Marketing Management; Financial Management; Human Resources Management; Information Technology; International Business; Operations Management; Cooperative Management",
+      "duration": "2 years",
+      "mode": "full-time",
+      "eligibility": "A bachelor's degree of minimum three years duration from a recognized college or university in India recognized by UGC, with at least 50% marks (45% for SC/ST candidates).",
+      "official_course_url": "https://iccmrt.ac.in/mba-programme/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 208,
+          "career_node_slug": "mba_general",
+          "career_breadcrumb": "Management & Business > BBA (General) > MBA → CEO / Director Track",
+          "relation": "direct MBA node; the career tree places the MBA node under BBA (General)",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "institute-of-co-operative-and-corporate-management-research-training-iccmrt-aktu-bba",
+      "name": "Bachelor of Business Administration (BBA)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "full-time",
+      "eligibility": "10+2 in any discipline, with at least 50% marks (45% for SC/ST candidates).",
+      "official_course_url": "https://iccmrt.ac.in/bba/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 46,
+          "career_node_slug": "bba",
+          "career_breadcrumb": "Management & Business > BBA (General)",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "institute-of-co-operative-and-corporate-management-research-training-iccmrt-lu-bba",
+      "name": "Bachelor of Business Administration (BBA)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "full-time",
+      "eligibility": "10+2 in any discipline, with at least 50% marks (45% for SC/ST candidates).",
+      "official_course_url": "https://iccmrt.ac.in/bba/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 46,
+          "career_node_slug": "bba",
+          "career_breadcrumb": "Management & Business > BBA (General)",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "institute-of-co-operative-and-corporate-management-research-training-iccmrt-lu-bcom-honours",
+      "name": "Bachelor of Commerce (Honors) (B.Com – Honors)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "full-time",
+      "eligibility": "10+2 in any discipline, with at least 60% marks (55% for SC/ST candidates), and Commerce, Economics, or Mathematics as one of the intermediate subjects.",
+      "official_course_url": "https://iccmrt.ac.in/bcom/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "institute-of-co-operative-and-corporate-management-research-training-iccmrt-tsu-mba-agri-business-management",
+      "name": "Master of Business Administration – Agri-Business Management (MBA-ABM)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Agri-Business Management",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://iccmrt.ac.in/admissions/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 208,
+          "career_node_slug": "mba_general",
+          "career_breadcrumb": "Management & Business > BBA (General) > MBA → CEO / Director Track",
+          "relation": "closest-specialization: general MBA node; no Agri-Business Management node exists in the career tree",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "institute-of-co-operative-and-corporate-management-research-training-iccmrt-tsu-mba-cooperative-management",
+      "name": "Master of Business Administration (Cooperative Management) – (MBA-Coop)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Cooperative Management",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://iccmrt.ac.in/admissions/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 208,
+          "career_node_slug": "mba_general",
+          "career_breadcrumb": "Management & Business > BBA (General) > MBA → CEO / Director Track",
+          "relation": "closest-specialization: general MBA node; no Cooperative Management node exists in the career tree",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "institute-of-co-operative-and-corporate-management-research-training-iccmrt-tsu-bba-cooperative-banking-finance",
+      "name": "Bachelor of Business Administration (Cooperative Banking and Finance)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Cooperative Banking and Finance",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://iccmrt.ac.in/admissions/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 43,
+          "career_node_slug": "bba_finance",
+          "career_breadcrumb": "Finance & Investment > BBA Finance",
+          "relation": "closest-specialization: BBA Finance; no Cooperative Banking and Finance node exists in the career tree",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "institute-of-co-operative-and-corporate-management-research-training-iccmrt-tsu-higher-diploma-cooperative-management",
+      "name": "Higher Diploma in Cooperative Management",
+      "level": "diploma",
+      "credential": "Higher Diploma",
+      "specialization": "Cooperative Management",
+      "duration": null,
+      "mode": "short-term",
+      "eligibility": null,
+      "official_course_url": "https://iccmrt.ac.in/admissions/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest-parent mapping; no Cooperative Management diploma node exists in the career tree",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "institute-of-co-operative-and-corporate-management-research-training-iccmrt-tsu-certificate-pacs-accounts-finance",
+      "name": "Certificate Course in Accounts and Finance for PACS Secretaries and Accountants",
+      "level": "certificate",
+      "credential": "Certificate",
+      "specialization": "Accounts and Finance",
+      "duration": null,
+      "mode": "short-term",
+      "eligibility": null,
+      "official_course_url": "https://iccmrt.ac.in/admissions/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 340,
+          "career_node_slug": "commerce_accounting",
+          "career_breadcrumb": "Accounting & Audit",
+          "relation": "nearest-parent mapping for the accounts and finance focus",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "institute-of-co-operative-and-corporate-management-research-training-iccmrt-tsu-certificate-dcb-accounts-finance",
+      "name": "Certificate Course in Accounts and Finance for DCB Branch Managers and Accountants",
+      "level": "certificate",
+      "credential": "Certificate",
+      "specialization": "Accounts and Finance",
+      "duration": null,
+      "mode": "short-term",
+      "eligibility": null,
+      "official_course_url": "https://iccmrt.ac.in/admissions/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 344,
+          "career_node_slug": "commerce_banking",
+          "career_breadcrumb": "Banking & Insurance",
+          "relation": "nearest-parent mapping for the branch-management and banking focus",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "institute-of-co-operative-and-corporate-management-research-training-iccmrt-tsu-certificate-ldb-accounts-finance",
+      "name": "Certificate Course in Accounts and Finance for LDB Branch Managers and Accountants",
+      "level": "certificate",
+      "credential": "Certificate",
+      "specialization": "Accounts and Finance",
+      "duration": null,
+      "mode": "short-term",
+      "eligibility": null,
+      "official_course_url": "https://iccmrt.ac.in/admissions/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 344,
+          "career_node_slug": "commerce_banking",
+          "career_breadcrumb": "Banking & Insurance",
+          "relation": "nearest-parent mapping for the branch-management and banking focus",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "institute-of-co-operative-and-corporate-management-research-training-iccmrt-tsu-certificate-cooperative-accounts-auditing",
+      "name": "Certificate Course in Cooperative Accounts and Auditing",
+      "level": "certificate",
+      "credential": "Certificate",
+      "specialization": "Cooperative Accounts and Auditing",
+      "duration": null,
+      "mode": "short-term",
+      "eligibility": null,
+      "official_course_url": "https://iccmrt.ac.in/admissions/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 340,
+          "career_node_slug": "commerce_accounting",
+          "career_breadcrumb": "Accounting & Audit",
+          "relation": "nearest-parent mapping for the accounts and auditing focus",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "Normal TLS verification reached the managed proxy and failed with the exact self-signed-certificate-in-chain error; curl --insecure was then used only for public GET requests to the expected search and official domains.",
+    "The official education and admissions pages enumerate seven degree programmes and five TSU short-term certificate programmes for 2026-27. Separate ADO/ADCO, ACABC, drone/RPTO and officer/employer training pages describe training activities rather than additional academic degree, diploma or certificate catalogue entries, so they were excluded.",
+    "The TSU pages do not explicitly state numeric duration or eligibility; those fields remain null. No doctoral programme appears in the official education or admissions catalogue.",
+    "Two BBA records are retained because the official catalogue lists distinct AKTU-affiliated and University-of-Lucknow-affiliated BBA programmes with separate approved intakes; course_id distinguishes them."
+  ]
+}

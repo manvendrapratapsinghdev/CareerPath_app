@@ -1,0 +1,821 @@
+{
+  "institution_id": "era-s-lucknow-medical-college-hospital-lucknow",
+  "nirf_name": "Era's Lucknow Medical College & Hospital, Lucknow",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/MedicalRankingALL.html"
+  ],
+  "verification_outcome": "verified",
+  "district": "Lucknow",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://elmcindia.org/",
+  "website_verification_status": "verified",
+  "description": "Era's Lucknow Medical College and Hospital is a teaching medical college and hospital at Sarfarazganj, Hardoi Road, Lucknow, affiliated with Era University and providing undergraduate, postgraduate and advanced training for doctors, nurses and allied health professionals.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/MedicalRankingALL.html",
+      "supports": [
+        "Exact listing: Era's Lucknow Medical College & Hospital, Lucknow"
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://elmcindia.org/",
+      "supports": [
+        "Official website identity",
+        "Institution branding",
+        "Campus address"
+      ]
+    },
+    {
+      "type": "official_contact",
+      "url": "https://elmcindia.org/contact",
+      "supports": [
+        "Sarfarazganj, Hardoi Road, Lucknow-226003",
+        "Official website domain"
+      ]
+    },
+    {
+      "type": "official_about",
+      "url": "https://elmcindia.org/about",
+      "supports": [
+        "Institution description",
+        "Teaching hospital identity",
+        "Undergraduate and postgraduate programme summary"
+      ]
+    },
+    {
+      "type": "official_course_index",
+      "url": "https://elmcindia.org/courses",
+      "supports": [
+        "Official course catalogue categories"
+      ]
+    },
+    {
+      "type": "official_undergraduate_catalogue",
+      "url": "https://elmcindia.org/undergraduate",
+      "supports": [
+        "MBBS programme name",
+        "MBBS duration",
+        "MBBS eligibility"
+      ]
+    },
+    {
+      "type": "official_postgraduate_catalogue",
+      "url": "https://elmcindia.org/postgraduate",
+      "supports": [
+        "Postgraduate credential durations",
+        "Nineteen postgraduate subject entries"
+      ]
+    },
+    {
+      "type": "official_pdcc_catalogue",
+      "url": "https://elmcindia.org/pdcc",
+      "supports": [
+        "Post Doctoral Certificate Course",
+        "Fellowship programme",
+        "Duration and eligibility"
+      ]
+    },
+    {
+      "type": "official_diploma_catalogue",
+      "url": "https://elmcindia.org/diploma",
+      "supports": [
+        "Four diploma programme names"
+      ]
+    },
+    {
+      "type": "official_nursing_college_catalogue",
+      "url": "https://elmcindia.org/nursingcollege",
+      "supports": [
+        "B.Sc Nursing",
+        "Post Basic B.Sc. Nursing",
+        "Duration and eligibility"
+      ]
+    },
+    {
+      "type": "official_nursing_school_catalogue",
+      "url": "https://elmcindia.org/nursingschool",
+      "supports": [
+        "General Nursing and Midwifery",
+        "Auxiliary Nurse & Midwife",
+        "Duration and eligibility"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "Era's Lucknow Medical College Hospital official website",
+      "result": "CLI-focused discovery identified https://elmcindia.org/; direct fetch of the official homepage matched the institution name and Lucknow campus address.",
+      "url": "https://elmcindia.org/"
+    },
+    {
+      "query": "site:elmcindia.org Era's Lucknow Medical College courses",
+      "result": "The official domain exposes the undergraduate, postgraduate, diploma, PDCC, nursing college and nursing school catalogue pages used for verification.",
+      "url": "https://elmcindia.org/courses"
+    }
+  ],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "era-s-lucknow-medical-college-hospital-lucknow-mbbs",
+      "name": "BACHELOR OF MEDICINE AND BACHELOR OF SURGERY (M.B.B.S.)",
+      "level": "undergraduate",
+      "credential": "M.B.B.S.",
+      "specialization": null,
+      "duration": "54 months (4 1/2 years), followed by one year compulsory rotatory internship",
+      "mode": "not stated",
+      "eligibility": "Completed 17 years by 31 December of the admission year; 10+2 or equivalent with English, Physics, Chemistry and Biology; minimum 50% in Physics, Chemistry and Biology together, or 40% for SC/ST/OBC candidates.",
+      "official_course_url": "https://elmcindia.org/undergraduate",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "era-s-lucknow-medical-college-hospital-lucknow-pg-general-medicine",
+      "name": "General Medicine",
+      "level": "postgraduate",
+      "credential": "Postgraduate (M.D./M.S.)",
+      "specialization": "General Medicine",
+      "duration": "3 years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://elmcindia.org/postgraduate",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 128,
+          "career_node_slug": "md_general",
+          "career_breadcrumb": "Biology / PCB > MBBS > MD General Medicine",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "era-s-lucknow-medical-college-hospital-lucknow-pg-general-surgery",
+      "name": "General Surgery",
+      "level": "postgraduate",
+      "credential": "Postgraduate (M.D./M.S.)",
+      "specialization": "General Surgery",
+      "duration": "3 years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://elmcindia.org/postgraduate",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 129,
+          "career_node_slug": "ms_surgery",
+          "career_breadcrumb": "Biology / PCB > MBBS > MS Surgery",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "era-s-lucknow-medical-college-hospital-lucknow-pg-obstetrics-gynaecology",
+      "name": "Obstetrics & Gynaecology",
+      "level": "postgraduate",
+      "credential": "Postgraduate (M.D./M.S.)",
+      "specialization": "Obstetrics & Gynaecology",
+      "duration": "3 years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://elmcindia.org/postgraduate",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "nearest-parent: medical undergraduate family; no obstetrics/gynaecology node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "era-s-lucknow-medical-college-hospital-lucknow-pg-orthopaedics",
+      "name": "Orthopaedics",
+      "level": "postgraduate",
+      "credential": "Postgraduate (M.D./M.S.)",
+      "specialization": "Orthopaedics",
+      "duration": "3 years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://elmcindia.org/postgraduate",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "nearest-parent: medical undergraduate family; no orthopaedics node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "era-s-lucknow-medical-college-hospital-lucknow-pg-radiology",
+      "name": "Radiology",
+      "level": "postgraduate",
+      "credential": "Postgraduate (M.D./M.S.)",
+      "specialization": "Radiology",
+      "duration": "3 years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://elmcindia.org/postgraduate",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 133,
+          "career_node_slug": "md_radiology",
+          "career_breadcrumb": "Biology / PCB > MBBS > MD Radiology",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "era-s-lucknow-medical-college-hospital-lucknow-pg-paediatrics",
+      "name": "Paediatrics",
+      "level": "postgraduate",
+      "credential": "Postgraduate (M.D./M.S.)",
+      "specialization": "Paediatrics",
+      "duration": "3 years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://elmcindia.org/postgraduate",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 130,
+          "career_node_slug": "md_paediatrics",
+          "career_breadcrumb": "Biology / PCB > MBBS > MD Paediatrics",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "era-s-lucknow-medical-college-hospital-lucknow-pg-dermatology-venerology-leprosy",
+      "name": "Dermatology, Venerology & Leprosy",
+      "level": "postgraduate",
+      "credential": "Postgraduate (M.D./M.S.)",
+      "specialization": "Dermatology, Venerology & Leprosy",
+      "duration": "3 years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://elmcindia.org/postgraduate",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 131,
+          "career_node_slug": "md_derma",
+          "career_breadcrumb": "Biology / PCB > MBBS > MD Dermatology",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "era-s-lucknow-medical-college-hospital-lucknow-pg-anaesthesiology",
+      "name": "Anaesthesiology",
+      "level": "postgraduate",
+      "credential": "Postgraduate (M.D./M.S.)",
+      "specialization": "Anaesthesiology",
+      "duration": "3 years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://elmcindia.org/postgraduate",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "nearest-parent: medical undergraduate family; no anaesthesiology node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "era-s-lucknow-medical-college-hospital-lucknow-pg-psychiatry",
+      "name": "Psychiatry",
+      "level": "postgraduate",
+      "credential": "Postgraduate (M.D./M.S.)",
+      "specialization": "Psychiatry",
+      "duration": "3 years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://elmcindia.org/postgraduate",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 132,
+          "career_node_slug": "md_psychiatry",
+          "career_breadcrumb": "Biology / PCB > MBBS > MD Psychiatry",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "era-s-lucknow-medical-college-hospital-lucknow-pg-tuberculosis-respiratory-medicine",
+      "name": "Tuberculosis & Respiratory Medicine",
+      "level": "postgraduate",
+      "credential": "Postgraduate (M.D./M.S.)",
+      "specialization": "Tuberculosis & Respiratory Medicine",
+      "duration": "3 years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://elmcindia.org/postgraduate",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "nearest-parent: medical undergraduate family; no tuberculosis/respiratory medicine node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "era-s-lucknow-medical-college-hospital-lucknow-pg-oto-rhino-laryngology",
+      "name": "Oto-Rhino-Laryngology",
+      "level": "postgraduate",
+      "credential": "Postgraduate (M.D./M.S.)",
+      "specialization": "Oto-Rhino-Laryngology",
+      "duration": "3 years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://elmcindia.org/postgraduate",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "nearest-parent: medical undergraduate family; no otorhinolaryngology node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "era-s-lucknow-medical-college-hospital-lucknow-pg-ophthalmology",
+      "name": "Ophthalmology",
+      "level": "postgraduate",
+      "credential": "Postgraduate (M.D./M.S.)",
+      "specialization": "Ophthalmology",
+      "duration": "3 years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://elmcindia.org/postgraduate",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "nearest-parent: medical undergraduate family; no ophthalmology node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "era-s-lucknow-medical-college-hospital-lucknow-pg-pharmacology",
+      "name": "Pharmacology",
+      "level": "postgraduate",
+      "credential": "Postgraduate (M.D./M.S.)",
+      "specialization": "Pharmacology",
+      "duration": "3 years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://elmcindia.org/postgraduate",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "nearest-parent: medical undergraduate family; no medical pharmacology node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "era-s-lucknow-medical-college-hospital-lucknow-pg-microbiology",
+      "name": "Microbiology",
+      "level": "postgraduate",
+      "credential": "Postgraduate (M.D./M.S.)",
+      "specialization": "Microbiology",
+      "duration": "3 years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://elmcindia.org/postgraduate",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 34,
+          "career_node_slug": "bsc_microbio",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Microbiology",
+          "relation": "closest-specialization: microbiology; no postgraduate medical microbiology node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "era-s-lucknow-medical-college-hospital-lucknow-pg-community-medicine",
+      "name": "Community Medicine",
+      "level": "postgraduate",
+      "credential": "Postgraduate (M.D./M.S.)",
+      "specialization": "Community Medicine",
+      "duration": "3 years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://elmcindia.org/postgraduate",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "nearest-parent: medical undergraduate family; no community medicine node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "era-s-lucknow-medical-college-hospital-lucknow-pg-bio-chemistry",
+      "name": "Bio-Chemistry",
+      "level": "postgraduate",
+      "credential": "Postgraduate (M.D./M.S.)",
+      "specialization": "Bio-Chemistry",
+      "duration": "3 years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://elmcindia.org/postgraduate",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 35,
+          "career_node_slug": "bsc_biochem",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Biochemistry",
+          "relation": "closest-specialization: biochemistry; no postgraduate medical biochemistry node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "era-s-lucknow-medical-college-hospital-lucknow-pg-pathology",
+      "name": "Pathology",
+      "level": "postgraduate",
+      "credential": "Postgraduate (M.D./M.S.)",
+      "specialization": "Pathology",
+      "duration": "3 years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://elmcindia.org/postgraduate",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 37,
+          "career_node_slug": "dmlt",
+          "career_breadcrumb": "Paramedical & Health Sciences > DMLT (Medical Lab Technology)",
+          "relation": "closest-specialization: medical laboratory technology; no postgraduate pathology node exists",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "era-s-lucknow-medical-college-hospital-lucknow-pg-anatomy",
+      "name": "Anatomy",
+      "level": "postgraduate",
+      "credential": "Postgraduate (M.D./M.S.)",
+      "specialization": "Anatomy",
+      "duration": "3 years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://elmcindia.org/postgraduate",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "nearest-parent: medical undergraduate family; no anatomy node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "era-s-lucknow-medical-college-hospital-lucknow-pg-physiology",
+      "name": "Physiology",
+      "level": "postgraduate",
+      "credential": "Postgraduate (M.D./M.S.)",
+      "specialization": "Physiology",
+      "duration": "3 years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://elmcindia.org/postgraduate",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "nearest-parent: medical undergraduate family; no physiology node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "era-s-lucknow-medical-college-hospital-lucknow-pdcc",
+      "name": "Post Doctoral Certificate Course (PDCC)",
+      "level": "postdoctoral",
+      "credential": "Post Doctoral Certificate (PDCC)",
+      "specialization": null,
+      "duration": "one year",
+      "mode": "not stated",
+      "eligibility": "MD/MS/DNB",
+      "official_course_url": "https://elmcindia.org/pdcc",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "nearest-parent: medical undergraduate family; no postdoctoral certificate node exists",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "era-s-lucknow-medical-college-hospital-lucknow-fellowship",
+      "name": "Fellowship program",
+      "level": "postdoctoral",
+      "credential": "Fellowship",
+      "specialization": null,
+      "duration": "one year",
+      "mode": "not stated",
+      "eligibility": "MD/MS/DNB",
+      "official_course_url": "https://elmcindia.org/pdcc",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "nearest-parent: medical undergraduate family; no medical fellowship node exists",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "era-s-lucknow-medical-college-hospital-lucknow-diploma-anaesthesia-operation-theatre-technology",
+      "name": "Diploma of Anaesthesia and Operation Theatre Technology (D.AOTT)",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": "Anaesthesia and Operation Theatre Technology",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://elmcindia.org/diploma",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest-parent: Paramedical & Health Sciences",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "era-s-lucknow-medical-college-hospital-lucknow-diploma-dialysis-technology",
+      "name": "Diploma of Dialysis Technology (D.DT)",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": "Dialysis Technology",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://elmcindia.org/diploma",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest-parent: Paramedical & Health Sciences",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "era-s-lucknow-medical-college-hospital-lucknow-diploma-health-science",
+      "name": "Diploma in Health Science",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": "Health Science",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://elmcindia.org/diploma",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest-parent: Paramedical & Health Sciences",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "era-s-lucknow-medical-college-hospital-lucknow-d-pharma",
+      "name": "D.Pharma",
+      "level": "diploma",
+      "credential": "D.Pharma",
+      "specialization": "Pharmacy",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://elmcindia.org/diploma",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "closest-specialization: pharmacy; career-tree slug is bpharm but display label is Medical Updated",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "era-s-lucknow-medical-college-hospital-lucknow-bsc-nursing",
+      "name": "B.Sc Nursing",
+      "level": "undergraduate",
+      "credential": "B.Sc Nursing",
+      "specialization": "Nursing",
+      "duration": "4 years",
+      "mode": "not stated",
+      "eligibility": "Age 17 to 35 years; Higher Secondary (10+2) with Science including Physics, Chemistry, Biology and English.",
+      "official_course_url": "https://elmcindia.org/nursingcollege",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 19,
+          "career_node_slug": "bsc_nursing",
+          "career_breadcrumb": "Biology / PCB > B.Sc Nursing",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "era-s-lucknow-medical-college-hospital-lucknow-post-basic-bsc-nursing",
+      "name": "Post Basic B.Sc. Nursing",
+      "level": "undergraduate",
+      "credential": "Post Basic B.Sc. Nursing",
+      "specialization": "Nursing",
+      "duration": "2 years",
+      "mode": "not stated",
+      "eligibility": "Age 17 to 35 years; GNM Diploma with R.N. & R.M. number.",
+      "official_course_url": "https://elmcindia.org/nursingcollege",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 19,
+          "career_node_slug": "bsc_nursing",
+          "career_breadcrumb": "Biology / PCB > B.Sc Nursing",
+          "relation": "nearest-parent: B.Sc Nursing; no post-basic nursing node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "era-s-lucknow-medical-college-hospital-lucknow-gnm",
+      "name": "General Nursing and Midwifery (G.N.M.)",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": "General Nursing and Midwifery",
+      "duration": "3½ years",
+      "mode": "not stated",
+      "eligibility": "10+2 or equivalent; age 17 to 35 years; written examination followed by interview; internship after training is mandatory.",
+      "official_course_url": "https://elmcindia.org/nursingschool",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 19,
+          "career_node_slug": "bsc_nursing",
+          "career_breadcrumb": "Biology / PCB > B.Sc Nursing",
+          "relation": "nearest-parent: B.Sc Nursing nursing family; no GNM node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "era-s-lucknow-medical-college-hospital-lucknow-anm",
+      "name": "Auxiliary Nurse & Midwife (A.N.M.)",
+      "level": "nursing course",
+      "credential": "A.N.M. course",
+      "specialization": "Auxiliary Nurse & Midwife",
+      "duration": "2 years",
+      "mode": "not stated",
+      "eligibility": "10+2 or equivalent; age 17 to 35 years; written examination followed by interview.",
+      "official_course_url": "https://elmcindia.org/nursingschool",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 19,
+          "career_node_slug": "bsc_nursing",
+          "career_breadcrumb": "Biology / PCB > B.Sc Nursing",
+          "relation": "nearest-parent: B.Sc Nursing nursing family; no ANM node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The exact institution name appears in the 2025 NIRF Medical ranking row.",
+    "Normal TLS first returned the managed proxy self-signed-certificate-chain error; subsequent public GETs used curl --insecure only for the confirmed NIRF and official elmcindia.org hosts.",
+    "The official site identifies the campus as Sarfarazganj, Hardoi Road, Lucknow-226003.",
+    "The catalogue includes current MBBS, 19 postgraduate subject entries, PDCC/Fellowship, four diploma entries, and nursing programmes. Historical PG diploma batch/status links and HTML-commented diploma items were excluded as non-current programme listings.",
+    "The official site describes Era Educational Trust and displays private-college ranking references, while INSTITUTION_CONTEXT labels the type government_college; this classification discrepancy was not used to reject the exact name-and-campus match."
+  ]
+}

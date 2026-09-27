@@ -1,0 +1,410 @@
+{
+  "institution_id": "national-institute-of-pharmaceutical-education-and-research-raebareli",
+  "nirf_name": "National Institute of Pharmaceutical Education and Research Raebareli",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/PharmacyRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Lucknow",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://www.niperraebareli.edu.in/",
+  "website_verification_status": "verified",
+  "description": "NIPER-Raebareli is an Institute of National Importance focused on pharmaceutical education and research, established in 2008 and currently operating from a transit campus in Lucknow, Uttar Pradesh.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Exact institution name, Lucknow city, and Uttar Pradesh state in the 2025 Overall ranking listing."
+      ]
+    },
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/PharmacyRankingALL.html",
+      "supports": [
+        "Exact institution name, Lucknow city, and Uttar Pradesh state in the 2025 Pharmacy ranking listing."
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://www.niperraebareli.edu.in/",
+      "supports": [
+        "Official NIPER Raebareli identity, current institutional notices, Lucknow transit-campus reference, and official programme/admission links."
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "https://www.niperraebareli.edu.in/rti.html",
+      "supports": [
+        "Official address: Bijnor-Sisendi Road, Sarojini Nagar, near CRPF Base Camp, Lucknow (UP)-226002."
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "https://www.niperraebareli.edu.in/DM.html",
+      "supports": [
+        "Director's official statement that NIPER-Raebareli currently operates from a transit campus in Lucknow and has a permanent campus at Vinayak Pur, Raebareli, Uttar Pradesh."
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://www.niperraebareli.edu.in/courses.html",
+      "supports": [
+        "Academic Programmes tables for M.S. (Pharm.), M.Tech., and Ph.D. disciplines; current syllabus links including M.Tech. Biotechnology, Medical Devices, and Biopharmaceuticals."
+      ]
+    },
+    {
+      "type": "official_admissions_page",
+      "url": "https://www.niperraebareli.edu.in/admission.html",
+      "supports": [
+        "Official discipline/course list, programme eligibility, and NIPER Joint Entrance Examination admission route."
+      ]
+    },
+    {
+      "type": "official_admission_notice",
+      "url": "https://www.niperraebareli.edu.in/academics/Advt_Direct_PhD.pdf",
+      "supports": [
+        "2026 official direct Ph.D. notice, current Lucknow transit-campus identity, Ph.D. eligibility, and statement that the institute admits M.S. (Pharm.), Ph.D., and Integrated PG-Ph.D. programmes."
+      ]
+    }
+  ],
+  "website_search_evidence": [],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "national-institute-of-pharmaceutical-education-and-research-raebareli-niperrbl-ms-pharm-medicinal-chemistry",
+      "name": "M.S. (Pharm.)",
+      "level": "postgraduate",
+      "credential": "M.S. (Pharm.)",
+      "specialization": "Medicinal Chemistry",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "B.Pharm./ M.Sc.(Organic Chemistry)",
+      "official_course_url": "https://www.niperraebareli.edu.in/admission.html",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 144,
+          "career_node_slug": "pharma_researcher",
+          "career_breadcrumb": "Biology / PCB > Medical Updated > Pharmaceutical Researcher",
+          "relation": "Direct discipline mapping to pharmaceutical research",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "national-institute-of-pharmaceutical-education-and-research-raebareli-niperrbl-ms-pharm-pharmaceutical-analysis",
+      "name": "M.S. (Pharm.)",
+      "level": "postgraduate",
+      "credential": "M.S. (Pharm.)",
+      "specialization": "Pharmaceutical Analysis",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "B. Pharm./ M.Sc. (Organic/Analytical Chemistry)",
+      "official_course_url": "https://www.niperraebareli.edu.in/admission.html",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 144,
+          "career_node_slug": "pharma_researcher",
+          "career_breadcrumb": "Biology / PCB > Medical Updated > Pharmaceutical Researcher",
+          "relation": "Direct discipline mapping to pharmaceutical research",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "national-institute-of-pharmaceutical-education-and-research-raebareli-niperrbl-ms-pharm-pharmaceutics",
+      "name": "M.S. (Pharm.)",
+      "level": "postgraduate",
+      "credential": "M.S. (Pharm.)",
+      "specialization": "Pharmaceutics",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "B. Pharm.",
+      "official_course_url": "https://www.niperraebareli.edu.in/admission.html",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 144,
+          "career_node_slug": "pharma_researcher",
+          "career_breadcrumb": "Biology / PCB > Medical Updated > Pharmaceutical Researcher",
+          "relation": "Direct discipline mapping to pharmaceutical research",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "national-institute-of-pharmaceutical-education-and-research-raebareli-niperrbl-ms-pharm-pharmacology-toxicology",
+      "name": "M.S. (Pharm.)",
+      "level": "postgraduate",
+      "credential": "M.S. (Pharm.)",
+      "specialization": "Pharmacology & Toxicology",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "B. Pharm./ B.V.Sc./ M.B.B.S./M.Sc. (Pharmacology)",
+      "official_course_url": "https://www.niperraebareli.edu.in/admission.html",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 144,
+          "career_node_slug": "pharma_researcher",
+          "career_breadcrumb": "Biology / PCB > Medical Updated > Pharmaceutical Researcher",
+          "relation": "Direct discipline mapping to pharmaceutical research",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "national-institute-of-pharmaceutical-education-and-research-raebareli-niperrbl-ms-pharm-regulatory-toxicology",
+      "name": "M.S. (Pharm.)",
+      "level": "postgraduate",
+      "credential": "M.S. (Pharm.)",
+      "specialization": "Regulatory Toxicology",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "B. Pharm./ B.V.Sc./ M.Sc. (Pharmacology/ Toxicology /Life Sciences/ Biochemistry/ Medical Biotechnology/ Zoology)/ M.B.B.S.",
+      "official_course_url": "https://www.niperraebareli.edu.in/admission.html",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 144,
+          "career_node_slug": "pharma_researcher",
+          "career_breadcrumb": "Biology / PCB > Medical Updated > Pharmaceutical Researcher",
+          "relation": "Direct discipline mapping to pharmaceutical research",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "national-institute-of-pharmaceutical-education-and-research-raebareli-niperrbl-ms-pharm-regulatory-affairs",
+      "name": "M.S. (Pharm.)",
+      "level": "postgraduate",
+      "credential": "M.S. (Pharm.)",
+      "specialization": "Regulatory Affairs",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "B.Pharm./ B. Tech./B.E. (Biotechnology/ Biomedical Engineering/ Chemical Engineering or equivalent), M.B.B.S / BDS / B.V.Sc./ M.Sc. (Biotechnology/ Microbiology/Food Science/ Life Sciences/ Chemical Sciences/Pharmacology/ Toxicology)",
+      "official_course_url": "https://www.niperraebareli.edu.in/admission.html",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 144,
+          "career_node_slug": "pharma_researcher",
+          "career_breadcrumb": "Biology / PCB > Medical Updated > Pharmaceutical Researcher",
+          "relation": "Direct discipline mapping to pharmaceutical research",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "national-institute-of-pharmaceutical-education-and-research-raebareli-niperrbl-mtech-biotechnology",
+      "name": "M.Tech.",
+      "level": "postgraduate",
+      "credential": "M.Tech.",
+      "specialization": "Biotechnology",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "B.Pharm. /M.Sc. (Biological Sciences/Biotechnology/Microbiology) / B.Tech (Biotechnology) / M.Sc. (Life Sciences)",
+      "official_course_url": "https://www.niperraebareli.edu.in/admission.html",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 330,
+          "career_node_slug": "biotech_researcher",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Biotechnology > Biotech Researcher",
+          "relation": "Direct discipline mapping to biotechnology research",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "national-institute-of-pharmaceutical-education-and-research-raebareli-niperrbl-mtech-medical-devices",
+      "name": "M.Tech.",
+      "level": "postgraduate",
+      "credential": "M.Tech.",
+      "specialization": "Medical Devices",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "B.Pharm./ M.B.B.S / BDS / B.V.Sc / B.E or B.Tech (Biotechnology / Biomedical / Biophysics / Electronics / Instrumentation / Mechanical / Biochemical / Health Sciences or allied subjects) / 4-year BS course (Chemistry/ Mathematics & Computing/Physics/Programming/Data Science) / Post Graduation in Chemical Sciences / Life Sciences / Material Sciences / Physical Sciences / Biotechnology / Biomedical / Biophysics / Electronics / Instrumentation / Biochemical / Health Sciences / Medical science & Technology or allied subjects as applicable in GATE/ NET.",
+      "official_course_url": "https://www.niperraebareli.edu.in/admission.html",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 126,
+          "career_node_slug": "instrumentation_engineer",
+          "career_breadcrumb": "Maths / PCM > B.Sc Electronics / Instrumentation > Instrumentation Engineer",
+          "relation": "Closest-specialization mapping because the career tree has no medical-devices node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "national-institute-of-pharmaceutical-education-and-research-raebareli-niperrbl-mtech-biopharmaceuticals",
+      "name": "M.Tech.",
+      "level": "postgraduate",
+      "credential": "M.Tech.",
+      "specialization": "Biopharmaceuticals",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.niperraebareli.edu.in/syllabus/M.TechBiopharmaceuticalsSyllabus_19062026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 330,
+          "career_node_slug": "biotech_researcher",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Biotechnology > Biotech Researcher",
+          "relation": "Closest-specialization mapping to biotechnology research",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "national-institute-of-pharmaceutical-education-and-research-raebareli-niperrbl-phd-medicinal-chemistry",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Medicinal Chemistry",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "M.S.(Pharm.)(Medicinal Chemistry/Natural Products); M.Pharm.(Pharmaceutical Chemistry); M.Tech. (Pharm.)(Bulk Drugs/Process Chemistry); M.Sc. (Organic Chemistry)",
+      "official_course_url": "https://www.niperraebareli.edu.in/courses.html",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 144,
+          "career_node_slug": "pharma_researcher",
+          "career_breadcrumb": "Biology / PCB > Medical Updated > Pharmaceutical Researcher",
+          "relation": "Direct discipline mapping to pharmaceutical research",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "national-institute-of-pharmaceutical-education-and-research-raebareli-niperrbl-phd-pharmaceutics",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Pharmaceutics",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "M.S.(Pharm.) (Pharmaceutics/ Biotechnology/ Pharmacology); M.Pharm. (Pharmaceutics/ Formulations); M.Tech. (Pharm.) (Biotechnology); M.Tech. (Biomedical Engineering/ Biotechnology/ Chemical Engineering)",
+      "official_course_url": "https://www.niperraebareli.edu.in/courses.html",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 144,
+          "career_node_slug": "pharma_researcher",
+          "career_breadcrumb": "Biology / PCB > Medical Updated > Pharmaceutical Researcher",
+          "relation": "Direct discipline mapping to pharmaceutical research",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "national-institute-of-pharmaceutical-education-and-research-raebareli-niperrbl-phd-pharmacology-toxicology",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Pharmacology & Toxicology",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "M.S.(Pharm.)/ M.Pharm./ M.Tech.(Pharm.) (Medicinal Chemistry/ Pharmaceutical Chemistry, Natural Products/Pharmacology and Toxicology/ Regulatory Toxicology/ Formulation/Biotechnology /Pharmaceutics/ Pharmacoinformatics); M.E./M.Tech./M.Sc. (Pharmacology/ Biotechnology/ Nanotechnology/ Computational Sciences/ Biochemistry/ Toxicology/ Zoology/ Physiology/ Life Sciences/ Microbiology/ Organic-Chemistry/ Pharmaceutical Chemistry); M.D. (Pharmacology), M.V.Sc. (Pharmacology/ Pathology/ Biotechnology); Pharm.D",
+      "official_course_url": "https://www.niperraebareli.edu.in/courses.html",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 144,
+          "career_node_slug": "pharma_researcher",
+          "career_breadcrumb": "Biology / PCB > Medical Updated > Pharmaceutical Researcher",
+          "relation": "Direct discipline mapping to pharmaceutical research",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "national-institute-of-pharmaceutical-education-and-research-raebareli-niperrbl-phd-biotechnology",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Biotechnology",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "M.S. (Pharm.)/M.Pharm./M.Tech.(Pharm.) (Medicinal Chemistry/Pharmaceutical Chemistry/ Natural Products/ Pharmacology and Toxicology/ Formulation/ Biotechnology/ Pharmaceutics/ Pharmacoinformatics); M.E./ M.Tech./ M.Sc. (Biotechnology/ LifeSciences/ Computational Sciences; Biochemistry/ Botany/ Zoology/ Physiology/ Life Sciences/ Organic Chemistry/ Pharmaceutical Chemistry/Biopharmaceuticals); M.V.Sc.",
+      "official_course_url": "https://www.niperraebareli.edu.in/courses.html",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 330,
+          "career_node_slug": "biotech_researcher",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Biotechnology > Biotech Researcher",
+          "relation": "Direct discipline mapping to biotechnology research",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "national-institute-of-pharmaceutical-education-and-research-raebareli-niperrbl-integrated-pg-phd",
+      "name": "Integrated PG-Ph.D.",
+      "level": "integrated_postgraduate_doctoral",
+      "credential": "Integrated PG-Ph.D.",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.niperraebareli.edu.in/academics/Advt_Direct_PhD.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 144,
+          "career_node_slug": "pharma_researcher",
+          "career_breadcrumb": "Biology / PCB > Medical Updated > Pharmaceutical Researcher",
+          "relation": "Closest-parent mapping for an integrated pharmaceutical-sciences doctorate without a single official discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "Both supplied NIRF 2025 government listings contain the exact institution name and list Lucknow, Uttar Pradesh.",
+    "The official RTI disclosure confirms the transit-campus address in Lucknow; the Director's Message separately confirms current transit-campus operation in Lucknow and the planned permanent campus at Vinayak Pur, Raebareli.",
+    "The central official catalogue is incomplete or internally inconsistent: the current courses page links a 2026 M.Tech. Biopharmaceuticals syllabus, while the admissions discipline table does not provide a dedicated Biopharmaceuticals admission/eligibility row.",
+    "The 2026 official Direct Ph.D. notice states that NIPER-Raebareli admits M.S. (Pharm.), Ph.D., and Integrated PG-Ph.D. programmes, but the central courses/admissions tables do not provide a structured Integrated PG-Ph.D. catalogue row, discipline list, duration, or eligibility.",
+    "The syllabus table also links a Regulatory Toxicology Ph.D. PDF, but the current Academic Programmes and Admission tables do not list Ph.D. Regulatory Toxicology; it was not imported as an active programme without confirmation.",
+    "Official pages do not explicitly state programme duration or study mode; duration is null and mode is recorded as not_stated.",
+    "Normal TLS verification failed with the managed-network proxy's self-signed certificate-chain error; public GET requests then used curl --insecure only for the expected NIRF and official NIPER domains."
+  ]
+}

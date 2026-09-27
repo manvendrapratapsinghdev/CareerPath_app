@@ -1,0 +1,15 @@
+{
+  "institution_id": "legacy-213",
+  "database_id": 213,
+  "name": "National Chemical Laboratory (NCL)",
+  "website": "https://www.ncl-india.org",
+  "outcome": "classified",
+  "institution_type": "autonomous_institute",
+  "source_url": "https://www.ncl-india.org/About",
+  "confidence": "medium",
+  "evidence": "The official About page identifies National Chemical Laboratory (CSIR-NCL), Pune as a constituent laboratory of CSIR and a research, development and consulting organization; the official CSIR Labs page describes CSIR as an autonomous body, supporting autonomous_institute.",
+  "notes": [
+    "Normal TLS failed with the exact self-signed certificate in chain error, so curl --insecure was used only for public GET requests to www.ncl-india.org.",
+    "Cross-reference: https://www.ncl-india.org/About/Organization/AboutCsir/CsirLabs"
+  ]
+}

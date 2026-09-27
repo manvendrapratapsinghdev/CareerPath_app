@@ -1,0 +1,996 @@
+{
+  "institution_id": "mbm-university-jodhpur",
+  "nirf_name": "MBM University, Jodhpur",
+  "verification_outcome": "manual_review",
+  "district": "Jodhpur",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://mbm.ac.in/",
+  "website_verification_status": "verified",
+  "description": "MBM University is a Rajasthan state university established in September 2021 in Jodhpur, with a 98-acre academic campus and undergraduate, postgraduate and doctoral technical programmes.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "official_homepage",
+      "url": "https://mbm.ac.in/",
+      "supports": [
+        "official institution identity",
+        "MBM University, Jodhpur",
+        "Rajasthan state university status",
+        "campus and programme overview"
+      ]
+    },
+    {
+      "type": "official_identity_page",
+      "url": "https://mbm.ac.in/about-mbm",
+      "supports": [
+        "Jodhpur campus identity",
+        "Rajasthan state university status",
+        "98-acre academic campus",
+        "programme-level overview"
+      ]
+    },
+    {
+      "type": "official_district_page",
+      "url": "https://mbm.ac.in/reach-mbm",
+      "supports": [
+        "Jodhpur campus access points and city identity"
+      ]
+    },
+    {
+      "type": "official_programme_catalogue",
+      "url": "https://mbm.ac.in/programme-offered",
+      "supports": [
+        "official current programme catalogue",
+        "undergraduate, postgraduate, doctoral, diploma and certificate programme names"
+      ]
+    },
+    {
+      "type": "official_admissions_page",
+      "url": "https://mbm.ac.in/ug-pg-admissions",
+      "supports": [
+        "current admissions programme groups",
+        "officially stated durations",
+        "B.Arch NATA/JEE requirement"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "MBM University Jodhpur official website",
+      "result": "Bing results were ambiguous and mostly unrelated to the university; direct official-host check for mbm.ac.in returned HTTP 200 and the page identifies MBM University, Jodhpur.",
+      "url": "https://www.bing.com/search?q=%22MBM+University%22+Jodhpur+official"
+    },
+    {
+      "query": "site:mbm.ac.in MBM University Jodhpur courses",
+      "result": "Bing returned no MBM University course result for the exact site filter; direct official-host check and the official catalogue page at mbm.ac.in established the institution website.",
+      "url": "https://www.bing.com/search?q=site%3Ambm.ac.in+Jodhpur+university"
+    },
+    {
+      "query": "MBM University Jodhpur admissions official",
+      "result": "Google requests were blocked by a CAPTCHA/HTTP 429 through the managed proxy; the official admissions page was then read directly at the confirmed mbm.ac.in host.",
+      "url": "https://www.google.com/search?q=%22MBM+University%22+Jodhpur+admission+courses"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "mbm-university-jodhpur-mbm-btech-electrical-engineering",
+      "name": "B.Tech.in Electrical Engineering",
+      "level": "undergraduate",
+      "credential": "B.Tech.",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mbm.ac.in/programme-offered",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "mbm-university-jodhpur-mbm-btech-mechanical-engineering",
+      "name": "B.Tech. in Mechanical Engineering",
+      "level": "undergraduate",
+      "credential": "B.Tech.",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mbm.ac.in/programme-offered",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "mbm-university-jodhpur-mbm-btech-chemical-engineering",
+      "name": "B.Tech. in Chemical Engineering",
+      "level": "undergraduate",
+      "credential": "B.Tech.",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mbm.ac.in/programme-offered",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 86,
+          "career_node_slug": "btech_chem",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Chemical Engineering",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "mbm-university-jodhpur-mbm-btech-electronics-communication-engineering",
+      "name": "B.Tech. in Electronics & Communication Engineering",
+      "level": "undergraduate",
+      "credential": "B.Tech.",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mbm.ac.in/programme-offered",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "mbm-university-jodhpur-mbm-btech-petroleum-engineering",
+      "name": "B.Tech. in Petroleum Engineering",
+      "level": "undergraduate",
+      "credential": "B.Tech.",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mbm.ac.in/programme-offered",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 327,
+          "career_node_slug": "petroleum_engineer",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Chemical Engineering > Petroleum Engineer",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "mbm-university-jodhpur-mbm-btech-civil-engineering",
+      "name": "B.Tech. in Civil Engineering",
+      "level": "undergraduate",
+      "credential": "B.Tech.",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mbm.ac.in/programme-offered",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "mbm-university-jodhpur-mbm-btech-computer-science-engineering",
+      "name": "B.Tech. in Computer Science & Engineering",
+      "level": "undergraduate",
+      "credential": "B.Tech.",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mbm.ac.in/programme-offered",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "mbm-university-jodhpur-mbm-btech-production-industrial-engineering",
+      "name": "B.Tech. in Production & Industrial Engineering",
+      "level": "undergraduate",
+      "credential": "B.Tech.",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mbm.ac.in/programme-offered",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "mbm-university-jodhpur-mbm-btech-mining-engineering",
+      "name": "B.Tech. in Mining Engineering",
+      "level": "undergraduate",
+      "credential": "B.Tech.",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mbm.ac.in/programme-offered",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 111,
+          "career_node_slug": "mining_geologist",
+          "career_breadcrumb": "Maths / PCM > B.Sc Geology / Earth Sciences > Mining Geologist",
+          "relation": "closest-specialization",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "mbm-university-jodhpur-mbm-bachelor-of-planning",
+      "name": "Bachelor of Planning",
+      "level": "undergraduate",
+      "credential": "Bachelor of Planning",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mbm.ac.in/programme-offered",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 107,
+          "career_node_slug": "bplan_sci",
+          "career_breadcrumb": "Maths / PCM > B.Arch (Architecture) > B.Plan → Town & Regional Planner",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "mbm-university-jodhpur-mbm-btech-information-technology",
+      "name": "B.Tech. in Information Technology",
+      "level": "undergraduate",
+      "credential": "B.Tech.",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mbm.ac.in/programme-offered",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 89,
+          "career_node_slug": "btech_it",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Information Technology",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "mbm-university-jodhpur-mbm-btech-artificial-intelligence-data-science",
+      "name": "B.Tech. in Artificial Intelligence and Data Science",
+      "level": "undergraduate",
+      "credential": "B.Tech.",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mbm.ac.in/programme-offered",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 338,
+          "career_node_slug": "science_data",
+          "career_breadcrumb": "Data Science & Analytics",
+          "relation": "direct-discipline-family",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "mbm-university-jodhpur-mbm-btech-electronics-electrical-engineering",
+      "name": "B.Tech. in Electronics & Electrical Engineering",
+      "level": "undergraduate",
+      "credential": "B.Tech.",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mbm.ac.in/programme-offered",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "closest-specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "closest-specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "mbm-university-jodhpur-mbm-btech-electronics-computer-engineering",
+      "name": "B.Tech. in Electronics & Computer Engineering",
+      "level": "undergraduate",
+      "credential": "B.Tech.",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mbm.ac.in/programme-offered",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "closest-specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "closest-specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "mbm-university-jodhpur-mbm-btech-building-construction-technology",
+      "name": "B.Tech. in Building and Construction Technology",
+      "level": "undergraduate",
+      "credential": "B.Tech.",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mbm.ac.in/programme-offered",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "mbm-university-jodhpur-mbm-bachelor-of-architecture",
+      "name": "Bachelor of Architecture",
+      "level": "undergraduate",
+      "credential": "Bachelor of Architecture",
+      "specialization": null,
+      "duration": "5 years",
+      "mode": "not_stated",
+      "eligibility": "NATA/JEE mandatory",
+      "official_course_url": "https://mbm.ac.in/programme-offered",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 56,
+          "career_node_slug": "barch",
+          "career_breadcrumb": "Design & Architecture > B.Arch (Architecture)",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "mbm-university-jodhpur-mbm-mtech-power-control-systems",
+      "name": "M.Tech. in Power Systems / Control Systems Engineering",
+      "level": "postgraduate",
+      "credential": "M.Tech.",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mbm.ac.in/programme-offered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 324,
+          "career_node_slug": "power_engineer",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering > Power Systems Engineer",
+          "relation": "closest-specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        },
+        {
+          "career_node_id": 325,
+          "career_node_slug": "control_engineer",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering > Control Systems Engineer",
+          "relation": "closest-specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "mbm-university-jodhpur-mbm-mtech-thermal-design-production-industrial",
+      "name": "M.Tech. in Thermal / Design / Production and Industrial Engineering",
+      "level": "postgraduate",
+      "credential": "M.Tech.",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mbm.ac.in/programme-offered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "mbm-university-jodhpur-mbm-mtech-computer-science-engineering",
+      "name": "M.Tech. in Computer Science & Engineering",
+      "level": "postgraduate",
+      "credential": "M.Tech.",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mbm.ac.in/programme-offered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "mbm-university-jodhpur-mbm-mtech-mining-metallurgical-engineering",
+      "name": "M.Tech. in Mining / Metallurgical Engineering",
+      "level": "postgraduate",
+      "credential": "M.Tech.",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mbm.ac.in/programme-offered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 111,
+          "career_node_slug": "mining_geologist",
+          "career_breadcrumb": "Maths / PCM > B.Sc Geology / Earth Sciences > Mining Geologist",
+          "relation": "closest-specialization",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "mbm-university-jodhpur-mbm-mtech-industrial-engineering-management",
+      "name": "M.Tech. in Industrial Engineering and Management",
+      "level": "postgraduate",
+      "credential": "M.Tech.",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mbm.ac.in/programme-offered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "mbm-university-jodhpur-mbm-mtech-chemical-engineering",
+      "name": "M.Tech. in Chemical Engineering",
+      "level": "postgraduate",
+      "credential": "M.Tech.",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mbm.ac.in/programme-offered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 86,
+          "career_node_slug": "btech_chem",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Chemical Engineering",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "mbm-university-jodhpur-mbm-mtech-digital-communication",
+      "name": "M.Tech. in Digital Communication",
+      "level": "postgraduate",
+      "credential": "M.Tech.",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mbm.ac.in/programme-offered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "closest-specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "mbm-university-jodhpur-mbm-mtech-environmental-geotechnical-water-resource",
+      "name": "M.Tech. in Environmental / Geo-Technical / Water Resource Engineering",
+      "level": "postgraduate",
+      "credential": "M.Tech.",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mbm.ac.in/programme-offered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "mbm-university-jodhpur-mbm-mtech-transportation-structural",
+      "name": "M.Tech. in Transportation / Structural Engineering",
+      "level": "postgraduate",
+      "credential": "M.Tech.",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mbm.ac.in/programme-offered",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 323,
+          "career_node_slug": "transportation_engineer",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering > Transportation Engineer",
+          "relation": "closest-specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        },
+        {
+          "career_node_id": 321,
+          "career_node_slug": "structural_engineer",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering > Structural Engineer",
+          "relation": "closest-specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "mbm-university-jodhpur-mbm-master-of-computer-applications",
+      "name": "Master of Computer Applications",
+      "level": "postgraduate",
+      "credential": "MCA",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mbm.ac.in/programme-offered",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 93,
+          "career_node_slug": "mca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications) > MCA → Software Engineer",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "mbm-university-jodhpur-mbm-mba-insurance-risk-management",
+      "name": "M.B.A. in Insurance and Risk Management",
+      "level": "postgraduate",
+      "credential": "M.B.A.",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mbm.ac.in/programme-offered",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 53,
+          "career_node_slug": "insurance_sector",
+          "career_breadcrumb": "Banking & Insurance > Insurance Sector",
+          "relation": "direct-discipline-family",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "mbm-university-jodhpur-mbm-phd-electrical-engineering",
+      "name": "Ph.D. in Electrical Engineering",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mbm.ac.in/programme-offered",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "mbm-university-jodhpur-mbm-phd-computer-science-engineering",
+      "name": "Ph.D. in Computer Science and Engineering",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mbm.ac.in/programme-offered",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "mbm-university-jodhpur-mbm-phd-mechanical-engineering",
+      "name": "Ph.D. in Mechanical Engineering",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mbm.ac.in/programme-offered",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "mbm-university-jodhpur-mbm-phd-production-industrial-engineering",
+      "name": "Ph.D. in Production and Industrial Engineering",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mbm.ac.in/programme-offered",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "mbm-university-jodhpur-mbm-phd-chemical-engineering",
+      "name": "Ph.D. in Chemical Engineering",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mbm.ac.in/programme-offered",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 86,
+          "career_node_slug": "btech_chem",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Chemical Engineering",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "mbm-university-jodhpur-mbm-phd-mining-engineering",
+      "name": "Ph.D. in Mining Engineering",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mbm.ac.in/programme-offered",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 111,
+          "career_node_slug": "mining_geologist",
+          "career_breadcrumb": "Maths / PCM > B.Sc Geology / Earth Sciences > Mining Geologist",
+          "relation": "closest-specialization",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "mbm-university-jodhpur-mbm-phd-electronics-communication-engineering",
+      "name": "Ph.D. in Electronics & Communication Engineering",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mbm.ac.in/programme-offered",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "mbm-university-jodhpur-mbm-phd-civil-engineering",
+      "name": "Ph.D. in Civil Engineering",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mbm.ac.in/programme-offered",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "mbm-university-jodhpur-mbm-phd-structural-engineering",
+      "name": "Ph.D. in Structural Engineering",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mbm.ac.in/programme-offered",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 321,
+          "career_node_slug": "structural_engineer",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering > Structural Engineer",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "mbm-university-jodhpur-mbm-advance-diploma-child-guidance-counseling",
+      "name": "Advance Diploma in Child Guidance and Counseling",
+      "level": "diploma",
+      "credential": "Advance Diploma",
+      "specialization": null,
+      "duration": "1 year",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mbm.ac.in/programme-offered",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 267,
+          "career_node_slug": "counsellor",
+          "career_breadcrumb": "Social Sciences & Education > BA Psychology > Counsellor / Therapist",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "mbm-university-jodhpur-mbm-certificate-predictive-astrology",
+      "name": "Certificate Course in Simplified Understanding of Predictive Astrology",
+      "level": "certificate",
+      "credential": "Certificate",
+      "specialization": null,
+      "duration": "3 months",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mbm.ac.in/programme-offered",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "No responsible astrology node exists in the career tree."
+    },
+    {
+      "course_id": "mbm-university-jodhpur-mbm-certificate-neoteric-astrology",
+      "name": "Certificate Course in Neoteric Astrology made Simple",
+      "level": "certificate",
+      "credential": "Certificate",
+      "specialization": null,
+      "duration": "1 year",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://mbm.ac.in/programme-offered",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "No responsible astrology node exists in the career tree."
+    }
+  ],
+  "agent_notes": [
+    "Normal TLS requests to search engines and public hosts failed with the exact managed-proxy self-signed certificate-chain error; curl --insecure was used only for public GETs to the confirmed search and official hosts.",
+    "The official catalogue page is current as of July 28, 2026 and lists programme names, but the official homepage/About summary says 10 doctoral programmes while the catalogue visibly lists 9. The catalogue also groups M.Tech branches with slash-separated labels, so the active catalogue is not fully reconciled and requires manual review.",
+    "Course durations were populated only where the central official admissions page explicitly stated them; unstated eligibility and mode fields remain null or not_stated.",
+    "The career tree has no exact nodes for several engineering specializations, so nearest-parent or closest-specialization mappings were used with reduced confidence. Astrology courses remain unmapped because no responsible career-tree node exists."
+  ]
+}

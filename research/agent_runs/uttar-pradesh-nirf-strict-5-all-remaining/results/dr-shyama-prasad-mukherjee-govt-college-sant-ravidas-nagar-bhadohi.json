@@ -1,0 +1,57 @@
+{
+  "institution_id": "dr-shyama-prasad-mukherjee-govt-college-sant-ravidas-nagar-bhadohi",
+  "nirf_name": "Dr. Shyama Prasad Mukherjee Govt. College, Sant Ravidas Nagar, Bhadohi",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "remove_candidate",
+  "district": null,
+  "district_verification_status": "not_found",
+  "official_website": null,
+  "website_verification_status": "not_found",
+  "description": null,
+  "description_verification_status": "not_found",
+  "record_status": "remove_candidate",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact institution name listed with city Bhadohi and state Uttar Pradesh in the 2025 College directory"
+      ]
+    },
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Exact institution name listed with city Bhadohi and state Uttar Pradesh in the 2025 Overall directory"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Dr. Shyama Prasad Mukherjee Govt. College\" Bhadohi official website",
+      "result": "Bing returned unrelated Uttar Pradesh institutions and medical websites; no official page for the target college was found.",
+      "url": "https://www.bing.com/search?q=%22Dr.+Shyama+Prasad+Mukherjee+Govt.+College%22+Bhadohi+official+website"
+    },
+    {
+      "query": "site:ac.in \"Shyama Prasad Mukherjee\" Bhadohi",
+      "result": "Bing returned unrelated results and no institution-controlled .ac.in domain for the target college.",
+      "url": "https://www.bing.com/search?format=rss&cc=in&setlang=en&q=site%3Aac.in+%22Shyama+Prasad+Mukherjee%22+Bhadohi"
+    },
+    {
+      "query": "\"Dr Shyama Prasad Mukherjee\" \"Sant Ravidas Nagar\"",
+      "result": "Bing returned unrelated Uttar Pradesh institutions and no official website for the target college.",
+      "url": "https://www.bing.com/search?format=rss&cc=in&setlang=en&q=%22Dr+Shyama+Prasad+Mukherjee%22+%22Sant+Ravidas+Nagar%22"
+    }
+  ],
+  "course_catalogue_status": "not_found",
+  "courses": [],
+  "agent_notes": [
+    "The exact institution and Bhadohi campus were confirmed in both supplied 2025 NIRF government directories; no similarly named campus was used.",
+    "After three focused command-line web searches and an authoritative-domain check, no official institution-controlled website could be established, so the candidate is removed.",
+    "Normal TLS requests failed with the managed proxy self-signed certificate in chain; curl --insecure was used only for public GET requests to the confirmed NIRF and search hosts."
+  ]
+}

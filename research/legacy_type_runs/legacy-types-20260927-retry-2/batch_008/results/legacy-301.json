@@ -1,0 +1,15 @@
+{
+  "institution_id": "legacy-301",
+  "database_id": 301,
+  "name": "Institute of Hotel Management Delhi",
+  "website": "https://www.ihmdelhi.edu.in",
+  "outcome": "manual_review",
+  "institution_type": null,
+  "source_url": null,
+  "confidence": null,
+  "evidence": null,
+  "notes": [
+    "The supplied official hostname could not be resolved over HTTPS and public DNS returned NXDOMAIN for both www.ihmdelhi.edu.in and ihmdelhi.edu.in.",
+    "The --insecure fallback was not used because the failure was DNS resolution, not a proxy certificate-chain error."
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "batch": 1,
+  "started_at": "2026-09-27T07:42:14.983387+00:00",
+  "finished_at": "2026-09-27T07:48:27.334872+00:00",
+  "assignment_count": 5,
+  "completed_count": 4,
+  "skipped_count": 1,
+  "failed_count": 0,
+  "results": [
+    {
+      "institution_id": "indian-institute-of-information-technology-allahabad",
+      "nirf_name": "Indian Institute of Information Technology Allahabad",
+      "status": "completed",
+      "started_at": "2026-09-27T07:42:15.001974+00:00",
+      "finished_at": "2026-09-27T07:48:27.327968+00:00",
+      "duration_seconds": 372.278,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-wave-03/results/indian-institute-of-information-technology-allahabad.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-wave-03/logs/indian-institute-of-information-technology-allahabad.jsonl"
+    },
+    {
+      "institution_id": "indian-institute-of-management-lucknow",
+      "nirf_name": "Indian Institute of Management Lucknow",
+      "status": "completed",
+      "started_at": "2026-09-27T07:42:15.002013+00:00",
+      "finished_at": "2026-09-27T07:47:00.580481+00:00",
+      "duration_seconds": 285.567,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-wave-03/results/indian-institute-of-management-lucknow.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-wave-03/logs/indian-institute-of-management-lucknow.jsonl"
+    },
+    {
+      "institution_id": "indian-institute-of-technology-banaras-hindu-university-varanasi",
+      "nirf_name": "Indian Institute of Technology (Banaras Hindu University) Varanasi",
+      "status": "completed",
+      "started_at": "2026-09-27T07:42:15.001937+00:00",
+      "finished_at": "2026-09-27T07:47:23.096751+00:00",
+      "duration_seconds": 308.079,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-wave-03/results/indian-institute-of-technology-banaras-hindu-university-varanasi.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-wave-03/logs/indian-institute-of-technology-banaras-hindu-university-varanasi.jsonl"
+    },
+    {
+      "institution_id": "indian-institute-of-technology-kanpur",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-wave-03/results/indian-institute-of-technology-kanpur.json",
+      "finished_at": "2026-09-27T07:42:14.997627+00:00"
+    },
+    {
+      "institution_id": "motilal-nehru-national-institute-of-technology",
+      "nirf_name": "Motilal Nehru National Institute of Technology",
+      "status": "completed",
+      "started_at": "2026-09-27T07:42:15.014724+00:00",
+      "finished_at": "2026-09-27T07:46:09.753747+00:00",
+      "duration_seconds": 234.595,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-wave-03/results/motilal-nehru-national-institute-of-technology.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-wave-03/logs/motilal-nehru-national-institute-of-technology.jsonl"
+    }
+  ]
+}

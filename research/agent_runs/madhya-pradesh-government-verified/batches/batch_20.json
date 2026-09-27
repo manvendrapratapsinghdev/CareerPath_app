@@ -1,0 +1,91 @@
+{
+  "batch": 20,
+  "started_at": "2026-09-27T07:12:08.019593+00:00",
+  "finished_at": "2026-09-27T07:12:20.536761+00:00",
+  "assignment_count": 5,
+  "completed_count": 0,
+  "skipped_count": 0,
+  "failed_count": 5,
+  "results": [
+    {
+      "institution_id": "baderia-global-institute-of-engineering-management-jabalpur",
+      "nirf_name": "Baderia Global Institute of Engineering & Management, Jabalpur",
+      "status": "failed",
+      "started_at": "2026-09-27T07:12:08.045083+00:00",
+      "finished_at": "2026-09-27T07:12:20.535243+00:00",
+      "duration_seconds": 12.49,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/baderia-global-institute-of-engineering-management-jabalpur.jsonl"
+    },
+    {
+      "institution_id": "devi-ahilya-arts-commece-college-indore",
+      "nirf_name": "Devi Ahilya Arts & Commece College, Indore",
+      "status": "failed",
+      "started_at": "2026-09-27T07:12:08.033199+00:00",
+      "finished_at": "2026-09-27T07:12:20.092329+00:00",
+      "duration_seconds": 12.059,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/devi-ahilya-arts-commece-college-indore.jsonl"
+    },
+    {
+      "institution_id": "government-arts-and-commerce-college-barela",
+      "nirf_name": "GOVERNMENT ARTS AND COMMERCE COLLEGE, BARELA",
+      "status": "failed",
+      "started_at": "2026-09-27T07:12:08.039980+00:00",
+      "finished_at": "2026-09-27T07:12:20.086241+00:00",
+      "duration_seconds": 12.046,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/government-arts-and-commerce-college-barela.jsonl"
+    },
+    {
+      "institution_id": "government-college-ishagarh",
+      "nirf_name": "GOVERNMENT COLLEGE, ISHAGARH",
+      "status": "failed",
+      "started_at": "2026-09-27T07:12:08.033251+00:00",
+      "finished_at": "2026-09-27T07:12:20.532269+00:00",
+      "duration_seconds": 12.499,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/government-college-ishagarh.jsonl"
+    },
+    {
+      "institution_id": "govt-arts-commerce-college-a-b-road-indore",
+      "nirf_name": "Govt. Arts & Commerce College A.B.Road, Indore",
+      "status": "failed",
+      "started_at": "2026-09-27T07:12:08.033103+00:00",
+      "finished_at": "2026-09-27T07:12:19.868285+00:00",
+      "duration_seconds": 11.835,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/govt-arts-commerce-college-a-b-road-indore.jsonl"
+    }
+  ]
+}

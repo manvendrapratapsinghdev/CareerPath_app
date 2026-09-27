@@ -1,0 +1,78 @@
+{
+  "institution_id": "govt-college-bhikangaon",
+  "nirf_name": "Govt. College, Bhikangaon",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "remove_candidate",
+  "district": null,
+  "district_verification_status": "not_found",
+  "official_website": null,
+  "website_verification_status": "not_found",
+  "description": null,
+  "description_verification_status": "not_found",
+  "record_status": "remove_candidate",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "The 2025 College ranking directory contains the exact row 'Govt. College, Bhikangaon' with city Khargone and state Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "authoritative_domain_check",
+      "url": "https://highereducation.mp.gov.in/ClgProfile",
+      "supports": [
+        "The Madhya Pradesh Higher Education College Management portal was reachable, but no public institution homepage or catalogue for Govt. College, Bhikangaon was exposed."
+      ]
+    },
+    {
+      "type": "authoritative_domain_check",
+      "url": "https://khargone.nic.in/public-utility-category/%E0%A4%95%E0%A5%89%E0%A4%B2%E0%A5%87%E0%A4%9C-%E0%A4%B5%E0%A4%BF%E0%A4%B6%E0%A5%8D%E0%A4%B5%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%B2%E0%A4%AF/",
+      "supports": [
+        "The Khargone district government portal provides a college/university utility listing with a Bhikangaon campus map entry, but no official college website URL."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Govt. College, Bhikangaon\" official website",
+      "result": "Google search endpoint returned HTTP 429, so it was not used as verification evidence.",
+      "url": "https://www.google.com/search?q=%22Govt.+College%2C+Bhikangaon%22+official+website"
+    },
+    {
+      "query": "\"Govt. College, Bhikangaon\" official website",
+      "result": "Bing RSS returned unrelated or generic government and job pages; no matching institution website or official institutional domain was returned.",
+      "url": "https://www.bing.com/search?format=rss&q=%22Govt.+College%2C+Bhikangaon%22+official"
+    },
+    {
+      "query": "Government College Bhikangaon Madhya Pradesh website",
+      "result": "Google search endpoint returned HTTP 429, so it was not used as verification evidence.",
+      "url": "https://www.google.com/search?q=Government+College+Bhikangaon+Madhya+Pradesh+website"
+    },
+    {
+      "query": "Government College Bhikangaon Madhya Pradesh website",
+      "result": "Bing RSS returned Maharashtra.gov, India.gov, MyGov, PMO and other generic pages; no matching institution website was returned.",
+      "url": "https://www.bing.com/search?format=rss&q=Government+College+Bhikangaon+Madhya+Pradesh+official"
+    },
+    {
+      "query": "\"Govt College Bhikangaon\" site:ac.in",
+      "result": "Bing RSS returned generic government pages and no .ac.in institution result for Govt College Bhikangaon.",
+      "url": "https://www.bing.com/search?format=rss&q=%22Govt+College+Bhikangaon%22+site%3Aac.in"
+    },
+    {
+      "query": "\"Govt. College, Bhikangaon\" site:mp.gov.in",
+      "result": "Bing RSS returned generic government pages and no exact Madhya Pradesh government institution page or official college website.",
+      "url": "https://www.bing.com/search?format=rss&q=%22Govt.+College%2C+Bhikangaon%22+site%3Amp.gov.in"
+    }
+  ],
+  "course_catalogue_status": "not_found",
+  "courses": [],
+  "agent_notes": [
+    "The NIRF government listing was independently confirmed for the exact institution and Khargone city.",
+    "Normal TLS verification failed with the managed proxy error 'SSL certificate problem: self signed certificate in certificate chain'; curl --insecure was used only for public GET requests to expected official or search domains.",
+    "After multiple focused searches and checks of the Madhya Pradesh Higher Education and Khargone district government domains, no official institution website or official programme catalogue could be established. The institution is therefore removed as a candidate under the stated outcome rules."
+  ]
+}

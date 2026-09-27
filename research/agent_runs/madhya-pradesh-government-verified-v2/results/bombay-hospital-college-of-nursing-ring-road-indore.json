@@ -1,0 +1,111 @@
+{
+  "institution_id": "bombay-hospital-college-of-nursing-ring-road-indore",
+  "nirf_name": "Bombay Hospital College of Nursing, Ring Road, Indore",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Indore",
+  "district_verification_status": "verified_official_website",
+  "official_website": null,
+  "website_verification_status": "ambiguous",
+  "description": null,
+  "description_verification_status": "not_found",
+  "record_status": "manual_review",
+  "allowed_official_domains": [
+    "www.bombayhospitalindore.com",
+    "www.bombayhospital.com",
+    "bombayhospitalacademics.com"
+  ],
+  "verification_sources": [
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact institution name listed with Indore, Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Exact institution name listed with Indore, Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "official_indore_hospital_homepage",
+      "url": "https://www.bombayhospitalindore.com/",
+      "supports": [
+        "Official Bombay Hospital Indore site identifies the Ring Road, Indore campus"
+      ]
+    },
+    {
+      "type": "official_indore_hospital_location",
+      "url": "https://www.bombayhospitalindore.com/about/hospital-location",
+      "supports": [
+        "Official location page gives the Eastern Ring Road, Ring Road, IDA Scheme No.94/95, Tulsi Nagar, Indore address"
+      ]
+    },
+    {
+      "type": "official_parent_hospital_homepage",
+      "url": "https://www.bombayhospital.com/",
+      "supports": [
+        "Official Bombay Hospital site links to a College of Nursing and separately identifies the Indore location"
+      ]
+    },
+    {
+      "type": "official_college_homepage",
+      "url": "https://bombayhospitalacademics.com/bombay-hospital-of-nursing/index.php",
+      "supports": [
+        "Official College of Nursing site exists but identifies a Mumbai campus near Churchgate and C.S.T."
+      ]
+    },
+    {
+      "type": "official_college_contact",
+      "url": "https://bombayhospitalacademics.com/bombay-hospital-of-nursing/contact.php",
+      "supports": [
+        "Official college contact page gives 12 Vitthaldas Thackersey Marg, New Marine Lines, Mumbai, Maharashtra 400020"
+      ]
+    },
+    {
+      "type": "official_college_bsc_catalogue",
+      "url": "https://bombayhospitalacademics.com/bombay-hospital-of-nursing/bsc-nursing-course.php",
+      "supports": [
+        "Official page proves a Basic B.Sc. Nursing Course for the Mumbai college, not the Indore target"
+      ]
+    },
+    {
+      "type": "official_college_msc_catalogue",
+      "url": "https://bombayhospitalacademics.com/bombay-hospital-of-nursing/msc-nursing-course.php",
+      "supports": [
+        "Official page proves a Basic M.Sc. Nursing Course for the Mumbai college, not the Indore target"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "Bombay Hospital College of Nursing Ring Road Indore official website",
+      "result": "Google returned HTTP 429 with no usable result; Bing returned HTTP 200 but no usable institution result.",
+      "url": "https://www.google.com/search?q=Bombay%20Hospital%20College%20of%20Nursing%20Ring%20Road%20Indore%20official%20website"
+    },
+    {
+      "query": "\"Bombay Hospital College of Nursing\" Indore admissions courses",
+      "result": "Google returned HTTP 429 with no usable result; Bing returned HTTP 200 but no usable institution result.",
+      "url": "https://www.google.com/search?q=%22Bombay%20Hospital%20College%20of%20Nursing%22%20Indore%20admissions%20courses"
+    },
+    {
+      "query": "\"Bombay Hospital College of Nursing\" Indore site:bombayhospitalindore.com OR site:bombayhospitalindore.org",
+      "result": "Direct official-domain checks found bombayhospitalindore.com reachable, but its sitemap and tested paths expose hospital services only and no nursing-college catalogue.",
+      "url": "https://www.google.com/search?q=%22Bombay%20Hospital%20College%20of%20Nursing%22%20Indore%20site%3Abombayhospitalindore.com%20OR%20site%3Abombayhospitalindore.org"
+    }
+  ],
+  "course_catalogue_status": "not_found",
+  "courses": [],
+  "agent_notes": [
+    "The exact NIRF institution is listed in both supplied 2025 government directories for Indore, Madhya Pradesh.",
+    "The official Bombay Hospital Indore domain verifies the Ring Road, Indore campus address but does not establish a College of Nursing or provide an Indore programme catalogue.",
+    "The official Bombay Hospital College of Nursing site linked from the parent Bombay Hospital site explicitly identifies a different Mumbai campus, so its B.Sc. and M.Sc. programmes were not imported for the Indore institution.",
+    "The official identity and Indore-specific catalogue remain unresolved; manual review is required. The managed proxy produced the exact self-signed certificate-in-chain error, so curl --insecure was used only for public GET requests to the expected NIRF and Bombay Hospital domains."
+  ]
+}

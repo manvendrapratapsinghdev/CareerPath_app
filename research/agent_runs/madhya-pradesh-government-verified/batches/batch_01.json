@@ -1,0 +1,91 @@
+{
+  "batch": 1,
+  "started_at": "2026-09-27T07:08:24.247514+00:00",
+  "finished_at": "2026-09-27T07:08:32.994106+00:00",
+  "assignment_count": 5,
+  "completed_count": 0,
+  "skipped_count": 0,
+  "failed_count": 5,
+  "results": [
+    {
+      "institution_id": "atal-bihari-vajpayee-indian-institute-of-information-technology-and-management",
+      "nirf_name": "Atal Bihari Vajpayee Indian Institute of Information Technology and\r\n                                                Management",
+      "status": "failed",
+      "started_at": "2026-09-27T07:08:24.261870+00:00",
+      "finished_at": "2026-09-27T07:08:32.693484+00:00",
+      "duration_seconds": 8.431,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/atal-bihari-vajpayee-indian-institute-of-information-technology-and-management.jsonl"
+    },
+    {
+      "institution_id": "indian-institute-of-management-indore",
+      "nirf_name": "Indian Institute of Management Indore",
+      "status": "failed",
+      "started_at": "2026-09-27T07:08:24.262345+00:00",
+      "finished_at": "2026-09-27T07:08:32.986831+00:00",
+      "duration_seconds": 8.724,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/indian-institute-of-management-indore.jsonl"
+    },
+    {
+      "institution_id": "indian-institute-of-technology-indore",
+      "nirf_name": "Indian Institute of Technology Indore",
+      "status": "failed",
+      "started_at": "2026-09-27T07:08:24.260276+00:00",
+      "finished_at": "2026-09-27T07:08:32.991301+00:00",
+      "duration_seconds": 8.731,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/indian-institute-of-technology-indore.jsonl"
+    },
+    {
+      "institution_id": "maulana-azad-national-institute-of-technology",
+      "nirf_name": "Maulana Azad National Institute of Technology",
+      "status": "failed",
+      "started_at": "2026-09-27T07:08:24.270885+00:00",
+      "finished_at": "2026-09-27T07:08:32.043830+00:00",
+      "duration_seconds": 7.772,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/maulana-azad-national-institute-of-technology.jsonl"
+    },
+    {
+      "institution_id": "pandit-dwarka-prasad-mishra-indian-institute-of-information-technology-design-and-manufacturing-iiitdm-jabalpur",
+      "nirf_name": "Pandit Dwarka Prasad Mishra Indian Institute of Information Technology,\r\n                                                Design and Manufacturing (IIITDM) Jabalpur",
+      "status": "failed",
+      "started_at": "2026-09-27T07:08:24.279889+00:00",
+      "finished_at": "2026-09-27T07:08:32.552350+00:00",
+      "duration_seconds": 8.272,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/pandit-dwarka-prasad-mishra-indian-institute-of-information-technology-design-and-manufacturing-iiitdm-jabalpur.jsonl"
+    }
+  ]
+}

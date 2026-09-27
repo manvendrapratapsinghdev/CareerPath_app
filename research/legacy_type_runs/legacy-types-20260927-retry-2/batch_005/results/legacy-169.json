@@ -1,0 +1,15 @@
+{
+  "institution_id": "legacy-169",
+  "database_id": 169,
+  "name": "Times School of Journalism",
+  "website": "https://timesschoolofjournalism.com",
+  "outcome": "manual_review",
+  "institution_type": null,
+  "source_url": null,
+  "confidence": null,
+  "evidence": null,
+  "notes": [
+    "The supplied official hostname and www variant returned DNS NXDOMAIN, so no official pages or institutional-type evidence could be accessed.",
+    "curl --insecure was not used because the failure was DNS resolution, not the specified proxy certificate-chain error."
+  ]
+}

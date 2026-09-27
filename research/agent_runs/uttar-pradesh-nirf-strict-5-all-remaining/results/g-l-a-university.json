@@ -1,0 +1,2366 @@
+{
+  "institution_id": "g-l-a-university",
+  "nirf_name": "G. L. A. University",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/EngineeringRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/PharmacyRankingALL.html"
+  ],
+  "verification_outcome": "verified",
+  "district": "Mathura",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://www.gla.ac.in/",
+  "website_verification_status": "verified",
+  "description": "GLA University is a private university in Mathura, Uttar Pradesh; its Mathura campus is at 17km Stone, NH-19, Delhi-Mathura Road, P.O. Chaumuhan, Mathura-281 406.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/EngineeringRankingALL.html",
+      "supports": [
+        "Lists G. L. A. University in Mathura, Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "government_directory_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html",
+      "supports": [
+        "Lists G. L. A. University in Mathura, Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "government_directory_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Lists G. L. A. University in Mathura, Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "government_directory_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/PharmacyRankingALL.html",
+      "supports": [
+        "Lists G. L. A. University in Mathura, Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://www.gla.ac.in/",
+      "supports": [
+        "Official GLA University homepage and Mathura campus identity"
+      ]
+    },
+    {
+      "type": "official_campus_page",
+      "url": "https://www.gla.ac.in/mathura",
+      "supports": [
+        "Mathura campus address and campus identity"
+      ]
+    },
+    {
+      "type": "official_catalogue",
+      "url": "https://www.gla.ac.in/academics/graduate-courses",
+      "supports": [
+        "Graduate programme catalogue"
+      ]
+    },
+    {
+      "type": "official_catalogue",
+      "url": "https://www.gla.ac.in/academics/post-graduate-courses",
+      "supports": [
+        "Postgraduate programme catalogue"
+      ]
+    },
+    {
+      "type": "official_catalogue",
+      "url": "https://www.gla.ac.in/academics/doctoral-programme",
+      "supports": [
+        "Doctoral programme catalogue"
+      ]
+    },
+    {
+      "type": "official_catalogue",
+      "url": "https://www.gla.ac.in/academics/diploma-courses",
+      "supports": [
+        "Diploma programme catalogue"
+      ]
+    },
+    {
+      "type": "official_catalogue",
+      "url": "https://www.gla.ac.in/academics/certificate-courses",
+      "supports": [
+        "Certificate-course catalogue checked; no active certificate programme is listed"
+      ]
+    },
+    {
+      "type": "official_admissions_page",
+      "url": "https://www.gla.ac.in/admissions/eligibility-criteria",
+      "supports": [
+        "Session 2026-2027 duration and eligibility tables"
+      ]
+    },
+    {
+      "type": "official_programme_page",
+      "url": "https://www.gla.ac.in/graduate/btech-me-smart-manufacturing",
+      "supports": [
+        "B.Tech Mechanical Engineering (Smart Manufacturing) programme page"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "https://www.gla.ac.in/",
+      "result": "Direct HTTPS GET returned HTTP 200; official homepage identified GLA University and Mathura, Uttar Pradesh.",
+      "url": "https://www.gla.ac.in/"
+    },
+    {
+      "query": "https://www.gla.ac.in/mathura",
+      "result": "Direct HTTPS GET returned HTTP 200; official Mathura campus page identified the Mathura campus address.",
+      "url": "https://www.gla.ac.in/mathura"
+    }
+  ],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "g-l-a-university-gla-courses-graduate-btech-computer-science-engineering",
+      "name": "B.Tech (Computer Science & Engineering)",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/graduate/btech-computer-science-engineering",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-graduate-btech-hons-cse",
+      "name": "B.Tech (Hons.) CSE (Specialization in AI and Analytics) in Partnership with Intel and NEC",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/graduate/btech-hons-cse",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 308,
+          "career_node_slug": "data_scientist",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science > Data Scientist",
+          "relation": "closest-specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-graduate-btech-cse-artificial-intelligence-machine-learning",
+      "name": "B.Tech CSE (Specialization in AIML)",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/graduate/btech-cse-artificial-intelligence-machine-learning",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 312,
+          "career_node_slug": "ml_engineer",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > AI & Machine Learning > ML Engineer",
+          "relation": "closest-specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-graduate-btech-electronics-communication-engineering",
+      "name": "B.Tech Electronics & Communication Engineering",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/graduate/btech-electronics-communication-engineering",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courseid-100",
+      "name": "B.Tech Electronics & Communication (With Minor in CS)",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/course-details.aspx?mpgid=129&pgidtrail=129&courseid=100",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courseid-101",
+      "name": "B.Tech Electronics and Communication Engineering (Specialization in VLSI)",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/course-details.aspx?mpgid=129&pgidtrail=129&courseid=101",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 315,
+          "career_node_slug": "vlsi_engineer",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication > VLSI Design Engineer",
+          "relation": "closest-specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courseid-135",
+      "name": "B.Tech Electronics & Computer Engineering",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/course-details.aspx?mpgid=129&pgidtrail=129&courseid=135",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-graduate-btech-electrical-engineering",
+      "name": "B.Tech (Electrical Engineering)",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/graduate/btech-electrical-engineering",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courseid-110",
+      "name": "B.Tech Electrical Engineering With Minor in CS",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/course-details.aspx?mpgid=129&pgidtrail=129&courseid=110",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courseid-115",
+      "name": "B.TECH Electrical Engineering (With Specialization in Electric Vehicle Technology)",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/course-details.aspx?mpgid=129&pgidtrail=129&courseid=115",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 361,
+          "career_node_slug": "ev_battery_engineer",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering > EV Battery / Powertrain Engineer",
+          "relation": "closest-specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-graduate-btech-mechanical-engineering",
+      "name": "B.Tech (Mechanical Engineering)",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/graduate/btech-mechanical-engineering",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courseid-111",
+      "name": "B.Tech Mechanical Engineering (With Minor in CS)",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/course-details.aspx?mpgid=129&pgidtrail=129&courseid=111",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-graduate-btech-automobile-engineering",
+      "name": "B.Tech Mechanical Engineering (Specialization in Automobile)",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/graduate/btech-automobile-engineering",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 318,
+          "career_node_slug": "auto_engineer",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering > Automobile Engineer",
+          "relation": "closest-specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-graduate-btech-mechatronics-engineering",
+      "name": "B.Tech Mechanical Engineering (Specialization in Mechatronics)",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/graduate/btech-mechatronics-engineering",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 319,
+          "career_node_slug": "robotics_engineer",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering > Robotics Engineer",
+          "relation": "closest-specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-graduate-btech-civil-engineering",
+      "name": "B.Tech (Civil Engineering)",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/graduate/btech-civil-engineering",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-graduate-btech-biotechnology",
+      "name": "B.Tech (Biotechnology)",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/graduate/btech-biotechnology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 88,
+          "career_node_slug": "btech_biotech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Biotechnology",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-graduate-bca",
+      "name": "BCA / BCA (Hons./ By Research)",
+      "level": "undergraduate",
+      "credential": "BCA",
+      "specialization": null,
+      "duration": "3-4 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/graduate/bca",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-graduate-btech-electronics-communications-lateral-entry",
+      "name": "B.Tech Electronics & Communications(Lateral Entry)",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/graduate/btech-electronics-communications-lateral-entry",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-graduate-btech-mechanical-engineering-lateral-entry",
+      "name": "B.Tech Mechanical Engineering (Lateral Entry)",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/graduate/btech-mechanical-engineering-lateral-entry",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-graduate-bba-hons",
+      "name": "BBA (Management Science)",
+      "level": "undergraduate",
+      "credential": "BBA",
+      "specialization": null,
+      "duration": "3-4 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/graduate/bba-hons",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 46,
+          "career_node_slug": "bba",
+          "career_breadcrumb": "Management & Business > BBA (General)",
+          "relation": "nearest-parent",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-graduate-bba",
+      "name": "BBA (Hons./ Research)",
+      "level": "undergraduate",
+      "credential": "BBA",
+      "specialization": null,
+      "duration": "3-4 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/graduate/bba",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 46,
+          "career_node_slug": "bba",
+          "career_breadcrumb": "Management & Business > BBA (General)",
+          "relation": "nearest-parent",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-graduate-btech-lateral-entry",
+      "name": "B.Tech CSE (Lateral Entry)",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/graduate/btech-lateral-entry",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-graduate-btech-civil-engineering-lateral-entry",
+      "name": "B.Tech Civil Engineering (Lateral Entry)",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/graduate/btech-civil-engineering-lateral-entry",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-graduate-btech-electrical-engineering-lateral-entry",
+      "name": "B.Tech Electrical Engineering (Lateral Entry)",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/graduate/btech-electrical-engineering-lateral-entry",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-graduate-bpharm",
+      "name": "B. Pharm",
+      "level": "undergraduate",
+      "credential": "Degree",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/graduate/bpharm",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 143,
+          "career_node_slug": "pharmacist",
+          "career_breadcrumb": "Biology / PCB > Medical Updated > Clinical Pharmacist",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-graduate-bpharm-lateral-entry",
+      "name": "B. Pharm (Lateral Entry)",
+      "level": "undergraduate",
+      "credential": "Degree",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/graduate/bpharm-lateral-entry",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 143,
+          "career_node_slug": "pharmacist",
+          "career_breadcrumb": "Biology / PCB > Medical Updated > Clinical Pharmacist",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-graduate-bba-family-business",
+      "name": "BBA (Family Business)",
+      "level": "undergraduate",
+      "credential": "BBA",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/graduate/bba-family-business",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 209,
+          "career_node_slug": "business_consultant",
+          "career_breadcrumb": "Management & Business > BBA (General) > Business Consultant",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courseid-107",
+      "name": "B.Com/B.Com (Hons./By Research)",
+      "level": "undergraduate",
+      "credential": "B.Com",
+      "specialization": null,
+      "duration": "3-4 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/course-details.aspx?mpgid=129&pgidtrail=129&courseid=107",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-graduate-bba-hons-research-data-analytics-business-intelligence",
+      "name": "BBA (Hons./ Research) Data Analytics and Business Intelligence",
+      "level": "undergraduate",
+      "credential": "BBA",
+      "specialization": null,
+      "duration": "3-4 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/graduate/bba-hons-research-data-analytics-business-intelligence",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 308,
+          "career_node_slug": "data_scientist",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science > Data Scientist",
+          "relation": "closest-specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courseid-116",
+      "name": "B.A. Economics / B.A. Economics (Hons./ By Research)",
+      "level": "undergraduate",
+      "credential": "B.A.",
+      "specialization": null,
+      "duration": "3-4 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/course-details.aspx?mpgid=129&pgidtrail=129&courseid=116",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courseid-117",
+      "name": "B.A. English / B.A. English (Hons./ By Research)",
+      "level": "undergraduate",
+      "credential": "B.A.",
+      "specialization": null,
+      "duration": "3-4 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/course-details.aspx?mpgid=129&pgidtrail=129&courseid=117",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courseid-112",
+      "name": "BCA with Specialization in Data Science",
+      "level": "undergraduate",
+      "credential": "BCA",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/course-details.aspx?mpgid=129&pgidtrail=129&courseid=112",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 31,
+          "career_node_slug": "bsc_ds",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Data Science",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courseid-118",
+      "name": "B.Sc. Biotech/ B.Sc. Biotech (Hons./ By Research)",
+      "level": "undergraduate",
+      "credential": "B.Sc.",
+      "specialization": null,
+      "duration": "3-4 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/course-details.aspx?mpgid=129&pgidtrail=129&courseid=118",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-graduate-bsc-hons-agriculture",
+      "name": "B.Sc (Hons.) Agriculture",
+      "level": "undergraduate",
+      "credential": "B.Sc.",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/graduate/bsc-hons-agriculture",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-graduate-bsc-chemistry",
+      "name": "B.Sc. Chemistry/ B.Sc. Chemistry (Hons./ By Research)",
+      "level": "undergraduate",
+      "credential": "B.Sc.",
+      "specialization": null,
+      "duration": "3-4 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/graduate/bsc-chemistry",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-graduate-bsc-hons-physics",
+      "name": "B.Sc. Physics/ B.Sc. Physics (Hons./ By Research)",
+      "level": "undergraduate",
+      "credential": "B.Sc.",
+      "specialization": null,
+      "duration": "3-4 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/graduate/bsc-hons-physics",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 24,
+          "career_node_slug": "bsc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courseid-113",
+      "name": "B.Sc. Mathematics/ B.Sc. Mathematics (Honours/By Research) with Specialization in Data Science",
+      "level": "undergraduate",
+      "credential": "B.Sc.",
+      "specialization": null,
+      "duration": "3-4 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/course-details.aspx?mpgid=129&pgidtrail=129&courseid=113",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-graduate-ba-llb",
+      "name": "BA LLB (Hons.)",
+      "level": "undergraduate",
+      "credential": "B.A. LL.B.",
+      "specialization": null,
+      "duration": "3-4 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/graduate/ba-llb",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 63,
+          "career_node_slug": "ba_llb",
+          "career_breadcrumb": "Law & Civil Services > BA LLB (5-Year Integrated)",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courseid-133",
+      "name": "BBA LLB (Hons.)",
+      "level": "undergraduate",
+      "credential": "BBA",
+      "specialization": null,
+      "duration": "5 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/course-details.aspx?mpgid=129&pgidtrail=129&courseid=133",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 50,
+          "career_node_slug": "bba_llb",
+          "career_breadcrumb": "Law & Legal > BBA LLB (5-Year Integrated)",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-graduate-bed",
+      "name": "B.Ed.",
+      "level": "undergraduate",
+      "credential": "B.Ed.",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/graduate/bed",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-graduate-btech-ee-ev-technology",
+      "name": "B.Tech Electrical Engineering (With Specialization in Electric Vehicle Technology) lateral entry",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/graduate/btech-ee-ev-technology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 361,
+          "career_node_slug": "ev_battery_engineer",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering > EV Battery / Powertrain Engineer",
+          "relation": "closest-specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courseid-143",
+      "name": "B.Tech Electronics & Computer Engineering (Lateral Entry)",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/course-details.aspx?mpgid=129&pgidtrail=129&courseid=143",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-graduate-btech-in-biotech",
+      "name": "B.Tech Biotechnology (Lateral entry)",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/graduate/btech-in-biotech",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 88,
+          "career_node_slug": "btech_biotech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Biotechnology",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courseid-146",
+      "name": "B.Tech EC (With Minor in Computer Science) Lateral Entry",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/course-details.aspx?mpgid=129&pgidtrail=129&courseid=146",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courseid-147",
+      "name": "B.Tech Electronics and Communication Engineering (Specialization in VLSI)",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/course-details.aspx?mpgid=129&pgidtrail=129&courseid=147",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 315,
+          "career_node_slug": "vlsi_engineer",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication > VLSI Design Engineer",
+          "relation": "closest-specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-graduate-bca-in-digital-marketing",
+      "name": "BCA (Honours/Research) Digital Marketing",
+      "level": "undergraduate",
+      "credential": "BCA",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/graduate/bca-in-digital-marketing",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 213,
+          "career_node_slug": "digital_marketer",
+          "career_breadcrumb": "Management & Business > BBA Marketing > Digital Marketing Specialist",
+          "relation": "closest-specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-graduate-bsc-bed-itep",
+      "name": "B.Sc. B.Ed. (Integrated Teacher Education Programme)",
+      "level": "undergraduate",
+      "credential": "B.Ed.",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/graduate/bsc-bed-itep",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-graduate-bca-in-artificial-intelligence-mechanical-learning",
+      "name": "BCA IN AIML with Specialization in AIML",
+      "level": "undergraduate",
+      "credential": "BCA",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/graduate/bca-in-artificial-intelligence-mechanical-learning",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 312,
+          "career_node_slug": "ml_engineer",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > AI & Machine Learning > ML Engineer",
+          "relation": "closest-specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-post-graduate-mtech-electronics-communication-engineering",
+      "name": "M.Tech (Electronics and Communications Engineering)",
+      "level": "postgraduate",
+      "credential": "M.Tech",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/post-graduate/mtech-electronics-communication-engineering",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-post-graduate-mtech-electrical-engineering",
+      "name": "M.Tech (Electrical Engineering)",
+      "level": "postgraduate",
+      "credential": "M.Tech",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/post-graduate/mtech-electrical-engineering",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-post-graduate-mtech-computer-science",
+      "name": "M.Tech (Computer Science & Engineering)",
+      "level": "postgraduate",
+      "credential": "M.Tech",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/post-graduate/mtech-computer-science",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-post-graduate-structural-engineering",
+      "name": "M.Tech in Structural Engineering",
+      "level": "postgraduate",
+      "credential": "M.Tech",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/post-graduate/structural-engineering",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 321,
+          "career_node_slug": "structural_engineer",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering > Structural Engineer",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-post-graduate-mtech-mechanical-engineering",
+      "name": "M.Tech Mechanical Engineering (Design)",
+      "level": "postgraduate",
+      "credential": "M.Tech",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/post-graduate/mtech-mechanical-engineering",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-post-graduate-mpharm-pharmaceutics",
+      "name": "M. Pharm (Pharmaceutics)",
+      "level": "postgraduate",
+      "credential": "Degree",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/post-graduate/mpharm-pharmaceutics",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 144,
+          "career_node_slug": "pharma_researcher",
+          "career_breadcrumb": "Biology / PCB > Medical Updated > Pharmaceutical Researcher",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-post-graduate-mpharm-pharmacology",
+      "name": "M. Pharm (Pharmacology)",
+      "level": "postgraduate",
+      "credential": "Degree",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/post-graduate/mpharm-pharmacology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 144,
+          "career_node_slug": "pharma_researcher",
+          "career_breadcrumb": "Biology / PCB > Medical Updated > Pharmaceutical Researcher",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-post-graduate-mba-hons",
+      "name": "MBA (Hons.)",
+      "level": "postgraduate",
+      "credential": "MBA",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/post-graduate/mba-hons",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 208,
+          "career_node_slug": "mba_general",
+          "career_breadcrumb": "Management & Business > BBA (General) > MBA → CEO / Director Track",
+          "relation": "nearest-parent",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-post-graduate-mba-logistics-supply-chain-management",
+      "name": "MBA (Logistics and Supply Chain Management)",
+      "level": "postgraduate",
+      "credential": "MBA",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/post-graduate/mba-logistics-supply-chain-management",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 208,
+          "career_node_slug": "mba_general",
+          "career_breadcrumb": "Management & Business > BBA (General) > MBA → CEO / Director Track",
+          "relation": "nearest-parent",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courseid-120",
+      "name": "MBA",
+      "level": "postgraduate",
+      "credential": "MBA",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/course-details.aspx?mpgid=129&pgidtrail=129&courseid=120",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 208,
+          "career_node_slug": "mba_general",
+          "career_breadcrumb": "Management & Business > BBA (General) > MBA → CEO / Director Track",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-post-graduate-mba-financial-markets-banking",
+      "name": "MBA (Financial Markets & Banking)",
+      "level": "postgraduate",
+      "credential": "MBA",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/post-graduate/mba-financial-markets-banking",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 201,
+          "career_node_slug": "mba_finance",
+          "career_breadcrumb": "Finance & Investment > BBA Finance > MBA Finance → CFO Track",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courseid-106",
+      "name": "MBA (Business Analytics)",
+      "level": "postgraduate",
+      "credential": "MBA",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/course-details.aspx?mpgid=129&pgidtrail=129&courseid=106",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 169,
+          "career_node_slug": "bi_analyst",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Data Science > Business Intelligence Analyst",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-post-graduate-mca",
+      "name": "MCA",
+      "level": "postgraduate",
+      "credential": "MCA",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/post-graduate/mca",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 93,
+          "career_node_slug": "mca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications) > MCA → Software Engineer",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-post-graduate-msc-hons-bio-tech",
+      "name": "M.Sc (Biotechnology)",
+      "level": "postgraduate",
+      "credential": "M.Sc.",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/post-graduate/msc-hons-bio-tech",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 146,
+          "career_node_slug": "msc_biotech",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech > M.Sc Biotechnology → Researcher",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-post-graduate-msc-microbiology-immunology",
+      "name": "M.Sc (Microbiology & Immunology)",
+      "level": "postgraduate",
+      "credential": "M.Sc.",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/post-graduate/msc-microbiology-immunology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 177,
+          "career_node_slug": "microbiologist",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Microbiology > Microbiologist",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-post-graduate-msc-chemistry",
+      "name": "M.Sc (Chemistry)",
+      "level": "postgraduate",
+      "credential": "M.Sc.",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/post-graduate/msc-chemistry",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 155,
+          "career_node_slug": "msc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry > M.Sc Chemistry → Researcher",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-post-graduate-msc-physics",
+      "name": "M.Sc (Physics)",
+      "level": "postgraduate",
+      "credential": "M.Sc.",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/post-graduate/msc-physics",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 153,
+          "career_node_slug": "msc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics > M.Sc Physics → Researcher / Professor",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-post-graduate-msc-mathematics-specialization-in-datanalytics",
+      "name": "M.Sc (Mathematics)",
+      "level": "postgraduate",
+      "credential": "M.Sc.",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/post-graduate/msc-mathematics-specialization-in-datanalytics",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 90,
+          "career_node_slug": "msc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics > M.Sc Mathematics → Professor / Researcher",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courseid-104",
+      "name": "M.Sc. (Agriculture)",
+      "level": "postgraduate",
+      "credential": "M.Sc.",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/course-details.aspx?mpgid=129&pgidtrail=129&courseid=104",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 165,
+          "career_node_slug": "agri_scientist",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture > Agricultural Scientist",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-post-graduate-llm",
+      "name": "LLM (Banking, Finance & Insurance Law and Cyber Law & Data Privacy Law)",
+      "level": "postgraduate",
+      "credential": "LL.M.",
+      "specialization": null,
+      "duration": "1 year",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/post-graduate/llm",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 343,
+          "career_node_slug": "commerce_law",
+          "career_breadcrumb": "Law & Legal",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courseid-102",
+      "name": "M.Tech Mechanical Engineering (Production)",
+      "level": "postgraduate",
+      "credential": "M.Tech",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/course-details.aspx?mpgid=129&pgidtrail=129&courseid=102",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courseid-134",
+      "name": "M. Tech (Energy Systems)",
+      "level": "postgraduate",
+      "credential": "M.Tech",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/course-details.aspx?mpgid=129&pgidtrail=129&courseid=134",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 362,
+          "career_node_slug": "renewable_energy_engineer",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering > Renewable Energy Engineer",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-post-graduate-mca-in-artificial-intelligence-mechanical-learning",
+      "name": "MCA IN AIML",
+      "level": "postgraduate",
+      "credential": "MCA",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/post-graduate/mca-in-artificial-intelligence-mechanical-learning",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 312,
+          "career_node_slug": "ml_engineer",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > AI & Machine Learning > ML Engineer",
+          "relation": "closest-specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courseid-156",
+      "name": "M.Com",
+      "level": "postgraduate",
+      "credential": "M.Com",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/course-details.aspx?mpgid=129&pgidtrail=129&courseid=156",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courseid-157",
+      "name": "M.Tech in Transportation Engineering",
+      "level": "postgraduate",
+      "credential": "M.Tech",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/course-details.aspx?mpgid=129&pgidtrail=129&courseid=157",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 323,
+          "career_node_slug": "transportation_engineer",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering > Transportation Engineer",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courseid-103",
+      "name": "Ph.D (Computer Applications)",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/course-details.aspx?mpgid=129&pgidtrail=129&courseid=103",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 93,
+          "career_node_slug": "mca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications) > MCA → Software Engineer",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-doctorate-phd-law",
+      "name": "Ph.D (Law)",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/doctorate/phd-law",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 343,
+          "career_node_slug": "commerce_law",
+          "career_breadcrumb": "Law & Legal",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-doctorate-phd-computer-science-engineering",
+      "name": "Ph.D (Computer Science & Engineering)",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/doctorate/phd-computer-science-engineering",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-doctorate-phd-electronics-communication-engineering",
+      "name": "Ph.D (Electronics & Communications Engineering)",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/doctorate/phd-electronics-communication-engineering",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-doctorate-phd-mechanical-engineering",
+      "name": "Ph.D (Mechanical Engineering)",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/doctorate/phd-mechanical-engineering",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-doctorate-phd-electrical-engineering",
+      "name": "Ph.D (Electrical Engineering)",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/doctorate/phd-electrical-engineering",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-doctorate-phd-civil-engineering",
+      "name": "Ph.D (Civil Engineering)",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/doctorate/phd-civil-engineering",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-doctorate-phd-biotechnology",
+      "name": "Ph.D (Biotechnology)",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/doctorate/phd-biotechnology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 88,
+          "career_node_slug": "btech_biotech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Biotechnology",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-doctorate-phd-microbiology",
+      "name": "Ph.D (Microbiology & Immunology)",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/doctorate/phd-microbiology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 177,
+          "career_node_slug": "microbiologist",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Microbiology > Microbiologist",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-doctorate-phd-applied-physics",
+      "name": "Ph.D (Physics)",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/doctorate/phd-applied-physics",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 24,
+          "career_node_slug": "bsc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-doctorate-phd-applied-chemistry",
+      "name": "Ph.D (Chemistry)",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/doctorate/phd-applied-chemistry",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-doctorate-phd-english",
+      "name": "Ph.D (English)",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/doctorate/phd-english",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-doctorate-phd-mathematics",
+      "name": "Ph.D (Mathematics)",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/doctorate/phd-mathematics",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-doctorate-phd-pharmaceutical-sciences",
+      "name": "Ph. D (Pharmacy)",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/doctorate/phd-pharmaceutical-sciences",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 144,
+          "career_node_slug": "pharma_researcher",
+          "career_breadcrumb": "Biology / PCB > Medical Updated > Pharmaceutical Researcher",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-doctorate-phd-management",
+      "name": "Ph.D (Management)",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/doctorate/phd-management",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-doctorate-phd-education",
+      "name": "Ph.D (Education)",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/doctorate/phd-education",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courseid-149",
+      "name": "Ph.D Agriculture",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/course-details.aspx?mpgid=129&pgidtrail=129&courseid=149",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-diploma-dpharm",
+      "name": "D. Pharm",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/diploma/dpharm",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 143,
+          "career_node_slug": "pharmacist",
+          "career_breadcrumb": "Biology / PCB > Medical Updated > Clinical Pharmacist",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-diploma-electronics-communication-engineering",
+      "name": "Diploma (Electronics & Communication)",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/diploma/electronics-communication-engineering",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 125,
+          "career_node_slug": "electronics_technician",
+          "career_breadcrumb": "Maths / PCM > B.Sc Electronics / Instrumentation > Electronics Technician",
+          "relation": "closest-specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-diploma-civil-engineering",
+      "name": "Diploma (Civil Engineering)",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/diploma/civil-engineering",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 116,
+          "career_node_slug": "diploma_civil_career",
+          "career_breadcrumb": "Maths / PCM > Diploma Engineering (Polytechnic) > Civil Site Supervisor",
+          "relation": "closest-specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-diploma-computer-science-engineering",
+      "name": "Diploma (Computer Science Engineering)",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/diploma/computer-science-engineering",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 11,
+          "career_node_slug": "diploma_engg",
+          "career_breadcrumb": "Maths / PCM > Diploma Engineering (Polytechnic)",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-diploma-electrical-engineering",
+      "name": "Diploma (Electrical Engineering)",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/diploma/electrical-engineering",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 118,
+          "career_node_slug": "diploma_elec_career",
+          "career_breadcrumb": "Maths / PCM > Diploma Engineering (Polytechnic) > Electrical Technician",
+          "relation": "closest-specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-courses-diploma-mechanical-engineering",
+      "name": "Diploma (Mechanical Engineering)",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/courses/diploma/mechanical-engineering",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 115,
+          "career_node_slug": "diploma_mech_career",
+          "career_breadcrumb": "Maths / PCM > Diploma Engineering (Polytechnic) > Mechanical Draughtsman / Technician",
+          "relation": "closest-specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "g-l-a-university-gla-graduate-btech-me-smart-manufacturing",
+      "name": "B.TECH MECHANICAL ENGINEERING (SMART MANUFACTURING)",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "full_time",
+      "eligibility": null,
+      "official_course_url": "https://www.gla.ac.in/graduate/btech-me-smart-manufacturing",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The government directory listings were independently checked and contain G. L. A. University in Mathura, Uttar Pradesh.",
+    "Normal TLS verification failed with the managed proxy self-signed certificate-chain error; curl --insecure was then used only for public GET requests to the expected nirfindia.org and gla.ac.in hosts.",
+    "The official graduate, postgraduate, doctoral, diploma, and certificate catalogue pages were checked. The certificate-courses page contains no active certificate programme listing.",
+    "The additional Smart Manufacturing programme page is active on the official domain and is also named in the official 2026-2027 eligibility table.",
+    "Duration was retained where the official 2026-2027 admissions table explicitly states it; eligibility was left null per the scalability rule rather than copying broad table criteria into every record.",
+    "Career mappings were reviewed against the read-only career_nodes table; nearest-parent and closest-specialization relations are labelled with medium confidence where the tree has no exact programme node."
+  ]
+}

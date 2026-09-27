@@ -1,0 +1,48 @@
+{
+  "batch": 21,
+  "started_at": "2026-09-27T12:13:27.123936+00:00",
+  "finished_at": "2026-09-27T12:26:00.151813+00:00",
+  "assignment_count": 5,
+  "completed_count": 1,
+  "skipped_count": 4,
+  "failed_count": 0,
+  "results": [
+    {
+      "institution_id": "government-college-bargi",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified-v2/results/government-college-bargi.json",
+      "finished_at": "2026-09-27T12:13:27.154025+00:00"
+    },
+    {
+      "institution_id": "government-engineering-college",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified-v2/results/government-engineering-college.json",
+      "finished_at": "2026-09-27T12:13:27.157392+00:00"
+    },
+    {
+      "institution_id": "govt-autonmous-science-college-civil-linesr-jabalpur",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified-v2/results/govt-autonmous-science-college-civil-linesr-jabalpur.json",
+      "finished_at": "2026-09-27T12:13:27.175423+00:00"
+    },
+    {
+      "institution_id": "govt-autonomous-m-k-b-arts-commerce-college-for-women-wright-town-jabalpur",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified-v2/results/govt-autonomous-m-k-b-arts-commerce-college-for-women-wright-town-jabalpur.json",
+      "finished_at": "2026-09-27T12:13:27.174014+00:00"
+    },
+    {
+      "institution_id": "govt-mahakoshal-autonmous-arts-commerece-college-civil-line-jabalpur",
+      "nirf_name": "Govt . Mahakoshal Autonmous Arts. & Commerece College, Civil Line Jabalpur",
+      "status": "completed",
+      "started_at": "2026-09-27T12:13:27.147164+00:00",
+      "finished_at": "2026-09-27T12:25:58.809197+00:00",
+      "duration_seconds": 748.786,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified-v2/results/govt-mahakoshal-autonmous-arts-commerece-college-civil-line-jabalpur.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified-v2/logs/govt-mahakoshal-autonmous-arts-commerece-college-civil-line-jabalpur.jsonl"
+    }
+  ]
+}

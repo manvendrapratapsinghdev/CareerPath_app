@@ -1,0 +1,118 @@
+{
+  "institution_id": "govt-degree-college-badamalhara-chhatarpur",
+  "nirf_name": "GOVT DEGREE COLLEGE BADAMALHARA CHHATARPUR",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Chhatarpur",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://highereducation.mp.gov.in/?orgid=98",
+  "website_verification_status": "verified",
+  "description": "A government college campus in Badamalhara, Chhatarpur, Madhya Pradesh, under the Madhya Pradesh Higher Education Department.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "nirf_government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Lists GOVT DEGREE COLLEGE BADAMALHARA CHHATARPUR in Chhatarpur, Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "nirf_government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Lists GOVT DEGREE COLLEGE BADAMALHARA CHHATARPUR in Chhatarpur, Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "official_government_college_directory",
+      "url": "https://highereducation.mp.gov.in/?page=3ReniKuyIMmDd4opO%2FkIdA%3D%3D",
+      "supports": [
+        "Official Madhya Pradesh Higher Education directory identifies Govt College, Badamalehra, Chhatarpur."
+      ]
+    },
+    {
+      "type": "official_government_college_directory_api",
+      "url": "https://highereducation.mp.gov.in/CollegeDisp/getTable",
+      "supports": [
+        "Official directory record identifies orgid 98, CollegeCode 0807, OrganizationName Govt College, Badamalehra, and District Chhatarpur."
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://highereducation.mp.gov.in/?orgid=98",
+      "supports": [
+        "Official college portal header identifies Shaskiya Mahavidyalaya Badamalhara, Chhatarpur, Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "official_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=dSu61tJqj2fdHVehzu%2BMRw%3D%3D&orgid=98",
+      "supports": [
+        "Official Regular Courses page contains PG, UG, and Diploma sections but no course rows."
+      ]
+    },
+    {
+      "type": "official_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=XhKalOXjVGE3HS6EDb0zcA%3D%3D&orgid=98",
+      "supports": [
+        "Official Distance Education Courses page contains PG, UG, and Diploma sections but no course rows."
+      ]
+    },
+    {
+      "type": "official_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=FgOBBP5w4QAayGmICglKSA%3D%3D&orgid=98",
+      "supports": [
+        "Official Prospectus page is under construction and provides no catalogue content."
+      ]
+    },
+    {
+      "type": "official_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=oVhWTbu8Cv9KWgz8TDKK5w%3D%3D&orgid=98",
+      "supports": [
+        "Official New Course Started page is under construction."
+      ]
+    },
+    {
+      "type": "official_campus_page",
+      "url": "https://highereducation.mp.gov.in/?page=nhCdHriV6hJM5aihwDFzMA%3D%3D&orgid=98",
+      "supports": [
+        "Official How to Reach page is under construction."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "GOVT DEGREE COLLEGE BADAMALHARA CHHATARPUR official website",
+      "result": "Search did not establish a direct official institution page; official discovery was completed through the Madhya Pradesh Higher Education college directory.",
+      "url": null
+    },
+    {
+      "query": "Government College Badamalhara Chhatarpur Madhya Pradesh",
+      "result": "Search did not establish a direct official institution page; official discovery was completed through the Madhya Pradesh Higher Education college directory.",
+      "url": null
+    },
+    {
+      "query": "site:mp.gov.in Badamalhara college",
+      "result": "Search did not establish a direct official institution page; official discovery was completed through the Madhya Pradesh Higher Education college directory.",
+      "url": null
+    },
+    {
+      "query": "Madhya Pradesh Higher Education Badamalehra college directory",
+      "result": "The official Madhya Pradesh Higher Education college directory exposed the Badamalehra, Chhatarpur entry and orgid 98 portal.",
+      "url": "https://highereducation.mp.gov.in/?page=3ReniKuyIMmDd4opO%2FkIdA%3D%3D"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [],
+  "agent_notes": [
+    "Normal TLS verification failed with the managed proxy self-signed certificate-chain error for the expected public hosts; public GET requests used curl --insecure only after confirming the requested official/search hostnames.",
+    "The official Regular Courses and Distance Education Courses pages contain only PG, UG, and Diploma category headers with empty course tables. No active programme names, duration, or eligibility can be imported without guessing.",
+    "The official Prospectus page is under construction; the Departments page is empty; and the How to Reach, Time table, New Course Started, Vision-Mission, and Objectives pages are under construction or empty. Manual review is required because the official catalogue is incomplete."
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "institution_id": "bhavdiya-institute-of-pharmaceutical-science-research-faizabad",
+  "nirf_name": "BHAVDIYA INSTITUTE OF PHARMACEUTICAL SCIENCE & RESEARCH, FAIZABAD",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/PharmacyRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Ayodhya",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://bhavdiya.com/",
+  "website_verification_status": "ambiguous",
+  "description": "Bhavdiya Group of Institutions has a campus at Seewar, Sohawal, Ayodhya, Uttar Pradesh, on the Ayodhya-Lucknow Highway.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/PharmacyRankingALL.html",
+      "supports": [
+        "Exact institution name appears with AYODHYA and Uttar Pradesh."
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://bhavdiya.com/",
+      "supports": [
+        "Current Bhavdiya Educational Institute and Bhavdiya Group of Institutions branding."
+      ]
+    },
+    {
+      "type": "official_campus_contact",
+      "url": "https://bhavdiya.com/ContactUs.html",
+      "supports": [
+        "Campus address at Seewar, Sohawal, Ayodhya, Uttar Pradesh."
+      ]
+    },
+    {
+      "type": "official_catalogue",
+      "url": "https://bhavdiya.com/AboutUs.html",
+      "supports": [
+        "Current catalogue lists non-pharmacy programmes but does not name the target pharmacy institute or publish a pharmacy programme."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"BHAVDIYA INSTITUTE OF PHARMACEUTICAL SCIENCE & RESEARCH\"",
+      "result": "Bing search was inconclusive and did not establish a current official pharmacy-institute domain.",
+      "url": "https://www.bing.com/search?q=%22BHAVDIYA+INSTITUTE+OF+PHARMACEUTICAL+SCIENCE+%26+RESEARCH%22"
+    },
+    {
+      "query": "\"Bhavdiya Institute\" Ayodhya official website",
+      "result": "Google returned HTTP 429 in the command-line request; no snippet was used as verification evidence.",
+      "url": "https://www.google.com/search?q=%22Bhavdiya+Institute%22+Ayodhya+official+website"
+    },
+    {
+      "query": "Bhavdiya Institute of Pharmaceutical Science Research Ayodhya official website",
+      "result": "Focused search was inconclusive; the Bhavdiya group domain was separately checked directly.",
+      "url": "https://www.bing.com/search?q=Bhavdiya+Institute+of+Pharmaceutical+Science+Research+Ayodhya+official+website"
+    },
+    {
+      "query": "site:bhavdiya* pharmaceutical",
+      "result": "No current target-specific official pharmacy catalogue was established from search results.",
+      "url": "https://www.bing.com/search?q=site%3Abhavdiya*+pharmaceutical"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [],
+  "agent_notes": [
+    "The supplied NIRF government listing is verified; its row exactly matches the institution name and shows AYODHYA, Uttar Pradesh.",
+    "Normal TLS verification first failed with the managed proxy self-signed-certificate-chain error; public GET requests then used curl --insecure after confirming expected public hostnames.",
+    "The current official Bhavdiya site is a general group/educational-institute site. It identifies an Ayodhya campus and lists non-pharmacy programmes, but does not name BHAVDIYA INSTITUTE OF PHARMACEUTICAL SCIENCE & RESEARCH or publish an active pharmacy catalogue.",
+    "Courses were not inherited from the parent/group site's other programmes because the target institution and its pharmacy catalogue could not be established unambiguously."
+  ]
+}

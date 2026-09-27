@@ -1,0 +1,444 @@
+{
+  "institution_id": "adina-institute-of-science-and-technology-sagar",
+  "nirf_name": "Adina Institute of Science And Technology, Sagar",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/EngineeringRankingALL.html"
+  ],
+  "verification_outcome": "verified",
+  "district": "Sagar",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://www.adina.edu.in/",
+  "website_verification_status": "verified",
+  "description": "Adina Institute of Science and Technology (AIST) is an engineering and technology institute established in 2009 within Adina Group of Institutions' Sagar campus, offering diploma, undergraduate and postgraduate engineering programmes.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/EngineeringRankingALL.html",
+      "supports": [
+        "Exact institution name is listed with city Sagar and state Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://www.adina.edu.in/",
+      "supports": [
+        "Identifies Adina Group of Institutions as located in Sagar, Madhya Pradesh and lists Adina Institute of Science and Technology (AIST)."
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "https://www.adina.edu.in/contact/",
+      "supports": [
+        "Identifies the engineering institute as Adina Institute of Science & Technology and gives its address as NH 86, Bhopal Road, Sagar, 470001, Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "official_institution_profile",
+      "url": "https://www.adina.edu.in/aist_about/",
+      "supports": [
+        "Identifies AIST, its 2009 establishment, and its diploma, undergraduate, and postgraduate engineering offerings."
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://www.adina.edu.in/courses-offered-2/",
+      "supports": [
+        "Lists the AIST Engineering courses and the active B.Tech, B. Tech Lateral, M. Tech, and Diploma branches."
+      ]
+    },
+    {
+      "type": "official_admissions",
+      "url": "https://www.adina.edu.in/admission-procedure/",
+      "supports": [
+        "Official admissions procedure page reviewed for the current course/admission context."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "Adina Institute Sagar Madhya Pradesh",
+      "result": "Yahoo results identified the official-domain site https://www.adina.edu.in/ and its AIST, courses, admissions, and contact pages; search results were used only for discovery.",
+      "url": "https://search.yahoo.com/search?p=Adina+Institute+Sagar+Madhya+Pradesh"
+    },
+    {
+      "query": "\"Adina Institute of Science and Technology\" Sagar official",
+      "result": "Focused search was used to look for the exact institution name; official-site content was independently fetched and verified before use.",
+      "url": "https://www.google.com/search?q=%22Adina+Institute+of+Science+and+Technology%22+Sagar+official"
+    }
+  ],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "adina-institute-of-science-and-technology-sagar-aist-btech-civil-engineering",
+      "name": "B.Tech",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Civil Engineering",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.adina.edu.in/courses-offered-2/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "adina-institute-of-science-and-technology-sagar-aist-btech-computer-science-and-engineering",
+      "name": "B.Tech",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Computer Science and Engineering",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.adina.edu.in/courses-offered-2/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "adina-institute-of-science-and-technology-sagar-aist-btech-computer-science-and-engineering-artificial-intelligence",
+      "name": "B.Tech",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Computer Science and Engineering (Artificial Intelligence)",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.adina.edu.in/courses-offered-2/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "nearest_parent_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        },
+        {
+          "career_node_id": 174,
+          "career_node_slug": "ai_engineer",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Artificial Intelligence > AI Engineer",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "adina-institute-of-science-and-technology-sagar-aist-btech-electrical-and-electronics-engineering",
+      "name": "B.Tech",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Electrical & Electronics Engineering",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.adina.edu.in/courses-offered-2/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "closest_combined_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "adina-institute-of-science-and-technology-sagar-aist-btech-mechanical-engineering",
+      "name": "B.Tech",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Mechanical Engineering",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.adina.edu.in/courses-offered-2/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "adina-institute-of-science-and-technology-sagar-aist-b-tech-lateral-civil-engineering",
+      "name": "B. Tech Lateral",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Civil Engineering",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.adina.edu.in/courses-offered-2/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "adina-institute-of-science-and-technology-sagar-aist-b-tech-lateral-computer-science-and-engineering",
+      "name": "B. Tech Lateral",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Computer Science and Engineering",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.adina.edu.in/courses-offered-2/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "adina-institute-of-science-and-technology-sagar-aist-b-tech-lateral-computer-science-and-engineering-artificial-intelligence",
+      "name": "B. Tech Lateral",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Computer Science and Engineering (Artificial Intelligence)",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.adina.edu.in/courses-offered-2/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "nearest_parent_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        },
+        {
+          "career_node_id": 174,
+          "career_node_slug": "ai_engineer",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Artificial Intelligence > AI Engineer",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "adina-institute-of-science-and-technology-sagar-aist-b-tech-lateral-electrical-and-electronics-engineering",
+      "name": "B. Tech Lateral",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Electrical & Electronics Engineering",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.adina.edu.in/courses-offered-2/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "closest_combined_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "adina-institute-of-science-and-technology-sagar-aist-b-tech-lateral-mechanical-engineering",
+      "name": "B. Tech Lateral",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Mechanical Engineering",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.adina.edu.in/courses-offered-2/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "adina-institute-of-science-and-technology-sagar-aist-mtech-computer-science-and-engineering",
+      "name": "M. Tech",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Computer Science and Engineering",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.adina.edu.in/courses-offered-2/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "adina-institute-of-science-and-technology-sagar-aist-mtech-thermal-power-engineering",
+      "name": "M. Tech",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Thermal Power Engineering",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.adina.edu.in/courses-offered-2/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 324,
+          "career_node_slug": "power_engineer",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering > Power Systems Engineer",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "adina-institute-of-science-and-technology-sagar-aist-mtech-vlsi",
+      "name": "M. Tech",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "VLSI",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.adina.edu.in/courses-offered-2/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 315,
+          "career_node_slug": "vlsi_engineer",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication > VLSI Design Engineer",
+          "relation": "closest_specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "adina-institute-of-science-and-technology-sagar-aist-diploma-computer-science-and-engineering",
+      "name": "Diploma",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": "Computer Science and Engineering",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.adina.edu.in/courses-offered-2/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 11,
+          "career_node_slug": "diploma_engg",
+          "career_breadcrumb": "Maths / PCM > Diploma Engineering (Polytechnic)",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "adina-institute-of-science-and-technology-sagar-aist-diploma-mechanical-engineering",
+      "name": "Diploma",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": "Mechanical Engineering",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.adina.edu.in/courses-offered-2/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 115,
+          "career_node_slug": "diploma_mech_career",
+          "career_breadcrumb": "Maths / PCM > Diploma Engineering (Polytechnic) > Mechanical Draughtsman / Technician",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "Government listing was confirmed on the supplied NIRF 2025 Engineering page: the exact institution name appears with Sagar, Madhya Pradesh.",
+    "Normal TLS verification failed with the managed proxy's self-signed certificate-chain error; public GET requests to the expected NIRF, search, and official-site hostnames used curl --insecure as the permitted fallback.",
+    "The official catalogue explicitly lists AIST under Engineering courses with B.Tech, B. Tech Lateral, M. Tech, and Diploma branches; no certificate or doctoral AIST programme is listed.",
+    "Duration, eligibility, and delivery mode are not explicitly stated for the AIST engineering rows on the central official catalogue, so duration and eligibility are null and mode is marked not_stated.",
+    "The pharmacy rows on the shared catalogue belong to AIPS and ACP, not AIST, and were excluded.",
+    "Career mappings were read-only from assets/data/career_path.db; mappings marked reviewed_with_career_tree_label_issue are nearest-parent or closest-specialization mappings where the tree has no exact AIST programme node."
+  ]
+}

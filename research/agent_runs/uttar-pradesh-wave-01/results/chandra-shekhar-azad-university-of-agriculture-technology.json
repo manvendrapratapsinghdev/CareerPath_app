@@ -1,0 +1,1188 @@
+{
+  "institution_id": "chandra-shekhar-azad-university-of-agriculture-technology",
+  "nirf_name": "Chandra Shekhar Azad University of Agriculture & Technology",
+  "verification_outcome": "manual_review",
+  "district": null,
+  "district_verification_status": "pending_official_source",
+  "official_website": "https://csauk.ac.in/en",
+  "website_verification_status": "verified",
+  "description": "Chandra Shekhar Azad University of Agriculture & Technology is a state agricultural university in Kanpur, Uttar Pradesh, established in its present university form in 1975, with constituent colleges in Kanpur, Etawah and Lakhimpur Kheri focused on agricultural and allied sciences.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "official_homepage",
+      "url": "https://csauk.ac.in/en",
+      "supports": [
+        "institution identity",
+        "official domain"
+      ]
+    },
+    {
+      "type": "official_location",
+      "url": "https://csauk.ac.in/en/page/location",
+      "supports": [
+        "main campus in Kanpur",
+        "city confirmation"
+      ]
+    },
+    {
+      "type": "official_contact",
+      "url": "https://csauk.ac.in/en/page/contact-us-2",
+      "supports": [
+        "Agricultural College Lane, Nawabganj, Kanpur, Uttar Pradesh 208002",
+        "institution identity"
+      ]
+    },
+    {
+      "type": "official_general_info",
+      "url": "https://csauk.ac.in/en/page/general-info",
+      "supports": [
+        "institution history",
+        "1975 university status",
+        "constituent colleges in Kanpur, Etawah and Lakhimpur Kheri",
+        "agricultural and allied-science focus"
+      ]
+    },
+    {
+      "type": "official_programme_catalogue",
+      "url": "https://csauk.ac.in/downloadmedia/siteContent/202509251027414526pobu.pdf?cd=MQA4ADkA",
+      "supports": [
+        "45 degree and doctoral programme names",
+        "programme counts"
+      ]
+    },
+    {
+      "type": "official_diploma_catalogue",
+      "url": "https://csauk.ac.in/en/page/diploma-in-agriculture-journalism-science-communication",
+      "supports": [
+        "Post Graduate Diploma in Agri-Journalism and Science Communication programme page"
+      ]
+    },
+    {
+      "type": "official_diploma_rules",
+      "url": "https://csauk.ac.in/uploads/2023/04/Rules-and-norm-PGDAJMCS.pdf",
+      "supports": [
+        "official diploma title",
+        "two-year/four-semester duration",
+        "eligibility"
+      ]
+    },
+    {
+      "type": "official_new_courses_page",
+      "url": "https://csauk.ac.in/en/article/new-courses",
+      "supports": [
+        "separate historical short-course listing identified during catalogue completeness review"
+      ]
+    },
+    {
+      "type": "official_nep_short_courses",
+      "url": "https://csauk.ac.in/uploads/2021/10/NEP-2020.pdf",
+      "supports": [
+        "13 three/four-month short courses listed in a 2021 NEP-2020 PDF; current activity not established"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "Chandra Shekhar Azad University of Agriculture Technology official website Kanpur",
+      "result": "DuckDuckGo discovery returned the official domain csauk.ac.in and the official homepage result.",
+      "url": "https://csauk.ac.in/en"
+    },
+    {
+      "query": "site:csau.ac.in Chandra Shekhar Azad University courses admissions",
+      "result": "Bing did not return a usable official result for csau.ac.in; official-domain discovery continued through direct focused searches.",
+      "url": "https://www.bing.com/search?q=site%3Acsau.ac.in+Chandra+Shekhar+Azad+University+courses+admissions"
+    },
+    {
+      "query": "Chandra Shekhar Azad University Agriculture Technology official domain district Kanpur",
+      "result": "Bing did not return a usable official result; the confirmed csauk.ac.in domain was then checked directly.",
+      "url": "https://www.bing.com/search?q=Chandra+Shekhar+Azad+University+Agriculture+Technology+official+domain+district+Kanpur"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "chandra-shekhar-azad-university-of-agriculture-technology-bsc-hons-agriculture",
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "undergraduate",
+      "credential": "Bachelor of Science",
+      "specialization": "Agriculture",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://csauk.ac.in/downloadmedia/siteContent/202509251027414526pobu.pdf?cd=MQA4ADkA",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chandra-shekhar-azad-university-of-agriculture-technology-bsc-hons-horticulture",
+      "name": "B.Sc. (Hons.) Horticulture",
+      "level": "undergraduate",
+      "credential": "Bachelor of Science",
+      "specialization": "Horticulture",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://csauk.ac.in/downloadmedia/siteContent/202509251027414526pobu.pdf?cd=MQA4ADkA",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 165,
+          "career_node_slug": "agri_scientist",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture > Agricultural Scientist",
+          "relation": "nearest-parent: agricultural sciences; no horticulture node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chandra-shekhar-azad-university-of-agriculture-technology-bsc-hons-forestry",
+      "name": "B.Sc. (Hons.) Forestry",
+      "level": "undergraduate",
+      "credential": "Bachelor of Science",
+      "specialization": "Forestry",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://csauk.ac.in/downloadmedia/siteContent/202509251027414526pobu.pdf?cd=MQA4ADkA",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 366,
+          "career_node_slug": "sustainability_analyst",
+          "career_breadcrumb": "Common Paths > B.Sc Environmental Science > Sustainability / ESG Analyst",
+          "relation": "closest-specialization: environmental and sustainability careers; no forestry node exists",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chandra-shekhar-azad-university-of-agriculture-technology-bsc-hons-community-science",
+      "name": "B.Sc. (Hons.) Community Science",
+      "level": "undergraduate",
+      "credential": "Bachelor of Science",
+      "specialization": "Community Science",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://csauk.ac.in/downloadmedia/siteContent/202509251027414526pobu.pdf?cd=MQA4ADkA",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 271,
+          "career_node_slug": "community_developer",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology > Community Development Officer",
+          "relation": "closest-specialization: community development; no community-science node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chandra-shekhar-azad-university-of-agriculture-technology-btech-agril-engineering",
+      "name": "B.Tech. (Agril. Engineering)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Technology",
+      "specialization": "Agril. Engineering",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://csauk.ac.in/downloadmedia/siteContent/202509251027414526pobu.pdf?cd=MQA4ADkA",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 365,
+          "career_node_slug": "agri_tech_specialist",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture > AgriTech / Precision Farming Specialist",
+          "relation": "closest-specialization: agricultural technology; no agricultural-engineering node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chandra-shekhar-azad-university-of-agriculture-technology-btech-computer-science",
+      "name": "B.Tech. (Computer Science)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Technology",
+      "specialization": "Computer Science",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://csauk.ac.in/downloadmedia/siteContent/202509251027414526pobu.pdf?cd=MQA4ADkA",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chandra-shekhar-azad-university-of-agriculture-technology-btech-mechanical-engineering",
+      "name": "B.Tech. (Mechanical Engineering)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Technology",
+      "specialization": "Mechanical Engineering",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://csauk.ac.in/downloadmedia/siteContent/202509251027414526pobu.pdf?cd=MQA4ADkA",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chandra-shekhar-azad-university-of-agriculture-technology-bsc-electronics-communication",
+      "name": "B.Sc. (Electronics & Communication)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Science",
+      "specialization": "Electronics & Communication",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://csauk.ac.in/downloadmedia/siteContent/202509251027414526pobu.pdf?cd=MQA4ADkA",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "direct discipline: electronics and communication; career node is B.Tech-labelled",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chandra-shekhar-azad-university-of-agriculture-technology-btech-dairy-technology",
+      "name": "B.Tech. (Dairy Technology)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Technology",
+      "specialization": "Dairy Technology",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://csauk.ac.in/downloadmedia/siteContent/202509251027414526pobu.pdf?cd=MQA4ADkA",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 161,
+          "career_node_slug": "food_technologist",
+          "career_breadcrumb": "Common Paths > B.Sc Food Technology > Food Technologist",
+          "relation": "closest-specialization: food technology; no dairy-technology node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chandra-shekhar-azad-university-of-agriculture-technology-bfsc-fisheries-science",
+      "name": "B.F.Sc. (Fisheries Science)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Fisheries Science",
+      "specialization": "Fisheries Science",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://csauk.ac.in/downloadmedia/siteContent/202509251027414526pobu.pdf?cd=MQA4ADkA",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest-specialization: biology and allied life sciences; no fisheries node exists",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chandra-shekhar-azad-university-of-agriculture-technology-msc-ag-agronomy",
+      "name": "M.Sc. (Ag), Agronomy",
+      "level": "postgraduate",
+      "credential": "Master of Science",
+      "specialization": "Agronomy",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://csauk.ac.in/downloadmedia/siteContent/202509251027414526pobu.pdf?cd=MQA4ADkA",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 165,
+          "career_node_slug": "agri_scientist",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture > Agricultural Scientist",
+          "relation": "career-outcome: agricultural science; no agronomy node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chandra-shekhar-azad-university-of-agriculture-technology-msc-ag-genetics-plant-breeding",
+      "name": "M.Sc. (Ag), Genetics & Plant Breeding",
+      "level": "postgraduate",
+      "credential": "Master of Science",
+      "specialization": "Genetics & Plant Breeding",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://csauk.ac.in/downloadmedia/siteContent/202509251027414526pobu.pdf?cd=MQA4ADkA",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 331,
+          "career_node_slug": "genetic_engineer",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Biotechnology > Genetic Engineer",
+          "relation": "closest-specialization: genetics; tree offers Genetic Engineer under Biotechnology",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chandra-shekhar-azad-university-of-agriculture-technology-msc-ag-seed-science-technology",
+      "name": "M.Sc. (Ag), Seed Science & Technology",
+      "level": "postgraduate",
+      "credential": "Master of Science",
+      "specialization": "Seed Science & Technology",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://csauk.ac.in/downloadmedia/siteContent/202509251027414526pobu.pdf?cd=MQA4ADkA",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 165,
+          "career_node_slug": "agri_scientist",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture > Agricultural Scientist",
+          "relation": "nearest-parent: agricultural sciences; no seed-science node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chandra-shekhar-azad-university-of-agriculture-technology-msc-ag-soil-science-agricultural-chemistry",
+      "name": "M.Sc. (Ag), Soil Science & Agricultural Chemistry",
+      "level": "postgraduate",
+      "credential": "Master of Science",
+      "specialization": "Soil Science & Agricultural Chemistry",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://csauk.ac.in/downloadmedia/siteContent/202509251027414526pobu.pdf?cd=MQA4ADkA",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "closest-specialization: chemistry and agricultural science; no soil-science node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chandra-shekhar-azad-university-of-agriculture-technology-msc-ag-entomology",
+      "name": "M.Sc. (Ag), Entomology",
+      "level": "postgraduate",
+      "credential": "Master of Science",
+      "specialization": "Entomology",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://csauk.ac.in/downloadmedia/siteContent/202509251027414526pobu.pdf?cd=MQA4ADkA",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 165,
+          "career_node_slug": "agri_scientist",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture > Agricultural Scientist",
+          "relation": "nearest-parent: agricultural sciences; no entomology node exists",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chandra-shekhar-azad-university-of-agriculture-technology-msc-ag-agricultural-economics-statistics",
+      "name": "M.Sc. (Ag), Agricultural Economics and Statistics",
+      "level": "postgraduate",
+      "credential": "Master of Science",
+      "specialization": "Agricultural Economics and Statistics",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://csauk.ac.in/downloadmedia/siteContent/202509251027414526pobu.pdf?cd=MQA4ADkA",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 274,
+          "career_node_slug": "development_economist",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics > Development Economist",
+          "relation": "closest-specialization: agricultural economics; career node is economics-labelled",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        },
+        {
+          "career_node_id": 6,
+          "career_node_slug": "bsc_stats",
+          "career_breadcrumb": "Maths / PCM > B.Sc Statistics",
+          "relation": "closest-specialization: statistics; career node is B.Sc-labelled",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chandra-shekhar-azad-university-of-agriculture-technology-msc-ag-soil-conservation-water-management",
+      "name": "M.Sc. (Ag), Soil Conservation & Water Management",
+      "level": "postgraduate",
+      "credential": "Master of Science",
+      "specialization": "Soil Conservation & Water Management",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://csauk.ac.in/downloadmedia/siteContent/202509251027414526pobu.pdf?cd=MQA4ADkA",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 366,
+          "career_node_slug": "sustainability_analyst",
+          "career_breadcrumb": "Common Paths > B.Sc Environmental Science > Sustainability / ESG Analyst",
+          "relation": "closest-specialization: environmental and sustainability careers; no soil-conservation node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chandra-shekhar-azad-university-of-agriculture-technology-msc-ag-plant-pathology",
+      "name": "M.Sc. (Ag), Plant Pathology",
+      "level": "postgraduate",
+      "credential": "Master of Science",
+      "specialization": "Plant Pathology",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://csauk.ac.in/downloadmedia/siteContent/202509251027414526pobu.pdf?cd=MQA4ADkA",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 147,
+          "career_node_slug": "research_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech > Research Scientist (Biology)",
+          "relation": "closest-specialization: biological research; no plant-pathology node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chandra-shekhar-azad-university-of-agriculture-technology-msc-ag-agricultural-extension",
+      "name": "M.Sc. (Ag), Agricultural Extension",
+      "level": "postgraduate",
+      "credential": "Master of Science",
+      "specialization": "Agricultural Extension",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://csauk.ac.in/downloadmedia/siteContent/202509251027414526pobu.pdf?cd=MQA4ADkA",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 166,
+          "career_node_slug": "agri_officer",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture > Agriculture Officer (Govt)",
+          "relation": "closest-specialization: agricultural extension and public agricultural service",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chandra-shekhar-azad-university-of-agriculture-technology-msc-ag-agricultural-biochemistry",
+      "name": "M.Sc. (Ag), Agricultural Biochemistry",
+      "level": "postgraduate",
+      "credential": "Master of Science",
+      "specialization": "Agricultural Biochemistry",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://csauk.ac.in/downloadmedia/siteContent/202509251027414526pobu.pdf?cd=MQA4ADkA",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 35,
+          "career_node_slug": "bsc_biochem",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Biochemistry",
+          "relation": "closest-specialization: biochemistry; career node is B.Sc-labelled",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chandra-shekhar-azad-university-of-agriculture-technology-msc-ag-plant-physiology",
+      "name": "M.Sc. (Ag), Plant Physiology",
+      "level": "postgraduate",
+      "credential": "Master of Science",
+      "specialization": "Plant Physiology",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://csauk.ac.in/downloadmedia/siteContent/202509251027414526pobu.pdf?cd=MQA4ADkA",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 147,
+          "career_node_slug": "research_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech > Research Scientist (Biology)",
+          "relation": "closest-specialization: biological research; no plant-physiology node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chandra-shekhar-azad-university-of-agriculture-technology-msc-ag-ah-dairying",
+      "name": "M.Sc. (Ag), AH & Dairying",
+      "level": "postgraduate",
+      "credential": "Master of Science",
+      "specialization": "AH & Dairying",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://csauk.ac.in/downloadmedia/siteContent/202509251027414526pobu.pdf?cd=MQA4ADkA",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 150,
+          "career_node_slug": "animal_researcher",
+          "career_breadcrumb": "Biology / PCB > B.V.Sc (Veterinary Science) > Animal Science Researcher",
+          "relation": "closest-specialization: animal science and dairying; no animal-husbandry node exists",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chandra-shekhar-azad-university-of-agriculture-technology-msc-hort-fruit-science",
+      "name": "M.Sc. (Hort.) Fruit Science",
+      "level": "postgraduate",
+      "credential": "Master of Science",
+      "specialization": "Fruit Science",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://csauk.ac.in/downloadmedia/siteContent/202509251027414526pobu.pdf?cd=MQA4ADkA",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 165,
+          "career_node_slug": "agri_scientist",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture > Agricultural Scientist",
+          "relation": "nearest-parent: agricultural sciences; no fruit-science node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chandra-shekhar-azad-university-of-agriculture-technology-msc-hort-vegetable-science",
+      "name": "M.Sc. (Hort.) Vegetable Science",
+      "level": "postgraduate",
+      "credential": "Master of Science",
+      "specialization": "Vegetable Science",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://csauk.ac.in/downloadmedia/siteContent/202509251027414526pobu.pdf?cd=MQA4ADkA",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 165,
+          "career_node_slug": "agri_scientist",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture > Agricultural Scientist",
+          "relation": "nearest-parent: agricultural sciences; no vegetable-science node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chandra-shekhar-azad-university-of-agriculture-technology-msc-hsc-food-science-nutrition",
+      "name": "M.Sc. (H.Sc.) Food Science & Nutrition",
+      "level": "postgraduate",
+      "credential": "Master of Science",
+      "specialization": "Food Science & Nutrition",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://csauk.ac.in/downloadmedia/siteContent/202509251027414526pobu.pdf?cd=MQA4ADkA",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 161,
+          "career_node_slug": "food_technologist",
+          "career_breadcrumb": "Common Paths > B.Sc Food Technology > Food Technologist",
+          "relation": "closest-specialization: food technology and nutrition; no food-science node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chandra-shekhar-azad-university-of-agriculture-technology-msc-hsc-textile-clothing",
+      "name": "M.Sc. (H.Sc.) Textile and Clothing",
+      "level": "postgraduate",
+      "credential": "Master of Science",
+      "specialization": "Textile and Clothing",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://csauk.ac.in/downloadmedia/siteContent/202509251027414526pobu.pdf?cd=MQA4ADkA",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 237,
+          "career_node_slug": "textile_designer",
+          "career_breadcrumb": "Design & Architecture > NIFT (Fashion Technology) > Textile Designer",
+          "relation": "closest-specialization: textile and clothing; career node is design-labelled",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chandra-shekhar-azad-university-of-agriculture-technology-msc-hsc-family-resource-management",
+      "name": "M.Sc. (H.Sc.) Family Resource Management",
+      "level": "postgraduate",
+      "credential": "Master of Science",
+      "specialization": "Family Resource Management",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://csauk.ac.in/downloadmedia/siteContent/202509251027414526pobu.pdf?cd=MQA4ADkA",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 271,
+          "career_node_slug": "community_developer",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology > Community Development Officer",
+          "relation": "closest-specialization: family and community development; no family-resource node exists",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chandra-shekhar-azad-university-of-agriculture-technology-msc-hsc-human-development-family-studies",
+      "name": "M.Sc. (H.Sc.) Human Development and Family Studies",
+      "level": "postgraduate",
+      "credential": "Master of Science",
+      "specialization": "Human Development and Family Studies",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://csauk.ac.in/downloadmedia/siteContent/202509251027414526pobu.pdf?cd=MQA4ADkA",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 271,
+          "career_node_slug": "community_developer",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology > Community Development Officer",
+          "relation": "closest-specialization: human and community development; no human-development node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chandra-shekhar-azad-university-of-agriculture-technology-msc-hsc-extension-education-communication-management",
+      "name": "M.Sc. (H.Sc.) Extension Education and Communication Management",
+      "level": "postgraduate",
+      "credential": "Master of Science",
+      "specialization": "Extension Education and Communication Management",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://csauk.ac.in/downloadmedia/siteContent/202509251027414526pobu.pdf?cd=MQA4ADkA",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 271,
+          "career_node_slug": "community_developer",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology > Community Development Officer",
+          "relation": "closest-specialization: community extension and development; no extension-education node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chandra-shekhar-azad-university-of-agriculture-technology-phd-ag-agronomy",
+      "name": "Ph.D. (Ag), Agronomy",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Agronomy",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://csauk.ac.in/downloadmedia/siteContent/202509251027414526pobu.pdf?cd=MQA4ADkA",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 165,
+          "career_node_slug": "agri_scientist",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture > Agricultural Scientist",
+          "relation": "career-outcome: agricultural science; no agronomy node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chandra-shekhar-azad-university-of-agriculture-technology-phd-ag-genetics-plant-breeding",
+      "name": "Ph.D. (Ag), Genetics & Plant Breeding",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Genetics & Plant Breeding",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://csauk.ac.in/downloadmedia/siteContent/202509251027414526pobu.pdf?cd=MQA4ADkA",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 331,
+          "career_node_slug": "genetic_engineer",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Biotechnology > Genetic Engineer",
+          "relation": "closest-specialization: genetics; tree offers Genetic Engineer under Biotechnology",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chandra-shekhar-azad-university-of-agriculture-technology-phd-ag-seed-science-technology",
+      "name": "Ph.D. (Ag), Seed Science & Technology",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Seed Science & Technology",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://csauk.ac.in/downloadmedia/siteContent/202509251027414526pobu.pdf?cd=MQA4ADkA",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 165,
+          "career_node_slug": "agri_scientist",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture > Agricultural Scientist",
+          "relation": "nearest-parent: agricultural sciences; no seed-science node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chandra-shekhar-azad-university-of-agriculture-technology-phd-ag-soil-science-agricultural-chemistry",
+      "name": "Ph.D. (Ag), Soil Science & Agricultural Chemistry",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Soil Science & Agricultural Chemistry",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://csauk.ac.in/downloadmedia/siteContent/202509251027414526pobu.pdf?cd=MQA4ADkA",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "closest-specialization: chemistry and agricultural science; no soil-science node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chandra-shekhar-azad-university-of-agriculture-technology-phd-ag-entomology",
+      "name": "Ph.D. (Ag), Entomology",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Entomology",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://csauk.ac.in/downloadmedia/siteContent/202509251027414526pobu.pdf?cd=MQA4ADkA",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 165,
+          "career_node_slug": "agri_scientist",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture > Agricultural Scientist",
+          "relation": "nearest-parent: agricultural sciences; no entomology node exists",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chandra-shekhar-azad-university-of-agriculture-technology-phd-ag-agricultural-economics-statistics",
+      "name": "Ph.D. (Ag), Agricultural Economics and Statistics",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Agricultural Economics and Statistics",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://csauk.ac.in/downloadmedia/siteContent/202509251027414526pobu.pdf?cd=MQA4ADkA",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 274,
+          "career_node_slug": "development_economist",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics > Development Economist",
+          "relation": "closest-specialization: agricultural economics; career node is economics-labelled",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        },
+        {
+          "career_node_id": 6,
+          "career_node_slug": "bsc_stats",
+          "career_breadcrumb": "Maths / PCM > B.Sc Statistics",
+          "relation": "closest-specialization: statistics; career node is B.Sc-labelled",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chandra-shekhar-azad-university-of-agriculture-technology-phd-ag-soil-conservation-water-management",
+      "name": "Ph.D. (Ag), Soil Conservation & Water Management",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Soil Conservation & Water Management",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://csauk.ac.in/downloadmedia/siteContent/202509251027414526pobu.pdf?cd=MQA4ADkA",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 366,
+          "career_node_slug": "sustainability_analyst",
+          "career_breadcrumb": "Common Paths > B.Sc Environmental Science > Sustainability / ESG Analyst",
+          "relation": "closest-specialization: environmental and sustainability careers; no soil-conservation node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chandra-shekhar-azad-university-of-agriculture-technology-phd-ag-plant-pathology",
+      "name": "Ph.D. (Ag), Plant Pathology",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Plant Pathology",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://csauk.ac.in/downloadmedia/siteContent/202509251027414526pobu.pdf?cd=MQA4ADkA",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 147,
+          "career_node_slug": "research_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech > Research Scientist (Biology)",
+          "relation": "closest-specialization: biological research; no plant-pathology node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chandra-shekhar-azad-university-of-agriculture-technology-phd-ag-agricultural-extension",
+      "name": "Ph.D. (Ag), Agricultural Extension",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Agricultural Extension",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://csauk.ac.in/downloadmedia/siteContent/202509251027414526pobu.pdf?cd=MQA4ADkA",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 166,
+          "career_node_slug": "agri_officer",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture > Agriculture Officer (Govt)",
+          "relation": "closest-specialization: agricultural extension and public agricultural service",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chandra-shekhar-azad-university-of-agriculture-technology-phd-ag-agricultural-biochemistry",
+      "name": "Ph.D. (Ag), Agricultural Biochemistry",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Agricultural Biochemistry",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://csauk.ac.in/downloadmedia/siteContent/202509251027414526pobu.pdf?cd=MQA4ADkA",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 35,
+          "career_node_slug": "bsc_biochem",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Biochemistry",
+          "relation": "closest-specialization: biochemistry; career node is B.Sc-labelled",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chandra-shekhar-azad-university-of-agriculture-technology-phd-ag-plant-physiology",
+      "name": "Ph.D. (Ag), Plant Physiology",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Plant Physiology",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://csauk.ac.in/downloadmedia/siteContent/202509251027414526pobu.pdf?cd=MQA4ADkA",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 147,
+          "career_node_slug": "research_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech > Research Scientist (Biology)",
+          "relation": "closest-specialization: biological research; no plant-physiology node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chandra-shekhar-azad-university-of-agriculture-technology-phd-ag-ah-dairying",
+      "name": "Ph.D. (Ag), AH & Dairying",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "AH & Dairying",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://csauk.ac.in/downloadmedia/siteContent/202509251027414526pobu.pdf?cd=MQA4ADkA",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 150,
+          "career_node_slug": "animal_researcher",
+          "career_breadcrumb": "Biology / PCB > B.V.Sc (Veterinary Science) > Animal Science Researcher",
+          "relation": "closest-specialization: animal science and dairying; no animal-husbandry node exists",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chandra-shekhar-azad-university-of-agriculture-technology-phd-home-science-family-resource-management",
+      "name": "Ph.D. (Home Science) Family Resource Management",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Family Resource Management",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://csauk.ac.in/downloadmedia/siteContent/202509251027414526pobu.pdf?cd=MQA4ADkA",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 271,
+          "career_node_slug": "community_developer",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology > Community Development Officer",
+          "relation": "closest-specialization: family and community development; no family-resource node exists",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chandra-shekhar-azad-university-of-agriculture-technology-phd-home-science-extension-education-communication-management",
+      "name": "Ph.D. (Home Science) Extension Education and Communication Management",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Extension Education and Communication Management",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://csauk.ac.in/downloadmedia/siteContent/202509251027414526pobu.pdf?cd=MQA4ADkA",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 271,
+          "career_node_slug": "community_developer",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology > Community Development Officer",
+          "relation": "closest-specialization: community extension and development; no extension-education node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chandra-shekhar-azad-university-of-agriculture-technology-phd-hort-fruit-science",
+      "name": "Ph.D. (Hort.) Fruit Science",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Fruit Science",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://csauk.ac.in/downloadmedia/siteContent/202509251027414526pobu.pdf?cd=MQA4ADkA",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 165,
+          "career_node_slug": "agri_scientist",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture > Agricultural Scientist",
+          "relation": "nearest-parent: agricultural sciences; no fruit-science node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chandra-shekhar-azad-university-of-agriculture-technology-phd-hort-vegetable-science",
+      "name": "Ph.D. (Hort.) Vegetable Science",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Vegetable Science",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://csauk.ac.in/downloadmedia/siteContent/202509251027414526pobu.pdf?cd=MQA4ADkA",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 165,
+          "career_node_slug": "agri_scientist",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture > Agricultural Scientist",
+          "relation": "nearest-parent: agricultural sciences; no vegetable-science node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "chandra-shekhar-azad-university-of-agriculture-technology-pgd-agri-journalism-science-communication",
+      "name": "Post Graduate Diploma in Agri-Journalism and Science Communication",
+      "level": "postgraduate diploma",
+      "credential": "Post Graduate Diploma",
+      "specialization": "Agri-Journalism and Science Communication",
+      "duration": "2 years (four semesters)",
+      "mode": "offline",
+      "eligibility": "B.Sc. Ag., Horticulture, Forestry, Community Science, Biology, Fisheries, Biotechnology or Microbiology; B.Tech. in Agricultural Engineering, Food Technology or Dairy Technology; B.Sc. BJMC or BAJMC; or another graduation with two years' active journalism experience.",
+      "official_course_url": "https://csauk.ac.in/en/page/diploma-in-agriculture-journalism-science-communication",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 59,
+          "career_node_slug": "bjmc",
+          "career_breadcrumb": "Media & Journalism > B.J.M.C (Journalism & Mass Comm)",
+          "relation": "closest-specialization: journalism and mass communication; no PG-diploma node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "Normal TLS verification produced the managed proxy's exact self-signed certificate-chain error; curl --insecure was used only for public GET requests to confirmed search and csauk.ac.in hosts.",
+    "The current official Programme Details PDF linked from the homepage/Students navigation lists 10 undergraduate, 19 postgraduate and 16 doctoral programmes (45 total) and was used for the 45 degree/doctoral courses below.",
+    "The official Academics navigation separately exposes a Post Graduate Diploma in Agri-Journalism and Science Communication page, supported by official 2023 rules and syllabus PDFs, but that diploma is omitted from the current 45-programme count; it is included below and makes the catalogue partial.",
+    "The official New Courses page links a 2021 NEP-2020 PDF containing 13 three/four-month short courses. No current admission or active-session evidence was found, so these potentially expired short-term offerings are excluded rather than asserted active; manual review is required.",
+    "The official location page confirms Kanpur and the contact page gives the Nawabganj, Kanpur address, but no official institution page reviewed explicitly names the district as Kanpur Nagar; district is therefore left null pending an official district-level statement."
+  ]
+}

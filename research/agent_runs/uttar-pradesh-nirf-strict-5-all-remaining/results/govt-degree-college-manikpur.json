@@ -1,0 +1,62 @@
+{
+  "institution_id": "govt-degree-college-manikpur",
+  "nirf_name": "GOVT. DEGREE COLLEGE, MANIKPUR",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "remove_candidate",
+  "district": null,
+  "district_verification_status": "pending_official_source",
+  "official_website": null,
+  "website_verification_status": "not_found",
+  "description": null,
+  "description_verification_status": "pending",
+  "record_status": "remove_candidate",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "The exact NIRF listing row is GOVT. DEGREE COLLEGE, MANIKPUR; city Manikpur; state Uttar Pradesh."
+      ]
+    },
+    {
+      "type": "official_state_directory",
+      "url": "https://uphed.gov.in/FrmCollegeDetail.aspx?value=Degree",
+      "supports": [
+        "The Uttar Pradesh Higher Education directory lists GOVERNMENT DEGREE COLLEGE MANIKPUR in district CHITRAKOOT; its website field is blank."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "GOVT. DEGREE COLLEGE MANIKPUR Uttar Pradesh official website",
+      "result": "Bing returned no institution-specific official website; results were generic government and job portals.",
+      "url": "https://www.bing.com/search?q=GOVT.%20DEGREE%20COLLEGE%20MANIKPUR%20Uttar%20Pradesh%20official%20website"
+    },
+    {
+      "query": "\"Govt Degree College\" Manikpur Chitrakoot Uttar Pradesh",
+      "result": "DuckDuckGo request timed out without a result page.",
+      "url": "https://html.duckduckgo.com/html/?q=%22Govt%20Degree%20College%22%20Manikpur%20Chitrakoot%20Uttar%20Pradesh"
+    },
+    {
+      "query": "site:up.gov.in \"Manikpur\" \"Degree College\"",
+      "result": "Google returned an access/rate-limit page and no searchable institution result.",
+      "url": "https://www.google.com/search?q=site%3Aup.gov.in%20%22Manikpur%22%20%22Degree%20College%22"
+    },
+    {
+      "query": "Govt Degree College Manikpur Chitrakoot official website",
+      "result": "Bing RSS returned only unrelated generic government/job pages and no institution-specific official website.",
+      "url": "https://www.bing.com/search?q=Govt%20Degree%20College%20Manikpur%20Chitrakoot%20official%20website&format=rss"
+    }
+  ],
+  "course_catalogue_status": "not_found",
+  "courses": [],
+  "agent_notes": [
+    "The supplied NIRF government listing was independently checked and contains the exact institution row.",
+    "The official Uttar Pradesh Higher Education directory independently confirms the institution and district Chitrakoot but provides no institution website URL.",
+    "No actual official institution website or official programme catalogue could be established after focused searches and authoritative-domain checks; record removed under the specified outcome rule.",
+    "The managed proxy produced the exact self-signed certificate-chain error on initial TLS requests; public GETs were retried with curl --insecure only after confirming each expected hostname."
+  ]
+}

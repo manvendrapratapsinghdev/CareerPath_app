@@ -1,0 +1,112 @@
+{
+  "institution_id": "govt-arts-science-college-ratlam",
+  "nirf_name": "Govt. Arts & Science College, Ratlam",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "remove_candidate",
+  "district": null,
+  "district_verification_status": "not_found",
+  "official_website": null,
+  "website_verification_status": "not_found",
+  "description": null,
+  "description_verification_status": "not_found",
+  "record_status": "remove_candidate",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact listing: Govt. Arts & Science College, Ratlam",
+        "Listed city: Ratlam",
+        "Listed state: Madhya Pradesh"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Govt. Arts & Science College, Ratlam\" official website",
+      "result": "No institution-specific official website was returned; results were generic government portals and unrelated pages.",
+      "url": "https://www.bing.com/search?q=%22Govt.+Arts+%26+Science+College%2C+Ratlam%22+official+website"
+    },
+    {
+      "query": "site:mp.gov.in \"Arts & Science College\" Ratlam",
+      "result": "Search request timed out without returning a result.",
+      "url": "https://html.duckduckgo.com/html/?q=site%3Amp.gov.in+%22Arts+%26+Science+College%22+Ratlam"
+    },
+    {
+      "query": "\"Government Arts and Science College\" Ratlam Madhya Pradesh",
+      "result": "Search request timed out without returning a result.",
+      "url": "https://html.duckduckgo.com/html/?q=%22Government+Arts+and+Science+College%22+Ratlam+Madhya+Pradesh"
+    },
+    {
+      "query": "site:mp.gov.in Ratlam college higher education",
+      "result": "Search endpoint returned an access/interstitial response and no institution-specific official website.",
+      "url": "https://www.google.com/search?q=site%3Amp.gov.in+Ratlam+college+higher+education"
+    },
+    {
+      "query": "site:ac.in Ratlam government college Madhya Pradesh",
+      "result": "Search endpoint returned an access/interstitial response and no institution-specific official website.",
+      "url": "https://www.google.com/search?q=site%3Aac.in+Ratlam+government+college+Madhya+Pradesh"
+    },
+    {
+      "query": "Govt Arts Science College Ratlam Madhya Pradesh",
+      "result": "Results were generic government portals and unrelated pages; no exact institution website was identified.",
+      "url": "https://www.bing.com/search?format=rss&q=Govt+Arts+Science+College+Ratlam+Madhya+Pradesh"
+    },
+    {
+      "query": "Govt Arts Science College Ratlam official site:ac.in",
+      "result": "Results were generic government portals and unrelated pages; no exact institution website was identified.",
+      "url": "https://www.bing.com/search?format=rss&q=Govt+Arts+Science+College+Ratlam+official+site%3Aac.in"
+    },
+    {
+      "query": "Government Arts Science College Ratlam website",
+      "result": "Results included unrelated government websites and no exact institution website.",
+      "url": "https://www.bing.com/search?format=rss&q=Government+Arts+Science+College+Ratlam+website"
+    },
+    {
+      "query": "Ratlam govt college official website",
+      "result": "The official Ratlam district portal and a separate government medical college were returned; no Govt. Arts & Science College, Ratlam website was found.",
+      "url": "https://www.bing.com/search?format=rss&q=Ratlam+govt+college+official+website"
+    },
+    {
+      "query": "Ratlam government college official website Madhya Pradesh",
+      "result": "The official Ratlam district portal and unrelated pages were returned; no exact institution website was found.",
+      "url": "https://www.bing.com/search?format=rss&q=Ratlam+government+college+official+website+Madhya+Pradesh"
+    },
+    {
+      "query": "Ratlam Arts Science College principal official",
+      "result": "The official Ratlam district portal and unrelated pages were returned; no exact institution website was found.",
+      "url": "https://www.bing.com/search?format=rss&q=Ratlam+Arts+Science+College+principal+official"
+    },
+    {
+      "query": "GAC Ratlam college",
+      "result": "Results were unrelated PDF-tool pages; no institution-specific official website was identified.",
+      "url": "https://www.bing.com/search?format=rss&q=GAC+Ratlam+college"
+    },
+    {
+      "query": "Government Arts Science College Ratlam Vikram University",
+      "result": "Results were generic government and unrelated pages; no exact institution website was identified.",
+      "url": "https://www.bing.com/search?format=rss&q=Government+Arts+Science+College+Ratlam+Vikram+University"
+    },
+    {
+      "query": "authoritative-domain check: highereducation.mp.gov.in/ClgProfile",
+      "result": "The official Madhya Pradesh Higher Education college-management portal was reachable, but its public landing page provided no institution-specific Ratlam profile or course catalogue.",
+      "url": "https://highereducation.mp.gov.in/ClgProfile"
+    },
+    {
+      "query": "authoritative-domain check: ratlam.nic.in/en/",
+      "result": "The official Ratlam district government portal was reachable, but it did not establish an official website or programme catalogue for this institution.",
+      "url": "https://ratlam.nic.in/en/"
+    }
+  ],
+  "course_catalogue_status": "not_found",
+  "courses": [],
+  "agent_notes": [
+    "The exact institution and city/state were established in the supplied NIRF government listing.",
+    "Normal TLS verification first failed with the exact proxy self-signed certificate-chain error. Public GET requests then used curl --insecure only after confirming the expected official/search hostnames; no credentials or private data were sent.",
+    "After multiple focused searches and checks of authoritative Madhya Pradesh Higher Education and Ratlam government domains, no institution-specific official website or public official programme catalogue could be established.",
+    "Under the outcome rules, the candidate is removed because an official institution website could not be established. No district, description, programme, duration, eligibility, or career mapping was imported."
+  ]
+}

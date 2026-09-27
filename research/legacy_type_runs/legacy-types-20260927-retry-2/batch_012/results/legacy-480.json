@@ -1,0 +1,15 @@
+{
+  "institution_id": "legacy-480",
+  "database_id": 480,
+  "name": "Indian Institute of Corporate Affairs (IICA)",
+  "website": "https://www.iica.in",
+  "outcome": "manual_review",
+  "institution_type": null,
+  "source_url": null,
+  "confidence": null,
+  "evidence": null,
+  "notes": [
+    "Normal TLS verification failed with the managed proxy certificate-chain error; retried public GET requests with curl --insecure as permitted.",
+    "The official hostname and tested official paths returned HTTP 502 Connection refused, so the institutional type could not be established from official-domain evidence."
+  ]
+}

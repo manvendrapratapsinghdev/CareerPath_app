@@ -1,0 +1,91 @@
+{
+  "batch": 29,
+  "started_at": "2026-09-27T07:15:03.169179+00:00",
+  "finished_at": "2026-09-27T07:15:11.313582+00:00",
+  "assignment_count": 5,
+  "completed_count": 0,
+  "skipped_count": 0,
+  "failed_count": 5,
+  "results": [
+    {
+      "institution_id": "ambah-pg-college-ambah",
+      "nirf_name": "AMBAH PG COLLEGE , AMBAH",
+      "status": "failed",
+      "started_at": "2026-09-27T07:15:03.208271+00:00",
+      "finished_at": "2026-09-27T07:15:11.042449+00:00",
+      "duration_seconds": 7.834,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/ambah-pg-college-ambah.jsonl"
+    },
+    {
+      "institution_id": "b-s-patel-college-sepura-mehgaon",
+      "nirf_name": "B S PATEL COLLEGE, SEPURA, MEHGAON",
+      "status": "failed",
+      "started_at": "2026-09-27T07:15:03.181380+00:00",
+      "finished_at": "2026-09-27T07:15:11.309743+00:00",
+      "duration_seconds": 8.128,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/b-s-patel-college-sepura-mehgaon.jsonl"
+    },
+    {
+      "institution_id": "bherulal-patider-govt-p-g-college-mhow",
+      "nirf_name": "Bherulal Patider Govt. P.G. College, Mhow",
+      "status": "failed",
+      "started_at": "2026-09-27T07:15:03.188375+00:00",
+      "finished_at": "2026-09-27T07:15:10.909810+00:00",
+      "duration_seconds": 7.721,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/bherulal-patider-govt-p-g-college-mhow.jsonl"
+    },
+    {
+      "institution_id": "government-college-banmor",
+      "nirf_name": "GOVERNMENT COLLEGE BANMOR",
+      "status": "failed",
+      "started_at": "2026-09-27T07:15:03.197565+00:00",
+      "finished_at": "2026-09-27T07:15:11.263355+00:00",
+      "duration_seconds": 8.066,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/government-college-banmor.jsonl"
+    },
+    {
+      "institution_id": "govt-college-nalkheda",
+      "nirf_name": "Govt. College, Nalkheda",
+      "status": "failed",
+      "started_at": "2026-09-27T07:15:03.197720+00:00",
+      "finished_at": "2026-09-27T07:15:10.439386+00:00",
+      "duration_seconds": 7.24,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/govt-college-nalkheda.jsonl"
+    }
+  ]
+}

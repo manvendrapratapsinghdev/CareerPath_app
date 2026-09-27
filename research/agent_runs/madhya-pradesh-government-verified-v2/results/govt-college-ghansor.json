@@ -1,0 +1,86 @@
+{
+  "institution_id": "govt-college-ghansor",
+  "nirf_name": "GOVT. COLLEGE GHANSOR",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "remove_candidate",
+  "district": null,
+  "district_verification_status": "pending_official_source",
+  "official_website": null,
+  "website_verification_status": "not_found",
+  "description": null,
+  "description_verification_status": "not_found",
+  "record_status": "remove_candidate",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "The NIRF listing contains GOVT. COLLEGE GHANSOR in GHANSOR, Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "authoritative_domain_check",
+      "url": "https://highereducation.mp.gov.in/CollegeDisp/getTable",
+      "supports": [
+        "Madhya Pradesh Higher Education Department data identifies Govt College, Ghansor, Seoni district, CollegeCode 3707, but provides no institution website URL."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Govt. College Ghansor\" official website",
+      "result": "No official institution website established; results were unrelated general or government pages.",
+      "url": "https://www.bing.com/search?format=rss&q=%22Govt.+College+Ghansor%22+official+website"
+    },
+    {
+      "query": "site:mp.gov.in \"Govt. College Ghansor\"",
+      "result": "No official institution website established.",
+      "url": "https://www.bing.com/search?format=rss&q=site%3Amp.gov.in+%22Govt.+College+Ghansor%22"
+    },
+    {
+      "query": "Govt College Ghansor Madhya Pradesh",
+      "result": "No official institution website established; results were unrelated general or government pages.",
+      "url": "https://www.bing.com/search?format=rss&q=Govt+College+Ghansor+Madhya+Pradesh"
+    },
+    {
+      "query": "Ghansor college MP higher education",
+      "result": "No official institution website established.",
+      "url": "https://www.bing.com/search?format=rss&q=Ghansor+college+MP+higher+education"
+    },
+    {
+      "query": "site:ac.in \"Government College Ghansor\"",
+      "result": "No official institution website established.",
+      "url": "https://www.bing.com/search?format=rss&q=site%3Aac.in+%22Government+College+Ghansor%22"
+    },
+    {
+      "query": "\"Govt College, Ghansor\"",
+      "result": "No official institution website established.",
+      "url": "https://www.bing.com/search?format=rss&q=%22Govt+College%2C+Ghansor%22"
+    },
+    {
+      "query": "\"hegcghaseo\"",
+      "result": "No official institution website established.",
+      "url": "https://www.bing.com/search?format=rss&q=%22hegcghaseo%22"
+    },
+    {
+      "query": "\"शा.कॉलेज,घन्सोर\"",
+      "result": "No official institution website established.",
+      "url": "https://www.bing.com/search?format=rss&q=%22%E0%A4%B6%E0%A4%BE.%E0%A4%95%E0%A5%89%E0%A4%B2%E0%A5%87%E0%A4%9C%2C%E0%A4%98%E0%A4%A8%E0%A5%8D%E0%A4%B8%E0%A5%8B%E0%A4%B0%22"
+    },
+    {
+      "query": "\"Govt College, Ghansor\" Seoni",
+      "result": "No official institution website established.",
+      "url": "https://www.bing.com/search?format=rss&q=%22Govt+College%2C+Ghansor%22+Seoni"
+    }
+  ],
+  "course_catalogue_status": "not_found",
+  "courses": [],
+  "agent_notes": [
+    "Normal TLS verification failed with the exact proxy self-signed certificate-chain error; public GET requests were retried with curl --insecure only for expected official/search hosts.",
+    "The Madhya Pradesh Higher Education Department directory identifies the institution as Govt College, Ghansor in Seoni district, but no institution website URL was provided.",
+    "Focused searches and direct candidate-domain checks did not establish the institution's actual official website. No district, description, programme, duration, eligibility, or career mapping was imported."
+  ]
+}

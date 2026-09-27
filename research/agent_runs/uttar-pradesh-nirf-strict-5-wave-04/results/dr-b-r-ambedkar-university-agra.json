@@ -1,0 +1,3246 @@
+{
+  "institution_id": "dr-b-r-ambedkar-university-agra",
+  "nirf_name": "Dr. B. R. Ambedkar University, Agra",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Agra",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://dbrau.ac.in/",
+  "website_verification_status": "verified",
+  "description": "Dr. Bhimrao Ambedkar University, Agra, formerly Agra University, was established on 1 July 1927 and has residential campuses in Agra including Paliwal Park, Khandari, Chhalesar and Bagh Farzana.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "The listing contains Dr. B. R. Ambedkar University, Agra in Agra, Uttar Pradesh."
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://dbrau.ac.in/",
+      "supports": [
+        "The homepage identifies Dr Bhimrao Ambedkar University, Agra."
+      ]
+    },
+    {
+      "type": "official_identity",
+      "url": "https://dbrau.ac.in/about/",
+      "supports": [
+        "The university is formerly Agra University and was renamed Dr Bhimrao Ambedkar University, Agra."
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "https://dbrau.ac.in/university-campus/",
+      "supports": [
+        "The university lists four campuses, each in Agra."
+      ]
+    },
+    {
+      "type": "official_programme_catalogue",
+      "url": "https://dbrau.ac.in/courses-in-the-university/",
+      "supports": [
+        "Official postgraduate, undergraduate, diploma, certificate and engineering catalogue."
+      ]
+    },
+    {
+      "type": "official_programme_catalogue",
+      "url": "https://dbrau.ac.in/under-graduate-courses-nep/",
+      "supports": [
+        "Official postgraduate programme-course list."
+      ]
+    },
+    {
+      "type": "official_programme_catalogue",
+      "url": "https://dbrau.ac.in/under-graduate-courses-nep-2/",
+      "supports": [
+        "Official undergraduate programme-course list."
+      ]
+    },
+    {
+      "type": "official_admissions_page",
+      "url": "https://dbrau.ac.in/admission-2025-26/",
+      "supports": [
+        "Official admissions page linking the 2025-26 brochure and rules."
+      ]
+    },
+    {
+      "type": "official_admission_brochure",
+      "url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "supports": [
+        "Official brochure listing additional current residential-wing and affiliated-college programmes, qualifications and some durations."
+      ]
+    },
+    {
+      "type": "official_doctoral_page",
+      "url": "https://dbrau.ac.in/list-of-ph-d-supervisors-2023-24/",
+      "supports": [
+        "Official provisional Ph.D. Supervisors 2025-26 page confirms doctoral activity."
+      ]
+    },
+    {
+      "type": "official_doctoral_page",
+      "url": "https://dbrau.ac.in/flow-chart-ph-d-course/",
+      "supports": [
+        "Official Ph.D. Program Flow Chart page exists, but its embedded image does not provide a complete named doctoral catalogue in accessible text."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Dr. B. R. Ambedkar University\" Agra official website",
+      "result": "Direct official-domain verification identified dbrau.ac.in; the Google HTML response exposed an automated search challenge rather than usable result text.",
+      "url": "https://dbrau.ac.in/"
+    },
+    {
+      "query": "site:dbrau.ac.in \"Dr. B. R. Ambedkar University\" Agra official",
+      "result": "The domain-restricted search was supplemented by direct GET of dbrau.ac.in, whose homepage and internal pages identify the Agra university.",
+      "url": "https://dbrau.ac.in/"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-m-stat",
+      "name": "M. STAT.",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Statistics",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 6,
+          "career_node_slug": "bsc_stats",
+          "career_breadcrumb": "Maths / PCM > B.Sc Statistics",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-ma-disaster-management",
+      "name": "M.A. (Disaster Management)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Disaster Management",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "No responsible Disaster Management node exists in the career tree."
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-ma-education",
+      "name": "M.A. (Education)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Education",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-ma-french",
+      "name": "M.A. (French)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "French",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 74,
+          "career_node_slug": "ba_foreign_lang",
+          "career_breadcrumb": "Languages & Literature > BA Foreign Language (French/German/Japanese)",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-ma-hindi",
+      "name": "M.A. (Hindi)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Hindi",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-ma-history",
+      "name": "M.A. (History)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "History",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-ma-home-science",
+      "name": "M.A. (Home Science)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Home Science",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "No responsible Home Science node exists in the career tree."
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-ma-linguistics",
+      "name": "M.A. (Linguistics)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Linguistics",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "nearest parent: Languages & Literature",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-ma-public-administration",
+      "name": "M.A. (Public Administration)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Public Administration",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 283,
+          "career_node_slug": "public_admin",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science > Public Administration Officer",
+          "relation": "closest specialization: public administration",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-ma-sanskrit",
+      "name": "M.A. (Sanskrit)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Sanskrit",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "nearest parent: Languages & Literature",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-ma-sociology",
+      "name": "M.A. (Sociology)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Sociology",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-ma-yoga",
+      "name": "M.A. in Yoga Science",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Yoga Science",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 78,
+          "career_node_slug": "sports_career",
+          "career_breadcrumb": "Performing Arts & Sports > Sports & Physical Education",
+          "relation": "nearest parent: Performing Arts & Sports",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-mcom-accounts-law",
+      "name": "M.Com (Accounts & Law)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Accounts & Law",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 340,
+          "career_node_slug": "commerce_accounting",
+          "career_breadcrumb": "Accounting & Audit",
+          "relation": "nearest parent: Accounting & Audit",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 343,
+          "career_node_slug": "commerce_law",
+          "career_breadcrumb": "Law & Legal",
+          "relation": "nearest parent: Law & Legal",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-mcom-applied-business-economics",
+      "name": "M.COM (APPLIED BUSSINESS ECONOMICS)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Applied Business Economics",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct discipline mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-mcom-business-administration",
+      "name": "M.Com (Business Administration)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Business Administration",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest parent: Management & Business",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-mfa-applied-art",
+      "name": "M.F.A. (Applied Art)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Applied Art",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 60,
+          "career_node_slug": "bfa",
+          "career_breadcrumb": "Media & Journalism > B.F.A (Fine Arts)",
+          "relation": "direct discipline family",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-mfa-painting",
+      "name": "M.F.A. (Painting)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Painting",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 247,
+          "career_node_slug": "painter_sculptor",
+          "career_breadcrumb": "Media & Journalism > B.F.A (Fine Arts) > Painter / Sculptor",
+          "relation": "closest specialization: painting",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-mfa-sculpture",
+      "name": "M.F.A. (Sculpture)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Sculpture",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 247,
+          "career_node_slug": "painter_sculptor",
+          "career_breadcrumb": "Media & Journalism > B.F.A (Fine Arts) > Painter / Sculptor",
+          "relation": "closest specialization: sculpture",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-mfa-indian-music",
+      "name": "M.F.A. Indian Music",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Indian Music",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 75,
+          "career_node_slug": "music_course",
+          "career_breadcrumb": "Performing Arts & Sports > Music (BA / Diploma)",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-m-lib",
+      "name": "M.Lib.",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Library Science",
+      "duration": "01 year",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "No Library and Information Science node exists in the career tree."
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-msc-biochemistry",
+      "name": "M.Sc. (Biochemistry)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Biochemistry",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 35,
+          "career_node_slug": "bsc_biochem",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Biochemistry",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-msc-biotechnology",
+      "name": "M.Sc. (Biotechnology)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Biotechnology",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 146,
+          "career_node_slug": "msc_biotech",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech > M.Sc Biotechnology → Researcher",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-msc-botany",
+      "name": "M.Sc. (Botany)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Botany",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 336,
+          "career_node_slug": "science_bio",
+          "career_breadcrumb": "Biology / PCB",
+          "relation": "nearest parent: Biology / PCB",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-msc-chemistry",
+      "name": "M.Sc. (Chemistry)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Chemistry",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 155,
+          "career_node_slug": "msc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry > M.Sc Chemistry → Researcher",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-msc-computer-science",
+      "name": "M.Sc. (Computer Science)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Computer Science",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 32,
+          "career_node_slug": "bsc_cs",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Computer Science",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-msc-data-science",
+      "name": "M.Sc. (Data Science)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Data Science",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 31,
+          "career_node_slug": "bsc_ds",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Data Science",
+          "relation": "direct discipline family",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-msc-electronics-instrumentation",
+      "name": "M.Sc. (Electronics & Instrumentation)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Electronics & Instrumentation",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 14,
+          "career_node_slug": "bsc_electronics",
+          "career_breadcrumb": "Maths / PCM > B.Sc Electronics / Instrumentation",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-msc-environmental-science",
+      "name": "M.Sc. (Environmental Science)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Environmental Science",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 26,
+          "career_node_slug": "bsc_env",
+          "career_breadcrumb": "Common Paths > B.Sc Environmental Science",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-msc-home-science",
+      "name": "M.Sc. (Home Sc.)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Home Science",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "No responsible Home Science node exists in the career tree."
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-msc-mathematics",
+      "name": "M.Sc. (Mathematics)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Mathematics",
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 90,
+          "career_node_slug": "msc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics > M.Sc Mathematics → Professor / Researcher",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-msc-microbiology",
+      "name": "M.Sc. (Microbiology)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Microbiology",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 34,
+          "career_node_slug": "bsc_microbio",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Microbiology",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-msc-physics",
+      "name": "M.Sc. (Physics)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Physics",
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 153,
+          "career_node_slug": "msc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics > M.Sc Physics → Researcher / Professor",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-msc-zoology",
+      "name": "M.Sc. (Zoology)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Zoology",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 336,
+          "career_node_slug": "science_bio",
+          "career_breadcrumb": "Biology / PCB",
+          "relation": "nearest parent: Biology / PCB",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-msc-home-food",
+      "name": "M.SC. HOME SCIENCE (FODD AND NUTRITION (FN)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Food and Nutrition",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 28,
+          "career_node_slug": "bsc_food_tech",
+          "career_breadcrumb": "Common Paths > B.Sc Food Technology",
+          "relation": "closest specialization: food and nutrition",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-mhrm",
+      "name": "MASTER OF HUMAN RESOURCE MANAGEMENT (M.H.R.M.)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Human Resource Management",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 48,
+          "career_node_slug": "bba_hr",
+          "career_breadcrumb": "Management & Business > BBA Human Resources",
+          "relation": "direct discipline family",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-mpes",
+      "name": "Master of Physical Education and Sports (M.P.E.S.)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Physical Education and Sports",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 78,
+          "career_node_slug": "sports_career",
+          "career_breadcrumb": "Performing Arts & Sports > Sports & Physical Education",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-mba-full-time",
+      "name": "MBA (FULL TIME)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Business Administration",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 208,
+          "career_node_slug": "mba_general",
+          "career_breadcrumb": "Management & Business > BBA (General) > MBA → CEO / Director Track",
+          "relation": "closest specialization: general MBA",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-mba-ttm",
+      "name": "MBA (TTM)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Travel and Tourism Management",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 79,
+          "career_node_slug": "hotel_mgmt",
+          "career_breadcrumb": "Performing Arts & Sports > Hotel Management & Tourism",
+          "relation": "direct discipline family",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-mca",
+      "name": "MCA",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Computer Applications",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 93,
+          "career_node_slug": "mca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications) > MCA → Software Engineer",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-msw",
+      "name": "MSW",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Social Work",
+      "duration": "04 Sem.",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 269,
+          "career_node_slug": "social_worker",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology > Social Worker",
+          "relation": "closest specialization: social work",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-msw-sfs",
+      "name": "MSW( SFS )",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Social Work",
+      "duration": "04 Sem.",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 269,
+          "career_node_slug": "social_worker",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology > Social Worker",
+          "relation": "closest specialization: social work",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-pgd-archival-museology",
+      "name": "P.G. DIPLOMA IN ARCHIVAL STUDIES AND MUSEOLOGY",
+      "level": "postgraduate_diploma",
+      "credential": "diploma",
+      "specialization": "Archival Studies and Museology",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 280,
+          "career_node_slug": "museum_curator",
+          "career_breadcrumb": "Social Sciences & Education > BA History > Museum Curator",
+          "relation": "closest specialization: museology",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-pgd-nutrition-dietetics",
+      "name": "P.G. Diploma in Nutrition & Dietetics",
+      "level": "postgraduate_diploma",
+      "credential": "diploma",
+      "specialization": "Nutrition and Dietetics",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "No responsible Nutrition and Dietetics node exists in the career tree."
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-pgd-yoga",
+      "name": "P.G. Diploma in Yoga",
+      "level": "postgraduate_diploma",
+      "credential": "diploma",
+      "specialization": "Yoga",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 78,
+          "career_node_slug": "sports_career",
+          "career_breadcrumb": "Performing Arts & Sports > Sports & Physical Education",
+          "relation": "nearest parent: Performing Arts & Sports",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-pgd-disaster-management",
+      "name": "PG Diploma in Disaster Management (PGDDM)",
+      "level": "postgraduate_diploma",
+      "credential": "diploma",
+      "specialization": "Disaster Management",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "No responsible Disaster Management node exists in the career tree."
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-pgd-linguistics",
+      "name": "PG Diploma in Linguistics",
+      "level": "postgraduate_diploma",
+      "credential": "diploma",
+      "specialization": "Linguistics",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "nearest parent: Languages & Literature",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-pgdbm",
+      "name": "PGDBM",
+      "level": "postgraduate_diploma",
+      "credential": "diploma",
+      "specialization": "Business Management",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest parent: Management & Business",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-pgdca",
+      "name": "PGDCA",
+      "level": "postgraduate_diploma",
+      "credential": "diploma",
+      "specialization": "Computer Applications",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 93,
+          "career_node_slug": "mca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications) > MCA → Software Engineer",
+          "relation": "closest specialization: computer applications",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-pgdcsr",
+      "name": "POST GRADUATE DIPLOMA IN CORPORATE SOCIAL RESPONSIBILITY (P.G.D.C.S.R.)",
+      "level": "postgraduate_diploma",
+      "credential": "diploma",
+      "specialization": "Corporate Social Responsibility",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 270,
+          "career_node_slug": "ngo_manager",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology > NGO Manager",
+          "relation": "closest specialization: social impact/NGO management",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-pgdhtm",
+      "name": "Post Graduate Diploma in Hotel and Tourism Management ( PGDHTM)",
+      "level": "postgraduate_diploma",
+      "credential": "diploma",
+      "specialization": "Hotel and Tourism Management",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 79,
+          "career_node_slug": "hotel_mgmt",
+          "career_breadcrumb": "Performing Arts & Sports > Hotel Management & Tourism",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-pgdit",
+      "name": "Post Graduate Diploma in Information Technology (PGDIT)",
+      "level": "postgraduate_diploma",
+      "credential": "diploma",
+      "specialization": "Information Technology",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "Graduate in any Discipline",
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 89,
+          "career_node_slug": "btech_it",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Information Technology",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-pgdmc",
+      "name": "POST GRADUATE DIPLOMA IN MASS COMMUNICATION (PGDMC)",
+      "level": "postgraduate_diploma",
+      "credential": "diploma",
+      "specialization": "Mass Communication",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "Post-Graduation in any Discipline with 45%",
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 59,
+          "career_node_slug": "bjmc",
+          "career_breadcrumb": "Media & Journalism > B.J.M.C (Journalism & Mass Comm)",
+          "relation": "closest specialization: mass communication",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-b-lib",
+      "name": "B. Lib.",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Library Science",
+      "duration": "02 Sem.",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [],
+      "mapping_gap": "No Library and Information Science node exists in the career tree."
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-ba-arts",
+      "name": "B.A. (Arts)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Arts",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest parent: Social Sciences & Education",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-ba-linguistics",
+      "name": "B.A. (Lingustics)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Linguistics",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "nearest parent: Languages & Literature",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-ba-yoga",
+      "name": "B.A. (Yoga)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Yoga",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 78,
+          "career_node_slug": "sports_career",
+          "career_breadcrumb": "Performing Arts & Sports > Sports & Physical Education",
+          "relation": "nearest parent: Performing Arts & Sports",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-bcom",
+      "name": "B.Com.",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Commerce",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-bcom-voc",
+      "name": "B.Com. Voc.",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Vocational Commerce",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct discipline family",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-bped",
+      "name": "B.P.Ed.",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Physical Education",
+      "duration": "04 Sem.",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 78,
+          "career_node_slug": "sports_career",
+          "career_breadcrumb": "Performing Arts & Sports > Sports & Physical Education",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-bsc-science",
+      "name": "B.Sc. (Science)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Science",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 335,
+          "career_node_slug": "science_maths",
+          "career_breadcrumb": "Maths / PCM",
+          "relation": "nearest parent: Maths / PCM",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-bsc-life-science",
+      "name": "B.Sc. (Life Science)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Life Science",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "direct discipline family",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-bsc-home-science",
+      "name": "B.Sc. (Home Science)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Home Science",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "No responsible Home Science node exists in the career tree."
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-bsc-vocational",
+      "name": "B.SC. (Vocational)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Vocational Studies",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "The career tree has no responsible generic vocational-science node."
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-ba-voc",
+      "name": "B.A. (Voc)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Vocational Arts",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest parent: Social Sciences & Education",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-ba-fine-arts",
+      "name": "B.A. (Fine Arts)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Fine Arts",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 60,
+          "career_node_slug": "bfa",
+          "career_breadcrumb": "Media & Journalism > B.F.A (Fine Arts)",
+          "relation": "direct discipline family",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-bpes",
+      "name": "Bachelor of Physical Education & Sport (B.P.E.S.)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Physical Education and Sport",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 78,
+          "career_node_slug": "sports_career",
+          "career_breadcrumb": "Performing Arts & Sports > Sports & Physical Education",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-bba",
+      "name": "BBA",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Business Administration",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 46,
+          "career_node_slug": "bba",
+          "career_breadcrumb": "Management & Business > BBA (General)",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-bca",
+      "name": "BCA",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Computer Applications",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "10+2 with Mathematics/Computer Science and 45% marks (40% for SC/ST)",
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-bhmct",
+      "name": "BHMCT",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Hotel Management and Catering Technology",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "Intermediate or 10+2 in any discipline",
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 79,
+          "career_node_slug": "hotel_mgmt",
+          "career_breadcrumb": "Performing Arts & Sports > Hotel Management & Tourism",
+          "relation": "direct discipline family",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-adv-diploma-french",
+      "name": "ADVANCED DIPLOMA COURSE IN FRENCH",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": "French",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 74,
+          "career_node_slug": "ba_foreign_lang",
+          "career_breadcrumb": "Languages & Literature > BA Foreign Language (French/German/Japanese)",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-adv-diploma-german",
+      "name": "ADVANCED DIPLOMA COURSE IN GERMAN",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": "German",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 74,
+          "career_node_slug": "ba_foreign_lang",
+          "career_breadcrumb": "Languages & Literature > BA Foreign Language (French/German/Japanese)",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-adv-diploma-russian",
+      "name": "ADVANCED DIPLOMA COURSE IN RUSSIAN",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": "Russian",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 74,
+          "career_node_slug": "ba_foreign_lang",
+          "career_breadcrumb": "Languages & Literature > BA Foreign Language (French/German/Japanese)",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-diploma-french",
+      "name": "DIPLOMA COURSE IN FRENCH",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": "French",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 74,
+          "career_node_slug": "ba_foreign_lang",
+          "career_breadcrumb": "Languages & Literature > BA Foreign Language (French/German/Japanese)",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-diploma-german",
+      "name": "DIPLOMA COURSE IN GERMAN",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": "German",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 74,
+          "career_node_slug": "ba_foreign_lang",
+          "career_breadcrumb": "Languages & Literature > BA Foreign Language (French/German/Japanese)",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-diploma-russian",
+      "name": "DIPLOMA COURSE IN RUSSIAN",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": "Russian",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 74,
+          "career_node_slug": "ba_foreign_lang",
+          "career_breadcrumb": "Languages & Literature > BA Foreign Language (French/German/Japanese)",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-diploma-apparel-design",
+      "name": "Diploma in Apparel Design",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": "Apparel Design",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "10+2 or equivalent from any discipline with 50% marks (5% relaxation for reserved category)",
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 57,
+          "career_node_slug": "nift",
+          "career_breadcrumb": "Design & Architecture > NIFT (Fashion Technology)",
+          "relation": "closest specialization: apparel design",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-diploma-food-production",
+      "name": "Diploma in Food Production",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": "Food Production",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "Intermediate or 10+2 in any discipline",
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 28,
+          "career_node_slug": "bsc_food_tech",
+          "career_breadcrumb": "Common Paths > B.Sc Food Technology",
+          "relation": "closest specialization: food production",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-diploma-indian-music",
+      "name": "DIPLOMA IN INDIAN MUSIC (VOCAL/SITAR/TABLA)",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": "Indian Music",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 75,
+          "career_node_slug": "music_course",
+          "career_breadcrumb": "Performing Arts & Sports > Music (BA / Diploma)",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-diploma-painting",
+      "name": "DIPLOMA IN PAINTING (PORTRAIT, LANDSCAPE, MINIATURE, CREATIVE)",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": "Painting",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 247,
+          "career_node_slug": "painter_sculptor",
+          "career_breadcrumb": "Media & Journalism > B.F.A (Fine Arts) > Painter / Sculptor",
+          "relation": "closest specialization: painting",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-diploma-photography",
+      "name": "DIPLOMA IN PHOTOGRAPHY",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": "Photography",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 346,
+          "career_node_slug": "art_media",
+          "career_breadcrumb": "Media & Journalism",
+          "relation": "nearest parent: Media & Journalism",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-diploma-textile-design",
+      "name": "DIPLOMA IN TEXTILE DESIGN",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": "Textile Design",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "10+2 or equivalent from any discipline with 50% marks (5% relaxation for reserved category)",
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 237,
+          "career_node_slug": "textile_designer",
+          "career_breadcrumb": "Design & Architecture > NIFT (Fashion Technology) > Textile Designer",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-cert-german",
+      "name": "CERTIFICATE COURSE IN GERMAN",
+      "level": "certificate",
+      "credential": "certificate",
+      "specialization": "German",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 74,
+          "career_node_slug": "ba_foreign_lang",
+          "career_breadcrumb": "Languages & Literature > BA Foreign Language (French/German/Japanese)",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-cert-russian",
+      "name": "CERTIFICATE COURSE IN RUSSIAN",
+      "level": "certificate",
+      "credential": "certificate",
+      "specialization": "Russian",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 74,
+          "career_node_slug": "ba_foreign_lang",
+          "career_breadcrumb": "Languages & Literature > BA Foreign Language (French/German/Japanese)",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-cert-french",
+      "name": "CERTIFICATE COURSE IN FRENCH",
+      "level": "certificate",
+      "credential": "certificate",
+      "specialization": "French",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 74,
+          "career_node_slug": "ba_foreign_lang",
+          "career_breadcrumb": "Languages & Literature > BA Foreign Language (French/German/Japanese)",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-cert-ngo-management",
+      "name": "CERTIFICATE COURSE IN NGO MANAGEMENT",
+      "level": "certificate",
+      "credential": "certificate",
+      "specialization": "NGO Management",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "10+2 or equivalent from any discipline with 50% marks (5% relaxation for reserved category)",
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 270,
+          "career_node_slug": "ngo_manager",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology > NGO Manager",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-be-civil",
+      "name": "B.E. CIVIL ENGINEERING",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Civil Engineering",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "AS PER AKTU",
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-be-computer-science",
+      "name": "B.E. COMPUTER SCIENCE & ENGINEERING",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Computer Science and Engineering",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "AS PER AKTU",
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-be-electrical",
+      "name": "B.E. ELECTRICAL ENGINEERING",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Electrical Engineering",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "AS PER AKTU",
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-be-ece",
+      "name": "B.E. ELECTRONICS & COMMUNICATION ENGINEERING",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Electronics and Communication Engineering",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "AS PER AKTU",
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-be-mechanical",
+      "name": "B.E. MECHANICAL ENGINEERING",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Mechanical Engineering",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "AS PER AKTU",
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-be-lateral-cs",
+      "name": "B.E. LATERAL ENTRY – COMPUTER SCIENCE & ENGINEERING",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Computer Science and Engineering",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct discipline mapping; lateral-entry variant",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-be-lateral-electrical",
+      "name": "B.E. LATERAL ENTRY – ELECTRICAL ENGINEERING",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Electrical Engineering",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "direct discipline mapping; lateral-entry variant",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-be-lateral-mechanical",
+      "name": "B.E. LATERAL ENTRY – MECHANICAL ENGINEERING",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Mechanical Engineering",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct discipline mapping; lateral-entry variant",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-be-lateral-civil",
+      "name": "B.E. LATERAL ENTRY -CIVIL ENGINEERING",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Civil Engineering",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "direct discipline mapping; lateral-entry variant",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-be-lateral-ece",
+      "name": "B.E. LATERAL ENTRY -ELECTRONICS & COMMUNICATION ENGINEERING",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Electronics and Communication Engineering",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/courses-in-the-university/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "direct discipline mapping; lateral-entry variant",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-bpharm",
+      "name": "B. Pharm",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Pharmacy",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "10+2 or equivalent with 45% marks (40% for SC/ST)",
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "direct discipline family: pharmacy",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-bpharm-lateral",
+      "name": "B. Pharm (Lateral Entry)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Pharmacy",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "D. PHARM from institution approved by Pharmacy Council of India",
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "direct discipline family: pharmacy; lateral-entry variant",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-d-pharm",
+      "name": "D. Pharm.",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": "Pharmacy",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "10+2 with PCM/PCB",
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "direct discipline family: pharmacy",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-pharm-d",
+      "name": "Pharm. D",
+      "level": "doctoral_professional",
+      "credential": "professional_doctorate",
+      "specialization": "Pharmacy",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "10+2 with PCM/PCB or D. Pharm from an institution approved by the Pharmacy Council of India",
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "direct discipline family: pharmacy",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-pharm-d-pb",
+      "name": "Pharm. D (PB)",
+      "level": "doctoral_professional",
+      "credential": "professional_doctorate",
+      "specialization": "Pharmacy",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "B. Pharm from an institution approved by the Pharmacy Council of India",
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "direct discipline family: pharmacy",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-mpharm-pharmacognosy",
+      "name": "M. Pharm (Pharmacognosy)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Pharmacognosy",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "B. Pharma with 55% (50% for SC/ST)",
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "direct discipline family: pharmacy",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-bp-ed",
+      "name": "B.P.Ed.",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Physical Education",
+      "duration": "04 Sem.",
+      "mode": "not_stated",
+      "eligibility": "As Per NCTE Norms",
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 78,
+          "career_node_slug": "sports_career",
+          "career_breadcrumb": "Performing Arts & Sports > Sports & Physical Education",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-cert-radio-jockey",
+      "name": "Certificate Course in Radio Jockey and Production",
+      "level": "certificate",
+      "credential": "certificate",
+      "specialization": "Radio Jockey and Production",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "10+2 or equivalent with 45% marks (40% for SC/ST)",
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 346,
+          "career_node_slug": "art_media",
+          "career_breadcrumb": "Media & Journalism",
+          "relation": "nearest parent: Media & Journalism",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-diploma-digital-design",
+      "name": "Diploma in (Digital Design)",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": "Digital Design",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "10+2 or equivalent with 45% marks (40% for SC/ST)",
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 345,
+          "career_node_slug": "art_design",
+          "career_breadcrumb": "Design & Architecture",
+          "relation": "nearest parent: Design & Architecture",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-diploma-sculpture",
+      "name": "Diploma in Sculpture",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": "Sculpture",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "10+2 or equivalent with 45% marks (40% for SC/ST)",
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 247,
+          "career_node_slug": "painter_sculptor",
+          "career_breadcrumb": "Media & Journalism > B.F.A (Fine Arts) > Painter / Sculptor",
+          "relation": "closest specialization: sculpture",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-bfa-indian-music",
+      "name": "B.F.A. (Indian Music)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Indian Music",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "10+2 or equivalent with 45% marks (40% for SC/ST)",
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 75,
+          "career_node_slug": "music_course",
+          "career_breadcrumb": "Performing Arts & Sports > Music (BA / Diploma)",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-bfa-applied-art",
+      "name": "B.F.A. (Applied Art)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Applied Art",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "10+2 or equivalent with 45% marks (40% for SC/ST)",
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 60,
+          "career_node_slug": "bfa",
+          "career_breadcrumb": "Media & Journalism > B.F.A (Fine Arts)",
+          "relation": "direct discipline family",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-bfa-painting",
+      "name": "B.F.A. (Painting)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Painting",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "10+2 or equivalent with 45% marks (40% for SC/ST)",
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 247,
+          "career_node_slug": "painter_sculptor",
+          "career_breadcrumb": "Media & Journalism > B.F.A (Fine Arts) > Painter / Sculptor",
+          "relation": "closest specialization: painting",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-bfa-sculpture",
+      "name": "B.F.A. (Sculpture)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Sculpture",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "10+2 or equivalent with 45% marks (40% for SC/ST)",
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 247,
+          "career_node_slug": "painter_sculptor",
+          "career_breadcrumb": "Media & Journalism > B.F.A (Fine Arts) > Painter / Sculptor",
+          "relation": "closest specialization: sculpture",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-msc-computational-linguistic",
+      "name": "M.Sc. (Computational Linguistic)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Computational Linguistics",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "Graduation with minimum 45% marks",
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "closest specialization: computational linguistics",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-msc-home-general",
+      "name": "M.Sc (Home science General)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Home Science General",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "B.Sc. Home Science with 50% marks (5% relaxation for reserved category)",
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "No responsible Home Science node exists in the career tree."
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-msc-home-group-a",
+      "name": "M.Sc. (Home Sc.)-Group-A",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Home Science Group-A",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "B.Sc. Home Science with 50% marks (5% relaxation for reserved category)",
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "No responsible Home Science node exists in the career tree."
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-msc-home-group-b",
+      "name": "M.Sc. (Home Sc.)-Group-B",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Home Science Group-B",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "B.Sc. Home Science with 50% marks (5% relaxation for reserved category)",
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "No responsible Home Science node exists in the career tree."
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-msc-home-group-e",
+      "name": "M.Sc. (Home Sc.)-Group-E",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Home Science Group-E",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "B.Sc. Home Science with 50% marks (5% relaxation for reserved category)",
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "No responsible Home Science node exists in the career tree."
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-cert-food-processing",
+      "name": "Certificate Course in Food Processing and Preservation",
+      "level": "certificate",
+      "credential": "certificate",
+      "specialization": "Food Processing and Preservation",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "10+2 or equivalent from any discipline with 50% marks (5% relaxation for reserved category)",
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 28,
+          "career_node_slug": "bsc_food_tech",
+          "career_breadcrumb": "Common Paths > B.Sc Food Technology",
+          "relation": "closest specialization: food processing",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-mba-part-time",
+      "name": "MBA (Part-Time)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Business Administration",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "Graduate or equivalent degree in any discipline and one year post-qualification work experience in supervisory capacity",
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 208,
+          "career_node_slug": "mba_general",
+          "career_breadcrumb": "Management & Business > BBA (General) > MBA → CEO / Director Track",
+          "relation": "closest specialization: general MBA",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-ma-rural-development-management",
+      "name": "M.A. (Rural Development and Management)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Rural Development and Management",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "Graduate in any Discipline",
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 271,
+          "career_node_slug": "community_developer",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology > Community Development Officer",
+          "relation": "closest specialization: rural/community development",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-ba-language-combination",
+      "name": "B.A. (HINDI, SANSKRIT, ENGLISH, FRENCH, GERMAN, RUSSIAN, LINGUISTICS)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Languages and Linguistics",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "AS PER NEP-2020* INTERMEDIATE (10+2)",
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "nearest parent: Languages & Literature",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-ba-arts-combination",
+      "name": "B.A. (sociology, education, public administration, geography, history, political science, economics, tourism, library science, journalism & communication, psychology)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Arts and Social Sciences",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "AS PER NEP-2020* INTERMEDIATE (10+2)",
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest parent: Social Sciences & Education",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-bsc-physical-combination",
+      "name": "B.Sc. (PHYSICS, CHEMISTRY, MATHEMATICS, COMPUTER SCIENCE, STATISTICS)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Physical Sciences",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "Class XII/Intermediate or 10+2 in Mathematics or equivalent",
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 335,
+          "career_node_slug": "science_maths",
+          "career_breadcrumb": "Maths / PCM",
+          "relation": "nearest parent: Maths / PCM",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-bsc-life-combination",
+      "name": "B. Sc. (ZOOLOGY, MICROBIOLOGY, BOTANY, ENVIRONMENTAL SCIENCE, BIOTECHNOLOGY, BIOCHEMISTRY)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Life Sciences",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "Class XII/Intermediate or 10+2 in Biology or equivalent",
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "nearest parent: Biology / PCB",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-ba-fine-arts-combination",
+      "name": "B. A. (DRAWING & PAINTING, FINE ARTS, MUSIC VOCAL)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Fine Arts and Music",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "AS PER NEP-2020* INTERMEDIATE (10+2)",
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 60,
+          "career_node_slug": "bfa",
+          "career_breadcrumb": "Media & Journalism > B.F.A (Fine Arts)",
+          "relation": "closest specialization: fine arts",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 75,
+          "career_node_slug": "music_course",
+          "career_breadcrumb": "Performing Arts & Sports > Music (BA / Diploma)",
+          "relation": "closest specialization: music",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-ba-mathura-combination",
+      "name": "B. A. (HINDI, ENGLISH, SOCIOLOGY, POLITICAL SCIENCE, ECONOMICS, HISTORY, HOME SCIENCE)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Arts",
+      "duration": null,
+      "mode": "affiliated_college_or_campus",
+      "eligibility": "12th Pass in Any Stream",
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest parent: Social Sciences & Education",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-bsc-mathura-combination",
+      "name": "B. Sc. (PHYSICS, CHEMISTRY, MATHEMATICS, ZOOLOGY, BOTANY, COMPUTER SCIENCE, STATISTICS)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Science",
+      "duration": null,
+      "mode": "affiliated_college_or_campus",
+      "eligibility": "Physical Science: 12th with PCM; Bio Science: 12th with ZBC",
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 335,
+          "career_node_slug": "science_maths",
+          "career_breadcrumb": "Maths / PCM",
+          "relation": "nearest parent: Maths / PCM",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-bcom-mathura",
+      "name": "B.Com",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Commerce",
+      "duration": null,
+      "mode": "affiliated_college_or_campus",
+      "eligibility": "12th Pass in Any Stream",
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-bsc-ag",
+      "name": "B.Sc. (Ag.)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Agriculture",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "Science: 12th with Maths/ZBC/Agriculture",
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-llm",
+      "name": "LL.M",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Law",
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": "A Degree of Bachelor of Laws or equivalent degree with at least 50% marks",
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 347,
+          "career_node_slug": "art_law",
+          "career_breadcrumb": "Law & Civil Services",
+          "relation": "nearest parent: Law & Civil Services",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-llm-human-right",
+      "name": "LL.M.-Human Right",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Human Rights Law",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "A Degree of Bachelor of Laws or equivalent degree with at least 50% marks",
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 347,
+          "career_node_slug": "art_law",
+          "career_breadcrumb": "Law & Civil Services",
+          "relation": "nearest parent: Law & Civil Services",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-blis",
+      "name": "BLIS",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Library Science",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "Graduate in any Discipline",
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "No Library and Information Science node exists in the career tree."
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-mlis",
+      "name": "MLIS",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Library Science",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "B.Lib.",
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "No Library and Information Science node exists in the career tree."
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-m-sc-computational-linguistic",
+      "name": "M.Sc. (Computational Linguistic)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Computational Linguistics",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "Graduation with minimum 45% marks",
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "closest specialization: computational linguistics",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-ba-llb",
+      "name": "B. A. L.L.B.",
+      "level": "undergraduate",
+      "credential": "integrated_bachelor_degree",
+      "specialization": "Law",
+      "duration": "5 Years",
+      "mode": "affiliated_college_or_campus",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 63,
+          "career_node_slug": "ba_llb",
+          "career_breadcrumb": "Law & Civil Services > BA LLB (5-Year Integrated)",
+          "relation": "direct discipline family",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-llb",
+      "name": "L.L.B.",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Law",
+      "duration": "3 Years",
+      "mode": "affiliated_college_or_campus",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 347,
+          "career_node_slug": "art_law",
+          "career_breadcrumb": "Law & Civil Services",
+          "relation": "nearest parent: Law & Civil Services",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-med",
+      "name": "M.Ed.",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Education",
+      "duration": "04 Sem.",
+      "mode": "affiliated_college_or_campus",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "direct discipline family",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-bpt",
+      "name": "BPT",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Physiotherapy",
+      "duration": "03 Years",
+      "mode": "affiliated_college_or_campus",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 23,
+          "career_node_slug": "bpt",
+          "career_breadcrumb": "Biology / PCB > BPT (Physiotherapy)",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-pgd-computer-programming",
+      "name": "P. G. Diploma in Computer Programming",
+      "level": "postgraduate_diploma",
+      "credential": "diploma",
+      "specialization": "Computer Programming",
+      "duration": "01 Year",
+      "mode": "affiliated_college_or_campus",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 93,
+          "career_node_slug": "mca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications) > MCA → Software Engineer",
+          "relation": "closest specialization: computer programming",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-ma-family",
+      "name": "M.A.",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "affiliated_college_or_campus",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest parent: Social Sciences & Education for the affiliated-college M.A. family",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-msc-family",
+      "name": "M.Sc.",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "affiliated_college_or_campus",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 335,
+          "career_node_slug": "science_maths",
+          "career_breadcrumb": "Maths / PCM",
+          "relation": "nearest parent: Maths / PCM for the affiliated-college M.Sc. family",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-msc-ag",
+      "name": "M.Sc. (Ag.)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Agriculture",
+      "duration": "04 Semesters",
+      "mode": "affiliated_college_or_campus",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "direct discipline family",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-mcom-family",
+      "name": "M. Com.",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Commerce",
+      "duration": "2 Years",
+      "mode": "affiliated_college_or_campus",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 340,
+          "career_node_slug": "commerce_accounting",
+          "career_breadcrumb": "Accounting & Audit",
+          "relation": "nearest parent: Accounting & Audit for the affiliated-college M.Com. family",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-pgd-family",
+      "name": "P.G. Diploma",
+      "level": "postgraduate_diploma",
+      "credential": "diploma",
+      "specialization": null,
+      "duration": "02 Sem.",
+      "mode": "affiliated_college_or_campus",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/wp-content/uploads/2025/05/Information-Broucher-2025-26-Final-with-LL.M.-HR.pdf",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [],
+      "mapping_gap": "The affiliated-college brochure lists multiple PG Diploma subject families but does not provide a single responsible career-tree mapping."
+    },
+    {
+      "course_id": "dr-b-r-ambedkar-university-agra-dbrau-phd",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "doctoral_degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://dbrau.ac.in/list-of-ph-d-supervisors-2023-24/",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "Official doctoral pages confirm Ph.D. activity but do not provide a complete named doctoral programme catalogue or a responsible generic career-tree node."
+    }
+  ],
+  "agent_notes": [
+    "The NIRF 2025 Overall government listing explicitly contains the assigned institution as Dr. B. R. Ambedkar University, Agra, Agra, Uttar Pradesh.",
+    "Normal TLS verification first failed with the managed proxy's exact self-signed certificate-chain error; public GETs then used curl --insecure only for expected public hosts.",
+    "The official site has a named Programs in the University page and a 2025-26 admissions brochure, but the sources are not a complete consistent catalogue: the brochure includes additional residential and affiliated offerings, the generic catalogue omits several current admission offerings, and the Ph.D. pages expose a flow-chart image and supervisor list rather than a complete named doctoral catalogue. Per outcome rules this is manual_review, not verified.",
+    "The course list includes named degree, diploma, certificate and generic doctoral offerings explicitly discoverable from official catalogue/admission pages; no doctoral specializations were invented.",
+    "Duration and eligibility were left null where the central official pages did not explicitly state them. Career mappings were reviewed against assets/data/career_path.db with read-only sqlite3 recursive breadcrumb queries; broad or absent disciplines use nearest-parent/closest-specialization mappings or mapping gaps."
+  ]
+}

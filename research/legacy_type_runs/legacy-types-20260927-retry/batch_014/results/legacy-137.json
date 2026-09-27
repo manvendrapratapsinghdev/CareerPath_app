@@ -1,0 +1,15 @@
+{
+  "institution_id": "legacy-137",
+  "database_id": 137,
+  "name": "Officers Training Academy (OTA) Chennai",
+  "website": "https://www.otachennai.nic.in",
+  "outcome": "manual_review",
+  "institution_type": null,
+  "source_url": null,
+  "confidence": null,
+  "evidence": null,
+  "notes": [
+    "The supplied official hostname and apex domain returned DNS NXDOMAIN, so the institute and institutional type could not be verified from official-domain pages.",
+    "TLS fallback was not used because the failure was DNS resolution, not a certificate-chain error."
+  ]
+}

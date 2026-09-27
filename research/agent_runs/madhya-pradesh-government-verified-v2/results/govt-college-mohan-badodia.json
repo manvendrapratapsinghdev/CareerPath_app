@@ -1,0 +1,123 @@
+{
+  "institution_id": "govt-college-mohan-badodia",
+  "nirf_name": "Govt. College, Mohan Badodia",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Shajapur",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://highereducation.mp.gov.in/?orgid=432",
+  "website_verification_status": "verified",
+  "description": "A Government of Madhya Pradesh higher-education college campus identified as Shaskiya Mahavidyalaya, Mohan Badodiya, in Shajapur district.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "NIRF 2025 lists Govt. College, Mohan Badodia, Shajapur, Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "official_directory",
+      "url": "https://highereducation.mp.gov.in/?page=3ReniKuyIMmDd4opO%2FkIdA%3D%3D",
+      "supports": [
+        "The Madhya Pradesh Higher Education college directory lists the campus as शा.कॉलेज मोहन बडोदिया."
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://highereducation.mp.gov.in/?orgid=432",
+      "supports": [
+        "The official campus page identifies Shaskiya Mahavidyalaya, Mohan Badodiya, Shajapur, under Madhya Pradesh Higher Education."
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "https://highereducation.mp.gov.in/?page=h1Z9WN%2BhzSk3p9Ip3HWjkA%3D%3D&orgid=432",
+      "supports": [
+        "The official At A Glance page repeats the institution and district identity."
+      ]
+    },
+    {
+      "type": "official_academic_navigation",
+      "url": "https://highereducation.mp.gov.in/?orgid=432",
+      "supports": [
+        "The official Academics menu lists the Regular Course family स्‍नातक - कला संकाय and the campus departments."
+      ]
+    },
+    {
+      "type": "official_programme_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=b6PxE7KMxSHRVEFu6XUI8Q%3D%3D&orgid=432",
+      "supports": [
+        "The official Programmes Offered page contains PG, UG, and Diploma sections but no populated course rows."
+      ]
+    },
+    {
+      "type": "official_course_page",
+      "url": "https://highereducation.mp.gov.in/?page=kDEwRPvMgeJ6RV2T%2FOSFsg%3D%3D&orgid=432",
+      "supports": [
+        "The official regular-course destination is labelled by the site as स्‍नातक - कला संकाय but is currently under construction."
+      ]
+    },
+    {
+      "type": "official_distance_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=DnvKQkALTdZRQ9YH84y%2FPg%3D%3D&orgid=432",
+      "supports": [
+        "The official Distance Education Programme page has empty PG, UG, and Diploma tables."
+      ]
+    },
+    {
+      "type": "official_prospectus",
+      "url": "https://highereducation.mp.gov.in/?page=9fQOKOlBGvXxJiEyC7gwOQ%3D%3D&orgid=432",
+      "supports": [
+        "The official Prospectus page is under construction and provides no programme details."
+      ]
+    }
+  ],
+  "website_search_evidence": [],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "govt-college-mohan-badodia-regular-arts",
+      "name": "स्‍नातक - कला संकाय",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=kDEwRPvMgeJ6RV2T%2FOSFsg%3D%3D&orgid=432",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent mapping for the official Arts-faculty programme family",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "nearest-parent mapping for the official Arts-faculty programme family",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The NIRF 2025 government listing was independently confirmed before using the official site.",
+    "Normal TLS verification produced the managed proxy's exact self-signed certificate-chain error; public GETs used curl --insecure only for confirmed official and search hostnames.",
+    "The official Madhya Pradesh Higher Education directory identifies this campus as college record orgid 432.",
+    "The official catalogue is partial: the Programmes Offered PG, UG, and Diploma tables are empty; the regular Arts course destination, Distance Education page, and Prospectus page are under construction. The only current programme label discoverable is स्‍नातक - कला संकाय, retained as a verified programme family rather than an individual course.",
+    "The official site does not explicitly verify duration or eligibility, so those fields remain null."
+  ]
+}

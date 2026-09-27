@@ -1,0 +1,499 @@
+{
+  "institution_id": "s-b-d-govt-college-sardarshahar",
+  "nirf_name": "S. B. D. Govt. College, Sardarshahar",
+  "verification_outcome": "manual_review",
+  "district": "Churu",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://hte.rajasthan.gov.in/SBDGovernmentCollegeSardarshahar/29448",
+  "website_verification_status": "verified",
+  "description": "SBD Government College is a co-educational college on the outskirts of Sardarshahar city in Churu district of Rajasthan, established in 1959 and offering undergraduate and postgraduate education.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "official_homepage",
+      "url": "https://hte.rajasthan.gov.in/SBDGovernmentCollegeSardarshahar/29448",
+      "supports": [
+        "official identity",
+        "campus",
+        "city",
+        "description",
+        "address"
+      ]
+    },
+    {
+      "type": "official_identity_page",
+      "url": "https://hte.rajasthan.gov.in/SBDGovernmentCollegeSardarshahar/30170",
+      "supports": [
+        "campus identity",
+        "city",
+        "district",
+        "institution history",
+        "description"
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://hte.rajasthan.gov.in/SBDGovernmentCollegeSardarshahar/30299",
+      "supports": [
+        "doctoral programme",
+        "postgraduate catalogue",
+        "undergraduate catalogue",
+        "programme names"
+      ]
+    },
+    {
+      "type": "official_admissions_page",
+      "url": "https://hte.rajasthan.gov.in/SBDGovernmentCollegeSardarshahar/30974",
+      "supports": [
+        "current 2026-27 admission programme evidence",
+        "B.Com. BFSI",
+        "B.A.",
+        "B.Com.",
+        "B.Sc."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"S. B. D. Govt. College\" Sardarshahar",
+      "result": "Google and Bing discovery searches did not yield a usable official institution result; no search snippet was used as verification.",
+      "url": "https://www.google.com/search?q=%22S.+B.+D.+Govt.+College%22+Sardarshahar"
+    },
+    {
+      "query": "site:hte.rajasthan.gov.in Sardarshahar college",
+      "result": "Bing returned noisy general Sardarshahar results; the official-domain result was verified by opening the HTE site directly and using its search endpoint.",
+      "url": "https://www.bing.com/search?q=site%3Ahte.rajasthan.gov.in%20Sardarshahar%20college"
+    },
+    {
+      "query": "HTE internal search: Param=Sardarshahar",
+      "result": "The official HTE search response returned S.B.D.Government College, Sardarshahar (PageId 29448) and a separate Government Girls college Sardarshahar (PageId 32169); PageId 29448 resolved to the matching S.B.D.Government College campus.",
+      "url": "https://hte.rajasthan.gov.in/SBDGovernmentCollegeSardarshahar/29448"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "s-b-d-govt-college-sardarshahar-sbd-sardarshahar-phd",
+      "name": "PhD Programme (PhD in 03 Subjects- Public Administration, Hindi and Botany)",
+      "level": "doctoral",
+      "credential": "doctoral_degree",
+      "specialization": "Public Administration, Hindi and Botany",
+      "duration": null,
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/SBDGovernmentCollegeSardarshahar/30299",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 283,
+          "career_node_slug": "public_admin",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science > Public Administration Officer",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        },
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        },
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "s-b-d-govt-college-sardarshahar-sbd-sardarshahar-ma-hindi",
+      "name": "M.A. in Hindi",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Hindi",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/SBDGovernmentCollegeSardarshahar/30299",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "s-b-d-govt-college-sardarshahar-sbd-sardarshahar-ma-public-administration-sfs",
+      "name": "M.A. in Public Administration- SFS",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Public Administration",
+      "duration": null,
+      "mode": "self-financing",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/SBDGovernmentCollegeSardarshahar/30299",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 283,
+          "career_node_slug": "public_admin",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science > Public Administration Officer",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "s-b-d-govt-college-sardarshahar-sbd-sardarshahar-ma-political-science-sfs",
+      "name": "M.A. in Political Science- SFS",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Political Science",
+      "duration": null,
+      "mode": "self-financing",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/SBDGovernmentCollegeSardarshahar/30299",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "s-b-d-govt-college-sardarshahar-sbd-sardarshahar-ma-geography-sfs",
+      "name": "M.A. in Geography- SFS",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Geography",
+      "duration": null,
+      "mode": "self-financing",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/SBDGovernmentCollegeSardarshahar/30299",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "s-b-d-govt-college-sardarshahar-sbd-sardarshahar-ma-jainology-sfs",
+      "name": "M.A. in Jainology- SFS",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Jainology",
+      "duration": null,
+      "mode": "self-financing",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/SBDGovernmentCollegeSardarshahar/30299",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "s-b-d-govt-college-sardarshahar-sbd-sardarshahar-msc-botany-government",
+      "name": "M.Sc. (Botany)- Government Fees (RAJCES)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Botany",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/SBDGovernmentCollegeSardarshahar/30299",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "s-b-d-govt-college-sardarshahar-sbd-sardarshahar-msc-botany-sfs",
+      "name": "M.Sc. (Botany)- SFS",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Botany",
+      "duration": null,
+      "mode": "self-financing",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/SBDGovernmentCollegeSardarshahar/30299",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "s-b-d-govt-college-sardarshahar-sbd-sardarshahar-msc-chemistry-government",
+      "name": "M.Sc. (Chemistry)- Government Fees (RAJCES)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Chemistry",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/SBDGovernmentCollegeSardarshahar/30299",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 155,
+          "career_node_slug": "msc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry > M.Sc Chemistry → Researcher",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "s-b-d-govt-college-sardarshahar-sbd-sardarshahar-msc-chemistry-sfs",
+      "name": "M.Sc. (Chemistry)- SFS",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Chemistry",
+      "duration": null,
+      "mode": "self-financing",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/SBDGovernmentCollegeSardarshahar/30299",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 155,
+          "career_node_slug": "msc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry > M.Sc Chemistry → Researcher",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "s-b-d-govt-college-sardarshahar-sbd-sardarshahar-msc-zoology-sfs",
+      "name": "M.Sc. Zoology- SFS",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Zoology",
+      "duration": null,
+      "mode": "self-financing",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/SBDGovernmentCollegeSardarshahar/30299",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "s-b-d-govt-college-sardarshahar-sbd-sardarshahar-msc-physics-sfs",
+      "name": "M.Sc. (Physics)- SFS",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Physics",
+      "duration": null,
+      "mode": "self-financing",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/SBDGovernmentCollegeSardarshahar/30299",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 153,
+          "career_node_slug": "msc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics > M.Sc Physics → Researcher / Professor",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "s-b-d-govt-college-sardarshahar-sbd-sardarshahar-ba-part-i",
+      "name": "BA Part I",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/SBDGovernmentCollegeSardarshahar/30299",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "s-b-d-govt-college-sardarshahar-sbd-sardarshahar-bcom-part-i",
+      "name": "BCom Part I",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/SBDGovernmentCollegeSardarshahar/30299",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "s-b-d-govt-college-sardarshahar-sbd-sardarshahar-bsc-part-i-biology",
+      "name": "BSc Part I Biology",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Biology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/SBDGovernmentCollegeSardarshahar/30299",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "s-b-d-govt-college-sardarshahar-sbd-sardarshahar-bsc-part-i-maths",
+      "name": "BSc Part I Maths",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Maths",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/SBDGovernmentCollegeSardarshahar/30299",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "s-b-d-govt-college-sardarshahar-sbd-sardarshahar-bcom-bfsi",
+      "name": "B.Com. BFSI",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Banking, Financial services, and Insurance",
+      "duration": null,
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/SBDGovernmentCollegeSardarshahar/30974",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 344,
+          "career_node_slug": "commerce_banking",
+          "career_breadcrumb": "Banking & Insurance",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "Normal TLS verification failed with the exact managed-network self-signed certificate-in-chain error; public GET requests were then retried with curl --insecure only for the confirmed expected hosts hte.rajasthan.gov.in, www.google.com, and www.bing.com.",
+    "The official HTE-hosted college site is confirmed by the HTE search response, the institution name/logo/header, and the Sardarshahar/Churu address. The separate Government Girls college Sardarshahar result was not used.",
+    "The official Courses page lists one PhD programme line, 11 named PG rows, and four UG rows. The Introduction page says the college offers 51 UG programmes and 9 PG programmes, while the current 2026-27 Admission List additionally shows B.Com. BFSI admissions even though BFSI is absent from the Courses page; the catalogue is therefore partial and the record remains manual_review.",
+    "The official site did not explicitly verify programme duration or eligibility on the reviewed homepage, identity, Courses, or Admission List pages, so those fields are null. No separate brochure was downloaded merely to fill them."
+  ]
+}

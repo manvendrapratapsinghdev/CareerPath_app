@@ -1,0 +1,73 @@
+{
+  "institution_id": "divyansh-college",
+  "nirf_name": "DIVYANSH COLLEGE",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "remove_candidate",
+  "district": null,
+  "district_verification_status": "not_found",
+  "official_website": null,
+  "website_verification_status": "not_found",
+  "description": null,
+  "description_verification_status": "not_found",
+  "record_status": "remove_candidate",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact DIVYANSH COLLEGE entry in GUNA, Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Exact DIVYANSH COLLEGE entry in GUNA, Madhya Pradesh"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"DIVYANSH COLLEGE\" Guna Madhya Pradesh official website",
+      "result": "No official institution website was found; returned results were unrelated to the college.",
+      "url": "https://www.bing.com/search?format=rss&q=%22DIVYANSH+COLLEGE%22+Guna+Madhya+Pradesh+official+website"
+    },
+    {
+      "query": "Divyansh College Guna courses admissions",
+      "result": "No official institution website or catalogue was found; returned results were unrelated to the college.",
+      "url": "https://www.bing.com/search?format=rss&q=Divyansh+College+Guna+courses+admissions"
+    },
+    {
+      "query": "\"DIVYANSH COLLEGE\" GUNA site:edu.in",
+      "result": "No relevant official .edu.in institution website was returned.",
+      "url": "https://www.bing.com/search?format=rss&q=%22DIVYANSH+COLLEGE%22+GUNA+site%3Aedu.in"
+    },
+    {
+      "query": "\"DIVYANSH COLLEGE\" GUNA site:ac.in",
+      "result": "No relevant official .ac.in institution website was returned.",
+      "url": "https://www.bing.com/search?format=rss&q=%22DIVYANSH+COLLEGE%22+GUNA+site%3Aac.in"
+    },
+    {
+      "query": "\"DIVYANSH COLLEGE\" GUNA site:gov.in",
+      "result": "No relevant official .gov.in institution website was returned.",
+      "url": "https://www.bing.com/search?format=rss&q=%22DIVYANSH+COLLEGE%22+GUNA+site%3Agov.in"
+    },
+    {
+      "query": "Certificate Transparency lookup for %divyansh%25",
+      "result": "No institution-owned domain associated with Divyansh College was identified.",
+      "url": "https://crt.sh/?q=%25divyansh%25&output=json"
+    }
+  ],
+  "course_catalogue_status": "not_found",
+  "courses": [],
+  "agent_notes": [
+    "The institution is listed exactly in both supplied NIRF 2025 government directories.",
+    "After multiple focused searches and authoritative-domain checks, no official institution website could be established.",
+    "Normal TLS verification encountered the managed proxy self-signed certificate-chain error; curl --insecure was used only for public GET requests to expected hosts.",
+    "No programme data was imported because an official website could not be established."
+  ]
+}

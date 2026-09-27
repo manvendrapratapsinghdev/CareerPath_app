@@ -1,0 +1,872 @@
+{
+  "institution_id": "government-arts-and-commerce-college-keolari-seoni",
+  "nirf_name": "Government Arts And Commerce College, Keolari, Seoni",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "verified",
+  "district": "Seoni",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://highereducation.mp.gov.in/?orgid=408",
+  "website_verification_status": "verified",
+  "description": "Government Arts and Commerce College Keolari is a Madhya Pradesh Higher Education Department college in Keolari, Seoni district; the official At A Glance page records its establishment in 1984.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact institution name, city KEOLARI, and state Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://highereducation.mp.gov.in/?orgid=408",
+      "supports": [
+        "Official portal header identifies the Government Arts and Commerce College Keolari campus in Seoni district and attributes it to the Madhya Pradesh Higher Education Department"
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "https://highereducation.mp.gov.in/CollegeProfile/AtAGlance?orgid=408",
+      "supports": [
+        "Official At A Glance page for the Keolari campus; establishment year 1984"
+      ]
+    },
+    {
+      "type": "official_course_catalogue_regular",
+      "url": "https://highereducation.mp.gov.in/CollegeProfile/Course?orgid=408",
+      "supports": [
+        "Official Programmes Offered page; current regular PG and UG programme names and minimum qualifications; empty Diploma Programme section"
+      ]
+    },
+    {
+      "type": "official_course_catalogue_distance",
+      "url": "https://highereducation.mp.gov.in/CollegeProfile/CourseDistance?orgid=408",
+      "supports": [
+        "Official Distance Education Programme page; current distance PG and UG programme names and minimum qualifications; empty Diploma Distance Programme section"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Government Arts and Commerce College\" Keolari Seoni official website",
+      "result": "Bing returned unrelated government portals and no relevant official college result; discovery-only and not used as verification evidence.",
+      "url": "https://www.bing.com/search?q=%22Government+Arts+and+Commerce+College%22+Keolari+Seoni"
+    },
+    {
+      "query": "Government College Keolari official website Madhya Pradesh",
+      "result": "Bing returned unrelated government portals and no relevant official college result; discovery-only and not used as verification evidence.",
+      "url": "https://www.bing.com/search?q=Government+College+Keolari+official+website+Madhya+Pradesh"
+    },
+    {
+      "query": "MP Higher Education e-Brochure college lookup for Keolari Seoni",
+      "result": "The official MP Higher Education e-Brochure record names the campus \"Govt Arts and Commerce College, Kewlari\", gives address \"UGLI ROAD KEOLARI\", and points to the official portal URL with orgid=408; used only to locate the college portal.",
+      "url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx"
+    }
+  ],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "government-arts-and-commerce-college-keolari-seoni-regular-ma-political-science",
+      "name": "M. A. (M.A. Political Science)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": "Political Science",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/CollegeProfile/Course?orgid=408",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "closest-specialization: M.A. Political Science mapped to the available Political Science discipline node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-arts-and-commerce-college-keolari-seoni-regular-ma-economics",
+      "name": "M. A. (M.A. Economics)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": "Economics",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/CollegeProfile/Course?orgid=408",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "closest-specialization: M.A. Economics mapped to the available Economics discipline node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-arts-and-commerce-college-keolari-seoni-regular-ma-history",
+      "name": "M. A. (M.A. History)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": "History",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/CollegeProfile/Course?orgid=408",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "closest-specialization: M.A. History mapped to the available History discipline node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-arts-and-commerce-college-keolari-seoni-regular-ba-economics-english-political-science",
+      "name": "B. A. (Economics - English - Political Science)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": "Economics - English - Political Science",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/CollegeProfile/Course?orgid=408",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-arts-and-commerce-college-keolari-seoni-regular-ba-economics-hindi-political-science",
+      "name": "B. A. (Economics - Hindi - Political Science)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": "Economics - Hindi - Political Science",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/CollegeProfile/Course?orgid=408",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-arts-and-commerce-college-keolari-seoni-regular-ba-economics-hindi-sociology",
+      "name": "B. A. (Economics - Hindi - Sociology)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": "Economics - Hindi - Sociology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/CollegeProfile/Course?orgid=408",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-arts-and-commerce-college-keolari-seoni-regular-ba-english-history-sociology",
+      "name": "B. A. (English - History - Sociology)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": "English - History - Sociology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/CollegeProfile/Course?orgid=408",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-arts-and-commerce-college-keolari-seoni-regular-ba-hindi-history-political-science",
+      "name": "B. A. (Hindi - History - Political Science)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": "Hindi - History - Political Science",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/CollegeProfile/Course?orgid=408",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-arts-and-commerce-college-keolari-seoni-regular-ba-history-political-science-sociology",
+      "name": "B. A. (History - Political Science - Sociology)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": "History - Political Science - Sociology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/CollegeProfile/Course?orgid=408",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-arts-and-commerce-college-keolari-seoni-regular-bsc-botany-chemistry-zoology",
+      "name": "B. Sc. (B.Sc. BOTANY- CHEMISTRY-ZOOLOGY)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": "B.Sc. BOTANY- CHEMISTRY-ZOOLOGY",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/CollegeProfile/Course?orgid=408",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest-specialization: Botany/Zoology mapped to the available B.Sc Biology / Biotech node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-arts-and-commerce-college-keolari-seoni-regular-bsc-physics-chemistry-maths",
+      "name": "B. Sc. (B.Sc. PHYSICS-CHEMISTRY- MATHS)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": "B.Sc. PHYSICS-CHEMISTRY- MATHS",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/CollegeProfile/Course?orgid=408",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 24,
+          "career_node_slug": "bsc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-arts-and-commerce-college-keolari-seoni-regular-bcom-commerce",
+      "name": "B. Com (Commerce)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": "Commerce",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/CollegeProfile/Course?orgid=408",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-arts-and-commerce-college-keolari-seoni-distance-ma-political-science",
+      "name": "M. A. (M.A. Political Science)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": "Political Science",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": "Post-Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/CollegeProfile/CourseDistance?orgid=408",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "closest-specialization: M.A. Political Science mapped to the available Political Science discipline node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-arts-and-commerce-college-keolari-seoni-distance-ma-economics",
+      "name": "M. A. (M.A. Economics)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": "Economics",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": "Post-Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/CollegeProfile/CourseDistance?orgid=408",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "closest-specialization: M.A. Economics mapped to the available Economics discipline node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-arts-and-commerce-college-keolari-seoni-distance-ma-history",
+      "name": "M. A. (M.A. History)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": "History",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": "Post-Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/CollegeProfile/CourseDistance?orgid=408",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "closest-specialization: M.A. History mapped to the available History discipline node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-arts-and-commerce-college-keolari-seoni-distance-ba-economics-english-political-science",
+      "name": "B. A. (Economics - English - Political Science)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": "Economics - English - Political Science",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/CollegeProfile/CourseDistance?orgid=408",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-arts-and-commerce-college-keolari-seoni-distance-ba-economics-hindi-political-science",
+      "name": "B. A. (Economics - Hindi - Political Science)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": "Economics - Hindi - Political Science",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/CollegeProfile/CourseDistance?orgid=408",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-arts-and-commerce-college-keolari-seoni-distance-ba-economics-hindi-sociology",
+      "name": "B. A. (Economics - Hindi - Sociology)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": "Economics - Hindi - Sociology",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/CollegeProfile/CourseDistance?orgid=408",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-arts-and-commerce-college-keolari-seoni-distance-ba-english-history-sociology",
+      "name": "B. A. (English - History - Sociology)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": "English - History - Sociology",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/CollegeProfile/CourseDistance?orgid=408",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-arts-and-commerce-college-keolari-seoni-distance-ba-hindi-history-political-science",
+      "name": "B. A. (Hindi - History - Political Science)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": "Hindi - History - Political Science",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/CollegeProfile/CourseDistance?orgid=408",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-arts-and-commerce-college-keolari-seoni-distance-ba-history-political-science-sociology",
+      "name": "B. A. (History - Political Science - Sociology)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": "History - Political Science - Sociology",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/CollegeProfile/CourseDistance?orgid=408",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-arts-and-commerce-college-keolari-seoni-distance-bsc-botany-chemistry-zoology",
+      "name": "B. Sc. (B.Sc. BOTANY- CHEMISTRY-ZOOLOGY)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": "B.Sc. BOTANY- CHEMISTRY-ZOOLOGY",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/CollegeProfile/CourseDistance?orgid=408",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest-specialization: Botany/Zoology mapped to the available B.Sc Biology / Biotech node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-arts-and-commerce-college-keolari-seoni-distance-bsc-physics-chemistry-maths",
+      "name": "B. Sc. (B.Sc. PHYSICS-CHEMISTRY- MATHS)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": "B.Sc. PHYSICS-CHEMISTRY- MATHS",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/CollegeProfile/CourseDistance?orgid=408",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 24,
+          "career_node_slug": "bsc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-arts-and-commerce-college-keolari-seoni-distance-bcom-commerce",
+      "name": "B. Com (Commerce)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": "Commerce",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/CollegeProfile/CourseDistance?orgid=408",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The NIRF 2025 College ranking page contains the exact assigned institution with city KEOLARI and state Madhya Pradesh.",
+    "The official portal header identifies the Keolari campus in Seoni district; the official At A Glance page records establishment in 1984.",
+    "The official catalogue provides no programme duration values, so duration is null for every course.",
+    "The official regular and distance catalogue pages include empty Diploma Programme tables and no certificate or doctoral programme entries; no such programmes were imported.",
+    "The managed proxy returned the exact self-signed certificate-chain error on the initial normal-TLS NIRF request. After confirming the expected public hosts, subsequent public GETs used curl --insecure."
+  ]
+}

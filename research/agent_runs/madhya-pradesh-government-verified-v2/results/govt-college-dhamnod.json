@@ -1,0 +1,1117 @@
+{
+  "institution_id": "govt-college-dhamnod",
+  "nirf_name": "Govt. College, Dhamnod",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "verified",
+  "district": "Dhar",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://highereducation.mp.gov.in/?orgid=150",
+  "website_verification_status": "verified",
+  "description": "Government college in Dhamnod, Dhar district, Madhya Pradesh, established in 1989, with 18 departments and regular and distance-education programmes.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact NIRF row: Govt. College, Dhamnod; DHAMNOD; Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "official_government_college_directory",
+      "url": "https://highereducation.mp.gov.in/?page=3ReniKuyIMmDd4opO%2FkIdA%3D%3D",
+      "supports": [
+        "Madhya Pradesh Higher Education directory entry शा.कॉलेज,धामनौद"
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://highereducation.mp.gov.in/?orgid=150",
+      "supports": [
+        "Official profile heading शासकीय महाविद्यालय धामनोद जिला धार",
+        "Department of Higher Education, Madhya Pradesh ownership"
+      ]
+    },
+    {
+      "type": "official_campus_profile",
+      "url": "https://highereducation.mp.gov.in/?page=gmu9JKLb52TR%2FdwQ5KDiug%3D%3D&orgid=150",
+      "supports": [
+        "Establishment year 1989",
+        "18 departments",
+        "Dhamnod, Dhar campus profile"
+      ]
+    },
+    {
+      "type": "official_regular_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=aPHm%2BAIH3jfkHoyy%2B0ndeQ%3D%3D&orgid=150",
+      "supports": [
+        "Regular UG and PGDCA programme rows"
+      ]
+    },
+    {
+      "type": "official_distance_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=%2FDFF5wxcp4qbDmuP2DnnvA%3D%3D&orgid=150",
+      "supports": [
+        "Distance PG, UG, and diploma programme rows"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "MP Higher Education Department government college directory Dhamnod",
+      "result": "The official department directory lists शा.कॉलेज,धामनौद; the official data endpoint identifies orgid 150 as Govt College, Dhamnaud, District Dhar, CollegeCode 2208.",
+      "url": "https://highereducation.mp.gov.in/?page=3ReniKuyIMmDd4opO%2FkIdA%3D%3D"
+    },
+    {
+      "query": "official institution profile orgid=150",
+      "result": "The official profile identifies शासकीय महाविद्यालय धामनोद जिला धार and exposes its regular and distance-education catalogues.",
+      "url": "https://highereducation.mp.gov.in/?orgid=150"
+    }
+  ],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "govt-college-dhamnod-regular-bcom-commerce",
+      "name": "B. Com (Commerce)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Commerce",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=aPHm%2BAIH3jfkHoyy%2B0ndeQ%3D%3D&orgid=150",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-dhamnod-regular-bcom-computer-application",
+      "name": "B. Com (Commerce with Computer Application)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Commerce with Computer Application",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=aPHm%2BAIH3jfkHoyy%2B0ndeQ%3D%3D&orgid=150",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "supporting computer-application discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-dhamnod-regular-bsc-botany-chemistry-zoology",
+      "name": "B. Sc. (Botany - Chemistry - Zoology)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Botany - Chemistry - Zoology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=aPHm%2BAIH3jfkHoyy%2B0ndeQ%3D%3D&orgid=150",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest-specialization for Botany and Zoology combination",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "direct Chemistry discipline within combination",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-dhamnod-regular-bsc-chemistry-mathematics-physics",
+      "name": "B. Sc. (Chemistry - Mathematics - Physics)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Chemistry - Mathematics - Physics",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=aPHm%2BAIH3jfkHoyy%2B0ndeQ%3D%3D&orgid=150",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct Mathematics discipline within combination",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 24,
+          "career_node_slug": "bsc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics",
+          "relation": "direct Physics discipline within combination",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "direct Chemistry discipline within combination",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-dhamnod-regular-ba-economics-geography-political-science",
+      "name": "B. A. (Economics - Geography - Political Science)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Economics - Geography - Political Science",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=aPHm%2BAIH3jfkHoyy%2B0ndeQ%3D%3D&orgid=150",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct Economics discipline within combination",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct Political Science discipline within combination",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent for Geography",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-dhamnod-regular-ba-hindi-political-science-sociology",
+      "name": "B. A. (Hindi - Political Science - Sociology)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Hindi - Political Science - Sociology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=aPHm%2BAIH3jfkHoyy%2B0ndeQ%3D%3D&orgid=150",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct Hindi discipline within combination",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct Political Science discipline within combination",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct Sociology discipline within combination",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-dhamnod-regular-ba-geography-political-science-sociology",
+      "name": "B. A. (Geography - Political Science - Sociology)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Geography - Political Science - Sociology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=aPHm%2BAIH3jfkHoyy%2B0ndeQ%3D%3D&orgid=150",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent for Geography",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct Political Science discipline within combination",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct Sociology discipline within combination",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-dhamnod-regular-ba-economics-political-science-sociology",
+      "name": "B. A. (Economics - Political Science - Sociology)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Economics - Political Science - Sociology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=aPHm%2BAIH3jfkHoyy%2B0ndeQ%3D%3D&orgid=150",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct Economics discipline within combination",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct Political Science discipline within combination",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct Sociology discipline within combination",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-dhamnod-regular-ba-economics-hindi-political-science",
+      "name": "B. A. (Economics - Hindi - Political Science)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Economics - Hindi - Political Science",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=aPHm%2BAIH3jfkHoyy%2B0ndeQ%3D%3D&orgid=150",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct Economics discipline within combination",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct Hindi discipline within combination",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct Political Science discipline within combination",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-dhamnod-regular-ba-economics-geography-sociology",
+      "name": "B. A. (Economics - Geography - Sociology)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Economics - Geography - Sociology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=aPHm%2BAIH3jfkHoyy%2B0ndeQ%3D%3D&orgid=150",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct Economics discipline within combination",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent for Geography",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct Sociology discipline within combination",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-dhamnod-regular-ba-computer-geography-sociology",
+      "name": "B. A. (Computer - Geography - Sociology)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Computer - Geography - Sociology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=aPHm%2BAIH3jfkHoyy%2B0ndeQ%3D%3D&orgid=150",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "closest-specialization for Computer subject",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        },
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent for Geography",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct Sociology discipline within combination",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-dhamnod-regular-ba-computer-geography-political-science",
+      "name": "B. A. (Computer - Geography - Political Science)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Computer - Geography - Political Science",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=aPHm%2BAIH3jfkHoyy%2B0ndeQ%3D%3D&orgid=150",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "closest-specialization for Computer subject",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        },
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent for Geography",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct Political Science discipline within combination",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-dhamnod-regular-ba-computer-economics-sociology",
+      "name": "B. A. (Computer - Economics - Sociology)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Computer - Economics - Sociology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=aPHm%2BAIH3jfkHoyy%2B0ndeQ%3D%3D&orgid=150",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "closest-specialization for Computer subject",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        },
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct Economics discipline within combination",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct Sociology discipline within combination",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-dhamnod-regular-ba-computer-economics-geography",
+      "name": "B. A. (Computer - Economics - Geography)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Computer - Economics - Geography",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=aPHm%2BAIH3jfkHoyy%2B0ndeQ%3D%3D&orgid=150",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "closest-specialization for Computer subject",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        },
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct Economics discipline within combination",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent for Geography",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-dhamnod-regular-ba-computer-economics-hindi",
+      "name": "B. A. (Computer - Economics - Hindi)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Computer - Economics - Hindi",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=aPHm%2BAIH3jfkHoyy%2B0ndeQ%3D%3D&orgid=150",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "closest-specialization for Computer subject",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        },
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct Economics discipline within combination",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct Hindi discipline within combination",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-dhamnod-regular-ba-computer-hindi-political-science",
+      "name": "B. A. (Computer - Hindi - Political Science)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Computer - Hindi - Political Science",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=aPHm%2BAIH3jfkHoyy%2B0ndeQ%3D%3D&orgid=150",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "closest-specialization for Computer subject",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        },
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct Hindi discipline within combination",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct Political Science discipline within combination",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-dhamnod-regular-ba-computer-english-political-science",
+      "name": "B. A. (Computer - English - Political Science)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Computer - English - Political Science",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=aPHm%2BAIH3jfkHoyy%2B0ndeQ%3D%3D&orgid=150",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "closest-specialization for Computer subject",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        },
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "direct English discipline within combination",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct Political Science discipline within combination",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-dhamnod-regular-ba-computer-hindi-sociology",
+      "name": "B. A. (Computer - Hindi - Sociology)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Computer - Hindi - Sociology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=aPHm%2BAIH3jfkHoyy%2B0ndeQ%3D%3D&orgid=150",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "closest-specialization for Computer subject",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        },
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct Hindi discipline within combination",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct Sociology discipline within combination",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-dhamnod-regular-pgdca",
+      "name": "PGDCA (PGDCA)",
+      "level": "postgraduate",
+      "credential": "postgraduate_diploma",
+      "specialization": "PGDCA",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=aPHm%2BAIH3jfkHoyy%2B0ndeQ%3D%3D&orgid=150",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "closest-specialization for PGDCA",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-dhamnod-distance-mcom-accounting",
+      "name": "M. Com. (Accounting)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Accounting",
+      "duration": null,
+      "mode": "distance_education",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=%2FDFF5wxcp4qbDmuP2DnnvA%3D%3D&orgid=150",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 198,
+          "career_node_slug": "mcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons) > M.Com → Professor / Researcher",
+          "relation": "direct postgraduate commerce discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-dhamnod-distance-msc-zoology",
+      "name": "M. Sc. (Zoology)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Zoology",
+      "duration": null,
+      "mode": "distance_education",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=%2FDFF5wxcp4qbDmuP2DnnvA%3D%3D&orgid=150",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "nearest-parent for Zoology",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-dhamnod-distance-msc-botany",
+      "name": "M. Sc. (Botany)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Botany",
+      "duration": null,
+      "mode": "distance_education",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=%2FDFF5wxcp4qbDmuP2DnnvA%3D%3D&orgid=150",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "nearest-parent for Botany",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-dhamnod-distance-msc-mathematics",
+      "name": "M. Sc. (Mathematics)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Mathematics",
+      "duration": null,
+      "mode": "distance_education",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=%2FDFF5wxcp4qbDmuP2DnnvA%3D%3D&orgid=150",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 90,
+          "career_node_slug": "msc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics > M.Sc Mathematics → Professor / Researcher",
+          "relation": "direct postgraduate Mathematics discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-dhamnod-distance-msc-information-technology",
+      "name": "M. Sc. (Information Technology)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Information Technology",
+      "duration": null,
+      "mode": "distance_education",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=%2FDFF5wxcp4qbDmuP2DnnvA%3D%3D&orgid=150",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 89,
+          "career_node_slug": "btech_it",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Information Technology",
+          "relation": "closest-specialization for M.Sc Information Technology",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-dhamnod-distance-ma-sociology",
+      "name": "M. A. (Sociology)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Sociology",
+      "duration": null,
+      "mode": "distance_education",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=%2FDFF5wxcp4qbDmuP2DnnvA%3D%3D&orgid=150",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "nearest-parent for M.A Sociology",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-dhamnod-distance-ma-geography",
+      "name": "M. A. (Geography)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Geography",
+      "duration": null,
+      "mode": "distance_education",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=%2FDFF5wxcp4qbDmuP2DnnvA%3D%3D&orgid=150",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent for Geography",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-dhamnod-distance-ma-economics",
+      "name": "M. A. (Economics)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Economics",
+      "duration": null,
+      "mode": "distance_education",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=%2FDFF5wxcp4qbDmuP2DnnvA%3D%3D&orgid=150",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "nearest-parent for M.A Economics",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-dhamnod-distance-bcom-commerce",
+      "name": "B. Com (Commerce)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Commerce",
+      "duration": null,
+      "mode": "distance_education",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=%2FDFF5wxcp4qbDmuP2DnnvA%3D%3D&orgid=150",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-dhamnod-distance-bsc-botany-chemistry-zoology",
+      "name": "B. Sc. (Botany - Chemistry - Zoology)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Botany - Chemistry - Zoology",
+      "duration": null,
+      "mode": "distance_education",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=%2FDFF5wxcp4qbDmuP2DnnvA%3D%3D&orgid=150",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest-specialization for Botany and Zoology combination",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "direct Chemistry discipline within combination",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-dhamnod-distance-bsc-chemistry-mathematics-physics",
+      "name": "B. Sc. (Chemistry - Mathematics - Physics)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Chemistry - Mathematics - Physics",
+      "duration": null,
+      "mode": "distance_education",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=%2FDFF5wxcp4qbDmuP2DnnvA%3D%3D&orgid=150",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct Mathematics discipline within combination",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 24,
+          "career_node_slug": "bsc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics",
+          "relation": "direct Physics discipline within combination",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "direct Chemistry discipline within combination",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-dhamnod-distance-ba-hindi-political-science-sociology",
+      "name": "B. A. (Hindi - Political Science - Sociology)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Hindi - Political Science - Sociology",
+      "duration": null,
+      "mode": "distance_education",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=%2FDFF5wxcp4qbDmuP2DnnvA%3D%3D&orgid=150",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct Hindi discipline within combination",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct Political Science discipline within combination",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct Sociology discipline within combination",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-dhamnod-distance-diploma-computer-application",
+      "name": "Diploma (Diploma in Computer Application)",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": "Diploma in Computer Application",
+      "duration": null,
+      "mode": "distance_education",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=%2FDFF5wxcp4qbDmuP2DnnvA%3D%3D&orgid=150",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "closest-specialization for Diploma in Computer Application",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "NIRF 2025 lists the exact row Govt. College, Dhamnod with city DHAMNOD and state Madhya Pradesh; the MP Higher Education directory and orgid=150 profile cross-check the campus as Dhamnod/Dhamnaud in Dhar district.",
+    "The department-managed MP Higher Education portal is the official institution profile and programme catalogue; no separate external college domain was required.",
+    "Regular and distance-education catalogue pages were checked. Duration and eligibility remain null because the official Minimum Qualification cells are blank and no duration is stated.",
+    "No additional certificate or doctoral programme rows were shown in the official regular or distance catalogue; none were invented.",
+    "Normal TLS verification first returned the managed proxy self-signed certificate-chain error; public GETs were retried with curl --insecure only after confirming the expected NIRF, search, and highereducation.mp.gov.in hostnames."
+  ]
+}

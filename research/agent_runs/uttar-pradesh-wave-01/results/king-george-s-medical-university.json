@@ -1,0 +1,3024 @@
+{
+  "institution_id": "king-george-s-medical-university",
+  "nirf_name": "King George's Medical University",
+  "verification_outcome": "verified",
+  "district": "Lucknow",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://www.kgmu.org/",
+  "website_verification_status": "verified",
+  "description": "King George's Medical University is situated in Lucknow, Uttar Pradesh; its campus adjoins the historic Chowk area off Shahmina Road.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "official_homepage",
+      "url": "https://www.kgmu.org/",
+      "supports": [
+        "official website domain"
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "https://www.kgmu.org/about_campus.php",
+      "supports": [
+        "King George's Medical University identity",
+        "Lucknow campus and Chowk/Shahmina Road location",
+        "institution description"
+      ]
+    },
+    {
+      "type": "official_academic_catalogue",
+      "url": "https://www.kgmu.org/academic_program.php",
+      "supports": [
+        "central catalogue of undergraduate, postgraduate, super-speciality, doctoral, masters and certificate programmes"
+      ]
+    },
+    {
+      "type": "official_paramedical_faculty_catalogue",
+      "url": "https://www.kgmu.org/paramedical_about_faculty.php",
+      "supports": [
+        "14 current allied-health diploma programmes count",
+        "2025-26 Bachelor of Physiotherapy, Bachelor in Medical Laboratory Science and Bachelor of Optometry names and durations"
+      ]
+    },
+    {
+      "type": "official_admissions_catalogue",
+      "url": "https://www.kgmu.org/courses_admission.php",
+      "supports": [
+        "named paramedical diploma programmes",
+        "official admissions programme families"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "King George's Medical University official website Lucknow",
+      "result": "Google discovery request was rate-limited with HTTP 429; no search snippet was used as verification.",
+      "url": null
+    },
+    {
+      "query": "site:kgmu.org King George Medical University Lucknow official courses admissions",
+      "result": "Focused search led to the official kgmu.org catalogue pages, which were opened and verified directly.",
+      "url": "https://www.kgmu.org/academic_program.php"
+    },
+    {
+      "query": "King George Medical University official website Uttar Pradesh Lucknow",
+      "result": "Focused search led to the official kgmu.org domain; campus and catalogue pages were verified directly.",
+      "url": "https://www.kgmu.org/about_campus.php"
+    }
+  ],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "king-george-s-medical-university-kgmu-001-mbbs",
+      "name": "MBBS",
+      "level": "undergraduate",
+      "credential": "MBBS",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "direct discipline: medicine",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-002-md-anaesthesiology",
+      "name": "MD Anaesthesiology",
+      "level": "postgraduate",
+      "credential": "MD",
+      "specialization": "Anaesthesiology",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "direct discipline: medicine",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-003-md-anatomy",
+      "name": "MD Anatomy",
+      "level": "postgraduate",
+      "credential": "MD",
+      "specialization": "Anatomy",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "direct discipline: medicine",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-004-md-biochemistry",
+      "name": "MD Biochemistry",
+      "level": "postgraduate",
+      "credential": "MD",
+      "specialization": "Biochemistry",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 35,
+          "career_node_slug": "bsc_biochem",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Biochemistry",
+          "relation": "closest-specialization: biochemistry",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-005-md-community-medicine",
+      "name": "MD Community Medicine",
+      "level": "postgraduate",
+      "credential": "MD",
+      "specialization": "Community Medicine",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "direct discipline: medicine",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-006-md-emergency-medicine",
+      "name": "MD Emergency Medicine",
+      "level": "postgraduate",
+      "credential": "MD",
+      "specialization": "Emergency Medicine",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "direct discipline: medicine",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-007-md-forensic-medicine",
+      "name": "MD Forensic medicine",
+      "level": "postgraduate",
+      "credential": "MD",
+      "specialization": "Forensic medicine",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 27,
+          "career_node_slug": "bsc_forensic",
+          "career_breadcrumb": "Common Paths > B.Sc Forensic Science",
+          "relation": "closest-specialization: forensic medicine",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-008-md-general-medicine",
+      "name": "MD General Medicine",
+      "level": "postgraduate",
+      "credential": "MD",
+      "specialization": "General Medicine",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 128,
+          "career_node_slug": "md_general",
+          "career_breadcrumb": "Biology / PCB > MBBS > MD General Medicine",
+          "relation": "closest-specialization: general medicine",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-009-md-hospital-administration",
+      "name": "MD Hospital Administration",
+      "level": "postgraduate",
+      "credential": "MD",
+      "specialization": "Hospital Administration",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest-parent: paramedical and health sciences",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-010-md-immunohaematology-blood-transfustion",
+      "name": "MD Immunohaematology & Blood  Transfustion",
+      "level": "postgraduate",
+      "credential": "MD",
+      "specialization": "Immunohaematology & Blood  Transfustion",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 187,
+          "career_node_slug": "blood_bank_tech",
+          "career_breadcrumb": "Paramedical & Health Sciences > DMLT (Medical Lab Technology) > Blood Bank Technician",
+          "relation": "closest-specialization: blood transfusion technology",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-011-md-mircobiology",
+      "name": "MD Mircobiology",
+      "level": "postgraduate",
+      "credential": "MD",
+      "specialization": "Mircobiology",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 34,
+          "career_node_slug": "bsc_microbio",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Microbiology",
+          "relation": "closest-specialization: microbiology",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-012-md-paediatrics",
+      "name": "MD Paediatrics",
+      "level": "postgraduate",
+      "credential": "MD",
+      "specialization": "Paediatrics",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 130,
+          "career_node_slug": "md_paediatrics",
+          "career_breadcrumb": "Biology / PCB > MBBS > MD Paediatrics",
+          "relation": "closest-specialization: paediatrics",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-013-md-pathology",
+      "name": "MD Pathology",
+      "level": "postgraduate",
+      "credential": "MD",
+      "specialization": "Pathology",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "direct discipline: medicine",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-014-md-physical-medicine-rehabilitaion",
+      "name": "MD Physical Medicine & Rehabilitaion",
+      "level": "postgraduate",
+      "credential": "MD",
+      "specialization": "Physical Medicine & Rehabilitaion",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "direct discipline: medicine",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-015-md-physiology",
+      "name": "MD Physiology",
+      "level": "postgraduate",
+      "credential": "MD",
+      "specialization": "Physiology",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "direct discipline: medicine",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-016-md-psychiatry",
+      "name": "MD Psychiatry",
+      "level": "postgraduate",
+      "credential": "MD",
+      "specialization": "Psychiatry",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 132,
+          "career_node_slug": "md_psychiatry",
+          "career_breadcrumb": "Biology / PCB > MBBS > MD Psychiatry",
+          "relation": "direct discipline: psychiatry",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-017-md-radiation-oncology",
+      "name": "MD Radiation Oncology",
+      "level": "postgraduate",
+      "credential": "MD",
+      "specialization": "Radiation Oncology",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 38,
+          "career_node_slug": "bsc_radiology",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Radiology & Imaging Technology",
+          "relation": "closest-specialization: radiology and imaging",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-018-md-radiodiagnosis",
+      "name": "MD Radiodiagnosis",
+      "level": "postgraduate",
+      "credential": "MD",
+      "specialization": "Radiodiagnosis",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 133,
+          "career_node_slug": "md_radiology",
+          "career_breadcrumb": "Biology / PCB > MBBS > MD Radiology",
+          "relation": "closest-specialization: radiology",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-019-md-respiratory-medicine",
+      "name": "MD Respiratory Medicine",
+      "level": "postgraduate",
+      "credential": "MD",
+      "specialization": "Respiratory Medicine",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 128,
+          "career_node_slug": "md_general",
+          "career_breadcrumb": "Biology / PCB > MBBS > MD General Medicine",
+          "relation": "closest-specialization: general medicine",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-020-md-pharmacology",
+      "name": "MD pharmacology",
+      "level": "postgraduate",
+      "credential": "MD",
+      "specialization": "pharmacology",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "closest-specialization: pharmacology",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-021-ms-e-n-t",
+      "name": "MS E.N.T",
+      "level": "postgraduate",
+      "credential": "MS",
+      "specialization": "E.N.T",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "direct discipline: medicine",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-022-ms-obst-gynaecology",
+      "name": "MS Obst. & Gynaecology",
+      "level": "postgraduate",
+      "credential": "MS",
+      "specialization": "Obst. & Gynaecology",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "direct discipline: medicine",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-023-ms-ophthalmology",
+      "name": "MS Ophthalmology",
+      "level": "postgraduate",
+      "credential": "MS",
+      "specialization": "Ophthalmology",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "direct discipline: medicine",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-024-ms-orthopaedics-surgery",
+      "name": "MS Orthopaedics Surgery",
+      "level": "postgraduate",
+      "credential": "MS",
+      "specialization": "Orthopaedics Surgery",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 129,
+          "career_node_slug": "ms_surgery",
+          "career_breadcrumb": "Biology / PCB > MBBS > MS Surgery",
+          "relation": "closest-specialization: surgery",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-025-ms-traumatology-and-surgery",
+      "name": "MS Traumatology and Surgery",
+      "level": "postgraduate",
+      "credential": "MS",
+      "specialization": "Traumatology and Surgery",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 129,
+          "career_node_slug": "ms_surgery",
+          "career_breadcrumb": "Biology / PCB > MBBS > MS Surgery",
+          "relation": "closest-specialization: surgery",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-026-ms-general-surgery",
+      "name": "MS  General Surgery",
+      "level": "postgraduate",
+      "credential": "MS",
+      "specialization": "General Surgery",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 129,
+          "career_node_slug": "ms_surgery",
+          "career_breadcrumb": "Biology / PCB > MBBS > MS Surgery",
+          "relation": "closest-specialization: surgery",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-027-dm-cardiology",
+      "name": "DM Cardiology",
+      "level": "super-speciality",
+      "credential": "DM",
+      "specialization": "Cardiology",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "direct discipline: medicine",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-028-dm-clinical-hematology",
+      "name": "DM Clinical Hematology",
+      "level": "super-speciality",
+      "credential": "DM",
+      "specialization": "Clinical Hematology",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 128,
+          "career_node_slug": "md_general",
+          "career_breadcrumb": "Biology / PCB > MBBS > MD General Medicine",
+          "relation": "closest-specialization: general medicine",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-029-dm-critical-care-medicine",
+      "name": "DM Critical Care Medicine",
+      "level": "super-speciality",
+      "credential": "DM",
+      "specialization": "Critical Care Medicine",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "direct discipline: medicine",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-030-dm-geriatric-mental-health",
+      "name": "DM Geriatric mental health",
+      "level": "super-speciality",
+      "credential": "DM",
+      "specialization": "Geriatric mental health",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 132,
+          "career_node_slug": "md_psychiatry",
+          "career_breadcrumb": "Biology / PCB > MBBS > MD Psychiatry",
+          "relation": "direct discipline: psychiatry",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-031-dm-medical-gastroenterology",
+      "name": "DM Medical Gastroenterology",
+      "level": "super-speciality",
+      "credential": "DM",
+      "specialization": "Medical Gastroenterology",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 128,
+          "career_node_slug": "md_general",
+          "career_breadcrumb": "Biology / PCB > MBBS > MD General Medicine",
+          "relation": "closest-specialization: general medicine",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-032-dm-neurology",
+      "name": "DM Neurology",
+      "level": "super-speciality",
+      "credential": "DM",
+      "specialization": "Neurology",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 129,
+          "career_node_slug": "ms_surgery",
+          "career_breadcrumb": "Biology / PCB > MBBS > MS Surgery",
+          "relation": "closest-specialization: surgery",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-033-dm-pulmonary-medicine",
+      "name": "DM Pulmonary Medicine",
+      "level": "super-speciality",
+      "credential": "DM",
+      "specialization": "Pulmonary Medicine",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 128,
+          "career_node_slug": "md_general",
+          "career_breadcrumb": "Biology / PCB > MBBS > MD General Medicine",
+          "relation": "closest-specialization: general medicine",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-034-dm-rheumatology",
+      "name": "DM Rheumatology",
+      "level": "super-speciality",
+      "credential": "DM",
+      "specialization": "Rheumatology",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 128,
+          "career_node_slug": "md_general",
+          "career_breadcrumb": "Biology / PCB > MBBS > MD General Medicine",
+          "relation": "closest-specialization: general medicine",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-035-mch-cardio-vascular-thoracic-surgery",
+      "name": "MCH Cardio Vascular  Thoracic Surgery",
+      "level": "super-speciality",
+      "credential": "MCH",
+      "specialization": "Cardio Vascular  Thoracic Surgery",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 129,
+          "career_node_slug": "ms_surgery",
+          "career_breadcrumb": "Biology / PCB > MBBS > MS Surgery",
+          "relation": "closest-specialization: surgery",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-036-mch-endocrine-surgery",
+      "name": "MCH Endocrine Surgery",
+      "level": "super-speciality",
+      "credential": "MCH",
+      "specialization": "Endocrine Surgery",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 129,
+          "career_node_slug": "ms_surgery",
+          "career_breadcrumb": "Biology / PCB > MBBS > MS Surgery",
+          "relation": "closest-specialization: surgery",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-037-mch-neurosurgery",
+      "name": "MCH NeuroSurgery",
+      "level": "super-speciality",
+      "credential": "MCH",
+      "specialization": "NeuroSurgery",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 129,
+          "career_node_slug": "ms_surgery",
+          "career_breadcrumb": "Biology / PCB > MBBS > MS Surgery",
+          "relation": "closest-specialization: surgery",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-038-mch-paediatric-surgery",
+      "name": "MCH Paediatric Surgery",
+      "level": "super-speciality",
+      "credential": "MCH",
+      "specialization": "Paediatric Surgery",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 129,
+          "career_node_slug": "ms_surgery",
+          "career_breadcrumb": "Biology / PCB > MBBS > MS Surgery",
+          "relation": "closest-specialization: surgery",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-039-mch-plastic-reconstructive-surgery",
+      "name": "MCH Plastic Reconstructive Surgery",
+      "level": "super-speciality",
+      "credential": "MCH",
+      "specialization": "Plastic Reconstructive Surgery",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 129,
+          "career_node_slug": "ms_surgery",
+          "career_breadcrumb": "Biology / PCB > MBBS > MS Surgery",
+          "relation": "closest-specialization: surgery",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-040-mch-surgical-gastroenterology",
+      "name": "MCH Surgical Gastroenterology",
+      "level": "super-speciality",
+      "credential": "MCH",
+      "specialization": "Surgical Gastroenterology",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 128,
+          "career_node_slug": "md_general",
+          "career_breadcrumb": "Biology / PCB > MBBS > MD General Medicine",
+          "relation": "closest-specialization: general medicine",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-041-mch-surgical-oncology",
+      "name": "MCH Surgical Oncology",
+      "level": "super-speciality",
+      "credential": "MCH",
+      "specialization": "Surgical Oncology",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 129,
+          "career_node_slug": "ms_surgery",
+          "career_breadcrumb": "Biology / PCB > MBBS > MS Surgery",
+          "relation": "closest-specialization: surgery",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-042-mch-urology",
+      "name": "MCH Urology",
+      "level": "super-speciality",
+      "credential": "MCH",
+      "specialization": "Urology",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 129,
+          "career_node_slug": "ms_surgery",
+          "career_breadcrumb": "Biology / PCB > MBBS > MS Surgery",
+          "relation": "closest-specialization: surgery",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-043-mch-paediatric-orthopaedics",
+      "name": "MCh Paediatric Orthopaedics",
+      "level": "super-speciality",
+      "credential": "MCH",
+      "specialization": "Paediatric Orthopaedics",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 129,
+          "career_node_slug": "ms_surgery",
+          "career_breadcrumb": "Biology / PCB > MBBS > MS Surgery",
+          "relation": "closest-specialization: surgery",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-044-5-m-phil-in-clinical-psychology",
+      "name": "5 M Phil in Clinical  Psychology",
+      "level": "postgraduate",
+      "credential": "M.Phil",
+      "specialization": "5 M Phil in Clinical  Psychology",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "direct discipline: medicine",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-045-conservative-dentistry",
+      "name": "Conservative Dentistry",
+      "level": "postgraduate",
+      "credential": "MDS",
+      "specialization": "Conservative Dentistry",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 16,
+          "career_node_slug": "bds",
+          "career_breadcrumb": "Biology / PCB > BDS (Dental Surgery)",
+          "relation": "direct discipline: dental surgery",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-046-oral-maxillofacial-surgery",
+      "name": "Oral &Maxillofacial Surgery",
+      "level": "postgraduate",
+      "credential": "MDS",
+      "specialization": "Oral &Maxillofacial Surgery",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 16,
+          "career_node_slug": "bds",
+          "career_breadcrumb": "Biology / PCB > BDS (Dental Surgery)",
+          "relation": "direct discipline: dental surgery",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-047-oral-medicine-radiology",
+      "name": "Oral Medicine & Radiology",
+      "level": "postgraduate",
+      "credential": "MDS",
+      "specialization": "Oral Medicine & Radiology",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 16,
+          "career_node_slug": "bds",
+          "career_breadcrumb": "Biology / PCB > BDS (Dental Surgery)",
+          "relation": "direct discipline: dental surgery",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-048-orthodontic",
+      "name": "Orthodontic",
+      "level": "postgraduate",
+      "credential": "MDS",
+      "specialization": "Orthodontic",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 16,
+          "career_node_slug": "bds",
+          "career_breadcrumb": "Biology / PCB > BDS (Dental Surgery)",
+          "relation": "direct discipline: dental surgery",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-049-pedaitric-preventive-dentistry",
+      "name": "Pedaitric Preventive dentistry",
+      "level": "postgraduate",
+      "credential": "MDS",
+      "specialization": "Pedaitric Preventive dentistry",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 16,
+          "career_node_slug": "bds",
+          "career_breadcrumb": "Biology / PCB > BDS (Dental Surgery)",
+          "relation": "direct discipline: dental surgery",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-050-periodontology",
+      "name": "Periodontology",
+      "level": "postgraduate",
+      "credential": "MDS",
+      "specialization": "Periodontology",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 16,
+          "career_node_slug": "bds",
+          "career_breadcrumb": "Biology / PCB > BDS (Dental Surgery)",
+          "relation": "direct discipline: dental surgery",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-051-prosthodontics-and-crown-bridge",
+      "name": "Prosthodontics and Crown & Bridge",
+      "level": "postgraduate",
+      "credential": "MDS",
+      "specialization": "Prosthodontics and Crown & Bridge",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 16,
+          "career_node_slug": "bds",
+          "career_breadcrumb": "Biology / PCB > BDS (Dental Surgery)",
+          "relation": "direct discipline: dental surgery",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-052-public-health-dentistry",
+      "name": "Public Health Dentistry",
+      "level": "postgraduate",
+      "credential": "MDS",
+      "specialization": "Public Health Dentistry",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 16,
+          "career_node_slug": "bds",
+          "career_breadcrumb": "Biology / PCB > BDS (Dental Surgery)",
+          "relation": "direct discipline: dental surgery",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-053-oral-pathology-microbiology",
+      "name": "Oral Pathology & Microbiology",
+      "level": "postgraduate",
+      "credential": "MDS",
+      "specialization": "Oral Pathology & Microbiology",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 16,
+          "career_node_slug": "bds",
+          "career_breadcrumb": "Biology / PCB > BDS (Dental Surgery)",
+          "relation": "direct discipline: dental surgery",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-054-bds",
+      "name": "BDS",
+      "level": "undergraduate",
+      "credential": "BDS",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 16,
+          "career_node_slug": "bds",
+          "career_breadcrumb": "Biology / PCB > BDS (Dental Surgery)",
+          "relation": "direct discipline: dental surgery",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-055-bsc-nursing",
+      "name": "BSc Nursing",
+      "level": "undergraduate",
+      "credential": "BSc",
+      "specialization": "Nursing",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 19,
+          "career_node_slug": "bsc_nursing",
+          "career_breadcrumb": "Biology / PCB > B.Sc Nursing",
+          "relation": "direct discipline: nursing",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-056-cetificate-in-community-health-for-nurses-cchn",
+      "name": "Cetificate in Community Health for Nurses CCHN",
+      "level": "certificate",
+      "credential": "Certificate",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 142,
+          "career_node_slug": "public_health_nurse",
+          "career_breadcrumb": "Biology / PCB > B.Sc Nursing > Public Health Nurse",
+          "relation": "closest-specialization: community and public health",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-057-msc-nursing",
+      "name": "Msc Nursing",
+      "level": "postgraduate",
+      "credential": "MSc",
+      "specialization": "Nursing",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 19,
+          "career_node_slug": "bsc_nursing",
+          "career_breadcrumb": "Biology / PCB > B.Sc Nursing",
+          "relation": "direct discipline: nursing",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-058-bsc-radiotherapy",
+      "name": "BSc Radiotherapy",
+      "level": "undergraduate",
+      "credential": "BSc",
+      "specialization": "Radiotherapy",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 188,
+          "career_node_slug": "radiographer",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Radiology & Imaging Technology > Radiographer",
+          "relation": "closest-specialization: radiotherapy and radiography",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-059-phd",
+      "name": "PHD",
+      "level": "doctoral",
+      "credential": "PhD",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "direct discipline: medicine",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-060-post-md-phd",
+      "name": "Post MD-PhD",
+      "level": "doctoral",
+      "credential": "Post MD-PhD",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "direct discipline: medicine",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-061-master-in-hospital-administration",
+      "name": "Master in Hospital Administration",
+      "level": "postgraduate",
+      "credential": "Master",
+      "specialization": "in Hospital Administration",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest-parent: paramedical and health sciences",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-062-masters-in-health-profession-medical-education",
+      "name": "Masters in Health Profession Medical Education",
+      "level": "postgraduate",
+      "credential": "Masters",
+      "specialization": "in Health Profession Medical Education",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest-parent: paramedical and health sciences",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-063-fellowship-in-burn-and-reconstructive-surgery",
+      "name": "Fellowship In Burn and Reconstructive Surgery",
+      "level": "certificate",
+      "credential": "Fellowship",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 129,
+          "career_node_slug": "ms_surgery",
+          "career_breadcrumb": "Biology / PCB > MBBS > MS Surgery",
+          "relation": "closest-specialization: surgery",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-064-fellowship-in-cleft-orthodontics",
+      "name": "Fellowship In Cleft Orthodontics",
+      "level": "certificate",
+      "credential": "Fellowship",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 129,
+          "career_node_slug": "ms_surgery",
+          "career_breadcrumb": "Biology / PCB > MBBS > MS Surgery",
+          "relation": "closest-specialization: surgery",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-065-fellowship-in-craniofacial-surgery",
+      "name": "Fellowship In Craniofacial Surgery",
+      "level": "certificate",
+      "credential": "Fellowship",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 129,
+          "career_node_slug": "ms_surgery",
+          "career_breadcrumb": "Biology / PCB > MBBS > MS Surgery",
+          "relation": "closest-specialization: surgery",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-066-fellowship-in-anorectal-surgery",
+      "name": "Fellowship  in Anorectal Surgery",
+      "level": "certificate",
+      "credential": "Fellowship",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 129,
+          "career_node_slug": "ms_surgery",
+          "career_breadcrumb": "Biology / PCB > MBBS > MS Surgery",
+          "relation": "closest-specialization: surgery",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-067-fellowship-inthoracic-surgery",
+      "name": "Fellowship inThoracic Surgery",
+      "level": "certificate",
+      "credential": "Fellowship",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 129,
+          "career_node_slug": "ms_surgery",
+          "career_breadcrumb": "Biology / PCB > MBBS > MS Surgery",
+          "relation": "closest-specialization: surgery",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-068-fellowship-in-child-and-adolescent-psychiatry",
+      "name": "Fellowship in Child and Adolescent Psychiatry",
+      "level": "certificate",
+      "credential": "Fellowship",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 132,
+          "career_node_slug": "md_psychiatry",
+          "career_breadcrumb": "Biology / PCB > MBBS > MD Psychiatry",
+          "relation": "direct discipline: psychiatry",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-069-fellowship-in-chronomedicine",
+      "name": "Fellowship in Chronomedicine",
+      "level": "certificate",
+      "credential": "Fellowship",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "direct discipline: medicine",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-070-fellowship-in-clinical-hematology",
+      "name": "Fellowship in Clinical Hematology",
+      "level": "certificate",
+      "credential": "Fellowship",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 128,
+          "career_node_slug": "md_general",
+          "career_breadcrumb": "Biology / PCB > MBBS > MD General Medicine",
+          "relation": "closest-specialization: general medicine",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-071-fellowship-in-gynaecological-oncology",
+      "name": "Fellowship in Gynaecological Oncology",
+      "level": "certificate",
+      "credential": "Fellowship",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 129,
+          "career_node_slug": "ms_surgery",
+          "career_breadcrumb": "Biology / PCB > MBBS > MS Surgery",
+          "relation": "closest-specialization: surgery",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-072-fellowship-in-hand-and-microsurgery",
+      "name": "Fellowship in Hand and Microsurgery",
+      "level": "certificate",
+      "credential": "Fellowship",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 129,
+          "career_node_slug": "ms_surgery",
+          "career_breadcrumb": "Biology / PCB > MBBS > MS Surgery",
+          "relation": "closest-specialization: surgery",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-073-fellowship-in-intervention-cardiology",
+      "name": "Fellowship in Intervention Cardiology",
+      "level": "certificate",
+      "credential": "Fellowship",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "direct discipline: medicine",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-074-fellowship-in-medical-surgical-retina",
+      "name": "Fellowship in Medical & Surgical Retina",
+      "level": "certificate",
+      "credential": "Fellowship",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 129,
+          "career_node_slug": "ms_surgery",
+          "career_breadcrumb": "Biology / PCB > MBBS > MS Surgery",
+          "relation": "closest-specialization: surgery",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-075-fellowship-in-neonatology",
+      "name": "Fellowship in Neonatology",
+      "level": "certificate",
+      "credential": "Fellowship",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 130,
+          "career_node_slug": "md_paediatrics",
+          "career_breadcrumb": "Biology / PCB > MBBS > MD Paediatrics",
+          "relation": "closest-specialization: paediatrics",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-076-fellowship-in-oculoplasty",
+      "name": "Fellowship in Oculoplasty",
+      "level": "certificate",
+      "credential": "Fellowship",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "direct discipline: medicine",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-077-fellowship-in-pediatric-neurology",
+      "name": "Fellowship in Pediatric Neurology",
+      "level": "certificate",
+      "credential": "Fellowship",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 130,
+          "career_node_slug": "md_paediatrics",
+          "career_breadcrumb": "Biology / PCB > MBBS > MD Paediatrics",
+          "relation": "closest-specialization: paediatrics",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-078-fellowship-in-pediatric-oncology",
+      "name": "Fellowship in Pediatric Oncology",
+      "level": "certificate",
+      "credential": "Fellowship",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 130,
+          "career_node_slug": "md_paediatrics",
+          "career_breadcrumb": "Biology / PCB > MBBS > MD Paediatrics",
+          "relation": "closest-specialization: paediatrics",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-079-fellowship-in-pediatric-orthopedics",
+      "name": "Fellowship in Pediatric Orthopedics",
+      "level": "certificate",
+      "credential": "Fellowship",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 129,
+          "career_node_slug": "ms_surgery",
+          "career_breadcrumb": "Biology / PCB > MBBS > MS Surgery",
+          "relation": "closest-specialization: surgery",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-080-fellowship-in-sleep-medicine",
+      "name": "Fellowship in Sleep Medicine",
+      "level": "certificate",
+      "credential": "Fellowship",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "direct discipline: medicine",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-081-fellowship-in-sports-medicine",
+      "name": "Fellowship in Sports Medicine",
+      "level": "certificate",
+      "credential": "Fellowship",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "direct discipline: medicine",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-082-fellowship-in-strabismus-pediatric-ophthalmology",
+      "name": "Fellowship in Strabismus & Pediatric Ophthalmology",
+      "level": "certificate",
+      "credential": "Fellowship",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "direct discipline: medicine",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-083-fellowship-in-tropical-neurology-infectious-disease",
+      "name": "Fellowship in Tropical Neurology & Infectious Disease",
+      "level": "certificate",
+      "credential": "Fellowship",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 129,
+          "career_node_slug": "ms_surgery",
+          "career_breadcrumb": "Biology / PCB > MBBS > MS Surgery",
+          "relation": "closest-specialization: surgery",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-084-pre-conception-and-pre-natal-diagnostic-techniques-pcpndt",
+      "name": "Pre-Conception and Pre-Natal Diagnostic Techniques PCPNDT",
+      "level": "certificate",
+      "credential": "Certificate",
+      "specialization": "PCPNDT",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 142,
+          "career_node_slug": "public_health_nurse",
+          "career_breadcrumb": "Biology / PCB > B.Sc Nursing > Public Health Nurse",
+          "relation": "closest-specialization: community and public health",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-085-pdcc-in-hematopathology",
+      "name": "PDCC In Hematopathology",
+      "level": "certificate",
+      "credential": "PDCC",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "direct discipline: medicine",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-086-pdcc-in-interventional-pulmonology",
+      "name": "PDCC In Interventional Pulmonology",
+      "level": "certificate",
+      "credential": "PDCC",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 128,
+          "career_node_slug": "md_general",
+          "career_breadcrumb": "Biology / PCB > MBBS > MD General Medicine",
+          "relation": "closest-specialization: general medicine",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-087-pdcc-in-onco-surgical-pathology",
+      "name": "PDCC In Onco Surgical Pathology",
+      "level": "certificate",
+      "credential": "PDCC",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 129,
+          "career_node_slug": "ms_surgery",
+          "career_breadcrumb": "Biology / PCB > MBBS > MS Surgery",
+          "relation": "closest-specialization: surgery",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-088-pdcc-in-pulmonary-and-critical-care-medicine",
+      "name": "PDCC In Pulmonary And Critical Care Medicine",
+      "level": "certificate",
+      "credential": "PDCC",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 128,
+          "career_node_slug": "md_general",
+          "career_breadcrumb": "Biology / PCB > MBBS > MD General Medicine",
+          "relation": "closest-specialization: general medicine",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-089-pdcc-in-allergy-asthma-applied-immunology",
+      "name": "PDCC in Allergy  Asthma & Applied Immunology",
+      "level": "certificate",
+      "credential": "PDCC",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "direct discipline: medicine",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-090-pdcc-in-arthoplasty",
+      "name": "PDCC in Arthoplasty",
+      "level": "certificate",
+      "credential": "PDCC",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 129,
+          "career_node_slug": "ms_surgery",
+          "career_breadcrumb": "Biology / PCB > MBBS > MS Surgery",
+          "relation": "closest-specialization: surgery",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-091-pdcc-in-breast-surgery",
+      "name": "PDCC in Breast Surgery",
+      "level": "certificate",
+      "credential": "PDCC",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 129,
+          "career_node_slug": "ms_surgery",
+          "career_breadcrumb": "Biology / PCB > MBBS > MS Surgery",
+          "relation": "closest-specialization: surgery",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-092-pdcc-in-cardiac-anaesthesia",
+      "name": "PDCC in Cardiac Anaesthesia",
+      "level": "certificate",
+      "credential": "PDCC",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "direct discipline: medicine",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-093-pdcc-in-critical-care-anaesthesia",
+      "name": "PDCC in Critical Care Anaesthesia",
+      "level": "certificate",
+      "credential": "PDCC",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "direct discipline: medicine",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-094-pdcc-in-critical-care-medicine",
+      "name": "PDCC in Critical Care Medicine",
+      "level": "certificate",
+      "credential": "PDCC",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "direct discipline: medicine",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-095-pdcc-in-cytopathology",
+      "name": "PDCC in Cytopathology",
+      "level": "certificate",
+      "credential": "PDCC",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "direct discipline: medicine",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-096-pdcc-in-fetal-medicine",
+      "name": "PDCC in Fetal Medicine",
+      "level": "certificate",
+      "credential": "PDCC",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "direct discipline: medicine",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-097-pdcc-in-gi-endosocopy",
+      "name": "PDCC in GI Endosocopy",
+      "level": "certificate",
+      "credential": "PDCC",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "direct discipline: medicine",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-098-pdcc-in-head-neck-surgery",
+      "name": "PDCC in Head & Neck surgery",
+      "level": "certificate",
+      "credential": "PDCC",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 129,
+          "career_node_slug": "ms_surgery",
+          "career_breadcrumb": "Biology / PCB > MBBS > MS Surgery",
+          "relation": "closest-specialization: surgery",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-099-pdcc-in-hepatobiliary-sciences",
+      "name": "PDCC in Hepatobiliary Sciences",
+      "level": "certificate",
+      "credential": "PDCC",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "direct discipline: medicine",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-100-pdcc-in-hepatology",
+      "name": "PDCC in Hepatology",
+      "level": "certificate",
+      "credential": "PDCC",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 128,
+          "career_node_slug": "md_general",
+          "career_breadcrumb": "Biology / PCB > MBBS > MD General Medicine",
+          "relation": "closest-specialization: general medicine",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-101-pdcc-in-infectious-disease-medicine",
+      "name": "PDCC in Infectious disease (Medicine)",
+      "level": "certificate",
+      "credential": "PDCC",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "direct discipline: medicine",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-102-pdcc-in-infectious-disease-microbiology",
+      "name": "PDCC in Infectious disease (Microbiology)",
+      "level": "certificate",
+      "credential": "PDCC",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 34,
+          "career_node_slug": "bsc_microbio",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Microbiology",
+          "relation": "closest-specialization: microbiology",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-103-pdcc-in-minimal-invasive-surgery",
+      "name": "PDCC in Minimal Invasive Surgery",
+      "level": "certificate",
+      "credential": "PDCC",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 129,
+          "career_node_slug": "ms_surgery",
+          "career_breadcrumb": "Biology / PCB > MBBS > MS Surgery",
+          "relation": "closest-specialization: surgery",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-104-pdcc-in-neuro-anaesthsia-and-neuro-critical-care",
+      "name": "PDCC in Neuro Anaesthsia and Neuro Critical Care",
+      "level": "certificate",
+      "credential": "PDCC",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "direct discipline: medicine",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-105-pdcc-in-paediatric-anaesthesia",
+      "name": "PDCC in Paediatric Anaesthesia",
+      "level": "certificate",
+      "credential": "PDCC",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "direct discipline: medicine",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-106-pdcc-in-pain-medicine",
+      "name": "PDCC in Pain Medicine",
+      "level": "certificate",
+      "credential": "PDCC",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "direct discipline: medicine",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-107-pdcc-in-reproductive-medicine",
+      "name": "PDCC in Reproductive Medicine",
+      "level": "certificate",
+      "credential": "PDCC",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "direct discipline: medicine",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-108-pdcc-in-spine-surgery",
+      "name": "PDCC in Spine Surgery",
+      "level": "certificate",
+      "credential": "PDCC",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 129,
+          "career_node_slug": "ms_surgery",
+          "career_breadcrumb": "Biology / PCB > MBBS > MS Surgery",
+          "relation": "closest-specialization: surgery",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-109-pdcc-in-trauma-counselling-trauma-rehabilitation",
+      "name": "PDCC in Trauma Counselling & Trauma Rehabilitation",
+      "level": "certificate",
+      "credential": "PDCC",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 23,
+          "career_node_slug": "bpt",
+          "career_breadcrumb": "Biology / PCB > BPT (Physiotherapy)",
+          "relation": "direct discipline: physiotherapy",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-110-pdcc-in-trauma-surgery",
+      "name": "PDCC in Trauma surgery",
+      "level": "certificate",
+      "credential": "PDCC",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 129,
+          "career_node_slug": "ms_surgery",
+          "career_breadcrumb": "Biology / PCB > MBBS > MS Surgery",
+          "relation": "closest-specialization: surgery",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-111-pdcc-in-diabatology",
+      "name": "PDCC in  Diabatology",
+      "level": "certificate",
+      "credential": "PDCC",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 128,
+          "career_node_slug": "md_general",
+          "career_breadcrumb": "Biology / PCB > MBBS > MD General Medicine",
+          "relation": "closest-specialization: general medicine",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-112-diploma-in-anaesthesia-and-critical-care-technician",
+      "name": "Diploma in Anaesthesia and Critical Care Technician",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/courses_admission.php",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "direct discipline: medicine",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-113-diploma-in-blood-transfusion-technician",
+      "name": "Diploma in Blood Transfusion Technician",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/courses_admission.php",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 187,
+          "career_node_slug": "blood_bank_tech",
+          "career_breadcrumb": "Paramedical & Health Sciences > DMLT (Medical Lab Technology) > Blood Bank Technician",
+          "relation": "closest-specialization: blood transfusion technology",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-114-diploma-in-cardiology-technician",
+      "name": "Diploma in Cardiology Technician",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/courses_admission.php",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "direct discipline: medicine",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-115-diploma-in-c-t-scan-technician",
+      "name": "Diploma in C.T. Scan Technician",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/courses_admission.php",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 189,
+          "career_node_slug": "mri_technician",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Radiology & Imaging Technology > MRI / CT Scan Technician",
+          "relation": "closest-specialization: MRI and CT technology",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-116-diploma-in-dialysis-technician",
+      "name": "Diploma in Dialysis Technician",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/courses_admission.php",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "direct discipline: medicine",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-117-diploma-in-emergency-and-trauma-care-technician",
+      "name": "Diploma in Emergency and Trauma Care Technician",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/courses_admission.php",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "direct discipline: medicine",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-118-diploma-in-lab-technician",
+      "name": "Diploma in Lab Technician",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/courses_admission.php",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 185,
+          "career_node_slug": "lab_tech_medical",
+          "career_breadcrumb": "Paramedical & Health Sciences > DMLT (Medical Lab Technology) > Medical Lab Technician",
+          "relation": "closest-specialization: medical laboratory technician",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-119-diploma-in-m-r-i-technician",
+      "name": "Diploma in M.R.I. Technician",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/courses_admission.php",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 189,
+          "career_node_slug": "mri_technician",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Radiology & Imaging Technology > MRI / CT Scan Technician",
+          "relation": "closest-specialization: MRI and CT technology",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-120-diploma-in-operation-theatre-technician",
+      "name": "Diploma in Operation Theatre Technician",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/courses_admission.php",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "direct discipline: medicine",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-121-diploma-in-optometry",
+      "name": "Diploma in Optometry",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/courses_admission.php",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 36,
+          "career_node_slug": "bsc_optometry",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Optometry",
+          "relation": "direct discipline: optometry",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-122-diploma-in-physiotherapy",
+      "name": "Diploma in Physiotherapy",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/courses_admission.php",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 23,
+          "career_node_slug": "bpt",
+          "career_breadcrumb": "Biology / PCB > BPT (Physiotherapy)",
+          "relation": "direct discipline: physiotherapy",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-123-diploma-in-radiotherapy-technician",
+      "name": "Diploma in Radiotherapy Technician",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/courses_admission.php",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 188,
+          "career_node_slug": "radiographer",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Radiology & Imaging Technology > Radiographer",
+          "relation": "closest-specialization: radiotherapy and radiography",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-124-diploma-in-sanitation",
+      "name": "Diploma in Sanitation",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/courses_admission.php",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest-parent: paramedical and health sciences",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-125-diploma-in-x-ray-technician",
+      "name": "Diploma in X-Ray Technician",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/courses_admission.php",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 188,
+          "career_node_slug": "radiographer",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Radiology & Imaging Technology > Radiographer",
+          "relation": "closest-specialization: radiotherapy and radiography",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-126-bachelor-of-physiotherapy-bpt",
+      "name": "Bachelor of Physiotherapy (BPT)",
+      "level": "undergraduate",
+      "credential": "BPT",
+      "specialization": "Physiotherapy",
+      "duration": "4½ Years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/paramedical_about_faculty.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 23,
+          "career_node_slug": "bpt",
+          "career_breadcrumb": "Biology / PCB > BPT (Physiotherapy)",
+          "relation": "direct discipline: physiotherapy",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-127-bachelor-in-medical-laboratory-science-bmls",
+      "name": "Bachelor in Medical Laboratory Science (BMLS)",
+      "level": "undergraduate",
+      "credential": "BMLS",
+      "specialization": "Medical Laboratory Science",
+      "duration": "4 Years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/paramedical_about_faculty.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 37,
+          "career_node_slug": "dmlt",
+          "career_breadcrumb": "Paramedical & Health Sciences > DMLT (Medical Lab Technology)",
+          "relation": "closest-specialization: medical laboratory technology",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "king-george-s-medical-university-kgmu-128-bachelor-of-optometry-b-optom",
+      "name": "Bachelor of Optometry (B. Optom.)",
+      "level": "undergraduate",
+      "credential": "B. Optom.",
+      "specialization": "Optometry",
+      "duration": "4 Years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.kgmu.org/paramedical_about_faculty.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 36,
+          "career_node_slug": "bsc_optometry",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Optometry",
+          "relation": "direct discipline: optometry",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "Normal TLS verification first returned the managed proxy error \"self signed certificate in certificate chain\"; public GETs were then retried with curl --insecure only for the expected official/search hosts.",
+    "The official homepage currently returns an origin database max_user_connections error, but the official campus and catalogue pages are accessible and identify the same institution and domain.",
+    "The central Academic Program page and the current Allied and Healthcare Sciences page were used for the current catalogue; legacy admissions sections with historical year-labelled notices were not treated as separate short-term events.",
+    "Career mappings were read-only against assets/data/career_path.db."
+  ]
+}

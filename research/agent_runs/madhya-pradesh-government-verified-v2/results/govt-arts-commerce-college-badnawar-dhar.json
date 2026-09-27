@@ -1,0 +1,187 @@
+{
+  "institution_id": "govt-arts-commerce-college-badnawar-dhar",
+  "nirf_name": "Govt. Arts & Commerce College, Badnawar, Dhar",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Dhar",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://highereducation.mp.gov.in/?orgid=148",
+  "website_verification_status": "verified",
+  "description": "Government College Badnawar was established in 1983 at Badnawar tehsil in Dhar district, Madhya Pradesh. The official site records undergraduate Arts, Commerce, and Science classes at the institution.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "exact institution name",
+        "Badnawar city",
+        "Madhya Pradesh state"
+      ]
+    },
+    {
+      "type": "state_higher_education_directory",
+      "url": "https://highereducation.mp.gov.in/CollegeDisp/getTable",
+      "supports": [
+        "official Madhya Pradesh college directory record for orgid 148",
+        "Govt College, Badnawar",
+        "Dhar district"
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://highereducation.mp.gov.in/?orgid=148",
+      "supports": [
+        "dedicated official college page",
+        "campus title identifying Government College Badnawar, District Dhar"
+      ]
+    },
+    {
+      "type": "official_identity",
+      "url": "https://highereducation.mp.gov.in/?page=i7ShQHZiDogr7yyU0sXSBA%3D%3D&orgid=148",
+      "supports": [
+        "Badnawar tehsil and Dhar district",
+        "1983 establishment",
+        "institution description"
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=%2BdlVjjnBumTTMRN3n9orIA%3D%3D&orgid=148",
+      "supports": [
+        "regular UG programme names",
+        "official eligibility text"
+      ]
+    },
+    {
+      "type": "official_programme_overview",
+      "url": "https://highereducation.mp.gov.in/?page=b6M7UP8NATW5HqyYUp5VzQ%3D%3D&orgid=148",
+      "supports": [
+        "PG, UG, and Diploma programme catalogue sections; no rows populated"
+      ]
+    },
+    {
+      "type": "official_distance_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=k%2B233wd2jJrUz4mEyvfHYw%3D%3D&orgid=148",
+      "supports": [
+        "distance PG, UG, and Diploma catalogue sections; no rows populated"
+      ]
+    }
+  ],
+  "website_search_evidence": [],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "govt-arts-commerce-college-badnawar-dhar-bachelor-of-arts",
+      "name": "BACHELOR OF ARTS",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "12th IN MATHS/BIOLOGY/COMMERCE/ARTS",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=%2BdlVjjnBumTTMRN3n9orIA%3D%3D&orgid=148",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest_parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "nearest_parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-arts-commerce-college-badnawar-dhar-bachelor-of-commerce",
+      "name": "BACHELOR OF COMMERCE",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "12th IN MATHS/BIOLOGY/COMMERCE",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=%2BdlVjjnBumTTMRN3n9orIA%3D%3D&orgid=148",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-arts-commerce-college-badnawar-dhar-bachelor-of-science-maths",
+      "name": "BACHELOR OF SCIENCE (MATHS)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "MATHS",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "12th IN MATHS",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=%2BdlVjjnBumTTMRN3n9orIA%3D%3D&orgid=148",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-arts-commerce-college-badnawar-dhar-bachelor-of-science-biology",
+      "name": "BACHELOR OF SCIENCE (BIOLOGY)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "BIOLOGY",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "12th IN BIOLOGY",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=%2BdlVjjnBumTTMRN3n9orIA%3D%3D&orgid=148",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The 2025 NIRF College directory contains the exact assigned institution row with city Badnawar and state Madhya Pradesh.",
+    "The official Madhya Pradesh Higher Education portal page for orgid 148 identifies the campus as Government College Badnawar, District Dhar.",
+    "Normal TLS verification failed with the managed proxy's self-signed certificate-chain error; public GET requests then used curl --insecure only after confirming the expected official hostnames.",
+    "The regular-course catalogue lists four UG programmes. Separate official Programme Offered and Distance Education pages expose empty PG, UG, and Diploma tables, so additional active programmes cannot be ruled out and the catalogue is marked partial.",
+    "The regular-course table appends '(2 YEARS)' inside its minimum-qualification cells without an unambiguous duration label; duration was therefore left null for manual review.",
+    "The generic BACHELOR OF ARTS programme has no exact generic BA node in career_path.db and is mapped to the nearest Arts parent nodes with low confidence."
+  ]
+}

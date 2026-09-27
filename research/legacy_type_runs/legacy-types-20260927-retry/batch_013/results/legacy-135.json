@@ -1,0 +1,15 @@
+{
+  "institution_id": "legacy-135",
+  "database_id": 135,
+  "name": "Indian Naval Academy (INA) Ezhimala",
+  "website": "https://www.indiannavalacademy.edu.in",
+  "outcome": "manual_review",
+  "institution_type": null,
+  "source_url": null,
+  "confidence": null,
+  "evidence": null,
+  "notes": [
+    "The supplied official hostname returned DNS NXDOMAIN during command-line HTTPS checks, so the official site could not be accessed or used to establish the institutional type.",
+    "The permitted --insecure fallback was not used because the failure was DNS resolution, not a proxy certificate-chain error."
+  ]
+}

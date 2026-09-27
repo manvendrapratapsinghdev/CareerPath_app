@@ -1,0 +1,55 @@
+{
+  "batch": 17,
+  "started_at": "2026-09-27T14:24:13.055530+00:00",
+  "finished_at": "2026-09-27T14:28:55.377498+00:00",
+  "assignment_count": 5,
+  "completed_count": 2,
+  "skipped_count": 3,
+  "failed_count": 0,
+  "results": [
+    {
+      "institution_id": "apeejay-institute-of-technology-school-of-architecture-planning",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/apeejay-institute-of-technology-school-of-architecture-planning.json",
+      "finished_at": "2026-09-27T14:24:13.061842+00:00"
+    },
+    {
+      "institution_id": "army-institute-of-management-technology",
+      "nirf_name": "Army Institute of Management Technology",
+      "status": "completed",
+      "started_at": "2026-09-27T14:24:13.060042+00:00",
+      "finished_at": "2026-09-27T14:27:30.931800+00:00",
+      "duration_seconds": 197.883,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/army-institute-of-management-technology.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/logs/army-institute-of-management-technology.jsonl"
+    },
+    {
+      "institution_id": "birla-institute-of-management-technology",
+      "nirf_name": "Birla Institute of Management Technology",
+      "status": "completed",
+      "started_at": "2026-09-27T14:24:13.060712+00:00",
+      "finished_at": "2026-09-27T14:28:55.368080+00:00",
+      "duration_seconds": 282.324,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/birla-institute-of-management-technology.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/logs/birla-institute-of-management-technology.jsonl"
+    },
+    {
+      "institution_id": "g-l-bajaj-institute-of-management-and-research",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/g-l-bajaj-institute-of-management-and-research.json",
+      "finished_at": "2026-09-27T14:24:13.069839+00:00"
+    },
+    {
+      "institution_id": "g-l-bajaj-institute-of-technology-and-management",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/g-l-bajaj-institute-of-technology-and-management.json",
+      "finished_at": "2026-09-27T14:24:13.069278+00:00"
+    }
+  ]
+}

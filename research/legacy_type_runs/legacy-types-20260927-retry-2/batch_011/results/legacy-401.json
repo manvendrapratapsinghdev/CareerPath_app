@@ -1,0 +1,15 @@
+{
+  "institution_id": "legacy-401",
+  "database_id": 401,
+  "name": "Integrated Fitness and Sports Institute (IFSI)",
+  "website": "https://www.ifsi.in",
+  "outcome": "manual_review",
+  "institution_type": null,
+  "source_url": null,
+  "confidence": null,
+  "evidence": null,
+  "notes": [
+    "The official domain returned HTTP 410 Gone with empty bodies for the homepage and multiple common institutional paths, so the institute identity and institutional type could not be confirmed from official site content.",
+    "Normal TLS verification failed with a self-signed certificate in the proxy certificate chain; the permitted --insecure fallback was used for public GET requests."
+  ]
+}

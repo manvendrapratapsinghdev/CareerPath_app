@@ -1,0 +1,96 @@
+{
+  "institution_id": "cist-college",
+  "nirf_name": "CIST College",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "remove_candidate",
+  "district": null,
+  "district_verification_status": "not_found",
+  "official_website": null,
+  "website_verification_status": "not_found",
+  "description": null,
+  "description_verification_status": "not_found",
+  "record_status": "remove_candidate",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact listing row: CIST College | VIDISHA | Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Exact listing row: CIST College | VIDISHA | Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "domain_check",
+      "url": "https://www.cistcollege.com/",
+      "supports": [
+        "The reachable page is a Namecheap parked-domain page and does not identify CIST College or Vidisha."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"CIST College\" Vidisha official",
+      "result": "Google returned an anti-bot interstitial; no institution website result was available.",
+      "url": "https://www.google.com/search?q=%22CIST+College%22+Vidisha+official"
+    },
+    {
+      "query": "\"CIST College\" Vidisha",
+      "result": "DuckDuckGo returned a human-verification challenge; no institution website result was available.",
+      "url": "https://html.duckduckgo.com/html/?q=%22CIST+College%22+Vidisha"
+    },
+    {
+      "query": "CIST College Vidisha Madhya Pradesh",
+      "result": "Bing returned unrelated Next Toppers results; no CIST College website was returned.",
+      "url": "https://www.bing.com/search?q=CIST+College+Vidisha+Madhya+Pradesh"
+    },
+    {
+      "query": "\"CIST College\" Vidisha website",
+      "result": "Bing returned unrelated Zhihu and Reddit results; no CIST College website was returned.",
+      "url": "https://www.bing.com/search?q=%22CIST+College%22+Vidisha+website"
+    },
+    {
+      "query": "site:mp.gov.in \"CIST College\"",
+      "result": "Bing returned unrelated forum and Microsoft results; no authoritative Madhya Pradesh institution page was returned.",
+      "url": "https://www.bing.com/search?q=site%3Amp.gov.in+%22CIST+College%22"
+    },
+    {
+      "query": "site:ac.in \"CIST College\" Vidisha",
+      "result": "Bing returned unrelated music results; no official academic-domain institution page was returned.",
+      "url": "https://www.bing.com/search?q=site%3Aac.in+%22CIST+College%22+Vidisha"
+    },
+    {
+      "query": "site:edu.in \"CIST College\" Vidisha",
+      "result": "Bing returned unrelated Inkscape discussion results; no official education-domain institution page was returned.",
+      "url": "https://www.bing.com/search?q=site%3Aedu.in+%22CIST+College%22+Vidisha"
+    },
+    {
+      "query": "\"CIST College\" Vidisha",
+      "result": "Bing RSS returned unrelated Microsoft, GitHub, and other results; no CIST College website was returned.",
+      "url": "https://www.bing.com/search?format=rss&q=%22CIST+College%22+Vidisha"
+    },
+    {
+      "query": "https://www.cistcollege.com/",
+      "result": "The domain resolves to a Namecheap parked page stating that the domain has been recently registered; it is not an official institution website.",
+      "url": "https://www.cistcollege.com/"
+    }
+  ],
+  "course_catalogue_status": "not_found",
+  "courses": [],
+  "agent_notes": [
+    "NIRF government-directory membership is established in both supplied 2025 listings.",
+    "No official institution website could be established after focused searches and an authoritative-domain check.",
+    "The obvious matching domain www.cistcollege.com is parked with Namecheap; other checked CIST College and Vidisha candidate domains did not provide a reachable institution site.",
+    "The managed proxy produced the exact self-signed certificate-chain error on normal TLS. curl --insecure was used only for confirmed public GETs and this fallback is recorded here.",
+    "Search results were used only for discovery and were not used as verification evidence. No programme data was imported."
+  ]
+}

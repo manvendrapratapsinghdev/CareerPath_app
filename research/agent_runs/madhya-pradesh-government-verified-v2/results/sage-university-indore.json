@@ -1,0 +1,128 @@
+{
+  "institution_id": "sage-university-indore",
+  "nirf_name": "SAGE University Indore",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/AgricultureRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/EngineeringRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/LawRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/PharmacyRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Indore",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://sageuniversity.in/",
+  "website_verification_status": "verified",
+  "description": "SAGE University Indore is a private university in Madhya Pradesh with its campus at Kailod Kartal, Rau Bypass Road, Indore.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [
+    "admission.sageuniversity.in"
+  ],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/AgricultureRankingALL.html",
+      "supports": [
+        "SAGE University Indore listed in Indore, Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/EngineeringRankingALL.html",
+      "supports": [
+        "SAGE University Indore listed in Indore, Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/LawRankingALL.html",
+      "supports": [
+        "SAGE University Indore listed in Indore, Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html",
+      "supports": [
+        "SAGE University Indore listed in Indore, Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "SAGE University Indore listed in Indore, Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/PharmacyRankingALL.html",
+      "supports": [
+        "SAGE University Indore listed in Indore, Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://sageuniversity.in/",
+      "supports": [
+        "institution identity",
+        "campus city",
+        "official institute and Ph.D. navigation",
+        "institution description"
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "https://sageuniversity.in/contact-us",
+      "supports": [
+        "SAGE University Indore campus address",
+        "Kailod Kartal, Rau Bypass Road, Indore, Madhya Pradesh 452020"
+      ]
+    },
+    {
+      "type": "official_about",
+      "url": "https://sageuniversity.in/about-us",
+      "supports": [
+        "institution description",
+        "private university identity",
+        "Indore campus identity"
+      ]
+    },
+    {
+      "type": "official_catalogue_index",
+      "url": "https://sageuniversity.in/sitemap.xml",
+      "supports": [
+        "official course URL inventory"
+      ]
+    },
+    {
+      "type": "official_doctoral_catalogue",
+      "url": "https://sageuniversity.in/PhD",
+      "supports": [
+        "full-time Ph.D. programme",
+        "doctoral faculties",
+        "duration"
+      ]
+    },
+    {
+      "type": "official_admissions_portal",
+      "url": "https://admission.sageuniversity.in/",
+      "supports": [
+        "generic current admissions selectors including Certificate Programs, Diploma, Master of Design and Master of Performing Arts; not used as sole proof of a course"
+      ]
+    }
+  ],
+  "website_search_evidence": [],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [],
+  "agent_notes": [
+    "SAGE University Indore is government-listed in all six supplied NIRF 2025 category pages; each matching row shows Indore, Madhya Pradesh.",
+    "Normal TLS verification produced the exact managed-proxy self-signed-certificate-in-chain error; public GET requests were retried with curl --insecure only after confirming the expected official hostnames.",
+    "The official homepage, about page and contact page establish the Indore campus at Kailod Kartal, Rau Bypass Road, Indore, Madhya Pradesh 452020.",
+    "The official site exposes 119 course pages with programme names and course-page metadata, plus a full-time Ph.D. page. The sitemap and institute-page inventories are inconsistent; five linked official course URLs are blank templates. The admissions portal exposes a generic Certificate Programs selector, but no named certificate catalogue was established. Catalogue is therefore partial and requires manual review; no unsupported blank-template or unnamed certificate programme was imported.",
+    "Pharmacy mappings use the career tree node slug bpharm whose stored label is Medical Updated; this is a career-tree label issue, not an institution-page naming change.",
+    "Course eligibility strings are transcribed from the official course-page Eligibility sections; fields are null where the official page did not explicitly provide the fact."
+  ]
+}

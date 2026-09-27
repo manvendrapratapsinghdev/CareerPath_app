@@ -1,0 +1,15 @@
+{
+  "institution_id": "legacy-289",
+  "database_id": 289,
+  "name": "PGIMER Chandigarh",
+  "website": "https://pgimer.edu.in",
+  "outcome": "classified",
+  "institution_type": "central_institute",
+  "source_url": "https://pgimer.edu.in/PGIMER_PORTAL/PGIMERPORTAL/GlobalPages/JSP/Page_Data.jsp?dep_id=3",
+  "confidence": "high",
+  "evidence": "The official PGIMER history page states that the institute became an autonomous body under an Act of Parliament in 1967 and functions under the Ministry of Health and Family Welfare, Government of India.",
+  "notes": [
+    "The official homepage identifies PGIMER as the Post Graduate Institute of Medical Education and Research, Chandigarh, India.",
+    "Used curl --insecure only after normal TLS verification failed with a self-signed certificate in the certificate chain."
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "institution_id": "govt-college-nasrullaganj-sehore",
+  "nirf_name": "Govt. College, Nasrullaganj, Sehore",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Sehore",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://highereducation.mp.gov.in/?orgid=398",
+  "website_verification_status": "ambiguous",
+  "description": null,
+  "description_verification_status": "not_found",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact NIRF entry: Govt. College, Nasrullaganj, Sehore; city Nasrullaganj; state Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "official_department_directory",
+      "url": "https://highereducation.mp.gov.in/CollegeDisp/getTable",
+      "supports": [
+        "Madhya Pradesh Higher Education Department record maps orgid 398 and CollegeCode 2914 to Govt College, Bhairunda, District Sehore."
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://highereducation.mp.gov.in/?orgid=398",
+      "supports": [
+        "Government-branded college subsite for orgid 398; header identifies it as शासकीय महाविध्यालय गोपालपुर."
+      ]
+    },
+    {
+      "type": "official_identity_page",
+      "url": "https://highereducation.mp.gov.in/?page=po0lU8Rm0Jklx0d3wcBIHQ%3D%3D&orgid=398",
+      "supports": [
+        "Official How to Reach page is present but contains no campus address or location details."
+      ]
+    },
+    {
+      "type": "official_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=C5WkFWxk3DZf7J7IKuIdGg%3D%3D&orgid=398",
+      "supports": [
+        "Official Departments page contains no department rows."
+      ]
+    },
+    {
+      "type": "official_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=hcb4vVq2mtboOg2o991rXQ%3D%3D&orgid=398",
+      "supports": [
+        "Official Regular Courses page shows PG, UG, and Diploma sections but no programme rows, qualifications, or seats."
+      ]
+    },
+    {
+      "type": "official_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=ILEfJPPoL5p2J0%2B1DB96sg%3D%3D&orgid=398",
+      "supports": [
+        "Official Distance Education Courses page shows PG, UG, and Diploma sections but no programme rows, qualifications, or seats."
+      ]
+    },
+    {
+      "type": "official_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=VYVIFi8nZXnEP%2BQxKxOgEg%3D%3D&orgid=398",
+      "supports": [
+        "Official Prospectus page contains no prospectus or programme information."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Govt. College, Nasrullaganj, Sehore\" official website",
+      "result": "Bing returned unrelated general government and job sites; no target institution website was established from this query.",
+      "url": "https://www.bing.com/search?q=%22Govt.+College%2C+Nasrullaganj%2C+Sehore%22+official+website"
+    },
+    {
+      "query": "Nasrullaganj Government College Sehore official website",
+      "result": "Bing surfaced Government Polytechnic College Bhairunda, Nasrullaganj, Sehore, which is a different institution; no target degree-college website was established.",
+      "url": "https://www.bing.com/search?q=Nasrullaganj+Government+College+Sehore+official+website"
+    },
+    {
+      "query": "\"Govt College Nasrullaganj\" mp.gov.in",
+      "result": "Bing returned unrelated generic government and job pages; no target institution website was established.",
+      "url": "https://www.bing.com/search?q=%22Govt+College+Nasrullaganj%22+mp.gov.in"
+    },
+    {
+      "query": "site:mp.gov.in Nasrullaganj college",
+      "result": "Bing did not return a target institution page; the official Madhya Pradesh Higher Education domain was verified separately through its public college-directory endpoint.",
+      "url": "https://www.bing.com/search?q=site%3Amp.gov.in+Nasrullaganj+college"
+    },
+    {
+      "query": "site:ac.in \"Nasrullaganj\" college",
+      "result": "Bing did not return a target institution website on an academic domain.",
+      "url": "https://www.bing.com/search?q=site%3Aac.in+%22Nasrullaganj%22+college"
+    },
+    {
+      "query": "authoritative domain check: highereducation.mp.gov.in CollegeDisp/getTable",
+      "result": "The official Madhya Pradesh Higher Education directory returned orgid 398, CollegeCode 2914, Govt College, Bhairunda, District Sehore; the linked college subsite header instead says Government College Gopalpur.",
+      "url": "https://highereducation.mp.gov.in/CollegeDisp/getTable"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [],
+  "agent_notes": [
+    "The NIRF government listing contains the exact assigned institution and city.",
+    "The official Madhya Pradesh Higher Education directory identifies orgid 398/CollegeCode 2914 as Govt College, Bhairunda, District Sehore, while the linked college subsite header identifies itself as शासकीय महाविध्यालय गोपालपुर. This mismatch with the NIRF name Nasrullaganj creates an unresolved identity/campus ambiguity.",
+    "Official Departments, Regular Courses, Distance Education Courses, Prospectus, At a Glance, and How to Reach pages were checked. Programme tables and campus details are empty, so no active programme could be imported and the catalogue is partial.",
+    "Normal TLS verification produced the managed proxy self-signed-certificate-chain error. Public GET requests then used curl --insecure only for the confirmed official or search hostnames.",
+    "The career_path.db career_nodes table was queried read-only; no programme names were available to map."
+  ]
+}

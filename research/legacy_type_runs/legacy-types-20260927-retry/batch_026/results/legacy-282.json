@@ -1,0 +1,15 @@
+{
+  "institution_id": "legacy-282",
+  "database_id": 282,
+  "name": "Bhatkhande Music Institute",
+  "website": "https://www.bhatkhande.edu.in",
+  "outcome": "manual_review",
+  "institution_type": null,
+  "source_url": null,
+  "confidence": null,
+  "evidence": null,
+  "notes": [
+    "Command-line HTTPS requests to the supplied official hostname failed because DNS returned NXDOMAIN, so no official page was available to establish the institution type.",
+    "curl --insecure was attempted after the managed proxy certificate-chain error, but the official hostname still could not be resolved."
+  ]
+}

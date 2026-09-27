@@ -1,0 +1,106 @@
+{
+  "institution_id": "a-k-p-degree-college-khurja-bulandshahr",
+  "nirf_name": "A.K.P. Degree College, Khurja (Bulandshahr)",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "remove_candidate",
+  "district": null,
+  "district_verification_status": "not_found",
+  "official_website": null,
+  "website_verification_status": "not_found",
+  "description": null,
+  "description_verification_status": "not_found",
+  "record_status": "remove_candidate",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact institution name listed",
+        "City listed as Khurja",
+        "State listed as Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Exact institution name listed",
+        "City listed as Khurja",
+        "State listed as Uttar Pradesh"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "A.K.P. Degree College Khurja official website",
+      "result": "Google returned HTTP 429 with no usable search results.",
+      "url": "https://www.google.com/search?q=A.K.P.%20Degree%20College%20Khurja%20official%20website"
+    },
+    {
+      "query": "A K P Degree College Khurja admissions",
+      "result": "Google returned HTTP 429 with no usable search results.",
+      "url": "https://www.google.com/search?q=A%20K%20P%20Degree%20College%20Khurja%20admissions"
+    },
+    {
+      "query": "A.K.P. Degree College Khurja site:ac.in",
+      "result": "Google returned HTTP 429 with no usable search results.",
+      "url": "https://www.google.com/search?q=A.K.P.%20Degree%20College%20Khurja%20site%3Aac.in"
+    },
+    {
+      "query": "A.K.P. Degree College Khurja official website",
+      "result": "Bing returned unrelated results and no official institution website.",
+      "url": "https://www.bing.com/search?q=A.K.P.%20Degree%20College%20Khurja%20official%20website"
+    },
+    {
+      "query": "A K P Degree College Khurja admissions",
+      "result": "Bing returned unrelated results and no official institution website.",
+      "url": "https://www.bing.com/search?q=A%20K%20P%20Degree%20College%20Khurja%20admissions"
+    },
+    {
+      "query": "A.K.P. Degree College Khurja",
+      "result": "Naver returned unrelated pages and parent-university references, but no official college website.",
+      "url": "https://search.naver.com/search.naver?query=A.K.P.%20Degree%20College%20Khurja"
+    },
+    {
+      "query": "A K P Degree College Khurja Bulandshahr",
+      "result": "Naver returned unrelated documents and no official college website.",
+      "url": "https://search.naver.com/search.naver?query=A%20K%20P%20Degree%20College%20Khurja%20Bulandshahr"
+    },
+    {
+      "query": "A.K.P. Degree College Khurja website",
+      "result": "Naver returned unrelated college websites and no exact official institution website.",
+      "url": "https://search.naver.com/search.naver?query=A.K.P.%20Degree%20College%20Khurja%20website"
+    },
+    {
+      "query": "site:ccsuniversity.ac.in \"A.K.P. Degree College\"",
+      "result": "The official CCSU domain and an official CCSU PDF were found; the PDF references the college, but no actual college homepage or college-owned domain was established.",
+      "url": "https://www.ccsuniversity.ac.in/"
+    },
+    {
+      "query": "site:up.gov.in \"A.K.P. Degree College\"",
+      "result": "No institution-specific official website result was returned.",
+      "url": "https://search.naver.com/search.naver?query=site%3Aup.gov.in%20%22A.K.P.%20Degree%20College%22"
+    },
+    {
+      "query": "site:ugc.gov.in \"A.K.P. Degree College\"",
+      "result": "Only generic UGC pages and an old colleges PDF were returned; no actual college website was established.",
+      "url": "https://search.naver.com/search.naver?query=site%3Augc.gov.in%20%22A.K.P.%20Degree%20College%22"
+    },
+    {
+      "query": "site:nirfindia.org \"A.K.P. Degree College\"",
+      "result": "NIRF pages and reports were returned, but no institution website was identified.",
+      "url": "https://search.naver.com/search.naver?query=site%3Anirfindia.org%20%22A.K.P.%20Degree%20College%22"
+    }
+  ],
+  "course_catalogue_status": "not_found",
+  "courses": [],
+  "agent_notes": [
+    "The institution is established in both supplied NIRF 2025 government listings, with Khurja and Uttar Pradesh shown.",
+    "At least two focused searches plus official-domain checks found no actual official website for the college. CCSU parent-university material was not treated as the college website or as catalogue evidence.",
+    "Normal TLS verification produced the managed proxy self-signed certificate-chain error; curl --insecure was used only for public GET requests to expected public domains."
+  ]
+}

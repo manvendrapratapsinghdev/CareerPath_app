@@ -1,0 +1,16 @@
+{
+  "institution_id": "legacy-273",
+  "database_id": 273,
+  "name": "Deccan College Pune",
+  "website": "https://deccancollegepune.ac.in",
+  "outcome": "manual_review",
+  "institution_type": null,
+  "source_url": null,
+  "confidence": null,
+  "evidence": null,
+  "notes": [
+    "The supplied hostname has no reachable DNS authority, so its official pages could not be verified over HTTPS.",
+    "The --insecure fallback was not used because the failure was DNS resolution, not a proxy certificate-chain error.",
+    "A similarly named resolving domain was not used because it identifies a different engineering college."
+  ]
+}

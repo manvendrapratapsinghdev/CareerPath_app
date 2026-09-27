@@ -1,0 +1,14 @@
+{
+  "institution_id": "legacy-9",
+  "database_id": 9,
+  "name": "IISc Bangalore",
+  "website": "https://www.iisc.ac.in",
+  "outcome": "classified",
+  "institution_type": "central_institute",
+  "source_url": "https://www.iisc.ac.in/wp-content/uploads/2021/10/IISc-status-signed.pdf",
+  "confidence": "high",
+  "evidence": "The official IISc status certificate identifies Indian Institute of Science (IISc), Bangalore as an autonomous Institute of Higher Education and Research under the Ministry of Education, Government of India.",
+  "notes": [
+    "Used curl --insecure only after normal TLS verification returned the managed proxy's self-signed certificate-chain error."
+  ]
+}

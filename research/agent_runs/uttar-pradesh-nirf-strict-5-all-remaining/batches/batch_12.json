@@ -1,0 +1,66 @@
+{
+  "batch": 12,
+  "started_at": "2026-09-27T13:26:14.917164+00:00",
+  "finished_at": "2026-09-27T13:41:14.975986+00:00",
+  "assignment_count": 5,
+  "completed_count": 2,
+  "skipped_count": 2,
+  "failed_count": 1,
+  "results": [
+    {
+      "institution_id": "al-barkat-institute-of-management-studies-aligarh",
+      "nirf_name": "AL BARKAT INSTITUTE OF MANAGEMENT STUDIES, ALIGARH",
+      "status": "completed",
+      "started_at": "2026-09-27T13:26:14.926836+00:00",
+      "finished_at": "2026-09-27T13:32:46.561066+00:00",
+      "duration_seconds": 391.621,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/al-barkat-institute-of-management-studies-aligarh.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/logs/al-barkat-institute-of-management-studies-aligarh.jsonl"
+    },
+    {
+      "institution_id": "c-b-singh-law-college-songaon-ambedkar-nagar",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/c-b-singh-law-college-songaon-ambedkar-nagar.json",
+      "finished_at": "2026-09-27T13:26:14.954947+00:00"
+    },
+    {
+      "institution_id": "dayalbagh-educational-institute",
+      "nirf_name": "Dayalbagh Educational Institute",
+      "status": "failed",
+      "started_at": "2026-09-27T13:26:14.924658+00:00",
+      "finished_at": "2026-09-27T13:41:14.968429+00:00",
+      "duration_seconds": 900.032,
+      "return_code": -15,
+      "timed_out": true,
+      "errors": [
+        "agent timed out after 900 seconds",
+        "codex exec exited with code -15",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/logs/dayalbagh-educational-institute.jsonl"
+    },
+    {
+      "institution_id": "hamidia-girls-degree-college",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/hamidia-girls-degree-college.json",
+      "finished_at": "2026-09-27T13:26:14.956615+00:00"
+    },
+    {
+      "institution_id": "jaypee-institute-of-information-technology",
+      "nirf_name": "Jaypee Institute of Information Technology",
+      "status": "completed",
+      "started_at": "2026-09-27T13:26:14.924746+00:00",
+      "finished_at": "2026-09-27T13:35:48.145547+00:00",
+      "duration_seconds": 573.196,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/jaypee-institute-of-information-technology.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/logs/jaypee-institute-of-information-technology.jsonl"
+    }
+  ]
+}

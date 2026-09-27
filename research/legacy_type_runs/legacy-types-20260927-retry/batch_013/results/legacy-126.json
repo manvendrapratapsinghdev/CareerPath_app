@@ -1,0 +1,15 @@
+{
+  "institution_id": "legacy-126",
+  "database_id": 126,
+  "name": "LV Prasad Film and TV Academy",
+  "website": "https://www.lvprasadacademy.com",
+  "outcome": "manual_review",
+  "institution_type": null,
+  "source_url": null,
+  "confidence": null,
+  "evidence": null,
+  "notes": [
+    "The supplied official hostname returned DNS NXDOMAIN during command-line HTTPS verification, so the institution type and site ownership could not be established from official-domain evidence.",
+    "The curl --insecure fallback was not used because the failure was DNS resolution, not a proxy certificate-chain error."
+  ]
+}

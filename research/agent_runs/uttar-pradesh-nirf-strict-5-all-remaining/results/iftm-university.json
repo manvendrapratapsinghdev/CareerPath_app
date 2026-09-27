@@ -1,0 +1,2729 @@
+{
+  "institution_id": "iftm-university",
+  "nirf_name": "IFTM University",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/PharmacyRankingALL.html"
+  ],
+  "verification_outcome": "verified",
+  "district": "Moradabad",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://www.iftmuniversity.ac.in/",
+  "website_verification_status": "verified",
+  "description": "IFTM University is established under the IFTM University Act No. 24 of 2010 and is located at Lodhipur Rajput on Delhi Road near Moradabad, Uttar Pradesh. Its official catalogue lists diploma, undergraduate, postgraduate and doctoral programmes across management, pharmacy, engineering, sciences, biotechnology, agriculture, law, education and humanities.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "IFTM University listed in the 2025 Overall ranking directory with city Moradabad and state Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/PharmacyRankingALL.html",
+      "supports": [
+        "IFTM University listed in the 2025 Pharmacy ranking directory with city Moradabad and state Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://www.iftmuniversity.ac.in/iftmuniversity/index.php",
+      "supports": [
+        "official IFTM University homepage and institutional identity"
+      ]
+    },
+    {
+      "type": "official_identity_location",
+      "url": "https://www.iftmuniversity.ac.in/iftmuniversity/about.php",
+      "supports": [
+        "IFTM University Act No. 24 of 2010",
+        "campus located 12 km from Moradabad on Lucknow-Delhi National Highway",
+        "institutional programme overview"
+      ]
+    },
+    {
+      "type": "official_location",
+      "url": "https://www.iftmuniversity.ac.in/iftmuniversity/contact.php",
+      "supports": [
+        "official campus address: Lodhipur Rajput, Delhi Road, Moradabad, Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "official_catalogue",
+      "url": "https://www.iftmuniversity.ac.in/iftmuniversity/programmes.php",
+      "supports": [
+        "current UG and PG programme tables and their eligibility and duration fields"
+      ]
+    },
+    {
+      "type": "official_catalogue",
+      "url": "https://www.iftmuniversity.ac.in/iftmuniversity/diploma.php",
+      "supports": [
+        "current diploma programme table and its eligibility and duration fields"
+      ]
+    },
+    {
+      "type": "official_catalogue",
+      "url": "https://www.iftmuniversity.ac.in/iftmuniversity/ug.php",
+      "supports": [
+        "current UG programme catalogue and its eligibility and duration fields"
+      ]
+    },
+    {
+      "type": "official_catalogue",
+      "url": "https://www.iftmuniversity.ac.in/iftmuniversity/pg.php",
+      "supports": [
+        "current PG programme catalogue and its eligibility and duration fields"
+      ]
+    },
+    {
+      "type": "official_catalogue",
+      "url": "https://www.iftmuniversity.ac.in/iftmuniversity/doctor.php",
+      "supports": [
+        "current doctoral programme specializations and their eligibility and duration fields"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "IFTM University Moradabad official",
+      "result": "Bing RSS returned the institution homepage and official about page as the first institution-specific results; used for discovery only, not as programme verification.",
+      "url": "https://www.iftmuniversity.ac.in/iftmuniversity/index.php"
+    }
+  ],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "iftm-university-diploma-01",
+      "name": "Diploma (Hotel Mgmt)",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": "1.5 Years",
+      "mode": "not_stated",
+      "eligibility": "12th Pass in any Stream",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/diploma.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 79,
+          "career_node_slug": "hotel_mgmt",
+          "career_breadcrumb": "Performing Arts & Sports > Hotel Management & Tourism",
+          "relation": "closest specialization mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-diploma-02",
+      "name": "D.Pharm.",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": "10+2 pass with Physics Chemistry Maths/Biology",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/diploma.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "closest programme-family mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-diploma-03",
+      "name": "Diploma (Civil)",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "not_stated",
+      "eligibility": "10th Pass with Science",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/diploma.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 116,
+          "career_node_slug": "diploma_civil_career",
+          "career_breadcrumb": "Maths / PCM > Diploma Engineering (Polytechnic) > Civil Site Supervisor",
+          "relation": "closest specialization mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-diploma-04",
+      "name": "Diploma (Computer Science)",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "not_stated",
+      "eligibility": "10th Pass with Science",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/diploma.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 11,
+          "career_node_slug": "diploma_engg",
+          "career_breadcrumb": "Maths / PCM > Diploma Engineering (Polytechnic)",
+          "relation": "nearest parent mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-diploma-05",
+      "name": "Diploma (Electronics & Communication)",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "not_stated",
+      "eligibility": "10th Pass with Science",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/diploma.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 11,
+          "career_node_slug": "diploma_engg",
+          "career_breadcrumb": "Maths / PCM > Diploma Engineering (Polytechnic)",
+          "relation": "nearest parent mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-diploma-06",
+      "name": "Diploma (Electrical)",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "not_stated",
+      "eligibility": "10th Pass with Science",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/diploma.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 118,
+          "career_node_slug": "diploma_elec_career",
+          "career_breadcrumb": "Maths / PCM > Diploma Engineering (Polytechnic) > Electrical Technician",
+          "relation": "closest specialization mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-diploma-07",
+      "name": "Diploma (Mechanical)",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "not_stated",
+      "eligibility": "10th Pass with Science",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/diploma.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 115,
+          "career_node_slug": "diploma_mech_career",
+          "career_breadcrumb": "Maths / PCM > Diploma Engineering (Polytechnic) > Mechanical Draughtsman / Technician",
+          "relation": "closest specialization mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-diploma-08",
+      "name": "Diploma (AI)",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "not_stated",
+      "eligibility": "10th Pass with Science",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/diploma.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 11,
+          "career_node_slug": "diploma_engg",
+          "career_breadcrumb": "Maths / PCM > Diploma Engineering (Polytechnic)",
+          "relation": "nearest parent mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-ug-01",
+      "name": "BBA (Hons. with Research)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "3/4 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45% (40% for SC/ST) in 10+2.",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/ug.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 46,
+          "career_node_slug": "bba",
+          "career_breadcrumb": "Management & Business > BBA (General)",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-ug-02",
+      "name": "B.Com. (Hons. with Research)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "3/4 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45% (40% for SC/ST) in 10+2.",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/ug.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-ug-03",
+      "name": "Bachelor of Hotel Mgmt. & Catering Technology",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "4 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45% (40% for SC/ST) in 10+2 or Diploma in HM",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/ug.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 79,
+          "career_node_slug": "hotel_mgmt",
+          "career_breadcrumb": "Performing Arts & Sports > Hotel Management & Tourism",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-ug-04",
+      "name": "B.Pharm.",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "4 Years",
+      "mode": "not_stated",
+      "eligibility": "10+2 pass with Physics Chemistry Maths/Biology",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/ug.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-ug-05",
+      "name": "B.Sc. (Hons. with Research) (Home Science)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45% (40% for SC/ST) in 10+2",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/ug.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 337,
+          "career_node_slug": "science_common",
+          "career_breadcrumb": "Common Paths",
+          "relation": "nearest parent mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-ug-06",
+      "name": "B.Sc. (Hons. with Research) (P/C/M/Z/B)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "3/4 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45% (40% for SC/ST) in 10+2 with PCM/PCB",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/ug.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 335,
+          "career_node_slug": "science_maths",
+          "career_breadcrumb": "Maths / PCM",
+          "relation": "nearest parent mapping",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-ug-07",
+      "name": "B.Tech (Civil Engineering)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "4 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45% (40% for SC/ST) at 10+2 level with Physics Chemistry and Maths.",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/ug.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-ug-08",
+      "name": "B.Tech (Mechanical Engineering)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "4 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45% (40% for SC/ST) at 10+2 level with Physics Chemistry and Maths.",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/ug.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-ug-09",
+      "name": "B.Tech (Electrical Engineering)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "4 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45% (40% for SC/ST) at 10+2 level with Physics Chemistry and Maths.",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/ug.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-ug-10",
+      "name": "B.Tech (Electronics & Communication Engineering)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "4 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45% (40% for SC/ST) at 10+2 level with Physics Chemistry and Maths.",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/ug.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-ug-11",
+      "name": "BA (Hons. with Research) History",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "3/4 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45% (40% for SC/ST) in 10+2",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/ug.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-ug-12",
+      "name": "BA (Hons. with Research) Home Science",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "3/4 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45% (40% for SC/ST) in 10+2",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/ug.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 337,
+          "career_node_slug": "science_common",
+          "career_breadcrumb": "Common Paths",
+          "relation": "nearest parent mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-ug-13",
+      "name": "BA (Hons. with Research) Education",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "3/4 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45% (40% for SC/ST) in 10+2.",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/ug.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-ug-14",
+      "name": "BA-B.Ed.-ITEP (Foundation/Preparatory/Secondary)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "4 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 50% (45% for SC/ST) in 10+2",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/ug.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "closest specialization mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-ug-15",
+      "name": "B.Sc.-B.Ed.-ITEP (Foundation/Preparatory/Secondary)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "4 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 50% (45% for SC/ST) in 10+2 with PCM / PCB",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/ug.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "closest specialization mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-ug-16",
+      "name": "B.Ed.",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 50% (45% for SC/ST) in Graduation",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/ug.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-ug-17",
+      "name": "BA (Journalism)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45% (40% for SC/ST) at 10+2",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/ug.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 59,
+          "career_node_slug": "bjmc",
+          "career_breadcrumb": "Media & Journalism > B.J.M.C (Journalism & Mass Comm)",
+          "relation": "closest specialization mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-ug-18",
+      "name": "B.Lib. & Information Science",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "1 Year",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45% (40% for SC/ST) in Graduation",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/ug.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest parent mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-ug-19",
+      "name": "BA (Hons. with Research) English",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "3/4 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45% (40% for SC/ST) in 10+2",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/ug.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-ug-20",
+      "name": "BA (Hons. with Research) Hindi",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "3/4 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45% (40% for SC/ST) in 10+2",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/ug.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-ug-21",
+      "name": "BA (Hons. with Research) Economics",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "3/4 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45% (40% for SC/ST) in 12th",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/ug.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-ug-22",
+      "name": "BA (Hons. with Research) Geography",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "3/4 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45% (40% for SC/ST) in 10+2",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/ug.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest parent mapping",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-ug-23",
+      "name": "BA (Hons. with Research) Sociology",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "3/4 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45% (40% for SC/ST) in 10+2",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/ug.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-ug-24",
+      "name": "BA (Hons. with Research) Political Science",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "3/4 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45% (40% for SC/ST) in 10+2",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/ug.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-ug-25",
+      "name": "BA (Hons. with Research) Sanskrit",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "3/4 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45% (40% for SC/ST) in 10+2.",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/ug.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "nearest parent mapping",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-ug-26",
+      "name": "B.Tech (Biotechnology)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "4 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45% (40% for SC/ST) at 10+2 level with Physics Chemistry and Maths/Biology.",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/ug.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 88,
+          "career_node_slug": "btech_biotech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Biotechnology",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-ug-27",
+      "name": "B.Sc. (Food Technology)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45% (40% for SC/ST) in 10+2 with Physics Chemistry and Biology",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/ug.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 28,
+          "career_node_slug": "bsc_food_tech",
+          "career_breadcrumb": "Common Paths > B.Sc Food Technology",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-ug-28",
+      "name": "B.Sc. (Hons. with Research) Biotechnology",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "3/4 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45% (40% for SC/ST) in 10+2 with PCB/PCM.",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/ug.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-ug-29",
+      "name": "B.Sc. (Hons. with Research) Microbiology",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "3/4 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45% (40% for SC/ST) in 10+2 with PCB/PCM.",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/ug.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 34,
+          "career_node_slug": "bsc_microbio",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Microbiology",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-ug-30",
+      "name": "LL.B",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45% (40% for SC/ST)at Graduation",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/ug.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 343,
+          "career_node_slug": "commerce_law",
+          "career_breadcrumb": "Law & Legal",
+          "relation": "nearest parent mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-ug-31",
+      "name": "Integrated Law (B.B.A. LL.B)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "5 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45% (40% for SC/ST) in 10+2",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/ug.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 50,
+          "career_node_slug": "bba_llb",
+          "career_breadcrumb": "Law & Legal > BBA LLB (5-Year Integrated)",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-ug-32",
+      "name": "Integrated Law (B.A. LL.B)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "5 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45% (40% for SC/ST) in 10+2",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/ug.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 63,
+          "career_node_slug": "ba_llb",
+          "career_breadcrumb": "Law & Civil Services > BA LLB (5-Year Integrated)",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-ug-33",
+      "name": "B.Tech (Computer Sc. & Engg.)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "4 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45% (40% for SC/ST) at 10+2 level with Physics Chemistry and Maths.",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/ug.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-ug-34",
+      "name": "B.Tech (Artificial Intelligence)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "4 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45% (40% for SC/ST) at 10+2 level with Physics Chemistry and Maths.",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/ug.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 81,
+          "career_node_slug": "btech_ai",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > AI & Machine Learning",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-ug-35",
+      "name": "BCA (Hons. with Research)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "3/4 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45% (40% for SC/ST) in 10+2 with Maths on 10th.",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/ug.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-ug-36",
+      "name": "B.Tech. (Agriculture Engineering)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "4 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45% (40% for SC/ST) at 10+2 level with PCM/PCB/ Agriculture",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/ug.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "closest specialization mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-ug-37",
+      "name": "B.Sc. (Hons.) AG",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "4 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45% (40% for SC/ST) in 10 + 2 with PCM/PCB/Agriculture",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/ug.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-pg-01",
+      "name": "MBA",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45% (40% for SC/ST) in Graduation or valid MAT/CAT Score.",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/pg.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 208,
+          "career_node_slug": "mba_general",
+          "career_breadcrumb": "Management & Business > BBA (General) > MBA → CEO / Director Track",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-pg-02",
+      "name": "M.Com.",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45% (40% for SC/ST) in Graduation with Commerce",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/pg.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 198,
+          "career_node_slug": "mcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons) > M.Com → Professor / Researcher",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-pg-03",
+      "name": "Master of Hotel Management (MHM)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45% (40% for SC/ST) in Graduation.",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/pg.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 79,
+          "career_node_slug": "hotel_mgmt",
+          "career_breadcrumb": "Performing Arts & Sports > Hotel Management & Tourism",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-pg-04",
+      "name": "M.Pharm (Pharmaceutics)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 55% in B.Pharm or valid GPAT Score",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/pg.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 144,
+          "career_node_slug": "pharma_researcher",
+          "career_breadcrumb": "Biology / PCB > Medical Updated > Pharmaceutical Researcher",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-pg-05",
+      "name": "M.Pharm (Pharmaceutical Chemistry)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 55% in B.Pharm or valid GPAT Score",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/pg.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 144,
+          "career_node_slug": "pharma_researcher",
+          "career_breadcrumb": "Biology / PCB > Medical Updated > Pharmaceutical Researcher",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-pg-06",
+      "name": "M.Pharm (Pharmacology)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 55% in B.Pharm or valid GPAT Score",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/pg.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 144,
+          "career_node_slug": "pharma_researcher",
+          "career_breadcrumb": "Biology / PCB > Medical Updated > Pharmaceutical Researcher",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-pg-07",
+      "name": "M.Pharm (Pharmacognosy)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 55% in B.Pharm or valid GPAT Score",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/pg.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 144,
+          "career_node_slug": "pharma_researcher",
+          "career_breadcrumb": "Biology / PCB > Medical Updated > Pharmaceutical Researcher",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-pg-08",
+      "name": "M.Sc. (Botany)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45% (40% for SC/ST) in B.Sc. (PCM/ZBC)",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/pg.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 336,
+          "career_node_slug": "science_bio",
+          "career_breadcrumb": "Biology / PCB",
+          "relation": "closest specialization mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-pg-09",
+      "name": "M.Sc. (Home Science)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45% (40% for SC/ST) in B.Sc.",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/pg.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 337,
+          "career_node_slug": "science_common",
+          "career_breadcrumb": "Common Paths",
+          "relation": "nearest parent mapping",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-pg-10",
+      "name": "M.Sc. (Zoology)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45% (40% for SC/ST) in B.Sc. (PCM/ZBC)",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/pg.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 336,
+          "career_node_slug": "science_bio",
+          "career_breadcrumb": "Biology / PCB",
+          "relation": "closest specialization mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-pg-11",
+      "name": "M.Sc. (Physics)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45% (40% for SC/ST) in B.Sc. (PCM/ZBC)",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/pg.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 24,
+          "career_node_slug": "bsc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-pg-12",
+      "name": "M.Sc. (Chemistry)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45% (40% for SC/ST) in B.Sc. (PCM/ZBC)",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/pg.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-pg-13",
+      "name": "M.Sc. (Maths)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45% (40% for SC/ST) in B.Sc. (PCM/ZBC)",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/pg.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-pg-14",
+      "name": "M.Tech. (Civil Engineering)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 55% in relevant branch of B.Tech.",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/pg.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-pg-15",
+      "name": "M.Tech (Mechanical Engineering)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 55% in relevant branch of B.Tech.",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/pg.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-pg-16",
+      "name": "M.Tech (Electrical Engineering)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 55% in relevant branch of B.Tech.",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/pg.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-pg-17",
+      "name": "M.Tech (Electronics & Communication Engineering)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 55% in relevant branch of B.Tech.",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/pg.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-pg-18",
+      "name": "M.Ed.",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with Min 50% (45% for SC/ST) in B.Ed. / BA-B.Ed / B.Sc-B.Ed / B.EL.ED.",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/pg.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-pg-19",
+      "name": "MA (Education)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45% (40% for SC/ST) in Graduation",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/pg.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-pg-20",
+      "name": "MA (Journalism)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45% (40% for SC/ST)in Graduation",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/pg.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 59,
+          "career_node_slug": "bjmc",
+          "career_breadcrumb": "Media & Journalism > B.J.M.C (Journalism & Mass Comm)",
+          "relation": "closest specialization mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-pg-21",
+      "name": "M.Lib. & Information Science",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": "1 Year",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45% (40% for SC/ST) in B.Lib",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/pg.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest parent mapping",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-pg-22",
+      "name": "Master of Social Work (MSW)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45% (40% for SC/ST) in Graduation",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/pg.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "closest specialization mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-pg-23",
+      "name": "MA (English)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45% (40% for SC/ST)in Graduation",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/pg.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-pg-24",
+      "name": "MA (Hindi)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45% (40% for SC/ST) in Graduation",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/pg.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-pg-25",
+      "name": "MA (Economics)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45% (40% for SC/ST)in Graduation",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/pg.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-pg-26",
+      "name": "MA (Geography)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45% (40% for SC/ST) in Graduation",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/pg.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest parent mapping",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-pg-27",
+      "name": "MA (Sociology)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45% (40% for SC/ST)in Graduation",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/pg.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-pg-28",
+      "name": "M.Sc. (Biotechnology)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 50% (45% for SC/ST) in B.Sc. (any discipline of Life Sc.)",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/pg.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 146,
+          "career_node_slug": "msc_biotech",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech > M.Sc Biotechnology → Researcher",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-pg-29",
+      "name": "M.Tech. (Biotechnology)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 55% in relevant branch B.Tech Biotechnology",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/pg.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 88,
+          "career_node_slug": "btech_biotech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Biotechnology",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-pg-30",
+      "name": "M.Sc. (Micro Biology)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 50% (45% for SC/ST) in B.Sc. (any discipline of Life Sc.)",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/pg.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 34,
+          "career_node_slug": "bsc_microbio",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Microbiology",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-pg-31",
+      "name": "M.Sc. (Food Technology)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 50% (45% for SC/ST) in B.Sc. (any discipline of Life Sc.)",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/pg.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 28,
+          "career_node_slug": "bsc_food_tech",
+          "career_breadcrumb": "Common Paths > B.Sc Food Technology",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-pg-32",
+      "name": "LLM",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45% (40% for SC/ST) in LLB",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/pg.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 343,
+          "career_node_slug": "commerce_law",
+          "career_breadcrumb": "Law & Legal",
+          "relation": "nearest parent mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-pg-33",
+      "name": "M.Tech (Computer Sc. & Engg.)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 55% in B.Tech.(CS) or Minimum 55% in MCA",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/pg.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-pg-34",
+      "name": "MCA",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45% (40% for SC/ST) at Graduation in any stream with Maths at 10+2 or BCA",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/pg.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 93,
+          "career_node_slug": "mca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications) > MCA → Software Engineer",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-pg-35",
+      "name": "M.Tech (Soil & Water Conservation Engineering)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 55% in B.Tech. Agricultural",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/pg.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-pg-36",
+      "name": "M.Sc. (Agronomy)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45 % (40% for SC/ST)in B.Sc. (Agriculture)",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/pg.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-pg-37",
+      "name": "M.Sc. (Horticulture) Veg Science",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45 % (40% for SC/ST)in B.Sc. (Agriculture)",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/pg.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-pg-38",
+      "name": "M.Tech (Farm Machinery & Power Engineering)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 55% in B.Tech. Agricultural",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/pg.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-pg-39",
+      "name": "M.Tech (Process & Food Engineering)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 55% in B.Tech. Agricultural",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/pg.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-pg-40",
+      "name": "M.Sc. (Horticulture) Floriculture & Landscaping",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45 % (40% for SC/ST)in B.Sc. (Agriculture)",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/pg.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-pg-41",
+      "name": "M.Sc. (Genetics & Plant Breeding)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": "Pass with minimum 45% (40% for SC/ST) in B.Sc. (Agriculture)",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/pg.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-phd-01",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "Doctorate",
+      "specialization": "Management",
+      "duration": "Min 3 Years",
+      "mode": "not_stated",
+      "eligibility": "As per UGC Regulations 2022 & Ph.D. Ordinance of University",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/doctor.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest parent mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-phd-02",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "Doctorate",
+      "specialization": "Commerce",
+      "duration": "Min 3 Years",
+      "mode": "not_stated",
+      "eligibility": "As per UGC Regulations 2022 & Ph.D. Ordinance of University",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/doctor.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 340,
+          "career_node_slug": "commerce_accounting",
+          "career_breadcrumb": "Accounting & Audit",
+          "relation": "nearest parent mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-phd-03",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "Doctorate",
+      "specialization": "Pharmacy",
+      "duration": "Min 3 Years",
+      "mode": "not_stated",
+      "eligibility": "As per UGC Regulations 2022 & Ph.D. Ordinance of University",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/doctor.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 144,
+          "career_node_slug": "pharma_researcher",
+          "career_breadcrumb": "Biology / PCB > Medical Updated > Pharmaceutical Researcher",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-phd-04",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "Doctorate",
+      "specialization": "Home Science",
+      "duration": "Min 3 Years",
+      "mode": "not_stated",
+      "eligibility": "As per UGC Regulations 2022 & Ph.D. Ordinance of University",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/doctor.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 337,
+          "career_node_slug": "science_common",
+          "career_breadcrumb": "Common Paths",
+          "relation": "nearest parent mapping",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-phd-05",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "Doctorate",
+      "specialization": "Botany",
+      "duration": "Min 3 Years",
+      "mode": "not_stated",
+      "eligibility": "As per UGC Regulations 2022 & Ph.D. Ordinance of University",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/doctor.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 336,
+          "career_node_slug": "science_bio",
+          "career_breadcrumb": "Biology / PCB",
+          "relation": "closest specialization mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-phd-06",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "Doctorate",
+      "specialization": "Zoology",
+      "duration": "Min 3 Years",
+      "mode": "not_stated",
+      "eligibility": "As per UGC Regulations 2022 & Ph.D. Ordinance of University",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/doctor.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 336,
+          "career_node_slug": "science_bio",
+          "career_breadcrumb": "Biology / PCB",
+          "relation": "closest specialization mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-phd-07",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "Doctorate",
+      "specialization": "Physics",
+      "duration": "Min 3 Years",
+      "mode": "not_stated",
+      "eligibility": "As per UGC Regulations 2022 & Ph.D. Ordinance of University",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/doctor.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 24,
+          "career_node_slug": "bsc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-phd-08",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "Doctorate",
+      "specialization": "Chemistry",
+      "duration": "Min 3 Years",
+      "mode": "not_stated",
+      "eligibility": "As per UGC Regulations 2022 & Ph.D. Ordinance of University",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/doctor.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-phd-09",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "Doctorate",
+      "specialization": "Maths",
+      "duration": "Min 3 Years",
+      "mode": "not_stated",
+      "eligibility": "As per UGC Regulations 2022 & Ph.D. Ordinance of University",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/doctor.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-phd-10",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "Doctorate",
+      "specialization": "Civil Engineering",
+      "duration": "Min 3 Years",
+      "mode": "not_stated",
+      "eligibility": "As per UGC Regulations 2022 & Ph.D. Ordinance of University",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/doctor.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-phd-11",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "Doctorate",
+      "specialization": "Electronics & Communication Engineering",
+      "duration": "Min 3 Years",
+      "mode": "not_stated",
+      "eligibility": "As per UGC Regulations 2022 & Ph.D. Ordinance of University",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/doctor.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-phd-12",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "Doctorate",
+      "specialization": "Mechanical Engineering",
+      "duration": "Min 3 Years",
+      "mode": "not_stated",
+      "eligibility": "As per UGC Regulations 2022 & Ph.D. Ordinance of University",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/doctor.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-phd-13",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "Doctorate",
+      "specialization": "Electrical Engineering",
+      "duration": "Min 3 Years",
+      "mode": "not_stated",
+      "eligibility": "As per UGC Regulations 2022 & Ph.D. Ordinance of University",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/doctor.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-phd-14",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "Doctorate",
+      "specialization": "Education",
+      "duration": "Min 3 Years",
+      "mode": "not_stated",
+      "eligibility": "As per UGC Regulations 2022 & Ph.D. Ordinance of University",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/doctor.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-phd-15",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "Doctorate",
+      "specialization": "Journalism & Mass Communication",
+      "duration": "Min 3 Years",
+      "mode": "not_stated",
+      "eligibility": "As per UGC Regulations 2022 & Ph.D. Ordinance of University",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/doctor.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 59,
+          "career_node_slug": "bjmc",
+          "career_breadcrumb": "Media & Journalism > B.J.M.C (Journalism & Mass Comm)",
+          "relation": "closest specialization mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-phd-16",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "Doctorate",
+      "specialization": "Library Science",
+      "duration": "Min 3 Years",
+      "mode": "not_stated",
+      "eligibility": "As per UGC Regulations 2022 & Ph.D. Ordinance of University",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/doctor.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest parent mapping",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-phd-17",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "Doctorate",
+      "specialization": "English",
+      "duration": "Min 3 Years",
+      "mode": "not_stated",
+      "eligibility": "As per UGC Regulations 2022 & Ph.D. Ordinance of University",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/doctor.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-phd-18",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "Doctorate",
+      "specialization": "Hindi",
+      "duration": "Min 3 Years",
+      "mode": "not_stated",
+      "eligibility": "As per UGC Regulations 2022 & Ph.D. Ordinance of University",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/doctor.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-phd-19",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "Doctorate",
+      "specialization": "Economics",
+      "duration": "Min 3 Years",
+      "mode": "not_stated",
+      "eligibility": "As per UGC Regulations 2022 & Ph.D. Ordinance of University",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/doctor.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-phd-20",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "Doctorate",
+      "specialization": "Geography",
+      "duration": "Min 3 Years",
+      "mode": "not_stated",
+      "eligibility": "As per UGC Regulations 2022 & Ph.D. Ordinance of University",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/doctor.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest parent mapping",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-phd-21",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "Doctorate",
+      "specialization": "Sociology",
+      "duration": "Min 3 Years",
+      "mode": "not_stated",
+      "eligibility": "As per UGC Regulations 2022 & Ph.D. Ordinance of University",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/doctor.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-phd-22",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "Doctorate",
+      "specialization": "Biotechnology",
+      "duration": "Min 3 Years",
+      "mode": "not_stated",
+      "eligibility": "As per UGC Regulations 2022 & Ph.D. Ordinance of University",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/doctor.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 88,
+          "career_node_slug": "btech_biotech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Biotechnology",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-phd-23",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "Doctorate",
+      "specialization": "Law",
+      "duration": "Min 3 Years",
+      "mode": "not_stated",
+      "eligibility": "As per UGC Regulations 2022 & Ph.D. Ordinance of University",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/doctor.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 343,
+          "career_node_slug": "commerce_law",
+          "career_breadcrumb": "Law & Legal",
+          "relation": "nearest parent mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-phd-24",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "Doctorate",
+      "specialization": "Computer Science & Engineering",
+      "duration": "Min 3 Years",
+      "mode": "not_stated",
+      "eligibility": "As per UGC Regulations 2022 & Ph.D. Ordinance of University",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/doctor.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-phd-25",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "Doctorate",
+      "specialization": "Computer Science & Applications",
+      "duration": "Min 3 Years",
+      "mode": "not_stated",
+      "eligibility": "As per UGC Regulations 2022 & Ph.D. Ordinance of University",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/doctor.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-phd-26",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "Doctorate",
+      "specialization": "Agriculture (Genetic & Plant Breeding)",
+      "duration": "Min 3 Years",
+      "mode": "not_stated",
+      "eligibility": "As per UGC Regulations 2022 & Ph.D. Ordinance of University",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/doctor.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-phd-27",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "Doctorate",
+      "specialization": "Agriculture Engineering (Farm Machinery & Power Engineering)",
+      "duration": "Min 3 Years",
+      "mode": "not_stated",
+      "eligibility": "As per UGC Regulations 2022 & Ph.D. Ordinance of University",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/doctor.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "iftm-university-phd-28",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "Doctorate",
+      "specialization": "Agriculture Science & Engineering (Horticulture-Vegetable Science)",
+      "duration": "Min 3 Years",
+      "mode": "not_stated",
+      "eligibility": "As per UGC Regulations 2022 & Ph.D. Ordinance of University",
+      "official_course_url": "https://www.iftmuniversity.ac.in/iftmuniversity/doctor.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "Government listing was established in both supplied 2025 NIRF directories; the matching rows identify IFTM University in Moradabad, Uttar Pradesh.",
+    "Normal TLS first returned the managed proxy self-signed certificate-chain error. Public GET requests were then retried with curl --insecure only for the expected NIRF and iftmuniversity.ac.in hosts.",
+    "The official admissions catalogue currently exposes 8 diploma programmes, 37 UG programmes, 41 PG programmes and 28 Ph.D. specializations. The homepage also contains older summary wording about 54 programmes; the current category tables were used for exact programme names.",
+    "The official navigation exposes diploma, UG, PG and doctoral catalogues but no active certificate-programme catalogue; short-term/value-added course links were excluded because they are not presented as degree, diploma, certificate or doctoral admissions programmes."
+  ]
+}

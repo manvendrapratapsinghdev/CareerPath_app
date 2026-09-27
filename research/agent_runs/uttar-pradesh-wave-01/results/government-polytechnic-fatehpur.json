@@ -1,0 +1,79 @@
+{
+  "institution_id": "government-polytechnic-fatehpur",
+  "nirf_name": "Government Polytechnic, Fatehpur",
+  "verification_outcome": "remove_candidate",
+  "district": null,
+  "district_verification_status": "not_found",
+  "official_website": null,
+  "website_verification_status": "not_found",
+  "description": null,
+  "description_verification_status": "not_found",
+  "record_status": "remove_candidate",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "authoritative_identity_check",
+      "url": "https://urise.up.gov.in/poly/4402",
+      "supports": [
+        "Official Uttar Pradesh URISE profile identifies institution code 4402 as Government Polytechnic Fatehpur and lists gpfatehpur.org as its website; this was used only for identity/domain checking."
+      ]
+    },
+    {
+      "type": "authoritative_affiliation_check",
+      "url": "https://bteup.ac.in/WebApp/InstituteSearch.aspx?District=fatehpur",
+      "supports": [
+        "Board of Technical Education Uttar Pradesh lists institute code 4402 as GOVT. POLYTECHNIC, FATEHPUR."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "Government Polytechnic Fatehpur official website",
+      "result": "Brave discovery returned https://gpfatehpur.org/ as Government Polytechnic Fatehpur; the live domain instead serves unrelated 1Win casino content.",
+      "url": "https://search.brave.com/search?q=Government%20Polytechnic%20Fatehpur%20official%20website"
+    },
+    {
+      "query": "Government Polytechnic Fatehpur Uttar Pradesh official website",
+      "result": "Google request returned HTTP 429 and no usable result list.",
+      "url": "https://www.google.com/search?q=Government+Polytechnic+Fatehpur+Uttar+Pradesh+official+website"
+    },
+    {
+      "query": "\"Government Polytechnic, Fatehpur\" courses",
+      "result": "Brave search returned an anti-bot challenge; no usable official institution result was available.",
+      "url": "https://search.brave.com/search?q=%22Government%20Polytechnic%2C%20Fatehpur%22%20courses"
+    },
+    {
+      "query": "Rajkiya Polytechnic Fatehpur official",
+      "result": "Brave search returned an anti-bot challenge; no usable official institution result was available.",
+      "url": "https://search.brave.com/search?q=Rajkiya%20Polytechnic%20Fatehpur%20official"
+    },
+    {
+      "query": "site:up.gov.in \"Government Polytechnic\" \"Fatehpur\"",
+      "result": "Brave search returned an anti-bot challenge; no usable institution homepage was found.",
+      "url": "https://search.brave.com/search?q=site%3Aup.gov.in%20%22Government%20Polytechnic%22%20%22Fatehpur%22"
+    },
+    {
+      "query": "site:bteup.ac.in \"GOVT. POLYTECHNIC, FATEHPUR\"",
+      "result": "Brave search returned an anti-bot challenge; authoritative identity was instead checked directly on the BTEUP page.",
+      "url": "https://search.brave.com/search?q=site%3Abteup.ac.in%20%22GOVT.%20POLYTECHNIC%2C%20FATEHPUR%22"
+    },
+    {
+      "query": "https://gpfatehpur.org/",
+      "result": "HTTP 200, but the homepage title and content are 1Win casino material; its sitemap contains casino pages, so it cannot be verified as the institution's current official website.",
+      "url": "https://gpfatehpur.org/"
+    },
+    {
+      "query": "https://urise.up.gov.in/poly/4402",
+      "result": "Official URISE profile confirms institution code 4402 and links gpfatehpur.org, but it is an external government portal rather than the institution's actual website.",
+      "url": "https://urise.up.gov.in/poly/4402"
+    }
+  ],
+  "course_catalogue_status": "not_found",
+  "courses": [],
+  "agent_notes": [
+    "The institution identity is established by official Uttar Pradesh portals, but no current institution-owned official website could be verified.",
+    "The candidate domain gpfatehpur.org is currently unrelated casino content and is not usable for institution, district, description, or programme evidence.",
+    "The only course list located was on the URISE government portal, not the institution's actual official website, so no courses were included under the evidence rules.",
+    "Normal TLS verification first produced the exact managed-proxy self-signed certificate-chain error; public GET requests then used curl --insecure only after confirming the expected public hostnames."
+  ]
+}

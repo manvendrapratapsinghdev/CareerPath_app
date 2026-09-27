@@ -1,0 +1,68 @@
+{
+  "institution_id": "bhaskar-college-of-education",
+  "nirf_name": "BHASKAR COLLEGE OF EDUCATION",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "remove_candidate",
+  "district": null,
+  "district_verification_status": "not_found",
+  "official_website": null,
+  "website_verification_status": "not_found",
+  "description": null,
+  "description_verification_status": "not_found",
+  "record_status": "remove_candidate",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact institution name BHASKAR COLLEGE OF EDUCATION",
+        "City SHAMLI",
+        "State Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "official_university_affiliation_record",
+      "url": "https://msuniversity.ac.in/notice2022-23/updates/msu-1675.pdf",
+      "supports": [
+        "Official Maa Shakumbhari University record naming BHASKAR COLLEGE OF EDUCATION on the Shamli-Kairana Road"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Bhaskar College of Education\" Shamli",
+      "result": "Focused search returned only non-official directories and social-profile results; no institution-owned official website was identified.",
+      "url": "https://html.duckduckgo.com/html/?q=%22Bhaskar%20College%20of%20Education%22%20Shamli"
+    },
+    {
+      "query": "\"Bhaskar College of Education\" Shamli official website",
+      "result": "Focused search again returned non-official directory and social-profile results; no institution-owned official website was identified.",
+      "url": "https://search.yahoo.com/search?p=%22Bhaskar%20College%20of%20Education%22%20Shamli%20official%20website"
+    },
+    {
+      "query": "site:msuniversity.ac.in \"BHASKAR COLLEGE OF EDUCATION\"",
+      "result": "Authoritative university-domain check found an official affiliation PDF for the institution, but not an institution website or official course catalogue.",
+      "url": "https://msuniversity.ac.in/notice2022-23/updates/msu-1675.pdf"
+    },
+    {
+      "query": "site:ncte.gov.in \"BHASKAR COLLEGE OF EDUCATION\"",
+      "result": "No result found on the NCTE domain for the exact institution name.",
+      "url": "https://html.duckduckgo.com/html/?q=site%3Ancte.gov.in%20%22BHASKAR%20COLLEGE%20OF%20EDUCATION%22"
+    },
+    {
+      "query": "site:aishe.gov.in \"BHASKAR COLLEGE OF EDUCATION\"",
+      "result": "No result found on the AISHE domain for the exact institution name.",
+      "url": "https://html.duckduckgo.com/html/?q=site%3Aaishe.gov.in%20%22BHASKAR%20COLLEGE%20OF%20EDUCATION%22"
+    }
+  ],
+  "course_catalogue_status": "not_found",
+  "courses": [],
+  "agent_notes": [
+    "The NIRF 2025 CollegeRankingALL government listing contains the exact institution name, city SHAMLI, and state Uttar Pradesh.",
+    "Normal TLS verification failed with the managed proxy's self-signed certificate-chain error; curl --insecure was then used only for public GET requests to the expected NIRF, search, and official university domains.",
+    "After two focused web searches and authoritative-domain checks, no actual official institution website or official programme catalogue could be established. The institution is therefore marked remove_candidate under the outcome rules."
+  ]
+}

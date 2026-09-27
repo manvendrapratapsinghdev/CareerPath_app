@@ -1,0 +1,1890 @@
+{
+  "institution_id": "harcourt-butler-technical-university",
+  "nirf_name": "Harcourt Butler Technical University",
+  "verification_outcome": "manual_review",
+  "district": "Kanpur",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://hbtu.ac.in/",
+  "website_verification_status": "verified",
+  "description": "Harcourt Butler Technical University (formerly Harcourt Butler Technological Institute) is a residential technical university in Kanpur, Uttar Pradesh, established as a university by the Government of Uttar Pradesh in 2016. Its official site describes East and West campuses in Kanpur and programmes in engineering, technology, sciences, management, humanities and other professional fields.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "official_homepage",
+      "url": "https://hbtu.ac.in/",
+      "supports": [
+        "institution_identity",
+        "official_website",
+        "description"
+      ]
+    },
+    {
+      "type": "official_address",
+      "url": "https://hbtu.ac.in/address/",
+      "supports": [
+        "campus_identity",
+        "city"
+      ]
+    },
+    {
+      "type": "official_about",
+      "url": "https://hbtu.ac.in/about-us/",
+      "supports": [
+        "institution_identity",
+        "campus_identity",
+        "description",
+        "academic_scope"
+      ]
+    },
+    {
+      "type": "official_programme_catalogue",
+      "url": "https://hbtu.ac.in/programmes/",
+      "supports": [
+        "undergraduate_programmes",
+        "postgraduate_programmes",
+        "doctoral_programmes",
+        "explicit_durations"
+      ]
+    },
+    {
+      "type": "official_bachelor_admissions",
+      "url": "https://hbtu.ac.in/bachelors-admissions/",
+      "supports": [
+        "current_undergraduate_admissions",
+        "undergraduate_disciplines"
+      ]
+    },
+    {
+      "type": "official_master_programmes",
+      "url": "https://hbtu.ac.in/masters-programmes/",
+      "supports": [
+        "current_postgraduate_programmes",
+        "mtech_specializations",
+        "msc_specializations",
+        "bs_ms"
+      ]
+    },
+    {
+      "type": "official_phd_programmes",
+      "url": "https://hbtu.ac.in/ph-d-programmes/",
+      "supports": [
+        "doctoral_disciplines",
+        "doctoral_eligibility"
+      ]
+    },
+    {
+      "type": "official_academic_affairs",
+      "url": "https://hbtu.ac.in/dean-of-academic-affairs/",
+      "supports": [
+        "academic_programme_tables",
+        "current_programme_seats",
+        "bs_ms"
+      ]
+    },
+    {
+      "type": "official_admission_2026_27",
+      "url": "https://hbtu.ac.in/admission-2026-27/",
+      "supports": [
+        "current_2026_27_admission_activity",
+        "btech_biotechnology",
+        "bpharm",
+        "lateral_entry_programmes",
+        "bs_ms",
+        "mca",
+        "mba",
+        "msc",
+        "mtech",
+        "phd"
+      ]
+    },
+    {
+      "type": "official_current_admitted_programmes",
+      "url": "https://hbtu.ac.in/admitted-candidates-for-all-programme-2026-27/",
+      "supports": [
+        "current_programme_activity",
+        "bba",
+        "btech_biotechnology",
+        "btech_biotechnology_lateral_entry",
+        "bpharm",
+        "bs_ms",
+        "mca",
+        "mba",
+        "mtech",
+        "msc",
+        "phd"
+      ]
+    },
+    {
+      "type": "official_department_catalogue",
+      "url": "https://hbtu.ac.in/department-of-biotechnology/",
+      "supports": [
+        "btech_biotechnology",
+        "msc_biotechnology",
+        "msc_biochemistry",
+        "msc_forensic_bioanalytics",
+        "phd_biotechnology"
+      ]
+    },
+    {
+      "type": "official_department_catalogue",
+      "url": "https://hbtu.ac.in/department-of-pharmaceutical-science/",
+      "supports": [
+        "bpharm"
+      ]
+    },
+    {
+      "type": "official_short_term_catalogue",
+      "url": "https://hbtu.ac.in/dean-of-incubation-hub/",
+      "supports": [
+        "short_term_course_categories",
+        "catalogue_gap"
+      ]
+    },
+    {
+      "type": "official_certificate_course",
+      "url": "https://hbtu.ac.in/personality-development-programme/",
+      "supports": [
+        "certified_personality_development_programme"
+      ]
+    },
+    {
+      "type": "official_certificate_course",
+      "url": "https://hbtu.ac.in/startup-course-for-students-and-professionals/",
+      "supports": [
+        "certified_start_up_course"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "Harcourt Butler Technical University official website Kanpur",
+      "result": "Bing HTML search was attempted; its returned result set was unrelated/stale and was not used as verification evidence. Direct HTTPS verification of the expected hostname then established https://hbtu.ac.in/.",
+      "url": "https://www.bing.com/search?q=Harcourt+Butler+Technical+University+official+website+Kanpur"
+    },
+    {
+      "query": "Harcourt Butler Technical University official website Kanpur",
+      "result": "Google HTTPS search was attempted but returned HTTP 429; no search snippet was used as verification evidence.",
+      "url": "https://www.google.com/search?q=Harcourt+Butler+Technical+University+official+website+Kanpur"
+    },
+    {
+      "query": "Harcourt Butler Technical University official website Kanpur",
+      "result": "DuckDuckGo HTML search was attempted but returned no usable result page; no snippet was used as verification evidence.",
+      "url": "https://html.duckduckgo.com/html/?q=Harcourt+Butler+Technical+University+official+website+Kanpur"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "harcourt-butler-technical-university-btech-civil-engineering",
+      "name": "Bachelor of Technology (B.Tech.)",
+      "level": "undergraduate",
+      "credential": "B.Tech.",
+      "specialization": "Civil Engineering",
+      "duration": "4 years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-btech-computer-science-engineering",
+      "name": "Bachelor of Technology (B.Tech.)",
+      "level": "undergraduate",
+      "credential": "B.Tech.",
+      "specialization": "Computer Science & Engineering",
+      "duration": "4 years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-btech-electrical-engineering",
+      "name": "Bachelor of Technology (B.Tech.)",
+      "level": "undergraduate",
+      "credential": "B.Tech.",
+      "specialization": "Electrical Engineering",
+      "duration": "4 years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-btech-electronics-engineering",
+      "name": "Bachelor of Technology (B.Tech.)",
+      "level": "undergraduate",
+      "credential": "B.Tech.",
+      "specialization": "Electronics Engineering",
+      "duration": "4 years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-btech-information-technology",
+      "name": "Bachelor of Technology (B.Tech.)",
+      "level": "undergraduate",
+      "credential": "B.Tech.",
+      "specialization": "Information Technology",
+      "duration": "4 years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 89,
+          "career_node_slug": "btech_it",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Information Technology",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-btech-mechanical-engineering",
+      "name": "Bachelor of Technology (B.Tech.)",
+      "level": "undergraduate",
+      "credential": "B.Tech.",
+      "specialization": "Mechanical Engineering",
+      "duration": "4 years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-btech-biochemical-engineering",
+      "name": "Bachelor of Technology (B.Tech.)",
+      "level": "undergraduate",
+      "credential": "B.Tech.",
+      "specialization": "Biochemical Engineering",
+      "duration": "4 years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-btech-chemical-engineering",
+      "name": "Bachelor of Technology (B.Tech.)",
+      "level": "undergraduate",
+      "credential": "B.Tech.",
+      "specialization": "Chemical Engineering",
+      "duration": "4 years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 86,
+          "career_node_slug": "btech_chem",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Chemical Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-btech-food-technology",
+      "name": "Bachelor of Technology (B.Tech.)",
+      "level": "undergraduate",
+      "credential": "B.Tech.",
+      "specialization": "Food Technology",
+      "duration": "4 years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 28,
+          "career_node_slug": "bsc_food_tech",
+          "career_breadcrumb": "Common Paths > B.Sc Food Technology",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-btech-leather-technology",
+      "name": "Bachelor of Technology (B.Tech.)",
+      "level": "undergraduate",
+      "credential": "B.Tech.",
+      "specialization": "Leather Technology",
+      "duration": "4 years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest_parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-btech-oil-technology",
+      "name": "Bachelor of Technology (B.Tech.)",
+      "level": "undergraduate",
+      "credential": "B.Tech.",
+      "specialization": "Oil Technology",
+      "duration": "4 years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest_parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-btech-paint-technology",
+      "name": "Bachelor of Technology (B.Tech.)",
+      "level": "undergraduate",
+      "credential": "B.Tech.",
+      "specialization": "Paint Technology",
+      "duration": "4 years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest_parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-btech-plastic-technology",
+      "name": "Bachelor of Technology (B.Tech.)",
+      "level": "undergraduate",
+      "credential": "B.Tech.",
+      "specialization": "Plastic Technology",
+      "duration": "4 years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest_parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-btech-lateral-civil-engineering",
+      "name": "Bachelor of Technology (B.Tech.) Lateral Entry",
+      "level": "undergraduate",
+      "credential": "B.Tech. (Lateral Entry)",
+      "specialization": "Civil Engineering",
+      "duration": "3 years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-btech-lateral-computer-science-engineering",
+      "name": "Bachelor of Technology (B.Tech.) Lateral Entry",
+      "level": "undergraduate",
+      "credential": "B.Tech. (Lateral Entry)",
+      "specialization": "Computer Science & Engineering",
+      "duration": "3 years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-btech-lateral-electrical-engineering",
+      "name": "Bachelor of Technology (B.Tech.) Lateral Entry",
+      "level": "undergraduate",
+      "credential": "B.Tech. (Lateral Entry)",
+      "specialization": "Electrical Engineering",
+      "duration": "3 years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-btech-lateral-electronics-engineering",
+      "name": "Bachelor of Technology (B.Tech.) Lateral Entry",
+      "level": "undergraduate",
+      "credential": "B.Tech. (Lateral Entry)",
+      "specialization": "Electronics Engineering",
+      "duration": "3 years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-btech-lateral-information-technology",
+      "name": "Bachelor of Technology (B.Tech.) Lateral Entry",
+      "level": "undergraduate",
+      "credential": "B.Tech. (Lateral Entry)",
+      "specialization": "Information Technology",
+      "duration": "3 years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 89,
+          "career_node_slug": "btech_it",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Information Technology",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-btech-lateral-mechanical-engineering",
+      "name": "Bachelor of Technology (B.Tech.) Lateral Entry",
+      "level": "undergraduate",
+      "credential": "B.Tech. (Lateral Entry)",
+      "specialization": "Mechanical Engineering",
+      "duration": "3 years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-btech-lateral-biochemical-engineering",
+      "name": "Bachelor of Technology (B.Tech.) Lateral Entry",
+      "level": "undergraduate",
+      "credential": "B.Tech. (Lateral Entry)",
+      "specialization": "Biochemical Engineering",
+      "duration": "3 years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-btech-lateral-chemical-engineering",
+      "name": "Bachelor of Technology (B.Tech.) Lateral Entry",
+      "level": "undergraduate",
+      "credential": "B.Tech. (Lateral Entry)",
+      "specialization": "Chemical Engineering",
+      "duration": "3 years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 86,
+          "career_node_slug": "btech_chem",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Chemical Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-btech-lateral-food-technology",
+      "name": "Bachelor of Technology (B.Tech.) Lateral Entry",
+      "level": "undergraduate",
+      "credential": "B.Tech. (Lateral Entry)",
+      "specialization": "Food Technology",
+      "duration": "3 years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 28,
+          "career_node_slug": "bsc_food_tech",
+          "career_breadcrumb": "Common Paths > B.Sc Food Technology",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-btech-lateral-leather-technology",
+      "name": "Bachelor of Technology (B.Tech.) Lateral Entry",
+      "level": "undergraduate",
+      "credential": "B.Tech. (Lateral Entry)",
+      "specialization": "Leather Technology",
+      "duration": "3 years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest_parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-btech-lateral-oil-technology",
+      "name": "Bachelor of Technology (B.Tech.) Lateral Entry",
+      "level": "undergraduate",
+      "credential": "B.Tech. (Lateral Entry)",
+      "specialization": "Oil Technology",
+      "duration": "3 years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest_parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-btech-lateral-paint-technology",
+      "name": "Bachelor of Technology (B.Tech.) Lateral Entry",
+      "level": "undergraduate",
+      "credential": "B.Tech. (Lateral Entry)",
+      "specialization": "Paint Technology",
+      "duration": "3 years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest_parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-btech-lateral-plastic-technology",
+      "name": "Bachelor of Technology (B.Tech.) Lateral Entry",
+      "level": "undergraduate",
+      "credential": "B.Tech. (Lateral Entry)",
+      "specialization": "Plastic Technology",
+      "duration": "3 years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest_parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-btech-working-professional",
+      "name": "B.Tech. for Working Professional",
+      "level": "undergraduate",
+      "credential": "B.Tech.",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "working professional",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest_parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-bba",
+      "name": "Bachelor of Business Administration (B.B.A.)",
+      "level": "undergraduate",
+      "credential": "B.B.A.",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 46,
+          "career_node_slug": "bba",
+          "career_breadcrumb": "Management & Business > BBA (General)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-btech-biotechnology",
+      "name": "B. Tech. Biotechnology",
+      "level": "undergraduate",
+      "credential": "B.Tech.",
+      "specialization": "Biotechnology",
+      "duration": "4 years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/department-of-biotechnology/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 88,
+          "career_node_slug": "btech_biotech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Biotechnology",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-btech-biotechnology-lateral-entry",
+      "name": "B.Tech. Biotechnology Lateral Entry",
+      "level": "undergraduate",
+      "credential": "B.Tech. (Lateral Entry)",
+      "specialization": "Biotechnology",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/admission-2026-27/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 88,
+          "career_node_slug": "btech_biotech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Biotechnology",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-bpharm",
+      "name": "Bachelor of Pharmacy (B.Pharm)",
+      "level": "undergraduate",
+      "credential": "B.Pharm",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/department-of-pharmaceutical-science/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "direct_slug_but_career_tree_label_issue",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-bpharm-lateral-entry",
+      "name": "B.Pharm. Lateral Entry",
+      "level": "undergraduate",
+      "credential": "B.Pharm (Lateral Entry)",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/admission-2026-27/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "direct_slug_but_career_tree_label_issue",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-mtech-civil-engineering",
+      "name": "M.Tech. Civil Engineering",
+      "level": "postgraduate",
+      "credential": "M.Tech.",
+      "specialization": "Environmental Science and Engineering",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/masters-programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-mtech-computer-science-engineering",
+      "name": "M.Tech. Computer Science & Engineering",
+      "level": "postgraduate",
+      "credential": "M.Tech.",
+      "specialization": "Computer Science and Engineering",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/masters-programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-mtech-electrical-engineering",
+      "name": "M.Tech. Electrical Engineering",
+      "level": "postgraduate",
+      "credential": "M.Tech.",
+      "specialization": "Power Electronics and Control",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/masters-programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-mtech-electronics-engineering",
+      "name": "M.Tech. Electronics Engineering",
+      "level": "postgraduate",
+      "credential": "M.Tech.",
+      "specialization": "Electronics and Communication Engineering",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/masters-programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-mtech-mechanical-engineering",
+      "name": "M.Tech Mechanical Engineering",
+      "level": "postgraduate",
+      "credential": "M.Tech.",
+      "specialization": "Computer Aided Design",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/masters-programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-mtech-biochemical-engineering",
+      "name": "M.Tech. Biochemical Engineering",
+      "level": "postgraduate",
+      "credential": "M.Tech.",
+      "specialization": "Biochemical Engineering",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/masters-programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-mtech-chemical-engineering",
+      "name": "M.Tech Chemical Engineering",
+      "level": "postgraduate",
+      "credential": "M.Tech.",
+      "specialization": "Chemical Engineering",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/masters-programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 86,
+          "career_node_slug": "btech_chem",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Chemical Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-mtech-food-technology",
+      "name": "M.Tech Food Technology",
+      "level": "postgraduate",
+      "credential": "M.Tech.",
+      "specialization": "Food Technology",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/masters-programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 28,
+          "career_node_slug": "bsc_food_tech",
+          "career_breadcrumb": "Common Paths > B.Sc Food Technology",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-mtech-oil-technology",
+      "name": "M.Tech Oil Technology",
+      "level": "postgraduate",
+      "credential": "M.Tech.",
+      "specialization": "Oil Technology",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/masters-programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest_parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-mtech-plastic-technology",
+      "name": "M.Tech Plastic Technology",
+      "level": "postgraduate",
+      "credential": "M.Tech.",
+      "specialization": "Plastic Technology",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/masters-programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest_parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-mtech-paint-technology",
+      "name": "M.Tech Paint Technology",
+      "level": "postgraduate",
+      "credential": "M.Tech.",
+      "specialization": "Paint Technology",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/masters-programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest_parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-mca",
+      "name": "Master of Computer Application (MCA)",
+      "level": "postgraduate",
+      "credential": "MCA",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "full-time",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 93,
+          "career_node_slug": "mca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications) > MCA → Software Engineer",
+          "relation": "closest_specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-mba",
+      "name": "Master of Business Administration (MBA)",
+      "level": "postgraduate",
+      "credential": "MBA",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "full-time",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 208,
+          "career_node_slug": "mba_general",
+          "career_breadcrumb": "Management & Business > BBA (General) > MBA → CEO / Director Track",
+          "relation": "closest_specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-msc-mathematics",
+      "name": "MSc in Mathematics",
+      "level": "postgraduate",
+      "credential": "M.Sc.",
+      "specialization": "Data Science",
+      "duration": "2 years",
+      "mode": "full-time",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/masters-programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 90,
+          "career_node_slug": "msc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics > M.Sc Mathematics → Professor / Researcher",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-msc-physics",
+      "name": "MSc in Physics",
+      "level": "postgraduate",
+      "credential": "M.Sc.",
+      "specialization": "M.Sc. Physics (Specialization in Materials Science & Nanotechnology)",
+      "duration": "2 years",
+      "mode": "full-time",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/masters-programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 153,
+          "career_node_slug": "msc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics > M.Sc Physics → Researcher / Professor",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-msc-chemistry",
+      "name": "MSc in Chemistry",
+      "level": "postgraduate",
+      "credential": "M.Sc.",
+      "specialization": "Chemical Sciences",
+      "duration": "2 years",
+      "mode": "full-time",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/masters-programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 155,
+          "career_node_slug": "msc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry > M.Sc Chemistry → Researcher",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-bs-ms",
+      "name": "BS-MS",
+      "level": "integrated undergraduate/postgraduate",
+      "credential": "BS-MS",
+      "specialization": "Mathematics and Data Science",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/masters-programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 31,
+          "career_node_slug": "bsc_ds",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Data Science",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-msc-biotechnology",
+      "name": "M.Sc. Biotechnology",
+      "level": "postgraduate",
+      "credential": "M.Sc.",
+      "specialization": "Biotechnology",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/department-of-biotechnology/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 146,
+          "career_node_slug": "msc_biotech",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech > M.Sc Biotechnology → Researcher",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-msc-biochemistry",
+      "name": "M.Sc. Biochemistry",
+      "level": "postgraduate",
+      "credential": "M.Sc.",
+      "specialization": "Biochemistry",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/department-of-biotechnology/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 35,
+          "career_node_slug": "bsc_biochem",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Biochemistry",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-msc-forensic-bioanalytics",
+      "name": "M.Sc. Forensic Bioanalytics",
+      "level": "postgraduate",
+      "credential": "M.Sc.",
+      "specialization": "Forensic Bioanalytics",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/department-of-biotechnology/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 27,
+          "career_node_slug": "bsc_forensic",
+          "career_breadcrumb": "Common Paths > B.Sc Forensic Science",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-phd-civil-engineering",
+      "name": "Ph.D. Civil Engineering",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Civil Engineering",
+      "duration": null,
+      "mode": "full-time and part-time",
+      "eligibility": "(i) M. Tech. / M. E. Degree in relevant discipline with a minimum of 55% marks or equivalent CGPA/ CPI. or (ii) B.E. / B. Tech. degree with a minimum of 70% marks or equivalent CGPA/CPI along with at least 10 years of professional experience in relevant field. or (iii) B.E. / B. Tech. degree in relevant discipline with a minimum of 75% marks or equivalent CGPA/CPI. or (iv) M.C.A degree with a minimum of 55% marks or equivalent CGPA/CPI for MCA Stream (Eligible for pursuing Ph.D. in CSE Department)",
+      "official_course_url": "https://hbtu.ac.in/ph-d-programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-phd-computer-science-engineering",
+      "name": "Ph.D. Computer Science & Engineering",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Computer Science & Engineering",
+      "duration": null,
+      "mode": "full-time and part-time",
+      "eligibility": "(i) M. Tech. / M. E. Degree in relevant discipline with a minimum of 55% marks or equivalent CGPA/ CPI. or (ii) B.E. / B. Tech. degree with a minimum of 70% marks or equivalent CGPA/CPI along with at least 10 years of professional experience in relevant field. or (iii) B.E. / B. Tech. degree in relevant discipline with a minimum of 75% marks or equivalent CGPA/CPI. or (iv) M.C.A degree with a minimum of 55% marks or equivalent CGPA/CPI for MCA Stream (Eligible for pursuing Ph.D. in CSE Department)",
+      "official_course_url": "https://hbtu.ac.in/ph-d-programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-phd-electrical-engineering",
+      "name": "Ph.D. Electrical Engineering",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Electrical Engineering",
+      "duration": null,
+      "mode": "full-time and part-time",
+      "eligibility": "(i) M. Tech. / M. E. Degree in relevant discipline with a minimum of 55% marks or equivalent CGPA/ CPI. or (ii) B.E. / B. Tech. degree with a minimum of 70% marks or equivalent CGPA/CPI along with at least 10 years of professional experience in relevant field. or (iii) B.E. / B. Tech. degree in relevant discipline with a minimum of 75% marks or equivalent CGPA/CPI. or (iv) M.C.A degree with a minimum of 55% marks or equivalent CGPA/CPI for MCA Stream (Eligible for pursuing Ph.D. in CSE Department)",
+      "official_course_url": "https://hbtu.ac.in/ph-d-programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-phd-electronics-engineering",
+      "name": "Ph.D. Electronics Engineering",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Electronics Engineering",
+      "duration": null,
+      "mode": "full-time and part-time",
+      "eligibility": "(i) M. Tech. / M. E. Degree in relevant discipline with a minimum of 55% marks or equivalent CGPA/ CPI. or (ii) B.E. / B. Tech. degree with a minimum of 70% marks or equivalent CGPA/CPI along with at least 10 years of professional experience in relevant field. or (iii) B.E. / B. Tech. degree in relevant discipline with a minimum of 75% marks or equivalent CGPA/CPI. or (iv) M.C.A degree with a minimum of 55% marks or equivalent CGPA/CPI for MCA Stream (Eligible for pursuing Ph.D. in CSE Department)",
+      "official_course_url": "https://hbtu.ac.in/ph-d-programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-phd-mechanical-engineering",
+      "name": "Ph.D. Mechanical Engineering",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Mechanical Engineering",
+      "duration": null,
+      "mode": "full-time and part-time",
+      "eligibility": "(i) M. Tech. / M. E. Degree in relevant discipline with a minimum of 55% marks or equivalent CGPA/ CPI. or (ii) B.E. / B. Tech. degree with a minimum of 70% marks or equivalent CGPA/CPI along with at least 10 years of professional experience in relevant field. or (iii) B.E. / B. Tech. degree in relevant discipline with a minimum of 75% marks or equivalent CGPA/CPI. or (iv) M.C.A degree with a minimum of 55% marks or equivalent CGPA/CPI for MCA Stream (Eligible for pursuing Ph.D. in CSE Department)",
+      "official_course_url": "https://hbtu.ac.in/ph-d-programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-phd-chemical-engineering",
+      "name": "Ph.D. Chemical Engineering",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Chemical Engineering",
+      "duration": null,
+      "mode": "full-time and part-time",
+      "eligibility": "(i) M. Tech. / M. E. degree in relevant discipline with a minimum of 55% marks or equivalent CGPA / CPI. or (ii) B.E. / B. Tech. degree with a minimum of 70% marks or equivalent CGPA/CPI along with at least 10 years of professional experience in relevant field. or (iii) B.E. / B. Tech. degree in relevant discipline with a minimum of 75% marks or equivalent CGPA/CPI. or (iv) M. Sc. degree with minimum 55% marks in Chemistry / Industrial Chemistry / Applied Chemistry / Biotechnology or equivalent CGPA / CPI.",
+      "official_course_url": "https://hbtu.ac.in/ph-d-programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 86,
+          "career_node_slug": "btech_chem",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Chemical Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-phd-biochemical-engineering",
+      "name": "Ph.D. Biochemical Engineering",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Biochemical Engineering",
+      "duration": null,
+      "mode": "full-time and part-time",
+      "eligibility": "(i) M. Tech. / M. E. degree in relevant discipline with a minimum of 55% marks or equivalent CGPA / CPI. or (ii) B.E. / B. Tech. degree with a minimum of 70% marks or equivalent CGPA/CPI along with at least 10 years of professional experience in relevant field. or (iii) B.E. / B. Tech. degree in relevant discipline with a minimum of 75% marks or equivalent CGPA/CPI. or (iv) M. Sc. degree with minimum 55% marks in Chemistry / Industrial Chemistry / Applied Chemistry / Biotechnology or equivalent CGPA / CPI.",
+      "official_course_url": "https://hbtu.ac.in/ph-d-programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-phd-food-technology",
+      "name": "Ph.D. Food Technology",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Food Technology",
+      "duration": null,
+      "mode": "full-time and part-time",
+      "eligibility": "(i) M. Tech. / M. E. degree in relevant discipline with a minimum of 55% marks or equivalent CGPA / CPI. or (ii) B.E. / B. Tech. degree with a minimum of 70% marks or equivalent CGPA/CPI along with at least 10 years of professional experience in relevant field. or (iii) B.E. / B. Tech. degree in relevant discipline with a minimum of 75% marks or equivalent CGPA/CPI. or (iv) M. Sc. degree with minimum 55% marks in Chemistry / Industrial Chemistry / Applied Chemistry / Biotechnology or equivalent CGPA / CPI.",
+      "official_course_url": "https://hbtu.ac.in/ph-d-programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 28,
+          "career_node_slug": "bsc_food_tech",
+          "career_breadcrumb": "Common Paths > B.Sc Food Technology",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-phd-leather-technology",
+      "name": "Ph.D. Leather Technology",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Leather Technology",
+      "duration": null,
+      "mode": "full-time and part-time",
+      "eligibility": "(i) M. Tech. / M. E. degree in relevant discipline with a minimum of 55% marks or equivalent CGPA / CPI. or (ii) B.E. / B. Tech. degree with a minimum of 70% marks or equivalent CGPA/CPI along with at least 10 years of professional experience in relevant field. or (iii) B.E. / B. Tech. degree in relevant discipline with a minimum of 75% marks or equivalent CGPA/CPI. or (iv) M. Sc. degree with minimum 55% marks in Chemistry / Industrial Chemistry / Applied Chemistry / Biotechnology or equivalent CGPA / CPI.",
+      "official_course_url": "https://hbtu.ac.in/ph-d-programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest_parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-phd-oil-technology",
+      "name": "Ph.D. Oil Technology",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Oil Technology",
+      "duration": null,
+      "mode": "full-time and part-time",
+      "eligibility": "(i) M. Tech. / M. E. degree in relevant discipline with a minimum of 55% marks or equivalent CGPA / CPI. or (ii) B.E. / B. Tech. degree with a minimum of 70% marks or equivalent CGPA/CPI along with at least 10 years of professional experience in relevant field. or (iii) B.E. / B. Tech. degree in relevant discipline with a minimum of 75% marks or equivalent CGPA/CPI. or (iv) M. Sc. degree with minimum 55% marks in Chemistry / Industrial Chemistry / Applied Chemistry / Biotechnology or equivalent CGPA / CPI.",
+      "official_course_url": "https://hbtu.ac.in/ph-d-programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest_parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-phd-paint-technology",
+      "name": "Ph.D. Paint Technology",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Paint Technology",
+      "duration": null,
+      "mode": "full-time and part-time",
+      "eligibility": "(i) M. Tech. / M. E. degree in relevant discipline with a minimum of 55% marks or equivalent CGPA / CPI. or (ii) B.E. / B. Tech. degree with a minimum of 70% marks or equivalent CGPA/CPI along with at least 10 years of professional experience in relevant field. or (iii) B.E. / B. Tech. degree in relevant discipline with a minimum of 75% marks or equivalent CGPA/CPI. or (iv) M. Sc. degree with minimum 55% marks in Chemistry / Industrial Chemistry / Applied Chemistry / Biotechnology or equivalent CGPA / CPI.",
+      "official_course_url": "https://hbtu.ac.in/ph-d-programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest_parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-phd-plastic-technology",
+      "name": "Ph.D. Plastic Technology",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Plastic Technology",
+      "duration": null,
+      "mode": "full-time and part-time",
+      "eligibility": "(i) M. Tech. / M. E. degree in relevant discipline with a minimum of 55% marks or equivalent CGPA / CPI. or (ii) B.E. / B. Tech. degree with a minimum of 70% marks or equivalent CGPA/CPI along with at least 10 years of professional experience in relevant field. or (iii) B.E. / B. Tech. degree in relevant discipline with a minimum of 75% marks or equivalent CGPA/CPI. or (iv) M. Sc. degree with minimum 55% marks in Chemistry / Industrial Chemistry / Applied Chemistry / Biotechnology or equivalent CGPA / CPI.",
+      "official_course_url": "https://hbtu.ac.in/ph-d-programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest_parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-phd-physics",
+      "name": "Ph.D. Physics",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Physics",
+      "duration": null,
+      "mode": "full-time and part-time",
+      "eligibility": "M. Sc. Degree in relevant discipline with a minimum of 55% marks or equivalent CGPA / CPI",
+      "official_course_url": "https://hbtu.ac.in/ph-d-programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 153,
+          "career_node_slug": "msc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics > M.Sc Physics → Researcher / Professor",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-phd-chemistry",
+      "name": "Ph.D. Chemistry",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Chemistry",
+      "duration": null,
+      "mode": "full-time and part-time",
+      "eligibility": "M. Sc. Degree in relevant discipline with a minimum of 55% marks or equivalent CGPA / CPI",
+      "official_course_url": "https://hbtu.ac.in/ph-d-programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 155,
+          "career_node_slug": "msc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry > M.Sc Chemistry → Researcher",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-phd-mathematics",
+      "name": "Ph.D. Mathematics",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Mathematics",
+      "duration": null,
+      "mode": "full-time and part-time",
+      "eligibility": "M. Sc. Degree in relevant discipline with a minimum of 55% marks or equivalent CGPA / CPI",
+      "official_course_url": "https://hbtu.ac.in/ph-d-programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 90,
+          "career_node_slug": "msc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics > M.Sc Mathematics → Professor / Researcher",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-phd-management",
+      "name": "Ph.D. Management",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Management",
+      "duration": null,
+      "mode": "full-time and part-time",
+      "eligibility": "Master degree in relevant discipline/subject with a minimum of 55% marks or equivalent CGPA / CPI",
+      "official_course_url": "https://hbtu.ac.in/ph-d-programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-phd-english",
+      "name": "Ph.D. English",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": "English",
+      "duration": null,
+      "mode": "full-time and part-time",
+      "eligibility": "Master degree in relevant discipline/subject with a minimum of 55% marks or equivalent CGPA / CPI",
+      "official_course_url": "https://hbtu.ac.in/ph-d-programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-phd-management-sfs",
+      "name": "Ph.D. Management(SFS)",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Management(SFS)",
+      "duration": null,
+      "mode": "full-time and part-time",
+      "eligibility": "Master degree in relevant discipline / subject with a minimum of 55% marks or equivalent CGPA / CPI",
+      "official_course_url": "https://hbtu.ac.in/ph-d-programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-phd-humanities-social-sciences",
+      "name": "Ph.D. Humanities and Social Sciences",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Humanities and Social Sciences",
+      "duration": null,
+      "mode": "full-time and part-time",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest_parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-phd-biotechnology",
+      "name": "Ph.D Biotechnology",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Biotechnology",
+      "duration": null,
+      "mode": "full-time and part-time",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/department-of-biotechnology/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 88,
+          "career_node_slug": "btech_biotech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Biotechnology",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-certificate-personality-development",
+      "name": "Certified Personality Development Programme",
+      "level": "certificate",
+      "credential": "certificate programme",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/personality-development-programme/",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "No responsible career-tree node exists for a general personality-development certificate."
+    },
+    {
+      "course_id": "harcourt-butler-technical-university-certificate-start-up",
+      "name": "Certified Start-Up Course",
+      "level": "certificate",
+      "credential": "certificate programme",
+      "specialization": "Startup / Entrepreneurship",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hbtu.ac.in/startup-course-for-students-and-professionals/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 49,
+          "career_node_slug": "entrepreneurship",
+          "career_breadcrumb": "Management & Business > Entrepreneurship / Startup",
+          "relation": "closest_specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "Normal TLS verification first produced the managed proxy's self-signed certificate-chain error; curl --insecure was then used only for public GET requests to confirmed expected search and official HBTU hostnames.",
+    "The official identity is clear: the address page gives Harcourt Butler Technical University, Nawabganj, Kanpur (U.P.) 208 002; the about page identifies HBTU Kanpur and its East and West campuses in Kanpur.",
+    "The academic catalogue is extensive but not internally complete or consistent. The general programmes page lists the main B.Tech, B.Tech lateral-entry, working-professional, BBA, B.Pharm, M.Tech, MCA, MBA, M.Sc and doctoral families; the 2026-27 admission page additionally establishes current B.Tech Biotechnology, B.Pharm, B.Tech Biotechnology lateral entry, B.Pharm lateral entry and BS-MS activity.",
+    "The Biotechnology department page separately lists M.Sc. Biotechnology, M.Sc. Biochemistry, M.Sc. Forensic Bioanalytics and Ph.D Biotechnology. The general catalogue and current admission pages do not present these programmes consistently, so course_catalogue_status is partial_official_website and manual review is required.",
+    "The official incubation page exposes Personality Development Courses, Startup courses and Deep-Tech courses, but gives no linked catalogue/detail for Deep-Tech courses. The two linked course pages explicitly label Certified Personality Development Programme and Certified Start-Up Course; the 2023 SWAYAM Yoga PDF and expired admission/event notices were not treated as HBTU certificate programmes.",
+    "Duration and eligibility were left null unless explicitly stated on an official catalogue page. Ph.D. eligibility is copied from the official Ph.D. table; some rows use shared row-spanned eligibility cells.",
+    "The local career tree was queried read-only from assets/data/career_path.db. Direct discipline mappings were preferred; generic or absent disciplines use nearest-parent/closest-specialization mappings. The tree node for slug bpharm is labelled Medical Updated, so that mapping is flagged as a career-tree label issue."
+  ]
+}

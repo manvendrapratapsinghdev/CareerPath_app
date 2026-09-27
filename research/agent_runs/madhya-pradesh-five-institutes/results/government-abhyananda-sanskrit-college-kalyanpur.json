@@ -1,0 +1,97 @@
+{
+  "institution_id": "government-abhyananda-sanskrit-college-kalyanpur",
+  "nirf_name": "Government Abhyananda Sanskrit College, Kalyanpur",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Shahdol",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://highereducation.mp.gov.in/?orgid=417",
+  "website_verification_status": "verified",
+  "description": "Government Abhyananda Sanskrit College Kalyanpur is a government college in Shahdol district, Madhya Pradesh.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "nirf_college_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact institution name listed with Shahdol, Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "nirf_overall_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Exact institution name listed with Shahdol, Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "official_institution_directory",
+      "url": "https://highereducation.mp.gov.in/CollegeDisp/getTable",
+      "supports": [
+        "Official Madhya Pradesh Higher Education directory identifies orgid 417 as Govt Abhayanand Sanskrit College Kalyanpur, college code 1403, district Shahdol."
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://highereducation.mp.gov.in/?orgid=417",
+      "supports": [
+        "Official Madhya Pradesh Higher Education institution profile for orgid 417."
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=c14XinC4%2F5cxONzimg%2BRuQ%3D%3D&orgid=417",
+      "supports": [
+        "Official Regular Courses page; PG, UG, and Diploma programme tables contain no programme rows."
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=Qv3gQl%2FiFbvHDgeVdZ8Ilg%3D%3D&orgid=417",
+      "supports": [
+        "Official Distance Education Courses page; PG, UG, and Diploma programme tables contain no programme rows."
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=6jpv8iEISEeJbAERV7aH1g%3D%3D&orgid=417",
+      "supports": [
+        "Official Prospectus page; no current programme catalogue was published."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "Government Abhyananda Sanskrit College Kalyanpur Shahdol",
+      "result": "Focused search led to the official Madhya Pradesh Higher Education college directory/profile; no separate institution domain was established.",
+      "url": "https://highereducation.mp.gov.in/?orgid=417"
+    },
+    {
+      "query": "Abhyananda Sanskrit College Shahdol official website",
+      "result": "No separate institution domain was established; the official Madhya Pradesh Higher Education profile was located through the authoritative-domain check.",
+      "url": "https://highereducation.mp.gov.in/?orgid=417"
+    },
+    {
+      "query": "शासकीय अभयानंद संस्कृत महाविद्यालय कल्याणपुर शहडोल",
+      "result": "The official Madhya Pradesh Higher Education directory lists the matching Kalyanpur college in Shahdol.",
+      "url": "https://highereducation.mp.gov.in/CollegeDisp/getTable"
+    },
+    {
+      "query": "site:mp.gov.in \"Abhyananda Sanskrit College\"",
+      "result": "No separate institution domain was established; the official Madhya Pradesh Higher Education directory/profile remains the authoritative official source.",
+      "url": "https://highereducation.mp.gov.in/?orgid=417"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [],
+  "agent_notes": [
+    "The official Madhya Pradesh Higher Education profile and directory establish the institution identity and Shahdol campus, but the official Regular Courses, Distance Education Courses, and Prospectus pages do not publish active programme names, duration, or eligibility.",
+    "No course was imported or mapped because no active programme could be verified from the official catalogue; manual review is required.",
+    "Normal TLS first produced the managed proxy error 'self signed certificate in certificate chain'; public GET requests then used curl --insecure only for the expected official/search hosts."
+  ]
+}

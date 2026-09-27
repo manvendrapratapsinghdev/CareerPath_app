@@ -1,0 +1,819 @@
+{
+  "institution_id": "rajasthan-university-of-veterinary-and-animal-sciences",
+  "nirf_name": "Rajasthan University of Veterinary & Animal Sciences",
+  "verification_outcome": "manual_review",
+  "district": "Bikaner",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://rajuvas.ac.in/",
+  "website_verification_status": "verified",
+  "description": "Rajasthan University of Veterinary and Animal Sciences (RAJUVAS), Bikaner, is a Rajasthan government university established for education, research and extension in veterinary, animal and allied sciences.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "official_homepage",
+      "url": "https://rajuvas.ac.in/",
+      "supports": [
+        "institution identity",
+        "Bikaner campus/city",
+        "official website"
+      ]
+    },
+    {
+      "type": "official_about_page",
+      "url": "https://rajuvas.ac.in/about/",
+      "supports": [
+        "university headquarters in Bikaner",
+        "institution purpose and history"
+      ]
+    },
+    {
+      "type": "official_profile_page",
+      "url": "https://rajuvas.ac.in/university/",
+      "supports": [
+        "formal programme names",
+        "programme durations",
+        "Bikaner identity"
+      ]
+    },
+    {
+      "type": "official_academics_catalogue",
+      "url": "https://rajuvas.ac.in/academics/",
+      "supports": [
+        "official catalogue categories: B.V.Sc. & A.H., M.V.Sc., Ph.D., Two year Diploma"
+      ]
+    },
+    {
+      "type": "official_bvsc_admissions_page",
+      "url": "https://rajuvas.ac.in/b-v-sc-a-h/",
+      "supports": [
+        "B.V.Sc. & A.H. programme",
+        "eligibility",
+        "Bikaner constituent college"
+      ]
+    },
+    {
+      "type": "official_mvsc_admissions_page",
+      "url": "https://rajuvas.ac.in/m-v-sc/",
+      "supports": [
+        "M.V.Sc. programme",
+        "specializations",
+        "eligibility"
+      ]
+    },
+    {
+      "type": "official_phd_admissions_page",
+      "url": "https://rajuvas.ac.in/ph-d/",
+      "supports": [
+        "Ph.D. programme",
+        "disciplines",
+        "eligibility"
+      ]
+    },
+    {
+      "type": "official_diploma_admissions_page",
+      "url": "https://rajuvas.ac.in/diploma/",
+      "supports": [
+        "Animal Husbandry Diploma",
+        "eligibility"
+      ]
+    },
+    {
+      "type": "official_courses_syllabus_page",
+      "url": "https://rajuvas.ac.in/courses-syllabus/",
+      "supports": [
+        "official course families AHDP, B.V.Sc. & A.H., M.V.Sc. and Ph.D."
+      ]
+    },
+    {
+      "type": "official_expired_certificate_page",
+      "url": "https://rajuvas.ac.in/e-certificate-course-on-centre-for-studies-on-wildlife-management-health/",
+      "supports": [
+        "historical add-on certificate course with 2021 registration dates; excluded as expired"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "Rajasthan University of Veterinary & Animal Sciences official website Bikaner",
+      "result": "Google discovery request initially hit the managed proxy certificate-chain error; the permitted fallback request did not expose usable result links. Direct retrieval of https://rajuvas.ac.in/ confirmed the official institution website and Bikaner identity.",
+      "url": "https://www.google.com/search?q=Rajasthan+University+of+Veterinary+%26+Animal+Sciences+official+website+Bikaner"
+    },
+    {
+      "query": "site:rajuvas.ac.in Rajasthan University Veterinary Animal Sciences courses",
+      "result": "Google discovery request initially hit the managed proxy certificate-chain error; the permitted fallback request did not expose usable result links. The official domain was then directly retrieved and its Academics links verified.",
+      "url": "https://www.google.com/search?q=site%3Arajuvas.ac.in+Rajasthan+University+Veterinary+Animal+Sciences+courses"
+    },
+    {
+      "query": "Rajasthan University of Veterinary & Animal Sciences Bikaner",
+      "result": "Bing results were low quality and included unrelated Rajasthan pages; the official domain was confirmed through direct public retrieval.",
+      "url": "https://www.bing.com/search?format=rss&q=Rajasthan+University+of+Veterinary+%26+Animal+Sciences+Bikaner"
+    },
+    {
+      "query": "RAJUVAS official courses admissions",
+      "result": "Bing HTML results did not expose a usable official institution result in the retrieved page; official programme pages were verified directly on rajuvas.ac.in.",
+      "url": "https://www.bing.com/search?q=RAJUVAS+official+courses+admissions"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "rajasthan-university-of-veterinary-and-animal-sciences-rajuvas-bvsc-ah",
+      "name": "B.V.Sc. & A.H.",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "5.5 years",
+      "mode": "not stated on official page",
+      "eligibility": "10+2 or equivalent with pass marks in each subject and at least 50% aggregate in English, Physics, Chemistry and Biology; 40% aggregate for SC/ST candidates; minimum age 17 by 31 December of the admission year.",
+      "official_course_url": "https://rajuvas.ac.in/b-v-sc-a-h/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 22,
+          "career_node_slug": "bvsc",
+          "career_breadcrumb": "Biology / PCB > B.V.Sc (Veterinary Science)",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-university-of-veterinary-and-animal-sciences-rajuvas-mvsc-animal-breeding-genetics",
+      "name": "M.V.Sc.",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Animal Breeding & Genetics",
+      "duration": "2 years",
+      "mode": "not stated on official page",
+      "eligibility": "B.V.Sc. & A.H. degree with at least 6.00/10 or 60% for general candidates, and 5.50/10 or 55% for OBC/SC/ST candidates.",
+      "official_course_url": "https://rajuvas.ac.in/m-v-sc/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 22,
+          "career_node_slug": "bvsc",
+          "career_breadcrumb": "Biology / PCB > B.V.Sc (Veterinary Science)",
+          "relation": "nearest-parent: Veterinary Science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-university-of-veterinary-and-animal-sciences-rajuvas-mvsc-animal-nutrition",
+      "name": "M.V.Sc.",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Animal Nutrition",
+      "duration": "2 years",
+      "mode": "not stated on official page",
+      "eligibility": "B.V.Sc. & A.H. degree with at least 6.00/10 or 60% for general candidates, and 5.50/10 or 55% for OBC/SC/ST candidates.",
+      "official_course_url": "https://rajuvas.ac.in/m-v-sc/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 22,
+          "career_node_slug": "bvsc",
+          "career_breadcrumb": "Biology / PCB > B.V.Sc (Veterinary Science)",
+          "relation": "nearest-parent: Veterinary Science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-university-of-veterinary-and-animal-sciences-rajuvas-mvsc-veterinary-anatomy",
+      "name": "M.V.Sc.",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Veterinary Anatomy",
+      "duration": "2 years",
+      "mode": "not stated on official page",
+      "eligibility": "B.V.Sc. & A.H. degree with at least 6.00/10 or 60% for general candidates, and 5.50/10 or 55% for OBC/SC/ST candidates.",
+      "official_course_url": "https://rajuvas.ac.in/m-v-sc/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 22,
+          "career_node_slug": "bvsc",
+          "career_breadcrumb": "Biology / PCB > B.V.Sc (Veterinary Science)",
+          "relation": "nearest-parent: Veterinary Science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-university-of-veterinary-and-animal-sciences-rajuvas-mvsc-veterinary-physiology",
+      "name": "M.V.Sc.",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Veterinary Physiology",
+      "duration": "2 years",
+      "mode": "not stated on official page",
+      "eligibility": "B.V.Sc. & A.H. degree with at least 6.00/10 or 60% for general candidates, and 5.50/10 or 55% for OBC/SC/ST candidates.",
+      "official_course_url": "https://rajuvas.ac.in/m-v-sc/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 22,
+          "career_node_slug": "bvsc",
+          "career_breadcrumb": "Biology / PCB > B.V.Sc (Veterinary Science)",
+          "relation": "nearest-parent: Veterinary Science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-university-of-veterinary-and-animal-sciences-rajuvas-mvsc-veterinary-biochemistry",
+      "name": "M.V.Sc.",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Veterinary Biochemistry",
+      "duration": "2 years",
+      "mode": "not stated on official page",
+      "eligibility": "B.V.Sc. & A.H. degree with at least 6.00/10 or 60% for general candidates, and 5.50/10 or 55% for OBC/SC/ST candidates.",
+      "official_course_url": "https://rajuvas.ac.in/m-v-sc/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 35,
+          "career_node_slug": "bsc_biochem",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Biochemistry",
+          "relation": "closest-specialization: Biochemistry",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-university-of-veterinary-and-animal-sciences-rajuvas-mvsc-livestock-production-management",
+      "name": "M.V.Sc.",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Livestock Production & Management",
+      "duration": "2 years",
+      "mode": "not stated on official page",
+      "eligibility": "B.V.Sc. & A.H. degree with at least 6.00/10 or 60% for general candidates, and 5.50/10 or 55% for OBC/SC/ST candidates.",
+      "official_course_url": "https://rajuvas.ac.in/m-v-sc/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 22,
+          "career_node_slug": "bvsc",
+          "career_breadcrumb": "Biology / PCB > B.V.Sc (Veterinary Science)",
+          "relation": "nearest-parent: Veterinary Science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-university-of-veterinary-and-animal-sciences-rajuvas-mvsc-veterinary-pathology",
+      "name": "M.V.Sc.",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Veterinary Pathology",
+      "duration": "2 years",
+      "mode": "not stated on official page",
+      "eligibility": "B.V.Sc. & A.H. degree with at least 6.00/10 or 60% for general candidates, and 5.50/10 or 55% for OBC/SC/ST candidates.",
+      "official_course_url": "https://rajuvas.ac.in/m-v-sc/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 22,
+          "career_node_slug": "bvsc",
+          "career_breadcrumb": "Biology / PCB > B.V.Sc (Veterinary Science)",
+          "relation": "nearest-parent: Veterinary Science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-university-of-veterinary-and-animal-sciences-rajuvas-mvsc-veterinary-microbiology",
+      "name": "M.V.Sc.",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Veterinary Microbiology",
+      "duration": "2 years",
+      "mode": "not stated on official page",
+      "eligibility": "B.V.Sc. & A.H. degree with at least 6.00/10 or 60% for general candidates, and 5.50/10 or 55% for OBC/SC/ST candidates.",
+      "official_course_url": "https://rajuvas.ac.in/m-v-sc/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 34,
+          "career_node_slug": "bsc_microbio",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Microbiology",
+          "relation": "closest-specialization: Microbiology",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-university-of-veterinary-and-animal-sciences-rajuvas-mvsc-veterinary-parasitology",
+      "name": "M.V.Sc.",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Veterinary Parasitology",
+      "duration": "2 years",
+      "mode": "not stated on official page",
+      "eligibility": "B.V.Sc. & A.H. degree with at least 6.00/10 or 60% for general candidates, and 5.50/10 or 55% for OBC/SC/ST candidates.",
+      "official_course_url": "https://rajuvas.ac.in/m-v-sc/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 22,
+          "career_node_slug": "bvsc",
+          "career_breadcrumb": "Biology / PCB > B.V.Sc (Veterinary Science)",
+          "relation": "nearest-parent: Veterinary Science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-university-of-veterinary-and-animal-sciences-rajuvas-mvsc-veterinary-public-health",
+      "name": "M.V.Sc.",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Veterinary Public Health",
+      "duration": "2 years",
+      "mode": "not stated on official page",
+      "eligibility": "B.V.Sc. & A.H. degree with at least 6.00/10 or 60% for general candidates, and 5.50/10 or 55% for OBC/SC/ST candidates.",
+      "official_course_url": "https://rajuvas.ac.in/m-v-sc/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 22,
+          "career_node_slug": "bvsc",
+          "career_breadcrumb": "Biology / PCB > B.V.Sc (Veterinary Science)",
+          "relation": "nearest-parent: Veterinary Science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-university-of-veterinary-and-animal-sciences-rajuvas-mvsc-veterinary-clinical-medicine",
+      "name": "M.V.Sc.",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Veterinary Clinical Medicine",
+      "duration": "2 years",
+      "mode": "not stated on official page",
+      "eligibility": "B.V.Sc. & A.H. degree with at least 6.00/10 or 60% for general candidates, and 5.50/10 or 55% for OBC/SC/ST candidates.",
+      "official_course_url": "https://rajuvas.ac.in/m-v-sc/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 22,
+          "career_node_slug": "bvsc",
+          "career_breadcrumb": "Biology / PCB > B.V.Sc (Veterinary Science)",
+          "relation": "nearest-parent: Veterinary Science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-university-of-veterinary-and-animal-sciences-rajuvas-mvsc-veterinary-epidemiology-preventive-medicine",
+      "name": "M.V.Sc.",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Veterinary Epidemiology & Preventive Medicine",
+      "duration": "2 years",
+      "mode": "not stated on official page",
+      "eligibility": "B.V.Sc. & A.H. degree with at least 6.00/10 or 60% for general candidates, and 5.50/10 or 55% for OBC/SC/ST candidates.",
+      "official_course_url": "https://rajuvas.ac.in/m-v-sc/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 22,
+          "career_node_slug": "bvsc",
+          "career_breadcrumb": "Biology / PCB > B.V.Sc (Veterinary Science)",
+          "relation": "nearest-parent: Veterinary Science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-university-of-veterinary-and-animal-sciences-rajuvas-mvsc-veterinary-surgery-radiology",
+      "name": "M.V.Sc.",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Veterinary Surgery & Radiology",
+      "duration": "2 years",
+      "mode": "not stated on official page",
+      "eligibility": "B.V.Sc. & A.H. degree with at least 6.00/10 or 60% for general candidates, and 5.50/10 or 55% for OBC/SC/ST candidates.",
+      "official_course_url": "https://rajuvas.ac.in/m-v-sc/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 22,
+          "career_node_slug": "bvsc",
+          "career_breadcrumb": "Biology / PCB > B.V.Sc (Veterinary Science)",
+          "relation": "nearest-parent: Veterinary Science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-university-of-veterinary-and-animal-sciences-rajuvas-mvsc-veterinary-obstetrics-gynaecology",
+      "name": "M.V.Sc.",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Veterinary Obstetrics & Gynaecology",
+      "duration": "2 years",
+      "mode": "not stated on official page",
+      "eligibility": "B.V.Sc. & A.H. degree with at least 6.00/10 or 60% for general candidates, and 5.50/10 or 55% for OBC/SC/ST candidates.",
+      "official_course_url": "https://rajuvas.ac.in/m-v-sc/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 22,
+          "career_node_slug": "bvsc",
+          "career_breadcrumb": "Biology / PCB > B.V.Sc (Veterinary Science)",
+          "relation": "nearest-parent: Veterinary Science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-university-of-veterinary-and-animal-sciences-rajuvas-mvsc-veterinary-animal-husbandry-extension-education",
+      "name": "M.V.Sc.",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Veterinary and Animal Husbandry Extension Education",
+      "duration": "2 years",
+      "mode": "not stated on official page",
+      "eligibility": "B.V.Sc. & A.H. degree with at least 6.00/10 or 60% for general candidates, and 5.50/10 or 55% for OBC/SC/ST candidates.",
+      "official_course_url": "https://rajuvas.ac.in/m-v-sc/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 22,
+          "career_node_slug": "bvsc",
+          "career_breadcrumb": "Biology / PCB > B.V.Sc (Veterinary Science)",
+          "relation": "nearest-parent: Veterinary Science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-university-of-veterinary-and-animal-sciences-rajuvas-mvsc-animal-biotechnology",
+      "name": "M.V.Sc.",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Animal Biotechnology",
+      "duration": "2 years",
+      "mode": "not stated on official page",
+      "eligibility": "B.V.Sc. & A.H. degree with at least 6.00/10 or 60% for general candidates, and 5.50/10 or 55% for OBC/SC/ST candidates.",
+      "official_course_url": "https://rajuvas.ac.in/m-v-sc/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest-specialization: Biology / Biotech",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-university-of-veterinary-and-animal-sciences-rajuvas-phd-animal-genetics-breeding",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": "Animal Genetics and Breeding",
+      "duration": "3 years",
+      "mode": "not stated on official page",
+      "eligibility": "Master’s degree in the respective or related subject; at least 6.50/10 for general candidates and 6.0/10 for SC/ST/OBC/SBC candidates.",
+      "official_course_url": "https://rajuvas.ac.in/ph-d/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 22,
+          "career_node_slug": "bvsc",
+          "career_breadcrumb": "Biology / PCB > B.V.Sc (Veterinary Science)",
+          "relation": "nearest-parent: Veterinary Science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-university-of-veterinary-and-animal-sciences-rajuvas-phd-animal-nutrition",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": "Animal Nutrition",
+      "duration": "3 years",
+      "mode": "not stated on official page",
+      "eligibility": "Master’s degree in the respective or related subject; at least 6.50/10 for general candidates and 6.0/10 for SC/ST/OBC/SBC candidates.",
+      "official_course_url": "https://rajuvas.ac.in/ph-d/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 22,
+          "career_node_slug": "bvsc",
+          "career_breadcrumb": "Biology / PCB > B.V.Sc (Veterinary Science)",
+          "relation": "nearest-parent: Veterinary Science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-university-of-veterinary-and-animal-sciences-rajuvas-phd-livestock-production-management",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": "Livestock Production and Management",
+      "duration": "3 years",
+      "mode": "not stated on official page",
+      "eligibility": "Master’s degree in the respective or related subject; at least 6.50/10 for general candidates and 6.0/10 for SC/ST/OBC/SBC candidates.",
+      "official_course_url": "https://rajuvas.ac.in/ph-d/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 22,
+          "career_node_slug": "bvsc",
+          "career_breadcrumb": "Biology / PCB > B.V.Sc (Veterinary Science)",
+          "relation": "nearest-parent: Veterinary Science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-university-of-veterinary-and-animal-sciences-rajuvas-phd-veterinary-anatomy-histology",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": "Veterinary Anatomy and Histology",
+      "duration": "3 years",
+      "mode": "not stated on official page",
+      "eligibility": "Master’s degree in the respective or related subject; at least 6.50/10 for general candidates and 6.0/10 for SC/ST/OBC/SBC candidates.",
+      "official_course_url": "https://rajuvas.ac.in/ph-d/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 22,
+          "career_node_slug": "bvsc",
+          "career_breadcrumb": "Biology / PCB > B.V.Sc (Veterinary Science)",
+          "relation": "nearest-parent: Veterinary Science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-university-of-veterinary-and-animal-sciences-rajuvas-phd-veterinary-clinical-medicine",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": "Vety. Clinical Medicine",
+      "duration": "3 years",
+      "mode": "not stated on official page",
+      "eligibility": "Master’s degree in the respective or related subject; at least 6.50/10 for general candidates and 6.0/10 for SC/ST/OBC/SBC candidates.",
+      "official_course_url": "https://rajuvas.ac.in/ph-d/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 22,
+          "career_node_slug": "bvsc",
+          "career_breadcrumb": "Biology / PCB > B.V.Sc (Veterinary Science)",
+          "relation": "nearest-parent: Veterinary Science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-university-of-veterinary-and-animal-sciences-rajuvas-phd-veterinary-gynecology-obstetrics",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": "Veterinary Gynecology and Obstetrics",
+      "duration": "3 years",
+      "mode": "not stated on official page",
+      "eligibility": "Master’s degree in the respective or related subject; at least 6.50/10 for general candidates and 6.0/10 for SC/ST/OBC/SBC candidates.",
+      "official_course_url": "https://rajuvas.ac.in/ph-d/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 22,
+          "career_node_slug": "bvsc",
+          "career_breadcrumb": "Biology / PCB > B.V.Sc (Veterinary Science)",
+          "relation": "nearest-parent: Veterinary Science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-university-of-veterinary-and-animal-sciences-rajuvas-phd-veterinary-microbiology",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": "Veterinary Microbiology",
+      "duration": "3 years",
+      "mode": "not stated on official page",
+      "eligibility": "Master’s degree in the respective or related subject; at least 6.50/10 for general candidates and 6.0/10 for SC/ST/OBC/SBC candidates.",
+      "official_course_url": "https://rajuvas.ac.in/ph-d/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 34,
+          "career_node_slug": "bsc_microbio",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Microbiology",
+          "relation": "closest-specialization: Microbiology",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-university-of-veterinary-and-animal-sciences-rajuvas-phd-veterinary-parasitology",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": "Veterinary Parasitology",
+      "duration": "3 years",
+      "mode": "not stated on official page",
+      "eligibility": "Master’s degree in the respective or related subject; at least 6.50/10 for general candidates and 6.0/10 for SC/ST/OBC/SBC candidates.",
+      "official_course_url": "https://rajuvas.ac.in/ph-d/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 22,
+          "career_node_slug": "bvsc",
+          "career_breadcrumb": "Biology / PCB > B.V.Sc (Veterinary Science)",
+          "relation": "nearest-parent: Veterinary Science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-university-of-veterinary-and-animal-sciences-rajuvas-phd-veterinary-pathology",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": "Veterinary Pathology",
+      "duration": "3 years",
+      "mode": "not stated on official page",
+      "eligibility": "Master’s degree in the respective or related subject; at least 6.50/10 for general candidates and 6.0/10 for SC/ST/OBC/SBC candidates.",
+      "official_course_url": "https://rajuvas.ac.in/ph-d/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 22,
+          "career_node_slug": "bvsc",
+          "career_breadcrumb": "Biology / PCB > B.V.Sc (Veterinary Science)",
+          "relation": "nearest-parent: Veterinary Science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-university-of-veterinary-and-animal-sciences-rajuvas-phd-veterinary-physiology",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": "Veterinary Physiology",
+      "duration": "3 years",
+      "mode": "not stated on official page",
+      "eligibility": "Master’s degree in the respective or related subject; at least 6.50/10 for general candidates and 6.0/10 for SC/ST/OBC/SBC candidates.",
+      "official_course_url": "https://rajuvas.ac.in/ph-d/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 22,
+          "career_node_slug": "bvsc",
+          "career_breadcrumb": "Biology / PCB > B.V.Sc (Veterinary Science)",
+          "relation": "nearest-parent: Veterinary Science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-university-of-veterinary-and-animal-sciences-rajuvas-phd-veterinary-surgery-radiology",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": "Veterinary Surgery and Radiology",
+      "duration": "3 years",
+      "mode": "not stated on official page",
+      "eligibility": "Master’s degree in the respective or related subject; at least 6.50/10 for general candidates and 6.0/10 for SC/ST/OBC/SBC candidates.",
+      "official_course_url": "https://rajuvas.ac.in/ph-d/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 22,
+          "career_node_slug": "bvsc",
+          "career_breadcrumb": "Biology / PCB > B.V.Sc (Veterinary Science)",
+          "relation": "nearest-parent: Veterinary Science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-university-of-veterinary-and-animal-sciences-rajuvas-phd-animal-biotechnology",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": "Animal Biotechnology",
+      "duration": "3 years",
+      "mode": "not stated on official page",
+      "eligibility": "Master’s degree in the respective or related subject; at least 6.50/10 for general candidates and 6.0/10 for SC/ST/OBC/SBC candidates. Animal Biotechnology also accepts specified M.V.Sc., M.Sc. or M.Tech qualifications.",
+      "official_course_url": "https://rajuvas.ac.in/ph-d/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest-specialization: Biology / Biotech",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-university-of-veterinary-and-animal-sciences-rajuvas-animal-husbandry-diploma",
+      "name": "Animal Husbandry Diploma",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not stated on official page",
+      "eligibility": "Senior Secondary (10+2) or equivalent with Physics, Chemistry and Biology, or Agriculture-stream subjects with Biology; age 17–28 by 31 December of the admission year, with stated category relaxations.",
+      "official_course_url": "https://rajuvas.ac.in/diploma/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 22,
+          "career_node_slug": "bvsc",
+          "career_breadcrumb": "Biology / PCB > B.V.Sc (Veterinary Science)",
+          "relation": "nearest-parent: Veterinary Science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The managed proxy returned curl error 60 for the first normal-TLS request because of a self-signed certificate in the proxy chain; curl --insecure was then used only for public GET requests to confirmed official/search hostnames.",
+    "Official pages confirm the institution headquarters and Bikaner campus identity. The official profile states durations of 5.5 years for B.V.Sc. & A.H., 2 years for M.V.Sc., 3 years for Ph.D., and 2 years for the Animal Husbandry Diploma.",
+    "The official Academics page lists a Multi Skill Development Prog. link, but that linked URL currently returns 404. The profile also mentions short-term training courses without an active formal programme catalogue. This unresolved catalogue gap makes the record manual_review with partial_official_website status.",
+    "An official Add-On Certificate course page was found, but its registration window was 01.06.2021–30.06.2021 and it was excluded as an expired short-term course.",
+    "The career_path.db database was queried read-only. Mappings use exact node IDs, slugs and reconstructed complete tree labels from the local career_nodes and streams tables; no database changes were made."
+  ]
+}

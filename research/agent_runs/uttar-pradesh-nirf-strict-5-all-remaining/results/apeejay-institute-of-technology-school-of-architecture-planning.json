@@ -1,0 +1,137 @@
+{
+  "institution_id": "apeejay-institute-of-technology-school-of-architecture-planning",
+  "nirf_name": "APEEJAY INSTITUTE OF TECHNOLOGY-SCHOOL OF ARCHITECTURE & PLANNING",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/ArchitectureRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Gautam Budh Nagar",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://www.apeejay.edu/architecture/",
+  "website_verification_status": "verified",
+  "description": "AIT-SAP is the School of Architecture & Planning within Apeejay Institute of Technology in Greater Noida, Gautam Budh Nagar, Uttar Pradesh. The official site describes a 29-acre campus and architecture programmes approved by the Council of Architecture and affiliated with AKTU.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/ArchitectureRankingALL.html",
+      "supports": [
+        "Exact NIRF institution name, Greater Noida city, Uttar Pradesh, and Architecture and Planning participating category."
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://www.apeejay.edu/architecture/",
+      "supports": [
+        "Official site title and branding identify Apeejay Institute of Technology - School of Architecture & Planning; header identifies Greater Noida (UP)."
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "https://www.apeejay.edu/architecture/about-ait-sap/",
+      "supports": [
+        "States that the School of Architecture & Planning is an integral constituent of Apeejay Institute of Technology in Greater Noida, Dist. Gautam Budh Nagar, Uttar Pradesh; describes the 29-acre campus."
+      ]
+    },
+    {
+      "type": "official_contact_page",
+      "url": "https://www.apeejay.edu/architecture/contact-details/",
+      "supports": [
+        "Official correspondence address names the institution and gives Greater Noida, Distt. G. B. Nagar, U.P."
+      ]
+    },
+    {
+      "type": "official_programme_catalogue",
+      "url": "https://www.apeejay.edu/architecture/programmes/",
+      "supports": [
+        "Current programme catalogue lists Bachelor of Architecture (B.Arch.), duration 5 Years, intake 40."
+      ]
+    },
+    {
+      "type": "official_admissions_faq",
+      "url": "https://www.apeejay.edu/architecture/admissions-faqs/",
+      "supports": [
+        "States B.Arch. is a 5-year full-time undergraduate programme and gives the official PCM/10+3 Mathematics and NATA/JEE (Main) eligibility."
+      ]
+    },
+    {
+      "type": "official_recognition_page",
+      "url": "https://www.apeejay.edu/architecture/recognition-status/",
+      "supports": [
+        "States that Bachelor of Architecture (B.Arch.) and Master of Architecture (M.Arch.) programmes are offered; links official approval documents and notes COA approval and AKTU affiliation."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "APEEJAY INSTITUTE OF TECHNOLOGY SCHOOL OF ARCHITECTURE PLANNING official website Greater Noida",
+      "result": "Google response required CAPTCHA; no search result was used as verification.",
+      "url": "https://www.google.com/search?q=APEEJAY+INSTITUTE+OF+TECHNOLOGY+SCHOOL+OF+ARCHITECTURE+PLANNING+official+website+Greater+Noida"
+    },
+    {
+      "query": "Apeejay Institute of Technology School of Architecture Planning official website",
+      "result": "Bing returned no usable matching institution result; search output was not used as verification.",
+      "url": "https://www.bing.com/search?q=Apeejay+Institute+of+Technology+School+of+Architecture+Planning+official+website"
+    },
+    {
+      "query": "Official-domain check for Apeejay Institute of Technology - School of Architecture & Planning",
+      "result": "Direct HTTPS check returned HTTP 200 and the page title/branding identified AIT-SAP in Greater Noida.",
+      "url": "https://www.apeejay.edu/architecture/"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "apeejay-institute-of-technology-school-of-architecture-planning-apeejay-ait-sap-barch",
+      "name": "Bachelor of Architecture (B.Arch.)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Architecture",
+      "specialization": null,
+      "duration": "5 Years",
+      "mode": "full-time",
+      "eligibility": "10+2 with Physics, Chemistry and Mathematics (PCM) or a 10+3 Diploma with Mathematics; valid NATA or JEE (Main) score, as applicable.",
+      "official_course_url": "https://www.apeejay.edu/architecture/programmes/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 56,
+          "career_node_slug": "barch",
+          "career_breadcrumb": "Design & Architecture > B.Arch (Architecture)",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "apeejay-institute-of-technology-school-of-architecture-planning-apeejay-ait-sap-march",
+      "name": "Master of Architecture (M.Arch.)",
+      "level": "postgraduate",
+      "credential": "Master of Architecture",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated on official pages",
+      "eligibility": null,
+      "official_course_url": "https://www.apeejay.edu/architecture/recognition-status/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 56,
+          "career_node_slug": "barch",
+          "career_breadcrumb": "Design & Architecture > B.Arch (Architecture)",
+          "relation": "closest-specialization mapping; no dedicated M.Arch node in the career tree",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The official Programmes page is incomplete relative to the official Recognition Status page: it lists B.Arch. but does not provide a dedicated M.Arch. catalogue/admissions entry, while Recognition Status states that B.Arch. and M.Arch. are offered and links M.Arch. approval evidence. Therefore the course catalogue is partial and the record requires manual review.",
+    "Normal curl to the government listing returned the managed proxy's exact self-signed certificate-chain error; public GETs were then retried with curl --insecure after confirming the expected NIRF and Apeejay hosts. No credentials or private data were sent."
+  ]
+}

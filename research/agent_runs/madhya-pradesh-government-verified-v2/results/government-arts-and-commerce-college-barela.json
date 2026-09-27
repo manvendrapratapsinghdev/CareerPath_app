@@ -1,0 +1,103 @@
+{
+  "institution_id": "government-arts-and-commerce-college-barela",
+  "nirf_name": "GOVERNMENT ARTS AND COMMERCE COLLEGE, BARELA",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Jabalpur",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://highereducation.mp.gov.in/?orgid=233",
+  "website_verification_status": "verified",
+  "description": "The Madhya Pradesh Higher Education Department lists the Barela government college in Jabalpur district under the current name Pt. Ramshankar Banni Lal Pathak Govt College, Barela.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact NIRF institution name, JABALPUR city, and Madhya Pradesh state"
+      ]
+    },
+    {
+      "type": "government_directory_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Exact NIRF institution name, JABALPUR city, and Madhya Pradesh state"
+      ]
+    },
+    {
+      "type": "official_institution_identity_directory",
+      "url": "https://highereducation.mp.gov.in/CollegeDisp/getTable",
+      "supports": [
+        "Official current institution record: Pt. Ramshankar Banni Lal Pathak Govt College, Barela",
+        "District: Jabalpur",
+        "College code: 3317 and official government email hegcbarjab@mp.gov.in"
+      ]
+    },
+    {
+      "type": "official_institution_homepage",
+      "url": "https://highereducation.mp.gov.in/?orgid=233",
+      "supports": [
+        "Institution-specific Madhya Pradesh Higher Education college profile route for orgid 233",
+        "Official institutional navigation including Academics and course pages"
+      ]
+    },
+    {
+      "type": "official_programme_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=zB%2FV1taNK0ht6PNPuzxL8w%3D%3D&orgid=233",
+      "supports": [
+        "Official Regular Courses page",
+        "PG, UG, and Diploma programme sections are present but contain no programme rows"
+      ]
+    },
+    {
+      "type": "official_distance_programme_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=Bgvi9gYktLKvNS275%2BmN4w%3D%3D&orgid=233",
+      "supports": [
+        "Official Distance Education Programme page",
+        "PG, UG, and Diploma distance sections contain no programme rows"
+      ]
+    },
+    {
+      "type": "official_prospectus_page",
+      "url": "https://highereducation.mp.gov.in/?page=YnHhmCMP7gmVOVW3V1V24Q%3D%3D&orgid=233",
+      "supports": [
+        "Official institution prospectus route; no programme catalogue content was available"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Government Arts and Commerce College\" Barela Madhya Pradesh official",
+      "result": "Focused search returned non-authoritative directory/social results and no institution-operated official domain.",
+      "url": null
+    },
+    {
+      "query": "\"Government Arts and Commerce College, Barela\" Jabalpur official website",
+      "result": "No exact institution-operated official website was returned by the focused search.",
+      "url": null
+    },
+    {
+      "query": "site:ac.in \"Government Arts and Commerce College\" \"Barela\"",
+      "result": "No exact Barela institution site was returned; results concerned other Jabalpur colleges or unrelated institutions.",
+      "url": null
+    },
+    {
+      "query": "site:mp.gov.in \"Barela\" college Jabalpur",
+      "result": "The authoritative Madhya Pradesh Higher Education domain was checked directly; its college directory identifies the Barela campus as Pt. Ramshankar Banni Lal Pathak Govt College, Barela, District Jabalpur, orgid 233.",
+      "url": "https://highereducation.mp.gov.in/CollegeDisp/getTable"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [],
+  "agent_notes": [
+    "The NIRF College and Overall 2025 government listings both contain the exact assigned institution and JABALPUR, Madhya Pradesh.",
+    "The official Madhya Pradesh Higher Education directory uses the current name Pt. Ramshankar Banni Lal Pathak Govt College, Barela, but the Barela campus and Jabalpur district align with the NIRF record.",
+    "The institution-specific official portal is established, but its regular, distance, prospectus, and new-course pages do not provide any active programme names, so no courses were imported and manual review is required.",
+    "Normal TLS verification encountered the managed proxy self-signed certificate-chain error on expected public hosts; curl --insecure was used only for public GET requests to the confirmed NIRF, search, and highereducation.mp.gov.in hosts."
+  ]
+}

@@ -1,0 +1,531 @@
+{
+  "institution_id": "govt-college-sirohi",
+  "nirf_name": "GOVT. COLLEGE, SIROHI",
+  "verification_outcome": "verified",
+  "district": "Sirohi",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://hte.rajasthan.gov.in/HTE/19723",
+  "website_verification_status": "verified",
+  "description": "Government College, Sirohi is a co-educational, multi-faculty, public-funded college of the Government of Rajasthan, affiliated with Mohanlal Sukhadia University, offering undergraduate and postgraduate study in Arts, Commerce, and Science.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "official_homepage",
+      "url": "https://hte.rajasthan.gov.in/HTE/19723",
+      "supports": [
+        "official institution identity",
+        "campus name",
+        "homepage description",
+        "current programme cards"
+      ]
+    },
+    {
+      "type": "official_about_page",
+      "url": "https://hte.rajasthan.gov.in/20315",
+      "supports": [
+        "Sirohi district context",
+        "institution history",
+        "public-funded co-educational college description",
+        "undergraduate and postgraduate Arts, Commerce, and Science offering"
+      ]
+    },
+    {
+      "type": "official_contact_page",
+      "url": "https://hte.rajasthan.gov.in/68681",
+      "supports": [
+        "campus identity",
+        "Sirohi city and Rajasthan address",
+        "PIN 307001"
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://hte.rajasthan.gov.in/20317",
+      "supports": [
+        "official course catalogue",
+        "programme names",
+        "six-semester undergraduate degree courses",
+        "four-semester postgraduate degree courses",
+        "subject options"
+      ]
+    },
+    {
+      "type": "official_undergraduate_admissions_page",
+      "url": "https://hte.rajasthan.gov.in/96547",
+      "supports": [
+        "current 2026 UG admission records for BBA, BA, BCom, BCom-BFSI, BSc Maths, and BSc Bio"
+      ]
+    },
+    {
+      "type": "official_postgraduate_admissions_page",
+      "url": "https://hte.rajasthan.gov.in/96548",
+      "supports": [
+        "current 2026 PG admission schedule"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "Government College Sirohi Rajasthan official website",
+      "result": "Google returned an unusual-traffic page; no search snippet was used as verification.",
+      "url": "https://www.google.com/search?q=Government+College+Sirohi+Rajasthan+official+website"
+    },
+    {
+      "query": "site:hte.rajasthan.gov.in Sirohi government college",
+      "result": "Google returned an unusual-traffic page; no search snippet was used as verification.",
+      "url": "https://www.google.com/search?q=site%3Ahte.rajasthan.gov.in+Sirohi+government+college"
+    },
+    {
+      "query": "Government College Sirohi admissions courses",
+      "result": "Google returned an unusual-traffic page; no search snippet was used as verification.",
+      "url": "https://www.google.com/search?q=Government+College+Sirohi+admissions+courses"
+    }
+  ],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "govt-college-sirohi-bsc",
+      "name": "B.Sc.(Six Semester Degree Course)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "6 semesters",
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/20317",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "direct optional-discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 9,
+          "career_node_slug": "bsc_geology",
+          "career_breadcrumb": "Maths / PCM > B.Sc Geology / Earth Sciences",
+          "relation": "direct optional-discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest-specialization for Botany/Zoology options; no separate Botany or Zoology node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 24,
+          "career_node_slug": "bsc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics",
+          "relation": "direct optional-discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct optional-discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 32,
+          "career_node_slug": "bsc_cs",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Computer Science",
+          "relation": "direct optional-discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-sirohi-msc-chemistry",
+      "name": "M.Sc. Chemistry",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Chemistry",
+      "duration": "4 semesters",
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/20317",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 155,
+          "career_node_slug": "msc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry > M.Sc Chemistry → Researcher",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-sirohi-msc-zoology",
+      "name": "M.Sc. Zoology",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Zoology",
+      "duration": "4 semesters",
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/20317",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest-specialization mapping for Zoology; no separate Zoology node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-sirohi-ba",
+      "name": "B.A.( Six Semester Degree Course )",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "6 semesters",
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/20317",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct optional-discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct optional-discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "direct optional-discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct optional-discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct optional-discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct optional-discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 75,
+          "career_node_slug": "music_course",
+          "career_breadcrumb": "Performing Arts & Sports > Music (BA / Diploma)",
+          "relation": "direct optional-discipline mapping for Music (Vocal)",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent mapping for Geography; no Geography node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "nearest-parent mapping for Sanskrit; no Sanskrit node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 283,
+          "career_node_slug": "public_admin",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science > Public Administration Officer",
+          "relation": "closest-specialization mapping for Public Administration option",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-sirohi-ma-geography",
+      "name": "M.A. Geography",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Geography",
+      "duration": "4 semesters",
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/20317",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent mapping; no Geography node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-sirohi-ma-history",
+      "name": "M.A. History",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "History",
+      "duration": "4 semesters",
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/20317",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "closest-specialization mapping for same discipline; no MA History node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-sirohi-ma-political-science",
+      "name": "M.A. Political Science",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Political Science",
+      "duration": "4 semesters",
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/20317",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "closest-specialization mapping for same discipline; no MA Political Science node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-sirohi-ma-sociology",
+      "name": "M.A. Sociology",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Sociology",
+      "duration": "4 semesters",
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/20317",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "closest-specialization mapping for same discipline; no MA Sociology node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-sirohi-ma-hindi",
+      "name": "M.A. Hindi",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Hindi",
+      "duration": "4 semesters",
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/20317",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "closest-specialization mapping for same discipline; no MA Hindi node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-sirohi-ma-english",
+      "name": "M.A. English",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "English",
+      "duration": "4 semesters",
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/20317",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "closest-specialization mapping for same discipline; no MA English node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-sirohi-ma-sanskrit",
+      "name": "M.A. Sanskrit",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Sanskrit",
+      "duration": "4 semesters",
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/20317",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "nearest-parent mapping; no Sanskrit node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-sirohi-bcom",
+      "name": "B.Com. ( Six Semester Degree Course )",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "6 semesters",
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/20317",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-sirohi-bcom-bfsi",
+      "name": "B.Com.- BFSI ( Six Semester Degree Course )",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "BFSI",
+      "duration": "6 semesters",
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/20317",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 344,
+          "career_node_slug": "commerce_banking",
+          "career_breadcrumb": "Banking & Insurance",
+          "relation": "direct discipline-family mapping for Banking, Financial Services and Insurance",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-sirohi-bba",
+      "name": "B.B.A.( Six Semester Degree Course )",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "6 semesters",
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/20317",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 46,
+          "career_node_slug": "bba",
+          "career_breadcrumb": "Management & Business > BBA (General)",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The official Rajasthan Higher and Technical Education portal identifies this exact campus as Government College, Sirohi at HTE page 19723; the separate Government Girls College, Sirohi page was excluded.",
+    "The managed proxy returned the exact curl self-signed certificate-chain error on normal TLS; public GET requests were retried with curl --insecure after confirming the expected official/search hostnames.",
+    "The dedicated official Course page lists the full active degree catalogue: B.Sc., M.Sc. Chemistry, M.Sc. Zoology, B.A., M.A. Geography, M.A. History, M.A. Political Science, M.A. Sociology, M.A. Hindi, M.A. English, M.A. Sanskrit, B.Com., B.Com.-BFSI, and B.B.A.; no diploma, certificate, or doctoral programme is listed.",
+    "Eligibility is null because no central official catalogue page explicitly states eligibility.",
+    "The official site displays a migration notice, but the dedicated Course page plus current UG and PG admission pages establish the active catalogue used here.",
+    "Career mappings were reviewed against the read-only career_nodes table in assets/data/career_path.db."
+  ]
+}

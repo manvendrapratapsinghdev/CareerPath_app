@@ -1,0 +1,77 @@
+{
+  "institution_id": "govt-arts-commerce-college-nevali",
+  "nirf_name": "Govt. Arts & Commerce College, Nevali",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "remove_candidate",
+  "district": null,
+  "district_verification_status": "pending_official_source",
+  "official_website": null,
+  "website_verification_status": "not_found",
+  "description": null,
+  "description_verification_status": "not_found",
+  "record_status": "remove_candidate",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_ranking_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact institution name, NIWALI city, and Madhya Pradesh state listing"
+      ]
+    },
+    {
+      "type": "government_college_directory",
+      "url": "https://highereducation.mp.gov.in/CollegeDisp/getTable",
+      "supports": [
+        "Matching Madhya Pradesh government college record: PadmaShri Late Kanta Bahan Tyagi Government College, Niwali; College Code 2412; District Barwani; no institution website URL supplied"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Govt. Arts & Commerce College, Nevali\"",
+      "result": "Google request was blocked with HTTP 429; no usable institution result was obtained.",
+      "url": "https://www.google.com/search?q=%22Govt.%20Arts%20%26%20Commerce%20College%2C%20Nevali%22"
+    },
+    {
+      "query": "site:mp.gov.in Niwali college Madhya Pradesh",
+      "result": "No relevant official institution homepage was returned.",
+      "url": "https://www.bing.com/search?q=site%3Amp.gov.in%20Niwali%20college%20Madhya%20Pradesh"
+    },
+    {
+      "query": "\"Govt Arts Commerce College\" Niwali",
+      "result": "No relevant official institution homepage was returned.",
+      "url": "https://www.bing.com/search?q=%22Govt%20Arts%20Commerce%20College%22%20Niwali"
+    },
+    {
+      "query": "\"Govt. Arts & Commerce College, Nevali\"",
+      "result": "No relevant official institution homepage was returned.",
+      "url": "https://www.bing.com/search?q=%22Govt.%20Arts%20%26%20Commerce%20College%2C%20Nevali%22"
+    },
+    {
+      "query": "शासकीय कला वाणिज्य महाविद्यालय निवाली",
+      "result": "No relevant official institution homepage was returned.",
+      "url": "https://www.bing.com/search?q=%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A4%95%E0%A5%80%E0%A4%AF%20%E0%A4%95%E0%A4%B2%E0%A4%BE%20%E0%A4%B5%E0%A4%BE%E0%A4%A3%E0%A4%BF%E0%A4%9C%E0%A5%8D%E0%A4%AF%20%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%B2%E0%A4%AF%20%E0%A4%A8%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%B2%E0%A5%80"
+    },
+    {
+      "query": "\"PadmaShri Late Kanta Bahan Tyagi Government College\" Niwali",
+      "result": "No official institution homepage or catalogue was returned.",
+      "url": "https://www.bing.com/search?q=PadmaShri%20Late%20Kanta%20Bahan%20Tyagi%20Government%20College%20Niwali"
+    },
+    {
+      "query": "authoritative-domain check for likely Niwali college domains",
+      "result": "Likely institutional hostnames did not resolve or return an HTTP(S) homepage; the official Madhya Pradesh Higher Education directory record supplies no college website URL. Certificate-transparency lookup returned only unrelated niwali.com.",
+      "url": "https://highereducation.mp.gov.in/CollegeDisp/getTable"
+    }
+  ],
+  "course_catalogue_status": "not_found",
+  "courses": [],
+  "agent_notes": [
+    "The NIRF 2025 government listing contains the exact assigned institution row: Govt. Arts & Commerce College, Nevali; NIWALI; Madhya Pradesh.",
+    "The Madhya Pradesh Higher Education Department directory corroborates the matching government institution as PadmaShri Late Kanta Bahan Tyagi Government College, Niwali, College Code 2412, District Barwani, but does not provide an institution website URL.",
+    "After multiple focused searches and an authoritative-domain check, no actual official institution homepage or official programme catalogue could be established; the candidate is removed under the stated outcome rules.",
+    "The managed network proxy produced a self-signed certificate-chain error on initial normal TLS access; public GET requests then used curl --insecure after confirming the requested official/search hostnames."
+  ]
+}

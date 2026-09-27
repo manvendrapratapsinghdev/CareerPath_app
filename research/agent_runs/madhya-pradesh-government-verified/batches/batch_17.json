@@ -1,0 +1,91 @@
+{
+  "batch": 17,
+  "started_at": "2026-09-27T07:11:34.546138+00:00",
+  "finished_at": "2026-09-27T07:11:44.890881+00:00",
+  "assignment_count": 5,
+  "completed_count": 0,
+  "skipped_count": 0,
+  "failed_count": 5,
+  "results": [
+    {
+      "institution_id": "divyansh-college",
+      "nirf_name": "DIVYANSH COLLEGE",
+      "status": "failed",
+      "started_at": "2026-09-27T07:11:34.565187+00:00",
+      "finished_at": "2026-09-27T07:11:44.336534+00:00",
+      "duration_seconds": 9.771,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/divyansh-college.jsonl"
+    },
+    {
+      "institution_id": "gandhi-vocational-college",
+      "nirf_name": "GANDHI VOCATIONAL COLLEGE",
+      "status": "failed",
+      "started_at": "2026-09-27T07:11:34.565278+00:00",
+      "finished_at": "2026-09-27T07:11:44.889924+00:00",
+      "duration_seconds": 10.325,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/gandhi-vocational-college.jsonl"
+    },
+    {
+      "institution_id": "govt-college-gandhwani-dist-dhar",
+      "nirf_name": "GOVT. COLLEGE GANDHWANI, DIST. DHAR",
+      "status": "failed",
+      "started_at": "2026-09-27T07:11:34.554629+00:00",
+      "finished_at": "2026-09-27T07:11:44.871684+00:00",
+      "duration_seconds": 10.317,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/govt-college-gandhwani-dist-dhar.jsonl"
+    },
+    {
+      "institution_id": "govt-college-ghansor",
+      "nirf_name": "GOVT. COLLEGE GHANSOR",
+      "status": "failed",
+      "started_at": "2026-09-27T07:11:34.561383+00:00",
+      "finished_at": "2026-09-27T07:11:44.360659+00:00",
+      "duration_seconds": 9.799,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/govt-college-ghansor.jsonl"
+    },
+    {
+      "institution_id": "govt-college-jabera",
+      "nirf_name": "govt college jabera",
+      "status": "failed",
+      "started_at": "2026-09-27T07:11:34.556377+00:00",
+      "finished_at": "2026-09-27T07:11:44.337268+00:00",
+      "duration_seconds": 9.781,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/govt-college-jabera.jsonl"
+    }
+  ]
+}

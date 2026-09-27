@@ -1,0 +1,569 @@
+{
+  "institution_id": "poornima-college-of-engineering-jaipur",
+  "nirf_name": "Poornima College of Engineering,Jaipur",
+  "verification_outcome": "manual_review",
+  "district": "Jaipur",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://www.poornima.org/",
+  "website_verification_status": "verified",
+  "description": "Poornima College of Engineering (PCE) is a Poornima Group engineering institution at Sitapura, Jaipur, Rajasthan, offering engineering programmes associated with Rajasthan Technical University and approved by AICTE.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "official_homepage",
+      "url": "https://www.poornima.org/",
+      "supports": [
+        "Poornima Group and Poornima College of Engineering identity",
+        "PCE and PIET campus distinction",
+        "Sitapura, Jaipur, Rajasthan address",
+        "Institution description and admissions catalogue links"
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "https://www.poornima.org/contact-us",
+      "supports": [
+        "Poornima College of Engineering campus map label",
+        "ISI 6 & 2, RIICO Institutional Area Sitapura, Jaipur - 302022 address"
+      ]
+    },
+    {
+      "type": "official_btech_catalogue",
+      "url": "https://www.poornima.org/admission/btech-at-poornima-group-of-colleges",
+      "supports": [
+        "Current B.Tech programme names",
+        "PCE campus seat matrix",
+        "Four-year duration",
+        "B.Tech eligibility information"
+      ]
+    },
+    {
+      "type": "official_lateral_catalogue",
+      "url": "https://www.poornima.org/admission/b-tech-lateral-entry",
+      "supports": [
+        "Current B.Tech lateral-entry programme names",
+        "PCE campus seat matrix",
+        "Three-year duration",
+        "Lateral-entry eligibility information"
+      ]
+    },
+    {
+      "type": "official_mtech_route",
+      "url": "https://www.poornima.org/admission/m-tech",
+      "supports": [
+        "Official M.Tech navigation route",
+        "Route currently returns B.Tech content and does not expose a current M.Tech catalogue"
+      ]
+    },
+    {
+      "type": "official_pce_brochure",
+      "url": "https://poornima.org/uploads/PCE.pdf",
+      "supports": [
+        "Official PCE brochure link checked; the PDF is image-only in command-line text extraction and did not resolve the missing current M.Tech catalogue"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "Poornima College of Engineering Jaipur official website",
+      "result": "Bing RSS returned https://www.poornima.org/ as the Poornima Group engineering site in Jaipur; other results included a separate PIET site and non-official sources.",
+      "url": "https://www.bing.com/search?format=rss&q=Poornima+College+of+Engineering+Jaipur"
+    },
+    {
+      "query": "site:poornima.org Poornima College of Engineering Jaipur admission courses",
+      "result": "The restricted site query did not return a reliable official result, so the discovered official domain was checked directly.",
+      "url": "https://www.bing.com/search?format=rss&q=site%3Apoornima.org+Poornima+College+of+Engineering+Jaipur+admission+courses"
+    },
+    {
+      "query": "Poornima College of Engineering Jaipur official site B.Tech admission",
+      "result": "The search results were noisy and did not reliably expose the official admissions page; the official homepage navigation was followed to the B.Tech and lateral-entry catalogue pages.",
+      "url": "https://www.bing.com/search?format=rss&q=Poornima+College+of+Engineering+Jaipur+official+site+B.Tech+admission"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "poornima-college-of-engineering-jaipur-pce-btech-ai-data-science",
+      "name": "B.Tech. in Artificial Intelligence & Data Science",
+      "level": "Undergraduate",
+      "credential": "B.Tech.",
+      "specialization": "Artificial Intelligence & Data Science",
+      "duration": "4 Years",
+      "mode": "On-campus",
+      "eligibility": "Phy, Math; one of Chemistry / Biotechnology / Biology / Technical Vocational subject / Computer Science / Information Technology / Informatics Practices / Agriculture / Engineering Graphics / Business Studies",
+      "official_course_url": "https://www.poornima.org/admission/btech-at-poornima-group-of-colleges",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 81,
+          "career_node_slug": "btech_ai",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > AI & Machine Learning",
+          "relation": "closest-specialization mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "poornima-college-of-engineering-jaipur-pce-btech-computer-engineering",
+      "name": "B.Tech. in Computer & Engineering",
+      "level": "Undergraduate",
+      "credential": "B.Tech.",
+      "specialization": "Computer & Engineering",
+      "duration": "4 Years",
+      "mode": "On-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.poornima.org/admission/btech-at-poornima-group-of-colleges",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "nearest-parent mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "poornima-college-of-engineering-jaipur-pce-btech-cse-artificial-intelligence",
+      "name": "B.Tech. in Computer Sci. & Engg. (Artificial Intelligence)",
+      "level": "Undergraduate",
+      "credential": "B.Tech.",
+      "specialization": "Computer Sci. & Engg. (Artificial Intelligence)",
+      "duration": "4 Years",
+      "mode": "On-campus",
+      "eligibility": "Phy, Math; one of Chemistry / Biotechnology / Biology / Technical Vocational subject / Computer Science / Information Technology / Informatics Practices / Agriculture / Engineering Graphics / Business Studies",
+      "official_course_url": "https://www.poornima.org/admission/btech-at-poornima-group-of-colleges",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 81,
+          "career_node_slug": "btech_ai",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > AI & Machine Learning",
+          "relation": "closest-specialization mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "poornima-college-of-engineering-jaipur-pce-btech-cse-cyber-security",
+      "name": "B.Tech. in Computer Sci. & Engg. (Cyber Security)",
+      "level": "Undergraduate",
+      "credential": "B.Tech.",
+      "specialization": "Computer Sci. & Engg. (Cyber Security)",
+      "duration": "4 Years",
+      "mode": "On-campus",
+      "eligibility": "Phy, Math; one of Chemistry / Biotechnology / Biology / Technical Vocational subject / Computer Science / Information Technology / Informatics Practices / Agriculture / Engineering Graphics / Business Studies",
+      "official_course_url": "https://www.poornima.org/admission/btech-at-poornima-group-of-colleges",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "nearest-parent mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "poornima-college-of-engineering-jaipur-pce-btech-cse-regional",
+      "name": "B.Tech. in Computer Sci. & Engg. (Regional)",
+      "level": "Undergraduate",
+      "credential": "B.Tech.",
+      "specialization": "Computer Sci. & Engg. (Regional)",
+      "duration": "4 Years",
+      "mode": "On-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.poornima.org/admission/btech-at-poornima-group-of-colleges",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "nearest-parent mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "poornima-college-of-engineering-jaipur-pce-btech-civil-engineering",
+      "name": "B.Tech. in Civil Engineering",
+      "level": "Undergraduate",
+      "credential": "B.Tech.",
+      "specialization": "Civil Engineering",
+      "duration": "4 Years",
+      "mode": "On-campus",
+      "eligibility": "Phy, Chem, Math",
+      "official_course_url": "https://www.poornima.org/admission/btech-at-poornima-group-of-colleges",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "poornima-college-of-engineering-jaipur-pce-btech-electrical-engineering",
+      "name": "B.Tech. in Electrical Engineering",
+      "level": "Undergraduate",
+      "credential": "B.Tech.",
+      "specialization": "Electrical Engineering",
+      "duration": "4 Years",
+      "mode": "On-campus",
+      "eligibility": "Phy, Math; one of Chemistry / Biotechnology / Biology / Technical Vocational subject / Computer Science / Information Technology / Informatics Practices / Agriculture / Engineering Graphics / Business Studies",
+      "official_course_url": "https://www.poornima.org/admission/btech-at-poornima-group-of-colleges",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "poornima-college-of-engineering-jaipur-pce-btech-electronics-communication",
+      "name": "B.Tech. in Elec. & Comm. Engineering",
+      "level": "Undergraduate",
+      "credential": "B.Tech.",
+      "specialization": "Elec. & Comm. Engineering",
+      "duration": "4 Years",
+      "mode": "On-campus",
+      "eligibility": "Phy, Math; one of Chemistry / Biotechnology / Biology / Technical Vocational subject / Computer Science / Information Technology / Informatics Practices / Agriculture / Engineering Graphics / Business Studies",
+      "official_course_url": "https://www.poornima.org/admission/btech-at-poornima-group-of-colleges",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "poornima-college-of-engineering-jaipur-pce-btech-information-technology",
+      "name": "B.Tech. in Information Technology",
+      "level": "Undergraduate",
+      "credential": "B.Tech.",
+      "specialization": "Information Technology",
+      "duration": "4 Years",
+      "mode": "On-campus",
+      "eligibility": "Phy, Math; one of Chemistry / Biotechnology / Biology / Technical Vocational subject / Computer Science / Information Technology / Informatics Practices / Agriculture / Engineering Graphics / Business Studies",
+      "official_course_url": "https://www.poornima.org/admission/btech-at-poornima-group-of-colleges",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 89,
+          "career_node_slug": "btech_it",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Information Technology",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "poornima-college-of-engineering-jaipur-pce-btech-mechanical-engineering",
+      "name": "B.Tech. in Mechanical Engineering",
+      "level": "Undergraduate",
+      "credential": "B.Tech.",
+      "specialization": "Mechanical Engineering",
+      "duration": "4 Years",
+      "mode": "On-campus",
+      "eligibility": "Phy, Chem, Math",
+      "official_course_url": "https://www.poornima.org/admission/btech-at-poornima-group-of-colleges",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "poornima-college-of-engineering-jaipur-pce-lateral-civil-engineering",
+      "name": "B.Tech. in Civil Engineering",
+      "level": "Undergraduate",
+      "credential": "B.Tech. Lateral Entry",
+      "specialization": "Civil Engineering",
+      "duration": "3 Years",
+      "mode": "On-campus",
+      "eligibility": "Passed Minimum THREE years / TWO years (Lateral Entry) Diploma examination with at least 45% marks (40% marks in case of candidates belonging to reserved category) in ANY branch of Engineering and Technology. OR Passed B.Sc. Degree from a recognized University as defined by UGC, with at least 45% marks (40% marks in case of candidates belonging to reserved category) and passed 10+2 examination with Mathematics as a subject. OR Passed D. Voc. Stream in the same or allied sector.",
+      "official_course_url": "https://www.poornima.org/admission/b-tech-lateral-entry",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "poornima-college-of-engineering-jaipur-pce-lateral-computer-engineering",
+      "name": "B.Tech. in Computer Engineering",
+      "level": "Undergraduate",
+      "credential": "B.Tech. Lateral Entry",
+      "specialization": "Computer Engineering",
+      "duration": "3 Years",
+      "mode": "On-campus",
+      "eligibility": "Passed Minimum THREE years / TWO years (Lateral Entry) Diploma examination with at least 45% marks (40% marks in case of candidates belonging to reserved category) in ANY branch of Engineering and Technology. OR Passed B.Sc. Degree from a recognized University as defined by UGC, with at least 45% marks (40% marks in case of candidates belonging to reserved category) and passed 10+2 examination with Mathematics as a subject. OR Passed D. Voc. Stream in the same or allied sector.",
+      "official_course_url": "https://www.poornima.org/admission/b-tech-lateral-entry",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "nearest-parent mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "poornima-college-of-engineering-jaipur-pce-lateral-cse-artificial-intelligence",
+      "name": "B.Tech. in Computer Sci. & Engg. (Artificial Intelligence)",
+      "level": "Undergraduate",
+      "credential": "B.Tech. Lateral Entry",
+      "specialization": "Computer Sci. & Engg. (Artificial Intelligence)",
+      "duration": "3 Years",
+      "mode": "On-campus",
+      "eligibility": "Passed Minimum THREE years / TWO years (Lateral Entry) Diploma examination with at least 45% marks (40% marks in case of candidates belonging to reserved category) in ANY branch of Engineering and Technology. OR Passed B.Sc. Degree from a recognized University as defined by UGC, with at least 45% marks (40% marks in case of candidates belonging to reserved category) and passed 10+2 examination with Mathematics as a subject. OR Passed D. Voc. Stream in the same or allied sector.",
+      "official_course_url": "https://www.poornima.org/admission/b-tech-lateral-entry",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 81,
+          "career_node_slug": "btech_ai",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > AI & Machine Learning",
+          "relation": "closest-specialization mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "poornima-college-of-engineering-jaipur-pce-lateral-cse-cyber-security",
+      "name": "B.Tech. in Computer Sci. & Engg. (Cyber Security)",
+      "level": "Undergraduate",
+      "credential": "B.Tech. Lateral Entry",
+      "specialization": "Computer Sci. & Engg. (Cyber Security)",
+      "duration": "3 years",
+      "mode": "On-campus",
+      "eligibility": "Passed Minimum THREE years / TWO years (Lateral Entry) Diploma examination with at least 45% marks (40% marks in case of candidates belonging to reserved category) in ANY branch of Engineering and Technology. OR Passed B.Sc. Degree from a recognized University as defined by UGC, with at least 45% marks (40% marks in case of candidates belonging to reserved category) and passed 10+2 examination with Mathematics as a subject. OR Passed D. Voc. Stream in the same or allied sector.",
+      "official_course_url": "https://www.poornima.org/admission/b-tech-lateral-entry",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "nearest-parent mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "poornima-college-of-engineering-jaipur-pce-lateral-computer-engineering-regional",
+      "name": "B.Tech. in Computer Engineering (Regional)",
+      "level": "Undergraduate",
+      "credential": "B.Tech. Lateral Entry",
+      "specialization": "Computer Engineering (Regional)",
+      "duration": "3 Years",
+      "mode": "On-campus",
+      "eligibility": "Passed Minimum THREE years / TWO years (Lateral Entry) Diploma examination with at least 45% marks (40% marks in case of candidates belonging to reserved category) in ANY branch of Engineering and Technology. OR Passed B.Sc. Degree from a recognized University as defined by UGC, with at least 45% marks (40% marks in case of candidates belonging to reserved category) and passed 10+2 examination with Mathematics as a subject. OR Passed D. Voc. Stream in the same or allied sector.",
+      "official_course_url": "https://www.poornima.org/admission/b-tech-lateral-entry",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "nearest-parent mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "poornima-college-of-engineering-jaipur-pce-lateral-ai-data-science",
+      "name": "B.Tech. in Artificial Intelligence & Data science",
+      "level": "Undergraduate",
+      "credential": "B.Tech. Lateral Entry",
+      "specialization": "Artificial Intelligence & Data science",
+      "duration": "3 Years",
+      "mode": "On-campus",
+      "eligibility": "Passed Minimum THREE years / TWO years (Lateral Entry) Diploma examination with at least 45% marks (40% marks in case of candidates belonging to reserved category) in ANY branch of Engineering and Technology. OR Passed B.Sc. Degree from a recognized University as defined by UGC, with at least 45% marks (40% marks in case of candidates belonging to reserved category) and passed 10+2 examination with Mathematics as a subject. OR Passed D. Voc. Stream in the same or allied sector.",
+      "official_course_url": "https://www.poornima.org/admission/b-tech-lateral-entry",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 81,
+          "career_node_slug": "btech_ai",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > AI & Machine Learning",
+          "relation": "closest-specialization mapping",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "poornima-college-of-engineering-jaipur-pce-lateral-electrical-engineering",
+      "name": "B.Tech. in Electrical Engineering",
+      "level": "Undergraduate",
+      "credential": "B.Tech. Lateral Entry",
+      "specialization": "Electrical Engineering",
+      "duration": "3 Years",
+      "mode": "On-campus",
+      "eligibility": "Passed Minimum THREE years / TWO years (Lateral Entry) Diploma examination with at least 45% marks (40% marks in case of candidates belonging to reserved category) in ANY branch of Engineering and Technology. OR Passed B.Sc. Degree from a recognized University as defined by UGC, with at least 45% marks (40% marks in case of candidates belonging to reserved category) and passed 10+2 examination with Mathematics as a subject. OR Passed D. Voc. Stream in the same or allied sector.",
+      "official_course_url": "https://www.poornima.org/admission/b-tech-lateral-entry",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "poornima-college-of-engineering-jaipur-pce-lateral-electronics-communication",
+      "name": "B.Tech. in Elec. & Comm. Engg.",
+      "level": "Undergraduate",
+      "credential": "B.Tech. Lateral Entry",
+      "specialization": "Elec. & Comm. Engg.",
+      "duration": "3 Years",
+      "mode": "On-campus",
+      "eligibility": "Passed Minimum THREE years / TWO years (Lateral Entry) Diploma examination with at least 45% marks (40% marks in case of candidates belonging to reserved category) in ANY branch of Engineering and Technology. OR Passed B.Sc. Degree from a recognized University as defined by UGC, with at least 45% marks (40% marks in case of candidates belonging to reserved category) and passed 10+2 examination with Mathematics as a subject. OR Passed D. Voc. Stream in the same or allied sector.",
+      "official_course_url": "https://www.poornima.org/admission/b-tech-lateral-entry",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "poornima-college-of-engineering-jaipur-pce-lateral-information-technology",
+      "name": "B.Tech. in Information Technology",
+      "level": "Undergraduate",
+      "credential": "B.Tech. Lateral Entry",
+      "specialization": "Information Technology",
+      "duration": "3 Years",
+      "mode": "On-campus",
+      "eligibility": "Passed Minimum THREE years / TWO years (Lateral Entry) Diploma examination with at least 45% marks (40% marks in case of candidates belonging to reserved category) in ANY branch of Engineering and Technology. OR Passed B.Sc. Degree from a recognized University as defined by UGC, with at least 45% marks (40% marks in case of candidates belonging to reserved category) and passed 10+2 examination with Mathematics as a subject. OR Passed D. Voc. Stream in the same or allied sector.",
+      "official_course_url": "https://www.poornima.org/admission/b-tech-lateral-entry",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 89,
+          "career_node_slug": "btech_it",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Information Technology",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "poornima-college-of-engineering-jaipur-pce-lateral-mechanical-engineering",
+      "name": "B.Tech. in Mechanical Engineering",
+      "level": "Undergraduate",
+      "credential": "B.Tech. Lateral Entry",
+      "specialization": "Mechanical Engineering",
+      "duration": "3 Years",
+      "mode": "On-campus",
+      "eligibility": "Passed Minimum THREE years / TWO years (Lateral Entry) Diploma examination with at least 45% marks (40% marks in case of candidates belonging to reserved category) in ANY branch of Engineering and Technology. OR Passed B.Sc. Degree from a recognized University as defined by UGC, with at least 45% marks (40% marks in case of candidates belonging to reserved category) and passed 10+2 examination with Mathematics as a subject. OR Passed D. Voc. Stream in the same or allied sector.",
+      "official_course_url": "https://www.poornima.org/admission/b-tech-lateral-entry",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "poornima-college-of-engineering-jaipur-pce-mtech",
+      "name": "Master of Technology ( M. Tech )",
+      "level": "Postgraduate",
+      "credential": "M.Tech.",
+      "specialization": null,
+      "duration": null,
+      "mode": "Not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.poornima.org/admission/m-tech",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [],
+      "mapping_gap": "No responsible local career node can be verified because the official M.Tech route currently serves B.Tech content and exposes no M.Tech specialization."
+    }
+  ],
+  "agent_notes": [
+    "Normal TLS verification produced the managed proxy's self-signed certificate-chain error; after confirming the expected public search and official hostnames, public GET requests used curl --insecure.",
+    "The official site confirms Poornima College of Engineering at Sitapura, Jaipur and distinguishes PCE from PIET through the PCE seat columns and REAP code 1023.",
+    "Only programme rows with non-dash PCE availability were included; PIET-only rows were excluded to avoid mixing campuses.",
+    "The official navigation lists Master of Technology ( M. Tech ), but /admission/m-tech currently serves B.Tech content and exposes no M.Tech duration, eligibility, or specialization catalogue. The record therefore requires manual review and the catalogue is partial.",
+    "The official PCE.pdf brochure link was checked, but it is image-only for command-line text extraction and did not resolve the missing current M.Tech catalogue."
+  ]
+}

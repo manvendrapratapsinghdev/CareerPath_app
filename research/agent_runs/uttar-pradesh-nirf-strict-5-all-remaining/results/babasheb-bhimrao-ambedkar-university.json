@@ -1,0 +1,80 @@
+{
+  "institution_id": "babasheb-bhimrao-ambedkar-university",
+  "nirf_name": "Babasheb Bhimrao Ambedkar University",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/AgricultureRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/LawRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/PharmacyRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Lucknow",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://www.bbau.ac.in/",
+  "website_verification_status": "verified",
+  "description": "Babasaheb Bhimrao Ambedkar University is a central university in Lucknow, established under Parliament Act No. 58 of 1994, with programmes across humanities, sciences, engineering, agriculture, biotechnology, business, law, education and environmental sciences.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "official_homepage",
+      "url": "https://www.bbau.ac.in/",
+      "supports": [
+        "official institution identity",
+        "Babasaheb Bhimrao Ambedkar University, Lucknow"
+      ]
+    },
+    {
+      "type": "official_contact_campus_page",
+      "url": "https://www.bbau.ac.in/Contact.aspx",
+      "supports": [
+        "Vidya Vihar, Raebareli Road, Lucknow - 226025",
+        "district identity"
+      ]
+    },
+    {
+      "type": "official_about_page",
+      "url": "https://www.bbau.ac.in/About.aspx",
+      "supports": [
+        "institution history",
+        "description",
+        "programme scope"
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://www.bbau.ac.in/Courses.aspx",
+      "supports": [
+        "six-page official programme catalogue",
+        "programme names",
+        "duration and eligibility where shown"
+      ]
+    },
+    {
+      "type": "official_current_pg_admissions_prospectus",
+      "url": "https://www.bbau.ac.in/Office%20Notice/off%20note/May26/PG_Brochure.pdf",
+      "supports": [
+        "2026-27 postgraduate and skill-based programme names"
+      ]
+    },
+    {
+      "type": "official_current_phd_admissions_prospectus",
+      "url": "https://www.bbau.ac.in/Office%20Notice/off%20note/July26/Prospectus_for_Ph_D_Programme_2026_1.pdf",
+      "supports": [
+        "2026 doctoral subject offerings"
+      ]
+    }
+  ],
+  "website_search_evidence": [],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [],
+  "agent_notes": [
+    "All five supplied NIRF 2025 pages contain the institution row with Lucknow, Uttar Pradesh; the official site uses the spelling “Babasaheb” while the NIRF/context spelling is “Babasheb.”",
+    "The official site identifies BBAU as a central university, while INSTITUTION_CONTEXT labels it state_university; the institution name and Lucknow campus match.",
+    "The six-page Courses.aspx catalogue contains 107 programme cards, but the current 2026-27 PG prospectus and 2026 Ph.D. prospectus list additional or differently named programmes not present in that catalogue.",
+    "Because the official programme sources are incomplete and inconsistent, courses were not imported and manual review is required.",
+    "Normal TLS failed with the managed proxy self-signed certificate-chain error; public GETs then used curl --insecure only for the expected nirfindia.org and bbau.ac.in hosts."
+  ]
+}

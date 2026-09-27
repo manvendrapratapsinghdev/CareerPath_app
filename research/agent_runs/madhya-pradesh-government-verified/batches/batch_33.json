@@ -1,0 +1,91 @@
+{
+  "batch": 33,
+  "started_at": "2026-09-27T07:15:18.945306+00:00",
+  "finished_at": "2026-09-27T07:15:27.711330+00:00",
+  "assignment_count": 5,
+  "completed_count": 0,
+  "skipped_count": 0,
+  "failed_count": 5,
+  "results": [
+    {
+      "institution_id": "goverment-naveen-college-bankhedi-hoshangabad-m-p",
+      "nirf_name": "GOVERMENT NAVEEN COLLEGE BANKHEDI HOSHANGABAD M P",
+      "status": "failed",
+      "started_at": "2026-09-27T07:15:18.981497+00:00",
+      "finished_at": "2026-09-27T07:15:27.362246+00:00",
+      "duration_seconds": 8.38,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/goverment-naveen-college-bankhedi-hoshangabad-m-p.jsonl"
+    },
+    {
+      "institution_id": "govt-chatrsal-college-pichore",
+      "nirf_name": "GOVT. CHATRSAL COLLEGE PICHORE",
+      "status": "failed",
+      "started_at": "2026-09-27T07:15:18.973151+00:00",
+      "finished_at": "2026-09-27T07:15:27.556435+00:00",
+      "duration_seconds": 8.583,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/govt-chatrsal-college-pichore.jsonl"
+    },
+    {
+      "institution_id": "govt-college-bareli-raisen",
+      "nirf_name": "Govt. College, Bareli, Raisen",
+      "status": "failed",
+      "started_at": "2026-09-27T07:15:18.991909+00:00",
+      "finished_at": "2026-09-27T07:15:27.580023+00:00",
+      "duration_seconds": 8.588,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/govt-college-bareli-raisen.jsonl"
+    },
+    {
+      "institution_id": "govt-college-begumgunj-raisen",
+      "nirf_name": "Govt. College, Begumgunj, Raisen",
+      "status": "failed",
+      "started_at": "2026-09-27T07:15:18.993077+00:00",
+      "finished_at": "2026-09-27T07:15:27.703234+00:00",
+      "duration_seconds": 8.71,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/govt-college-begumgunj-raisen.jsonl"
+    },
+    {
+      "institution_id": "govt-college-pachore-rajgarh",
+      "nirf_name": "Govt. College, Pachore, Rajgarh",
+      "status": "failed",
+      "started_at": "2026-09-27T07:15:18.993459+00:00",
+      "finished_at": "2026-09-27T07:15:27.665427+00:00",
+      "duration_seconds": 8.672,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/govt-college-pachore-rajgarh.jsonl"
+    }
+  ]
+}

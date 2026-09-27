@@ -1,0 +1,15 @@
+{
+  "institution_id": "legacy-97",
+  "database_id": 97,
+  "name": "Bombay Stock Exchange (BSE) Institute",
+  "website": "https://www.bsebti.com",
+  "outcome": "manual_review",
+  "institution_type": null,
+  "source_url": null,
+  "confidence": null,
+  "evidence": null,
+  "notes": [
+    "Normal TLS verification failed with a self-signed certificate in the certificate chain; used curl --insecure only for public GET requests to the supplied hostname.",
+    "The official host currently serves a parking/lander page, and its robots.txt sitemap lists only /lander; no official institutional, governance, accreditation, or legal-status evidence was available."
+  ]
+}

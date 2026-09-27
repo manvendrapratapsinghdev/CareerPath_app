@@ -1,0 +1,374 @@
+{
+  "institution_id": "government-college-rampura",
+  "nirf_name": "Government College, Rampura",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "verified",
+  "district": "Neemuch",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://highereducation.mp.gov.in/?orgid=297",
+  "website_verification_status": "verified",
+  "description": "Government postgraduate college in Rampura, Neemuch district, Madhya Pradesh, established in 1958, with seven departments.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "official_homepage",
+      "url": "https://highereducation.mp.gov.in/?orgid=297",
+      "supports": [
+        "College-specific official profile identifies शासकीय स्नातकोत्तर महाविद्यालय रामपुरा under the Madhya Pradesh Higher Education Department.",
+        "The profile provides the official Academics catalogue links."
+      ]
+    },
+    {
+      "type": "official_district_directory",
+      "url": "https://highereducation.mp.gov.in/CollegeDisp/getTable",
+      "supports": [
+        "Official Madhya Pradesh Higher Education directory entry orgid 297 lists Govt College, Rampura in Neemuch district."
+      ]
+    },
+    {
+      "type": "official_at_a_glance",
+      "url": "https://highereducation.mp.gov.in/?page=gE0iG7TaBhXYZIRTgoiZ9w%3D%3D&orgid=297",
+      "supports": [
+        "Official At A Glance page states establishment year 1958 and seven departments."
+      ]
+    },
+    {
+      "type": "official_regular_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=r3F%2F6%2FjaKs6oT1TJ5deamg%3D%3D&orgid=297",
+      "supports": [
+        "Official Programmes Offered page lists the regular PG and UG programmes and shows an empty Diploma Programme section."
+      ]
+    },
+    {
+      "type": "official_distance_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=%2FV306bU7rSPitEc%2BkQ5F1Q%3D%3D&orgid=297",
+      "supports": [
+        "Official Distance Education Programme page lists B. A. (Hindi - History - Political Science) with minimum qualification Graduation and shows empty PG and Diploma sections."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Government College, Rampura\" Madhya Pradesh official website",
+      "result": "Search results were not institution-specific; direct official-domain checking located the Madhya Pradesh Higher Education college profile for orgid 297.",
+      "url": "https://highereducation.mp.gov.in/?orgid=297"
+    },
+    {
+      "query": "Government College Rampura Neemuch official",
+      "result": "Official-domain follow-up matched Govt College, Rampura to Neemuch district and orgid 297.",
+      "url": "https://highereducation.mp.gov.in/CollegeDisp/getTable"
+    },
+    {
+      "query": "site:mp.gov.in \"Government College, Rampura\"",
+      "result": "The official Madhya Pradesh Higher Education profile was confirmed; no third-party source was used for verification.",
+      "url": "https://highereducation.mp.gov.in/?orgid=297"
+    }
+  ],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "government-college-rampura-msc-chemistry",
+      "name": "M. Sc. (Chemistry)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": "Chemistry",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=r3F%2F6%2FjaKs6oT1TJ5deamg%3D%3D&orgid=297",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 155,
+          "career_node_slug": "msc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry > M.Sc Chemistry → Researcher",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-rampura-msc-botany",
+      "name": "M. Sc. (Botany)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": "Botany",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=r3F%2F6%2FjaKs6oT1TJ5deamg%3D%3D&orgid=297",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest-specialization mapping (Botany -> Biology / Biotech)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-rampura-msc-physics",
+      "name": "M. Sc. (Physics)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": "Physics",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=r3F%2F6%2FjaKs6oT1TJ5deamg%3D%3D&orgid=297",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 153,
+          "career_node_slug": "msc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics > M.Sc Physics → Researcher / Professor",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-rampura-ma-political-science",
+      "name": "M. A. (Political Science)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": "Political Science",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=r3F%2F6%2FjaKs6oT1TJ5deamg%3D%3D&orgid=297",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "closest-specialization mapping (M.A. Political Science -> Political Science)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-rampura-ma-economics",
+      "name": "M. A. (Economics)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": "Economics",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=r3F%2F6%2FjaKs6oT1TJ5deamg%3D%3D&orgid=297",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "closest-specialization mapping (M.A. Economics -> Economics)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-rampura-mcom-commerce",
+      "name": "M. Com. (Commerce)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": "Commerce",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=r3F%2F6%2FjaKs6oT1TJ5deamg%3D%3D&orgid=297",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 198,
+          "career_node_slug": "mcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons) > M.Com → Professor / Researcher",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-rampura-bsc-chemistry-mathematics-physics",
+      "name": "B. Sc. (Chemistry - Mathematics - Physics)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": "Chemistry - Mathematics - Physics",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=r3F%2F6%2FjaKs6oT1TJ5deamg%3D%3D&orgid=297",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 24,
+          "career_node_slug": "bsc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-rampura-bsc-botany-chemistry-zoology",
+      "name": "B. Sc. (Botany - Chemistry - Zoology)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": "Botany - Chemistry - Zoology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=r3F%2F6%2FjaKs6oT1TJ5deamg%3D%3D&orgid=297",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest-specialization mapping (Botany/Zoology -> Biology / Biotech)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-rampura-bcom-commerce",
+      "name": "B. Com (Commerce)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": "Commerce",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=r3F%2F6%2FjaKs6oT1TJ5deamg%3D%3D&orgid=297",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-rampura-ba-plain",
+      "name": "B. A. (B.A.- Plain)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=r3F%2F6%2FjaKs6oT1TJ5deamg%3D%3D&orgid=297",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent mapping (plain B.A. -> Social Sciences & Education)",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-rampura-distance-ba-hindi-history-political-science",
+      "name": "B. A. (Hindi - History - Political Science)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": "Hindi - History - Political Science",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=%2FV306bU7rSPitEc%2BkQ5F1Q%3D%3D&orgid=297",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The 2025 NIRF College participating-institutes page lists Government College, Rampura with city Rampura and state Madhya Pradesh.",
+    "The official Madhya Pradesh Higher Education College Website directory maps orgid 297 to Govt College, Rampura, District Neemuch; the college-specific profile uses the same orgid and identifies the Rampura government postgraduate college.",
+    "The dedicated official catalogue pages enumerate PG, UG, and Diploma sections for regular and distance education; the Diploma sections are empty. No additional diploma, certificate, or doctoral programme is listed.",
+    "The regular catalogue leaves minimum-qualification cells blank and publishes no durations; those fields were left null. The distance B.A. explicitly states Graduation as minimum qualification.",
+    "The managed proxy returned a self-signed certificate-chain error on the first normal TLS request; curl --insecure was then used only for public GETs to confirmed official/search domains."
+  ]
+}

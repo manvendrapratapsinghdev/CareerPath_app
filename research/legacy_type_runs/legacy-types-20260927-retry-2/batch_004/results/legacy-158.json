@@ -1,0 +1,15 @@
+{
+  "institution_id": "legacy-158",
+  "database_id": 158,
+  "name": "Tata Institute of Social Sciences (TISS)",
+  "website": "https://www.tiss.edu",
+  "outcome": "manual_review",
+  "institution_type": null,
+  "source_url": null,
+  "confidence": null,
+  "evidence": null,
+  "notes": [
+    "Normal TLS verification failed with the exact self-signed certificate in chain error.",
+    "The permitted curl --insecure fallback was attempted for public GET requests to www.tiss.edu, but the official site timed out without returning page content, so institutional type could not be established from official evidence."
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "institution_id": "govt-aranya-bharti-college-baihar-balaghat",
+  "nirf_name": "Govt. Aranya Bharti College, Baihar, Balaghat",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "verified",
+  "district": "Balaghat",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://highereducation.mp.gov.in/?orgid=36",
+  "website_verification_status": "verified",
+  "description": "Government college in Baihar, Balaghat district, Madhya Pradesh; the official profile lists establishment in 1963.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_discovery_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact institution name, Baihar city, and Madhya Pradesh listing"
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://highereducation.mp.gov.in/?orgid=36",
+      "supports": [
+        "Official Madhya Pradesh Higher Education college profile for institution orgid 36"
+      ]
+    },
+    {
+      "type": "official_identity_directory",
+      "url": "https://highereducation.mp.gov.in/CollegeDisp/getTable",
+      "supports": [
+        "OrganizationName: Govt Aranya Bharti College, Baihar",
+        "District: Balaghat",
+        "College code: 3803"
+      ]
+    },
+    {
+      "type": "official_profile",
+      "url": "https://highereducation.mp.gov.in/?page=vRLIqxF9ptDy5Qo%2BTOqASw%3D%3D&orgid=36",
+      "supports": [
+        "Establishment year 1963"
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=H9kh%2BdVr5RYcm7xxyvjQ%2Bg%3D%3D&orgid=36",
+      "supports": [
+        "Five PG programmes and one UG programme listed under Regular Courses",
+        "Diploma Programme section contains no entries"
+      ]
+    },
+    {
+      "type": "official_course_catalogue_check",
+      "url": "https://highereducation.mp.gov.in/?page=Xla0PTjNeuDG27hoCUoUwA%3D%3D&orgid=36",
+      "supports": [
+        "Distance education programme tables contain no entries"
+      ]
+    },
+    {
+      "type": "official_course_catalogue_check",
+      "url": "https://highereducation.mp.gov.in/?page=0dBrmlesy458wjUDeCNQAQ%3D%3D&orgid=36",
+      "supports": [
+        "New Course Started page contains no additional programme entries"
+      ]
+    },
+    {
+      "type": "official_catalogue_check",
+      "url": "https://highereducation.mp.gov.in/?page=qXh3muZSufm5b09UjSiEhA%3D%3D&orgid=36",
+      "supports": [
+        "Official Prospectus page contains no additional programme entries"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Govt. Aranya Bharti College\" Baihar official",
+      "result": "Bing returned general government and portal pages without an institution-specific official website; used only for discovery.",
+      "url": "https://www.bing.com/search?q=%22Govt.+Aranya+Bharti+College%22+Baihar+official"
+    },
+    {
+      "query": "\"Aranya Bharti College\" Balaghat website",
+      "result": "Bing returned unrelated results and no institution-specific official website; used only for discovery.",
+      "url": "https://www.bing.com/search?q=%22Aranya+Bharti+College%22+Balaghat+website"
+    },
+    {
+      "query": "site:mp.gov.in \"Aranya Bharti\" Baihar",
+      "result": "Bing did not surface the official college profile; the profile was established through the direct Madhya Pradesh Higher Education authoritative-domain check.",
+      "url": "https://www.bing.com/search?q=site%3Amp.gov.in+%22Aranya+Bharti%22+Baihar"
+    }
+  ],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "govt-aranya-bharti-college-baihar-balaghat-m-sc-zoology",
+      "name": "M. Sc. (Zoology)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Zoology",
+      "duration": null,
+      "mode": "Regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=H9kh%2BdVr5RYcm7xxyvjQ%2Bg%3D%3D&orgid=36",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest-specialization mapping; no Zoology node exists",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-aranya-bharti-college-baihar-balaghat-m-sc-chemistry",
+      "name": "M. Sc. (Chemistry)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Chemistry",
+      "duration": null,
+      "mode": "Regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=H9kh%2BdVr5RYcm7xxyvjQ%2Bg%3D%3D&orgid=36",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 155,
+          "career_node_slug": "msc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry > M.Sc Chemistry → Researcher",
+          "relation": "direct degree-family mapping; career-tree outcome suffix retained",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-aranya-bharti-college-baihar-balaghat-m-a-sociology",
+      "name": "M. A. (Sociology)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Sociology",
+      "duration": null,
+      "mode": "Regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=H9kh%2BdVr5RYcm7xxyvjQ%2Bg%3D%3D&orgid=36",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "closest-discipline mapping; no M.A Sociology node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-aranya-bharti-college-baihar-balaghat-m-a-economics",
+      "name": "M. A. (Economics)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Economics",
+      "duration": null,
+      "mode": "Regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=H9kh%2BdVr5RYcm7xxyvjQ%2Bg%3D%3D&orgid=36",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "closest-discipline mapping; no M.A Economics node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-aranya-bharti-college-baihar-balaghat-m-com-commerce",
+      "name": "M. Com. (Commerce)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Commerce",
+      "duration": null,
+      "mode": "Regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=H9kh%2BdVr5RYcm7xxyvjQ%2Bg%3D%3D&orgid=36",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 198,
+          "career_node_slug": "mcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons) > M.Com → Professor / Researcher",
+          "relation": "direct degree-family mapping; career-tree outcome suffix retained",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-aranya-bharti-college-baihar-balaghat-b-a-economics-hindi-political-science",
+      "name": "B. A. (Economics - Hindi - Political Science)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Economics - Hindi - Political Science",
+      "duration": null,
+      "mode": "Regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=H9kh%2BdVr5RYcm7xxyvjQ%2Bg%3D%3D&orgid=36",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The managed proxy produced a self-signed certificate-chain error; public GET requests were retried with curl --insecure only after confirming the expected official hosts.",
+    "The official Regular Courses page lists five PG and one UG programme. Its Minimum Qualification cells contain no values and no duration is stated, so eligibility and duration remain null.",
+    "The official Distance Education, Diploma Programme, New Course Started, and Prospectus sections contain no additional programme entries. No separate certificate or doctoral programme was discoverable.",
+    "No separate external college domain was linked by the official profile; the official institutional profile is hosted on highereducation.mp.gov.in."
+  ]
+}

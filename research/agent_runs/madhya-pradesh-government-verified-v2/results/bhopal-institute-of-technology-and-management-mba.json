@@ -1,0 +1,153 @@
+{
+  "institution_id": "bhopal-institute-of-technology-and-management-mba",
+  "nirf_name": "Bhopal Institute of Technology and Management MBA",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "verified",
+  "district": "Raisen",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://bitmmba.ac.in/",
+  "website_verification_status": "verified",
+  "description": "The MBA campus is a self-financed institution of the Globus Institute of Engineering & Technology group, approved by AICTE and affiliated to Barkatullah University, Bhopal; its official contact address is Bhojpur Road, Mendua, Raisen, Madhya Pradesh.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html",
+      "supports": [
+        "Exact assigned institution name is listed with Bhopal, Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Exact assigned institution name is listed with Bhopal, Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://bitmmba.ac.in/",
+      "supports": [
+        "Exact MBA-specific institution identity, Bhopal naming, AICTE approval, and Barkatullah University affiliation."
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "https://bitmmba.ac.in/About.html",
+      "supports": [
+        "MBA campus identity and official contact address at Bhojpur Road, Mendua, Raisen, Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "official_programme_catalogue",
+      "url": "https://bitmmba.ac.in/ProgramsOffered.html",
+      "supports": [
+        "Official catalogue lists Master of Business Administration, full-time delivery, 180 seats, and five named specializations."
+      ]
+    },
+    {
+      "type": "official_admissions",
+      "url": "https://bitmmba.ac.in/admission.html",
+      "supports": [
+        "Official admission procedure verifies the 180-seat intake and graduate eligibility requirements."
+      ]
+    },
+    {
+      "type": "official_specialization_catalogue",
+      "url": "https://bitmmba.ac.in/Specialization.html",
+      "supports": [
+        "Official specialization page provides the institution's specialization descriptions."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Bhopal Institute of Technology and Management\"",
+      "result": "Brave discovery returned bitm.ac.in and the MBA-specific bitmmba.ac.in domain; direct official-page checks were then used for verification.",
+      "url": "https://search.brave.com/search?q=%22Bhopal%20Institute%20of%20Technology%20and%20Management%22"
+    },
+    {
+      "query": "BITM-MBA Bhopal official site",
+      "result": "Brave discovery returned bitmmba.ac.in and its ProgramsOffered.html page; both were fetched directly for verification.",
+      "url": "https://search.brave.com/search?q=BITM-MBA%20Bhopal%20official%20site"
+    }
+  ],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "bhopal-institute-of-technology-and-management-mba-master-of-business-administration",
+      "name": "Master of Business Administration",
+      "level": "postgraduate",
+      "credential": "MBA",
+      "specialization": "Marketing Management; Finance Management; Human Resource Management; Retail Management; Banking and Financial Services",
+      "duration": "2 years",
+      "mode": "full_time",
+      "eligibility": "Any graduate with at least 50% aggregate marks (45% for OBC/ST/SC) from a UGC/AICTE-approved Indian university or recognized equivalent; the bachelor's degree must be at least three years after 10+2 or equivalent.",
+      "official_course_url": "https://bitmmba.ac.in/ProgramsOffered.html",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 208,
+          "career_node_slug": "mba_general",
+          "career_breadcrumb": "Management & Business > BBA (General) > MBA → CEO / Director Track",
+          "relation": "direct general MBA programme mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        },
+        {
+          "career_node_id": 201,
+          "career_node_slug": "mba_finance",
+          "career_breadcrumb": "Finance & Investment > BBA Finance > MBA Finance → CFO Track",
+          "relation": "direct listed Finance Management specialization mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 211,
+          "career_node_slug": "marketing_manager",
+          "career_breadcrumb": "Management & Business > BBA Marketing > Marketing Manager",
+          "relation": "direct listed Marketing Management specialization career mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 214,
+          "career_node_slug": "hr_manager",
+          "career_breadcrumb": "Management & Business > BBA Human Resources > HR Manager",
+          "relation": "direct listed Human Resource Management specialization career mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 344,
+          "career_node_slug": "commerce_banking",
+          "career_breadcrumb": "Banking & Insurance",
+          "relation": "closest discipline mapping for Banking and Financial Services; no postgraduate banking node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest management-parent mapping for Retail Management; no retail node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "Both supplied NIRF 2025 Management and Overall listings contain the exact institution name with Bhopal, Madhya Pradesh.",
+    "The MBA-specific official site bitmmba.ac.in was used; the broader bitm.ac.in engineering site and its programmes were excluded as a separate campus/institution context.",
+    "The managed proxy produced curl's self-signed certificate-chain error for the expected public hosts, so public GETs were retried with --insecure only after confirming the hostnames; no credentials or private data were sent.",
+    "The homepage links to uppercase Admission.html, which returns 404, but the live lowercase official route admission.html provides the complete admission procedure and eligibility.",
+    "The local career tree labels the exact MBA outcome node beneath BBA (General); this label mismatch is recorded in mapping_status for the general MBA mapping."
+  ]
+}

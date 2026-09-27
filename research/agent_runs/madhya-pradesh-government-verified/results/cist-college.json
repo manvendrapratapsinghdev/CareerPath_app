@@ -1,0 +1,88 @@
+{
+  "institution_id": "cist-college",
+  "nirf_name": "CIST College",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "remove_candidate",
+  "district": null,
+  "district_verification_status": "not_found",
+  "official_website": null,
+  "website_verification_status": "not_found",
+  "description": null,
+  "description_verification_status": "not_found",
+  "record_status": "remove_candidate",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact institution name CIST College",
+        "City VIDISHA",
+        "State Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Exact institution name CIST College",
+        "City VIDISHA",
+        "State Madhya Pradesh"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "cist college vidisha official website",
+      "result": "Google returned a CAPTCHA/unusual-traffic page; no official domain could be established.",
+      "url": "https://www.google.com/search?q=cist+college+vidisha+official+website"
+    },
+    {
+      "query": "\"CIST College\" Vidisha courses",
+      "result": "Google returned a CAPTCHA/unusual-traffic page; no official course catalogue domain could be established.",
+      "url": "https://www.google.com/search?q=%22CIST+College%22+Vidisha+courses"
+    },
+    {
+      "query": "\"CIST College\" Vidisha admissions",
+      "result": "Google returned a CAPTCHA/unusual-traffic page; no official admissions domain could be established.",
+      "url": "https://www.google.com/search?q=%22CIST+College%22+Vidisha+admissions"
+    },
+    {
+      "query": "cist college vidisha official website",
+      "result": "Bing results were generic or unrelated and did not surface an institution-owned official website.",
+      "url": "https://www.bing.com/search?q=cist+college+vidisha+official+website"
+    },
+    {
+      "query": "CIST College Vidisha courses",
+      "result": "Bing results were unrelated/default results and did not surface an official course catalogue.",
+      "url": "https://www.bing.com/search?q=CIST+College+Vidisha+courses"
+    },
+    {
+      "query": "CIST College Vidisha admissions",
+      "result": "Bing results were unrelated/default results and did not surface an official admissions page.",
+      "url": "https://www.bing.com/search?q=CIST+College+Vidisha+admissions"
+    },
+    {
+      "query": "CIST College Madhya Pradesh",
+      "result": "Bing RSS results did not surface an official institution website.",
+      "url": "https://www.bing.com/search?format=rss&q=CIST+College+Madhya+Pradesh"
+    },
+    {
+      "query": "cistcollege.com authoritative-domain check",
+      "result": "The HTTPS page is a Namecheap parking page stating the domain was recently registered with Namecheap; it is not an institution website.",
+      "url": "https://cistcollege.com/"
+    }
+  ],
+  "course_catalogue_status": "not_found",
+  "courses": [],
+  "agent_notes": [
+    "NIRF 2025 College and Overall listings both contain the exact row CIST College, VIDISHA, Madhya Pradesh.",
+    "No institution-owned official website was established after focused command-line searches and an authoritative-domain check.",
+    "The plausible cistcollege.com domain is parked with Namecheap and was not accepted as official.",
+    "Initial normal TLS requests produced the managed proxy error 'self signed certificate in certificate chain'; curl --insecure was then used only for public GET requests to the checked government, search, and candidate domains.",
+    "No official programme catalogue was established, so no courses or career-path mappings were imported."
+  ]
+}

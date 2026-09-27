@@ -1,0 +1,15 @@
+{
+  "institution_id": "legacy-191",
+  "database_id": 191,
+  "name": "Government College of Fine Arts Chennai",
+  "website": "https://www.gcfachennai.ac.in",
+  "outcome": "manual_review",
+  "institution_type": null,
+  "source_url": null,
+  "confidence": null,
+  "evidence": null,
+  "notes": [
+    "The supplied official hostname returned DNS NXDOMAIN for both gcfachennai.ac.in and www.gcfachennai.ac.in, so no official page could be accessed or verified.",
+    "The curl --insecure fallback was not used because the failure was DNS resolution, not a proxy certificate-chain error."
+  ]
+}

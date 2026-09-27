@@ -1,0 +1,15 @@
+{
+  "institution_id": "legacy-129",
+  "database_id": 129,
+  "name": "Shankar IAS Academy",
+  "website": "https://www.shankariastoppers.com",
+  "outcome": "manual_review",
+  "institution_type": null,
+  "source_url": null,
+  "confidence": null,
+  "evidence": null,
+  "notes": [
+    "Command-line HTTPS requests could not resolve the supplied hostname; public DNS returned NXDOMAIN for both www.shankariastoppers.com and shankariastoppers.com.",
+    "curl --insecure was not used because no proxy certificate-chain error occurred."
+  ]
+}

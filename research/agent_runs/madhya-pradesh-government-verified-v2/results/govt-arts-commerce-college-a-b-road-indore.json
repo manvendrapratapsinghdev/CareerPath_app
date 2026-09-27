@@ -1,0 +1,80 @@
+{
+  "institution_id": "govt-arts-commerce-college-a-b-road-indore",
+  "nirf_name": "Govt. Arts & Commerce College A.B.Road, Indore",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "remove_candidate",
+  "district": null,
+  "district_verification_status": "not_found",
+  "official_website": null,
+  "website_verification_status": "not_found",
+  "description": null,
+  "description_verification_status": "not_found",
+  "record_status": "remove_candidate",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html",
+      "supports": [
+        "Exact institution name listed with city Indore and state Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "authoritative_domain_check",
+      "url": "https://highereducation.mp.gov.in/",
+      "supports": [
+        "Official Madhya Pradesh Higher Education portal checked; its government-college records did not expose an official website for the exact NIRF name."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "site:edu.in \"Govt. Arts & Commerce College\" Indore",
+      "result": "Search results did not establish an official institution website; results were unrelated government and portal pages.",
+      "url": "https://www.bing.com/search?q=site%3Aedu.in+%22Govt.+Arts+%26+Commerce+College%22+Indore"
+    },
+    {
+      "query": "site:mp.gov.in \"Arts & Commerce College\" Indore",
+      "result": "Search results did not establish an official institution website; results were unrelated pages.",
+      "url": "https://www.bing.com/search?q=site%3Amp.gov.in+%22Arts+%26+Commerce+College%22+Indore"
+    },
+    {
+      "query": "\"Government Arts and Commerce College\" Indore Madhya Pradesh website",
+      "result": "Search results did not establish an official institution website; results were unrelated government and job pages.",
+      "url": "https://www.bing.com/search?q=%22Government+Arts+and+Commerce+College%22+Indore+Madhya+Pradesh+website"
+    },
+    {
+      "query": "\"Shri Atal Bihari Vajpayee Govt Arts & Commerce College\" Indore website",
+      "result": "Search results returned non-official references but no retrievable official college domain.",
+      "url": "https://search.seznam.cz/?q=%22Shri%20Atal%20Bihari%20Vajpayee%20Govt%20Arts%20%26%20Commerce%20College%22%20Indore%20website"
+    },
+    {
+      "query": "site:ac.in \"A.B.Road\" \"Arts\" \"Indore\" college",
+      "result": "Search results did not establish an official institution website.",
+      "url": "https://www.bing.com/search?q=site%3Aac.in+%22A.B.Road%22+%22Arts%22+%22Indore%22+college"
+    },
+    {
+      "query": "Official website candidate check: gacindore.com",
+      "result": "The candidate domain redirected to HTTPS and returned Cloudflare HTTP 526 Invalid SSL Certificate, with no retrievable institution content or identity evidence.",
+      "url": "https://gacindore.com/"
+    },
+    {
+      "query": "MP Higher Education official All Govt Colleges directory",
+      "result": "The authoritative state portal was checked. Its Indore records show differently named entries, including Shri Atal Bihari Vajpai Govt Arts and Commerce College and Govt Arts and Commerce College, Rau; the exact NIRF name and an official website were not established.",
+      "url": "https://highereducation.mp.gov.in/"
+    }
+  ],
+  "course_catalogue_status": "not_found",
+  "courses": [],
+  "agent_notes": [
+    "The exact NIRF government listing was established in the 2025 Management ranking source.",
+    "No official institution website could be established after multiple focused searches and an authoritative Madhya Pradesh Higher Education domain check.",
+    "The same-acronym candidate domain gacindore.com was inaccessible with HTTP 526 and provided no institution content.",
+    "Normal TLS verification first produced the managed proxy error 'self signed certificate in certificate chain'; curl --insecure was then used only for public GET requests to the expected official or search hosts.",
+    "No programme catalogue, district page, description, duration, or eligibility could be verified from an institution-owned official website."
+  ]
+}

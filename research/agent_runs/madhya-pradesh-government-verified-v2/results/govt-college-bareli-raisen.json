@@ -1,0 +1,503 @@
+{
+  "institution_id": "govt-college-bareli-raisen",
+  "nirf_name": "Govt. College, Bareli, Raisen",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "verified",
+  "district": "Raisen",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://epravesh.highereducation.mp.gov.in/",
+  "website_verification_status": "verified",
+  "description": "Government co-educational rural college at Bareli in Raisen district, affiliated with Barkatullah University, Bhopal; the official profile lists establishment in 1961.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [
+    "highereducation.mp.gov.in"
+  ],
+  "verification_sources": [
+    {
+      "type": "government_directory_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact institution name, city Raisen, and state Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "official_department_homepage",
+      "url": "https://highereducation.mp.gov.in/",
+      "supports": [
+        "Official Madhya Pradesh Higher Education Department homepage linking to the e-Pravesh admissions portal."
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://epravesh.highereducation.mp.gov.in/",
+      "supports": [
+        "Official Government of Madhya Pradesh e-Pravesh homepage; B.A., B.Com., and B.Sc. are grouped under After 12th HSC, while M.A. and M.Sc. are grouped under After Graduation."
+      ]
+    },
+    {
+      "type": "official_institution_profile",
+      "url": "https://epravesh.highereducation.mp.gov.in/EBrochure_College_Details.aspx?cm_id=DVZQFeBpM%7E0%7E0%7E8%3D",
+      "supports": [
+        "College code 3003, Govt College, Bareli, Raisen district, official address, government status, co-educational type, rural area, 1961 establishment year, and Barkatullah University affiliation."
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "supports": [
+        "Current official catalogue record for college code 3003 with B. A., B. Com., B. Sc., M. A. (2-Year), and M. Sc. (2 - Year)."
+      ]
+    },
+    {
+      "type": "official_course_branch_catalogue",
+      "url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx/Bind_Degree_Wise_Branch_intake_EBroucher",
+      "supports": [
+        "Active branch records for college code 3003; all returned records have cbm_is_status=1 and provide the listed specializations."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Govt. College, Bareli, Raisen\" official website",
+      "result": "Bing returned unrelated government and aggregator results; no search result was used as verification.",
+      "url": null
+    },
+    {
+      "query": "\"Government College Bareli\" Raisen Madhya Pradesh official",
+      "result": "Bing returned unrelated results; no search result was used as verification.",
+      "url": null
+    },
+    {
+      "query": "site:mp.gov.in \"College, Bareli\" Raisen",
+      "result": "No direct institutional result was used; the official Madhya Pradesh Higher Education homepage and its e-Pravesh link were inspected directly.",
+      "url": "https://highereducation.mp.gov.in/"
+    }
+  ],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "govt-college-bareli-raisen-ba-english-literature",
+      "name": "B. A.",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "English Literature",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "After 12th HSC",
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bareli-raisen-ba-urdu",
+      "name": "B. A.",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Urdu",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "After 12th HSC",
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "closest specialization: Languages & Literature; no exact Urdu node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bareli-raisen-ba-economics",
+      "name": "B. A.",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Economics",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "After 12th HSC",
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bareli-raisen-ba-sociology",
+      "name": "B. A.",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Sociology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "After 12th HSC",
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bareli-raisen-ba-political-science",
+      "name": "B. A.",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Political Science",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "After 12th HSC",
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bareli-raisen-ba-hindi-literature",
+      "name": "B. A.",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Hindi Literature",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "After 12th HSC",
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "closest specialization: Hindi Literature to Hindi / Regional Language",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bareli-raisen-bcom-commerce",
+      "name": "B. Com.",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Commerce",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "After 12th HSC",
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 340,
+          "career_node_slug": "commerce_accounting",
+          "career_breadcrumb": "Accounting & Audit",
+          "relation": "closest specialization: Accounting & Audit for the broad Commerce programme",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bareli-raisen-bsc-chemistry",
+      "name": "B. Sc.",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Chemistry",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "After 12th HSC",
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bareli-raisen-bsc-physics",
+      "name": "B. Sc.",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Physics",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "After 12th HSC",
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 24,
+          "career_node_slug": "bsc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bareli-raisen-bsc-zoology",
+      "name": "B. Sc.",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Zoology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "After 12th HSC",
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 336,
+          "career_node_slug": "science_bio",
+          "career_breadcrumb": "Biology / PCB",
+          "relation": "nearest parent: Biology / PCB for Zoology; no exact Zoology node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bareli-raisen-bsc-mathematics",
+      "name": "B. Sc.",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Mathematics",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "After 12th HSC",
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bareli-raisen-bsc-botany",
+      "name": "B. Sc.",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Botany",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "After 12th HSC",
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 336,
+          "career_node_slug": "science_bio",
+          "career_breadcrumb": "Biology / PCB",
+          "relation": "nearest parent: Biology / PCB for Botany; no exact Botany node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bareli-raisen-ma-economics",
+      "name": "M. A. (2-Year)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Economics",
+      "duration": "2 years",
+      "mode": "regular",
+      "eligibility": "After Graduation",
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "closest specialization: Economics; career tree node is labelled BA Economics",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bareli-raisen-ma-hindi",
+      "name": "M. A. (2-Year)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Hindi",
+      "duration": "2 years",
+      "mode": "regular",
+      "eligibility": "After Graduation",
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "closest specialization: Hindi; career tree node is labelled BA Hindi / Regional Language",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bareli-raisen-ma-sociology",
+      "name": "M. A. (2-Year)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Sociology",
+      "duration": "2 years",
+      "mode": "regular",
+      "eligibility": "After Graduation",
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "closest specialization: Sociology; career tree node is labelled BA Sociology",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bareli-raisen-msc-botany",
+      "name": "M. Sc. (2 - Year)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Botany",
+      "duration": "2 years",
+      "mode": "regular",
+      "eligibility": "After Graduation",
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 336,
+          "career_node_slug": "science_bio",
+          "career_breadcrumb": "Biology / PCB",
+          "relation": "nearest parent: Biology / PCB for Botany; no exact M.Sc. Botany node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bareli-raisen-msc-chemistry",
+      "name": "M. Sc. (2 - Year)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Chemistry",
+      "duration": "2 years",
+      "mode": "regular",
+      "eligibility": "After Graduation",
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 155,
+          "career_node_slug": "msc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry > M.Sc Chemistry → Researcher",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bareli-raisen-msc-zoology",
+      "name": "M. Sc. (2 - Year)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Zoology",
+      "duration": "2 years",
+      "mode": "regular",
+      "eligibility": "After Graduation",
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 336,
+          "career_node_slug": "science_bio",
+          "career_breadcrumb": "Biology / PCB",
+          "relation": "nearest parent: Biology / PCB for Zoology; no exact M.Sc. Zoology node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "NIRF 2025 government listing contains the exact institution row with Raisen, Madhya Pradesh.",
+    "The official MP Higher Education e-Pravesh record identifies college code 3003 / cm_id 259 as Govt College, Bareli, Raisen, with a complete active catalogue of 18 degree-specialization combinations: B. A. (6), B. Com. (1), B. Sc. (5), M. A. (3), and M. Sc. (3).",
+    "The official profile's stored College_Website field is truncated to https://highereducation.mp.gov.in/CollegeProfile/P; the verified official admissions/homepage and course catalogue are the Government of Madhya Pradesh e-Pravesh portal.",
+    "Normal TLS first produced the documented local self-signed certificate-chain error; curl --insecure was used only for confirmed official/search hostnames after that error. No credentials or private data were sent.",
+    "assets/data/career_path.db was queried read-only; no database edits were made."
+  ]
+}

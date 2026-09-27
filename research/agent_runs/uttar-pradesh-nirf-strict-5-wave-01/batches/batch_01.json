@@ -1,0 +1,90 @@
+{
+  "batch": 1,
+  "started_at": "2026-09-27T06:56:25.239961+00:00",
+  "finished_at": "2026-09-27T07:03:43.758040+00:00",
+  "assignment_count": 5,
+  "completed_count": 0,
+  "skipped_count": 0,
+  "failed_count": 5,
+  "results": [
+    {
+      "institution_id": "indian-institute-of-information-technology-allahabad",
+      "nirf_name": "Indian Institute of Information Technology Allahabad",
+      "status": "failed",
+      "started_at": "2026-09-27T06:56:25.259014+00:00",
+      "finished_at": "2026-09-27T07:01:46.551506+00:00",
+      "duration_seconds": 321.281,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [
+        "verification source is outside official domains: https://www.nirfindia.org/Rankings/2025/EngineeringRankingALL.html"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-wave-01/logs/indian-institute-of-information-technology-allahabad.jsonl"
+    },
+    {
+      "institution_id": "indian-institute-of-management-lucknow",
+      "nirf_name": "Indian Institute of Management Lucknow",
+      "status": "failed",
+      "started_at": "2026-09-27T06:56:25.258985+00:00",
+      "finished_at": "2026-09-27T07:03:13.211540+00:00",
+      "duration_seconds": 407.925,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [
+        "verification source is outside official domains: https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-wave-01/logs/indian-institute-of-management-lucknow.jsonl"
+    },
+    {
+      "institution_id": "indian-institute-of-technology-banaras-hindu-university-varanasi",
+      "nirf_name": "Indian Institute of Technology (Banaras Hindu University) Varanasi",
+      "status": "failed",
+      "started_at": "2026-09-27T06:56:25.259083+00:00",
+      "finished_at": "2026-09-27T07:02:26.315711+00:00",
+      "duration_seconds": 361.034,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [
+        "verification source is outside official domains: https://www.nirfindia.org/Rankings/2025/EngineeringRankingALL.html",
+        "verification source is outside official domains: https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-wave-01/logs/indian-institute-of-technology-banaras-hindu-university-varanasi.jsonl"
+    },
+    {
+      "institution_id": "indian-institute-of-technology-kanpur",
+      "nirf_name": "Indian Institute of Technology Kanpur",
+      "status": "failed",
+      "started_at": "2026-09-27T06:56:25.258919+00:00",
+      "finished_at": "2026-09-27T07:03:29.112413+00:00",
+      "duration_seconds": 423.827,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [
+        "verification source is outside official domains: https://www.nirfindia.org/Rankings/2025/EngineeringRankingALL.html",
+        "verification source is outside official domains: https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html",
+        "verification source is outside official domains: https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-wave-01/logs/indian-institute-of-technology-kanpur.jsonl"
+    },
+    {
+      "institution_id": "motilal-nehru-national-institute-of-technology",
+      "nirf_name": "Motilal Nehru National Institute of Technology",
+      "status": "failed",
+      "started_at": "2026-09-27T06:56:25.259056+00:00",
+      "finished_at": "2026-09-27T07:03:43.756221+00:00",
+      "duration_seconds": 438.474,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [
+        "verification source is outside official domains: https://www.nirfindia.org/Rankings/2025/EngineeringRankingALL.html",
+        "verification source is outside official domains: https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-wave-01/logs/motilal-nehru-national-institute-of-technology.jsonl"
+    }
+  ]
+}

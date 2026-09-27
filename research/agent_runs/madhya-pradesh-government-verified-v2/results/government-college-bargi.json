@@ -1,0 +1,215 @@
+{
+  "institution_id": "government-college-bargi",
+  "nirf_name": "GOVERNMENT COLLEGE, BARGI",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Jabalpur",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://www.mphighereducation.nic.in/ins1451",
+  "website_verification_status": "ambiguous",
+  "description": "Govt College, Bargi is a government, co-educational rural college at Village Chourai, Thana Bargi, Jabalpur district, affiliated with Rani Durgavati University, Jabalpur. The official e-Brochure lists its establishment year as 2013.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [
+    "epravesh.highereducation.mp.gov.in"
+  ],
+  "verification_sources": [
+    {
+      "type": "government_discovery_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "NIRF 2025 lists GOVERNMENT COLLEGE, BARGI in Jabalpur, Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "official_college_e_brochure",
+      "url": "https://epravesh.highereducation.mp.gov.in/EBrochure_College_Details.aspx?cm_id=umXgPcmdqkk=",
+      "supports": [
+        "Identifies college code INS1451, Govt College, Bargi, Jabalpur district, Village Chourai Thana Bargi address, government status, affiliation, and establishment year 2013."
+      ]
+    },
+    {
+      "type": "official_catalogue_index",
+      "url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "supports": [
+        "Lists B. A. as the only current programme family for this campus."
+      ]
+    },
+    {
+      "type": "official_catalogue_api",
+      "url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx/Bind_Degree_Wise_Branch_intake_EBroucher",
+      "supports": [
+        "For CollegeId 516 and Degid 18, returns six active B. A. branches: English Literature, History, Economics, Sociology, Political Science, and Hindi Literature."
+      ]
+    },
+    {
+      "type": "official_website_registry",
+      "url": "https://epravesh.highereducation.mp.gov.in/EBrochure_College_Details.aspx?cm_id=umXgPcmdqkk=",
+      "supports": [
+        "Publishes https://www.mphighereducation.nic.in/ins1451 as the college website."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "Government College Bargi Jabalpur official website",
+      "result": "Focused search returned non-specific government portals and no independently verifiable college homepage.",
+      "url": "https://www.bing.com/search?q=%22Government+College%22+Bargi+Jabalpur+official+website"
+    },
+    {
+      "query": "https://www.mphighereducation.nic.in/ins1451",
+      "result": "The URL is published by the official Madhya Pradesh Higher Education e-Brochure, but direct HTTPS retrieval timed out with no response.",
+      "url": "https://www.mphighereducation.nic.in/ins1451"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "government-college-bargi-ba-english-literature",
+      "name": "B. A.",
+      "level": "Undergraduate",
+      "credential": "B. A.",
+      "specialization": "English Literature",
+      "duration": null,
+      "mode": "On-campus",
+      "eligibility": null,
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx/Bind_Degree_Wise_Branch_intake_EBroucher",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-bargi-ba-history",
+      "name": "B. A.",
+      "level": "Undergraduate",
+      "credential": "B. A.",
+      "specialization": "History",
+      "duration": null,
+      "mode": "On-campus",
+      "eligibility": null,
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx/Bind_Degree_Wise_Branch_intake_EBroucher",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-bargi-ba-economics",
+      "name": "B. A.",
+      "level": "Undergraduate",
+      "credential": "B. A.",
+      "specialization": "Economics",
+      "duration": null,
+      "mode": "On-campus",
+      "eligibility": null,
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx/Bind_Degree_Wise_Branch_intake_EBroucher",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-bargi-ba-sociology",
+      "name": "B. A.",
+      "level": "Undergraduate",
+      "credential": "B. A.",
+      "specialization": "Sociology",
+      "duration": null,
+      "mode": "On-campus",
+      "eligibility": null,
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx/Bind_Degree_Wise_Branch_intake_EBroucher",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-bargi-ba-political-science",
+      "name": "B. A.",
+      "level": "Undergraduate",
+      "credential": "B. A.",
+      "specialization": "Political Science",
+      "duration": null,
+      "mode": "On-campus",
+      "eligibility": null,
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx/Bind_Degree_Wise_Branch_intake_EBroucher",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-bargi-ba-hindi-literature",
+      "name": "B. A.",
+      "level": "Undergraduate",
+      "credential": "B. A.",
+      "specialization": "Hindi Literature",
+      "duration": null,
+      "mode": "On-campus",
+      "eligibility": null,
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx/Bind_Degree_Wise_Branch_intake_EBroucher",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "NIRF government listing confirmed the exact institution and Jabalpur city.",
+    "The official Madhya Pradesh Higher Education e-Brochure confirms campus code INS1451, Village Chourai Thana Bargi, Jabalpur, and affiliation with Rani Durgavati University, Jabalpur.",
+    "The official admissions catalogue lists only B. A. with six active branches; no diploma, certificate, postgraduate, or doctoral programme is listed for this campus.",
+    "Duration and eligibility are null because no institution-specific official page explicitly verifies them.",
+    "Normal TLS verification produced the managed proxy's exact self-signed certificate-chain error; the permitted insecure fallback was used for public official/search retrievals. The published college homepage timed out, so the institution homepage and direct programme pages could not be independently verified. Manual review is required."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "institution_id": "legacy-138",
+  "database_id": 138,
+  "name": "Indian Maritime University",
+  "website": "https://www.imu.edu.in",
+  "outcome": "classified",
+  "institution_type": "central_university",
+  "source_url": "https://www.imu.edu.in/imunew/legacy",
+  "confidence": "high",
+  "evidence": "The official IMU legacy page identifies Indian Maritime University as a Central University headquartered in Chennai, established in 2008 through an Act of Parliament.",
+  "notes": [
+    "Used curl --insecure after the expected official hostname returned a self-signed certificate-in-chain error during normal TLS verification."
+  ]
+}

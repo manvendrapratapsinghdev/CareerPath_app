@@ -1,0 +1,578 @@
+{
+  "institution_id": "acropolis-institute-of-technology-and-research",
+  "nirf_name": "Acropolis Institute Of Technology And Research",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/EngineeringRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "verified",
+  "district": "Indore",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://www.aitr.ac.in/",
+  "website_verification_status": "verified",
+  "description": "Acropolis Institute of Technology and Research (AITR) is a technical education institution in Indore, Madhya Pradesh. Its campus is at Bypass Road, Square, Manglaya Sadak, Indore, Madhya Pradesh 453771.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [
+    "api-platform.acropolis.in"
+  ],
+  "verification_sources": [
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/EngineeringRankingALL.html",
+      "supports": [
+        "Exact institution name, Indore city, and Madhya Pradesh state listing"
+      ]
+    },
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Exact institution name, Indore city, and Madhya Pradesh state listing"
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://www.aitr.ac.in/",
+      "supports": [
+        "Official institution identity and AITR homepage"
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "https://www.aitr.ac.in/contact",
+      "supports": [
+        "AITR campus address in Indore, Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "official_catalogue",
+      "url": "https://www.aitr.ac.in/academics",
+      "supports": [
+        "Official academics catalogue entry point"
+      ]
+    },
+    {
+      "type": "official_active_catalogue_api",
+      "url": "https://api-platform.acropolis.in/api/v1/departments?college=AITR&isActive=true&fields=name,slug,code,isActive,college,category",
+      "supports": [
+        "Current active AITR programme records and exact programme names"
+      ]
+    },
+    {
+      "type": "official_programme_page",
+      "url": "https://www.aitr.ac.in/academics/CE",
+      "supports": [
+        "Civil Engineering (CE) programme page"
+      ]
+    },
+    {
+      "type": "official_programme_page",
+      "url": "https://www.aitr.ac.in/academics/CSE-AIML",
+      "supports": [
+        "Computer Science & Engineering (Artificial Intelligence & Machine Learning) programme page"
+      ]
+    },
+    {
+      "type": "official_programme_page",
+      "url": "https://www.aitr.ac.in/academics/CSE-DS",
+      "supports": [
+        "Computer Science & Engineering (Data Science) programme page"
+      ]
+    },
+    {
+      "type": "official_programme_page",
+      "url": "https://www.aitr.ac.in/academics/CSE-CORE",
+      "supports": [
+        "Computer Science and Engineering - Core programme page"
+      ]
+    },
+    {
+      "type": "official_programme_page",
+      "url": "https://www.aitr.ac.in/academics/CSE",
+      "supports": [
+        "Computer Science and Engineering - Indian Language programme page"
+      ]
+    },
+    {
+      "type": "official_programme_page",
+      "url": "https://www.aitr.ac.in/academics/CSE-CY",
+      "supports": [
+        "Computer Science and Engineering-Cybersecurity (CSE-CY) programme page"
+      ]
+    },
+    {
+      "type": "official_programme_page",
+      "url": "https://www.aitr.ac.in/academics/CSIT",
+      "supports": [
+        "Computer Science and Information Technology(CSIT) programme page"
+      ]
+    },
+    {
+      "type": "official_programme_page",
+      "url": "https://www.aitr.ac.in/academics/EEACT",
+      "supports": [
+        "Electronics Engineering (Advanced Communication Technology) programme page"
+      ]
+    },
+    {
+      "type": "official_programme_page",
+      "url": "https://www.aitr.ac.in/academics/EEVLSI",
+      "supports": [
+        "Electronics Engineering (VLSI Design and Technology) programme page"
+      ]
+    },
+    {
+      "type": "official_programme_page",
+      "url": "https://www.aitr.ac.in/academics/ECE",
+      "supports": [
+        "Electronics and Communication Engineering (EC) programme page"
+      ]
+    },
+    {
+      "type": "official_programme_page",
+      "url": "https://www.aitr.ac.in/academics/IT",
+      "supports": [
+        "Information Technology (IT) programme page"
+      ]
+    },
+    {
+      "type": "official_programme_page",
+      "url": "https://www.aitr.ac.in/academics/MTECH-IOT",
+      "supports": [
+        "M.Tech - Internet of Things (IoT) programme page"
+      ]
+    },
+    {
+      "type": "official_programme_page",
+      "url": "https://www.aitr.ac.in/academics/MCA",
+      "supports": [
+        "Master of Computer Application programme page"
+      ]
+    },
+    {
+      "type": "official_programme_page",
+      "url": "https://www.aitr.ac.in/academics/MCA-DD",
+      "supports": [
+        "Master of Computer Application (Dual Degree) programme page"
+      ]
+    },
+    {
+      "type": "official_programme_page",
+      "url": "https://www.aitr.ac.in/academics/MAIDS",
+      "supports": [
+        "Masters of Artificial Intelligence and Data Science programme page"
+      ]
+    },
+    {
+      "type": "official_programme_page",
+      "url": "https://www.aitr.ac.in/academics/ME",
+      "supports": [
+        "Mechanical Engineering (ME) programme page"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "Acropolis Institute of Technology and Research Indore official website",
+      "result": "Bing discovery result identified https://www.aitr.ac.in; direct official-site fetch was used for verification.",
+      "url": "https://www.aitr.ac.in/"
+    },
+    {
+      "query": "\"Acropolis Institute Of Technology And Research\" official",
+      "result": "Bing discovery result identified the AITR official domain; direct official-site fetch was used for verification.",
+      "url": "https://www.aitr.ac.in/"
+    },
+    {
+      "query": "site:acropolis.in Acropolis Institute of Technology and Research courses",
+      "result": "Search used for discovery only; no search snippet was used as verification evidence.",
+      "url": null
+    }
+  ],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "acropolis-institute-of-technology-and-research-aitr-ce",
+      "name": "Civil Engineering (CE)",
+      "level": "undergraduate",
+      "credential": "engineering programme",
+      "specialization": "Civil Engineering",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.aitr.ac.in/academics/CE",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "acropolis-institute-of-technology-and-research-aitr-cse-aiml",
+      "name": "Computer Science & Engineering (Artificial Intelligence & Machine Learning)",
+      "level": "undergraduate",
+      "credential": "engineering programme",
+      "specialization": "Artificial Intelligence & Machine Learning",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.aitr.ac.in/academics/CSE-AIML",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 81,
+          "career_node_slug": "btech_ai",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > AI & Machine Learning",
+          "relation": "direct specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "acropolis-institute-of-technology-and-research-aitr-cse-ds",
+      "name": "Computer Science & Engineering (Data Science)",
+      "level": "undergraduate",
+      "credential": "engineering programme",
+      "specialization": "Data Science",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.aitr.ac.in/academics/CSE-DS",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 308,
+          "career_node_slug": "data_scientist",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science > Data Scientist",
+          "relation": "closest-specialization: Data Science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "acropolis-institute-of-technology-and-research-aitr-cse-core",
+      "name": "Computer Science and Engineering - Core",
+      "level": "undergraduate",
+      "credential": "engineering programme",
+      "specialization": null,
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.aitr.ac.in/academics/CSE-CORE",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "acropolis-institute-of-technology-and-research-aitr-cse",
+      "name": "Computer Science and Engineering - Indian Language",
+      "level": "undergraduate",
+      "credential": "engineering programme",
+      "specialization": "Indian Language",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.aitr.ac.in/academics/CSE",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "nearest-parent: Computer Science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "acropolis-institute-of-technology-and-research-aitr-cse-cy",
+      "name": "Computer Science and Engineering-Cybersecurity (CSE-CY)",
+      "level": "undergraduate",
+      "credential": "engineering programme",
+      "specialization": "Cybersecurity (CSE-CY)",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.aitr.ac.in/academics/CSE-CY",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 309,
+          "career_node_slug": "cybersecurity_analyst",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science > Cybersecurity Analyst",
+          "relation": "closest-specialization: Cybersecurity",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "acropolis-institute-of-technology-and-research-aitr-csit",
+      "name": "Computer Science and Information Technology(CSIT)",
+      "level": "undergraduate",
+      "credential": "engineering programme",
+      "specialization": "Computer Science and Information Technology",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.aitr.ac.in/academics/CSIT",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 89,
+          "career_node_slug": "btech_it",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Information Technology",
+          "relation": "nearest-parent: Information Technology",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "acropolis-institute-of-technology-and-research-aitr-eeact",
+      "name": "Electronics Engineering (Advanced Communication Technology)",
+      "level": "undergraduate",
+      "credential": "engineering programme",
+      "specialization": "Advanced Communication Technology",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.aitr.ac.in/academics/EEACT",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "closest-specialization: Electronics and Communication",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "acropolis-institute-of-technology-and-research-aitr-eevlsi",
+      "name": "Electronics Engineering (VLSI Design and Technology)",
+      "level": "undergraduate",
+      "credential": "engineering programme",
+      "specialization": "VLSI Design and Technology",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.aitr.ac.in/academics/EEVLSI",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 315,
+          "career_node_slug": "vlsi_engineer",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication > VLSI Design Engineer",
+          "relation": "direct specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "acropolis-institute-of-technology-and-research-aitr-ece",
+      "name": "Electronics and Communication Engineering (EC)",
+      "level": "undergraduate",
+      "credential": "engineering programme",
+      "specialization": "Electronics and Communication Engineering",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.aitr.ac.in/academics/ECE",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "acropolis-institute-of-technology-and-research-aitr-it",
+      "name": "Information Technology (IT)",
+      "level": "undergraduate",
+      "credential": "engineering programme",
+      "specialization": "Information Technology",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.aitr.ac.in/academics/IT",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 89,
+          "career_node_slug": "btech_it",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Information Technology",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "acropolis-institute-of-technology-and-research-aitr-mtech-iot",
+      "name": "M.Tech - Internet of Things (IoT)",
+      "level": "postgraduate",
+      "credential": "M.Tech",
+      "specialization": "Internet of Things (IoT)",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.aitr.ac.in/academics/MTECH-IOT",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 127,
+          "career_node_slug": "iot_specialist",
+          "career_breadcrumb": "Maths / PCM > B.Sc Electronics / Instrumentation > IoT Specialist",
+          "relation": "closest-specialization: IoT",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "acropolis-institute-of-technology-and-research-aitr-mca",
+      "name": "Master of Computer Application",
+      "level": "postgraduate",
+      "credential": "MCA",
+      "specialization": null,
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.aitr.ac.in/academics/MCA",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 93,
+          "career_node_slug": "mca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications) > MCA → Software Engineer",
+          "relation": "direct discipline: MCA",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "acropolis-institute-of-technology-and-research-aitr-mca-dd",
+      "name": "Master of Computer Application (Dual Degree)",
+      "level": "integrated",
+      "credential": "MCA (Dual Degree)",
+      "specialization": "Dual Degree",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.aitr.ac.in/academics/MCA-DD",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 93,
+          "career_node_slug": "mca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications) > MCA → Software Engineer",
+          "relation": "direct discipline: MCA dual-degree variant",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "acropolis-institute-of-technology-and-research-aitr-maids",
+      "name": "Masters of Artificial Intelligence and Data Science",
+      "level": "postgraduate",
+      "credential": "master's programme",
+      "specialization": "Artificial Intelligence and Data Science",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.aitr.ac.in/academics/MAIDS",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 81,
+          "career_node_slug": "btech_ai",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > AI & Machine Learning",
+          "relation": "closest-specialization: Artificial Intelligence",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 308,
+          "career_node_slug": "data_scientist",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science > Data Scientist",
+          "relation": "closest-specialization: Data Science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "acropolis-institute-of-technology-and-research-aitr-me",
+      "name": "Mechanical Engineering (ME)",
+      "level": "undergraduate",
+      "credential": "engineering programme",
+      "specialization": "Mechanical Engineering",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.aitr.ac.in/academics/ME",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "NIRF 2025 Engineering and Overall listings both contain the exact institution name with Indore, Madhya Pradesh.",
+    "The official homepage and contact page identify the AITR campus at Bypass Road, Square, Manglaya Sadak, Indore, Madhya Pradesh 453771.",
+    "Normal TLS failed with the managed proxy's exact self-signed-certificate-chain error; curl --insecure was used only for public GET requests after confirming the expected official hostnames.",
+    "The official AITR-filtered active catalogue API returns 16 current programme records, each with an official programme route. A static homepage counter says 17 courses offered but does not identify an additional programme; the current named active catalogue was used.",
+    "Official programme pages do not explicitly state duration or eligibility for these records, so those fields are left null. Generic admissions route probes resolve to the site's 404 fallback rather than a usable admissions catalogue."
+  ]
+}

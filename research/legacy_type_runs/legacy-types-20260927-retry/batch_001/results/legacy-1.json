@@ -1,0 +1,15 @@
+{
+  "institution_id": "legacy-1",
+  "database_id": 1,
+  "name": "IITs",
+  "website": "https://www.iitsystem.ac.in",
+  "outcome": "classified",
+  "institution_type": "iit",
+  "source_url": "https://www.iitsystem.ac.in/structure",
+  "confidence": "high",
+  "evidence": "The official Council of Indian Institute of Technology site states that the Institutes of Technology Act, 1961 declared the IITs to be “Institutes of National Importance” and that the Central Government provides grants to each IIT.",
+  "notes": [
+    "The official homepage identifies the organization as the Council of Indian Institute of Technology.",
+    "Normal TLS verification failed with a self-signed certificate in the proxy certificate chain; curl --insecure was used for public GET requests to the official hostname."
+  ]
+}

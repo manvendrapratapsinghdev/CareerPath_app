@@ -1,0 +1,55 @@
+{
+  "batch": 20,
+  "started_at": "2026-09-27T14:46:40.749833+00:00",
+  "finished_at": "2026-09-27T14:50:45.670448+00:00",
+  "assignment_count": 5,
+  "completed_count": 2,
+  "skipped_count": 3,
+  "failed_count": 0,
+  "results": [
+    {
+      "institution_id": "755-shri-p-n-sharma-degree-college-saidpur",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/755-shri-p-n-sharma-degree-college-saidpur.json",
+      "finished_at": "2026-09-27T14:46:40.761430+00:00"
+    },
+    {
+      "institution_id": "a-k-p-degree-college-khurja-bulandshahr",
+      "nirf_name": "A.K.P. Degree College, Khurja (Bulandshahr)",
+      "status": "completed",
+      "started_at": "2026-09-27T14:46:40.753054+00:00",
+      "finished_at": "2026-09-27T14:50:45.669305+00:00",
+      "duration_seconds": 244.913,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/a-k-p-degree-college-khurja-bulandshahr.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/logs/a-k-p-degree-college-khurja-bulandshahr.jsonl"
+    },
+    {
+      "institution_id": "a-p-sen-memorial-girls-degree-college",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/a-p-sen-memorial-girls-degree-college.json",
+      "finished_at": "2026-09-27T14:46:40.762943+00:00"
+    },
+    {
+      "institution_id": "ambalika-institute-of-management-and-technology",
+      "nirf_name": "Ambalika Institute of Management and Technology",
+      "status": "completed",
+      "started_at": "2026-09-27T14:46:40.762216+00:00",
+      "finished_at": "2026-09-27T14:50:42.891206+00:00",
+      "duration_seconds": 242.112,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/ambalika-institute-of-management-and-technology.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/logs/ambalika-institute-of-management-and-technology.jsonl"
+    },
+    {
+      "institution_id": "bhagwan-aadinath-college-of-education",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/bhagwan-aadinath-college-of-education.json",
+      "finished_at": "2026-09-27T14:46:40.762556+00:00"
+    }
+  ]
+}

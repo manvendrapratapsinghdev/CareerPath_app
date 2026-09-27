@@ -1,0 +1,62 @@
+{
+  "batch": 2,
+  "started_at": "2026-09-27T12:02:48.086506+00:00",
+  "finished_at": "2026-09-27T12:14:15.864439+00:00",
+  "assignment_count": 5,
+  "completed_count": 3,
+  "skipped_count": 2,
+  "failed_count": 0,
+  "results": [
+    {
+      "institution_id": "bareilly-international-university",
+      "nirf_name": "Bareilly International University",
+      "status": "completed",
+      "started_at": "2026-09-27T12:02:48.107845+00:00",
+      "finished_at": "2026-09-27T12:09:47.351999+00:00",
+      "duration_seconds": 419.181,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/bareilly-international-university.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/logs/bareilly-international-university.jsonl"
+    },
+    {
+      "institution_id": "gautam-buddha-university",
+      "nirf_name": "Gautam Buddha University",
+      "status": "completed",
+      "started_at": "2026-09-27T12:02:48.264727+00:00",
+      "finished_at": "2026-09-27T12:08:46.553801+00:00",
+      "duration_seconds": 358.143,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/gautam-buddha-university.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/logs/gautam-buddha-university.jsonl"
+    },
+    {
+      "institution_id": "mahatama-jyotiba-phule-rohikhand-university-bareilly",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/mahatama-jyotiba-phule-rohikhand-university-bareilly.json",
+      "finished_at": "2026-09-27T12:02:48.250306+00:00"
+    },
+    {
+      "institution_id": "shri-ramswaroop-memorial-university",
+      "nirf_name": "Shri Ramswaroop Memorial University",
+      "status": "completed",
+      "started_at": "2026-09-27T12:02:48.216178+00:00",
+      "finished_at": "2026-09-27T12:14:15.856018+00:00",
+      "duration_seconds": 687.591,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/shri-ramswaroop-memorial-university.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/logs/shri-ramswaroop-memorial-university.jsonl"
+    },
+    {
+      "institution_id": "uttar-pradesh-university-of-medical-sciences",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/uttar-pradesh-university-of-medical-sciences.json",
+      "finished_at": "2026-09-27T12:02:48.265910+00:00"
+    }
+  ]
+}

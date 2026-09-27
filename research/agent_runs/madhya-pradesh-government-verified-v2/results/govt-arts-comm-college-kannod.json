@@ -1,0 +1,436 @@
+{
+  "institution_id": "govt-arts-comm-college-kannod",
+  "nirf_name": "Govt. Arts & Comm. College, Kannod",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Dewas",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://highereducation.mp.gov.in/?orgid=138",
+  "website_verification_status": "verified",
+  "description": "Government college profile for Shaskiya Kala evam Vanijya Mahavidyalaya, Kannod, established in 1984, with regular undergraduate and postgraduate programmes.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Govt. Arts & Comm. College, Kannod",
+        "Kannod",
+        "Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://highereducation.mp.gov.in/?orgid=138",
+      "supports": [
+        "official college profile identity",
+        "Hindi institutional name"
+      ]
+    },
+    {
+      "type": "official_college_directory",
+      "url": "https://highereducation.mp.gov.in/CollegeDisp/getTable",
+      "supports": [
+        "college code 2004",
+        "Govt College, Kannod",
+        "District Dewas"
+      ]
+    },
+    {
+      "type": "official_at_a_glance",
+      "url": "https://highereducation.mp.gov.in/?page=b%2Fi7qNou6O3qhUeTX0hs1A%3D%3D&orgid=138",
+      "supports": [
+        "establishment year 1984",
+        "official institutional summary"
+      ]
+    },
+    {
+      "type": "official_regular_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=BWffYzwbS7g9dIxXmpLxxw%3D%3D&orgid=138",
+      "supports": [
+        "official PG, UG and diploma programme tables",
+        "exact programme names"
+      ]
+    },
+    {
+      "type": "official_distance_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=OVB9Wv096S%2BBG8oUR%2Bv5og%3D%3D&orgid=138",
+      "supports": [
+        "official distance-programme tables with no listed programmes"
+      ]
+    },
+    {
+      "type": "official_prospectus_page",
+      "url": "https://highereducation.mp.gov.in/?page=3cWGBfbs8DqA5cW41vIiUA%3D%3D&orgid=138",
+      "supports": [
+        "official prospectus route is under construction"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "Government Arts Commerce College Kannod Madhya Pradesh official website",
+      "result": "Search results returned non-official aggregator and social pages; no institution-owned official domain was established from the search results. The official Madhya Pradesh Higher Education college profile was identified separately.",
+      "url": "https://highereducation.mp.gov.in/?orgid=138"
+    },
+    {
+      "query": "site:mp.gov.in \"Government Arts and Commerce College\" Kannod",
+      "result": "No search results found in the search index; the authoritative Madhya Pradesh Higher Education directory was checked separately.",
+      "url": null
+    },
+    {
+      "query": "\"GACCK\" Kannod college website",
+      "result": "Search results returned aggregator and social pages, with no acceptable official institutional website.",
+      "url": null
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "govt-arts-comm-college-kannod-ma-hindi",
+      "name": "M. A. (Hindi)",
+      "level": "postgraduate",
+      "credential": "M.A.",
+      "specialization": "Hindi",
+      "duration": null,
+      "mode": "Regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=BWffYzwbS7g9dIxXmpLxxw%3D%3D&orgid=138",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "closest-specialization mapping for Hindi; no M.A. Hindi node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-arts-comm-college-kannod-ba-history-political-science-sociology",
+      "name": "B. A. (History - Political Science - Sociology)",
+      "level": "undergraduate",
+      "credential": "B.A.",
+      "specialization": "History - Political Science - Sociology",
+      "duration": null,
+      "mode": "Regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=BWffYzwbS7g9dIxXmpLxxw%3D%3D&orgid=138",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-arts-comm-college-kannod-ba-economics-hindi-political-science",
+      "name": "B. A. (Economics - Hindi - Political Science)",
+      "level": "undergraduate",
+      "credential": "B.A.",
+      "specialization": "Economics - Hindi - Political Science",
+      "duration": null,
+      "mode": "Regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=BWffYzwbS7g9dIxXmpLxxw%3D%3D&orgid=138",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-arts-comm-college-kannod-ba-economics-political-science-sociology",
+      "name": "B. A. (Economics - Political Science - Sociology)",
+      "level": "undergraduate",
+      "credential": "B.A.",
+      "specialization": "Economics - Political Science - Sociology",
+      "duration": null,
+      "mode": "Regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=BWffYzwbS7g9dIxXmpLxxw%3D%3D&orgid=138",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-arts-comm-college-kannod-ba-hindi-history-sociology",
+      "name": "B. A. (Hindi - History - Sociology)",
+      "level": "undergraduate",
+      "credential": "B.A.",
+      "specialization": "Hindi - History - Sociology",
+      "duration": null,
+      "mode": "Regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=BWffYzwbS7g9dIxXmpLxxw%3D%3D&orgid=138",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-arts-comm-college-kannod-ba-hindi-political-science-sociology",
+      "name": "B. A. (Hindi - Political Science - Sociology)",
+      "level": "undergraduate",
+      "credential": "B.A.",
+      "specialization": "Hindi - Political Science - Sociology",
+      "duration": null,
+      "mode": "Regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=BWffYzwbS7g9dIxXmpLxxw%3D%3D&orgid=138",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-arts-comm-college-kannod-bcom-commerce",
+      "name": "B. Com (Commerce)",
+      "level": "undergraduate",
+      "credential": "B.Com",
+      "specialization": "Commerce",
+      "duration": null,
+      "mode": "Regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=BWffYzwbS7g9dIxXmpLxxw%3D%3D&orgid=138",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-arts-comm-college-kannod-bcom-commerce-computer-application",
+      "name": "B. Com (Commerce with Computer Application)",
+      "level": "undergraduate",
+      "credential": "B.Com",
+      "specialization": "Commerce with Computer Application",
+      "duration": null,
+      "mode": "Regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=BWffYzwbS7g9dIxXmpLxxw%3D%3D&orgid=138",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "closest-specialization mapping; degree remains B.Com and no exact B.Com with Computer Application node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-arts-comm-college-kannod-bsc-botany-chemistry-zoology",
+      "name": "B. Sc. (Botany - Chemistry - Zoology)",
+      "level": "undergraduate",
+      "credential": "B.Sc.",
+      "specialization": "Botany - Chemistry - Zoology",
+      "duration": null,
+      "mode": "Regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=BWffYzwbS7g9dIxXmpLxxw%3D%3D&orgid=138",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "component discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest combined biology mapping for Botany and Zoology; separate nodes are unavailable",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-arts-comm-college-kannod-bsc-chemistry-mathematics-physics",
+      "name": "B. Sc. (Chemistry - Mathematics - Physics)",
+      "level": "undergraduate",
+      "credential": "B.Sc.",
+      "specialization": "Chemistry - Mathematics - Physics",
+      "duration": null,
+      "mode": "Regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=BWffYzwbS7g9dIxXmpLxxw%3D%3D&orgid=138",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "component discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "component discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 24,
+          "career_node_slug": "bsc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics",
+          "relation": "component discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The supplied NIRF 2025 College Ranking page contains the exact institution row for Kannod, Madhya Pradesh.",
+    "The official Madhya Pradesh Higher Education CMS profile at orgid=138 identifies the college in Hindi; its official directory data maps orgid 138 and college code 2004 to Dewas district.",
+    "The official Regular Courses page lists the programme names above. The Distance Education tables contain no programme rows, while the Prospectus and How to Reach pages are under construction; therefore the official catalogue is treated as partial and the record requires manual review.",
+    "Duration and eligibility are null because the official regular-course table leaves those fields blank.",
+    "The regular catalogue repeats B. A. (History - Political Science - Sociology) twice; one unique course record is returned for the duplicate programme name.",
+    "Normal TLS validation failed with the managed proxy self-signed certificate-chain error; curl --insecure was used only for public GET requests to expected official/search domains."
+  ]
+}

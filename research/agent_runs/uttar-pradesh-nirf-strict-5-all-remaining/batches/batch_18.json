@@ -1,0 +1,71 @@
+{
+  "batch": 18,
+  "started_at": "2026-09-27T14:28:56.308686+00:00",
+  "finished_at": "2026-09-27T14:38:23.095008+00:00",
+  "assignment_count": 5,
+  "completed_count": 3,
+  "skipped_count": 1,
+  "failed_count": 1,
+  "results": [
+    {
+      "institution_id": "bundelkhand-institute-of-engineering-technology",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/bundelkhand-institute-of-engineering-technology.json",
+      "finished_at": "2026-09-27T14:28:56.325227+00:00"
+    },
+    {
+      "institution_id": "government-girls-degree-college-kandhala-prabudh-nagar-mob-no-9897933840",
+      "nirf_name": "Government Girls Degree College, Kandhala (Prabudh Nagar) Mob.\r\n                                                No.9897933840",
+      "status": "failed",
+      "started_at": "2026-09-27T14:28:56.320181+00:00",
+      "finished_at": "2026-09-27T14:33:29.896634+00:00",
+      "duration_seconds": 273.568,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [
+        "verification source is outside official domains: https://uphed.gov.in/FrmCollegeDetail.aspx?value=Degree"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/logs/government-girls-degree-college-kandhala-prabudh-nagar-mob-no-9897933840.jsonl"
+    },
+    {
+      "institution_id": "govt-p-g-college",
+      "nirf_name": "Govt. P G College",
+      "status": "completed",
+      "started_at": "2026-09-27T14:28:56.313707+00:00",
+      "finished_at": "2026-09-27T14:34:41.289126+00:00",
+      "duration_seconds": 344.969,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/govt-p-g-college.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/logs/govt-p-g-college.jsonl"
+    },
+    {
+      "institution_id": "greater-noida-institute-of-technology-engineering-institute",
+      "nirf_name": "Greater Noida Institute of Technology (Engineering Institute)",
+      "status": "completed",
+      "started_at": "2026-09-27T14:28:56.311950+00:00",
+      "finished_at": "2026-09-27T14:38:23.092052+00:00",
+      "duration_seconds": 566.769,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/greater-noida-institute-of-technology-engineering-institute.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/logs/greater-noida-institute-of-technology-engineering-institute.jsonl"
+    },
+    {
+      "institution_id": "greater-noida-institute-of-technology-mba-institute",
+      "nirf_name": "Greater Noida Institute of Technology-MBA Institute",
+      "status": "completed",
+      "started_at": "2026-09-27T14:28:56.312586+00:00",
+      "finished_at": "2026-09-27T14:36:17.419095+00:00",
+      "duration_seconds": 441.101,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/greater-noida-institute-of-technology-mba-institute.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/logs/greater-noida-institute-of-technology-mba-institute.jsonl"
+    }
+  ]
+}

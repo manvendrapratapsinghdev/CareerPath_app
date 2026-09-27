@@ -1,0 +1,505 @@
+{
+  "institution_id": "ch-balluram-godara-government-girls-college",
+  "nirf_name": "Ch. Balluram Godara Government Girls College",
+  "verification_outcome": "verified",
+  "district": "Sri Ganganagar",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://dceapp.rajasthan.gov.in/",
+  "website_verification_status": "verified",
+  "description": "Government girls college in Sri Ganganagar, Rajasthan, offering undergraduate and postgraduate programmes.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [
+    "hte.rajasthan.gov.in"
+  ],
+  "verification_sources": [
+    {
+      "type": "official_homepage",
+      "url": "https://dceapp.rajasthan.gov.in/",
+      "supports": [
+        "Department of College Education official admissions homepage",
+        "Current UG and PG catalogue links"
+      ]
+    },
+    {
+      "type": "official_department_page",
+      "url": "https://hte.rajasthan.gov.in/HTE/30981",
+      "supports": [
+        "Official Rajasthan Department of College Education page",
+        "Linkage to the official DCE admissions portal"
+      ]
+    },
+    {
+      "type": "official_ug_catalogue",
+      "url": "https://dceapp.rajasthan.gov.in/document/1539552499File01_05_2026_02_01_062026_UGCourses.pdf",
+      "supports": [
+        "Exact Sri Ganganagar campus identity",
+        "District",
+        "Four active undergraduate programmes"
+      ]
+    },
+    {
+      "type": "official_pg_catalogue",
+      "url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "supports": [
+        "Exact Sri Ganganagar campus identity",
+        "District",
+        "Fifteen active postgraduate programmes"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "Ch. Balluram Godara Government Girls College Sri Ganganagar official website",
+      "result": "Google, Bing, and DuckDuckGo discovery was attempted. Search responses were unusable or unrelated, so the official Rajasthan HTE/DCE domains were validated directly.",
+      "url": null
+    },
+    {
+      "query": "\"Ch. Balluram Godara Government Girls College\" \"Sri Ganganagar\"",
+      "result": "Google and Bing discovery was attempted; no usable direct college-domain result was returned. The official DCE catalogues independently established the exact institution and campus city.",
+      "url": null
+    },
+    {
+      "query": "site:hte.rajasthan.gov.in \"Government Girls College\" \"Sri Ganganagar\"",
+      "result": "Bing discovery was attempted; results were unrelated. The official HTE/DCE pages were then validated directly.",
+      "url": null
+    }
+  ],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "ch-balluram-godara-government-girls-college-ug-ba",
+      "name": "B.A.",
+      "level": "Undergraduate",
+      "credential": "Bachelor of Arts",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/document/1539552499File01_05_2026_02_01_062026_UGCourses.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "ch-balluram-godara-government-girls-college-ug-bcom",
+      "name": "B.Com",
+      "level": "Undergraduate",
+      "credential": "Bachelor of Commerce",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/document/1539552499File01_05_2026_02_01_062026_UGCourses.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "ch-balluram-godara-government-girls-college-ug-bsc-biology",
+      "name": "B.Sc. (Biology)",
+      "level": "Undergraduate",
+      "credential": "Bachelor of Science",
+      "specialization": "Biology",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/document/1539552499File01_05_2026_02_01_062026_UGCourses.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "ch-balluram-godara-government-girls-college-ug-bsc-maths",
+      "name": "B.Sc. (Maths)",
+      "level": "Undergraduate",
+      "credential": "Bachelor of Science",
+      "specialization": "Maths",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/document/1539552499File01_05_2026_02_01_062026_UGCourses.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "ch-balluram-godara-government-girls-college-pg-ma-economics-sfs",
+      "name": "M.A.(Economics)SFS",
+      "level": "Postgraduate",
+      "credential": "Master of Arts",
+      "specialization": "Economics",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "ch-balluram-godara-government-girls-college-pg-ma-english",
+      "name": "M.A.(English)",
+      "level": "Postgraduate",
+      "credential": "Master of Arts",
+      "specialization": "English",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "direct_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "ch-balluram-godara-government-girls-college-pg-ma-geography-sfs",
+      "name": "M.A.(Geography)SFS",
+      "level": "Postgraduate",
+      "credential": "Master of Arts",
+      "specialization": "Geography",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "ch-balluram-godara-government-girls-college-pg-ma-hindi",
+      "name": "M.A.(Hindi)",
+      "level": "Postgraduate",
+      "credential": "Master of Arts",
+      "specialization": "Hindi",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "ch-balluram-godara-government-girls-college-pg-ma-history-sfs",
+      "name": "M.A.(History)SFS",
+      "level": "Postgraduate",
+      "credential": "Master of Arts",
+      "specialization": "History",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "ch-balluram-godara-government-girls-college-pg-ma-home-science-sfs",
+      "name": "M.A.(Home Science)SFS",
+      "level": "Postgraduate",
+      "credential": "Master of Arts",
+      "specialization": "Home Science",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "No responsible Home Science node exists in the local career tree."
+    },
+    {
+      "course_id": "ch-balluram-godara-government-girls-college-pg-ma-music-vocal-sfs",
+      "name": "M.A.(Music)(Vocal)SFS",
+      "level": "Postgraduate",
+      "credential": "Master of Arts",
+      "specialization": "Music (Vocal)",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 75,
+          "career_node_slug": "music_course",
+          "career_breadcrumb": "Performing Arts & Sports > Music (BA / Diploma)",
+          "relation": "direct_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "ch-balluram-godara-government-girls-college-pg-ma-political-science",
+      "name": "M.A.(Political Science)",
+      "level": "Postgraduate",
+      "credential": "Master of Arts",
+      "specialization": "Political Science",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "ch-balluram-godara-government-girls-college-pg-ma-sanskrit-sfs",
+      "name": "M.A.(Sanskrit)SFS",
+      "level": "Postgraduate",
+      "credential": "Master of Arts",
+      "specialization": "Sanskrit",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "ch-balluram-godara-government-girls-college-pg-ma-sociology",
+      "name": "M.A.(Sociology)",
+      "level": "Postgraduate",
+      "credential": "Master of Arts",
+      "specialization": "Sociology",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "ch-balluram-godara-government-girls-college-pg-mcom-abst-sfs",
+      "name": "M.Com.(A.B.S.T)SFS",
+      "level": "Postgraduate",
+      "credential": "Master of Commerce",
+      "specialization": "A.B.S.T",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 340,
+          "career_node_slug": "commerce_accounting",
+          "career_breadcrumb": "Accounting & Audit",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "ch-balluram-godara-government-girls-college-pg-msc-botany-sfs",
+      "name": "M.Sc.(Botany)SFS",
+      "level": "Postgraduate",
+      "credential": "Master of Science",
+      "specialization": "Botany",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "ch-balluram-godara-government-girls-college-pg-msc-chemistry-sfs",
+      "name": "M.Sc.(Chemistry)SFS",
+      "level": "Postgraduate",
+      "credential": "Master of Science",
+      "specialization": "Chemistry",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "direct_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "ch-balluram-godara-government-girls-college-pg-msc-mathematics-sfs",
+      "name": "M.Sc.(Mathematics)SFS",
+      "level": "Postgraduate",
+      "credential": "Master of Science",
+      "specialization": "Mathematics",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "ch-balluram-godara-government-girls-college-pg-msc-zoology",
+      "name": "M.Sc.(Zoology)",
+      "level": "Postgraduate",
+      "credential": "Master of Science",
+      "specialization": "Zoology",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The current official DCE admissions homepage links the 2026-27 UG catalogue PDF and the PG college/course listing; those lists contain four UG and fifteen PG rows for the exact Sri Ganganagar campus.",
+    "The official PG catalogue exposed no separate diploma, certificate, or doctoral programme for this campus.",
+    "Normal TLS first returned the exact managed proxy error: self signed certificate in certificate chain. --insecure was then used only for public GETs to expected official/search hostnames.",
+    "The legacy HTE path https://hte.rajasthan.gov.in/college/gcsgnr returned an official-server 500 error, so the verified official Rajasthan DCE admissions portal is used as the institution's official website evidence."
+  ]
+}

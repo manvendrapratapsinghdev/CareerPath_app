@@ -1,0 +1,2371 @@
+{
+  "institution_id": "renaissance-university-indore",
+  "nirf_name": "RENAISSANCE UNIVERSITY INDORE",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html"
+  ],
+  "verification_outcome": "verified",
+  "district": "Indore",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://renaissance.ac.in/",
+  "website_verification_status": "verified",
+  "description": "Renaissance University is a university campus at Khandwa Road, Village Bhojpur, Indore, Madhya Pradesh, offering programmes across management, commerce, engineering, law, science, agriculture, health, design, journalism, library science, performing arts, vocational studies, and doctoral research.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [
+    "api.renaissance.ac.in"
+  ],
+  "verification_sources": [
+    {
+      "type": "government_directory_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html",
+      "supports": [
+        "assigned institution name",
+        "Indore",
+        "Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://renaissance.ac.in/",
+      "supports": [
+        "Renaissance University identity",
+        "campus address",
+        "Indore",
+        "Madhya Pradesh",
+        "institution description"
+      ]
+    },
+    {
+      "type": "official_campus_identity_page",
+      "url": "https://renaissance.ac.in/contact-us/",
+      "supports": [
+        "official campus/contact identity"
+      ]
+    },
+    {
+      "type": "official_catalogue_index",
+      "url": "https://renaissance.ac.in/sitemap.xml",
+      "supports": [
+        "official catalogue routes",
+        "school/programme catalogue coverage"
+      ]
+    },
+    {
+      "type": "official_catalogue_api",
+      "url": "https://api.renaissance.ac.in/api/school-programs/public/get-all-basic-school-program?pageNumber=0&pageSize=150",
+      "supports": [
+        "15 active school/programme groups",
+        "course counts"
+      ]
+    },
+    {
+      "type": "official_school_catalogue_api",
+      "url": "https://api.renaissance.ac.in/api/courses/public/get-courses-by-program-id?id=b404c17f-1279-4d60-9bc2-ae58b95a3d8d",
+      "supports": [
+        "School of Management",
+        "6 course names"
+      ]
+    },
+    {
+      "type": "official_school_catalogue_api",
+      "url": "https://api.renaissance.ac.in/api/courses/public/get-courses-by-program-id?id=d903580e-2b15-4bcf-90fc-10b3b52ab8c0",
+      "supports": [
+        "School of Commerce",
+        "2 course names"
+      ]
+    },
+    {
+      "type": "official_school_catalogue_api",
+      "url": "https://api.renaissance.ac.in/api/courses/public/get-courses-by-program-id?id=7ee2c292-b256-4f84-9a7c-f2f8ad096836",
+      "supports": [
+        "School of Engineering & Technology",
+        "6 course names"
+      ]
+    },
+    {
+      "type": "official_school_catalogue_api",
+      "url": "https://api.renaissance.ac.in/api/courses/public/get-courses-by-program-id?id=3bf9f13c-9a59-4940-9452-9218fde37f13",
+      "supports": [
+        "School of Law",
+        "5 course names"
+      ]
+    },
+    {
+      "type": "official_school_catalogue_api",
+      "url": "https://api.renaissance.ac.in/api/courses/public/get-courses-by-program-id?id=bd6006e3-2c72-4ffb-9ba5-fff2043f5685",
+      "supports": [
+        "School of Social Science",
+        "11 course names"
+      ]
+    },
+    {
+      "type": "official_school_catalogue_api",
+      "url": "https://api.renaissance.ac.in/api/courses/public/get-courses-by-program-id?id=d1286cb7-5cb8-4d9c-ac76-ca483bdba476",
+      "supports": [
+        "School of Agricultural Science",
+        "4 course names"
+      ]
+    },
+    {
+      "type": "official_school_catalogue_api",
+      "url": "https://api.renaissance.ac.in/api/courses/public/get-courses-by-program-id?id=20ada0f8-dbc4-433c-a2ea-8d22d0f08878",
+      "supports": [
+        "School of Fashion Technology & Design",
+        "4 course names"
+      ]
+    },
+    {
+      "type": "official_school_catalogue_api",
+      "url": "https://api.renaissance.ac.in/api/courses/public/get-courses-by-program-id?id=9e553f03-9a5d-431f-a139-29254e96c202",
+      "supports": [
+        "School of Nursing & Paramedical Science",
+        "5 course names"
+      ]
+    },
+    {
+      "type": "official_school_catalogue_api",
+      "url": "https://api.renaissance.ac.in/api/courses/public/get-courses-by-program-id?id=2ffa6c34-cdc7-4df0-8590-95691dfdba1e",
+      "supports": [
+        "School of Science",
+        "14 course names"
+      ]
+    },
+    {
+      "type": "official_school_catalogue_api",
+      "url": "https://api.renaissance.ac.in/api/courses/public/get-courses-by-program-id?id=10b0aaa1-042b-4007-919f-86b05f685f9d",
+      "supports": [
+        "School of Journalism & Mass Communication",
+        "3 course names"
+      ]
+    },
+    {
+      "type": "official_school_catalogue_api",
+      "url": "https://api.renaissance.ac.in/api/courses/public/get-courses-by-program-id?id=e8ec38fc-f53c-42a9-bb04-f3e9e08f87b5",
+      "supports": [
+        "School of Library Science",
+        "2 course names"
+      ]
+    },
+    {
+      "type": "official_school_catalogue_api",
+      "url": "https://api.renaissance.ac.in/api/courses/public/get-courses-by-program-id?id=021240fc-a5f6-4ef0-9f00-2ce632c71543",
+      "supports": [
+        "School of Performing Arts",
+        "6 course names"
+      ]
+    },
+    {
+      "type": "official_school_catalogue_api",
+      "url": "https://api.renaissance.ac.in/api/courses/public/get-courses-by-program-id?id=af956644-92c3-47df-b4ca-676321fcfb04",
+      "supports": [
+        "School of Vocational Studies",
+        "15 course names"
+      ]
+    },
+    {
+      "type": "official_school_catalogue_api",
+      "url": "https://api.renaissance.ac.in/api/courses/public/get-courses-by-program-id?id=28e8363e-e5fb-4662-af42-4e2b9cc096cb",
+      "supports": [
+        "Research Wing",
+        "10 course names"
+      ]
+    },
+    {
+      "type": "official_school_catalogue_api",
+      "url": "https://api.renaissance.ac.in/api/courses/public/get-courses-by-program-id?id=e5689b7b-d721-418f-80ba-ceb083984131",
+      "supports": [
+        "School of Pharmaceutical Science",
+        "2 course names"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "Renaissance University Indore official website",
+      "result": "Bing initially returned unrelated Renaissance results; this was discovery only and was not used as institutional evidence.",
+      "url": "https://www.bing.com/search?q=Renaissance+University+Indore+official+website"
+    },
+    {
+      "query": "site:edu.in \"Renaissance University\" Indore",
+      "result": "Bing returned the official Renaissance University homepage at https://renaissance.ac.in/ as the first institution-specific result; excluded aggregator results were not used as evidence.",
+      "url": "https://www.bing.com/search?q=site%3Aedu.in+%22Renaissance+University%22+Indore"
+    }
+  ],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "renaissance-university-indore-47a812cf-f4be-48a1-8031-1813e6bf7bc1",
+      "name": "Advanced Diploma in Vocal Music",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": null,
+      "duration": "1 Years",
+      "mode": "Diploma",
+      "eligibility": "Minimum Education Required: Basic schooling and interest in",
+      "official_course_url": "https://renaissance.ac.in/courses/advanced-diploma-in-vocal-music/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 75,
+          "career_node_slug": "music_course",
+          "career_breadcrumb": "Performing Arts & Sports > Music (BA / Diploma)",
+          "relation": "direct discipline: music",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-23c2cc2d-16a2-4b67-a973-60c212a07ee8",
+      "name": "B.Design (International Exposure)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "4 Years",
+      "mode": "Full-Time",
+      "eligibility": "45%- OBC/ST/SC, 50%- General: Minimum marks as per category requirements; 12th Any Stream: 12th grade from any stream (Science/Commerce/Arts)",
+      "official_course_url": "https://renaissance.ac.in/courses/b-design-in-fashion-technology-and-accessory-design/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 230,
+          "career_node_slug": "fashion_design",
+          "career_breadcrumb": "Design & Architecture > B.Des (Design) > Fashion Designer",
+          "relation": "closest-specialization: fashion design",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-2284f391-1a82-4643-9e80-dc036bf367d0",
+      "name": "B.Design (Metro City Exposure)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "4 Years",
+      "mode": "Full-Time",
+      "eligibility": "12th Any Stream: 12th grade from any stream (Science/Commerce/Arts); 45%- OBC/ST/SC, 50%- General: Minimum marks as per category requirements",
+      "official_course_url": "https://renaissance.ac.in/courses/b-design-metro-city-exposure/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 55,
+          "career_node_slug": "bdes",
+          "career_breadcrumb": "Design & Architecture > B.Des (Design)",
+          "relation": "direct discipline: design",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-05a9077a-1bd5-4e36-b015-4fdfc4d2e662",
+      "name": "B.Lib",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "1 Years",
+      "mode": "Full-Time",
+      "eligibility": "Minimun Score: 45%- OBC/ST/SC, 50%- General; Academic Background: Applicants must have successfully completed 10+2 / Higher Secondary education or an equivalent qualification from a recognized board or institution.",
+      "official_course_url": "https://renaissance.ac.in/courses/b-lib/",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "Career tree has no library-science node."
+    },
+    {
+      "course_id": "renaissance-university-indore-1af863f5-da62-4994-b47e-3f60a5ebad85",
+      "name": "Bachelor of Pharmacy (B.Pharma)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "4 Years",
+      "mode": "Full Time",
+      "eligibility": "PCM / PCB: The candidate must have completed their 10+2 schooling with PCM or PCB.; Minimum 45%: Minimum 45% aggregate marks (as per applicable norms)",
+      "official_course_url": "https://renaissance.ac.in/courses/b-pharmacy/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "direct discipline: pharmacy",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-2202c5f7-5273-47ca-a991-3c01314260a7",
+      "name": "B.Sc Computer Science",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "Full-Time",
+      "eligibility": "45%- OBC/ST/SC, 50%- General: Minimum marks as per category.; PCM: Physics, Chemistry and Mathematics required.",
+      "official_course_url": "https://renaissance.ac.in/courses/b-sc-computer-science/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 32,
+          "career_node_slug": "bsc_cs",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Computer Science",
+          "relation": "direct discipline: computer science",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-4150f69a-2551-4a05-9de6-4604e5c97d56",
+      "name": "B.Sc Physics",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "Full-Time",
+      "eligibility": "Minimum Score: 45%- OBC/ST/SC, 50%- General; Academic Background: Candidates must have passed 10+2 with PCM, or PCMB from a recognized board.",
+      "official_course_url": "https://renaissance.ac.in/courses/b-sc-physics/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 24,
+          "career_node_slug": "bsc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics",
+          "relation": "direct discipline: physics",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-2beebfd0-17b4-4dd9-bbb1-e7d237ec9bb3",
+      "name": "B.Voc in Civil & Architectural Engineering",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "Full-Time",
+      "eligibility": "45%- OBC/ST/SC, 50%- General: Minimum required marks according to category norms.; 12th Any Stream: Applicants must have completed 12th from any stream.",
+      "official_course_url": "https://renaissance.ac.in/courses/b-voc-civil-architectural-engineering/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "closest-specialization: civil and architectural engineering",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-71d22637-cf90-4594-ac07-c2ff1b959e31",
+      "name": "B.Voc in Computing and Information Technology Engineering",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "Full-Time",
+      "eligibility": "45%- OBC/ST/SC, 50%- General: Minimum percentage required based on category.; 12th Any Stream: Students from any stream may apply.",
+      "official_course_url": "https://renaissance.ac.in/courses/b-voc-in-computing-information-technology-engineering/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 89,
+          "career_node_slug": "btech_it",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Information Technology",
+          "relation": "closest-specialization: computing and information technology",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-83400f88-363c-48f7-837d-039dedc2f2e0",
+      "name": "B.Voc in Electrical and Electronics Engineering",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "Full-Time",
+      "eligibility": "12th Any Stream: Applicants must have passed 12th from any stream.; 45%- OBC/ST/SC, 50%- General: Minimum required marks as per category.",
+      "official_course_url": "https://renaissance.ac.in/courses/b-voc-in-electrical-electronics-engineering/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "closest-specialization: electrical and electronics engineering",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-3cf007f6-186a-41b0-a16f-9f8da1b25ef6",
+      "name": "B.Voc in Electronics and Communication Engineering",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "Full-Time",
+      "eligibility": "12th Any Stream: Open to students from any academic stream.; 45%- OBC/ST/SC, 50%- General: Required minimum marks based on category.",
+      "official_course_url": "https://renaissance.ac.in/courses/b-voc-in-electronics-communication-engineering/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "closest-specialization: electronics and communication engineering",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-f455760d-91d3-4034-85ec-4e5b48d00e9b",
+      "name": "B.Voc in fire & safety",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "Full-Time",
+      "eligibility": "45%- OBC/ST/SC, 50%- General: Minimum percentage criteria.; 12th any stream: Basic academic qualification.",
+      "official_course_url": "https://renaissance.ac.in/courses/b-voc-in-fire-safety/",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "Career tree has no fire-and-safety discipline node."
+    },
+    {
+      "course_id": "renaissance-university-indore-c7e1747a-8247-49cf-8250-f2de62748cd5",
+      "name": "B.Voc in Mechanical Fitter Engineering",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "Full-Time",
+      "eligibility": "45%- OBC/ST/SC, 50%- General: Category-based minimum required percentage.; 12th Any Stream: Students from any stream can apply.",
+      "official_course_url": "https://renaissance.ac.in/courses/b-voc-in-mechanical-fitter-engineering/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "closest-specialization: mechanical engineering",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-85ddfe91-ea3b-4168-aadb-80a2421fa9b6",
+      "name": "B.Voc in Mechatronics Engineering",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "Full-Time",
+      "eligibility": "45%- OBC/ST/SC, 50%- General: Minimum marks as per category criteria.; 12th Any Stream: Students from any stream with an interest in engineering can apply.",
+      "official_course_url": "https://renaissance.ac.in/courses/b-voc-in-mechatronics-engineering/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 319,
+          "career_node_slug": "robotics_engineer",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering > Robotics Engineer",
+          "relation": "closest-specialization: mechatronics and robotics",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-4fab6145-f4e4-46c9-922f-6b3c21399fbe",
+      "name": "B.Voc in Panchkarma and Ayurveda",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "Full-Time",
+      "eligibility": "45%- OBC/ST/SC, 50%- General: Minimum marks as per category norms.; 12th Any Stream: Students from any academic background are eligible.",
+      "official_course_url": "https://renaissance.ac.in/courses/b-voc-in-panchakarma-ayurveda/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 17,
+          "career_node_slug": "bams",
+          "career_breadcrumb": "Biology / PCB > BAMS (Ayurveda)",
+          "relation": "closest-specialization: Ayurveda",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-ac31bb5b-dab4-46ca-8c90-df231f97a64e",
+      "name": "B.Voc in sports",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "Fulltime",
+      "eligibility": "45%- OBC/ST/SC, 50%- General: Minimum required percentage.; 12th any stream: Basic academic requirement.",
+      "official_course_url": "https://renaissance.ac.in/courses/b-voc-in-sports/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 78,
+          "career_node_slug": "sports_career",
+          "career_breadcrumb": "Performing Arts & Sports > Sports & Physical Education",
+          "relation": "nearest-parent: Sports & Physical Education",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-8cf5c8b1-caec-4618-9d07-faabd724adce",
+      "name": "B.Voc in Interior Designing",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "Fulltime",
+      "eligibility": "45%- OBC/ST/SC, 50%- General: Minimum percentage required.; 12th any stream: Minimum academic qualification.",
+      "official_course_url": "https://renaissance.ac.in/courses/b-voc-interior-designing/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 233,
+          "career_node_slug": "interior_design",
+          "career_breadcrumb": "Design & Architecture > B.Arch (Architecture) > Interior Designer",
+          "relation": "closest-specialization: interior design",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-e7582d59-a1ff-4339-bce4-a45d82a3e65d",
+      "name": "BA in Mass Communication",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "Full-Time",
+      "eligibility": "Any Graduate: Open for candidates from any academic background.; 45%- OBC/ST/SC, 50%- General: Minimum marks as per category requirements.",
+      "official_course_url": "https://renaissance.ac.in/courses/ba-honors-in-mass-communication/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 59,
+          "career_node_slug": "bjmc",
+          "career_breadcrumb": "Media & Journalism > B.J.M.C (Journalism & Mass Comm)",
+          "relation": "closest-specialization: journalism and mass communication",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-317bd90f-6183-4df3-b620-e4da8f81f86c",
+      "name": "BA in Public Administration",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "Full-Time",
+      "eligibility": "12th Any Stream: Students from any academic stream can apply.; 45%- OBC/ST/SC, 50%- General: Minimum qualifying marks required.",
+      "official_course_url": "https://renaissance.ac.in/courses/ba-in-applied-economics/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 283,
+          "career_node_slug": "public_admin",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science > Public Administration Officer",
+          "relation": "closest-specialization: public administration",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-146e44ee-2b95-4256-81c9-fdaf6ecac872",
+      "name": "BA in Psychology",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "Full-Time",
+      "eligibility": "45%- OBC/ST/SC, 50%- General: Minimum percentage required as per category.; 12th Any Stream: Students from all academic streams may apply.",
+      "official_course_url": "https://renaissance.ac.in/courses/ba-in-psychology/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 66,
+          "career_node_slug": "ba_psychology",
+          "career_breadcrumb": "Social Sciences & Education > BA Psychology",
+          "relation": "direct discipline: psychology",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-05e574a1-a5bf-45d7-a2ea-112fe5d57b50",
+      "name": "BA in Public Administration with UPSC & MPPSC Coaching",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "Full-Time",
+      "eligibility": "45%- OBC/ST/SC, 50%- General: Minimum percentage required as per category norms.; 12th Any Stream: 12th pass from any stream is required.",
+      "official_course_url": "https://renaissance.ac.in/courses/ba-public-administration/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 283,
+          "career_node_slug": "public_admin",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science > Public Administration Officer",
+          "relation": "direct discipline: public administration",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-35967ee9-a127-4d61-9294-8ab84c5ffc69",
+      "name": "Bachelor in Music",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "Full-Time",
+      "eligibility": "12th Any Stream: Students from any academic background may apply.; 45%- OBC/ST/SC, 50%- General: Minimum qualifying marks as per category.",
+      "official_course_url": "https://renaissance.ac.in/courses/bachelor-in-music-b-music/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 75,
+          "career_node_slug": "music_course",
+          "career_breadcrumb": "Performing Arts & Sports > Music (BA / Diploma)",
+          "relation": "direct discipline: music",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-2f59a64a-4400-4f9d-861e-c114aafa0b69",
+      "name": "Bachelor in Music - International",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "Full Time",
+      "eligibility": "12th Any Stream: Students from any academic background may apply.; 45%- OBC/ST/SC, 50%- General: Minimum qualifying marks as per category.",
+      "official_course_url": "https://renaissance.ac.in/courses/bachelor-in-music-international/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 75,
+          "career_node_slug": "music_course",
+          "career_breadcrumb": "Performing Arts & Sports > Music (BA / Diploma)",
+          "relation": "direct discipline: music",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-54015d7c-7163-4a1f-98d3-2083cc7dc0fe",
+      "name": "Bachelors in Fine Art (Applied Arts)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "4 Years",
+      "mode": "Full-Time",
+      "eligibility": "12th Any Stream: Students from any academic background may apply.; 45%- OBC/ST/SC, 50%- General: Minimum required marks according to category.",
+      "official_course_url": "https://renaissance.ac.in/courses/bachelors-fine-art-painting/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 60,
+          "career_node_slug": "bfa",
+          "career_breadcrumb": "Media & Journalism > B.F.A (Fine Arts)",
+          "relation": "direct discipline: fine arts",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-635619ce-1f9a-42e7-9eeb-addf04bc6139",
+      "name": "Bachelors in Fine Arts (Painting)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "4 Years",
+      "mode": "Full-Time",
+      "eligibility": "45%- OBC/ST/SC, 50%- General: Minimum required marks as per category.; 12th Any Stream: Candidates must have passed 12th from any recognized board.",
+      "official_course_url": "https://renaissance.ac.in/courses/bachelors-fine-art-painting1/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 60,
+          "career_node_slug": "bfa",
+          "career_breadcrumb": "Media & Journalism > B.F.A (Fine Arts)",
+          "relation": "direct discipline: fine arts",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-c492f7b8-d21b-455b-bace-d2bbae493d3e",
+      "name": "Bachelors of Medical Laboratory Technician",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "Full-Time",
+      "eligibility": "PCB: 12th grade with Physics, Chemistry, and Biology; 50% minimum: Minimum 50% marks in 12th grade",
+      "official_course_url": "https://renaissance.ac.in/courses/bachelors-medical-laboratory-technician/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 37,
+          "career_node_slug": "dmlt",
+          "career_breadcrumb": "Paramedical & Health Sciences > DMLT (Medical Lab Technology)",
+          "relation": "closest-specialization: medical laboratory technology",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-c9c5027b-1147-4ae0-b578-e3c8f80dcdb3",
+      "name": "Bachelors in Journalism",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "1 Years",
+      "mode": "Full-Time",
+      "eligibility": "Graduate in Any Discipline: Must hold a bachelor's degree.",
+      "official_course_url": "https://renaissance.ac.in/courses/bachelors-of-journalism-and-mass-communication/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 59,
+          "career_node_slug": "bjmc",
+          "career_breadcrumb": "Media & Journalism > B.J.M.C (Journalism & Mass Comm)",
+          "relation": "closest-specialization: journalism and mass communication",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-cf67e56a-ca49-4079-a026-ad06e90d02a1",
+      "name": "BBA Advance",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "Full-Time",
+      "eligibility": "Minimum Score: 45%- OBC/ST/SC, 50%- General; Documentation: Candidates are required to submit valid academic transcripts, proof of identity, recent photographs, and other relevant certificates at the time of admission. All documents will be verified as part of the official admission procedure.; Academic Background: Students must have completed 10+2 in any stream from a recognized board.",
+      "official_course_url": "https://renaissance.ac.in/courses/bba-advance/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 46,
+          "career_node_slug": "bba",
+          "career_breadcrumb": "Management & Business > BBA (General)",
+          "relation": "closest-specialization: BBA general management",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-5efd5a3f-0b75-402d-be70-d2cc1029066b",
+      "name": "IPM",
+      "level": "integrated",
+      "credential": "integrated degree programme",
+      "specialization": null,
+      "duration": "5 Years",
+      "mode": "Full-Time",
+      "eligibility": "Minimun Score: 45%- OBC/ST/SC, 50%- General; Documentation: Candidates are required to submit valid academic transcripts, proof of identity, recent photographs, and other relevant certificates at the time of admission. All documents will be verified as part of the official admission procedure.; Academic Background: Applicants must have successfully completed 10+2 / Higher Secondary education or an equivalent qualification from a recognized board or institution.",
+      "official_course_url": "https://renaissance.ac.in/courses/bba-hons-mba/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 46,
+          "career_node_slug": "bba",
+          "career_breadcrumb": "Management & Business > BBA (General)",
+          "relation": "closest-specialization: integrated management",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-7bbcd8b6-426a-4f37-8553-d2d9a42dc97f",
+      "name": "BBA Plain",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "Full-Time",
+      "eligibility": "Documentation: Candidates are required to submit valid academic transcripts, proof of identity, recent photographs, and other relevant certificates at the time of admission. All documents will be verified as part of the official admission procedure.; Minimum Score: 45%- OBC/ST/SC, 50%- General; Academic Background: Applicants must have successfully completed 10+2 / Higher Secondary education or an equivalent qualification from a recognized board or institution.",
+      "official_course_url": "https://renaissance.ac.in/courses/bba-plain/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 46,
+          "career_node_slug": "bba",
+          "career_breadcrumb": "Management & Business > BBA (General)",
+          "relation": "closest-specialization: BBA general management",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-ad1759b0-2286-489f-9036-983a9056e0c4",
+      "name": "BCA",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "Full-Time",
+      "eligibility": "12th Any Stream: Open for students from all streams.; 45%- OBC/ST/SC, 50%- General: Minimum marks required.",
+      "official_course_url": "https://renaissance.ac.in/courses/bca/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "direct discipline: computer applications",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-a17c0e4a-f3d1-4552-9728-0b6842d3f35f",
+      "name": "B.Com Advance",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "Full-Time",
+      "eligibility": "Documentation: Candidates are required to submit valid academic transcripts, proof of identity, recent photographs, and other relevant certificates at the time of admission. All documents will be verified as part of the official admission procedure.; Minimum Score: 45%- OBC/ST/SC, 50%- General; Academic Background: Students must have completed Higher Secondary (10+2) or an equivalent qualification from a recognized board.",
+      "official_course_url": "https://renaissance.ac.in/courses/bcom-honors/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct discipline: commerce",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-0f2c48b9-35de-4e78-96e9-6340ed8a6040",
+      "name": "B.Com Plain",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "Full-Time",
+      "eligibility": "Documentation: Candidates are required to submit valid academic transcripts, proof of identity, recent photographs, and other relevant certificates at the time of admission. All documents will be verified as part of the official admission procedure.; Academic Background: Applicants must have successfully completed 10+2 / Higher Secondary education or an equivalent qualification from a recognized board or institution.; Minimum Scores: 45%- OBC/ST/SC, 50%- General",
+      "official_course_url": "https://renaissance.ac.in/courses/bcom-plain/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct discipline: commerce",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-53fd5e90-f20a-4e4a-aef8-3ec56afc5f86",
+      "name": "B.Sc Agriculture (Hons.)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "4 Years",
+      "mode": "Full-Time",
+      "eligibility": "45% - OBC/ST/SC, 50% - General: Minimum marks as per category requirements; PCB/PCM/Agri/PCMB: 12th grade with Physics, Chemistry, Biology/Mathematics or Agriculture",
+      "official_course_url": "https://renaissance.ac.in/courses/bsc-agriculture/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "direct discipline: agriculture",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-a402f9ea-8437-4662-b350-d916084e9002",
+      "name": "B.Sc Animation and Multimedia",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "Full Time",
+      "eligibility": "12th Any Stream: All streams eligible.; 45%- OBC/ST/SC, 50%- General: Minimum marks required.",
+      "official_course_url": "https://renaissance.ac.in/courses/bsc-animation-and-multimedia/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 246,
+          "career_node_slug": "animation",
+          "career_breadcrumb": "Media & Journalism > B.F.A (Fine Arts) > Animator / VFX Artist",
+          "relation": "closest-specialization: animation and multimedia",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-a3aee1c5-904c-4c61-b053-ed5f2e517193",
+      "name": "B.Sc Biotechnology",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "Full-Time",
+      "eligibility": "45%- OBC/ST/SC, 50%- General: Minimum marks required as per category.; PCB: Physics, Chemistry and Biology required.",
+      "official_course_url": "https://renaissance.ac.in/courses/bsc-biotechnology/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "direct discipline: biotechnology",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-3986b11c-1aec-4f26-bc60-4ea52bdb5c54",
+      "name": "B.Sc Forensic Science",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "Full-Time",
+      "eligibility": "Academic Background: Candidates must have passed 10+2 with PCB, PCM, or PCMB from a recognized board.; Minimum Score: 45%- OBC/ST/SC, 50%- General",
+      "official_course_url": "https://renaissance.ac.in/courses/bsc-forensic-science/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 27,
+          "career_node_slug": "bsc_forensic",
+          "career_breadcrumb": "Common Paths > B.Sc Forensic Science",
+          "relation": "direct discipline: forensic science",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-83f4c6bd-c586-4217-b0e0-3d9ca2c795bd",
+      "name": "B.Sc in Nursing",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "4 Years",
+      "mode": "Full-Time",
+      "eligibility": "50% minimum: Minimum 50% marks in 12th grade; PCB/PCBM: 12th grade with Physics, Chemistry, Biology/Mathematics",
+      "official_course_url": "https://renaissance.ac.in/courses/bsc-nursing/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 19,
+          "career_node_slug": "bsc_nursing",
+          "career_breadcrumb": "Biology / PCB > B.Sc Nursing",
+          "relation": "direct discipline: nursing",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-041f7d3f-2beb-4934-b832-3a4c76b3337c",
+      "name": "B.Tech in Cloud Computing",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "4 Years",
+      "mode": "Full-Time",
+      "eligibility": "Eligibility: PCM/PCM-B; Minimum Score: 45%- OBC/ST/SC, 50%- General; Documentation: Candidates must submit valid academic documents, identity proof, and photographs for verification during admission.",
+      "official_course_url": "https://renaissance.ac.in/courses/btech-cloud-computing/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 311,
+          "career_node_slug": "cloud_architect",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science > Cloud Architect",
+          "relation": "closest-specialization: cloud computing",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-905c912b-f77c-46b6-8de2-fa9cb3e65020",
+      "name": "B.Tech in Information Technology",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "4 Years",
+      "mode": "Full-Time",
+      "eligibility": "Academic Background: PCM/PCM-B; Minimum Scores: 45%- OBC/ST/SC, 50%- General; Documentation: Candidates are required to submit valid academic transcripts, proof of identity, recent photographs, and other relevant certificates at the time of admission. All documents will be verified as part of the official admission procedure.",
+      "official_course_url": "https://renaissance.ac.in/courses/btech-computer-science-information-technology-csit-program/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 89,
+          "career_node_slug": "btech_it",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Information Technology",
+          "relation": "closest-specialization: computer science and information technology",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-d08181ab-cfbc-4a9a-9850-4896e3269c9d",
+      "name": "B.Tech in CS & IT",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "4 Years",
+      "mode": "Full-Time",
+      "eligibility": "Minimum Score: 45%- OBC/ST/SC, 50%- General; Eligibility: PCM/PCM-B; Documentation: Candidates must submit valid academic documents, identity proof, and photographs for verification during admission.",
+      "official_course_url": "https://renaissance.ac.in/courses/btech-computer-science-information-technology-csit-program1/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 89,
+          "career_node_slug": "btech_it",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Information Technology",
+          "relation": "closest-specialization: computer science and information technology",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-c87785aa-a6f1-4a64-80a7-30d35df3e623",
+      "name": "B.Tech in Computer Science",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "4 Years",
+      "mode": "Full Time",
+      "eligibility": "Minimum Scores: 45%- OBC/ST/SC, 50%- General; Academic Background: PCM/PCM-B; Documentation: Candidates are required to submit valid academic transcripts, proof of identity, recent photographs, and other relevant certificates at the time of admission. All documents will be verified as part of the official admission procedure.",
+      "official_course_url": "https://renaissance.ac.in/courses/btech-computer-science/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct discipline: computer science",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-7a236ccb-5e65-4fbd-9974-17f493bfc242",
+      "name": "B.Tech in Data Science",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "4 Years",
+      "mode": "Full Time",
+      "eligibility": "Eligibility: PCM/PCM-B; Minimum Score: 45%- OBC/ST/SC, 50%- General; Documentation: Candidates must submit valid academic documents, identity proof, and photographs for verification during admission",
+      "official_course_url": "https://renaissance.ac.in/courses/btech-data-science/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 308,
+          "career_node_slug": "data_scientist",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science > Data Scientist",
+          "relation": "closest-specialization: data science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-da4d8192-a613-465b-98d4-eea82ac8b220",
+      "name": "B.Tech in Electronics & Communication",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "4 Years",
+      "mode": "Full-Time",
+      "eligibility": "Eligibility: PCM/PCM-B; Minimum Score: 45%- OBC/ST/SC, 50%- General; Documentation: Candidates must submit valid academic documents, identity proof, and photographs for verification during admission.",
+      "official_course_url": "https://renaissance.ac.in/courses/btech-in-electronics-and-communications-ece-program/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "direct discipline: electronics and communication",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-e6571908-966e-4424-ab24-0d13d8160e82",
+      "name": "Certificate in Music",
+      "level": "certificate",
+      "credential": "certificate",
+      "specialization": null,
+      "duration": "1 Years",
+      "mode": "Certificate",
+      "eligibility": "4th Standard Onwards: Minimum education requirement.",
+      "official_course_url": "https://renaissance.ac.in/courses/certificate-course-in-music/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 75,
+          "career_node_slug": "music_course",
+          "career_breadcrumb": "Performing Arts & Sports > Music (BA / Diploma)",
+          "relation": "direct discipline: music",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-589408dc-4418-4065-a475-2d4ef66255f9",
+      "name": "Diploma in X-Ray Technology",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "Full Time",
+      "eligibility": "minimum score: 45%; academic Background: PCB",
+      "official_course_url": "https://renaissance.ac.in/courses/course-of-dxrt/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 38,
+          "career_node_slug": "bsc_radiology",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Radiology & Imaging Technology",
+          "relation": "closest-specialization: radiology and imaging technology",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-529464c1-ddd1-4b97-9835-f7cf0a36ae48",
+      "name": "Diploma in Pharmacy (D.Pharma)",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "Full Time",
+      "eligibility": "PCM / PCB: The candidate must have completed their 10+2 schooling with PCM or PCB.; Minimum 45%: Minimum 45% aggregate marks (as per applicable norms)",
+      "official_course_url": "https://renaissance.ac.in/courses/d-pharma/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "closest-specialization: pharmacy",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-862663d6-bbf5-47f9-a146-32e7a96d7f20",
+      "name": "Diploma Course in Vocal Music",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": null,
+      "duration": "1 Years",
+      "mode": "Diploma",
+      "eligibility": "Minimum Education Required: Basic schooling required to enroll.",
+      "official_course_url": "https://renaissance.ac.in/courses/diploma-course-in-vocal-music/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 75,
+          "career_node_slug": "music_course",
+          "career_breadcrumb": "Performing Arts & Sports > Music (BA / Diploma)",
+          "relation": "direct discipline: music",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-85abee58-2536-4460-b9bf-0a2844ca20ea",
+      "name": "Diploma in Vocal Music - International",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": null,
+      "duration": "1 Years",
+      "mode": "Full Time",
+      "eligibility": "45%- OBC/ST/SC, 50%- General: Minimum qualifying marks as per category.; Minimum Education Required: Basic schooling required to enroll.",
+      "official_course_url": "https://renaissance.ac.in/courses/diploma-coursein-vocal-music-international/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 75,
+          "career_node_slug": "music_course",
+          "career_breadcrumb": "Performing Arts & Sports > Music (BA / Diploma)",
+          "relation": "direct discipline: music",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-09b10738-33da-4b9a-b7cd-4c1543687534",
+      "name": "Diploma in Medical Laboratory Technician",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "Full-Time",
+      "eligibility": "45% minimum: Minimum 45% marks in 12th grade; PCB: 12th grade with Physics, Chemistry, and Biology",
+      "official_course_url": "https://renaissance.ac.in/courses/diploma-medical-laboratory-technician/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 37,
+          "career_node_slug": "dmlt",
+          "career_breadcrumb": "Paramedical & Health Sciences > DMLT (Medical Lab Technology)",
+          "relation": "direct discipline: medical laboratory technology",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-7977e030-55b3-4070-aee8-68cf139222f1",
+      "name": "General Nursing Midwifery",
+      "level": "diploma",
+      "credential": "nursing diploma",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "Full-Time",
+      "eligibility": "50% minimum: Minimum 50% marks in 12th grade; 12th any stream: 12th grade from any stream (Science/Commerce/Arts)",
+      "official_course_url": "https://renaissance.ac.in/courses/gnm-general-nursing-midwifery/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 19,
+          "career_node_slug": "bsc_nursing",
+          "career_breadcrumb": "Biology / PCB > B.Sc Nursing",
+          "relation": "closest-specialization: nursing",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-e2bf6dba-4481-49dc-af51-81432ac15870",
+      "name": "LLB",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "Full-Time",
+      "eligibility": "Any Graduate: Bachelor's degree in any discipline from a recognized university; 45% - OBC/ST/SC: Minimum 45% marks for reserved category students; 50% - General: Minimum 50% marks for general category students",
+      "official_course_url": "https://renaissance.ac.in/courses/llb/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 343,
+          "career_node_slug": "commerce_law",
+          "career_breadcrumb": "Law & Legal",
+          "relation": "nearest-parent: Law & Legal",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-7726f74c-4397-4954-bf7d-9cb6eb435e6e",
+      "name": "LLM Constitutional Law",
+      "level": "postgraduate",
+      "credential": "postgraduate degree",
+      "specialization": null,
+      "duration": "1 Years",
+      "mode": "Full-Time",
+      "eligibility": "50% - all categories: Minimum 50% marks for all category students; LLB/Integrated LLB: Bachelor of Laws degree from a recognized university",
+      "official_course_url": "https://renaissance.ac.in/courses/llm-constitutional-law/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 343,
+          "career_node_slug": "commerce_law",
+          "career_breadcrumb": "Law & Legal",
+          "relation": "nearest-parent: Law & Legal",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-55370ac5-0ce7-4f74-8f4c-5fea3b6f7652",
+      "name": "LLM Criminal Law",
+      "level": "postgraduate",
+      "credential": "postgraduate degree",
+      "specialization": null,
+      "duration": "1 Years",
+      "mode": "Full-Time",
+      "eligibility": "LLB/Integrated LLB: Bachelor of Laws degree from a recognized university; 50% - all categories: Minimum 50% marks for all category students",
+      "official_course_url": "https://renaissance.ac.in/courses/llm-criminal-law/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 255,
+          "career_node_slug": "criminal_lawyer",
+          "career_breadcrumb": "Law & Civil Services > BA LLB (5-Year Integrated) > Criminal Lawyer",
+          "relation": "closest-specialization: criminal law",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-6dffc9e7-2ffa-4d4d-990b-024d4cb6929a",
+      "name": "LLM IPR Law",
+      "level": "postgraduate",
+      "credential": "postgraduate degree",
+      "specialization": null,
+      "duration": "1 Years",
+      "mode": "Full-Time",
+      "eligibility": "Academic Background: Bachelor of Laws degree from a recognized university; Documentation: Candidates are required to submit valid academic transcripts, proof of identity, recent photographs, and other relevant certificates at the time of admission. All documents will be verified as part of the official admission procedure.; Minimum Scores: Minimum 50% marks for all category students",
+      "official_course_url": "https://renaissance.ac.in/courses/llm-ipr-law/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 380,
+          "career_node_slug": "ipr_lawyer",
+          "career_breadcrumb": "Law & Legal > Intellectual Property Rights Lawyer",
+          "relation": "closest-specialization: intellectual property rights law",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-7d5921e5-3650-48c3-933f-e36e746be70a",
+      "name": "LLM Corporate Law",
+      "level": "postgraduate",
+      "credential": "postgraduate degree",
+      "specialization": null,
+      "duration": "1 Years",
+      "mode": "Full-Time",
+      "eligibility": "Academic Background: LLB/Integrated LLB from a recognized university; Documentation: Candidates are required to submit valid academic transcripts, proof of identity, recent photographs, and other relevant certificates at the time of admission. All documents will be verified as part of the official admission procedure.; Minimum Scores: Minimum 50% marks for all category students",
+      "official_course_url": "https://renaissance.ac.in/courses/llm/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 218,
+          "career_node_slug": "corporate_lawyer_comm",
+          "career_breadcrumb": "Law & Legal > BBA LLB (5-Year Integrated) > Corporate Lawyer",
+          "relation": "closest-specialization: corporate law",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-089c2218-d12a-470d-8abb-3049a29d2917",
+      "name": "M.Design",
+      "level": "postgraduate",
+      "credential": "postgraduate degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "Full-Time",
+      "eligibility": "45%- OBC/ST/SC, 50%- General: Minimum percentage as per category norms.; B.Design (4 years): Undergraduate degree in design required.",
+      "official_course_url": "https://renaissance.ac.in/courses/m-design/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 55,
+          "career_node_slug": "bdes",
+          "career_breadcrumb": "Design & Architecture > B.Des (Design)",
+          "relation": "nearest-parent: design",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-8d90f6b4-5f40-40e6-a144-dba8158526dc",
+      "name": "M.Lib",
+      "level": "postgraduate",
+      "credential": "postgraduate degree",
+      "specialization": null,
+      "duration": "1 Years",
+      "mode": "Full-Time",
+      "eligibility": "Academic Background: Candidates must have completed B.Lib (Bachelor of Library Science) from a recognized university.; Minimum Score: 45%- OBC/ST/SC, 50%- General",
+      "official_course_url": "https://renaissance.ac.in/courses/m-lib/",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "Career tree has no library-science node."
+    },
+    {
+      "course_id": "renaissance-university-indore-defb2eb3-a55b-4043-9e93-0efb941edb2b",
+      "name": "M.Sc Agriculture (Horticulture)",
+      "level": "postgraduate",
+      "credential": "postgraduate degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "Full-Time",
+      "eligibility": "B.Sc Agri (4yrs): Bachelor of Science in Agriculture (4 years) from a recognized university; 45% - OBC/ST/SC, 50% - General: Minimum marks as per category requirements",
+      "official_course_url": "https://renaissance.ac.in/courses/m-sc-agriculture-horticulture/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 165,
+          "career_node_slug": "agri_scientist",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture > Agricultural Scientist",
+          "relation": "closest-specialization: agricultural science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-0f1fc2c1-c000-435e-9699-3764ca92748e",
+      "name": "M.Sc Agriculture (Soil Science)",
+      "level": "postgraduate",
+      "credential": "postgraduate degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "Full-Time",
+      "eligibility": "45% - OBC/ST/SC, 50% - General: Minimum marks as per category requirements; B.Sc Agri (4yrs): Bachelor of Science in Agriculture (4 years) from a recognized university",
+      "official_course_url": "https://renaissance.ac.in/courses/m-sc-agriculture-soil-science/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 165,
+          "career_node_slug": "agri_scientist",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture > Agricultural Scientist",
+          "relation": "closest-specialization: agricultural science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-3e5de28d-112e-4f6a-bef8-53e509f58c7f",
+      "name": "M.Sc Botany",
+      "level": "postgraduate",
+      "credential": "postgraduate degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "Full-Time",
+      "eligibility": "B.Sc: Bachelor of Science degree required.; 45%- OBC/ST/SC, 50%- General: Minimum marks required.",
+      "official_course_url": "https://renaissance.ac.in/courses/m-sc-botany-biochemistry-microbiology-forensic-science/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest-specialization: biology",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 35,
+          "career_node_slug": "bsc_biochem",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Biochemistry",
+          "relation": "closest-specialization: biochemistry",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 34,
+          "career_node_slug": "bsc_microbio",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Microbiology",
+          "relation": "closest-specialization: microbiology",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 27,
+          "career_node_slug": "bsc_forensic",
+          "career_breadcrumb": "Common Paths > B.Sc Forensic Science",
+          "relation": "closest-specialization: forensic science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-ce5aa173-335d-4579-b5eb-8089d5478514",
+      "name": "M.Sc Computer Science",
+      "level": "postgraduate",
+      "credential": "postgraduate degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "Full-Time",
+      "eligibility": "B.Sc Computer Science: Undergraduate degree required.; 45%- OBC/ST/SC, 50%- General: Minimum category marks.",
+      "official_course_url": "https://renaissance.ac.in/courses/m-sc-computer-science/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 32,
+          "career_node_slug": "bsc_cs",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Computer Science",
+          "relation": "closest-specialization: computer science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-3afaaa23-6219-4a18-9925-58b53f9165b6",
+      "name": "M.Voc in Electrical & Electronics Engineering",
+      "level": "postgraduate",
+      "credential": "postgraduate degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "Full-Time",
+      "eligibility": "Bachelor Degree: Relevant bachelor's degree with minimum 50%.",
+      "official_course_url": "https://renaissance.ac.in/courses/m-voc-electrical-electronics-engineering/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "closest-specialization: electrical and electronics engineering",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-62f2181a-12b2-4f60-bf8b-e6efcaeb6cdf",
+      "name": "M.Voc in Fire & Safety",
+      "level": "postgraduate",
+      "credential": "postgraduate degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "Full-Time",
+      "eligibility": "Bachelor Degree: Relevant Bachelor's degree with minimum 50%.",
+      "official_course_url": "https://renaissance.ac.in/courses/m-voc-fire-safety/",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "Career tree has no fire-and-safety discipline node."
+    },
+    {
+      "course_id": "renaissance-university-indore-5e9410a9-8b7a-41ea-9af0-85da533b0773",
+      "name": "M.Voc in Interior Designing",
+      "level": "postgraduate",
+      "credential": "postgraduate degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "Full-Time",
+      "eligibility": "Bachelor Degree: Candidate must hold a relevant bachelor's degree with minimum 50% marks.",
+      "official_course_url": "https://renaissance.ac.in/courses/m-voc-interior-designing-2/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 233,
+          "career_node_slug": "interior_design",
+          "career_breadcrumb": "Design & Architecture > B.Arch (Architecture) > Interior Designer",
+          "relation": "closest-specialization: interior design",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-ff315c3c-39fd-4572-a140-2c2f7d23a83f",
+      "name": "M.Voc Panchkarma & Ayurveda",
+      "level": "postgraduate",
+      "credential": "postgraduate degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "Full-Time",
+      "eligibility": "Bachelor Degree: Bachelor degree in relevant specialization with minimum 50%.",
+      "official_course_url": "https://renaissance.ac.in/courses/m-voc-panchakarma-ayurveda/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 17,
+          "career_node_slug": "bams",
+          "career_breadcrumb": "Biology / PCB > BAMS (Ayurveda)",
+          "relation": "closest-specialization: Ayurveda",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-636c0fea-5beb-4431-a8cd-f43314dc6e60",
+      "name": "M.Voc in Sports",
+      "level": "postgraduate",
+      "credential": "postgraduate degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "Full-Time",
+      "eligibility": "Bachelor Degree: Candidate must have bachelor's degree with minimum 50%.",
+      "official_course_url": "https://renaissance.ac.in/courses/m-voc-sports/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 78,
+          "career_node_slug": "sports_career",
+          "career_breadcrumb": "Performing Arts & Sports > Sports & Physical Education",
+          "relation": "nearest-parent: Sports & Physical Education",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-5cae6d67-0234-4fc7-9a3f-b23ced8380df",
+      "name": "MA in Psychology",
+      "level": "postgraduate",
+      "credential": "postgraduate degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "Full-Time",
+      "eligibility": "45%- OBC/ST/SC, 50%- General: Minimum academic percentage required.; Any Graduate: Bachelor’s degree in any stream from a recognized university.",
+      "official_course_url": "https://renaissance.ac.in/courses/ma-in-psychology/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 66,
+          "career_node_slug": "ba_psychology",
+          "career_breadcrumb": "Social Sciences & Education > BA Psychology",
+          "relation": "closest-specialization: psychology",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-2d8fd5f7-cca2-44c9-acbd-9d2415069044",
+      "name": "MA in Public Administration",
+      "level": "postgraduate",
+      "credential": "postgraduate degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "Full-Time",
+      "eligibility": "45%- OBC/ST/SC, 50%- General: Minimum required marks according to category.; Any Graduate: Applicants must hold a bachelor’s degree from a recognized university.",
+      "official_course_url": "https://renaissance.ac.in/courses/ma-public-administration/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 283,
+          "career_node_slug": "public_admin",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science > Public Administration Officer",
+          "relation": "closest-specialization: public administration",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-7c990330-bebf-4f7c-9ef2-6ab2466a72d7",
+      "name": "Masters of Applied Arts",
+      "level": "postgraduate",
+      "credential": "postgraduate degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "Full-Time",
+      "eligibility": "45%- OBC/ST/SC, 50%- General: Minimum academic percentage as per category.; BA Graduate: Bachelor of Arts or equivalent degree from a recognized university.",
+      "official_course_url": "https://renaissance.ac.in/courses/master-applied-arts/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 60,
+          "career_node_slug": "bfa",
+          "career_breadcrumb": "Media & Journalism > B.F.A (Fine Arts)",
+          "relation": "closest-specialization: applied arts",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-68dec627-0466-4095-bea1-de7b52eaae64",
+      "name": "Masters of Fine Arts (Applied Arts)",
+      "level": "postgraduate",
+      "credential": "postgraduate degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "Full-Time",
+      "eligibility": "45%- OBC/ST/SC, 50%- General: Minimum required marks as per category norms.; BFA: Bachelor of Fine Arts or equivalent degree.",
+      "official_course_url": "https://renaissance.ac.in/courses/master-fine-art-applied-arts/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 60,
+          "career_node_slug": "bfa",
+          "career_breadcrumb": "Media & Journalism > B.F.A (Fine Arts)",
+          "relation": "closest-specialization: fine arts",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-dcf2981b-046e-487c-9d78-de70d79e2bc3",
+      "name": "Masters of Fine Arts (Painting) - Track 2",
+      "level": "postgraduate",
+      "credential": "postgraduate degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "Full-Time",
+      "eligibility": "Bachelor of Fine Arts: Bachelor of Fine Arts or equivalent.; 45%- OBC/ST/SC, 50%- General: Minimum marks as per category norms.",
+      "official_course_url": "https://renaissance.ac.in/courses/master-fine-art-painting/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 60,
+          "career_node_slug": "bfa",
+          "career_breadcrumb": "Media & Journalism > B.F.A (Fine Arts)",
+          "relation": "closest-specialization: fine arts",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-b046ff39-58a3-4172-b6f2-b64a2edb7498",
+      "name": "Masters of Arts (Painting) - Track 1",
+      "level": "postgraduate",
+      "credential": "postgraduate degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "Full-Time",
+      "eligibility": "Minimum Scores: 45%- OBC/ST/SC, 50%- General; Any Graduate: Applicants must hold a graduate degree from a recognized institution.; Documentation: Candidates are required to submit valid academic transcripts, proof of identity, recent photographs, and other relevant certificates at the time of admission. All documents will be verified as part of the official admission procedure.",
+      "official_course_url": "https://renaissance.ac.in/courses/masters-art-painting/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 60,
+          "career_node_slug": "bfa",
+          "career_breadcrumb": "Media & Journalism > B.F.A (Fine Arts)",
+          "relation": "closest-specialization: fine arts",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-dc525113-ed2b-48aa-8d97-2a7b31b45381",
+      "name": "Masters of Fashion Management",
+      "level": "postgraduate",
+      "credential": "postgraduate degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "Full-Time",
+      "eligibility": "45%- OBC/ST/SC, 50%- General: Minimum marks required based on category.; Any Graduate: A valid bachelor's degree from a recognized institution.",
+      "official_course_url": "https://renaissance.ac.in/courses/masters-in-fashion-technology/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 236,
+          "career_node_slug": "fashion_tech",
+          "career_breadcrumb": "Design & Architecture > NIFT (Fashion Technology) > Fashion Technologist",
+          "relation": "closest-specialization: fashion technology",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-a1d64882-c895-4d6e-b02e-4f29fc69c61c",
+      "name": "Masters in Journalism",
+      "level": "postgraduate",
+      "credential": "postgraduate degree",
+      "specialization": null,
+      "duration": "1 Years",
+      "mode": "Full-Time",
+      "eligibility": "BJ - 1 year: Must hold a bachelor's degree.; 45%- OBC/ST/SC, 50%- General: Minimum score criteria.",
+      "official_course_url": "https://renaissance.ac.in/courses/masters-of-journalism-and-mass-communication/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 59,
+          "career_node_slug": "bjmc",
+          "career_breadcrumb": "Media & Journalism > B.J.M.C (Journalism & Mass Comm)",
+          "relation": "closest-specialization: journalism and mass communication",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-0783d0d6-08b3-45ee-8225-16d63689fc97",
+      "name": "MBA Hospital Administration",
+      "level": "postgraduate",
+      "credential": "postgraduate degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "Full-Time",
+      "eligibility": "Documentation: Candidates are required to submit valid academic transcripts, proof of identity, recent photographs, and other relevant certificates at the time of admission. All documents will be verified as part of the official admission procedure.; Academic Background: Bachelor's degree from any recognized discipline.; Minimum Score: 45%- OBC/ST/SC, 50%- General",
+      "official_course_url": "https://renaissance.ac.in/courses/mba-hospital-administration/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 208,
+          "career_node_slug": "mba_general",
+          "career_breadcrumb": "Management & Business > BBA (General) > MBA → CEO / Director Track",
+          "relation": "closest-specialization: management",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-8bddc01e-ae51-4a14-a6b5-5dc9a0c4b5d6",
+      "name": "MBA + PGP in Business Analytics",
+      "level": "postgraduate",
+      "credential": "postgraduate degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "Full-Time",
+      "eligibility": "Academic Background: Applicants must have successfully completed a Bachelor’s degree in any discipline, with a minimum duration of three years, from a recognized university, or hold an equivalent qualification from a recognized board or institution.; Minimum Score: 45%- OBC/ST/SC, 50%- General; Documentation: Candidates are required to submit valid academic transcripts, proof of identity, recent photographs, and other relevant certificates at the time of admission. All documents will be verified as part of the official admission procedure.",
+      "official_course_url": "https://renaissance.ac.in/courses/mba-pgp-business-analytics/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 169,
+          "career_node_slug": "bi_analyst",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Data Science > Business Intelligence Analyst",
+          "relation": "closest-specialization: business analytics",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-c7450ce4-cd6f-4cab-baa2-95a1563aa228",
+      "name": "MBA Core Dual",
+      "level": "postgraduate",
+      "credential": "postgraduate degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "Full-Time",
+      "eligibility": "Academic Background: Applicants must have successfully completed a Bachelor’s degree in any discipline, with a minimum duration of three years, from a recognized university, or hold an equivalent qualification from a recognized board or institution.; Documentation: Candidates are required to submit valid academic transcripts, proof of identity, recent photographs, and other relevant certificates at the time of admission.; Minimum Score: 45%- OBC/ST/SC, 50%- General",
+      "official_course_url": "https://renaissance.ac.in/courses/mba/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 208,
+          "career_node_slug": "mba_general",
+          "career_breadcrumb": "Management & Business > BBA (General) > MBA → CEO / Director Track",
+          "relation": "closest-specialization: MBA management",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-a0a1eb77-f116-4e67-8c7e-70ab52f3fcc5",
+      "name": "M.Sc Agriculture (Agronomy)",
+      "level": "postgraduate",
+      "credential": "postgraduate degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "Full-Time",
+      "eligibility": "45% - OBC/ST/SC, 50% - General: Minimum marks as per category requirements; B.Sc Agri (4yrs): Bachelor of Science in Agriculture (4 years) from a recognized university",
+      "official_course_url": "https://renaissance.ac.in/courses/msc-agriculture/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 165,
+          "career_node_slug": "agri_scientist",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture > Agricultural Scientist",
+          "relation": "closest-specialization: agricultural science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-e5a40aa8-59c6-4706-9999-4e604e9dce7f",
+      "name": "M.Sc Biochemistry",
+      "level": "postgraduate",
+      "credential": "postgraduate degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "Full-Time",
+      "eligibility": "45%- OBC/ST/SC, 50%- General: Minimum category marks.; B.Sc: Degree in science required.",
+      "official_course_url": "https://renaissance.ac.in/courses/msc-biochemistry-course/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 35,
+          "career_node_slug": "bsc_biochem",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Biochemistry",
+          "relation": "closest-specialization: biochemistry",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-8999b893-2c6c-4855-b33d-663d612a9027",
+      "name": "M.Sc Chemistry",
+      "level": "postgraduate",
+      "credential": "postgraduate degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "Full-Time",
+      "eligibility": "45%- OBC/ST/SC, 50%- General: Minimum category scores required.; B.Sc: Bachelor degree required.",
+      "official_course_url": "https://renaissance.ac.in/courses/msc-chemistry-course/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 155,
+          "career_node_slug": "msc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry > M.Sc Chemistry → Researcher",
+          "relation": "closest-specialization: chemistry",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-c2c71fe2-85e5-43dc-af56-bb374f034a90",
+      "name": "M.Sc Food Technology",
+      "level": "postgraduate",
+      "credential": "postgraduate degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "Full-Time",
+      "eligibility": "B.Tech Food / B.Voc Food / B.Sc Life Science: Degree in relevant fields required.; 45%- OBC/ST/SC, 50%- General: Minimum scores required.",
+      "official_course_url": "https://renaissance.ac.in/courses/msc-food-technology/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 161,
+          "career_node_slug": "food_technologist",
+          "career_breadcrumb": "Common Paths > B.Sc Food Technology > Food Technologist",
+          "relation": "closest-specialization: food technology",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-b5f68abd-cf1c-4d87-a020-106c08bec9e5",
+      "name": "M.Sc Microbiology",
+      "level": "postgraduate",
+      "credential": "postgraduate degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "Full-Time",
+      "eligibility": "B.Sc: Bachelor degree required.; 45%- OBC/ST/SC, 50%- General: Minimum marks required.",
+      "official_course_url": "https://renaissance.ac.in/courses/msc-microbiology-course/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 34,
+          "career_node_slug": "bsc_microbio",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Microbiology",
+          "relation": "closest-specialization: microbiology",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-fa804e9f-15fa-4903-bb5f-4597c49abb27",
+      "name": "PGDCA",
+      "level": "postgraduate",
+      "credential": "postgraduate diploma",
+      "specialization": null,
+      "duration": "1 Years",
+      "mode": "Full-Time",
+      "eligibility": "Any Graduate: Open to all bachelor's degree holders.; 45%- OBC/ST/SC, 50%- General: Minimum marks required.",
+      "official_course_url": "https://renaissance.ac.in/courses/pgdca/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "nearest-parent: computer applications",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-e266e196-deb5-4327-a351-7ac0ab9ba52c",
+      "name": "PhD in Commerce",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "Full-Time",
+      "eligibility": "Minimum Score: 55% - all categories; Academic Background: Masters in same domain",
+      "official_course_url": "https://renaissance.ac.in/courses/phd-commerce/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 198,
+          "career_node_slug": "mcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons) > M.Com → Professor / Researcher",
+          "relation": "closest-specialization: commerce research",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-d8f272ac-0429-475b-bef7-c4742addd09c",
+      "name": "PhD in Fashion Designing",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "Full-Time",
+      "eligibility": "Minimum Score: 55% - all categories; Academic Background: Masters in same domain",
+      "official_course_url": "https://renaissance.ac.in/courses/phd-fashion/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 57,
+          "career_node_slug": "nift",
+          "career_breadcrumb": "Design & Architecture > NIFT (Fashion Technology)",
+          "relation": "closest-specialization: fashion technology",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-59f51c36-0b63-4dae-bb11-be7f530ca126",
+      "name": "PhD in Agriculture",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "Full Time",
+      "eligibility": "Minimum Score: 55% - all categories; Academic Background: Masters in same domain",
+      "official_course_url": "https://renaissance.ac.in/courses/phd-in-agriculture/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 165,
+          "career_node_slug": "agri_scientist",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture > Agricultural Scientist",
+          "relation": "closest-specialization: agricultural research",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-3cae3d36-d7a9-4490-9a6a-5f23894cf65f",
+      "name": "PhD in Law",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "Full Time",
+      "eligibility": "Minimum Score: 55% - all categories; Academic Background: Masters in same domain",
+      "official_course_url": "https://renaissance.ac.in/courses/phd-in-law/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 343,
+          "career_node_slug": "commerce_law",
+          "career_breadcrumb": "Law & Legal",
+          "relation": "nearest-parent: Law & Legal",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-f32b52a6-1d7f-40c2-80bd-cd57f2284556",
+      "name": "PhD in Library Science",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "Full-Time",
+      "eligibility": "Minimum Score: 55% - all categories; Academic Background: Masters in same domain",
+      "official_course_url": "https://renaissance.ac.in/courses/phd-in-library-science/",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "Career tree has no library-science or doctoral-library node."
+    },
+    {
+      "course_id": "renaissance-university-indore-71209fcc-40a3-4e62-be4a-201848afeca3",
+      "name": "PhD in Management",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "Full-Time",
+      "eligibility": "Minimum Score: 55% - all categories; Academic Background: Masters in same domain",
+      "official_course_url": "https://renaissance.ac.in/courses/phd-in-management/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 208,
+          "career_node_slug": "mba_general",
+          "career_breadcrumb": "Management & Business > BBA (General) > MBA → CEO / Director Track",
+          "relation": "closest-specialization: management research",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-fa2b4a8a-41a4-42f4-9627-2a9ad07c9935",
+      "name": "PhD in Psychology",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "Full-Time",
+      "eligibility": "Minimum Score: 55% - all categories; Academic Background: Masters in same domain",
+      "official_course_url": "https://renaissance.ac.in/courses/phd-in-psychology/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 66,
+          "career_node_slug": "ba_psychology",
+          "career_breadcrumb": "Social Sciences & Education > BA Psychology",
+          "relation": "closest-specialization: psychology research",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-953c8a05-02e0-45f3-9647-ab2b77e1e032",
+      "name": "PhD in Science (Chemistry)",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "Full Time",
+      "eligibility": "Minimum Score: 55% - all categories; Academic Background: Masters in same domain",
+      "official_course_url": "https://renaissance.ac.in/courses/phd-in-science-chemistry/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 155,
+          "career_node_slug": "msc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry > M.Sc Chemistry → Researcher",
+          "relation": "closest-specialization: chemistry research",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-d4badc49-f6d0-405b-9331-afa5492ad8ab",
+      "name": "PhD in Journalism and Mass communication",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "Full-Time",
+      "eligibility": "Minimum Score: 55% - all categories; Academic Background: Masters in same domain",
+      "official_course_url": "https://renaissance.ac.in/courses/phd-journalism-and-mass-communication/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 59,
+          "career_node_slug": "bjmc",
+          "career_breadcrumb": "Media & Journalism > B.J.M.C (Journalism & Mass Comm)",
+          "relation": "closest-specialization: journalism and mass communication",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-c32edfda-92de-4929-8740-59106df88e2b",
+      "name": "PhD in Computer Science",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "Full-Time",
+      "eligibility": "Academic Background: Masters in same domain; Minimum Score: 55% - all categories",
+      "official_course_url": "https://renaissance.ac.in/courses/phd-science/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 32,
+          "career_node_slug": "bsc_cs",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Computer Science",
+          "relation": "closest-specialization: computer science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "renaissance-university-indore-259ea0f0-7c0d-4106-b24c-d1560d6428fb",
+      "name": "B.Sc Botany",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "Full-Time",
+      "eligibility": "PCB: Biology required for botany.; 45%- OBC/ST/SC, 50%- General: Minimum marks required.",
+      "official_course_url": "https://renaissance.ac.in/courses/sc-botany/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 337,
+          "career_node_slug": "science_common",
+          "career_breadcrumb": "Common Paths",
+          "relation": "nearest-parent: Common Paths",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The supplied NIRF Management 2025 page contains the exact row RENAISSANCE UNIVERSITY INDORE, INDORE, Madhya Pradesh.",
+    "The official homepage identifies the campus at Khandwa Road, Village Bhojpur, Indore, Madhya Pradesh 453331.",
+    "The official public catalogue API exposes 15 school/programme groups and 95 course records; all 95 course detail API requests returned successful responses.",
+    "The managed proxy returned the exact self signed certificate in certificate chain error for NIRF, Bing, renaissance.ac.in, and api.renaissance.ac.in. curl --insecure was used only for public GETs after confirming each hostname was expected.",
+    "Duration and eligibility are copied from the official public course catalogue API. Programme names are copied from the official course detail responses; no specializations were invented.",
+    "Five courses have no responsible career-tree node: the career database has no library-science or fire-and-safety node. Their mapping_gap fields explain the gap.",
+    "QA passed: 95 unique course IDs and official course URLs, 95 non-null durations, 95 non-null eligibility fields, 93 career-tree mappings, and exact breadcrumb validation against the read-only career_path.db query."
+  ]
+}

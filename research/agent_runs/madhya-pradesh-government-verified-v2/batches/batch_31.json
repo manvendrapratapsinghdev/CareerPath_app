@@ -1,0 +1,62 @@
+{
+  "batch": 31,
+  "started_at": "2026-09-27T13:33:37.122332+00:00",
+  "finished_at": "2026-09-27T13:44:56.114917+00:00",
+  "assignment_count": 5,
+  "completed_count": 3,
+  "skipped_count": 2,
+  "failed_count": 0,
+  "results": [
+    {
+      "institution_id": "amar-shahid-chandrashekhar-azad-govt-postgraduate-college-niwari",
+      "nirf_name": "Amar Shahid Chandrashekhar Azad Govt. Postgraduate College, NIWARI",
+      "status": "completed",
+      "started_at": "2026-09-27T13:33:37.129324+00:00",
+      "finished_at": "2026-09-27T13:43:03.076925+00:00",
+      "duration_seconds": 565.855,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified-v2/results/amar-shahid-chandrashekhar-azad-govt-postgraduate-college-niwari.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified-v2/logs/amar-shahid-chandrashekhar-azad-govt-postgraduate-college-niwari.jsonl"
+    },
+    {
+      "institution_id": "chhatrasal-govt-p-g-college-panna-m-p",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified-v2/results/chhatrasal-govt-p-g-college-panna-m-p.json",
+      "finished_at": "2026-09-27T13:33:37.148080+00:00"
+    },
+    {
+      "institution_id": "govt-arts-college-niwas-mandla",
+      "nirf_name": "Govt. Arts College, Niwas, Mandla",
+      "status": "completed",
+      "started_at": "2026-09-27T13:33:37.129608+00:00",
+      "finished_at": "2026-09-27T13:40:15.139400+00:00",
+      "duration_seconds": 397.983,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified-v2/results/govt-arts-college-niwas-mandla.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified-v2/logs/govt-arts-college-niwas-mandla.jsonl"
+    },
+    {
+      "institution_id": "govt-arts-commerce-college-nevali",
+      "nirf_name": "Govt. Arts & Commerce College, Nevali",
+      "status": "completed",
+      "started_at": "2026-09-27T13:33:37.129432+00:00",
+      "finished_at": "2026-09-27T13:44:56.111461+00:00",
+      "duration_seconds": 678.944,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified-v2/results/govt-arts-commerce-college-nevali.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified-v2/logs/govt-arts-commerce-college-nevali.jsonl"
+    },
+    {
+      "institution_id": "govt-college-pachmarhi-hoshangabad",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified-v2/results/govt-college-pachmarhi-hoshangabad.json",
+      "finished_at": "2026-09-27T13:33:37.146641+00:00"
+    }
+  ]
+}

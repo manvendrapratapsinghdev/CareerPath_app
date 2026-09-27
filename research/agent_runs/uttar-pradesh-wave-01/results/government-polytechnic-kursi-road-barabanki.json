@@ -1,0 +1,150 @@
+{
+  "institution_id": "government-polytechnic-kursi-road-barabanki",
+  "nirf_name": "Government Polytechnic, Kursi Road, Barabanki",
+  "verification_outcome": "verified",
+  "district": "Barabanki",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://gpkursibbk.com/",
+  "website_verification_status": "verified",
+  "description": "Government Polytechnic Kursi Road, Barabanki is a government polytechnic established in 2013 at Kursi Road near Amroon Food Factory in Fatehpur, Barabanki, Uttar Pradesh. The official site states that the campus covers 5 acres and offers three-year diploma courses.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "official_homepage",
+      "url": "https://gpkursibbk.com/",
+      "supports": [
+        "Identifies the institution as Government Polytechnic Kursi Road, Barabanki.",
+        "Provides the institution's official navigation and course catalogue links."
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "https://gpkursibbk.com/contact-us/",
+      "supports": [
+        "Lists the campus address as Kursi Road, Near Amroon Factory, Fatehpur, Barabanki, Uttar Pradesh 225302, India."
+      ]
+    },
+    {
+      "type": "official_institution_description",
+      "url": "https://gpkursibbk.com/about-college/",
+      "supports": [
+        "States that the institution was established in 2013.",
+        "States that it is located at Kursi Road near Amroon Food Factory and is known as Government Polytechnic Kursi Road Fatehpur Barabanki.",
+        "States that the campus measures 5 acres."
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://gpkursibbk.com/courses/",
+      "supports": [
+        "Lists the current programmes Civil Engineering, Electrical Engineering, and Mechanical Engineering (Production).",
+        "Provides three-year duration and High School educational qualification for each listed course."
+      ]
+    },
+    {
+      "type": "official_admission_page",
+      "url": "https://gpkursibbk.com/admission/",
+      "supports": [
+        "Confirms admission to diploma courses.",
+        "Confirms High School Pass entry qualification for the listed courses.",
+        "Confirms that the diploma is awarded by the Board of Technical Education, Lucknow."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Government Polytechnic Kursi Road Barabanki\" official",
+      "result": "Bing returned unrelated general government results; no institution-specific official result appeared in the initial result set.",
+      "url": "https://www.bing.com/search?q=%22Government+Polytechnic+Kursi+Road+Barabanki%22+official"
+    },
+    {
+      "query": "site:up.gov.in \"Government Polytechnic\" \"Kursi Road\" Barabanki",
+      "result": "Bing did not surface the institution website directly; the official Board of Technical Education Uttar Pradesh directory was checked for authoritative discovery.",
+      "url": "https://www.bing.com/search?q=site%3Aup.gov.in+%22Government+Polytechnic%22+%22Kursi+Road%22+Barabanki"
+    },
+    {
+      "query": "Government Polytechnic Barabanki Kursi Road Uttar Pradesh",
+      "result": "The official Board of Technical Education Uttar Pradesh institute directory matched institute code 2228 and listed GPKURSIBBK.COM; the institution homepage was then independently fetched and verified.",
+      "url": "https://bteup.ac.in/WebApp/InstituteSearch.aspx?District=barabanki"
+    }
+  ],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "government-polytechnic-kursi-road-barabanki-civil-engineering",
+      "name": "Civil Engineering",
+      "level": "Diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "Regular",
+      "eligibility": "High School Pass",
+      "official_course_url": "https://gpkursibbk.com/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 116,
+          "career_node_slug": "diploma_civil_career",
+          "career_breadcrumb": "Maths / PCM > Diploma Engineering (Polytechnic) > Civil Site Supervisor",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-polytechnic-kursi-road-barabanki-electrical-engineering",
+      "name": "Electrical Engineering",
+      "level": "Diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "Regular",
+      "eligibility": "High School Pass",
+      "official_course_url": "https://gpkursibbk.com/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 118,
+          "career_node_slug": "diploma_elec_career",
+          "career_breadcrumb": "Maths / PCM > Diploma Engineering (Polytechnic) > Electrical Technician",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-polytechnic-kursi-road-barabanki-mechanical-engineering-production",
+      "name": "Mechanical Engineering (Production)",
+      "level": "Diploma",
+      "credential": "Diploma",
+      "specialization": "Production",
+      "duration": "3 Years",
+      "mode": "Regular",
+      "eligibility": "High School Pass",
+      "official_course_url": "https://gpkursibbk.com/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 115,
+          "career_node_slug": "diploma_mech_career",
+          "career_breadcrumb": "Maths / PCM > Diploma Engineering (Polytechnic) > Mechanical Draughtsman / Technician",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The official Courses page enumerates exactly three current diploma programmes, and the About page corroborates the same three-year course set; no other active degree, certificate, or doctoral programme was listed in the official catalogue.",
+    "The managed network proxy returned the exact self-signed certificate-chain error; after confirming the expected public hostnames, public GET requests were retried with curl --insecure.",
+    "The official Board of Technical Education Uttar Pradesh directory was used only for website discovery and campus disambiguation; factual institution and programme evidence comes from gpkursibbk.com."
+  ]
+}

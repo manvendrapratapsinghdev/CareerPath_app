@@ -1,0 +1,62 @@
+{
+  "batch": 30,
+  "started_at": "2026-09-27T13:26:02.436488+00:00",
+  "finished_at": "2026-09-27T13:35:50.690412+00:00",
+  "assignment_count": 5,
+  "completed_count": 3,
+  "skipped_count": 2,
+  "failed_count": 0,
+  "results": [
+    {
+      "institution_id": "government-college-sukhtawa",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified-v2/results/government-college-sukhtawa.json",
+      "finished_at": "2026-09-27T13:26:02.468623+00:00"
+    },
+    {
+      "institution_id": "govt-college-dolriya",
+      "nirf_name": "Govt. College Dolriya",
+      "status": "completed",
+      "started_at": "2026-09-27T13:26:02.447207+00:00",
+      "finished_at": "2026-09-27T13:32:36.357271+00:00",
+      "duration_seconds": 393.796,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified-v2/results/govt-college-dolriya.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified-v2/logs/govt-college-dolriya.jsonl"
+    },
+    {
+      "institution_id": "govt-college-narshingarh-rajgarh",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified-v2/results/govt-college-narshingarh-rajgarh.json",
+      "finished_at": "2026-09-27T13:26:02.468157+00:00"
+    },
+    {
+      "institution_id": "govt-college-nasrullaganj-sehore",
+      "nirf_name": "Govt. College, Nasrullaganj, Sehore",
+      "status": "completed",
+      "started_at": "2026-09-27T13:26:02.458067+00:00",
+      "finished_at": "2026-09-27T13:32:35.846482+00:00",
+      "duration_seconds": 393.363,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified-v2/results/govt-college-nasrullaganj-sehore.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified-v2/logs/govt-college-nasrullaganj-sehore.jsonl"
+    },
+    {
+      "institution_id": "govt-college-neemuch",
+      "nirf_name": "Govt. College, Neemuch",
+      "status": "completed",
+      "started_at": "2026-09-27T13:26:02.463888+00:00",
+      "finished_at": "2026-09-27T13:35:50.687383+00:00",
+      "duration_seconds": 588.188,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified-v2/results/govt-college-neemuch.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified-v2/logs/govt-college-neemuch.jsonl"
+    }
+  ]
+}

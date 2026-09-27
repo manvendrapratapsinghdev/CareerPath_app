@@ -1,0 +1,52 @@
+{
+  "institution_id": "govt-college-makdone",
+  "nirf_name": "Govt College Makdone",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": null,
+  "district_verification_status": "not_found",
+  "official_website": null,
+  "website_verification_status": "not_found",
+  "description": null,
+  "description_verification_status": "not_found",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing_check",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Fetched the NIRF 2025 participating-institutes College page; no exact Makdone entry was found."
+      ]
+    },
+    {
+      "type": "government_listing_check",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Fetched the NIRF 2025 participating-institutes Overall page; no exact Makdone entry was found."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Govt College Makdone\" official",
+      "result": "Google returned a retry/challenge page with no usable organic result; Bing returned unrelated government portals and no institution-specific official website.",
+      "url": "https://www.google.com/search?q=%22Govt+College+Makdone%22+official"
+    },
+    {
+      "query": "\"Government College Makdone\" Ujjain official website",
+      "result": "Google returned a retry/challenge page with no usable organic result; Bing returned unrelated government portals and no institution-specific official website.",
+      "url": "https://www.bing.com/search?q=%22Government+College+Makdone%22+Ujjain+official+website"
+    }
+  ],
+  "course_catalogue_status": "not_found",
+  "courses": [],
+  "agent_notes": [
+    "The supplied NIRF government-directory pages did not contain an exact Makdone entry, so the institution cannot be verified or imported under the stated rules.",
+    "The managed network proxy produced curl error 60 (self-signed certificate in certificate chain); after confirming the expected public hostnames, public GET requests were retried with --insecure.",
+    "Official website, campus/district identity, description, and course catalogue were not established because the required government listing could not be established."
+  ]
+}

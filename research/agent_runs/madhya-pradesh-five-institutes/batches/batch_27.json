@@ -1,0 +1,91 @@
+{
+  "batch": 27,
+  "started_at": "2026-09-27T07:14:41.635907+00:00",
+  "finished_at": "2026-09-27T07:14:50.498869+00:00",
+  "assignment_count": 5,
+  "completed_count": 0,
+  "skipped_count": 0,
+  "failed_count": 5,
+  "results": [
+    {
+      "institution_id": "government-chhatrasal-maharaja-college",
+      "nirf_name": "Government Chhatrasal Maharaja College",
+      "status": "failed",
+      "started_at": "2026-09-27T07:14:41.673571+00:00",
+      "finished_at": "2026-09-27T07:14:48.933384+00:00",
+      "duration_seconds": 7.259,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/government-chhatrasal-maharaja-college.jsonl"
+    },
+    {
+      "institution_id": "government-college-indergarh-datia",
+      "nirf_name": "GOVERNMENT COLLEGE, INDERGARH, DATIA",
+      "status": "failed",
+      "started_at": "2026-09-27T07:14:41.652690+00:00",
+      "finished_at": "2026-09-27T07:14:50.172617+00:00",
+      "duration_seconds": 8.52,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/government-college-indergarh-datia.jsonl"
+    },
+    {
+      "institution_id": "government-college-malajkhand",
+      "nirf_name": "GOVERNMENT COLLEGE, MALAJKHAND",
+      "status": "failed",
+      "started_at": "2026-09-27T07:14:41.698610+00:00",
+      "finished_at": "2026-09-27T07:14:50.493424+00:00",
+      "duration_seconds": 8.795,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/government-college-malajkhand.jsonl"
+    },
+    {
+      "institution_id": "govt-college-lavkush-nagar",
+      "nirf_name": "GOVT COLLEGE LAVKUSH NAGAR",
+      "status": "failed",
+      "started_at": "2026-09-27T07:14:41.667864+00:00",
+      "finished_at": "2026-09-27T07:14:49.427805+00:00",
+      "duration_seconds": 7.76,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/govt-college-lavkush-nagar.jsonl"
+    },
+    {
+      "institution_id": "govt-college-manawar",
+      "nirf_name": "Govt. College, Manawar",
+      "status": "failed",
+      "started_at": "2026-09-27T07:14:41.686862+00:00",
+      "finished_at": "2026-09-27T07:14:50.326546+00:00",
+      "duration_seconds": 8.637,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/govt-college-manawar.jsonl"
+    }
+  ]
+}

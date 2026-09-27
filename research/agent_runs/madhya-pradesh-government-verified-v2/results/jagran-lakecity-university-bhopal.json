@@ -1,0 +1,1336 @@
+{
+  "institution_id": "jagran-lakecity-university-bhopal",
+  "nirf_name": "Jagran Lakecity University, Bhopal",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/EngineeringRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/LawRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Bhopal",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://www.jlu.edu.in/",
+  "website_verification_status": "verified",
+  "description": "Jagran Lakecity University (JLU) is a multidisciplinary private university in Bhopal, Madhya Pradesh, with its main campus at Mugaliyachap, Chandanpura, near Ratibad.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [
+    "jlu-website-media.s3.ap-south-1.amazonaws.com"
+  ],
+  "verification_sources": [
+    {
+      "type": "government_nirf_engineering",
+      "url": "https://www.nirfindia.org/Rankings/2025/EngineeringRankingALL.html",
+      "supports": [
+        "government listing of Jagran Lakecity University, Bhopal"
+      ]
+    },
+    {
+      "type": "government_nirf_law",
+      "url": "https://www.nirfindia.org/Rankings/2025/LawRankingALL.html",
+      "supports": [
+        "government listing of Jagran Lakecity University, Bhopal"
+      ]
+    },
+    {
+      "type": "government_nirf_management",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html",
+      "supports": [
+        "government listing of Jagran Lakecity University, Bhopal"
+      ]
+    },
+    {
+      "type": "government_nirf_overall",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "government listing of Jagran Lakecity University, Bhopal"
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://www.jlu.edu.in/",
+      "supports": [
+        "official identity",
+        "Bhopal campus address",
+        "institution description"
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "https://www.jlu.edu.in/about",
+      "supports": [
+        "JLU Main Campus in Bhopal, Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "official_catalogue",
+      "url": "https://www.jlu.edu.in/admissions",
+      "supports": [
+        "current programme names",
+        "fee catalogue",
+        "programme durations"
+      ]
+    },
+    {
+      "type": "official_academics",
+      "url": "https://www.jlu.edu.in/academics",
+      "supports": [
+        "programme counts",
+        "official programme categories",
+        "link to official brochure"
+      ]
+    },
+    {
+      "type": "official_fee_catalogue",
+      "url": "https://www.jlu.edu.in/Fee-Structure-2026-27.pdf",
+      "supports": [
+        "official 2026-27 programme fee and duration catalogue"
+      ]
+    },
+    {
+      "type": "official_brochure",
+      "url": "https://jlu-website-media.s3.ap-south-1.amazonaws.com/website-content/broucher/JLU-Brochure-2026.pdf",
+      "supports": [
+        "official 2026 programme list including brochure-only programme names"
+      ]
+    }
+  ],
+  "website_search_evidence": [],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "jagran-lakecity-university-bhopal-jlu-bhopal-bba",
+      "name": "BBA",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.jlu.edu.in/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 46,
+          "career_node_slug": "bba",
+          "career_breadcrumb": "Management & Business > BBA (General)",
+          "relation": "direct degree family",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jagran-lakecity-university-bhopal-jlu-bhopal-bba-sports-management",
+      "name": "BBA (Sports Management)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Sports Management",
+      "duration": "3 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.jlu.edu.in/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 368,
+          "career_node_slug": "sports_manager",
+          "career_breadcrumb": "Performing Arts & Sports > Sports & Physical Education > Sports Manager / Agent",
+          "relation": "direct specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jagran-lakecity-university-bhopal-jlu-bhopal-bcom",
+      "name": "B.Com (Finance / HR / Business Analytics / Risk Management)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Finance / HR / Business Analytics / Risk Management",
+      "duration": "3 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.jlu.edu.in/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct degree family",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jagran-lakecity-university-bhopal-jlu-bhopal-bms",
+      "name": "BMS (Marketing / Finance / HR / Business Analytics / Risk Management)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Marketing / Finance / HR / Business Analytics / Risk Management",
+      "duration": "3 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.jlu.edu.in/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest-parent: management and business",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jagran-lakecity-university-bhopal-jlu-bhopal-mba-marketing-finance-hr-logistics",
+      "name": "MBA (Marketing / Finance / HR / Logistics & Supply Chain)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Marketing / Finance / HR / Logistics & Supply Chain",
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.jlu.edu.in/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 208,
+          "career_node_slug": "mba_general",
+          "career_breadcrumb": "Management & Business > BBA (General) > MBA → CEO / Director Track",
+          "relation": "direct degree family",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jagran-lakecity-university-bhopal-jlu-bhopal-mba-business-analytics-family-business",
+      "name": "MBA (Business Analytics / Family Business)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Business Analytics / Family Business",
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.jlu.edu.in/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 208,
+          "career_node_slug": "mba_general",
+          "career_breadcrumb": "Management & Business > BBA (General) > MBA → CEO / Director Track",
+          "relation": "direct degree family",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jagran-lakecity-university-bhopal-jlu-bhopal-bsc-hospitality",
+      "name": "B.Sc (Hospitality and Hotel Administration)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Hospitality and Hotel Administration",
+      "duration": "3 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.jlu.edu.in/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 79,
+          "career_node_slug": "hotel_mgmt",
+          "career_breadcrumb": "Performing Arts & Sports > Hotel Management & Tourism",
+          "relation": "closest-specialization: hospitality and hotel administration",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jagran-lakecity-university-bhopal-jlu-bhopal-bba-aviation-airport-management",
+      "name": "BBA (Aviation and Airport Management)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Aviation and Airport Management",
+      "duration": "3 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.jlu.edu.in/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 371,
+          "career_node_slug": "airline_cabin_crew",
+          "career_breadcrumb": "Performing Arts & Sports > Hotel Management & Tourism > Airline Cabin Crew",
+          "relation": "closest-specialization: aviation and airport management has no exact tree node",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jagran-lakecity-university-bhopal-jlu-bhopal-bachelor-physical-education-sports-science",
+      "name": "Bachelor of Physical Education and Sports Science",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Physical Education and Sports Science",
+      "duration": "3 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.jlu.edu.in/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 78,
+          "career_node_slug": "sports_career",
+          "career_breadcrumb": "Performing Arts & Sports > Sports & Physical Education",
+          "relation": "direct discipline family",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jagran-lakecity-university-bhopal-jlu-bhopal-master-physical-education-sports-science",
+      "name": "Master of Physical Education and Sports Science",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Physical Education and Sports Science",
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.jlu.edu.in/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 78,
+          "career_node_slug": "sports_career",
+          "career_breadcrumb": "Performing Arts & Sports > Sports & Physical Education",
+          "relation": "direct discipline family",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jagran-lakecity-university-bhopal-jlu-bhopal-ba-journalism-mass-communication",
+      "name": "BA (Journalism and Mass Communication)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Journalism and Mass Communication",
+      "duration": "3 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.jlu.edu.in/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 59,
+          "career_node_slug": "bjmc",
+          "career_breadcrumb": "Media & Journalism > B.J.M.C (Journalism & Mass Comm)",
+          "relation": "direct discipline family",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jagran-lakecity-university-bhopal-jlu-bhopal-ma-mass-communication",
+      "name": "MA (Mass Communication)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Mass Communication",
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.jlu.edu.in/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 59,
+          "career_node_slug": "bjmc",
+          "career_breadcrumb": "Media & Journalism > B.J.M.C (Journalism & Mass Comm)",
+          "relation": "closest-specialization: mass communication",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jagran-lakecity-university-bhopal-jlu-bhopal-bba-advertising-pr",
+      "name": "BBA (Advertising and PR)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Advertising and PR",
+      "duration": "3 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.jlu.edu.in/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 47,
+          "career_node_slug": "bba_marketing",
+          "career_breadcrumb": "Management & Business > BBA Marketing",
+          "relation": "closest-specialization: advertising and public relations",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jagran-lakecity-university-bhopal-jlu-bhopal-mba-advertising-pr",
+      "name": "MBA (Advertising and PR)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Advertising and PR",
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.jlu.edu.in/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 47,
+          "career_node_slug": "bba_marketing",
+          "career_breadcrumb": "Management & Business > BBA Marketing",
+          "relation": "closest-specialization: advertising and public relations",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jagran-lakecity-university-bhopal-jlu-bhopal-bba-events-entertainment",
+      "name": "BBA (Events and Entertainment)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Events and Entertainment",
+      "duration": "3 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.jlu.edu.in/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 306,
+          "career_node_slug": "event_manager",
+          "career_breadcrumb": "Performing Arts & Sports > Hotel Management & Tourism > Event Manager",
+          "relation": "direct specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jagran-lakecity-university-bhopal-jlu-bhopal-ba-english-literature",
+      "name": "BA (Hons) English Literature",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "English Literature",
+      "duration": "3 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.jlu.edu.in/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "direct discipline family",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jagran-lakecity-university-bhopal-jlu-bhopal-ba-economics",
+      "name": "BA (Hons) Economics",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Economics",
+      "duration": "3 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.jlu.edu.in/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct discipline family",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jagran-lakecity-university-bhopal-jlu-bhopal-ba-public-policy",
+      "name": "BA (Hons) Public Policy",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Public Policy",
+      "duration": "3 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.jlu.edu.in/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 273,
+          "career_node_slug": "policy_analyst",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics > Policy Analyst",
+          "relation": "closest-specialization: public policy",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jagran-lakecity-university-bhopal-jlu-bhopal-ba-psychology",
+      "name": "BA (Hons) Psychology",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Psychology",
+      "duration": "3 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.jlu.edu.in/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 66,
+          "career_node_slug": "ba_psychology",
+          "career_breadcrumb": "Social Sciences & Education > BA Psychology",
+          "relation": "direct discipline family",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jagran-lakecity-university-bhopal-jlu-bhopal-ma-english-literature",
+      "name": "MA English Literature",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "English Literature",
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.jlu.edu.in/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "closest-specialization: English literature",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jagran-lakecity-university-bhopal-jlu-bhopal-ma-psychology",
+      "name": "MA Psychology (Clinical / Career Counselling)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Clinical / Career Counselling",
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.jlu.edu.in/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 66,
+          "career_node_slug": "ba_psychology",
+          "career_breadcrumb": "Social Sciences & Education > BA Psychology",
+          "relation": "closest-specialization: psychology",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jagran-lakecity-university-bhopal-jlu-bhopal-bdes-fashion-communication",
+      "name": "B.Des (Fashion Communication)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Fashion Communication",
+      "duration": "4 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.jlu.edu.in/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 230,
+          "career_node_slug": "fashion_design",
+          "career_breadcrumb": "Design & Architecture > B.Des (Design) > Fashion Designer",
+          "relation": "direct specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jagran-lakecity-university-bhopal-jlu-bhopal-bdes-ux",
+      "name": "Bachelor of Design (User Experience Design)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "User Experience Design",
+      "duration": "4 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.jlu.edu.in/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 229,
+          "career_node_slug": "ux_design",
+          "career_breadcrumb": "Design & Architecture > B.Des (Design) > UX/UI Designer",
+          "relation": "direct specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jagran-lakecity-university-bhopal-jlu-bhopal-bdes-animation-film",
+      "name": "Bachelor of Design (Animation and Film Design)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Animation and Film Design",
+      "duration": "4 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.jlu.edu.in/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 246,
+          "career_node_slug": "animation",
+          "career_breadcrumb": "Media & Journalism > B.F.A (Fine Arts) > Animator / VFX Artist",
+          "relation": "direct specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jagran-lakecity-university-bhopal-jlu-bhopal-bdes-visual-communication",
+      "name": "Bachelor of Design (Visual Communication)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Visual Communication",
+      "duration": "4 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.jlu.edu.in/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 231,
+          "career_node_slug": "graphic_designer",
+          "career_breadcrumb": "Design & Architecture > B.Des (Design) > Graphic Designer",
+          "relation": "closest-specialization: visual communication",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jagran-lakecity-university-bhopal-jlu-bhopal-bdes-interior-architecture",
+      "name": "Bachelor of Design (Interior Architecture)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Interior Architecture",
+      "duration": "4 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.jlu.edu.in/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 233,
+          "career_node_slug": "interior_design",
+          "career_breadcrumb": "Design & Architecture > B.Arch (Architecture) > Interior Designer",
+          "relation": "direct specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jagran-lakecity-university-bhopal-jlu-bhopal-bdes-industrial-design",
+      "name": "Bachelor of Design (Industrial Design)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Industrial Design",
+      "duration": "4 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.jlu.edu.in/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 239,
+          "career_node_slug": "industrial_designer",
+          "career_breadcrumb": "Design & Architecture > NID (Industrial Design) > Industrial Designer",
+          "relation": "direct specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jagran-lakecity-university-bhopal-jlu-bhopal-mdes-ux",
+      "name": "Master of Design (User Experience Design)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "User Experience Design",
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.jlu.edu.in/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 229,
+          "career_node_slug": "ux_design",
+          "career_breadcrumb": "Design & Architecture > B.Des (Design) > UX/UI Designer",
+          "relation": "closest-specialization: user experience design",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jagran-lakecity-university-bhopal-jlu-bhopal-barch",
+      "name": "Bachelor of Architecture",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Architecture",
+      "duration": "5 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.jlu.edu.in/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 105,
+          "career_node_slug": "architect_sci",
+          "career_breadcrumb": "Maths / PCM > B.Arch (Architecture) > Architect",
+          "relation": "direct specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jagran-lakecity-university-bhopal-jlu-bhopal-btech-cse",
+      "name": "B.Tech (Computer Science and Engineering)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Computer Science and Engineering",
+      "duration": "4 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.jlu.edu.in/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jagran-lakecity-university-bhopal-jlu-bhopal-mtech-cse",
+      "name": "M.Tech (Computer Science and Engineering)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Computer Science and Engineering",
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.jlu.edu.in/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "closest-specialization: computer science and engineering",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jagran-lakecity-university-bhopal-jlu-bhopal-btech-ai",
+      "name": "B.Tech (Artificial Intelligence)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Artificial Intelligence",
+      "duration": "4 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.jlu.edu.in/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 81,
+          "career_node_slug": "btech_ai",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > AI & Machine Learning",
+          "relation": "closest-specialization: artificial intelligence",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jagran-lakecity-university-bhopal-jlu-bhopal-mtech-ai",
+      "name": "M.Tech (Artificial Intelligence)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Artificial Intelligence",
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.jlu.edu.in/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 81,
+          "career_node_slug": "btech_ai",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > AI & Machine Learning",
+          "relation": "closest-specialization: artificial intelligence",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jagran-lakecity-university-bhopal-jlu-bhopal-bca-general",
+      "name": "BCA (General)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "General",
+      "duration": "3 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.jlu.edu.in/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jagran-lakecity-university-bhopal-jlu-bhopal-bca-data-science",
+      "name": "BCA (Data Science)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Data Science",
+      "duration": "3 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.jlu.edu.in/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 31,
+          "career_node_slug": "bsc_ds",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Data Science",
+          "relation": "closest-specialization: data science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jagran-lakecity-university-bhopal-jlu-bhopal-bca-cloud-computing",
+      "name": "BCA (Cloud Computing)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Cloud Computing",
+      "duration": "3 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.jlu.edu.in/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 311,
+          "career_node_slug": "cloud_architect",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science > Cloud Architect",
+          "relation": "closest-specialization: cloud computing",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jagran-lakecity-university-bhopal-jlu-bhopal-bca-full-stack",
+      "name": "BCA (Full Stack Development)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Full Stack Development",
+      "duration": "3 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.jlu.edu.in/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 356,
+          "career_node_slug": "fullstack_engineer",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science > Full Stack Engineer",
+          "relation": "direct specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jagran-lakecity-university-bhopal-jlu-bhopal-bca-user-experience",
+      "name": "BCA (User Experience)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "User Experience",
+      "duration": "3 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.jlu.edu.in/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 229,
+          "career_node_slug": "ux_design",
+          "career_breadcrumb": "Design & Architecture > B.Des (Design) > UX/UI Designer",
+          "relation": "closest-specialization: user experience",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jagran-lakecity-university-bhopal-jlu-bhopal-mca",
+      "name": "MCA",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.jlu.edu.in/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 93,
+          "career_node_slug": "mca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications) > MCA → Software Engineer",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jagran-lakecity-university-bhopal-jlu-bhopal-b-pharma",
+      "name": "B. Pharma",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Pharmacy",
+      "duration": "4 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.jlu.edu.in/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "direct course slug; career-tree label is inconsistent",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jagran-lakecity-university-bhopal-jlu-bhopal-ba-llb",
+      "name": "B.A.LL.B. (Hons)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Law",
+      "duration": "5 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.jlu.edu.in/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 63,
+          "career_node_slug": "ba_llb",
+          "career_breadcrumb": "Law & Civil Services > BA LLB (5-Year Integrated)",
+          "relation": "direct degree family",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jagran-lakecity-university-bhopal-jlu-bhopal-bba-llb",
+      "name": "B.B.A.LL.B. (Hons)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Law",
+      "duration": "5 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.jlu.edu.in/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 50,
+          "career_node_slug": "bba_llb",
+          "career_breadcrumb": "Law & Legal > BBA LLB (5-Year Integrated)",
+          "relation": "direct degree family",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jagran-lakecity-university-bhopal-jlu-bhopal-bba-business-law",
+      "name": "BBA (Business and Law)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Business and Law",
+      "duration": "3 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.jlu.edu.in/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 50,
+          "career_node_slug": "bba_llb",
+          "career_breadcrumb": "Law & Legal > BBA LLB (5-Year Integrated)",
+          "relation": "closest-specialization: business and law",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jagran-lakecity-university-bhopal-jlu-bhopal-llb",
+      "name": "LL.B.",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Law",
+      "duration": "3 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.jlu.edu.in/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 343,
+          "career_node_slug": "commerce_law",
+          "career_breadcrumb": "Law & Legal",
+          "relation": "nearest-parent: law and legal",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jagran-lakecity-university-bhopal-jlu-bhopal-llm",
+      "name": "LL.M. (Corporate and IP Law / Cyber Law and Cyber Security / Criminal Law and Criminal Justice / Constitutional Law)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Corporate and IP Law / Cyber Law and Cyber Security / Criminal Law and Criminal Justice / Constitutional Law",
+      "duration": "1 Year",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.jlu.edu.in/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 380,
+          "career_node_slug": "ipr_lawyer",
+          "career_breadcrumb": "Law & Legal > Intellectual Property Rights Lawyer",
+          "relation": "direct specialization: intellectual property",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 379,
+          "career_node_slug": "cyber_lawyer_comm",
+          "career_breadcrumb": "Law & Legal > Cyber Law Specialist",
+          "relation": "direct specialization: cyber law",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 255,
+          "career_node_slug": "criminal_lawyer",
+          "career_breadcrumb": "Law & Civil Services > BA LLB (5-Year Integrated) > Criminal Lawyer",
+          "relation": "closest-specialization: criminal law",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 343,
+          "career_node_slug": "commerce_law",
+          "career_breadcrumb": "Law & Legal",
+          "relation": "nearest-parent: corporate and constitutional law",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jagran-lakecity-university-bhopal-jlu-bhopal-phd-regular",
+      "name": "Ph.D (Regular)",
+      "level": "doctoral",
+      "credential": "Doctoral degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.jlu.edu.in/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "The official catalogue identifies the doctorate format but does not state a discipline, so no responsible career-tree node can be assigned."
+    },
+    {
+      "course_id": "jagran-lakecity-university-bhopal-jlu-bhopal-phd-executive",
+      "name": "Ph.D (Executive)",
+      "level": "doctoral",
+      "credential": "Doctoral degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.jlu.edu.in/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "The official catalogue identifies the doctorate format but does not state a discipline, so no responsible career-tree node can be assigned."
+    },
+    {
+      "course_id": "jagran-lakecity-university-bhopal-jlu-bhopal-bdes-graphic-design-brochure",
+      "name": "B.Des (Graphic Design)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Graphic Design",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://jlu-website-media.s3.ap-south-1.amazonaws.com/website-content/broucher/JLU-Brochure-2026.pdf",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 231,
+          "career_node_slug": "graphic_designer",
+          "career_breadcrumb": "Design & Architecture > B.Des (Design) > Graphic Designer",
+          "relation": "direct specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jagran-lakecity-university-bhopal-jlu-bhopal-bsc-animation-game-production",
+      "name": "B.Sc. Animation & Game Production",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Animation and Game Production",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://jlu-website-media.s3.ap-south-1.amazonaws.com/website-content/broucher/JLU-Brochure-2026.pdf",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 246,
+          "career_node_slug": "animation",
+          "career_breadcrumb": "Media & Journalism > B.F.A (Fine Arts) > Animator / VFX Artist",
+          "relation": "direct specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jagran-lakecity-university-bhopal-jlu-bhopal-btech-data-science-brochure",
+      "name": "B.Tech (Data Science)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Data Science",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://jlu-website-media.s3.ap-south-1.amazonaws.com/website-content/broucher/JLU-Brochure-2026.pdf",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 31,
+          "career_node_slug": "bsc_ds",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Data Science",
+          "relation": "closest-specialization: data science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jagran-lakecity-university-bhopal-jlu-bhopal-mtech-data-science-brochure",
+      "name": "M.Tech (Data Science)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Data Science",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://jlu-website-media.s3.ap-south-1.amazonaws.com/website-content/broucher/JLU-Brochure-2026.pdf",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 31,
+          "career_node_slug": "bsc_ds",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Data Science",
+          "relation": "closest-specialization: data science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jagran-lakecity-university-bhopal-jlu-bhopal-btech-robotics-automation",
+      "name": "B.Tech (Robotics and Automation)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Robotics and Automation",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://jlu-website-media.s3.ap-south-1.amazonaws.com/website-content/broucher/JLU-Brochure-2026.pdf",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 363,
+          "career_node_slug": "btech_robotics",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering > Robotics Engineering",
+          "relation": "direct specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jagran-lakecity-university-bhopal-jlu-bhopal-btech-sustainable-engineering",
+      "name": "B.Tech (Sustainable Engineering)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Sustainable Engineering",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://jlu-website-media.s3.ap-south-1.amazonaws.com/website-content/broucher/JLU-Brochure-2026.pdf",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 362,
+          "career_node_slug": "renewable_energy_engineer",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering > Renewable Energy Engineer",
+          "relation": "closest-specialization: sustainable engineering",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "All four supplied NIRF 2025 category pages list Jagran Lakecity University, Bhopal; the government name and city match the assigned institution.",
+    "The official site identifies the campus as Mugaliyachap, Chandanpura, near Ratibad, Bhopal, Madhya Pradesh, PIN 462044.",
+    "The official admissions page enumerates a 47-row fee catalogue, while the official academics page states 52+ programmes (UG 29, PG 10, PhD 10); the official /programs route currently returns a 404 page, and the linked 2026 brochure lists additional programme names not present in the fee table. Catalogue completeness is unresolved, so this record requires manual review.",
+    "The official admissions page does not state programme eligibility; eligibility fields are therefore null. Brochure-only programme rows also have null duration because the brochure lists the names but does not provide a central duration for them.",
+    "The official homepage/about describe JLU as a private university, while INSTITUTION_CONTEXT labels institution_type as state_university. The supplied government listings establish the institution name and Bhopal city but do not resolve this type discrepancy.",
+    "Normal curl TLS verification failed with the exact proxy error 'self signed certificate in certificate chain'. After confirming the expected NIRF, jlu.edu.in, and linked official media hostnames, public GET requests used curl --insecure as permitted."
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "institution_id": "legacy-20",
+  "database_id": 20,
+  "name": "VG Learning Destination",
+  "website": "https://vgld.in",
+  "outcome": "manual_review",
+  "institution_type": null,
+  "source_url": null,
+  "confidence": null,
+  "evidence": null,
+  "notes": [
+    "Normal HTTPS request to https://vgld.in/ failed because DNS returned NXDOMAIN; no certificate fallback was used.",
+    "The supplied official domain could not be accessed or confirmed, so the institutional type cannot be established confidently."
+  ]
+}

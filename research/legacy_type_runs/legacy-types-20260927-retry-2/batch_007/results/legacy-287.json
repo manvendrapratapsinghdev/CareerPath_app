@@ -1,0 +1,15 @@
+{
+  "institution_id": "legacy-287",
+  "database_id": 287,
+  "name": "Bharatiya Vidya Bhavan",
+  "website": "https://www.bharatiyavidyabhavan.org",
+  "outcome": "manual_review",
+  "institution_type": null,
+  "source_url": null,
+  "confidence": null,
+  "evidence": null,
+  "notes": [
+    "The supplied hostname and apex domain both returned DNS NXDOMAIN, so the official site could not be accessed or confirmed.",
+    "curl --insecure was not used because the failure was DNS resolution, not a proxy certificate-chain error."
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "institution_id": "government-college-singoli",
+  "nirf_name": "GOVERNMENT COLLEGE, SINGOLI",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Neemuch",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://highereducation.mp.gov.in/?orgid=298",
+  "website_verification_status": "verified",
+  "description": "Shri Virendra Kumar Sakhalecha Government College is a government higher-education college in Singoli, Neemuch district, Madhya Pradesh.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Lists GOVERNMENT COLLEGE, SINGOLI in Singoli, Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "official_mp_higher_education_college_directory",
+      "url": "https://highereducation.mp.gov.in/?page=3ReniKuyIMmDd4opO%2FkIdA%3D%3D",
+      "supports": [
+        "Lists the Singoli government college and maps it to college record 298."
+      ]
+    },
+    {
+      "type": "official_institution_profile",
+      "url": "https://highereducation.mp.gov.in/?orgid=298",
+      "supports": [
+        "Institution-specific official profile with About Us, Infrastructure, Academics, Regular Courses, and Distance Education Courses sections."
+      ]
+    },
+    {
+      "type": "official_identity_api",
+      "url": "https://highereducation.mp.gov.in/CollegeDisp/getTable",
+      "supports": [
+        "Identifies orgid 298 as Shri Virendra Kumar Sakhalecha Government College, Singoli, CollegeCode 1611, District Neemuch."
+      ]
+    },
+    {
+      "type": "official_regular_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=6uJxLRI0YzKRLJp5rQ065w%3D%3D&orgid=298",
+      "supports": [
+        "Shows PG, UG, and Diploma programme sections, but no programme rows or names."
+      ]
+    },
+    {
+      "type": "official_distance_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=y7eAp1I5eOiKEl7ZEEhFbQ%3D%3D&orgid=298",
+      "supports": [
+        "Shows distance PG, UG, and Diploma sections, but no programme rows or names."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "Government College Singoli Madhya Pradesh official website",
+      "result": "Bing returned unrelated government portals and did not establish an institution website.",
+      "url": "https://www.bing.com/search?q=Government+College+Singoli+Madhya+Pradesh+official+website"
+    },
+    {
+      "query": "\"Government College, Singoli\" official",
+      "result": "Bing returned unrelated government and general-information results; no usable institution-site result.",
+      "url": "https://www.bing.com/search?q=%22Government+College%2C+Singoli%22+official"
+    },
+    {
+      "query": "\"Government College Singoli\" Madhya Pradesh",
+      "result": "Bing returned unrelated government and general-information results; no usable institution-site result.",
+      "url": "https://www.bing.com/search?q=%22Government+College+Singoli%22+Madhya+Pradesh"
+    },
+    {
+      "query": "site:ac.in \"Government College\" \"Singoli\"",
+      "result": "Bing returned unrelated results and did not establish an institution website.",
+      "url": "https://www.bing.com/search?q=site%3Aac.in+%22Government+College%22+%22Singoli%22"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [],
+  "agent_notes": [
+    "The official Madhya Pradesh Higher Education directory links this institution record to an official profile on highereducation.mp.gov.in; the profile is campus-specific and its identity record confirms Singoli and Neemuch.",
+    "The official Regular Courses and Distance Education Courses pages contain only PG, UG, and Diploma headings with no programme rows, so the active catalogue is incomplete; no course names were imported or guessed.",
+    "Normal TLS verification for the expected official hosts failed with the exact proxy self-signed certificate-in-chain error; public GET requests were retried with curl --insecure after confirming each hostname."
+  ]
+}

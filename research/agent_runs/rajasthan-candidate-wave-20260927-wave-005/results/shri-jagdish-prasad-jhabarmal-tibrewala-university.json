@@ -1,0 +1,1298 @@
+{
+  "institution_id": "shri-jagdish-prasad-jhabarmal-tibrewala-university",
+  "nirf_name": "Shri Jagdish Prasad Jhabarmal Tibrewala University",
+  "verification_outcome": "manual_review",
+  "district": "Jhunjhunu",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://jjtu.ac.in/",
+  "website_verification_status": "verified",
+  "description": "Shri Jagdishprasad Jhabarmal Tibrewala University is a private university established by an Act of the Rajasthan state legislature in 2009 and recognized by UGC under section 22. Its 30-acre campus is at Vidyanagari, Chudela on the Jhunjhunu–Churu Road in Jhunjhunu district, Rajasthan, and offers multidisciplinary education including law and pharmacy.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "official_homepage",
+      "url": "https://jjtu.ac.in/",
+      "supports": [
+        "official institution identity",
+        "official website domain",
+        "programme families including Doctor Of Philosophy (Ph.D.) and Certificate Courses",
+        "campus address"
+      ]
+    },
+    {
+      "type": "official_identity_and_campus_page",
+      "url": "https://jjtu.ac.in/page/225",
+      "supports": [
+        "institution identity",
+        "Rajasthan state-legislature establishment",
+        "Jhunjhunu campus location",
+        "campus description"
+      ]
+    },
+    {
+      "type": "official_current_catalogue_index",
+      "url": "https://jjtu.ac.in/page/355",
+      "supports": [
+        "current 2026-27 course catalogue links",
+        "current fee brochure link",
+        "current academic prospectus link"
+      ]
+    },
+    {
+      "type": "official_current_academic_prospectus",
+      "url": "https://www.jjtu.ac.in/uploads/2025/Adminsion-2025-2026/FC-Academic-Prospectus-For-Session-2026-27.pdf",
+      "supports": [
+        "2026-27 programme names",
+        "programme duration",
+        "eligibility",
+        "law and pharmacy catalogue",
+        "campus description"
+      ]
+    },
+    {
+      "type": "official_current_course_fee_brochure",
+      "url": "https://www.jjtu.ac.in/uploads/2025/Adminsion-2025-2026/Fee/Academics-Fee%20-Brochure-2026-27.pdf",
+      "supports": [
+        "2026-27 admission/course listing",
+        "campus identity",
+        "cross-check of current programme catalogue"
+      ]
+    },
+    {
+      "type": "official_undergraduate_catalogue_page",
+      "url": "https://jjtu.ac.in/page/345",
+      "supports": [
+        "BNYS programme naming and undergraduate catalogue detail"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Shri Jagdish Prasad Jhabarmal Tibrewala University\" official website",
+      "result": "Google search request hit the managed proxy certificate-chain error; the permitted insecure retry returned HTTP 429 and no result page.",
+      "url": "https://www.google.com/search?q=%22Shri+Jagdish+Prasad+Jhabarmal+Tibrewala+University%22+official+website"
+    },
+    {
+      "query": "Jagdish Prasad Jhabarmal Tibrewala University Jhunjhunu website",
+      "result": "Bing search completed, but its parsed results contained no matching official institution result.",
+      "url": "https://www.bing.com/search?q=Jagdish+Prasad+Jhabarmal+Tibrewala+University+Jhunjhunu+website"
+    },
+    {
+      "query": "SJJTU University Jhunjhunu",
+      "result": "Google autocomplete returned JJTU-related Jhunjhunu queries; direct HTTPS probing of the suggested JJTU domain identified jjtu.ac.in, whose homepage identifies Shri JJT University and the Jhunjhunu campus.",
+      "url": "https://www.google.com/complete/search?client=firefox&q=SJJTU%20University%20Jhunjhunu"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "shri-jagdish-prasad-jhabarmal-tibrewala-university-sjjtu-2026-27-diploma",
+      "name": "Diploma",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": "3 Years (6 Semesters)",
+      "mode": "not stated",
+      "eligibility": "10th with 45% for unreserved and 40% for reserved Categories",
+      "official_course_url": "https://www.jjtu.ac.in/uploads/2025/Adminsion-2025-2026/FC-Academic-Prospectus-For-Session-2026-27.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 11,
+          "career_node_slug": "diploma_engg",
+          "career_breadcrumb": "Maths / PCM > Diploma Engineering (Polytechnic)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-jagdish-prasad-jhabarmal-tibrewala-university-sjjtu-2026-27-diploma-lateral",
+      "name": "Diploma (Lateral)",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": "2 Years (4 Semesters)",
+      "mode": "not stated",
+      "eligibility": "12th (PCM) with 45% for unreserved and 40% for reserved Categories",
+      "official_course_url": "https://www.jjtu.ac.in/uploads/2025/Adminsion-2025-2026/FC-Academic-Prospectus-For-Session-2026-27.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 11,
+          "career_node_slug": "diploma_engg",
+          "career_breadcrumb": "Maths / PCM > Diploma Engineering (Polytechnic)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-jagdish-prasad-jhabarmal-tibrewala-university-sjjtu-2026-27-btech",
+      "name": "B.Tech",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "4 Years (8 Semesters)",
+      "mode": "not stated",
+      "eligibility": "12th (PCM) with 45% for unreserved and 40% for reserved Categories",
+      "official_course_url": "https://www.jjtu.ac.in/uploads/2025/Adminsion-2025-2026/FC-Academic-Prospectus-For-Session-2026-27.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-jagdish-prasad-jhabarmal-tibrewala-university-sjjtu-2026-27-btech-lateral",
+      "name": "B.Tech (Lateral)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "3 Years (6 Semesters)",
+      "mode": "not stated",
+      "eligibility": "Diploma in Concerned Subject with 45% for unreserved and 40% for reserved Categories",
+      "official_course_url": "https://www.jjtu.ac.in/uploads/2025/Adminsion-2025-2026/FC-Academic-Prospectus-For-Session-2026-27.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-jagdish-prasad-jhabarmal-tibrewala-university-sjjtu-2026-27-mtech",
+      "name": "M.Tech",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": "2 Years (4 Semesters)",
+      "mode": "not stated",
+      "eligibility": "B. Tech in Concerned Subject with 50% for unreserved and 45% for reserved Categories",
+      "official_course_url": "https://www.jjtu.ac.in/uploads/2025/Adminsion-2025-2026/FC-Academic-Prospectus-For-Session-2026-27.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-jagdish-prasad-jhabarmal-tibrewala-university-sjjtu-2026-27-bsc",
+      "name": "Bachelor of Science (B.Sc.)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Bio-Science & Physical Science",
+      "duration": "3 Years / 4 Years (6 / 8 Semesters)",
+      "mode": "not stated",
+      "eligibility": "12th in Concerned Subject with 45% for unreserved and 40% for reserved Categories",
+      "official_course_url": "https://www.jjtu.ac.in/uploads/2025/Adminsion-2025-2026/FC-Academic-Prospectus-For-Session-2026-27.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 337,
+          "career_node_slug": "science_common",
+          "career_breadcrumb": "Common Paths",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-jagdish-prasad-jhabarmal-tibrewala-university-sjjtu-2026-27-msc",
+      "name": "Master of Science (M.Sc.)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Physics, Chemistry, Mathematics, Zoology, Botany, Microbiology, Biotechnology, Biochemistry",
+      "duration": "2 Years (4 Semesters)",
+      "mode": "not stated",
+      "eligibility": "B.Sc. with Concerned Subjects from any recognised University",
+      "official_course_url": "https://www.jjtu.ac.in/uploads/2025/Adminsion-2025-2026/FC-Academic-Prospectus-For-Session-2026-27.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 153,
+          "career_node_slug": "msc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics > M.Sc Physics → Researcher / Professor",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 155,
+          "career_node_slug": "msc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry > M.Sc Chemistry → Researcher",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 90,
+          "career_node_slug": "msc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics > M.Sc Mathematics → Professor / Researcher",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 146,
+          "career_node_slug": "msc_biotech",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech > M.Sc Biotechnology → Researcher",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 34,
+          "career_node_slug": "bsc_microbio",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Microbiology",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 35,
+          "career_node_slug": "bsc_biochem",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Biochemistry",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-jagdish-prasad-jhabarmal-tibrewala-university-sjjtu-2026-27-ba",
+      "name": "Bachelor of Arts (B.A.)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Hindi, English, Geography, History, Political Science, Economics, Sociology, Psychology & Sanskrit",
+      "duration": "3 Years (6 Semesters)",
+      "mode": "not stated",
+      "eligibility": "12th with 45 % for unreserved and 40% for reserved Categories",
+      "official_course_url": "https://www.jjtu.ac.in/uploads/2025/Adminsion-2025-2026/FC-Academic-Prospectus-For-Session-2026-27.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-jagdish-prasad-jhabarmal-tibrewala-university-sjjtu-2026-27-ma",
+      "name": "Master of Arts (M.A.)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Hindi, English, Geography, History, Political Science, Economics, Sociology, Psychology & Sanskrit",
+      "duration": "2 Years (4 Semesters)",
+      "mode": "not stated",
+      "eligibility": "Graduation with Concerned Subject",
+      "official_course_url": "https://www.jjtu.ac.in/uploads/2025/Adminsion-2025-2026/FC-Academic-Prospectus-For-Session-2026-27.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-jagdish-prasad-jhabarmal-tibrewala-university-sjjtu-2026-27-bcom",
+      "name": "B.Com",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "3/4 Years (6/8 Semesters)",
+      "mode": "not stated",
+      "eligibility": "12th in Commerce with 45% for unreserved and 40% for reserved Categories",
+      "official_course_url": "https://www.jjtu.ac.in/uploads/2025/Adminsion-2025-2026/FC-Academic-Prospectus-For-Session-2026-27.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-jagdish-prasad-jhabarmal-tibrewala-university-sjjtu-2026-27-mcom",
+      "name": "M.Com",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": "2 Years (4 Semesters)",
+      "mode": "not stated",
+      "eligibility": "B.Com. from any recognized university",
+      "official_course_url": "https://www.jjtu.ac.in/uploads/2025/Adminsion-2025-2026/FC-Academic-Prospectus-For-Session-2026-27.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 198,
+          "career_node_slug": "mcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons) > M.Com → Professor / Researcher",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-jagdish-prasad-jhabarmal-tibrewala-university-sjjtu-2026-27-bba",
+      "name": "B.B.A.",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "3/4 Years (6/8 Semesters)",
+      "mode": "not stated",
+      "eligibility": "12th from any recognized board",
+      "official_course_url": "https://www.jjtu.ac.in/uploads/2025/Adminsion-2025-2026/FC-Academic-Prospectus-For-Session-2026-27.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 46,
+          "career_node_slug": "bba",
+          "career_breadcrumb": "Management & Business > BBA (General)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-jagdish-prasad-jhabarmal-tibrewala-university-sjjtu-2026-27-mba",
+      "name": "M.B.A.",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": "2 Years (4 Semesters)",
+      "mode": "not stated",
+      "eligibility": "Graduation with 50% for unreserved and 45% for reserved Categories",
+      "official_course_url": "https://www.jjtu.ac.in/uploads/2025/Adminsion-2025-2026/FC-Academic-Prospectus-For-Session-2026-27.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 208,
+          "career_node_slug": "mba_general",
+          "career_breadcrumb": "Management & Business > BBA (General) > MBA → CEO / Director Track",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-jagdish-prasad-jhabarmal-tibrewala-university-sjjtu-2026-27-bhm",
+      "name": "B.H.M.",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "4 Years (8 Semesters)",
+      "mode": "not stated",
+      "eligibility": "12th with 50% for unreserved and 45% for reserved Categories",
+      "official_course_url": "https://www.jjtu.ac.in/uploads/2025/Adminsion-2025-2026/FC-Academic-Prospectus-For-Session-2026-27.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 79,
+          "career_node_slug": "hotel_mgmt",
+          "career_breadcrumb": "Performing Arts & Sports > Hotel Management & Tourism",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-jagdish-prasad-jhabarmal-tibrewala-university-sjjtu-2026-27-mhm",
+      "name": "M.H.M.",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": "2 Years (4 Semesters)",
+      "mode": "not stated",
+      "eligibility": "Graduation with 45% for unreserved and 40% for reserved Categories",
+      "official_course_url": "https://www.jjtu.ac.in/uploads/2025/Adminsion-2025-2026/FC-Academic-Prospectus-For-Session-2026-27.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 79,
+          "career_node_slug": "hotel_mgmt",
+          "career_breadcrumb": "Performing Arts & Sports > Hotel Management & Tourism",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-jagdish-prasad-jhabarmal-tibrewala-university-sjjtu-2026-27-bca",
+      "name": "B.C.A.",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "3/4 Years (6/8 Semesters)",
+      "mode": "not stated",
+      "eligibility": "12th from any recognized board",
+      "official_course_url": "https://www.jjtu.ac.in/uploads/2025/Adminsion-2025-2026/FC-Academic-Prospectus-For-Session-2026-27.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-jagdish-prasad-jhabarmal-tibrewala-university-sjjtu-2026-27-mca",
+      "name": "M.C.A.",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": "2 Years (4 Semesters)",
+      "mode": "not stated",
+      "eligibility": "Graduation with 50% for unreserved and 45% for reserved Categories",
+      "official_course_url": "https://www.jjtu.ac.in/uploads/2025/Adminsion-2025-2026/FC-Academic-Prospectus-For-Session-2026-27.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 93,
+          "career_node_slug": "mca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications) > MCA → Software Engineer",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-jagdish-prasad-jhabarmal-tibrewala-university-sjjtu-2026-27-bca-mca-integrated",
+      "name": "B.C.A. + M.C.A. (Integrated)",
+      "level": "integrated",
+      "credential": "Integrated bachelor's and master's degree",
+      "specialization": null,
+      "duration": "5 Years (10 Semesters)",
+      "mode": "not stated",
+      "eligibility": "12th with 45% for unreserved and 40% for reserved Categories",
+      "official_course_url": "https://www.jjtu.ac.in/uploads/2025/Adminsion-2025-2026/FC-Academic-Prospectus-For-Session-2026-27.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-jagdish-prasad-jhabarmal-tibrewala-university-sjjtu-2026-27-msc-it",
+      "name": "M.Sc. IT",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Information Technology",
+      "duration": "2 Years (4 Semesters)",
+      "mode": "not stated",
+      "eligibility": "Graduation with 50% for unreserved and 45% for reserved Categories",
+      "official_course_url": "https://www.jjtu.ac.in/uploads/2025/Adminsion-2025-2026/FC-Academic-Prospectus-For-Session-2026-27.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 89,
+          "career_node_slug": "btech_it",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Information Technology",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-jagdish-prasad-jhabarmal-tibrewala-university-sjjtu-2026-27-pgdca",
+      "name": "PGDCA",
+      "level": "postgraduate diploma",
+      "credential": "Postgraduate diploma",
+      "specialization": null,
+      "duration": "1 Year (2 Semesters)",
+      "mode": "not stated",
+      "eligibility": "Graduation with 45% for unreserved and 40% for reserved Categories",
+      "official_course_url": "https://www.jjtu.ac.in/uploads/2025/Adminsion-2025-2026/FC-Academic-Prospectus-For-Session-2026-27.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-jagdish-prasad-jhabarmal-tibrewala-university-sjjtu-2026-27-d-pharma",
+      "name": "D. Pharma",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": "Pharmacy",
+      "duration": "2 Years (4 Semesters)",
+      "mode": "not stated",
+      "eligibility": "As per PCI Norms",
+      "official_course_url": "https://www.jjtu.ac.in/uploads/2025/Adminsion-2025-2026/FC-Academic-Prospectus-For-Session-2026-27.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-jagdish-prasad-jhabarmal-tibrewala-university-sjjtu-2026-27-b-pharma",
+      "name": "B.Pharma",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Pharmacy",
+      "duration": "4 Years (8 Semesters)",
+      "mode": "not stated",
+      "eligibility": "As per PCI Norms",
+      "official_course_url": "https://www.jjtu.ac.in/uploads/2025/Adminsion-2025-2026/FC-Academic-Prospectus-For-Session-2026-27.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-jagdish-prasad-jhabarmal-tibrewala-university-sjjtu-2026-27-m-pharma",
+      "name": "M.Pharma",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Pharmacy",
+      "duration": "2 Years (4 Semesters)",
+      "mode": "not stated",
+      "eligibility": "B. Pharma",
+      "official_course_url": "https://www.jjtu.ac.in/uploads/2025/Adminsion-2025-2026/FC-Academic-Prospectus-For-Session-2026-27.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-jagdish-prasad-jhabarmal-tibrewala-university-sjjtu-2026-27-dlis",
+      "name": "D.Lis.",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": "Library & Information Science",
+      "duration": "1 Year (2 Semesters)",
+      "mode": "not stated",
+      "eligibility": "12th with 45 % for unreserved and 40% for reserved Categories",
+      "official_course_url": "https://www.jjtu.ac.in/uploads/2025/Adminsion-2025-2026/FC-Academic-Prospectus-For-Session-2026-27.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "No library and information science node exists in career_path.db."
+    },
+    {
+      "course_id": "shri-jagdish-prasad-jhabarmal-tibrewala-university-sjjtu-2026-27-blis",
+      "name": "B.Lis.",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Library & Information Science",
+      "duration": "1 Year (2 Semesters)",
+      "mode": "not stated",
+      "eligibility": "Graduation with 45%",
+      "official_course_url": "https://www.jjtu.ac.in/uploads/2025/Adminsion-2025-2026/FC-Academic-Prospectus-For-Session-2026-27.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "No library and information science node exists in career_path.db."
+    },
+    {
+      "course_id": "shri-jagdish-prasad-jhabarmal-tibrewala-university-sjjtu-2026-27-mlis",
+      "name": "M.Lis.",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Library & Information Science",
+      "duration": "1 Year (2 Semesters)",
+      "mode": "not stated",
+      "eligibility": "B.Lis. with 50%",
+      "official_course_url": "https://www.jjtu.ac.in/uploads/2025/Adminsion-2025-2026/FC-Academic-Prospectus-For-Session-2026-27.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "No library and information science node exists in career_path.db."
+    },
+    {
+      "course_id": "shri-jagdish-prasad-jhabarmal-tibrewala-university-sjjtu-2026-27-ba-llb",
+      "name": "B.A. - LLB",
+      "level": "undergraduate",
+      "credential": "Integrated bachelor's degree",
+      "specialization": "Law",
+      "duration": "5 Years (10 Semesters)",
+      "mode": "not stated",
+      "eligibility": "12th with 45 % for unreserved,42% for OBC and 40 % for SC/ST",
+      "official_course_url": "https://www.jjtu.ac.in/uploads/2025/Adminsion-2025-2026/FC-Academic-Prospectus-For-Session-2026-27.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 63,
+          "career_node_slug": "ba_llb",
+          "career_breadcrumb": "Law & Civil Services > BA LLB (5-Year Integrated)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-jagdish-prasad-jhabarmal-tibrewala-university-sjjtu-2026-27-bba-llb",
+      "name": "BBA-LLB",
+      "level": "undergraduate",
+      "credential": "Integrated bachelor's degree",
+      "specialization": "Law",
+      "duration": "5 Years (10 Semesters)",
+      "mode": "not stated",
+      "eligibility": "12th with 45 % for unreserved, 42% for OBC and 40 % for SC/ST",
+      "official_course_url": "https://www.jjtu.ac.in/uploads/2025/Adminsion-2025-2026/FC-Academic-Prospectus-For-Session-2026-27.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 50,
+          "career_node_slug": "bba_llb",
+          "career_breadcrumb": "Law & Legal > BBA LLB (5-Year Integrated)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-jagdish-prasad-jhabarmal-tibrewala-university-sjjtu-2026-27-llb",
+      "name": "LLB",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Law",
+      "duration": "3 Years (6 Semesters)",
+      "mode": "not stated",
+      "eligibility": "Graduation with 45% for unreserved, 42% for OBC and 40 % for SC/ST",
+      "official_course_url": "https://www.jjtu.ac.in/uploads/2025/Adminsion-2025-2026/FC-Academic-Prospectus-For-Session-2026-27.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 347,
+          "career_node_slug": "art_law",
+          "career_breadcrumb": "Law & Civil Services",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-jagdish-prasad-jhabarmal-tibrewala-university-sjjtu-2026-27-llm",
+      "name": "LLM",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Law",
+      "duration": "2 Years (4 Semesters)",
+      "mode": "not stated",
+      "eligibility": "LLB with 50 % for unreserved and LLB passed for reserved",
+      "official_course_url": "https://www.jjtu.ac.in/uploads/2025/Adminsion-2025-2026/FC-Academic-Prospectus-For-Session-2026-27.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 347,
+          "career_node_slug": "art_law",
+          "career_breadcrumb": "Law & Civil Services",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-jagdish-prasad-jhabarmal-tibrewala-university-sjjtu-2026-27-pgd-lfs",
+      "name": "PGDLFS",
+      "level": "postgraduate diploma",
+      "credential": "Postgraduate diploma",
+      "specialization": "Law",
+      "duration": "1 Year (2 Semesters)",
+      "mode": "not stated",
+      "eligibility": "M.Sc., B.Sc. with 50 % for unreserved and LLB passed for reserved",
+      "official_course_url": "https://www.jjtu.ac.in/uploads/2025/Adminsion-2025-2026/FC-Academic-Prospectus-For-Session-2026-27.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 347,
+          "career_node_slug": "art_law",
+          "career_breadcrumb": "Law & Civil Services",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-jagdish-prasad-jhabarmal-tibrewala-university-sjjtu-2026-27-pgd-adrm",
+      "name": "PGDADRM",
+      "level": "postgraduate diploma",
+      "credential": "Postgraduate diploma",
+      "specialization": "Law",
+      "duration": "1 Year (2 Semesters)",
+      "mode": "not stated",
+      "eligibility": "B.A - LLB / LLB with 50 % for unreserved and reserved",
+      "official_course_url": "https://www.jjtu.ac.in/uploads/2025/Adminsion-2025-2026/FC-Academic-Prospectus-For-Session-2026-27.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 347,
+          "career_node_slug": "art_law",
+          "career_breadcrumb": "Law & Civil Services",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-jagdish-prasad-jhabarmal-tibrewala-university-sjjtu-2026-27-ba-bed",
+      "name": "B.A. - B.Ed.",
+      "level": "integrated",
+      "credential": "Integrated bachelor's degree",
+      "specialization": "Education",
+      "duration": "4 Years",
+      "mode": "not stated",
+      "eligibility": "12th with 50 % for unreserved and 45% for reserved Categories with PTET Exam",
+      "official_course_url": "https://www.jjtu.ac.in/uploads/2025/Adminsion-2025-2026/FC-Academic-Prospectus-For-Session-2026-27.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-jagdish-prasad-jhabarmal-tibrewala-university-sjjtu-2026-27-bsc-bed",
+      "name": "B.Sc. - B.Ed.",
+      "level": "integrated",
+      "credential": "Integrated bachelor's degree",
+      "specialization": "Education",
+      "duration": "4 Years",
+      "mode": "not stated",
+      "eligibility": "12th PCM/PCB with 50% for unreserved and 45% for reserved Categories with PTET Exam",
+      "official_course_url": "https://www.jjtu.ac.in/uploads/2025/Adminsion-2025-2026/FC-Academic-Prospectus-For-Session-2026-27.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-jagdish-prasad-jhabarmal-tibrewala-university-sjjtu-2026-27-bped",
+      "name": "B.P.Ed.",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Physical Education",
+      "duration": "2 Years (4 Semesters)",
+      "mode": "not stated",
+      "eligibility": "12th with 45 % for unreserved and 40% for reserved Categories",
+      "official_course_url": "https://www.jjtu.ac.in/uploads/2025/Adminsion-2025-2026/FC-Academic-Prospectus-For-Session-2026-27.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 78,
+          "career_node_slug": "sports_career",
+          "career_breadcrumb": "Performing Arts & Sports > Sports & Physical Education",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-jagdish-prasad-jhabarmal-tibrewala-university-sjjtu-2026-27-bpes",
+      "name": "BPES",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Physical Education",
+      "duration": "3/4 Years (6/8 Semesters)",
+      "mode": "not stated",
+      "eligibility": "12th with 45 % for unreserved and 40% for reserved Categories",
+      "official_course_url": "https://www.jjtu.ac.in/uploads/2025/Adminsion-2025-2026/FC-Academic-Prospectus-For-Session-2026-27.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 78,
+          "career_node_slug": "sports_career",
+          "career_breadcrumb": "Performing Arts & Sports > Sports & Physical Education",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-jagdish-prasad-jhabarmal-tibrewala-university-sjjtu-2026-27-mpes",
+      "name": "MPES",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Physical Education",
+      "duration": "2 Years (4 Semesters)",
+      "mode": "not stated",
+      "eligibility": "B.P.E.S./B.P.Ed./B.P.E /B.Sc. in Sports Science with 50% for unreserved and 45% for reserved categories",
+      "official_course_url": "https://www.jjtu.ac.in/uploads/2025/Adminsion-2025-2026/FC-Academic-Prospectus-For-Session-2026-27.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 78,
+          "career_node_slug": "sports_career",
+          "career_breadcrumb": "Performing Arts & Sports > Sports & Physical Education",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-jagdish-prasad-jhabarmal-tibrewala-university-sjjtu-2026-27-ba-bsc-yoga",
+      "name": "B.A./B.Sc. in Yoga",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Yoga",
+      "duration": "3/4 Years (6/8 Semesters)",
+      "mode": "not stated",
+      "eligibility": "12th with 45 % for unreserved and 40% for reserved Categories",
+      "official_course_url": "https://www.jjtu.ac.in/uploads/2025/Adminsion-2025-2026/FC-Academic-Prospectus-For-Session-2026-27.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 78,
+          "career_node_slug": "sports_career",
+          "career_breadcrumb": "Performing Arts & Sports > Sports & Physical Education",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-jagdish-prasad-jhabarmal-tibrewala-university-sjjtu-2026-27-ma-msc-yoga",
+      "name": "M.A./M.Sc. in Yoga",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Yoga",
+      "duration": "2 Years (4 Semesters)",
+      "mode": "not stated",
+      "eligibility": "B.A/B.Sc. Yoga with 45 % for unreserved and 40% for reserved Categories",
+      "official_course_url": "https://www.jjtu.ac.in/uploads/2025/Adminsion-2025-2026/FC-Academic-Prospectus-For-Session-2026-27.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 78,
+          "career_node_slug": "sports_career",
+          "career_breadcrumb": "Performing Arts & Sports > Sports & Physical Education",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-jagdish-prasad-jhabarmal-tibrewala-university-sjjtu-2026-27-dyn",
+      "name": "DYN",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": "Yoga",
+      "duration": "1 Year (2 Semesters)",
+      "mode": "not stated",
+      "eligibility": "12th from any recognized board",
+      "official_course_url": "https://www.jjtu.ac.in/uploads/2025/Adminsion-2025-2026/FC-Academic-Prospectus-For-Session-2026-27.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 78,
+          "career_node_slug": "sports_career",
+          "career_breadcrumb": "Performing Arts & Sports > Sports & Physical Education",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-jagdish-prasad-jhabarmal-tibrewala-university-sjjtu-2026-27-pgdyn",
+      "name": "PGDYN",
+      "level": "postgraduate diploma",
+      "credential": "Postgraduate diploma",
+      "specialization": "Yoga",
+      "duration": "1 Year (2 Semesters)",
+      "mode": "not stated",
+      "eligibility": "Graduation with 45% for unreserved and 40% for reserved",
+      "official_course_url": "https://www.jjtu.ac.in/uploads/2025/Adminsion-2025-2026/FC-Academic-Prospectus-For-Session-2026-27.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 78,
+          "career_node_slug": "sports_career",
+          "career_breadcrumb": "Performing Arts & Sports > Sports & Physical Education",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-jagdish-prasad-jhabarmal-tibrewala-university-sjjtu-2026-27-bnys",
+      "name": "BNYS",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Naturopathy and Yogic Sciences",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": "12th with PCB (Admissions will be through NEET AYUSH Counselling Board, Jaipur)",
+      "official_course_url": "https://www.jjtu.ac.in/uploads/2025/Adminsion-2025-2026/FC-Academic-Prospectus-For-Session-2026-27.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-jagdish-prasad-jhabarmal-tibrewala-university-sjjtu-2026-27-bsc-nursing-ayurveda",
+      "name": "B.Sc. Nursing (Ayurveda)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Ayurveda",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": "12th from any recognized board (Admissions will be through Rajasthan Ayurveda Nursing Council, Jaipur)",
+      "official_course_url": "https://www.jjtu.ac.in/uploads/2025/Adminsion-2025-2026/FC-Academic-Prospectus-For-Session-2026-27.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 19,
+          "career_node_slug": "bsc_nursing",
+          "career_breadcrumb": "Biology / PCB > B.Sc Nursing",
+          "relation": "closest_specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-jagdish-prasad-jhabarmal-tibrewala-university-sjjtu-2026-27-danp",
+      "name": "DAN&P (Ayush Nursing)",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": "Ayush Nursing",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": "12th from any recognized board (Admissions will be through Rajasthan Ayurveda Nursing Council, Jaipur)",
+      "official_course_url": "https://www.jjtu.ac.in/uploads/2025/Adminsion-2025-2026/FC-Academic-Prospectus-For-Session-2026-27.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-jagdish-prasad-jhabarmal-tibrewala-university-sjjtu-2026-27-bpt",
+      "name": "B.P.T.",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Physiotherapy",
+      "duration": "4 Years + 6 Months Internship",
+      "mode": "not stated",
+      "eligibility": "12th with PCB with 45 % for unreserved and 40% for reserved Categories",
+      "official_course_url": "https://www.jjtu.ac.in/uploads/2025/Adminsion-2025-2026/FC-Academic-Prospectus-For-Session-2026-27.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 23,
+          "career_node_slug": "bpt",
+          "career_breadcrumb": "Biology / PCB > BPT (Physiotherapy)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-jagdish-prasad-jhabarmal-tibrewala-university-sjjtu-2026-27-mpt",
+      "name": "M.P.T.",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Physiotherapy",
+      "duration": "2 Years (4 Semesters)",
+      "mode": "not stated",
+      "eligibility": "B.Sc. (PT) or BPT with 50%",
+      "official_course_url": "https://www.jjtu.ac.in/uploads/2025/Adminsion-2025-2026/FC-Academic-Prospectus-For-Session-2026-27.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 23,
+          "career_node_slug": "bpt",
+          "career_breadcrumb": "Biology / PCB > BPT (Physiotherapy)",
+          "relation": "closest_specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-jagdish-prasad-jhabarmal-tibrewala-university-sjjtu-2026-27-djmc",
+      "name": "DJMC",
+      "level": "certificate",
+      "credential": "Certificate",
+      "specialization": "Journalism & Mass Communication",
+      "duration": "3 Months",
+      "mode": "not stated",
+      "eligibility": "12th with 45 % for unreserved and 40% for reserved Categories",
+      "official_course_url": "https://www.jjtu.ac.in/uploads/2025/Adminsion-2025-2026/FC-Academic-Prospectus-For-Session-2026-27.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 59,
+          "career_node_slug": "bjmc",
+          "career_breadcrumb": "Media & Journalism > B.J.M.C (Journalism & Mass Comm)",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-jagdish-prasad-jhabarmal-tibrewala-university-sjjtu-2026-27-bjmc",
+      "name": "BJMC",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Journalism & Mass Communication",
+      "duration": "3 Years (6 Semesters)",
+      "mode": "not stated",
+      "eligibility": "12th passed from recognised board",
+      "official_course_url": "https://www.jjtu.ac.in/uploads/2025/Adminsion-2025-2026/FC-Academic-Prospectus-For-Session-2026-27.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 59,
+          "career_node_slug": "bjmc",
+          "career_breadcrumb": "Media & Journalism > B.J.M.C (Journalism & Mass Comm)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-jagdish-prasad-jhabarmal-tibrewala-university-sjjtu-2026-27-mjmc",
+      "name": "MJMC",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Journalism & Mass Communication",
+      "duration": "2 Years (4 Semesters)",
+      "mode": "not stated",
+      "eligibility": "Graduation from any recognized university",
+      "official_course_url": "https://www.jjtu.ac.in/uploads/2025/Adminsion-2025-2026/FC-Academic-Prospectus-For-Session-2026-27.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 59,
+          "career_node_slug": "bjmc",
+          "career_breadcrumb": "Media & Journalism > B.J.M.C (Journalism & Mass Comm)",
+          "relation": "closest_specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "shri-jagdish-prasad-jhabarmal-tibrewala-university-sjjtu-programme-phd",
+      "name": "Doctor Of Philosophy (Ph.D.)",
+      "level": "doctoral",
+      "credential": "Doctoral degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://jjtu.ac.in/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [],
+      "mapping_gap": "The official public catalogue names the doctoral programme but provides no discipline or current public doctoral eligibility page; the career tree has no generic doctoral node."
+    },
+    {
+      "course_id": "shri-jagdish-prasad-jhabarmal-tibrewala-university-sjjtu-programme-certificate-courses",
+      "name": "Certificate Courses",
+      "level": "certificate",
+      "credential": "Certificate",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://jjtu.ac.in/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [],
+      "mapping_gap": "The official homepage names a generic Certificate Courses category but does not expose named current certificate programmes or a responsible career-tree node."
+    }
+  ],
+  "agent_notes": [
+    "Campus and district are confirmed on official pages as Vidyanagari, Chudela, Jhunjhunu-Churu Road, District Jhunjhunu, Rajasthan - 333010.",
+    "The current 2026-27 official prospectus and course-with-fee brochure establish the listed degree, diploma and other programmes. The public site also advertises generic Certificate Courses, Vocational Course and Training Program categories without named current catalogues, and the Doctor Of Philosophy (Ph.D.) card has no public current programme-detail page. The catalogue is therefore partial and requires manual review.",
+    "The official 2026-27 prospectus and fee brochure conflict on the durations of BNYS, B.Sc. Nursing (Ayurveda), and DAN&P (Ayush Nursing); those duration fields are left null.",
+    "The managed proxy returned the exact self-signed certificate-chain error on initial normal TLS requests. curl --insecure was used only for public GET requests after confirming the expected official/search hostnames.",
+    "Career-tree mappings were read from assets/data/career_path.db with sqlite3 read-only queries. Node 20 has slug bpharm but the stored name Medical Updated; pharmacy mappings preserve that exact breadcrumb and are marked reviewed_with_career_tree_label_issue."
+  ]
+}

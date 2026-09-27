@@ -1,0 +1,257 @@
+{
+  "institution_id": "govt-science-college-sikar",
+  "nirf_name": "GOVT. SCIENCE COLLEGE,SIKAR",
+  "verification_outcome": "manual_review",
+  "district": "Sikar",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://hte.rajasthan.gov.in/GovernmentScienceCollegeSikar/17768",
+  "website_verification_status": "verified",
+  "description": "Government Science College, Sikar is a science college located at Sabalpura on NH-52 Bikaner Road in Sikar.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "official_homepage",
+      "url": "https://hte.rajasthan.gov.in/GovernmentScienceCollegeSikar/17768",
+      "supports": [
+        "Official institution name and homepage identity",
+        "Sikar campus address",
+        "Official homepage Our Course programme names"
+      ]
+    },
+    {
+      "type": "official_campus_contact",
+      "url": "https://hte.rajasthan.gov.in/GovernmentScienceCollegeSikar/68657",
+      "supports": [
+        "Government Science College, Sikar address at Sabalpura, NH-52 Bikaner Road, Sikar"
+      ]
+    },
+    {
+      "type": "official_course_page",
+      "url": "https://hte.rajasthan.gov.in/GovernmentScienceCollegeSikar/18114",
+      "supports": [
+        "Institution-specific Course page exists but currently renders no programme rows, establishing the catalogue gap"
+      ]
+    },
+    {
+      "type": "official_admission_page",
+      "url": "https://hte.rajasthan.gov.in/GovernmentScienceCollegeSikar/18113",
+      "supports": [
+        "Institution-specific Admission List page exists but currently renders no admission rows"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "Government Science College Sikar Rajasthan official",
+      "result": "DuckDuckGo identified the official Rajasthan HTE college route https://hte.rajasthan.gov.in/college/gcssikar, which redirects to the institution homepage.",
+      "url": "https://hte.rajasthan.gov.in/college/gcssikar"
+    },
+    {
+      "query": "\"Government Science College, Sikar\"",
+      "result": "DuckDuckGo identified the official HTE institution Course page at https://hte.rajasthan.gov.in/GovernmentScienceCollegeSikar/18114.",
+      "url": "https://hte.rajasthan.gov.in/GovernmentScienceCollegeSikar/18114"
+    },
+    {
+      "query": "Govt Science College Sikar",
+      "result": "DuckDuckGo again identified the official HTE college route https://hte.rajasthan.gov.in/college/gcssikar.",
+      "url": "https://hte.rajasthan.gov.in/college/gcssikar"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "govt-science-college-sikar-msc-botany",
+      "name": "M.Sc.(Botany)",
+      "level": "postgraduate",
+      "credential": "M.Sc.",
+      "specialization": "Botany",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/GovernmentScienceCollegeSikar/17768",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest-specialization (Biology)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-science-college-sikar-msc-chemistry",
+      "name": "M.Sc.(Chemistry)",
+      "level": "postgraduate",
+      "credential": "M.Sc.",
+      "specialization": "Chemistry",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/GovernmentScienceCollegeSikar/17768",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 155,
+          "career_node_slug": "msc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry > M.Sc Chemistry → Researcher",
+          "relation": "direct discipline (Chemistry)",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-science-college-sikar-msc-chemistry-sfs",
+      "name": "M.Sc.(Chemistry)SFS",
+      "level": "postgraduate",
+      "credential": "M.Sc.",
+      "specialization": "Chemistry",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/GovernmentScienceCollegeSikar/17768",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 155,
+          "career_node_slug": "msc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry > M.Sc Chemistry → Researcher",
+          "relation": "direct discipline (Chemistry; official label includes SFS)",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-science-college-sikar-msc-mathematics",
+      "name": "M.Sc.(Mathematics)",
+      "level": "postgraduate",
+      "credential": "M.Sc.",
+      "specialization": "Mathematics",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/GovernmentScienceCollegeSikar/17768",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 90,
+          "career_node_slug": "msc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics > M.Sc Mathematics → Professor / Researcher",
+          "relation": "direct discipline (Mathematics)",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-science-college-sikar-msc-physics",
+      "name": "M.Sc.(Physics)",
+      "level": "postgraduate",
+      "credential": "M.Sc.",
+      "specialization": "Physics",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/GovernmentScienceCollegeSikar/17768",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 153,
+          "career_node_slug": "msc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics > M.Sc Physics → Researcher / Professor",
+          "relation": "direct discipline (Physics)",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-science-college-sikar-msc-zoology",
+      "name": "M.Sc.(Zoology)",
+      "level": "postgraduate",
+      "credential": "M.Sc.",
+      "specialization": "Zoology",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/GovernmentScienceCollegeSikar/17768",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest-specialization (Biology)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-science-college-sikar-bsc-part-i-biology",
+      "name": "BSc Part I Biology",
+      "level": "undergraduate",
+      "credential": "B.Sc.",
+      "specialization": "Biology",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/GovernmentScienceCollegeSikar/17768",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "direct discipline (Biology)",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-science-college-sikar-bsc-part-i-maths",
+      "name": "BSc Part I Maths",
+      "level": "undergraduate",
+      "credential": "B.Sc.",
+      "specialization": "Maths",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/GovernmentScienceCollegeSikar/17768",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct discipline (Mathematics)",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The official homepage's Our Course section lists eight programme names: six M.Sc. entries and two BSc Part I entries; current 2026-27 Biology and Mathematics admission notices are also shown on the homepage.",
+    "The institution-specific Course page (/18114) and Admission List page (/18113) currently render no programme or admission rows, so catalogue completeness and current status for every listed postgraduate programme cannot be fully established; manual review is required.",
+    "No official duration, eligibility, or mode details were stated on the reviewed institution pages, so duration and eligibility are null and mode is recorded as not stated.",
+    "Botany and Zoology have no exact corresponding node in career_path.db; both are mapped to the closest Biology degree node with medium confidence and a career-tree-label issue.",
+    "Normal TLS verification failed with the exact managed-network error 'self signed certificate in certificate chain'; after confirming the expected public HTE and search hostnames, curl --insecure was used only for public GET requests.",
+    "This run independently verified the institution and did not use curated verification files or prior agent results."
+  ]
+}

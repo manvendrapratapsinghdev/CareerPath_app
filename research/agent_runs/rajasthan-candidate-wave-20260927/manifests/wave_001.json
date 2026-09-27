@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "created_at": "2026-09-26T20:08:16.783233+00:00",
+    "inventory_path": "research/rajasthan_nirf_master_inventory.json",
+    "inventory_sha256": "ca271957efa53cb4b92ffcda79e17ecad81570c8fc713fdb5b2afa0700adb27c",
+    "batch_count": 1,
+    "batch_size": 10,
+    "assignment_count": 10,
+    "selection": "Pending institutions, ranked/banded first by best visible NIRF rank or band, then by city and institution name, excluding caller-supplied previously attempted ids."
+  },
+  "assignments": [
+    {
+      "batch": 1,
+      "slot": 1,
+      "institution_id": "all-india-institute-of-medical-sciences-jodhpur",
+      "nirf_name": "All India Institute of Medical Sciences Jodhpur",
+      "nirf_city": "Jodhpur",
+      "ranked_or_banded": true
+    },
+    {
+      "batch": 1,
+      "slot": 2,
+      "institution_id": "suresh-gyan-vihar-university",
+      "nirf_name": "Suresh Gyan Vihar University",
+      "nirf_city": "Jaipur",
+      "ranked_or_banded": true
+    },
+    {
+      "batch": 1,
+      "slot": 3,
+      "institution_id": "maharana-pratap-university-of-agriculture-and-technology-udaipur",
+      "nirf_name": "Maharana Pratap University of Agriculture & Technology, Udaipur",
+      "nirf_city": "Udaipur",
+      "ranked_or_banded": true
+    },
+    {
+      "batch": 1,
+      "slot": 4,
+      "institution_id": "jaipuria-institute-of-management-jaipur",
+      "nirf_name": "JAIPURIA INSTITUTE OF MANAGEMENT",
+      "nirf_city": "Jaipur",
+      "ranked_or_banded": true
+    },
+    {
+      "batch": 1,
+      "slot": 5,
+      "institution_id": "nims-university-rajasthan",
+      "nirf_name": "NIMS University, Jaipur",
+      "nirf_city": "Jaipur",
+      "ranked_or_banded": true
+    },
+    {
+      "batch": 1,
+      "slot": 6,
+      "institution_id": "bhagwant-university-ajmer",
+      "nirf_name": "Bhagwant University-Ajmer",
+      "nirf_city": "Ajmer",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 1,
+      "slot": 7,
+      "institution_id": "samrat-prithviraj-chauhan-government-college-ajmer",
+      "nirf_name": "Samrat Prithviraj Chauhan Government College, Ajmer",
+      "nirf_city": "Ajmer",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 1,
+      "slot": 8,
+      "institution_id": "babu-sobharam-govt-arts-college-alwar",
+      "nirf_name": "Babu Sobharam Govt. Arts College, Alwar",
+      "nirf_city": "Alwar",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 1,
+      "slot": 9,
+      "institution_id": "r-r-college-alwar",
+      "nirf_name": "R.R. College, Alwar",
+      "nirf_city": "Alwar",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 1,
+      "slot": 10,
+      "institution_id": "h-d-joshi-govt-girls-college-banswara",
+      "nirf_name": "H.D.JOSHI GOVT.GIRLS, COLLEGE, BANSWARA",
+      "nirf_city": "Banswara",
+      "ranked_or_banded": false
+    }
+  ]
+}

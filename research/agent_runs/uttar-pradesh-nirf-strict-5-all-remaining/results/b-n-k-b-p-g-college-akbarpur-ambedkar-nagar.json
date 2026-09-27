@@ -1,0 +1,543 @@
+{
+  "institution_id": "b-n-k-b-p-g-college-akbarpur-ambedkar-nagar",
+  "nirf_name": "B.N.K.B. P.G. COLLEGE, AKBARPUR, AMBEDKAR NAGAR",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "verified",
+  "district": "Ambedkar Nagar",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://bnkbpg.org.in/",
+  "website_verification_status": "verified",
+  "description": "B.N.K.B. Postgraduate College is an institution established in 1969 in Akbarpur, Ambedkar Nagar, Uttar Pradesh, offering undergraduate, postgraduate, B.Ed., and distance-learning programmes.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Contains the exact institution name, city AMBEDKARNAGAR, and state Uttar Pradesh."
+      ]
+    },
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Contains the exact institution name, city AMBEDKARNAGAR, and state Uttar Pradesh."
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://bnkbpg.org.in/",
+      "supports": [
+        "Identifies B.N.K.P.G. College, Akbarpur, Ambedkar Nagar.",
+        "Lists current regular, teaching, and distance-learning programme offerings."
+      ]
+    },
+    {
+      "type": "official_identity",
+      "url": "https://bnkbpg.org.in/contact-us/",
+      "supports": [
+        "States the address as B.N.K.B. P.G. College, Akbarpur Ambedkar Nagar Uttar Pradesh."
+      ]
+    },
+    {
+      "type": "official_description",
+      "url": "https://bnkbpg.org.in/about-us/",
+      "supports": [
+        "Identifies BNKB Postgraduate College, Akbarpur, and states that it was established in 1969."
+      ]
+    },
+    {
+      "type": "official_catalogue",
+      "url": "https://bnkbpg.org.in/courses/",
+      "supports": [
+        "Lists Bachelor of Arts subjects and duration.",
+        "Lists Master of Arts subjects and duration.",
+        "Lists Bachelor of Education and duration."
+      ]
+    },
+    {
+      "type": "official_admissions",
+      "url": "https://bnkbpg.org.in/online-admission/",
+      "supports": [
+        "Names B.A., M.A., and B.Ed. in the official admission instructions."
+      ]
+    },
+    {
+      "type": "official_fees",
+      "url": "https://bnkbpg.org.in/fees/",
+      "supports": [
+        "Lists B.A., M.A., and B.Ed. as applicable college courses."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "B.N.K.B. P.G. College Akbarpur",
+      "result": "Search result identified bnkbpg.org.in as the official-domain result; verification used direct official pages only.",
+      "url": "https://bnkbpg.org.in/"
+    },
+    {
+      "query": "BNKB PG College Akbarpur Ambedkar Nagar official",
+      "result": "Search result identified https://bnkbpg.org.in/ among results; other returned domains were not used for verification.",
+      "url": "https://bnkbpg.org.in/"
+    },
+    {
+      "query": "B.N.K.B. P.G. College Uttar Pradesh official website",
+      "result": "Search result identified https://bnkbpg.org.in/; official identity and catalogue were verified by direct GET requests.",
+      "url": "https://bnkbpg.org.in/"
+    }
+  ],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "b-n-k-b-p-g-college-akbarpur-ambedkar-nagar-ba-hindi",
+      "name": "Bachelor of Arts (B.A.)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Hindi",
+      "duration": "3 Years",
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://bnkbpg.org.in/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-n-k-b-p-g-college-akbarpur-ambedkar-nagar-ba-english",
+      "name": "Bachelor of Arts (B.A.)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "English",
+      "duration": "3 Years",
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://bnkbpg.org.in/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "direct discipline; nearest tree label is BA English Literature",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-n-k-b-p-g-college-akbarpur-ambedkar-nagar-ba-sanskrit",
+      "name": "Bachelor of Arts (B.A.)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Sanskrit",
+      "duration": "3 Years",
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://bnkbpg.org.in/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "nearest-parent; no Sanskrit node exists",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-n-k-b-p-g-college-akbarpur-ambedkar-nagar-ba-economics",
+      "name": "Bachelor of Arts (B.A.)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Economics",
+      "duration": "3 Years",
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://bnkbpg.org.in/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-n-k-b-p-g-college-akbarpur-ambedkar-nagar-ba-sociology",
+      "name": "Bachelor of Arts (B.A.)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Sociology",
+      "duration": "3 Years",
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://bnkbpg.org.in/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-n-k-b-p-g-college-akbarpur-ambedkar-nagar-ba-geography",
+      "name": "Bachelor of Arts (B.A.)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Geography",
+      "duration": "3 Years",
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://bnkbpg.org.in/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent; no Geography node exists",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-n-k-b-p-g-college-akbarpur-ambedkar-nagar-ba-medieval-history",
+      "name": "Bachelor of Arts (B.A.)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Medieval History",
+      "duration": "3 Years",
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://bnkbpg.org.in/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-n-k-b-p-g-college-akbarpur-ambedkar-nagar-ba-psychology",
+      "name": "Bachelor of Arts (B.A.)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Psychology",
+      "duration": "3 Years",
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://bnkbpg.org.in/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 66,
+          "career_node_slug": "ba_psychology",
+          "career_breadcrumb": "Social Sciences & Education > BA Psychology",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-n-k-b-p-g-college-akbarpur-ambedkar-nagar-ba-political-science",
+      "name": "Bachelor of Arts (B.A.)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Political Science",
+      "duration": "3 Years",
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://bnkbpg.org.in/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-n-k-b-p-g-college-akbarpur-ambedkar-nagar-ba-education",
+      "name": "Bachelor of Arts (B.A.)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Education",
+      "duration": "3 Years",
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://bnkbpg.org.in/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "closest specialization; career tree labels the node as B.Ed (Education)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-n-k-b-p-g-college-akbarpur-ambedkar-nagar-ba-home-science",
+      "name": "Bachelor of Arts (B.A.)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Home Science (Self-Finance)",
+      "duration": "3 Years",
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://bnkbpg.org.in/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent; no Home Science node exists",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-n-k-b-p-g-college-akbarpur-ambedkar-nagar-ma-hindi",
+      "name": "Master of Arts (M.A.)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Hindi",
+      "duration": "2 Years",
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://bnkbpg.org.in/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "closest specialization; postgraduate Hindi mapped to the available Hindi discipline node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-n-k-b-p-g-college-akbarpur-ambedkar-nagar-ma-english",
+      "name": "Master of Arts (M.A.)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "English",
+      "duration": "2 Years",
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://bnkbpg.org.in/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "closest specialization; postgraduate English mapped to the available English discipline node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-n-k-b-p-g-college-akbarpur-ambedkar-nagar-ma-sociology",
+      "name": "Master of Arts (M.A.)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Sociology",
+      "duration": "2 Years",
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://bnkbpg.org.in/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "closest specialization; postgraduate Sociology mapped to the available Sociology discipline node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-n-k-b-p-g-college-akbarpur-ambedkar-nagar-ma-economics",
+      "name": "Master of Arts (M.A.)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Economics",
+      "duration": "2 Years",
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://bnkbpg.org.in/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "closest specialization; postgraduate Economics mapped to the available Economics discipline node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-n-k-b-p-g-college-akbarpur-ambedkar-nagar-ma-geography",
+      "name": "Master of Arts (M.A.)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Geography (Self-Finance)",
+      "duration": "2 Years",
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://bnkbpg.org.in/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent; no Geography node exists",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-n-k-b-p-g-college-akbarpur-ambedkar-nagar-bed",
+      "name": "Bachelor of Education (B.Ed.)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://bnkbpg.org.in/courses/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-n-k-b-p-g-college-akbarpur-ambedkar-nagar-ba-distance",
+      "name": "Bachelor of Arts (B.A.)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "3 Year Course",
+      "mode": "distance learning",
+      "eligibility": null,
+      "official_course_url": "https://bnkbpg.org.in/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent; homepage lists distance-learning B.A. without a subject breakdown",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-n-k-b-p-g-college-akbarpur-ambedkar-nagar-ma-distance",
+      "name": "Master of Arts (M.A.)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "2 Year Course",
+      "mode": "distance learning",
+      "eligibility": null,
+      "official_course_url": "https://bnkbpg.org.in/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent; homepage lists distance-learning M.A. without a subject breakdown",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "Both supplied NIRF 2025 government-directory pages contain the exact institution name with AMBEDKARNAGAR, Uttar Pradesh.",
+    "The official homepage and contact page establish the campus as B.N.K.B. P.G. College in Akbarpur, Ambedkar Nagar, Uttar Pradesh.",
+    "The official catalogue identifies 11 B.A. subject offerings, 5 M.A. subject offerings, and B.Ed.; the homepage additionally lists distance-learning B.A. and M.A. offerings, which are included as separate mode variants without invented specializations.",
+    "Eligibility fields are null because the official catalogue and admission page do not state qualifying academic requirements.",
+    "Normal TLS verification produced the managed proxy self-signed certificate-chain error for public HTTPS requests; after confirming the expected official/search hostnames, public GET requests used curl --insecure. No credentials or private data were sent.",
+    "Search results were used only to discover the official domain; all institution identity, district, description, programme, duration, and eligibility facts were verified from official bnkbpg.org.in pages."
+  ]
+}

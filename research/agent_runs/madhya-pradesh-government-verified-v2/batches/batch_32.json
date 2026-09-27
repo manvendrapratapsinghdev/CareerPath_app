@@ -1,0 +1,64 @@
+{
+  "batch": 32,
+  "started_at": "2026-09-27T13:44:38.681997+00:00",
+  "finished_at": "2026-09-27T13:57:45.812477+00:00",
+  "assignment_count": 5,
+  "completed_count": 2,
+  "skipped_count": 2,
+  "failed_count": 1,
+  "results": [
+    {
+      "institution_id": "bhagwan-birsa-munda-government-college-pati",
+      "nirf_name": "Bhagwan Birsa Munda Government College Pati",
+      "status": "failed",
+      "started_at": "2026-09-27T13:44:38.728387+00:00",
+      "finished_at": "2026-09-27T13:57:45.719546+00:00",
+      "duration_seconds": 786.701,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [
+        "verification source is outside official domains: https://barwani.nic.in/en/public-utility/govt-college-pati/"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified-v2/logs/bhagwan-birsa-munda-government-college-pati.jsonl"
+    },
+    {
+      "institution_id": "government-college-ajaigarh",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified-v2/results/government-college-ajaigarh.json",
+      "finished_at": "2026-09-27T13:44:38.753512+00:00"
+    },
+    {
+      "institution_id": "government-college-amanganj",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified-v2/results/government-college-amanganj.json",
+      "finished_at": "2026-09-27T13:44:38.754592+00:00"
+    },
+    {
+      "institution_id": "government-college-patharia",
+      "nirf_name": "Government College Patharia",
+      "status": "completed",
+      "started_at": "2026-09-27T13:44:38.726022+00:00",
+      "finished_at": "2026-09-27T13:52:09.459166+00:00",
+      "duration_seconds": 450.701,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified-v2/results/government-college-patharia.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified-v2/logs/government-college-patharia.jsonl"
+    },
+    {
+      "institution_id": "government-college-phoop",
+      "nirf_name": "Government College, Phoop",
+      "status": "completed",
+      "started_at": "2026-09-27T13:44:38.752626+00:00",
+      "finished_at": "2026-09-27T13:49:01.853767+00:00",
+      "duration_seconds": 263.003,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified-v2/results/government-college-phoop.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified-v2/logs/government-college-phoop.jsonl"
+    }
+  ]
+}

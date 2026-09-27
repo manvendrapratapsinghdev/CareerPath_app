@@ -1,0 +1,205 @@
+{
+  "institution_id": "dr-ram-manohar-lohia-institute-of-medical-sciences-vibhuti-khand-gomti-nagar-lucknow",
+  "nirf_name": "DR RAM MANOHAR LOHIA INSTITUTE OF MEDICAL SCIENCES, VIBHUTI KHAND, GOMTI\r\n                                                NAGAR, LUCKNOW",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/MedicalRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Lucknow",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://drrmlims.ac.in/",
+  "website_verification_status": "verified",
+  "description": "Dr. Ram Manohar Lohia Institute of Medical Sciences (RMLIMS) is a premier super-specialty autonomous medical teaching institute established by the State Government of Uttar Pradesh and centrally located in Vibhuti Khand, Gomti Nagar, Lucknow.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/MedicalRankingALL.html",
+      "supports": [
+        "Matching institution name and Lucknow city in the NIRF 2025 Medical ranking listing."
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://drrmlims.ac.in/",
+      "supports": [
+        "Official institution homepage and identity.",
+        "Official footer address identifying Vibhuti Khand, Gomtinagar, Lucknow, Uttar Pradesh 226010."
+      ]
+    },
+    {
+      "type": "official_identity_and_programme_family",
+      "url": "https://drrmlims.ac.in/about/",
+      "supports": [
+        "Institution description and Uttar Pradesh government establishment.",
+        "Vibhuti Khand, Gomti Nagar, Lucknow campus identity.",
+        "Academic Programs labels DM, M.Ch., MD, MS, and Ph.D."
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://drrmlims.ac.in/educational/courses",
+      "supports": [
+        "Official navigation labels this route Training & Courses.",
+        "The current response contains AcademicCollaborations content and does not provide a usable programme catalogue."
+      ]
+    },
+    {
+      "type": "official_admissions_page",
+      "url": "https://drrmlims.ac.in/student_corner/admissions",
+      "supports": [
+        "Official Admissions route currently returns a maintenance placeholder and does not enumerate programmes."
+      ]
+    },
+    {
+      "type": "official_research_programme_page",
+      "url": "https://drrmlims.ac.in/research/phd_program_rules_regulations",
+      "supports": [
+        "Official PhD Rules & Regulations route currently returns a maintenance placeholder and does not provide programme details."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Dr Ram Manohar Lohia Institute of Medical Sciences\" Lucknow official",
+      "result": "Bing returned drrmlims.ac.in as the institution result and also returned drrmlimsonline.in as a related result.",
+      "url": "https://www.bing.com/search?q=%22Dr+Ram+Manohar+Lohia+Institute+of+Medical+Sciences%22+Lucknow+official"
+    },
+    {
+      "query": "\"Dr Ram Manohar Lohia Institute of Medical Sciences\" Lucknow official",
+      "result": "Google returned HTTP 429 in the managed network, so no usable result page was available.",
+      "url": "https://www.google.com/search?q=%22Dr+Ram+Manohar+Lohia+Institute+of+Medical+Sciences%22+Lucknow+official"
+    },
+    {
+      "query": "site:drrmlims.ac.in Dr Ram Manohar Lohia Institute",
+      "result": "DuckDuckGo returned no usable result page in the managed network.",
+      "url": "https://html.duckduckgo.com/html/?q=site%3Adrrmlims.ac.in+Dr+Ram+Manohar+Lohia+Institute"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "dr-ram-manohar-lohia-institute-of-medical-sciences-vibhuti-khand-gomti-nagar-lucknow-dr-rmlims-dm",
+      "name": "DM",
+      "level": "postgraduate super-specialty",
+      "credential": "DM",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://drrmlims.ac.in/about/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "Closest medical parent; the official site gives no DM specialization and the career tree has no DM node.",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-institute-of-medical-sciences-vibhuti-khand-gomti-nagar-lucknow-dr-rmlims-mch",
+      "name": "M.Ch.",
+      "level": "postgraduate super-specialty",
+      "credential": "M.Ch.",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://drrmlims.ac.in/about/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "Closest medical parent; the official site gives no M.Ch. specialization and the career tree has no M.Ch. node.",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-institute-of-medical-sciences-vibhuti-khand-gomti-nagar-lucknow-dr-rmlims-md",
+      "name": "MD",
+      "level": "postgraduate",
+      "credential": "MD",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://drrmlims.ac.in/about/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "Nearest medical parent rather than a specialty node; the official site states MD without a specialization.",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-institute-of-medical-sciences-vibhuti-khand-gomti-nagar-lucknow-dr-rmlims-ms",
+      "name": "MS",
+      "level": "postgraduate",
+      "credential": "MS",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://drrmlims.ac.in/about/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "Nearest medical parent rather than a specialty node; the official site states MS without a specialization.",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-institute-of-medical-sciences-vibhuti-khand-gomti-nagar-lucknow-dr-rmlims-phd",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://drrmlims.ac.in/about/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 336,
+          "career_node_slug": "science_bio",
+          "career_breadcrumb": "Biology / PCB",
+          "relation": "Broad biology parent; the career tree has no generic medical Ph.D. or medical-research node.",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The NIRF 2025 Medical listing was independently checked and contains the matching institution name with Lucknow city.",
+    "Normal TLS verification produced curl error 60 for the managed proxy self-signed certificate chain; after confirming the expected public hosts, public GET requests used curl --insecure. No credentials or private data were sent.",
+    "The official About page currently lists only DM, M.Ch., MD, MS, and Ph.D. under Academic Programs. The official Training & Courses route resolves to AcademicCollaborations content, while Admissions and PhD Rules & Regulations routes return maintenance placeholders; therefore a complete active programme catalogue cannot be established.",
+    "Current official notice links visible on the homepage mention additional programme-related documents, including MBBS, B.Sc Nursing, M.Sc Nuclear Medicine, and PDCC, but these are notices/news rather than a stable catalogue and were not imported as course entries under the exclusion rule."
+  ]
+}

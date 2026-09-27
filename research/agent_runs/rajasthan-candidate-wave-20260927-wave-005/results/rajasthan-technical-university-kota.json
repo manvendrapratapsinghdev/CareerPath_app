@@ -1,0 +1,396 @@
+{
+  "institution_id": "rajasthan-technical-university-kota",
+  "nirf_name": "Rajasthan Technical University, Kota",
+  "verification_outcome": "manual_review",
+  "district": "Kota",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://rtu.ac.in/",
+  "website_verification_status": "verified",
+  "description": "Rajasthan Technical University is a technical university established in 2006 by the Government of Rajasthan, with its university address on Rawatbhata Road in Kota.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [
+    "rtu.sumsraj.com",
+    "rtupreadmission.sumsraj.com"
+  ],
+  "verification_sources": [
+    {
+      "type": "official_homepage",
+      "url": "https://rtu.ac.in/",
+      "supports": [
+        "official Rajasthan Technical University domain identity"
+      ]
+    },
+    {
+      "type": "official_university_portal",
+      "url": "https://rtu.sumsraj.com/",
+      "supports": [
+        "Rajasthan Technical University identity",
+        "Rawatbhata Road, Kota - 324010 campus address",
+        "Government of Rajasthan establishment description",
+        "current programme and examination notices"
+      ]
+    },
+    {
+      "type": "official_admissions_page",
+      "url": "https://rtu.sumsraj.com/CollegePortal/Student_Direct_Admission/AdmReg_Login.aspx",
+      "supports": [
+        "current 2026-27 direct-admission programme families: B. TECH., BBA, BCA, MBA, B. TECH. LEEP, MBA Lateral Entry"
+      ]
+    },
+    {
+      "type": "official_admissions_page",
+      "url": "https://rtupreadmission.sumsraj.com/Login.aspx",
+      "supports": [
+        "Rajasthan Technical University, Kota admissions portal",
+        "B.Tech. Working Professional 2026-2027/MBA portal label"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "Rajasthan Technical University Kota official website",
+      "result": "Bing RSS returned the official-domain result “Rajasthan Technical University | Kota Rajasthan” linking to https://rtu.ac.in/.",
+      "url": "https://www.bing.com/search?format=rss&q=Rajasthan%20Technical%20University%20Kota"
+    },
+    {
+      "query": "rtu.ac.in",
+      "result": "Bing RSS returned https://rtu.ac.in/ and the indexed official syllabus page https://rtu.ac.in/index/view_menudata.php?page=RTU-Syllabus4.",
+      "url": "https://www.bing.com/search?format=rss&q=rtu.ac.in"
+    },
+    {
+      "query": "rtu btech",
+      "result": "Bing RSS returned the official RTU homepage and indexed official B.Tech syllabus pages.",
+      "url": "https://www.bing.com/search?format=rss&q=rtu%20btech"
+    },
+    {
+      "query": "site:rtu.ac.in Rajasthan Technical University Kota programmes admissions",
+      "result": "No RTU result was returned for this focused query; broader official-domain searches returned the official RTU domain.",
+      "url": "https://www.bing.com/search?format=rss&q=site%3Artu.ac.in%20Rajasthan%20Technical%20University%20Kota%20programmes%20admissions"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "rajasthan-technical-university-kota-b-tech",
+      "name": "B. TECH.",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://rtu.sumsraj.com/CollegePortal/Student_Direct_Admission/AdmReg_Login.aspx",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-technical-university-kota-b-tech-leep",
+      "name": "B. TECH. LEEP",
+      "level": "undergraduate lateral-entry",
+      "credential": "degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://rtu.sumsraj.com/CollegePortal/Student_Direct_Admission/AdmReg_Login.aspx",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "direct discipline, lateral-entry variant",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-technical-university-kota-b-tech-working-professional",
+      "name": "B.Tech. Working Professional 2026-2027",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://rtupreadmission.sumsraj.com/Login.aspx",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest-parent, generic engineering variant",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-technical-university-kota-b-arch",
+      "name": "B.Arch",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://rtu.sumsraj.com/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 56,
+          "career_node_slug": "barch",
+          "career_breadcrumb": "Design & Architecture > B.Arch (Architecture)",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-technical-university-kota-bba",
+      "name": "BBA",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://rtu.sumsraj.com/CollegePortal/Student_Direct_Admission/AdmReg_Login.aspx",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 46,
+          "career_node_slug": "bba",
+          "career_breadcrumb": "Management & Business > BBA (General)",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-technical-university-kota-bca",
+      "name": "BCA",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://rtu.sumsraj.com/CollegePortal/Student_Direct_Admission/AdmReg_Login.aspx",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-technical-university-kota-mba",
+      "name": "MBA",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://rtu.sumsraj.com/CollegePortal/Student_Direct_Admission/AdmReg_Login.aspx",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 208,
+          "career_node_slug": "mba_general",
+          "career_breadcrumb": "Management & Business > BBA (General) > MBA → CEO / Director Track",
+          "relation": "closest-specialization, general MBA track",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-technical-university-kota-mba-lateral-entry",
+      "name": "MBA Lateral Entry",
+      "level": "postgraduate lateral-entry",
+      "credential": "degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://rtu.sumsraj.com/CollegePortal/Student_Direct_Admission/AdmReg_Login.aspx",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 208,
+          "career_node_slug": "mba_general",
+          "career_breadcrumb": "Management & Business > BBA (General) > MBA → CEO / Director Track",
+          "relation": "closest-specialization, general MBA lateral-entry track",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-technical-university-kota-m-tech",
+      "name": "M.Tech",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://rtu.sumsraj.com/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest-parent, generic engineering; no specialization stated",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-technical-university-kota-mca",
+      "name": "MCA",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://rtu.sumsraj.com/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 93,
+          "career_node_slug": "mca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications) > MCA → Software Engineer",
+          "relation": "direct programme node",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-technical-university-kota-bfad",
+      "name": "BFAD",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://rtu.sumsraj.com/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 55,
+          "career_node_slug": "bdes",
+          "career_breadcrumb": "Design & Architecture > B.Des (Design)",
+          "relation": "closest-specialization, fashion/apparel design to design",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-technical-university-kota-b-des",
+      "name": "B.DES",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://rtu.sumsraj.com/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 55,
+          "career_node_slug": "bdes",
+          "career_breadcrumb": "Design & Architecture > B.Des (Design)",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-technical-university-kota-bfa",
+      "name": "BFA",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://rtu.sumsraj.com/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 60,
+          "career_node_slug": "bfa",
+          "career_breadcrumb": "Media & Journalism > B.F.A (Fine Arts)",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "rajasthan-technical-university-kota-bve",
+      "name": "BVE",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://rtu.sumsraj.com/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [],
+      "mapping_gap": "No responsible vocational-education career-tree node was found for BVE."
+    }
+  ],
+  "agent_notes": [
+    "The managed network proxy produced the exact self-signed certificate-in-chain error; curl --insecure was used only for public GET requests to expected search and official hosts.",
+    "The primary rtu.ac.in homepage and indexed syllabus/catalogue pages currently return a Cloudflare managed challenge to command-line requests, so a complete centralized official catalogue could not be read.",
+    "The accessible RTU-branded university portal provides current 2026-27 admission guidelines and 2026-27 examination notices, but it is not a complete centralized catalogue and its notices mix University Department and affiliated or constituent-college programmes.",
+    "No official page accessed in this run verified programme duration or eligibility, so those fields remain null.",
+    "No active diploma, certificate, or doctoral programme was discoverable in the accessible official admission/catalogue pages; certificate links were student-document services, not certificate programmes.",
+    "The career mappings were checked with read-only sqlite3 queries against assets/data/career_path.db; the database was not edited."
+  ]
+}

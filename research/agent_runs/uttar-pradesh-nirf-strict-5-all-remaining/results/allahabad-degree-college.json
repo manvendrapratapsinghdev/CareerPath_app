@@ -1,0 +1,914 @@
+{
+  "institution_id": "allahabad-degree-college",
+  "nirf_name": "Allahabad Degree College",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/LawRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "verified",
+  "district": "Prayagraj",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://adc-au.in/",
+  "website_verification_status": "verified",
+  "description": "Allahabad Degree College is a constituent college of the University of Allahabad, established in 1956, with three Prayagraj campuses offering programmes in arts, science, commerce and law.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Lists Allahabad Degree College in Prayagraj, Uttar Pradesh."
+      ]
+    },
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/LawRankingALL.html",
+      "supports": [
+        "Lists Allahabad Degree College in Prayagraj, Uttar Pradesh."
+      ]
+    },
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Lists Allahabad Degree College in Prayagraj, Uttar Pradesh."
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://adc-au.in/",
+      "supports": [
+        "Identifies Allahabad Degree College, Prayagraj (UP), and lists the Main Campus at 15 Kydganj, the Law Campus at Beniganj, and the Zero Road campus."
+      ]
+    },
+    {
+      "type": "official_about",
+      "url": "https://adc-au.in/?page_id=1586",
+      "supports": [
+        "States that Allahabad Degree College is a constituent college of the University of Allahabad established in 1956, operates across three campuses, and offers arts, science, commerce and law education."
+      ]
+    },
+    {
+      "type": "official_course_catalogue_ug",
+      "url": "https://adc-au.in/?page_id=1584",
+      "supports": [
+        "Official undergraduate course table listing the B.A., B.Sc., B.A./B.Sc. Defence and Strategic Studies, B.Com and LL.B. programmes and subjects."
+      ]
+    },
+    {
+      "type": "official_course_catalogue_pg",
+      "url": "https://adc-au.in/?page_id=1585",
+      "supports": [
+        "Official postgraduate course table listing M.A., M.Sc., M.Com and LL.M. programmes and subjects."
+      ]
+    },
+    {
+      "type": "official_law_department",
+      "url": "https://adc-au.in/?page_id=1597",
+      "supports": [
+        "States that the Department of Law offers LL.B. (3 Years Course), LL.M. and PhD in Law."
+      ]
+    }
+  ],
+  "website_search_evidence": [],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "allahabad-degree-college-ba-ancient-history",
+      "name": "Bachelor of Arts (B.A.)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Arts",
+      "specialization": "Ancient History",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://adc-au.in/?page_id=1584",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "allahabad-degree-college-ba-economics",
+      "name": "Bachelor of Arts (B.A.)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Arts",
+      "specialization": "Economics",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://adc-au.in/?page_id=1584",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "allahabad-degree-college-ba-education",
+      "name": "Bachelor of Arts (B.A.)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Arts",
+      "specialization": "Education",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://adc-au.in/?page_id=1584",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "closest-specialization",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "allahabad-degree-college-ba-english",
+      "name": "Bachelor of Arts (B.A.)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Arts",
+      "specialization": "English",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://adc-au.in/?page_id=1584",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "allahabad-degree-college-ba-hindi",
+      "name": "Bachelor of Arts (B.A.)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Arts",
+      "specialization": "Hindi",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://adc-au.in/?page_id=1584",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "allahabad-degree-college-ba-medieval-modern-history",
+      "name": "Bachelor of Arts (B.A.)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Arts",
+      "specialization": "Medieval and Modern History",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://adc-au.in/?page_id=1584",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "allahabad-degree-college-ba-music",
+      "name": "Bachelor of Arts (B.A.)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Arts",
+      "specialization": "Music (Only for Girls)",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://adc-au.in/?page_id=1584",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 75,
+          "career_node_slug": "music_course",
+          "career_breadcrumb": "Performing Arts & Sports > Music (BA / Diploma)",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "allahabad-degree-college-ba-painting",
+      "name": "Bachelor of Arts (B.A.)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Arts",
+      "specialization": "Painting (Only for Girls)",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://adc-au.in/?page_id=1584",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 60,
+          "career_node_slug": "bfa",
+          "career_breadcrumb": "Media & Journalism > B.F.A (Fine Arts)",
+          "relation": "closest-specialization",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "allahabad-degree-college-ba-philosophy",
+      "name": "Bachelor of Arts (B.A.)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Arts",
+      "specialization": "Philosophy",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://adc-au.in/?page_id=1584",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "allahabad-degree-college-ba-political-science",
+      "name": "Bachelor of Arts (B.A.)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Arts",
+      "specialization": "Political Science",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://adc-au.in/?page_id=1584",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "allahabad-degree-college-ba-sanskrit",
+      "name": "Bachelor of Arts (B.A.)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Arts",
+      "specialization": "Sanskrit",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://adc-au.in/?page_id=1584",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "allahabad-degree-college-ba-urdu",
+      "name": "Bachelor of Arts (B.A.)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Arts",
+      "specialization": "Urdu (Only for Girls)",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://adc-au.in/?page_id=1584",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "allahabad-degree-college-ba-geography",
+      "name": "Bachelor of Arts (B.A.)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Arts",
+      "specialization": "Geography",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://adc-au.in/?page_id=1584",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "allahabad-degree-college-ba-psychology",
+      "name": "Bachelor of Arts (B.A.)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Arts",
+      "specialization": "Psychology (Only for Girls)",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://adc-au.in/?page_id=1584",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 66,
+          "career_node_slug": "ba_psychology",
+          "career_breadcrumb": "Social Sciences & Education > BA Psychology",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "allahabad-degree-college-ba-physical-education",
+      "name": "Bachelor of Arts (B.A.)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Arts",
+      "specialization": "Physical Education",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://adc-au.in/?page_id=1584",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 78,
+          "career_node_slug": "sports_career",
+          "career_breadcrumb": "Performing Arts & Sports > Sports & Physical Education",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "allahabad-degree-college-bsc-mathematics",
+      "name": "Bachelor of Science (B.Sc.)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Science",
+      "specialization": "Mathematics",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://adc-au.in/?page_id=1584",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "allahabad-degree-college-bsc-physics",
+      "name": "Bachelor of Science (B.Sc.)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Science",
+      "specialization": "Physics",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://adc-au.in/?page_id=1584",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 24,
+          "career_node_slug": "bsc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "allahabad-degree-college-bsc-statistics",
+      "name": "Bachelor of Science (B.Sc.)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Science",
+      "specialization": "Statistics",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://adc-au.in/?page_id=1584",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 6,
+          "career_node_slug": "bsc_stats",
+          "career_breadcrumb": "Maths / PCM > B.Sc Statistics",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "allahabad-degree-college-bsc-computer-science",
+      "name": "Bachelor of Science (B.Sc.)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Science",
+      "specialization": "Computer Science",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://adc-au.in/?page_id=1584",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 32,
+          "career_node_slug": "bsc_cs",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Computer Science",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "allahabad-degree-college-ba-bsc-defence-strategic-studies",
+      "name": "B.A./B.Sc.",
+      "level": "undergraduate",
+      "credential": "B.A./B.Sc.",
+      "specialization": "Defence and Strategic Studies",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://adc-au.in/?page_id=1584",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 4,
+          "career_node_slug": "nda",
+          "career_breadcrumb": "Maths / PCM > NDA (National Defence Academy)",
+          "relation": "closest-specialization",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "allahabad-degree-college-bcom",
+      "name": "B.Com",
+      "level": "undergraduate",
+      "credential": "Bachelor of Commerce",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://adc-au.in/?page_id=1584",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "allahabad-degree-college-llb",
+      "name": "LL.B.",
+      "level": "undergraduate",
+      "credential": "Bachelor of Laws",
+      "specialization": null,
+      "duration": "3 Years Course",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://adc-au.in/?page_id=1584",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 343,
+          "career_node_slug": "commerce_law",
+          "career_breadcrumb": "Law & Legal",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "allahabad-degree-college-ma-ancient-history",
+      "name": "Master of Arts (M.A.)",
+      "level": "postgraduate",
+      "credential": "Master of Arts",
+      "specialization": "Ancient History",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://adc-au.in/?page_id=1585",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "allahabad-degree-college-ma-economics",
+      "name": "Master of Arts (M.A.)",
+      "level": "postgraduate",
+      "credential": "Master of Arts",
+      "specialization": "Economics",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://adc-au.in/?page_id=1585",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct-discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "allahabad-degree-college-ma-english",
+      "name": "Master of Arts (M.A.)",
+      "level": "postgraduate",
+      "credential": "Master of Arts",
+      "specialization": "English",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://adc-au.in/?page_id=1585",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "direct-discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "allahabad-degree-college-ma-hindi",
+      "name": "Master of Arts (M.A.)",
+      "level": "postgraduate",
+      "credential": "Master of Arts",
+      "specialization": "Hindi",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://adc-au.in/?page_id=1585",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct-discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "allahabad-degree-college-ma-medieval-modern-history",
+      "name": "Master of Arts (M.A.)",
+      "level": "postgraduate",
+      "credential": "Master of Arts",
+      "specialization": "Medieval and Modern History",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://adc-au.in/?page_id=1585",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "allahabad-degree-college-ma-geography",
+      "name": "Master of Arts (M.A.)",
+      "level": "postgraduate",
+      "credential": "Master of Arts",
+      "specialization": "Geography",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://adc-au.in/?page_id=1585",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "allahabad-degree-college-ma-political-science",
+      "name": "Master of Arts (M.A.)",
+      "level": "postgraduate",
+      "credential": "Master of Arts",
+      "specialization": "Political Science",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://adc-au.in/?page_id=1585",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct-discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "allahabad-degree-college-msc-mathematics",
+      "name": "Master of Science (M.Sc.)",
+      "level": "postgraduate",
+      "credential": "Master of Science",
+      "specialization": "Mathematics",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://adc-au.in/?page_id=1585",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct-discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "allahabad-degree-college-msc-physics",
+      "name": "Master of Science (M.Sc.)",
+      "level": "postgraduate",
+      "credential": "Master of Science",
+      "specialization": "Physics",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://adc-au.in/?page_id=1585",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 24,
+          "career_node_slug": "bsc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics",
+          "relation": "direct-discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "allahabad-degree-college-msc-geography",
+      "name": "Master of Science (M.Sc.)",
+      "level": "postgraduate",
+      "credential": "Master of Science",
+      "specialization": "Geography",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://adc-au.in/?page_id=1585",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "allahabad-degree-college-mcom",
+      "name": "M.Com",
+      "level": "postgraduate",
+      "credential": "Master of Commerce",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://adc-au.in/?page_id=1585",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct-discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "allahabad-degree-college-llm",
+      "name": "LL.M.",
+      "level": "postgraduate",
+      "credential": "Master of Laws",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://adc-au.in/?page_id=1585",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 343,
+          "career_node_slug": "commerce_law",
+          "career_breadcrumb": "Law & Legal",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "allahabad-degree-college-phd-law",
+      "name": "PhD in Law",
+      "level": "doctoral",
+      "credential": "PhD",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://adc-au.in/?page_id=1597",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 343,
+          "career_node_slug": "commerce_law",
+          "career_breadcrumb": "Law & Legal",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "allahabad-degree-college-computer-applications-training",
+      "name": "One Year Training Programme of Computer Applications",
+      "level": "training",
+      "credential": "Training Programme",
+      "specialization": null,
+      "duration": "One Year",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://adc-au.in/?page_id=1586",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "Normal TLS verification encountered the managed proxy's self-signed-certificate-in-chain error; public GET requests were then retried with --insecure only for the expected NIRF, search, and official institutional hosts.",
+    "All three supplied 2025 NIRF government listings contain Allahabad Degree College in Prayagraj, Uttar Pradesh.",
+    "The official site publishes undergraduate and postgraduate course tables; the Law department page additionally states LL.B. (3 Years Course), LL.M. and PhD in Law. Duration and eligibility remain null where the official catalogue does not state them.",
+    "The official About College page separately mentions a One Year Training Programme of Computer Applications; it is included as a non-degree training offering, while the referenced O-level certificate is not represented as a college-awarded credential."
+  ]
+}

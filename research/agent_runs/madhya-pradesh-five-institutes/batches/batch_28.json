@@ -1,0 +1,91 @@
+{
+  "batch": 28,
+  "started_at": "2026-09-27T07:14:52.615642+00:00",
+  "finished_at": "2026-09-27T07:15:00.841412+00:00",
+  "assignment_count": 5,
+  "completed_count": 0,
+  "skipped_count": 0,
+  "failed_count": 5,
+  "results": [
+    {
+      "institution_id": "government-college-anjaniya-dist-mandla",
+      "nirf_name": "Government College Anjaniya,Dist- Mandla",
+      "status": "failed",
+      "started_at": "2026-09-27T07:14:52.674150+00:00",
+      "finished_at": "2026-09-27T07:15:00.625819+00:00",
+      "duration_seconds": 7.952,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/government-college-anjaniya-dist-mandla.jsonl"
+    },
+    {
+      "institution_id": "government-college-bhanpura",
+      "nirf_name": "GOVERNMENT COLLEGE, BHANPURA",
+      "status": "failed",
+      "started_at": "2026-09-27T07:14:52.705851+00:00",
+      "finished_at": "2026-09-27T07:15:00.585260+00:00",
+      "duration_seconds": 7.879,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/government-college-bhanpura.jsonl"
+    },
+    {
+      "institution_id": "government-college-sitamau",
+      "nirf_name": "GOVERNMENT COLLEGE, SITAMAU",
+      "status": "failed",
+      "started_at": "2026-09-27T07:14:52.721572+00:00",
+      "finished_at": "2026-09-27T07:15:00.829481+00:00",
+      "duration_seconds": 8.108,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/government-college-sitamau.jsonl"
+    },
+    {
+      "institution_id": "govt-college-mandleshwar",
+      "nirf_name": "Govt. College, Mandleshwar",
+      "status": "failed",
+      "started_at": "2026-09-27T07:14:52.705652+00:00",
+      "finished_at": "2026-09-27T07:15:00.586175+00:00",
+      "duration_seconds": 7.88,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/govt-college-mandleshwar.jsonl"
+    },
+    {
+      "institution_id": "govt-college-mawai-district-mandla-m-p",
+      "nirf_name": "GOVT COLLEGE MAWAI, DISTRICT - MANDLA (M.P.)",
+      "status": "failed",
+      "started_at": "2026-09-27T07:14:52.674548+00:00",
+      "finished_at": "2026-09-27T07:15:00.660913+00:00",
+      "duration_seconds": 7.986,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/govt-college-mawai-district-mandla-m-p.jsonl"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "institution_id": "akshat-college-sitpura-satna",
+  "nirf_name": "AKSHAT COLLEGE SITPURA SATNA",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "remove_candidate",
+  "district": null,
+  "district_verification_status": "not_found",
+  "official_website": null,
+  "website_verification_status": "not_found",
+  "description": null,
+  "description_verification_status": "not_found",
+  "record_status": "remove_candidate",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "The official NIRF 2025 participating College listing contains the exact institution name AKSHAT COLLEGE SITPURA SATNA with city Satna and state Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "authoritative_affiliation_check",
+      "url": "https://apsurewa.ac.in/en/affiliated-college/government-college",
+      "supports": [
+        "The official APS University government-affiliated-college page did not contain the target institution name."
+      ]
+    },
+    {
+      "type": "authoritative_affiliation_check",
+      "url": "https://apsurewa.ac.in/en/affiliated-college/private-college",
+      "supports": [
+        "The official APS University private-affiliated-college page did not contain the target institution name."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"AKSHAT COLLEGE SITPURA SATNA\"",
+      "result": "Google returned a search-access challenge and no usable official institution result.",
+      "url": "https://www.google.com/search?q=%22AKSHAT+COLLEGE+SITPURA+SATNA%22"
+    },
+    {
+      "query": "Akshat College Sitpura Satna official website",
+      "result": "Google returned a search-access challenge and no usable official institution result.",
+      "url": "https://www.google.com/search?q=Akshat+College+Sitpura+Satna+official+website"
+    },
+    {
+      "query": "\"AKSHAT COLLEGE SITPURA SATNA\"",
+      "result": "Bing returned no matching official institution website; returned results were unrelated and excluded from verification.",
+      "url": "https://www.bing.com/search?q=%22AKSHAT+COLLEGE+SITPURA+SATNA%22"
+    },
+    {
+      "query": "Akshat College Sitpura Satna official website",
+      "result": "Bing returned no matching official institution website; returned results were unrelated and excluded from verification.",
+      "url": "https://www.bing.com/search?q=Akshat+College+Sitpura+Satna+official+website"
+    },
+    {
+      "query": "site:mp.gov.in \"Akshat College\" Satna",
+      "result": "No official Madhya Pradesh government institution website result for the target was found.",
+      "url": "https://www.bing.com/search?q=site%3Amp.gov.in+%22Akshat+College%22+Satna"
+    },
+    {
+      "query": "site:ac.in \"Akshat College\" Satna",
+      "result": "No official academic-domain institution website result for the target was found.",
+      "url": "https://www.bing.com/search?q=site%3Aac.in+%22Akshat+College%22+Satna"
+    },
+    {
+      "query": "\"Akshat College\" \"Sitpura\"",
+      "result": "The DuckDuckGo request produced no usable result for an official institution website.",
+      "url": "https://html.duckduckgo.com/html/?q=%22Akshat+College%22+%22Sitpura%22"
+    },
+    {
+      "query": "\"Akshat College\" Satna official",
+      "result": "The Brave search request was rate-limited and produced no result establishing an official institution website.",
+      "url": "https://search.brave.com/search?q=%22Akshat+College%22+Satna+official"
+    },
+    {
+      "query": "Candidate official domains akshatcollege.com, akshatcollege.in, akshatcollege.edu.in, akshatcollege.org, akshatcollege.co.in, akshatcollegesatna.com",
+      "result": "All focused candidate-domain probes failed DNS resolution; no official website was established.",
+      "url": null
+    },
+    {
+      "query": "Official APS University affiliated-college cross-check for Akshat College Sitpura Satna",
+      "result": "The official government and private affiliated-college pages contained no exact target institution entry.",
+      "url": "https://apsurewa.ac.in/en/affiliated-college/government-college"
+    }
+  ],
+  "course_catalogue_status": "not_found",
+  "courses": [],
+  "agent_notes": [
+    "The exact institution and city/state were confirmed in the official NIRF 2025 participating College listing, satisfying the supplied government-listing requirement.",
+    "No institution-owned official homepage, district/campus page, admissions page, or programme catalogue could be established after focused searches and authoritative-domain checks; no programme data was imported.",
+    "The initial NIRF HTTPS request failed with the exact managed-network self-signed certificate-chain error. After confirming the expected official hostname, curl --insecure was used only for public GET requests; no credentials or private data were sent."
+  ]
+}

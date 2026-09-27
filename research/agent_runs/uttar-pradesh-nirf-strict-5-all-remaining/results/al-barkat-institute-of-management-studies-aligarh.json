@@ -1,0 +1,69 @@
+{
+  "institution_id": "al-barkat-institute-of-management-studies-aligarh",
+  "nirf_name": "AL BARKAT INSTITUTE OF MANAGEMENT STUDIES, ALIGARH",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html"
+  ],
+  "verification_outcome": "remove_candidate",
+  "district": null,
+  "district_verification_status": "not_found",
+  "official_website": null,
+  "website_verification_status": "not_found",
+  "description": null,
+  "description_verification_status": "not_found",
+  "record_status": "remove_candidate",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html",
+      "supports": [
+        "Exact institution name is listed with Aligarh, Uttar Pradesh in the 2025 Management ranking directory."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"AL BARKAT INSTITUTE OF MANAGEMENT STUDIES\" Aligarh official",
+      "result": "No matching official institutional website was established; search results were unrelated.",
+      "url": "https://www.bing.com/search?q=%22AL+BARKAT+INSTITUTE+OF+MANAGEMENT+STUDIES%22+Aligarh+official"
+    },
+    {
+      "query": "\"AL BARKAT INSTITUTE\" \"ALIGARH\" website",
+      "result": "No matching official institutional domain was established.",
+      "url": "https://www.bing.com/search?q=%22AL+BARKAT+INSTITUTE%22+%22ALIGARH%22+website"
+    },
+    {
+      "query": "\"Al Barkat Institute of Management Studies\" admissions",
+      "result": "No official admissions or programme catalogue page was found.",
+      "url": "https://www.bing.com/search?q=%22Al+Barkat+Institute+of+Management+Studies%22+admissions"
+    },
+    {
+      "query": "site:gov.in \"AL BARKAT INSTITUTE OF MANAGEMENT STUDIES\" Aligarh",
+      "result": "Authoritative-domain search did not establish an institutional website; the separate NIRF directory check confirmed only the government listing.",
+      "url": "https://www.bing.com/search?q=site%3Agov.in+%22AL+BARKAT+INSTITUTE+OF+MANAGEMENT+STUDIES%22+Aligarh"
+    },
+    {
+      "query": "site:edu.in \"AL BARKAT INSTITUTE OF MANAGEMENT STUDIES\" Aligarh",
+      "result": "No matching official institutional domain was established.",
+      "url": "https://www.bing.com/search?q=site%3Aedu.in+%22AL+BARKAT+INSTITUTE+OF+MANAGEMENT+STUDIES%22+Aligarh"
+    },
+    {
+      "query": "Direct domain check: https://albarkat.org/",
+      "result": "The page is only an image landing page titled AlBarkat and does not identify the Uttar Pradesh institution or provide a catalogue.",
+      "url": "https://albarkat.org/"
+    },
+    {
+      "query": "Direct domain check: https://al-barkat.com/",
+      "result": "The page identifies Barkat Corporation, a Pakistan textile manufacturer, not the Aligarh institution.",
+      "url": "https://al-barkat.com/"
+    }
+  ],
+  "course_catalogue_status": "not_found",
+  "courses": [],
+  "agent_notes": [
+    "The exact institution and city/state were confirmed in the supplied NIRF 2025 Management directory, but no actual official institutional website could be established after multiple focused searches and authoritative-domain checks.",
+    "The managed proxy produced the exact self-signed-certificate-chain TLS error on the initial NIRF request; curl --insecure was then used only for public GET requests to confirmed expected public hostnames.",
+    "No official homepage, campus/district page, programme catalogue, duration, eligibility, or active course evidence was found; the candidate is removed under the stated outcome rules."
+  ]
+}

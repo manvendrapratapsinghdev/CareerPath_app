@@ -1,0 +1,77 @@
+{
+  "institution_id": "arihant-college-of-professional-education-sailana",
+  "nirf_name": "ARIHANT COLLEGE OF PROFESSIONAL EDUCATION, SAILANA",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "remove_candidate",
+  "district": null,
+  "district_verification_status": "not_found",
+  "official_website": null,
+  "website_verification_status": "not_found",
+  "description": null,
+  "description_verification_status": "not_found",
+  "record_status": "remove_candidate",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact institution name appears in the 2025 NIRF College listing"
+      ]
+    },
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Exact institution name appears in the 2025 NIRF Overall listing"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"ARIHANT COLLEGE OF PROFESSIONAL EDUCATION\" SAILANA official",
+      "result": "No official institution website was identified. Returned results were unrelated Arihant commercial websites and marketplaces.",
+      "url": null
+    },
+    {
+      "query": "\"Arihant College of Professional Education\" Ratlam",
+      "result": "No exact official institution website was identified. Returned results were unrelated Arihant commercial websites and marketplaces.",
+      "url": null
+    },
+    {
+      "query": "site:ac.in \"Arihant College of Professional Education\"",
+      "result": "No matching official academic-domain website was identified; returned results were unrelated Arihant commercial websites.",
+      "url": null
+    },
+    {
+      "query": "site:vikramuniv.ac.in \"Arihant\" \"Sailana\"",
+      "result": "No exact institution result was returned from the authoritative affiliating-university domain search.",
+      "url": null
+    },
+    {
+      "query": "site:highereducation.mp.gov.in \"Arihant\" \"Sailana\"",
+      "result": "No exact institution result was returned from the Madhya Pradesh higher-education domain search.",
+      "url": null
+    },
+    {
+      "query": "authoritative-domain check: https://vikramuniv.ac.in/ and https://highereducation.mp.gov.in/",
+      "result": "Both authoritative domains were checked over HTTPS; retrieved pages contained no exact reference to Arihant College of Professional Education, Sailana.",
+      "url": "https://vikramuniv.ac.in/"
+    },
+    {
+      "query": "authoritative-domain check: https://highereducation.mp.gov.in/",
+      "result": "The retrieved official Madhya Pradesh higher-education page contained no exact reference to Arihant College of Professional Education, Sailana.",
+      "url": "https://highereducation.mp.gov.in/"
+    }
+  ],
+  "course_catalogue_status": "not_found",
+  "courses": [],
+  "agent_notes": [
+    "The exact institution is established in both supplied NIRF government listings, but no official institution website could be established after multiple focused searches and authoritative-domain checks.",
+    "Normal curl TLS verification produced the managed proxy's self-signed certificate-chain error; curl --insecure was then used only for public GET requests to confirmed official or search hostnames.",
+    "No official homepage, campus page, programme catalogue, district page, or course evidence was found; no programmes were imported."
+  ]
+}

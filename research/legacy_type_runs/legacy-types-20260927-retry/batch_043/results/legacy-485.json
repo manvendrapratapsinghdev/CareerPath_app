@@ -1,0 +1,15 @@
+{
+  "institution_id": "legacy-485",
+  "database_id": 485,
+  "name": "IIT Roorkee - Architecture Department",
+  "website": "https://www.iitr.ac.in",
+  "outcome": "classified",
+  "institution_type": "iit",
+  "source_url": "https://www.iitr.ac.in/Institute/About%20the%20Institute/index.html",
+  "confidence": "high",
+  "evidence": "The official IIT Roorkee About the Institute page states that the institute was converted to an IIT and declared the nation's seventh Indian Institute of Technology, an Institution of National Importance.",
+  "notes": [
+    "The official Departments page on the same domain lists the Department of Architecture and Planning, confirming the department context.",
+    "Used curl --insecure only after normal TLS failed with a self-signed certificate in the proxy certificate chain."
+  ]
+}

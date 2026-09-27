@@ -1,0 +1,846 @@
+{
+  "institution_id": "arya-kanya-degree-college",
+  "nirf_name": "Arya Kanya Degree College",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Prayagraj",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://akpgc.in/",
+  "website_verification_status": "verified",
+  "description": "Arya Kanya Degree College is a women's constituent college of the University of Allahabad, founded in 1975 and located at 886, Mutthiganj, Prayagraj, Uttar Pradesh.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Lists Arya Kanya Degree College in Prayagraj, Uttar Pradesh."
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://akpgc.in/",
+      "supports": [
+        "Official institution title, campus description, constituent-college status, and current admission notices."
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "https://akpgc.in/contact-us/",
+      "supports": [
+        "Campus address: 886, Mutthiganj, Prayagraj, Uttar Pradesh, India."
+      ]
+    },
+    {
+      "type": "official_institution_profile",
+      "url": "https://akpgc.in/about-college/",
+      "supports": [
+        "Institution identity, founding year, University of Allahabad affiliation, degree offerings, and doctoral disciplines."
+      ]
+    },
+    {
+      "type": "official_current_admissions",
+      "url": "https://akpgc.in/admission-notice/",
+      "supports": [
+        "Current 2026-27 B.A., B.Com., and continuing-admission notices."
+      ]
+    },
+    {
+      "type": "official_current_admissions",
+      "url": "https://akpgc.in/notice-for-admission-in-post-graduate-course-ma-session-2026-27/",
+      "supports": [
+        "Current 2026-27 B.A., B.Com., and M.A. admission procedures."
+      ]
+    },
+    {
+      "type": "official_current_admissions",
+      "url": "https://akpgc.in/admission-notice-b-a-ll-b/",
+      "supports": [
+        "Current 2026-27 B.A. LL.B. (Hons.) admission notice."
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://akpgc.in/bachelor-of-arts/",
+      "supports": [
+        "Bachelor of Arts programme and listed subject options."
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://akpgc.in/bachelor-of-commerce/",
+      "supports": [
+        "Bachelor of Commerce programme."
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://akpgc.in/master-of-arts/",
+      "supports": [
+        "Master of Arts programme and listed subject options."
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://akpgc.in/ba-llb/",
+      "supports": [
+        "B.A. LL.B. programme page and official prospectus link."
+      ]
+    },
+    {
+      "type": "official_course_index",
+      "url": "https://akpgc.in/courses/",
+      "supports": [
+        "Official course index with historical 3-year B.A./B.Com., 4-semester M.A., Ph.D., and CCCA references; page is dated 2022 and conflicts with other catalogue pages."
+      ]
+    },
+    {
+      "type": "official_catalogue_check",
+      "url": "https://akpgc.in/u-g-course/",
+      "supports": [
+        "Official undergraduate-course navigation page."
+      ]
+    },
+    {
+      "type": "official_catalogue_check",
+      "url": "https://akpgc.in/p-g-course/",
+      "supports": [
+        "Official postgraduate-course navigation page."
+      ]
+    },
+    {
+      "type": "official_catalogue_check",
+      "url": "https://akpgc.in/professional-course/",
+      "supports": [
+        "Official professional-course navigation page; no current programme details established."
+      ]
+    },
+    {
+      "type": "official_catalogue_check",
+      "url": "https://akpgc.in/mehendi-certificate-course/",
+      "supports": [
+        "Official Mehendi page containing only 2024/2025 items."
+      ]
+    },
+    {
+      "type": "official_catalogue_check",
+      "url": "https://akpgc.in/course-on-computer-concepts-ccc/",
+      "supports": [
+        "Official CCC page with no current programme details."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "Arya Kanya Degree College Prayagraj official website",
+      "result": "DuckDuckGo returned the first-party result titled AKPGC - Arya Kanya Degree College at akpgc.in, along with official admission pages on the same domain.",
+      "url": "https://akpgc.in/"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "arya-kanya-degree-college-ba-hindi",
+      "name": "Bachelor of Arts",
+      "level": "undergraduate",
+      "credential": "B.A.",
+      "specialization": "Hindi",
+      "duration": "3 years",
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://akpgc.in/bachelor-of-arts/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "Direct discipline mapping for the officially listed Hindi subject",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "arya-kanya-degree-college-ba-english",
+      "name": "Bachelor of Arts",
+      "level": "undergraduate",
+      "credential": "B.A.",
+      "specialization": "English",
+      "duration": "3 years",
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://akpgc.in/bachelor-of-arts/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "Direct discipline mapping for the officially listed English subject",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "arya-kanya-degree-college-ba-sanskrit",
+      "name": "Bachelor of Arts",
+      "level": "undergraduate",
+      "credential": "B.A.",
+      "specialization": "Sanskrit",
+      "duration": "3 years",
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://akpgc.in/bachelor-of-arts/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "Nearest-parent mapping because no Sanskrit node exists in the career tree",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "arya-kanya-degree-college-ba-education",
+      "name": "Bachelor of Arts",
+      "level": "undergraduate",
+      "credential": "B.A.",
+      "specialization": "Education",
+      "duration": "3 years",
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://akpgc.in/bachelor-of-arts/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "Direct discipline mapping for the officially listed Education subject",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "arya-kanya-degree-college-ba-medieval-history",
+      "name": "Bachelor of Arts",
+      "level": "undergraduate",
+      "credential": "B.A.",
+      "specialization": "Medieval History",
+      "duration": "3 years",
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://akpgc.in/bachelor-of-arts/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "Closest available History discipline for the officially listed Medieval History subject",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "arya-kanya-degree-college-ba-ancient-history",
+      "name": "Bachelor of Arts",
+      "level": "undergraduate",
+      "credential": "B.A.",
+      "specialization": "Ancient History",
+      "duration": "3 years",
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://akpgc.in/bachelor-of-arts/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "Closest available History discipline for the officially listed Ancient History subject",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "arya-kanya-degree-college-ba-sociology",
+      "name": "Bachelor of Arts",
+      "level": "undergraduate",
+      "credential": "B.A.",
+      "specialization": "Sociology",
+      "duration": "3 years",
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://akpgc.in/bachelor-of-arts/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "Direct discipline mapping for the officially listed Sociology subject",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "arya-kanya-degree-college-ba-philosophy",
+      "name": "Bachelor of Arts",
+      "level": "undergraduate",
+      "credential": "B.A.",
+      "specialization": "Philosophy",
+      "duration": "3 years",
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://akpgc.in/bachelor-of-arts/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "Nearest-parent mapping because no Philosophy node exists in the career tree",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "arya-kanya-degree-college-ba-economics",
+      "name": "Bachelor of Arts",
+      "level": "undergraduate",
+      "credential": "B.A.",
+      "specialization": "Economics",
+      "duration": "3 years",
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://akpgc.in/bachelor-of-arts/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "Direct discipline mapping for the officially listed Economics subject",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "arya-kanya-degree-college-ba-music-vocal",
+      "name": "Bachelor of Arts",
+      "level": "undergraduate",
+      "credential": "B.A.",
+      "specialization": "Music Vocal",
+      "duration": "3 years",
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://akpgc.in/bachelor-of-arts/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 75,
+          "career_node_slug": "music_course",
+          "career_breadcrumb": "Performing Arts & Sports > Music (BA / Diploma)",
+          "relation": "Direct performing-arts mapping for the officially listed Music Vocal subject",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "arya-kanya-degree-college-ba-music-instrumental",
+      "name": "Bachelor of Arts",
+      "level": "undergraduate",
+      "credential": "B.A.",
+      "specialization": "Music Instrumental",
+      "duration": "3 years",
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://akpgc.in/bachelor-of-arts/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 75,
+          "career_node_slug": "music_course",
+          "career_breadcrumb": "Performing Arts & Sports > Music (BA / Diploma)",
+          "relation": "Direct performing-arts mapping for the officially listed Music Instrumental subject",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "arya-kanya-degree-college-ba-political-science",
+      "name": "Bachelor of Arts",
+      "level": "undergraduate",
+      "credential": "B.A.",
+      "specialization": "Political Science",
+      "duration": "3 years",
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://akpgc.in/bachelor-of-arts/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "Direct discipline mapping for the officially listed Political Science subject",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "arya-kanya-degree-college-ba-painting",
+      "name": "Bachelor of Arts",
+      "level": "undergraduate",
+      "credential": "B.A.",
+      "specialization": "Painting",
+      "duration": "3 years",
+      "mode": "self-finance",
+      "eligibility": null,
+      "official_course_url": "https://akpgc.in/bachelor-of-arts/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 60,
+          "career_node_slug": "bfa",
+          "career_breadcrumb": "Media & Journalism > B.F.A (Fine Arts)",
+          "relation": "Nearest available fine-arts mapping for the officially listed Painting subject",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "arya-kanya-degree-college-ba-geography",
+      "name": "Bachelor of Arts",
+      "level": "undergraduate",
+      "credential": "B.A.",
+      "specialization": "Geography",
+      "duration": "3 years",
+      "mode": "self-finance",
+      "eligibility": null,
+      "official_course_url": "https://akpgc.in/bachelor-of-arts/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "Nearest-parent mapping because no Geography node exists in the career tree",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "arya-kanya-degree-college-bcom",
+      "name": "Bachelor of Commerce",
+      "level": "undergraduate",
+      "credential": "B.Com.",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "self-finance",
+      "eligibility": null,
+      "official_course_url": "https://akpgc.in/bachelor-of-commerce/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "Direct programme mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "arya-kanya-degree-college-ma-hindi",
+      "name": "Master of Arts",
+      "level": "postgraduate",
+      "credential": "M.A.",
+      "specialization": "Hindi",
+      "duration": "4 semesters",
+      "mode": "self-finance",
+      "eligibility": null,
+      "official_course_url": "https://akpgc.in/master-of-arts/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "Direct Hindi-discipline mapping; the career node is undergraduate-labelled",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "arya-kanya-degree-college-ma-english",
+      "name": "Master of Arts",
+      "level": "postgraduate",
+      "credential": "M.A.",
+      "specialization": "English",
+      "duration": "4 semesters",
+      "mode": "self-finance",
+      "eligibility": null,
+      "official_course_url": "https://akpgc.in/master-of-arts/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "Direct English-discipline mapping; the career node is undergraduate-labelled",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "arya-kanya-degree-college-ma-sanskrit",
+      "name": "Master of Arts",
+      "level": "postgraduate",
+      "credential": "M.A.",
+      "specialization": "Sanskrit",
+      "duration": "4 semesters",
+      "mode": "self-finance",
+      "eligibility": null,
+      "official_course_url": "https://akpgc.in/master-of-arts/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "Nearest-parent mapping because no Sanskrit node exists in the career tree",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "arya-kanya-degree-college-ma-education",
+      "name": "Master of Arts",
+      "level": "postgraduate",
+      "credential": "M.A.",
+      "specialization": "Education",
+      "duration": "4 semesters",
+      "mode": "self-finance",
+      "eligibility": null,
+      "official_course_url": "https://akpgc.in/master-of-arts/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "Direct Education-discipline mapping; the career node is undergraduate-labelled",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "arya-kanya-degree-college-ma-economics",
+      "name": "Master of Arts",
+      "level": "postgraduate",
+      "credential": "M.A.",
+      "specialization": "Economics",
+      "duration": "4 semesters",
+      "mode": "self-finance",
+      "eligibility": null,
+      "official_course_url": "https://akpgc.in/master-of-arts/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "Direct Economics-discipline mapping; the career node is undergraduate-labelled",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "arya-kanya-degree-college-ma-music-vocal",
+      "name": "Master of Arts",
+      "level": "postgraduate",
+      "credential": "M.A.",
+      "specialization": "Music (Vocal)",
+      "duration": "4 semesters",
+      "mode": "self-finance",
+      "eligibility": null,
+      "official_course_url": "https://akpgc.in/master-of-arts/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 75,
+          "career_node_slug": "music_course",
+          "career_breadcrumb": "Performing Arts & Sports > Music (BA / Diploma)",
+          "relation": "Direct Music-discipline mapping; the career node is undergraduate-labelled",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "arya-kanya-degree-college-ma-political-science",
+      "name": "Master of Arts",
+      "level": "postgraduate",
+      "credential": "M.A.",
+      "specialization": "Political Science",
+      "duration": "4 semesters",
+      "mode": "self-finance",
+      "eligibility": null,
+      "official_course_url": "https://akpgc.in/master-of-arts/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "Direct Political Science mapping; the career node is undergraduate-labelled",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "arya-kanya-degree-college-ma-sociology",
+      "name": "Master of Arts",
+      "level": "postgraduate",
+      "credential": "M.A.",
+      "specialization": "Sociology",
+      "duration": "4 semesters",
+      "mode": "self-finance",
+      "eligibility": null,
+      "official_course_url": "https://akpgc.in/master-of-arts/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "Direct Sociology mapping; the career node is undergraduate-labelled",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "arya-kanya-degree-college-ballb",
+      "name": "B.A. LL.B. (Hons.)",
+      "level": "undergraduate",
+      "credential": "B.A. LL.B. (Hons.)",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://akpgc.in/ba-llb/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 63,
+          "career_node_slug": "ba_llb",
+          "career_breadcrumb": "Law & Civil Services > BA LLB (5-Year Integrated)",
+          "relation": "Direct integrated-law programme mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "arya-kanya-degree-college-phd-political-science",
+      "name": "Ph. D.",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Political Science",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://akpgc.in/about-college/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "Direct Political Science mapping; no doctoral node exists in the career tree",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "arya-kanya-degree-college-phd-education",
+      "name": "Ph. D.",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Education",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://akpgc.in/about-college/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "Closest Education mapping; no doctoral Education node exists in the career tree",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "arya-kanya-degree-college-phd-hindi",
+      "name": "Ph. D.",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Hindi",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://akpgc.in/about-college/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "Direct Hindi-discipline mapping; no doctoral node exists in the career tree",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "arya-kanya-degree-college-phd-english",
+      "name": "Ph. D.",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": "English",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://akpgc.in/about-college/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "Direct English-discipline mapping; no doctoral node exists in the career tree",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "arya-kanya-degree-college-phd-sociology",
+      "name": "Ph. D.",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Sociology",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://akpgc.in/about-college/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "Direct Sociology mapping; no doctoral node exists in the career tree",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "arya-kanya-degree-college-phd-music-vocal",
+      "name": "Ph. D.",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Music Vocal",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://akpgc.in/about-college/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 75,
+          "career_node_slug": "music_course",
+          "career_breadcrumb": "Performing Arts & Sports > Music (BA / Diploma)",
+          "relation": "Direct Music-discipline mapping; no doctoral node exists in the career tree",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The NIRF 2025 College listing contains Arya Kanya Degree College, Prayagraj, Uttar Pradesh.",
+    "Normal TLS verification first failed with the managed proxy self-signed certificate-chain error; curl --insecure was then used only for public GET requests to the expected nirfindia.org, duckduckgo.com, and akpgc.in hosts.",
+    "The official homepage and contact page consistently identify the campus as Arya Kanya Degree College at 886, Mutthiganj, Prayagraj.",
+    "Current 2026 official admission pages confirm B.A., B.Com., M.A., and B.A. LL.B. (Hons.) activity.",
+    "The official catalogue is partial and inconsistent: the individual course pages, the 2022 /courses/ index, and the 2025-updated About College page differ on subject and doctoral listings; the /courses/ page lists Ph. D. only in Political Science and Education, while About College lists six doctoral disciplines.",
+    "The official Professional Course and CCC pages do not establish a current active offering. The Mehendi page contains only 2024/2025 items and was excluded as expired short-term content. The CCCA entry on the 2022 /courses/ page says it will be started and does not establish a current active offering; it was excluded.",
+    "Doctoral records are included as official programme-family records from About College, but their current admissions/catalogue status is not independently established; manual review is required."
+  ]
+}

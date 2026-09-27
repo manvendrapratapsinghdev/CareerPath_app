@@ -1,0 +1,79 @@
+{
+  "institution_id": "government-college-lal-barah",
+  "nirf_name": "GOVERNMENT COLLEGE, LAL BARAH",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "remove_candidate",
+  "district": null,
+  "district_verification_status": "not_found",
+  "official_website": null,
+  "website_verification_status": "not_found",
+  "description": null,
+  "description_verification_status": "not_found",
+  "record_status": "remove_candidate",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact listing: GOVERNMENT COLLEGE, LAL BARAH | BALAGHAT | Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "government_district_directory",
+      "url": "https://balaghat.nic.in/en/public-utility-category/colleges-universities/",
+      "supports": [
+        "Govt College, Lalbarra, Dist.Balaghat",
+        "Category/Type: College",
+        "Pincode: 481441"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"GOVERNMENT COLLEGE, LAL BARAH\" BALAGHAT official website",
+      "result": "Google search request returned HTTP 429 and no result page.",
+      "url": "https://www.google.com/search?q=%22GOVERNMENT+COLLEGE%2C+LAL+BARAH%22+BALAGHAT+official+website"
+    },
+    {
+      "query": "\"Government College Lalbarra\" Balaghat official website",
+      "result": "Bing returned generic government pages and no institution-owned official website.",
+      "url": "https://www.bing.com/search?format=rss&cc=us&setlang=en&q=%22Government+College+Lalbarra%22+Balaghat+official+website"
+    },
+    {
+      "query": "Lalbarra Balaghat college",
+      "result": "Bing returned unrelated results and no institution-owned official website.",
+      "url": "https://www.bing.com/search?format=rss&cc=us&setlang=en&q=Lalbarra+Balaghat+college"
+    },
+    {
+      "query": "Lalbarra on the official Balaghat district website",
+      "result": "The official district search returned one unrelated ODOP result; no college website was exposed.",
+      "url": "https://balaghat.nic.in/?s=Lalbarra"
+    },
+    {
+      "query": "Govt College, Lalbarra official district directory",
+      "result": "The official Balaghat district directory confirms the college listing and district but contains no institution website link.",
+      "url": "https://balaghat.nic.in/en/public-utility-category/colleges-universities/"
+    },
+    {
+      "query": "Madhya Pradesh Higher Education Government College Lalbarra official website",
+      "result": "The official MP Higher Education homepage was checked; no institution-owned website for Lalbarra was exposed.",
+      "url": "https://highereducation.mp.gov.in/"
+    },
+    {
+      "query": "Madhya Pradesh e-Pravesh Government College Lalbarra official website",
+      "result": "The official statewide e-Pravesh pages were checked; no institution-owned homepage or complete institution-specific catalogue was established.",
+      "url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx"
+    }
+  ],
+  "course_catalogue_status": "not_found",
+  "courses": [],
+  "agent_notes": [
+    "The supplied NIRF government listing independently matched the exact institution row: GOVERNMENT COLLEGE, LAL BARAH | BALAGHAT | Madhya Pradesh.",
+    "The official Balaghat district directory corroborates Govt College, Lalbarra, Dist.Balaghat, but provides no institution-owned website.",
+    "After multiple focused searches, authoritative-domain checks, and direct candidate-domain checks, no official institution website could be established; the record is therefore removed under the outcome rules.",
+    "Normal curl TLS verification produced the managed proxy error 'self signed certificate in certificate chain'. curl --insecure was then used only for public requests to expected official or search hostnames. No credentials or private data were sent."
+  ]
+}

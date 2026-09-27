@@ -1,0 +1,91 @@
+{
+  "batch": 15,
+  "started_at": "2026-09-27T07:11:12.446847+00:00",
+  "finished_at": "2026-09-27T07:11:22.366055+00:00",
+  "assignment_count": 5,
+  "completed_count": 0,
+  "skipped_count": 0,
+  "failed_count": 5,
+  "results": [
+    {
+      "institution_id": "b-k-p-college-of-computer-education",
+      "nirf_name": "B.K.P. College of Computer Education",
+      "status": "failed",
+      "started_at": "2026-09-27T07:11:12.457253+00:00",
+      "finished_at": "2026-09-27T07:11:22.356764+00:00",
+      "duration_seconds": 9.899,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/b-k-p-college-of-computer-education.jsonl"
+    },
+    {
+      "institution_id": "government-college-bakswaha",
+      "nirf_name": "GOVERNMENT COLLEGE BAKSWAHA",
+      "status": "failed",
+      "started_at": "2026-09-27T07:11:12.457462+00:00",
+      "finished_at": "2026-09-27T07:11:22.206523+00:00",
+      "duration_seconds": 9.749,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/government-college-bakswaha.jsonl"
+    },
+    {
+      "institution_id": "govt-college-devendra-nagar",
+      "nirf_name": "Govt College Devendra nagar",
+      "status": "failed",
+      "started_at": "2026-09-27T07:11:12.457411+00:00",
+      "finished_at": "2026-09-27T07:11:22.196400+00:00",
+      "duration_seconds": 9.739,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/govt-college-devendra-nagar.jsonl"
+    },
+    {
+      "institution_id": "govt-degree-college-badamalhara-chhatarpur",
+      "nirf_name": "GOVT DEGREE COLLEGE BADAMALHARA CHHATARPUR",
+      "status": "failed",
+      "started_at": "2026-09-27T07:11:12.456802+00:00",
+      "finished_at": "2026-09-27T07:11:22.187409+00:00",
+      "duration_seconds": 9.73,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/govt-degree-college-badamalhara-chhatarpur.jsonl"
+    },
+    {
+      "institution_id": "govt-naveen-college-rajnagar",
+      "nirf_name": "Govt Naveen College Rajnagar",
+      "status": "failed",
+      "started_at": "2026-09-27T07:11:12.457126+00:00",
+      "finished_at": "2026-09-27T07:11:22.196187+00:00",
+      "duration_seconds": 9.739,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/govt-naveen-college-rajnagar.jsonl"
+    }
+  ]
+}

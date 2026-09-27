@@ -1,0 +1,272 @@
+{
+  "institution_id": "govt-college-kumbhraj",
+  "nirf_name": "GOVT COLLEGE KUMBHRAJ",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "verified",
+  "district": "Guna",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://highereducation.mp.gov.in/?orgid=180",
+  "website_verification_status": "verified",
+  "description": "Govt. College, Kumbhraj is a government college in Guna district, established in 2014.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact institution name GOVT COLLEGE KUMBHRAJ, city KUMBHRAJ, state Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "government_directory_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Exact institution name GOVT COLLEGE KUMBHRAJ, city KUMBHRAJ, state Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://highereducation.mp.gov.in/?orgid=180",
+      "supports": [
+        "Official Madhya Pradesh Higher Education institutional profile for organisation 180"
+      ]
+    },
+    {
+      "type": "official_identity_and_district",
+      "url": "https://highereducation.mp.gov.in/CollegeDisp/getTable",
+      "supports": [
+        "Organisation 180 is Govt. College, Kumbhraj, college code 0613, district Guna"
+      ]
+    },
+    {
+      "type": "official_at_a_glance",
+      "url": "https://highereducation.mp.gov.in/CollegeProfile/AtAGlance?orgid=180",
+      "supports": [
+        "Establishment year 2014; 521 UG students; 0 PG students; 0 diploma/certificate students"
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/CollegeProfile/Course?orgid=180",
+      "supports": [
+        "Regular Courses page lists five UG B. A. programmes, each with minimum qualification 10+2; PG and Diploma sections have no course rows"
+      ]
+    },
+    {
+      "type": "official_distance_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/CollegeProfile/CourseDistance?orgid=180",
+      "supports": [
+        "Distance Education Courses page has no PG, UG, or Diploma course rows"
+      ]
+    }
+  ],
+  "website_search_evidence": [],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "govt-college-kumbhraj-ba-economics-english-hindi",
+      "name": "B. A. (Economics - English - Hindi)",
+      "level": "undergraduate",
+      "credential": "B.A.",
+      "specialization": "Economics - English - Hindi",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/CollegeProfile/Course?orgid=180",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct discipline mapping: Economics",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "closest-specialization mapping: English to BA English Literature",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        },
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct discipline mapping: Hindi",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-kumbhraj-ba-english-political-science-sociology",
+      "name": "B. A. (English - Political Science - Sociology)",
+      "level": "undergraduate",
+      "credential": "B.A.",
+      "specialization": "English - Political Science - Sociology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/CollegeProfile/Course?orgid=180",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "closest-specialization mapping: English to BA English Literature",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct discipline mapping: Political Science",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct discipline mapping: Sociology",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-kumbhraj-ba-economics-history-sociology",
+      "name": "B. A. (Economics - History - Sociology)",
+      "level": "undergraduate",
+      "credential": "B.A.",
+      "specialization": "Economics - History - Sociology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/CollegeProfile/Course?orgid=180",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct discipline mapping: Economics",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct discipline mapping: History",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct discipline mapping: Sociology",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-kumbhraj-ba-economics-english-literature-sociology",
+      "name": "B. A. (Economics - English Literature - Sociology)",
+      "level": "undergraduate",
+      "credential": "B.A.",
+      "specialization": "Economics - English Literature - Sociology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/CollegeProfile/Course?orgid=180",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct discipline mapping: Economics",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "direct discipline mapping: English Literature",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct discipline mapping: Sociology",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-kumbhraj-ba-hindi-history-sociology",
+      "name": "B. A. (Hindi - History - Sociology)",
+      "level": "undergraduate",
+      "credential": "B.A.",
+      "specialization": "Hindi - History - Sociology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/CollegeProfile/Course?orgid=180",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct discipline mapping: Hindi",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct discipline mapping: History",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct discipline mapping: Sociology",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The official institutional profile is hosted by the Madhya Pradesh Higher Education Department at highereducation.mp.gov.in under organisation 180; no separate college domain was required for the verified catalogue.",
+    "The managed proxy returned the exact self-signed certificate-chain error during normal TLS requests, so public GETs to the confirmed official domains were retried with curl --insecure.",
+    "Course names, eligibility, and the absence of PG, diploma, and distance-course rows were taken from official catalogue pages; duration is null because no official course page states it."
+  ]
+}

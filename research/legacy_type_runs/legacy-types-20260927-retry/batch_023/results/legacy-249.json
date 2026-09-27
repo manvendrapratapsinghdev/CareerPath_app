@@ -1,0 +1,14 @@
+{
+  "institution_id": "legacy-249",
+  "database_id": 249,
+  "name": "IIT Delhi (Atmospheric Sciences)",
+  "website": "https://www.iitd.ac.in",
+  "outcome": "classified",
+  "institution_type": "iit",
+  "source_url": "https://www.iitd.ac.in/about.php",
+  "confidence": "high",
+  "evidence": "IIT Delhi's official About page identifies it as one of the 23 IITs and describes it as an autonomous statutory organisation under the Institutes of Technology Act.",
+  "notes": [
+    "Used curl --insecure after normal TLS failed with the proxy's self signed certificate in certificate chain error."
+  ]
+}

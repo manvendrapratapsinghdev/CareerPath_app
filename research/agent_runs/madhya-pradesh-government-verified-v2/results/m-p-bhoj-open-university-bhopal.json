@@ -1,0 +1,2004 @@
+{
+  "institution_id": "m-p-bhoj-open-university-bhopal",
+  "nirf_name": "M.P. Bhoj (Open) University, Bhopal",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/OPENUNIVERSITYRankingALL.html"
+  ],
+  "verification_outcome": "verified",
+  "district": "Bhopal",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://mpbou.edu.in/",
+  "website_verification_status": "verified",
+  "description": "Madhya Pradesh Bhoj (Open) University is an open and distance-learning university based at Raja Bhoj Marg (Kolar Road), Bhopal, Madhya Pradesh, offering undergraduate, postgraduate, diploma, certificate, and teacher-education programmes.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/OPENUNIVERSITYRankingALL.html",
+      "supports": [
+        "The 2025 NIRF Open University listing names M.P. Bhoj (Open) University, Bhopal and identifies Bhopal, Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://mpbou.edu.in/",
+      "supports": [
+        "Official portal title, institution name, and official-domain identity."
+      ]
+    },
+    {
+      "type": "official_campus_contact",
+      "url": "https://mpbou.edu.in/api/PublicData/initial-data",
+      "supports": [
+        "Official site settings give the campus address Raja Bhoj Marg (Kolar Road), Bhopal, Madhya Pradesh - 462016."
+      ]
+    },
+    {
+      "type": "official_programme_catalogue",
+      "url": "https://mpbou.edu.in/all-courses",
+      "supports": [
+        "Official public catalogue route for the institution programme catalogue."
+      ]
+    },
+    {
+      "type": "official_programme_catalogue_api",
+      "url": "https://mpbou.edu.in/api/Programme",
+      "supports": [
+        "Official active catalogue data with the exact programme names, levels, durations, modes, and eligibility for 84 entries."
+      ]
+    },
+    {
+      "type": "official_admissions_page",
+      "url": "https://mpbou.edu.in/admission-evaluation",
+      "supports": [
+        "Official admissions/evaluation route on the institution site."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"M.P. Bhoj (Open) University\" official website",
+      "result": "Google Search returned an access/challenge page through the managed proxy; it was used for discovery only, not verification.",
+      "url": "https://www.google.com/search?q=%22M.P.+Bhoj+(Open)+University%22+official+website"
+    },
+    {
+      "query": "M.P. Bhoj Open University Bhopal official website",
+      "result": "Bing discovery response did not expose a usable official-domain result through the managed proxy; direct HTTPS checking of the expected official domain then returned the official MPBOU portal.",
+      "url": "https://www.bing.com/search?q=M.P.%20Bhoj%20Open%20University%20Bhopal%20official%20website"
+    }
+  ],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-1",
+      "name": "Bachelor of Arts (B.A.)",
+      "level": "UG",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "Hindi Or English",
+      "eligibility": "10+2",
+      "official_course_url": "https://mpbou.edu.in/programmes/1",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-2",
+      "name": "Bachelor of Science (B.Sc.)",
+      "level": "UG",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "Hindi Or English",
+      "eligibility": "10+2 (Bio/Maths)",
+      "official_course_url": "https://mpbou.edu.in/programmes/2",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 337,
+          "career_node_slug": "science_common",
+          "career_breadcrumb": "Common Paths",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-3",
+      "name": "Bachelor of Science (B.Sc) in Data Science",
+      "level": "UG",
+      "credential": "degree",
+      "specialization": "Data Science",
+      "duration": "3 Years",
+      "mode": "Hindi",
+      "eligibility": "10+2 (Maths)",
+      "official_course_url": "https://mpbou.edu.in/programmes/3",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 31,
+          "career_node_slug": "bsc_ds",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Data Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-4",
+      "name": "Bachelor of Science (B.Sc) in Cyber Security",
+      "level": "UG",
+      "credential": "degree",
+      "specialization": "Cyber Security",
+      "duration": "3 Years",
+      "mode": "Hindi Or English",
+      "eligibility": "10+2 (Maths)",
+      "official_course_url": "https://mpbou.edu.in/programmes/4",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 309,
+          "career_node_slug": "cybersecurity_analyst",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science > Cybersecurity Analyst",
+          "relation": "specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-5",
+      "name": "Bachelor of Commerce (B.Com)",
+      "level": "UG",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "Hindi Or English",
+      "eligibility": "10+2 (Commerce/Science stream)",
+      "official_course_url": "https://mpbou.edu.in/programmes/5",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-6",
+      "name": "Bachelor of Library and Information Science (BLIS)",
+      "level": "UG",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "1 Year",
+      "mode": "Hindi Or English",
+      "eligibility": "Graduate",
+      "official_course_url": "https://mpbou.edu.in/programmes/6",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "The career tree has no responsible Library and Information Science node."
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-7",
+      "name": "Bachelor of Journalism (BJ)",
+      "level": "UG",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "1 Year",
+      "mode": "Hindi Or English",
+      "eligibility": "Graduate",
+      "official_course_url": "https://mpbou.edu.in/programmes/7",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 59,
+          "career_node_slug": "bjmc",
+          "career_breadcrumb": "Media & Journalism > B.J.M.C (Journalism & Mass Comm)",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-8",
+      "name": "Bachelor of Business Administration (BBA)",
+      "level": "UG",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "Hindi Or English",
+      "eligibility": "10+2",
+      "official_course_url": "https://mpbou.edu.in/programmes/8",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 46,
+          "career_node_slug": "bba",
+          "career_breadcrumb": "Management & Business > BBA (General)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-9",
+      "name": "Bachelor of Computer Application (BCA)",
+      "level": "UG",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "Hindi Or English",
+      "eligibility": "10+2 with Maths",
+      "official_course_url": "https://mpbou.edu.in/programmes/9",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-10",
+      "name": "Bachelor of Science (Hons.) Chemistry *",
+      "level": "UG",
+      "credential": "degree",
+      "specialization": "Chemistry",
+      "duration": "1 Years",
+      "mode": "Hindi Or English",
+      "eligibility": "Graduate With Chemistry",
+      "official_course_url": "https://mpbou.edu.in/programmes/10",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-11",
+      "name": "B.Sc. (Hons.) Botany*",
+      "level": "UG",
+      "credential": "degree",
+      "specialization": "Botany",
+      "duration": "1 Years",
+      "mode": "Hindi Or English",
+      "eligibility": "Graduate With Botany",
+      "official_course_url": "https://mpbou.edu.in/programmes/11",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-12",
+      "name": "B.Sc. (Hons.) Cyber Security*",
+      "level": "UG",
+      "credential": "degree",
+      "specialization": "Cyber Security",
+      "duration": "1 Years",
+      "mode": "Hindi Or English",
+      "eligibility": "Graduate With Cyber Security",
+      "official_course_url": "https://mpbou.edu.in/programmes/12",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 309,
+          "career_node_slug": "cybersecurity_analyst",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science > Cybersecurity Analyst",
+          "relation": "specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-13",
+      "name": "B.Sc. (Hons.) Data Science*",
+      "level": "UG",
+      "credential": "degree",
+      "specialization": "Data Science",
+      "duration": "1 Years",
+      "mode": "Hindi Or English",
+      "eligibility": "Graduate With Data Science",
+      "official_course_url": "https://mpbou.edu.in/programmes/13",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 31,
+          "career_node_slug": "bsc_ds",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Data Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-14",
+      "name": "B.A. (Hons.) Political Science*",
+      "level": "UG",
+      "credential": "degree",
+      "specialization": "Political Science",
+      "duration": "1 Years",
+      "mode": "Hindi Or English",
+      "eligibility": "Graduate With Political Sicence",
+      "official_course_url": "https://mpbou.edu.in/programmes/14",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-15",
+      "name": "B.A. (Hons.) Hindi*",
+      "level": "UG",
+      "credential": "degree",
+      "specialization": "Hindi",
+      "duration": "1 Years",
+      "mode": "Hindi Or English",
+      "eligibility": "Graduate With Hindi",
+      "official_course_url": "https://mpbou.edu.in/programmes/15",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-16",
+      "name": "B.Com (Hons.)*",
+      "level": "UG",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "1 Years",
+      "mode": "Hindi Or English",
+      "eligibility": "Graduate With B.Com",
+      "official_course_url": "https://mpbou.edu.in/programmes/16",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-17",
+      "name": "BBA (Hons.)*",
+      "level": "UG",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "1 Years",
+      "mode": "Hindi Or English",
+      "eligibility": "Graduate With BBA",
+      "official_course_url": "https://mpbou.edu.in/programmes/17",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 46,
+          "career_node_slug": "bba",
+          "career_breadcrumb": "Management & Business > BBA (General)",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-18",
+      "name": "BCA (Hons.)*",
+      "level": "UG",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "1 Years",
+      "mode": "Hindi Or English",
+      "eligibility": "Graduate With BCA",
+      "official_course_url": "https://mpbou.edu.in/programmes/18",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-19",
+      "name": "Bachelor of Education (B.Ed.)",
+      "level": "Teachers Training Programmes",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "English",
+      "eligibility": "Graduation with D.El.Ed. (Regular Mode) with working experience as Teacher",
+      "official_course_url": "https://mpbou.edu.in/programmes/19",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-20",
+      "name": "Diploma in Elementary Education (D.EL.Ed.)",
+      "level": "PG",
+      "credential": "diploma",
+      "specialization": "Elementary Education",
+      "duration": "2 Years",
+      "mode": "Hindi Or English",
+      "eligibility": "12th pass with 2yrs working experience as teacher",
+      "official_course_url": "https://mpbou.edu.in/programmes/20",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-21",
+      "name": "B.Ed (Special Education) in Visual Impairment/ Hearing Impairment/Intellectual Disability/ Learning Disability",
+      "level": "Teachers Training Programmes",
+      "credential": "degree",
+      "specialization": "Visual Impairment / Hearing Impairment / Intellectual Disability / Learning Disability",
+      "duration": "2 Years 6 Months",
+      "mode": "Hindi Or English",
+      "eligibility": "Graduation or Post Graduation with 50% marks.",
+      "official_course_url": "https://mpbou.edu.in/programmes/21",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 372,
+          "career_node_slug": "special_educator",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education) > Special Education Teacher",
+          "relation": "specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-22",
+      "name": "MED. (Special Education) In Hearing Impairment/Visual Impairment/Intellectual Disability/ Learning Disability",
+      "level": "Teachers Training Programmes",
+      "credential": "degree",
+      "specialization": "Hearing Impairment / Visual Impairment / Intellectual Disability / Learning Disability",
+      "duration": "2 Years 6 Months",
+      "mode": "Hindi Or English",
+      "eligibility": "B.Ed in Special Education in respective Disability with RCI CRR No.",
+      "official_course_url": "https://mpbou.edu.in/programmes/22",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 372,
+          "career_node_slug": "special_educator",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education) > Special Education Teacher",
+          "relation": "specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-23",
+      "name": "MBA (General)",
+      "level": "PG",
+      "credential": "degree",
+      "specialization": "General",
+      "duration": "2 Years",
+      "mode": "English",
+      "eligibility": "Graduate",
+      "official_course_url": "https://mpbou.edu.in/programmes/23",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 208,
+          "career_node_slug": "mba_general",
+          "career_breadcrumb": "Management & Business > BBA (General) > MBA → CEO / Director Track",
+          "relation": "specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-24",
+      "name": "MBA (Material Management)",
+      "level": "PG",
+      "credential": "degree",
+      "specialization": "Material Management",
+      "duration": "2 Years",
+      "mode": "English",
+      "eligibility": "Graduate",
+      "official_course_url": "https://mpbou.edu.in/programmes/24",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-25",
+      "name": "MBA (STEM)",
+      "level": "PG",
+      "credential": "degree",
+      "specialization": "STEM",
+      "duration": "2 Years",
+      "mode": "Hindi Or English",
+      "eligibility": "Graduate",
+      "official_course_url": "https://mpbou.edu.in/programmes/25",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-26",
+      "name": "MBA (Lateral Entry)",
+      "level": "PG",
+      "credential": "degree",
+      "specialization": "Lateral Entry",
+      "duration": "1 Year",
+      "mode": "Hindi Or English",
+      "eligibility": "BE/B.Tech of BBA/BMS (4 Years)",
+      "official_course_url": "https://mpbou.edu.in/programmes/26",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-27",
+      "name": "Master of Computer Applications (MCA)",
+      "level": "PG",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "Hindi Or English",
+      "eligibility": "Passed any graduation degree preferably with 10+2 level ot at graduation level.",
+      "official_course_url": "https://mpbou.edu.in/programmes/27",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 93,
+          "career_node_slug": "mca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications) > MCA → Software Engineer",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-28",
+      "name": "MCA (Lateral Entry)",
+      "level": "PG",
+      "credential": "degree",
+      "specialization": "Lateral Entry",
+      "duration": "1 Year",
+      "mode": "English",
+      "eligibility": "B.Tech/B.E.(CSE/IT) (4Years)",
+      "official_course_url": "https://mpbou.edu.in/programmes/28",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 93,
+          "career_node_slug": "mca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications) > MCA → Software Engineer",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-29",
+      "name": "Master of Commerce (M.Com.)",
+      "level": "PG",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "Hindi Or English",
+      "eligibility": "B.Com",
+      "official_course_url": "https://mpbou.edu.in/programmes/29",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 198,
+          "career_node_slug": "mcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons) > M.Com → Professor / Researcher",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-30",
+      "name": "Master of Arts in Hindi (MA.Hindi Lit)",
+      "level": "PG",
+      "credential": "degree",
+      "specialization": "Hindi",
+      "duration": "2 Years",
+      "mode": "Hindi Or English",
+      "eligibility": "Graduate",
+      "official_course_url": "https://mpbou.edu.in/programmes/30",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-31",
+      "name": "Master of Arts in English (M.A.English Lit)",
+      "level": "PG",
+      "credential": "degree",
+      "specialization": "English",
+      "duration": "2 Years",
+      "mode": "Hindi Or English",
+      "eligibility": "Graduate",
+      "official_course_url": "https://mpbou.edu.in/programmes/31",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-32",
+      "name": "Master of Arts in Political Science (M.A.Political Science)",
+      "level": "PG",
+      "credential": "degree",
+      "specialization": "Political Science",
+      "duration": "2 Years",
+      "mode": "Hindi Or English",
+      "eligibility": "Graduate",
+      "official_course_url": "https://mpbou.edu.in/programmes/32",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-33",
+      "name": "Master of Arts in Economics (M.A.Economics)",
+      "level": "PG",
+      "credential": "degree",
+      "specialization": "Economics",
+      "duration": "2 Years",
+      "mode": "Hindi Or English",
+      "eligibility": "Graduate",
+      "official_course_url": "https://mpbou.edu.in/programmes/33",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-34",
+      "name": "Master of Arts in Sociology (M.A.Sociology)",
+      "level": "PG",
+      "credential": "degree",
+      "specialization": "Sociology",
+      "duration": "2 Years",
+      "mode": "Hindi",
+      "eligibility": "Graduate",
+      "official_course_url": "https://mpbou.edu.in/programmes/34",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-35",
+      "name": "Master of Arts in History (M.A. History)",
+      "level": "PG",
+      "credential": "degree",
+      "specialization": "History",
+      "duration": "2 Years",
+      "mode": "Hindi Or English",
+      "eligibility": "Graduate",
+      "official_course_url": "https://mpbou.edu.in/programmes/35",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-36",
+      "name": "Master of Arts in Geography (M.A.Geography)",
+      "level": "PG",
+      "credential": "degree",
+      "specialization": "Geography",
+      "duration": "2 Years",
+      "mode": "Hindi Or English",
+      "eligibility": "Graduate",
+      "official_course_url": "https://mpbou.edu.in/programmes/36",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-37",
+      "name": "Master of Social Work",
+      "level": "PG",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "Hindi Or English",
+      "eligibility": "Graduate",
+      "official_course_url": "https://mpbou.edu.in/programmes/37",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 269,
+          "career_node_slug": "social_worker",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology > Social Worker",
+          "relation": "specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-38",
+      "name": "Master of Journalism",
+      "level": "PG",
+      "credential": "degree",
+      "specialization": "Journalism",
+      "duration": "2 Years",
+      "mode": "Hindi Or English",
+      "eligibility": "Graduate with Journalism",
+      "official_course_url": "https://mpbou.edu.in/programmes/38",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 59,
+          "career_node_slug": "bjmc",
+          "career_breadcrumb": "Media & Journalism > B.J.M.C (Journalism & Mass Comm)",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-39",
+      "name": "Master of Science (Cyber Security)",
+      "level": "PG",
+      "credential": "degree",
+      "specialization": "Cyber Security",
+      "duration": "2 Years",
+      "mode": "Hindi Or English",
+      "eligibility": "Graduate in Cyber Security/Computer Science/ Maths",
+      "official_course_url": "https://mpbou.edu.in/programmes/39",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 309,
+          "career_node_slug": "cybersecurity_analyst",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science > Cybersecurity Analyst",
+          "relation": "specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-40",
+      "name": "M.SC. (Botany)",
+      "level": "PG",
+      "credential": "degree",
+      "specialization": "Botany",
+      "duration": "2 Years",
+      "mode": "Hindi Or English",
+      "eligibility": "Science Graduate with Botany/Bio. Technology",
+      "official_course_url": "https://mpbou.edu.in/programmes/40",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-41",
+      "name": "Master of Science in Mathematics (M.SC. Maths)",
+      "level": "PG",
+      "credential": "degree",
+      "specialization": "Mathematics",
+      "duration": "2 Years",
+      "mode": "English",
+      "eligibility": "Science Graduate with Maths",
+      "official_course_url": "https://mpbou.edu.in/programmes/41",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 90,
+          "career_node_slug": "msc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics > M.Sc Mathematics → Professor / Researcher",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-42",
+      "name": "M.SC. (Physics)",
+      "level": "PG",
+      "credential": "degree",
+      "specialization": "Physics",
+      "duration": "2 Years",
+      "mode": "Hindi Or English",
+      "eligibility": "Science Graduate with Physics/ B.E. Electronics & Telecommunication",
+      "official_course_url": "https://mpbou.edu.in/programmes/42",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 153,
+          "career_node_slug": "msc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics > M.Sc Physics → Researcher / Professor",
+          "relation": "specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-43",
+      "name": "M.SC. (Chemistry)",
+      "level": "PG",
+      "credential": "degree",
+      "specialization": "Chemistry",
+      "duration": "2 Years",
+      "mode": "Hindi Or English",
+      "eligibility": "Science Graduate with Chemistry/Pharma",
+      "official_course_url": "https://mpbou.edu.in/programmes/43",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 155,
+          "career_node_slug": "msc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry > M.Sc Chemistry → Researcher",
+          "relation": "specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-44",
+      "name": "M.Sc. (Zoology)",
+      "level": "PG",
+      "credential": "degree",
+      "specialization": "Zoology",
+      "duration": "2 Years",
+      "mode": "Hindi Or English",
+      "eligibility": "Science Graduate (Zoology)",
+      "official_course_url": "https://mpbou.edu.in/programmes/44",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-45",
+      "name": "Master of Science in Information Technology (M.SC. Information Technology)",
+      "level": "PG",
+      "credential": "degree",
+      "specialization": "Information Technology",
+      "duration": "2 Years",
+      "mode": "Hindi Or English",
+      "eligibility": "Science Graduate with IT",
+      "official_course_url": "https://mpbou.edu.in/programmes/45",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 89,
+          "career_node_slug": "btech_it",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Information Technology",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-46",
+      "name": "PG Diploma in Cyber Security",
+      "level": "PG Diploma",
+      "credential": "postgraduate diploma",
+      "specialization": "Cyber Security",
+      "duration": "2 Years",
+      "mode": "Hindi Or English",
+      "eligibility": "Graduate in Cyber Security/Computer Science/ Maths",
+      "official_course_url": "https://mpbou.edu.in/programmes/46",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 309,
+          "career_node_slug": "cybersecurity_analyst",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science > Cybersecurity Analyst",
+          "relation": "specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-47",
+      "name": "PG Diploma in Management Logistics and Supply Chain Mgmt.",
+      "level": "PG Diploma",
+      "credential": "postgraduate diploma",
+      "specialization": "Management Logistics and Supply Chain",
+      "duration": "2 Years",
+      "mode": "Hindi Or English",
+      "eligibility": "Graduate",
+      "official_course_url": "https://mpbou.edu.in/programmes/47",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-48",
+      "name": "PG Diploma in Event Management",
+      "level": "PG Diploma",
+      "credential": "postgraduate diploma",
+      "specialization": "Event Management",
+      "duration": "2 Years",
+      "mode": "Hindi Or English",
+      "eligibility": "Graduate",
+      "official_course_url": "https://mpbou.edu.in/programmes/48",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 306,
+          "career_node_slug": "event_manager",
+          "career_breadcrumb": "Performing Arts & Sports > Hotel Management & Tourism > Event Manager",
+          "relation": "specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-49",
+      "name": "PG Diploma in Energy Management",
+      "level": "PG Diploma",
+      "credential": "postgraduate diploma",
+      "specialization": "Energy Management",
+      "duration": "2 Years",
+      "mode": "Hindi Or English",
+      "eligibility": "Graduate",
+      "official_course_url": "https://mpbou.edu.in/programmes/49",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 366,
+          "career_node_slug": "sustainability_analyst",
+          "career_breadcrumb": "Common Paths > B.Sc Environmental Science > Sustainability / ESG Analyst",
+          "relation": "specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-50",
+      "name": "PG Diploma in Tribal Development",
+      "level": "PG Diploma",
+      "credential": "postgraduate diploma",
+      "specialization": "Tribal Development",
+      "duration": "2 Years",
+      "mode": "Hindi Or English",
+      "eligibility": "Graduate",
+      "official_course_url": "https://mpbou.edu.in/programmes/50",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-51",
+      "name": "PG Diploma in Artificial Intelligence and Data Science",
+      "level": "PG Diploma",
+      "credential": "postgraduate diploma",
+      "specialization": "Artificial Intelligence and Data Science",
+      "duration": "2 Years",
+      "mode": "Hindi Or English",
+      "eligibility": "Graduate",
+      "official_course_url": "https://mpbou.edu.in/programmes/51",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 338,
+          "career_node_slug": "science_data",
+          "career_breadcrumb": "Data Science & Analytics",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-52",
+      "name": "PG Diploma in Rehabilitation Psychology (PGDRP)",
+      "level": "PG Diploma",
+      "credential": "postgraduate diploma",
+      "specialization": "Rehabilitation Psychology",
+      "duration": "2 Years",
+      "mode": "Hindi Or English",
+      "eligibility": "B.A. in general Psychology (Regular Mode)/M.A. Psychology/Counselling",
+      "official_course_url": "https://mpbou.edu.in/programmes/52",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 66,
+          "career_node_slug": "ba_psychology",
+          "career_breadcrumb": "Social Sciences & Education > BA Psychology",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-53",
+      "name": "PG Diploma in Fin Tech",
+      "level": "PG Diploma",
+      "credential": "postgraduate diploma",
+      "specialization": "Fin Tech",
+      "duration": "2 Years",
+      "mode": "Hindi Or English",
+      "eligibility": "Graduation in B.Sc./B.Com./BCA or its equivalent)",
+      "official_course_url": "https://mpbou.edu.in/programmes/53",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 376,
+          "career_node_slug": "fintech_analyst",
+          "career_breadcrumb": "Finance & Investment > FinTech Analyst / Product Manager",
+          "relation": "specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-54",
+      "name": "Diploma in Business Administration (DBA)",
+      "level": "DIPLOMA",
+      "credential": "diploma",
+      "specialization": "Business Administration",
+      "duration": "1 Year",
+      "mode": "Hindi Or English",
+      "eligibility": "10+2",
+      "official_course_url": "https://mpbou.edu.in/programmes/54",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-55",
+      "name": "Diploma In Management (DIM)",
+      "level": "DIPLOMA",
+      "credential": "diploma",
+      "specialization": "Management",
+      "duration": "1 Year",
+      "mode": "Hindi Or English",
+      "eligibility": "10+2",
+      "official_course_url": "https://mpbou.edu.in/programmes/55",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-56",
+      "name": "Diploma in Computer Application (DCA)",
+      "level": "DIPLOMA",
+      "credential": "diploma",
+      "specialization": "Computer Application",
+      "duration": "1 Year",
+      "mode": "Hindi Or English",
+      "eligibility": "10+2",
+      "official_course_url": "https://mpbou.edu.in/programmes/56",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-57",
+      "name": "Diploma in Nutrition and Health Education (DNHE)",
+      "level": "DIPLOMA",
+      "credential": "diploma",
+      "specialization": "Nutrition and Health Education",
+      "duration": "1 Year",
+      "mode": "English",
+      "eligibility": "10+2 with Biology/Home Science",
+      "official_course_url": "https://mpbou.edu.in/programmes/57",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-58",
+      "name": "Diploma in Ramcharitra Manas se Samajik Vikas  (RSSM)",
+      "level": "DIPLOMA",
+      "credential": "diploma",
+      "specialization": "Ramcharitra Manas se Samajik Vikas",
+      "duration": "1 Year",
+      "mode": "Hindi Or English",
+      "eligibility": "Graduate",
+      "official_course_url": "https://mpbou.edu.in/programmes/58",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-59",
+      "name": "Diploma In Logistics and Supply Chain Management (DLSCM)",
+      "level": "DIPLOMA",
+      "credential": "diploma",
+      "specialization": "Logistics and Supply Chain Management",
+      "duration": "1 Year",
+      "mode": "English",
+      "eligibility": "10+2",
+      "official_course_url": "https://mpbou.edu.in/programmes/59",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-60",
+      "name": "Diploma in Tribal Development (DTD)",
+      "level": "DIPLOMA",
+      "credential": "diploma",
+      "specialization": "Tribal Development",
+      "duration": "1 Year",
+      "mode": "English",
+      "eligibility": "10+2",
+      "official_course_url": "https://mpbou.edu.in/programmes/60",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-61",
+      "name": "Diploma in Travel and Tourism (DTT)",
+      "level": "DIPLOMA",
+      "credential": "diploma",
+      "specialization": "Travel and Tourism",
+      "duration": "1 Year",
+      "mode": "Hindi Or English",
+      "eligibility": "10+2",
+      "official_course_url": "https://mpbou.edu.in/programmes/61",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 79,
+          "career_node_slug": "hotel_mgmt",
+          "career_breadcrumb": "Performing Arts & Sports > Hotel Management & Tourism",
+          "relation": "direct_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-62",
+      "name": "Diploma in Rural Management (DRM)",
+      "level": "DIPLOMA",
+      "credential": "diploma",
+      "specialization": "Rural Management",
+      "duration": "1 Year",
+      "mode": "Hindi Or English",
+      "eligibility": "10+2",
+      "official_course_url": "https://mpbou.edu.in/programmes/62",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-63",
+      "name": "Diploma in Event Management (DEVM)",
+      "level": "DIPLOMA",
+      "credential": "diploma",
+      "specialization": "Event Management",
+      "duration": "1 Year",
+      "mode": "Hindi Or English",
+      "eligibility": "10+2",
+      "official_course_url": "https://mpbou.edu.in/programmes/63",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 306,
+          "career_node_slug": "event_manager",
+          "career_breadcrumb": "Performing Arts & Sports > Hotel Management & Tourism > Event Manager",
+          "relation": "specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-64",
+      "name": "Diploma in Energy Management (DEM)",
+      "level": "DIPLOMA",
+      "credential": "diploma",
+      "specialization": "Energy Management",
+      "duration": "1 Year",
+      "mode": "Hindi Or English",
+      "eligibility": "10+2",
+      "official_course_url": "https://mpbou.edu.in/programmes/64",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 366,
+          "career_node_slug": "sustainability_analyst",
+          "career_breadcrumb": "Common Paths > B.Sc Environmental Science > Sustainability / ESG Analyst",
+          "relation": "specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-65",
+      "name": "Diploma in Cyber Security (DCS)",
+      "level": "DIPLOMA",
+      "credential": "diploma",
+      "specialization": "Cyber Security",
+      "duration": "1 Year",
+      "mode": "Hindi Or English",
+      "eligibility": "10+2",
+      "official_course_url": "https://mpbou.edu.in/programmes/65",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 309,
+          "career_node_slug": "cybersecurity_analyst",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science > Cybersecurity Analyst",
+          "relation": "specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-66",
+      "name": "Diploma in Data Science. (DDS)",
+      "level": "DIPLOMA",
+      "credential": "diploma",
+      "specialization": "Data Science",
+      "duration": "1 Year",
+      "mode": "Hindi Or English",
+      "eligibility": "10+2",
+      "official_course_url": "https://mpbou.edu.in/programmes/66",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 338,
+          "career_node_slug": "science_data",
+          "career_breadcrumb": "Data Science & Analytics",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-67",
+      "name": "Diploma In Al & Data Science (DADS)",
+      "level": "DIPLOMA",
+      "credential": "diploma",
+      "specialization": "AI and Data Science",
+      "duration": "1 Year",
+      "mode": "Hindi Or English",
+      "eligibility": "10+2",
+      "official_course_url": "https://mpbou.edu.in/programmes/67",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 338,
+          "career_node_slug": "science_data",
+          "career_breadcrumb": "Data Science & Analytics",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-68",
+      "name": "Diploma in Bhagwat Geeta",
+      "level": "DIPLOMA",
+      "credential": "diploma",
+      "specialization": "Bhagwat Geeta",
+      "duration": "1 Year",
+      "mode": "Hindi Or English",
+      "eligibility": "10+2",
+      "official_course_url": "https://mpbou.edu.in/programmes/68",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-69",
+      "name": "Certificate in Human Rights (CHR)",
+      "level": "CERTIFICATE",
+      "credential": "certificate",
+      "specialization": "Human Rights",
+      "duration": "1 Year",
+      "mode": "Hindi",
+      "eligibility": "10+2",
+      "official_course_url": "https://mpbou.edu.in/programmes/69",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-70",
+      "name": "Certificate in Rural Development (CRD)",
+      "level": "CERTIFICATE",
+      "credential": "certificate",
+      "specialization": "Rural Development",
+      "duration": "1 Year",
+      "mode": "Hindi",
+      "eligibility": "10+2",
+      "official_course_url": "https://mpbou.edu.in/programmes/70",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-71",
+      "name": "Certificate in Indian Literature",
+      "level": "CERTIFICATE",
+      "credential": "certificate",
+      "specialization": "Indian Literature",
+      "duration": "1 Year",
+      "mode": "Hindi",
+      "eligibility": "10+2",
+      "official_course_url": "https://mpbou.edu.in/programmes/71",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-72",
+      "name": "Certificate in Written and Spoken Sanskrit",
+      "level": "CERTIFICATE",
+      "credential": "certificate",
+      "specialization": "Written and Spoken Sanskrit",
+      "duration": "1 Year",
+      "mode": "Hindi Or English",
+      "eligibility": "10+2",
+      "official_course_url": "https://mpbou.edu.in/programmes/72",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-73",
+      "name": "Certificate in Introduction to Vedas",
+      "level": "CERTIFICATE",
+      "credential": "certificate",
+      "specialization": "Introduction to Vedas",
+      "duration": "1 Year",
+      "mode": "Hindi Or English",
+      "eligibility": "10+2",
+      "official_course_url": "https://mpbou.edu.in/programmes/73",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-74",
+      "name": "Certificate in Indic Philosophy",
+      "level": "CERTIFICATE",
+      "credential": "certificate",
+      "specialization": "Indic Philosophy",
+      "duration": "1 Year",
+      "mode": "Hindi Or English",
+      "eligibility": "10+2",
+      "official_course_url": "https://mpbou.edu.in/programmes/74",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-75",
+      "name": "Certificate in Ayurvedic Dietetics",
+      "level": "CERTIFICATE",
+      "credential": "certificate",
+      "specialization": "Ayurvedic Dietetics",
+      "duration": "1 Year",
+      "mode": "Hindi Or English",
+      "eligibility": "10+2",
+      "official_course_url": "https://mpbou.edu.in/programmes/75",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 17,
+          "career_node_slug": "bams",
+          "career_breadcrumb": "Biology / PCB > BAMS (Ayurveda)",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-76",
+      "name": "Certificate in Indian Education and Holistic Development",
+      "level": "CERTIFICATE",
+      "credential": "certificate",
+      "specialization": "Indian Education and Holistic Development",
+      "duration": "1 Year",
+      "mode": "Hindi",
+      "eligibility": "10+2",
+      "official_course_url": "https://mpbou.edu.in/programmes/76",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-77",
+      "name": "Certificate in Basics of Intellectual Property Right",
+      "level": "CERTIFICATE",
+      "credential": "certificate",
+      "specialization": "Basics of Intellectual Property Right",
+      "duration": "1 Year",
+      "mode": "Hindi Or English",
+      "eligibility": "10+2",
+      "official_course_url": "https://mpbou.edu.in/programmes/77",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 380,
+          "career_node_slug": "ipr_lawyer",
+          "career_breadcrumb": "Law & Legal > Intellectual Property Rights Lawyer",
+          "relation": "specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-78",
+      "name": "Certificate in Indian Cultural Heritage",
+      "level": "CERTIFICATE",
+      "credential": "certificate",
+      "specialization": "Indian Cultural Heritage",
+      "duration": "1 Year",
+      "mode": "Hindi Or English",
+      "eligibility": "10+2",
+      "official_course_url": "https://mpbou.edu.in/programmes/78",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-79",
+      "name": "Certificate in Introduction to Yoga Nidra",
+      "level": "CERTIFICATE",
+      "credential": "certificate",
+      "specialization": "Introduction to Yoga Nidra",
+      "duration": "1 Year",
+      "mode": "Hindi Or English",
+      "eligibility": "10+2",
+      "official_course_url": "https://mpbou.edu.in/programmes/79",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 78,
+          "career_node_slug": "sports_career",
+          "career_breadcrumb": "Performing Arts & Sports > Sports & Physical Education",
+          "relation": "nearest_parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-80",
+      "name": "Foundation Course (Special Education)",
+      "level": "CERTIFICATE",
+      "credential": "certificate",
+      "specialization": "Special Education",
+      "duration": "3 Months",
+      "mode": "Hindi Or English",
+      "eligibility": "10+2 (In-service Teacher)",
+      "official_course_url": "https://mpbou.edu.in/programmes/80",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 372,
+          "career_node_slug": "special_educator",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education) > Special Education Teacher",
+          "relation": "specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-81",
+      "name": "Certificate in Organic Farming",
+      "level": "CERTIFICATE",
+      "credential": "certificate",
+      "specialization": "Organic Farming",
+      "duration": "1 Year",
+      "mode": "Hindi Or English",
+      "eligibility": "10+2",
+      "official_course_url": "https://mpbou.edu.in/programmes/81",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-82",
+      "name": "Certificate in Sociology of Gerontology",
+      "level": "CERTIFICATE",
+      "credential": "certificate",
+      "specialization": "Sociology of Gerontology",
+      "duration": "1 Year",
+      "mode": "Hindi Or English",
+      "eligibility": "10+2",
+      "official_course_url": "https://mpbou.edu.in/programmes/82",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-83",
+      "name": "Certificate in Mushroom Production",
+      "level": "CERTIFICATE",
+      "credential": "certificate",
+      "specialization": "Mushroom Production",
+      "duration": "1 Year",
+      "mode": "Hindi Or English",
+      "eligibility": "10+2",
+      "official_course_url": "https://mpbou.edu.in/programmes/83",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "m-p-bhoj-open-university-bhopal-mpbou-programme-84",
+      "name": "Certificate In Medicinal plants from Traditional use to Sustainable Utilization",
+      "level": "CERTIFICATE",
+      "credential": "certificate",
+      "specialization": "Medicinal plants from Traditional use to Sustainable Utilization",
+      "duration": "1 Year",
+      "mode": "Hindi Or English",
+      "eligibility": "10+2",
+      "official_course_url": "https://mpbou.edu.in/programmes/84",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 17,
+          "career_node_slug": "bams",
+          "career_breadcrumb": "Biology / PCB > BAMS (Ayurveda)",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The NIRF government listing was independently confirmed to contain the assigned institution row: M.P. Bhoj (Open) University, Bhopal; Bhopal; Madhya Pradesh.",
+    "Normal TLS verification failed with the managed proxy self-signed certificate-in-chain error. Public GET requests were retried with curl --insecure only for the expected NIRF and mpbou.edu.in hosts.",
+    "The official active programme catalogue and public initial-data feed agree on 84 current programme IDs and exact names across UG, PG, PG Diploma, Diploma, Certificate, and teacher-training categories; no doctoral programme is listed.",
+    "The official catalogue is complete for the public programme catalogue exposed by the institution site; all 84 active entries are included below."
+  ]
+}

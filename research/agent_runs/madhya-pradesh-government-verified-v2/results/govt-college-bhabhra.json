@@ -1,0 +1,285 @@
+{
+  "institution_id": "govt-college-bhabhra",
+  "nirf_name": "Govt. College, Bhabhra",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Alirajpur",
+  "district_verification_status": "verified_official_website",
+  "official_website": "http://www.mphighereducation.nic.in/2107",
+  "website_verification_status": "ambiguous",
+  "description": "Government College 2107 (Govt Collge, Bhawra), at Dahod Road, Kaliyavav, opposite the BSNL tower in Bhabra, Alirajpur district, Madhya Pradesh.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [
+    "epravesh.highereducation.mp.gov.in",
+    "highereducation.mp.gov.in"
+  ],
+  "verification_sources": [
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "The matching row lists Govt. College, Bhabhra in CHANDRA SHEKHAR AZAD NAGAR, Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "official_admissions_catalogue",
+      "url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "supports": [
+        "Official e-Pravesh identifies 2107 - Govt Collge, Bhawra, district Alirajpur, address in Bhabra, and the linked college website."
+      ]
+    },
+    {
+      "type": "official_admissions_api",
+      "url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx/Bind_Form_EBrochure_All_Data",
+      "supports": [
+        "Official current admissions data identifies the institution and active B.A., B. Com., and B. Sc. programme families."
+      ]
+    },
+    {
+      "type": "official_branch_catalogue_api",
+      "url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx/Bind_Degree_Wise_Branch_intake_EBroucher",
+      "supports": [
+        "Official active branch records verify B.A. Economics, Sociology, Political Science, Hindi Literature; B. Com. Commerce; and B. Sc. Chemistry, Physics, Zoology, Mathematics, and Botany for college cm_id 182."
+      ]
+    },
+    {
+      "type": "official_profile_homepage",
+      "url": "https://highereducation.mp.gov.in/?orgid=19",
+      "supports": [
+        "Official Madhya Pradesh Higher Education college-profile namespace is reachable for orgid 19."
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=vDyTOtrSg%2FwqPDYqtCwwvA%3D%3D&orgid=19",
+      "supports": [
+        "The official Regular Courses page lists B. Sc. (Botany - Chemistry - Zoology), B. Sc. (B.Sc. PHYSICS-CHEMISTRY- MATHS), and B. Com (Commerce), each with 10+2 eligibility."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Govt. College, Bhabhra\" official",
+      "result": "Bing RSS returned no institution-specific official result; results were unrelated or general government pages.",
+      "url": "https://www.bing.com/search?format=rss&q=%22Govt.%20College%2C%20Bhabhra%22%20official"
+    },
+    {
+      "query": "\"Government College Bhabhra\" Alirajpur",
+      "result": "Bing returned no institution-specific official result.",
+      "url": "https://www.bing.com/search?format=rss&q=%22Government%20College%20Bhabhra%22%20Alirajpur"
+    },
+    {
+      "query": "site:highereducation.mp.gov.in \"Bhabhra\"",
+      "result": "Bing returned no relevant official institution result.",
+      "url": "https://www.bing.com/search?format=rss&q=site%3Ahighereducation.mp.gov.in%20%22Bhabhra%22"
+    },
+    {
+      "query": "site:mp.gov.in \"Bhabhra\" college",
+      "result": "Bing returned no relevant official institution result.",
+      "url": "https://www.bing.com/search?format=rss&q=site%3Amp.gov.in%20%22Bhabhra%22%20college"
+    },
+    {
+      "query": "http://www.mphighereducation.nic.in/2107",
+      "result": "The official e-Pravesh record links this URL as the college website, but direct HTTP and HTTPS retrieval did not complete; the current highereducation.mp.gov.in profile lacks an identity heading.",
+      "url": "http://www.mphighereducation.nic.in/2107"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "govt-college-bhabhra-2107-ba-economics",
+      "name": "B. A.",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Economics",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bhabhra-2107-ba-sociology",
+      "name": "B. A.",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Sociology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bhabhra-2107-ba-political-science",
+      "name": "B. A.",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Political Science",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bhabhra-2107-ba-hindi-literature",
+      "name": "B. A.",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Hindi Literature",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bhabhra-2107-bcom-commerce",
+      "name": "B. Com (Commerce)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=vDyTOtrSg%2FwqPDYqtCwwvA%3D%3D&orgid=19",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bhabhra-2107-bsc-botany-chemistry-zoology",
+      "name": "B. Sc. (Botany - Chemistry - Zoology)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=vDyTOtrSg%2FwqPDYqtCwwvA%3D%3D&orgid=19",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest-specialization for Botany/Zoology",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bhabhra-2107-bsc-physics-chemistry-maths",
+      "name": "B. Sc. (B.Sc. PHYSICS-CHEMISTRY- MATHS)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=vDyTOtrSg%2FwqPDYqtCwwvA%3D%3D&orgid=19",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 24,
+          "career_node_slug": "bsc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "NIRF government listing and official e-Pravesh data align on the Bhabra campus, its Alirajpur district, and the Bhabra/Chandra Shekhar Azad Nagar location naming.",
+    "The official e-Pravesh record is cm_id 182 and lists the linked college website as http://www.mphighereducation.nic.in/2107; that legacy host did not complete direct HTTP or HTTPS retrieval.",
+    "The reachable highereducation.mp.gov.in orgid=19 profile has a Regular Courses page with the two B.Sc. combinations and B. Com (Commerce), but its homepage has no institution identity heading and its course page omits the B.A. branches present in the current official e-Pravesh catalogue. The official catalogue is therefore partial/conflicting and requires manual review.",
+    "No duration was stated on the central official catalogue. Eligibility is retained only where the official Regular Courses page explicitly states 10+2.",
+    "Normal TLS verification failed with the managed proxy self-signed certificate-chain error for expected official hosts; curl --insecure was used only for public GET requests after hostname confirmation."
+  ]
+}

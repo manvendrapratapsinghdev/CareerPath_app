@@ -1,0 +1,463 @@
+{
+  "institution_id": "ambah-pg-college-ambah",
+  "nirf_name": "AMBAH PG COLLEGE , AMBAH",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Morena",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://ambahpgcollege.org/",
+  "website_verification_status": "verified",
+  "description": "Autonomous post-graduate college in Ambah, Morena, affiliated with Jiwaji University, Gwalior; its official programme pages list bachelor's degrees in Arts, Science and Commerce, postgraduate degrees in Arts and Science, and PGDCA.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact NIRF institution name AMBAH PG COLLEGE , AMBAH",
+        "City Morena",
+        "State Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://ambahpgcollege.org/",
+      "supports": [
+        "Institution identity and campus address in Ambah (Morena), M.P.",
+        "Official navigation to the institution's programme pages"
+      ]
+    },
+    {
+      "type": "official_about",
+      "url": "https://ambahpgcollege.org/About.html",
+      "supports": [
+        "Institution description",
+        "Autonomous affiliation with Jiwaji University, Gwalior",
+        "Programme scope: bachelor's degrees in Arts, Science and Commerce; postgraduate degrees in Arts and Science; PGDCA"
+      ]
+    },
+    {
+      "type": "official_contact",
+      "url": "https://ambahpgcollege.org/Contactus.html",
+      "supports": [
+        "Campus address Ambah PG College Morena Road, Ambah, District Morena, PIN 476111"
+      ]
+    },
+    {
+      "type": "official_programme_catalogue_science",
+      "url": "https://ambahpgcollege.org/ProgramsScience.html",
+      "supports": [
+        "B.Sc. group programmes and subject combinations",
+        "M.Sc. Chemistry, Mathematics and Zoology",
+        "Post Graduate Diploma in Computer Application",
+        "Eligibility shown in the official qualification cells"
+      ]
+    },
+    {
+      "type": "official_programme_catalogue_arts",
+      "url": "https://ambahpgcollege.org/ProgramsArt.html",
+      "supports": [
+        "B.A. programme and official subject combinations",
+        "M.A. Hindi, Geography and Economics",
+        "Eligibility shown in the official qualification cells"
+      ]
+    },
+    {
+      "type": "official_programme_catalogue_commerce",
+      "url": "https://ambahpgcollege.org/ProgramsCommercehtml.html",
+      "supports": [
+        "B.Com. programme and subject combination",
+        "Eligibility shown in the official qualification cell"
+      ]
+    },
+    {
+      "type": "official_catalogue_gap_check_diploma",
+      "url": "https://ambahpgcollege.org/DownloadDiploma.aspx",
+      "supports": [
+        "Official Diploma page is only a question-paper download interface and exposes P.G.D.C.A. with 2020-21 session, not a current diploma catalogue"
+      ]
+    },
+    {
+      "type": "official_catalogue_gap_check_phd",
+      "url": "https://ambahpgcollege.org/DownloadPhd.aspx",
+      "supports": [
+        "Official Ph.D page is only a question-paper download interface with 2020-21 session, not a current doctoral programme catalogue"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"AMBAH PG COLLEGE\" official website",
+      "result": "Yahoo exact-name results listed https://ambahpgcollege.org/ as Ambah PG College and linked its About and programme pages; used only for discovery, not as verification evidence.",
+      "url": "https://search.yahoo.com/search?p=%22AMBAH+PG+COLLEGE%22+official+website"
+    },
+    {
+      "query": "\"Ambah PG College\" Morena Madhya Pradesh official site",
+      "result": "Bing search results were not usable for official-site verification; no result from this query was used as evidence.",
+      "url": "https://www.bing.com/search?q=%22Ambah+PG+College%22+Morena+Madhya+Pradesh+official+site"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "ambah-pg-college-ambah-ba",
+      "name": "B.A.(Bachelor of Arts)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "Should have passed XII exam. Those who have supplementary in the XII will not be given admission.",
+      "official_course_url": "https://ambahpgcollege.org/ProgramsArt.html",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct discipline mapping for official Economics subject combinations",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "closest-specialization mapping for official English subject combinations; career tree label includes Literature",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        },
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent mapping for official Geography subject combinations; no exact Geography node exists",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct discipline mapping for official Sociology subject combinations",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "closest-specialization mapping for official Hindi subject combinations; career tree label includes Regional Language",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        },
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "nearest-parent mapping for official Sanskrit subject combinations; no exact Sanskrit node exists",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        },
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct discipline mapping for official History subject combinations",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct discipline mapping for official Political Science subject combinations",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "ambah-pg-college-ambah-bsc-mathematics-group",
+      "name": "B.Sc.(Mathematics Group)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "Should have passed XII exam. Those who have supplementary in the XII will not be given admission.",
+      "official_course_url": "https://ambahpgcollege.org/ProgramsScience.html",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "direct discipline mapping for official Chemistry subject combinations",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct discipline mapping for official Mathematics subject combinations",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 24,
+          "career_node_slug": "bsc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics",
+          "relation": "direct discipline mapping for official Physics subject combinations",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "closest-specialization mapping for official Computer Application subject combination; career tree has no exact B.Sc Computer Application node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "ambah-pg-college-ambah-bsc-bio-group",
+      "name": "B.Sc.(Bio. Group)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "Should have passed XII exam. Those who have supplementary in the XII will not be given admission.",
+      "official_course_url": "https://ambahpgcollege.org/ProgramsScience.html",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest-specialization mapping for official Botany and Zoology subject combinations; career tree has no exact Botany or Zoology undergraduate node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        },
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "direct discipline mapping for official Chemistry subject combinations",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 34,
+          "career_node_slug": "bsc_microbio",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Microbiology",
+          "relation": "direct discipline mapping for official Microbiology subject combinations",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "ambah-pg-college-ambah-ma-hindi",
+      "name": "M.A. (Hindi)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "Should be graduate in the relevant subjects",
+      "official_course_url": "https://ambahpgcollege.org/ProgramsArt.html",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "closest-specialization mapping for M.A. Hindi; career tree has no postgraduate Hindi node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "ambah-pg-college-ambah-ma-geography",
+      "name": "M.A. (Geography)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "Should be graduate in the relevant subjects",
+      "official_course_url": "https://ambahpgcollege.org/ProgramsArt.html",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent mapping for M.A. Geography; career tree has no exact Geography node",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "ambah-pg-college-ambah-ma-economics",
+      "name": "M.A. (Economics)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "Should be graduate in the relevant subjects",
+      "official_course_url": "https://ambahpgcollege.org/ProgramsArt.html",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "closest-specialization mapping for M.A. Economics; career tree has no postgraduate Economics node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "ambah-pg-college-ambah-msc-chemistry",
+      "name": "M.Sc. (Chemistry)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "Should have passed XII exam. Those who have supplementary in the XII will not be given admission.",
+      "official_course_url": "https://ambahpgcollege.org/ProgramsScience.html",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 155,
+          "career_node_slug": "msc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry > M.Sc Chemistry → Researcher",
+          "relation": "direct discipline mapping; career tree's M.Sc Chemistry node is nested under B.Sc Chemistry",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "ambah-pg-college-ambah-msc-mathematics",
+      "name": "M.Sc. (Mathematics)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "Should have passed XII exam. Those who have supplementary in the XII will not be given admission.",
+      "official_course_url": "https://ambahpgcollege.org/ProgramsScience.html",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 90,
+          "career_node_slug": "msc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics > M.Sc Mathematics → Professor / Researcher",
+          "relation": "direct discipline mapping; career tree's M.Sc Mathematics node is nested under B.Sc Mathematics",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "ambah-pg-college-ambah-msc-zoology",
+      "name": "M.Sc. (Zoology)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "Should have passed XII exam. Those who have supplementary in the XII will not be given admission.",
+      "official_course_url": "https://ambahpgcollege.org/ProgramsScience.html",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 336,
+          "career_node_slug": "science_bio",
+          "career_breadcrumb": "Biology / PCB",
+          "relation": "nearest-parent mapping for M.Sc. Zoology; career tree has no exact Zoology node",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "ambah-pg-college-ambah-pgdca",
+      "name": "P.G.D.C.A.",
+      "level": "postgraduate",
+      "credential": "postgraduate_diploma",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "Should be graduate with minimum 50% marks.",
+      "official_course_url": "https://ambahpgcollege.org/ProgramsScience.html",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "closest-specialization mapping for P.G.D.C.A.; career tree has no exact PGDCA node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "ambah-pg-college-ambah-bcom",
+      "name": "B.Com.(Bachelor of Commerce)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": "Should have passed XII exam. Those who have supplementary in the XII will not be given admission.",
+      "official_course_url": "https://ambahpgcollege.org/ProgramsCommercehtml.html",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct programme mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "Government directory verification succeeded: the exact NIRF 2025 CollegeRankingALL row lists AMBAH PG COLLEGE , AMBAH in Morena, Madhya Pradesh.",
+    "Normal TLS verification for www.nirfindia.org failed with curl error 60 (self signed certificate in certificate chain); after confirming the expected NIRF hostname, curl --insecure was used only for the public GET. The official college site ambahpgcollege.org fetched successfully with normal TLS.",
+    "The official programme pages explicitly catalogue B.A.(Bachelor of Arts), B.Sc.(Mathematics Group), B.Sc.(Bio. Group), B.Com.(Bachelor of Commerce), M.A. (Hindi), M.A. (Geography), M.A. (Economics), M.Sc. (Chemistry), M.Sc. (Mathematics), M.Sc. (Zoology), and P.G.D.C.A.; durations are not stated and are null.",
+    "The official footer/download pages mention Diploma and Ph.D, but their official pages expose only question-paper download interfaces (including 2020-21 sessions) and do not establish a current diploma or doctoral catalogue. Certificate courses appear only in official news/notice items, which are excluded as short-term or expired events. The course catalogue is therefore partial and the record is manual_review.",
+    "Subject combinations are represented through the official B.A. programme and B.Sc. group programme names without inventing extra specialization labels; career mappings cover the disciplines explicitly listed on those official pages."
+  ]
+}

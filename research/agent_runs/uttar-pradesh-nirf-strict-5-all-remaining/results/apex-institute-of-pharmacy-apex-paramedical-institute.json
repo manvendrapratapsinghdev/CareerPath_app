@@ -1,0 +1,196 @@
+{
+  "institution_id": "apex-institute-of-pharmacy-apex-paramedical-institute",
+  "nirf_name": "Apex Institute of Pharmacy-Apex Paramedical Institute",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/PharmacyRankingALL.html"
+  ],
+  "verification_outcome": "verified",
+  "district": "Mirzapur",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://apexims.org/",
+  "website_verification_status": "verified",
+  "description": "Apex Institute of Pharmacy (Apex Paramedical Institute) is located at NH-07, Mirzapur-Varanasi Road, Samaspur, Chunar, Mirzapur, Uttar Pradesh, and is run by Apex Welcare Trust.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory_overall",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "exact institution listing"
+      ]
+    },
+    {
+      "type": "government_directory_pharmacy",
+      "url": "https://www.nirfindia.org/Rankings/2025/PharmacyRankingALL.html",
+      "supports": [
+        "exact institution listing"
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://apexims.org/",
+      "supports": [
+        "official institution identity",
+        "current approval catalogue",
+        "current admission notice"
+      ]
+    },
+    {
+      "type": "official_current_pci_approval",
+      "url": "https://apexims.org/Approvals/2026-27/PCI%20Approval%20-2026-27.pdf",
+      "supports": [
+        "campus address",
+        "Samaspur and Mirzapur identity",
+        "current programme names",
+        "current programme durations"
+      ]
+    },
+    {
+      "type": "official_admission_form",
+      "url": "https://apexims.org/Admission%20Form%20Pharmacy%20AIP.pdf",
+      "supports": [
+        "institution identity",
+        "campus address",
+        "D.Pharm duration",
+        "B.Pharm duration"
+      ]
+    },
+    {
+      "type": "official_pci_sif",
+      "url": "https://apexims.org/pharmacy/SIF-C.pdf",
+      "supports": [
+        "institution identity",
+        "Mirzapur district address",
+        "Apex Welcare Trust management"
+      ]
+    }
+  ],
+  "website_search_evidence": [],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "apex-institute-of-pharmacy-apex-paramedical-institute-apex-d-pharm",
+      "name": "D.Pharm",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://apexims.org/Approvals/2026-27/PCI%20Approval%20-2026-27.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 143,
+          "career_node_slug": "pharmacist",
+          "career_breadcrumb": "Biology / PCB > Medical Updated > Clinical Pharmacist",
+          "relation": "direct discipline mapping: pharmacy to clinical pharmacist",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "apex-institute-of-pharmacy-apex-paramedical-institute-apex-b-pharm",
+      "name": "B.Pharm",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://apexims.org/Approvals/2026-27/PCI%20Approval%20-2026-27.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "direct programme discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "apex-institute-of-pharmacy-apex-paramedical-institute-apex-m-pharm-pharmacognosy",
+      "name": "M.Pharm Pharmacognosy",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Pharmacognosy",
+      "duration": "2 years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://apexims.org/Approvals/2026-27/PCI%20Approval%20-2026-27.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 144,
+          "career_node_slug": "pharma_researcher",
+          "career_breadcrumb": "Biology / PCB > Medical Updated > Pharmaceutical Researcher",
+          "relation": "closest-specialization mapping: pharmaceutical research",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "apex-institute-of-pharmacy-apex-paramedical-institute-apex-m-pharm-pharmaceutics",
+      "name": "M.Pharm Pharmaceutics",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Pharmaceutics",
+      "duration": "2 years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://apexims.org/Approvals/2026-27/PCI%20Approval%20-2026-27.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 144,
+          "career_node_slug": "pharma_researcher",
+          "career_breadcrumb": "Biology / PCB > Medical Updated > Pharmaceutical Researcher",
+          "relation": "closest-specialization mapping: pharmaceutical research",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "apex-institute-of-pharmacy-apex-paramedical-institute-apex-pharmd",
+      "name": "Pharm.D",
+      "level": "doctoral",
+      "credential": "Professional doctorate",
+      "specialization": null,
+      "duration": "6 years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://apexims.org/Approvals/2026-27/PCI%20Approval%20-2026-27.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 143,
+          "career_node_slug": "pharmacist",
+          "career_breadcrumb": "Biology / PCB > Medical Updated > Clinical Pharmacist",
+          "relation": "direct discipline mapping: pharmacy to clinical pharmacist",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The official 2026-27 PCI decision letter lists five currently approved programmes: D.Pharm, B.Pharm, M.Pharm Pharmacognosy, M.Pharm Pharmaceutics, and Pharm.D, with durations encoded by the official course-year ranges.",
+    "Eligibility and study mode were not explicitly stated on the central official catalogue pages, so eligibility is null and mode is recorded as not stated.",
+    "The official PCI SIF identifies the institution as private and run by Apex Welcare Trust, which conflicts with the input institution_type government_college; the exact institution and Mirzapur campus identity are nevertheless established.",
+    "Normal TLS returned the managed proxy self-signed-certificate-chain error; public GET requests were retried with --insecure after confirming the expected official/search hostnames."
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "institution_id": "college-of-agriculture-suwana-bhilwara",
+  "nirf_name": "College of Agriculture, Suwana, Bhilwara",
+  "verification_outcome": "remove_candidate",
+  "district": null,
+  "district_verification_status": "not_found",
+  "official_website": null,
+  "website_verification_status": "not_found",
+  "description": null,
+  "description_verification_status": "not_found",
+  "record_status": "remove_candidate",
+  "allowed_official_domains": [],
+  "verification_sources": [],
+  "website_search_evidence": [
+    {
+      "query": "College of Agriculture Suwana Bhilwara official website",
+      "result": "Brave Search returned coabhilwara.org titled College Of Agriculture, along with excluded third-party listings. Direct HTTPS access to coabhilwara.org currently redirects to https://selalubet.cloud/ and serves unrelated gambling/archive content, so it cannot verify the institution.",
+      "url": "https://search.brave.com/search?q=College+of+Agriculture+Suwana+Bhilwara+official+website"
+    },
+    {
+      "query": "\"College of Agriculture\" Suwana Bhilwara Rajasthan",
+      "result": "Brave Search returned coabhilwara.org and excluded third-party listings mentioning Agarpura/Suwana; no other official institution domain was found.",
+      "url": "https://search.brave.com/search?q=%22College+of+Agriculture%22+Suwana+Bhilwara+Rajasthan"
+    },
+    {
+      "query": "site:rajasthan.gov.in \"College of Agriculture\" Suwana",
+      "result": "Brave Search returned Rajasthan HTE/MPUAT pages for other agriculture colleges and a general MPUAT page, but no direct official page for a Suwana/Bhilwara campus.",
+      "url": "https://search.brave.com/search?q=site%3Arajasthan.gov.in+%22College+of+Agriculture%22+Suwana"
+    },
+    {
+      "query": "site:ac.in \"College of Agriculture\" \"Suwana\"",
+      "result": "Brave Search returned no direct official institution website for College of Agriculture, Suwana, Bhilwara.",
+      "url": "https://search.brave.com/search?q=site%3Aac.in+%22College+of+Agriculture%22+%22Suwana%22"
+    },
+    {
+      "query": "Direct official-domain check: coabhilwara.org",
+      "result": "The candidate domain returned HTTP 200 only after one redirect, with effective URL https://selalubet.cloud/ and page title/content unrelated to an agriculture college.",
+      "url": "https://coabhilwara.org/"
+    }
+  ],
+  "course_catalogue_status": "not_found",
+  "courses": [],
+  "agent_notes": [
+    "Independent verification found no current official institution website that confirms the Suwana campus and Bhilwara city.",
+    "The only candidate domain surfaced by focused search, coabhilwara.org, currently redirects to unrelated content and is not usable as official institutional evidence.",
+    "Normal TLS was attempted first. curl --insecure was used only after the managed proxy returned the exact self-signed-certificate-chain error for public GET requests.",
+    "Read-only career tree inspection found agriculture-related nodes, but no official programme was established, so no course mapping was emitted."
+  ]
+}

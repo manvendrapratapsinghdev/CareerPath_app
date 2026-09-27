@@ -1,0 +1,110 @@
+{
+  "institution_id": "acharya-narendra-dev-college-kailaras",
+  "nirf_name": "ACHARYA NARENDRA DEV COLLEGE , KAILARAS",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Morena",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://highereducation.mp.gov.in/?orgid=283",
+  "website_verification_status": "verified",
+  "description": null,
+  "description_verification_status": "not_found",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact NIRF entry ACHARYA NARENDRA DEV COLLEGE , KAILARAS with city KAILARAS and state Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "official_college_directory",
+      "url": "https://www.highereducation.mp.gov.in/CollegeDisp/getTable",
+      "supports": [
+        "Official MP Higher Education record maps orgid 283 to Govt College, Kailaras, District Morena"
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://highereducation.mp.gov.in/?orgid=283",
+      "supports": [
+        "Official MP Higher Education college portal for orgid 283 with institution-specific academic and campus navigation"
+      ]
+    },
+    {
+      "type": "official_at_a_glance",
+      "url": "https://highereducation.mp.gov.in/?page=Dc6PSYMZxhnAdDku2Ah2pg%3D%3D&orgid=283",
+      "supports": [
+        "Institution-specific At A Glance page; fields are largely unfilled"
+      ]
+    },
+    {
+      "type": "official_departments",
+      "url": "https://highereducation.mp.gov.in/?page=eE8GAOidHUKbh0173C1MBA%3D%3D&orgid=283",
+      "supports": [
+        "Institution-specific Departments page; no department rows are published"
+      ]
+    },
+    {
+      "type": "official_regular_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=2slerna49ACjME6xqruWqQ%3D%3D&orgid=283",
+      "supports": [
+        "Official Regular Courses catalogue shows PG, UG, and Diploma headings but no course rows"
+      ]
+    },
+    {
+      "type": "official_distance_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=MCy1bfJJPKe1jXpRjhol0A%3D%3D&orgid=283",
+      "supports": [
+        "Official Distance Education Courses page shows headings but no course rows"
+      ]
+    },
+    {
+      "type": "official_prospectus",
+      "url": "https://highereducation.mp.gov.in/?page=v9HZQ8h7eHWIJMmOZpyy0w%3D%3D&orgid=283",
+      "supports": [
+        "Official Prospectus page contains no usable programme catalogue content"
+      ]
+    },
+    {
+      "type": "official_timetable",
+      "url": "https://highereducation.mp.gov.in/?page=HaJ1CHF23xfyoKP7RUvMZA%3D%3D&orgid=283",
+      "supports": [
+        "Official Time table page contains no usable programme catalogue content"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Acharya Narendra Dev College\" Kailaras official website",
+      "result": "No matching official Kailaras institution website was returned; the prominent result was an unrelated Acharya institution in Bengaluru.",
+      "url": "https://www.bing.com/search?q=%22Acharya+Narendra+Dev+College%22+Kailaras+official+website"
+    },
+    {
+      "query": "\"Acharya Narendra Dev College Kailaras\" site:mp.gov.in",
+      "result": "No exact official institution page was returned by the focused search; verification continued through the MP Higher Education official college directory.",
+      "url": "https://www.bing.com/search?q=%22Acharya+Narendra+Dev+College+Kailaras%22+site%3Amp.gov.in"
+    },
+    {
+      "query": "\"Acharya Narendra Dev Mahavidyalaya\" Kailaras",
+      "result": "No exact official institution website was returned.",
+      "url": "https://www.bing.com/search?q=%22Acharya+Narendra+Dev+Mahavidyalaya%22+Kailaras"
+    },
+    {
+      "query": "MP Higher Education official college directory orgid 283",
+      "result": "The official MP Higher Education portal exposes the institution-specific route https://highereducation.mp.gov.in/?orgid=283 and identifies orgid 283 as Govt College, Kailaras, District Morena.",
+      "url": "https://www.highereducation.mp.gov.in/?page=3ReniKuyIMmDd4opO%2FkIdA%3D%3D"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [],
+  "agent_notes": [
+    "The NIRF name is ACHARYA NARENDRA DEV COLLEGE , KAILARAS, while the official MP Higher Education directory identifies the matching Kailaras campus as Govt College, Kailaras; the city match is strong but the exact name/renaming relationship should receive manual review.",
+    "The official institution portal is present at orgid 283, but its Regular Courses, Distance Education Courses, Departments, Prospectus, and Time table pages do not publish usable programme rows or a complete active catalogue. No courses were imported to avoid guessing.",
+    "Normal TLS verification failed with the managed proxy's self-signed certificate-chain error; public GET requests were then retried with curl --insecure."
+  ]
+}

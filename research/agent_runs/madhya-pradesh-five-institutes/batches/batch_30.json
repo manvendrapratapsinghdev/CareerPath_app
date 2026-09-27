@@ -1,0 +1,91 @@
+{
+  "batch": 30,
+  "started_at": "2026-09-27T07:15:13.803400+00:00",
+  "finished_at": "2026-09-27T07:15:22.349406+00:00",
+  "assignment_count": 5,
+  "completed_count": 0,
+  "skipped_count": 0,
+  "failed_count": 5,
+  "results": [
+    {
+      "institution_id": "government-college-sukhtawa",
+      "nirf_name": "GOVERNMENT COLLEGE, SUKHTAWA",
+      "status": "failed",
+      "started_at": "2026-09-27T07:15:13.822995+00:00",
+      "finished_at": "2026-09-27T07:15:22.272285+00:00",
+      "duration_seconds": 8.449,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/government-college-sukhtawa.jsonl"
+    },
+    {
+      "institution_id": "govt-college-dolriya",
+      "nirf_name": "Govt. College Dolriya",
+      "status": "failed",
+      "started_at": "2026-09-27T07:15:13.836721+00:00",
+      "finished_at": "2026-09-27T07:15:19.805125+00:00",
+      "duration_seconds": 5.968,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/govt-college-dolriya.jsonl"
+    },
+    {
+      "institution_id": "govt-college-narshingarh-rajgarh",
+      "nirf_name": "Govt. College, Narshingarh, Rajgarh",
+      "status": "failed",
+      "started_at": "2026-09-27T07:15:13.822351+00:00",
+      "finished_at": "2026-09-27T07:15:21.790413+00:00",
+      "duration_seconds": 7.968,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/govt-college-narshingarh-rajgarh.jsonl"
+    },
+    {
+      "institution_id": "govt-college-nasrullaganj-sehore",
+      "nirf_name": "Govt. College, Nasrullaganj, Sehore",
+      "status": "failed",
+      "started_at": "2026-09-27T07:15:13.831923+00:00",
+      "finished_at": "2026-09-27T07:15:22.345651+00:00",
+      "duration_seconds": 8.513,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/govt-college-nasrullaganj-sehore.jsonl"
+    },
+    {
+      "institution_id": "govt-college-neemuch",
+      "nirf_name": "Govt. College, Neemuch",
+      "status": "failed",
+      "started_at": "2026-09-27T07:15:13.836524+00:00",
+      "finished_at": "2026-09-27T07:15:22.314130+00:00",
+      "duration_seconds": 8.477,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/govt-college-neemuch.jsonl"
+    }
+  ]
+}

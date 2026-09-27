@@ -1,0 +1,16 @@
+{
+  "institution_id": "legacy-265",
+  "database_id": 265,
+  "name": "AICTE Approved Polytechnics",
+  "website": "https://www.aicte-india.org",
+  "outcome": "classified",
+  "institution_type": "vocational_training_institute",
+  "source_url": "https://facilities.aicte-india.org/dashboard/pages/php/approvedinstituteserver.php?method=fetchdata&year=2026-2027&program=1&level=DIPLOMA&institutiontype=1&Women=1&Minority=1&state=Gujarat&course=1",
+  "confidence": "medium",
+  "evidence": "The official AICTE approval endpoint, queried for DIPLOMA-level institutes, returns records explicitly named as polytechnics, supporting classification of this AICTE-approved polytechnic category as vocational training institutes.",
+  "notes": [
+    "The supplied AICTE domain identifies the All India Council for Technical Education and links to the official institute-approval dashboard.",
+    "The record is an aggregate category rather than a single campus, so confidence is medium.",
+    "Normal TLS verification failed with the exact local self-signed certificate-in-chain proxy error; curl --insecure was used only for public GET requests to official AICTE hostnames."
+  ]
+}

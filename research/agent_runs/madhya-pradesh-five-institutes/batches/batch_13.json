@@ -1,0 +1,91 @@
+{
+  "batch": 13,
+  "started_at": "2026-09-27T07:11:23.441613+00:00",
+  "finished_at": "2026-09-27T07:11:33.389163+00:00",
+  "assignment_count": 5,
+  "completed_count": 0,
+  "skipped_count": 0,
+  "failed_count": 5,
+  "results": [
+    {
+      "institution_id": "duke-college-of-management",
+      "nirf_name": "Duke College of Management",
+      "status": "failed",
+      "started_at": "2026-09-27T07:11:23.449185+00:00",
+      "finished_at": "2026-09-27T07:11:33.241201+00:00",
+      "duration_seconds": 9.792,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/duke-college-of-management.jsonl"
+    },
+    {
+      "institution_id": "extol-college-bawariya-kalan-bhopal",
+      "nirf_name": "Extol College, Bawariya Kalan, Bhopal",
+      "status": "failed",
+      "started_at": "2026-09-27T07:11:23.452963+00:00",
+      "finished_at": "2026-09-27T07:11:33.361624+00:00",
+      "duration_seconds": 9.908,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/extol-college-bawariya-kalan-bhopal.jsonl"
+    },
+    {
+      "institution_id": "gandhi-pr-college-d-1-danish-nagar-hoshangabad-road-bhopal",
+      "nirf_name": "Gandhi PR College D-1, Danish Nagar, Hoshangabad Road, Bhopal",
+      "status": "failed",
+      "started_at": "2026-09-27T07:11:23.458308+00:00",
+      "finished_at": "2026-09-27T07:11:33.330571+00:00",
+      "duration_seconds": 9.872,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/gandhi-pr-college-d-1-danish-nagar-hoshangabad-road-bhopal.jsonl"
+    },
+    {
+      "institution_id": "government-maharani-laxmi-bai-girls-post-graduate-autonomous-college-bhopal",
+      "nirf_name": "Government Maharani Laxmi Bai Girls Post Graduate Autonomous College,\r\n                                                Bhopal",
+      "status": "failed",
+      "started_at": "2026-09-27T07:11:23.458186+00:00",
+      "finished_at": "2026-09-27T07:11:33.378063+00:00",
+      "duration_seconds": 9.92,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/government-maharani-laxmi-bai-girls-post-graduate-autonomous-college-bhopal.jsonl"
+    },
+    {
+      "institution_id": "govt-college-bidwal-dist-dhar-m-p",
+      "nirf_name": "Govt. College, Bidwal Dist.- Dhar (M.P.)",
+      "status": "failed",
+      "started_at": "2026-09-27T07:11:23.464480+00:00",
+      "finished_at": "2026-09-27T07:11:33.352728+00:00",
+      "duration_seconds": 9.888,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/govt-college-bidwal-dist-dhar-m-p.jsonl"
+    }
+  ]
+}

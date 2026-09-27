@@ -1,0 +1,877 @@
+{
+  "institution_id": "jaypee-university-of-engineering-technology",
+  "nirf_name": "Jaypee University of Engineering & Technology",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/EngineeringRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "verified",
+  "district": "Guna",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://www.juet.ac.in/",
+  "website_verification_status": "verified",
+  "description": "Jaypee University of Engineering & Technology (JUET) is a private university campus at Raghogarh in Guna district, Madhya Pradesh, offering higher-education programmes in engineering, technology, management and sciences.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory_nirf_engineering",
+      "url": "https://www.nirfindia.org/Rankings/2025/EngineeringRankingALL.html",
+      "supports": [
+        "Exact institution name",
+        "Guna city",
+        "Madhya Pradesh state"
+      ]
+    },
+    {
+      "type": "government_directory_nirf_overall",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Exact institution name",
+        "Guna city",
+        "Madhya Pradesh state"
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://www.juet.ac.in/",
+      "supports": [
+        "Official JUET identity",
+        "JUET Guna campus identity"
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "https://www.juet.ac.in/jaypee/about-1.php",
+      "supports": [
+        "Raghogarh campus",
+        "Guna district",
+        "Madhya Pradesh",
+        "Institution description"
+      ]
+    },
+    {
+      "type": "official_programme_catalogue",
+      "url": "https://www.juet.ac.in/jaypee/academic-programmes.php",
+      "supports": [
+        "B.Tech programme names",
+        "M.Tech programme names",
+        "BBA",
+        "M.Sc programme names",
+        "Diploma programme names",
+        "Ph.D. programme listing"
+      ]
+    },
+    {
+      "type": "official_admissions_page",
+      "url": "https://www.juet.ac.in/jaypee/admission.php",
+      "supports": [
+        "Admissions 2026-27",
+        "Active B.Tech, M.Tech, BBA, M.Sc, Diploma and Ph.D. programme families"
+      ]
+    },
+    {
+      "type": "official_btech_catalogue",
+      "url": "https://www.juet.ac.in/jaypee/Jaypee-Course_BTech.php",
+      "supports": [
+        "B.Tech programme family",
+        "B.Tech branches",
+        "Four-year duration",
+        "Full-time mode"
+      ]
+    },
+    {
+      "type": "official_mtech_catalogue",
+      "url": "https://www.juet.ac.in/jaypee/Jaypee-Course_Mtech.php",
+      "supports": [
+        "M.Tech programme family",
+        "M.Tech branches",
+        "Two-year duration",
+        "Full-time mode"
+      ]
+    },
+    {
+      "type": "official_bba_catalogue",
+      "url": "https://www.juet.ac.in/jaypee/Jaypee-Course_Bba.php",
+      "supports": [
+        "Bachelor of Business Administration programme",
+        "Three-year duration",
+        "Full-time mode"
+      ]
+    },
+    {
+      "type": "official_msc_catalogue",
+      "url": "https://www.juet.ac.in/jaypee/Jaypee-Course_Msc.php",
+      "supports": [
+        "M.Sc. branches",
+        "Two-year duration",
+        "Full-time mode"
+      ]
+    },
+    {
+      "type": "official_diploma_catalogue",
+      "url": "https://www.juet.ac.in/jaypee/Jaypee-Course_Diploma.php",
+      "supports": [
+        "Civil and Mechanical diploma programmes",
+        "Three-year duration",
+        "Full-time mode"
+      ]
+    },
+    {
+      "type": "official_phd_catalogue",
+      "url": "https://www.juet.ac.in/jaypee/Jaypee-Course_Phd.php",
+      "supports": [
+        "Ph.D. programme disciplines",
+        "Three-year duration",
+        "Full-time mode"
+      ]
+    }
+  ],
+  "website_search_evidence": [],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "jaypee-university-of-engineering-technology-juet-btech-chemical-engineering",
+      "name": "B.Tech in Chemical Engineering",
+      "level": "undergraduate",
+      "credential": "Bachelor of Technology (B.Tech)",
+      "specialization": "Chemical Engineering",
+      "duration": "4 years",
+      "mode": "full-time",
+      "eligibility": null,
+      "official_course_url": "https://www.juet.ac.in/jaypee/Jaypee-Course_BTech.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 86,
+          "career_node_slug": "btech_chem",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Chemical Engineering",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jaypee-university-of-engineering-technology-juet-btech-civil-engineering",
+      "name": "B.Tech in Civil Engineering",
+      "level": "undergraduate",
+      "credential": "Bachelor of Technology (B.Tech)",
+      "specialization": "Civil Engineering",
+      "duration": "4 years",
+      "mode": "full-time",
+      "eligibility": null,
+      "official_course_url": "https://www.juet.ac.in/jaypee/Jaypee-Course_BTech.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jaypee-university-of-engineering-technology-juet-btech-computer-science-engineering",
+      "name": "B.Tech in Computer Science and Engineering",
+      "level": "undergraduate",
+      "credential": "Bachelor of Technology (B.Tech)",
+      "specialization": "Computer Science and Engineering",
+      "duration": "4 years",
+      "mode": "full-time",
+      "eligibility": null,
+      "official_course_url": "https://www.juet.ac.in/jaypee/Jaypee-Course_BTech.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jaypee-university-of-engineering-technology-juet-btech-cse-ai-ml",
+      "name": "B.Tech in Computer Science and Engineering (AI & ML)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Technology (B.Tech)",
+      "specialization": "Artificial Intelligence & Machine Learning",
+      "duration": "4 years",
+      "mode": "full-time",
+      "eligibility": null,
+      "official_course_url": "https://www.juet.ac.in/jaypee/Jaypee-Course_BTech.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 174,
+          "career_node_slug": "ai_engineer",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Artificial Intelligence > AI Engineer",
+          "relation": "closest specialization: AI Engineer",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jaypee-university-of-engineering-technology-juet-btech-cse-data-science",
+      "name": "B.Tech in Computer Science and Engineering (Data Science)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Technology (B.Tech)",
+      "specialization": "Data Science",
+      "duration": "4 years",
+      "mode": "full-time",
+      "eligibility": null,
+      "official_course_url": "https://www.juet.ac.in/jaypee/Jaypee-Course_BTech.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 308,
+          "career_node_slug": "data_scientist",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science > Data Scientist",
+          "relation": "closest specialization: Data Scientist",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jaypee-university-of-engineering-technology-juet-btech-cse-cyber-security",
+      "name": "B.Tech in Computer Science and Engineering (Cyber Security)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Technology (B.Tech)",
+      "specialization": "Cyber Security",
+      "duration": "4 years",
+      "mode": "full-time",
+      "eligibility": null,
+      "official_course_url": "https://www.juet.ac.in/jaypee/Jaypee-Course_BTech.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 309,
+          "career_node_slug": "cybersecurity_analyst",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science > Cybersecurity Analyst",
+          "relation": "closest specialization: Cybersecurity Analyst",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jaypee-university-of-engineering-technology-juet-btech-electronics-communication-engineering",
+      "name": "B.Tech in Electronics and Communication Engineering",
+      "level": "undergraduate",
+      "credential": "Bachelor of Technology (B.Tech)",
+      "specialization": "Electronics and Communication Engineering",
+      "duration": "4 years",
+      "mode": "full-time",
+      "eligibility": null,
+      "official_course_url": "https://www.juet.ac.in/jaypee/Jaypee-Course_BTech.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jaypee-university-of-engineering-technology-juet-btech-electronics-vlsi",
+      "name": "B.Tech in Electronics Engineering (VLSI Design & Technology)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Technology (B.Tech)",
+      "specialization": "VLSI Design & Technology",
+      "duration": "4 years",
+      "mode": "full-time",
+      "eligibility": null,
+      "official_course_url": "https://www.juet.ac.in/jaypee/Jaypee-Course_BTech.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 315,
+          "career_node_slug": "vlsi_engineer",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication > VLSI Design Engineer",
+          "relation": "closest specialization: VLSI Design Engineer",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jaypee-university-of-engineering-technology-juet-btech-mechanical-engineering",
+      "name": "B.Tech in Mechanical Engineering",
+      "level": "undergraduate",
+      "credential": "Bachelor of Technology (B.Tech)",
+      "specialization": "Mechanical Engineering",
+      "duration": "4 years",
+      "mode": "full-time",
+      "eligibility": null,
+      "official_course_url": "https://www.juet.ac.in/jaypee/Jaypee-Course_BTech.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jaypee-university-of-engineering-technology-juet-btech-mechanical-mechatronics-additive-manufacturing",
+      "name": "B.Tech in Mechanical & Mechatronics Engineering (Additive Manufacturing)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Technology (B.Tech)",
+      "specialization": "Additive Manufacturing",
+      "duration": "4 years",
+      "mode": "full-time",
+      "eligibility": null,
+      "official_course_url": "https://www.juet.ac.in/jaypee/Jaypee-Course_BTech.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 363,
+          "career_node_slug": "btech_robotics",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering > Robotics Engineering",
+          "relation": "closest specialization: Robotics Engineering",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jaypee-university-of-engineering-technology-juet-mtech-civil-construction-management",
+      "name": "M.Tech in Civil Engineering (Construction Management)",
+      "level": "postgraduate",
+      "credential": "Master of Technology (M.Tech)",
+      "specialization": "Construction Management",
+      "duration": "2 years",
+      "mode": "full-time",
+      "eligibility": null,
+      "official_course_url": "https://www.juet.ac.in/jaypee/Jaypee-Course_Mtech.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "nearest parent discipline: Civil Engineering",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jaypee-university-of-engineering-technology-juet-mtech-civil-environmental-engineering",
+      "name": "M.Tech in Civil Engineering (Environmental Engineering)",
+      "level": "postgraduate",
+      "credential": "Master of Technology (M.Tech)",
+      "specialization": "Environmental Engineering",
+      "duration": "2 years",
+      "mode": "full-time",
+      "eligibility": null,
+      "official_course_url": "https://www.juet.ac.in/jaypee/Jaypee-Course_Mtech.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "nearest parent discipline: Civil Engineering",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jaypee-university-of-engineering-technology-juet-mtech-civil-structural-engineering",
+      "name": "M.Tech in Civil Engineering (Structural Engineering)",
+      "level": "postgraduate",
+      "credential": "Master of Technology (M.Tech)",
+      "specialization": "Structural Engineering",
+      "duration": "2 years",
+      "mode": "full-time",
+      "eligibility": null,
+      "official_course_url": "https://www.juet.ac.in/jaypee/Jaypee-Course_Mtech.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 321,
+          "career_node_slug": "structural_engineer",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering > Structural Engineer",
+          "relation": "closest specialization: Structural Engineer",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jaypee-university-of-engineering-technology-juet-mtech-computer-science-engineering",
+      "name": "M.Tech in Computer Science and Engineering",
+      "level": "postgraduate",
+      "credential": "Master of Technology (M.Tech)",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "full-time",
+      "eligibility": null,
+      "official_course_url": "https://www.juet.ac.in/jaypee/Jaypee-Course_Mtech.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "nearest parent discipline: Computer Science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jaypee-university-of-engineering-technology-juet-mtech-electronics-communication-engineering",
+      "name": "M.Tech in Electronics and Communication Engineering",
+      "level": "postgraduate",
+      "credential": "Master of Technology (M.Tech)",
+      "specialization": "Electronics and Communication Engineering",
+      "duration": "2 years",
+      "mode": "full-time",
+      "eligibility": null,
+      "official_course_url": "https://www.juet.ac.in/jaypee/Jaypee-Course_Mtech.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "nearest parent discipline: Electronics & Communication",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jaypee-university-of-engineering-technology-juet-mtech-mechanical-manufacturing-technology",
+      "name": "M.Tech in Mechanical Engineering (Manufacturing Technology)",
+      "level": "postgraduate",
+      "credential": "Master of Technology (M.Tech)",
+      "specialization": "Manufacturing Technology",
+      "duration": "2 years",
+      "mode": "full-time",
+      "eligibility": null,
+      "official_course_url": "https://www.juet.ac.in/jaypee/Jaypee-Course_Mtech.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "nearest parent discipline: Mechanical Engineering",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jaypee-university-of-engineering-technology-juet-mtech-chemical-engineering",
+      "name": "M.Tech in Chemical Engineering",
+      "level": "postgraduate",
+      "credential": "Master of Technology (M.Tech)",
+      "specialization": "Chemical Engineering",
+      "duration": "2 years",
+      "mode": "full-time",
+      "eligibility": null,
+      "official_course_url": "https://www.juet.ac.in/jaypee/Jaypee-Course_Mtech.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 86,
+          "career_node_slug": "btech_chem",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Chemical Engineering",
+          "relation": "nearest parent discipline: Chemical Engineering",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jaypee-university-of-engineering-technology-juet-bba",
+      "name": "Bachelor of Business Administration (BBA)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Business Administration (BBA)",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "full-time",
+      "eligibility": null,
+      "official_course_url": "https://www.juet.ac.in/jaypee/Jaypee-Course_Bba.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 46,
+          "career_node_slug": "bba",
+          "career_breadcrumb": "Management & Business > BBA (General)",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jaypee-university-of-engineering-technology-juet-msc-chemistry",
+      "name": "M.Sc. in Chemistry",
+      "level": "postgraduate",
+      "credential": "Master of Science (M.Sc)",
+      "specialization": "Chemistry",
+      "duration": "2 years",
+      "mode": "full-time",
+      "eligibility": null,
+      "official_course_url": "https://www.juet.ac.in/jaypee/Jaypee-Course_Msc.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 155,
+          "career_node_slug": "msc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry > M.Sc Chemistry → Researcher",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jaypee-university-of-engineering-technology-juet-msc-physics",
+      "name": "M.Sc. in Physics",
+      "level": "postgraduate",
+      "credential": "Master of Science (M.Sc)",
+      "specialization": "Physics",
+      "duration": "2 years",
+      "mode": "full-time",
+      "eligibility": null,
+      "official_course_url": "https://www.juet.ac.in/jaypee/Jaypee-Course_Msc.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 153,
+          "career_node_slug": "msc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics > M.Sc Physics → Researcher / Professor",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jaypee-university-of-engineering-technology-juet-msc-mathematics",
+      "name": "M.Sc. in Mathematics",
+      "level": "postgraduate",
+      "credential": "Master of Science (M.Sc)",
+      "specialization": "Mathematics",
+      "duration": "2 years",
+      "mode": "full-time",
+      "eligibility": null,
+      "official_course_url": "https://www.juet.ac.in/jaypee/Jaypee-Course_Msc.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 90,
+          "career_node_slug": "msc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics > M.Sc Mathematics → Professor / Researcher",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jaypee-university-of-engineering-technology-juet-diploma-civil-engineering",
+      "name": "Diploma in Civil Engineering",
+      "level": "diploma",
+      "credential": "Diploma in Engineering",
+      "specialization": "Civil Engineering",
+      "duration": "3 years",
+      "mode": "full-time",
+      "eligibility": null,
+      "official_course_url": "https://www.juet.ac.in/jaypee/Jaypee-Course_Diploma.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 116,
+          "career_node_slug": "diploma_civil_career",
+          "career_breadcrumb": "Maths / PCM > Diploma Engineering (Polytechnic) > Civil Site Supervisor",
+          "relation": "closest specialization: Civil Site Supervisor",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jaypee-university-of-engineering-technology-juet-diploma-mechanical-engineering",
+      "name": "Diploma in Mechanical Engineering",
+      "level": "diploma",
+      "credential": "Diploma in Engineering",
+      "specialization": "Mechanical Engineering",
+      "duration": "3 years",
+      "mode": "full-time",
+      "eligibility": null,
+      "official_course_url": "https://www.juet.ac.in/jaypee/Jaypee-Course_Diploma.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 115,
+          "career_node_slug": "diploma_mech_career",
+          "career_breadcrumb": "Maths / PCM > Diploma Engineering (Polytechnic) > Mechanical Draughtsman / Technician",
+          "relation": "closest specialization: Mechanical Draughtsman / Technician",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jaypee-university-of-engineering-technology-juet-phd-civil-engineering",
+      "name": "Ph.D. in Civil Engineering",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy (Ph.D.)",
+      "specialization": "Civil Engineering",
+      "duration": "3 years",
+      "mode": "full-time",
+      "eligibility": null,
+      "official_course_url": "https://www.juet.ac.in/jaypee/Jaypee-Course_Phd.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "nearest parent discipline: Civil Engineering",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jaypee-university-of-engineering-technology-juet-phd-chemical-engineering",
+      "name": "Ph.D. in Chemical Engineering",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy (Ph.D.)",
+      "specialization": "Chemical Engineering",
+      "duration": "3 years",
+      "mode": "full-time",
+      "eligibility": null,
+      "official_course_url": "https://www.juet.ac.in/jaypee/Jaypee-Course_Phd.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 86,
+          "career_node_slug": "btech_chem",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Chemical Engineering",
+          "relation": "nearest parent discipline: Chemical Engineering",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jaypee-university-of-engineering-technology-juet-phd-computer-science-engineering",
+      "name": "Ph.D. in Computer Science and Engineering",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy (Ph.D.)",
+      "specialization": "Computer Science and Engineering",
+      "duration": "3 years",
+      "mode": "full-time",
+      "eligibility": null,
+      "official_course_url": "https://www.juet.ac.in/jaypee/Jaypee-Course_Phd.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "nearest parent discipline: Computer Science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jaypee-university-of-engineering-technology-juet-phd-electronics-communication-engineering",
+      "name": "Ph.D. in Electronics and Communication Engineering",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy (Ph.D.)",
+      "specialization": "Electronics and Communication Engineering",
+      "duration": "3 years",
+      "mode": "full-time",
+      "eligibility": null,
+      "official_course_url": "https://www.juet.ac.in/jaypee/Jaypee-Course_Phd.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "nearest parent discipline: Electronics & Communication",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jaypee-university-of-engineering-technology-juet-phd-mechanical-engineering",
+      "name": "Ph.D. in Mechanical Engineering",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy (Ph.D.)",
+      "specialization": "Mechanical Engineering",
+      "duration": "3 years",
+      "mode": "full-time",
+      "eligibility": null,
+      "official_course_url": "https://www.juet.ac.in/jaypee/Jaypee-Course_Phd.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "nearest parent discipline: Mechanical Engineering",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jaypee-university-of-engineering-technology-juet-phd-physics",
+      "name": "Ph.D. in Physics",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy (Ph.D.)",
+      "specialization": "Physics",
+      "duration": "3 years",
+      "mode": "full-time",
+      "eligibility": null,
+      "official_course_url": "https://www.juet.ac.in/jaypee/Jaypee-Course_Phd.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 24,
+          "career_node_slug": "bsc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics",
+          "relation": "closest discipline: Physics",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jaypee-university-of-engineering-technology-juet-phd-chemistry",
+      "name": "Ph.D. in Chemistry",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy (Ph.D.)",
+      "specialization": "Chemistry",
+      "duration": "3 years",
+      "mode": "full-time",
+      "eligibility": null,
+      "official_course_url": "https://www.juet.ac.in/jaypee/Jaypee-Course_Phd.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "closest discipline: Chemistry",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jaypee-university-of-engineering-technology-juet-phd-mathematics",
+      "name": "Ph.D. in Mathematics",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy (Ph.D.)",
+      "specialization": "Mathematics",
+      "duration": "3 years",
+      "mode": "full-time",
+      "eligibility": null,
+      "official_course_url": "https://www.juet.ac.in/jaypee/Jaypee-Course_Phd.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "closest discipline: Mathematics",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jaypee-university-of-engineering-technology-juet-phd-humanities-social-sciences",
+      "name": "Ph.D. in Humanities & Social Sciences",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy (Ph.D.)",
+      "specialization": "Humanities & Social Sciences",
+      "duration": "3 years",
+      "mode": "full-time",
+      "eligibility": null,
+      "official_course_url": "https://www.juet.ac.in/jaypee/Jaypee-Course_Phd.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest parent discipline: Social Sciences & Education",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The exact institution name, city and state were found in both supplied NIRF 2025 government listings.",
+    "Normal curl TLS verification failed with the managed proxy's self-signed certificate-chain error; public GET requests were retried with --insecure only after confirming the expected NIRF, search-engine and official juet.ac.in hostnames.",
+    "The official academic-programmes page, six linked programme pages, 2026-27 admissions page and sitemap were checked. The catalogue lists 10 B.Tech, 7 M.Tech, 1 BBA, 3 M.Sc and 2 diploma programmes; the Ph.D. page lists nine doctoral disciplines. No active certificate programme was listed in the official catalogue, admissions page, homepage or sitemap.",
+    "The career tree has no degree-level M.Tech or Ph.D. nodes for several disciplines, so those courses use clearly labelled nearest-parent or closest-specialization mappings with medium confidence."
+  ]
+}

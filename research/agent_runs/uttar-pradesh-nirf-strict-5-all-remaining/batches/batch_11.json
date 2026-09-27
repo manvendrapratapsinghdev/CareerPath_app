@@ -1,0 +1,52 @@
+{
+  "batch": 11,
+  "started_at": "2026-09-27T13:11:13.243336+00:00",
+  "finished_at": "2026-09-27T13:26:13.469157+00:00",
+  "assignment_count": 5,
+  "completed_count": 0,
+  "skipped_count": 4,
+  "failed_count": 1,
+  "results": [
+    {
+      "institution_id": "galgotias-college-of-engineering-technology",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/galgotias-college-of-engineering-technology.json",
+      "finished_at": "2026-09-27T13:11:13.387279+00:00"
+    },
+    {
+      "institution_id": "galgotias-institute-of-management-technology",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/galgotias-institute-of-management-technology.json",
+      "finished_at": "2026-09-27T13:11:13.389230+00:00"
+    },
+    {
+      "institution_id": "integral-university",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/integral-university.json",
+      "finished_at": "2026-09-27T13:11:13.403639+00:00"
+    },
+    {
+      "institution_id": "sanskriti-university",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/sanskriti-university.json",
+      "finished_at": "2026-09-27T13:11:13.414259+00:00"
+    },
+    {
+      "institution_id": "sharda-university",
+      "nirf_name": "Sharda University",
+      "status": "failed",
+      "started_at": "2026-09-27T13:11:13.321360+00:00",
+      "finished_at": "2026-09-27T13:26:13.444268+00:00",
+      "duration_seconds": 900.094,
+      "return_code": -15,
+      "timed_out": true,
+      "errors": [
+        "agent timed out after 900 seconds",
+        "codex exec exited with code -15",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/logs/sharda-university.jsonl"
+    }
+  ]
+}

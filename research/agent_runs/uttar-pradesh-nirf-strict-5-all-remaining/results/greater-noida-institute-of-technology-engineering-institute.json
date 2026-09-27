@@ -1,0 +1,607 @@
+{
+  "institution_id": "greater-noida-institute-of-technology-engineering-institute",
+  "nirf_name": "Greater Noida Institute of Technology (Engineering Institute)",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/EngineeringRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Gautam Buddh Nagar",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://www.gniot.net.in/",
+  "website_verification_status": "verified",
+  "description": "Greater Noida Institute of Technology (Engineering Institute) is an AICTE-approved, Dr. A.P.J. Abdul Kalam Technical University-affiliated engineering institute at Plot No. 7, Knowledge Park-II, Greater Noida, Gautam Buddh Nagar, Uttar Pradesh.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [
+    "gniotgroup.edu.in"
+  ],
+  "verification_sources": [
+    {
+      "type": "government_directory_engineering_2025",
+      "url": "https://www.nirfindia.org/Rankings/2025/EngineeringRankingALL.html",
+      "supports": [
+        "Exact institution name listed with city Greater Noida and state Uttar Pradesh."
+      ]
+    },
+    {
+      "type": "government_directory_overall_2025",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Exact institution name listed with city Greater Noida and state Uttar Pradesh."
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://www.gniot.net.in/",
+      "supports": [
+        "Identifies Greater Noida Institute of Technology and gives the Plot No. 7, Knowledge Park-II, Greater Noida, Gautam Buddh Nagar, Uttar Pradesh campus address."
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "https://www.gniotgroup.edu.in/about.php",
+      "supports": [
+        "Official about page titled About | Greater Noida Institute Of Technology and describing GNIOT as an engineering college in Greater Noida, Uttar Pradesh."
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://www.gniot.net.in/courses.php",
+      "supports": [
+        "Target-specific Courses Offered table headed Greater Noida Institute of Technology (Engineering Institute), College Code 132, with programme names and intakes."
+      ]
+    },
+    {
+      "type": "official_btech_details",
+      "url": "https://www.gniot.net.in/btech-course-details.php",
+      "supports": [
+        "B.Tech course family eligibility, four-year duration, and listed specialisations."
+      ]
+    },
+    {
+      "type": "official_btech_lateral_details",
+      "url": "https://www.gniot.net.in/btech-lateral-course-details.php",
+      "supports": [
+        "B.Tech Lateral course, eligibility, and three-year duration."
+      ]
+    },
+    {
+      "type": "official_mtech_details",
+      "url": "https://www.gniot.net.in/mtech-course-details.php",
+      "supports": [
+        "M.Tech course family eligibility, two-year duration, and specialisations."
+      ]
+    },
+    {
+      "type": "official_mca_details",
+      "url": "https://www.gniot.net.in/mca-course-details.php",
+      "supports": [
+        "M.C.A course eligibility and two-year duration."
+      ]
+    },
+    {
+      "type": "official_integrated_mca_page",
+      "url": "https://www.gniotgroup.edu.in/mca-bca-college-campus-in-up-gr-noida.php",
+      "supports": [
+        "MCA (Integrated) programme, five-year full-time duration, and eligibility."
+      ]
+    },
+    {
+      "type": "official_btech_overview",
+      "url": "https://www.gniotgroup.edu.in/best-engineering-college-in-up.php",
+      "supports": [
+        "Official B.Tech overview contains a programme list that differs from the target-specific Courses Offered table, including B.Tech Computer Science and Engineering-Design."
+      ]
+    },
+    {
+      "type": "official_mtech_overview",
+      "url": "https://www.gniotgroup.edu.in/mtech.php",
+      "supports": [
+        "Official M.Tech page labels VLSI as M.Tech (VLSI & Embedded System), differing from the target-specific catalogue's M.Tech (VLSI Design)."
+      ]
+    },
+    {
+      "type": "official_mba_shared_group_page",
+      "url": "https://www.gniotgroup.edu.in/mba-program.php",
+      "supports": [
+        "Shared GNIOT group MBA page contains additional MBA variants and describes GNIOT MBA Institute; these were not imported as separate target-institution courses."
+      ]
+    },
+    {
+      "type": "official_bca_shared_group_page",
+      "url": "https://www.gniotgroup.edu.in/bca-college-campus-in-up-gr-noida.php",
+      "supports": [
+        "Shared group BCA page exists, but standalone BCA is absent from the target-specific College Code 132 catalogue and was not imported."
+      ]
+    }
+  ],
+  "website_search_evidence": [],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "greater-noida-institute-of-technology-engineering-institute-gniot-btech-computer-science-engg",
+      "name": "B.Tech (Computer Science & Engg.)",
+      "level": "undergraduate",
+      "credential": "B.Tech degree",
+      "specialization": null,
+      "duration": "4 Years",
+      "mode": "full-time",
+      "eligibility": "10+2 with Physics Maths and Chemistry with 45% or 40% for SC/ST without grace",
+      "official_course_url": "https://www.gniot.net.in/courses.php",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "greater-noida-institute-of-technology-engineering-institute-gniot-btech-cse-iot",
+      "name": "B.Tech - Computer Science & Engg. IOT (Internet on Things)",
+      "level": "undergraduate",
+      "credential": "B.Tech degree",
+      "specialization": null,
+      "duration": "4 Years",
+      "mode": "full-time",
+      "eligibility": "10+2 with Physics Maths and Chemistry with 45% or 40% for SC/ST without grace",
+      "official_course_url": "https://www.gniot.net.in/courses.php",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "greater-noida-institute-of-technology-engineering-institute-gniot-btech-cse-ai-ml",
+      "name": "B.Tech - Computer Science & Engg. (Artificial Intelligence & Machine Learning)",
+      "level": "undergraduate",
+      "credential": "B.Tech degree",
+      "specialization": null,
+      "duration": "4 Years",
+      "mode": "full-time",
+      "eligibility": "10+2 with Physics Maths and Chemistry with 45% or 40% for SC/ST without grace",
+      "official_course_url": "https://www.gniot.net.in/courses.php",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 81,
+          "career_node_slug": "btech_ai",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > AI & Machine Learning",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "greater-noida-institute-of-technology-engineering-institute-gniot-btech-information-technology",
+      "name": "B.Tech (Information Technology)",
+      "level": "undergraduate",
+      "credential": "B.Tech degree",
+      "specialization": null,
+      "duration": "4 Years",
+      "mode": "full-time",
+      "eligibility": "10+2 with Physics Maths and Chemistry with 45% or 40% for SC/ST without grace",
+      "official_course_url": "https://www.gniot.net.in/courses.php",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 89,
+          "career_node_slug": "btech_it",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Information Technology",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "greater-noida-institute-of-technology-engineering-institute-gniot-btech-electronics-communication",
+      "name": "B.Tech (Electronics & Communication Engineering)",
+      "level": "undergraduate",
+      "credential": "B.Tech degree",
+      "specialization": null,
+      "duration": "4 Years",
+      "mode": "full-time",
+      "eligibility": "10+2 with Physics Maths and Chemistry with 45% or 40% for SC/ST without grace",
+      "official_course_url": "https://www.gniot.net.in/courses.php",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "greater-noida-institute-of-technology-engineering-institute-gniot-btech-civil-engineering",
+      "name": "B.Tech (Civil Engineering)",
+      "level": "undergraduate",
+      "credential": "B.Tech degree",
+      "specialization": null,
+      "duration": "4 Years",
+      "mode": "full-time",
+      "eligibility": "10+2 with Physics Maths and Chemistry with 45% or 40% for SC/ST without grace",
+      "official_course_url": "https://www.gniot.net.in/courses.php",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "greater-noida-institute-of-technology-engineering-institute-gniot-btech-mechanical-engineering",
+      "name": "B.Tech (Mechanical Engineering)",
+      "level": "undergraduate",
+      "credential": "B.Tech degree",
+      "specialization": null,
+      "duration": "4 Years",
+      "mode": "full-time",
+      "eligibility": "10+2 with Physics Maths and Chemistry with 45% or 40% for SC/ST without grace",
+      "official_course_url": "https://www.gniot.net.in/courses.php",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "greater-noida-institute-of-technology-engineering-institute-gniot-btech-electrical-engineering",
+      "name": "B.Tech (Electrical Engineering)",
+      "level": "undergraduate",
+      "credential": "B.Tech degree",
+      "specialization": null,
+      "duration": "4 Years",
+      "mode": "full-time",
+      "eligibility": "10+2 with Physics Maths and Chemistry with 45% or 40% for SC/ST without grace",
+      "official_course_url": "https://www.gniot.net.in/courses.php",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "greater-noida-institute-of-technology-engineering-institute-gniot-mtech-mechanical-engineering",
+      "name": "M.Tech (Mechanical Engg.)",
+      "level": "postgraduate",
+      "credential": "M.Tech degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "full-time",
+      "eligibility": "B.Tech with 60% or equivalent CGPA",
+      "official_course_url": "https://www.gniot.net.in/courses.php",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "greater-noida-institute-of-technology-engineering-institute-gniot-mtech-vlsi-design",
+      "name": "M.Tech (VLSI Design)",
+      "level": "postgraduate",
+      "credential": "M.Tech degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "full-time",
+      "eligibility": "B.Tech with 60% or equivalent CGPA",
+      "official_course_url": "https://www.gniot.net.in/courses.php",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 315,
+          "career_node_slug": "vlsi_engineer",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication > VLSI Design Engineer",
+          "relation": "closest_specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "greater-noida-institute-of-technology-engineering-institute-gniot-mtech-computer-science",
+      "name": "M.Tech (Computer Science)",
+      "level": "postgraduate",
+      "credential": "M.Tech degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "full-time",
+      "eligibility": "B.Tech with 60% or equivalent CGPA",
+      "official_course_url": "https://www.gniot.net.in/courses.php",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "greater-noida-institute-of-technology-engineering-institute-gniot-mtech-civil-engineering",
+      "name": "M.Tech (Civil Engineering)",
+      "level": "postgraduate",
+      "credential": "M.Tech degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "full-time",
+      "eligibility": "B.Tech with 60% or equivalent CGPA",
+      "official_course_url": "https://www.gniot.net.in/courses.php",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "greater-noida-institute-of-technology-engineering-institute-gniot-mba",
+      "name": "M.B.A",
+      "level": "postgraduate",
+      "credential": "MBA degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.gniot.net.in/courses.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 208,
+          "career_node_slug": "mba_general",
+          "career_breadcrumb": "Management & Business > BBA (General) > MBA → CEO / Director Track",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "greater-noida-institute-of-technology-engineering-institute-gniot-mca",
+      "name": "M.C.A",
+      "level": "postgraduate",
+      "credential": "MCA degree",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "full-time",
+      "eligibility": "Passed BCA/Bachelor Degree in CSE or equivalent Degree with 50% or 45% for SC/ST. OR Passed B.Sc./B.Com/B.A with Maths at 10+2 level or at Graduation Level with 50% or 45% for SC/ST (with additional bridge courses as per norms of University)",
+      "official_course_url": "https://www.gniot.net.in/mca-course-details.php",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 93,
+          "career_node_slug": "mca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications) > MCA → Software Engineer",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "greater-noida-institute-of-technology-engineering-institute-gniot-btech-cse-data-science",
+      "name": "B.Tech - Computer Science & Engg. (Data Science)",
+      "level": "undergraduate",
+      "credential": "B.Tech degree",
+      "specialization": null,
+      "duration": "4 Years",
+      "mode": "full-time",
+      "eligibility": "10+2 with Physics Maths and Chemistry with 45% or 40% for SC/ST without grace",
+      "official_course_url": "https://www.gniot.net.in/courses.php",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 308,
+          "career_node_slug": "data_scientist",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science > Data Scientist",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "greater-noida-institute-of-technology-engineering-institute-gniot-btech-cse-artificial-intelligence",
+      "name": "B.Tech Computer Science & Engg. (Artificial Intelligence)",
+      "level": "undergraduate",
+      "credential": "B.Tech degree",
+      "specialization": null,
+      "duration": "4 Years",
+      "mode": "full-time",
+      "eligibility": "10+2 with Physics Maths and Chemistry with 45% or 40% for SC/ST without grace",
+      "official_course_url": "https://www.gniot.net.in/courses.php",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 81,
+          "career_node_slug": "btech_ai",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > AI & Machine Learning",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "greater-noida-institute-of-technology-engineering-institute-gniot-btech-cse-cyber-security",
+      "name": "B.Tech - Computer Science & Engg. (Cyber Security)",
+      "level": "undergraduate",
+      "credential": "B.Tech degree",
+      "specialization": null,
+      "duration": "4 Years",
+      "mode": "full-time",
+      "eligibility": "10+2 with Physics Maths and Chemistry with 45% or 40% for SC/ST without grace",
+      "official_course_url": "https://www.gniot.net.in/courses.php",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 309,
+          "career_node_slug": "cybersecurity_analyst",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science > Cybersecurity Analyst",
+          "relation": "closest_specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "greater-noida-institute-of-technology-engineering-institute-gniot-btech-ai-data-science",
+      "name": "B.Tech (Artificial Intelligence & Data Science)",
+      "level": "undergraduate",
+      "credential": "B.Tech degree",
+      "specialization": null,
+      "duration": "4 Years",
+      "mode": "full-time",
+      "eligibility": "10+2 with Physics Maths and Chemistry with 45% or 40% for SC/ST without grace",
+      "official_course_url": "https://www.gniot.net.in/courses.php",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 81,
+          "career_node_slug": "btech_ai",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > AI & Machine Learning",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        },
+        {
+          "career_node_id": 308,
+          "career_node_slug": "data_scientist",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science > Data Scientist",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "greater-noida-institute-of-technology-engineering-institute-gniot-integrated-bca-mca",
+      "name": "Integrated (BCA + MCA)*",
+      "level": "integrated undergraduate-postgraduate",
+      "credential": "Integrated BCA + MCA degree",
+      "specialization": null,
+      "duration": "5 Years",
+      "mode": "full-time",
+      "eligibility": "Passed 10+2 examination with Mathematics/ Statistics/ Accountancy as compulsory subjects. Obtained at least 45% marks (40% marks in case of candidates belonging to SC/ST category) in the above subjects taken together.",
+      "official_course_url": "https://www.gniotgroup.edu.in/mca-bca-college-campus-in-up-gr-noida.php",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "direct_component",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 93,
+          "career_node_slug": "mca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications) > MCA → Software Engineer",
+          "relation": "direct_component",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "greater-noida-institute-of-technology-engineering-institute-gniot-btech-lateral",
+      "name": "B.Tech Lateral",
+      "level": "undergraduate lateral-entry",
+      "credential": "B.Tech degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "not stated",
+      "eligibility": "Diploma In Engineering or B.Sc. with Maths with aggregate 45% or 40% for SC/ST. These seats are only for students who have passed qualifying examination from UP or UP Domicile",
+      "official_course_url": "https://www.gniot.net.in/btech-lateral-course-details.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest_parent",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "Government listing was verified in both supplied 2025 NIRF Engineering and Overall pages; each shows the exact institution name, Greater Noida, Uttar Pradesh.",
+    "Normal TLS verification returned the managed proxy error 'self signed certificate in certificate chain' for the expected NIRF and official hosts. After confirming the hostnames, public GET requests were retried with curl --insecure only; no credentials or private data were sent.",
+    "The target-specific official Courses Offered table is headed Greater Noida Institute of Technology (Engineering Institute), College Code 132, and lists 19 entries. The linked B.Tech Lateral detail page was also retained as an active programme page.",
+    "Manual review is required because official GNIOT pages are not catalogue-consistent: the B.Tech overview additionally names B.Tech (Computer Science & Engineering- Design) and omits several rows present in the target-specific table, while the M.Tech overview uses M.Tech (VLSI & Embedded System) instead of M.Tech (VLSI Design).",
+    "Standalone BCA and additional MBA variants appear on shared GNIOT group pages rather than in the target-specific College Code 132 table, so they were not imported as separate courses. The Foreign National Program was treated as an admissions route, not an academic programme.",
+    "The target-specific table lists no standalone diploma, certificate, or doctoral programme."
+  ]
+}

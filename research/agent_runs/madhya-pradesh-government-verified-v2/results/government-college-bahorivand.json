@@ -1,0 +1,100 @@
+{
+  "institution_id": "government-college-bahorivand",
+  "nirf_name": "GOVERNMENT COLLEGE, BAHORIVAND",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Katni",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://highereducation.mp.gov.in/?orgid=242",
+  "website_verification_status": "verified",
+  "description": "A Government of Madhya Pradesh college campus in Bahoriband, Katni; the official profile lists establishment year 2013.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact NIRF institution name GOVERNMENT COLLEGE, BAHORIVAND",
+        "City KATNI",
+        "State Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "official_mp_higher_education_directory",
+      "url": "https://highereducation.mp.gov.in/CollegeDisp/getTable",
+      "supports": [
+        "Official record orgid 242",
+        "Veerangana Rani Durgavati Govt College Bahoriband",
+        "District Katni"
+      ]
+    },
+    {
+      "type": "official_campus_homepage",
+      "url": "https://highereducation.mp.gov.in/?orgid=242",
+      "supports": [
+        "Campus identity and official profile header",
+        "Bahoriband and Katni campus naming",
+        "Department of Higher Education ownership"
+      ]
+    },
+    {
+      "type": "official_at_a_glance",
+      "url": "https://highereducation.mp.gov.in/?page=XLbCZJWL0LLmQ6HsrzNpcA%3D%3D&orgid=242",
+      "supports": [
+        "Establishment year 2013"
+      ]
+    },
+    {
+      "type": "official_regular_courses_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=n11rdFFR8SX552rDe5wrjg%3D%3D&orgid=242",
+      "supports": [
+        "Official PG, UG, and Diploma programme catalogue sections; no programme rows populated"
+      ]
+    },
+    {
+      "type": "official_distance_courses_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=nKA01mJXv1aS7XE9S94gWQ%3D%3D&orgid=242",
+      "supports": [
+        "Official distance PG, UG, and Diploma catalogue sections; no programme rows populated"
+      ]
+    },
+    {
+      "type": "official_prospectus_page",
+      "url": "https://highereducation.mp.gov.in/?page=noaH7bakcI8w5D4kNF8SIA%3D%3D&orgid=242",
+      "supports": [
+        "Official prospectus page; no programme entries populated"
+      ]
+    },
+    {
+      "type": "official_new_course_page",
+      "url": "https://highereducation.mp.gov.in/?page=TnqUuzr9wxmxRv48Jm4vaw%3D%3D&orgid=242",
+      "supports": [
+        "Official new-course page; no programme entries populated"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Government College, Bahorivand\" official website",
+      "result": "Search results were unrelated and were not used as verification evidence.",
+      "url": "https://www.bing.com/search?q=%22Government%20College%2C%20Bahorivand%22%20official%20website"
+    },
+    {
+      "query": "site:mp.gov.in Bahorivand college",
+      "result": "Search request returned HTTP 429 with no usable result; it was not used as verification evidence.",
+      "url": "https://www.google.com/search?q=site%3Amp.gov.in%20Bahorivand%20college"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [],
+  "agent_notes": [
+    "The NIRF 2025 government listing contains the exact assigned institution name, KATNI, and Madhya Pradesh.",
+    "The official MP Higher Education directory identifies orgid 242 as Veerangana Rani Durgavati Govt College Bahoriband in Katni. The official spelling is Bahoriband, while the NIRF record uses Bahorivand; the matching government college and Katni campus establish the identity.",
+    "The official Regular Courses page exposes PG, UG, and Diploma sections but all tables contain only headers. The Distance Education page is likewise empty, and the official Prospectus and New Course pages contain no programme entries. No programme was imported or mapped because no current programme name is explicitly listed.",
+    "Normal TLS verification first returned curl error 60 for the managed proxy certificate chain. curl --insecure was then used only for public GET requests to the confirmed NIRF, search, and highereducation.mp.gov.in hosts."
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "institution_id": "legacy-40",
+  "database_id": 40,
+  "name": "DIET",
+  "website": "https://ncert.nic.in",
+  "outcome": "manual_review",
+  "institution_type": null,
+  "source_url": null,
+  "confidence": null,
+  "evidence": null,
+  "notes": [
+    "The supplied official site identifies NCERT as an autonomous organisation and does not identify an institute named DIET, so the record cannot be confidently matched or classified.",
+    "The initial TLS request returned the exact self-signed certificate-chain error; public GET requests were retried with curl --insecure."
+  ]
+}

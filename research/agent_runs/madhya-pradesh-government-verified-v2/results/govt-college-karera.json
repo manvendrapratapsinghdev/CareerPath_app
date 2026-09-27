@@ -1,0 +1,138 @@
+{
+  "institution_id": "govt-college-karera",
+  "nirf_name": "GOVT. COLLEGE KARERA",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Shivpuri",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://highereducation.mp.gov.in/?orgid=441",
+  "website_verification_status": "verified",
+  "description": "Govt College, Karera is a government college campus in Karera, Shivpuri district, Madhya Pradesh; the official At A Glance page records establishment in 1983.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact listing: GOVT. COLLEGE KARERA, Karera, Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "official_college_directory",
+      "url": "https://highereducation.mp.gov.in/?page=3ReniKuyIMmDd4opO%2FkIdA%3D%3D",
+      "supports": [
+        "Official Madhya Pradesh Higher Education college website directory lists the Karera college entry"
+      ]
+    },
+    {
+      "type": "official_college_identity",
+      "url": "https://highereducation.mp.gov.in/CollegeDisp/getTable",
+      "supports": [
+        "orgid 441 is identified as Govt College, Karera in Shivpuri district"
+      ]
+    },
+    {
+      "type": "official_college_homepage",
+      "url": "https://highereducation.mp.gov.in/?orgid=441",
+      "supports": [
+        "Government-hosted official college microsite for orgid 441 with About Us, Academics, Regular Courses, and Prospectus navigation"
+      ]
+    },
+    {
+      "type": "official_campus_profile",
+      "url": "https://highereducation.mp.gov.in/?page=FbDyBmOENHMyhyUqDCiPww%3D%3D&orgid=441",
+      "supports": [
+        "Official At A Glance page records establishment year 1983"
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=dgpLRxT5ZIdJP2jBulCr5Q%3D%3D&orgid=441",
+      "supports": [
+        "Official Regular Courses page lists B. A. (Economics - Hindi - Political Science) with minimum qualification 10+2"
+      ]
+    },
+    {
+      "type": "official_distance_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=4ype%2BudEDp8SC2teMiBiPQ%3D%3D&orgid=441",
+      "supports": [
+        "Official Distance Education Programme page has empty PG, UG, and Diploma sections"
+      ]
+    },
+    {
+      "type": "official_prospectus_page",
+      "url": "https://highereducation.mp.gov.in/?page=QvsDKazDZQvnNpYNYV9Zbw%3D%3D&orgid=441",
+      "supports": [
+        "Official Prospectus page is present but contains no programme details"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"GOVT. COLLEGE KARERA\" official website",
+      "result": "Bing RSS returned general government and job portals but no institution website.",
+      "url": "https://www.bing.com/search?format=rss&q=%22Govt+College+Karera%22+official+website"
+    },
+    {
+      "query": "Govt College Karera MP",
+      "result": "Bing RSS returned general government and job portals but no institution website.",
+      "url": "https://www.bing.com/search?format=rss&q=Govt+College+Karera+MP"
+    },
+    {
+      "query": "Government College Karera Shivpuri official",
+      "result": "Bing RSS returned unrelated government portals and no institution website.",
+      "url": "https://www.bing.com/search?format=rss&q=Government+College+Karera+Shivpuri+official"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "govt-college-karera-ug-ba-economics-hindi-political-science",
+      "name": "B. A. (Economics - Hindi - Political Science)",
+      "level": "undergraduate",
+      "credential": "B. A.",
+      "specialization": "Economics - Hindi - Political Science",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=dgpLRxT5ZIdJP2jBulCr5Q%3D%3D&orgid=441",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "Normal TLS requests produced the documented self-signed proxy certificate-chain error; public GETs were retried with curl --insecure only for the expected public hosts.",
+    "The official Madhya Pradesh Higher Education directory maps orgid 441 to Govt College, Karera, Shivpuri, and the corresponding government-hosted college microsite was verified.",
+    "The Regular Courses page exposes PG, UG, and Diploma sections but contains only one UG row; the Distance Education and Prospectus pages are empty, and several profile pages are unfilled. The catalogue is therefore partial and additional active programmes cannot be safely ruled out."
+  ]
+}

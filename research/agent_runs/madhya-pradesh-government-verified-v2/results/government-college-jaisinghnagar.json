@@ -1,0 +1,78 @@
+{
+  "institution_id": "government-college-jaisinghnagar",
+  "nirf_name": "Government College Jaisinghnagar",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "remove_candidate",
+  "district": "Shahdol",
+  "district_verification_status": "pending_official_source",
+  "official_website": null,
+  "website_verification_status": "not_found",
+  "description": null,
+  "description_verification_status": "not_found",
+  "record_status": "remove_candidate",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact entry Government College Jaisinghnagar",
+        "City/district Shahdol",
+        "State Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "state_higher_education_directory",
+      "url": "https://highereducation.mp.gov.in/CollegeDisp/getTable",
+      "supports": [
+        "Official record orgid 418: Pandit Atal Bihari Vajpayee's Government College, Jaisinghnagar",
+        "District Shahdol",
+        "College code 1407"
+      ]
+    },
+    {
+      "type": "state_higher_education_college_lookup",
+      "url": "https://highereducation.mp.gov.in/CollegeDisp/GetCollege",
+      "supports": [
+        "Official Shahdol lookup lists the Jaisinghnagar campus under the current Hindi name and value 418"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Government College Jaisinghnagar\" Shahdol official website",
+      "result": "Search did not establish an institution-specific official domain; Google returned an anti-bot page.",
+      "url": "https://www.google.com/search?q=%22Government%20College%20Jaisinghnagar%22%20Shahdol%20official%20website"
+    },
+    {
+      "query": "\"Government College Jaisinghnagar\" website",
+      "result": "Search results did not establish an institution-specific official domain; visible results were unrelated general-government pages.",
+      "url": "https://www.bing.com/search?q=%22Government%20College%20Jaisinghnagar%22%20website"
+    },
+    {
+      "query": "\"Pandit Atal Bihari Vajpayee\" Jaisinghnagar college official",
+      "result": "Focused search did not establish an official institution homepage or catalogue.",
+      "url": "https://www.google.com/search?q=%22Pandit%20Atal%20Bihari%20Vajpayee%22%20Jaisinghnagar%20college%20official"
+    },
+    {
+      "query": "site:mp.gov.in \"Government College Jaisinghnagar\"",
+      "result": "Authoritative-domain search did not surface a standalone college website; the official MP Higher Education directory was checked independently.",
+      "url": "https://www.bing.com/search?q=site%3Amp.gov.in%20%22Government%20College%20Jaisinghnagar%22"
+    },
+    {
+      "query": "Madhya Pradesh Higher Education CollegeDisp lookup district 429 Jaisinghnagar",
+      "result": "Official directory lookup returned the Jaisinghnagar campus as Pandit Atal Bihari Vajpayee's Government College, value 418; no standalone college website or programme catalogue was exposed.",
+      "url": "https://highereducation.mp.gov.in/CollegeDisp/GetCollege"
+    }
+  ],
+  "course_catalogue_status": "not_found",
+  "courses": [],
+  "agent_notes": [
+    "The NIRF 2025 government listing contains the exact assigned institution and Shahdol, Madhya Pradesh.",
+    "The official Madhya Pradesh Higher Education directory independently identifies the same campus under its current name, Pandit Atal Bihari Vajpayee's Government College, Jaisinghnagar, orgid 418 and college code 1407.",
+    "No standalone official institution homepage or official programme/admissions catalogue was established after focused searches and the authoritative state-directory check; no courses were imported.",
+    "Normal TLS verification first produced the managed-proxy self-signed certificate-chain error. curl --insecure was then used only for public GET requests to expected official/search hosts."
+  ]
+}

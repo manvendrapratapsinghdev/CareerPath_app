@@ -1,0 +1,15 @@
+{
+  "institution_id": "legacy-335",
+  "database_id": 335,
+  "name": "LNJN National Institute of Criminology and Forensic Science",
+  "website": "https://www.nicfs.gov.in",
+  "outcome": "manual_review",
+  "institution_type": null,
+  "source_url": null,
+  "confidence": null,
+  "evidence": null,
+  "notes": [
+    "The supplied official domain could not be retrieved via command-line HTTPS because DNS returned SERVFAIL/REFUSED, so the institute identity and institutional type could not be verified from an official page.",
+    "The curl --insecure fallback was not used because the failure was DNS resolution, not a proxy certificate-chain error."
+  ]
+}

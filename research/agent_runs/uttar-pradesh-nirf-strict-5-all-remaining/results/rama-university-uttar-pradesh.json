@@ -1,0 +1,125 @@
+{
+  "institution_id": "rama-university-uttar-pradesh",
+  "nirf_name": "RAMA UNIVERSITY UTTAR PRADESH",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/AgricultureRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/DentalRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/EngineeringRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/LawRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/MedicalRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": null,
+  "district_verification_status": "pending_official_source",
+  "official_website": "https://www.ramauniversity.ac.in/",
+  "website_verification_status": "verified",
+  "description": "Rama University identifies its campus as being in Kanpur, Uttar Pradesh and presents academic areas including agriculture, medical, dental, pharmaceutical, engineering, law, management, mass communication, and nursing.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [
+    "blog.ramauniversity.ac.in"
+  ],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/AgricultureRankingALL.html",
+      "supports": [
+        "Exact institution name listed with Kanpur Nagar, Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/DentalRankingALL.html",
+      "supports": [
+        "Exact institution name listed with Kanpur Nagar, Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/EngineeringRankingALL.html",
+      "supports": [
+        "Exact institution name listed with Kanpur Nagar, Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/LawRankingALL.html",
+      "supports": [
+        "Exact institution name listed with Kanpur Nagar, Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html",
+      "supports": [
+        "Exact institution name listed with Kanpur Nagar, Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/MedicalRankingALL.html",
+      "supports": [
+        "Exact institution name listed with Kanpur Nagar, Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Exact institution name listed with Kanpur Nagar, Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "official_identity_and_campus",
+      "url": "https://blog.ramauniversity.ac.in/",
+      "supports": [
+        "Officially branded Rama University page",
+        "Identifies Rama University with Kanpur, Uttar Pradesh",
+        "Links to www.ramauniversity.ac.in"
+      ]
+    },
+    {
+      "type": "official_homepage_probe",
+      "url": "https://www.ramauniversity.ac.in/",
+      "supports": [
+        "Expected official homepage; current request returned HTTP 503 from Sucuri/Cloudproxy"
+      ]
+    },
+    {
+      "type": "official_catalogue_probe",
+      "url": "https://www.ramauniversity.ac.in/admissions/",
+      "supports": [
+        "Expected official admissions catalogue page; current request returned HTTP 503 from Sucuri/Cloudproxy"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "RAMA UNIVERSITY UTTAR PRADESH official website",
+      "result": "Bing surfaced https://www.ramauniversity.ac.in/ as the institution's official-domain result; discovery only, not used as content evidence.",
+      "url": "https://www.ramauniversity.ac.in/"
+    },
+    {
+      "query": "\"Rama University Uttar Pradesh\"",
+      "result": "Bing surfaced the same ramauniversity.ac.in official-domain result; discovery only, not used as content evidence.",
+      "url": "https://www.ramauniversity.ac.in/"
+    },
+    {
+      "query": "https://www.ramauniversity.ac.in/",
+      "result": "Direct command-line HTTPS probe returned HTTP 503 Service Unavailable from Sucuri/Cloudproxy.",
+      "url": "https://www.ramauniversity.ac.in/"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [],
+  "agent_notes": [
+    "The exact NIRF institution listing was established in all seven supplied 2025 government category pages.",
+    "The managed proxy produced the exact self-signed certificate-chain error; after confirming the expected hosts, curl --insecure was used only for public GET requests.",
+    "The main official homepage and admissions/catalogue paths returned HTTP 503, so a complete current programme catalogue, durations, and eligibility could not be verified.",
+    "The accessible official blog subdomain contains academic-area categories and promotional articles, not a complete official programme catalogue; no courses were imported.",
+    "The official blog labels the institution a private university, while INSTITUTION_CONTEXT specifies state_university; this classification discrepancy requires manual review.",
+    "The exact district remains pending official-site confirmation because the accessible official page states Kanpur, Uttar Pradesh but does not explicitly state Kanpur Nagar."
+  ]
+}

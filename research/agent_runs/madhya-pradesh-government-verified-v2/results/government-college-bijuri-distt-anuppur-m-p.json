@@ -1,0 +1,108 @@
+{
+  "institution_id": "government-college-bijuri-distt-anuppur-m-p",
+  "nirf_name": "GOVERNMENT COLLEGE BIJURI, DISTT. ANUPPUR M.P.",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Anuppur",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://highereducation.mp.gov.in/?orgid=22",
+  "website_verification_status": "verified",
+  "description": "Government College, Bijuri is a government college campus in Bijuri, Anuppur district, Madhya Pradesh, identified in the Madhya Pradesh Higher Education Department directory.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact institution name, city BIJURI, and state Madhya Pradesh are listed."
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://highereducation.mp.gov.in/?orgid=22",
+      "supports": [
+        "College-specific official page route orgid=22.",
+        "Official navigation exposes the institution's About Us and Academics sections."
+      ]
+    },
+    {
+      "type": "official_identity_directory",
+      "url": "https://highereducation.mp.gov.in/CollegeDisp/getTable",
+      "supports": [
+        "orgid 22 maps to Govt College, Bijuri.",
+        "College code 1414 and district Anuppur are provided."
+      ]
+    },
+    {
+      "type": "official_campus_page",
+      "url": "https://highereducation.mp.gov.in/?page=U2wmz1QGxeTJhGjIV1Xoag%3D%3D&orgid=22",
+      "supports": [
+        "College-specific official At A Glance page."
+      ]
+    },
+    {
+      "type": "official_catalogue_regular",
+      "url": "https://highereducation.mp.gov.in/?page=MyQ2I9CAwtKX65qk1e2N5w%3D%3D&orgid=22",
+      "supports": [
+        "Official Programmes Offered page with PG, UG, and Diploma sections; no programme rows are populated."
+      ]
+    },
+    {
+      "type": "official_catalogue_distance",
+      "url": "https://highereducation.mp.gov.in/?page=c7fdSJIuS0dIAoZq883PSQ%3D%3D&orgid=22",
+      "supports": [
+        "Official Distance Education Programme page with PG, UG, and Diploma sections; no programme rows are populated."
+      ]
+    },
+    {
+      "type": "official_departments",
+      "url": "https://highereducation.mp.gov.in/?page=JStMaX1KhxgHTdnJ1m%2BVJg%3D%3D&orgid=22",
+      "supports": [
+        "Official Departments page; no department records are populated."
+      ]
+    },
+    {
+      "type": "official_prospectus",
+      "url": "https://highereducation.mp.gov.in/?page=OCoz9jECQPtDHvFArlDsbg%3D%3D&orgid=22",
+      "supports": [
+        "Official Prospectus page; no prospectus or programme records are published."
+      ]
+    },
+    {
+      "type": "official_new_course_page",
+      "url": "https://highereducation.mp.gov.in/?page=0POMVM88Aa7TmOsjPbal5Q%3D%3D&orgid=22",
+      "supports": [
+        "Official New Course Started page; no course records are published."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "Government College Bijuri Anuppur Madhya Pradesh official",
+      "result": "Bing returned generic government portals and no institution-specific official website.",
+      "url": "https://www.bing.com/search?format=rss&q=Government%20College%20Bijuri%20Anuppur%20Madhya%20Pradesh%20official"
+    },
+    {
+      "query": "Government College Bijuri MP official website",
+      "result": "Bing returned generic government portals and no institution-specific official website.",
+      "url": "https://www.bing.com/search?format=rss&q=Government%20College%20Bijuri%20MP%20official%20website"
+    },
+    {
+      "query": "site:mp.gov.in Bijuri college Anuppur",
+      "result": "Bing returned the official Anuppur district portal and unrelated results; the institution-specific page was discovered through the official Madhya Pradesh Higher Education college directory.",
+      "url": "https://www.bing.com/search?format=rss&q=site%3Amp.gov.in%20Bijuri%20college%20Anuppur"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [],
+  "agent_notes": [
+    "The NIRF government listing contains the exact institution name, BIJURI city, and Madhya Pradesh state.",
+    "Normal TLS verification returned the managed-proxy self-signed certificate-chain error; curl --insecure was used only for confirmed public government/search hosts.",
+    "The official college-specific Regular Courses and Distance Education pages expose PG, UG, and Diploma headings but contain no programme names, durations, or eligibility values. Departments, Prospectus, and New Course Started pages are also unpopulated.",
+    "No course names were imported or mapped because the official catalogue is incomplete; manual review is required."
+  ]
+}

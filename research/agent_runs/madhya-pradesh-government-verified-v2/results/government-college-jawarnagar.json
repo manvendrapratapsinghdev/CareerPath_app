@@ -1,0 +1,81 @@
+{
+  "institution_id": "government-college-jawarnagar",
+  "nirf_name": "Government College, Jawarnagar",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": null,
+  "district_verification_status": "pending_official_source",
+  "official_website": "https://highereducation.mp.gov.in/?orgid",
+  "website_verification_status": "ambiguous",
+  "description": null,
+  "description_verification_status": "pending",
+  "record_status": "manual_review",
+  "allowed_official_domains": [
+    "epravesh.highereducation.mp.gov.in"
+  ],
+  "verification_sources": [
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact row: Government College, Jawarnagar | Jawar | Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "official_state_college_detail",
+      "url": "https://epravesh.highereducation.mp.gov.in/EBrochure_College_Details.aspx?cm_id=IxoddJR5ONs%3d",
+      "supports": [
+        "Official MP e-Pravesh record identifies Govt College, Jawarnagar, district Sehore, taluka Jawar, and the campus address",
+        "The listed website is the generic or malformed URL https://highereducation.mp.gov.in/?orgid"
+      ]
+    },
+    {
+      "type": "official_state_admissions_catalogue",
+      "url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "supports": [
+        "Official admissions catalogue lists the exact college and B. A. and B. Sc. programme families",
+        "The catalogue is a state admissions portal rather than the institution's actual official website"
+      ]
+    },
+    {
+      "type": "official_department_homepage",
+      "url": "https://highereducation.mp.gov.in/",
+      "supports": [
+        "Official Madhya Pradesh Higher Education Department domain corresponding to the candidate website"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Government College, Jawarnagar\"",
+      "result": "No institution-specific official homepage was returned; results were generic government pages.",
+      "url": null
+    },
+    {
+      "query": "Government College Jawarnagar Jawar Madhya Pradesh official website",
+      "result": "No institution-specific official homepage was returned; results were generic government pages.",
+      "url": null
+    },
+    {
+      "query": "site:mp.gov.in \"Government College, Jawarnagar\"",
+      "result": "No exact official-domain institution homepage was returned.",
+      "url": null
+    },
+    {
+      "query": "Official MP e-Pravesh college brochure lookup for Govt College, Jawarnagar",
+      "result": "The official state admissions portal returned the exact college record, but its website field points to a generic or malformed Higher Education Department URL.",
+      "url": "https://epravesh.highereducation.mp.gov.in/EBrochure_College_Details.aspx?cm_id=IxoddJR5ONs%3d"
+    }
+  ],
+  "course_catalogue_status": "not_found",
+  "courses": [],
+  "agent_notes": [
+    "The NIRF government listing contains the exact assigned institution and city/state row.",
+    "The official MP e-Pravesh record independently confirms the Jawarnagar campus identity, Sehore district, Jawar taluka, and campus address.",
+    "The e-Pravesh catalogue exposes B. A. and B. Sc. with active branches, but it is a state admissions portal and not the institution's actual official website; these programmes were not imported under the source restriction.",
+    "The candidate website https://highereducation.mp.gov.in/?orgid is generic or malformed and does not resolve to an institution-specific homepage or catalogue, so manual review is required.",
+    "Normal TLS verification produced the managed proxy self-signed certificate-chain error; curl --insecure was used only for confirmed public government/search hostnames."
+  ]
+}

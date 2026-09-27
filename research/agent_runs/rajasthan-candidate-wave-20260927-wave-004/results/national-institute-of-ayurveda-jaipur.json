@@ -1,0 +1,938 @@
+{
+  "institution_id": "national-institute-of-ayurveda-jaipur",
+  "nirf_name": "National Institute of Ayurveda, Jaipur",
+  "verification_outcome": "manual_review",
+  "district": "Jaipur",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://nia.nic.in/",
+  "website_verification_status": "verified",
+  "description": "National Institute of Ayurveda is a Deemed to be University (De novo) under the Ministry of Ayush, Government of India, located at Madhav Vilas Palace, Amer Road, Jaipur, Rajasthan.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [
+    "niagoldenjubilee.com"
+  ],
+  "verification_sources": [
+    {
+      "type": "official_homepage",
+      "url": "https://nia.nic.in/",
+      "supports": [
+        "official identity",
+        "official website",
+        "academic programme overview",
+        "current B. Pharm. (Ayu) and M.Sc. admission notices"
+      ]
+    },
+    {
+      "type": "official_header",
+      "url": "https://nia.nic.in/header.html",
+      "supports": [
+        "official identity",
+        "Ministry of Ayush affiliation",
+        "course catalogue links"
+      ]
+    },
+    {
+      "type": "official_contact_page",
+      "url": "https://nia.nic.in/page.html?id=88",
+      "supports": [
+        "Jaipur campus identity",
+        "district",
+        "Rajasthan address"
+      ]
+    },
+    {
+      "type": "official_footer",
+      "url": "https://nia.nic.in/footer.html",
+      "supports": [
+        "Jaipur campus identity",
+        "Madhav Vilas Palace, Amer Road address",
+        "district"
+      ]
+    },
+    {
+      "type": "official_catalogue_index",
+      "url": "https://nia.nic.in/page.html?id=102",
+      "supports": [
+        "official Courses Offered index",
+        "catalogue completeness gap"
+      ]
+    },
+    {
+      "type": "official_prospectus_index",
+      "url": "https://nia.nic.in/page.html?id=97",
+      "supports": [
+        "official prospectus index",
+        "dated catalogue material"
+      ]
+    },
+    {
+      "type": "official_course_page",
+      "url": "https://nia.nic.in/dep.html?id=64",
+      "supports": [
+        "BAMS programme",
+        "BAMS duration",
+        "BAMS eligibility"
+      ]
+    },
+    {
+      "type": "official_course_page",
+      "url": "https://nia.nic.in/dep.html?id=65",
+      "supports": [
+        "MD/MS Ayurveda programme family",
+        "14 postgraduate subjects",
+        "duration"
+      ]
+    },
+    {
+      "type": "official_course_page",
+      "url": "https://nia.nic.in/dep.html?id=66",
+      "supports": [
+        "six M.Sc. interdisciplinary programme names"
+      ]
+    },
+    {
+      "type": "official_course_page",
+      "url": "https://nia.nic.in/dep.html?id=67",
+      "supports": [
+        "Ph.D. Ayurveda programme family",
+        "doctoral/fellowship information"
+      ]
+    },
+    {
+      "type": "official_course_page",
+      "url": "https://nia.nic.in/dep.html?id=68",
+      "supports": [
+        "DAN&P diploma programme",
+        "duration",
+        "12th-standard qualifying basis"
+      ]
+    },
+    {
+      "type": "official_course_page",
+      "url": "https://nia.nic.in/page.html?id=36",
+      "supports": [
+        "Ayurveda beauty-care certificate course"
+      ]
+    },
+    {
+      "type": "official_course_page",
+      "url": "https://nia.nic.in/page.html?id=37",
+      "supports": [
+        "Panchakarma certificate and technician courses",
+        "durations"
+      ]
+    },
+    {
+      "type": "official_course_page",
+      "url": "https://nia.nic.in/page.html?id=38",
+      "supports": [
+        "standardization of Ayurvedic medicinal plant material certificate course"
+      ]
+    },
+    {
+      "type": "official_course_page",
+      "url": "https://nia.nic.in/page.html?id=39",
+      "supports": [
+        "Kshara Sutra certificate course",
+        "duration",
+        "eligibility"
+      ]
+    },
+    {
+      "type": "official_course_page",
+      "url": "https://nia.nic.in/page.html?id=40",
+      "supports": [
+        "foreign-student short-term certificate course family",
+        "duration options",
+        "eligibility language requirement"
+      ]
+    },
+    {
+      "type": "official_catalogue_backend",
+      "url": "https://niagoldenjubilee.com/api/getdeptdata.php?id=64",
+      "supports": [
+        "dynamic BAMS catalogue content"
+      ]
+    },
+    {
+      "type": "official_catalogue_backend",
+      "url": "https://niagoldenjubilee.com/api/getdeptdata.php?id=65",
+      "supports": [
+        "dynamic MD/MS catalogue content"
+      ]
+    },
+    {
+      "type": "official_catalogue_backend",
+      "url": "https://niagoldenjubilee.com/api/getdeptdata.php?id=66",
+      "supports": [
+        "dynamic M.Sc. catalogue content"
+      ]
+    },
+    {
+      "type": "official_catalogue_backend",
+      "url": "https://niagoldenjubilee.com/api/getdeptdata.php?id=67",
+      "supports": [
+        "dynamic Ph.D. catalogue content"
+      ]
+    },
+    {
+      "type": "official_catalogue_backend",
+      "url": "https://niagoldenjubilee.com/api/getdeptdata.php?id=68",
+      "supports": [
+        "dynamic DAN&P catalogue content"
+      ]
+    },
+    {
+      "type": "official_catalogue_backend",
+      "url": "https://niagoldenjubilee.com/api/getpagedata.php?id=36",
+      "supports": [
+        "dynamic Ayurveda beauty-care course content"
+      ]
+    },
+    {
+      "type": "official_catalogue_backend",
+      "url": "https://niagoldenjubilee.com/api/getpagedata.php?id=37",
+      "supports": [
+        "dynamic Panchakarma course content"
+      ]
+    },
+    {
+      "type": "official_catalogue_backend",
+      "url": "https://niagoldenjubilee.com/api/getpagedata.php?id=38",
+      "supports": [
+        "dynamic medicinal-plant certificate course content"
+      ]
+    },
+    {
+      "type": "official_catalogue_backend",
+      "url": "https://niagoldenjubilee.com/api/getpagedata.php?id=39",
+      "supports": [
+        "dynamic Kshara Sutra course content"
+      ]
+    },
+    {
+      "type": "official_catalogue_backend",
+      "url": "https://niagoldenjubilee.com/api/getpagedata.php?id=40",
+      "supports": [
+        "dynamic foreign-student course content"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "National Institute of Ayurveda Jaipur official website",
+      "result": "Google search reached the expected search domain but normal TLS failed with the managed proxy certificate-chain error; direct validation established https://nia.nic.in/.",
+      "url": "https://www.google.com/search?q=National+Institute+of+Ayurveda+Jaipur+official+website"
+    },
+    {
+      "query": "\"National Institute of Ayurveda\" Jaipur official",
+      "result": "Bing search was inconclusive; direct validation of the official homepage established https://nia.nic.in/.",
+      "url": "https://www.bing.com/search?q=%22National+Institute+of+Ayurveda%22+Jaipur+official"
+    },
+    {
+      "query": "site:nia.nic.in National Institute Ayurveda Jaipur courses",
+      "result": "Bing search was inconclusive; direct validation of the official homepage and its course links established https://nia.nic.in/.",
+      "url": "https://www.bing.com/search?q=site%3Ania.nic.in+National+Institute+Ayurveda+Jaipur+courses"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "national-institute-of-ayurveda-jaipur-bams",
+      "name": "BAMS",
+      "level": "undergraduate",
+      "credential": "Bachelor of Ayurvedic Medicine and Surgery",
+      "specialization": null,
+      "duration": "5½ years",
+      "mode": "not stated",
+      "eligibility": "10+2 or equivalent with Physics, Chemistry, and Biology/Biotechnology; NEET-UG qualification; minimum age 17 years by 31 December of the admission year; AACCC counselling participation.",
+      "official_course_url": "https://nia.nic.in/dep.html?id=64",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 17,
+          "career_node_slug": "bams",
+          "career_breadcrumb": "Biology / PCB > BAMS (Ayurveda)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "national-institute-of-ayurveda-jaipur-mdms-agad-tantra",
+      "name": "Agad Tantra",
+      "level": "postgraduate",
+      "credential": "MD/MS Ayurveda",
+      "specialization": "Medical Jurisprudence & Toxicology",
+      "duration": "3 Years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://nia.nic.in/dep.html?id=65",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 137,
+          "career_node_slug": "ayurveda_doctor",
+          "career_breadcrumb": "Biology / PCB > BAMS (Ayurveda) > Ayurveda Practitioner",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "national-institute-of-ayurveda-jaipur-mdms-bala-roga",
+      "name": "Bala Roga",
+      "level": "postgraduate",
+      "credential": "MD/MS Ayurveda",
+      "specialization": "Pediatrics",
+      "duration": "3 Years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://nia.nic.in/dep.html?id=65",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 130,
+          "career_node_slug": "md_paediatrics",
+          "career_breadcrumb": "Biology / PCB > MBBS > MD Paediatrics",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "national-institute-of-ayurveda-jaipur-mdms-dravya-guna",
+      "name": "Dravya Guna",
+      "level": "postgraduate",
+      "credential": "MD/MS Ayurveda",
+      "specialization": "Materia Medica & Pharmacology",
+      "duration": "3 Years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://nia.nic.in/dep.html?id=65",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 144,
+          "career_node_slug": "pharma_researcher",
+          "career_breadcrumb": "Biology / PCB > Medical Updated > Pharmaceutical Researcher",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "national-institute-of-ayurveda-jaipur-mdms-kayachikitsa",
+      "name": "Kayachikitsa",
+      "level": "postgraduate",
+      "credential": "MD/MS Ayurveda",
+      "specialization": "Internal Medicine",
+      "duration": "3 Years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://nia.nic.in/dep.html?id=65",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 128,
+          "career_node_slug": "md_general",
+          "career_breadcrumb": "Biology / PCB > MBBS > MD General Medicine",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "national-institute-of-ayurveda-jaipur-mdms-maulik-siddhanta",
+      "name": "Maulik Siddhanta",
+      "level": "postgraduate",
+      "credential": "MD/MS Ayurveda",
+      "specialization": "Fundamental Principles",
+      "duration": "3 Years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://nia.nic.in/dep.html?id=65",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 138,
+          "career_node_slug": "ayurveda_researcher",
+          "career_breadcrumb": "Biology / PCB > BAMS (Ayurveda) > Ayurveda Researcher",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "national-institute-of-ayurveda-jaipur-mdms-panchakarma",
+      "name": "Panchakarma",
+      "level": "postgraduate",
+      "credential": "MD/MS Ayurveda",
+      "specialization": "Penta Bio-Purification Methods",
+      "duration": "3 Years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://nia.nic.in/dep.html?id=65",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 137,
+          "career_node_slug": "ayurveda_doctor",
+          "career_breadcrumb": "Biology / PCB > BAMS (Ayurveda) > Ayurveda Practitioner",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "national-institute-of-ayurveda-jaipur-mdms-prasuti-stri-roga",
+      "name": "Prasuti Stri Roga",
+      "level": "postgraduate",
+      "credential": "MD/MS Ayurveda",
+      "specialization": "Gynaecology & Obstetrics",
+      "duration": "3 Years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://nia.nic.in/dep.html?id=65",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 137,
+          "career_node_slug": "ayurveda_doctor",
+          "career_breadcrumb": "Biology / PCB > BAMS (Ayurveda) > Ayurveda Practitioner",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "national-institute-of-ayurveda-jaipur-mdms-roga-vikrit-vigyan",
+      "name": "Roga & Vikrit Vigyan",
+      "level": "postgraduate",
+      "credential": "MD/MS Ayurveda",
+      "specialization": "Clinical Medicine & Pathology",
+      "duration": "3 Years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://nia.nic.in/dep.html?id=65",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 128,
+          "career_node_slug": "md_general",
+          "career_breadcrumb": "Biology / PCB > MBBS > MD General Medicine",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "national-institute-of-ayurveda-jaipur-mdms-rasa-shastra-bhaishajya-kalpana",
+      "name": "Rasa Shastra & Bhaishajya Kalpana",
+      "level": "postgraduate",
+      "credential": "MD/MS Ayurveda",
+      "specialization": "Iatro-Chemistry (Rasa Chikitsa)",
+      "duration": "3 Years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://nia.nic.in/dep.html?id=65",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 144,
+          "career_node_slug": "pharma_researcher",
+          "career_breadcrumb": "Biology / PCB > Medical Updated > Pharmaceutical Researcher",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "national-institute-of-ayurveda-jaipur-mdms-sharir-rachana",
+      "name": "Sharir Rachana",
+      "level": "postgraduate",
+      "credential": "MD/MS Ayurveda",
+      "specialization": "Anatomy",
+      "duration": "3 Years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://nia.nic.in/dep.html?id=65",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 138,
+          "career_node_slug": "ayurveda_researcher",
+          "career_breadcrumb": "Biology / PCB > BAMS (Ayurveda) > Ayurveda Researcher",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "national-institute-of-ayurveda-jaipur-mdms-sharir-kriya",
+      "name": "Sharir Kriya",
+      "level": "postgraduate",
+      "credential": "MD/MS Ayurveda",
+      "specialization": "Physiology",
+      "duration": "3 Years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://nia.nic.in/dep.html?id=65",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 138,
+          "career_node_slug": "ayurveda_researcher",
+          "career_breadcrumb": "Biology / PCB > BAMS (Ayurveda) > Ayurveda Researcher",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "national-institute-of-ayurveda-jaipur-mdms-shalya-tantra",
+      "name": "Shalya Tantra",
+      "level": "postgraduate",
+      "credential": "MD/MS Ayurveda",
+      "specialization": "Surgery",
+      "duration": "3 Years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://nia.nic.in/dep.html?id=65",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 129,
+          "career_node_slug": "ms_surgery",
+          "career_breadcrumb": "Biology / PCB > MBBS > MS Surgery",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "national-institute-of-ayurveda-jaipur-mdms-shalakya-tantra",
+      "name": "Shalakya Tantra",
+      "level": "postgraduate",
+      "credential": "MD/MS Ayurveda",
+      "specialization": "ENT & Eye",
+      "duration": "3 Years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://nia.nic.in/dep.html?id=65",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 137,
+          "career_node_slug": "ayurveda_doctor",
+          "career_breadcrumb": "Biology / PCB > BAMS (Ayurveda) > Ayurveda Practitioner",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "national-institute-of-ayurveda-jaipur-mdms-swastha-vritta",
+      "name": "Swastha Vritta",
+      "level": "postgraduate",
+      "credential": "MD/MS Ayurveda",
+      "specialization": "Preventive & Social Medicine",
+      "duration": "3 Years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://nia.nic.in/dep.html?id=65",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 137,
+          "career_node_slug": "ayurveda_doctor",
+          "career_breadcrumb": "Biology / PCB > BAMS (Ayurveda) > Ayurveda Practitioner",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "national-institute-of-ayurveda-jaipur-phd-ayurveda",
+      "name": "Ph.D. Ayurveda",
+      "level": "doctoral",
+      "credential": "Ph.D. Ayurveda",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://nia.nic.in/dep.html?id=67",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 138,
+          "career_node_slug": "ayurveda_researcher",
+          "career_breadcrumb": "Biology / PCB > BAMS (Ayurveda) > Ayurveda Researcher",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "national-institute-of-ayurveda-jaipur-msc-ayurveda-diet-nutrition",
+      "name": "M.Sc. (Ayurveda Diet and Nutrition)",
+      "level": "postgraduate",
+      "credential": "M.Sc.",
+      "specialization": "Ayurveda Diet and Nutrition",
+      "duration": "2 Years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://nia.nic.in/dep.html?id=66",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 138,
+          "career_node_slug": "ayurveda_researcher",
+          "career_breadcrumb": "Biology / PCB > BAMS (Ayurveda) > Ayurveda Researcher",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "national-institute-of-ayurveda-jaipur-msc-ayurveda-manuscriptology",
+      "name": "M.Sc. (Ayurveda Manuscriptology)",
+      "level": "postgraduate",
+      "credential": "M.Sc.",
+      "specialization": "Ayurveda Manuscriptology",
+      "duration": "2 Years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://nia.nic.in/dep.html?id=66",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 138,
+          "career_node_slug": "ayurveda_researcher",
+          "career_breadcrumb": "Biology / PCB > BAMS (Ayurveda) > Ayurveda Researcher",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "national-institute-of-ayurveda-jaipur-msc-ayur-yoga-preventive-cardiology",
+      "name": "M.Sc. (Ayur-Yoga Preventive Cardiology)",
+      "level": "postgraduate",
+      "credential": "M.Sc.",
+      "specialization": "Ayur-Yoga Preventive Cardiology",
+      "duration": "2 Years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://nia.nic.in/dep.html?id=66",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 137,
+          "career_node_slug": "ayurveda_doctor",
+          "career_breadcrumb": "Biology / PCB > BAMS (Ayurveda) > Ayurveda Practitioner",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "national-institute-of-ayurveda-jaipur-msc-marmalogy-sports-medicine",
+      "name": "M.Sc. in (Marmalogy and Sports Medicine)",
+      "level": "postgraduate",
+      "credential": "M.Sc.",
+      "specialization": "Marmalogy and Sports Medicine",
+      "duration": "2 Years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://nia.nic.in/dep.html?id=66",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 152,
+          "career_node_slug": "sports_physio",
+          "career_breadcrumb": "Biology / PCB > BPT (Physiotherapy) > Sports Physiotherapist",
+          "relation": "closest_specialization",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "national-institute-of-ayurveda-jaipur-msc-saundarya-ayurveda",
+      "name": "M.Sc. (Saundarya Ayurveda)",
+      "level": "postgraduate",
+      "credential": "M.Sc.",
+      "specialization": "Saundarya Ayurveda",
+      "duration": "2 Years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://nia.nic.in/dep.html?id=66",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 137,
+          "career_node_slug": "ayurveda_doctor",
+          "career_breadcrumb": "Biology / PCB > BAMS (Ayurveda) > Ayurveda Practitioner",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "national-institute-of-ayurveda-jaipur-msc-vrikshayurveda",
+      "name": "M.Sc. (Vrikshayurveda)",
+      "level": "postgraduate",
+      "credential": "M.Sc.",
+      "specialization": "Vrikshayurveda",
+      "duration": "2 Years",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://nia.nic.in/dep.html?id=66",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 138,
+          "career_node_slug": "ayurveda_researcher",
+          "career_breadcrumb": "Biology / PCB > BAMS (Ayurveda) > Ayurveda Researcher",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "national-institute-of-ayurveda-jaipur-danp",
+      "name": "Diploma Course in AYUSH Nursing and Pharmacy",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": "AYUSH Nursing and Pharmacy",
+      "duration": "2½ Years including 6 months Internship",
+      "mode": "not stated",
+      "eligibility": "Candidates are allotted by the University on the basis of marks obtained in the qualifying examination of 12th Standard.",
+      "official_course_url": "https://nia.nic.in/dep.html?id=68",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 19,
+          "career_node_slug": "bsc_nursing",
+          "career_breadcrumb": "Biology / PCB > B.Sc Nursing",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 143,
+          "career_node_slug": "pharmacist",
+          "career_breadcrumb": "Biology / PCB > Medical Updated > Clinical Pharmacist",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "national-institute-of-ayurveda-jaipur-bpharm-ayu",
+      "name": "B. Pharm. (Ayu)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Pharmacy (Ayurveda)",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://nia.nic.in/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "national-institute-of-ayurveda-jaipur-beauty-care-ayurveda",
+      "name": "Certificate Course on ‘Training for Beauty care in Ayurveda’",
+      "level": "certificate",
+      "credential": "Certificate",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://nia.nic.in/page.html?id=36",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 137,
+          "career_node_slug": "ayurveda_doctor",
+          "career_breadcrumb": "Biology / PCB > BAMS (Ayurveda) > Ayurveda Practitioner",
+          "relation": "closest_specialization",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "national-institute-of-ayurveda-jaipur-panchakarma-certificate",
+      "name": "45 days Panchakarma Certificate Course",
+      "level": "certificate",
+      "credential": "Certificate",
+      "specialization": "Panchakarma",
+      "duration": "45 days",
+      "mode": "short-term",
+      "eligibility": null,
+      "official_course_url": "https://nia.nic.in/page.html?id=37",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 137,
+          "career_node_slug": "ayurveda_doctor",
+          "career_breadcrumb": "Biology / PCB > BAMS (Ayurveda) > Ayurveda Practitioner",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "national-institute-of-ayurveda-jaipur-panchakarma-technician",
+      "name": "Panchakarma Technician Course",
+      "level": "short-term",
+      "credential": "Course",
+      "specialization": "Panchakarma",
+      "duration": "1 year",
+      "mode": "short-term",
+      "eligibility": null,
+      "official_course_url": "https://nia.nic.in/page.html?id=37",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest_parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "national-institute-of-ayurveda-jaipur-medicinal-plant-standardization",
+      "name": "Certificate Course on Standardization of Ayurvedic Medicinal Plant Material",
+      "level": "certificate",
+      "credential": "Certificate",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://nia.nic.in/page.html?id=38",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 144,
+          "career_node_slug": "pharma_researcher",
+          "career_breadcrumb": "Biology / PCB > Medical Updated > Pharmaceutical Researcher",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "national-institute-of-ayurveda-jaipur-kshara-sutra-certificate",
+      "name": "45 days Kshara Sutra Certificate Course",
+      "level": "certificate",
+      "credential": "Certificate",
+      "specialization": "Kshara Sutra",
+      "duration": "45 days",
+      "mode": "short-term",
+      "eligibility": "For Ayurvedic graduates, practitioners, medical officers, Ayurvedic college teachers, and researchers.",
+      "official_course_url": "https://nia.nic.in/page.html?id=39",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 137,
+          "career_node_slug": "ayurveda_doctor",
+          "career_breadcrumb": "Biology / PCB > BAMS (Ayurveda) > Ayurveda Practitioner",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "national-institute-of-ayurveda-jaipur-foreign-student-short-term",
+      "name": "Short Term Courses for Foreign Students",
+      "level": "certificate",
+      "credential": "Certificate",
+      "specialization": null,
+      "duration": "1 week (25 hrs), 2 weeks (50 hrs), 1 month (100 hrs), or 3 months (250 hrs)",
+      "mode": "short-term",
+      "eligibility": "For foreign nationals of medical and non-medical backgrounds; functional knowledge of English is required, or the candidate must bring an interpreter at their own cost.",
+      "official_course_url": "https://nia.nic.in/page.html?id=40",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [],
+      "mapping_gap": "Broad, demand-based certificate modules span multiple Ayurveda topics and no single responsible career node exists."
+    }
+  ],
+  "agent_notes": [
+    "Normal TLS was attempted first. The managed proxy returned the exact error 'self signed certificate in certificate chain'; curl --insecure was then used only for public GET requests to the expected search, official homepage, and linked official backend hosts.",
+    "The official site exposes a distributed catalogue through the Academics > Courses links and dynamic course pages. Its central Courses Offered page (page.html?id=102) has no programme content, the linked 2026-27 B. Pharm. (Ayu) and M.Sc. portals are Cloudflare-blocked to this command-line worker, and several certificate pages contain legacy reported-year wording. Therefore the catalogue cannot be treated as complete/current without manual review.",
+    "The official homepage has an unlinked generic Certificate Courses card without a programme title or details; named certificate and short-term courses from the official course pages were included instead of inventing a separate programme.",
+    "The B. Pharm. (Ayu) mapping uses the local bpharm node whose exact slug is bpharm but whose stored node name is Medical Updated; this is marked as a career-tree label issue.",
+    "The career_path.db was queried read-only; no database edits were made."
+  ]
+}

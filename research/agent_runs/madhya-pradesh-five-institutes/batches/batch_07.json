@@ -1,0 +1,91 @@
+{
+  "batch": 7,
+  "started_at": "2026-09-27T07:10:14.731243+00:00",
+  "finished_at": "2026-09-27T07:10:24.771013+00:00",
+  "assignment_count": 5,
+  "completed_count": 0,
+  "skipped_count": 0,
+  "failed_count": 5,
+  "results": [
+    {
+      "institution_id": "mandsaur-university",
+      "nirf_name": "Mandsaur University",
+      "status": "failed",
+      "started_at": "2026-09-27T07:10:14.744382+00:00",
+      "finished_at": "2026-09-27T07:10:23.971155+00:00",
+      "duration_seconds": 9.226,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/mandsaur-university.jsonl"
+    },
+    {
+      "institution_id": "mangalayatan-university-jabalpur",
+      "nirf_name": "MANGALAYATAN UNIVERSITY, JABALPUR",
+      "status": "failed",
+      "started_at": "2026-09-27T07:10:14.744315+00:00",
+      "finished_at": "2026-09-27T07:10:24.649729+00:00",
+      "duration_seconds": 9.904,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/mangalayatan-university-jabalpur.jsonl"
+    },
+    {
+      "institution_id": "mansarovar-global-university",
+      "nirf_name": "Mansarovar Global University",
+      "status": "failed",
+      "started_at": "2026-09-27T07:10:14.755728+00:00",
+      "finished_at": "2026-09-27T07:10:24.746410+00:00",
+      "duration_seconds": 9.99,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/mansarovar-global-university.jsonl"
+    },
+    {
+      "institution_id": "nanaji-deshmukh-veterinary-science-university",
+      "nirf_name": "Nanaji Deshmukh Veterinary Science University",
+      "status": "failed",
+      "started_at": "2026-09-27T07:10:14.744351+00:00",
+      "finished_at": "2026-09-27T07:10:24.751990+00:00",
+      "duration_seconds": 10.008,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/nanaji-deshmukh-veterinary-science-university.jsonl"
+    },
+    {
+      "institution_id": "rabindranath-tagore-university",
+      "nirf_name": "Rabindranath Tagore University",
+      "status": "failed",
+      "started_at": "2026-09-27T07:10:14.755495+00:00",
+      "finished_at": "2026-09-27T07:10:24.749765+00:00",
+      "duration_seconds": 9.994,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/rabindranath-tagore-university.jsonl"
+    }
+  ]
+}

@@ -1,0 +1,363 @@
+{
+  "institution_id": "r-r-college-alwar",
+  "nirf_name": "R.R. College, Alwar",
+  "verification_outcome": "manual_review",
+  "district": "Alwar",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://hte.rajasthan.gov.in/RAJRISHICOLLEGEALWAR/11016",
+  "website_verification_status": "verified",
+  "description": "Raj Rishi College, Alwar is a government-run postgraduate science college near Nehru Park in Alwar, Rajasthan, affiliated with Raj Rishi Bhartrihari Matsya University and recognized by the UGC under Section 2(f).",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "official_homepage",
+      "url": "https://hte.rajasthan.gov.in/RAJRISHICOLLEGEALWAR/11016",
+      "supports": [
+        "official institution name",
+        "Alwar campus identity and address",
+        "current Education Programs list",
+        "institution description"
+      ]
+    },
+    {
+      "type": "official_history_page",
+      "url": "https://hte.rajasthan.gov.in/12184",
+      "supports": [
+        "Raj Rishi College, Alwar identity",
+        "government-run postgraduate science college",
+        "affiliation and UGC recognition",
+        "science programmes and research facilities"
+      ]
+    },
+    {
+      "type": "official_contact_page",
+      "url": "https://hte.rajasthan.gov.in/12177",
+      "supports": [
+        "district and campus identity",
+        "Alwar, Rajasthan 301001 address"
+      ]
+    },
+    {
+      "type": "official_courses_page",
+      "url": "https://hte.rajasthan.gov.in/12196",
+      "supports": [
+        "official Academics > Courses page reviewed; page contains only a placeholder and no programme catalogue"
+      ]
+    },
+    {
+      "type": "official_admissions_page",
+      "url": "https://hte.rajasthan.gov.in/95715",
+      "supports": [
+        "current 2026 undergraduate admission information",
+        "B.Sc. Maths and Biology groups and subjects"
+      ]
+    },
+    {
+      "type": "official_skill_development_page",
+      "url": "https://hte.rajasthan.gov.in/12233",
+      "supports": [
+        "official skill-development page reviewed; only generic categories are listed"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "R.R. College Alwar official website",
+      "result": "Brave Search returned the Rajasthan HTE result titled Welcome To RAJ RISHI COLLEGE, ALWAR at the official hte.rajasthan.gov.in domain; the result redirects to the canonical homepage.",
+      "url": "https://hte.rajasthan.gov.in/college/gcalwar"
+    },
+    {
+      "query": "Raj Rishi College Alwar official site contact",
+      "result": "Brave Search returned official Rajasthan HTE pages for the Raj Rishi College Alwar homepage, admission 2026, history, and contact pages.",
+      "url": "https://hte.rajasthan.gov.in/RAJRISHICOLLEGEALWAR/11016"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "r-r-college-alwar-rrc-alwar-bsc-honours-pt-i-maths",
+      "name": "BSc Honours Pt I Maths",
+      "level": "undergraduate",
+      "credential": "B.Sc. Honours",
+      "specialization": "Maths",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/RAJRISHICOLLEGEALWAR/11016",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "r-r-college-alwar-rrc-alwar-msc-botany",
+      "name": "M.Sc.(Botany)",
+      "level": "postgraduate",
+      "credential": "M.Sc.",
+      "specialization": "Botany",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/RAJRISHICOLLEGEALWAR/11016",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "nearest parent: Biology / PCB",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "r-r-college-alwar-rrc-alwar-msc-botany-sfs",
+      "name": "M.Sc.(Botany)SFS",
+      "level": "postgraduate",
+      "credential": "M.Sc.",
+      "specialization": "Botany",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/RAJRISHICOLLEGEALWAR/11016",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "nearest parent: Biology / PCB",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "r-r-college-alwar-rrc-alwar-msc-chemistry",
+      "name": "M.Sc.(Chemistry)",
+      "level": "postgraduate",
+      "credential": "M.Sc.",
+      "specialization": "Chemistry",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/RAJRISHICOLLEGEALWAR/11016",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 155,
+          "career_node_slug": "msc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry > M.Sc Chemistry → Researcher",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "r-r-college-alwar-rrc-alwar-msc-chemistry-sfs",
+      "name": "M.Sc.(Chemistry)SFS",
+      "level": "postgraduate",
+      "credential": "M.Sc.",
+      "specialization": "Chemistry",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/RAJRISHICOLLEGEALWAR/11016",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 155,
+          "career_node_slug": "msc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry > M.Sc Chemistry → Researcher",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "r-r-college-alwar-rrc-alwar-msc-mathematics",
+      "name": "M.Sc.(Mathematics)",
+      "level": "postgraduate",
+      "credential": "M.Sc.",
+      "specialization": "Mathematics",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/RAJRISHICOLLEGEALWAR/11016",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 90,
+          "career_node_slug": "msc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics > M.Sc Mathematics → Professor / Researcher",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "r-r-college-alwar-rrc-alwar-msc-physics",
+      "name": "M.Sc.(Physics)",
+      "level": "postgraduate",
+      "credential": "M.Sc.",
+      "specialization": "Physics",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/RAJRISHICOLLEGEALWAR/11016",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 153,
+          "career_node_slug": "msc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics > M.Sc Physics → Researcher / Professor",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "r-r-college-alwar-rrc-alwar-msc-physics-sfs",
+      "name": "M.Sc.(Physics)SFS",
+      "level": "postgraduate",
+      "credential": "M.Sc.",
+      "specialization": "Physics",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/RAJRISHICOLLEGEALWAR/11016",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 153,
+          "career_node_slug": "msc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics > M.Sc Physics → Researcher / Professor",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "r-r-college-alwar-rrc-alwar-msc-zoology",
+      "name": "M.Sc.(Zoology)",
+      "level": "postgraduate",
+      "credential": "M.Sc.",
+      "specialization": "Zoology",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/RAJRISHICOLLEGEALWAR/11016",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "nearest parent: Biology / PCB",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "r-r-college-alwar-rrc-alwar-msc-zoology-sfs",
+      "name": "M.Sc.(Zoology)SFS",
+      "level": "postgraduate",
+      "credential": "M.Sc.",
+      "specialization": "Zoology",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/RAJRISHICOLLEGEALWAR/11016",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "nearest parent: Biology / PCB",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "r-r-college-alwar-rrc-alwar-bsc-part-i-biology",
+      "name": "BSc Part I Biology",
+      "level": "undergraduate",
+      "credential": "B.Sc.",
+      "specialization": "Biology",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/RAJRISHICOLLEGEALWAR/11016",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "r-r-college-alwar-rrc-alwar-bsc-part-i-maths",
+      "name": "BSc Part I Maths",
+      "level": "undergraduate",
+      "credential": "B.Sc.",
+      "specialization": "Maths",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/RAJRISHICOLLEGEALWAR/11016",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The official site identifies the campus as RAJ RISHI COLLEGE, ALWAR and gives the address Near Nehru Park, Alwar, Rajasthan 301001, matching the R.R. College, Alwar institution context.",
+    "The official Academics > Courses page contains only the placeholder text \"Courses\". The 12 programme names were therefore taken from the official homepage Education Programs cards, with the current 2026 admissions page used to corroborate the undergraduate groups.",
+    "The official Skill Development Courses page lists only generic categories and no named active degree, diploma, or certificate programme. A Japanese and Spanish language-learning notice was treated as a notification rather than a catalogue programme and excluded.",
+    "The homepage states that the website is under migration, so the official programme catalogue is incomplete and requires manual review.",
+    "Normal TLS verification failed with the managed proxy self-signed certificate-chain error; public GET requests were retried with curl --insecure only after confirming the expected official and search hosts."
+  ]
+}

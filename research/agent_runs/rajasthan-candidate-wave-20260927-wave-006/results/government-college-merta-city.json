@@ -1,0 +1,216 @@
+{
+  "institution_id": "government-college-merta-city",
+  "nirf_name": "Government College, Merta City",
+  "verification_outcome": "verified",
+  "district": "Nagaur",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://hte.rajasthan.gov.in/GOVTCOLLEGEMERTACITY/20658",
+  "website_verification_status": "verified",
+  "description": "Government College Merta City is a co-educational government college established in 1996 in Merta City, Nagaur, Rajasthan, on Gotan Road.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "official_homepage",
+      "url": "https://hte.rajasthan.gov.in/GOVTCOLLEGEMERTACITY/20658",
+      "supports": [
+        "official institution identity",
+        "campus and city",
+        "description",
+        "course catalogue"
+      ]
+    },
+    {
+      "type": "official_district_campus_listing",
+      "url": "https://hte.rajasthan.gov.in/DepartmentOfCollegeEducation/10616",
+      "supports": [
+        "district Nagaur",
+        "Merta City campus",
+        "establishment year 1996",
+        "co-educational status"
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://hte.rajasthan.gov.in/GOVTCOLLEGEMERTACITY/20658",
+      "supports": [
+        "all six programme names shown in the Our Course Education Programs section"
+      ]
+    },
+    {
+      "type": "official_courses_page",
+      "url": "https://hte.rajasthan.gov.in/GOVTCOLLEGEMERTACITY/23102",
+      "supports": [
+        "official Courses page checked for additional programme entries"
+      ]
+    },
+    {
+      "type": "official_admissions_page",
+      "url": "https://hte.rajasthan.gov.in/GOVTCOLLEGEMERTACITY/20771",
+      "supports": [
+        "official admissions section checked"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Government College\" \"Merta City\"",
+      "result": "Bing returned generic government pages and no institution-specific official result; the Rajasthan HTE authoritative domain was then checked directly.",
+      "url": "https://www.bing.com/search?q=%22Government+College%22+%22Merta+City%22"
+    },
+    {
+      "query": "site:hte.rajasthan.gov.in Merta College",
+      "result": "Bing returned no directly usable institution result; the official Rajasthan HTE Government Colleges directory was checked directly.",
+      "url": "https://www.bing.com/search?q=site%3Ahte.rajasthan.gov.in+Merta+College"
+    }
+  ],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "government-college-merta-city-ba-part-i",
+      "name": "BA Part I",
+      "level": "UG",
+      "credential": "Bachelor of Arts",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/GOVTCOLLEGEMERTACITY/20658",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-merta-city-ma-political-science",
+      "name": "M.A.(Political Science)",
+      "level": "PG",
+      "credential": "Master of Arts",
+      "specialization": "Political Science",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/GOVTCOLLEGEMERTACITY/20658",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-merta-city-bcom-part-i",
+      "name": "BCom Part I",
+      "level": "UG",
+      "credential": "Bachelor of Commerce",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/GOVTCOLLEGEMERTACITY/20658",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-merta-city-mcom-eafm",
+      "name": "M.Com.(E.A.F.M.)",
+      "level": "PG",
+      "credential": "Master of Commerce",
+      "specialization": "E.A.F.M.",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/GOVTCOLLEGEMERTACITY/20658",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 198,
+          "career_node_slug": "mcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons) > M.Com → Professor / Researcher",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-merta-city-msc-zoology",
+      "name": "M.Sc.(Zoology)",
+      "level": "PG",
+      "credential": "Master of Science",
+      "specialization": "Zoology",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/GOVTCOLLEGEMERTACITY/20658",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-merta-city-bsc-part-i-biology",
+      "name": "BSc Part I Biology",
+      "level": "UG",
+      "credential": "Bachelor of Science",
+      "specialization": "Biology",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/GOVTCOLLEGEMERTACITY/20658",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The official college homepage's Our Course Education Programs section lists six programmes; the official Courses and Admission List pages were checked and showed no additional programme entries.",
+    "Duration, eligibility, and delivery mode were not stated on the official catalogue and were left null or marked not_stated.",
+    "M.A.(Political Science) was mapped to the closest Political Science career node because the career tree has no separate M.A. Political Science node.",
+    "M.Sc.(Zoology) was mapped to the closest Biology career node because the career tree has no Zoology node.",
+    "Normal TLS verification to the expected public search hostname failed with the managed proxy's self-signed certificate-chain error; curl --insecure was used only for public GET requests."
+  ]
+}

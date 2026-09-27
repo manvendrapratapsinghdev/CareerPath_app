@@ -1,0 +1,91 @@
+{
+  "batch": 10,
+  "started_at": "2026-09-27T07:10:49.335599+00:00",
+  "finished_at": "2026-09-27T07:10:59.788359+00:00",
+  "assignment_count": 5,
+  "completed_count": 0,
+  "skipped_count": 0,
+  "failed_count": 5,
+  "results": [
+    {
+      "institution_id": "government-college-lal-barah",
+      "nirf_name": "GOVERNMENT COLLEGE, LAL BARAH",
+      "status": "failed",
+      "started_at": "2026-09-27T07:10:49.351686+00:00",
+      "finished_at": "2026-09-27T07:10:59.269995+00:00",
+      "duration_seconds": 9.918,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/government-college-lal-barah.jsonl"
+    },
+    {
+      "institution_id": "govt-aranya-bharti-college-baihar-balaghat",
+      "nirf_name": "Govt. Aranya Bharti College, Baihar, Balaghat",
+      "status": "failed",
+      "started_at": "2026-09-27T07:10:49.365699+00:00",
+      "finished_at": "2026-09-27T07:10:59.786740+00:00",
+      "duration_seconds": 10.421,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/govt-aranya-bharti-college-baihar-balaghat.jsonl"
+    },
+    {
+      "institution_id": "govt-arts-commerce-college-badnawar-dhar",
+      "nirf_name": "Govt. Arts & Commerce College, Badnawar, Dhar",
+      "status": "failed",
+      "started_at": "2026-09-27T07:10:49.365925+00:00",
+      "finished_at": "2026-09-27T07:10:59.448088+00:00",
+      "duration_seconds": 10.082,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/govt-arts-commerce-college-badnawar-dhar.jsonl"
+    },
+    {
+      "institution_id": "govt-college-athner-betul",
+      "nirf_name": "Govt. College, Athner Betul",
+      "status": "failed",
+      "started_at": "2026-09-27T07:10:49.352057+00:00",
+      "finished_at": "2026-09-27T07:10:59.784071+00:00",
+      "duration_seconds": 10.432,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/govt-college-athner-betul.jsonl"
+    },
+    {
+      "institution_id": "govt-college-badod",
+      "nirf_name": "Govt. College Badod",
+      "status": "failed",
+      "started_at": "2026-09-27T07:10:49.360648+00:00",
+      "finished_at": "2026-09-27T07:10:59.292692+00:00",
+      "duration_seconds": 9.932,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/govt-college-badod.jsonl"
+    }
+  ]
+}

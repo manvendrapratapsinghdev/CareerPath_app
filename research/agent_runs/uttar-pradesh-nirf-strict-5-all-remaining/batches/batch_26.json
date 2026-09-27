@@ -1,0 +1,55 @@
+{
+  "batch": 26,
+  "started_at": "2026-09-27T14:57:29.967624+00:00",
+  "finished_at": "2026-09-27T15:04:19.074056+00:00",
+  "assignment_count": 5,
+  "completed_count": 2,
+  "skipped_count": 3,
+  "failed_count": 0,
+  "results": [
+    {
+      "institution_id": "allahabad-degree-college",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/allahabad-degree-college.json",
+      "finished_at": "2026-09-27T14:57:29.990463+00:00"
+    },
+    {
+      "institution_id": "arya-kanya-degree-college",
+      "nirf_name": "Arya Kanya Degree College",
+      "status": "completed",
+      "started_at": "2026-09-27T14:57:29.974208+00:00",
+      "finished_at": "2026-09-27T15:04:19.073054+00:00",
+      "duration_seconds": 409.059,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/arya-kanya-degree-college.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/logs/arya-kanya-degree-college.jsonl"
+    },
+    {
+      "institution_id": "c-m-p-degree-college",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/c-m-p-degree-college.json",
+      "finished_at": "2026-09-27T14:57:29.990883+00:00"
+    },
+    {
+      "institution_id": "ddu-government-degree-college-saidabad-prayagraj",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/ddu-government-degree-college-saidabad-prayagraj.json",
+      "finished_at": "2026-09-27T14:57:29.989383+00:00"
+    },
+    {
+      "institution_id": "ewing-christian-college",
+      "nirf_name": "Ewing Christian College",
+      "status": "completed",
+      "started_at": "2026-09-27T14:57:29.985010+00:00",
+      "finished_at": "2026-09-27T15:04:13.444926+00:00",
+      "duration_seconds": 403.405,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/ewing-christian-college.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/logs/ewing-christian-college.jsonl"
+    }
+  ]
+}

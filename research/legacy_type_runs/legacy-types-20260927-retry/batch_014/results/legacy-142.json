@@ -1,0 +1,15 @@
+{
+  "institution_id": "legacy-142",
+  "database_id": 142,
+  "name": "Coimbatore Marine College",
+  "website": "https://www.coimbatoremarinecollege.com",
+  "outcome": "manual_review",
+  "institution_type": null,
+  "source_url": null,
+  "confidence": null,
+  "evidence": null,
+  "notes": [
+    "The supplied official domain could not be reached: HTTPS requests failed with DNS resolution errors, and public DNS-over-HTTPS returned NXDOMAIN for both the apex and www hostnames.",
+    "The --insecure fallback was not used because the failure was DNS-related, not a TLS certificate-chain error."
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "institution_id": "christukula-mission-womens-english-medium-college",
+  "nirf_name": "CHRISTUKULA MISSION WOMENS ENGLISH MEDIUM COLLEGE",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "remove_candidate",
+  "district": null,
+  "district_verification_status": "not_found",
+  "official_website": null,
+  "website_verification_status": "not_found",
+  "description": null,
+  "description_verification_status": "not_found",
+  "record_status": "remove_candidate",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact institution name appears with Satna and Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Exact institution name appears with Satna and Madhya Pradesh."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"CHRISTUKULA MISSION WOMENS ENGLISH MEDIUM COLLEGE\" Satna official",
+      "result": "Bing returned unrelated Turnitin pages and no official institution website.",
+      "url": "https://www.bing.com/search?q=%22CHRISTUKULA+MISSION+WOMENS+ENGLISH+MEDIUM+COLLEGE%22+Satna+official"
+    },
+    {
+      "query": "\"Christukula Mission Womens English Medium College\" website",
+      "result": "Bing returned unrelated pages and no official institution website.",
+      "url": "https://www.bing.com/search?q=%22Christukula+Mission+Womens+English+Medium+College%22+website"
+    },
+    {
+      "query": "\"Christukula Mission\" Satna college",
+      "result": "Bing returned unrelated commercial pages and no official institution website.",
+      "url": "https://www.bing.com/search?q=%22Christukula+Mission%22+Satna+college"
+    },
+    {
+      "query": "site:ac.in \"Christukula\" Satna",
+      "result": "Google returned an anti-automated-traffic page with no usable official-site result.",
+      "url": "https://www.google.com/search?q=site%3Aac.in+%22Christukula%22+Satna"
+    },
+    {
+      "query": "site:mp.gov.in \"Christukula\" Satna",
+      "result": "Google returned an anti-automated-traffic page with no usable official-site result.",
+      "url": "https://www.google.com/search?q=site%3Amp.gov.in+%22Christukula%22+Satna"
+    },
+    {
+      "query": "Christukula Mission Womens English Medium College",
+      "result": "Google autocomplete returned no suggestions indicating an official website.",
+      "url": "https://www.google.com/complete/search?client=firefox&q=Christukula+Mission+Womens+English+Medium+College"
+    }
+  ],
+  "course_catalogue_status": "not_found",
+  "courses": [],
+  "agent_notes": [
+    "Government-directory membership and the Satna, Madhya Pradesh listing were confirmed in both supplied NIRF 2025 pages.",
+    "At least two focused exact-name searches and authoritative-domain checks did not establish an official institutional website, so the candidate is removed without importing district, description, or programmes.",
+    "Normal TLS failed with the managed proxy self-signed certificate-chain error; curl --insecure was used only for confirmed public search and NIRF hostnames."
+  ]
+}

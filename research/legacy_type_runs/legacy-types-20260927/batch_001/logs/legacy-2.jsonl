@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a0e1ba-e41f-7fb0-911f-b9d1871761d7"}
+{"type":"turn.started"}
+{"type":"error","message":"{\n  \"type\": \"error\",\n  \"error\": {\n    \"type\": \"invalid_request_error\",\n    \"code\": \"invalid_json_schema\",\n    \"message\": \"Invalid schema for response_format 'codex_output_schema': In context=('properties', 'website'), 'uri' is not a valid format.\",\n    \"param\": \"text.format.schema\"\n  },\n  \"status\": 400\n}"}
+{"type":"turn.failed","error":{"message":"{\n  \"type\": \"error\",\n  \"error\": {\n    \"type\": \"invalid_request_error\",\n    \"code\": \"invalid_json_schema\",\n    \"message\": \"Invalid schema for response_format 'codex_output_schema': In context=('properties', 'website'), 'uri' is not a valid format.\",\n    \"param\": \"text.format.schema\"\n  },\n  \"status\": 400\n}"}}

@@ -1,0 +1,70 @@
+{
+  "institution_id": "indira-gandhi-national-tribal-university",
+  "nirf_name": "Indira Gandhi National Tribal University",
+  "verification_outcome": "manual_review",
+  "district": "Anuppur",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://www.igntu.ac.in/",
+  "website_verification_status": "verified",
+  "description": "Indira Gandhi National Tribal University, Amarkantak is a Central Government-funded university established under the Indira Gandhi National Tribal University Act, 2007, with its campus at Village-Lalpur, District Anuppur, Madhya Pradesh.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "official_homepage",
+      "url": "https://www.igntu.ac.in/",
+      "supports": [
+        "official institution identity",
+        "Amarkantak campus identity"
+      ]
+    },
+    {
+      "type": "official_campus_about_page",
+      "url": "https://www.igntu.ac.in/page/university",
+      "supports": [
+        "campus address",
+        "District Anuppur",
+        "institution description"
+      ]
+    },
+    {
+      "type": "official_programme_catalogue",
+      "url": "https://www.igntu.ac.in/programmes",
+      "supports": [
+        "official programme catalogue page"
+      ]
+    },
+    {
+      "type": "official_admissions_page",
+      "url": "https://www.igntu.ac.in/admission.aspx",
+      "supports": [
+        "current official admissions and programme notices"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "site:igntu.ac.in \"Indira Gandhi National Tribal University\" Amarkantak",
+      "result": "Search identified https://www.igntu.ac.in/ as the institution's official domain; the official homepage was directly fetched and identified as IGNTU Amarkantak.",
+      "url": "https://www.igntu.ac.in/"
+    },
+    {
+      "query": "site:ugc.gov.in \"Indira Gandhi National Tribal University\"",
+      "result": "No directly verified government-directory source was established from the supplied context; government_listing_sources is empty.",
+      "url": null
+    },
+    {
+      "query": "site:education.gov.in \"Indira Gandhi National Tribal University\"",
+      "result": "No directly verified government-directory source was established from the supplied context; government_listing_sources is empty.",
+      "url": null
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [],
+  "agent_notes": [
+    "INSTITUTION_CONTEXT.government_listing_sources is empty, so the required government-directory listing cannot be established from the supplied context. Per rule, this record remains manual_review and no institution or course import is performed.",
+    "The official website independently confirms the Amarkantak campus and District Anuppur address. Its official programmes and admissions pages were inspected, but programme records are withheld pending the required government-directory evidence.",
+    "Normal TLS verification failed with curl error 60 due to a self-signed certificate in the proxy chain; after confirming the expected public hosts, curl --insecure was used only for public GET requests."
+  ]
+}

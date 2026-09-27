@@ -1,0 +1,675 @@
+{
+  "institution_id": "msj-college-bharatpur",
+  "nirf_name": "MSJ College, Bharatpur",
+  "verification_outcome": "manual_review",
+  "district": "Bharatpur",
+  "district_verification_status": "verified_official_website",
+  "official_website": null,
+  "website_verification_status": "ambiguous",
+  "description": "M.S.J. Government College is a government college in Bharatpur district, Rajasthan, affiliated with Maharaja Surajmal Brij University, Bharatpur.",
+  "description_verification_status": "pending",
+  "record_status": "manual_review",
+  "allowed_official_domains": [
+    "dceapp.rajasthan.gov.in",
+    "msbrijuniversity.ac.in"
+  ],
+  "verification_sources": [
+    {
+      "type": "official_state_admission_homepage",
+      "url": "https://dceapp.rajasthan.gov.in/",
+      "supports": [
+        "Department of College Education, Government of Rajasthan",
+        "current admission catalogue links"
+      ]
+    },
+    {
+      "type": "official_current_ug_course_list",
+      "url": "https://dceapp.rajasthan.gov.in/document/1539552499File01_05_2026_02_01_062026_UGCourses.pdf",
+      "supports": [
+        "M.S.J. Government College, Bharatpur identity",
+        "B.A.",
+        "B.Com",
+        "B.Sc. (Biology)",
+        "B.Sc. (Maths)"
+      ]
+    },
+    {
+      "type": "official_current_pg_college_list",
+      "url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "supports": [
+        "M.S.J. Government College, Bharatpur identity",
+        "current PG programme rows"
+      ]
+    },
+    {
+      "type": "official_affiliating_university_affiliated_college_page",
+      "url": "https://msbrijuniversity.ac.in/affiliation/affiliated-college/",
+      "supports": [
+        "MSJ College, Bharatpur affiliation identity"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "MSJ College Bharatpur official website Rajasthan",
+      "result": "Google, Bing, DuckDuckGo and Brave discovery requests returned CAPTCHA, blocked, unrelated or unusable results; official Rajasthan and affiliating-university pages were checked directly.",
+      "url": null
+    },
+    {
+      "query": "Maharani Shri Jaya College Bharatpur official website",
+      "result": "Google, Bing, DuckDuckGo and Brave discovery requests returned CAPTCHA, blocked, unrelated or unusable results; official Rajasthan and affiliating-university pages were checked directly.",
+      "url": null
+    },
+    {
+      "query": "M.S.J. Government College Bharatpur website",
+      "result": "Search discovery returned no usable institution-owned official website; official Rajasthan admission records identified the Bharatpur campus.",
+      "url": null
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "msj-college-bharatpur-ba",
+      "name": "B.A.",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/document/1539552499File01_05_2026_02_01_062026_UGCourses.pdf",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "msj-college-bharatpur-bcom",
+      "name": "B.Com",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/document/1539552499File01_05_2026_02_01_062026_UGCourses.pdf",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "msj-college-bharatpur-bsc-biology",
+      "name": "B.Sc. (Biology)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Biology",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/document/1539552499File01_05_2026_02_01_062026_UGCourses.pdf",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "msj-college-bharatpur-bsc-maths",
+      "name": "B.Sc. (Maths)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Maths",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/document/1539552499File01_05_2026_02_01_062026_UGCourses.pdf",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "msj-college-bharatpur-ma-economics",
+      "name": "M.A.(Economics)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Economics",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "msj-college-bharatpur-ma-english",
+      "name": "M.A.(English)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "English",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "msj-college-bharatpur-ma-geography",
+      "name": "M.A.(Geography)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Geography",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "msj-college-bharatpur-ma-hindi",
+      "name": "M.A.(Hindi)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Hindi",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "msj-college-bharatpur-ma-history",
+      "name": "M.A.(History)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "History",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "msj-college-bharatpur-ma-philosophy",
+      "name": "M.A.(Philosophy)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Philosophy",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "msj-college-bharatpur-ma-political-science",
+      "name": "M.A.(Political Science)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Political Science",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "msj-college-bharatpur-ma-public-administration",
+      "name": "M.A.(Public Administration)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Public Administration",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 283,
+          "career_node_slug": "public_admin",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science > Public Administration Officer",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "msj-college-bharatpur-ma-sanskrit",
+      "name": "M.A.(Sanskrit)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Sanskrit",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "msj-college-bharatpur-ma-sociology",
+      "name": "M.A.(Sociology)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Sociology",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "msj-college-bharatpur-mcom-abst",
+      "name": "M.Com.(A.B.S.T)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "A.B.S.T",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 198,
+          "career_node_slug": "mcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons) > M.Com → Professor / Researcher",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "msj-college-bharatpur-mcom-business-administration",
+      "name": "M.Com.(Business Administration)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Business Administration",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 198,
+          "career_node_slug": "mcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons) > M.Com → Professor / Researcher",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "msj-college-bharatpur-mcom-eafm",
+      "name": "M.Com.(E.A.F.M.)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "E.A.F.M.",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 198,
+          "career_node_slug": "mcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons) > M.Com → Professor / Researcher",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "msj-college-bharatpur-msc-botany",
+      "name": "M.Sc.(Botany)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Botany",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "msj-college-bharatpur-msc-botany-sfs",
+      "name": "M.Sc.(Botany)SFS",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Botany (SFS)",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "msj-college-bharatpur-msc-chemistry",
+      "name": "M.Sc.(Chemistry)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Chemistry",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 155,
+          "career_node_slug": "msc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry > M.Sc Chemistry → Researcher",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "msj-college-bharatpur-msc-chemistry-sfs",
+      "name": "M.Sc.(Chemistry)SFS",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Chemistry (SFS)",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 155,
+          "career_node_slug": "msc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry > M.Sc Chemistry → Researcher",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "msj-college-bharatpur-msc-mathematics",
+      "name": "M.Sc.(Mathematics)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Mathematics",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 90,
+          "career_node_slug": "msc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics > M.Sc Mathematics → Professor / Researcher",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "msj-college-bharatpur-msc-physics",
+      "name": "M.Sc.(Physics)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Physics",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 153,
+          "career_node_slug": "msc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics > M.Sc Physics → Researcher / Professor",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "msj-college-bharatpur-msc-physics-sfs",
+      "name": "M.Sc.(Physics)SFS",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Physics (SFS)",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 153,
+          "career_node_slug": "msc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics > M.Sc Physics → Researcher / Professor",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "msj-college-bharatpur-msc-zoology",
+      "name": "M.Sc.(Zoology)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Zoology",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "msj-college-bharatpur-msc-zoology-sfs",
+      "name": "M.Sc.(Zoology)SFS",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Zoology (SFS)",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "Normal TLS verification produced the managed proxy error \"self signed certificate in certificate chain\" for public search requests; curl --insecure was used only for public GET requests to confirmed search or official government/university hosts.",
+    "The government admission portal and affiliating-university page establish the campus and district, but an institution-owned homepage/catalogue was not established; record remains manual_review under the institution-site rule.",
+    "The official current UG list is a 2026-27 government PDF; the official PG list is an official DCE application page and exposes current M.S.J. Government College rows."
+  ]
+}

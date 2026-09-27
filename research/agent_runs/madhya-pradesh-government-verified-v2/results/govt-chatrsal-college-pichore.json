@@ -1,0 +1,90 @@
+{
+  "institution_id": "govt-chatrsal-college-pichore",
+  "nirf_name": "GOVT. CHATRSAL COLLEGE PICHORE",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "remove_candidate",
+  "district": "Shivpuri",
+  "district_verification_status": "pending_official_source",
+  "official_website": null,
+  "website_verification_status": "not_found",
+  "description": null,
+  "description_verification_status": "not_found",
+  "record_status": "remove_candidate",
+  "allowed_official_domains": [
+    "highereducation.mp.gov.in",
+    "epravesh.highereducation.mp.gov.in"
+  ],
+  "verification_sources": [
+    {
+      "type": "government_nirf_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "The listing contains the exact institution name GOVT. CHATRSAL COLLEGE PICHORE, city PICHHORE, Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "official_department_homepage",
+      "url": "https://highereducation.mp.gov.in/",
+      "supports": [
+        "Official Madhya Pradesh Higher Education Department homepage linking to the ePravesh admissions portal."
+      ]
+    },
+    {
+      "type": "official_admissions_catalogue",
+      "url": "https://epravesh.highereducation.mp.gov.in/EBrochure_College_Details.aspx?cm_id=qO3EVXXPiG0%3D",
+      "supports": [
+        "The official ePravesh e-brochure identifies Govt Chhatrasal College, Pichhore, code 0503, near Bus Stand Pichhore, Shivpuri district, and government status. It lists http://www.govtcdcpichhore.in as the college website, but that domain is not resolvable."
+      ]
+    },
+    {
+      "type": "official_admissions_catalogue_endpoint",
+      "url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx/Bind_Form_EBrochure_All_Data",
+      "supports": [
+        "The official catalogue endpoint identifies the exact campus and lists the current programme families B. A., B. Com., B. Sc., M. A. (2-Year), M. Com. (2-Year), and M. Sc. (2 - Year)."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"GOVT. CHATRSAL COLLEGE PICHORE\" official website",
+      "result": "Bing RSS returned unrelated general-government and job pages and did not identify an official institution website.",
+      "url": "https://www.bing.com/search?format=rss&q=%22GOVT.+CHATRSAL+COLLEGE+PICHORE%22+official+website"
+    },
+    {
+      "query": "site:mp.gov.in \"CHATRSAL COLLEGE\" PICHORE",
+      "result": "Bing RSS returned unrelated Udaipur travel pages and did not identify an official institution website.",
+      "url": "https://www.bing.com/search?format=rss&q=site%3Amp.gov.in+%22CHATRSAL+COLLEGE%22+PICHORE"
+    },
+    {
+      "query": "Direct HTTP request to http://www.govtcdcpichhore.in",
+      "result": "curl failed with could not resolve host: www.govtcdcpichhore.in.",
+      "url": "http://www.govtcdcpichhore.in"
+    },
+    {
+      "query": "Direct HTTPS request to https://www.govtcdcpichhore.in",
+      "result": "The advertised official host could not be resolved; no HTTPS homepage was reachable.",
+      "url": "https://www.govtcdcpichhore.in"
+    },
+    {
+      "query": "DNS A lookup for govtcdcpichhore.in via Google Public DNS",
+      "result": "Google Public DNS returned Status 3 (NXDOMAIN) for govtcdcpichhore.in.",
+      "url": "https://dns.google/resolve?name=govtcdcpichhore.in&type=A"
+    },
+    {
+      "query": "DNS A lookup for www.govtcdcpichhore.in via Google Public DNS",
+      "result": "Google Public DNS returned Status 3 (NXDOMAIN) for www.govtcdcpichhore.in.",
+      "url": "https://dns.google/resolve?name=www.govtcdcpichhore.in&type=A"
+    }
+  ],
+  "course_catalogue_status": "not_found",
+  "courses": [],
+  "agent_notes": [
+    "The provided NIRF government listing was independently checked and contains the exact assigned institution and city.",
+    "The official MP ePravesh catalogue confirms the campus identity, Shivpuri district, address, and a programme catalogue, but the catalogue is centralized and not the institution's actual official website.",
+    "The catalogue's advertised institution domain http://www.govtcdcpichhore.in and its www hostname both fail DNS resolution with NXDOMAIN, so the actual official homepage and institution-hosted programme pages could not be established.",
+    "Under the strict source rule, the centralized catalogue was not imported as institution course data; the candidate is removed after two focused searches and an authoritative-domain check.",
+    "The managed proxy produced the exact self-signed certificate-chain error; the permitted --insecure fallback was used only for public requests to expected official/search domains."
+  ]
+}

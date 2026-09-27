@@ -1,0 +1,15 @@
+{
+  "institution_id": "legacy-337",
+  "database_id": 337,
+  "name": "CFSL (Central Forensic Science Laboratory)",
+  "website": "https://cfsl.gov.in",
+  "outcome": "manual_review",
+  "institution_type": null,
+  "source_url": null,
+  "confidence": null,
+  "evidence": null,
+  "notes": [
+    "Command-line HTTPS requests to the supplied domain failed because cfsl.gov.in and www.cfsl.gov.in have no DNS records.",
+    "The --insecure fallback was not used because the failure was DNS resolution, not a proxy certificate-chain error; the official site and institutional type could not be verified."
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "institution_id": "legacy-408",
+  "database_id": 408,
+  "name": "School of Aeronautics",
+  "website": "https://www.schoolofaeronautics.in",
+  "outcome": "manual_review",
+  "institution_type": null,
+  "source_url": null,
+  "confidence": null,
+  "evidence": null,
+  "notes": [
+    "The supplied official domain and apex domain returned DNS NXDOMAIN during command-line HTTPS verification, so the site could not be confirmed or used for institutional-type evidence.",
+    "The TLS-insecure fallback was not used because the failure was DNS resolution, not a certificate-chain error."
+  ]
+}

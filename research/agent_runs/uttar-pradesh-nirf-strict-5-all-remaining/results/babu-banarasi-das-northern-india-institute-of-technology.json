@@ -1,0 +1,377 @@
+{
+  "institution_id": "babu-banarasi-das-northern-india-institute-of-technology",
+  "nirf_name": "BABU BANARASI DAS NORTHERN INDIA INSTITUTE OF TECHNOLOGY",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/PharmacyRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Lucknow",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://bbditm.ac.in/",
+  "website_verification_status": "verified",
+  "description": "Babu Banarasi Das Institute of Technology and Management (BBDITM), formerly Babu Banarasi Das National Institute of Technology and Management (BBDNITM), is an engineering and management institute in Lucknow, Uttar Pradesh. It is affiliated with Dr. A.P.J. Abdul Kalam Technical University and approved by AICTE.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Exact institution name",
+        "Lucknow",
+        "Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/PharmacyRankingALL.html",
+      "supports": [
+        "Exact institution name",
+        "Lucknow",
+        "Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://bbditm.ac.in/",
+      "supports": [
+        "Current official website",
+        "BBDITM branding",
+        "Lucknow campus address"
+      ]
+    },
+    {
+      "type": "official_identity_page",
+      "url": "https://bbditm.ac.in/the-institute/",
+      "supports": [
+        "Former BBDNITM identity",
+        "Lucknow campus",
+        "Institution description"
+      ]
+    },
+    {
+      "type": "official_programme_page",
+      "url": "https://bbditm.ac.in/engineering/",
+      "supports": [
+        "Engineering programme catalogue",
+        "B.Tech branches",
+        "M.Tech Production Engineering"
+      ]
+    },
+    {
+      "type": "official_programme_page",
+      "url": "https://bbditm.ac.in/btech/",
+      "supports": [
+        "B.Tech branches",
+        "Duration",
+        "Eligibility"
+      ]
+    },
+    {
+      "type": "official_programme_page",
+      "url": "https://bbditm.ac.in/mtech/",
+      "supports": [
+        "M.Tech Production Engineering",
+        "Duration",
+        "Eligibility"
+      ]
+    },
+    {
+      "type": "official_programme_page",
+      "url": "https://bbditm.ac.in/mba/",
+      "supports": [
+        "MBA (Professional)",
+        "Specializations",
+        "Duration",
+        "Eligibility"
+      ]
+    },
+    {
+      "type": "official_admissions_page",
+      "url": "https://bbditm.ac.in/admissions/",
+      "supports": [
+        "Current admissions catalogue",
+        "B.Tech, M.Tech and MBA names",
+        "Duration",
+        "Eligibility"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "BABU BANARASI DAS NORTHERN INDIA INSTITUTE OF TECHNOLOGY official website Lucknow",
+      "result": "Search results were not used as verification; direct checking established the official BBDITM site.",
+      "url": "https://www.google.com/search?q=BABU+BANARASI+DAS+NORTHERN+INDIA+INSTITUTE+OF+TECHNOLOGY+official+website+Lucknow"
+    },
+    {
+      "query": "BBDNITM Lucknow official admissions courses",
+      "result": "Search results were not used as verification; direct checking established the official BBDITM site and programme pages.",
+      "url": "https://www.bing.com/search?q=BBDNITM+Lucknow+official+admissions+courses"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "babu-banarasi-das-northern-india-institute-of-technology-btech-computer-science-engineering",
+      "name": "Computer Science and Engineering",
+      "level": "undergraduate",
+      "credential": "Bachelor of Technology",
+      "specialization": null,
+      "duration": "4 Years",
+      "mode": "full-time",
+      "eligibility": "Passed intermediate/10+2 or equivalent with Physics and Mathematics plus an approved optional subject; minimum 45% marks, or 40% for SC/ST candidates, in the required subjects.",
+      "official_course_url": "https://bbditm.ac.in/btech/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "babu-banarasi-das-northern-india-institute-of-technology-btech-cse-artificial-intelligence-machine-learning",
+      "name": "Computer Science and Engineering (Artificial Intelligence & Machine Learning)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Technology",
+      "specialization": "Artificial Intelligence & Machine Learning",
+      "duration": "4 Years",
+      "mode": "full-time",
+      "eligibility": "Passed intermediate/10+2 or equivalent with Physics and Mathematics plus an approved optional subject; minimum 45% marks, or 40% for SC/ST candidates, in the required subjects.",
+      "official_course_url": "https://bbditm.ac.in/btech/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 81,
+          "career_node_slug": "btech_ai",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > AI & Machine Learning",
+          "relation": "direct specialization mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "babu-banarasi-das-northern-india-institute-of-technology-btech-cse-data-science",
+      "name": "Computer Science and Engineering (Data Science)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Technology",
+      "specialization": "Data Science",
+      "duration": "4 Years",
+      "mode": "full-time",
+      "eligibility": "Passed intermediate/10+2 or equivalent with Physics and Mathematics plus an approved optional subject; minimum 45% marks, or 40% for SC/ST candidates, in the required subjects.",
+      "official_course_url": "https://bbditm.ac.in/btech/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 338,
+          "career_node_slug": "science_data",
+          "career_breadcrumb": "Data Science & Analytics",
+          "relation": "nearest-parent mapping; no exact B.Tech Data Science node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "babu-banarasi-das-northern-india-institute-of-technology-btech-mechanical-engineering",
+      "name": "Mechanical Engineering",
+      "level": "undergraduate",
+      "credential": "Bachelor of Technology",
+      "specialization": null,
+      "duration": "4 Years",
+      "mode": "full-time",
+      "eligibility": "Passed intermediate/10+2 or equivalent with Physics and Mathematics plus an approved optional subject; minimum 45% marks, or 40% for SC/ST candidates, in the required subjects.",
+      "official_course_url": "https://bbditm.ac.in/btech/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "babu-banarasi-das-northern-india-institute-of-technology-btech-civil-engineering",
+      "name": "Civil Engineering",
+      "level": "undergraduate",
+      "credential": "Bachelor of Technology",
+      "specialization": null,
+      "duration": "4 Years",
+      "mode": "full-time",
+      "eligibility": "Passed intermediate/10+2 or equivalent with Physics and Mathematics plus an approved optional subject; minimum 45% marks, or 40% for SC/ST candidates, in the required subjects.",
+      "official_course_url": "https://bbditm.ac.in/btech/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "babu-banarasi-das-northern-india-institute-of-technology-btech-electrical-engineering",
+      "name": "Electrical Engineering",
+      "level": "undergraduate",
+      "credential": "Bachelor of Technology",
+      "specialization": null,
+      "duration": "4 Years",
+      "mode": "full-time",
+      "eligibility": "Passed intermediate/10+2 or equivalent with Physics and Mathematics plus an approved optional subject; minimum 45% marks, or 40% for SC/ST candidates, in the required subjects.",
+      "official_course_url": "https://bbditm.ac.in/btech/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "babu-banarasi-das-northern-india-institute-of-technology-btech-information-technology",
+      "name": "Information Technology",
+      "level": "undergraduate",
+      "credential": "Bachelor of Technology",
+      "specialization": null,
+      "duration": "4 Years",
+      "mode": "full-time",
+      "eligibility": "Passed intermediate/10+2 or equivalent with Physics and Mathematics plus an approved optional subject; minimum 45% marks, or 40% for SC/ST candidates, in the required subjects.",
+      "official_course_url": "https://bbditm.ac.in/btech/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 89,
+          "career_node_slug": "btech_it",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Information Technology",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "babu-banarasi-das-northern-india-institute-of-technology-btech-electronics-communication-engineering",
+      "name": "Electronics and Communication Engineering",
+      "level": "undergraduate",
+      "credential": "Bachelor of Technology",
+      "specialization": null,
+      "duration": "4 Years",
+      "mode": "full-time",
+      "eligibility": "Passed intermediate/10+2 or equivalent with Physics and Mathematics plus an approved optional subject; minimum 45% marks, or 40% for SC/ST candidates, in the required subjects.",
+      "official_course_url": "https://bbditm.ac.in/btech/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "babu-banarasi-das-northern-india-institute-of-technology-btech-cse-artificial-intelligence",
+      "name": "Computer Science and Engineering (Artificial Intelligence)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Technology",
+      "specialization": "Artificial Intelligence",
+      "duration": "4 Years",
+      "mode": "full-time",
+      "eligibility": "Passed intermediate/10+2 or equivalent with Physics and Mathematics plus an approved optional subject; minimum 45% marks, or 40% for SC/ST candidates, in the required subjects.",
+      "official_course_url": "https://bbditm.ac.in/btech/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 81,
+          "career_node_slug": "btech_ai",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > AI & Machine Learning",
+          "relation": "closest-specialization mapping; no exact CSE-Artificial Intelligence node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "babu-banarasi-das-northern-india-institute-of-technology-mtech-production-engineering",
+      "name": "Master of Technology (M.Tech.)",
+      "level": "postgraduate",
+      "credential": "Master of Technology",
+      "specialization": "Production Engineering",
+      "duration": "2 Years",
+      "mode": "full-time",
+      "eligibility": "Minimum 60% in B.Tech./B.E./B.Sc. (Engineering).",
+      "official_course_url": "https://bbditm.ac.in/mtech/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "nearest-parent mapping; Production Engineering is presented under Mechanical Engineering and no M.Tech node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "babu-banarasi-das-northern-india-institute-of-technology-mba-professional",
+      "name": "MBA (Professional)",
+      "level": "postgraduate",
+      "credential": "Master of Business Administration",
+      "specialization": "Human resources; Marketing management; Financial management; International Business; Operation Management; Information Technology",
+      "duration": "2 Years",
+      "mode": "full-time",
+      "eligibility": "Bachelor degree of minimum 3 years duration with at least 50% marks; 45% marks for SC/ST candidates.",
+      "official_course_url": "https://bbditm.ac.in/mba/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The exact institution row was established in both NIRF 2025 Overall and Pharmacy listings as BABU BANARASI DAS NORTHERN INDIA INSTITUTE OF TECHNOLOGY, Lucknow, Uttar Pradesh.",
+    "Normal TLS verification first failed with the managed proxy's self-signed certificate-chain error. curl --insecure was then used only for public GET requests to the expected nirfindia.org, search-engine, and official-site hostnames.",
+    "The legacy official URL https://bbdnitm.ac.in/ redirects to https://bbditm.ac.in/. The official identity page states that BBDITM was formerly BBDNITM but spells the former name as National rather than the NIRF listing's Northern, so identity naming requires manual review.",
+    "The official catalogue is internally inconsistent: /btech/ lists a standalone Computer Science and Engineering (Artificial Intelligence) branch in addition to the branches on /admissions/, while /engineering/ lists a shorter branch set. The M.Tech page states 60% eligibility, whereas the central admissions page states 50% or 45% for SC/ST. These conflicts prevent a complete verified catalogue.",
+    "The official MBA page lists MBA (Professional) specializations, while the central admissions page labels the programme MBA. A historical BBA reference appears in the management narrative but is not listed in the current admissions/programme catalogue and was excluded. No active diploma, certificate, or doctoral programme was found on the current official catalogue pages."
+  ]
+}

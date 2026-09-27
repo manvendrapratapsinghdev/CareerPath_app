@@ -1,0 +1,15 @@
+{
+  "institution_id": "legacy-168",
+  "database_id": 168,
+  "name": "AJK Mass Communication Research Centre JMI",
+  "website": "https://www.jmi.ac.in/aboutjmi/schools_centres/ajkmcrc",
+  "outcome": "classified",
+  "institution_type": "specialized",
+  "source_url": "https://www.jmi.ac.in/ajkmcrc",
+  "confidence": "high",
+  "evidence": "JMI's official page calls AJK MCRC a premier media institution offering graduate and post-graduate media courses, and JMI's official academic listings place it among the university's centres of learning and research.",
+  "notes": [
+    "The supplied URL returned 404; the current official JMI page is https://www.jmi.ac.in/ajkmcrc and confirms the same institute.",
+    "Used curl --insecure only after normal TLS failed with the proxy's self-signed certificate-chain error."
+  ]
+}

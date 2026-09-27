@@ -1,0 +1,122 @@
+{
+  "institution_id": "govt-college-kota",
+  "nirf_name": "Govt. College, Kota",
+  "verification_outcome": "manual_review",
+  "district": "Kota",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://hte.rajasthan.gov.in/HTE/10524",
+  "website_verification_status": "ambiguous",
+  "description": "Government College, Kota is listed by Rajasthan’s Department of College Education as a government college in Kota district; the official 2026–27 undergraduate catalogue lists B.Sc. (Biology) and B.Sc. (Maths).",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "official_homepage",
+      "url": "https://hte.rajasthan.gov.in/HTE/10524",
+      "supports": [
+        "Rajasthan Higher & Technical Education official portal",
+        "Department of College Education context"
+      ]
+    },
+    {
+      "type": "official_admissions_page",
+      "url": "https://hte.rajasthan.gov.in/HTE/30981",
+      "supports": [
+        "2026–27 Department of College Education admissions",
+        "official link to UG college/course catalogue"
+      ]
+    },
+    {
+      "type": "official_campus_course_catalogue",
+      "url": "https://hte.rajasthan.gov.in/Website/DepartmentOfCollegeEducation/Images/ef5311d6-5a9a-47cf-b1ed-a4170f5bb8fd.pdf",
+      "supports": [
+        "KOTA district",
+        "Government College, Kota campus identity",
+        "active 2026–27 UG courses B.Sc. (Biology) and B.Sc. (Maths)"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Govt. College, Kota\" Rajasthan official website",
+      "result": "Bing returned irrelevant non-matching results; no search result was used as verification.",
+      "url": "https://www.bing.com/search?q=%22Govt.%20College%2C%20Kota%22%20Rajasthan%20official%20website"
+    },
+    {
+      "query": "\"Government College Kota\" Rajasthan official",
+      "result": "Google returned a managed-search CAPTCHA/429 response; no search result was used as verification.",
+      "url": "https://www.google.com/search?q=%22Government%20College%20Kota%22%20Rajasthan%20official"
+    },
+    {
+      "query": "site:hte.rajasthan.gov.in \"Government College, Kota\"",
+      "result": "Naver returned no matching official institution page.",
+      "url": "https://search.naver.com/search.naver?query=site%3Ahte.rajasthan.gov.in%20%22Government%20College%2C%20Kota%22"
+    },
+    {
+      "query": "site:rajasthan.gov.in \"GOVERNMENT COLLEGE, KOTA\"",
+      "result": "Naver returned unrelated Rajasthan government pages; no result was used as verification.",
+      "url": "https://search.naver.com/search.naver?query=site%3Arajasthan.gov.in%20%22GOVERNMENT%20COLLEGE%2C%20KOTA%22"
+    },
+    {
+      "query": "site:ac.in \"Government College\" Kota Rajasthan",
+      "result": "Naver returned other institutions and no matching Government College, Kota official site.",
+      "url": "https://search.naver.com/search.naver?query=site%3Aac.in%20%22Government%20College%22%20Kota%20Rajasthan"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "govt-college-kota-bsc-biology",
+      "name": "B.Sc. (Biology)",
+      "level": "undergraduate",
+      "credential": "B.Sc.",
+      "specialization": "Biology",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/Website/DepartmentOfCollegeEducation/Images/ef5311d6-5a9a-47cf-b1ed-a4170f5bb8fd.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-kota-bsc-maths",
+      "name": "B.Sc. (Maths)",
+      "level": "undergraduate",
+      "credential": "B.Sc.",
+      "specialization": "Maths",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/Website/DepartmentOfCollegeEducation/Images/ef5311d6-5a9a-47cf-b1ed-a4170f5bb8fd.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "Normal TLS requests hit the managed proxy’s exact self-signed certificate-chain error; curl --insecure was used only for public GET requests to the expected search and official domains.",
+    "The official source is the Rajasthan Higher & Technical Education / Department of College Education portal. No dedicated institution-specific homepage for Government College, Kota was established, so website verification remains ambiguous.",
+    "The official catalogue is explicitly a 2026–27 UG first-semester list and does not establish a complete institution-level catalogue for PG, diploma, certificate, or doctoral programmes; manual review is required.",
+    "No duration or eligibility was populated because the central official catalogue used here does not explicitly state them."
+  ]
+}

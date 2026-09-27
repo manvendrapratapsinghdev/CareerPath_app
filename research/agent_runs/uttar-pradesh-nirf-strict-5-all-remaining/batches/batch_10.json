@@ -1,0 +1,70 @@
+{
+  "batch": 10,
+  "started_at": "2026-09-27T12:56:01.694255+00:00",
+  "finished_at": "2026-09-27T13:11:02.094026+00:00",
+  "assignment_count": 5,
+  "completed_count": 1,
+  "skipped_count": 2,
+  "failed_count": 2,
+  "results": [
+    {
+      "institution_id": "amity-university",
+      "nirf_name": "Amity University",
+      "status": "failed",
+      "started_at": "2026-09-27T12:56:01.734089+00:00",
+      "finished_at": "2026-09-27T13:11:02.005443+00:00",
+      "duration_seconds": 900.256,
+      "return_code": -15,
+      "timed_out": true,
+      "errors": [
+        "agent timed out after 900 seconds",
+        "codex exec exited with code -15",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/logs/amity-university.jsonl"
+    },
+    {
+      "institution_id": "galgotias-university",
+      "nirf_name": "Galgotias University",
+      "status": "failed",
+      "started_at": "2026-09-27T12:56:01.801851+00:00",
+      "finished_at": "2026-09-27T13:11:01.997892+00:00",
+      "duration_seconds": 900.176,
+      "return_code": -15,
+      "timed_out": true,
+      "errors": [
+        "agent timed out after 900 seconds",
+        "codex exec exited with code -15",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/logs/galgotias-university.jsonl"
+    },
+    {
+      "institution_id": "jss-academy-of-technical-education-noida",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/jss-academy-of-technical-education-noida.json",
+      "finished_at": "2026-09-27T12:56:01.976542+00:00"
+    },
+    {
+      "institution_id": "shiv-nadar-university",
+      "nirf_name": "Shiv Nadar University",
+      "status": "completed",
+      "started_at": "2026-09-27T12:56:01.734243+00:00",
+      "finished_at": "2026-09-27T13:07:15.953437+00:00",
+      "duration_seconds": 674.031,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/shiv-nadar-university.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/logs/shiv-nadar-university.jsonl"
+    },
+    {
+      "institution_id": "siddharth-university-kapilvastu",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/siddharth-university-kapilvastu.json",
+      "finished_at": "2026-09-27T12:56:01.973622+00:00"
+    }
+  ]
+}

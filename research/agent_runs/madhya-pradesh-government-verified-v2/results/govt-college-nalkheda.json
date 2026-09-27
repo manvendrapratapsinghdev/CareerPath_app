@@ -1,0 +1,92 @@
+{
+  "institution_id": "govt-college-nalkheda",
+  "nirf_name": "Govt. College, Nalkheda",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Agar malwa",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://highereducation.mp.gov.in/?orgid=16",
+  "website_verification_status": "verified",
+  "description": "A government college campus of the Madhya Pradesh Higher Education Department in Nalkheda, Agar malwa district.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact NIRF listing: Govt. College, Nalkheda; city Nalkheda; Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "official_college_directory",
+      "url": "https://highereducation.mp.gov.in/CollegeDisp/getTable",
+      "supports": [
+        "Official directory record for Sardar Vallabhbhai Patel Government College, Nalkheda; college ID 16; college code 1908; district Agar malwa"
+      ]
+    },
+    {
+      "type": "official_college_homepage",
+      "url": "https://highereducation.mp.gov.in/?orgid=16",
+      "supports": [
+        "Official college-profile header identifying Sardar Vallabhbhai Patel Government College, Nalkheda"
+      ]
+    },
+    {
+      "type": "official_campus_profile",
+      "url": "https://highereducation.mp.gov.in/CollegeProfile/AtAGlance?orgid=16",
+      "supports": [
+        "Official Nalkheda college profile and campus identity"
+      ]
+    },
+    {
+      "type": "official_regular_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/CollegeProfile/Course?orgid=16",
+      "supports": [
+        "Official regular-programme catalogue headings; no programme rows are published"
+      ]
+    },
+    {
+      "type": "official_distance_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/CollegeProfile/CourseDistance?orgid=16",
+      "supports": [
+        "Official distance-programme catalogue headings; no programme rows are published"
+      ]
+    },
+    {
+      "type": "official_prospectus_page",
+      "url": "https://highereducation.mp.gov.in/?page=d7ouvWb1yksyH7mn5Ciy8w%3D%3D&orgid=16",
+      "supports": [
+        "Official prospectus page is marked under construction"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Govt. College, Nalkheda\" Madhya Pradesh official",
+      "result": "Bing returned unrelated results; the official website was not identified from this query.",
+      "url": "https://www.bing.com/search?q=%22Govt.%20College,%20Nalkheda%22%20Madhya%20Pradesh%20official"
+    },
+    {
+      "query": "Government College Nalkheda MP official website",
+      "result": "Bing returned unrelated results; the official website was not identified from this query.",
+      "url": "https://www.bing.com/search?q=Government%20College%20Nalkheda%20MP%20official%20website"
+    },
+    {
+      "query": "Nalkheda college Madhya Pradesh higher education",
+      "result": "Bing returned unrelated results; the official Madhya Pradesh Higher Education Department directory was then checked directly and identified the Nalkheda campus as College ID 16.",
+      "url": "https://www.bing.com/search?q=Nalkheda%20college%20Madhya%20Pradesh%20higher%20education"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [],
+  "agent_notes": [
+    "The NIRF government listing contains the exact assigned institution and city: Govt. College, Nalkheda, Nalkheda, Madhya Pradesh.",
+    "The official Madhya Pradesh Higher Education Department directory identifies the matching campus as Sardar Vallabhbhai Patel Government College, Nalkheda, College ID 16, code 1908, district Agar malwa.",
+    "The official regular and distance catalogue pages publish only PG, UG, and Diploma category headings with no course rows; the official prospectus page is under construction. Catalogue completeness cannot be established, so the record requires manual review and no programme was imported.",
+    "Normal TLS verification encountered the managed proxy self-signed certificate-chain error; curl --insecure was used only for public GET requests to the expected official NIRF, search, and Madhya Pradesh Higher Education Department hosts."
+  ]
+}

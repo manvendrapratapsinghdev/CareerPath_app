@@ -1,0 +1,15 @@
+{
+  "institution_id": "legacy-2",
+  "database_id": 2,
+  "name": "NITs",
+  "website": "https://www.nitcouncil.in",
+  "outcome": "manual_review",
+  "institution_type": null,
+  "source_url": null,
+  "confidence": null,
+  "evidence": null,
+  "notes": [
+    "The supplied official hostname returned DNS NXDOMAIN for both nitcouncil.in and www.nitcouncil.in, so no official page could be retrieved or used to establish the institutional type.",
+    "The permitted --insecure fallback was not used because the failure was DNS resolution, not a proxy certificate-chain error."
+  ]
+}

@@ -1,0 +1,338 @@
+{
+  "institution_id": "govt-college-bagh",
+  "nirf_name": "Govt. College Bagh",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Dhar",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://highereducation.mp.gov.in/?orgid=161",
+  "website_verification_status": "verified",
+  "description": "Government College Bagh is a government college campus in Bagh, Dhar district, Madhya Pradesh.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_ranking_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "The NIRF College 2025 listing contains Govt. College Bagh with city Dhar and state Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "official_government_directory",
+      "url": "https://highereducation.mp.gov.in/?page=3ReniKuyIMmDd4opO%2FkIdA%3D%3D",
+      "supports": [
+        "The Madhya Pradesh Higher Education government-college directory identifies the Bagh college entry with district Dhar."
+      ]
+    },
+    {
+      "type": "official_government_directory_record",
+      "url": "https://highereducation.mp.gov.in/CollegeDisp/getTable",
+      "supports": [
+        "The official directory data identifies orgid 161 as Govt. College, Baag, district Dhar, college code 2214."
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://highereducation.mp.gov.in/?orgid=161",
+      "supports": [
+        "The official campus profile title identifies शासकीय महाविद्यालय बाग, जिला - धार (म. प्र.)."
+      ]
+    },
+    {
+      "type": "official_regular_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=yGs4JC6aWkHIoMmiZfWjVw%3D%3D&orgid=161",
+      "supports": [
+        "The official Regular Courses page lists B. A. (B.A.- Plain), minimum qualification 10+2, and 300 seats."
+      ]
+    },
+    {
+      "type": "official_distance_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=Jrmm%2BKD8BLDefpITqvPa8w%3D%3D&orgid=161",
+      "supports": [
+        "The official Distance Education Programme page lists the nine M. A. programmes and B. A. (B.A.- Plain), with minimum qualifications and seats."
+      ]
+    },
+    {
+      "type": "official_prospectus_page",
+      "url": "https://highereducation.mp.gov.in/?page=ENRR18Xq%2FI5n5Z%2B1ZypNuQ%3D%3D&orgid=161",
+      "supports": [
+        "The official Prospectus page is under construction, so it does not establish a complete catalogue."
+      ]
+    },
+    {
+      "type": "official_new_course_page",
+      "url": "https://highereducation.mp.gov.in/?page=iZP8JZApp0Qu3RN%2FCSJn4w%3D%3D&orgid=161",
+      "supports": [
+        "The official New Course Started page is under construction, so it does not establish additional current programmes."
+      ]
+    }
+  ],
+  "website_search_evidence": [],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "govt-college-bagh-ba-plain-regular",
+      "name": "B. A. (B.A.- Plain)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=yGs4JC6aWkHIoMmiZfWjVw%3D%3D&orgid=161",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent: broad B.A. (plain) programme",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bagh-ma-ancient-history-distance",
+      "name": "M. A. (Ancient History)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Ancient History",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": "Post-Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=Jrmm%2BKD8BLDefpITqvPa8w%3D%3D&orgid=161",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "closest-specialization: history discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bagh-ma-economics-distance",
+      "name": "M. A. (Economics)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Economics",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": "Post-Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=Jrmm%2BKD8BLDefpITqvPa8w%3D%3D&orgid=161",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "closest-specialization: economics discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bagh-ma-english-distance",
+      "name": "M. A. (English)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "English",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": "Post-Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=Jrmm%2BKD8BLDefpITqvPa8w%3D%3D&orgid=161",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "closest-specialization: English literature discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bagh-ma-geography-distance",
+      "name": "M. A. (Geography)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Geography",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": "Post-Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=Jrmm%2BKD8BLDefpITqvPa8w%3D%3D&orgid=161",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent: social sciences; no Geography node exists in the local career tree",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bagh-ma-hindi-distance",
+      "name": "M. A. (Hindi)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Hindi",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": "Post-Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=Jrmm%2BKD8BLDefpITqvPa8w%3D%3D&orgid=161",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "closest-specialization: Hindi language discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bagh-ma-history-distance",
+      "name": "M. A. (History)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "History",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": "Post-Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=Jrmm%2BKD8BLDefpITqvPa8w%3D%3D&orgid=161",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "closest-specialization: history discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bagh-ma-political-science-distance",
+      "name": "M. A. (Political Science)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Political Science",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": "Post-Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=Jrmm%2BKD8BLDefpITqvPa8w%3D%3D&orgid=161",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "closest-specialization: political science discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bagh-ma-social-work-distance",
+      "name": "M. A. (Social Work (M.S.W))",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Social Work (M.S.W)",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": "Post-Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=Jrmm%2BKD8BLDefpITqvPa8w%3D%3D&orgid=161",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 269,
+          "career_node_slug": "social_worker",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology > Social Worker",
+          "relation": "closest-specialization: social work career outcome",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bagh-ma-sociology-distance",
+      "name": "M. A. (Sociology)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Sociology",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": "Post-Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=Jrmm%2BKD8BLDefpITqvPa8w%3D%3D&orgid=161",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "closest-specialization: sociology discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bagh-ba-plain-distance",
+      "name": "B. A. (B.A.- Plain)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "distance",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=Jrmm%2BKD8BLDefpITqvPa8w%3D%3D&orgid=161",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent: broad B.A. (plain) programme",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "Government listing verified: the NIRF 2025 College page contains Govt. College Bagh, Dhar, Madhya Pradesh.",
+    "The official Madhya Pradesh Higher Education directory maps the Bagh campus to orgid 161, college code 2214, and district Dhar; its profile title is शासकीय महाविद्यालय बाग, जिला - धार (म. प्र .).",
+    "The official Regular Courses and Distance Education Programme pages expose one regular undergraduate programme and ten distance programmes. Duration is not stated on the central official catalogue, so duration is null.",
+    "The official Prospectus and New Course Started pages are under construction, so the institution's full current catalogue cannot be established; record remains manual_review and course_catalogue_status is partial_official_website.",
+    "Normal TLS verification failed with the managed proxy's self signed certificate in certificate chain for public HTTPS requests; curl --insecure was used only for public GETs to the expected NIRF, highereducation.mp.gov.in, and other checked public government/search hosts."
+  ]
+}

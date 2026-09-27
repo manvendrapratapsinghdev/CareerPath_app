@@ -1,0 +1,15 @@
+{
+  "institution_id": "legacy-155",
+  "database_id": 155,
+  "name": "INIFD",
+  "website": "https://www.inifd.com",
+  "outcome": "manual_review",
+  "institution_type": null,
+  "source_url": null,
+  "confidence": null,
+  "evidence": null,
+  "notes": [
+    "The supplied official domain could not be reliably accessed via command-line HTTPS: DNS returned SERVFAIL and direct connection attempts returned an empty response, so official-site evidence could not establish the institution type.",
+    "Used curl --insecure only after the managed proxy certificate-chain error occurred."
+  ]
+}

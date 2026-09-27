@@ -1,0 +1,99 @@
+{
+  "institution_id": "govt-college-alampur",
+  "nirf_name": "GOVT. COLLEGE ALAMPUR",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Bhind",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://highereducation.mp.gov.in/?orgid=69",
+  "website_verification_status": "verified",
+  "description": "Government College, Alampur is a government college in Alampur, Bhind district, Madhya Pradesh.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_ranking_listing_college",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact NIRF row: GOVT. COLLEGE ALAMPUR | alampur | Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "government_ranking_listing_overall",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Exact NIRF row: GOVT. COLLEGE ALAMPUR | alampur | Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "official_college_profile_homepage",
+      "url": "https://highereducation.mp.gov.in/?orgid=69",
+      "supports": [
+        "College-specific official Madhya Pradesh Higher Education profile route for orgid 69"
+      ]
+    },
+    {
+      "type": "official_college_directory_identity",
+      "url": "https://highereducation.mp.gov.in/CollegeDisp/getTable",
+      "supports": [
+        "Official record orgid 69 identifies Govt College, Alampur, CollegeCode 0205, District Bhind"
+      ]
+    },
+    {
+      "type": "official_regular_courses_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=yP%2FZCvHfcUQsHOZXnBzYEw%3D%3D&orgid=69",
+      "supports": [
+        "Official Programmes Offered page exposes PG, UG and Diploma sections, but no programme rows are populated"
+      ]
+    },
+    {
+      "type": "official_distance_courses_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=wm%2BywRgKQ%2FyQEUJV%2FWJL8A%3D%3D&orgid=69",
+      "supports": [
+        "Official Distance Education Programme page exposes PG, UG and Diploma sections, but no programme rows are populated"
+      ]
+    },
+    {
+      "type": "official_prospectus_admissions_page",
+      "url": "https://highereducation.mp.gov.in/?page=OLWghV8LA0C2YFBsKHtikA%3D%3D&orgid=69",
+      "supports": [
+        "Official Prospectus page is marked under construction"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"GOVT. COLLEGE ALAMPUR\" Madhya Pradesh official website",
+      "result": "Bing search returned unrelated government and general results; no separate institution-specific official domain was identified.",
+      "url": "https://www.bing.com/search?format=rss&q=%22GOVT.%20COLLEGE%20ALAMPUR%22%20Madhya%20Pradesh%20official%20website"
+    },
+    {
+      "query": "\"Government College Alampur\" Bhind official website",
+      "result": "Bing search returned unrelated national and state government results; no separate institution-specific official domain was identified.",
+      "url": "https://www.bing.com/search?format=rss&q=%22Government%20College%20Alampur%22%20Bhind%20official%20website"
+    },
+    {
+      "query": "\"hegcalabhi@mp.gov.in\"",
+      "result": "No relevant institution-specific result was returned; the official profile was established through the Madhya Pradesh Higher Education college directory.",
+      "url": "https://www.bing.com/search?format=rss&q=%22hegcalabhi%40mp.gov.in%22"
+    },
+    {
+      "query": "official-domain check: highereducation.mp.gov.in",
+      "result": "The official Department of Higher Education, Madhya Pradesh site provides the public government-college directory and the college-specific orgid=69 profile route.",
+      "url": "https://highereducation.mp.gov.in/"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [],
+  "agent_notes": [
+    "The NIRF 2025 College and Overall listings both contain the exact institution row with city alampur and state Madhya Pradesh.",
+    "The official Madhya Pradesh Higher Education directory identifies orgid 69 as Govt College, Alampur, CollegeCode 0205, District Bhind; selecting that record routes to the college-specific profile.",
+    "The official Regular Courses page has empty PG, UG and Diploma tables; the Distance Education page is also empty and the Prospectus page is under construction. No active programme name can be imported without guessing.",
+    "The institution is therefore manual_review because the official catalogue is incomplete.",
+    "Normal TLS verification encountered the exact proxy error self signed certificate in certificate chain; public GETs were retried with curl --insecure on the expected official and search hostnames. No credentials or private data were sent."
+  ]
+}

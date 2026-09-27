@@ -1,0 +1,1810 @@
+{
+  "institution_id": "indian-institute-of-technology-indore",
+  "nirf_name": "Indian Institute of Technology Indore",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/EngineeringRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "verified",
+  "district": "Indore",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://www.iiti.ac.in/",
+  "website_verification_status": "verified",
+  "description": "Indian Institute of Technology Indore is an institute of national importance established by the Government of India in 2009, with a 501-acre residential campus at Simrol near Indore, Madhya Pradesh, offering undergraduate, postgraduate and doctoral programmes.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [
+    "academic.iiti.ac.in"
+  ],
+  "verification_sources": [
+    {
+      "type": "government_directory_engineering",
+      "url": "https://www.nirfindia.org/Rankings/2025/EngineeringRankingALL.html",
+      "supports": [
+        "Exact institution name, city Indore and state Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "government_directory_overall",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Exact institution name, city Indore and state Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://www.iiti.ac.in/",
+      "supports": [
+        "Official IIT Indore identity and homepage"
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "https://www.iiti.ac.in/about",
+      "supports": [
+        "Institute identity, 501-acre residential campus at Simrol near Indore, Madhya Pradesh, institutional description and campus address"
+      ]
+    },
+    {
+      "type": "official_academics_overview",
+      "url": "https://www.iiti.ac.in/academics",
+      "supports": [
+        "Official programme families and dual-degree categories"
+      ]
+    },
+    {
+      "type": "official_programme_catalogue",
+      "url": "https://academic.iiti.ac.in/academic_program.php",
+      "supports": [
+        "Current active Bachelor of Technology, Bachelor of Design, Bachelor of Science, Master of Technology, Master of Science, BTech+MTech, MS(Research), PhD and M.A. programme list with academic-year entries"
+      ]
+    },
+    {
+      "type": "official_ug_catalogue",
+      "url": "https://www.iiti.ac.in/academics/courses/ug/btech",
+      "supports": [
+        "Bachelor of Technology course catalogue and programme family"
+      ]
+    },
+    {
+      "type": "official_ug_catalogue",
+      "url": "https://www.iiti.ac.in/academics/courses/ug/bdes",
+      "supports": [
+        "Bachelor of Design course catalogue"
+      ]
+    },
+    {
+      "type": "official_ug_catalogue",
+      "url": "https://www.iiti.ac.in/academics/courses/ug/B.S.",
+      "supports": [
+        "Bachelor of Science course catalogue"
+      ]
+    },
+    {
+      "type": "official_pg_catalogue",
+      "url": "https://www.iiti.ac.in/academics/pgcourses/mtech",
+      "supports": [
+        "Two-year Master of Technology course catalogue and specializations"
+      ]
+    },
+    {
+      "type": "official_pg_catalogue",
+      "url": "https://www.iiti.ac.in/academics/pgcourses/msc",
+      "supports": [
+        "Master of Science course catalogue and specializations"
+      ]
+    },
+    {
+      "type": "official_pg_catalogue",
+      "url": "https://www.iiti.ac.in/academics/pgcourses/ms",
+      "supports": [
+        "Master of Science (Research) course catalogue and specializations"
+      ]
+    },
+    {
+      "type": "official_pg_catalogue",
+      "url": "https://www.iiti.ac.in/academics/pgcourses/ma",
+      "supports": [
+        "Master of Arts course catalogue"
+      ]
+    },
+    {
+      "type": "official_pg_catalogue",
+      "url": "https://www.iiti.ac.in/academics/pgcourses/mtech_three_years",
+      "supports": [
+        "Three-year Master of Technology course catalogue"
+      ]
+    },
+    {
+      "type": "official_phd_catalogue",
+      "url": "https://www.iiti.ac.in/admissions/phd_info",
+      "supports": [
+        "Official Doctor of Philosophy programme and admissions page"
+      ]
+    },
+    {
+      "type": "official_academic_curriculum_catalogue",
+      "url": "https://academic.iiti.ac.in/app/course_curriculum_list_pg",
+      "supports": [
+        "Official department-wise PG/PhD curriculum catalogue"
+      ]
+    }
+  ],
+  "website_search_evidence": [],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-btech-cse",
+      "name": "Bachelor of Technology (BTech)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Technology",
+      "specialization": "Computer Science and Engineering",
+      "duration": "4 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-btech-ee",
+      "name": "Bachelor of Technology (BTech)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Technology",
+      "specialization": "Electrical Engineering",
+      "duration": "4 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-btech-me",
+      "name": "Bachelor of Technology (BTech)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Technology",
+      "specialization": "Mechanical Engineering",
+      "duration": "4 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-btech-ce",
+      "name": "Bachelor of Technology (BTech)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Technology",
+      "specialization": "Civil Engineering",
+      "duration": "4 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-btech-mems",
+      "name": "Bachelor of Technology (BTech)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Technology",
+      "specialization": "Metallurgical Engineering and Materials Science",
+      "duration": "4 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest-parent mapping; no metallurgical/materials node exists in the career tree",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-btech-chemical",
+      "name": "Bachelor of Technology (BTech)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Technology",
+      "specialization": "Chemical Engineering",
+      "duration": "4 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 86,
+          "career_node_slug": "btech_chem",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Chemical Engineering",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-btech-mathematics-computing",
+      "name": "Bachelor of Technology (BTech)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Technology",
+      "specialization": "Mathematics and Computing",
+      "duration": "4 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "closest-discipline mapping; no Mathematics and Computing B.Tech node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-btech-engineering-physics",
+      "name": "Bachelor of Technology (BTech)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Technology",
+      "specialization": "Engineering Physics",
+      "duration": "4 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 24,
+          "career_node_slug": "bsc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics",
+          "relation": "closest-discipline mapping; no Engineering Physics B.Tech node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-btech-space-science-engineering",
+      "name": "Bachelor of Technology (BTech)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Technology",
+      "specialization": "Space Science and Engineering (SSE)",
+      "duration": "4 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 87,
+          "career_node_slug": "btech_aero",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Aerospace Engineering",
+          "relation": "closest-specialization mapping for space engineering",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-btech-biomedical-data-science",
+      "name": "Bachelor of Technology (BTech)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Technology",
+      "specialization": "Biomedical Engineering and Data Science",
+      "duration": "4 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 88,
+          "career_node_slug": "btech_biotech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Biotechnology",
+          "relation": "closest-specialization mapping for biomedical engineering",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 31,
+          "career_node_slug": "bsc_ds",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Data Science",
+          "relation": "closest-discipline mapping for data science",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-btech-environmental-sustainable-engineering",
+      "name": "Bachelor of Technology (BTech)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Technology",
+      "specialization": "Environmental Economics and Sustainable Engineering",
+      "duration": "4 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 26,
+          "career_node_slug": "bsc_env",
+          "career_breadcrumb": "Common Paths > B.Sc Environmental Science",
+          "relation": "closest-discipline mapping for environmental and sustainability studies",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-bdes",
+      "name": "Bachelor of Design",
+      "level": "undergraduate",
+      "credential": "Bachelor of Design",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.iiti.ac.in/academics/courses/ug/bdes",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 55,
+          "career_node_slug": "bdes",
+          "career_breadcrumb": "Design & Architecture > B.Des (Design)",
+          "relation": "direct degree mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-bs-applied-industrial-chemistry",
+      "name": "Bachelor of Science (BS)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Science",
+      "specialization": "Applied and Industrial Chemistry",
+      "duration": "4 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "closest-discipline mapping for applied and industrial chemistry",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-mtech-ee-csp",
+      "name": "Master of Technology (MTech)",
+      "level": "postgraduate",
+      "credential": "Master of Technology",
+      "specialization": "Electrical Engineering with specialization in Communication and Signal Processing",
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-mtech-ee-vlsi",
+      "name": "Master of Technology (MTech)",
+      "level": "postgraduate",
+      "credential": "Master of Technology",
+      "specialization": "Electrical Engineering with specialization in VLSI Design and Nanoelectronics",
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "closest-specialization mapping for VLSI and nanoelectronics",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-mtech-me-advanced-manufacturing",
+      "name": "Master of Technology (MTech)",
+      "level": "postgraduate",
+      "credential": "Master of Technology",
+      "specialization": "Mechanical Engineering with specialization in Advanced Manufacturing (AM) (Formally Production and Industrial Engineering)",
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-mtech-me-thermal",
+      "name": "Master of Technology (MTech)",
+      "level": "postgraduate",
+      "credential": "Master of Technology",
+      "specialization": "Mechanical Engineering with specialization in Thermal Energy Systems (TES)",
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-mtech-me-mechanical-systems",
+      "name": "Master of Technology (MTech)",
+      "level": "postgraduate",
+      "credential": "Master of Technology",
+      "specialization": "Mechanical Engineering with specialization in Mechanical Systems Design",
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-mtech-mems-materials-science",
+      "name": "Master of Technology (MTech)",
+      "level": "postgraduate",
+      "credential": "Master of Technology",
+      "specialization": "Metallurgical Engineering and Materials Science with specialization in Materials Science and Engineering",
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest-parent mapping; no metallurgical/materials node exists in the career tree",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-mtech-mems-metallurgical",
+      "name": "Master of Technology (MTech)",
+      "level": "postgraduate",
+      "credential": "Master of Technology",
+      "specialization": "Metallurgical Engineering and Materials Science with specialization in Metallurgical Engineering",
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest-parent mapping; no metallurgical/materials node exists in the career tree",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-mtech-ev",
+      "name": "Master of Technology (MTech)",
+      "level": "postgraduate",
+      "credential": "Master of Technology",
+      "specialization": "M.Tech. in Electric Vehicle Technology from Center for Electric Vehicles Intelligent Transport Systems (CEVITS)",
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "closest-discipline mapping for electric vehicle technology",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-mtech-space-engineering",
+      "name": "Master of Technology (MTech)",
+      "level": "postgraduate",
+      "credential": "Master of Technology",
+      "specialization": "M.Tech. in Space Engineering from Department of Astronomy, Astrophysics And Space Engineering (DAASE)",
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 87,
+          "career_node_slug": "btech_aero",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Aerospace Engineering",
+          "relation": "closest-specialization mapping for space engineering",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-mtech-cse",
+      "name": "Master of Technology (MTech)",
+      "level": "postgraduate",
+      "credential": "Master of Technology",
+      "specialization": "Computer Science and Engineering with specialization in Computer Science and Engineering",
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-mtech-water-climate-sustainability",
+      "name": "Master of Technology (MTech)",
+      "level": "postgraduate",
+      "credential": "Master of Technology",
+      "specialization": "Civil Engineering with specialization in Water, Climate and Sustainability",
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 26,
+          "career_node_slug": "bsc_env",
+          "career_breadcrumb": "Common Paths > B.Sc Environmental Science",
+          "relation": "closest-discipline mapping for water, climate and sustainability",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-mtech-biomedical-engineering",
+      "name": "Master of Technology (MTech)",
+      "level": "postgraduate",
+      "credential": "Master of Technology",
+      "specialization": "Biosciences and Biomedical Engineering with specialization in Biomedical Engineering",
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 88,
+          "career_node_slug": "btech_biotech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Biotechnology",
+          "relation": "closest-specialization mapping for biomedical engineering",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-mtech-applied-optics",
+      "name": "Master of Technology (MTech)",
+      "level": "postgraduate",
+      "credential": "Master of Technology",
+      "specialization": "Mechanical Engineering with specialization in Applied Optics and laser Technology",
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "closest-discipline mapping for applied optics and laser technology",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-mtech-structural",
+      "name": "Master of Technology (MTech)",
+      "level": "postgraduate",
+      "credential": "Master of Technology",
+      "specialization": "Civil Engineering with specialization in Structural Engineering",
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-mtech-defence",
+      "name": "Master of Technology (MTech)",
+      "level": "postgraduate",
+      "credential": "Master of Technology",
+      "specialization": "Center of Futuristic Defence and Space Technology with specialization in Defence Technology",
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 87,
+          "career_node_slug": "btech_aero",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Aerospace Engineering",
+          "relation": "closest-specialization mapping for defence and space technology",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-mtech-ee-power",
+      "name": "Master of Technology (MTech)",
+      "level": "postgraduate",
+      "credential": "Master of Technology",
+      "specialization": "Electrical Engineering with specialization in Power Systems and Power Electronics",
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-mtech-biomedical-devices",
+      "name": "Master of Technology (MTech)",
+      "level": "postgraduate",
+      "credential": "Master of Technology",
+      "specialization": "Biosciences and Biomedical Engineering with specialization in Biomedical Devices",
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 88,
+          "career_node_slug": "btech_biotech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Biotechnology",
+          "relation": "closest-specialization mapping for biomedical devices",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-mtech-geotechnical",
+      "name": "Master of Technology (MTech)",
+      "level": "postgraduate",
+      "credential": "Master of Technology",
+      "specialization": "Civil Engineering with specialization in Geotechnical Engineering",
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-mtech-transportation",
+      "name": "Master of Technology (MTech)",
+      "level": "postgraduate",
+      "credential": "Master of Technology",
+      "specialization": "Civil Engineering with specialization in Transportation Systems Engineering",
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-mtech-chemical-processes",
+      "name": "Master of Technology (MTech)",
+      "level": "postgraduate",
+      "credential": "Master of Technology",
+      "specialization": "Chemical Engineering with specialization in Chemical Processes Design & Intelligence",
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 86,
+          "career_node_slug": "btech_chem",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Chemical Engineering",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-mtech-three-year-cse",
+      "name": "Master of Technology(3 years)",
+      "level": "postgraduate",
+      "credential": "Master of Technology",
+      "specialization": "Computer Science and Engineering",
+      "duration": "3 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.iiti.ac.in/academics/pgcourses/mtech_three_years",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-msc-chemistry",
+      "name": "Two-year Master of Science (MSc)",
+      "level": "postgraduate",
+      "credential": "Master of Science",
+      "specialization": "Chemistry",
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-msc-physics",
+      "name": "Two-year Master of Science (MSc)",
+      "level": "postgraduate",
+      "credential": "Master of Science",
+      "specialization": "Physics",
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 24,
+          "career_node_slug": "bsc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-msc-mathematics",
+      "name": "Two-year Master of Science (MSc)",
+      "level": "postgraduate",
+      "credential": "Master of Science",
+      "specialization": "Mathematics",
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-msc-biotechnology",
+      "name": "Two-year Master of Science (MSc)",
+      "level": "postgraduate",
+      "credential": "Master of Science",
+      "specialization": "Biotechnology",
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest-discipline mapping for biotechnology",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-msc-astronomy",
+      "name": "Two-year Master of Science (MSc)",
+      "level": "postgraduate",
+      "credential": "Master of Science",
+      "specialization": "Astronomy",
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 87,
+          "career_node_slug": "btech_aero",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Aerospace Engineering",
+          "relation": "closest-specialization mapping for astronomy",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-btech-mtech-ee-csp",
+      "name": "Five-year BTech + MTech",
+      "level": "dual_degree",
+      "credential": "B.Tech + M.Tech dual degree",
+      "specialization": "BTech in Electrical Engineering with MTech in Communication and Signal Processing",
+      "duration": "5 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-btech-mtech-ee-vlsi",
+      "name": "Five-year BTech + MTech",
+      "level": "dual_degree",
+      "credential": "B.Tech + M.Tech dual degree",
+      "specialization": "BTech in Electrical Engineering with MTech in VLSI Design and Nanoelectronics",
+      "duration": "5 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "closest-specialization mapping for VLSI and nanoelectronics",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-btech-mtech-me-production",
+      "name": "Five-year BTech + MTech",
+      "level": "dual_degree",
+      "credential": "B.Tech + M.Tech dual degree",
+      "specialization": "BTech in Mechanical Engineering with MTech in Production and Industrial Engineering",
+      "duration": "5 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-btech-mtech-mechanical-systems",
+      "name": "Five-year BTech + MTech",
+      "level": "dual_degree",
+      "credential": "B.Tech + M.Tech dual degree",
+      "specialization": "BTech in Mechanical Engineering with MTech in Mechanical Systems Design",
+      "duration": "5 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-ms-research-cse",
+      "name": "MS(Research)",
+      "level": "postgraduate",
+      "credential": "Master of Science (Research)",
+      "specialization": "Computer Science and Engineering",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-ms-research-ee",
+      "name": "MS(Research)",
+      "level": "postgraduate",
+      "credential": "Master of Science (Research)",
+      "specialization": "Electrical Engineering",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-ms-research-me",
+      "name": "MS(Research)",
+      "level": "postgraduate",
+      "credential": "Master of Science (Research)",
+      "specialization": "Mechanical Engineering",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-ms-research-space",
+      "name": "MS(Research)",
+      "level": "postgraduate",
+      "credential": "Master of Science (Research)",
+      "specialization": "Space Science and Engineering",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 87,
+          "career_node_slug": "btech_aero",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Aerospace Engineering",
+          "relation": "closest-specialization mapping for space science and engineering",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-ms-research-hss",
+      "name": "MS(Research)",
+      "level": "postgraduate",
+      "credential": "Master of Science (Research)",
+      "specialization": "Humanities and Social Sciences",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent mapping for humanities and social sciences",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-ms-dsm",
+      "name": "Master of Science in Data Science and Management (MS-DSM)",
+      "level": "postgraduate",
+      "credential": "Master of Science",
+      "specialization": "Data Science and Management",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 31,
+          "career_node_slug": "bsc_ds",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Data Science",
+          "relation": "closest-discipline mapping for data science and management",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-phd-cse",
+      "name": "Doctor of Philosophy",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Computer Science and Engineering",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct discipline mapping by discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-phd-ee",
+      "name": "Doctor of Philosophy",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Electrical Engineering",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "direct discipline mapping by discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-phd-me",
+      "name": "Doctor of Philosophy",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Mechanical Engineering",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct discipline mapping by discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-phd-ce",
+      "name": "Doctor of Philosophy",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Civil Engineering",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "direct discipline mapping by discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-phd-mems",
+      "name": "Doctor of Philosophy",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Metallurgical Engineering and Materials Science",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest-parent mapping; no metallurgical/materials node exists in the career tree",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-phd-biosciences",
+      "name": "Doctor of Philosophy",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Bio-sciences and Bio-medical Engineering",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 88,
+          "career_node_slug": "btech_biotech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Biotechnology",
+          "relation": "closest-specialization mapping for biosciences and biomedical engineering",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-phd-chemistry",
+      "name": "Doctor of Philosophy",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Chemistry",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "direct discipline mapping by discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-phd-physics",
+      "name": "Doctor of Philosophy",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Physics",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 24,
+          "career_node_slug": "bsc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics",
+          "relation": "direct discipline mapping by discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-phd-mathematics",
+      "name": "Doctor of Philosophy",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Mathematics",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct discipline mapping by discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-phd-english",
+      "name": "Doctor of Philosophy",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "English",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "closest-discipline mapping for English",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-phd-philosophy",
+      "name": "Doctor of Philosophy",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Philosophy",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "No responsible Philosophy node exists in career_path.db."
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-phd-economics",
+      "name": "Doctor of Philosophy",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Economics",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "closest-discipline mapping for Economics",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-phd-psychology",
+      "name": "Doctor of Philosophy",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Psychology",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 66,
+          "career_node_slug": "ba_psychology",
+          "career_breadcrumb": "Social Sciences & Education > BA Psychology",
+          "relation": "closest-discipline mapping for Psychology",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-phd-sociology",
+      "name": "Doctor of Philosophy",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Sociology",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "closest-discipline mapping for Sociology",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-phd-aase",
+      "name": "Doctor of Philosophy",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Astronomy, Astrophysics and Space Engineering",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 87,
+          "career_node_slug": "btech_aero",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Aerospace Engineering",
+          "relation": "closest-specialization mapping for astronomy, astrophysics and space engineering",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-phd-advanced-electronics",
+      "name": "Doctor of Philosophy",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Centre of Advanced Electronics",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "closest-discipline mapping for advanced electronics",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-phd-crdt",
+      "name": "Doctor of Philosophy",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Centre for Rural Development and Technology (CRDT)",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "No responsible direct career-tree node exists for the Centre for Rural Development and Technology."
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-phd-cevits",
+      "name": "Doctor of Philosophy",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Center for Electric Vehicle and Intelligent Transport Systems (CEVITS)",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "closest-discipline mapping for electric vehicle and intelligent transport systems",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-phd-cfdst",
+      "name": "Doctor of Philosophy",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Center of Futuristic Defense and Space Technology (CFDST)",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 87,
+          "career_node_slug": "btech_aero",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Aerospace Engineering",
+          "relation": "closest-specialization mapping for defense and space technology",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-phd-jp-narayan-humanities",
+      "name": "Doctor of Philosophy",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "JP Narayan National Center of Excellence in the Humanities",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent mapping for humanities",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-phd-chemical-engineering",
+      "name": "Doctor of Philosophy",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Chemical Engineering",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 86,
+          "career_node_slug": "btech_chem",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Chemical Engineering",
+          "relation": "direct discipline mapping by discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-ma-english",
+      "name": "M.A. ENGLISH (LITERATURE AND LINGUISTICS)",
+      "level": "postgraduate",
+      "credential": "Master of Arts",
+      "specialization": "English (Literature and Linguistics)",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://academic.iiti.ac.in/academic_program.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "closest-discipline mapping for English literature and linguistics",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-mtech-phd-dual",
+      "name": "M.Tech. + PhD",
+      "level": "dual_degree",
+      "credential": "M.Tech. + PhD dual degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.iiti.ac.in/academics",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [],
+      "mapping_gap": "The official site lists this as a dual-degree pathway without a single discipline-specific specialization."
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-msc-phd-dual",
+      "name": "M.Sc + PhD",
+      "level": "dual_degree",
+      "credential": "M.Sc + PhD dual degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.iiti.ac.in/academics",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [],
+      "mapping_gap": "The official site lists this as a dual-degree pathway without a single discipline-specific specialization."
+    },
+    {
+      "course_id": "indian-institute-of-technology-indore-iiti-ms-phd-dual",
+      "name": "MS + Ph.D",
+      "level": "dual_degree",
+      "credential": "MS + Ph.D dual degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://www.iiti.ac.in/academics",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [],
+      "mapping_gap": "The official site lists this as a dual-degree pathway without a single discipline-specific specialization."
+    }
+  ],
+  "agent_notes": [
+    "Both supplied NIRF 2025 Engineering and Overall participated-institute listings contain the exact institution name with city Indore and state Madhya Pradesh.",
+    "The official About page identifies a 501-acre residential campus at Simrol near Indore, Madhya Pradesh; the official footer gives Khandwa Road, Simrol, Indore 453552.",
+    "The official academic-programme catalogue lists current active undergraduate, postgraduate, dual-degree, MS(Research), doctoral and M.A. programmes with academic-year entries. No active diploma or certificate programme is listed there.",
+    "The official high-level academics page additionally displays the programme-family labels M.Tech. + PhD, M.Sc + PhD and MS + Ph.D; these are retained as verified programme-family pathways, while the detailed academic-programme catalogue enumerates the discipline-specific offerings.",
+    "Duration was populated only where an official catalogue page explicitly states it; eligibility and unstated durations remain null.",
+    "Normal TLS verification failed with the exact managed-proxy self-signed-certificate-in-chain error. Public GET requests then used curl --insecure only for the confirmed official hosts www.nirfindia.org, www.iiti.ac.in and academic.iiti.ac.in."
+  ]
+}

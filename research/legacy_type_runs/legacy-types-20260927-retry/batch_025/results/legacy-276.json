@@ -1,0 +1,14 @@
+{
+  "institution_id": "legacy-276",
+  "database_id": 276,
+  "name": "Jadavpur University",
+  "website": "https://www.jaduniv.edu.in",
+  "outcome": "classified",
+  "institution_type": "state_university",
+  "source_url": "https://www.jaduniv.edu.in/about_us.php",
+  "confidence": "high",
+  "evidence": "The official About Us page states that the Government of West Bengal enacted legislation to establish Jadavpur University, identifying it as a state-established university.",
+  "notes": [
+    "Used curl --insecure after the managed proxy returned a self-signed certificate-chain error; the official hostname also returned a DNS SERVFAIL during direct retrieval."
+  ]
+}

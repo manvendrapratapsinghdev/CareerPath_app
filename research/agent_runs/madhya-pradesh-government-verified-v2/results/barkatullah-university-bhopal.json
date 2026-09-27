@@ -1,0 +1,99 @@
+{
+  "institution_id": "barkatullah-university-bhopal",
+  "nirf_name": "Barkatullah University, Bhopal",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Bhopal",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://bubhopal.ac.in/",
+  "website_verification_status": "verified",
+  "description": "Barkatullah Vishwavidyalaya, formerly Bhopal University, is a state university established in 1970 in Bhopal, Madhya Pradesh.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html",
+      "supports": [
+        "exact institution name",
+        "Bhopal city",
+        "Madhya Pradesh state"
+      ]
+    },
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "exact institution name",
+        "Bhopal city",
+        "Madhya Pradesh state"
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://bubhopal.ac.in/",
+      "supports": [
+        "official identity",
+        "current UTD Admission 2026-27 notice",
+        "official catalogue link"
+      ]
+    },
+    {
+      "type": "official_identity",
+      "url": "https://bubhopal.ac.in/1088/Contact-Us",
+      "supports": [
+        "Bhopal campus address",
+        "Hoshangabad Road, Bhopal-462026, Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "official_description",
+      "url": "https://bubhopal.ac.in/1111/About-the-University",
+      "supports": [
+        "institution history",
+        "Bhopal, Madhya Pradesh identity"
+      ]
+    },
+    {
+      "type": "official_catalogue",
+      "url": "https://bubhopal.ac.in/Site/Upload/Menu/1600_1637_BU-Program-Details_BU%20Program%20Details.pdf",
+      "supports": [
+        "official 152-entry Programme Details list"
+      ]
+    },
+    {
+      "type": "official_programme",
+      "url": "https://bubhopal.ac.in/Site/Upload/Menu/1119_1604_Chemistry-Notification_chemistry%20otification.pdf",
+      "supports": [
+        "M.Sc.(Chemistry) course",
+        "two-year duration",
+        "B.Sc. eligibility",
+        "Ph.D. Chemistry programme"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "Barkatullah University Bhopal official website",
+      "result": "Command-line search responses did not expose a usable result link; direct GET verification of the expected official host bubhopal.ac.in returned the university homepage.",
+      "url": "https://www.google.com/search?q=Barkatullah+University+Bhopal+official+website"
+    },
+    {
+      "query": "Barkatullah Vishwavidyalaya Bhopal official homepage",
+      "result": "Command-line Bing response did not expose a usable result link; direct GET verification of the expected official host bubhopal.ac.in returned the university homepage.",
+      "url": "https://www.bing.com/search?q=Barkatullah+Vishwavidyalaya+Bhopal+official+homepage"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [],
+  "agent_notes": [
+    "The official homepage links a 152-entry BU Program Details PDF, but the official Chemistry department page separately lists current M.Sc.(Chemistry) and Ph.D. Chemistry offerings that are absent from that central catalogue.",
+    "Because the official programme catalogue is internally incomplete and the full active programme set cannot be established without guessing, course import and career-tree mappings are withheld for manual review.",
+    "The Chemistry page explicitly states M.Sc.(Chemistry) is two years/four semesters with B.Sc. and minimum 50% Chemistry-major eligibility; these facts were not imported because the catalogue reconciliation is unresolved.",
+    "Normal TLS verification produced curl error 60 (self-signed certificate in chain) for the expected official hosts; public GETs used curl --insecure only after confirming the expected hostnames."
+  ]
+}

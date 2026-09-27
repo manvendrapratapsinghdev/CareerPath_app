@@ -1,0 +1,208 @@
+{
+  "run_id": "uttar-pradesh-nirf-strict-5-all-remaining",
+  "started_at": "2026-09-27T12:02:45.131272+00:00",
+  "finished_at": "2026-09-27T13:22:02.675186+00:00",
+  "manifest": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/uttar_pradesh_nirf_remaining_assignments_5.json",
+  "assignment_count": 140,
+  "configured_max_parallel_agents": 25,
+  "successful_batch_count": 12,
+  "failed_batch_count": 16,
+  "batches": [
+    {
+      "batch": 1,
+      "return_code": 0,
+      "status": "completed",
+      "runner": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/tooling/run_college_batch.py",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/batch_logs/batch_01.log"
+    },
+    {
+      "batch": 2,
+      "return_code": 0,
+      "status": "completed",
+      "runner": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/tooling/run_college_batch.py",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/batch_logs/batch_02.log"
+    },
+    {
+      "batch": 3,
+      "return_code": 0,
+      "status": "completed",
+      "runner": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/tooling/run_college_batch.py",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/batch_logs/batch_03.log"
+    },
+    {
+      "batch": 4,
+      "return_code": 1,
+      "status": "failed",
+      "runner": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/tooling/run_college_batch.py",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/batch_logs/batch_04.log"
+    },
+    {
+      "batch": 5,
+      "return_code": 0,
+      "status": "completed",
+      "runner": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/tooling/run_college_batch.py",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/batch_logs/batch_05.log"
+    },
+    {
+      "batch": 6,
+      "return_code": 0,
+      "status": "completed",
+      "runner": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/tooling/run_college_batch.py",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/batch_logs/batch_06.log"
+    },
+    {
+      "batch": 7,
+      "return_code": 1,
+      "status": "failed",
+      "runner": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/tooling/run_college_batch.py",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/batch_logs/batch_07.log"
+    },
+    {
+      "batch": 8,
+      "return_code": 0,
+      "status": "completed",
+      "runner": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/tooling/run_college_batch.py",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/batch_logs/batch_08.log"
+    },
+    {
+      "batch": 9,
+      "return_code": 0,
+      "status": "completed",
+      "runner": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/tooling/run_college_batch.py",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/batch_logs/batch_09.log"
+    },
+    {
+      "batch": 10,
+      "return_code": 1,
+      "status": "failed",
+      "runner": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/tooling/run_college_batch.py",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/batch_logs/batch_10.log"
+    },
+    {
+      "batch": 11,
+      "return_code": 1,
+      "status": "failed",
+      "runner": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/tooling/run_college_batch.py",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/batch_logs/batch_11.log"
+    },
+    {
+      "batch": 12,
+      "return_code": 1,
+      "status": "failed",
+      "runner": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/tooling/run_college_batch.py",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/batch_logs/batch_12.log"
+    },
+    {
+      "batch": 13,
+      "return_code": 1,
+      "status": "failed",
+      "runner": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/tooling/run_college_batch.py",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/batch_logs/batch_13.log"
+    },
+    {
+      "batch": 14,
+      "return_code": 1,
+      "status": "failed",
+      "runner": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/tooling/run_college_batch.py",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/batch_logs/batch_14.log"
+    },
+    {
+      "batch": 15,
+      "return_code": 1,
+      "status": "failed",
+      "runner": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/tooling/run_college_batch.py",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/batch_logs/batch_15.log"
+    },
+    {
+      "batch": 16,
+      "return_code": 1,
+      "status": "failed",
+      "runner": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/tooling/run_college_batch.py",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/batch_logs/batch_16.log"
+    },
+    {
+      "batch": 17,
+      "return_code": 1,
+      "status": "failed",
+      "runner": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/tooling/run_college_batch.py",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/batch_logs/batch_17.log"
+    },
+    {
+      "batch": 18,
+      "return_code": 1,
+      "status": "failed",
+      "runner": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/tooling/run_college_batch.py",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/batch_logs/batch_18.log"
+    },
+    {
+      "batch": 19,
+      "return_code": 1,
+      "status": "failed",
+      "runner": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/tooling/run_college_batch.py",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/batch_logs/batch_19.log"
+    },
+    {
+      "batch": 20,
+      "return_code": 1,
+      "status": "failed",
+      "runner": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/tooling/run_college_batch.py",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/batch_logs/batch_20.log"
+    },
+    {
+      "batch": 21,
+      "return_code": 1,
+      "status": "failed",
+      "runner": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/tooling/run_college_batch.py",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/batch_logs/batch_21.log"
+    },
+    {
+      "batch": 22,
+      "return_code": 0,
+      "status": "completed",
+      "runner": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/tooling/run_college_batch.py",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/batch_logs/batch_22.log"
+    },
+    {
+      "batch": 23,
+      "return_code": 0,
+      "status": "completed",
+      "runner": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/tooling/run_college_batch.py",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/batch_logs/batch_23.log"
+    },
+    {
+      "batch": 24,
+      "return_code": 0,
+      "status": "completed",
+      "runner": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/tooling/run_college_batch.py",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/batch_logs/batch_24.log"
+    },
+    {
+      "batch": 25,
+      "return_code": 0,
+      "status": "completed",
+      "runner": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/tooling/run_college_batch.py",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/batch_logs/batch_25.log"
+    },
+    {
+      "batch": 26,
+      "return_code": 1,
+      "status": "failed",
+      "runner": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/tooling/run_college_batch.py",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/batch_logs/batch_26.log"
+    },
+    {
+      "batch": 27,
+      "return_code": 1,
+      "status": "failed",
+      "runner": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/tooling/run_college_batch.py",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/batch_logs/batch_27.log"
+    },
+    {
+      "batch": 28,
+      "return_code": 0,
+      "status": "completed",
+      "runner": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/tooling/run_college_batch.py",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/batch_logs/batch_28.log"
+    }
+  ]
+}

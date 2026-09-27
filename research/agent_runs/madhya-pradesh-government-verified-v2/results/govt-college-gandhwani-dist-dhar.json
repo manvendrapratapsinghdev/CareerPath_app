@@ -1,0 +1,69 @@
+{
+  "institution_id": "govt-college-gandhwani-dist-dhar",
+  "nirf_name": "GOVT. COLLEGE GANDHWANI, DIST. DHAR",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Dhar",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://highereducation.mp.gov.in/?orgid=152",
+  "website_verification_status": "verified",
+  "description": "A government college in Gandhwani, Dhar district, Madhya Pradesh, under the Madhya Pradesh Higher Education Department.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact NIRF-listed institution name with city Gandhwani and state Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://highereducation.mp.gov.in/?orgid=152",
+      "supports": [
+        "Official college homepage identifies the Gandhwani, Dhar campus and Madhya Pradesh Higher Education Department."
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "https://highereducation.mp.gov.in/CollegeProfile/AtAGlance?orgid=152",
+      "supports": [
+        "Official institutional profile repeats the Gandhwani/Dhar campus identity."
+      ]
+    },
+    {
+      "type": "official_catalogue_regular",
+      "url": "https://highereducation.mp.gov.in/CollegeProfile/Course?orgid=152",
+      "supports": [
+        "Official PG, UG, and Diploma programme sections contain no programme rows."
+      ]
+    },
+    {
+      "type": "official_catalogue_distance",
+      "url": "https://highereducation.mp.gov.in/CollegeProfile/CourseDistance?orgid=152",
+      "supports": [
+        "Official distance PG, UG, and Diploma programme sections contain no programme rows."
+      ]
+    },
+    {
+      "type": "official_catalogue_supplement",
+      "url": "https://highereducation.mp.gov.in/?page=gMKEBvT8Eo4IubD03tdppg%3D%3D&orgid=152",
+      "supports": [
+        "Official Prospectus page provides no programme entries."
+      ]
+    }
+  ],
+  "website_search_evidence": [],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [],
+  "agent_notes": [
+    "The NIRF 2025 College Ranking ALL page contains the exact assigned institution and lists Gandhwani, Madhya Pradesh.",
+    "The official regular-course and distance-course pages expose programme categories but contain headers only and no course rows; the official Prospectus page also has no programme entries.",
+    "Because the official catalogue is incomplete/empty, no course was imported and the record requires manual review; duration and eligibility remain unverified and null.",
+    "Normal curl TLS first returned the managed proxy error 'self signed certificate in certificate chain'; subsequent public GETs used --insecure only after confirming the expected public hostnames."
+  ]
+}

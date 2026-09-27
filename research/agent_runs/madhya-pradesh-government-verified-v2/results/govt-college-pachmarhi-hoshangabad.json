@@ -1,0 +1,147 @@
+{
+  "institution_id": "govt-college-pachmarhi-hoshangabad",
+  "nirf_name": "Govt. College, Pachmarhi, Hoshangabad",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Narmadapuram",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://highereducation.mp.gov.in/?orgid=200",
+  "website_verification_status": "verified",
+  "description": "Raja Bhabhut Singh, Government College, Pachmarhi is a government college in Pachmarhi, Narmadapuram district, Madhya Pradesh; the official profile lists its establishment year as 1989.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Exact NIRF institution name, city Pachmarhi, and state Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "official_state_college_directory",
+      "url": "https://highereducation.mp.gov.in/CollegeDisp/getTable",
+      "supports": [
+        "Official state directory record for Raja Bhabhut Singh, Government College, Pachmarhi, district Narmadapuram, orgid 200"
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://highereducation.mp.gov.in/?orgid=200",
+      "supports": [
+        "College-specific official portal and academic navigation"
+      ]
+    },
+    {
+      "type": "official_profile",
+      "url": "https://highereducation.mp.gov.in/?page=Fi0lwPlolrIHhZvPDzpJiQ%3D%3D&orgid=200",
+      "supports": [
+        "Official At A Glance profile; establishment year 1989"
+      ]
+    },
+    {
+      "type": "official_departments_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=02%2Bsh7ctBb1VEX4bfPwRrw%3D%3D&orgid=200",
+      "supports": [
+        "Official Department Wise Staff Detail page; no department rows are published"
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=w%2FscQ2eqkxTwcf7elTSgbA%3D%3D&orgid=200",
+      "supports": [
+        "Official Regular Courses catalogue; B. A. (Geography - Political Science - Sociology), minimum qualification 10+2; PG and Diploma sections are empty"
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=02ApfgPRmgj%2FR3CpYJAmLQ%3D%3D&orgid=200",
+      "supports": [
+        "Official Distance Education Programme catalogue; PG, UG, and Diploma sections are empty"
+      ]
+    },
+    {
+      "type": "official_prospectus",
+      "url": "https://highereducation.mp.gov.in/?page=t6o5YqlMM330lhOXzwcDXA%3D%3D&orgid=200",
+      "supports": [
+        "Official Prospectus page is marked under construction"
+      ]
+    },
+    {
+      "type": "official_new_course_page",
+      "url": "https://highereducation.mp.gov.in/?page=%2FeSuk7P3sJq4CHOz5Vt%2Fjg%3D%3D&orgid=200",
+      "supports": [
+        "Official New Course Started page is marked under construction"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "Government College Pachmarhi Madhya Pradesh official website",
+      "result": "Search response did not provide a usable official college URL; the official Madhya Pradesh Higher Education directory was used for discovery.",
+      "url": null
+    },
+    {
+      "query": "\"Govt. College, Pachmarhi, Hoshangabad\" official",
+      "result": "Search response did not provide a usable official college URL; the official Madhya Pradesh Higher Education directory was used for discovery.",
+      "url": null
+    },
+    {
+      "query": "site:mp.gov.in Pachmarhi college",
+      "result": "No usable official college page was extracted from the search response; the official Madhya Pradesh Higher Education directory was used for discovery.",
+      "url": null
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "govt-college-pachmarhi-hoshangabad-ba-geography-political-science-sociology",
+      "name": "B. A. (Geography - Political Science - Sociology)",
+      "level": "undergraduate",
+      "credential": "B.A. degree",
+      "specialization": "Geography - Political Science - Sociology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=w%2FscQ2eqkxTwcf7elTSgbA%3D%3D&orgid=200",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest_parent_for_Geography_component",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The official Madhya Pradesh Higher Education directory identifies the assigned campus as Raja Bhabhut Singh, Government College, Pachmarhi, orgid 200, in current district Narmadapuram; NIRF uses the legacy district name Hoshangabad.",
+    "The official Regular Courses page publishes one UG programme, B. A. (Geography - Political Science - Sociology), with minimum qualification 10+2. It leaves PG and Diploma sections empty; the Distance Education page leaves PG, UG, and Diploma sections empty.",
+    "The official Prospectus and New Course Started pages are under construction, and the Departments page has no published department rows. The official catalogue is therefore partial and the institution is manual_review; no unsupported programmes were inferred.",
+    "Duration is null because the official programme page does not state it. Geography has no exact node in career_nodes, so it is mapped to the nearest Social Sciences & Education parent; Political Science and Sociology use direct nodes.",
+    "Normal TLS verification failed with the managed proxy error self signed certificate in certificate chain. Public GET requests used curl --insecure only after confirming the expected official or government hostnames."
+  ]
+}

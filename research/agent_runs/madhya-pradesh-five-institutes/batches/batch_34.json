@@ -1,0 +1,91 @@
+{
+  "batch": 34,
+  "started_at": "2026-09-27T07:15:59.220215+00:00",
+  "finished_at": "2026-09-27T07:16:15.609817+00:00",
+  "assignment_count": 5,
+  "completed_count": 0,
+  "skipped_count": 0,
+  "failed_count": 5,
+  "results": [
+    {
+      "institution_id": "arihant-college-of-professional-education-sailana",
+      "nirf_name": "ARIHANT COLLEGE OF PROFESSIONAL EDUCATION, SAILANA",
+      "status": "failed",
+      "started_at": "2026-09-27T07:15:59.311085+00:00",
+      "finished_at": "2026-09-27T07:16:15.537589+00:00",
+      "duration_seconds": 16.223,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/arihant-college-of-professional-education-sailana.jsonl"
+    },
+    {
+      "institution_id": "governement-college-namli",
+      "nirf_name": "Governement College Namli",
+      "status": "failed",
+      "started_at": "2026-09-27T07:15:59.299867+00:00",
+      "finished_at": "2026-09-27T07:16:15.591008+00:00",
+      "duration_seconds": 16.291,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/governement-college-namli.jsonl"
+    },
+    {
+      "institution_id": "government-college-rampura",
+      "nirf_name": "Government College, Rampura",
+      "status": "failed",
+      "started_at": "2026-09-27T07:15:59.281807+00:00",
+      "finished_at": "2026-09-27T07:16:13.932199+00:00",
+      "duration_seconds": 14.65,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/government-college-rampura.jsonl"
+    },
+    {
+      "institution_id": "government-college-rawti-ratlam-m-p",
+      "nirf_name": "Government College, Rawti Ratlam M.P",
+      "status": "failed",
+      "started_at": "2026-09-27T07:15:59.341903+00:00",
+      "finished_at": "2026-09-27T07:16:15.273517+00:00",
+      "duration_seconds": 15.931,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/government-college-rawti-ratlam-m-p.jsonl"
+    },
+    {
+      "institution_id": "govt-arts-science-college-ratlam",
+      "nirf_name": "Govt. Arts & Science College, Ratlam",
+      "status": "failed",
+      "started_at": "2026-09-27T07:15:59.299475+00:00",
+      "finished_at": "2026-09-27T07:16:15.264696+00:00",
+      "duration_seconds": 15.965,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/govt-arts-science-college-ratlam.jsonl"
+    }
+  ]
+}

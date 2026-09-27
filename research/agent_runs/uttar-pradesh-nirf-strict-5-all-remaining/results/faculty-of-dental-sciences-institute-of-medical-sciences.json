@@ -1,0 +1,219 @@
+{
+  "institution_id": "faculty-of-dental-sciences-institute-of-medical-sciences",
+  "nirf_name": "Faculty of Dental Sciences, Institute of Medical Sciences",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/DentalRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Varanasi",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://www.bhu.ac.in/Site/UnitHomeTemplate/1_124_1114_Faculty-of-Dental-Sciences-Home",
+  "website_verification_status": "verified",
+  "description": "The Faculty of Dental Sciences, Institute of Medical Sciences, Banaras Hindu University is a specialized centre for advanced dental education and treatment in the Purvanchal region.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_discovery_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/DentalRankingALL.html",
+      "supports": [
+        "Exact institution listed in Varanasi, Uttar Pradesh."
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://www.bhu.ac.in/Site/UnitHomeTemplate/1_124_1114_Faculty-of-Dental-Sciences-Home",
+      "supports": [
+        "Faculty identity, relationship to the Institute of Medical Sciences, and institutional description."
+      ]
+    },
+    {
+      "type": "official_district_campus_page",
+      "url": "https://www.bhu.ac.in/Site/Home/1_2_16_Main-Site",
+      "supports": [
+        "Official BHU website identifies the university campus address as Varanasi-221005, Uttar Pradesh, India."
+      ]
+    },
+    {
+      "type": "official_parent_institution_page",
+      "url": "https://www.bhu.ac.in/Site/UnitHomeTemplate/1_4_1101_Institute-of-Medical-Sciences-Home",
+      "supports": [
+        "Official Institute of Medical Sciences page on the BHU domain."
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://www.bhu.ac.in/Site/Programme/1_124_6232_Faculty-of-Dental-Sciences-Programme",
+      "supports": [
+        "Official Faculty of Dental Sciences catalogue listing five programme rows with duration and eligibility fields."
+      ]
+    },
+    {
+      "type": "official_programme_detail",
+      "url": "https://www.bhu.ac.in/Site/ProgrammeDetails/1_124?3162",
+      "supports": [
+        "BDS programme details."
+      ]
+    },
+    {
+      "type": "official_programme_detail",
+      "url": "https://www.bhu.ac.in/Site/ProgrammeDetails/1_124?4656",
+      "supports": [
+        "Dental Hygienist programme details."
+      ]
+    },
+    {
+      "type": "official_programme_detail",
+      "url": "https://www.bhu.ac.in/Site/ProgrammeDetails/1_124?4655",
+      "supports": [
+        "Dental Mechanic programme details."
+      ]
+    },
+    {
+      "type": "official_programme_detail",
+      "url": "https://www.bhu.ac.in/Site/ProgrammeDetails/1_124?3193",
+      "supports": [
+        "Master of Dental Surgery programme details."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "site:bhu.ac.in \"Faculty of Dental Sciences\" \"Institute of Medical Sciences\" Varanasi",
+      "result": "The official BHU domain was identified and directly checked; its public navigation identifies Faculty of Dental Sciences as a BHU unit under the Institute of Medical Sciences.",
+      "url": "https://www.bhu.ac.in/Site/UnitHomeTemplate/1_124_1114_Faculty-of-Dental-Sciences-Home"
+    },
+    {
+      "query": "site:bhu.ac.in Faculty of Dental Sciences BHU Varanasi programme",
+      "result": "The official BHU Faculty of Dental Sciences programme catalogue was found and retrieved.",
+      "url": "https://www.bhu.ac.in/Site/Programme/1_124_6232_Faculty-of-Dental-Sciences-Programme"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "faculty-of-dental-sciences-institute-of-medical-sciences-3194",
+      "name": "Bachelor of Dental surgery",
+      "level": "Undergraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "5 Years",
+      "mode": "Full time regular",
+      "eligibility": "Higher Secondary Education",
+      "official_course_url": "https://www.bhu.ac.in/Site/Programme/1_124_6232_Faculty-of-Dental-Sciences-Programme",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 16,
+          "career_node_slug": "bds",
+          "career_breadcrumb": "Biology / PCB > BDS (Dental Surgery)",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "faculty-of-dental-sciences-institute-of-medical-sciences-3162",
+      "name": "BDS",
+      "level": "Undergraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "5",
+      "mode": "Regular",
+      "eligibility": "12",
+      "official_course_url": "https://www.bhu.ac.in/Site/ProgrammeDetails/1_124?3162",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 16,
+          "career_node_slug": "bds",
+          "career_breadcrumb": "Biology / PCB > BDS (Dental Surgery)",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "faculty-of-dental-sciences-institute-of-medical-sciences-4656",
+      "name": "Dental Hygienist (Dental Science)",
+      "level": "P. G. Diploma",
+      "credential": "diploma",
+      "specialization": "Dental Science",
+      "duration": "2 Year's",
+      "mode": "Special Course of Study",
+      "eligibility": "10+2 with Science subjects i.e. Physics, Chemistry, Biology and English with 50% marks Age: Min.17 yrs Max.25 yrs.",
+      "official_course_url": "https://www.bhu.ac.in/Site/ProgrammeDetails/1_124?4656",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "closest-specialization mapping; no exact dental hygienist node exists",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "faculty-of-dental-sciences-institute-of-medical-sciences-4655",
+      "name": "Dental Mechanic (Dental Science)",
+      "level": "P. G. Diploma",
+      "credential": "diploma",
+      "specialization": "Dental Science",
+      "duration": "2 Year's",
+      "mode": "Special Course of Study",
+      "eligibility": "10+2 with Science subjects i.e. Physics, Chemistry, Biology and English with 50% marks, Age: Min. 17 yrs Max.25 yrs.",
+      "official_course_url": "https://www.bhu.ac.in/Site/ProgrammeDetails/1_124?4655",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "closest-specialization mapping; no exact dental mechanic node exists",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "faculty-of-dental-sciences-institute-of-medical-sciences-3193",
+      "name": "MASTER OF DENTAL SURGERY",
+      "level": "Postgraduate",
+      "credential": "degree",
+      "specialization": "conservative dentistry and endodontics",
+      "duration": "3 YEARS",
+      "mode": "Full time regular",
+      "eligibility": "BACHELOR OF DENTAL SURGERY",
+      "official_course_url": "https://www.bhu.ac.in/Site/ProgrammeDetails/1_124?3193",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 135,
+          "career_node_slug": "mds_endo",
+          "career_breadcrumb": "Biology / PCB > BDS (Dental Surgery) > MDS Endodontics",
+          "relation": "closest-specialization mapping; official description includes endodontics while the programme name is generic",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The NIRF government listing confirms the exact institution name, Varanasi city, and Uttar Pradesh state.",
+    "The official BHU navigation identifies Faculty of Dental Sciences as UnitId 124 and Institute of Medical Sciences as UnitId 4.",
+    "The official catalogue returns five programme rows, including two BDS rows with inconsistent naming and eligibility formats. The detail endpoint for catalogue row 3194 returned no programme detail record, so the catalogue is treated as partial/ambiguous and the record remains manual_review.",
+    "The official Faculty homepage states that postgraduate training covers nine recognized dental specialties, but the catalogue does not enumerate those specialties as separate programme rows; no additional certificate or doctoral rows were returned.",
+    "Public GET requests used curl --insecure only after normal TLS requests produced the managed proxy self-signed certificate-chain error. No credentials or private data were sent.",
+    "Career mappings were derived from read-only queries against assets/data/career_path.db. No exact Dental Hygienist or Dental Mechanic nodes exist, so those courses use low-confidence closest-parent mapping to Paramedical & Health Sciences."
+  ]
+}

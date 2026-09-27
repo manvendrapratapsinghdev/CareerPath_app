@@ -1,0 +1,302 @@
+{
+  "institution_id": "r-d-girls-college-bharatpur",
+  "nirf_name": "R. D. Girls College, Bharatpur",
+  "verification_outcome": "manual_review",
+  "district": "Bharatpur",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://hte.rajasthan.gov.in/college/ggcbharatpur",
+  "website_verification_status": "verified",
+  "description": "Rameshwari Devi Girls College is a state-government girls postgraduate college located inside the fort near the Museum in Bharatpur. It is affiliated with Maharaja Surajmal Brij University and offers programmes across Arts, Science and Commerce.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "official_homepage",
+      "url": "https://hte.rajasthan.gov.in/college/ggcbharatpur",
+      "supports": [
+        "official website",
+        "campus identity and address",
+        "institution description",
+        "homepage programme cards",
+        "add-on course family"
+      ]
+    },
+    {
+      "type": "official_introduction",
+      "url": "https://hte.rajasthan.gov.in/13357",
+      "supports": [
+        "expanded institution name",
+        "Bharatpur city identity",
+        "university affiliation",
+        "faculties and departments"
+      ]
+    },
+    {
+      "type": "official_geography_page",
+      "url": "https://hte.rajasthan.gov.in/13362",
+      "supports": [
+        "college location in Bharatpur city",
+        "Bharatpur district context"
+      ]
+    },
+    {
+      "type": "official_courses_list",
+      "url": "https://hte.rajasthan.gov.in/13987",
+      "supports": [
+        "official Courses List page exists",
+        "programme content body is empty"
+      ]
+    },
+    {
+      "type": "official_admission_list",
+      "url": "https://hte.rajasthan.gov.in/13985",
+      "supports": [
+        "official Admission List page exists",
+        "no current programme entries are published there"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "R D Girls College Bharatpur",
+      "result": "Brave Search returned the Rajasthan Higher Technical Education official-domain page titled \"RAMESHWARI DEVI GIRLS COLLEGE, BHARATPUR (RAJ.)\".",
+      "url": "https://hte.rajasthan.gov.in/college/ggcbharatpur"
+    },
+    {
+      "query": "R D Girls College Bharatpur Rajasthan",
+      "result": "Search discovery identified the same Rajasthan government college-domain page; direct official-page verification was used for all institution facts.",
+      "url": "https://hte.rajasthan.gov.in/college/ggcbharatpur"
+    },
+    {
+      "query": "\"R.D. Girls College\" Bharatpur official",
+      "result": "Google search encountered a search challenge; no Google snippet was used as evidence.",
+      "url": null
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "r-d-girls-college-bharatpur-ma-hindi",
+      "name": "M.A.(Hindi)",
+      "level": "postgraduate",
+      "credential": "M.A.",
+      "specialization": "Hindi",
+      "duration": null,
+      "mode": "not stated on official site",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/college/ggcbharatpur",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "r-d-girls-college-bharatpur-ma-sanskrit",
+      "name": "M.A.(Sanskrit)",
+      "level": "postgraduate",
+      "credential": "M.A.",
+      "specialization": "Sanskrit",
+      "duration": null,
+      "mode": "not stated on official site",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/college/ggcbharatpur",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "nearest-parent for language/literature; no Sanskrit node exists",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "r-d-girls-college-bharatpur-ma-sociology",
+      "name": "M.A.(Sociology)",
+      "level": "postgraduate",
+      "credential": "M.A.",
+      "specialization": "Sociology",
+      "duration": null,
+      "mode": "not stated on official site",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/college/ggcbharatpur",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "r-d-girls-college-bharatpur-bcom-part-i",
+      "name": "BCom Part I",
+      "level": "undergraduate",
+      "credential": "B.Com",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated on official site",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/college/ggcbharatpur",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "r-d-girls-college-bharatpur-mcom-business-administration",
+      "name": "M.Com.(Business Administration)",
+      "level": "postgraduate",
+      "credential": "M.Com",
+      "specialization": "Business Administration",
+      "duration": null,
+      "mode": "not stated on official site",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/college/ggcbharatpur",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "r-d-girls-college-bharatpur-msc-zoology",
+      "name": "M.Sc.(Zoology)",
+      "level": "postgraduate",
+      "credential": "M.Sc",
+      "specialization": "Zoology",
+      "duration": null,
+      "mode": "not stated on official site",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/college/ggcbharatpur",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest-specialization",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "r-d-girls-college-bharatpur-bsc-part-i-biology",
+      "name": "BSc Part I Biology",
+      "level": "undergraduate",
+      "credential": "B.Sc",
+      "specialization": "Biology",
+      "duration": null,
+      "mode": "not stated on official site",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/college/ggcbharatpur",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "r-d-girls-college-bharatpur-bsc-part-i-maths",
+      "name": "BSc Part I Maths",
+      "level": "undergraduate",
+      "credential": "B.Sc",
+      "specialization": "Mathematics",
+      "duration": null,
+      "mode": "not stated on official site",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/college/ggcbharatpur",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "r-d-girls-college-bharatpur-add-on-journalism-computer-application",
+      "name": "add-on courses in journalism and computer application",
+      "level": "non-degree add-on",
+      "credential": "add-on courses",
+      "specialization": "journalism and computer application",
+      "duration": null,
+      "mode": "not stated on official site",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/college/ggcbharatpur",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 59,
+          "career_node_slug": "bjmc",
+          "career_breadcrumb": "Media & Journalism > B.J.M.C (Journalism & Mass Comm)",
+          "relation": "closest-specialization for journalism",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "closest-specialization for computer application",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "Normal TLS verification produced the managed proxy self-signed-certificate-chain error; curl --insecure was used only for public GET requests after confirming the expected official/search hostnames.",
+    "The official site uses the expanded name Rameshwari Devi Girls College, Bharatpur; the NIRF short form \"R. D. Girls College\" is not explicitly printed on the official pages, so identity remains for manual review.",
+    "The official Courses List page and Admission List page contain no current programme entries. The homepage exposes eight named programme cards plus an add-on course family, so the official catalogue is incomplete and the record cannot be marked verified.",
+    "The official pages reviewed do not explicitly state duration, delivery mode, or eligibility; those fields are left null or marked as not stated.",
+    "The homepage mentions add-on courses in journalism and computer application without separate titles or catalogue details; they are represented as one verified programme family rather than split into invented programme names."
+  ]
+}

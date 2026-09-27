@@ -1,0 +1,79 @@
+{
+  "institution_id": "government-college-palera",
+  "nirf_name": "Government college palera",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": null,
+  "district_verification_status": "not_found",
+  "official_website": "https://highereducation.mp.gov.in/?orgid=470",
+  "website_verification_status": "verified",
+  "description": "A dedicated Madhya Pradesh Higher Education Department page identifies this government college campus as शासकीय महाविद्यालय पलेरा.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact NIRF institution name, Tikamgarh city, and Madhya Pradesh state listing"
+      ]
+    },
+    {
+      "type": "official_institution_homepage",
+      "url": "https://highereducation.mp.gov.in/?orgid=470",
+      "supports": [
+        "Institution-specific official page titled शासकीय महाविद्यालय पलेरा",
+        "Madhya Pradesh Government affiliation"
+      ]
+    },
+    {
+      "type": "official_catalogue_regular_courses",
+      "url": "https://highereducation.mp.gov.in/?page=VZWBStXA3%2F7TJ7vRyLWdsA%3D%3D&orgid=470",
+      "supports": [
+        "Official Programmes Offered page with PG, UG, and Diploma sections; sections contain no populated course rows"
+      ]
+    },
+    {
+      "type": "official_catalogue_distance_courses",
+      "url": "https://highereducation.mp.gov.in/?page=1TK8dKWdH2bRwefLa13Kug%3D%3D&orgid=470",
+      "supports": [
+        "Official Distance Education Programme page; PG, UG, and Diploma sections contain no populated course rows"
+      ]
+    },
+    {
+      "type": "official_prospectus_page",
+      "url": "https://highereducation.mp.gov.in/?page=9V3SEBQsarUnGKqdNvT9mw%3D%3D&orgid=470",
+      "supports": [
+        "Official prospectus page checked; no programme catalogue data was available"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Government College Palera\" official website",
+      "result": "Search results did not provide a direct official institution page; discovery proceeded through the official Madhya Pradesh Higher Education Department college directory.",
+      "url": null
+    },
+    {
+      "query": "\"Government College Palera\" Tikamgarh admission",
+      "result": "Search results did not provide a direct official institution page; the official state higher-education CMS was checked directly.",
+      "url": null
+    },
+    {
+      "query": "Madhya Pradesh Higher Education Department college website directory Palera",
+      "result": "The official department directory identified Govt College, Palera with orgid 470 and linked to its institution-specific page.",
+      "url": "https://highereducation.mp.gov.in/?page=3ReniKuyIMmDd4opO%2FkIdA%3D%3D"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [],
+  "agent_notes": [
+    "The NIRF 2025 government listing independently matches the exact institution name with Tikamgarh, Madhya Pradesh.",
+    "The official institution page exists and identifies the campus, but its official identity pages do not state a district or usable campus address; district was therefore left null.",
+    "The official Regular Courses and Distance Education Courses pages contain only empty PG, UG, and Diploma table headers. No active programme name, duration, eligibility, or complete catalogue could be verified.",
+    "Normal TLS requests encountered the managed proxy self-signed certificate-chain error; public GET requests then used curl --insecure after confirming the expected official hostnames."
+  ]
+}

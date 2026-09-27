@@ -1,0 +1,295 @@
+{
+  "institution_id": "j-s-university",
+  "nirf_name": "J S University",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/AgricultureRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/EngineeringRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/LawRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/PharmacyRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Firozabad",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://www.jsu.ac.in/",
+  "website_verification_status": "verified",
+  "description": "J.S. University is a teaching university established in March 2015 in Shikohabad, Firozabad, Uttar Pradesh. Its official campus address is 5 K.M. Mile Stone, Mainpuri Road, Shikohabad, Uttar Pradesh 283135.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/AgricultureRankingALL.html",
+      "supports": [
+        "Exact listing: J S University | Shikohabad | Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/EngineeringRankingALL.html",
+      "supports": [
+        "Exact listing: J S University | Shikohabad | Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/LawRankingALL.html",
+      "supports": [
+        "Exact listing: J S University | Shikohabad | Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html",
+      "supports": [
+        "Exact listing: J S University | Shikohabad | Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Exact listing: J S University | Shikohabad | Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/PharmacyRankingALL.html",
+      "supports": [
+        "Exact listing: J S University | Shikohabad | Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://www.jsu.ac.in/",
+      "supports": [
+        "J.S. University identity, Shikohabad and Firozabad campus identity, official university description and address"
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "https://www.jsu.ac.in/aboutus.php",
+      "supports": [
+        "J.S. University identity and official Shikohabad campus address"
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://www.jsu.ac.in/courses.php",
+      "supports": [
+        "B.P.Ed and B.A B.Ed / B.Sc B.Ed (Integrated), including stated durations"
+      ]
+    },
+    {
+      "type": "official_admissions_page",
+      "url": "https://www.jsu.ac.in/admission.php",
+      "supports": [
+        "B.Tech., M.Tech., MBA, Polytechnic and PG Diploma Fire Safety Management programme families and stated eligibility text"
+      ]
+    },
+    {
+      "type": "official_doctoral_page",
+      "url": "https://www.jsu.ac.in/phd_ordinance.php",
+      "supports": [
+        "Ph.D. admission and doctoral ordinance programme context"
+      ]
+    },
+    {
+      "type": "official_faculty_page",
+      "url": "https://www.jsu.ac.in/departments.php",
+      "supports": [
+        "Official faculty/school list used to assess catalogue completeness"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "J S University Shikohabad official website",
+      "result": "Bing returned no usable institution result in this batch; it was not used as verification evidence.",
+      "url": "https://www.bing.com/search?q=J+S+University+Shikohabad+official+website&adlt=off"
+    },
+    {
+      "query": "J S University Shikohabad",
+      "result": "Naver surfaced https://www.jsu.ac.in/ and official internal pages; this search result was used only to locate the domain, followed by direct official-site verification.",
+      "url": "https://search.naver.com/search.naver?query=J%20S%20University%20Shikohabad"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "j-s-university-bped",
+      "name": "B.P.Ed",
+      "level": "undergraduate",
+      "credential": "Bachelor of Physical Education degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.jsu.ac.in/courses.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 78,
+          "career_node_slug": "sports_career",
+          "career_breadcrumb": "Performing Arts & Sports > Sports & Physical Education",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "j-s-university-integrated-ba-bed-bsc-bed",
+      "name": "B.A B.Ed / B.Sc B.Ed (Integrated)",
+      "level": "integrated undergraduate",
+      "credential": "Integrated bachelor's degree",
+      "specialization": null,
+      "duration": "4 YEARS",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.jsu.ac.in/courses.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "direct_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "j-s-university-btech",
+      "name": "B.Tech.",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": "10+2 With 50% aggregating in Maths, Physics and any one of Chemistry/ Computer Science/Biology.",
+      "official_course_url": "https://www.jsu.ac.in/admission.php",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "j-s-university-mtech",
+      "name": "M.Tech.",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": "B.Tech. With 50% Marks.",
+      "official_course_url": "https://www.jsu.ac.in/admission.php",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "closest_specialization",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "j-s-university-mba",
+      "name": "MBA",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": "Bachelor Degree in any discipline.",
+      "official_course_url": "https://www.jsu.ac.in/admission.php",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "j-s-university-polytechnic",
+      "name": "Polytechnic",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": "10th With 50% Marks in Science Group",
+      "official_course_url": "https://www.jsu.ac.in/admission.php",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 11,
+          "career_node_slug": "diploma_engg",
+          "career_breadcrumb": "Maths / PCM > Diploma Engineering (Polytechnic)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "j-s-university-pg-diploma-fire-safety-management",
+      "name": "PG Diploma Fire Safety Management",
+      "level": "postgraduate diploma",
+      "credential": "Postgraduate diploma",
+      "specialization": "Fire Safety Management",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": "10+2",
+      "official_course_url": "https://www.jsu.ac.in/admission.php",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [],
+      "mapping_gap": "The career tree has no responsible Fire Safety Management or generic safety-management node."
+    },
+    {
+      "course_id": "j-s-university-phd",
+      "name": "Ph.D.",
+      "level": "doctoral",
+      "credential": "Doctoral degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.jsu.ac.in/phd_ordinance.php",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [],
+      "mapping_gap": "The official page does not specify a single doctoral discipline, and the career tree has no responsible generic Ph.D. node."
+    }
+  ],
+  "agent_notes": [
+    "The exact J S University | Shikohabad | Uttar Pradesh row was verified in all six supplied NIRF 2025 government-directory pages.",
+    "Normal TLS verification produced the managed proxy's self-signed certificate-chain error. Public GET requests then used curl --insecure only for the expected NIRF, search, and official jsu.ac.in hosts.",
+    "The official Programmes Offered page lists only B.P.Ed (2 YEARS) and B.A B.Ed / B.Sc B.Ed (Integrated) (4 YEARS). The admissions page separately names additional programme families but does not provide a complete university-wide catalogue or durations, so the record is manual_review and those entries are marked verified_programme_family.",
+    "The official site has current-looking notices/results mentioning other names such as B.Ed and D.El.Ed. (B.T.C.); these were not imported as active catalogue entries because they appear only in notices/results rather than a programme catalogue page.",
+    "Career mappings were produced from read-only sqlite3 queries against assets/data/career_path.db; the database was not edited."
+  ]
+}

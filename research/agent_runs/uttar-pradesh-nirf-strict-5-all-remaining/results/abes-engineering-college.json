@@ -1,0 +1,347 @@
+{
+  "institution_id": "abes-engineering-college",
+  "nirf_name": "ABES Engineering College",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/EngineeringRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Ghaziabad",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://www.abes.ac.in/",
+  "website_verification_status": "verified",
+  "description": "ABES Engineering College is an autonomous engineering college in Ghaziabad, Uttar Pradesh, offering undergraduate B.Tech and BCA programmes and postgraduate M.Tech and MCA programmes.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [
+    "abes.edu.in"
+  ],
+  "verification_sources": [
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/EngineeringRankingALL.html",
+      "supports": [
+        "ABES Engineering College listed in Ghaziabad, Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://www.abes.ac.in/",
+      "supports": [
+        "Official ABES Engineering College identity",
+        "Institution description",
+        "Current homepage programme summary"
+      ]
+    },
+    {
+      "type": "official_campus_contact",
+      "url": "https://www.abes.ac.in/contact-us.html",
+      "supports": [
+        "Campus address: 19th KM Stone, NH-09 Ghaziabad (UP), PIN 201009"
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://www.abes.ac.in/courses-offered.html",
+      "supports": [
+        "Current Programs Offered list",
+        "Programme durations",
+        "Programme eligibility"
+      ]
+    },
+    {
+      "type": "official_scope_disambiguation",
+      "url": "https://www.abes.edu.in/",
+      "supports": [
+        "ABES Business School is a separate MBA-focused institution/site and was not imported into the ABES Engineering College record"
+      ]
+    }
+  ],
+  "website_search_evidence": [],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "abes-engineering-college-btech-cse",
+      "name": "Computer Science & Engineering",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": "Computer Science & Engineering",
+      "duration": "4 Years",
+      "mode": "not stated",
+      "eligibility": "Passed 10+2 with at least 45% marks, or 40% for reserved-category candidates, in the listed qualifying subjects; or passed D.Voc. in the same or an allied sector.",
+      "official_course_url": "https://www.abes.ac.in/courses-offered.html#progs-offered-description",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "abes-engineering-college-btech-cse-aiml",
+      "name": "Computer Science & Engineering (Artificial Intelligence and Machine Learning)",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": "Artificial Intelligence and Machine Learning",
+      "duration": "4 Years",
+      "mode": "not stated",
+      "eligibility": "Passed 10+2 with at least 45% marks, or 40% for reserved-category candidates, in the listed qualifying subjects; or passed D.Voc. in the same or an allied sector.",
+      "official_course_url": "https://www.abes.ac.in/courses-offered.html#progs-offered-description",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 81,
+          "career_node_slug": "btech_ai",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > AI & Machine Learning",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "abes-engineering-college-btech-cse-data-science",
+      "name": "Computer Science & Engineering (Data Science)",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": "Data Science",
+      "duration": "4 Years",
+      "mode": "not stated",
+      "eligibility": "Passed 10+2 with at least 45% marks, or 40% for reserved-category candidates, in the listed qualifying subjects; or passed D.Voc. in the same or an allied sector.",
+      "official_course_url": "https://www.abes.ac.in/courses-offered.html#progs-offered-description",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 338,
+          "career_node_slug": "science_data",
+          "career_breadcrumb": "Data Science & Analytics",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "abes-engineering-college-btech-ece",
+      "name": "Electronics & Communication Engineering",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": "Electronics & Communication Engineering",
+      "duration": "4 Years",
+      "mode": "not stated",
+      "eligibility": "Passed 10+2 with at least 45% marks, or 40% for reserved-category candidates, in the listed qualifying subjects; or passed D.Voc. in the same or an allied sector.",
+      "official_course_url": "https://www.abes.ac.in/courses-offered.html#progs-offered-description",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "abes-engineering-college-btech-electrical-computer",
+      "name": "Electrical and Computer Engineering",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": "Electrical and Computer Engineering",
+      "duration": "4 Years",
+      "mode": "not stated",
+      "eligibility": "Passed 10+2 with at least 45% marks, or 40% for reserved-category candidates, in the listed qualifying subjects; or passed D.Voc. in the same or an allied sector.",
+      "official_course_url": "https://www.abes.ac.in/courses-offered.html#progs-offered-description",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "abes-engineering-college-btech-mechanical",
+      "name": "Mechanical Engineering",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": "Mechanical Engineering",
+      "duration": "4 Years",
+      "mode": "not stated",
+      "eligibility": "Passed 10+2 with at least 45% marks, or 40% for reserved-category candidates, in the listed qualifying subjects; or passed D.Voc. in the same or an allied sector.",
+      "official_course_url": "https://www.abes.ac.in/courses-offered.html#progs-offered-description",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "abes-engineering-college-btech-cse-working-professional",
+      "name": "Computer Science and Engineering(Working Professional)",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": "Computer Science and Engineering(Working Professional)",
+      "duration": "4 Years",
+      "mode": "not stated",
+      "eligibility": "Passed 10+2 with at least 45% marks, or 40% for reserved-category candidates, in the listed qualifying subjects; or passed D.Voc. in the same or an allied sector.",
+      "official_course_url": "https://www.abes.ac.in/courses-offered.html#progs-offered-description",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "abes-engineering-college-btech-ece-working-professional",
+      "name": "Electronics and Communication Engineering (Working Professional)",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": "Electronics and Communication Engineering (Working Professional)",
+      "duration": "4 Years",
+      "mode": "not stated",
+      "eligibility": "Passed 10+2 with at least 45% marks, or 40% for reserved-category candidates, in the listed qualifying subjects; or passed D.Voc. in the same or an allied sector.",
+      "official_course_url": "https://www.abes.ac.in/courses-offered.html#progs-offered-description",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "abes-engineering-college-bca",
+      "name": "BCA",
+      "level": "undergraduate",
+      "credential": "BCA",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "not stated",
+      "eligibility": "10+2 in any stream.",
+      "official_course_url": "https://www.abes.ac.in/courses-offered.html#progs-offered-description",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "abes-engineering-college-mca",
+      "name": "MCA",
+      "level": "postgraduate",
+      "credential": "MCA",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "not stated",
+      "eligibility": "B.C.A., B.Sc. Computer Science, B.Sc. IT, B.E./B.Tech. CSE or IT, or equivalent; alternatively any graduation degree with Mathematics at 10+2 or graduation level and at least 50% marks, or 45% for SC/ST candidates.",
+      "official_course_url": "https://www.abes.ac.in/courses-offered.html#progs-offered-description",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 93,
+          "career_node_slug": "mca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications) > MCA → Software Engineer",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "abes-engineering-college-mtech-cse",
+      "name": "M.Tech in Computer Science and Engineering",
+      "level": "postgraduate",
+      "credential": "M.Tech",
+      "specialization": "Computer Science and Engineering",
+      "duration": "2 Years",
+      "mode": "not stated",
+      "eligibility": "Bachelor's degree or equivalent with at least 50% marks, or 45% for reserved-category candidates.",
+      "official_course_url": "https://www.abes.ac.in/courses-offered.html#progs-offered-description",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "abes-engineering-college-mtech-ece",
+      "name": "M.Tech in Electronics and Communication Engineering",
+      "level": "postgraduate",
+      "credential": "M.Tech",
+      "specialization": "Electronics and Communication Engineering",
+      "duration": "2 Years",
+      "mode": "not stated",
+      "eligibility": "Bachelor's degree or equivalent with at least 50% marks, or 45% for reserved-category candidates.",
+      "official_course_url": "https://www.abes.ac.in/courses-offered.html#progs-offered-description",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The government NIRF 2025 Engineering directory lists ABES Engineering College in Ghaziabad, Uttar Pradesh; the official contact page confirms the Ghaziabad campus address.",
+    "Normal TLS verification initially failed with the managed proxy error \"self signed certificate in certificate chain\". Public GET requests were retried with curl --insecure only for the expected NIRF and official ABES hosts.",
+    "The current official Programs Offered table lists the 12 imported ABES Engineering College programmes. The same site has legacy metadata and an Admission Enquiry row mentioning MBA, while the current programme and eligibility sections omit MBA; its MBA navigation points to the separate ABES Business School site at abes.edu.in. MBA was therefore not imported into this engineering-college record, and manual review is required to resolve the catalogue inconsistency.",
+    "The official eligibility page separately lists B.Tech Lateral Entry as a 3-year admission route; it was not duplicated as a separate degree record because the current programme catalogue lists the B.Tech branches rather than a distinct lateral-entry programme.",
+    "The career tree has no exact B.Tech Data Science or Electrical and Computer Engineering nodes, and no separate M.Tech discipline nodes; nearest existing career nodes were used with medium confidence where applicable."
+  ]
+}

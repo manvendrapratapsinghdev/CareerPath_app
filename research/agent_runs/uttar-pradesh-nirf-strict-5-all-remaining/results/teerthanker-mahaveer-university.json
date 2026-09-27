@@ -1,0 +1,3067 @@
+{
+  "institution_id": "teerthanker-mahaveer-university",
+  "nirf_name": "Teerthanker Mahaveer University",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/DentalRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/EngineeringRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/MedicalRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/PharmacyRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Moradabad",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://www.tmu.ac.in/",
+  "website_verification_status": "verified",
+  "description": "Teerthanker Mahaveer University is a multidisciplinary private university in Moradabad, Uttar Pradesh, on NH-9, Delhi Road.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "official_homepage",
+      "url": "https://www.tmu.ac.in/",
+      "supports": [
+        "official identity",
+        "Moradabad campus identity",
+        "institution description"
+      ]
+    },
+    {
+      "type": "official_programme_catalogue",
+      "url": "https://www.tmu.ac.in/programme",
+      "supports": [
+        "official programme catalogue",
+        "active programme detail links"
+      ]
+    },
+    {
+      "type": "official_catalogue_data",
+      "url": "https://www.tmu.ac.in/programme-categories-new",
+      "supports": [
+        "central programme data",
+        "programme names",
+        "programme levels",
+        "durations"
+      ]
+    },
+    {
+      "type": "official_sitemap",
+      "url": "https://www.tmu.ac.in/sitemap.xml",
+      "supports": [
+        "official programme detail URL inventory"
+      ]
+    },
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/DentalRankingALL.html",
+      "supports": [
+        "government listing of Teerthanker Mahaveer University, Moradabad, Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/EngineeringRankingALL.html",
+      "supports": [
+        "government listing of Teerthanker Mahaveer University, Moradabad, Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html",
+      "supports": [
+        "government listing of Teerthanker Mahaveer University, Moradabad, Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/MedicalRankingALL.html",
+      "supports": [
+        "government listing of Teerthanker Mahaveer University, Moradabad, Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "government listing of Teerthanker Mahaveer University, Moradabad, Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/PharmacyRankingALL.html",
+      "supports": [
+        "government listing of Teerthanker Mahaveer University, Moradabad, Uttar Pradesh"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "Teerthanker Mahaveer University official website Moradabad",
+      "result": "The network search response was not authoritative/usable; a direct probe of the expected official host returned the Teerthanker Mahaveer University homepage identifying Moradabad.",
+      "url": "https://www.tmu.ac.in/"
+    },
+    {
+      "query": "site:tmu.ac.in Teerthanker Mahaveer University courses admissions",
+      "result": "A direct probe of the official programme catalogue returned programme detail links and the central catalogue endpoint.",
+      "url": "https://www.tmu.ac.in/programme"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-bcom-llb-program",
+      "name": "BCom-LLB (Hons)",
+      "level": "UG",
+      "credential": "Undergraduate degree",
+      "specialization": null,
+      "duration": "5 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/BCom-LLB-program",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 51,
+          "career_node_slug": "bcom_llb",
+          "career_breadcrumb": "Law & Legal > B.Com LLB",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-bds-course-details",
+      "name": "BDS (Bachelor of Dental Surgery)",
+      "level": "UG",
+      "credential": "Undergraduate degree",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/BDS-course-details",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 16,
+          "career_node_slug": "bds",
+          "career_breadcrumb": "Biology / PCB > BDS (Dental Surgery)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-bsc-medical-in-biochemistry",
+      "name": "BSc Medical in Biochemistry",
+      "level": "UG",
+      "credential": "Undergraduate degree",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/BSc-Medical-in-Biochemistry",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 35,
+          "career_node_slug": "bsc_biochem",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Biochemistry",
+          "relation": "closest_specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-m-pharm-pharmacognosy",
+      "name": "M Pharm (Master of Pharmacy) in Pharmacognosy",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/M-pharm-pharmacognosy",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-mds-oral-medicine-radiology",
+      "name": "MDS in Oral Medicine and Radiology",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/MDS-Oral-Medicine-Radiology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 16,
+          "career_node_slug": "bds",
+          "career_breadcrumb": "Biology / PCB > BDS (Dental Surgery)",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-mds-periodontology",
+      "name": "MDS in Periodontology",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/MDS-Periodontology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 16,
+          "career_node_slug": "bds",
+          "career_breadcrumb": "Biology / PCB > BDS (Dental Surgery)",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-mds-public-health-dentistry",
+      "name": "MDS in Public Health Dentistry",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/MDS-Public-Health-Dentistry",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 16,
+          "career_node_slug": "bds",
+          "career_breadcrumb": "Biology / PCB > BDS (Dental Surgery)",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-mfa-program",
+      "name": "Masters of Fine Arts (MFA)",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/MFA-Program",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 60,
+          "career_node_slug": "bfa",
+          "career_breadcrumb": "Media & Journalism > B.F.A (Fine Arts)",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-mpt-or-master-of-physiotherapy-gynaecology",
+      "name": "Master of Physiotherapy (MPT) in Obstetrics and Gynaecology",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/MPT-or-Master-of-Physiotherapy-Gynaecology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 23,
+          "career_node_slug": "bpt",
+          "career_breadcrumb": "Biology / PCB > BPT (Physiotherapy)",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-msc-forensic-science",
+      "name": "MSc in Forensic Science",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/MSc-Forensic-Science",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 27,
+          "career_node_slug": "bsc_forensic",
+          "career_breadcrumb": "Common Paths > B.Sc Forensic Science",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-msc-medical-in-anatomy",
+      "name": "MSc Medical in Anatomy",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/MSc-Medical-in-Anatomy",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest_parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-msc-medical-in-biochemistry",
+      "name": "MSc Medical in Biochemistry",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/MSc-Medical-in-Biochemistry",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 35,
+          "career_node_slug": "bsc_biochem",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Biochemistry",
+          "relation": "closest_specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-msc-medical-in-microbiology",
+      "name": "MSc Medical in Microbiology",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/MSc-Medical-in-Microbiology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 34,
+          "career_node_slug": "bsc_microbio",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Microbiology",
+          "relation": "closest_specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-msc-medical-in-pharmacology",
+      "name": "MSc Medical in Pharmacology",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/MSc-Medical-in-Pharmacology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest_parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-msc-medical-in-physiology",
+      "name": "MSc Medical in Physiology",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/MSc-Medical-in-Physiology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest_parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-anm-auxiliary-nurse-midwifery",
+      "name": "ANM (Auxiliary Nurse Midwifery)",
+      "level": "Diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/anm-auxiliary-nurse-midwifery",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 19,
+          "career_node_slug": "bsc_nursing",
+          "career_breadcrumb": "Biology / PCB > B.Sc Nursing",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-b-el-ed-programme",
+      "name": "BElEd (Bachelor of Elementary Education)",
+      "level": "UG",
+      "credential": "Undergraduate degree",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/b-el-ed-programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-b-sc-b-ed-integrated-programme",
+      "name": "ITEP B Sc B Ed (Integrated)",
+      "level": "UG",
+      "credential": "Undergraduate degree",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/b-sc-b-ed-integrated-programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-b-sc-hons-in-computer-science-programme",
+      "name": "BSc Computer Science",
+      "level": "UG",
+      "credential": "Undergraduate degree",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/b-sc-hons-in-computer-science-programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 32,
+          "career_node_slug": "bsc_cs",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Computer Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-b-tech-cse-specialisation-in-artificial-intelligence-machine-learning-deep-learning",
+      "name": "BTech CSE- Specialisation in Artificial Intelligence, Machine Learning & Deep Learning",
+      "level": "UG",
+      "credential": "Undergraduate degree",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/b-tech-cse-specialisation-in-artificial-intelligence-machine-learning-deep-learning",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 81,
+          "career_node_slug": "btech_ai",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > AI & Machine Learning",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-b-tech-in-civil-engineering-programme",
+      "name": "BTech (AICTE Approved) In Civil Engineering",
+      "level": "UG",
+      "credential": "Undergraduate degree",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/b-tech-in-civil-engineering-programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-b-tech-in-computer-science-and-engineering",
+      "name": "BTech Computer Science & Engineering",
+      "level": "UG",
+      "credential": "Undergraduate degree",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/b-tech-in-computer-science-and-engineering",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-b-tech-in-electronics-communicationec-engineering-programme",
+      "name": "BTech (AICTE Approved) in Electronics & Communication (EC) Engineering",
+      "level": "UG",
+      "credential": "Undergraduate degree",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/b-tech-in-electronics-communicationec-engineering-programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-b-tech-in-mechanical-engineering",
+      "name": "BTech (AICTE Approved) in Mechanical Engineering",
+      "level": "UG",
+      "credential": "Undergraduate degree",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/b-tech-in-mechanical-engineering",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-ba-bed-integrated",
+      "name": "BA-B Ed (Integrated)",
+      "level": "UG",
+      "credential": "Undergraduate degree",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/ba-bed-integrated",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-ba-llb-hons-programme",
+      "name": "BA LLB (Hons)",
+      "level": "UG",
+      "credential": "Undergraduate degree",
+      "specialization": null,
+      "duration": "5 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/ba-llb-hons-programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 63,
+          "career_node_slug": "ba_llb",
+          "career_breadcrumb": "Law & Civil Services > BA LLB (5-Year Integrated)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-bachelor-of-business-administration-bba",
+      "name": "BBA (Hons) (Honours / Honours with Research)",
+      "level": "UG",
+      "credential": "Undergraduate degree",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/bachelor-of-business-administration-bba",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 46,
+          "career_node_slug": "bba",
+          "career_breadcrumb": "Management & Business > BBA (General)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-bachelor-of-education-b-ed",
+      "name": "B Ed (Bachelor of Education)",
+      "level": "UG",
+      "credential": "Undergraduate degree",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/bachelor-of-education-b-ed",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-bachelor-of-fine-arts-programme",
+      "name": "BFA (Honours / Honours with Research)",
+      "level": "UG",
+      "credential": "Undergraduate degree",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/bachelor-of-fine-arts-programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 60,
+          "career_node_slug": "bfa",
+          "career_breadcrumb": "Media & Journalism > B.F.A (Fine Arts)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-bachelor-of-optometry-b-optom",
+      "name": "Bachelor of Optometry",
+      "level": "UG",
+      "credential": "Undergraduate degree",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/bachelor-of-optometry-b-optom",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 36,
+          "career_node_slug": "bsc_optometry",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Optometry",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-bachelor-of-pharmacy",
+      "name": "BPharm (Bachelor of Pharmacy)",
+      "level": "UG",
+      "credential": "Undergraduate degree",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/bachelor-of-pharmacy",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-bachelor-of-physical-education-bped-programme",
+      "name": "B.P. Ed.",
+      "level": "UG",
+      "credential": "Undergraduate degree",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/bachelor-of-physical-education-bped-programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 78,
+          "career_node_slug": "sports_career",
+          "career_breadcrumb": "Performing Arts & Sports > Sports & Physical Education",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-bachelor-of-physiotherapy-programme",
+      "name": "Bachelor of Physiotherapy (BPT)",
+      "level": "UG",
+      "credential": "Undergraduate degree",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/bachelor-of-physiotherapy-programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 23,
+          "career_node_slug": "bpt",
+          "career_breadcrumb": "Biology / PCB > BPT (Physiotherapy)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-bba-hons-international-business-entrepreneurship",
+      "name": "BBA (Honours / Honours with Research) in International Business and Entrepreneurship",
+      "level": "UG",
+      "credential": "Undergraduate degree",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/bba-hons-international-business-entrepreneurship",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 46,
+          "career_node_slug": "bba",
+          "career_breadcrumb": "Management & Business > BBA (General)",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-bba-hons-with-research",
+      "name": "BBA (Hons) with Research",
+      "level": "UG",
+      "credential": "Undergraduate degree",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/bba-hons-with-research",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 46,
+          "career_node_slug": "bba",
+          "career_breadcrumb": "Management & Business > BBA (General)",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-bba-in-data-analytics",
+      "name": "BBA (Honours / Honours with Research) in Data Analytics",
+      "level": "UG",
+      "credential": "Undergraduate degree",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/bba-in-data-analytics",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 46,
+          "career_node_slug": "bba",
+          "career_breadcrumb": "Management & Business > BBA (General)",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-bba-llb-hons-programme",
+      "name": "BBA LLB (Hons)",
+      "level": "UG",
+      "credential": "Undergraduate degree",
+      "specialization": null,
+      "duration": "5 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/bba-llb-hons-programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 50,
+          "career_node_slug": "bba_llb",
+          "career_breadcrumb": "Law & Legal > BBA LLB (5-Year Integrated)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-bca-hons-with-research",
+      "name": "BCA (Hons / Hons with Research)",
+      "level": "UG",
+      "credential": "Undergraduate degree",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/bca-hons-with-research",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-bcom-honours",
+      "name": "B.Com (Honours / Honours with Research)",
+      "level": "UG",
+      "credential": "Undergraduate degree",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/bcom-honours",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-bcom-honours-with-acca",
+      "name": "B.Com (Honours) with ACCA",
+      "level": "UG",
+      "credential": "Undergraduate degree",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/bcom-honours-with-acca",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-bcom-in-fintech",
+      "name": "BCom in Fintech & Blockchain Technologies with Whizhack Technologies",
+      "level": "UG",
+      "credential": "Undergraduate degree",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/bcom-in-fintech",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-bcom-pass",
+      "name": "BCom (Pass)",
+      "level": "UG",
+      "credential": "Undergraduate degree",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/bcom-pass",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-bpes-programme",
+      "name": "B.P.E.S (Honours / Honours with Research)",
+      "level": "UG",
+      "credential": "Undergraduate degree",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/bpes-programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 78,
+          "career_node_slug": "sports_career",
+          "career_breadcrumb": "Performing Arts & Sports > Sports & Physical Education",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-bsc-animation",
+      "name": "B.Sc. (Animation) (Honours/Honours with Research)",
+      "level": "UG",
+      "credential": "Undergraduate degree",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/bsc-animation",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 246,
+          "career_node_slug": "animation",
+          "career_breadcrumb": "Media & Journalism > B.F.A (Fine Arts) > Animator / VFX Artist",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-bsc-forensic-science",
+      "name": "BSc in Forensic Science (Honours / Honours with Research)",
+      "level": "UG",
+      "credential": "Undergraduate degree",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/bsc-forensic-science",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 27,
+          "career_node_slug": "bsc_forensic",
+          "career_breadcrumb": "Common Paths > B.Sc Forensic Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-bsc-hons-agriculture",
+      "name": "BSc (Hons.) Agriculture (ICAR-Accredited)",
+      "level": "UG",
+      "credential": "Undergraduate degree",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/bsc-hons-agriculture",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-bsc-hons-computer-science-with-research",
+      "name": "BSc Computer Science (Hons / Hons with Research)",
+      "level": "UG",
+      "credential": "Undergraduate degree",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/bsc-hons-computer-science-with-research",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 32,
+          "career_node_slug": "bsc_cs",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Computer Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-bsc-in-medical-lab-techniques",
+      "name": "Bachelor of Medical Laboratory Science (BMLS)",
+      "level": "UG",
+      "credential": "Undergraduate degree",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/bsc-in-medical-lab-techniques",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 37,
+          "career_node_slug": "dmlt",
+          "career_breadcrumb": "Paramedical & Health Sciences > DMLT (Medical Lab Technology)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-bsc-in-radiology",
+      "name": "Bachelor of Medical Radiology and Imaging Technology (BMRIT)",
+      "level": "UG",
+      "credential": "Undergraduate degree",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/bsc-in-radiology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 38,
+          "career_node_slug": "bsc_radiology",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Radiology & Imaging Technology",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-bsc-nursing",
+      "name": "BSc in Nursing",
+      "level": "UG",
+      "credential": "Undergraduate degree",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/bsc-nursing",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 19,
+          "career_node_slug": "bsc_nursing",
+          "career_breadcrumb": "Biology / PCB > B.Sc Nursing",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-btech-ai-blockchain",
+      "name": "Artificial Intelligence & Blockchain (In Collaboration with IBM)",
+      "level": "UG",
+      "credential": "Undergraduate degree",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/btech-ai-blockchain",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 81,
+          "career_node_slug": "btech_ai",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > AI & Machine Learning",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-btech-cse",
+      "name": "BTech (AICTE Approved) in Computer Science & Engineering",
+      "level": "UG",
+      "credential": "Undergraduate degree",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/btech-cse",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-btech-cse-cloud-technology-information-security",
+      "name": "BTech CSE in Cloud Technology and Information Security",
+      "level": "UG",
+      "credential": "Undergraduate degree",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/btech-cse-cloud-technology-information-security",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 311,
+          "career_node_slug": "cloud_architect",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science > Cloud Architect",
+          "relation": "closest_specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-btech-cse-cyber-security",
+      "name": "BTech CSE in Cyber Security",
+      "level": "UG",
+      "credential": "Undergraduate degree",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/btech-cse-cyber-security",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 309,
+          "career_node_slug": "cybersecurity_analyst",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science > Cybersecurity Analyst",
+          "relation": "closest_specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-btech-cse-data-science",
+      "name": "BTech CSE in Data Science",
+      "level": "UG",
+      "credential": "Undergraduate degree",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/btech-cse-data-science",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 308,
+          "career_node_slug": "data_scientist",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science > Data Scientist",
+          "relation": "closest_specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-btech-cse-with-specialisation-in-cloud-and-analytics-platforms",
+      "name": "BTech CSE with specialisation in Cloud & Analytics Platforms (In collaboration with IBM)",
+      "level": "UG",
+      "credential": "Undergraduate degree",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/btech-cse-with-specialisation-in-cloud-and-analytics-platforms",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 311,
+          "career_node_slug": "cloud_architect",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science > Cloud Architect",
+          "relation": "closest_specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-btech-electrical-engineering",
+      "name": "BTech (AICTE Approved) In Electrical Engineering",
+      "level": "UG",
+      "credential": "Undergraduate degree",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/btech-electrical-engineering",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-diploma-in-dialysis-technician",
+      "name": "Diploma in Dialysis Technician",
+      "level": "Diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/diploma-in-dialysis-technician",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-diploma-in-ot-technician",
+      "name": "Diploma in OT Technician",
+      "level": "Diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/diploma-in-ot-technician",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-diploma-in-pharmacy",
+      "name": "Diploma in Pharmacy",
+      "level": "Diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/diploma-in-pharmacy",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-doctor-of-pharmacy-programme-at-tmu-moradabad",
+      "name": "Pharm D (Doctor of Pharmacy)",
+      "level": "PG",
+      "credential": "Doctor of Pharmacy",
+      "specialization": null,
+      "duration": "6 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/doctor-of-pharmacy-programme-at-tmu-moradabad",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-m-pharm-pharmaceutical-analysis",
+      "name": "M Pharm (Master of Pharmacy) in Pharmaceutical Analysis",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/m-pharm-pharmaceutical-analysis",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-m-pharm-pharmaceutics",
+      "name": "M Pharm (Master of Pharmacy) in Pharmaceutics",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/m-pharm-pharmaceutics",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-m-pharm-pharmacology",
+      "name": "M Pharm (Master of Pharmacy) in Pharmacology",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/m-pharm-pharmacology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-master-of-business-administration-mba",
+      "name": "Master of Business Administration (MBA)",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/master-of-business-administration-mba",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 208,
+          "career_node_slug": "mba_general",
+          "career_breadcrumb": "Management & Business > BBA (General) > MBA → CEO / Director Track",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-master-of-science-in-agronomy-programme",
+      "name": "MSc (AG) Agronomy",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/master-of-science-in-agronomy-programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-masters-of-education-m-ed",
+      "name": "M Ed (Master of Education)",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/masters-of-education-m-ed",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-masters-of-law-llm-programme",
+      "name": "LLM",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "1 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/masters-of-law-llm-programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 347,
+          "career_node_slug": "art_law",
+          "career_breadcrumb": "Law & Civil Services",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-mba-corporate-global-exposure",
+      "name": "MBA in Corporate with Global Exposure",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/mba-corporate-global-exposure",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 208,
+          "career_node_slug": "mba_general",
+          "career_breadcrumb": "Management & Business > BBA (General) > MBA → CEO / Director Track",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-mba-in-agri-business",
+      "name": "Master of Business Administration (Specialization in Agri-Business Management)",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/mba-in-agri-business",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 208,
+          "career_node_slug": "mba_general",
+          "career_breadcrumb": "Management & Business > BBA (General) > MBA → CEO / Director Track",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-mba-in-data-analytics",
+      "name": "MBA in Data Analytics",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/mba-in-data-analytics",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 208,
+          "career_node_slug": "mba_general",
+          "career_breadcrumb": "Management & Business > BBA (General) > MBA → CEO / Director Track",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-mba-in-digital-marketing",
+      "name": "MBA in Digital Marketing",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/mba-in-digital-marketing",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 213,
+          "career_node_slug": "digital_marketer",
+          "career_breadcrumb": "Management & Business > BBA Marketing > Digital Marketing Specialist",
+          "relation": "closest_specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-mba-in-hospital-management-mba-programme",
+      "name": "MBA in Hospital Management (MBA)",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/mba-in-hospital-management-mba-programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 208,
+          "career_node_slug": "mba_general",
+          "career_breadcrumb": "Management & Business > BBA (General) > MBA → CEO / Director Track",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-mba-logistics-supply-chain-management",
+      "name": "MBA in Logistics and Supply Chain Management",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/mba-logistics-supply-chain-management",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 210,
+          "career_node_slug": "operations_manager",
+          "career_breadcrumb": "Management & Business > BBA (General) > Operations Manager",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-mbbs",
+      "name": "MBBS (Bachelor of Medicine, Bachelor of Surgery)",
+      "level": "UG",
+      "credential": "Undergraduate degree",
+      "specialization": null,
+      "duration": "4.5 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/mbbs",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-mca-programme",
+      "name": "MCA (Master of Computer Applications)",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/mca-programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 93,
+          "career_node_slug": "mca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications) > MCA → Software Engineer",
+          "relation": "closest_specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-md-anatomy",
+      "name": "MD (Doctor of Medicine) in Anatomy",
+      "level": "PG",
+      "credential": "Medical doctorate",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/md-anatomy",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-md-anesthesiology",
+      "name": "MD (Doctor of Medicine) in Anesthesiology",
+      "level": "PG",
+      "credential": "Medical doctorate",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/md-anesthesiology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-md-biochemistry",
+      "name": "MD (Doctor of Medicine) in Biochemistry",
+      "level": "PG",
+      "credential": "Medical doctorate",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/md-biochemistry",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-md-community-medicine",
+      "name": "MD (Doctor of Medicine) in Community Medicine",
+      "level": "PG",
+      "credential": "Medical doctorate",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/md-community-medicine",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-md-dermatology-venereology-and-leprosy",
+      "name": "MD (Doctor of Medicine) in Dermatology, Venereology and Leprosy",
+      "level": "PG",
+      "credential": "Medical doctorate",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/md-dermatology-venereology-and-leprosy",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 131,
+          "career_node_slug": "md_derma",
+          "career_breadcrumb": "Biology / PCB > MBBS > MD Dermatology",
+          "relation": "closest_specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-md-forensic-medicine",
+      "name": "MD (Doctor of Medicine) in Forensic Medicine",
+      "level": "PG",
+      "credential": "Medical doctorate",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/md-forensic-medicine",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-md-general-medicine",
+      "name": "MD (Doctor of Medicine) in General Medicine",
+      "level": "PG",
+      "credential": "Medical doctorate",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/md-general-medicine",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 128,
+          "career_node_slug": "md_general",
+          "career_breadcrumb": "Biology / PCB > MBBS > MD General Medicine",
+          "relation": "closest_specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-md-microbiology",
+      "name": "MD (Doctor of Medicine) in Microbiology",
+      "level": "PG",
+      "credential": "Medical doctorate",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/md-microbiology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-md-paediatrics",
+      "name": "MD (Doctor of Medicine) in Paediatrics",
+      "level": "PG",
+      "credential": "Medical doctorate",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/md-paediatrics",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 130,
+          "career_node_slug": "md_paediatrics",
+          "career_breadcrumb": "Biology / PCB > MBBS > MD Paediatrics",
+          "relation": "closest_specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-md-pathology",
+      "name": "MD (Doctor of Medicine) in Pathology",
+      "level": "PG",
+      "credential": "Medical doctorate",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/md-pathology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-md-pharmacology",
+      "name": "MD (Doctor of Medicine) in Pharmacology",
+      "level": "PG",
+      "credential": "Medical doctorate",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/md-pharmacology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-md-physiology",
+      "name": "MD (Doctor of Medicine) in Physiology",
+      "level": "PG",
+      "credential": "Medical doctorate",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/md-physiology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-md-psychiatry",
+      "name": "MD (Doctor of Medicine) in Psychiatry",
+      "level": "PG",
+      "credential": "Medical doctorate",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/md-psychiatry",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 132,
+          "career_node_slug": "md_psychiatry",
+          "career_breadcrumb": "Biology / PCB > MBBS > MD Psychiatry",
+          "relation": "closest_specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-md-radio-diagnosis-radiology",
+      "name": "MD (Doctor of Medicine) in Radio-Diagnosis/Radiology",
+      "level": "PG",
+      "credential": "Medical doctorate",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/md-radio-diagnosis-radiology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 133,
+          "career_node_slug": "md_radiology",
+          "career_breadcrumb": "Biology / PCB > MBBS > MD Radiology",
+          "relation": "closest_specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-md-respiratory-medicine-tb-and-chest",
+      "name": "MD (Doctor of Medicine) in Respiratory Medicine/TB & Chest",
+      "level": "PG",
+      "credential": "Medical doctorate",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/md-respiratory-medicine-tb-and-chest",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-mds-conservation-dentistry-programme",
+      "name": "MDS in Conservation Dentistry & Endodontics",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/mds-conservation-dentistry-programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 135,
+          "career_node_slug": "mds_endo",
+          "career_breadcrumb": "Biology / PCB > BDS (Dental Surgery) > MDS Endodontics",
+          "relation": "closest_specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-mds-oral-maxillofacial-pathology-and-oral-microbiology",
+      "name": "MDS in Oral Maxillofacial Pathology & Oral Microbiology",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/mds-oral-maxillofacial-pathology-and-oral-microbiology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 16,
+          "career_node_slug": "bds",
+          "career_breadcrumb": "Biology / PCB > BDS (Dental Surgery)",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-mds-oral-maxillofacial-surgery",
+      "name": "MDS in Oral & Maxillofacial Surgery",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/mds-oral-maxillofacial-surgery",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 16,
+          "career_node_slug": "bds",
+          "career_breadcrumb": "Biology / PCB > BDS (Dental Surgery)",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-mds-orthodontics-dentofacial-orthopedics",
+      "name": "MDS in Orthodontics & Dentofacial Orthopedics",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/mds-orthodontics-dentofacial-orthopedics",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 134,
+          "career_node_slug": "mds_ortho",
+          "career_breadcrumb": "Biology / PCB > BDS (Dental Surgery) > MDS Orthodontics",
+          "relation": "closest_specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-mds-pediatric-preventive-dentistry",
+      "name": "MDS in Paedodontics & Preventive Dentistry",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/mds-pediatric-preventive-dentistry",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 16,
+          "career_node_slug": "bds",
+          "career_breadcrumb": "Biology / PCB > BDS (Dental Surgery)",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-mds-prosthodontics-crown-bridge",
+      "name": "MDS In Prosthodontics and Crown & Bridge",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/mds-prosthodontics-crown-bridge",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 16,
+          "career_node_slug": "bds",
+          "career_breadcrumb": "Biology / PCB > BDS (Dental Surgery)",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-mped-programme",
+      "name": "M.P.Ed.",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/mped-programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 78,
+          "career_node_slug": "sports_career",
+          "career_breadcrumb": "Performing Arts & Sports > Sports & Physical Education",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-mpt-in-sports",
+      "name": "Master of Physiotherapy (MPT) in Sports Sciences",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/mpt-in-Sports",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 152,
+          "career_node_slug": "sports_physio",
+          "career_breadcrumb": "Biology / PCB > BPT (Physiotherapy) > Sports Physiotherapist",
+          "relation": "closest_specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-mpt-in-cardiopulmonary",
+      "name": "Master of Physiotherapy (MPT) in Cardio-Pulmonary Sciences",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/mpt-in-cardiopulmonary",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 23,
+          "career_node_slug": "bpt",
+          "career_breadcrumb": "Biology / PCB > BPT (Physiotherapy)",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-mpt-in-neurosciences",
+      "name": "Master of Physiotherapy (MPT) in Neurosciences",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/mpt-in-neurosciences",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 23,
+          "career_node_slug": "bpt",
+          "career_breadcrumb": "Biology / PCB > BPT (Physiotherapy)",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-mpt-in-orthopaedics",
+      "name": "Master of Physiotherapy (MPT) in Musculoskeletal Sciences",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/mpt-in-orthopaedics",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 23,
+          "career_node_slug": "bpt",
+          "career_breadcrumb": "Biology / PCB > BPT (Physiotherapy)",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-mpt-or-master-of-physiotherapy-paediatrics",
+      "name": "Master of Physiotherapy (MPT) in Paediatrics and Neonatal Sciences",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/mpt-or-Master-of-physiotherapy-Paediatrics",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 23,
+          "career_node_slug": "bpt",
+          "career_breadcrumb": "Biology / PCB > BPT (Physiotherapy)",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-ms-ent-oto-rhinlaryngology",
+      "name": "MS (Master of Science) in ENT/Oto-Rhinlaryngology",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/ms-ent-oto-rhinlaryngology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-ms-general-surgery",
+      "name": "MS (Master of Science) in General Surgery",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/ms-general-surgery",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 129,
+          "career_node_slug": "ms_surgery",
+          "career_breadcrumb": "Biology / PCB > MBBS > MS Surgery",
+          "relation": "closest_specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-ms-obstetrics-and-gynaecology",
+      "name": "MS (Master of Science) in Obstetrics and Gynaecology",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/ms-obstetrics-and-gynaecology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-ms-ophthalomology",
+      "name": "MS (Master of Science) in Ophthalomology",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/ms-ophthalomology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-ms-orthopaedics",
+      "name": "MS (Master of Science) in Orthopaedics",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/ms-orthopaedics",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-msc-animation",
+      "name": "MSc Animation",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/msc-animation",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 246,
+          "career_node_slug": "animation",
+          "career_breadcrumb": "Media & Journalism > B.F.A (Fine Arts) > Animator / VFX Artist",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-msc-artificial-intelligence",
+      "name": "MSc (Master of Science) in Artificial Intelligence (In collaboration with Aivancity, France)",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/msc-artificial-intelligence",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 33,
+          "career_node_slug": "bsc_ai",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Artificial Intelligence",
+          "relation": "closest_specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-msc-data-science",
+      "name": "MSc (Master of Science) in Data Science (In collaboration with Aivancity, France)",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/msc-data-science",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 31,
+          "career_node_slug": "bsc_ds",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Data Science",
+          "relation": "closest_specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-msc-in-community-health-nursing",
+      "name": "MSc in Community Health Nursing",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/msc-in-community-health-nursing",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 19,
+          "career_node_slug": "bsc_nursing",
+          "career_breadcrumb": "Biology / PCB > B.Sc Nursing",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-msc-in-gynaecology",
+      "name": "MSc in Obstetrics & Gynaecology Nursing",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/msc-in-gynaecology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 19,
+          "career_node_slug": "bsc_nursing",
+          "career_breadcrumb": "Biology / PCB > B.Sc Nursing",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-msc-in-optometry",
+      "name": "Master of Optometry",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/msc-in-optometry",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 36,
+          "career_node_slug": "bsc_optometry",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Optometry",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-msc-in-paediatric-nursing",
+      "name": "M.Sc. in Child Health (Paediatric) Nursing",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/msc-in-paediatric-nursing",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 19,
+          "career_node_slug": "bsc_nursing",
+          "career_breadcrumb": "Biology / PCB > B.Sc Nursing",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-msc-in-psychiatry-nursing",
+      "name": "M.Sc. in Mental Health (Psychiatric) Nursing",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/msc-in-psychiatry-nursing",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 19,
+          "career_node_slug": "bsc_nursing",
+          "career_breadcrumb": "Biology / PCB > B.Sc Nursing",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-msc-in-radiology",
+      "name": "Master of Medical Radiology and Imaging Technology (MMRIT)",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/msc-in-radiology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 38,
+          "career_node_slug": "bsc_radiology",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Radiology & Imaging Technology",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-msc-medical-lab-technology",
+      "name": "Master of Medical Laboratory Science (MMLS)",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/msc-medical-lab-technology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 37,
+          "career_node_slug": "dmlt",
+          "career_breadcrumb": "Paramedical & Health Sciences > DMLT (Medical Lab Technology)",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-msc-medical-surgical-nursing",
+      "name": "MSc in Medical Surgical Nursing",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/msc-medical-surgical-nursing",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 19,
+          "career_node_slug": "bsc_nursing",
+          "career_breadcrumb": "Biology / PCB > B.Sc Nursing",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-msc-plant-pathology",
+      "name": "MSc Plant Pathology",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/msc-plant-pathology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-msc-soil-science",
+      "name": "MSc Soil Science",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/msc-soil-science",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-mtech-additive-manufacturing",
+      "name": "MTech (Master of Technology) in Additive Manufacturing",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/mtech-additive-manufacturing",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-mtech-computer-science-engineering",
+      "name": "MTech (Computer Science & Engineering)",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/mtech-computer-science-engineering",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-mtech-electrical-power-energy-system",
+      "name": "MTech in Electrical Power and Energy System",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/mtech-electrical-power-energy-system",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-mtech-machine-learning-data-science",
+      "name": "MTech in Machine Learning & Data Science",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/mtech-machine-learning-data-science",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 81,
+          "career_node_slug": "btech_ai",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > AI & Machine Learning",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-mtech-structural-and-construction-engineering",
+      "name": "M Tech in Structural and Construction Engineering",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/mtech-structural-and-construction-engineering",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-pharm-d-pb-post-baccalaureate",
+      "name": "Pharm D PB (Post Baccalaureate)",
+      "level": "PG",
+      "credential": "Postgraduate degree",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/pharm-d-pb-post-baccalaureate",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "teerthanker-mahaveer-university-tmu-post-basic-bsc-nursing",
+      "name": "Post Basic BSc in Nursing",
+      "level": "UG",
+      "credential": "Undergraduate degree",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.tmu.ac.in/programme/post-basic-bsc-nursing",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 19,
+          "career_node_slug": "bsc_nursing",
+          "career_breadcrumb": "Biology / PCB > B.Sc Nursing",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "Normal TLS verification initially failed with the managed proxy's self-signed certificate-chain error; public GETs to the expected NIRF and tmu.ac.in hosts used curl --insecure fallback.",
+    "All six supplied 2025 NIRF pages contain the exact institution name with Moradabad, Uttar Pradesh.",
+    "The central JSON catalogue exposes 116 programmes, while the official sitemap exposes 130 programme detail URLs; two sitemap pages are explicitly marked offered till 2023-2024 and were excluded, leaving 128 current-looking programme pages. The mismatch and absence of a central Ph.D./certificate listing make the catalogue incomplete/inconsistent, so manual_review is required.",
+    "News and blog pages were excluded from the programme inventory; durations were retained only where the official programme page explicitly displayed them, and eligibility was left null because it was not taken from the central catalogue.",
+    "Delivery mode is not stated by the central catalogue; mode is recorded as not_specified.",
+    "The context labels the institution_type as state_university, while the official homepage describes TMU as a private university; this classification discrepancy is noted without changing the supplied institution identity.",
+    "career_path.db was queried read-only; direct discipline nodes were preferred and nearest-parent or closest-specialization relations were used for variants without an exact local-tree node."
+  ]
+}

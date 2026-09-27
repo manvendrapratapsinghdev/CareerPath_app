@@ -1,0 +1,80 @@
+{
+  "batch": 2,
+  "started_at": "2026-09-27T07:00:39.158846+00:00",
+  "finished_at": "2026-09-27T07:09:16.263043+00:00",
+  "assignment_count": 5,
+  "completed_count": 3,
+  "skipped_count": 0,
+  "failed_count": 2,
+  "results": [
+    {
+      "institution_id": "indian-institute-of-forest-management",
+      "nirf_name": "Indian Institute of Forest Management",
+      "status": "completed",
+      "started_at": "2026-09-27T07:00:39.172679+00:00",
+      "finished_at": "2026-09-27T07:01:05.742455+00:00",
+      "duration_seconds": 26.563,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/results/indian-institute-of-forest-management.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/indian-institute-of-forest-management.jsonl"
+    },
+    {
+      "institution_id": "indian-institute-of-science-education-research-bhopal",
+      "nirf_name": "Indian Institute of Science Education & Research Bhopal",
+      "status": "failed",
+      "started_at": "2026-09-27T07:00:39.172849+00:00",
+      "finished_at": "2026-09-27T07:03:53.831064+00:00",
+      "duration_seconds": 194.633,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [
+        "verification source is outside official domains: https://www.nirfindia.org/Rankings/2025/OverallRanking.html"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/indian-institute-of-science-education-research-bhopal.jsonl"
+    },
+    {
+      "institution_id": "indira-gandhi-national-tribal-university",
+      "nirf_name": "Indira Gandhi National Tribal University",
+      "status": "completed",
+      "started_at": "2026-09-27T07:00:39.173020+00:00",
+      "finished_at": "2026-09-27T07:03:32.216137+00:00",
+      "duration_seconds": 173.021,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/results/indira-gandhi-national-tribal-university.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/indira-gandhi-national-tribal-university.jsonl"
+    },
+    {
+      "institution_id": "lakshmibai-national-institute-of-physical-education-gwalior-ministry-of-youth-affairs-and-sports-government-of-india",
+      "nirf_name": "LAKSHMIBAI NATIONAL INSTITUTE OF PHYSICAL EDUCATION, Gwalior (Ministry\r\n                                                of Youth Affairs and Sports, Government of India)",
+      "status": "completed",
+      "started_at": "2026-09-27T07:00:39.172758+00:00",
+      "finished_at": "2026-09-27T07:00:58.636138+00:00",
+      "duration_seconds": 19.453,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/results/lakshmibai-national-institute-of-physical-education-gwalior-ministry-of-youth-affairs-and-sports-government-of-india.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/lakshmibai-national-institute-of-physical-education-gwalior-ministry-of-youth-affairs-and-sports-government-of-india.jsonl"
+    },
+    {
+      "institution_id": "sardar-patel-university",
+      "nirf_name": "Sardar Patel University",
+      "status": "failed",
+      "started_at": "2026-09-27T07:00:39.173092+00:00",
+      "finished_at": "2026-09-27T07:09:16.259576+00:00",
+      "duration_seconds": 517.016,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [
+        "<root>: 'government_listing_sources' is a required property"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/sardar-patel-university.jsonl"
+    }
+  ]
+}

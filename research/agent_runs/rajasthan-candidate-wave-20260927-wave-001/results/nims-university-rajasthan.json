@@ -1,0 +1,528 @@
+{
+  "institution_id": "nims-university-rajasthan",
+  "nirf_name": "NIMS University, Jaipur",
+  "verification_outcome": "manual_review",
+  "district": "Jaipur",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://nimsuniversity.org/",
+  "website_verification_status": "verified",
+  "description": "NIMS University Rajasthan is a multidisciplinary private university in Jaipur, Rajasthan, located at Dr. B.S. Tomar City on the Jaipur–Delhi Highway.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "official_homepage",
+      "url": "https://nimsuniversity.org/",
+      "supports": [
+        "official institution identity",
+        "Jaipur/Rajasthan campus address",
+        "links to official programme catalogues"
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "https://nimsuniversity.org/about.php",
+      "supports": [
+        "NIMS University Rajasthan identity",
+        "Jaipur campus and Jaipur–Delhi Highway location",
+        "multidisciplinary university description"
+      ]
+    },
+    {
+      "type": "official_campus_context",
+      "url": "https://nimsuniversity.org/campus-surroundings.php",
+      "supports": [
+        "Jaipur campus context"
+      ]
+    },
+    {
+      "type": "official_admissions",
+      "url": "https://nimsuniversity.org/howtoapply.php",
+      "supports": [
+        "official admissions process",
+        "Jaipur/Rajasthan identity"
+      ]
+    },
+    {
+      "type": "official_catalogue",
+      "url": "https://nimsuniversity.org/bachelors-programs",
+      "supports": [
+        "official undergraduate programme catalogue including BDS, B.Pharm and Pharm.D listings"
+      ]
+    },
+    {
+      "type": "official_catalogue",
+      "url": "https://nimsuniversity.org/diploma-programs",
+      "supports": [
+        "official diploma programme catalogue including Diploma in Pharmacy"
+      ]
+    },
+    {
+      "type": "official_catalogue",
+      "url": "https://nimsuniversity.org/masters-program",
+      "supports": [
+        "official postgraduate programme catalogue including MDS and M.Pharm listings"
+      ]
+    },
+    {
+      "type": "official_catalogue",
+      "url": "https://nimsuniversity.org/doctoral-programs",
+      "supports": [
+        "official doctoral programme catalogue including Ph.D. in Dentistry and Pharmacy"
+      ]
+    },
+    {
+      "type": "official_dental_programmes",
+      "url": "https://nimsuniversity.org/nims-institute-of-dental",
+      "supports": [
+        "official Dental College & Hospital programme list"
+      ]
+    },
+    {
+      "type": "official_pharmacy_programmes",
+      "url": "https://nimsuniversity.org/nims-institute-of-pharmacy",
+      "supports": [
+        "official pharmacy programme list"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "NIMS University Rajasthan Jaipur official site",
+      "result": "Bing returned the official NIMS University – Home result at https://nimsuniversity.org/.",
+      "url": "https://www.bing.com/search?q=NIMS+University+Rajasthan+Jaipur+official+site"
+    },
+    {
+      "query": "site:nimsuniversity.org NIMS University Jaipur courses",
+      "result": "Bing returned the official NIMS University – Home and Undergraduate Programs pages on nimsuniversity.org.",
+      "url": "https://www.bing.com/search?q=site%3Animsuniversity.org+NIMS+University+Jaipur+courses"
+    },
+    {
+      "query": "site:nimsuniversity.org admissions programmes NIMS University Rajasthan",
+      "result": "The focused official-domain search did not surface the admissions page directly; the official homepage navigation links to the admissions process page at https://nimsuniversity.org/howtoapply.php.",
+      "url": "https://www.bing.com/search?q=site%3Animsuniversity.org+admissions+programmes+NIMS+University+Rajasthan"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "nims-university-rajasthan-nims-bachelors-bds-bachelor-of-dental-surgery",
+      "name": "BDS (Bachelor Of Dental Surgery)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://nimsuniversity.org/nims-dental-college-hospital/bds-bachelor-of-dental-surgery-",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 16,
+          "career_node_slug": "bds",
+          "career_breadcrumb": "Biology / PCB > BDS (Dental Surgery)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "nims-university-rajasthan-nims-bachelors-bachelor-of-pharmacy",
+      "name": "Bachelor of Pharmacy",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://nimsuniversity.org/nims-institute-of-pharmacy/bachelor-of-pharmacy",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "nims-university-rajasthan-nims-professional-doctor-of-pharmacy-pharm-d",
+      "name": "Doctor of Pharmacy (Pharm.D.)",
+      "level": "professional",
+      "credential": "Professional doctorate",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://nimsuniversity.org/nims-institute-of-pharmacy/doctor-of-pharmacy-pharm-d-",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "nims-university-rajasthan-nims-professional-doctor-of-pharmacy-pharm-d-post-baccalaureate",
+      "name": "Doctor of Pharmacy (Pharm.D.) (Post-Baccalaureate)",
+      "level": "professional",
+      "credential": "Professional doctorate",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://nimsuniversity.org/nims-institute-of-pharmacy/doctor-of-pharmacy-pharm-d-post-baccalaureate-",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "nims-university-rajasthan-nims-diploma-diploma-in-pharmacy",
+      "name": "Diploma in Pharmacy",
+      "level": "diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://nimsuniversity.org/nims-institute-of-pharmacy/diploma-in-pharmacy",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "nims-university-rajasthan-nims-masters-mds-conservative-dentistry-endodontics",
+      "name": "MDS Conservative Dentistry & Endodontics",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://nimsuniversity.org/nims-dental-college-hospital/mds-conservative-dentistry-endodontics",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 135,
+          "career_node_slug": "mds_endo",
+          "career_breadcrumb": "Biology / PCB > BDS (Dental Surgery) > MDS Endodontics",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "nims-university-rajasthan-nims-masters-mds-oral-maxillofacial-surgery",
+      "name": "MDS Oral & Maxillofacial Surgery",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://nimsuniversity.org/nims-dental-college-hospital/mds-oral-maxillofacial-surgery",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 16,
+          "career_node_slug": "bds",
+          "career_breadcrumb": "Biology / PCB > BDS (Dental Surgery)",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "nims-university-rajasthan-nims-masters-mds-oral-medicine-radiology",
+      "name": "MDS Oral Medicine & Radiology",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://nimsuniversity.org/nims-dental-college-hospital/mds-oral-medicine-radiology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 16,
+          "career_node_slug": "bds",
+          "career_breadcrumb": "Biology / PCB > BDS (Dental Surgery)",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "nims-university-rajasthan-nims-masters-mds-oral-pathology-microbiology",
+      "name": "MDS Oral Pathology & Microbiology",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://nimsuniversity.org/nims-dental-college-hospital/mds-oral-pathology-microbiology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 16,
+          "career_node_slug": "bds",
+          "career_breadcrumb": "Biology / PCB > BDS (Dental Surgery)",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "nims-university-rajasthan-nims-masters-mds-orthodontics-dentofacial-orthopaedics",
+      "name": "MDS Orthodontics & Dentofacial Orthopaedics",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://nimsuniversity.org/nims-dental-college-hospital/mds-orthodontics-dentofacial-orthopaedics",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 134,
+          "career_node_slug": "mds_ortho",
+          "career_breadcrumb": "Biology / PCB > BDS (Dental Surgery) > MDS Orthodontics",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "nims-university-rajasthan-nims-masters-mds-paedodontics-preventive-dentistry",
+      "name": "MDS Paedodontics & Preventive Dentistry",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://nimsuniversity.org/nims-dental-college-hospital/mds-paedodontics-preventive-dentistry",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 16,
+          "career_node_slug": "bds",
+          "career_breadcrumb": "Biology / PCB > BDS (Dental Surgery)",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "nims-university-rajasthan-nims-masters-mds-periodontics",
+      "name": "MDS Periodontics",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://nimsuniversity.org/nims-dental-college-hospital/mds-periodontics",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 16,
+          "career_node_slug": "bds",
+          "career_breadcrumb": "Biology / PCB > BDS (Dental Surgery)",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "nims-university-rajasthan-nims-masters-mds-prosthodontics-crown-bridge",
+      "name": "MDS Prosthodontics & Crown & Bridge",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://nimsuniversity.org/nims-dental-college-hospital/mds-prosthodontics-crown-bridge",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 16,
+          "career_node_slug": "bds",
+          "career_breadcrumb": "Biology / PCB > BDS (Dental Surgery)",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "nims-university-rajasthan-nims-masters-mds-public-helath-dentistry",
+      "name": "MDS Public Helath Dentistry",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://nimsuniversity.org/nims-dental-college-hospital/mds-public-helath-dentistry",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 16,
+          "career_node_slug": "bds",
+          "career_breadcrumb": "Biology / PCB > BDS (Dental Surgery)",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "nims-university-rajasthan-nims-masters-master-of-pharmacy-pharmaceutics",
+      "name": "Master of Pharmacy (Pharmaceutics)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://nimsuniversity.org/nims-institute-of-pharmacy/master-of-pharmacy-pharmaceutics-",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "nims-university-rajasthan-nims-masters-master-of-pharmacy-pharmacology",
+      "name": "Master of Pharmacy (Pharmacology)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://nimsuniversity.org/nims-institute-of-pharmacy/master-of-pharmacy-pharmacology-",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "nims-university-rajasthan-nims-doctoral-ph-d-in-dentistry",
+      "name": "Ph.D. in Dentistry",
+      "level": "doctoral",
+      "credential": "Doctoral degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://nimsuniversity.org/nims-dental-college-hospital/ph-d-in-dentistry",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 16,
+          "career_node_slug": "bds",
+          "career_breadcrumb": "Biology / PCB > BDS (Dental Surgery)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "nims-university-rajasthan-nims-doctoral-ph-d-in-pharmacy",
+      "name": "Ph.D. in Pharmacy",
+      "level": "doctoral",
+      "credential": "Doctoral degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://nimsuniversity.org/nims-institute-of-pharmacy/ph-d-in-pharmacy",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "Initial normal curl TLS verification failed with the managed proxy error 'self signed certificate in certificate chain'. After confirming the expected Google/Bing and nimsuniversity.org hosts, public GET requests used curl --insecure; no credentials or private data were sent.",
+    "The supplied participating categories are Dental and Pharmacy. The official site verifies 18 active programmes in those categories, including BDS, MDS, Ph.D. Dentistry, B.Pharm, D.Pharm, Pharm.D, M.Pharm and Ph.D. Pharmacy. The site also exposes broader institution-wide catalogues and states 450+ courses, while the central catalogue pages expose fewer distinct programme links; therefore the full institution-wide catalogue is treated as partial and requires manual review."
+  ]
+}

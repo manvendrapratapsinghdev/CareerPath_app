@@ -1,0 +1,216 @@
+{
+  "institution_id": "govt-girls-college-dausa",
+  "nirf_name": "Govt. Girls College, Dausa",
+  "verification_outcome": "manual_review",
+  "district": "Dausa",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://hte.rajasthan.gov.in/SRISANTSUNDARDASGOVERNMENTGIRLSCOLLEGEDAUSA/29399",
+  "website_verification_status": "verified",
+  "description": "Sri Sant Sundardas Government Girls College, Dausa, established in 1996 near Gupteshwar Temple, is a government women's college that moved to its present premises in 2004. Its official history describes undergraduate education across Arts, Commerce and Science and postgraduate education in Hindi Literature and A.B.S.T.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "official_homepage",
+      "url": "https://hte.rajasthan.gov.in/SRISANTSUNDARDASGOVERNMENTGIRLSCOLLEGEDAUSA/29399",
+      "supports": [
+        "official institution name",
+        "campus/city",
+        "description",
+        "six homepage programme tiles"
+      ]
+    },
+    {
+      "type": "official_government_college_directory",
+      "url": "https://hte.rajasthan.gov.in/DepartmentOfCollegeEducation/10616",
+      "supports": [
+        "official institution name",
+        "Dausa district",
+        "Gupteshwar Road, Dausa address",
+        "girls/PG classification"
+      ]
+    },
+    {
+      "type": "official_course_page",
+      "url": "https://hte.rajasthan.gov.in/SRISANTSUNDARDASGOVERNMENTGIRLSCOLLEGEDAUSA/29698",
+      "supports": [
+        "official Course page exists but contains no programme entries, establishing catalogue incompleteness"
+      ]
+    },
+    {
+      "type": "official_history_page",
+      "url": "https://hte.rajasthan.gov.in/SRISANTSUNDARDASGOVERNMENTGIRLSCOLLEGEDAUSA/30492",
+      "supports": [
+        "undergraduate faculties",
+        "postgraduate Hindi Literature and A.B.S.T.",
+        "University of Rajasthan affiliation"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Govt. Girls College, Dausa\" official",
+      "result": "Google returned an HTTP 429 bot challenge; no institution result was available.",
+      "url": "https://www.google.com/search?q=%22Govt.+Girls+College%2C+Dausa%22+official"
+    },
+    {
+      "query": "Government Girls College Dausa Rajasthan official website",
+      "result": "Bing returned unrelated government portals and no institution result.",
+      "url": "https://www.bing.com/search?q=Government+Girls+College+Dausa+Rajasthan+official+website"
+    },
+    {
+      "query": "site:hte.rajasthan.gov.in Dausa Girls College",
+      "result": "Bing returned unrelated Dausa/Wikipedia results or no institution result.",
+      "url": "https://www.bing.com/search?q=site%3Ahte.rajasthan.gov.in+Dausa+Girls+College"
+    },
+    {
+      "query": "राजकीय कन्या महाविद्यालय दौसा",
+      "result": "Bing returned unrelated government portals or no institution result.",
+      "url": "https://www.bing.com/search?q=%E0%A4%B0%E0%A4%BE%E0%A4%9C%E0%A4%95%E0%A5%80%E0%A4%AF+%E0%A4%95%E0%A4%A8%E0%A5%8D%E0%A4%AF%E0%A4%BE+%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%B2%E0%A4%AF+%E0%A4%A6%E0%A5%8C%E0%A4%Bसा"
+    },
+    {
+      "query": "Government Girls College Dausa Rajasthan admission",
+      "result": "Bing returned unrelated results and no institution programme page.",
+      "url": "https://www.bing.com/search?q=Government+Girls+College+Dausa+Rajasthan+admission"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "govt-girls-college-dausa-ba-part-i",
+      "name": "BA Part I",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not specified",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/SRISANTSUNDARDASGOVERNMENTGIRLSCOLLEGEDAUSA/29399",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "The official catalogue names a generic BA without a subject, and the career tree has no generic BA node."
+    },
+    {
+      "course_id": "govt-girls-college-dausa-ma-hindi",
+      "name": "M.A.(Hindi)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": "Hindi",
+      "duration": null,
+      "mode": "not specified",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/SRISANTSUNDARDASGOVERNMENTGIRLSCOLLEGEDAUSA/29399",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "closest-specialization: Hindi / Regional Language; career node is BA-level while the official programme is M.A.",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-girls-college-dausa-bcom-part-i",
+      "name": "BCom Part I",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not specified",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/SRISANTSUNDARDASGOVERNMENTGIRLSCOLLEGEDAUSA/29399",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "closest-degree: B.Com / B.Com (Hons); official tile specifies Part I",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-girls-college-dausa-m-com-abst",
+      "name": "M.Com.(A.B.S.T)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": "A.B.S.T",
+      "duration": null,
+      "mode": "not specified",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/SRISANTSUNDARDASGOVERNMENTGIRLSCOLLEGEDAUSA/29399",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 340,
+          "career_node_slug": "commerce_accounting",
+          "career_breadcrumb": "Accounting & Audit",
+          "relation": "nearest-parent: Accounting & Audit for A.B.S.T.; the career tree has no M.Com. node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-girls-college-dausa-bsc-part-i-biology",
+      "name": "BSc Part I Biology",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": "Biology",
+      "duration": null,
+      "mode": "not specified",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/SRISANTSUNDARDASGOVERNMENTGIRLSCOLLEGEDAUSA/29399",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "direct discipline: Biology",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-girls-college-dausa-bsc-part-i-maths",
+      "name": "BSc Part I Maths",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": "Maths",
+      "duration": null,
+      "mode": "not specified",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/SRISANTSUNDARDASGOVERNMENTGIRLSCOLLEGEDAUSA/29399",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct discipline: Maths/Mathematics",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The official Rajasthan HTE directory lists SRI SANT SUNDARDAS GOVERNMENT GIRLS COLLEGE, DAUSA in Dausa district at Gupteshwar Road, Dausa; this matches the NIRF institution and city.",
+    "The homepage exposes six named programme tiles, while the dedicated official Course page is blank and the official history gives only faculty-level undergraduate and two postgraduate subject-group statements. The catalogue is therefore partial; manual review is required and no duration or eligibility is inferred.",
+    "Normal TLS verification first failed with the exact managed-proxy self-signed certificate-chain error. curl --insecure was then used only for public GETs to the confirmed Google/Bing search hosts and the confirmed official hte.rajasthan.gov.in host.",
+    "No additional named vocational, professional, diploma, certificate, or doctoral programmes were discoverable from the official institution catalogue."
+  ]
+}

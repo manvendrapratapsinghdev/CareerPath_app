@@ -1,0 +1,125 @@
+{
+  "institution_id": "goverment-college-joura-morena",
+  "nirf_name": "Goverment College, Joura, Morena",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "remove_candidate",
+  "district": null,
+  "district_verification_status": "not_found",
+  "official_website": null,
+  "website_verification_status": "not_found",
+  "description": null,
+  "description_verification_status": "not_found",
+  "record_status": "remove_candidate",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact institution name, Joura city, and Madhya Pradesh state are listed."
+      ]
+    },
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Exact institution name, Joura city, and Madhya Pradesh state are listed."
+      ]
+    },
+    {
+      "type": "government_portal_discovery",
+      "url": "https://epravesh.highereducation.mp.gov.in/EBrochure_College_Details.aspx?cm_id=Gs%2Bxt7BIS1E%3D",
+      "supports": [
+        "Government portal record identifies Govt College, Jaura, Morena and records a candidate website string; used for discovery only, not as official-site evidence."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "Goverment College Joura Morena official website",
+      "result": "No matching official institution website; results were unrelated government and general pages.",
+      "url": "https://www.bing.com/search?q=Goverment+College+Joura+Morena+official+website"
+    },
+    {
+      "query": "Government College Joura Morena Madhya Pradesh official",
+      "result": "No matching official institution website; results were unrelated government and general pages.",
+      "url": "https://www.bing.com/search?q=Government+College+Joura+Morena+Madhya+Pradesh+official"
+    },
+    {
+      "query": "\"Goverment College, Joura, Morena\"",
+      "result": "No relevant institution website returned.",
+      "url": "https://www.bing.com/search?q=%22Goverment+College%2C+Joura%2C+Morena%22"
+    },
+    {
+      "query": "\"Government College Joura\" Morena",
+      "result": "No relevant institution website returned.",
+      "url": "https://www.bing.com/search?q=%22Government+College+Joura%22+Morena"
+    },
+    {
+      "query": "\"महाविद्यालय जौरा\" Morena",
+      "result": "No relevant institution website returned.",
+      "url": "https://www.bing.com/search?q=%22महाविद्यालय+जौरा%22+Morena"
+    },
+    {
+      "query": "site:mp.gov.in Joura college Morena",
+      "result": "No relevant official college website returned.",
+      "url": "https://www.bing.com/search?q=site%3Amp.gov.in+Joura+college+Morena"
+    },
+    {
+      "query": "site:highereducation.mp.gov.in \"Joura\"",
+      "result": "No relevant official college website returned.",
+      "url": "https://www.bing.com/search?q=site%3Ahighereducation.mp.gov.in+%22Joura%22"
+    },
+    {
+      "query": "site:mp.gov.in \"Government College\" \"Joura\"",
+      "result": "No relevant official college website returned.",
+      "url": "https://www.bing.com/search?q=site%3Amp.gov.in+%22Government+College%22+%22Joura%22"
+    },
+    {
+      "query": "site:jiwaji.edu Joura college",
+      "result": "No relevant official college website returned.",
+      "url": "https://www.bing.com/search?q=site%3Ajiwaji.edu+Joura+college"
+    },
+    {
+      "query": "site:edu.in \"Joura\" \"Morena\" college",
+      "result": "No relevant official college website returned.",
+      "url": "https://www.bing.com/search?q=site%3Aedu.in+%22Joura%22+%22Morena%22+college"
+    },
+    {
+      "query": "site:mphighereducation.nic.in/gdcjoura",
+      "result": "No matching official institution page returned.",
+      "url": "https://www.bing.com/search?q=site%3Amphighereducation.nic.in%2Fgdcjoura"
+    },
+    {
+      "query": "\"mphighereducation.nic.in/gdcjoura\"",
+      "result": "No matching official institution page returned.",
+      "url": "https://www.bing.com/search?q=%22mphighereducation.nic.in%2Fgdcjoura%22"
+    },
+    {
+      "query": "\"gdcjoura\"",
+      "result": "No matching official institution page returned.",
+      "url": "https://www.bing.com/search?q=%22gdcjoura%22"
+    },
+    {
+      "query": "\"Govt College, Jaura\" official",
+      "result": "No relevant official institution website returned.",
+      "url": "https://www.bing.com/search?q=%22Govt+College%2C+Jaura%22+official"
+    },
+    {
+      "query": "authoritative-domain check: www.mphighereducation.nic/gdcjoura and www.mphighereducation.nic.in/gdcjoura",
+      "result": "The government portal's candidate hostname www.mphighereducation.nic does not resolve. The corrected .nic.in host resolves but the homepage and /gdcjoura path timed out without an HTTP response.",
+      "url": "https://www.mphighereducation.nic.in/gdcjoura"
+    }
+  ],
+  "course_catalogue_status": "not_found",
+  "courses": [],
+  "agent_notes": [
+    "The exact institution is present in both supplied NIRF 2025 listings, so government listing eligibility was established.",
+    "The MP e-Pravesh government record lists the candidate website string www.mphighereducation.nic/gdcjoura, but that hostname does not resolve. The corrected .nic.in host was unreachable and provided no readable official homepage or catalogue.",
+    "Normal TLS verification first failed with curl error 60 caused by the managed proxy certificate chain; curl --insecure was then used only for confirmed public hosts, as permitted.",
+    "After multiple focused searches and the authoritative-domain check, no reachable official institution website could be established. No programme, duration, eligibility, district, or description was imported."
+  ]
+}

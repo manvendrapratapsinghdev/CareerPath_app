@@ -1,0 +1,91 @@
+{
+  "batch": 37,
+  "started_at": "2026-09-27T07:16:10.851703+00:00",
+  "finished_at": "2026-09-27T07:16:26.132707+00:00",
+  "assignment_count": 5,
+  "completed_count": 0,
+  "skipped_count": 0,
+  "failed_count": 5,
+  "results": [
+    {
+      "institution_id": "government-abhyananda-sanskrit-college-kalyanpur",
+      "nirf_name": "Government Abhyananda Sanskrit College, Kalyanpur",
+      "status": "failed",
+      "started_at": "2026-09-27T07:16:10.907329+00:00",
+      "finished_at": "2026-09-27T07:16:25.956416+00:00",
+      "duration_seconds": 15.049,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/government-abhyananda-sanskrit-college-kalyanpur.jsonl"
+    },
+    {
+      "institution_id": "government-college-jaisinghnagar",
+      "nirf_name": "Government College Jaisinghnagar",
+      "status": "failed",
+      "started_at": "2026-09-27T07:16:10.918246+00:00",
+      "finished_at": "2026-09-27T07:16:25.794614+00:00",
+      "duration_seconds": 14.873,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/government-college-jaisinghnagar.jsonl"
+    },
+    {
+      "institution_id": "govt-college-mohan-badodia",
+      "nirf_name": "Govt. College, Mohan Badodia",
+      "status": "failed",
+      "started_at": "2026-09-27T07:16:10.952577+00:00",
+      "finished_at": "2026-09-27T07:16:26.107020+00:00",
+      "duration_seconds": 15.154,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/govt-college-mohan-badodia.jsonl"
+    },
+    {
+      "institution_id": "govt-college-shahganj",
+      "nirf_name": "Govt. College Shahganj",
+      "status": "failed",
+      "started_at": "2026-09-27T07:16:10.910141+00:00",
+      "finished_at": "2026-09-27T07:16:25.795309+00:00",
+      "duration_seconds": 14.885,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/govt-college-shahganj.jsonl"
+    },
+    {
+      "institution_id": "govt-college-shahpur-betul",
+      "nirf_name": "Govt. College Shahpur, Betul",
+      "status": "failed",
+      "started_at": "2026-09-27T07:16:10.928705+00:00",
+      "finished_at": "2026-09-27T07:16:25.881781+00:00",
+      "duration_seconds": 14.95,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/govt-college-shahpur-betul.jsonl"
+    }
+  ]
+}

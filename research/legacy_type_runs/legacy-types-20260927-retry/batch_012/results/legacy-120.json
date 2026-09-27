@@ -1,0 +1,15 @@
+{
+  "institution_id": "legacy-120",
+  "database_id": 120,
+  "name": "KEM Hospital Mumbai",
+  "website": "https://www.kemhospital.org",
+  "outcome": "manual_review",
+  "institution_type": null,
+  "source_url": null,
+  "confidence": null,
+  "evidence": null,
+  "notes": [
+    "Normal TLS verification failed with a self-signed certificate in the certificate chain; the permitted --insecure fallback was used.",
+    "The official hostname was blocked by SSL_HOST_MISMATCH, and the resolved server returned a Refyn Data page rather than KEM Hospital content, so the institutional type could not be established from the official site."
+  ]
+}

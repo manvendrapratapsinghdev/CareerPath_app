@@ -1,0 +1,91 @@
+{
+  "institution_id": "government-college-dobi",
+  "nirf_name": "GOVERNMENT COLLEGE, DOBI",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Sehore",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://highereducation.mp.gov.in/?orgid=406",
+  "website_verification_status": "verified",
+  "description": "Rai Bahadur Bannu Singh Government College, Dobi, is a government college campus in Sehore district under the Higher Education Department of the Government of Madhya Pradesh.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "The NIRF 2025 College listing contains GOVERNMENT COLLEGE, DOBI with city BUDHNI and state Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "official_campus_homepage",
+      "url": "https://highereducation.mp.gov.in/?orgid=406",
+      "supports": [
+        "The official campus page identifies Rai Bahadur Bannu Singh Government College, Dobi, Sehore in Hindi and places it under the Higher Education Department of the Madhya Pradesh Government."
+      ]
+    },
+    {
+      "type": "official_programme_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=tV0cE1TfRK9GSjBazA6bqg%3D%3D&orgid=406",
+      "supports": [
+        "The official Regular Courses page exposes PG Programme, UG Programme, and Diploma Programme sections, but no programme rows or current programme facts are populated."
+      ]
+    },
+    {
+      "type": "official_distance_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=pnAHeTZW1MTr8fLDVZNyvw%3D%3D&orgid=406",
+      "supports": [
+        "The official Distance Education Courses page exposes PG, UG, and Diploma distance sections, but no course rows are populated."
+      ]
+    },
+    {
+      "type": "official_prospectus_page",
+      "url": "https://highereducation.mp.gov.in/?page=w4Ikvfu9f6C0jOqZWZOodw%3D%3D&orgid=406",
+      "supports": [
+        "The official Prospectus page was checked and contains no current programme catalogue or eligibility details."
+      ]
+    },
+    {
+      "type": "official_new_course_page",
+      "url": "https://highereducation.mp.gov.in/?page=Qp5XM8Z4mS%2Bne8PaDTzEGA%3D%3D&orgid=406",
+      "supports": [
+        "The official New Course Started page was checked and contains no current programme details."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Government College, Dobi\" official website",
+      "result": "The search response did not establish an official institution website; discovery continued through the Madhya Pradesh Higher Education Department directory.",
+      "url": "https://www.google.com/search?q=%22Government+College%2C+Dobi%22+official+website"
+    },
+    {
+      "query": "\"Government College Dobi\" Budhni Madhya Pradesh",
+      "result": "The search response did not establish an official institution website; discovery continued through the Madhya Pradesh Higher Education Department directory.",
+      "url": "https://www.google.com/search?q=%22Government+College+Dobi%22+Budhni+Madhya+Pradesh"
+    },
+    {
+      "query": "site:mp.gov.in \"Government College\" Dobi",
+      "result": "The search response did not establish an official institution website; the authoritative highereducation.mp.gov.in domain was checked directly.",
+      "url": "https://www.google.com/search?q=site%3Amp.gov.in+%22Government+College%22+Dobi"
+    },
+    {
+      "query": "site:ac.in Dobi Budhni college",
+      "result": "The search response did not establish an official institution website.",
+      "url": "https://www.google.com/search?q=site%3Aac.in+Dobi+Budhni+college"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [],
+  "agent_notes": [
+    "The official Madhya Pradesh Higher Education Department campus page is keyed by orgid=406 and identifies the Dobi campus in Sehore.",
+    "The official Regular Courses page has PG, UG, and Diploma headings but no current course rows, duration, eligibility, or other programme facts; the catalogue is incomplete.",
+    "The official Distance Education Courses, Prospectus, and New Course Started pages also contain no current programme records. No course was imported or mapped because no active programme name was explicitly verified by the official catalogue.",
+    "A 2022-23 B.A. final-year timetable appears under homepage news and beautician-course images appear in the homepage carousel; both were excluded as news/promotional material rather than current catalogue evidence.",
+    "Normal TLS requests encountered the managed proxy self-signed certificate-chain error; curl --insecure was used only for public GET requests to the expected NIRF, search, and Madhya Pradesh government domains."
+  ]
+}

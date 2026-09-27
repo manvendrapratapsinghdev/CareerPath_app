@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a0e1b2-2164-78c1-9eac-ba29dd5d4ddc"}
+{"type":"turn.started"}
+{"type":"error","message":"{\n  \"type\": \"error\",\n  \"error\": {\n    \"type\": \"invalid_request_error\",\n    \"code\": \"invalid_json_schema\",\n    \"message\": \"Invalid schema for response_format 'codex_output_schema': In context=('properties', 'government_listing_sources', 'items'), 'uri' is not a valid format.\",\n    \"param\": \"text.format.schema\"\n  },\n  \"status\": 400\n}"}
+{"type":"turn.failed","error":{"message":"{\n  \"type\": \"error\",\n  \"error\": {\n    \"type\": \"invalid_request_error\",\n    \"code\": \"invalid_json_schema\",\n    \"message\": \"Invalid schema for response_format 'codex_output_schema': In context=('properties', 'government_listing_sources', 'items'), 'uri' is not a valid format.\",\n    \"param\": \"text.format.schema\"\n  },\n  \"status\": 400\n}"}}

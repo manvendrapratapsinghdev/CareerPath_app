@@ -1,0 +1,192 @@
+{
+  "institution_id": "army-institute-of-management-technology",
+  "nirf_name": "Army Institute of Management Technology",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "verified",
+  "district": "Gautam Buddha Nagar",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://www.aimt.ac.in/",
+  "website_verification_status": "verified",
+  "description": "Army Institute of Management & Technology (AIMT) is a fully residential management institute established by the Army Welfare Education Society in 2004 at Greater Noida, Uttar Pradesh, and affiliated with Guru Gobind Singh Indraprastha University, Delhi.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html",
+      "supports": [
+        "Lists Army Institute of Management Technology in Greater Noida, Uttar Pradesh."
+      ]
+    },
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Lists Army Institute of Management Technology in Greater Noida, Uttar Pradesh."
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://www.aimt.ac.in/",
+      "supports": [
+        "Confirms the AIMT institution identity and current programme navigation."
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "https://www.aimt.ac.in/about-aimt",
+      "supports": [
+        "Identifies AIMT as established by AWES in 2004 at Greater Noida, with a fully residential campus and GGSIP University affiliation."
+      ]
+    },
+    {
+      "type": "official_contact",
+      "url": "https://www.aimt.ac.in/contact-us",
+      "supports": [
+        "Provides the official campus address at Plot No M-1, Pocket P-5, Greater Noida, Uttar Pradesh."
+      ]
+    },
+    {
+      "type": "official_catalogue",
+      "url": "https://www.aimt.ac.in/bba-programme",
+      "supports": [
+        "Proves the current BBA Programme name, Bachelor of Business Administration credential, and four-year eight-semester duration."
+      ]
+    },
+    {
+      "type": "official_eligibility",
+      "url": "https://www.aimt.ac.in/bba-program-eligibility-criteria-admissions-criteria",
+      "supports": [
+        "States the BBA eligibility requirement of 10+2/equivalent, minimum 50% aggregate, and English subject."
+      ]
+    },
+    {
+      "type": "official_admissions",
+      "url": "https://www.aimt.ac.in/bba-admission",
+      "supports": [
+        "Confirms the active BBA Programme-2026 admission page."
+      ]
+    },
+    {
+      "type": "official_catalogue",
+      "url": "https://www.aimt.ac.in/mba-programme",
+      "supports": [
+        "Proves the current MBA Programme name, Master of Business Administration credential, and two-year four-semester duration."
+      ]
+    },
+    {
+      "type": "official_admissions",
+      "url": "https://www.aimt.ac.in/mba-admission",
+      "supports": [
+        "Confirms the active MBA Programme-2026 admission page."
+      ]
+    },
+    {
+      "type": "official_catalogue",
+      "url": "https://www.aimt.ac.in/mba-analytics-programme",
+      "supports": [
+        "Proves the current MBA Analytics Programme name, Master of Business Administration in Analytics credential, and two-year four-semester duration."
+      ]
+    },
+    {
+      "type": "official_eligibility",
+      "url": "https://www.aimt.ac.in/mba-analytics-admission",
+      "supports": [
+        "States the MBA Analytics eligibility requirements for recognized bachelor's degrees, engineering/technology degrees, or specified professional examinations."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Army Institute of Management Technology\" official website",
+      "result": "The exact official candidate https://www.aimt.ac.in/ was independently checked by HTTPS and matched the institution name and Greater Noida campus.",
+      "url": "https://www.aimt.ac.in/"
+    },
+    {
+      "query": "\"Army Institute of Management Technology\" \"Greater Noida\" site:ac.in",
+      "result": "The official candidate was confirmed by its on-page institute branding, Greater Noida address, and matching programme catalogue.",
+      "url": "https://www.aimt.ac.in/"
+    }
+  ],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "army-institute-of-management-technology-bba-programme",
+      "name": "BBA Programme",
+      "level": "undergraduate",
+      "credential": "Bachelor of Business Administration",
+      "specialization": null,
+      "duration": "Four-year full time course spread over eight semesters",
+      "mode": "full-time",
+      "eligibility": "Pass in 12th Class of 10+2 of CBSE or equivalent with a minimum of 50% marks in aggregate and must also have passed English (core or elective or functional) as a subject.",
+      "official_course_url": "https://www.aimt.ac.in/bba-programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 46,
+          "career_node_slug": "bba",
+          "career_breadcrumb": "Management & Business > BBA (General)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "army-institute-of-management-technology-mba-programme",
+      "name": "MBA Programme",
+      "level": "postgraduate",
+      "credential": "Master of Business Administration",
+      "specialization": null,
+      "duration": "two-year full time course spread over four semesters",
+      "mode": "full-time",
+      "eligibility": null,
+      "official_course_url": "https://www.aimt.ac.in/mba-programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 208,
+          "career_node_slug": "mba_general",
+          "career_breadcrumb": "Management & Business > BBA (General) > MBA → CEO / Director Track",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "army-institute-of-management-technology-mba-analytics-programme",
+      "name": "MBA Analytics Programme",
+      "level": "postgraduate",
+      "credential": "Master of Business Administration in Analytics",
+      "specialization": "Analytics",
+      "duration": "two-year full time course spread over four semesters",
+      "mode": "full-time",
+      "eligibility": "Any recognized 3-year Bachelor's Degree in any discipline with minimum 50% marks. OR Bachelor's Degree in Engineering / Technology with minimum 50% marks. OR passed the final examination of the Institute of Chartered Accountants of India, Institute of Cost & Works Accountants, or Institute of Company Secretaries of India.",
+      "official_course_url": "https://www.aimt.ac.in/mba-analytics-programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 169,
+          "career_node_slug": "bi_analyst",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Data Science > Business Intelligence Analyst",
+          "relation": "closest specialization; MBA Analytics node unavailable",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The managed proxy returned the exact self-signed certificate-chain error on initial normal-TLS requests; public GET requests were retried with curl --insecure after confirming the expected hostnames.",
+    "The official contact/footer text abbreviates the district as G.B Nagar; this has been normalized to Gautam Buddha Nagar.",
+    "The current official homepage Programme menu and linked catalogue pages enumerate BBA Programme, MBA Programme, and MBA Analytics Programme; no additional active degree, diploma, certificate, or doctoral programme was exposed in the current catalogue."
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "batch": 4,
+  "started_at": "2026-09-27T07:09:36.784220+00:00",
+  "finished_at": "2026-09-27T07:09:49.043273+00:00",
+  "assignment_count": 5,
+  "completed_count": 0,
+  "skipped_count": 0,
+  "failed_count": 5,
+  "results": [
+    {
+      "institution_id": "m-p-bhoj-open-university-bhopal",
+      "nirf_name": "M.P. Bhoj (Open) University, Bhopal",
+      "status": "failed",
+      "started_at": "2026-09-27T07:09:36.805521+00:00",
+      "finished_at": "2026-09-27T07:09:48.950113+00:00",
+      "duration_seconds": 12.144,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/m-p-bhoj-open-university-bhopal.jsonl"
+    },
+    {
+      "institution_id": "madhyanchal-professional-university",
+      "nirf_name": "Madhyanchal Professional University",
+      "status": "failed",
+      "started_at": "2026-09-27T07:09:36.806155+00:00",
+      "finished_at": "2026-09-27T07:09:48.932632+00:00",
+      "duration_seconds": 12.126,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/madhyanchal-professional-university.jsonl"
+    },
+    {
+      "institution_id": "national-law-institute-university-bhopal",
+      "nirf_name": "National Law Institute University, Bhopal",
+      "status": "failed",
+      "started_at": "2026-09-27T07:09:36.823854+00:00",
+      "finished_at": "2026-09-27T07:09:49.039478+00:00",
+      "duration_seconds": 12.215,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/national-law-institute-university-bhopal.jsonl"
+    },
+    {
+      "institution_id": "rkdf-university",
+      "nirf_name": "RKDF University",
+      "status": "failed",
+      "started_at": "2026-09-27T07:09:36.824291+00:00",
+      "finished_at": "2026-09-27T07:09:48.149596+00:00",
+      "duration_seconds": 11.325,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/rkdf-university.jsonl"
+    },
+    {
+      "institution_id": "sarvepalli-radhakrishnan-university",
+      "nirf_name": "SARVEPALLI RADHAKRISHNAN UNIVERSITY",
+      "status": "failed",
+      "started_at": "2026-09-27T07:09:36.823607+00:00",
+      "finished_at": "2026-09-27T07:09:48.614012+00:00",
+      "duration_seconds": 11.79,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/sarvepalli-radhakrishnan-university.jsonl"
+    }
+  ]
+}

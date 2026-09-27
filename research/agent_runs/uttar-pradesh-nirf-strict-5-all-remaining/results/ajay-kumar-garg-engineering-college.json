@@ -1,0 +1,386 @@
+{
+  "institution_id": "ajay-kumar-garg-engineering-college",
+  "nirf_name": "Ajay Kumar Garg Engineering College",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/EngineeringRankingALL.html"
+  ],
+  "verification_outcome": "verified",
+  "district": "Ghaziabad",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://www.akgec.ac.in/",
+  "website_verification_status": "verified",
+  "description": "Ajay Kumar Garg Engineering College (AKGEC), established in 1998, is affiliated to Dr. APJ Abdul Kalam Technical University, Lucknow, and operates at 27th Km Milestone, Delhi-Meerut Expressway, P.O. Adhyatmik Nagar, Ghaziabad, Uttar Pradesh 201015.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/EngineeringRankingALL.html",
+      "supports": [
+        "The exact institution name is listed with city Ghaziabad and state Uttar Pradesh in the NIRF 2025 Engineering directory."
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://www.akgec.ac.in/",
+      "supports": [
+        "Official institution identity, affiliation, establishment year, campus address, programme families, and programme-family durations."
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "https://www.akgec.ac.in/about/infrastructure-visual-tour/academic-complex/",
+      "supports": [
+        "Official Academic Complex page identifies the AKGEC campus and gives the Ghaziabad address."
+      ]
+    },
+    {
+      "type": "official_catalogue",
+      "url": "https://www.akgec.ac.in/courses-offered/",
+      "supports": [
+        "Current official Courses Offered table with all listed B.Tech, MCA, and M.Tech programme names and sanctioned intakes."
+      ]
+    },
+    {
+      "type": "official_admissions_catalogue",
+      "url": "https://www.akgec.ac.in/admissions/courses-offered/",
+      "supports": [
+        "Official admissions catalogue endpoint resolves to the same current Courses Offered content."
+      ]
+    }
+  ],
+  "website_search_evidence": [],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "ajay-kumar-garg-engineering-college-akgec-btech-cse",
+      "name": "Computer Science and Engineering",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not specified",
+      "eligibility": null,
+      "official_course_url": "https://www.akgec.ac.in/courses-offered/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "ajay-kumar-garg-engineering-college-akgec-btech-cse-ai-ml",
+      "name": "Computer Science and Engineering (Artificial Intelligence & Machine Learning)",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": "Artificial Intelligence & Machine Learning",
+      "duration": "4 years",
+      "mode": "not specified",
+      "eligibility": null,
+      "official_course_url": "https://www.akgec.ac.in/courses-offered/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 81,
+          "career_node_slug": "btech_ai",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > AI & Machine Learning",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "ajay-kumar-garg-engineering-college-akgec-btech-cse-data-science",
+      "name": "Computer Science and Engineering (Data Science)",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": "Data Science",
+      "duration": "4 years",
+      "mode": "not specified",
+      "eligibility": null,
+      "official_course_url": "https://www.akgec.ac.in/courses-offered/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "closest specialization (CSE parent)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "ajay-kumar-garg-engineering-college-akgec-btech-computer-science-hindi",
+      "name": "Computer Science (Hindi)",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": "Hindi",
+      "duration": "4 years",
+      "mode": "not specified",
+      "eligibility": null,
+      "official_course_url": "https://www.akgec.ac.in/courses-offered/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "ajay-kumar-garg-engineering-college-akgec-btech-it",
+      "name": "Information Technology",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not specified",
+      "eligibility": null,
+      "official_course_url": "https://www.akgec.ac.in/courses-offered/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 89,
+          "career_node_slug": "btech_it",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Information Technology",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "ajay-kumar-garg-engineering-college-akgec-btech-ece",
+      "name": "Electronics and Communication Engineering",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not specified",
+      "eligibility": null,
+      "official_course_url": "https://www.akgec.ac.in/courses-offered/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "ajay-kumar-garg-engineering-college-akgec-btech-mechanical",
+      "name": "Mechanical Engineering",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not specified",
+      "eligibility": null,
+      "official_course_url": "https://www.akgec.ac.in/courses-offered/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "ajay-kumar-garg-engineering-college-akgec-btech-electrical-electronics",
+      "name": "Electrical and Electronics Engineering",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not specified",
+      "eligibility": null,
+      "official_course_url": "https://www.akgec.ac.in/courses-offered/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "closest specialization (electrical parent)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "ajay-kumar-garg-engineering-college-akgec-btech-civil",
+      "name": "Civil Engineering",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not specified",
+      "eligibility": null,
+      "official_course_url": "https://www.akgec.ac.in/courses-offered/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "ajay-kumar-garg-engineering-college-akgec-mca",
+      "name": "Master of Computer Applications (MCA)",
+      "level": "postgraduate",
+      "credential": "MCA",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not specified",
+      "eligibility": null,
+      "official_course_url": "https://www.akgec.ac.in/courses-offered/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 93,
+          "career_node_slug": "mca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications) > MCA → Software Engineer",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "ajay-kumar-garg-engineering-college-akgec-mtech-cse",
+      "name": "Computer Science and Engineering",
+      "level": "postgraduate",
+      "credential": "M.Tech",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not specified",
+      "eligibility": null,
+      "official_course_url": "https://www.akgec.ac.in/courses-offered/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "ajay-kumar-garg-engineering-college-akgec-mtech-electrical-electronics",
+      "name": "Electrical and Electronics Engineering",
+      "level": "postgraduate",
+      "credential": "M.Tech",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not specified",
+      "eligibility": null,
+      "official_course_url": "https://www.akgec.ac.in/courses-offered/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "closest specialization (electrical parent)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "ajay-kumar-garg-engineering-college-akgec-mtech-ece",
+      "name": "Electronics and Communication Engineering",
+      "level": "postgraduate",
+      "credential": "M.Tech",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not specified",
+      "eligibility": null,
+      "official_course_url": "https://www.akgec.ac.in/courses-offered/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "ajay-kumar-garg-engineering-college-akgec-mtech-mechanical",
+      "name": "Mechanical Engineering",
+      "level": "postgraduate",
+      "credential": "M.Tech",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not specified",
+      "eligibility": null,
+      "official_course_url": "https://www.akgec.ac.in/courses-offered/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "NIRF 2025 Engineering directory contains the exact institution name with Ghaziabad, Uttar Pradesh.",
+    "The official Courses Offered page is current and lists nine B.Tech entries, one MCA entry, and four M.Tech entries; no active diploma, certificate, or doctoral programme is listed there. A commented-out B.Voc block was excluded as inactive.",
+    "Eligibility and delivery mode are not explicitly stated on the central official catalogue, so eligibility is null and mode is recorded as not specified. Programme-family durations are explicitly stated on the official homepage: four years for B.Tech and two years for M.Tech/MCA.",
+    "The official homepage title uses private-college wording while INSTITUTION_CONTEXT labels the institution_type as government_college; the exact official name, Ghaziabad campus address, and NIRF directory entry match.",
+    "Normal TLS verification failed with the managed proxy's self-signed certificate-chain error; public GET requests then used curl --insecure only after confirming the expected official hostnames."
+  ]
+}

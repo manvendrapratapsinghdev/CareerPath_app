@@ -1,0 +1,15 @@
+{
+  "institution_id": "legacy-203",
+  "database_id": 203,
+  "name": "Sir J.J. College of Architecture",
+  "website": "https://www.jjarchitecture.edu.in",
+  "outcome": "manual_review",
+  "institution_type": null,
+  "source_url": null,
+  "confidence": null,
+  "evidence": null,
+  "notes": [
+    "Command-line HTTPS requests to the supplied hostname failed because public DNS returned NXDOMAIN for both jjarchitecture.edu.in and www.jjarchitecture.edu.in; official-domain evidence was unavailable.",
+    "The certificate-error-only curl --insecure fallback was not used."
+  ]
+}

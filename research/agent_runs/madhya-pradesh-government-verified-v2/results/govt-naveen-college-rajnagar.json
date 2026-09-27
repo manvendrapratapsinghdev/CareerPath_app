@@ -1,0 +1,105 @@
+{
+  "institution_id": "govt-naveen-college-rajnagar",
+  "nirf_name": "Govt Naveen College Rajnagar",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Chhatarpur",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://highereducation.mp.gov.in/?orgid=103",
+  "website_verification_status": "verified",
+  "description": null,
+  "description_verification_status": "not_found",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact institution name, city Chattarpur, and Madhya Pradesh listing"
+      ]
+    },
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Exact institution name, city Chattarpur, and Madhya Pradesh listing"
+      ]
+    },
+    {
+      "type": "official_government_college_directory",
+      "url": "https://highereducation.mp.gov.in/CollegeDisp/getTable",
+      "supports": [
+        "Official Madhya Pradesh Higher Education directory record orgid 103: Govt College, Rajnagar, District Chhatarpur, college code 0809"
+      ]
+    },
+    {
+      "type": "official_institution_profile",
+      "url": "https://highereducation.mp.gov.in/?orgid=103",
+      "supports": [
+        "Institution-specific official Higher Education profile for orgid 103"
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=ZOnbSPQz%2F7vKKWQlvqhB5g%3D%3D&orgid=103",
+      "supports": [
+        "Official Programmes Offered page with PG, UG, and Diploma sections"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Govt Naveen College Rajnagar\" official",
+      "result": "No matching official institution website appeared; results were unrelated government and job portals.",
+      "url": "https://www.bing.com/search?q=%22Govt+Naveen+College+Rajnagar%22+official"
+    },
+    {
+      "query": "\"Government Naveen College Rajnagar\" Chhatarpur Madhya Pradesh",
+      "result": "No matching official institution website appeared; results were unrelated government portals.",
+      "url": "https://www.bing.com/search?q=%22Government+Naveen+College+Rajnagar%22+Chhatarpur+Madhya+Pradesh"
+    },
+    {
+      "query": "\"Govt Naveen College Rajnagar\" site:mp.gov.in OR site:ac.in",
+      "result": "No exact official institution result appeared in the requested government or academic domains.",
+      "url": "https://www.bing.com/search?q=%22Govt+Naveen+College+Rajnagar%22+site%3Amp.gov.in+OR+site%3Aac.in"
+    },
+    {
+      "query": "Govt Naveen College Rajnagar Chattarpur",
+      "result": "No exact official institution result appeared; results were unrelated government and job portals.",
+      "url": "https://www.bing.com/search?q=Govt+Naveen+College+Rajnagar+Chattarpur"
+    },
+    {
+      "query": "Naveen College Rajnagar Chhatarpur",
+      "result": "No exact official institution result appeared; unrelated results, including disallowed aggregator or profile content, were ignored.",
+      "url": "https://www.bing.com/search?q=Naveen+College+Rajnagar+Chhatarpur"
+    },
+    {
+      "query": "site:highereducation.mp.gov.in Rajnagar Chhatarpur college",
+      "result": "Search indexing did not expose the exact record, but direct inspection of the official Higher Education domain located the college directory and institution profile orgid 103.",
+      "url": "https://www.bing.com/search?q=site%3Ahighereducation.mp.gov.in+Rajnagar+Chhatarpur+college"
+    },
+    {
+      "query": "\"Govt College, Rajnagar\" Chhatarpur",
+      "result": "No matching search result; the exact record was established by the official Higher Education directory endpoint.",
+      "url": "https://www.bing.com/search?q=%22Govt+College%2C+Rajnagar%22+Chhatarpur"
+    },
+    {
+      "query": "\"Govt College Rajnagar\" Chhatarpur \"0809\"",
+      "result": "No matching search result; the official Higher Education directory confirms college code 0809 and District Chhatarpur.",
+      "url": "https://www.bing.com/search?q=%22Govt+College+Rajnagar%22+Chhatarpur+%220809%22"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [],
+  "agent_notes": [
+    "The official Madhya Pradesh Higher Education directory distinguishes the Chhatarpur campus (orgid 103, college code 0809, Govt College, Rajnagar) from a separate Anuppur Rajnagar college.",
+    "The official institution profile and Programmes Offered page are reachable, but the PG, UG, and Diploma tables contain no programme rows, current programme names, duration, or eligibility; the catalogue is therefore partial and requires manual review.",
+    "No description was published on the inspected official profile pages, so description was left null.",
+    "Normal TLS first failed with the documented self-signed proxy certificate-chain error; curl --insecure was then used only for public GET requests to the expected official and search hosts.",
+    "No course records were imported, so no career-tree mapping was inferred."
+  ]
+}

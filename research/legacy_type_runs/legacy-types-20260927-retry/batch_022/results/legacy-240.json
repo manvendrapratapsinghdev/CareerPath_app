@@ -1,0 +1,15 @@
+{
+  "institution_id": "legacy-240",
+  "database_id": 240,
+  "name": "University of Mumbai",
+  "website": "https://mu.ac.in",
+  "outcome": "manual_review",
+  "institution_type": null,
+  "source_url": null,
+  "confidence": null,
+  "evidence": null,
+  "notes": [
+    "Normal TLS verification failed due the managed proxy's self-signed certificate; curl --insecure was used only for public GETs to mu.ac.in.",
+    "The official site and candidate official pages timed out without returning content, so the institutional type could not be established from official-site evidence."
+  ]
+}

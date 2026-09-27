@@ -1,0 +1,1278 @@
+{
+  "metadata": {
+    "created_at": "2026-09-27T11:43:49.709499+00:00",
+    "inventory_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/uttar_pradesh_nirf_state_inventory.json",
+    "inventory_sha256": "e8ccf013a9cd27b8cd8ad54d734b62cf88c52f4cae3a5e7189e76f449f990b5c",
+    "batch_count": 28,
+    "requested_batch_count": 30,
+    "batch_size": 5,
+    "candidate_limit": null,
+    "eligible_candidate_count": 140,
+    "assignment_count": 140,
+    "selection": [
+      "Priority order is IIT, IIM, NIT/IIIT, central university or institute, state university, private university/college, government/aided degree college, polytechnic, medical, law, agriculture, then specialized institutions. Within a tier, ranked/banded institutions are ordered by best visible rank or band, then city and name. Caller-supplied previously attempted ids are excluded. Only records that remain fully verified are eligible for collection and import."
+    ]
+  },
+  "assignments": [
+    {
+      "batch": 1,
+      "slot": 1,
+      "institution_id": "mangalayatan-university-aligarh",
+      "nirf_name": "Mangalayatan University, Aligarh",
+      "nirf_city": "Aligarh",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 1,
+      "slot": 2,
+      "institution_id": "acharya-narendra-deva-university-of-agriculture-technology-kumarganj-ayodhya",
+      "nirf_name": "Acharya Narendra Deva University of Agriculture & Technology, Kumarganj, Ayodhya",
+      "nirf_city": "Ayodhya",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 1,
+      "slot": 3,
+      "institution_id": "dr-ram-manohar-lohia-awadh-university-faizabad",
+      "nirf_name": "Dr. Ram Manohar Lohia Awadh University, Faizabad",
+      "nirf_city": "Ayodhya",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 1,
+      "slot": 4,
+      "institution_id": "jananayak-chandrashekhar-university-ballia",
+      "nirf_name": "Jananayak Chandrashekhar University, Ballia",
+      "nirf_city": "Ballia",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 1,
+      "slot": 5,
+      "institution_id": "banda-university-of-agriculture-and-technology",
+      "nirf_name": "Banda University of Agriculture and Technology",
+      "nirf_city": "Banda",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 2,
+      "slot": 1,
+      "institution_id": "shri-ramswaroop-memorial-university",
+      "nirf_name": "Shri Ramswaroop Memorial University",
+      "nirf_city": "Bararbanki",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 2,
+      "slot": 2,
+      "institution_id": "bareilly-international-university",
+      "nirf_name": "Bareilly International University",
+      "nirf_city": "BAREILLY",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 2,
+      "slot": 3,
+      "institution_id": "mahatama-jyotiba-phule-rohikhand-university-bareilly",
+      "nirf_name": "Mahatama Jyotiba Phule Rohikhand University, Bareilly",
+      "nirf_city": "Bareilly",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 2,
+      "slot": 4,
+      "institution_id": "uttar-pradesh-university-of-medical-sciences",
+      "nirf_name": "Uttar Pradesh University of Medical Sciences",
+      "nirf_city": "Etawah",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 2,
+      "slot": 5,
+      "institution_id": "gautam-buddha-university",
+      "nirf_name": "Gautam Buddha University",
+      "nirf_city": "Gautam Buddha Nagar",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 3,
+      "slot": 1,
+      "institution_id": "santosh-university",
+      "nirf_name": "Santosh University",
+      "nirf_city": "Ghaziabad",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 3,
+      "slot": 2,
+      "institution_id": "deen-dayal-upadhyay-gorakhpur-university",
+      "nirf_name": "Deen Dayal Upadhyay Gorakhpur University",
+      "nirf_city": "Gorakhpur",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 3,
+      "slot": 3,
+      "institution_id": "madan-mohan-malaviya-university-of-technology",
+      "nirf_name": "Madan Mohan Malaviya University of Technology",
+      "nirf_city": "Gorakhpur",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 3,
+      "slot": 4,
+      "institution_id": "veer-bahadur-singh-purvanchal-university-jaunpur",
+      "nirf_name": "Veer Bahadur Singh Purvanchal University, Jaunpur",
+      "nirf_city": "Jaunpur",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 3,
+      "slot": 5,
+      "institution_id": "bundelkhand-university",
+      "nirf_name": "Bundelkhand University",
+      "nirf_city": "Jhansi",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 4,
+      "slot": 1,
+      "institution_id": "rani-lakshmi-bai-central-agricultural-university",
+      "nirf_name": "Rani Lakshmi Bai Central Agricultural University",
+      "nirf_city": "Jhansi",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 4,
+      "slot": 2,
+      "institution_id": "chatrapati-sahuji-maharaj-kanpur-university",
+      "nirf_name": "Chatrapati Sahuji Maharaj Kanpur University",
+      "nirf_city": "Kanpur",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 4,
+      "slot": 3,
+      "institution_id": "chandra-shekhar-azad-university-of-agriculture-technology-kanpur",
+      "nirf_name": "Chandra Shekhar Azad University of Agriculture & Technology, Kanpur",
+      "nirf_city": "KANPUR NAGAR",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 4,
+      "slot": 4,
+      "institution_id": "harcourt-butler-technical-university",
+      "nirf_name": "Harcourt Butler Technical University",
+      "nirf_city": "Kanpur Nagar",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 4,
+      "slot": 5,
+      "institution_id": "rama-university-uttar-pradesh",
+      "nirf_name": "RAMA UNIVERSITY UTTAR PRADESH",
+      "nirf_city": "Kanpur Nagar",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 5,
+      "slot": 1,
+      "institution_id": "babasheb-bhimrao-ambedkar-university",
+      "nirf_name": "Babasheb Bhimrao Ambedkar University",
+      "nirf_city": "Lucknow",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 5,
+      "slot": 2,
+      "institution_id": "babu-banarasi-das-university",
+      "nirf_name": "Babu Banarasi Das University",
+      "nirf_city": "Lucknow",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 5,
+      "slot": 3,
+      "institution_id": "dr-ram-manohar-lohiya-national-law-university-lucknow",
+      "nirf_name": "Dr. Ram Manohar Lohiya National Law University, Lucknow",
+      "nirf_city": "Lucknow",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 5,
+      "slot": 4,
+      "institution_id": "dr-shakuntala-misra-national-rehabilitation-university-lucknow",
+      "nirf_name": "Dr. Shakuntala Misra National Rehabilitation University, Lucknow",
+      "nirf_city": "Lucknow",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 5,
+      "slot": 5,
+      "institution_id": "faculty-of-architecture-and-planning-dr-apj-abbdul-kalam-technical-university-lucknow",
+      "nirf_name": "Faculty of Architecture and Planning, Dr APJ Abbdul Kalam Technical\r\n                                                University, Lucknow",
+      "nirf_city": "Lucknow",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 6,
+      "slot": 1,
+      "institution_id": "khwaja-moinuddin-chishti-urdu-arabi-farsi-university",
+      "nirf_name": "KHWAJA MOINUDDIN CHISHTI URDU ARABI FARSI UNIVERSITY",
+      "nirf_city": "Lucknow",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 6,
+      "slot": 2,
+      "institution_id": "king-george-s-medical-university",
+      "nirf_name": "King George`s Medical University",
+      "nirf_city": "Lucknow",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 6,
+      "slot": 3,
+      "institution_id": "maharishi-university-of-information-technology",
+      "nirf_name": "Maharishi University of Information Technology",
+      "nirf_city": "LUCKNOW",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 6,
+      "slot": 4,
+      "institution_id": "university-of-lucknow",
+      "nirf_name": "University of Lucknow",
+      "nirf_city": "Lucknow",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 6,
+      "slot": 5,
+      "institution_id": "g-l-a-university",
+      "nirf_name": "G. L. A. University",
+      "nirf_city": "Mathura",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 7,
+      "slot": 1,
+      "institution_id": "up-pandit-deen-dayal-upadhyaya-veterinary-university-gau-anusandhan-sansthan-mathura",
+      "nirf_name": "UP Pandit Deen Dayal Upadhyaya Veterinary University & Gau-Anusandhan Sansthan, Mathura",
+      "nirf_city": "Mathura",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 7,
+      "slot": 2,
+      "institution_id": "chaudhary-charan-singh-university-meerut",
+      "nirf_name": "Chaudhary Charan Singh University Meerut",
+      "nirf_city": "MEERUT",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 7,
+      "slot": 3,
+      "institution_id": "iimt-university-meerut",
+      "nirf_name": "IIMT University Meerut",
+      "nirf_city": "Meerut",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 7,
+      "slot": 4,
+      "institution_id": "sardar-vallabhbhai-patel-university-of-agriculture-technology",
+      "nirf_name": "Sardar Vallabhbhai Patel University of Agriculture & Technology",
+      "nirf_city": "Meerut",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 7,
+      "slot": 5,
+      "institution_id": "shobhit-university",
+      "nirf_name": "Shobhit-University",
+      "nirf_city": "Meerut",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 8,
+      "slot": 1,
+      "institution_id": "swami-vivekanand-subharti-university",
+      "nirf_name": "Swami Vivekanand Subharti University",
+      "nirf_city": "Meerut",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 8,
+      "slot": 2,
+      "institution_id": "iftm-university",
+      "nirf_name": "IFTM University",
+      "nirf_city": "Moradabad",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 8,
+      "slot": 3,
+      "institution_id": "teerthanker-mahaveer-university",
+      "nirf_name": "Teerthanker Mahaveer University",
+      "nirf_city": "Moradabad",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 8,
+      "slot": 4,
+      "institution_id": "prof-rajendra-singh-rajju-bhaiya-university-prayagraj",
+      "nirf_name": "Prof. Rajendra Singh (Rajju Bhaiya) University, Prayagraj",
+      "nirf_city": "Prayagraj",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 8,
+      "slot": 5,
+      "institution_id": "university-of-allahabad",
+      "nirf_name": "University of Allahabad",
+      "nirf_city": "PRAYAGRAJ",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 9,
+      "slot": 1,
+      "institution_id": "u-p-rajarshi-tandon-open-university-allahabad",
+      "nirf_name": "U.P. Rajarshi Tandon Open University, Allahabad",
+      "nirf_city": "Prayagraj (Allahabad)",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 9,
+      "slot": 2,
+      "institution_id": "mohammad-ali-jauhar-university-rampur",
+      "nirf_name": "Mohammad Ali Jauhar University, Rampur",
+      "nirf_city": "Rampur",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 9,
+      "slot": 3,
+      "institution_id": "glocal-university",
+      "nirf_name": "Glocal University",
+      "nirf_city": "Saharanpur",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 9,
+      "slot": 4,
+      "institution_id": "shobhit-university-gangoh",
+      "nirf_name": "SHOBHIT UNIVERSITY, GANGOH",
+      "nirf_city": "Saharanpur",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 9,
+      "slot": 5,
+      "institution_id": "j-s-university",
+      "nirf_name": "J S University",
+      "nirf_city": "Shikohabad",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 10,
+      "slot": 1,
+      "institution_id": "siddharth-university-kapilvastu",
+      "nirf_name": "SIDDHARTH UNIVERSITY, KAPILVASTU",
+      "nirf_city": "Siddharthnagar",
+      "institution_type": "state_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 10,
+      "slot": 2,
+      "institution_id": "shiv-nadar-university",
+      "nirf_name": "Shiv Nadar University",
+      "nirf_city": "Gautam Buddha Nagar",
+      "institution_type": "private_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 10,
+      "slot": 3,
+      "institution_id": "amity-university",
+      "nirf_name": "Amity University",
+      "nirf_city": "Gautam Budh Nagar",
+      "institution_type": "private_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 10,
+      "slot": 4,
+      "institution_id": "galgotias-university",
+      "nirf_name": "Galgotias University",
+      "nirf_city": "Gautam Budh Nagar",
+      "institution_type": "private_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 10,
+      "slot": 5,
+      "institution_id": "jss-academy-of-technical-education-noida",
+      "nirf_name": "Jss Academy Of Technical Education, Noida",
+      "nirf_city": "Gautam Budh Nagar",
+      "institution_type": "private_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 11,
+      "slot": 1,
+      "institution_id": "galgotias-college-of-engineering-technology",
+      "nirf_name": "Galgotias College of Engineering & Technology",
+      "nirf_city": "Greater Noida",
+      "institution_type": "private_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 11,
+      "slot": 2,
+      "institution_id": "galgotias-institute-of-management-technology",
+      "nirf_name": "Galgotias Institute of Management & Technology",
+      "nirf_city": "Greater Noida",
+      "institution_type": "private_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 11,
+      "slot": 3,
+      "institution_id": "sharda-university",
+      "nirf_name": "Sharda University",
+      "nirf_city": "Greater Noida",
+      "institution_type": "private_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 11,
+      "slot": 4,
+      "institution_id": "integral-university",
+      "nirf_name": "Integral University",
+      "nirf_city": "Lucknow",
+      "institution_type": "private_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 11,
+      "slot": 5,
+      "institution_id": "sanskriti-university",
+      "nirf_name": "Sanskriti University",
+      "nirf_city": "MATHURA",
+      "institution_type": "private_university",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 12,
+      "slot": 1,
+      "institution_id": "jaypee-institute-of-information-technology",
+      "nirf_name": "Jaypee Institute of Information Technology",
+      "nirf_city": "Noida",
+      "institution_type": "private_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 12,
+      "slot": 2,
+      "institution_id": "dayalbagh-educational-institute",
+      "nirf_name": "Dayalbagh Educational Institute",
+      "nirf_city": "Agra",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 12,
+      "slot": 3,
+      "institution_id": "c-b-singh-law-college-songaon-ambedkar-nagar",
+      "nirf_name": "C.B. SINGH LAW COLLEGE, SONGAON, AMBEDKAR NAGAR",
+      "nirf_city": "Akbarpur",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 12,
+      "slot": 4,
+      "institution_id": "al-barkat-institute-of-management-studies-aligarh",
+      "nirf_name": "AL BARKAT INSTITUTE OF MANAGEMENT STUDIES, ALIGARH",
+      "nirf_city": "Aligarh",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 12,
+      "slot": 5,
+      "institution_id": "hamidia-girls-degree-college",
+      "nirf_name": "Hamidia Girls Degree College",
+      "nirf_city": "Allahabad",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 13,
+      "slot": 1,
+      "institution_id": "handia-p-g-college-handia-allahabad",
+      "nirf_name": "Handia P.G.College,Handia,Allahabad",
+      "nirf_city": "Allahabad",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 13,
+      "slot": 2,
+      "institution_id": "b-n-k-b-p-g-college-akbarpur-ambedkar-nagar",
+      "nirf_name": "B.N.K.B. P.G. COLLEGE, AKBARPUR, AMBEDKAR NAGAR",
+      "nirf_city": "AMBEDKARNAGAR",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 13,
+      "slot": 3,
+      "institution_id": "dpbs-college-anupshahr",
+      "nirf_name": "DPBS College, Anupshahr",
+      "nirf_city": "Anupshahr",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 13,
+      "slot": 4,
+      "institution_id": "bhavdiya-institute-of-pharmaceutical-science-research-faizabad",
+      "nirf_name": "BHAVDIYA INSTITUTE OF PHARMACEUTICAL SCIENCE & RESEARCH, FAIZABAD",
+      "nirf_city": "AYODHYA",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 13,
+      "slot": 5,
+      "institution_id": "chandra-dental-college-hospital",
+      "nirf_name": "Chandra Dental College & Hospital",
+      "nirf_city": "Barabanki",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 14,
+      "slot": 1,
+      "institution_id": "dr-shyama-prasad-mukherjee-govt-college-sant-ravidas-nagar-bhadohi",
+      "nirf_name": "Dr. Shyama Prasad Mukherjee Govt. College, Sant Ravidas Nagar, Bhadohi",
+      "nirf_city": "Bhadohi",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 14,
+      "slot": 2,
+      "institution_id": "damyanti-raj-anand-govt-college-bisauli",
+      "nirf_name": "Damyanti Raj Anand Govt. College, Bisauli",
+      "nirf_city": "Bisauli",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 14,
+      "slot": 3,
+      "institution_id": "g-and-r-institute-of-management-and-technology-bhulandshar",
+      "nirf_name": "G AND R INSTITUTE OF MANAGEMENT AND TECHNOLOGY, BHULANDSHAR",
+      "nirf_city": "BULANDHAHR",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 14,
+      "slot": 4,
+      "institution_id": "amar-singh-college-lakhaoti-bulandshahr",
+      "nirf_name": "Amar Singh College, Lakhaoti, (Bulandshahr)",
+      "nirf_city": "Bulandshahr",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 14,
+      "slot": 5,
+      "institution_id": "d-a-v-college-bulandshahr-mob-no-9897534305-05732-234655",
+      "nirf_name": "D.A.V. College, Bulandshahr Mob.No.9897534305 05732-234655",
+      "nirf_city": "BULANDSHAHR",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 15,
+      "slot": 1,
+      "institution_id": "goswami-tulsi-das-govt-degree-college-karwi",
+      "nirf_name": "GOSWAMI TULSI DAS GOVT. DEGREE COLLEGE, KARWI",
+      "nirf_city": "CHITRAKOOT",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 15,
+      "slot": 2,
+      "institution_id": "abes-engineering-college",
+      "nirf_name": "ABES Engineering College",
+      "nirf_city": "Ghaziabad",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 15,
+      "slot": 3,
+      "institution_id": "abes-institute-of-technology-ghaziabad",
+      "nirf_name": "ABES INSTITUTE OF TECHNOLOGY, GHAZIABAD",
+      "nirf_city": "Ghaziabad",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 15,
+      "slot": 4,
+      "institution_id": "ajay-kumar-garg-engineering-college",
+      "nirf_name": "Ajay Kumar Garg Engineering College",
+      "nirf_city": "Ghaziabad",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 15,
+      "slot": 5,
+      "institution_id": "ajay-kumar-garg-institute-of-management",
+      "nirf_name": "Ajay Kumar Garg Institute of Management",
+      "nirf_city": "Ghaziabad",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 16,
+      "slot": 1,
+      "institution_id": "dr-k-n-modi-institute-of-engineering-and-technology-modinagar-ghaziabad",
+      "nirf_name": "DR. K.N. MODI INSTITUTE OF ENGINEERING AND TECHNOLOGY, MODINAGAR,\r\n                                                GHAZIABAD",
+      "nirf_city": "Ghaziabad",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 16,
+      "slot": 2,
+      "institution_id": "buddha-institute-of-pharmacy",
+      "nirf_name": "Buddha Institute of Pharmacy",
+      "nirf_city": "Gorakhpur",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 16,
+      "slot": 3,
+      "institution_id": "buddha-institute-of-technology",
+      "nirf_name": "Buddha Institute of Technology",
+      "nirf_city": "Gorakhpur",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 16,
+      "slot": 4,
+      "institution_id": "accurate-institute-of-advanced-management",
+      "nirf_name": "Accurate Institute of Advanced Management",
+      "nirf_city": "Greater Noida",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 16,
+      "slot": 5,
+      "institution_id": "accurate-institute-of-management-technology",
+      "nirf_name": "Accurate Institute of Management & Technology",
+      "nirf_city": "Greater Noida",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 17,
+      "slot": 1,
+      "institution_id": "apeejay-institute-of-technology-school-of-architecture-planning",
+      "nirf_name": "APEEJAY INSTITUTE OF TECHNOLOGY-SCHOOL OF ARCHITECTURE & PLANNING",
+      "nirf_city": "Greater Noida",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 17,
+      "slot": 2,
+      "institution_id": "army-institute-of-management-technology",
+      "nirf_name": "Army Institute of Management Technology",
+      "nirf_city": "Greater Noida",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 17,
+      "slot": 3,
+      "institution_id": "birla-institute-of-management-technology",
+      "nirf_name": "Birla Institute of Management Technology",
+      "nirf_city": "Greater Noida",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 17,
+      "slot": 4,
+      "institution_id": "g-l-bajaj-institute-of-management-and-research",
+      "nirf_name": "G. L. Bajaj Institute of Management and Research",
+      "nirf_city": "Greater Noida",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 17,
+      "slot": 5,
+      "institution_id": "g-l-bajaj-institute-of-technology-and-management",
+      "nirf_name": "G.L.Bajaj Institute of Technology and Management",
+      "nirf_city": "Greater Noida",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 18,
+      "slot": 1,
+      "institution_id": "greater-noida-institute-of-technology-engineering-institute",
+      "nirf_name": "Greater Noida Institute of Technology (Engineering Institute)",
+      "nirf_city": "Greater Noida",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 18,
+      "slot": 2,
+      "institution_id": "greater-noida-institute-of-technology-mba-institute",
+      "nirf_name": "Greater Noida Institute of Technology-MBA Institute",
+      "nirf_city": "Greater Noida",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 18,
+      "slot": 3,
+      "institution_id": "govt-p-g-college",
+      "nirf_name": "Govt. P G College",
+      "nirf_city": "HAMIRPUR, U.P.",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 18,
+      "slot": 4,
+      "institution_id": "bundelkhand-institute-of-engineering-technology",
+      "nirf_name": "Bundelkhand Institute of Engineering & Technology",
+      "nirf_city": "JHANSI",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 18,
+      "slot": 5,
+      "institution_id": "government-girls-degree-college-kandhala-prabudh-nagar-mob-no-9897933840",
+      "nirf_name": "Government Girls Degree College, Kandhala (Prabudh Nagar) Mob.\r\n                                                No.9897933840",
+      "nirf_city": "Kandhla",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 19,
+      "slot": 1,
+      "institution_id": "d-a-v-college-civil-lines",
+      "nirf_name": "D.A.V. COLLEGE, CIVIL LINES,",
+      "nirf_city": "Kanpur",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 19,
+      "slot": 2,
+      "institution_id": "dr-ambedkar-institute-of-technology-for-divyangjan-u-p-kanpur",
+      "nirf_name": "Dr. Ambedkar Institute of Technology for Divyangjan, U.P., Kanpur",
+      "nirf_city": "Kanpur",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 19,
+      "slot": 3,
+      "institution_id": "armapur-p-g-college-armapur",
+      "nirf_name": "ARMAPUR P.G. COLLEGE, ARMAPUR,",
+      "nirf_city": "Kanpur Nagar",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 19,
+      "slot": 4,
+      "institution_id": "dr-gaur-hari-singhania-institute-of-management-and-research",
+      "nirf_name": "Dr. Gaur Hari Singhania Institute of Management and Research",
+      "nirf_city": "Kanpur Nagar",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 19,
+      "slot": 5,
+      "institution_id": "g-s-v-m-medical-college",
+      "nirf_name": "G.S.V.M. MEDICAL COLLEGE,",
+      "nirf_city": "Kanpur Nagar",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 20,
+      "slot": 1,
+      "institution_id": "a-k-p-degree-college-khurja-bulandshahr",
+      "nirf_name": "A.K.P. Degree College, Khurja (Bulandshahr)",
+      "nirf_city": "Khurja",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 20,
+      "slot": 2,
+      "institution_id": "755-shri-p-n-sharma-degree-college-saidpur",
+      "nirf_name": "755 SHRI P.N SHARMA DEGREE COLLEGE SAIDPUR",
+      "nirf_city": "LALITPUR",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 20,
+      "slot": 3,
+      "institution_id": "bhagwan-aadinath-college-of-education",
+      "nirf_name": "Bhagwan Aadinath College of Education",
+      "nirf_city": "Lalitpur",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 20,
+      "slot": 4,
+      "institution_id": "a-p-sen-memorial-girls-degree-college",
+      "nirf_name": "A.P. SEN MEMORIAL GIRLS DEGREE COLLEGE",
+      "nirf_city": "Lucknow",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 20,
+      "slot": 5,
+      "institution_id": "ambalika-institute-of-management-and-technology",
+      "nirf_name": "Ambalika Institute of Management and Technology",
+      "nirf_city": "Lucknow",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 21,
+      "slot": 1,
+      "institution_id": "aryakul-college-of-education",
+      "nirf_name": "ARYAKUL COLLEGE OF EDUCATION",
+      "nirf_city": "LUCKNOW",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 21,
+      "slot": 2,
+      "institution_id": "aryakul-college-of-management",
+      "nirf_name": "ARYAKUL COLLEGE OF MANAGEMENT",
+      "nirf_city": "LUCKNOW",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 21,
+      "slot": 3,
+      "institution_id": "aryakul-college-of-pharmacy-and-research",
+      "nirf_name": "ARYAKUL COLLEGE OF PHARMACY AND RESEARCH",
+      "nirf_city": "LUCKNOW",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 21,
+      "slot": 4,
+      "institution_id": "avadh-girls-degree-college",
+      "nirf_name": "AVADH GIRLS DEGREE COLLEGE",
+      "nirf_city": "Lucknow",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 21,
+      "slot": 5,
+      "institution_id": "b-n-college-of-engineering-and-technology-lucknow",
+      "nirf_name": "B N College Of Engineering And Technology Lucknow",
+      "nirf_city": "Lucknow",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 22,
+      "slot": 1,
+      "institution_id": "b-s-n-v-p-g-college",
+      "nirf_name": "B.S.N.V. P.G. COLLEGE",
+      "nirf_city": "Lucknow",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 22,
+      "slot": 2,
+      "institution_id": "babu-banarasi-das-northern-india-institute-of-technology",
+      "nirf_name": "BABU BANARASI DAS NORTHERN INDIA INSTITUTE OF TECHNOLOGY",
+      "nirf_city": "Lucknow",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 22,
+      "slot": 3,
+      "institution_id": "bansal-institute-of-engineering-technology-lucknow",
+      "nirf_name": "BANSAL INSTITUTE OF ENGINEERING & TECHNOLOGY,LUCKNOW",
+      "nirf_city": "Lucknow",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 22,
+      "slot": 4,
+      "institution_id": "dr-ram-manohar-lohia-institute-of-medical-sciences-vibhuti-khand-gomti-nagar-lucknow",
+      "nirf_name": "DR RAM MANOHAR LOHIA INSTITUTE OF MEDICAL SCIENCES, VIBHUTI KHAND, GOMTI\r\n                                                NAGAR, LUCKNOW",
+      "nirf_city": "Lucknow",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 22,
+      "slot": 5,
+      "institution_id": "dr-m-c-saxena-college-of-pharmacy-lucknow",
+      "nirf_name": "Dr. M. C. Saxena College of Pharmacy, Lucknow",
+      "nirf_city": "Lucknow",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 23,
+      "slot": 1,
+      "institution_id": "era-s-lucknow-medical-college-hospital-lucknow",
+      "nirf_name": "Era's Lucknow Medical College & Hospital, Lucknow",
+      "nirf_city": "Lucknow",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 23,
+      "slot": 2,
+      "institution_id": "gautam-budha-degree-college",
+      "nirf_name": "Gautam Budha Degree College",
+      "nirf_city": "Lucknow",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 23,
+      "slot": 3,
+      "institution_id": "goel-institute-of-technology-and-management-lucknow",
+      "nirf_name": "GOEL INSTITUTE OF TECHNOLOGY AND MANAGEMENT, LUCKNOW",
+      "nirf_city": "Lucknow",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 23,
+      "slot": 4,
+      "institution_id": "dr-bhim-rao-ambedkar-govt-college-ordniya-padriya-mainpuri",
+      "nirf_name": "DR.BHIM RAO AMBEDKAR GOVT COLLEGE ORDNIYA PADRIYA MAINPURI",
+      "nirf_city": "MAINPURI",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 23,
+      "slot": 5,
+      "institution_id": "govt-degree-college-manikpur",
+      "nirf_name": "GOVT. DEGREE COLLEGE, MANIKPUR",
+      "nirf_city": "Manikpur",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 24,
+      "slot": 1,
+      "institution_id": "amarnath-girls-degree-college-mathura",
+      "nirf_name": "AMARNATH GIRLS DEGREE COLLEGE MATHURA",
+      "nirf_city": "MATHURA",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 24,
+      "slot": 2,
+      "institution_id": "eshan-college-of-engineering-agra-mathura-highway-mathura",
+      "nirf_name": "ESHAN COLLEGE OF ENGINEERING, AGRA-MATHURA HIGHWAY, MATHURA",
+      "nirf_city": "Mathura",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 24,
+      "slot": 3,
+      "institution_id": "dewan-institute-of-management-studies-meerut",
+      "nirf_name": "DEWAN INSTITUTE OF MANAGEMENT STUDIES, MEERUT",
+      "nirf_city": "Meerut",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 24,
+      "slot": 4,
+      "institution_id": "apex-institute-of-pharmacy-apex-paramedical-institute",
+      "nirf_name": "Apex Institute of Pharmacy-Apex Paramedical Institute",
+      "nirf_city": "Mirzapur",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 24,
+      "slot": 5,
+      "institution_id": "c-c-r-d-college-muzaffarnagar-mob-no-9412637436-0131-2621744",
+      "nirf_name": "C.C.R.D. College, Muzaffarnagar Mob.No.9412637436 0131-2621744",
+      "nirf_city": "Muzaffarnagar",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 25,
+      "slot": 1,
+      "institution_id": "d-a-v-college",
+      "nirf_name": "D. A. V. College",
+      "nirf_city": "MUZAFFARNAGAR",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 25,
+      "slot": 2,
+      "institution_id": "asian-business-school",
+      "nirf_name": "Asian Business School",
+      "nirf_city": "Noida",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 25,
+      "slot": 3,
+      "institution_id": "asian-law-college",
+      "nirf_name": "ASIAN LAW COLLEGE",
+      "nirf_city": "Noida",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 25,
+      "slot": 4,
+      "institution_id": "asian-school-of-business",
+      "nirf_name": "Asian School of Business",
+      "nirf_city": "Noida",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 25,
+      "slot": 5,
+      "institution_id": "dayanand-vedic-college-orai",
+      "nirf_name": "DAYANAND VEDIC COLLEGE, ORAI",
+      "nirf_city": "ORAI",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 26,
+      "slot": 1,
+      "institution_id": "allahabad-degree-college",
+      "nirf_name": "Allahabad Degree College",
+      "nirf_city": "Prayagraj",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 26,
+      "slot": 2,
+      "institution_id": "arya-kanya-degree-college",
+      "nirf_name": "Arya Kanya Degree College",
+      "nirf_city": "Prayagraj",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 26,
+      "slot": 3,
+      "institution_id": "c-m-p-degree-college",
+      "nirf_name": "C.M.P. Degree College",
+      "nirf_city": "Prayagraj",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 26,
+      "slot": 4,
+      "institution_id": "ddu-government-degree-college-saidabad-prayagraj",
+      "nirf_name": "DDU Government Degree College, Saidabad Prayagraj",
+      "nirf_city": "Prayagraj",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 26,
+      "slot": 5,
+      "institution_id": "ewing-christian-college",
+      "nirf_name": "Ewing Christian College",
+      "nirf_city": "PRAYAGRAJ",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 27,
+      "slot": 1,
+      "institution_id": "all-india-institute-of-medical-sciences-raebareli",
+      "nirf_name": "All India Institute of Medical Sciences, Raebareli",
+      "nirf_city": "Raebareli",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 27,
+      "slot": 2,
+      "institution_id": "government-degree-college-haripur-nihastha",
+      "nirf_name": "Government Degree College, Haripur Nihastha",
+      "nirf_city": "RAEBARELI",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 27,
+      "slot": 3,
+      "institution_id": "government-model-degree-college-kapoori-govindpur-saharanpur-u-p",
+      "nirf_name": "Government Model Degree College, Kapoori Govindpur, Saharanpur (U.P.)",
+      "nirf_city": "Saharanpur",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 27,
+      "slot": 4,
+      "institution_id": "chaudhary-charan-singh-degree-college-hewara",
+      "nirf_name": "CHAUDHARY CHARAN SINGH DEGREE COLLEGE, HEWARA,",
+      "nirf_city": "Saifai, Etawah District",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 27,
+      "slot": 5,
+      "institution_id": "bhaskar-college-of-education",
+      "nirf_name": "BHASKAR COLLEGE OF EDUCATION",
+      "nirf_city": "SHAMLI",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 28,
+      "slot": 1,
+      "institution_id": "a-k-college-shikohabad-firozabad",
+      "nirf_name": "A.K COLLEGE ,SHIKOHABAD,(FIROZABAD)",
+      "nirf_city": "Shiokhabad",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 28,
+      "slot": 2,
+      "institution_id": "great-ganges-institute-of-technology-gadankhera",
+      "nirf_name": "GREAT GANGES INSTITUTE OF TECHNOLOGY,GADANKHERA",
+      "nirf_city": "Unnao",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 28,
+      "slot": 3,
+      "institution_id": "arya-mahila-post-graduate-college",
+      "nirf_name": "Arya Mahila Post Graduate College",
+      "nirf_city": "Varanasi",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 28,
+      "slot": 4,
+      "institution_id": "dav-post-graduate-college",
+      "nirf_name": "DAV Post Graduate College",
+      "nirf_city": "Varanasi",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    },
+    {
+      "batch": 28,
+      "slot": 5,
+      "institution_id": "faculty-of-dental-sciences-institute-of-medical-sciences",
+      "nirf_name": "Faculty of Dental Sciences, Institute of Medical Sciences",
+      "nirf_city": "Varanasi",
+      "institution_type": "government_college",
+      "ranked_or_banded": false
+    }
+  ]
+}

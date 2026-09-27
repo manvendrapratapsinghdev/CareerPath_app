@@ -1,0 +1,14 @@
+{
+  "institution_id": "legacy-302",
+  "database_id": 302,
+  "name": "IHM Mumbai",
+  "website": "https://www.ihmmumbai.ac.in",
+  "outcome": "manual_review",
+  "institution_type": null,
+  "source_url": null,
+  "confidence": null,
+  "evidence": null,
+  "notes": [
+    "The supplied official hostname did not resolve via normal HTTPS requests, so no official page could be verified. curl --insecure was not used because no proxy certificate-chain error occurred."
+  ]
+}

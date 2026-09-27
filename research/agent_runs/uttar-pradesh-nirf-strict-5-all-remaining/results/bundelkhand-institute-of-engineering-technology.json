@@ -1,0 +1,447 @@
+{
+  "institution_id": "bundelkhand-institute-of-engineering-technology",
+  "nirf_name": "Bundelkhand Institute of Engineering & Technology",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/EngineeringRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Jhansi",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://bietjhs.ac.in/",
+  "website_verification_status": "verified",
+  "description": "Bundelkhand Institute of Engineering & Technology, Jhansi is an autonomous institute funded by the Uttar Pradesh Government, offering undergraduate and postgraduate engineering and management programmes.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing_engineering",
+      "url": "https://www.nirfindia.org/Rankings/2025/EngineeringRankingALL.html",
+      "supports": [
+        "government listing identity",
+        "JHANSI campus",
+        "Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "government_listing_management",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html",
+      "supports": [
+        "government listing identity",
+        "JHANSI campus",
+        "Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "government_listing_overall",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "government listing identity",
+        "JHANSI campus",
+        "Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://bietjhs.ac.in/",
+      "supports": [
+        "official institution identity",
+        "Jhansi campus",
+        "government-funded status",
+        "programme and admission links"
+      ]
+    },
+    {
+      "type": "official_campus_address",
+      "url": "https://bietjhs.ac.in/pages/address",
+      "supports": [
+        "campus address",
+        "Jhansi",
+        "Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "official_location",
+      "url": "https://bietjhs.ac.in/pages/maps-location",
+      "supports": [
+        "campus location in Jhansi",
+        "Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "official_description",
+      "url": "https://bietjhs.ac.in/pages/about-institute",
+      "supports": [
+        "institution description",
+        "undergraduate and postgraduate programmes"
+      ]
+    },
+    {
+      "type": "official_bachelor_catalogue",
+      "url": "https://bietjhs.ac.in/pages/academic-bachelors-programmes",
+      "supports": [
+        "seven B.Tech programme names",
+        "four-year full-time duration"
+      ]
+    },
+    {
+      "type": "official_bachelor_admissions",
+      "url": "https://bietjhs.ac.in/pages/admissions-bachelor-programmes",
+      "supports": [
+        "seven B.Tech branches",
+        "duration",
+        "B.Tech eligibility"
+      ]
+    },
+    {
+      "type": "official_master_catalogue",
+      "url": "https://bietjhs.ac.in/pages/academic-bachelors-programmes-2",
+      "supports": [
+        "M.Tech programme family",
+        "M.Tech duration",
+        "MBA programme family"
+      ]
+    },
+    {
+      "type": "official_master_admissions",
+      "url": "https://bietjhs.ac.in/pages/admissions-master-programmes",
+      "supports": [
+        "M.Tech admission programme names",
+        "MBA duration",
+        "MBA eligibility"
+      ]
+    },
+    {
+      "type": "official_current_mtech_notice",
+      "url": "https://bietjhs.ac.in/public/media/files/173912Mtech2026_050826.pdf",
+      "supports": [
+        "2026-27 current M.Tech specializations",
+        "2026-27 M.Tech seat table"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Bundelkhand Institute of Engineering & Technology\" official website Jhansi",
+      "result": "Search response was blocked or returned no usable organic result; the candidate domain was verified directly through its official HTTPS pages.",
+      "url": null
+    },
+    {
+      "query": "\"Bundelkhand Institute of Engineering\" Jhansi website",
+      "result": "Search response returned no usable organic result in command-line retrieval; the candidate domain was verified directly through its official HTTPS pages.",
+      "url": null
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "bundelkhand-institute-of-engineering-technology-biet-btech-chemical-engineering",
+      "name": "B.Tech",
+      "level": "undergraduate",
+      "credential": "B.Tech degree",
+      "specialization": "Chemical Engineering",
+      "duration": "4 years",
+      "mode": "full-time",
+      "eligibility": "Passed Intermediate/10+2 or equivalent from a recognized Board/University without grace, with at least 45% marks (40% for SC/ST) in the prescribed subject combination.",
+      "official_course_url": "https://bietjhs.ac.in/pages/admissions-bachelor-programmes",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 86,
+          "career_node_slug": "btech_chem",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Chemical Engineering",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bundelkhand-institute-of-engineering-technology-biet-btech-civil-engineering",
+      "name": "B.Tech",
+      "level": "undergraduate",
+      "credential": "B.Tech degree",
+      "specialization": "Civil Engineering",
+      "duration": "4 years",
+      "mode": "full-time",
+      "eligibility": "Passed Intermediate/10+2 or equivalent from a recognized Board/University without grace, with at least 45% marks (40% for SC/ST) in the prescribed subject combination.",
+      "official_course_url": "https://bietjhs.ac.in/pages/admissions-bachelor-programmes",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bundelkhand-institute-of-engineering-technology-biet-btech-computer-science-engineering",
+      "name": "B.Tech",
+      "level": "undergraduate",
+      "credential": "B.Tech degree",
+      "specialization": "Computer Science & Engineering",
+      "duration": "4 years",
+      "mode": "full-time",
+      "eligibility": "Passed Intermediate/10+2 or equivalent from a recognized Board/University without grace, with at least 45% marks (40% for SC/ST) in the prescribed subject combination.",
+      "official_course_url": "https://bietjhs.ac.in/pages/academic-bachelors-programmes",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bundelkhand-institute-of-engineering-technology-biet-btech-electrical-engineering",
+      "name": "B.Tech",
+      "level": "undergraduate",
+      "credential": "B.Tech degree",
+      "specialization": "Electrical Engineering",
+      "duration": "4 years",
+      "mode": "full-time",
+      "eligibility": "Passed Intermediate/10+2 or equivalent from a recognized Board/University without grace, with at least 45% marks (40% for SC/ST) in the prescribed subject combination.",
+      "official_course_url": "https://bietjhs.ac.in/pages/admissions-bachelor-programmes",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bundelkhand-institute-of-engineering-technology-biet-btech-electronics-communication-engineering",
+      "name": "B.Tech",
+      "level": "undergraduate",
+      "credential": "B.Tech degree",
+      "specialization": "Electronics & Communication Engineering",
+      "duration": "4 years",
+      "mode": "full-time",
+      "eligibility": "Passed Intermediate/10+2 or equivalent from a recognized Board/University without grace, with at least 45% marks (40% for SC/ST) in the prescribed subject combination.",
+      "official_course_url": "https://bietjhs.ac.in/pages/academic-bachelors-programmes",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bundelkhand-institute-of-engineering-technology-biet-btech-information-technology",
+      "name": "B.Tech",
+      "level": "undergraduate",
+      "credential": "B.Tech degree",
+      "specialization": "Information Technology",
+      "duration": "4 years",
+      "mode": "full-time",
+      "eligibility": "Passed Intermediate/10+2 or equivalent from a recognized Board/University without grace, with at least 45% marks (40% for SC/ST) in the prescribed subject combination.",
+      "official_course_url": "https://bietjhs.ac.in/pages/academic-bachelors-programmes",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 89,
+          "career_node_slug": "btech_it",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Information Technology",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bundelkhand-institute-of-engineering-technology-biet-btech-mechanical-engineering",
+      "name": "B.Tech",
+      "level": "undergraduate",
+      "credential": "B.Tech degree",
+      "specialization": "Mechanical Engineering",
+      "duration": "4 years",
+      "mode": "full-time",
+      "eligibility": "Passed Intermediate/10+2 or equivalent from a recognized Board/University without grace, with at least 45% marks (40% for SC/ST) in the prescribed subject combination.",
+      "official_course_url": "https://bietjhs.ac.in/pages/admissions-bachelor-programmes",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bundelkhand-institute-of-engineering-technology-biet-mtech-construction-technology-management",
+      "name": "M.Tech",
+      "level": "postgraduate",
+      "credential": "M.Tech degree",
+      "specialization": "Construction Technology & Management",
+      "duration": "2 years (4 semesters)",
+      "mode": "full-time",
+      "eligibility": null,
+      "official_course_url": "https://bietjhs.ac.in/public/media/files/173912Mtech2026_050826.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "closest parent discipline: Civil Engineering",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bundelkhand-institute-of-engineering-technology-biet-mtech-environmental-engineering",
+      "name": "M.Tech",
+      "level": "postgraduate",
+      "credential": "M.Tech degree",
+      "specialization": "Environmental Engineering",
+      "duration": "2 years (4 semesters)",
+      "mode": "full-time",
+      "eligibility": null,
+      "official_course_url": "https://bietjhs.ac.in/public/media/files/173912Mtech2026_050826.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "closest parent discipline: Civil Engineering",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bundelkhand-institute-of-engineering-technology-biet-mtech-digital-communication",
+      "name": "M.Tech",
+      "level": "postgraduate",
+      "credential": "M.Tech degree",
+      "specialization": "Digital Communication",
+      "duration": "2 years (4 semesters)",
+      "mode": "full-time",
+      "eligibility": null,
+      "official_course_url": "https://bietjhs.ac.in/public/media/files/173912Mtech2026_050826.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "closest parent discipline: Electronics & Communication",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bundelkhand-institute-of-engineering-technology-biet-mtech-manufacturing-science-technology",
+      "name": "M.Tech",
+      "level": "postgraduate",
+      "credential": "M.Tech degree",
+      "specialization": "Manufacturing Science & Technology",
+      "duration": "2 years (4 semesters)",
+      "mode": "full-time",
+      "eligibility": null,
+      "official_course_url": "https://bietjhs.ac.in/public/media/files/173912Mtech2026_050826.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "closest parent discipline: Mechanical Engineering",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bundelkhand-institute-of-engineering-technology-biet-mtech-thermal-engineering",
+      "name": "M.Tech",
+      "level": "postgraduate",
+      "credential": "M.Tech degree",
+      "specialization": "Thermal Engineering",
+      "duration": "2 years (4 semesters)",
+      "mode": "full-time",
+      "eligibility": null,
+      "official_course_url": "https://bietjhs.ac.in/public/media/files/173912Mtech2026_050826.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "closest parent discipline: Mechanical Engineering",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "bundelkhand-institute-of-engineering-technology-biet-mba",
+      "name": "M.B.A.",
+      "level": "postgraduate",
+      "credential": "MBA degree",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "full-time",
+      "eligibility": "Bachelor's degree of at least three years from a recognized Indian university or equivalent recognized by AIU, with at least 50% marks (45% for SC/ST) in aggregate.",
+      "official_course_url": "https://bietjhs.ac.in/pages/admissions-master-programmes",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 208,
+          "career_node_slug": "mba_general",
+          "career_breadcrumb": "Management & Business > BBA (General) > MBA → CEO / Director Track",
+          "relation": "closest specialization: MBA general management track",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The NIRF Engineering, Management, and Overall 2025 official listings each contain Bundelkhand Institute of Engineering & Technology, JHANSI, Uttar Pradesh.",
+    "The official site is verified at bietjhs.ac.in. Normal TLS produced the exact managed-proxy self-signed-certificate-in-chain error; public GET requests then used curl --insecure only for the expected official hosts.",
+    "The official catalogue is partial and internally inconsistent. The academic masters page lists seven M.Tech courses, including Biomedical Engineering and Energy Science and Technology, while the current 05 August 2026 M.Tech admission notice lists five active specializations and the admissions page lists only four. The current notice was used for current M.Tech rows; Biomedical Engineering and Energy Science and Technology were not asserted as current.",
+    "The official MBA pages disagree on the fourth dual-specialization option: the academic page lists Information Technology, while the admissions page lists International Business. The MBA degree family is included without asserting a specialization.",
+    "The official B.Tech catalogue consistently lists seven branches: Chemical Engineering, Civil Engineering, Computer Science & Engineering, Electrical Engineering, Electronics & Communication Engineering, Information Technology, and Mechanical Engineering.",
+    "The current official M.Tech notice is an image-only PDF; programme names were read from its official rendered page after command-line download."
+  ]
+}

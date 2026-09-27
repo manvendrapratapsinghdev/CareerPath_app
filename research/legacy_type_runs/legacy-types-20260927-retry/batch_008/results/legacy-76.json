@@ -1,0 +1,14 @@
+{
+  "institution_id": "legacy-76",
+  "database_id": 76,
+  "name": "St. Josephs College of Commerce",
+  "website": "https://www.sjcc.edu.in",
+  "outcome": "classified",
+  "institution_type": "autonomous_college",
+  "source_url": "https://www.sjcc.edu.in/institution.php",
+  "confidence": "high",
+  "evidence": "The official About SJCC page identifies St. Joseph’s College of Commerce as an independent college and states that it became an autonomous institution in October 2004; it is managed by the Bangalore Jesuit Educational Society.",
+  "notes": [
+    "Used curl --insecure only after normal TLS verification failed with a self-signed certificate in certificate chain error from the managed proxy."
+  ]
+}

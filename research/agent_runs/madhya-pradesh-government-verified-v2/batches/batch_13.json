@@ -1,0 +1,48 @@
+{
+  "batch": 13,
+  "started_at": "2026-09-27T12:05:13.529868+00:00",
+  "finished_at": "2026-09-27T12:13:38.553040+00:00",
+  "assignment_count": 5,
+  "completed_count": 1,
+  "skipped_count": 4,
+  "failed_count": 0,
+  "results": [
+    {
+      "institution_id": "duke-college-of-management",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified-v2/results/duke-college-of-management.json",
+      "finished_at": "2026-09-27T12:05:13.550727+00:00"
+    },
+    {
+      "institution_id": "extol-college-bawariya-kalan-bhopal",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified-v2/results/extol-college-bawariya-kalan-bhopal.json",
+      "finished_at": "2026-09-27T12:05:13.675265+00:00"
+    },
+    {
+      "institution_id": "gandhi-pr-college-d-1-danish-nagar-hoshangabad-road-bhopal",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified-v2/results/gandhi-pr-college-d-1-danish-nagar-hoshangabad-road-bhopal.json",
+      "finished_at": "2026-09-27T12:05:13.674955+00:00"
+    },
+    {
+      "institution_id": "government-maharani-laxmi-bai-girls-post-graduate-autonomous-college-bhopal",
+      "nirf_name": "Government Maharani Laxmi Bai Girls Post Graduate Autonomous College, Bhopal",
+      "status": "completed",
+      "started_at": "2026-09-27T12:05:13.707886+00:00",
+      "finished_at": "2026-09-27T12:13:38.538664+00:00",
+      "duration_seconds": 504.754,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified-v2/results/government-maharani-laxmi-bai-girls-post-graduate-autonomous-college-bhopal.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified-v2/logs/government-maharani-laxmi-bai-girls-post-graduate-autonomous-college-bhopal.jsonl"
+    },
+    {
+      "institution_id": "govt-college-bidwal-dist-dhar-m-p",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified-v2/results/govt-college-bidwal-dist-dhar-m-p.json",
+      "finished_at": "2026-09-27T12:05:13.724116+00:00"
+    }
+  ]
+}

@@ -1,0 +1,496 @@
+{
+  "institution_id": "government-college-rawti-ratlam-m-p",
+  "nirf_name": "Government College, Rawti Ratlam M.P",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "verified",
+  "district": "Ratlam",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://highereducation.mp.gov.in/?orgid=340",
+  "website_verification_status": "verified",
+  "description": "Government College, Rawti is a Madhya Pradesh Department of Higher Education college in Rawti, Ratlam district, established in 2016.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [
+    "103.94.204.46"
+  ],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "The NIRF 2025 College listing names Government College, Rawti Ratlam M.P in RATLAM, Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "The NIRF 2025 Overall listing names Government College, Rawti Ratlam M.P in RATLAM, Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://highereducation.mp.gov.in/?orgid=340",
+      "supports": [
+        "Official Madhya Pradesh Higher Education profile for शासकीय महाविद्यालय, रावटी; identifies the college and links its official profile sections."
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "http://103.94.204.46:8090/CollegeInfoViewPublic.aspx",
+      "supports": [
+        "Official Higher Education college-information page records Rawti Govt College [1711], place Rawti, address Govt. College Rawti, District Ratlam, and district Ratlam."
+      ]
+    },
+    {
+      "type": "official_profile",
+      "url": "https://highereducation.mp.gov.in/?page=I3TWTjk5kCMx6QmcjKrR%2BA%3D%3D&orgid=340",
+      "supports": [
+        "Official At A Glance page records establishment year 2016."
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=OpLw%2BuLPna9Q50IU5leoPw%3D%3D&orgid=340",
+      "supports": [
+        "Official Regular Courses page lists the two current UG programme names: B. Sc. (Botany - Chemistry - Zoology) and B. Sc. (Chemistry - Mathematics - Physics)."
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=TvxeFpeSUUhRd%2B7CNDLAAw%3D%3D&orgid=340",
+      "supports": [
+        "Official Distance Education Programme page lists nine PG programmes, four UG programmes, and one diploma programme with the recorded eligibility labels."
+      ]
+    }
+  ],
+  "website_search_evidence": [],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "government-college-rawti-ratlam-m-p-regular-bsc-botany-chemistry-zoology",
+      "name": "B. Sc. (Botany - Chemistry - Zoology)",
+      "level": "UG",
+      "credential": "B. Sc.",
+      "specialization": "Botany - Chemistry - Zoology",
+      "duration": null,
+      "mode": "Regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=OpLw%2BuLPna9Q50IU5leoPw%3D%3D&orgid=340",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "nearest-parent for Botany/Zoology; no exact Botany or Zoology leaf",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        },
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "direct discipline component",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-rawti-ratlam-m-p-regular-bsc-chemistry-mathematics-physics",
+      "name": "B. Sc. (Chemistry - Mathematics - Physics)",
+      "level": "UG",
+      "credential": "B. Sc.",
+      "specialization": "Chemistry - Mathematics - Physics",
+      "duration": null,
+      "mode": "Regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=OpLw%2BuLPna9Q50IU5leoPw%3D%3D&orgid=340",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "direct discipline component",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct discipline component",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 24,
+          "career_node_slug": "bsc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics",
+          "relation": "direct discipline component",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-rawti-ratlam-m-p-distance-ma-economics",
+      "name": "M. A. (Economics)",
+      "level": "PG",
+      "credential": "M. A.",
+      "specialization": "Economics",
+      "duration": null,
+      "mode": "Distance",
+      "eligibility": "Post-Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=TvxeFpeSUUhRd%2B7CNDLAAw%3D%3D&orgid=340",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "closest-specialization (BA Economics)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-rawti-ratlam-m-p-distance-ma-english",
+      "name": "M. A. (English)",
+      "level": "PG",
+      "credential": "M. A.",
+      "specialization": "English",
+      "duration": null,
+      "mode": "Distance",
+      "eligibility": "Post-Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=TvxeFpeSUUhRd%2B7CNDLAAw%3D%3D&orgid=340",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "closest-specialization (BA English Literature)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-rawti-ratlam-m-p-distance-ma-hindi",
+      "name": "M. A. (Hindi)",
+      "level": "PG",
+      "credential": "M. A.",
+      "specialization": "Hindi",
+      "duration": null,
+      "mode": "Distance",
+      "eligibility": "Post-Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=TvxeFpeSUUhRd%2B7CNDLAAw%3D%3D&orgid=340",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "closest-specialization (BA Hindi / Regional Language)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-rawti-ratlam-m-p-distance-ma-history",
+      "name": "M. A. (History)",
+      "level": "PG",
+      "credential": "M. A.",
+      "specialization": "History",
+      "duration": null,
+      "mode": "Distance",
+      "eligibility": "Post-Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=TvxeFpeSUUhRd%2B7CNDLAAw%3D%3D&orgid=340",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "closest-specialization (BA History)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-rawti-ratlam-m-p-distance-ma-geography",
+      "name": "M. A. (Geography)",
+      "level": "PG",
+      "credential": "M. A.",
+      "specialization": "Geography",
+      "duration": null,
+      "mode": "Distance",
+      "eligibility": "Post-Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=TvxeFpeSUUhRd%2B7CNDLAAw%3D%3D&orgid=340",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent; no Geography node",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-rawti-ratlam-m-p-distance-ma-political-science",
+      "name": "M. A. (Political Science)",
+      "level": "PG",
+      "credential": "M. A.",
+      "specialization": "Political Science",
+      "duration": null,
+      "mode": "Distance",
+      "eligibility": "Post-Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=TvxeFpeSUUhRd%2B7CNDLAAw%3D%3D&orgid=340",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "closest-specialization (BA Political Science)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-rawti-ratlam-m-p-distance-ma-sociology",
+      "name": "M. A. (Sociology)",
+      "level": "PG",
+      "credential": "M. A.",
+      "specialization": "Sociology",
+      "duration": null,
+      "mode": "Distance",
+      "eligibility": "Post-Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=TvxeFpeSUUhRd%2B7CNDLAAw%3D%3D&orgid=340",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "closest-specialization (BA Sociology)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-rawti-ratlam-m-p-distance-mcom-management",
+      "name": "M. Com. (Management)",
+      "level": "PG",
+      "credential": "M. Com.",
+      "specialization": "Management",
+      "duration": null,
+      "mode": "Distance",
+      "eligibility": "Post-Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=TvxeFpeSUUhRd%2B7CNDLAAw%3D%3D&orgid=340",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest-parent; no B.Com/M.Com leaf",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-rawti-ratlam-m-p-distance-msw-social-work",
+      "name": "M. S. W. (Social Work)",
+      "level": "PG",
+      "credential": "M. S. W.",
+      "specialization": "Social Work",
+      "duration": null,
+      "mode": "Distance",
+      "eligibility": "Post-Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=TvxeFpeSUUhRd%2B7CNDLAAw%3D%3D&orgid=340",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent (Social Sciences & Education; no Social Work degree node)",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-rawti-ratlam-m-p-distance-bsc-chemistry-mathematics-physics",
+      "name": "B. Sc. (Chemistry - Mathematics - Physics)",
+      "level": "UG",
+      "credential": "B. Sc.",
+      "specialization": "Chemistry - Mathematics - Physics",
+      "duration": null,
+      "mode": "Distance",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=TvxeFpeSUUhRd%2B7CNDLAAw%3D%3D&orgid=340",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "direct discipline component",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct discipline component",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 24,
+          "career_node_slug": "bsc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics",
+          "relation": "direct discipline component",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-rawti-ratlam-m-p-distance-bsc-botany-chemistry-zoology",
+      "name": "B. Sc. (Botany - Chemistry - Zoology)",
+      "level": "UG",
+      "credential": "B. Sc.",
+      "specialization": "Botany - Chemistry - Zoology",
+      "duration": null,
+      "mode": "Distance",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=TvxeFpeSUUhRd%2B7CNDLAAw%3D%3D&orgid=340",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "nearest-parent for Botany/Zoology; no exact Botany or Zoology leaf",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        },
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "direct discipline component",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-rawti-ratlam-m-p-distance-bcom-commerce",
+      "name": "B. Com (Commerce)",
+      "level": "UG",
+      "credential": "B. Com",
+      "specialization": "Commerce",
+      "duration": null,
+      "mode": "Distance",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=TvxeFpeSUUhRd%2B7CNDLAAw%3D%3D&orgid=340",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest-parent; no B.Com/M.Com leaf",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-rawti-ratlam-m-p-distance-ba-plain",
+      "name": "B. A. (B.A.- Plain)",
+      "level": "UG",
+      "credential": "B. A.",
+      "specialization": "B.A.- Plain",
+      "duration": null,
+      "mode": "Distance",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=TvxeFpeSUUhRd%2B7CNDLAAw%3D%3D&orgid=340",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent for broad plain B.A.",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-rawti-ratlam-m-p-distance-diploma-computer-application",
+      "name": "Diploma (Diploma in Computer Application)",
+      "level": "Diploma",
+      "credential": "Diploma",
+      "specialization": "Diploma in Computer Application",
+      "duration": null,
+      "mode": "Distance",
+      "eligibility": "Diploma",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=TvxeFpeSUUhRd%2B7CNDLAAw%3D%3D&orgid=340",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "closest-specialization (BCA Computer Applications)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "Normal TLS verification first failed on the managed proxy with the exact self-signed-certificate-chain error; public official requests were then retried with curl --insecure after confirming the requested official hostnames.",
+    "The official Regular Courses page has two UG rows; its PG and Diploma tables are empty. The official Distance Education page supplies the nine PG, four UG, and one diploma programmes included here.",
+    "The official catalogue pages do not explicitly state programme duration, so duration is null. The Regular Courses rows leave minimum qualification blank, so regular-course eligibility is null.",
+    "The department-linked campus identity endpoint is HTTP-only; its HTTPS endpoint rejected the TLS protocol, so the official HTTP URL is retained as the exact source."
+  ]
+}

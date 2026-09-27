@@ -1,0 +1,115 @@
+{
+  "institution_id": "deen-dayal-upadhyay-gorakhpur-university",
+  "nirf_name": "Deen Dayal Upadhyay Gorakhpur University",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/LawRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Gorakhpur",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://ddugu.ac.in/",
+  "website_verification_status": "verified",
+  "description": "Deen Dayal Upadhyaya Gorakhpur University is a state university in Civil Lines, Gorakhpur, Uttar Pradesh. Its official site describes it as founded in 1950, spanning 190.96 acres, with eight faculties and forty departments, and operating as a residential-cum-affiliating university.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [
+    "ddugu.ac.in",
+    "dduguadmission.in"
+  ],
+  "verification_sources": [
+    {
+      "type": "government_directory_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/LawRankingALL.html",
+      "supports": [
+        "Exact institution name and Gorakhpur, Uttar Pradesh listing"
+      ]
+    },
+    {
+      "type": "government_directory_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html",
+      "supports": [
+        "Exact institution name and Gorakhpur, Uttar Pradesh listing"
+      ]
+    },
+    {
+      "type": "government_directory_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Exact institution name and Gorakhpur, Uttar Pradesh listing"
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://ddugu.ac.in/",
+      "supports": [
+        "Official identity",
+        "Official website",
+        "Gorakhpur campus address",
+        "Link to official admissions portal"
+      ]
+    },
+    {
+      "type": "official_about_page",
+      "url": "https://ddugu.ac.in/about-us.php",
+      "supports": [
+        "Gorakhpur location",
+        "Institution description",
+        "Founded in 1950",
+        "Campus and faculty facts"
+      ]
+    },
+    {
+      "type": "official_programme_catalogue",
+      "url": "https://ddugu.ac.in/programs-new.php",
+      "supports": [
+        "Official programme catalogue structure"
+      ]
+    },
+    {
+      "type": "official_admissions_catalogue",
+      "url": "https://dduguadmission.in/pdf-files/Programmes-List-2026-2027.pdf",
+      "supports": [
+        "Complete UG, PG, certificate and diploma programme list for 2026-27"
+      ]
+    },
+    {
+      "type": "official_doctoral_catalogue",
+      "url": "https://dduguadmission.in/phd-syllabus.php",
+      "supports": [
+        "Official doctoral RET programme discipline list"
+      ]
+    },
+    {
+      "type": "official_admissions_home",
+      "url": "https://dduguadmission.in/",
+      "supports": [
+        "Current admissions portal identity and doctoral admission link"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "site:ddugu.ac.in \"Deen Dayal Upadhyaya Gorakhpur University\"",
+      "result": "Search results were noisy; the expected official host was directly fetched and its identity, address and admissions link were verified.",
+      "url": "https://ddugu.ac.in/"
+    },
+    {
+      "query": "\"Deen Dayal Upadhyaya Gorakhpur University\" admission",
+      "result": "The official admissions portal linked from the university homepage was directly fetched and verified as DDUGU Admissions.",
+      "url": "https://dduguadmission.in/"
+    }
+  ],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [],
+  "agent_notes": [
+    "The exact institution and Gorakhpur, Uttar Pradesh campus are present in all three supplied NIRF 2025 government listings.",
+    "The university homepage identifies ddugu.ac.in and links the DDUGU admissions portal at dduguadmission.in.",
+    "The official 2026-27 admissions PDF is explicitly the complete UG/PG/certificate/diploma programme list; the official PhD syllabus page lists doctoral programme disciplines.",
+    "All duration and eligibility fields were left null because the central official catalogue pages do not explicitly verify them.",
+    "The career mappings were reviewed against assets/data/career_path.db read-only.",
+    "Normal TLS verification failed with the proxy's exact self-signed-certificate-chain error for expected public hosts; public GETs were retried with curl --insecure.",
+    "Automatically downgraded from verified because one or more required official-source verification prerequisites were not satisfied."
+  ]
+}

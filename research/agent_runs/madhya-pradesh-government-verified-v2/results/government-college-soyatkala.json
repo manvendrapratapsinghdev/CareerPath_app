@@ -1,0 +1,107 @@
+{
+  "institution_id": "government-college-soyatkala",
+  "nirf_name": "Government College Soyatkala",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "remove_candidate",
+  "district": null,
+  "district_verification_status": "pending_official_source",
+  "official_website": null,
+  "website_verification_status": "not_found",
+  "description": null,
+  "description_verification_status": "not_found",
+  "record_status": "remove_candidate",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact listing row confirms Government College Soyatkala, Soyatkala, Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "authoritative_district_directory_check",
+      "url": "https://agarmalwa.nic.in/en/public-utility/govt-college-soyat/",
+      "supports": [
+        "Official district administration directory page for Govt College Soyat; it provides contact information but no institution homepage or programme catalogue."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Government College Soyatkala\" official website",
+      "result": "Search returned non-official college-directory and aggregator pages; no dedicated official institutional website was identified.",
+      "url": "https://html.duckduckgo.com/html/?q=%22Government%20College%20Soyatkala%22%20official%20website"
+    },
+    {
+      "query": "Government College Soyatkala admission Madhya Pradesh official",
+      "result": "Search returned the Agar Malwa district-government directory page, generic e-Pravesh, and non-official pages; no institution homepage or official programme catalogue was found.",
+      "url": "https://html.duckduckgo.com/html/?q=Government%20College%20Soyatkala%20admission%20Madhya%20Pradesh%20official"
+    },
+    {
+      "query": "शासकीय महाविद्यालय सोयतकलां",
+      "result": "Search returned the official Agar Malwa district directory page plus social/news pages; no dedicated official college website or course catalogue was found. Social profiles were excluded.",
+      "url": "https://html.duckduckgo.com/html/?q=%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A4%95%E0%A5%80%E0%A4%AF%20%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%B2%E0%A4%AF%20%E0%A4%B8%E0%A5%8B%E0%A4%AF%E0%A4%A4%E0%A4%95%E0%A4%B2%E0%A4%BE%E0%A4%82"
+    },
+    {
+      "query": "site:mp.gov.in \"Government College Soyatkala\"",
+      "result": "No results found on the Madhya Pradesh government domain.",
+      "url": "https://html.duckduckgo.com/html/?q=site%3Amp.gov.in%20%22Government%20College%20Soyatkala%22"
+    },
+    {
+      "query": "site:ac.in \"Government College Soyatkala\"",
+      "result": "No results found on academic institution domains.",
+      "url": "https://html.duckduckgo.com/html/?q=site%3Aac.in%20%22Government%20College%20Soyatkala%22"
+    },
+    {
+      "query": "site:gov.in \"Government College Soyatkala\"",
+      "result": "No results found on government domains.",
+      "url": "https://html.duckduckgo.com/html/?q=site%3Agov.in%20%22Government%20College%20Soyatkala%22"
+    },
+    {
+      "query": "\"Government College Soyatkala\" site:*.in",
+      "result": "No results found for an official Indian institutional domain.",
+      "url": "https://html.duckduckgo.com/html/?q=%22Government%20College%20Soyatkala%22%20site%3A*.in"
+    },
+    {
+      "query": "\"govtcollegesoyat\"",
+      "result": "Only an Instagram social profile and social posts were returned; social profiles are excluded as verification sources.",
+      "url": "https://html.duckduckgo.com/html/?q=%22govtcollegesoyat%22"
+    },
+    {
+      "query": "Google: Government College Soyatkala official website",
+      "result": "Google request returned HTTP 429 and no usable institutional result; this was not treated as proof of absence.",
+      "url": "https://www.google.com/search?q=Government+College+Soyatkala+official+website"
+    },
+    {
+      "query": "Bing: Government College Soyatkala official website",
+      "result": "Bing returned unrelated general-government results and no official college website.",
+      "url": "https://www.bing.com/search?q=Government+College+Soyatkala+official+website"
+    },
+    {
+      "query": "Direct HTTPS host check: https://govtcollegesoyatkala.in",
+      "result": "DNS resolution failed; no official host was established.",
+      "url": "https://govtcollegesoyatkala.in"
+    },
+    {
+      "query": "Direct HTTPS host check: https://govtcollegesoyat.in",
+      "result": "DNS resolution failed; no official host was established.",
+      "url": "https://govtcollegesoyat.in"
+    },
+    {
+      "query": "Direct HTTPS host check: https://governmentcollegesoyatkala.in",
+      "result": "DNS resolution failed; no official host was established.",
+      "url": "https://governmentcollegesoyatkala.in"
+    }
+  ],
+  "course_catalogue_status": "not_found",
+  "courses": [],
+  "agent_notes": [
+    "The NIRF 2025 College listing contains the exact institution name, city Soyatkala, and state Madhya Pradesh.",
+    "Normal TLS verification produced the managed-proxy curl self-signed-certificate-chain error; after confirming the expected public hosts, curl --insecure was used only for public GET requests.",
+    "No dedicated official institution homepage or official programme/course/admissions catalogue was established after multiple focused searches and authoritative-domain checks. The district directory, aggregators, and social profiles were not used as institution-site evidence.",
+    "The career tree database was inspected read-only; no course mapping was created because no programme was verifiable from an official institution catalogue."
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "batch": 27,
+  "started_at": "2026-09-27T15:04:19.831341+00:00",
+  "finished_at": "2026-09-27T15:07:59.327609+00:00",
+  "assignment_count": 5,
+  "completed_count": 1,
+  "skipped_count": 3,
+  "failed_count": 1,
+  "results": [
+    {
+      "institution_id": "all-india-institute-of-medical-sciences-raebareli",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/all-india-institute-of-medical-sciences-raebareli.json",
+      "finished_at": "2026-09-27T15:04:19.847592+00:00"
+    },
+    {
+      "institution_id": "bhaskar-college-of-education",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/bhaskar-college-of-education.json",
+      "finished_at": "2026-09-27T15:04:19.849485+00:00"
+    },
+    {
+      "institution_id": "chaudhary-charan-singh-degree-college-hewara",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/chaudhary-charan-singh-degree-college-hewara.json",
+      "finished_at": "2026-09-27T15:04:19.849247+00:00"
+    },
+    {
+      "institution_id": "government-degree-college-haripur-nihastha",
+      "nirf_name": "Government Degree College, Haripur Nihastha",
+      "status": "completed",
+      "started_at": "2026-09-27T15:04:19.837994+00:00",
+      "finished_at": "2026-09-27T15:07:59.325584+00:00",
+      "duration_seconds": 219.475,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/government-degree-college-haripur-nihastha.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/logs/government-degree-college-haripur-nihastha.jsonl"
+    },
+    {
+      "institution_id": "government-model-degree-college-kapoori-govindpur-saharanpur-u-p",
+      "nirf_name": "Government Model Degree College, Kapoori Govindpur, Saharanpur (U.P.)",
+      "status": "failed",
+      "started_at": "2026-09-27T15:04:19.838613+00:00",
+      "finished_at": "2026-09-27T15:07:00.176437+00:00",
+      "duration_seconds": 160.322,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [
+        "verification source is outside official domains: https://uphed.gov.in/FrmCollegeDetail.aspx?value=Degree"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/logs/government-model-degree-college-kapoori-govindpur-saharanpur-u-p.jsonl"
+    }
+  ]
+}

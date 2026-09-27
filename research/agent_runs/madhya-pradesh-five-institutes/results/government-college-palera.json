@@ -1,0 +1,100 @@
+{
+  "institution_id": "government-college-palera",
+  "nirf_name": "Government college palera",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "remove_candidate",
+  "district": "Tikamgarh",
+  "district_verification_status": "pending_official_source",
+  "official_website": null,
+  "website_verification_status": "not_found",
+  "description": null,
+  "description_verification_status": "not_found",
+  "record_status": "remove_candidate",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact NIRF participating-institute row: Government college palera, Tikamgarh, Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "government_district_directory",
+      "url": "https://tikamgarh.nic.in/en/public-utility/govt-college-palera/",
+      "supports": [
+        "District Administration Tikamgarh directory entry for Govt College, Palera",
+        "Khargapur Road, Palera address and official mp.gov.in contact email"
+      ]
+    },
+    {
+      "type": "government_higher_education_directory",
+      "url": "http://103.94.204.46:8090/CollegeInformationPublic.aspx",
+      "supports": [
+        "Higher Education Madhya Pradesh public directory row: college code 0706, Govt College Palera, Tikamgarh, official mp.gov.in email"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Government College Palera\" Tikamgarh official",
+      "result": "Brave Search returned the official District Administration Tikamgarh directory page, but no separate institution-controlled website; third-party aggregator results were excluded.",
+      "url": "https://search.brave.com/search?q=Government%20College%20Palera%20Tikamgarh%20official"
+    },
+    {
+      "query": "\"Government College Palera\" Tikamgarh official",
+      "result": "Google returned an anti-automation/interstitial response with no usable official institution result.",
+      "url": "https://www.google.com/search?q=%22Government+College+Palera%22+Tikamgarh+official"
+    },
+    {
+      "query": "\"Government College Palera\" Tikamgarh official",
+      "result": "Bing returned unrelated National Portal, MyGov, and general government results; no official college website was found.",
+      "url": "https://www.bing.com/search?q=%22Government+College+Palera%22+Tikamgarh+official"
+    },
+    {
+      "query": "\"Government College Palera\" Tikamgarh official",
+      "result": "DuckDuckGo returned no usable official institution result in the fetched public HTML.",
+      "url": "https://html.duckduckgo.com/html/?q=%22Government+College+Palera%22+Tikamgarh+official"
+    },
+    {
+      "query": "site:mp.gov.in \"Government College Palera\"",
+      "result": "Google returned an anti-automation/interstitial response with no usable official institution result.",
+      "url": "https://www.google.com/search?q=site%3Amp.gov.in+%22Government+College+Palera%22"
+    },
+    {
+      "query": "site:mp.gov.in \"Government College Palera\"",
+      "result": "Bing returned unrelated general government results and no official college website.",
+      "url": "https://www.bing.com/search?q=site%3Amp.gov.in+%22Government+College+Palera%22"
+    },
+    {
+      "query": "\"शासकीय महाविद्यालय पलेरा\"",
+      "result": "Google returned an anti-automation/interstitial response with no usable official institution result.",
+      "url": "https://www.google.com/search?q=%22%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A4%95%E0%A5%80%E0%A4%AF+%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%B2%E0%A4%AF+%E0%A4%AA%E0%A4%B2%E0%A5%87%E0%A4%B0%E0%A4%BE%22"
+    },
+    {
+      "query": "\"शासकीय महाविद्यालय पलेरा\"",
+      "result": "Bing returned unrelated help and video results; no official college website was found.",
+      "url": "https://www.bing.com/search?q=%22%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A4%95%E0%A5%80%E0%A4%AF+%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%B2%E0%A4%AF+%E0%A4%AA%E0%A4%B2%E0%A5%87%E0%A4%B0%E0%A4%BE%22"
+    },
+    {
+      "query": "\"Government College Palera\" admission courses",
+      "result": "Mojeek returned HTTP 403 and no usable result page.",
+      "url": "https://www.mojeek.com/search?q=%22Government%20College%20Palera%22%20admission%20courses"
+    },
+    {
+      "query": "\"Government College Palera\" Tikamgarh",
+      "result": "Qwant returned no usable search result for the institution.",
+      "url": "https://www.qwant.com/?q=%22Government%20College%20Palera%22%20Tikamgarh&t=web"
+    }
+  ],
+  "course_catalogue_status": "not_found",
+  "courses": [],
+  "agent_notes": [
+    "The NIRF government listing and Madhya Pradesh government directories independently match the requested campus: Govt College Palera, college code 0706, Tikamgarh.",
+    "The District Administration Tikamgarh page is a government directory entry, not the institution's own official website. No separate institution-controlled official domain or official programme catalogue could be established after focused searches and authoritative-domain checks.",
+    "No courses were imported because official programme pages were not found. Third-party aggregators and search snippets were not used as verification sources.",
+    "Normal TLS verification first produced curl error 60, self signed certificate in certificate chain, for the expected government hostname; curl --insecure was then used only for public GET requests as the allowed proxy fallback."
+  ]
+}

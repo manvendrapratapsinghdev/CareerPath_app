@@ -1,0 +1,96 @@
+{
+  "institution_id": "govt-p-g-college",
+  "nirf_name": "Govt. P G College",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "remove_candidate",
+  "district": null,
+  "district_verification_status": "not_found",
+  "official_website": null,
+  "website_verification_status": "not_found",
+  "description": null,
+  "description_verification_status": "not_found",
+  "record_status": "remove_candidate",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "nirf_government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact institution listing: Govt. P G College, HAMIRPUR, U.P., Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "official_district_directory",
+      "url": "https://hamirpur.nic.in/public-utility-category/colleges/",
+      "supports": [
+        "Government Post Graduate College listed at Kuchhechha, Hamirpur"
+      ]
+    },
+    {
+      "type": "official_university_college_list",
+      "url": "https://ums.bujhansi.ac.in/BUJhansi/collegelist.aspx",
+      "supports": [
+        "Exact affiliated-college identity: 406-GOVT. P.G. COLLEGE, HAMIRPUR"
+      ]
+    },
+    {
+      "type": "official_state_higher_education_directory",
+      "url": "https://uphed.gov.in/FrmCollegeDetail.aspx?value=Degree&district=HAMIRPUR",
+      "supports": [
+        "Government PG College Hamirpur appears in the state directory with a blank Website Url field"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Govt. P G College\" Hamirpur Uttar Pradesh official website",
+      "result": "Google returned no usable institution result; the request was intercepted by an automated-traffic challenge.",
+      "url": "https://www.google.com/search?q=%22Govt.%20P%20G%20College%22%20Hamirpur%20Uttar%20Pradesh%20official%20website"
+    },
+    {
+      "query": "Government Post Graduate College Hamirpur Uttar Pradesh official",
+      "result": "Google returned no usable institution result; the request was intercepted by an automated-traffic challenge.",
+      "url": "https://www.google.com/search?q=Government%20Post%20Graduate%20College%20Hamirpur%20Uttar%20Pradesh%20official"
+    },
+    {
+      "query": "\"Government Post Graduate College\" \"Hamirpur\" \"Uttar Pradesh\"",
+      "result": "Bing returned generic government portals and no official website for the Hamirpur Uttar Pradesh college.",
+      "url": "https://www.bing.com/search?format=rss&cc=IN&q=%22Government%20Post%20Graduate%20College%22%20%22Hamirpur%22%20%22Uttar%20Pradesh%22"
+    },
+    {
+      "query": "\"Govt. P G College\" \"HAMIRPUR, U.P.\"",
+      "result": "Bing returned generic government/job portals and no official website for the assigned institution.",
+      "url": "https://www.bing.com/search?format=rss&cc=IN&q=%22Govt.%20P%20G%20College%22%20%22HAMIRPUR%2C%20U.P.%22"
+    },
+    {
+      "query": "site:ac.in \"Government Post Graduate College\" \"Hamirpur\"",
+      "result": "Bing returned no matching institutional .ac.in website; results were unrelated government pages.",
+      "url": "https://www.bing.com/search?format=rss&cc=IN&q=site%3Aac.in%20%22Government%20Post%20Graduate%20College%22%20%22Hamirpur%22"
+    },
+    {
+      "query": "\"Rajkiya P.G. College\" Hamirpur Uttar Pradesh",
+      "result": "Bing returned no matching official institution website.",
+      "url": "https://www.bing.com/search?format=rss&cc=IN&q=%22Rajkiya%20P.G.%20College%22%20Hamirpur%20Uttar%20Pradesh"
+    },
+    {
+      "query": "Government P G College Hamirpur Uttar Pradesh official website",
+      "result": "Bing results were unrelated to the assigned institution and did not establish an official college homepage.",
+      "url": "https://www.bing.com/search?format=rss&cc=IN&q=Government%20P%20G%20College%20Hamirpur%20Uttar%20Pradesh%20official%20website"
+    },
+    {
+      "query": "UP Higher Education Directorate Government PG College Hamirpur website",
+      "result": "The official UP Higher Education directory lists GOVERNMENT PG COLLEGE HAMIRPUR in HAMIRPUR but leaves Website Url blank.",
+      "url": "https://uphed.gov.in/FrmCollegeDetail.aspx?value=Degree&district=HAMIRPUR"
+    }
+  ],
+  "course_catalogue_status": "not_found",
+  "courses": [],
+  "agent_notes": [
+    "The NIRF government listing was established for the exact assigned institution and city/state.",
+    "The official Hamirpur district directory and Bundelkhand University college list confirm the campus identity, but neither provides an institutional homepage or catalogue.",
+    "After multiple focused searches and an official UP Higher Education directory check, no official institutional website could be established; removed under the stated outcome rules.",
+    "The initial normal TLS request failed with the exact managed-proxy error \"self signed certificate in certificate chain\"; subsequent public GET requests used curl --insecure only for confirmed public official/search domains."
+  ]
+}

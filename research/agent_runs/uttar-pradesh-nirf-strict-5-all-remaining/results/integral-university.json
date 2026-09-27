@@ -1,0 +1,137 @@
+{
+  "institution_id": "integral-university",
+  "nirf_name": "Integral University",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/AgricultureRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/EngineeringRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/PharmacyRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Lucknow",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://www.iul.ac.in/",
+  "website_verification_status": "verified",
+  "description": "Integral University is a private university at Dasauli, Bas-ha Kursi Road, Lucknow, Uttar Pradesh, offering programmes across agriculture, engineering, management, pharmacy, health sciences, law, education, science, nursing, and humanities.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/AgricultureRankingALL.html",
+      "supports": [
+        "Integral University listed in Lucknow, Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/EngineeringRankingALL.html",
+      "supports": [
+        "Integral University listed in Lucknow, Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html",
+      "supports": [
+        "Integral University listed in Lucknow, Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Integral University listed in Lucknow, Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/PharmacyRankingALL.html",
+      "supports": [
+        "Integral University listed in Lucknow, Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://www.iul.ac.in/",
+      "supports": [
+        "Integral University identity",
+        "Lucknow, Uttar Pradesh campus address"
+      ]
+    },
+    {
+      "type": "official_district_campus",
+      "url": "https://www.iul.ac.in/Contactus.aspx",
+      "supports": [
+        "Dasauli, Bas-ha Kursi Road, Lucknow 226026"
+      ]
+    },
+    {
+      "type": "official_description",
+      "url": "https://www.iul.ac.in/About/Overview/Overview.aspx",
+      "supports": [
+        "Institutional overview and Lucknow location"
+      ]
+    },
+    {
+      "type": "official_catalogue",
+      "url": "https://www.iul.ac.in/admissioninfo/FeeInd.aspx",
+      "supports": [
+        "Official catalogue listing programmes and durations"
+      ]
+    },
+    {
+      "type": "official_catalogue",
+      "url": "https://www.iul.ac.in/Academics/under-Graduate.aspx",
+      "supports": [
+        "Official undergraduate programme catalogue"
+      ]
+    },
+    {
+      "type": "official_catalogue",
+      "url": "https://www.iul.ac.in/Academics/post-Graduate.aspx",
+      "supports": [
+        "Official postgraduate programme catalogue"
+      ]
+    },
+    {
+      "type": "official_catalogue",
+      "url": "https://www.iul.ac.in/Academics/doctoral.aspx",
+      "supports": [
+        "Official doctoral programme catalogue"
+      ]
+    },
+    {
+      "type": "official_catalogue",
+      "url": "https://www.iul.ac.in/Admissions/index",
+      "supports": [
+        "Current admissions programme listing"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Integral University\" Lucknow",
+      "result": "Bing identified https://www.iul.ac.in as Integral University; used only for discovery, not verification evidence.",
+      "url": "https://www.bing.com/search?q=%22Integral%20University%22%20Lucknow"
+    },
+    {
+      "query": "site:iul.ac.in \"Integral University\"",
+      "result": "Bing identified the official iul.ac.in domain and admissions pages; used only for discovery, not verification evidence.",
+      "url": "https://www.bing.com/search?q=site%3Aiul.ac.in%20%22Integral%20University%22"
+    },
+    {
+      "query": "site:integraluniversity.ac.in \"Integral University\"",
+      "result": "The focused alternate-domain query did not establish an official site; the authoritative-domain check established iul.ac.in.",
+      "url": "https://www.bing.com/search?q=site%3Aintegraluniversity.ac.in%20%22Integral%20University%22"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [],
+  "agent_notes": [
+    "The expected nirfindia.org and www.iul.ac.in hosts returned the managed proxy's exact self-signed certificate-chain error under normal TLS; after confirming the expected hostnames, --insecure was used only for public GET requests.",
+    "The official central catalogue lists 407 rows under a 2025-26 heading, while the homepage advertises 2026-27 admissions. The current admissions page exposes only a faculty-filtered subset in the static response, so a complete current catalogue cannot be established without guessing or importing potentially stale programmes. Manual review is required."
+  ]
+}

@@ -1,0 +1,601 @@
+{
+  "institution_id": "b-s-patel-college-sepura-mehgaon",
+  "nirf_name": "B S PATEL COLLEGE, SEPURA, MEHGAON",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "verified",
+  "district": "Bhind",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://highereducation.mp.gov.in/?orgid=72",
+  "website_verification_status": "verified",
+  "description": "A Madhya Pradesh Higher Education Department government college in Mehgaon, Bhind district, established in 1989.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact NIRF institution name, city MEHGAON, and state Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "official_department_directory",
+      "url": "https://highereducation.mp.gov.in/CollegeDisp/getTable",
+      "supports": [
+        "Madhya Pradesh Higher Education Department directory records orgid 72 as Govt College, Mehgaon, District Bhind."
+      ]
+    },
+    {
+      "type": "official_institution_homepage",
+      "url": "https://highereducation.mp.gov.in/?orgid=72",
+      "supports": [
+        "Institution microsite header identifies Government College Mehgaon, District Bhind, Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "official_campus_profile",
+      "url": "https://highereducation.mp.gov.in/?page=C8sLxwlMeOMB8Xxfue3HIA%3D%3D&orgid=72",
+      "supports": [
+        "Official At A Glance page verifies establishment year 1989 and campus profile data."
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=WwN7trJHSIAapzvE8TqMbw%3D%3D&orgid=72",
+      "supports": [
+        "Official Programmes Offered page lists the active regular UG programmes and minimum qualification."
+      ]
+    },
+    {
+      "type": "official_distance_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=stTas%2B3zXl%2B%2B0YVJmni7Ww%3D%3D&orgid=72",
+      "supports": [
+        "Official Distance Education Programme page contains empty PG, UG, and diploma tables; no additional distance programme was listed."
+      ]
+    },
+    {
+      "type": "official_catalogue_check",
+      "url": "https://highereducation.mp.gov.in/?page=jRnSqh%2FLVNyc3%2BeIH2wFeQ%3D%3D&orgid=72",
+      "supports": [
+        "Official prospectus page was checked and is currently under construction."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "B S Patel College Sepura Mehgaon official website",
+      "result": "Google request returned HTTP 429; no search snippet was used as verification.",
+      "url": "https://www.google.com/search?q=B%20S%20Patel%20College%20Sepura%20Mehgaon%20official%20website"
+    },
+    {
+      "query": "site:ac.in \"B S Patel College\" Sepura",
+      "result": "Google request returned HTTP 429; no search snippet was used as verification.",
+      "url": "https://www.google.com/search?q=site%3Aac.in%20%22B%20S%20Patel%20College%22%20Sepura"
+    },
+    {
+      "query": "\"B S PATEL COLLEGE, SEPURA, MEHGAON\"",
+      "result": "Bing returned no relevant institution-specific official website; unrelated results were discarded.",
+      "url": "https://www.bing.com/search?q=%22B+S+PATEL+COLLEGE%2C+SEPURA%2C+MEHGAON%22"
+    },
+    {
+      "query": "\"B S Patel College\" Mehgaon",
+      "result": "Bing returned no relevant institution-specific official website; unrelated results were discarded.",
+      "url": "https://www.bing.com/search?q=%22B+S+Patel+College%22+Mehgaon"
+    },
+    {
+      "query": "Madhya Pradesh Higher Education Department Govt College Mehgaon",
+      "result": "The authoritative Madhya Pradesh Higher Education Department directory led to orgid 72 and its official institution microsite.",
+      "url": "https://highereducation.mp.gov.in/?page=3ReniKuyIMmDd4opO%2FkIdA%3D%3D"
+    }
+  ],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "b-s-patel-college-sepura-mehgaon-ba-english-history-sociology",
+      "name": "B. A. (English - History - Sociology)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Arts",
+      "specialization": "English - History - Sociology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=WwN7trJHSIAapzvE8TqMbw%3D%3D&orgid=72",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "direct discipline component",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct discipline component",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct discipline component",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-s-patel-college-sepura-mehgaon-bsc-botany-chemistry-zoology",
+      "name": "B. Sc. (Botany - Chemistry - Zoology)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Science",
+      "specialization": "Botany - Chemistry - Zoology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=WwN7trJHSIAapzvE8TqMbw%3D%3D&orgid=72",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest-specialization for Botany and Zoology components; no exact Botany or Zoology node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        },
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "direct discipline component",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-s-patel-college-sepura-mehgaon-bsc-chemistry-mathematics-physics",
+      "name": "B. Sc. (Chemistry - Mathematics - Physics)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Science",
+      "specialization": "Chemistry - Mathematics - Physics",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=WwN7trJHSIAapzvE8TqMbw%3D%3D&orgid=72",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "direct discipline component",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct discipline component",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 24,
+          "career_node_slug": "bsc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics",
+          "relation": "direct discipline component",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-s-patel-college-sepura-mehgaon-bsc-computer-science-mathematics-physics",
+      "name": "B. Sc. (Computer Science - Mathematics - Physics)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Science",
+      "specialization": "Computer Science - Mathematics - Physics",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=WwN7trJHSIAapzvE8TqMbw%3D%3D&orgid=72",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 32,
+          "career_node_slug": "bsc_cs",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Computer Science",
+          "relation": "direct discipline component",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct discipline component",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 24,
+          "career_node_slug": "bsc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics",
+          "relation": "direct discipline component",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-s-patel-college-sepura-mehgaon-ba-english-history-political-science",
+      "name": "B. A. (English - History - Political Science)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Arts",
+      "specialization": "English - History - Political Science",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=WwN7trJHSIAapzvE8TqMbw%3D%3D&orgid=72",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "direct discipline component",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct discipline component",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct discipline component",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-s-patel-college-sepura-mehgaon-ba-hindi-history-political-science",
+      "name": "B. A. (Hindi - History - Political Science)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Arts",
+      "specialization": "Hindi - History - Political Science",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=WwN7trJHSIAapzvE8TqMbw%3D%3D&orgid=72",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct discipline component",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct discipline component",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct discipline component",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-s-patel-college-sepura-mehgaon-ba-hindi-history-sociology",
+      "name": "B. A. (Hindi - History - Sociology)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Arts",
+      "specialization": "Hindi - History - Sociology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=WwN7trJHSIAapzvE8TqMbw%3D%3D&orgid=72",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct discipline component",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct discipline component",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct discipline component",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-s-patel-college-sepura-mehgaon-ba-history-political-science-sociology",
+      "name": "B. A. (History - Political Science - Sociology)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Arts",
+      "specialization": "History - Political Science - Sociology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=WwN7trJHSIAapzvE8TqMbw%3D%3D&orgid=72",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct discipline component",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct discipline component",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct discipline component",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-s-patel-college-sepura-mehgaon-ba-economics-hindi-sociology",
+      "name": "B. A. (Economics - Hindi - Sociology)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Arts",
+      "specialization": "Economics - Hindi - Sociology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=WwN7trJHSIAapzvE8TqMbw%3D%3D&orgid=72",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct discipline component",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct discipline component",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct discipline component",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-s-patel-college-sepura-mehgaon-ba-economics-hindi-political-science",
+      "name": "B. A. (Economics - Hindi - Political Science)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Arts",
+      "specialization": "Economics - Hindi - Political Science",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=WwN7trJHSIAapzvE8TqMbw%3D%3D&orgid=72",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct discipline component",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct discipline component",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct discipline component",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-s-patel-college-sepura-mehgaon-ba-economics-english-political-science",
+      "name": "B. A. (Economics - English - Political Science)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Arts",
+      "specialization": "Economics - English - Political Science",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=WwN7trJHSIAapzvE8TqMbw%3D%3D&orgid=72",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct discipline component",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "direct discipline component",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct discipline component",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-s-patel-college-sepura-mehgaon-ba-economics-english-sociology",
+      "name": "B. A. (Economics - English - Sociology)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Arts",
+      "specialization": "Economics - English - Sociology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=WwN7trJHSIAapzvE8TqMbw%3D%3D&orgid=72",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct discipline component",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "direct discipline component",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct discipline component",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-s-patel-college-sepura-mehgaon-ba-hindi-political-science-sociology",
+      "name": "B. A. (Hindi - Political Science - Sociology)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Arts",
+      "specialization": "Hindi - Political Science - Sociology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=WwN7trJHSIAapzvE8TqMbw%3D%3D&orgid=72",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct discipline component",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct discipline component",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct discipline component",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The exact 2025 NIRF listing name is B S PATEL COLLEGE, SEPURA, MEHGAON. The current Madhya Pradesh Higher Education Department directory has one government-college entry for Mehgaon (orgid 72, District Bhind), whose official microsite is branded Government College Mehgaon, District Bhind; the matching city, government-college type, and unique Mehgaon directory entry establish the campus linkage despite the legacy/alternate NIRF name.",
+    "The official regular catalogue lists 13 UG programmes with minimum qualification 10+2. Its PG and Diploma tables are empty; the separate Distance Education Programme page has empty PG, UG, and Diploma tables. The prospectus and New Course Started pages are under construction, but no additional active programme is discoverable from the official catalogue. Duration is left null because no official course page states it.",
+    "Normal TLS verification failed with the managed proxy self-signed certificate-chain error for nirfindia.org and highereducation.mp.gov.in. After confirming both expected public hosts, curl --insecure was used only for public GET requests."
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "institution_id": "legacy-112",
+  "database_id": 112,
+  "name": "MAEER MIT Institute of Design",
+  "website": "https://www.maeer-mitpune.ac.in",
+  "outcome": "manual_review",
+  "institution_type": null,
+  "source_url": null,
+  "confidence": null,
+  "evidence": null,
+  "notes": [
+    "The supplied official hostname and apex domain returned DNS resolution failure/NXDOMAIN, so the institution type could not be established from official-domain evidence.",
+    "Normal TLS was attempted; --insecure was not used because the failure was DNS-related, not a proxy certificate-chain error."
+  ]
+}

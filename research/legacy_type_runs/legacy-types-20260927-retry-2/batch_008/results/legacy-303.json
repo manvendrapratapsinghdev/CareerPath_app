@@ -1,0 +1,15 @@
+{
+  "institution_id": "legacy-303",
+  "database_id": 303,
+  "name": "IHM Bangalore",
+  "website": "https://www.ihmctan.edu.in",
+  "outcome": "manual_review",
+  "institution_type": null,
+  "source_url": null,
+  "confidence": null,
+  "evidence": null,
+  "notes": [
+    "The supplied domain and bare domain both returned DNS NXDOMAIN, so no official page could be retrieved to establish the institutional type.",
+    "The --insecure fallback was not used because no proxy certificate-chain error occurred."
+  ]
+}

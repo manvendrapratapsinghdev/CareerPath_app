@@ -1,0 +1,91 @@
+{
+  "batch": 14,
+  "started_at": "2026-09-27T07:11:00.382486+00:00",
+  "finished_at": "2026-09-27T07:11:11.323142+00:00",
+  "assignment_count": 5,
+  "completed_count": 0,
+  "skipped_count": 0,
+  "failed_count": 5,
+  "results": [
+    {
+      "institution_id": "government-college-bijuri-distt-anuppur-m-p",
+      "nirf_name": "GOVERNMENT COLLEGE BIJURI, DISTT. ANUPPUR M.P.",
+      "status": "failed",
+      "started_at": "2026-09-27T07:11:00.389919+00:00",
+      "finished_at": "2026-09-27T07:11:10.792804+00:00",
+      "duration_seconds": 10.403,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/government-college-bijuri-distt-anuppur-m-p.jsonl"
+    },
+    {
+      "institution_id": "government-college-budhni",
+      "nirf_name": "GOVERNMENT COLLEGE, BUDHNI",
+      "status": "failed",
+      "started_at": "2026-09-27T07:11:00.393536+00:00",
+      "finished_at": "2026-09-27T07:11:11.320366+00:00",
+      "duration_seconds": 10.927,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/government-college-budhni.jsonl"
+    },
+    {
+      "institution_id": "government-college-dobi",
+      "nirf_name": "GOVERNMENT COLLEGE, DOBI",
+      "status": "failed",
+      "started_at": "2026-09-27T07:11:00.396247+00:00",
+      "finished_at": "2026-09-27T07:11:11.320963+00:00",
+      "duration_seconds": 10.925,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/government-college-dobi.jsonl"
+    },
+    {
+      "institution_id": "govt-college-bhabhra",
+      "nirf_name": "Govt. College, Bhabhra",
+      "status": "failed",
+      "started_at": "2026-09-27T07:11:00.399703+00:00",
+      "finished_at": "2026-09-27T07:11:11.321192+00:00",
+      "duration_seconds": 10.921,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/govt-college-bhabhra.jsonl"
+    },
+    {
+      "institution_id": "govt-college-burhanpur",
+      "nirf_name": "Govt. College, Burhanpur",
+      "status": "failed",
+      "started_at": "2026-09-27T07:11:00.398090+00:00",
+      "finished_at": "2026-09-27T07:11:10.854726+00:00",
+      "duration_seconds": 10.456,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/govt-college-burhanpur.jsonl"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "institution_id": "legacy-15",
+  "database_id": 15,
+  "name": "Vision IAS",
+  "website": "https://www.visionias.in",
+  "outcome": "classified",
+  "institution_type": "specialized",
+  "source_url": "https://www.visionias.in/",
+  "confidence": "high",
+  "evidence": "The official homepage identifies Vision IAS as India's premier Research and Training Institute and India's Top Coaching Institute for UPSC CSE.",
+  "notes": [
+    "Official website confirmed by its Vision IAS title, author metadata, and organization markup.",
+    "Used curl --insecure after normal TLS failed with the managed proxy's self-signed certificate-chain error."
+  ]
+}

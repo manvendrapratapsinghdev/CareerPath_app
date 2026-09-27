@@ -1,0 +1,119 @@
+{
+  "institution_id": "gautam-buddha-university",
+  "nirf_name": "Gautam Buddha University",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/EngineeringRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/LawRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Gautam Buddha Nagar",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://www.gbu.ac.in/",
+  "website_verification_status": "verified",
+  "description": "Gautam Buddha University is a state university established under the Uttar Pradesh Act (9 of 2002) in Greater Noida, Gautam Buddha Nagar, Uttar Pradesh.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [
+    "gbuadm.samarth.edu.in"
+  ],
+  "verification_sources": [
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/EngineeringRankingALL.html",
+      "supports": [
+        "Exact institution name, Gautam Buddha Nagar, Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/LawRankingALL.html",
+      "supports": [
+        "Exact institution name, Gautam Buddha Nagar, Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html",
+      "supports": [
+        "Exact institution name, Gautam Buddha Nagar, Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Exact institution name, Gautam Buddha Nagar, Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://www.gbu.ac.in/",
+      "supports": [
+        "Official university identity and homepage"
+      ]
+    },
+    {
+      "type": "official_identity",
+      "url": "https://www.gbu.ac.in/about/home",
+      "supports": [
+        "University identity, Greater Noida campus, Uttar Pradesh Act establishment, institutional description"
+      ]
+    },
+    {
+      "type": "official_contact",
+      "url": "https://www.gbu.ac.in/contact-us",
+      "supports": [
+        "Greater Noida, Uttar Pradesh address and campus identity"
+      ]
+    },
+    {
+      "type": "official_catalogue",
+      "url": "https://www.gbu.ac.in/academics/academic-programmes",
+      "supports": [
+        "Official academic programme catalogue with programme names and course-structure links"
+      ]
+    },
+    {
+      "type": "official_admissions_portal",
+      "url": "https://gbuadm.samarth.edu.in/",
+      "supports": [
+        "Official Gautam Buddha University admission portal for the 2026-27 session, linked from the university homepage"
+      ]
+    },
+    {
+      "type": "official_admissions_catalogue",
+      "url": "https://gbuadm.samarth.edu.in/index.php/site/eligible-programme-list",
+      "supports": [
+        "Current eligibility programme list; the list contains blank programme-name rows and inconsistent duplicate naming"
+      ]
+    },
+    {
+      "type": "official_admission_brochure",
+      "url": "https://www.gbu.ac.in/content/gbudata/Admission/Admission%20Brochure-revised-1July2026.pdf",
+      "supports": [
+        "Official 2026-27 admission brochure and programme-count overview"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Gautam Buddha University\" official website",
+      "result": "Bing returned an unrelated result; it was not used for verification.",
+      "url": "https://www.bing.com/search?q=Gautam+Buddha+University+official+website"
+    },
+    {
+      "query": "site:gbu.ac.in \"Gautam Buddha University\"",
+      "result": "Google returned an HTTP 429 challenge; no search snippet was used for verification.",
+      "url": "https://www.google.com/search?q=site%3Agbu.ac.in+%22Gautam+Buddha+University%22"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [],
+  "agent_notes": [
+    "Government-directory identity and city were verified in all four supplied NIRF 2025 listings.",
+    "Normal TLS requests to expected public hosts produced the managed proxy's exact self-signed-certificate-chain error; public GETs were retried with curl --insecure after confirming the expected official hostnames.",
+    "The official 2026-27 admissions eligibility catalogue contains 158 rows, including two rows with blank programme names, while the main official academic-programmes page contains legacy entries, duplicate naming, and a different programme mix. The complete exact active catalogue cannot be established without guessing, so no courses were imported and manual review is required."
+  ]
+}

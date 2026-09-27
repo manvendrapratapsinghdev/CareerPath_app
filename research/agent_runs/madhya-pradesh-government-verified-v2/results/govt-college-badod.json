@@ -1,0 +1,83 @@
+{
+  "institution_id": "govt-college-badod",
+  "nirf_name": "Govt. College Badod",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "remove_candidate",
+  "district": null,
+  "district_verification_status": "not_found",
+  "official_website": null,
+  "website_verification_status": "not_found",
+  "description": null,
+  "description_verification_status": "not_found",
+  "record_status": "remove_candidate",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact listing: Govt. College Badod; Badod; Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "government_directory_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Exact listing: Govt. College Badod; Badod; Madhya Pradesh"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "Bing: \"Govt. College Badod\" official website",
+      "result": "No institution-specific official website result was returned.",
+      "url": "https://www.bing.com/search?q=%22Govt.+College+Badod%22+official+website"
+    },
+    {
+      "query": "Bing RSS: Govt College Badod Madhya Pradesh",
+      "result": "No institution-specific official website result; returned unrelated government portals and generic pages.",
+      "url": "https://www.bing.com/search?format=rss&q=Govt+College+Badod+Madhya+Pradesh"
+    },
+    {
+      "query": "Bing RSS: Government College Badod official",
+      "result": "No institution-specific official website result; returned unrelated government and generic pages.",
+      "url": "https://www.bing.com/search?format=rss&q=Government+College+Badod+official"
+    },
+    {
+      "query": "Bing RSS: site:mp.gov.in Badod college",
+      "result": "No matching Madhya Pradesh government institution website result was returned.",
+      "url": "https://www.bing.com/search?format=rss&q=site%3Amp.gov.in+Badod+college"
+    },
+    {
+      "query": "Bing RSS: site:ac.in Badod college Madhya Pradesh",
+      "result": "No matching official academic-domain website result was returned.",
+      "url": "https://www.bing.com/search?format=rss&q=site%3Aac.in+Badod+college+Madhya+Pradesh"
+    },
+    {
+      "query": "Google: \"Govt College Badod\" Madhya Pradesh official",
+      "result": "Search request was rate-limited with an HTTP 429 CAPTCHA response; this was not used as sole evidence.",
+      "url": "https://www.google.co.in/search?q=%22Govt+College+Badod%22+Madhya+Pradesh+official"
+    },
+    {
+      "query": "Authoritative-domain check for likely institutional domains including gcbadod.mponline.gov.in, govtcollegebadod.mponline.gov.in, gcbadod.ac.in, govtcollegebadod.ac.in, gcbadod.org, and govtcollegebadod.org",
+      "result": "All tested likely institution-specific domains failed DNS resolution; no official institution domain was established.",
+      "url": null
+    },
+    {
+      "query": "Madhya Pradesh Higher Education official portal lookup for Govt. College Badod",
+      "result": "The department portal was reachable, but no institution-specific public website or official course catalogue for Govt. College Badod was established; the department portal was not treated as the college's actual official website.",
+      "url": "https://highereducation.mp.gov.in/"
+    }
+  ],
+  "course_catalogue_status": "not_found",
+  "courses": [],
+  "agent_notes": [
+    "The exact institution and campus city are listed in both supplied NIRF 2025 government directories as Govt. College Badod, Badod, Madhya Pradesh.",
+    "At least two focused web searches and an authoritative-domain check found no institution-specific official website. The absence of one search result was not used as sole evidence.",
+    "No official homepage, district page, description page, or official programme catalogue could be established, so no courses were imported.",
+    "Normal TLS to the expected official NIRF domain failed with curl error 60 for a self-signed certificate in the managed proxy chain; curl --insecure was then used only for public GET requests to expected official/search domains."
+  ]
+}

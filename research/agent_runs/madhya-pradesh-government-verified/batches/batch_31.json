@@ -1,0 +1,91 @@
+{
+  "batch": 31,
+  "started_at": "2026-09-27T07:14:56.854351+00:00",
+  "finished_at": "2026-09-27T07:15:05.374719+00:00",
+  "assignment_count": 5,
+  "completed_count": 0,
+  "skipped_count": 0,
+  "failed_count": 5,
+  "results": [
+    {
+      "institution_id": "amar-shahid-chandrashekhar-azad-govt-postgraduate-college-niwari",
+      "nirf_name": "Amar Shahid Chandrashekhar Azad Govt. Postgraduate College, NIWARI",
+      "status": "failed",
+      "started_at": "2026-09-27T07:14:56.905377+00:00",
+      "finished_at": "2026-09-27T07:15:05.352321+00:00",
+      "duration_seconds": 8.447,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/amar-shahid-chandrashekhar-azad-govt-postgraduate-college-niwari.jsonl"
+    },
+    {
+      "institution_id": "chhatrasal-govt-p-g-college-panna-m-p",
+      "nirf_name": "chhatrasal Govt. p G college, panna, M p",
+      "status": "failed",
+      "started_at": "2026-09-27T07:14:56.912854+00:00",
+      "finished_at": "2026-09-27T07:15:05.153709+00:00",
+      "duration_seconds": 8.24,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/chhatrasal-govt-p-g-college-panna-m-p.jsonl"
+    },
+    {
+      "institution_id": "govt-arts-college-niwas-mandla",
+      "nirf_name": "Govt. Arts College, Niwas, Mandla",
+      "status": "failed",
+      "started_at": "2026-09-27T07:14:56.889763+00:00",
+      "finished_at": "2026-09-27T07:15:05.203837+00:00",
+      "duration_seconds": 8.314,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/govt-arts-college-niwas-mandla.jsonl"
+    },
+    {
+      "institution_id": "govt-arts-commerce-college-nevali",
+      "nirf_name": "Govt. Arts & Commerce College, Nevali",
+      "status": "failed",
+      "started_at": "2026-09-27T07:14:56.888114+00:00",
+      "finished_at": "2026-09-27T07:15:05.160806+00:00",
+      "duration_seconds": 8.273,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/govt-arts-commerce-college-nevali.jsonl"
+    },
+    {
+      "institution_id": "govt-college-pachmarhi-hoshangabad",
+      "nirf_name": "Govt. College, Pachmarhi, Hoshangabad",
+      "status": "failed",
+      "started_at": "2026-09-27T07:14:56.913109+00:00",
+      "finished_at": "2026-09-27T07:15:05.233089+00:00",
+      "duration_seconds": 8.32,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/govt-college-pachmarhi-hoshangabad.jsonl"
+    }
+  ]
+}

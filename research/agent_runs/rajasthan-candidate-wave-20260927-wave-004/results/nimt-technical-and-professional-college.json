@@ -1,0 +1,198 @@
+{
+  "institution_id": "nimt-technical-and-professional-college",
+  "nirf_name": "NIMT Technical and Professional College",
+  "verification_outcome": "manual_review",
+  "district": "Jaipur",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://nimt.ac.in/",
+  "website_verification_status": "verified",
+  "description": "NIMT Technical and Professional College, now presented on the official site as NIMT College of Law, is at NIMT’s Kotputli Jaipur campus, SP-3-1, RIICO Industrial Area, Keshwana, District Jaipur, Rajasthan 303108.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "official_homepage",
+      "url": "https://nimt.ac.in/",
+      "supports": [
+        "official website identity",
+        "site-wide programme and campus context"
+      ]
+    },
+    {
+      "type": "official_institution_identity",
+      "url": "https://nimt.ac.in/institutions/nimt-technical-and-professional-college-kotputli-jaipur",
+      "supports": [
+        "current/former institution name",
+        "institution-specific description",
+        "Kotputli Jaipur campus",
+        "District Jaipur, Rajasthan address",
+        "institution-specific programme list"
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "https://nimt.ac.in/campuses/kotputli-jaipur/",
+      "supports": [
+        "Kotputli Jaipur campus identity",
+        "SP-3-1, RIICO Industrial Area, Keshwana address",
+        "District Jaipur, Rajasthan",
+        "law programme context"
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://nimt.ac.in/courses/",
+      "supports": [
+        "current central official programme catalogue",
+        "current programme names, durations, campus labels",
+        "catalogue completeness comparison"
+      ]
+    },
+    {
+      "type": "official_course_page",
+      "url": "https://nimt.ac.in/courses/bachelor-of-laws-llb-kotputli/",
+      "supports": [
+        "Bachelor of Laws (LLB) at Kotputli",
+        "3 Years duration",
+        "eligibility",
+        "full-time mode",
+        "BCI approval"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"NIMT Technical and Professional College\" Jaipur",
+      "result": "Google returned an anti-automation page and no usable result.",
+      "url": "https://www.google.com/search?q=%22NIMT+Technical+and+Professional+College%22+Jaipur"
+    },
+    {
+      "query": "\"NIMT Technical and Professional College\" official",
+      "result": "Google returned an anti-automation page and no usable result.",
+      "url": "https://www.google.com/search?q=%22NIMT+Technical+and+Professional+College%22+official"
+    },
+    {
+      "query": "NIMT Jaipur law college official website",
+      "result": "Google returned an anti-automation page and no usable result.",
+      "url": "https://www.google.com/search?q=NIMT+Jaipur+law+college+official+website"
+    },
+    {
+      "query": "NIMT Technical and Professional College Jaipur",
+      "result": "Bing returned unrelated or unusable results; no official institution result was used as evidence.",
+      "url": "https://www.bing.com/search?q=NIMT+Technical+and+Professional+College+Jaipur"
+    },
+    {
+      "query": "NIMT Jaipur law college official website",
+      "result": "Bing returned unrelated or unusable results; no official institution result was used as evidence.",
+      "url": "https://www.bing.com/search?q=NIMT+Jaipur+law+college+official+website"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "nimt-technical-and-professional-college-ba",
+      "name": "B.A.",
+      "level": "Undergraduate",
+      "credential": "Bachelor degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://nimt.ac.in/institutions/nimt-technical-and-professional-college-kotputli-jaipur",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [],
+      "mapping_gap": "The official institution page lists a generic B.A. without a subject or specialization, and the career tree has no responsible generic B.A. node."
+    },
+    {
+      "course_id": "nimt-technical-and-professional-college-bsc",
+      "name": "B.Sc",
+      "level": "Undergraduate",
+      "credential": "Bachelor degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://nimt.ac.in/institutions/nimt-technical-and-professional-college-kotputli-jaipur",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [],
+      "mapping_gap": "The official institution page lists a generic B.Sc without a discipline or specialization, and the career tree has no responsible generic B.Sc node."
+    },
+    {
+      "course_id": "nimt-technical-and-professional-college-bcom",
+      "name": "B.Com",
+      "level": "Undergraduate",
+      "credential": "Bachelor degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://nimt.ac.in/institutions/nimt-technical-and-professional-college-kotputli-jaipur",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct programme mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "nimt-technical-and-professional-college-llb",
+      "name": "Bachelor of Laws (LLB)",
+      "level": "Undergraduate",
+      "credential": "Bachelor degree",
+      "specialization": null,
+      "duration": "3 Years",
+      "mode": "full-time",
+      "eligibility": "Passed Bachelor's degree in any discipline with minimum 45% marks. BCI approved.",
+      "official_course_url": "https://nimt.ac.in/courses/bachelor-of-laws-llb-kotputli/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 343,
+          "career_node_slug": "commerce_law",
+          "career_breadcrumb": "Law & Legal",
+          "relation": "nearest-parent law mapping; standalone LLB node unavailable",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "nimt-technical-and-professional-college-ba-llb",
+      "name": "BA-LLB",
+      "level": "Undergraduate",
+      "credential": "Integrated bachelor degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://nimt.ac.in/institutions/nimt-technical-and-professional-college-kotputli-jaipur",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 63,
+          "career_node_slug": "ba_llb",
+          "career_breadcrumb": "Law & Civil Services > BA LLB (5-Year Integrated)",
+          "relation": "direct integrated-degree mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The official identity is established on nimt.ac.in: the institution page labels it “NIMT College of Law (Formerly NIMT Technical and Professional College), Kotputli Jaipur” and gives the SP-3-1, RIICO Industrial Area, Keshwana, Kotputli, District Jaipur, Rajasthan 303108 address.",
+    "The official institution page says it is currently offering five programmes: B.A., B.Sc, B.Com, LLB, and BA-LLB. The central official catalogue currently exposes a Kotputli-specific LLB page but does not expose Kotputli-specific catalogue pages for B.A., B.Sc, B.Com, or BA-LLB; the institution page and central catalogue are therefore not synchronized, so manual review is required.",
+    "The central catalogue also lists other Kotputli-campus programmes belonging to co-located institutions, so those were not attributed to NIMT Technical and Professional College.",
+    "Normal TLS verification first failed with the exact managed proxy error “self signed certificate in certificate chain”; curl --insecure was then used only for public GET requests to the expected official/search hostnames.",
+    "The official Kotputli LLB page contains unrelated generic healthcare copy in parts of the page; only its explicit law title, Kotputli location, duration, eligibility, full-time mode, and BCI statements were used."
+  ]
+}

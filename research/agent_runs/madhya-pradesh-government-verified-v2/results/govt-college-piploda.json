@@ -1,0 +1,98 @@
+{
+  "institution_id": "govt-college-piploda",
+  "nirf_name": "GOVT. COLLEGE PIPLODA",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "remove_candidate",
+  "district": null,
+  "district_verification_status": "not_found",
+  "official_website": null,
+  "website_verification_status": "not_found",
+  "description": null,
+  "description_verification_status": "not_found",
+  "record_status": "remove_candidate",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact institution name GOVT. COLLEGE PIPLODA",
+        "City Ratlam",
+        "State Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "government_directory_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Exact institution name GOVT. COLLEGE PIPLODA",
+        "City Ratlam",
+        "State Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "authoritative_domain_check",
+      "url": "https://ratlam.nic.in/en/public-utility-category/colleges/",
+      "supports": [
+        "Ratlam district government college directory checked; no GOVT. COLLEGE PIPLODA entry or official site link was found"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"GOVT. COLLEGE PIPLODA\" Ratlam official website",
+      "result": "Google returned an automated-traffic interstitial and no institution result.",
+      "url": "https://www.google.com/search?q=%22GOVT.+COLLEGE+PIPLODA%22+Ratlam+official+website"
+    },
+    {
+      "query": "Govt College Piploda Ratlam",
+      "result": "Bing returned unrelated or generic results and no official institution website.",
+      "url": "https://www.bing.com/search?q=Govt+College+Piploda+Ratlam"
+    },
+    {
+      "query": "site:mp.gov.in Piploda college Ratlam",
+      "result": "Bing returned unrelated results and no official institution website.",
+      "url": "https://www.bing.com/search?q=site%3Amp.gov.in+Piploda+college+Ratlam"
+    },
+    {
+      "query": "\"Piploda\" \"Ratlam\" \"college\"",
+      "result": "Bing returned unrelated results and no official institution website.",
+      "url": "https://www.bing.com/search?q=%22Piploda%22+%22Ratlam%22+%22college%22"
+    },
+    {
+      "query": "site:ac.in Piploda college",
+      "result": "Bing returned unrelated results and no official institution website.",
+      "url": "https://www.bing.com/search?q=site%3Aac.in+Piploda+college"
+    },
+    {
+      "query": "Govt College Piploda Ratlam",
+      "result": "Yandex did not expose an institution-specific result.",
+      "url": "https://yandex.com/search/?text=Govt+College+Piploda+Ratlam"
+    },
+    {
+      "query": "Govt College Piploda Ratlam",
+      "result": "Qwant reported that search was unavailable in the current country and exposed no results.",
+      "url": "https://www.qwant.com/?q=Govt%20College%20Piploda%20Ratlam&t=web"
+    },
+    {
+      "query": "Government College Piploda",
+      "result": "The Ratlam district government site returned no search results for the institution.",
+      "url": "https://ratlam.nic.in/?s=Government+College+Piploda"
+    },
+    {
+      "query": "Govt. College Piploda",
+      "result": "The Ratlam district government site returned no search results for the institution.",
+      "url": "https://ratlam.nic.in/?s=Govt.+College+Piploda"
+    }
+  ],
+  "course_catalogue_status": "not_found",
+  "courses": [],
+  "agent_notes": [
+    "Both supplied 2025 NIRF government listings contain the exact institution at Ratlam, Madhya Pradesh.",
+    "After multiple focused searches and authoritative-domain checks, no HTTPS official institution website or official programme catalogue could be established. No programme, duration, eligibility, description, or career mapping was imported.",
+    "Normal TLS verification produced the managed proxy's self-signed-certificate-in-chain error; curl --insecure was used only for public GET requests to expected official or search hosts."
+  ]
+}

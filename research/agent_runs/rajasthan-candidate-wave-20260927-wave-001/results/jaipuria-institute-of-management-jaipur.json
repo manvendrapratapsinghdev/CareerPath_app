@@ -1,0 +1,185 @@
+{
+  "institution_id": "jaipuria-institute-of-management-jaipur",
+  "nirf_name": "JAIPURIA INSTITUTE OF MANAGEMENT",
+  "verification_outcome": "manual_review",
+  "district": "Jaipur",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://www.jaipuria.ac.in/",
+  "website_verification_status": "verified",
+  "description": "Jaipuria Institute of Management Jaipur, established in 2006, is an AACSB-accredited management campus at 1, Bambala Institutional Area, Pratap Nagar, Sanganer, Jaipur, Rajasthan.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "official_homepage",
+      "url": "https://www.jaipuria.ac.in/",
+      "supports": [
+        "official institutional identity",
+        "Jaipur campus listing"
+      ]
+    },
+    {
+      "type": "official_jaipur_campus_page",
+      "url": "https://www.jaipuria.ac.in/jaipur/",
+      "supports": [
+        "Jaipur campus identity",
+        "Jaipur, Rajasthan location",
+        "campus description",
+        "programme names including PGDM, PGDM (Service Management), and FPM"
+      ]
+    },
+    {
+      "type": "official_campus_overview",
+      "url": "https://www.jaipuria.ac.in/jaipur/campus-overview/",
+      "supports": [
+        "Jaipur campus identity",
+        "Jaipur, Rajasthan location",
+        "campus description"
+      ]
+    },
+    {
+      "type": "official_jaipur_programmes_catalogue",
+      "url": "https://www.jaipuria.ac.in/jaipur/programs/",
+      "supports": [
+        "visible Jaipur programme catalogue",
+        "PGDM",
+        "FPM (Doctoral Level Programme)"
+      ]
+    },
+    {
+      "type": "official_central_programmes_catalogue",
+      "url": "https://www.jaipuria.ac.in/mba-programs/",
+      "supports": [
+        "PGDM and FPM catalogue entries",
+        "PGDM duration",
+        "FPM duration",
+        "campus applicability"
+      ]
+    },
+    {
+      "type": "official_pgdm_programme_page",
+      "url": "https://www.jaipuria.ac.in/mba-programs/pgdm/",
+      "supports": [
+        "PGDM Programme",
+        "PGDM duration",
+        "PGDM credential equivalence and approvals"
+      ]
+    },
+    {
+      "type": "official_pgdm_admissions_page",
+      "url": "https://www.jaipuria.ac.in/jaipur/admissions/",
+      "supports": [
+        "PGDM eligibility"
+      ]
+    },
+    {
+      "type": "official_fpm_programme_page",
+      "url": "https://www.jaipuria.ac.in/fpm-jaipur/",
+      "supports": [
+        "FPM Doctoral Level Programme",
+        "FPM full-time mode",
+        "FPM eligibility",
+        "FPM programme structure"
+      ]
+    },
+    {
+      "type": "official_broken_programme_link_check",
+      "url": "https://www.jaipuria.ac.in/mba-programs/pgdm-service-management/",
+      "supports": [
+        "HTTP 404 for the linked PGDM (Service Management) detail page",
+        "catalogue completeness gap"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "JAIPURIA INSTITUTE OF MANAGEMENT Jaipur official",
+      "result": "Bing returned the jaipuria.ac.in institutional homepage titled “Jaipuria: MBA/PGDM College in Lucknow, Noida(Delhi NCR), Jaipur, …”.",
+      "url": "https://www.jaipuria.ac.in/"
+    },
+    {
+      "query": "site:jaipuria.ac.in Jaipuria Institute of Management Jaipur campus",
+      "result": "Bing returned the jaipuria.ac.in institutional homepage for the Jaipur-campus search.",
+      "url": "https://www.jaipuria.ac.in/"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "jaipuria-institute-of-management-jaipur-jaipuria-jaipur-pgdm",
+      "name": "PGDM",
+      "level": "postgraduate",
+      "credential": "Post Graduate Diploma in Management",
+      "specialization": null,
+      "duration": "Two-year full time",
+      "mode": "full-time",
+      "eligibility": "Bachelor’s degree from a recognized Indian university with a minimum of 50% marks or equivalent CGPA, plus a valid CAT 2026/XAT 2027/CMAT/MAT/GMAT score; final-year students completing by June 30, 2027 may apply provisionally.",
+      "official_course_url": "https://www.jaipuria.ac.in/mba-programs/pgdm/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jaipuria-institute-of-management-jaipur-jaipuria-jaipur-pgdm-service-management",
+      "name": "PGDM (Service Management)",
+      "level": "postgraduate",
+      "credential": "Post Graduate Diploma in Management",
+      "specialization": "Service Management",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.jaipuria.ac.in/jaipur/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest-parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "jaipuria-institute-of-management-jaipur-jaipuria-jaipur-fpm-doctoral-level-programme",
+      "name": "FPM (Doctoral Level Programme)",
+      "level": "doctoral",
+      "credential": "Fellow Programme in Management (FPM)",
+      "specialization": null,
+      "duration": "Four Years",
+      "mode": "full-time",
+      "eligibility": "A postgraduate degree of a university or equivalent with first class in Engineering and Technology, Management, Economics, Social Science or Commerce; final-year candidates may apply provisionally subject to completing the master’s degree before September 30 of the admission year.",
+      "official_course_url": "https://www.jaipuria.ac.in/fpm-jaipur/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The official Jaipur campus page and its programme navigation display PGDM (Service Management), but the linked official detail URL returns HTTP 404; the visible Jaipur programmes catalogue currently lists only PGDM and FPM (Doctoral Level Programme). The active Jaipur catalogue is therefore incomplete or internally inconsistent and requires manual review.",
+    "The central official catalogue lists PGDM and FPM for Jaipur; other specialized PGDM entries there are campus-specific to Lucknow or Noida and were excluded.",
+    "Career mappings were read from assets/data/career_path.db using read-only SQLite queries; no database edits were made.",
+    "Normal TLS verification produced the exact self-signed certificate-in-chain proxy error. After confirming the expected official/search hostnames, public GET requests used curl --insecure only as permitted."
+  ]
+}

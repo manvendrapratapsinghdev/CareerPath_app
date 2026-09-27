@@ -1,0 +1,964 @@
+{
+  "institution_id": "hamidia-girls-degree-college",
+  "nirf_name": "Hamidia Girls Degree College",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "verified",
+  "district": "Prayagraj",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://hgdc.ac.in/",
+  "website_verification_status": "verified",
+  "description": "Hamidia Girls’ Degree College is a constituent minority college of the University of Allahabad, established in 1975, with Faculty of Arts and Faculty of Commerce, located at Sultanpur Bhawa, Noorulla Road, Prayagraj, Uttar Pradesh.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [
+    "www.hgdc.ac.in"
+  ],
+  "verification_sources": [
+    {
+      "type": "government_listing_college",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "government listing name, city, and state"
+      ]
+    },
+    {
+      "type": "government_listing_overall",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "government listing name, city, and state"
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://hgdc.ac.in/",
+      "supports": [
+        "official identity",
+        "Prayagraj location",
+        "institution description",
+        "course links"
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "https://hgdc.ac.in/contact-us/",
+      "supports": [
+        "college identity",
+        "Sultanpur Bhawa, Noorulla Road, Prayagraj – 211003",
+        "University of Allahabad constituent minority college"
+      ]
+    },
+    {
+      "type": "official_about",
+      "url": "https://hgdc.ac.in/about-us/",
+      "supports": [
+        "established in 1975",
+        "constituent minority college",
+        "Faculty of Arts and Faculty of Commerce"
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://hgdc.ac.in/courses/",
+      "supports": [
+        "B.A",
+        "B.COM",
+        "B.Voc",
+        "M.A",
+        "M.Voc",
+        "Diploma in Certificate Courses"
+      ]
+    },
+    {
+      "type": "official_course_catalogue_ba",
+      "url": "https://hgdc.ac.in/b-a/",
+      "supports": [
+        "B.A and 14 subject options"
+      ]
+    },
+    {
+      "type": "official_course_catalogue_bcom",
+      "url": "https://hgdc.ac.in/b-com/",
+      "supports": [
+        "B.Com"
+      ]
+    },
+    {
+      "type": "official_course_catalogue_bvoc",
+      "url": "https://hgdc.ac.in/b-voc/",
+      "supports": [
+        "B.Voc and five trades"
+      ]
+    },
+    {
+      "type": "official_course_catalogue_ma",
+      "url": "https://hgdc.ac.in/m-a/",
+      "supports": [
+        "M.A",
+        "six subjects",
+        "four-semester duration"
+      ]
+    },
+    {
+      "type": "official_course_catalogue_mvoc",
+      "url": "https://hgdc.ac.in/m-voc/",
+      "supports": [
+        "M.Voc Fashion Design & Embroidery",
+        "two-year, four-semester duration"
+      ]
+    },
+    {
+      "type": "official_course_catalogue_diploma_certificate",
+      "url": "https://hgdc.ac.in/diploma-certificate-courses/",
+      "supports": [
+        "diploma and certificate course table",
+        "course durations where stated"
+      ]
+    },
+    {
+      "type": "official_admissions_portal",
+      "url": "https://www.hgdc.ac.in/admissions/index.php",
+      "supports": [
+        "college identity",
+        "University of Allahabad constituent minority college",
+        "Online Admission Portal 2026-27"
+      ]
+    },
+    {
+      "type": "official_admission_form",
+      "url": "https://www.hgdc.ac.in/admissions/index.php?act=show_admission_form&adm_type=PG",
+      "supports": [
+        "M.A admission form",
+        "Session 2026-27"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Hamidia Girls Degree College\" site:ac.in",
+      "result": "Bing RSS discovery returned hgdc.ac.in as the HGDC official-looking homepage and www.hgdc.ac.in as the admission portal; search results were used only for discovery.",
+      "url": "https://www.bing.com/search?format=rss&q=%22Hamidia+Girls+Degree+College%22+site%3Aac.in"
+    },
+    {
+      "query": "\"Hamidia Girls Degree College\" Allahabad official website",
+      "result": "Focused Bing discovery search used to locate the official domain; official pages, not search snippets, were used for verification.",
+      "url": "https://www.bing.com/search?q=%22Hamidia+Girls+Degree+College%22+Allahabad+official+website"
+    }
+  ],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "hamidia-girls-degree-college-ba-ancient-history",
+      "name": "B.A.",
+      "level": "Undergraduate",
+      "credential": "degree",
+      "specialization": "Ancient History",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hgdc.ac.in/b-a/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "hamidia-girls-degree-college-ba-arabic",
+      "name": "B.A.",
+      "level": "Undergraduate",
+      "credential": "degree",
+      "specialization": "Arabic",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hgdc.ac.in/b-a/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "hamidia-girls-degree-college-ba-economics",
+      "name": "B.A.",
+      "level": "Undergraduate",
+      "credential": "degree",
+      "specialization": "Economics",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hgdc.ac.in/b-a/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "hamidia-girls-degree-college-ba-education",
+      "name": "B.A.",
+      "level": "Undergraduate",
+      "credential": "degree",
+      "specialization": "Education",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hgdc.ac.in/b-a/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "hamidia-girls-degree-college-ba-english-literature",
+      "name": "B.A.",
+      "level": "Undergraduate",
+      "credential": "degree",
+      "specialization": "English Literature",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hgdc.ac.in/b-a/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "hamidia-girls-degree-college-ba-geography",
+      "name": "B.A.",
+      "level": "Undergraduate",
+      "credential": "degree",
+      "specialization": "Geography",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hgdc.ac.in/b-a/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "hamidia-girls-degree-college-ba-hindi",
+      "name": "B.A.",
+      "level": "Undergraduate",
+      "credential": "degree",
+      "specialization": "Hindi",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hgdc.ac.in/b-a/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "hamidia-girls-degree-college-ba-medieval-history",
+      "name": "B.A.",
+      "level": "Undergraduate",
+      "credential": "degree",
+      "specialization": "Medieval History",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hgdc.ac.in/b-a/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "hamidia-girls-degree-college-ba-painting",
+      "name": "B.A.",
+      "level": "Undergraduate",
+      "credential": "degree",
+      "specialization": "Painting",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hgdc.ac.in/b-a/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 247,
+          "career_node_slug": "painter_sculptor",
+          "career_breadcrumb": "Media & Journalism > B.F.A (Fine Arts) > Painter / Sculptor",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "hamidia-girls-degree-college-ba-persian",
+      "name": "B.A.",
+      "level": "Undergraduate",
+      "credential": "degree",
+      "specialization": "Persian",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hgdc.ac.in/b-a/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "hamidia-girls-degree-college-ba-urdu",
+      "name": "B.A.",
+      "level": "Undergraduate",
+      "credential": "degree",
+      "specialization": "Urdu",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hgdc.ac.in/b-a/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "hamidia-girls-degree-college-ba-sociology",
+      "name": "B.A.",
+      "level": "Undergraduate",
+      "credential": "degree",
+      "specialization": "Sociology",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hgdc.ac.in/b-a/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "hamidia-girls-degree-college-ba-computer-application-in-social-sciences",
+      "name": "B.A.",
+      "level": "Undergraduate",
+      "credential": "degree",
+      "specialization": "Computer Application in Social Sciences",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hgdc.ac.in/b-a/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "closest-specialization",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "hamidia-girls-degree-college-ba-office-management-and-secretarial-practices",
+      "name": "B.A.",
+      "level": "Undergraduate",
+      "credential": "degree",
+      "specialization": "Office Management and Secretarial Practices",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hgdc.ac.in/b-a/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "hamidia-girls-degree-college-bcom",
+      "name": "B.Com.",
+      "level": "Undergraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hgdc.ac.in/b-com/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "hamidia-girls-degree-college-bvoc-journalism-and-mass-communication",
+      "name": "B.Voc",
+      "level": "Undergraduate",
+      "credential": "degree",
+      "specialization": "Journalism & Mass Communication",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hgdc.ac.in/b-voc/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 59,
+          "career_node_slug": "bjmc",
+          "career_breadcrumb": "Media & Journalism > B.J.M.C (Journalism & Mass Comm)",
+          "relation": "closest-specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "hamidia-girls-degree-college-bvoc-fashion-design-and-embroidery",
+      "name": "B.Voc",
+      "level": "Undergraduate",
+      "credential": "degree",
+      "specialization": "Fashion Design &Embroidery",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hgdc.ac.in/b-voc/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 230,
+          "career_node_slug": "fashion_design",
+          "career_breadcrumb": "Design & Architecture > B.Des (Design) > Fashion Designer",
+          "relation": "closest-specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "hamidia-girls-degree-college-bvoc-software-technology",
+      "name": "B.Voc",
+      "level": "Undergraduate",
+      "credential": "degree",
+      "specialization": "Software Technology",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hgdc.ac.in/b-voc/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "closest-specialization",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "hamidia-girls-degree-college-bvoc-office-administration-and-secretarial-practices",
+      "name": "B.Voc",
+      "level": "Undergraduate",
+      "credential": "degree",
+      "specialization": "Office Administration & Secretarial Practices",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hgdc.ac.in/b-voc/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "hamidia-girls-degree-college-bvoc-social-media-and-digital-marketing",
+      "name": "B.Voc",
+      "level": "Undergraduate",
+      "credential": "degree",
+      "specialization": "Social Media & Digital Marketing",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hgdc.ac.in/b-voc/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 213,
+          "career_node_slug": "digital_marketer",
+          "career_breadcrumb": "Management & Business > BBA Marketing > Digital Marketing Specialist",
+          "relation": "closest-specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "hamidia-girls-degree-college-ma-english-literature",
+      "name": "M.A.",
+      "level": "Postgraduate",
+      "credential": "degree",
+      "specialization": "English Literature",
+      "duration": "4 semesters",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hgdc.ac.in/m-a/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 285,
+          "career_node_slug": "english_professor",
+          "career_breadcrumb": "Languages & Literature > BA English Literature > English Professor",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "hamidia-girls-degree-college-ma-medieval-history",
+      "name": "M.A.",
+      "level": "Postgraduate",
+      "credential": "degree",
+      "specialization": "Medieval History",
+      "duration": "4 semesters",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hgdc.ac.in/m-a/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 278,
+          "career_node_slug": "historian",
+          "career_breadcrumb": "Social Sciences & Education > BA History > Historian / Researcher",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "hamidia-girls-degree-college-ma-sociology",
+      "name": "M.A.",
+      "level": "Postgraduate",
+      "credential": "degree",
+      "specialization": "Sociology",
+      "duration": "4 semesters",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hgdc.ac.in/m-a/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "hamidia-girls-degree-college-ma-urdu",
+      "name": "M.A.",
+      "level": "Postgraduate",
+      "credential": "degree",
+      "specialization": "Urdu",
+      "duration": "4 semesters",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hgdc.ac.in/m-a/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "hamidia-girls-degree-college-ma-arabic",
+      "name": "M.A.",
+      "level": "Postgraduate",
+      "credential": "degree",
+      "specialization": "Arabic",
+      "duration": "4 semesters",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hgdc.ac.in/m-a/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "hamidia-girls-degree-college-ma-education",
+      "name": "M.A.",
+      "level": "Postgraduate",
+      "credential": "degree",
+      "specialization": "Education",
+      "duration": "4 semesters",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hgdc.ac.in/m-a/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 276,
+          "career_node_slug": "education_consultant",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education) > Education Consultant",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "hamidia-girls-degree-college-mvoc-fashion-design-and-embroidery",
+      "name": "M.Voc",
+      "level": "Postgraduate",
+      "credential": "degree",
+      "specialization": "Fashion Design & Embroidery",
+      "duration": "two year (four semesters)",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hgdc.ac.in/m-voc/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 230,
+          "career_node_slug": "fashion_design",
+          "career_breadcrumb": "Design & Architecture > B.Des (Design) > Fashion Designer",
+          "relation": "closest-specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "hamidia-girls-degree-college-dca-0-level",
+      "name": "DCA- ‘0’ Level",
+      "level": "Short course",
+      "credential": "course",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hgdc.ac.in/diploma-certificate-courses/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "closest-specialization",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "hamidia-girls-degree-college-fashion-designing-kasheedakari",
+      "name": "Fashion Designing & Kasheedakari",
+      "level": "Short course",
+      "credential": "course",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hgdc.ac.in/diploma-certificate-courses/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 230,
+          "career_node_slug": "fashion_design",
+          "career_breadcrumb": "Design & Architecture > B.Des (Design) > Fashion Designer",
+          "relation": "closest-specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "hamidia-girls-degree-college-translation-proficiency-arabic",
+      "name": "Translation Proficiency in Arabic",
+      "level": "Short course",
+      "credential": "course",
+      "specialization": "Arabic",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hgdc.ac.in/diploma-certificate-courses/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 290,
+          "career_node_slug": "foreign_translator",
+          "career_breadcrumb": "Languages & Literature > BA Foreign Language (French/German/Japanese) > Foreign Language Translator",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "hamidia-girls-degree-college-urdu-journalism-mass-communication",
+      "name": "Urdu Journalism & Mass Communication",
+      "level": "Short course",
+      "credential": "course",
+      "specialization": "Urdu",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hgdc.ac.in/diploma-certificate-courses/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 59,
+          "career_node_slug": "bjmc",
+          "career_breadcrumb": "Media & Journalism > B.J.M.C (Journalism & Mass Comm)",
+          "relation": "closest-specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "hamidia-girls-degree-college-two-year-diploma-urdu-kitabat-urdu-calligraphy",
+      "name": "Two year Diploma Course — Urdu Kitabat Urdu Calligraphy, sponsored by U.P. Urdu Academy, Lucknow",
+      "level": "Diploma",
+      "credential": "diploma",
+      "specialization": "Urdu Kitabat Urdu Calligraphy",
+      "duration": "Two year",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hgdc.ac.in/diploma-certificate-courses/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "hamidia-girls-degree-college-urdu-coaching",
+      "name": "Urdu Coaching, sponsored by U.P. Urdu Academy, Lucknow",
+      "level": "Short course",
+      "credential": "course",
+      "specialization": "Urdu",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hgdc.ac.in/diploma-certificate-courses/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 292,
+          "career_node_slug": "language_teacher",
+          "career_breadcrumb": "Languages & Literature > BA Foreign Language (French/German/Japanese) > Language Teacher",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "hamidia-girls-degree-college-ccc",
+      "name": "Three months Certificate Course CCC (Certificate in Computer Concepts)",
+      "level": "Certificate",
+      "credential": "certificate",
+      "specialization": null,
+      "duration": "Three months",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hgdc.ac.in/diploma-certificate-courses/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "closest-specialization",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "hamidia-girls-degree-college-tally",
+      "name": "Two months Certificate Course TALLY",
+      "level": "Certificate",
+      "credential": "certificate",
+      "specialization": null,
+      "duration": "Two months",
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://hgdc.ac.in/diploma-certificate-courses/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 199,
+          "career_node_slug": "accountant",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons) > Accountant",
+          "relation": "closest-specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "Both supplied NIRF 2025 discovery listings contain Hamidia Girls Degree College with city Allahabad and state Uttar Pradesh; the official campus pages use the current city name Prayagraj and the address Sultanpur Bhawa, Noorulla Road, Prayagraj – 211003, confirming the same campus.",
+    "The official /courses/ catalogue links six named families, and the linked official pages enumerate the B.A subjects, B.Voc trades, M.A subjects, M.Voc programme, and diploma/certificate table. No doctoral programme is listed.",
+    "Duration is populated only where an official catalogue page explicitly states it. No official programme page explicitly states eligibility for the listed courses, so eligibility remains null.",
+    "Normal TLS verification first returned the exact managed-proxy error 'self signed certificate in certificate chain'. Public GET requests then used curl --insecure only for the confirmed NIRF, hgdc.ac.in, www.hgdc.ac.in, and Bing hostnames; no credentials or private data were sent."
+  ]
+}

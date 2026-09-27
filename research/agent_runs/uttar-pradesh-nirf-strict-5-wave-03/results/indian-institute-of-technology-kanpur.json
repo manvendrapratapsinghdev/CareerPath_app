@@ -1,0 +1,2658 @@
+{
+  "institution_id": "indian-institute-of-technology-kanpur",
+  "nirf_name": "Indian Institute of Technology Kanpur",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/EngineeringRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Kanpur",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://www.iitk.ac.in/",
+  "website_verification_status": "verified",
+  "description": "Indian Institute of Technology Kanpur, established in 1959, is a Government of India institution in Kalyanpur, Kanpur offering education and research across engineering, science, humanities and management.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [
+    "online.iitk.ac.in"
+  ],
+  "verification_sources": [
+    {
+      "type": "government_listing_engineering",
+      "url": "https://www.nirfindia.org/Rankings/2025/EngineeringRankingALL.html",
+      "supports": [
+        "government listing",
+        "institution name",
+        "Kanpur",
+        "Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "government_listing_management",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html",
+      "supports": [
+        "government listing",
+        "institution name",
+        "Kanpur",
+        "Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "government_listing_overall",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "government listing",
+        "institution name",
+        "Kanpur",
+        "Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://www.iitk.ac.in/",
+      "supports": [
+        "official identity",
+        "institution description"
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "https://www.iitk.ac.in/contact-iitk",
+      "supports": [
+        "campus address",
+        "Kanpur identity"
+      ]
+    },
+    {
+      "type": "official_catalogue",
+      "url": "https://www.iitk.ac.in/doaa/academic-programmes",
+      "supports": [
+        "official programme catalogue",
+        "undergraduate, postgraduate, doctoral and eMasters programme names"
+      ]
+    },
+    {
+      "type": "official_undergraduate_catalogue",
+      "url": "https://www.iitk.ac.in/doaa/under-graduate-programme",
+      "supports": [
+        "undergraduate programme names",
+        "four-year B.Tech and B.S.",
+        "two-year M.Sc.",
+        "M.Sc.-Ph.D. dual degree",
+        "five-year dual degree options"
+      ]
+    },
+    {
+      "type": "official_postgraduate_catalogue",
+      "url": "https://www.iitk.ac.in/doaa/post-graduate-programme",
+      "supports": [
+        "postgraduate programme families",
+        "M.Tech",
+        "MS by Research",
+        "M.Des",
+        "MBA",
+        "Ph.D."
+      ]
+    },
+    {
+      "type": "official_current_pg_admissions",
+      "url": "https://www.iitk.ac.in/doaa/pgadmission/",
+      "supports": [
+        "July 2026 postgraduate programme offerings"
+      ]
+    },
+    {
+      "type": "official_intelligent_systems_programme",
+      "url": "https://iitk.ac.in/dis/btech",
+      "supports": [
+        "B.Tech. in Intelligent Systems",
+        "four-year degree programme"
+      ]
+    },
+    {
+      "type": "official_bcyber_programme",
+      "url": "https://www.iitk.ac.in/wsais/b-cyber.php",
+      "supports": [
+        "Bachelors in Cybersecurity (B.Cyber.)",
+        "four-year coursework and internship structure",
+        "eligibility"
+      ]
+    },
+    {
+      "type": "official_online_programme",
+      "url": "https://online.iitk.ac.in/mtech/aiml",
+      "supports": [
+        "M.Tech. (Online) in Artificial Intelligence and Machine Learning (AIML)",
+        "online duration",
+        "eligibility"
+      ]
+    }
+  ],
+  "website_search_evidence": [],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "indian-institute-of-technology-kanpur-btech-1",
+      "name": "BACHELOR OF TECHNOLOGY (B.TECH.)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Technology",
+      "specialization": "Aerospace Engineering",
+      "duration": "4 years",
+      "mode": "on-campus",
+      "eligibility": "Admission through Joint Entrance Examination-Advanced (JEE-Advanced).",
+      "official_course_url": "https://www.iitk.ac.in/doaa/under-graduate-programme",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 87,
+          "career_node_slug": "btech_aero",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Aerospace Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-btech-2",
+      "name": "BACHELOR OF TECHNOLOGY (B.TECH.)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Technology",
+      "specialization": "Biological Sciences and Bio-Engineering",
+      "duration": "4 years",
+      "mode": "on-campus",
+      "eligibility": "Admission through Joint Entrance Examination-Advanced (JEE-Advanced).",
+      "official_course_url": "https://www.iitk.ac.in/doaa/under-graduate-programme",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 88,
+          "career_node_slug": "btech_biotech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Biotechnology",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-btech-3",
+      "name": "BACHELOR OF TECHNOLOGY (B.TECH.)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Technology",
+      "specialization": "Chemical Engineering",
+      "duration": "4 years",
+      "mode": "on-campus",
+      "eligibility": "Admission through Joint Entrance Examination-Advanced (JEE-Advanced).",
+      "official_course_url": "https://www.iitk.ac.in/doaa/under-graduate-programme",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 86,
+          "career_node_slug": "btech_chem",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Chemical Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-btech-4",
+      "name": "BACHELOR OF TECHNOLOGY (B.TECH.)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Technology",
+      "specialization": "Civil Engineering",
+      "duration": "4 years",
+      "mode": "on-campus",
+      "eligibility": "Admission through Joint Entrance Examination-Advanced (JEE-Advanced).",
+      "official_course_url": "https://www.iitk.ac.in/doaa/under-graduate-programme",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-btech-5",
+      "name": "BACHELOR OF TECHNOLOGY (B.TECH.)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Technology",
+      "specialization": "Computer Science and Engineering",
+      "duration": "4 years",
+      "mode": "on-campus",
+      "eligibility": "Admission through Joint Entrance Examination-Advanced (JEE-Advanced).",
+      "official_course_url": "https://www.iitk.ac.in/doaa/under-graduate-programme",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-btech-6",
+      "name": "BACHELOR OF TECHNOLOGY (B.TECH.)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Technology",
+      "specialization": "Electrical Engineering",
+      "duration": "4 years",
+      "mode": "on-campus",
+      "eligibility": "Admission through Joint Entrance Examination-Advanced (JEE-Advanced).",
+      "official_course_url": "https://www.iitk.ac.in/doaa/under-graduate-programme",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-btech-7",
+      "name": "BACHELOR OF TECHNOLOGY (B.TECH.)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Technology",
+      "specialization": "Materials Science and Engineering",
+      "duration": "4 years",
+      "mode": "on-campus",
+      "eligibility": "Admission through Joint Entrance Examination-Advanced (JEE-Advanced).",
+      "official_course_url": "https://www.iitk.ac.in/doaa/under-graduate-programme",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-btech-8",
+      "name": "BACHELOR OF TECHNOLOGY (B.TECH.)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Technology",
+      "specialization": "Mechanical Engineering",
+      "duration": "4 years",
+      "mode": "on-campus",
+      "eligibility": "Admission through Joint Entrance Examination-Advanced (JEE-Advanced).",
+      "official_course_url": "https://www.iitk.ac.in/doaa/under-graduate-programme",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-iitk-btech-intelligent-systems",
+      "name": "B.Tech. in Intelligent Systems (BTIS)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Technology",
+      "specialization": "Intelligent Systems",
+      "duration": "4 years",
+      "mode": "on-campus",
+      "eligibility": "Admission into IIT Kanpur undergraduate programmes is through the Joint Entrance Examination (JEE).",
+      "official_course_url": "https://iitk.ac.in/dis/btech",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 33,
+          "career_node_slug": "bsc_ai",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Artificial Intelligence",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-iitk-bcyber",
+      "name": "Bachelors in Cybersecurity (B.Cyber.)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree (B.Cyber.)",
+      "specialization": "Cybersecurity",
+      "duration": "4 years (two years coursework plus two years internship)",
+      "mode": "on-campus / internship",
+      "eligibility": "Class 12th or equivalent with Physics, Chemistry and Mathematics and five subjects; Indian nationals only.",
+      "official_course_url": "https://www.iitk.ac.in/wsais/b-cyber.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 309,
+          "career_node_slug": "cybersecurity_analyst",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science > Cybersecurity Analyst",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-bs-1",
+      "name": "BACHELOR OF SCIENCE (B.S.)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Science",
+      "specialization": "Chemistry",
+      "duration": "4 years",
+      "mode": "on-campus",
+      "eligibility": "Admission through Joint Entrance Examination-Advanced (JEE-Advanced).",
+      "official_course_url": "https://www.iitk.ac.in/doaa/under-graduate-programme",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-bs-2",
+      "name": "BACHELOR OF SCIENCE (B.S.)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Science",
+      "specialization": "Earth Sciences",
+      "duration": "4 years",
+      "mode": "on-campus",
+      "eligibility": "Admission through Joint Entrance Examination-Advanced (JEE-Advanced).",
+      "official_course_url": "https://www.iitk.ac.in/doaa/under-graduate-programme",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 9,
+          "career_node_slug": "bsc_geology",
+          "career_breadcrumb": "Maths / PCM > B.Sc Geology / Earth Sciences",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-bs-3",
+      "name": "BACHELOR OF SCIENCE (B.S.)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Science",
+      "specialization": "Economics",
+      "duration": "4 years",
+      "mode": "on-campus",
+      "eligibility": "Admission through Joint Entrance Examination-Advanced (JEE-Advanced).",
+      "official_course_url": "https://www.iitk.ac.in/doaa/under-graduate-programme",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-bs-4",
+      "name": "BACHELOR OF SCIENCE (B.S.)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Science",
+      "specialization": "Mathematics and Scientific Computing",
+      "duration": "4 years",
+      "mode": "on-campus",
+      "eligibility": "Admission through Joint Entrance Examination-Advanced (JEE-Advanced).",
+      "official_course_url": "https://www.iitk.ac.in/doaa/under-graduate-programme",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-bs-5",
+      "name": "BACHELOR OF SCIENCE (B.S.)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Science",
+      "specialization": "Physics",
+      "duration": "4 years",
+      "mode": "on-campus",
+      "eligibility": "Admission through Joint Entrance Examination-Advanced (JEE-Advanced).",
+      "official_course_url": "https://www.iitk.ac.in/doaa/under-graduate-programme",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 24,
+          "career_node_slug": "bsc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-bs-6",
+      "name": "BACHELOR OF SCIENCE (B.S.)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Science",
+      "specialization": "Statistics and Data Science",
+      "duration": "4 years",
+      "mode": "on-campus",
+      "eligibility": "Admission through Joint Entrance Examination-Advanced (JEE-Advanced).",
+      "official_course_url": "https://www.iitk.ac.in/doaa/under-graduate-programme",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 6,
+          "career_node_slug": "bsc_stats",
+          "career_breadcrumb": "Maths / PCM > B.Sc Statistics",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-msc-1",
+      "name": "MASTER OF SCIENCE (M.Sc.)",
+      "level": "postgraduate",
+      "credential": "Master of Science",
+      "specialization": "Chemistry",
+      "duration": "2 years",
+      "mode": "on-campus",
+      "eligibility": "Admission through Joint Admission Test for M.Sc. (JAM).",
+      "official_course_url": "https://www.iitk.ac.in/doaa/under-graduate-programme",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-msc-2",
+      "name": "MASTER OF SCIENCE (M.Sc.)",
+      "level": "postgraduate",
+      "credential": "Master of Science",
+      "specialization": "Mathematics",
+      "duration": "2 years",
+      "mode": "on-campus",
+      "eligibility": "Admission through Joint Admission Test for M.Sc. (JAM).",
+      "official_course_url": "https://www.iitk.ac.in/doaa/under-graduate-programme",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-msc-3",
+      "name": "MASTER OF SCIENCE (M.Sc.)",
+      "level": "postgraduate",
+      "credential": "Master of Science",
+      "specialization": "Physics",
+      "duration": "2 years",
+      "mode": "on-campus",
+      "eligibility": "Admission through Joint Admission Test for M.Sc. (JAM).",
+      "official_course_url": "https://www.iitk.ac.in/doaa/under-graduate-programme",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 24,
+          "career_node_slug": "bsc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-msc-4",
+      "name": "MASTER OF SCIENCE (M.Sc.)",
+      "level": "postgraduate",
+      "credential": "Master of Science",
+      "specialization": "Statistics",
+      "duration": "2 years",
+      "mode": "on-campus",
+      "eligibility": "Admission through Joint Admission Test for M.Sc. (JAM).",
+      "official_course_url": "https://www.iitk.ac.in/doaa/under-graduate-programme",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 6,
+          "career_node_slug": "bsc_stats",
+          "career_breadcrumb": "Maths / PCM > B.Sc Statistics",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-msc-phd-1",
+      "name": "MASTER OF SCIENCE – DOCTOR OF PHILOSOPHY Dual Degree Programme (M.Sc.-Ph.D. – Dual Degree)",
+      "level": "dual_degree",
+      "credential": "Master of Science–Doctor of Philosophy dual degree",
+      "specialization": "Physics",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": "Admission through Joint Admission Test for M.Sc. (JAM).",
+      "official_course_url": "https://www.iitk.ac.in/doaa/under-graduate-programme",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 24,
+          "career_node_slug": "bsc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-iitk-dual-1",
+      "name": "B.TECH.-M.TECH. (with M.Tech. in same department)",
+      "level": "dual_degree",
+      "credential": "B.Tech.-M.Tech. dual degree",
+      "specialization": null,
+      "duration": "5 years",
+      "mode": "on-campus",
+      "eligibility": "Students registered in B.Tech./B.S. programmes may change to this 5-year dual degree option.",
+      "official_course_url": "https://www.iitk.ac.in/doaa/under-graduate-programme",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-iitk-dual-2",
+      "name": "B.TECH.-M.TECH. (with M.Tech. in other department)",
+      "level": "dual_degree",
+      "credential": "B.Tech.-M.Tech. dual degree",
+      "specialization": null,
+      "duration": "5 years",
+      "mode": "on-campus",
+      "eligibility": "Students registered in B.Tech./B.S. programmes may change to this 5-year dual degree option.",
+      "official_course_url": "https://www.iitk.ac.in/doaa/under-graduate-programme",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-iitk-dual-3",
+      "name": "B.S.-M.S. (with M.S. in same department)",
+      "level": "dual_degree",
+      "credential": "B.S.-M.S. dual degree",
+      "specialization": null,
+      "duration": "5 years",
+      "mode": "on-campus",
+      "eligibility": "Students registered in B.Tech./B.S. programmes may change to this 5-year dual degree option.",
+      "official_course_url": "https://www.iitk.ac.in/doaa/under-graduate-programme",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-iitk-dual-4",
+      "name": "B.S.-M.S. (with M.S. in other department)",
+      "level": "dual_degree",
+      "credential": "B.S.-M.S. dual degree",
+      "specialization": null,
+      "duration": "5 years",
+      "mode": "on-campus",
+      "eligibility": "Students registered in B.Tech./B.S. programmes may change to this 5-year dual degree option.",
+      "official_course_url": "https://www.iitk.ac.in/doaa/under-graduate-programme",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-iitk-dual-5",
+      "name": "B.S.-M.TECH.",
+      "level": "dual_degree",
+      "credential": "B.S.-M.Tech. dual degree",
+      "specialization": null,
+      "duration": "5 years",
+      "mode": "on-campus",
+      "eligibility": "Students registered in B.Tech./B.S. programmes may change to this 5-year dual degree option.",
+      "official_course_url": "https://www.iitk.ac.in/doaa/under-graduate-programme",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-iitk-dual-6",
+      "name": "B.TECH.-M.S.",
+      "level": "dual_degree",
+      "credential": "B.Tech.-M.S. dual degree",
+      "specialization": null,
+      "duration": "5 years",
+      "mode": "on-campus",
+      "eligibility": "Students registered in B.Tech./B.S. programmes may change to this 5-year dual degree option.",
+      "official_course_url": "https://www.iitk.ac.in/doaa/under-graduate-programme",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-iitk-dual-7",
+      "name": "B.TECH.-M.DES.",
+      "level": "dual_degree",
+      "credential": "B.Tech.-M.Des. dual degree",
+      "specialization": null,
+      "duration": "5 years",
+      "mode": "on-campus",
+      "eligibility": "Students registered in B.Tech./B.S. programmes may change to this 5-year dual degree option.",
+      "official_course_url": "https://www.iitk.ac.in/doaa/under-graduate-programme",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-iitk-dual-8",
+      "name": "B.S.-M.DES.",
+      "level": "dual_degree",
+      "credential": "B.S.-M.Des. dual degree",
+      "specialization": null,
+      "duration": "5 years",
+      "mode": "on-campus",
+      "eligibility": "Students registered in B.Tech./B.S. programmes may change to this 5-year dual degree option.",
+      "official_course_url": "https://www.iitk.ac.in/doaa/under-graduate-programme",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-iitk-dual-9",
+      "name": "B.TECH.-MBA",
+      "level": "dual_degree",
+      "credential": "B.Tech.-MBA dual degree",
+      "specialization": null,
+      "duration": "5 years",
+      "mode": "on-campus",
+      "eligibility": "Students registered in B.Tech./B.S. programmes may change to this 5-year dual degree option.",
+      "official_course_url": "https://www.iitk.ac.in/doaa/under-graduate-programme",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-iitk-dual-10",
+      "name": "B.S.-MBA",
+      "level": "dual_degree",
+      "credential": "B.S.-MBA dual degree",
+      "specialization": null,
+      "duration": "5 years",
+      "mode": "on-campus",
+      "eligibility": "Students registered in B.Tech./B.S. programmes may change to this 5-year dual degree option.",
+      "official_course_url": "https://www.iitk.ac.in/doaa/under-graduate-programme",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-mtech-1",
+      "name": "MASTER OF TECHNOLOGY (M.TECH)",
+      "level": "postgraduate",
+      "credential": "Master of Technology",
+      "specialization": "Aerospace Engineering",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/pgadmission/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 87,
+          "career_node_slug": "btech_aero",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Aerospace Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-mtech-2",
+      "name": "MASTER OF TECHNOLOGY (M.TECH)",
+      "level": "postgraduate",
+      "credential": "Master of Technology",
+      "specialization": "Unmanned Aerial Systems Engineering",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/pgadmission/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 87,
+          "career_node_slug": "btech_aero",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Aerospace Engineering",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-mtech-3",
+      "name": "MASTER OF TECHNOLOGY (M.TECH)",
+      "level": "postgraduate",
+      "credential": "Master of Technology",
+      "specialization": "Biological Sciences and Bio-Engineering",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/pgadmission/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 88,
+          "career_node_slug": "btech_biotech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Biotechnology",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-mtech-4",
+      "name": "MASTER OF TECHNOLOGY (M.TECH)",
+      "level": "postgraduate",
+      "credential": "Master of Technology",
+      "specialization": "Biomedical Engineering",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/pgadmission/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 88,
+          "career_node_slug": "btech_biotech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Biotechnology",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-mtech-5",
+      "name": "MASTER OF TECHNOLOGY (M.TECH)",
+      "level": "postgraduate",
+      "credential": "Master of Technology",
+      "specialization": "Chemical Engineering",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/pgadmission/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 86,
+          "career_node_slug": "btech_chem",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Chemical Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-mtech-6",
+      "name": "MASTER OF TECHNOLOGY (M.TECH)",
+      "level": "postgraduate",
+      "credential": "Master of Technology",
+      "specialization": "Civil Engineering",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/pgadmission/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-mtech-7",
+      "name": "MASTER OF TECHNOLOGY (M.TECH)",
+      "level": "postgraduate",
+      "credential": "Master of Technology",
+      "specialization": "Cognitive Systems",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/pgadmission/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 33,
+          "career_node_slug": "bsc_ai",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Artificial Intelligence",
+          "relation": "closest_specialization",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-mtech-8",
+      "name": "MASTER OF TECHNOLOGY (M.TECH)",
+      "level": "postgraduate",
+      "credential": "Master of Technology",
+      "specialization": "Computer Science and Engineering",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/pgadmission/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-mtech-9",
+      "name": "MASTER OF TECHNOLOGY (M.TECH)",
+      "level": "postgraduate",
+      "credential": "Master of Technology",
+      "specialization": "Earth Sciences",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/pgadmission/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 9,
+          "career_node_slug": "bsc_geology",
+          "career_breadcrumb": "Maths / PCM > B.Sc Geology / Earth Sciences",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-mtech-10",
+      "name": "MASTER OF TECHNOLOGY (M.TECH)",
+      "level": "postgraduate",
+      "credential": "Master of Technology",
+      "specialization": "Electrical Engineering",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/pgadmission/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-mtech-11",
+      "name": "MASTER OF TECHNOLOGY (M.TECH)",
+      "level": "postgraduate",
+      "credential": "Master of Technology",
+      "specialization": "Environmental Engineering and Management",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/pgadmission/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 26,
+          "career_node_slug": "bsc_env",
+          "career_breadcrumb": "Common Paths > B.Sc Environmental Science",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-mtech-12",
+      "name": "MASTER OF TECHNOLOGY (M.TECH)",
+      "level": "postgraduate",
+      "credential": "Master of Technology",
+      "specialization": "Intelligent Systems",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/pgadmission/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 33,
+          "career_node_slug": "bsc_ai",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Artificial Intelligence",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-mtech-13",
+      "name": "MASTER OF TECHNOLOGY (M.TECH)",
+      "level": "postgraduate",
+      "credential": "Master of Technology",
+      "specialization": "Interdisciplinary Programme on Materials Science",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/pgadmission/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-mtech-14",
+      "name": "MASTER OF TECHNOLOGY (M.TECH)",
+      "level": "postgraduate",
+      "credential": "Master of Technology",
+      "specialization": "Kotak School of Sustainability",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/pgadmission/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 26,
+          "career_node_slug": "bsc_env",
+          "career_breadcrumb": "Common Paths > B.Sc Environmental Science",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-mtech-15",
+      "name": "MASTER OF TECHNOLOGY (M.TECH)",
+      "level": "postgraduate",
+      "credential": "Master of Technology",
+      "specialization": "Management Sciences",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/pgadmission/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-mtech-16",
+      "name": "MASTER OF TECHNOLOGY (M.TECH)",
+      "level": "postgraduate",
+      "credential": "Master of Technology",
+      "specialization": "Materials Science and Engineering",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/pgadmission/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-mtech-17",
+      "name": "MASTER OF TECHNOLOGY (M.TECH)",
+      "level": "postgraduate",
+      "credential": "Master of Technology",
+      "specialization": "Materials Science Program",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/pgadmission/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-mtech-18",
+      "name": "MASTER OF TECHNOLOGY (M.TECH)",
+      "level": "postgraduate",
+      "credential": "Master of Technology",
+      "specialization": "Mechanical Engineering",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/pgadmission/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-mtech-19",
+      "name": "MASTER OF TECHNOLOGY (M.TECH)",
+      "level": "postgraduate",
+      "credential": "Master of Technology",
+      "specialization": "Nuclear Engineering and Technology",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/pgadmission/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest_parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-mtech-20",
+      "name": "MASTER OF TECHNOLOGY (M.TECH)",
+      "level": "postgraduate",
+      "credential": "Master of Technology",
+      "specialization": "Photonics Science and Engineering",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/pgadmission/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 24,
+          "career_node_slug": "bsc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-mtech-21",
+      "name": "MASTER OF TECHNOLOGY (M.TECH)",
+      "level": "postgraduate",
+      "credential": "Master of Technology",
+      "specialization": "Space, Planetary & Astronomical Sciences & Engineering",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/pgadmission/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 87,
+          "career_node_slug": "btech_aero",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Aerospace Engineering",
+          "relation": "closest_specialization",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-mtech-22",
+      "name": "MASTER OF TECHNOLOGY (M.TECH)",
+      "level": "postgraduate",
+      "credential": "Master of Technology",
+      "specialization": "Sustainable Energy Engineering",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/pgadmission/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 362,
+          "career_node_slug": "renewable_energy_engineer",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering > Renewable Energy Engineer",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-iitk-cybersecurity-mtech-msr",
+      "name": "M Tech/MS (BY RESEARCH) in Cybersecurity",
+      "level": "postgraduate",
+      "credential": "M.Tech./MS by Research",
+      "specialization": "Cybersecurity",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/pgadmission/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 309,
+          "career_node_slug": "cybersecurity_analyst",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science > Cybersecurity Analyst",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-msr-1",
+      "name": "Master of Science (MS) by Research Programme in Engineering",
+      "level": "postgraduate",
+      "credential": "Master of Science by Research",
+      "specialization": "Aerospace Engineering",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/academic-programmes",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 87,
+          "career_node_slug": "btech_aero",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Aerospace Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-msr-2",
+      "name": "Master of Science (MS) by Research Programme in Engineering",
+      "level": "postgraduate",
+      "credential": "Master of Science by Research",
+      "specialization": "Chemical Engineering",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/academic-programmes",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 86,
+          "career_node_slug": "btech_chem",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Chemical Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-msr-3",
+      "name": "Master of Science (MS) by Research Programme in Engineering",
+      "level": "postgraduate",
+      "credential": "Master of Science by Research",
+      "specialization": "Civil Engineering",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/academic-programmes",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-msr-4",
+      "name": "Master of Science (MS) by Research Programme in Engineering",
+      "level": "postgraduate",
+      "credential": "Master of Science by Research",
+      "specialization": "Cognitive Science",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/academic-programmes",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 33,
+          "career_node_slug": "bsc_ai",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Artificial Intelligence",
+          "relation": "closest_specialization",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-msr-5",
+      "name": "Master of Science (MS) by Research Programme in Engineering",
+      "level": "postgraduate",
+      "credential": "Master of Science by Research",
+      "specialization": "Computer Science and Engineering",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/academic-programmes",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-msr-6",
+      "name": "Master of Science (MS) by Research Programme in Engineering",
+      "level": "postgraduate",
+      "credential": "Master of Science by Research",
+      "specialization": "Electrical Engineering",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/academic-programmes",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-msr-7",
+      "name": "Master of Science (MS) by Research Programme in Engineering",
+      "level": "postgraduate",
+      "credential": "Master of Science by Research",
+      "specialization": "Environmental Engineering and Management",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/academic-programmes",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 26,
+          "career_node_slug": "bsc_env",
+          "career_breadcrumb": "Common Paths > B.Sc Environmental Science",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-msr-8",
+      "name": "Master of Science (MS) by Research Programme in Engineering",
+      "level": "postgraduate",
+      "credential": "Master of Science by Research",
+      "specialization": "Intelligent Systems",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/academic-programmes",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 33,
+          "career_node_slug": "bsc_ai",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Artificial Intelligence",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-msr-9",
+      "name": "Master of Science (MS) by Research Programme in Engineering",
+      "level": "postgraduate",
+      "credential": "Master of Science by Research",
+      "specialization": "Mechanical Engineering",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/academic-programmes",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-msr-10",
+      "name": "Master of Science (MS) by Research Programme in Engineering",
+      "level": "postgraduate",
+      "credential": "Master of Science by Research",
+      "specialization": "Photonics Science and Engineering",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/academic-programmes",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 24,
+          "career_node_slug": "bsc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-msr-11",
+      "name": "Master of Science (MS) by Research Programme in Engineering",
+      "level": "postgraduate",
+      "credential": "Master of Science by Research",
+      "specialization": "Sustainable Energy Engineering",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/academic-programmes",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 362,
+          "career_node_slug": "renewable_energy_engineer",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering > Renewable Energy Engineer",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-mdes-1",
+      "name": "Master of Design (M.Des.) degree",
+      "level": "postgraduate",
+      "credential": "Master of Design",
+      "specialization": "Design",
+      "duration": "2 years",
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/post-graduate-programme",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 55,
+          "career_node_slug": "bdes",
+          "career_breadcrumb": "Design & Architecture > B.Des (Design)",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-iitk-mba",
+      "name": "Master of Business Administration (MBA) degree",
+      "level": "postgraduate",
+      "credential": "Master of Business Administration",
+      "specialization": null,
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/post-graduate-programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-emasters-1",
+      "name": "eMasters Programmes with Departments",
+      "level": "postgraduate",
+      "credential": "eMasters",
+      "specialization": "Next Generation Wireless Technologies (NGWT) (Dept. of Electrical Engineering)",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/academic-programmes",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-emasters-2",
+      "name": "eMasters Programmes with Departments",
+      "level": "postgraduate",
+      "credential": "eMasters",
+      "specialization": "Artificial Intelligence and Machine Learning (AIML) (Dept. of Electrical Engineering)",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/academic-programmes",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 33,
+          "career_node_slug": "bsc_ai",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Artificial Intelligence",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-emasters-3",
+      "name": "eMasters Programmes with Departments",
+      "level": "postgraduate",
+      "credential": "eMasters",
+      "specialization": "Cyber Security (CY) (Dept. of Computer Science and Engineering)",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/academic-programmes",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 309,
+          "career_node_slug": "cybersecurity_analyst",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science > Cybersecurity Analyst",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-emasters-4",
+      "name": "eMasters Programmes with Departments",
+      "level": "postgraduate",
+      "credential": "eMasters",
+      "specialization": "Sustainable Construction Practices and Project Management (SCPM) (Dept. of Civil Engineering)",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/academic-programmes",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-emasters-5",
+      "name": "eMasters Programmes with Departments",
+      "level": "postgraduate",
+      "credential": "eMasters",
+      "specialization": "Applied Health Economics, Financing, and Policy (AHEP) (Dept. of Economic Sciences)",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/academic-programmes",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-emasters-6",
+      "name": "eMasters Programmes with Departments",
+      "level": "postgraduate",
+      "credential": "eMasters",
+      "specialization": "Business Finance and Public Policy (BFPP) (Dept. of Economic Sciences)",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/academic-programmes",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-emasters-7",
+      "name": "eMasters Programmes with Departments",
+      "level": "postgraduate",
+      "credential": "eMasters",
+      "specialization": "Business Finance (EFBA)",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/academic-programmes",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-emasters-8",
+      "name": "eMasters Programmes with Departments",
+      "level": "postgraduate",
+      "credential": "eMasters",
+      "specialization": "Financial Analysis (EFFA)",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/academic-programmes",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-emasters-9",
+      "name": "eMasters Programmes with Departments",
+      "level": "postgraduate",
+      "credential": "eMasters",
+      "specialization": "Public Policy (EFPP)",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/academic-programmes",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-emasters-10",
+      "name": "eMasters Programmes with Departments",
+      "level": "postgraduate",
+      "credential": "eMasters",
+      "specialization": "Climate Finance and Sustainability (CFS) (Dept. of Economic Sciences)",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/academic-programmes",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 26,
+          "career_node_slug": "bsc_env",
+          "career_breadcrumb": "Common Paths > B.Sc Environmental Science",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-emasters-11",
+      "name": "eMasters Programmes with Departments",
+      "level": "postgraduate",
+      "credential": "eMasters",
+      "specialization": "Data Science and Business Analytics (DSBA) (Dept. of Management Sciences)",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/academic-programmes",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 31,
+          "career_node_slug": "bsc_ds",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Data Science",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-emasters-12",
+      "name": "eMasters Programmes with Departments",
+      "level": "postgraduate",
+      "credential": "eMasters",
+      "specialization": "Financial Technology & Management (FTM) (Dept. of Management Sciences)",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/academic-programmes",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-emasters-13",
+      "name": "eMasters Programmes with Departments",
+      "level": "postgraduate",
+      "credential": "eMasters",
+      "specialization": "Quantitative Finance and Risk Management (QFRM) (Dept. of Management Sciences)",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/academic-programmes",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 6,
+          "career_node_slug": "bsc_stats",
+          "career_breadcrumb": "Maths / PCM > B.Sc Statistics",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-emasters-14",
+      "name": "eMasters Programmes with Departments",
+      "level": "postgraduate",
+      "credential": "eMasters",
+      "specialization": "Power Sector Regulation, Economics and Finance (PSRF) (Dept. of Management Sciences)",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/academic-programmes",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-emasters-15",
+      "name": "eMasters Programmes with Departments",
+      "level": "postgraduate",
+      "credential": "eMasters",
+      "specialization": "Renewable Energy and e-Mobility (REEM) (Dept. of Sustainable Energy Engineering)",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/academic-programmes",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 362,
+          "career_node_slug": "renewable_energy_engineer",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering > Renewable Energy Engineer",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-iitk-online-mtech-aiml",
+      "name": "M.Tech. (Online) in Artificial Intelligence and Machine Learning (AIML)",
+      "level": "postgraduate",
+      "credential": "Master of Technology",
+      "specialization": "Artificial Intelligence and Machine Learning (AIML)",
+      "duration": "2 to 4 years",
+      "mode": "online",
+      "eligibility": "Minimum CPI 5.5 or 55% marks in the qualifying degree and either a valid approved national-level exam score such as GATE or IIT Kanpur's online proctored entrance test.",
+      "official_course_url": "https://online.iitk.ac.in/mtech/aiml",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 33,
+          "career_node_slug": "bsc_ai",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Artificial Intelligence",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-phd-1",
+      "name": "Doctor of Philosophy (Ph.D.)",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Aerospace Engineering",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/pgadmission/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 87,
+          "career_node_slug": "btech_aero",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Aerospace Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-phd-2",
+      "name": "Doctor of Philosophy (Ph.D.)",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Biological Sciences and Bio-Engineering",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/pgadmission/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 88,
+          "career_node_slug": "btech_biotech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Biotechnology",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-phd-3",
+      "name": "Doctor of Philosophy (Ph.D.)",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Chemistry",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/pgadmission/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-phd-4",
+      "name": "Doctor of Philosophy (Ph.D.)",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Chemical Engineering",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/pgadmission/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 86,
+          "career_node_slug": "btech_chem",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Chemical Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-phd-5",
+      "name": "Doctor of Philosophy (Ph.D.)",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Civil Engineering",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/pgadmission/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-phd-6",
+      "name": "Doctor of Philosophy (Ph.D.)",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Cognitive Science",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/pgadmission/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 33,
+          "career_node_slug": "bsc_ai",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Artificial Intelligence",
+          "relation": "closest_specialization",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-phd-7",
+      "name": "Doctor of Philosophy (Ph.D.)",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Computer Science and Engineering",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/pgadmission/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-phd-8",
+      "name": "Doctor of Philosophy (Ph.D.)",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Design",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/pgadmission/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 55,
+          "career_node_slug": "bdes",
+          "career_breadcrumb": "Design & Architecture > B.Des (Design)",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-phd-9",
+      "name": "Doctor of Philosophy (Ph.D.)",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Earth Sciences",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/pgadmission/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 9,
+          "career_node_slug": "bsc_geology",
+          "career_breadcrumb": "Maths / PCM > B.Sc Geology / Earth Sciences",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-phd-10",
+      "name": "Doctor of Philosophy (Ph.D.)",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Economic Sciences",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/pgadmission/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest_parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-phd-11",
+      "name": "Doctor of Philosophy (Ph.D.)",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Electrical Engineering",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/pgadmission/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-phd-12",
+      "name": "Doctor of Philosophy (Ph.D.)",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Humanities and Social Sciences [English (Literature, Linguistics & ELT), Fine Arts, Philosophy, Psychology & Sociology]",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/pgadmission/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-phd-13",
+      "name": "Doctor of Philosophy (Ph.D.)",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Intelligent Systems",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/pgadmission/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 33,
+          "career_node_slug": "bsc_ai",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Artificial Intelligence",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-phd-14",
+      "name": "Doctor of Philosophy (Ph.D.)",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Interdisciplinary Programme on Materials Science",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/pgadmission/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-phd-15",
+      "name": "Doctor of Philosophy (Ph.D.)",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Kotak School of Sustainability",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/pgadmission/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 26,
+          "career_node_slug": "bsc_env",
+          "career_breadcrumb": "Common Paths > B.Sc Environmental Science",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-phd-16",
+      "name": "Doctor of Philosophy (Ph.D.)",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Management Sciences",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/pgadmission/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-phd-17",
+      "name": "Doctor of Philosophy (Ph.D.)",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Materials Science and Engineering",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/pgadmission/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-phd-18",
+      "name": "Doctor of Philosophy (Ph.D.)",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Materials Science Program",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/pgadmission/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-phd-19",
+      "name": "Doctor of Philosophy (Ph.D.)",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Mathematics (including Statistics)",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/pgadmission/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 6,
+          "career_node_slug": "bsc_stats",
+          "career_breadcrumb": "Maths / PCM > B.Sc Statistics",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-phd-20",
+      "name": "Doctor of Philosophy (Ph.D.)",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Mechanical Engineering",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/pgadmission/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-phd-21",
+      "name": "Doctor of Philosophy (Ph.D.)",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Nuclear Engineering and Technology",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/pgadmission/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest_parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-phd-22",
+      "name": "Doctor of Philosophy (Ph.D.)",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Photonics Science and Engineering",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/pgadmission/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 24,
+          "career_node_slug": "bsc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-phd-23",
+      "name": "Doctor of Philosophy (Ph.D.)",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Physics",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/pgadmission/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 24,
+          "career_node_slug": "bsc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-phd-24",
+      "name": "Doctor of Philosophy (Ph.D.)",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Space, Planetary & Astronomical Sciences & Engineering",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/pgadmission/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 87,
+          "career_node_slug": "btech_aero",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Aerospace Engineering",
+          "relation": "closest_specialization",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-phd-25",
+      "name": "Doctor of Philosophy (Ph.D.)",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Statistics",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/pgadmission/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 6,
+          "career_node_slug": "bsc_stats",
+          "career_breadcrumb": "Maths / PCM > B.Sc Statistics",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-technology-kanpur-phd-26",
+      "name": "Doctor of Philosophy (Ph.D.)",
+      "level": "doctoral",
+      "credential": "Doctor of Philosophy",
+      "specialization": "Sustainable Energy Engineering",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.iitk.ac.in/doaa/pgadmission/",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 362,
+          "career_node_slug": "renewable_energy_engineer",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering > Renewable Energy Engineer",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "Normal TLS requests to www.nirfindia.org and www.iitk.ac.in failed with curl error 60: self signed certificate in certificate chain; public GETs were retried with --insecure only after confirming the expected official hosts.",
+    "The official DoAA academic-programmes page states that it presently offers the listed undergraduate, postgraduate, doctoral and eMasters programmes. Current official programme/admissions pages also show newer offerings, including B.Tech. in Intelligent Systems, Bachelors in Cybersecurity, an online M.Tech. in AIML, and additional July 2026 postgraduate disciplines, that are not fully reflected in the central catalogue.",
+    "Because the official catalogue is internally incomplete/inconsistent across the DoAA page and current programme pages, this record is manual_review with partial_official_website rather than verified.",
+    "No active diploma or certificate programme was identified in the official catalogue pages reviewed; short-term events and admission notices were excluded.",
+    "Duration and eligibility were left null unless the relevant official page explicitly stated them. Career mappings were checked against the read-only local career_nodes tree; nearest-parent or closest-specialization mappings are labelled with medium/low confidence."
+  ]
+}

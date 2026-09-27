@@ -1,0 +1,135 @@
+{
+  "institution_id": "anand-institute-of-management-mba",
+  "nirf_name": "Anand Institute Of Management (MBA)",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "verified",
+  "district": "Bhopal",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://www.aim-bhopal.org/",
+  "website_verification_status": "verified",
+  "description": "Anand Institute of Management is a management institute at Barkheda Nathu, Neelbad, Bhopal, Madhya Pradesh, affiliated with Barkatullah University, Bhopal, and established under Public Charitable Society-CHIEF.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_management_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html",
+      "supports": [
+        "Exact institution listing: Anand Institute Of Management (MBA), Bhopal, Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "government_overall_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Exact institution listing: Anand Institute Of Management (MBA), Bhopal, Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://www.aim-bhopal.org/",
+      "supports": [
+        "Official Anand Institute of Management homepage and Bhopal campus identity"
+      ]
+    },
+    {
+      "type": "official_about",
+      "url": "https://www.aim-bhopal.org/about/",
+      "supports": [
+        "Institution identity, B-school description, establishment under Public Charitable Society-CHIEF, and Barkatullah University affiliation"
+      ]
+    },
+    {
+      "type": "official_contact",
+      "url": "https://www.aim-bhopal.org/contact/",
+      "supports": [
+        "Campus address: Barkheda Nathu, Neelbad, Bhopal (M.P.) - 462044"
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://www.aim-bhopal.org/courses-offered/",
+      "supports": [
+        "Exact programme names MBA (General Management) and MBA (Full Time), duration, credential, affiliation, approval, and listed specialisations"
+      ]
+    },
+    {
+      "type": "official_admissions",
+      "url": "https://www.aim-bhopal.org/admission/",
+      "supports": [
+        "MBA admission eligibility and programme duration"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "Anand Institute Of Management Bhopal MBA",
+      "result": "Yahoo returned matching Anand Institute of Management Bhopal results describing a two-year MBA and official-site candidates including aim-bhopal.org.",
+      "url": "https://www.aim-bhopal.org/"
+    },
+    {
+      "query": "\"Anand Institute of Management\" \"Public Charitable Society\" CHIEF",
+      "result": "Yahoo returned official-site results for aim-bhopal.org/about/ and anandinstitutebhopal.com/about-us/ describing the AIM/CHIEF identity.",
+      "url": "https://www.aim-bhopal.org/about/"
+    }
+  ],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "anand-institute-of-management-mba-general-management",
+      "name": "MBA (General Management)",
+      "level": "postgraduate",
+      "credential": "Master's Degree in Business Management (MBA)",
+      "specialization": null,
+      "duration": "4 Semesters (2 years)",
+      "mode": "full-time",
+      "eligibility": "Graduate with at least 50% marks, or 45% for SC, ST, and OBC categories, with a minimum three-year bachelor's degree after 10+2; other Government, DTE, Barkatullah University, and AICTE norms apply.",
+      "official_course_url": "https://www.aim-bhopal.org/courses-offered/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 208,
+          "career_node_slug": "mba_general",
+          "career_breadcrumb": "Management & Business > BBA (General) > MBA → CEO / Director Track",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "anand-institute-of-management-mba-full-time",
+      "name": "MBA (Full Time)",
+      "level": "postgraduate",
+      "credential": "Master's Degree in Business Management (MBA)",
+      "specialization": "Financial Management; Marketing Management; Human Resource Management; Banking & Financial Service Management; Retail Management; Travel and Tourism Management",
+      "duration": "4 Semesters (2 years)",
+      "mode": "full-time",
+      "eligibility": "Graduate with at least 50% marks, or 45% for SC, ST, and OBC categories, with a minimum three-year bachelor's degree after 10+2; other Government, DTE, Barkatullah University, and AICTE norms apply.",
+      "official_course_url": "https://www.aim-bhopal.org/courses-offered/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 208,
+          "career_node_slug": "mba_general",
+          "career_breadcrumb": "Management & Business > BBA (General) > MBA → CEO / Director Track",
+          "relation": "closest MBA/general-management mapping; the career tree has no MBA full-time or MBA-specialisation node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The exact NIRF institution entry was confirmed in both supplied 2025 government listings.",
+    "The official catalogue also shows generic MDPs and FDPs without a credentialed programme title; these were excluded because the requested catalogue covers degree, diploma, certificate, and doctoral programmes.",
+    "A legacy same-address AIM domain presents teacher-education content; it was not merged into this MBA-specific NIRF record to avoid combining a separate programme wing.",
+    "Normal TLS first returned the managed proxy error 'self signed certificate in certificate chain'; public GETs were retried with curl --insecure only after confirming the expected official hostnames."
+  ]
+}

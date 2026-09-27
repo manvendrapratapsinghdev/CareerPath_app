@@ -1,0 +1,86 @@
+{
+  "institution_id": "govt-college-makdone",
+  "nirf_name": "Govt College Makdone",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Ujjain",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://highereducation.mp.gov.in/?orgid=490",
+  "website_verification_status": "verified",
+  "description": "Established in 2015 by the Department of Higher Education, Government of Madhya Pradesh, Govt. College Makdone is affiliated with Vikram University, Ujjain. It currently operates from the Government Ravindra Higher Secondary School building in Makdone while its own building is under construction. The official site describes arts, science and commerce faculties.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Lists Govt College Makdone in Ujjain, Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Lists Govt College Makdone in Ujjain, Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://highereducation.mp.gov.in/?orgid=490",
+      "supports": [
+        "Identifies Govt. College Makdone, Dist. - Ujjain, Madhya Pradesh, India; states regulation by the Madhya Pradesh Department of Higher Education and affiliation to Vikram University, Ujjain."
+      ]
+    },
+    {
+      "type": "official_about_page",
+      "url": "https://highereducation.mp.gov.in/?page=3fGYDO6LFR%2FQ376mIbe%2BrA%3D%3D&orgid=490",
+      "supports": [
+        "States establishment in 2015, current operation from Government Ravindra Higher Secondary School Makdone, planned own building, and arts, science and commerce faculties."
+      ]
+    },
+    {
+      "type": "official_how_to_reach_page",
+      "url": "https://highereducation.mp.gov.in/?page=cADRURt%2BkfE4kBq%2BqjxKrg%3D%3D&orgid=490",
+      "supports": [
+        "Provides official routes from Ujjain, Agar and Shajapur to Makdone."
+      ]
+    },
+    {
+      "type": "official_programme_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=%2BWG2jA7kUHtTmVN%2Bx57Rgg%3D%3D&orgid=490",
+      "supports": [
+        "Official Programmes Offered page exposes PG Programme, UG Programme and Diploma Programme sections, but contains no programme rows or exact course names."
+      ]
+    },
+    {
+      "type": "official_admissions_page",
+      "url": "https://highereducation.mp.gov.in/?page=nk64qAYUv8hq%2FZ5Ocv3UlQ%3D%3D&orgid=490",
+      "supports": [
+        "States that admission follows Madhya Pradesh Department of Higher Education guidelines and directs applicants to online admission for UG courses."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "Govt College Makdone official website",
+      "result": "Bing RSS results did not return a usable exact-match official college page; the official page was established from the Madhya Pradesh Higher Education college site.",
+      "url": "https://www.bing.com/search?q=Govt+College+Makdone+official+website"
+    },
+    {
+      "query": "\"Govt College Makdone\" Ujjain",
+      "result": "Bing RSS results did not return a usable exact-match official college page; the official page was established from the Madhya Pradesh Higher Education college site.",
+      "url": "https://www.bing.com/search?q=%22Govt+College+Makdone%22+Ujjain"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [],
+  "agent_notes": [
+    "The official institution page is identity-verified for Govt. College Makdone in Ujjain, Madhya Pradesh, but its official Programmes Offered page contains only empty PG, UG and Diploma table sections. The official About Us page identifies faculties but does not verify exact current degree names, active programme status, duration or eligibility. No courses or career mappings were imported because the institution's own catalogue is incomplete; manual review is required.",
+    "Normal TLS verification encountered the managed proxy's self-signed certificate-chain error. Public GET requests were retried with curl --insecure only after confirming the expected official hosts."
+  ]
+}

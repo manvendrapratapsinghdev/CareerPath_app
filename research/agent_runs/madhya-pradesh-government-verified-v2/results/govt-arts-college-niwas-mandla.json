@@ -1,0 +1,173 @@
+{
+  "institution_id": "govt-arts-college-niwas-mandla",
+  "nirf_name": "Govt. Arts College, Niwas, Mandla",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "verified",
+  "district": "Mandla",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://www.highereducation.mp.gov.in/",
+  "website_verification_status": "verified",
+  "description": "Government co-educational rural college in Niwas (Nivas) tehsil, Mandla district, Madhya Pradesh, affiliated with Rani Durgavati University, Jabalpur; the official profile records establishment in 1987.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [
+    "epravesh.highereducation.mp.gov.in"
+  ],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact institution listing: Govt. Arts College, Niwas, Mandla",
+        "City: NIWAS",
+        "State: Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Exact institution listing: Govt. Arts College, Niwas, Mandla",
+        "City: NIWAS",
+        "State: Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://www.highereducation.mp.gov.in/",
+      "supports": [
+        "Government of Madhya Pradesh Department of Higher Education homepage",
+        "Official homepage links to the ePravesh admissions portal"
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "https://epravesh.highereducation.mp.gov.in/EBrochure_College_Details.aspx?cm_id=upvzdnc%2Bwys%3D",
+      "supports": [
+        "College code 3508",
+        "College name Govt College, Niwas",
+        "Government college status",
+        "Rani Durgavati University, Jabalpur affiliation",
+        "District Mandla",
+        "Taluka Nivas",
+        "Address GOVERMENT COLLEGE NIWAS DISTT MANDLA",
+        "Official website listed as www.highereducation.mp.gov.in"
+      ]
+    },
+    {
+      "type": "official_catalogue_page",
+      "url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "supports": [
+        "Current official ePravesh catalogue record for Govt College, Niwas",
+        "Programme names B. A., B. Sc., and M. A. (2-Year)"
+      ]
+    },
+    {
+      "type": "official_catalogue_data",
+      "url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx/Bind_Form_EBrochure_All_Data",
+      "supports": [
+        "Official catalogue data record cm_id 313 for Govt College, Niwas",
+        "Course list and active programme identifiers"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Govt. Arts College, Niwas, Mandla\" official website",
+      "result": "No standalone institutional domain surfaced; discovery results were directory or aggregator pages and were not used as verification evidence.",
+      "url": null
+    },
+    {
+      "query": "site:mp.gov.in \"Niwas\" \"Arts College\"",
+      "result": "No direct matching institutional webpage surfaced in the authoritative-domain search; the official Madhya Pradesh Higher Education portal was then checked directly.",
+      "url": null
+    },
+    {
+      "query": "site:highereducation.mp.gov.in \"Govt. Arts College, Niwas\"",
+      "result": "No indexed exact-name result surfaced; the official ePravesh college profile was verified directly and matched the Niwas/Mandla campus.",
+      "url": null
+    }
+  ],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "govt-arts-college-niwas-mandla-epravesh-3508-b-a",
+      "name": "B. A.",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent for general B. A.; discipline not stated by the official catalogue",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-arts-college-niwas-mandla-epravesh-3508-b-sc",
+      "name": "B. Sc.",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 337,
+          "career_node_slug": "science_common",
+          "career_breadcrumb": "Common Paths",
+          "relation": "nearest-parent for general B. Sc.; discipline not stated by the official catalogue",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-arts-college-niwas-mandla-epravesh-3508-m-a-2-year",
+      "name": "M. A. (2-Year)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent for general M. A.; discipline not stated by the official catalogue",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The official ePravesh profile uses the current name Govt College, Niwas and college code 3508; its university, government status, address, Mandla district, and Nivas taluka establish the same campus as the NIRF name Govt. Arts College, Niwas, Mandla.",
+    "The official profile declares www.highereducation.mp.gov.in as the college website; no separate standalone college domain was established.",
+    "The official catalogue lists B. A., B. Sc., and M. A. (2-Year). Eligibility was not explicitly stated for this campus, so eligibility remains null; the two-year duration is explicit in the official programme name.",
+    "The catalogue row has a broad College_course_status value of Under Graduation while explicitly listing M. A. (2-Year); programme inclusion follows the explicit official Course field.",
+    "Normal TLS verification returned the exact proxy error self signed certificate in certificate chain. curl --insecure was used only for public requests to the expected official government and ePravesh hostnames."
+  ]
+}

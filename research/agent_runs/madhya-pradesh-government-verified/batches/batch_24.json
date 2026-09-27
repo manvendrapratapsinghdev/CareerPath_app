@@ -1,0 +1,91 @@
+{
+  "batch": 24,
+  "started_at": "2026-09-27T07:13:03.069971+00:00",
+  "finished_at": "2026-09-27T07:13:14.639857+00:00",
+  "assignment_count": 5,
+  "completed_count": 0,
+  "skipped_count": 0,
+  "failed_count": 5,
+  "results": [
+    {
+      "institution_id": "government-arts-and-commerce-college-keolari-seoni",
+      "nirf_name": "Government Arts And Commerce College, Keolari, Seoni",
+      "status": "failed",
+      "started_at": "2026-09-27T07:13:03.156662+00:00",
+      "finished_at": "2026-09-27T07:13:14.543260+00:00",
+      "duration_seconds": 11.386,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/government-arts-and-commerce-college-keolari-seoni.jsonl"
+    },
+    {
+      "institution_id": "government-college-bahorivand",
+      "nirf_name": "GOVERNMENT COLLEGE, BAHORIVAND",
+      "status": "failed",
+      "started_at": "2026-09-27T07:13:03.151875+00:00",
+      "finished_at": "2026-09-27T07:13:14.632623+00:00",
+      "duration_seconds": 11.481,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/government-college-bahorivand.jsonl"
+    },
+    {
+      "institution_id": "government-navin-college-khirjanji",
+      "nirf_name": "GOVERNMENT NAVIN COLLEGE, KHIRJANJI",
+      "status": "failed",
+      "started_at": "2026-09-27T07:13:03.169055+00:00",
+      "finished_at": "2026-09-27T07:13:14.606058+00:00",
+      "duration_seconds": 11.437,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/government-navin-college-khirjanji.jsonl"
+    },
+    {
+      "institution_id": "govt-arts-college-katangi-balaghat",
+      "nirf_name": "Govt. Arts College, Katangi, Balaghat",
+      "status": "failed",
+      "started_at": "2026-09-27T07:13:03.143048+00:00",
+      "finished_at": "2026-09-27T07:13:14.578079+00:00",
+      "duration_seconds": 11.435,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/govt-arts-college-katangi-balaghat.jsonl"
+    },
+    {
+      "institution_id": "govt-college-bhikangaon",
+      "nirf_name": "Govt. College, Bhikangaon",
+      "status": "failed",
+      "started_at": "2026-09-27T07:13:03.162445+00:00",
+      "finished_at": "2026-09-27T07:13:14.282946+00:00",
+      "duration_seconds": 11.12,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/govt-college-bhikangaon.jsonl"
+    }
+  ]
+}

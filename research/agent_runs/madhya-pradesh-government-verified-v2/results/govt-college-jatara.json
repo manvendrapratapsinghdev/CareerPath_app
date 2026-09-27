@@ -1,0 +1,100 @@
+{
+  "institution_id": "govt-college-jatara",
+  "nirf_name": "Govt. College Jatara",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Tikamgarh",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://highereducation.mp.gov.in/?orgid=467",
+  "website_verification_status": "verified",
+  "description": "A government college of the Madhya Pradesh Department of Higher Education located in Jatara, Tikamgarh.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact listing for Govt. College Jatara with city Jatara and state Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "official_government_directory",
+      "url": "https://highereducation.mp.gov.in/CollegeDisp/CollegeDispIndex",
+      "supports": [
+        "Madhya Pradesh Higher Education directory lists the Jatara government college entry as शा.कॉलेज,जतारा with directory value 467."
+      ]
+    },
+    {
+      "type": "official_government_directory_data",
+      "url": "https://highereducation.mp.gov.in/CollegeDisp/getTable",
+      "supports": [
+        "Official record identifies orgid 467 as Govt College, Jatara, CollegeCode 0704, District Tikamgarh."
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://highereducation.mp.gov.in/?orgid=467",
+      "supports": [
+        "Official Madhya Pradesh Higher Education college profile homepage for orgid 467; navigation exposes the institution's profile and academic sections."
+      ]
+    },
+    {
+      "type": "official_programme_catalogue",
+      "url": "https://highereducation.mp.gov.in/CollegeProfile/Course?orgid=467",
+      "supports": [
+        "Official Regular Courses page exposes PG, UG, and Diploma programme tables, but no programme rows are populated."
+      ]
+    },
+    {
+      "type": "official_programme_catalogue",
+      "url": "https://highereducation.mp.gov.in/CollegeProfile/CourseDistance?orgid=467",
+      "supports": [
+        "Official Distance Education Courses page exposes PG, UG, and Diploma distance tables, but no programme rows are populated."
+      ]
+    },
+    {
+      "type": "official_prospectus_page",
+      "url": "https://highereducation.mp.gov.in/?page=8GHJkR5C%2B1NhsO493dHRpg%3D%3D&orgid=467",
+      "supports": [
+        "Official Prospectus page for orgid 467 contains no programme or prospectus listing."
+      ]
+    },
+    {
+      "type": "official_profile_completeness",
+      "url": "https://highereducation.mp.gov.in/CollegeProfile/PrincipalMessage?orgid=467",
+      "supports": [
+        "Official profile page states that details have not been filled by the college."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Govt. College Jatara\" official website",
+      "result": "Bing returned generic government/search pages and no identifiable official institutional domain.",
+      "url": "https://www.bing.com/search?q=%22Govt.%20College%20Jatara%22%20official%20website"
+    },
+    {
+      "query": "\"Government College Jatara\" Madhya Pradesh",
+      "result": "Bing returned generic or unrelated government results; no identifiable official institutional domain was established from the search results.",
+      "url": "https://www.bing.com/search?q=%22Government%20College%20Jatara%22%20Madhya%20Pradesh"
+    },
+    {
+      "query": "site:ac.in Jatara college Madhya Pradesh",
+      "result": "Bing returned unrelated results and no identifiable official Jatara institution website.",
+      "url": "https://www.bing.com/search?q=site%3Aac.in%20Jatara%20college%20Madhya%20Pradesh"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [],
+  "agent_notes": [
+    "The NIRF 2025 listing contains the exact Govt. College Jatara row; the official Madhya Pradesh Higher Education directory independently identifies the campus as orgid 467, CollegeCode 0704, District Tikamgarh.",
+    "The official profile is established, but its Regular Courses and Distance Education Courses pages contain only empty PG, UG, and Diploma table headings; the Prospectus page contains no programme listing. The active catalogue therefore cannot be determined and requires manual review.",
+    "Duration and eligibility remain unpopulated because no official programme rows or explicit programme-specific facts were available.",
+    "The career tree database was inspected read-only; no mappings were created because no official course names were discoverable.",
+    "Normal TLS returned the exact proxy certificate-chain error; public GET requests were retried with --insecure only for the expected official and search hosts."
+  ]
+}

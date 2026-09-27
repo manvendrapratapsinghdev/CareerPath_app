@@ -1,0 +1,1008 @@
+{
+  "institution_id": "indian-institute-of-information-technology-allahabad",
+  "nirf_name": "Indian Institute of Information Technology Allahabad",
+  "verification_outcome": "verified",
+  "district": "Prayagraj",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://www.iiita.ac.in/",
+  "website_verification_status": "verified",
+  "description": "The Indian Institute of Information Technology Allahabad (IIIT-A) was established as a centre of excellence in information technology and allied areas and is an Institute of National Importance with a 100-acre campus in Jhalwa, Prayagraj.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "official_homepage",
+      "url": "https://www.iiita.ac.in/",
+      "supports": [
+        "institution identity",
+        "official website"
+      ]
+    },
+    {
+      "type": "official_about_page",
+      "url": "https://www.iiita.ac.in/about-us",
+      "supports": [
+        "institution description",
+        "Institute of National Importance status",
+        "campus description"
+      ]
+    },
+    {
+      "type": "official_campus_identity_page",
+      "url": "https://www.iiita.ac.in/reach-us",
+      "supports": [
+        "campus identity",
+        "Prayagraj district",
+        "Uttar Pradesh location"
+      ]
+    },
+    {
+      "type": "official_programme_catalogue",
+      "url": "https://www.iiita.ac.in/how-apply",
+      "supports": [
+        "2026 programme list",
+        "active programme names",
+        "programme lengths"
+      ]
+    },
+    {
+      "type": "official_eligibility_catalogue",
+      "url": "https://www.iiita.ac.in/eligibility-criteria",
+      "supports": [
+        "2026 programme eligibility",
+        "UG, PG, dual-degree and doctoral programme identities"
+      ]
+    },
+    {
+      "type": "official_department_programme_page",
+      "url": "https://www.iiita.ac.in/department-information-technology/program",
+      "supports": [
+        "IT programme catalogue corroboration"
+      ]
+    },
+    {
+      "type": "official_department_programme_page",
+      "url": "https://www.iiita.ac.in/department-electronics-and-communication-engineering/programs",
+      "supports": [
+        "ECE programme catalogue corroboration"
+      ]
+    },
+    {
+      "type": "official_department_programme_page",
+      "url": "https://www.iiita.ac.in/department-applied-science/programs",
+      "supports": [
+        "Applied Science programme catalogue corroboration"
+      ]
+    },
+    {
+      "type": "official_department_programme_page",
+      "url": "https://www.iiita.ac.in/department-management-studies/courses",
+      "supports": [
+        "MBA programme catalogue corroboration"
+      ]
+    },
+    {
+      "type": "official_department_admissions_page",
+      "url": "https://www.iiita.ac.in/department-management-studies/admissions",
+      "supports": [
+        "MBA duration and eligibility corroboration"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "site:iiita.ac.in IIIT Allahabad academic programmes",
+      "result": "Bing results included the official homepage titled \"IIIT-A - | Indian Institute of Information Technology, Allahabad\".",
+      "url": "https://www.iiita.ac.in/"
+    },
+    {
+      "query": "site:iiita.ac.in admission B.Tech M.Tech Ph.D. IIIT Allahabad",
+      "result": "Bing's visible RSS results did not return a focused IIIT Allahabad programme page; direct HTTPS retrieval of the official host then identified the admissions and programme pages.",
+      "url": null
+    },
+    {
+      "query": "site:iiita.ac.in/how-apply IIIT Allahabad Programme List 2026",
+      "result": "Bing results again included the official IIIT Allahabad homepage; the current programme list was verified by direct retrieval of the official /how-apply page.",
+      "url": "https://www.iiita.ac.in/how-apply"
+    }
+  ],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "indian-institute-of-information-technology-allahabad-iiita-btech-ece",
+      "name": "Electronics and Communication Engineering",
+      "level": "Undergraduate",
+      "credential": "B.Tech.",
+      "specialization": null,
+      "duration": "4-6 Years*",
+      "mode": "not_specified",
+      "eligibility": "Class XII (or equivalent) with Physics, Mathematics, and other prerequisite subjects under the established JEE Main criteria; admission is based on JEE Main merit/rank through CSAB / JoSAA allocation.",
+      "official_course_url": "https://www.iiita.ac.in/how-apply",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-information-technology-allahabad-iiita-btech-it",
+      "name": "Information Technology",
+      "level": "Undergraduate",
+      "credential": "B.Tech.",
+      "specialization": null,
+      "duration": "4-6 Years*",
+      "mode": "not_specified",
+      "eligibility": "Class XII (or equivalent) compliant with the official JEE Main criteria; admission is based on JEE Main merit/rank through CSAB / JoSAA allocation.",
+      "official_course_url": "https://www.iiita.ac.in/how-apply",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 89,
+          "career_node_slug": "btech_it",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Information Technology",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-information-technology-allahabad-iiita-btech-it-business-informatics",
+      "name": "Information Technology-Business Informatics",
+      "level": "Undergraduate",
+      "credential": "B.Tech.",
+      "specialization": "Business Informatics",
+      "duration": "4-6 Years*",
+      "mode": "not_specified",
+      "eligibility": "Class XII (or equivalent) compliant with the official JEE Main criteria; admission is based on JEE Main merit/rank through CSAB / JoSAA allocation.",
+      "official_course_url": "https://www.iiita.ac.in/how-apply",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 89,
+          "career_node_slug": "btech_it",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Information Technology",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest_parent_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-information-technology-allahabad-iiita-dual-btech-ece-mtech-ece",
+      "name": "Dual Degree B. Tech. (ECE) - M. Tech (ECE)",
+      "level": "Integrated / Dual Degree",
+      "credential": "B.Tech.-M.Tech.",
+      "specialization": null,
+      "duration": "5 Years*",
+      "mode": "not_specified",
+      "eligibility": "Class XII (or equivalent) under the standard JEE Main criterion; admission is governed by JEE Main merit through centralized allocation.",
+      "official_course_url": "https://www.iiita.ac.in/how-apply",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-information-technology-allahabad-iiita-dual-btech-it-mtech-it",
+      "name": "Dual Degree B. Tech. (IT) - M. Tech (IT)",
+      "level": "Integrated / Dual Degree",
+      "credential": "B.Tech.-M.Tech.",
+      "specialization": null,
+      "duration": "5 Years*",
+      "mode": "not_specified",
+      "eligibility": "Class XII (or equivalent) under the standard JEE Main criterion; admission is governed by JEE Main merit through centralized allocation.",
+      "official_course_url": "https://www.iiita.ac.in/how-apply",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 89,
+          "career_node_slug": "btech_it",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Information Technology",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-information-technology-allahabad-iiita-dual-btech-it-bin-mba",
+      "name": "Dual Degree B. Tech. (IT-Bin) - (MBA)",
+      "level": "Integrated / Dual Degree",
+      "credential": "B.Tech.-MBA",
+      "specialization": "Information Technology-Business Informatics",
+      "duration": "5 Years*",
+      "mode": "not_specified",
+      "eligibility": "Class XII (or equivalent) under the standard JEE Main criterion; admission is governed by JEE Main merit through centralized allocation.",
+      "official_course_url": "https://www.iiita.ac.in/how-apply",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 89,
+          "career_node_slug": "btech_it",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Information Technology",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest_parent_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-information-technology-allahabad-iiita-mtech-ece-communication-signal-processing",
+      "name": "M.Tech. ECE with specialization in Communication and Signal Processing",
+      "level": "Postgraduate",
+      "credential": "M.Tech.",
+      "specialization": "Communication and Signal Processing",
+      "duration": "2 Years*",
+      "mode": "not_specified",
+      "eligibility": "Valid B.Tech. or M.Sc. degree in a relevant discipline; final-year applicants may apply; a valid qualified GATE score is mandatory and seat allocation is via CCMT.",
+      "official_course_url": "https://www.iiita.ac.in/how-apply",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "nearest_parent_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-information-technology-allahabad-iiita-mtech-ece-microelectronics-vlsi",
+      "name": "M.Tech. ECE with specialization in Microelectronics and VLSI",
+      "level": "Postgraduate",
+      "credential": "M.Tech.",
+      "specialization": "Microelectronics and VLSI",
+      "duration": "2 Years*",
+      "mode": "not_specified",
+      "eligibility": "Valid B.Tech. or M.Sc. degree in a relevant discipline; final-year applicants may apply; a valid qualified GATE score is mandatory and seat allocation is via CCMT.",
+      "official_course_url": "https://www.iiita.ac.in/how-apply",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "nearest_parent_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-information-technology-allahabad-iiita-mtech-biomedical-analytics-engineering",
+      "name": "M.Tech. Biomedical Analytics and Engineering",
+      "level": "Postgraduate",
+      "credential": "M.Tech.",
+      "specialization": null,
+      "duration": "2 Years*",
+      "mode": "not_specified",
+      "eligibility": "Valid B.Tech. or M.Sc. degree in a relevant discipline; final-year applicants may apply; a valid qualified GATE score is mandatory and seat allocation is via CCMT.",
+      "official_course_url": "https://www.iiita.ac.in/how-apply",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 88,
+          "career_node_slug": "btech_biotech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Biotechnology",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-information-technology-allahabad-iiita-mtech-bioinformatics",
+      "name": "M.Tech Bioinformatics",
+      "level": "Postgraduate",
+      "credential": "M.Tech.",
+      "specialization": "Bioinformatics",
+      "duration": "2 Years*",
+      "mode": "not_specified",
+      "eligibility": "Valid B.Tech. or M.Sc. degree in a relevant discipline; final-year applicants may apply; a valid qualified GATE score is mandatory and seat allocation is via CCMT.",
+      "official_course_url": "https://www.iiita.ac.in/how-apply",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 88,
+          "career_node_slug": "btech_biotech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Biotechnology",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-information-technology-allahabad-iiita-mtech-it-ai-ml",
+      "name": "M.Tech. IT with specialization in Artificial Intelligence and Machine Learning",
+      "level": "Postgraduate",
+      "credential": "M.Tech.",
+      "specialization": "Artificial Intelligence and Machine Learning",
+      "duration": "2 Years*",
+      "mode": "not_specified",
+      "eligibility": "Valid B.Tech. or M.Sc. degree in a relevant discipline; final-year applicants may apply; a valid qualified GATE score is mandatory and seat allocation is via CCMT.",
+      "official_course_url": "https://www.iiita.ac.in/how-apply",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 81,
+          "career_node_slug": "btech_ai",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > AI & Machine Learning",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-information-technology-allahabad-iiita-mtech-it-robotics-ai",
+      "name": "Robotics and Artificial Intelligence",
+      "level": "Postgraduate",
+      "credential": "M.Tech.",
+      "specialization": "Robotics and Artificial Intelligence",
+      "duration": "2 Years*",
+      "mode": "not_specified",
+      "eligibility": "Valid B.Tech. or M.Sc. degree in a relevant discipline; final-year applicants may apply; a valid qualified GATE score is mandatory and seat allocation is via CCMT.",
+      "official_course_url": "https://www.iiita.ac.in/how-apply",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 176,
+          "career_node_slug": "robotics_ai",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Artificial Intelligence > Robotics & AI Specialist",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-information-technology-allahabad-iiita-mtech-it-hmi-immersive",
+      "name": "Human Machine Interaction and Immersive Technologies",
+      "level": "Postgraduate",
+      "credential": "M.Tech.",
+      "specialization": "Human Machine Interaction and Immersive Technologies",
+      "duration": "2 Years*",
+      "mode": "not_specified",
+      "eligibility": "Valid B.Tech. or M.Sc. degree in a relevant discipline; final-year applicants may apply; a valid qualified GATE score is mandatory and seat allocation is via CCMT.",
+      "official_course_url": "https://www.iiita.ac.in/how-apply",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-information-technology-allahabad-iiita-mtech-it-software-engineering-automation",
+      "name": "M.Tech. IT with specialization in Software Engineering and Automation",
+      "level": "Postgraduate",
+      "credential": "M.Tech.",
+      "specialization": "Software Engineering and Automation",
+      "duration": "2 Years*",
+      "mode": "not_specified",
+      "eligibility": "Valid B.Tech. or M.Sc. degree in a relevant discipline; final-year applicants may apply; a valid qualified GATE score is mandatory and seat allocation is via CCMT.",
+      "official_course_url": "https://www.iiita.ac.in/how-apply",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 307,
+          "career_node_slug": "sde",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science > Software Developer / Engineer",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-information-technology-allahabad-iiita-mtech-it-data-engineering",
+      "name": "M.Tech. IT with specialization in Data Engineering",
+      "level": "Postgraduate",
+      "credential": "M.Tech.",
+      "specialization": "Data Engineering",
+      "duration": "2 Years*",
+      "mode": "not_specified",
+      "eligibility": "Valid B.Tech. or M.Sc. degree in a relevant discipline; final-year applicants may apply; a valid qualified GATE score is mandatory and seat allocation is via CCMT.",
+      "official_course_url": "https://www.iiita.ac.in/how-apply",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 168,
+          "career_node_slug": "data_engineer",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Data Science > Data Engineer",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-information-technology-allahabad-iiita-mtech-it-networks-systems-computing",
+      "name": "M.Tech. IT with specialization in Networks Systems and Computing",
+      "level": "Postgraduate",
+      "credential": "M.Tech.",
+      "specialization": "Networks Systems and Computing",
+      "duration": "2 Years*",
+      "mode": "not_specified",
+      "eligibility": "Valid B.Tech. or M.Sc. degree in a relevant discipline; final-year applicants may apply; a valid qualified GATE score is mandatory and seat allocation is via CCMT.",
+      "official_course_url": "https://www.iiita.ac.in/how-apply",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 333,
+          "career_node_slug": "network_engineer",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Information Technology > Network Engineer",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-information-technology-allahabad-iiita-mtech-it-cyber-laws-information-security",
+      "name": "M.Tech. IT with specialization in Cyber Laws and Information Security",
+      "level": "Postgraduate",
+      "credential": "M.Tech.",
+      "specialization": "Cyber Laws and Information Security",
+      "duration": "2 Years*",
+      "mode": "not_specified",
+      "eligibility": "Valid B.Tech. or M.Sc. degree in a relevant discipline; final-year applicants may apply; a valid qualified GATE score is mandatory and seat allocation is via CCMT.",
+      "official_course_url": "https://www.iiita.ac.in/how-apply",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 379,
+          "career_node_slug": "cyber_lawyer_comm",
+          "career_breadcrumb": "Law & Legal > Cyber Law Specialist",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-information-technology-allahabad-iiita-mtech-quantum-information-technologies",
+      "name": "M. Tech. Quantum Information and Technologies",
+      "level": "Postgraduate",
+      "credential": "M.Tech.",
+      "specialization": "Quantum Information and Technologies",
+      "duration": "2 Years*",
+      "mode": "not_specified",
+      "eligibility": "Valid B.Tech. or M.Sc. degree in a relevant discipline; final-year applicants may apply; a valid qualified GATE score is mandatory and seat allocation is via CCMT.",
+      "official_course_url": "https://www.iiita.ac.in/how-apply",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "No exact quantum-information or physics-computing node exists in the career tree."
+    },
+    {
+      "course_id": "indian-institute-of-information-technology-allahabad-iiita-dual-mtech-phd-bioinformatics",
+      "name": "Dual Degree M.Tech.- Ph.D. in Bioinformatics",
+      "level": "Postgraduate / Dual Degree",
+      "credential": "M.Tech.-Ph.D.",
+      "specialization": "Bioinformatics",
+      "duration": "4-7 Years*",
+      "mode": "not_specified",
+      "eligibility": "Valid B.Tech. or M.Sc. degree in a relevant discipline; final-year applicants may apply; a valid qualified GATE score is required and admission is handled through CCMT.",
+      "official_course_url": "https://www.iiita.ac.in/how-apply",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 88,
+          "career_node_slug": "btech_biotech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Biotechnology",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-information-technology-allahabad-iiita-dual-mtech-phd-ece-microelectronics-vlsi",
+      "name": "Dual Degree M.Tech. -Ph.D. in ECE with specialization in Microelectronics and VLSI",
+      "level": "Postgraduate / Dual Degree",
+      "credential": "M.Tech.-Ph.D.",
+      "specialization": "Microelectronics and VLSI",
+      "duration": "4-7 Years*",
+      "mode": "not_specified",
+      "eligibility": "Valid B.Tech. or M.Sc. degree in a relevant discipline; final-year applicants may apply; a valid qualified GATE score is required and admission is handled through CCMT.",
+      "official_course_url": "https://www.iiita.ac.in/how-apply",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "nearest_parent_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-information-technology-allahabad-iiita-dual-mtech-phd-ece-communication-signal-processing",
+      "name": "Dual Degree M.Tech. Ph.D. in ECE with Specialization in Communication and Signal Processing",
+      "level": "Postgraduate / Dual Degree",
+      "credential": "M.Tech.-Ph.D.",
+      "specialization": "Communication and Signal Processing",
+      "duration": "4-7 Years*",
+      "mode": "not_specified",
+      "eligibility": "Valid B.Tech. or M.Sc. degree in a relevant discipline; final-year applicants may apply; a valid qualified GATE score is required and admission is handled through CCMT.",
+      "official_course_url": "https://www.iiita.ac.in/how-apply",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "nearest_parent_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-information-technology-allahabad-iiita-dual-mtech-phd-it-ai-ml",
+      "name": "Dual Degree M.Tech. Ph.D. in IT with specialization in Artificial Intelligence and Machine Learning",
+      "level": "Postgraduate / Dual Degree",
+      "credential": "M.Tech.-Ph.D.",
+      "specialization": "Artificial Intelligence and Machine Learning",
+      "duration": "4-7 Years*",
+      "mode": "not_specified",
+      "eligibility": "Valid B.Tech. or M.Sc. degree in a relevant discipline; final-year applicants may apply; a valid qualified GATE score is required and admission is handled through CCMT.",
+      "official_course_url": "https://www.iiita.ac.in/how-apply",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 81,
+          "career_node_slug": "btech_ai",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > AI & Machine Learning",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-information-technology-allahabad-iiita-dual-mtech-phd-it-robotics-ai",
+      "name": "Robotics and Artificial Intelligence",
+      "level": "Postgraduate / Dual Degree",
+      "credential": "M.Tech.-Ph.D.",
+      "specialization": "Robotics and Artificial Intelligence",
+      "duration": "4-7 Years*",
+      "mode": "not_specified",
+      "eligibility": "Valid B.Tech. or M.Sc. degree in a relevant discipline; final-year applicants may apply; a valid qualified GATE score is required and admission is handled through CCMT.",
+      "official_course_url": "https://www.iiita.ac.in/how-apply",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 176,
+          "career_node_slug": "robotics_ai",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Artificial Intelligence > Robotics & AI Specialist",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-information-technology-allahabad-iiita-dual-mtech-phd-it-hmi-immersive",
+      "name": "Human Machine Interaction and Immersive Technologies",
+      "level": "Postgraduate / Dual Degree",
+      "credential": "M.Tech.-Ph.D.",
+      "specialization": "Human Machine Interaction and Immersive Technologies",
+      "duration": "4-7 Years*",
+      "mode": "not_specified",
+      "eligibility": "Valid B.Tech. or M.Sc. degree in a relevant discipline; final-year applicants may apply; a valid qualified GATE score is required and admission is handled through CCMT.",
+      "official_course_url": "https://www.iiita.ac.in/how-apply",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-information-technology-allahabad-iiita-dual-mtech-phd-it-software-engineering-automation",
+      "name": "Dual Degree M.Tech. Ph.D. in IT with specialization in Software Engineering and Automation",
+      "level": "Postgraduate / Dual Degree",
+      "credential": "M.Tech.-Ph.D.",
+      "specialization": "Software Engineering and Automation",
+      "duration": "4-7 Years*",
+      "mode": "not_specified",
+      "eligibility": "Valid B.Tech. or M.Sc. degree in a relevant discipline; final-year applicants may apply; a valid qualified GATE score is required and admission is handled through CCMT.",
+      "official_course_url": "https://www.iiita.ac.in/how-apply",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 307,
+          "career_node_slug": "sde",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science > Software Developer / Engineer",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-information-technology-allahabad-iiita-dual-mtech-phd-it-data-engineering",
+      "name": "M.Tech. Ph.D. in IT with specialization in Data Engineering",
+      "level": "Postgraduate / Dual Degree",
+      "credential": "M.Tech.-Ph.D.",
+      "specialization": "Data Engineering",
+      "duration": "4-7 Years*",
+      "mode": "not_specified",
+      "eligibility": "Valid B.Tech. or M.Sc. degree in a relevant discipline; final-year applicants may apply; a valid qualified GATE score is required and admission is handled through CCMT.",
+      "official_course_url": "https://www.iiita.ac.in/how-apply",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 168,
+          "career_node_slug": "data_engineer",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Data Science > Data Engineer",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-information-technology-allahabad-iiita-dual-mtech-phd-it-networks-systems-computing",
+      "name": "Dual Degree M.Tech. Ph.D. in IT with specialization in Networks Systems and Computing",
+      "level": "Postgraduate / Dual Degree",
+      "credential": "M.Tech.-Ph.D.",
+      "specialization": "Networks Systems and Computing",
+      "duration": "4-7 Years*",
+      "mode": "not_specified",
+      "eligibility": "Valid B.Tech. or M.Sc. degree in a relevant discipline; final-year applicants may apply; a valid qualified GATE score is required and admission is handled through CCMT.",
+      "official_course_url": "https://www.iiita.ac.in/how-apply",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 333,
+          "career_node_slug": "network_engineer",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Information Technology > Network Engineer",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-information-technology-allahabad-iiita-dual-mtech-phd-it-cyber-laws-information-security",
+      "name": "Dual Degree M.Tech. Ph.D. in IT with specialization in Cyber Laws and Information Security",
+      "level": "Postgraduate / Dual Degree",
+      "credential": "M.Tech.-Ph.D.",
+      "specialization": "Cyber Laws and Information Security",
+      "duration": "4-7 Years*",
+      "mode": "not_specified",
+      "eligibility": "Valid B.Tech. or M.Sc. degree in a relevant discipline; final-year applicants may apply; a valid qualified GATE score is required and admission is handled through CCMT.",
+      "official_course_url": "https://www.iiita.ac.in/how-apply",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 379,
+          "career_node_slug": "cyber_lawyer_comm",
+          "career_breadcrumb": "Law & Legal > Cyber Law Specialist",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-information-technology-allahabad-iiita-mba",
+      "name": "Master of Business Administration, (MBA)",
+      "level": "Postgraduate",
+      "credential": "MBA",
+      "specialization": null,
+      "duration": "2 Years*",
+      "mode": "not_specified",
+      "eligibility": "B.Tech. or any 3-year graduate bachelor's degree in any discipline; final-year students may apply; a valid CAT, XAT, CMAT, GMAT, or MAT score is required.",
+      "official_course_url": "https://www.iiita.ac.in/how-apply",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest_parent_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-information-technology-allahabad-iiita-phd-fellowship-it",
+      "name": "Information Technology (IT)",
+      "level": "Doctoral",
+      "credential": "Ph.D.",
+      "specialization": null,
+      "duration": "With PG: 3-7 Yrs*; With UG: 4-7 Yrs*",
+      "mode": "regular",
+      "eligibility": "Postgraduate degree such as M.Tech., M.Pharm., M.Sc., MCA, MBA, or M.Com. (or equivalent) with at least 60% marks or 6.0 CGPI; direct entry after a 4-year bachelor's degree requires at least 70% or 7.0 CGPI. GATE/NET/JRF/CSIR/ICMR/CAT holders are exempt from Stage-I; others must clear IIITA-PET.",
+      "official_course_url": "https://www.iiita.ac.in/how-apply",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 89,
+          "career_node_slug": "btech_it",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Information Technology",
+          "relation": "nearest_parent_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-information-technology-allahabad-iiita-phd-fellowship-ece",
+      "name": "Electronics and Communication Engineering (ECE)",
+      "level": "Doctoral",
+      "credential": "Ph.D.",
+      "specialization": null,
+      "duration": "With PG: 3-7 Yrs*; With UG: 4-7 Yrs*",
+      "mode": "regular",
+      "eligibility": "Postgraduate degree such as M.Tech., M.Pharm., M.Sc., MCA, MBA, or M.Com. (or equivalent) with at least 60% marks or 6.0 CGPI; direct entry after a 4-year bachelor's degree requires at least 70% or 7.0 CGPI. GATE/NET/JRF/CSIR/ICMR/CAT holders are exempt from Stage-I; others must clear IIITA-PET.",
+      "official_course_url": "https://www.iiita.ac.in/how-apply",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "nearest_parent_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-information-technology-allahabad-iiita-phd-fellowship-applied-science",
+      "name": "Applied Science (AS) (Biomedical, Bioinformatics, Physics, Stats)",
+      "level": "Doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Biomedical, Bioinformatics, Physics, Stats",
+      "duration": "With PG: 3-7 Yrs*; With UG: 4-7 Yrs*",
+      "mode": "regular",
+      "eligibility": "Postgraduate degree such as M.Tech., M.Pharm., M.Sc., MCA, MBA, or M.Com. (or equivalent) with at least 60% marks or 6.0 CGPI; direct entry after a 4-year bachelor's degree requires at least 70% or 7.0 CGPI. GATE/NET/JRF/CSIR/ICMR/CAT holders are exempt from Stage-I; others must clear IIITA-PET.",
+      "official_course_url": "https://www.iiita.ac.in/how-apply",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 88,
+          "career_node_slug": "btech_biotech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Biotechnology",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        },
+        {
+          "career_node_id": 24,
+          "career_node_slug": "bsc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        },
+        {
+          "career_node_id": 6,
+          "career_node_slug": "bsc_stats",
+          "career_breadcrumb": "Maths / PCM > B.Sc Statistics",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-information-technology-allahabad-iiita-phd-fellowship-management-studies",
+      "name": "Management Studies (MS)",
+      "level": "Doctoral",
+      "credential": "Ph.D.",
+      "specialization": null,
+      "duration": "With PG: 3-7 Yrs*; With UG: 4-7 Yrs*",
+      "mode": "regular",
+      "eligibility": "Postgraduate degree such as M.Tech., M.Pharm., M.Sc., MCA, MBA, or M.Com. (or equivalent) with at least 60% marks or 6.0 CGPI; direct entry after a 4-year bachelor's degree requires at least 70% or 7.0 CGPI. GATE/NET/JRF/CSIR/ICMR/CAT holders are exempt from Stage-I; others must clear IIITA-PET.",
+      "official_course_url": "https://www.iiita.ac.in/how-apply",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest_parent_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-information-technology-allahabad-iiita-phd-working-it",
+      "name": "Information Technology (IT)",
+      "level": "Doctoral",
+      "credential": "Ph.D.",
+      "specialization": null,
+      "duration": "With PG: 3-7 Yrs*; With UG: 4-7 Yrs*",
+      "mode": "working_professional",
+      "eligibility": "Working professionals with B.Tech., B.Pharm., M.Tech., M.Sc., MCA, MBA, M.Com., or equivalent with at least 60% marks or 6.0 CGPI; at least 3 years of professional experience (2 years for graduates of Institutes of National Importance); employer NOC and supervisor acceptance letter are required, with direct evaluation by Stage-II interview.",
+      "official_course_url": "https://www.iiita.ac.in/how-apply",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 89,
+          "career_node_slug": "btech_it",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Information Technology",
+          "relation": "nearest_parent_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-information-technology-allahabad-iiita-phd-working-ece",
+      "name": "Electronics and Communication Engineering (ECE)",
+      "level": "Doctoral",
+      "credential": "Ph.D.",
+      "specialization": null,
+      "duration": "With PG: 3-7 Yrs*; With UG: 4-7 Yrs*",
+      "mode": "working_professional",
+      "eligibility": "Working professionals with B.Tech., B.Pharm., M.Tech., M.Sc., MCA, MBA, M.Com., or equivalent with at least 60% marks or 6.0 CGPI; at least 3 years of professional experience (2 years for graduates of Institutes of National Importance); employer NOC and supervisor acceptance letter are required, with direct evaluation by Stage-II interview.",
+      "official_course_url": "https://www.iiita.ac.in/how-apply",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "nearest_parent_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-information-technology-allahabad-iiita-phd-working-applied-science",
+      "name": "Applied Science (AS) (Biomedical, Bioinformatics, Physics, Stats)",
+      "level": "Doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Biomedical, Bioinformatics, Physics, Stats",
+      "duration": "With PG: 3-7 Yrs*; With UG: 4-7 Yrs*",
+      "mode": "working_professional",
+      "eligibility": "Working professionals with B.Tech., B.Pharm., M.Tech., M.Sc., MCA, MBA, M.Com., or equivalent with at least 60% marks or 6.0 CGPI; at least 3 years of professional experience (2 years for graduates of Institutes of National Importance); employer NOC and supervisor acceptance letter are required, with direct evaluation by Stage-II interview.",
+      "official_course_url": "https://www.iiita.ac.in/how-apply",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 88,
+          "career_node_slug": "btech_biotech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Biotechnology",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        },
+        {
+          "career_node_id": 24,
+          "career_node_slug": "bsc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        },
+        {
+          "career_node_id": 6,
+          "career_node_slug": "bsc_stats",
+          "career_breadcrumb": "Maths / PCM > B.Sc Statistics",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "indian-institute-of-information-technology-allahabad-iiita-phd-working-management-studies",
+      "name": "Management Studies (MS)",
+      "level": "Doctoral",
+      "credential": "Ph.D.",
+      "specialization": null,
+      "duration": "With PG: 3-7 Yrs*; With UG: 4-7 Yrs*",
+      "mode": "working_professional",
+      "eligibility": "Working professionals with B.Tech., B.Pharm., M.Tech., M.Sc., MCA, MBA, M.Com., or equivalent with at least 60% marks or 6.0 CGPI; at least 3 years of professional experience (2 years for graduates of Institutes of National Importance); employer NOC and supervisor acceptance letter are required, with direct evaluation by Stage-II interview.",
+      "official_course_url": "https://www.iiita.ac.in/how-apply",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest_parent_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The official /how-apply page provides a current Programme List & Sanctioned Seats Matrix 2026 with active B.Tech, dual-degree, M.Tech, MBA, and Ph.D. rows; it was used as the controlling catalogue for exact names and durations.",
+    "No named diploma or certificate programme appears in the current 2026 programme matrix; generic or expired short-term items were not added as courses.",
+    "Normal TLS retrieval failed with the managed-network error 'self signed certificate in certificate chain'; curl --insecure was used only for public GET requests to expected official hostnames."
+  ]
+}

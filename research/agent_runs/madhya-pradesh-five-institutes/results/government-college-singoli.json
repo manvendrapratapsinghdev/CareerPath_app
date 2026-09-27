@@ -1,0 +1,108 @@
+{
+  "institution_id": "government-college-singoli",
+  "nirf_name": "GOVERNMENT COLLEGE, SINGOLI",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "remove_candidate",
+  "district": null,
+  "district_verification_status": "pending_official_source",
+  "official_website": null,
+  "website_verification_status": "not_found",
+  "description": null,
+  "description_verification_status": "not_found",
+  "record_status": "remove_candidate",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing_match",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact entry GOVERNMENT COLLEGE, SINGOLI with city Singoli and state Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "government_directory_identity_crosscheck",
+      "url": "https://neemuch.nic.in/en/public-utility/virendra-kumar-saklecha-govt-college-singoli/",
+      "supports": [
+        "Same campus identified as Virendra Kumar Saklecha Govt. College Singoli",
+        "Location shown as Singoli, Neemuch"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Government College, Singoli\" Madhya Pradesh official",
+      "result": "No official institution website identified; results did not establish an official college domain.",
+      "url": "https://search.naver.com/search.naver?query=%22Government+College%2C+Singoli%22+Madhya+Pradesh+official"
+    },
+    {
+      "query": "Government College Singoli Neemuch official website",
+      "result": "No official institution website identified; results were unrelated or general government pages.",
+      "url": "https://search.naver.com/search.naver?query=Government+College+Singoli+Neemuch+official+website"
+    },
+    {
+      "query": "\"Government College, Singoli\" \"Neemuch\"",
+      "result": "Only the official Neemuch district directory entry was identified; no institution-owned website was established.",
+      "url": "https://search.naver.com/search.naver?query=%22Government+College%2C+Singoli%22+%22Neemuch%22"
+    },
+    {
+      "query": "\"Virendra Kumar Saklecha Govt. College Singoli\"",
+      "result": "The official Neemuch district public-utility page was identified; no separate institution website or catalogue was found.",
+      "url": "https://search.naver.com/search.naver?query=%22Virendra+Kumar+Saklecha+Govt.+College+Singoli%22"
+    },
+    {
+      "query": "\"principalsingoli@yahoo.com\"",
+      "result": "The email appeared only on the official Neemuch district directory page; no official college website was identified.",
+      "url": "https://search.naver.com/search.naver?query=%22principalsingoli%40yahoo.com%22"
+    },
+    {
+      "query": "site:mp.gov.in \"Government College Singoli\"",
+      "result": "No official institution website or programme catalogue was identified.",
+      "url": "https://search.naver.com/search.naver?query=site%3Amp.gov.in+%22Government+College+Singoli%22"
+    },
+    {
+      "query": "site:vikramuniv.ac.in Singoli",
+      "result": "No official university page establishing an institution website or programme catalogue was identified.",
+      "url": "https://search.naver.com/search.naver?query=site%3Avikramuniv.ac.in+Singoli"
+    },
+    {
+      "query": "site:highereducation.mp.gov.in Singoli college",
+      "result": "No official institution website or programme catalogue was identified.",
+      "url": "https://search.naver.com/search.naver?query=site%3Ahighereducation.mp.gov.in+Singoli+college"
+    },
+    {
+      "query": "site:ac.in Singoli college Madhya Pradesh",
+      "result": "No matching official institution website was identified.",
+      "url": "https://search.naver.com/search.naver?query=site%3Aac.in+Singoli+college+Madhya+Pradesh"
+    },
+    {
+      "query": "site:edu.in \"Government College\" Singoli",
+      "result": "No matching official institution website was identified.",
+      "url": "https://search.naver.com/search.naver?query=site%3Aedu.in+%22Government+College%22+Singoli"
+    },
+    {
+      "query": "site:nic.in Singoli college Madhya Pradesh",
+      "result": "The official Neemuch district directory entry was identified, but no separate institution website or course catalogue was found.",
+      "url": "https://search.naver.com/search.naver?query=site%3Anic.in+Singoli+college+Madhya+Pradesh"
+    },
+    {
+      "query": "Authoritative-domain check: NIRF 2025 CollegeRankingALL",
+      "result": "The government listing contains GOVERNMENT COLLEGE, SINGOLI, Singoli, Madhya Pradesh.",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+    },
+    {
+      "query": "Authoritative-domain check: Neemuch district college directory",
+      "result": "The government directory identifies Virendra Kumar Saklecha Govt. College Singoli at Singoli, Neemuch and provides contact details, but no institution website or catalogue.",
+      "url": "https://neemuch.nic.in/en/public-utility/virendra-kumar-saklecha-govt-college-singoli/"
+    }
+  ],
+  "course_catalogue_status": "not_found",
+  "courses": [],
+  "agent_notes": [
+    "The NIRF government listing was established and matches the assigned institution, city, and state.",
+    "The official Neemuch district directory cross-checks the campus as Virendra Kumar Saklecha Govt. College Singoli in Singoli, Neemuch, but it is not the institution's actual official website and was not used as website, description, or programme-catalogue evidence.",
+    "At least two focused CLI web searches plus authoritative-domain checks did not establish an institution-owned official website or official course catalogue, so the candidate is removed.",
+    "Normal TLS produced the exact managed-proxy self-signed-certificate-chain error for expected government hosts; curl --insecure was used only for public GET requests to www.nirfindia.org and neemuch.nic.in."
+  ]
+}

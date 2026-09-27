@@ -1,0 +1,85 @@
+{
+  "institution_id": "government-college-phoop",
+  "nirf_name": "Government College, Phoop",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Bhind",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://highereducation.mp.gov.in/?orgid=78",
+  "website_verification_status": "verified",
+  "description": "Government College, Phoop is a government higher-education institution in Phoop, Bhind district, Madhya Pradesh.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact NIRF row: Government College, Phoop; city Phoop; state Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "official_state_higher_education_college_directory",
+      "url": "https://highereducation.mp.gov.in/?page=3ReniKuyIMmDd4opO%2FkIdA%3D%3D",
+      "supports": [
+        "Official MP Higher Education directory entry for शा.कॉलेज,फूप, college id 78"
+      ]
+    },
+    {
+      "type": "official_state_higher_education_college_directory_api",
+      "url": "https://highereducation.mp.gov.in/CollegeDisp/getTable",
+      "supports": [
+        "Official record for orgid 78: Govt. College, Phoop; college code 0211; district Bhind"
+      ]
+    },
+    {
+      "type": "official_institution_profile",
+      "url": "https://highereducation.mp.gov.in/?orgid=78",
+      "supports": [
+        "Official MP Higher Education institution-specific profile route for college id 78"
+      ]
+    },
+    {
+      "type": "official_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=IuWw%2F1QuIqAsetElIsy0jA%3D%3D&orgid=78",
+      "supports": [
+        "Official Regular Courses page with PG, UG, and Diploma sections; no programme rows are published"
+      ]
+    },
+    {
+      "type": "official_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=xFBhXQWDlXBHd6HAi4SvLg%3D%3D&orgid=78",
+      "supports": [
+        "Official Distance Education Courses page with PG, UG, and Diploma sections; no programme rows are published"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "Government College Phoop official website",
+      "result": "Bing returned generic unrelated government-directory results and no institution-specific official domain.",
+      "url": "https://www.bing.com/search?q=Government+College+Phoop+official+website&format=rss"
+    },
+    {
+      "query": "Government College Phoop Bhind Madhya Pradesh",
+      "result": "Bing returned generic unrelated results and no institution-specific official domain.",
+      "url": "https://www.bing.com/search?q=Government+College+Phoop+Bhind+Madhya+Pradesh&format=rss"
+    },
+    {
+      "query": "\"Government College, Phoop\"",
+      "result": "Bing returned generic unrelated results and no institution-specific official domain.",
+      "url": "https://www.bing.com/search?q=%22Government+College%2C+Phoop%22&format=rss"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [],
+  "agent_notes": [
+    "The NIRF government listing and the official Madhya Pradesh Higher Education directory independently identify the Phoop campus; the state directory maps it to Bhind district and college id 78.",
+    "The official institution profile is available on the state Higher Education portal, but its Regular Courses and Distance Education Courses pages contain only empty PG, UG, and Diploma tables. No active programme name can be imported without guessing, so manual_review is required.",
+    "No separate dedicated institution domain was established in focused searches.",
+    "Normal TLS verification produced the exact managed-proxy self-signed-certificate-chain error; after confirming the expected public hosts, curl --insecure was used only for public GET requests."
+  ]
+}

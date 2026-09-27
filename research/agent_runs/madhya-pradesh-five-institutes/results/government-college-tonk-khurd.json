@@ -1,0 +1,322 @@
+{
+  "institution_id": "government-college-tonk-khurd",
+  "nirf_name": "GOVERNMENT COLLEGE, TONK KHURD",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "verified",
+  "district": "Dewas",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://highereducation.mp.gov.in/?orgid=143",
+  "website_verification_status": "verified",
+  "description": "Government College Tonk Khurd is a Madhya Pradesh Department of Higher Education government college established in 2012 at Tonk Khurd, Dewas district, Madhya Pradesh.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact institution name, city, and Madhya Pradesh state match"
+      ]
+    },
+    {
+      "type": "official_government_directory",
+      "url": "https://highereducation.mp.gov.in/CollegeDisp/getTable",
+      "supports": [
+        "Official directory identifies orgid 143 as Govt College, Tokkhurd, CollegeCode 2009, District Dewas"
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://highereducation.mp.gov.in/?orgid=143",
+      "supports": [
+        "Institution-specific official homepage identifies शासकीय महाविद्यालय टोंकखुर्द under the Higher Education Department, Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "official_at_a_glance",
+      "url": "https://highereducation.mp.gov.in/?page=FRdlSq5HPqGw23H77LFyGw%3D%3D&orgid=143",
+      "supports": [
+        "Official institution summary states establishment year 2012 and current student/programme counts"
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "https://highereducation.mp.gov.in/?page=0Gvp9IoyNWu2sUvbvf6OLA%3D%3D&orgid=143",
+      "supports": [
+        "Official address identifies GOVERNMENT COLLEGE TONKKHURD, DISTT-DEWAS, Madhya Pradesh; page names the same URL as the college website"
+      ]
+    },
+    {
+      "type": "official_regular_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=SsQ%2F%2BkByJQARUe5ejeI6yw%3D%3D&orgid=143",
+      "supports": [
+        "Official Programmes Offered page lists six UG programmes and shows no populated PG or Diploma rows"
+      ]
+    },
+    {
+      "type": "official_distance_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=AghFitLX7GKsyMZv%2FpCGTQ%3D%3D&orgid=143",
+      "supports": [
+        "Official Distance Education Programme page contains no populated course rows"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "site:mp.gov.in \"Government College, Tonk Khurd\"",
+      "result": "Google returned an access/challenge page and no institution-specific official result was used.",
+      "url": "https://www.google.com/search?q=site%3Amp.gov.in+%22Government+College%2C+Tonk+Khurd%22"
+    },
+    {
+      "query": "\"Government College Tonk Khurd\" official",
+      "result": "Bing returned generic or unrelated government results; no search result was used as verification evidence.",
+      "url": "https://www.bing.com/search?q=%22Government+College+Tonk+Khurd%22+official"
+    }
+  ],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "government-college-tonk-khurd-gc-tonk-khurd-ug-ba-english-literature-history-political-science",
+      "name": "B. A. (English Literature - History - Political Science)",
+      "level": "Undergraduate",
+      "credential": "B.A.",
+      "specialization": null,
+      "duration": null,
+      "mode": "Regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=SsQ%2F%2BkByJQARUe5ejeI6yw%3D%3D&orgid=143",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-tonk-khurd-gc-tonk-khurd-ug-ba-economics-hindi-history",
+      "name": "B. A. (Economics - Hindi - History)",
+      "level": "Undergraduate",
+      "credential": "B.A.",
+      "specialization": null,
+      "duration": null,
+      "mode": "Regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=SsQ%2F%2BkByJQARUe5ejeI6yw%3D%3D&orgid=143",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "closest-specialization mapping for Hindi",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        },
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-tonk-khurd-gc-tonk-khurd-ug-ba-hindi-literature-history-political-science",
+      "name": "B. A. (Hindi Literature - History - Political Science)",
+      "level": "Undergraduate",
+      "credential": "B.A.",
+      "specialization": null,
+      "duration": null,
+      "mode": "Regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=SsQ%2F%2BkByJQARUe5ejeI6yw%3D%3D&orgid=143",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "closest-specialization mapping for Hindi Literature",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        },
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-tonk-khurd-gc-tonk-khurd-ug-ba-economics-english-political-science",
+      "name": "B. A. (Economics - English - Political Science)",
+      "level": "Undergraduate",
+      "credential": "B.A.",
+      "specialization": null,
+      "duration": null,
+      "mode": "Regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=SsQ%2F%2BkByJQARUe5ejeI6yw%3D%3D&orgid=143",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-tonk-khurd-gc-tonk-khurd-ug-ba-english-geography-political-science",
+      "name": "B. A. (English - Geography - Political Science)",
+      "level": "Undergraduate",
+      "credential": "B.A.",
+      "specialization": null,
+      "duration": null,
+      "mode": "Regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=SsQ%2F%2BkByJQARUe5ejeI6yw%3D%3D&orgid=143",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent mapping for Geography; no exact Geography node exists",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-tonk-khurd-gc-tonk-khurd-ug-ba-geography-hindi-political-science",
+      "name": "B. A. (Geography - Hindi - Political Science)",
+      "level": "Undergraduate",
+      "credential": "B.A.",
+      "specialization": null,
+      "duration": null,
+      "mode": "Regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=SsQ%2F%2BkByJQARUe5ejeI6yw%3D%3D&orgid=143",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "closest-specialization mapping for Hindi",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent mapping for Geography; no exact Geography node exists",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "Normal TLS verification first failed with the managed proxy error 'self signed certificate in certificate chain'; curl --insecure was used only for public GET requests to the expected NIRF, search-engine, and Madhya Pradesh Higher Education Department hosts.",
+    "The official state college directory confirms orgid 143, CollegeCode 2009, Govt College, Tokkhurd, and District Dewas; the institution-specific official portal explicitly names the college website as https://highereducation.mp.gov.in/?orgid=143.",
+    "The official Regular Courses page contains six UG rows. Its PG and Diploma sections, the official Distance Education Programme page, and the institution's New Course Started page contain no populated programme rows. Duration, eligibility, and seats are blank in the catalogue and were left null.",
+    "The career tree has no exact Geography node; Geography components use the nearest Art > Social Sciences & Education parent at low confidence. Hindi/Hindi Literature uses the existing BA Hindi / Regional Language node with medium confidence."
+  ]
+}

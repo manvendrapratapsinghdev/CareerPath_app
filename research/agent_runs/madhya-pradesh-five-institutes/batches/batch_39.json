@@ -1,0 +1,78 @@
+{
+  "batch": 39,
+  "started_at": "2026-09-27T07:34:09.285043+00:00",
+  "finished_at": "2026-09-27T07:40:40.930069+00:00",
+  "assignment_count": 5,
+  "completed_count": 4,
+  "skipped_count": 0,
+  "failed_count": 1,
+  "results": [
+    {
+      "institution_id": "bhartiya-institute-of-professional-studies-ujjain",
+      "nirf_name": "BHARTIYA INSTITUTE OF PROFESSIONAL STUDIES UJJAIN",
+      "status": "completed",
+      "started_at": "2026-09-27T07:34:09.305042+00:00",
+      "finished_at": "2026-09-27T07:40:05.187641+00:00",
+      "duration_seconds": 355.858,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/results/bhartiya-institute-of-professional-studies-ujjain.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/bhartiya-institute-of-professional-studies-ujjain.jsonl"
+    },
+    {
+      "institution_id": "gov-college-tarana",
+      "nirf_name": "Gov.College, Tarana",
+      "status": "completed",
+      "started_at": "2026-09-27T07:34:09.295511+00:00",
+      "finished_at": "2026-09-27T07:39:24.654899+00:00",
+      "duration_seconds": 315.345,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/results/gov-college-tarana.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/gov-college-tarana.jsonl"
+    },
+    {
+      "institution_id": "government-college-palera",
+      "nirf_name": "Government college palera",
+      "status": "completed",
+      "started_at": "2026-09-27T07:34:09.394674+00:00",
+      "finished_at": "2026-09-27T07:37:05.359608+00:00",
+      "duration_seconds": 175.954,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/results/government-college-palera.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/government-college-palera.jsonl"
+    },
+    {
+      "institution_id": "government-college-soyatkala",
+      "nirf_name": "Government College Soyatkala",
+      "status": "failed",
+      "started_at": "2026-09-27T07:34:09.295552+00:00",
+      "finished_at": "2026-09-27T07:40:40.928606+00:00",
+      "duration_seconds": 391.616,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [
+        "government-college-soyatkala-bsc-botany-chemistry-zoology: duplicate career node 21"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/government-college-soyatkala.jsonl"
+    },
+    {
+      "institution_id": "government-college-tonk-khurd",
+      "nirf_name": "GOVERNMENT COLLEGE, TONK KHURD",
+      "status": "completed",
+      "started_at": "2026-09-27T07:34:09.304939+00:00",
+      "finished_at": "2026-09-27T07:40:18.587436+00:00",
+      "duration_seconds": 369.268,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/results/government-college-tonk-khurd.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/government-college-tonk-khurd.jsonl"
+    }
+  ]
+}

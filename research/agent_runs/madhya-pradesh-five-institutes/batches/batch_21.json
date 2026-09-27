@@ -1,0 +1,91 @@
+{
+  "batch": 21,
+  "started_at": "2026-09-27T07:13:01.982332+00:00",
+  "finished_at": "2026-09-27T07:13:13.648246+00:00",
+  "assignment_count": 5,
+  "completed_count": 0,
+  "skipped_count": 0,
+  "failed_count": 5,
+  "results": [
+    {
+      "institution_id": "government-college-bargi",
+      "nirf_name": "GOVERNMENT COLLEGE, BARGI",
+      "status": "failed",
+      "started_at": "2026-09-27T07:13:01.993147+00:00",
+      "finished_at": "2026-09-27T07:13:13.516896+00:00",
+      "duration_seconds": 11.523,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/government-college-bargi.jsonl"
+    },
+    {
+      "institution_id": "government-engineering-college",
+      "nirf_name": "Government Engineering College",
+      "status": "failed",
+      "started_at": "2026-09-27T07:13:01.993669+00:00",
+      "finished_at": "2026-09-27T07:13:13.572842+00:00",
+      "duration_seconds": 11.579,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/government-engineering-college.jsonl"
+    },
+    {
+      "institution_id": "govt-autonmous-science-college-civil-linesr-jabalpur",
+      "nirf_name": "Govt. Autonmous Science College, Civil Linesr, Jabalpur",
+      "status": "failed",
+      "started_at": "2026-09-27T07:13:02.006678+00:00",
+      "finished_at": "2026-09-27T07:13:13.610735+00:00",
+      "duration_seconds": 11.604,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/govt-autonmous-science-college-civil-linesr-jabalpur.jsonl"
+    },
+    {
+      "institution_id": "govt-autonomous-m-k-b-arts-commerce-college-for-women-wright-town-jabalpur",
+      "nirf_name": "Govt. Autonomous M.K.B. Arts & Commerce College for Women, Wright Town\r\n                                                Jabalpur",
+      "status": "failed",
+      "started_at": "2026-09-27T07:13:02.006798+00:00",
+      "finished_at": "2026-09-27T07:13:13.479961+00:00",
+      "duration_seconds": 11.473,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/govt-autonomous-m-k-b-arts-commerce-college-for-women-wright-town-jabalpur.jsonl"
+    },
+    {
+      "institution_id": "govt-mahakoshal-autonmous-arts-commerece-college-civil-line-jabalpur",
+      "nirf_name": "Govt . Mahakoshal Autonmous Arts. & Commerece College, Civil Line\r\n                                                Jabalpur",
+      "status": "failed",
+      "started_at": "2026-09-27T07:13:01.993539+00:00",
+      "finished_at": "2026-09-27T07:13:12.959236+00:00",
+      "duration_seconds": 10.965,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/govt-mahakoshal-autonmous-arts-commerece-college-civil-line-jabalpur.jsonl"
+    }
+  ]
+}

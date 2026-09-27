@@ -1,0 +1,960 @@
+{
+  "institution_id": "banda-university-of-agriculture-and-technology",
+  "nirf_name": "Banda University of Agriculture and Technology",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/AgricultureRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Banda",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://buat.edu.in/",
+  "website_verification_status": "verified",
+  "description": "Banda University of Agriculture and Technology is a full-fledged state agricultural university established in 2010 in Banda, Uttar Pradesh, serving the Bundelkhand region through teaching, research, and extension in agriculture and allied sectors.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory_agriculture",
+      "url": "https://www.nirfindia.org/Rankings/2025/AgricultureRankingALL.html",
+      "supports": [
+        "government listing contains Banda University of Agriculture and Technology with city Banda and state Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "government_directory_overall",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "government listing contains Banda University of Agriculture and Technology with city Banda and state Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://buat.edu.in/",
+      "supports": [
+        "official institution identity",
+        "Banda campus identity",
+        "state agricultural university context"
+      ]
+    },
+    {
+      "type": "official_about",
+      "url": "https://buat.edu.in/about-overview/",
+      "supports": [
+        "full-fledged state-university status",
+        "establishment in 2010",
+        "Bundelkhand agriculture and allied-sectors mission"
+      ]
+    },
+    {
+      "type": "official_contact",
+      "url": "https://buat.edu.in/contact-us/",
+      "supports": [
+        "campus address in Banda, Uttar Pradesh 210001"
+      ]
+    },
+    {
+      "type": "official_academic_catalogue",
+      "url": "https://buat.edu.in/academic-programs/",
+      "supports": [
+        "six undergraduate programme names",
+        "seventeen postgraduate programme names",
+        "fourteen doctoral programme names",
+        "postgraduate diploma tab status"
+      ]
+    },
+    {
+      "type": "official_admissions",
+      "url": "https://buat.edu.in/admission-process-and-guidelines/",
+      "supports": [
+        "official admissions page reviewed; it embeds a current UPCATET brochure but does not provide programme-specific facts used here"
+      ]
+    },
+    {
+      "type": "official_colleges",
+      "url": "https://buat.edu.in/colleges/",
+      "supports": [
+        "official college listing including agriculture, horticulture, forestry, food technology, agricultural engineering and technology, and veterinary and animal sciences"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Banda University of Agriculture and Technology\" official website",
+      "result": "Bing returned unrelated Banda results and did not identify the institution homepage.",
+      "url": "https://www.bing.com/search?q=%22Banda+University+of+Agriculture+and+Technology%22+official+website"
+    },
+    {
+      "query": "Banda University of Agriculture and Technology BUAT",
+      "result": "Bing returned unrelated Banda results and did not identify the institution homepage.",
+      "url": "https://www.bing.com/search?q=Banda+University+of+Agriculture+and+Technology+BUAT"
+    },
+    {
+      "query": "buat.edu.in authoritative-domain check",
+      "result": "DNS resolved buat.edu.in to 103.50.163.32 and HTTPS served the Banda University of Agriculture and Technology homepage.",
+      "url": "https://buat.edu.in/"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "banda-university-of-agriculture-and-technology-buat_ug_bsc_hons_agriculture",
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "credential": "B.Sc. (Hons.)",
+      "specialization": null,
+      "duration": null,
+      "mode": "Not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://buat.edu.in/academic-programs/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "banda-university-of-agriculture-and-technology-buat_ug_bsc_hons_horticulture",
+      "name": "B.Sc. (Hons.) Horticulture",
+      "level": "Undergraduate",
+      "credential": "B.Sc. (Hons.)",
+      "specialization": null,
+      "duration": null,
+      "mode": "Not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://buat.edu.in/academic-programs/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "nearest_parent_agriculture_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "banda-university-of-agriculture-and-technology-buat_ug_bsc_hons_forestry",
+      "name": "B.Sc. (Hons.) Forestry",
+      "level": "Undergraduate",
+      "credential": "B.Sc. (Hons.)",
+      "specialization": null,
+      "duration": null,
+      "mode": "Not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://buat.edu.in/academic-programs/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 26,
+          "career_node_slug": "bsc_env",
+          "career_breadcrumb": "Common Paths > B.Sc Environmental Science",
+          "relation": "closest_specialization_environmental_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "banda-university-of-agriculture-and-technology-buat_ug_bsc_hons_community_science",
+      "name": "B.Sc. (Hons.) Community Science",
+      "level": "Undergraduate",
+      "credential": "B.Sc. (Hons.)",
+      "specialization": null,
+      "duration": null,
+      "mode": "Not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://buat.edu.in/academic-programs/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 271,
+          "career_node_slug": "community_developer",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology > Community Development Officer",
+          "relation": "closest_specialization_community_development",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "banda-university-of-agriculture-and-technology-buat_ug_btech_agricultural_engineering",
+      "name": "B. Tech. Agricultural Engineering",
+      "level": "Undergraduate",
+      "credential": "B. Tech.",
+      "specialization": null,
+      "duration": null,
+      "mode": "Not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://buat.edu.in/academic-programs/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest_parent_engineering_degree_family",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "banda-university-of-agriculture-and-technology-buat_ug_btech_food_technology",
+      "name": "B. Tech. Food Technology",
+      "level": "Undergraduate",
+      "credential": "B. Tech.",
+      "specialization": null,
+      "duration": null,
+      "mode": "Not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://buat.edu.in/academic-programs/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 28,
+          "career_node_slug": "bsc_food_tech",
+          "career_breadcrumb": "Common Paths > B.Sc Food Technology",
+          "relation": "direct_discipline_degree_label_mismatch",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "banda-university-of-agriculture-and-technology-buat_pg_msc_agronomy",
+      "name": "M.Sc. (Ag.) in Agronomy",
+      "level": "Postgraduate",
+      "credential": "M.Sc. (Ag.)",
+      "specialization": "Agronomy",
+      "duration": null,
+      "mode": "Not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://buat.edu.in/academic-programs/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "nearest_parent_agriculture_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "banda-university-of-agriculture-and-technology-buat_pg_msc_agricultural_economics",
+      "name": "M.Sc. (Ag.) in Agricultural Economics",
+      "level": "Postgraduate",
+      "credential": "M.Sc. (Ag.)",
+      "specialization": "Agricultural Economics",
+      "duration": null,
+      "mode": "Not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://buat.edu.in/academic-programs/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "closest_specialization_economics",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "banda-university-of-agriculture-and-technology-buat_pg_msc_agricultural_extension_education",
+      "name": "M.Sc. (Ag.) in Agricultural Extension Education",
+      "level": "Postgraduate",
+      "credential": "M.Sc. (Ag.)",
+      "specialization": "Agricultural Extension Education",
+      "duration": null,
+      "mode": "Not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://buat.edu.in/academic-programs/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "nearest_parent_agriculture_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "banda-university-of-agriculture-and-technology-buat_pg_msc_agricultural_statistics",
+      "name": "M.Sc. (Ag.) in Agricultural Statistics",
+      "level": "Postgraduate",
+      "credential": "M.Sc. (Ag.)",
+      "specialization": "Agricultural Statistics",
+      "duration": null,
+      "mode": "Not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://buat.edu.in/academic-programs/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 6,
+          "career_node_slug": "bsc_stats",
+          "career_breadcrumb": "Maths / PCM > B.Sc Statistics",
+          "relation": "closest_specialization_statistics",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "banda-university-of-agriculture-and-technology-buat_pg_msc_entomology",
+      "name": "M.Sc. (Ag.) in Entomology",
+      "level": "Postgraduate",
+      "credential": "M.Sc. (Ag.)",
+      "specialization": "Entomology",
+      "duration": null,
+      "mode": "Not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://buat.edu.in/academic-programs/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest_specialization_biological_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "banda-university-of-agriculture-and-technology-buat_pg_msc_genetics_and_plant_breeding",
+      "name": "M.Sc. (Ag.) in Genetics and Plant Breeding",
+      "level": "Postgraduate",
+      "credential": "M.Sc. (Ag.)",
+      "specialization": "Genetics and Plant Breeding",
+      "duration": null,
+      "mode": "Not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://buat.edu.in/academic-programs/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest_specialization_biological_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "banda-university-of-agriculture-and-technology-buat_pg_msc_plant_pathology",
+      "name": "M.Sc. (Ag.) in Plant Pathology",
+      "level": "Postgraduate",
+      "credential": "M.Sc. (Ag.)",
+      "specialization": "Plant Pathology",
+      "duration": null,
+      "mode": "Not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://buat.edu.in/academic-programs/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest_specialization_biological_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "banda-university-of-agriculture-and-technology-buat_pg_msc_soil_science",
+      "name": "M.Sc. (Ag.) in Soil Science",
+      "level": "Postgraduate",
+      "credential": "M.Sc. (Ag.)",
+      "specialization": "Soil Science",
+      "duration": null,
+      "mode": "Not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://buat.edu.in/academic-programs/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 26,
+          "career_node_slug": "bsc_env",
+          "career_breadcrumb": "Common Paths > B.Sc Environmental Science",
+          "relation": "closest_specialization_environmental_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "banda-university-of-agriculture-and-technology-buat_pg_msc_vegetable_science",
+      "name": "M.Sc. (Hort.) in Vegetable Science",
+      "level": "Postgraduate",
+      "credential": "M.Sc. (Hort.)",
+      "specialization": "Vegetable Science",
+      "duration": null,
+      "mode": "Not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://buat.edu.in/academic-programs/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "nearest_parent_agriculture_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "banda-university-of-agriculture-and-technology-buat_pg_msc_fruit_science",
+      "name": "M.Sc. (Hort.) in Fruit Science",
+      "level": "Postgraduate",
+      "credential": "M.Sc. (Hort.)",
+      "specialization": "Fruit Science",
+      "duration": null,
+      "mode": "Not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://buat.edu.in/academic-programs/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "nearest_parent_agriculture_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "banda-university-of-agriculture-and-technology-buat_pg_msc_floriculture_landscape_architecture",
+      "name": "M.Sc. (Hort.) in Floriculture and Landscape Architecture",
+      "level": "Postgraduate",
+      "credential": "M.Sc. (Hort.)",
+      "specialization": "Floriculture and Landscape Architecture",
+      "duration": null,
+      "mode": "Not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://buat.edu.in/academic-programs/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "nearest_parent_agriculture_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "banda-university-of-agriculture-and-technology-buat_pg_msc_post_harvest_management",
+      "name": "M.Sc. (Hort.) in Post Harvest Management",
+      "level": "Postgraduate",
+      "credential": "M.Sc. (Hort.)",
+      "specialization": "Post Harvest Management",
+      "duration": null,
+      "mode": "Not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://buat.edu.in/academic-programs/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "nearest_parent_agriculture_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "banda-university-of-agriculture-and-technology-buat_pg_msc_biochemistry",
+      "name": "M.Sc. (Ag.) in Biochemistry",
+      "level": "Postgraduate",
+      "credential": "M.Sc. (Ag.)",
+      "specialization": "Biochemistry",
+      "duration": null,
+      "mode": "Not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://buat.edu.in/academic-programs/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 35,
+          "career_node_slug": "bsc_biochem",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Biochemistry",
+          "relation": "direct_discipline_degree_label_mismatch",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "banda-university-of-agriculture-and-technology-buat_pg_msc_forestry_silviculture_and_agroforestry",
+      "name": "M.Sc. Forestry in Silviculture and Agroforestry",
+      "level": "Postgraduate",
+      "credential": "M.Sc. Forestry",
+      "specialization": "Silviculture and Agroforestry",
+      "duration": null,
+      "mode": "Not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://buat.edu.in/academic-programs/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 26,
+          "career_node_slug": "bsc_env",
+          "career_breadcrumb": "Common Paths > B.Sc Environmental Science",
+          "relation": "closest_specialization_environmental_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "banda-university-of-agriculture-and-technology-buat_pg_msc_forestry_forest_biology_and_tree_improvement",
+      "name": "M.Sc. Forestry in Forest Biology & Tree Improvement",
+      "level": "Postgraduate",
+      "credential": "M.Sc. Forestry",
+      "specialization": "Forest Biology & Tree Improvement",
+      "duration": null,
+      "mode": "Not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://buat.edu.in/academic-programs/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 26,
+          "career_node_slug": "bsc_env",
+          "career_breadcrumb": "Common Paths > B.Sc Environmental Science",
+          "relation": "closest_specialization_environmental_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "banda-university-of-agriculture-and-technology-buat_pg_msc_forestry_forest_product_utilization",
+      "name": "M.Sc. Forestry in Forest Product Utilization",
+      "level": "Postgraduate",
+      "credential": "M.Sc. Forestry",
+      "specialization": "Forest Product Utilization",
+      "duration": null,
+      "mode": "Not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://buat.edu.in/academic-programs/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 26,
+          "career_node_slug": "bsc_env",
+          "career_breadcrumb": "Common Paths > B.Sc Environmental Science",
+          "relation": "closest_specialization_environmental_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "banda-university-of-agriculture-and-technology-buat_pg_msc_forestry_forest_resource_management",
+      "name": "M.Sc. Forestry in Forest Resource Management",
+      "level": "Postgraduate",
+      "credential": "M.Sc. Forestry",
+      "specialization": "Forest Resource Management",
+      "duration": null,
+      "mode": "Not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://buat.edu.in/academic-programs/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 26,
+          "career_node_slug": "bsc_env",
+          "career_breadcrumb": "Common Paths > B.Sc Environmental Science",
+          "relation": "closest_specialization_environmental_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "banda-university-of-agriculture-and-technology-buat_phd_agronomy",
+      "name": "Ph.D. in Agronomy",
+      "level": "Doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Agronomy",
+      "duration": null,
+      "mode": "Not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://buat.edu.in/academic-programs/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "nearest_parent_agriculture_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "banda-university-of-agriculture-and-technology-buat_phd_agricultural_extension_education",
+      "name": "Ph.D. in Agricultural Extension Education",
+      "level": "Doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Agricultural Extension Education",
+      "duration": null,
+      "mode": "Not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://buat.edu.in/academic-programs/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "nearest_parent_agriculture_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "banda-university-of-agriculture-and-technology-buat_phd_entomology",
+      "name": "Ph.D. in Entomology",
+      "level": "Doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Entomology",
+      "duration": null,
+      "mode": "Not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://buat.edu.in/academic-programs/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest_specialization_biological_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "banda-university-of-agriculture-and-technology-buat_phd_genetics_and_plant_breeding",
+      "name": "Ph.D. in Genetics and Plant Breeding",
+      "level": "Doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Genetics and Plant Breeding",
+      "duration": null,
+      "mode": "Not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://buat.edu.in/academic-programs/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest_specialization_biological_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "banda-university-of-agriculture-and-technology-buat_phd_plant_pathology",
+      "name": "Ph.D. in Plant Pathology",
+      "level": "Doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Plant Pathology",
+      "duration": null,
+      "mode": "Not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://buat.edu.in/academic-programs/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest_specialization_biological_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "banda-university-of-agriculture-and-technology-buat_phd_soil_science",
+      "name": "Ph.D. in Soil Science",
+      "level": "Doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Soil Science",
+      "duration": null,
+      "mode": "Not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://buat.edu.in/academic-programs/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 26,
+          "career_node_slug": "bsc_env",
+          "career_breadcrumb": "Common Paths > B.Sc Environmental Science",
+          "relation": "closest_specialization_environmental_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "banda-university-of-agriculture-and-technology-buat_phd_vegetable_science",
+      "name": "Ph.D. in Vegetable Science",
+      "level": "Doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Vegetable Science",
+      "duration": null,
+      "mode": "Not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://buat.edu.in/academic-programs/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "nearest_parent_agriculture_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "banda-university-of-agriculture-and-technology-buat_phd_fruit_science",
+      "name": "Ph.D. in Fruit Science",
+      "level": "Doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Fruit Science",
+      "duration": null,
+      "mode": "Not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://buat.edu.in/academic-programs/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "nearest_parent_agriculture_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "banda-university-of-agriculture-and-technology-buat_phd_floriculture_and_landscape_architecture",
+      "name": "Ph.D. in Floriculture and Landscape Architecture",
+      "level": "Doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Floriculture and Landscape Architecture",
+      "duration": null,
+      "mode": "Not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://buat.edu.in/academic-programs/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "nearest_parent_agriculture_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "banda-university-of-agriculture-and-technology-buat_phd_post_harvest_management",
+      "name": "Ph.D. in Post Harvest Management",
+      "level": "Doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Post Harvest Management",
+      "duration": null,
+      "mode": "Not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://buat.edu.in/academic-programs/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "nearest_parent_agriculture_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "banda-university-of-agriculture-and-technology-buat_phd_forestry_silviculture_and_agroforestry",
+      "name": "Ph.D in Silviculture & Agroforestry",
+      "level": "Doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Silviculture & Agroforestry",
+      "duration": null,
+      "mode": "Not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://buat.edu.in/academic-programs/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 26,
+          "career_node_slug": "bsc_env",
+          "career_breadcrumb": "Common Paths > B.Sc Environmental Science",
+          "relation": "closest_specialization_environmental_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "banda-university-of-agriculture-and-technology-buat_phd_forestry_forest_biology_and_tree_improvement",
+      "name": "Ph.D in Forest Biology and Tree Improvement",
+      "level": "Doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Forest Biology and Tree Improvement",
+      "duration": null,
+      "mode": "Not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://buat.edu.in/academic-programs/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 26,
+          "career_node_slug": "bsc_env",
+          "career_breadcrumb": "Common Paths > B.Sc Environmental Science",
+          "relation": "closest_specialization_environmental_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "banda-university-of-agriculture-and-technology-buat_phd_forestry_forest_resource_management",
+      "name": "Ph.D in Forest Resource Management",
+      "level": "Doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Forest Resource Management",
+      "duration": null,
+      "mode": "Not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://buat.edu.in/academic-programs/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 26,
+          "career_node_slug": "bsc_env",
+          "career_breadcrumb": "Common Paths > B.Sc Environmental Science",
+          "relation": "closest_specialization_environmental_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "banda-university-of-agriculture-and-technology-buat_phd_forestry_forest_product_utilization",
+      "name": "Ph.D in Forest Product Utilization",
+      "level": "Doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Forest Product Utilization",
+      "duration": null,
+      "mode": "Not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://buat.edu.in/academic-programs/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 26,
+          "career_node_slug": "bsc_env",
+          "career_breadcrumb": "Common Paths > B.Sc Environmental Science",
+          "relation": "closest_specialization_environmental_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "Both supplied NIRF 2025 government-directory pages contain the assigned institution with city Banda and state Uttar Pradesh.",
+    "Normal TLS verification first returned the exact managed proxy self-signed certificate-chain error. Public GET requests then used curl --insecure only for the expected NIRF, search, and buat.edu.in hosts; no credentials or private data were sent.",
+    "The official Academic Programs page lists six undergraduate, seventeen postgraduate, and fourteen doctoral programme names. Its Postgraduate Diploma tab says Coming Soon, and the official Colleges page lists a Veterinary & Animal Sciences college without corresponding veterinary programmes in the central catalogue; the catalogue is therefore partial and requires manual review.",
+    "The central official catalogue does not explicitly state programme duration, delivery mode, or eligibility; duration and eligibility are null and mode is recorded as not stated.",
+    "Career mappings were derived from read-only sqlite3 queries against assets/data/career_path.db. Exact discipline nodes were used where available; nearest-parent or closest-specialization mappings are labelled with medium or low confidence where the career tree has no exact horticulture, forestry, community-science, agricultural-engineering, or postgraduate/doctoral specialization node."
+  ]
+}

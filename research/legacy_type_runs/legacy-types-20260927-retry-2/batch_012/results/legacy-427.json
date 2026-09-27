@@ -1,0 +1,15 @@
+{
+  "institution_id": "legacy-427",
+  "database_id": 427,
+  "name": "Centurion Defence Academy",
+  "website": "https://www.centuriondefence.in",
+  "outcome": "manual_review",
+  "institution_type": null,
+  "source_url": null,
+  "confidence": null,
+  "evidence": null,
+  "notes": [
+    "The supplied official hostname failed normal HTTPS resolution, and public DNS-over-HTTPS checks returned NXDOMAIN for centuriondefence.in and www.centuriondefence.in.",
+    "The --insecure fallback was used only after the environment returned the exact self-signed certificate-chain proxy error; no official page was accessible, so the type was not inferred from the name."
+  ]
+}

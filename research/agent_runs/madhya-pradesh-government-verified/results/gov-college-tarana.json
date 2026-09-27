@@ -1,0 +1,178 @@
+{
+  "institution_id": "gov-college-tarana",
+  "nirf_name": "Gov.College, Tarana",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Ujjain",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://highereducation.mp.gov.in/?orgid=483",
+  "website_verification_status": "verified",
+  "description": "Government College, Tarana is a Madhya Pradesh government college in Tarana, Ujjain district, established in 1989.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_ranking_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Government-directory listing contains Gov.College, Tarana in Tarana, Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "government_ranking_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Government-directory listing contains Gov.College, Tarana in Tarana, Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "official_college_directory",
+      "url": "https://highereducation.mp.gov.in/CollegeDisp/getTable",
+      "supports": [
+        "Official Madhya Pradesh Higher Education directory identifies orgid 483 as Govt College, Tarana, District Ujjain, College Code 1808."
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://highereducation.mp.gov.in/?orgid=483",
+      "supports": [
+        "Official Madhya Pradesh Higher Education college CMS homepage for orgid 483."
+      ]
+    },
+    {
+      "type": "official_campus_profile",
+      "url": "https://highereducation.mp.gov.in/?page=NuoWyx8uLZ%2B3iSdd8vfEog%3D%3D&orgid=483",
+      "supports": [
+        "Official At A Glance page states establishment year 1989 and college statistics."
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=QaUQqV2yGw02h2y%2F2mWx%2Bw%3D%3D&orgid=483",
+      "supports": [
+        "Official Regular Courses page lists B. A. (B.A.- Plain), B. Sc. (Botany - Chemistry - Zoology), and B. Sc. (Chemistry - Mathematics - Physics), each with minimum qualification 10+2."
+      ]
+    },
+    {
+      "type": "official_course_catalogue_gap_check",
+      "url": "https://highereducation.mp.gov.in/?page=k%2BsYXT2vt7x2Gl8Ozv5smg%3D%3D&orgid=483",
+      "supports": [
+        "Official Distance Education Courses page shows PG, UG, and Diploma Distance Programme sections without course entries."
+      ]
+    },
+    {
+      "type": "official_catalogue_gap_check",
+      "url": "https://highereducation.mp.gov.in/?page=m7JEfJ2n7AnoP5WQl9jc3w%3D%3D&orgid=483",
+      "supports": [
+        "Official Prospectus page is under construction and does not provide an additional programme catalogue."
+      ]
+    }
+  ],
+  "website_search_evidence": [],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "gov-college-tarana-ba-plain",
+      "name": "B. A. (B.A.- Plain)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=QaUQqV2yGw02h2y%2F2mWx%2Bw%3D%3D&orgid=483",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent; the official course has no stated discipline and the tree has no general B.A. node",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "gov-college-tarana-bsc-botany-chemistry-zoology",
+      "name": "B. Sc. (Botany - Chemistry - Zoology)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=QaUQqV2yGw02h2y%2F2mWx%2Bw%3D%3D&orgid=483",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "nearest-parent for the Botany/Zoology components; no exact combined-node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "direct discipline component",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "gov-college-tarana-bsc-chemistry-mathematics-physics",
+      "name": "B. Sc. (Chemistry - Mathematics - Physics)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=QaUQqV2yGw02h2y%2F2mWx%2Bw%3D%3D&orgid=483",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct discipline component",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 24,
+          "career_node_slug": "bsc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics",
+          "relation": "direct discipline component",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "direct discipline component",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "Government listing was independently confirmed in both supplied NIRF 2025 pages; the official Madhya Pradesh Higher Education directory also maps orgid 483 and College Code 1808 to Govt College, Tarana, District Ujjain.",
+    "The managed proxy produced the exact self-signed certificate-chain error on normal TLS; public GET requests to expected official/search hosts used curl --insecure thereafter.",
+    "The official site is state-hosted and college-scoped by orgid 483. Its Regular Courses page exposes three UG programmes, but PG, Diploma, and Distance Education sections are empty; the Prospectus page is under construction. A complete active catalogue therefore could not be established, so manual_review is required.",
+    "Duration was left null because no official course page states it."
+  ]
+}

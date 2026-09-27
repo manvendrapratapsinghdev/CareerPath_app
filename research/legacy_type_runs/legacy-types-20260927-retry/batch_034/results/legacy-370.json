@@ -1,0 +1,14 @@
+{
+  "institution_id": "legacy-370",
+  "database_id": 370,
+  "name": "Indian Institute of Management Bangalore",
+  "website": "https://www.iimb.ac.in",
+  "outcome": "classified",
+  "institution_type": "iim",
+  "source_url": "https://www.iimb.ac.in/about-institute",
+  "confidence": "high",
+  "evidence": "The official About IIMB page states that under the IIM Act of 2017, IIMB is an Institute of National Importance.",
+  "notes": [
+    "Confirmed the official website identifies Indian Institute of Management Bangalore. Normal TLS failed due the managed proxy's self-signed certificate chain, so curl --insecure was used for public GET requests."
+  ]
+}

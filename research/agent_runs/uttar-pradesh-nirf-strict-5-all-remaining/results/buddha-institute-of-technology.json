@@ -1,0 +1,440 @@
+{
+  "institution_id": "buddha-institute-of-technology",
+  "nirf_name": "Buddha Institute of Technology",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/EngineeringRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "verified",
+  "district": "Gorakhpur",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://www.bit.ac.in/",
+  "website_verification_status": "verified",
+  "description": "AICTE-approved and AKTU-affiliated engineering institution at CL-1, Sector 7, GIDA, Gorakhpur, Uttar Pradesh.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/EngineeringRankingALL.html",
+      "supports": [
+        "Lists Buddha Institute of Technology in Gorakhpur, Uttar Pradesh."
+      ]
+    },
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Lists Buddha Institute of Technology in Gorakhpur, Uttar Pradesh."
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://www.bit.ac.in/",
+      "supports": [
+        "Identifies Buddha Institute of Technology, GIDA, Gorakhpur, College Code 525.",
+        "Links the institution's official departments and admissions portal."
+      ]
+    },
+    {
+      "type": "official_institution_profile",
+      "url": "https://www.bit.ac.in/AboutUs",
+      "supports": [
+        "States that Buddha Institute of Technology is AICTE approved and AKTU affiliated.",
+        "Describes undergraduate engineering offerings and the institution campus."
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "https://www.bit.ac.in/contact",
+      "supports": [
+        "Gives the campus address as CL-1, Sector 7, GIDA, Gorakhpur, Uttar Pradesh 273209."
+      ]
+    },
+    {
+      "type": "official_group_catalogue",
+      "url": "https://www.bit.ac.in/bgi",
+      "supports": [
+        "Identifies Buddha Institute of Technology separately as offering B.Tech and M.Tech with AKTU Code 525.",
+        "Separately identifies the group's Polytechnic, Management, Pharmacy, Hotel Management, Degree, Law, and Paramedical colleges."
+      ]
+    },
+    {
+      "type": "official_admissions_catalogue",
+      "url": "https://www.bit.ac.in/admission-form",
+      "supports": [
+        "Shows Admissions Open for Academic Session 2026-27 with College Code 525.",
+        "Lists the current Engineering options used for the course catalogue."
+      ]
+    },
+    {
+      "type": "official_department_catalogue",
+      "url": "https://www.bit.ac.in/bit-catlog",
+      "supports": [
+        "Lists the institution's ASH, Civil, CS/IT, EC, and ME department catalogues."
+      ]
+    },
+    {
+      "type": "official_department_page",
+      "url": "https://www.bit.ac.in/aimlds",
+      "supports": [
+        "Identifies the Computer Science Engineering and Allied (AIML) department at Buddha Institute of Technology, GIDA, Gorakhpur, College Code 525."
+      ]
+    },
+    {
+      "type": "official_department_page",
+      "url": "https://www.bit.ac.in/cse",
+      "supports": [
+        "Identifies the Computer Science Engineering and Allied (CSE) department at Buddha Institute of Technology, GIDA, Gorakhpur, College Code 525."
+      ]
+    },
+    {
+      "type": "official_department_page",
+      "url": "https://www.bit.ac.in/it_branch",
+      "supports": [
+        "Identifies the Computer Science Engineering and Allied (CS-IT) department at Buddha Institute of Technology, GIDA, Gorakhpur, College Code 525."
+      ]
+    },
+    {
+      "type": "official_department_page",
+      "url": "https://www.bit.ac.in/ec",
+      "supports": [
+        "Identifies the ECE and VLSI department at Buddha Institute of Technology, GIDA, Gorakhpur, College Code 525."
+      ]
+    },
+    {
+      "type": "official_department_page",
+      "url": "https://www.bit.ac.in/civil",
+      "supports": [
+        "Identifies the Civil Engineering department at Buddha Institute of Technology, GIDA, Gorakhpur, College Code 525."
+      ]
+    },
+    {
+      "type": "official_department_page",
+      "url": "https://www.bit.ac.in/me",
+      "supports": [
+        "Identifies the Mechanical Engineering department at Buddha Institute of Technology, GIDA, Gorakhpur, College Code 525."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Buddha Institute of Technology\"",
+      "result": "Bing discovery result surfaced https://www.bit.ac.in/ as Buddha Institute of Technology; used only for discovery and then verified by direct official pages.",
+      "url": "https://www.bit.ac.in/"
+    },
+    {
+      "query": "Buddha Institute of Technology Gorakhpur -UP",
+      "result": "Bing discovery result surfaced the bit.ac.in homepage and official contact page for the Gorakhpur campus; used only for discovery and then verified directly.",
+      "url": "https://www.bit.ac.in/contact"
+    },
+    {
+      "query": "site:ac.in \"Buddha Institute of Technology\"",
+      "result": "Bing discovery result surfaced bit.ac.in as the matching institutional domain; official identity and catalogue were verified by direct HTTPS GETs.",
+      "url": "https://www.bit.ac.in/"
+    }
+  ],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "buddha-institute-of-technology-btech-ce",
+      "name": "B.TECH CE",
+      "level": "undergraduate",
+      "credential": "Bachelor of Technology",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.bit.ac.in/admission-form",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "buddha-institute-of-technology-btech-cs",
+      "name": "B.TECH CS",
+      "level": "undergraduate",
+      "credential": "Bachelor of Technology",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.bit.ac.in/admission-form",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "buddha-institute-of-technology-btech-cse",
+      "name": "B.TECH CSE",
+      "level": "undergraduate",
+      "credential": "Bachelor of Technology",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.bit.ac.in/admission-form",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "buddha-institute-of-technology-btech-cse-ai-ml",
+      "name": "B.TECH CSE (AI-ML)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Technology",
+      "specialization": "AI-ML",
+      "duration": null,
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.bit.ac.in/admission-form",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 81,
+          "career_node_slug": "btech_ai",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > AI & Machine Learning",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "buddha-institute-of-technology-btech-cse-data-science",
+      "name": "B.TECH CSE (DATA SCIENCE)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Technology",
+      "specialization": "DATA SCIENCE",
+      "duration": null,
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.bit.ac.in/admission-form",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "nearest-parent discipline mapping; no exact B.Tech Data Science node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "buddha-institute-of-technology-btech-ee-vlsi",
+      "name": "B.TECH E.E (VLSI)",
+      "level": "undergraduate",
+      "credential": "Bachelor of Technology",
+      "specialization": "VLSI",
+      "duration": null,
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.bit.ac.in/admission-form",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 315,
+          "career_node_slug": "vlsi_engineer",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication > VLSI Design Engineer",
+          "relation": "closest-specialization mapping for VLSI",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "buddha-institute-of-technology-btech-ece",
+      "name": "B.TECH ECE",
+      "level": "undergraduate",
+      "credential": "Bachelor of Technology",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.bit.ac.in/admission-form",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "buddha-institute-of-technology-btech-it",
+      "name": "B.TECH IT",
+      "level": "undergraduate",
+      "credential": "Bachelor of Technology",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.bit.ac.in/admission-form",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 89,
+          "career_node_slug": "btech_it",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Information Technology",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "buddha-institute-of-technology-btech-me",
+      "name": "B.TECH M.E.",
+      "level": "undergraduate",
+      "credential": "Bachelor of Technology",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.bit.ac.in/admission-form",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "buddha-institute-of-technology-mtech-cse",
+      "name": "M.TECH CSE",
+      "level": "postgraduate",
+      "credential": "Master of Technology",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.bit.ac.in/admission-form",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "closest Computer Science engineering discipline; no M.Tech node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "buddha-institute-of-technology-mtech-ece",
+      "name": "M.TECH ECE",
+      "level": "postgraduate",
+      "credential": "Master of Technology",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.bit.ac.in/admission-form",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "closest Electronics and Communication discipline; no M.Tech node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "buddha-institute-of-technology-mtech-ece-vlsi",
+      "name": "M.TECH ECE (VLSI)",
+      "level": "postgraduate",
+      "credential": "Master of Technology",
+      "specialization": "VLSI",
+      "duration": null,
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://www.bit.ac.in/admission-form",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "closest Electronics and Communication discipline; no M.Tech node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 315,
+          "career_node_slug": "vlsi_engineer",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication > VLSI Design Engineer",
+          "relation": "closest-specialization mapping for VLSI",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The institution is listed in both supplied 2025 NIRF government pages with the exact name, Gorakhpur city, and Uttar Pradesh state.",
+    "Normal TLS verification failed for the expected NIRF and bit.ac.in hosts with the managed proxy self-signed certificate-chain error; public GET requests then used curl --insecure as permitted.",
+    "The official Buddha Group page identifies Buddha Institute of Technology separately as offering B.Tech and M.Tech under AKTU Code 525. The current 2026-27 BIT admission portal supplies the 12 exact Engineering option names; group-wide non-BIT options such as diplomas, management, pharmacy, and law were excluded.",
+    "The official catalogue did not explicitly state programme duration, eligibility, or study mode; duration and eligibility are null and mode is recorded as not_specified.",
+    "Career mappings were reviewed with read-only queries against assets/data/career_path.db. The CSE Data Science and M.Tech mappings use closest available parent disciplines; VLSI mappings also use the closest available VLSI career node."
+  ]
+}

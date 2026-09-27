@@ -1,0 +1,657 @@
+{
+  "institution_id": "govt-college-bidwal-dist-dhar-m-p",
+  "nirf_name": "Govt. College, Bidwal Dist.- Dhar (M.P.)",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "verified",
+  "district": "Dhar",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://highereducation.mp.gov.in/?orgid=149",
+  "website_verification_status": "verified",
+  "description": "Government college campus in Bidwal, Dhar district, administered by the Higher Education Department of the Government of Madhya Pradesh.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact NIRF listing: Govt. College, Bidwal Dist.- Dhar (M.P.), city Bidwal, Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "official_department_directory",
+      "url": "https://highereducation.mp.gov.in/?page=3ReniKuyIMmDd4opO%2FkIdA%3D%3D",
+      "supports": [
+        "Madhya Pradesh Higher Education Department government-college directory."
+      ]
+    },
+    {
+      "type": "official_institution_homepage",
+      "url": "https://highereducation.mp.gov.in/?orgid=149",
+      "supports": [
+        "Official profile heading identifies शासकीय महाविद्यालय, बिडवाल, जिला - धार under the Higher Education Department, Madhya Pradesh Government."
+      ]
+    },
+    {
+      "type": "official_identity_api",
+      "url": "https://highereducation.mp.gov.in/CollegeDisp/getTable",
+      "supports": [
+        "Official public HED data identifies organization 149 as Govt College, Bidwal, District Dhar, CollegeCode 2215."
+      ]
+    },
+    {
+      "type": "official_course_catalogue_regular",
+      "url": "https://highereducation.mp.gov.in/?page=Zx5Gx7fzNicOxeX%2FJMtYPQ%3D%3D&orgid=149",
+      "supports": [
+        "Official Programmes Offered page listing 14 regular UG programmes and 10+2 eligibility."
+      ]
+    },
+    {
+      "type": "official_course_catalogue_distance",
+      "url": "https://highereducation.mp.gov.in/?page=qoRNdn%2FlTN94kJjUoCDZOg%3D%3D&orgid=149",
+      "supports": [
+        "Official Distance Education Programme page listing B. A. (B.A.- Plain) and B. Com (Commerce), with Graduation eligibility."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Govt. College, Bidwal\"",
+      "result": "Search access returned no usable authoritative institution result; search output was not used as verification.",
+      "url": null
+    },
+    {
+      "query": "site:highereducation.mp.gov.in Bidwal college",
+      "result": "Search output was not used as verification; the official Madhya Pradesh Higher Education directory and institution profile were checked directly.",
+      "url": null
+    }
+  ],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "govt-college-bidwal-dist-dhar-m-p-govt-college-bidwal-ba-economics-history-political-science-regular",
+      "name": "B. A. (Economics - History - Political Science)",
+      "level": "UG",
+      "credential": "Bachelor of Arts",
+      "specialization": "Economics - History - Political Science",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=Zx5Gx7fzNicOxeX%2FJMtYPQ%3D%3D&orgid=149",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bidwal-dist-dhar-m-p-govt-college-bidwal-ba-economics-english-sociology-regular",
+      "name": "B. A. (Economics - English Literature - Sociology)",
+      "level": "UG",
+      "credential": "Bachelor of Arts",
+      "specialization": "Economics - English Literature - Sociology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=Zx5Gx7fzNicOxeX%2FJMtYPQ%3D%3D&orgid=149",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bidwal-dist-dhar-m-p-govt-college-bidwal-ba-economics-history-sociology-regular",
+      "name": "B. A. (Economics - History - Sociology)",
+      "level": "UG",
+      "credential": "Bachelor of Arts",
+      "specialization": "Economics - History - Sociology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=Zx5Gx7fzNicOxeX%2FJMtYPQ%3D%3D&orgid=149",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bidwal-dist-dhar-m-p-govt-college-bidwal-ba-economics-english-history-regular",
+      "name": "B. A. (Economics -English Literature - History)",
+      "level": "UG",
+      "credential": "Bachelor of Arts",
+      "specialization": "Economics -English Literature - History",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=Zx5Gx7fzNicOxeX%2FJMtYPQ%3D%3D&orgid=149",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bidwal-dist-dhar-m-p-govt-college-bidwal-ba-economics-english-political-science-regular",
+      "name": "B. A. (Economics -English Literature - Political Science)",
+      "level": "UG",
+      "credential": "Bachelor of Arts",
+      "specialization": "Economics -English Literature - Political Science",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=Zx5Gx7fzNicOxeX%2FJMtYPQ%3D%3D&orgid=149",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bidwal-dist-dhar-m-p-govt-college-bidwal-ba-economics-hindi-history-regular",
+      "name": "B. A. (Economics -Hindi Literature - History)",
+      "level": "UG",
+      "credential": "Bachelor of Arts",
+      "specialization": "Economics -Hindi Literature - History",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=Zx5Gx7fzNicOxeX%2FJMtYPQ%3D%3D&orgid=149",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bidwal-dist-dhar-m-p-govt-college-bidwal-ba-economics-hindi-political-science-regular",
+      "name": "B. A. (Economics -Hindi Literature - Political Science)",
+      "level": "UG",
+      "credential": "Bachelor of Arts",
+      "specialization": "Economics -Hindi Literature - Political Science",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=Zx5Gx7fzNicOxeX%2FJMtYPQ%3D%3D&orgid=149",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bidwal-dist-dhar-m-p-govt-college-bidwal-ba-english-history-political-science-regular",
+      "name": "B. A. (English Literature - History - Political Science)",
+      "level": "UG",
+      "credential": "Bachelor of Arts",
+      "specialization": "English Literature - History - Political Science",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=Zx5Gx7fzNicOxeX%2FJMtYPQ%3D%3D&orgid=149",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bidwal-dist-dhar-m-p-govt-college-bidwal-ba-english-political-science-sociology-regular",
+      "name": "B. A. (English Literature - Political Science - Sociology)",
+      "level": "UG",
+      "credential": "Bachelor of Arts",
+      "specialization": "English Literature - Political Science - Sociology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=Zx5Gx7fzNicOxeX%2FJMtYPQ%3D%3D&orgid=149",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bidwal-dist-dhar-m-p-govt-college-bidwal-ba-english-history-sociology-regular",
+      "name": "B. A. (English Literature-History-Sociology )",
+      "level": "UG",
+      "credential": "Bachelor of Arts",
+      "specialization": "English Literature-History-Sociology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=Zx5Gx7fzNicOxeX%2FJMtYPQ%3D%3D&orgid=149",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bidwal-dist-dhar-m-p-govt-college-bidwal-ba-hindi-history-political-science-regular",
+      "name": "B. A. (Hindi Literature - History - Political Science)",
+      "level": "UG",
+      "credential": "Bachelor of Arts",
+      "specialization": "Hindi Literature - History - Political Science",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=Zx5Gx7fzNicOxeX%2FJMtYPQ%3D%3D&orgid=149",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bidwal-dist-dhar-m-p-govt-college-bidwal-ba-hindi-political-science-sociology-regular",
+      "name": "B. A. (Hindi Literature - Political Science - Sociology)",
+      "level": "UG",
+      "credential": "Bachelor of Arts",
+      "specialization": "Hindi Literature - Political Science - Sociology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=Zx5Gx7fzNicOxeX%2FJMtYPQ%3D%3D&orgid=149",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bidwal-dist-dhar-m-p-govt-college-bidwal-ba-history-political-science-sociology-regular",
+      "name": "B. A. (History - Political Science - Sociology)",
+      "level": "UG",
+      "credential": "Bachelor of Arts",
+      "specialization": "History - Political Science - Sociology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=Zx5Gx7fzNicOxeX%2FJMtYPQ%3D%3D&orgid=149",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bidwal-dist-dhar-m-p-govt-college-bidwal-ba-plain-regular",
+      "name": "B. A. (B.A.- Plain)",
+      "level": "UG",
+      "credential": "Bachelor of Arts",
+      "specialization": null,
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=Zx5Gx7fzNicOxeX%2FJMtYPQ%3D%3D&orgid=149",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bidwal-dist-dhar-m-p-govt-college-bidwal-ba-plain-distance",
+      "name": "B. A. (B.A.- Plain)",
+      "level": "UG",
+      "credential": "Bachelor of Arts",
+      "specialization": null,
+      "duration": null,
+      "mode": "distance",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=qoRNdn%2FlTN94kJjUoCDZOg%3D%3D&orgid=149",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-bidwal-dist-dhar-m-p-govt-college-bidwal-bcom-commerce-distance",
+      "name": "B. Com (Commerce)",
+      "level": "UG",
+      "credential": "Bachelor of Commerce",
+      "specialization": "Commerce",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=qoRNdn%2FlTN94kJjUoCDZOg%3D%3D&orgid=149",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The official regular-programme page explicitly shows PG, UG, and Diploma sections; only the 14 UG rows are populated. The official distance-programme page explicitly shows PG, UG, and Diploma sections; only B. A. (B.A.- Plain) and B. Com (Commerce) are populated. No certificate or doctoral rows were displayed.",
+    "No official duration was stated in the catalogue pages, so duration is null for all courses.",
+    "The official HED public profile at orgid 149 and the official HED data endpoint identify the same Bidwal campus in Dhar district.",
+    "Normal TLS verification failed with the managed proxy's self-signed certificate-chain error; after confirming the expected official hosts, curl --insecure was used only for public GET requests."
+  ]
+}

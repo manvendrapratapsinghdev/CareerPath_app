@@ -1,0 +1,72 @@
+{
+  "institution_id": "sadulshahar-degree-college",
+  "nirf_name": "SADULSHAHAR DEGREE COLLEGE",
+  "verification_outcome": "remove_candidate",
+  "district": null,
+  "district_verification_status": "not_found",
+  "official_website": null,
+  "website_verification_status": "not_found",
+  "description": null,
+  "description_verification_status": "not_found",
+  "record_status": "remove_candidate",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "authoritative_affiliation_check",
+      "url": "https://mgsubikaner.ac.in/PDF/list-of-afflliated-college.pdf",
+      "supports": [
+        "Exact institution name and Sadul Shahar city were found in the official MGSU affiliated-college list; no institutional website or catalogue was provided."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "SADULSHAHAR DEGREE COLLEGE Rajasthan official website",
+      "result": "Google requested CAPTCHA; no official institutional website could be established.",
+      "url": "https://www.google.com/search?q=SADULSHAHAR%20DEGREE%20COLLEGE%20Rajasthan%20official%20website"
+    },
+    {
+      "query": "\"Sadulshahar Degree College\" official",
+      "result": "Google requested CAPTCHA; no official institutional website could be established.",
+      "url": "https://www.google.com/search?q=%22Sadulshahar%20Degree%20College%22%20official"
+    },
+    {
+      "query": "Sadulshahar Degree College Sadul Shahar courses official",
+      "result": "Google requested CAPTCHA; no official institutional website or course catalogue could be established.",
+      "url": "https://www.google.com/search?q=Sadulshahar%20Degree%20College%20Sadul%20Shahar%20courses%20official"
+    },
+    {
+      "query": "SADULSHAHAR DEGREE COLLEGE Rajasthan official website",
+      "result": "Bing RSS returned unrelated generic results and no matching official college domain.",
+      "url": "https://www.bing.com/search?format=rss&q=SADULSHAHAR%20DEGREE%20COLLEGE%20Rajasthan%20official%20website"
+    },
+    {
+      "query": "\"Sadulshahar Degree College\"",
+      "result": "Bing RSS returned unrelated results and no matching official college domain.",
+      "url": "https://www.bing.com/search?format=rss&q=%22Sadulshahar%20Degree%20College%22"
+    },
+    {
+      "query": "site:ac.in \"SADUL SHAHAR DEGREE COLLEGE\"",
+      "result": "Bing RSS returned unrelated results and no matching official academic domain.",
+      "url": "https://www.bing.com/search?format=rss&q=site%3Aac.in%20%22SADUL%20SHAHAR%20DEGREE%20COLLEGE%22"
+    },
+    {
+      "query": "site:rajasthan.gov.in \"SADUL SHAHAR DEGREE COLLEGE\"",
+      "result": "Bing RSS returned unrelated results and no official institutional website.",
+      "url": "https://www.bing.com/search?format=rss&q=site%3Arajasthan.gov.in%20%22SADUL%20SHAHAR%20DEGREE%20COLLEGE%22"
+    },
+    {
+      "query": "MGSU affiliated colleges list Sadul Shahar Degree College",
+      "result": "The official MGSU PDF confirms the exact institution and city but does not identify an institutional homepage or programme catalogue.",
+      "url": "https://mgsubikaner.ac.in/PDF/list-of-afflliated-college.pdf"
+    }
+  ],
+  "course_catalogue_status": "not_found",
+  "courses": [],
+  "agent_notes": [
+    "Normal TLS produced the exact managed-proxy self-signed-certificate-in-chain error; public GET requests were retried with curl --insecure as permitted.",
+    "The official MGSU affiliated-college list confirms the exact institution name and Sadul Shahar city, but no institution-owned website or catalogue was established after multiple focused searches and the authoritative-domain check.",
+    "The similarly named sadulshahar.in site was excluded because it is a town/community religious site, not the college.",
+    "No course records were created because no institution official programme catalogue was found."
+  ]
+}

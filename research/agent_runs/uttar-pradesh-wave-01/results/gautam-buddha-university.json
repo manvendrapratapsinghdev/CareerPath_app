@@ -1,0 +1,136 @@
+{
+  "institution_id": "gautam-buddha-university",
+  "nirf_name": "Gautam Buddha University",
+  "verification_outcome": "manual_review",
+  "district": "Gautam Budh Nagar",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://www.gbu.ac.in/",
+  "website_verification_status": "verified",
+  "description": "Gautam Buddha University was established under the Uttar Pradesh Gautam Buddha University Act, 2002, and operates a 511-acre campus at Greater Noida, Gautam Budh Nagar, Uttar Pradesh.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [
+    "gbuadm.samarth.edu.in"
+  ],
+  "verification_sources": [
+    {
+      "type": "official_homepage",
+      "url": "https://www.gbu.ac.in/",
+      "supports": [
+        "official institution identity",
+        "current university website",
+        "link to the 2026-27 admissions portal"
+      ]
+    },
+    {
+      "type": "official_about_page",
+      "url": "https://www.gbu.ac.in/about/home",
+      "supports": [
+        "establishment under the Uttar Pradesh Gautam Buddha University Act 2002",
+        "511-acre campus at Greater Noida",
+        "institution description"
+      ]
+    },
+    {
+      "type": "official_contact_page",
+      "url": "https://www.gbu.ac.in/contact-us",
+      "supports": [
+        "Greater Noida campus address",
+        "Gautam Budh Nagar district",
+        "Uttar Pradesh 201312"
+      ]
+    },
+    {
+      "type": "official_academic_programmes_catalogue",
+      "url": "https://www.gbu.ac.in/academics/academic-programmes",
+      "supports": [
+        "official school-wise academic programme catalogue",
+        "programme catalogue cross-check"
+      ]
+    },
+    {
+      "type": "official_admission_portal_home",
+      "url": "https://gbuadm.samarth.edu.in/",
+      "supports": [
+        "official Gautam Buddha University ADMISSION-2026-27 portal",
+        "current admission-cycle context",
+        "relationship to the university website"
+      ]
+    },
+    {
+      "type": "official_current_programme_list",
+      "url": "https://gbuadm.samarth.edu.in/index.php/site/eligible-programme-list?page=1",
+      "supports": [
+        "current programme names and eligibility rows 1-20"
+      ]
+    },
+    {
+      "type": "official_current_programme_list",
+      "url": "https://gbuadm.samarth.edu.in/index.php/site/eligible-programme-list?page=2",
+      "supports": [
+        "current programme names and eligibility rows 21-40"
+      ]
+    },
+    {
+      "type": "official_current_programme_list",
+      "url": "https://gbuadm.samarth.edu.in/index.php/site/eligible-programme-list?page=3",
+      "supports": [
+        "current programme names and eligibility rows 41-60"
+      ]
+    },
+    {
+      "type": "official_current_programme_list",
+      "url": "https://gbuadm.samarth.edu.in/index.php/site/eligible-programme-list?page=4",
+      "supports": [
+        "current programme names and eligibility rows 61-80"
+      ]
+    },
+    {
+      "type": "official_current_programme_list",
+      "url": "https://gbuadm.samarth.edu.in/index.php/site/eligible-programme-list?page=5",
+      "supports": [
+        "current programme names and eligibility rows 81-100"
+      ]
+    },
+    {
+      "type": "official_current_programme_list",
+      "url": "https://gbuadm.samarth.edu.in/index.php/site/eligible-programme-list?page=6",
+      "supports": [
+        "current programme names and eligibility rows 101-120"
+      ]
+    },
+    {
+      "type": "official_current_programme_list",
+      "url": "https://gbuadm.samarth.edu.in/index.php/site/eligible-programme-list?page=7",
+      "supports": [
+        "current programme names and eligibility rows 121-140"
+      ]
+    },
+    {
+      "type": "official_current_programme_list",
+      "url": "https://gbuadm.samarth.edu.in/index.php/site/eligible-programme-list?page=8",
+      "supports": [
+        "current programme names and eligibility rows 141-158"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "Gautam Buddha University Greater Noida official website",
+      "result": "Search-engine discovery was noisy; the candidate https://www.gbu.ac.in/ was then verified directly by its official homepage content and linked admissions portal.",
+      "url": "https://www.gbu.ac.in/"
+    },
+    {
+      "query": "site:gbu.ac.in Gautam Buddha University admissions 2026-27",
+      "result": "Search-engine discovery did not provide a reliable direct result in this network session; the university homepage's Admissions link and official 2026-27 portal were verified directly.",
+      "url": "https://www.gbu.ac.in/"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [],
+  "agent_notes": [
+    "The official identity and Greater Noida/Gautam Budh Nagar campus are verified. The current official 2026-27 admissions eligibility catalogue lists 158 rows, including two blank programme names, duplicate or variant entries for some programmes, and labels that conflict with the university's separate academic-programmes pages; it therefore requires manual review rather than being marked complete.",
+    "No course rows were emitted because the official catalogue is internally inconsistent and the active-programme boundary cannot be established without guessing which duplicate or conflicting entries should be retained.",
+    "Normal TLS failed with the exact managed-proxy error 'self signed certificate in certificate chain'. Public GET requests then used curl --insecure only for the expected official/search hostnames."
+  ]
+}

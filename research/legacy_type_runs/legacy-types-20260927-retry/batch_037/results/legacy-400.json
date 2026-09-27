@@ -1,0 +1,15 @@
+{
+  "institution_id": "legacy-400",
+  "database_id": 400,
+  "name": "ACFIT Academy (NASM India Partner)",
+  "website": "https://www.acfit.in",
+  "outcome": "manual_review",
+  "institution_type": null,
+  "source_url": null,
+  "confidence": null,
+  "evidence": null,
+  "notes": [
+    "The supplied official hostname returned DNS NXDOMAIN for both acfit.in and www.acfit.in, so no official page could be accessed to establish the institution type.",
+    "The TLS fallback was not used because the failure was DNS resolution, not a certificate-chain error."
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "institution_id": "great-ganges-institute-of-technology-gadankhera",
+  "nirf_name": "GREAT GANGES INSTITUTE OF TECHNOLOGY,GADANKHERA",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "remove_candidate",
+  "district": null,
+  "district_verification_status": "pending_official_source",
+  "official_website": null,
+  "website_verification_status": "not_found",
+  "description": null,
+  "description_verification_status": "not_found",
+  "record_status": "remove_candidate",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact institution name, Unnao city, and Uttar Pradesh listing established"
+      ]
+    },
+    {
+      "type": "aicte_approved_institutes",
+      "url": "https://facilities.aicte-india.org/dashboard/pages/php/approvedinstituteserver.php?method=fetchdata&year=2024-2025&program=1&level=1&institutiontype=1&Women=1&Minority=1&state=Uttar%20Pradesh%20&course=1",
+      "supports": [
+        "Exact institution identity and campus address: Gram-Gadan Khera, Post Singrausi, Unnao"
+      ]
+    },
+    {
+      "type": "university_affiliation_directory",
+      "url": "https://csjmu.ac.in/affiliated-colleges-list/",
+      "supports": [
+        "CSJMU affiliated-college record UN51 for the exact institution and Gadankhera campus"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"GREAT GANGES INSTITUTE OF TECHNOLOGY\" Gadankhera official",
+      "result": "Google returned HTTP 429; Bing returned unrelated dictionary and Great Learning results with no institution website.",
+      "url": "https://www.google.com/search?q=%22GREAT%20GANGES%20INSTITUTE%20OF%20TECHNOLOGY%22%20Gadankhera%20official"
+    },
+    {
+      "query": "\"Great Ganges Institute of Technology\" Unnao",
+      "result": "Google returned HTTP 429; Bing returned unrelated dictionary and Great Learning results with no institution website.",
+      "url": "https://www.bing.com/search?q=%22Great%20Ganges%20Institute%20of%20Technology%22%20Unnao"
+    },
+    {
+      "query": "\"GREAT GANGES INSTITUTE OF TECHNOLOGY,GADANKHERA\"",
+      "result": "Google returned HTTP 429; Bing returned unrelated results with no institution website.",
+      "url": "https://www.bing.com/search?q=%22GREAT%20GANGES%20INSTITUTE%20OF%20TECHNOLOGY%2CGADANKHERA%22"
+    },
+    {
+      "query": "\"Gadankhera\" college Unnao",
+      "result": "Bing returned irrelevant uTorrent results and no institution website.",
+      "url": "https://www.bing.com/search?q=%22Gadankhera%22%20college%20Unnao"
+    },
+    {
+      "query": "\"Great Ganges\" Unnao",
+      "result": "Bing returned unrelated dictionary and Great Learning results and no institution website.",
+      "url": "https://www.bing.com/search?q=%22Great%20Ganges%22%20Unnao"
+    },
+    {
+      "query": "\"Ganges Institute of Technology\" Unnao",
+      "result": "Bing returned general river and Wikipedia results; no institution website was used or accepted.",
+      "url": "https://www.bing.com/search?q=%22Ganges%20Institute%20of%20Technology%22%20Unnao"
+    },
+    {
+      "query": "site:ac.in \"Gadankhera\"",
+      "result": "Bing returned irrelevant Hotstar results and no institution website.",
+      "url": "https://www.bing.com/search?q=site%3Aac.in%20%22Gadankhera%22"
+    },
+    {
+      "query": "site:edu.in \"Gadankhera\"",
+      "result": "Bing returned irrelevant Hotstar results and no institution website.",
+      "url": "https://www.bing.com/search?q=site%3Aedu.in%20%22Gadankhera%22"
+    },
+    {
+      "query": "site:org.in \"Gadankhera\" college",
+      "result": "Bing returned irrelevant Google Flow results and no institution website.",
+      "url": "https://www.bing.com/search?q=site%3Aorg.in%20%22Gadankhera%22%20college"
+    },
+    {
+      "query": "CSJMU affiliated colleges list Great Ganges Institute of Technology Gadankhera",
+      "result": "The official CSJMU affiliated-college dataset lists website value WWW.ANDNNMM.COM; that candidate redirects to bmcjmm.in and does not identify the institution.",
+      "url": "https://csjmu.ac.in/affiliated-colleges-list/"
+    },
+    {
+      "query": "andnnmm.com",
+      "result": "The candidate redirects to https://bmcjmm.in/ and displays an unrelated CSJMU semester examination results page, not the institution.",
+      "url": "https://andnnmm.com/"
+    },
+    {
+      "query": "AICTE approved institutes Great Ganges Institute of Technology Unnao",
+      "result": "The official AICTE record confirms the campus identity and address but provides no institution website; its separate course record was not used as a programme catalogue.",
+      "url": "https://facilities.aicte-india.org/dashboard/pages/php/approvedcourse.php?method=fetchdata&aicteid=1-44074981343&course=1&year=2024-2025"
+    }
+  ],
+  "course_catalogue_status": "not_found",
+  "courses": [],
+  "agent_notes": [
+    "The supplied NIRF government listing contains an exact row for GREAT GANGES INSTITUTE OF TECHNOLOGY,GADANKHERA, Unnao, Uttar Pradesh.",
+    "The official AICTE directory and CSJMU affiliation directory independently confirm the Gadankhera/Unnao campus. CSJMU lists a generic WWW.ANDNNMM.COM website value, but that domain redirects to an unrelated bmcjmm.in examination-results page.",
+    "At least two focused web searches plus authoritative AICTE and CSJMU domain checks failed to establish an actual official institution website.",
+    "AICTE separately lists BCA and BBA for 2024-2025, but these were not imported because the rules require the institution's actual official website for programme verification.",
+    "The supplied context labels the institution government_college, while the AICTE record labels it Private-Self Financing; this discrepancy further supports removal pending authoritative institution-site verification.",
+    "Normal TLS requests encountered the managed proxy self-signed certificate-chain error; curl --insecure was used only for expected public government, university, search, and candidate-domain GET requests."
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "institution_id": "legacy-400",
+  "database_id": 400,
+  "name": "ACFIT Academy (NASM India Partner)",
+  "website": "https://www.acfit.in",
+  "outcome": "manual_review",
+  "institution_type": null,
+  "source_url": null,
+  "confidence": null,
+  "evidence": null,
+  "notes": [
+    "The supplied official hostname did not resolve during command-line HTTPS checks, so no official pages identifying the institution type could be read.",
+    "The managed proxy produced the documented certificate-chain error for external HTTPS checks; an --insecure fallback was attempted for the expected official hostname, but it also failed because the hostname had no DNS resolution."
+  ]
+}

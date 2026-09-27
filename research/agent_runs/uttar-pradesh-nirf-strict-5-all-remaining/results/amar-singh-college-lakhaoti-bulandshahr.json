@@ -1,0 +1,314 @@
+{
+  "institution_id": "amar-singh-college-lakhaoti-bulandshahr",
+  "nirf_name": "Amar Singh College, Lakhaoti, (Bulandshahr)",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/AgricultureRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "verified",
+  "district": "Bulandshahr",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://ascollege.ac.in/",
+  "website_verification_status": "verified",
+  "description": "Amar Singh College is a higher-education campus at Lakhaoti in Bulandshahr district, Uttar Pradesh. Its official history describes a 38-hectare campus with 19 departments, agricultural farms, hostels, a library, dairy and orchards.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/AgricultureRankingALL.html",
+      "supports": [
+        "Lists Amar Singh College, Lakhaoti, (Bulandshahr) in Bulandshahr, Uttar Pradesh."
+      ]
+    },
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Lists Amar Singh College, Lakhaoti, (Bulandshahr) in Bulandshahr, Uttar Pradesh."
+      ]
+    },
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Lists Amar Singh College, Lakhaoti, (Bulandshahr) in Bulandshahr, Uttar Pradesh."
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://ascollege.ac.in/",
+      "supports": [
+        "Official homepage title identifies Amar Singh College Lakhaoti Bulandshahr (U.P.) and gives the Lakhaoti campus address."
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "https://ascollege.ac.in/website/page/MzUz",
+      "supports": [
+        "Official college history states that the institution moved to its current location in Lakhaoti and describes its connection with Bulandshahr."
+      ]
+    },
+    {
+      "type": "official_programme_catalogue",
+      "url": "https://ascollege.ac.in/website/page/MzU4",
+      "supports": [
+        "Official Degree/Programmes Offered page lists the eight regular degree programmes recorded below."
+      ]
+    },
+    {
+      "type": "official_admissions_page",
+      "url": "https://ascollege.ac.in/website/page/MzE0",
+      "supports": [
+        "Official Admission & Fees page provides the current 2026-27 information-brochure link and admissions context."
+      ]
+    },
+    {
+      "type": "official_add_on_catalogue",
+      "url": "https://ascollege.ac.in/website/page/NDQ3",
+      "supports": [
+        "Official add-on page lists dated 2023-24 short-term offerings; these were excluded as expired events."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "Amar Singh College Lakhaoti official website",
+      "result": "Bing results were unrelated; the official domain was subsequently confirmed by a direct HTTPS request to ascollege.ac.in.",
+      "url": "https://www.bing.com/search?q=Amar+Singh+College+Lakhaoti+official+website"
+    },
+    {
+      "query": "\"Amar Singh College\" Lakhaoti Bulandshahr",
+      "result": "Bing returned no identifiable official institution page; direct official-domain verification identified ascollege.ac.in.",
+      "url": "https://www.bing.com/search?q=%22Amar%20Singh%20College%22%20Lakhaoti%20Bulandshahr"
+    },
+    {
+      "query": "Amar Singh College Lakhaoti courses admissions",
+      "result": "Bing returned unrelated pages; the official programme and admissions pages were verified directly on ascollege.ac.in.",
+      "url": "https://www.bing.com/search?q=Amar+Singh+College+Lakhaoti+courses+admissions"
+    },
+    {
+      "query": "site:ac.in \"Lakhaoti\"",
+      "result": "No useful official-site result was returned by Bing; the confirmed official domain is ascollege.ac.in.",
+      "url": "https://www.bing.com/search?q=site%3Aac.in+%22Lakhaoti%22"
+    }
+  ],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "amar-singh-college-lakhaoti-bulandshahr-asc-ba",
+      "name": "B.A.",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not specified",
+      "eligibility": null,
+      "official_course_url": "https://ascollege.ac.in/website/page/MzU4",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amar-singh-college-lakhaoti-bulandshahr-asc-bsc-ag-hons",
+      "name": "B.Sc. Ag. (Hons.)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not specified",
+      "eligibility": null,
+      "official_course_url": "https://ascollege.ac.in/website/page/MzU4",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amar-singh-college-lakhaoti-bulandshahr-asc-msc-ag-agronomy",
+      "name": "M.Sc. (Ag.) Agronomy",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not specified",
+      "eligibility": null,
+      "official_course_url": "https://ascollege.ac.in/website/page/MzU4",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 165,
+          "career_node_slug": "agri_scientist",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture > Agricultural Scientist",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amar-singh-college-lakhaoti-bulandshahr-asc-msc-ag-agricultural-chemistry-soil-science",
+      "name": "M.Sc. (Ag.) Agricultural Chemistry and Soil Science",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not specified",
+      "eligibility": null,
+      "official_course_url": "https://ascollege.ac.in/website/page/MzU4",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 165,
+          "career_node_slug": "agri_scientist",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture > Agricultural Scientist",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amar-singh-college-lakhaoti-bulandshahr-asc-msc-ag-horticulture",
+      "name": "M.Sc. (Ag.) Horticulture",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not specified",
+      "eligibility": null,
+      "official_course_url": "https://ascollege.ac.in/website/page/MzU4",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 165,
+          "career_node_slug": "agri_scientist",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture > Agricultural Scientist",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amar-singh-college-lakhaoti-bulandshahr-asc-msc-ag-agricultural-extension",
+      "name": "M.Sc. (Ag.) Agricultural Extension",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not specified",
+      "eligibility": null,
+      "official_course_url": "https://ascollege.ac.in/website/page/MzU4",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 166,
+          "career_node_slug": "agri_officer",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture > Agriculture Officer (Govt)",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amar-singh-college-lakhaoti-bulandshahr-asc-ma-political-science",
+      "name": "M.A. (Political Science)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not specified",
+      "eligibility": null,
+      "official_course_url": "https://ascollege.ac.in/website/page/MzU4",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amar-singh-college-lakhaoti-bulandshahr-asc-bcom-bfsi",
+      "name": "Bachalor of Commerce (B.Com.)",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Banking, Financial Service & Insurance",
+      "duration": null,
+      "mode": "not specified",
+      "eligibility": null,
+      "official_course_url": "https://ascollege.ac.in/website/page/MzU4",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 344,
+          "career_node_slug": "commerce_banking",
+          "career_breadcrumb": "Banking & Insurance",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amar-singh-college-lakhaoti-bulandshahr-asc-bsc-tourism-hospitality-operations",
+      "name": "B.Sc.",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Tourism & Hospitality Operations",
+      "duration": null,
+      "mode": "not specified",
+      "eligibility": null,
+      "official_course_url": "https://ascollege.ac.in/website/page/MzU4",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 79,
+          "career_node_slug": "hotel_mgmt",
+          "career_breadcrumb": "Performing Arts & Sports > Hotel Management & Tourism",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The official Degree/Programmes Offered page contains eight named regular degree entries; no named current diploma, certificate or doctoral programme appears in that catalogue.",
+    "The separate Add-on courses page contains only dated 2023-24 short-term offerings, so those expired events were excluded.",
+    "Duration, mode and eligibility were left unspecified or null because the official programme and admissions pages did not explicitly verify them.",
+    "The managed proxy returned the exact self-signed-certificate-chain error on initial normal TLS requests; public GETs then used curl --insecure only after confirming the expected official hostnames."
+  ]
+}

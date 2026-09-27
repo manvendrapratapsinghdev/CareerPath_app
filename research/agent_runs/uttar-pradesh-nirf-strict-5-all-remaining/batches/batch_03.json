@@ -1,0 +1,55 @@
+{
+  "batch": 3,
+  "started_at": "2026-09-27T12:12:15.830045+00:00",
+  "finished_at": "2026-09-27T12:22:16.948770+00:00",
+  "assignment_count": 5,
+  "completed_count": 2,
+  "skipped_count": 3,
+  "failed_count": 0,
+  "results": [
+    {
+      "institution_id": "bundelkhand-university",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/bundelkhand-university.json",
+      "finished_at": "2026-09-27T12:12:15.858601+00:00"
+    },
+    {
+      "institution_id": "deen-dayal-upadhyay-gorakhpur-university",
+      "nirf_name": "Deen Dayal Upadhyay Gorakhpur University",
+      "status": "completed",
+      "started_at": "2026-09-27T12:12:15.833844+00:00",
+      "finished_at": "2026-09-27T12:19:57.191059+00:00",
+      "duration_seconds": 461.288,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/deen-dayal-upadhyay-gorakhpur-university.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/logs/deen-dayal-upadhyay-gorakhpur-university.jsonl"
+    },
+    {
+      "institution_id": "madan-mohan-malaviya-university-of-technology",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/madan-mohan-malaviya-university-of-technology.json",
+      "finished_at": "2026-09-27T12:12:15.855181+00:00"
+    },
+    {
+      "institution_id": "santosh-university",
+      "nirf_name": "Santosh University",
+      "status": "completed",
+      "started_at": "2026-09-27T12:12:15.833772+00:00",
+      "finished_at": "2026-09-27T12:22:16.816640+00:00",
+      "duration_seconds": 600.225,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/santosh-university.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/logs/santosh-university.jsonl"
+    },
+    {
+      "institution_id": "veer-bahadur-singh-purvanchal-university-jaunpur",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/veer-bahadur-singh-purvanchal-university-jaunpur.json",
+      "finished_at": "2026-09-27T12:12:15.857803+00:00"
+    }
+  ]
+}

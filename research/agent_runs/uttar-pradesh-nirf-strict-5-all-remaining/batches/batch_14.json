@@ -1,0 +1,78 @@
+{
+  "batch": 14,
+  "started_at": "2026-09-27T13:54:30.512981+00:00",
+  "finished_at": "2026-09-27T14:05:54.382102+00:00",
+  "assignment_count": 5,
+  "completed_count": 4,
+  "skipped_count": 0,
+  "failed_count": 1,
+  "results": [
+    {
+      "institution_id": "amar-singh-college-lakhaoti-bulandshahr",
+      "nirf_name": "Amar Singh College, Lakhaoti, (Bulandshahr)",
+      "status": "completed",
+      "started_at": "2026-09-27T13:54:30.526098+00:00",
+      "finished_at": "2026-09-27T14:00:36.469623+00:00",
+      "duration_seconds": 365.898,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/amar-singh-college-lakhaoti-bulandshahr.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/logs/amar-singh-college-lakhaoti-bulandshahr.jsonl"
+    },
+    {
+      "institution_id": "d-a-v-college-bulandshahr-mob-no-9897534305-05732-234655",
+      "nirf_name": "D.A.V. College, Bulandshahr Mob.No.9897534305 05732-234655",
+      "status": "completed",
+      "started_at": "2026-09-27T13:54:30.526564+00:00",
+      "finished_at": "2026-09-27T14:03:56.352918+00:00",
+      "duration_seconds": 565.776,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/d-a-v-college-bulandshahr-mob-no-9897534305-05732-234655.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/logs/d-a-v-college-bulandshahr-mob-no-9897534305-05732-234655.jsonl"
+    },
+    {
+      "institution_id": "damyanti-raj-anand-govt-college-bisauli",
+      "nirf_name": "Damyanti Raj Anand Govt. College, Bisauli",
+      "status": "failed",
+      "started_at": "2026-09-27T13:54:30.521694+00:00",
+      "finished_at": "2026-09-27T14:05:54.374151+00:00",
+      "duration_seconds": 683.822,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [
+        "verification source is outside official domains: https://uphed.gov.in/FrmCollegeDetail.aspx?value=Degree"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/logs/damyanti-raj-anand-govt-college-bisauli.jsonl"
+    },
+    {
+      "institution_id": "dr-shyama-prasad-mukherjee-govt-college-sant-ravidas-nagar-bhadohi",
+      "nirf_name": "Dr. Shyama Prasad Mukherjee Govt. College, Sant Ravidas Nagar, Bhadohi",
+      "status": "completed",
+      "started_at": "2026-09-27T13:54:30.520301+00:00",
+      "finished_at": "2026-09-27T14:03:57.931955+00:00",
+      "duration_seconds": 567.388,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/dr-shyama-prasad-mukherjee-govt-college-sant-ravidas-nagar-bhadohi.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/logs/dr-shyama-prasad-mukherjee-govt-college-sant-ravidas-nagar-bhadohi.jsonl"
+    },
+    {
+      "institution_id": "g-and-r-institute-of-management-and-technology-bhulandshar",
+      "nirf_name": "G AND R INSTITUTE OF MANAGEMENT AND TECHNOLOGY, BHULANDSHAR",
+      "status": "completed",
+      "started_at": "2026-09-27T13:54:30.525634+00:00",
+      "finished_at": "2026-09-27T14:02:00.729494+00:00",
+      "duration_seconds": 450.168,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/g-and-r-institute-of-management-and-technology-bhulandshar.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/logs/g-and-r-institute-of-management-and-technology-bhulandshar.jsonl"
+    }
+  ]
+}

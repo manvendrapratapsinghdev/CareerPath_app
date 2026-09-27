@@ -1,0 +1,91 @@
+{
+  "batch": 19,
+  "started_at": "2026-09-27T07:11:56.839851+00:00",
+  "finished_at": "2026-09-27T07:12:06.990940+00:00",
+  "assignment_count": 5,
+  "completed_count": 0,
+  "skipped_count": 0,
+  "failed_count": 5,
+  "results": [
+    {
+      "institution_id": "acropolis-institute-of-technology-and-research",
+      "nirf_name": "Acropolis Institute Of Technology And Research",
+      "status": "failed",
+      "started_at": "2026-09-27T07:11:56.850328+00:00",
+      "finished_at": "2026-09-27T07:12:06.989743+00:00",
+      "duration_seconds": 10.139,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/acropolis-institute-of-technology-and-research.jsonl"
+    },
+    {
+      "institution_id": "altius-institute-of-universal-studies-indore",
+      "nirf_name": "Altius Institute of Universal Studies - Indore",
+      "status": "failed",
+      "started_at": "2026-09-27T07:11:56.849973+00:00",
+      "finished_at": "2026-09-27T07:12:06.844099+00:00",
+      "duration_seconds": 9.994,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/altius-institute-of-universal-studies-indore.jsonl"
+    },
+    {
+      "institution_id": "annie-besant-college-annapurna-road-indore",
+      "nirf_name": "Annie Besant College Annapurna Road, Indore",
+      "status": "failed",
+      "started_at": "2026-09-27T07:11:56.850440+00:00",
+      "finished_at": "2026-09-27T07:12:06.813822+00:00",
+      "duration_seconds": 9.963,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/annie-besant-college-annapurna-road-indore.jsonl"
+    },
+    {
+      "institution_id": "bombay-hospital-college-of-nursing-ring-road-indore",
+      "nirf_name": "Bombay Hospital College of Nursing, Ring Road, Indore",
+      "status": "failed",
+      "started_at": "2026-09-27T07:11:56.858573+00:00",
+      "finished_at": "2026-09-27T07:12:06.882837+00:00",
+      "duration_seconds": 10.024,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/bombay-hospital-college-of-nursing-ring-road-indore.jsonl"
+    },
+    {
+      "institution_id": "college-of-professional-studies-atc",
+      "nirf_name": "College of Professional Studies- ATC",
+      "status": "failed",
+      "started_at": "2026-09-27T07:11:56.858699+00:00",
+      "finished_at": "2026-09-27T07:12:06.841525+00:00",
+      "duration_seconds": 9.983,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/college-of-professional-studies-atc.jsonl"
+    }
+  ]
+}

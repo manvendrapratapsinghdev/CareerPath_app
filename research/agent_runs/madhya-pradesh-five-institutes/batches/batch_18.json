@@ -1,0 +1,91 @@
+{
+  "batch": 18,
+  "started_at": "2026-09-27T07:12:21.831370+00:00",
+  "finished_at": "2026-09-27T07:12:34.350798+00:00",
+  "assignment_count": 5,
+  "completed_count": 0,
+  "skipped_count": 0,
+  "failed_count": 5,
+  "results": [
+    {
+      "institution_id": "acropolis-institute-of-management-studies-research-manglia-chouraha-indore",
+      "nirf_name": "Acropolis Institute of Management Studies & Research, Manglia Chouraha,\r\n                                                Indore",
+      "status": "failed",
+      "started_at": "2026-09-27T07:12:21.865968+00:00",
+      "finished_at": "2026-09-27T07:12:34.307035+00:00",
+      "duration_seconds": 12.438,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/acropolis-institute-of-management-studies-research-manglia-chouraha-indore.jsonl"
+    },
+    {
+      "institution_id": "government-college-harrai",
+      "nirf_name": "Government College Harrai",
+      "status": "failed",
+      "started_at": "2026-09-27T07:12:21.984329+00:00",
+      "finished_at": "2026-09-27T07:12:34.343845+00:00",
+      "duration_seconds": 12.359,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/government-college-harrai.jsonl"
+    },
+    {
+      "institution_id": "govt-college-harda-harda",
+      "nirf_name": "Govt. College, Harda, Harda",
+      "status": "failed",
+      "started_at": "2026-09-27T07:12:21.865253+00:00",
+      "finished_at": "2026-09-27T07:12:34.332438+00:00",
+      "duration_seconds": 12.467,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/govt-college-harda-harda.jsonl"
+    },
+    {
+      "institution_id": "govt-vrinda-sahay-pg-college-dabra",
+      "nirf_name": "Govt Vrinda Sahay PG College Dabra",
+      "status": "failed",
+      "started_at": "2026-09-27T07:12:22.110494+00:00",
+      "finished_at": "2026-09-27T07:12:34.335992+00:00",
+      "duration_seconds": 12.225,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/govt-vrinda-sahay-pg-college-dabra.jsonl"
+    },
+    {
+      "institution_id": "school-of-computer-and-electronics-ips-academy-rajendra-nagar-a-b-road-indore-452012",
+      "nirf_name": "\"School of Computer and Electronics, IPS Academy, Rajendra Nagar, A.B.\r\n                                                Road, Indore-452012",
+      "status": "failed",
+      "started_at": "2026-09-27T07:12:21.873006+00:00",
+      "finished_at": "2026-09-27T07:12:34.318008+00:00",
+      "duration_seconds": 12.445,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/school-of-computer-and-electronics-ips-academy-rajendra-nagar-a-b-road-indore-452012.jsonl"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "institution_id": "banaras-hindu-university",
+  "nirf_name": "Banaras Hindu University",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/AgricultureRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/DentalRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/LawRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/MedicalRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Varanasi",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://www.bhu.ac.in/",
+  "website_verification_status": "verified",
+  "description": "Banaras Hindu University is an internationally reputed temple of learning situated in the holy city of Varanasi; it was founded by Pandit Madan Mohan Malaviya and established by the BHU Act 1915.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [
+    "admission.bhu.ac.in"
+  ],
+  "verification_sources": [
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "NIRF 2025 lists Banaras Hindu University in Varanasi, Uttar Pradesh."
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://www.bhu.ac.in/",
+      "supports": [
+        "Official identity and institutional description."
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "https://www.bhu.ac.in/",
+      "supports": [
+        "Official homepage states the university is situated in Varanasi and gives the Varanasi-221005, Uttar Pradesh footer address."
+      ]
+    },
+    {
+      "type": "official_admission_catalogue",
+      "url": "https://admission.bhu.ac.in/en",
+      "supports": [
+        "Official admission portal exposes current degree, diploma, certificate and doctoral programme tables."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "GET https://www.bhu.ac.in/",
+      "result": "Official homepage returned the Banaras Hindu University, Varanasi title and identity/address content.",
+      "url": "https://www.bhu.ac.in/"
+    },
+    {
+      "query": "GET https://admission.bhu.ac.in/en",
+      "result": "Official BHU Admission Portal returned the current programme navigator and catalogue.",
+      "url": "https://admission.bhu.ac.in/en"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [],
+  "agent_notes": [
+    "All six supplied NIRF 2025 directory pages contain Banaras Hindu University with city Varanasi and state Uttar Pradesh.",
+    "Normal TLS verification first failed with the managed proxy error 'self signed certificate in certificate chain'; public GET requests were retried with curl --insecure only after confirming the expected official hostnames.",
+    "The official admission portal exposes 704 catalogue rows, but the tables mix the main university with Rajiv Gandhi South Campus and maintained or affiliated colleges. The fetched catalogue does not provide a reliable campus filter to isolate programmes belonging specifically to the Varanasi main campus, so courses were not imported or guessed. Manual review is required for campus-scoped programme inclusion."
+  ]
+}

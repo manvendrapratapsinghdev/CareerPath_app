@@ -1,0 +1,471 @@
+{
+  "institution_id": "b-n-college-of-engineering-and-technology-lucknow",
+  "nirf_name": "B N College Of Engineering And Technology Lucknow",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/EngineeringRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Lucknow",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://bncet.ac.in/",
+  "website_verification_status": "verified",
+  "description": "B.N. College of Engineering and Technology (BNCET) is a Lucknow engineering institution whose official site lists undergraduate and postgraduate engineering, management, and polytechnic offerings at its Lucknow campus.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/EngineeringRankingALL.html",
+      "supports": [
+        "Exact NIRF name: B N College Of Engineering And Technology Lucknow",
+        "City: Lucknow",
+        "State: Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://bncet.ac.in/",
+      "supports": [
+        "Official BNCET homepage",
+        "Lucknow campus and course-category navigation"
+      ]
+    },
+    {
+      "type": "official_identity_and_district",
+      "url": "https://bncet.ac.in/contact/",
+      "supports": [
+        "B.N. College Of Engineering And Technology identity",
+        "Lucknow, Uttar Pradesh campus address"
+      ]
+    },
+    {
+      "type": "official_catalogue_page",
+      "url": "https://bncet.ac.in/courses-eligibility/",
+      "supports": [
+        "Official Courses & Eligibility page",
+        "Embedded BNCET course and eligibility catalogue"
+      ]
+    },
+    {
+      "type": "official_catalogue_pdf",
+      "url": "https://bncet.ac.in/wp-content/uploads/2022/03/Course-and-eligibility-bncet.pdf",
+      "supports": [
+        "BNCET UG, PG, and Diploma programme names",
+        "Official eligibility text for listed programme families"
+      ]
+    },
+    {
+      "type": "official_current_brochure",
+      "url": "https://bncet.ac.in/wp-content/uploads/2024/03/Brouchure.pdf",
+      "supports": [
+        "Official 2024 BNCET Group Courses Offered list",
+        "BNCET programme families and separate BNCP pharmacy identity"
+      ]
+    },
+    {
+      "type": "official_department_page",
+      "url": "https://bncet.ac.in/ai-ml-ds/",
+      "supports": [
+        "Current official AI & ML / DS department page",
+        "Evidence that the department navigation is newer than the older admissions catalogue"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "B N College of Engineering and Technology Lucknow official website",
+      "result": "Direct HTTPS inspection established https://bncet.ac.in/ as the official candidate; search-engine HTML was not used as verification evidence.",
+      "url": "https://bncet.ac.in/"
+    },
+    {
+      "query": "site:bncet.ac.in B N College Engineering Technology Lucknow",
+      "result": "The bncet.ac.in candidate returned the official BNCET contact and catalogue pages naming the Lucknow campus.",
+      "url": "https://bncet.ac.in/contact/"
+    },
+    {
+      "query": "site:bncet.in B N College Engineering Technology Lucknow",
+      "result": "No usable official result was established for the alternate bncet.in domain; it was not used.",
+      "url": null
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "b-n-college-of-engineering-and-technology-lucknow-bncet-btech-mechanical-engg",
+      "name": "Mechanical Engg.",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated on official catalogue",
+      "eligibility": "The official BNCET eligibility catalogue states that UG applicants must have passed Intermediate/10+2 with at least 45% aggregate (40% for SC/ST) in the specified Physics-and-Mathematics combination; qualifying engineering diploma and lateral-entry routes are also listed.",
+      "official_course_url": "https://bncet.ac.in/wp-content/uploads/2024/03/Brouchure.pdf",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-n-college-of-engineering-and-technology-lucknow-bncet-btech-electrical-engg",
+      "name": "Electrical Engg.",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated on official catalogue",
+      "eligibility": "The official BNCET eligibility catalogue states that UG applicants must have passed Intermediate/10+2 with at least 45% aggregate (40% for SC/ST) in the specified Physics-and-Mathematics combination; qualifying engineering diploma and lateral-entry routes are also listed.",
+      "official_course_url": "https://bncet.ac.in/wp-content/uploads/2024/03/Brouchure.pdf",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-n-college-of-engineering-and-technology-lucknow-bncet-btech-civil-engg",
+      "name": "Civil Engg.",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated on official catalogue",
+      "eligibility": "The official BNCET eligibility catalogue states that UG applicants must have passed Intermediate/10+2 with at least 45% aggregate (40% for SC/ST) in the specified Physics-and-Mathematics combination; qualifying engineering diploma and lateral-entry routes are also listed.",
+      "official_course_url": "https://bncet.ac.in/wp-content/uploads/2024/03/Brouchure.pdf",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-n-college-of-engineering-and-technology-lucknow-bncet-btech-information-technology",
+      "name": "Information Technology",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated on official catalogue",
+      "eligibility": "The official BNCET eligibility catalogue states that UG applicants must have passed Intermediate/10+2 with at least 45% aggregate (40% for SC/ST) in the specified Physics-and-Mathematics combination; qualifying engineering diploma and lateral-entry routes are also listed.",
+      "official_course_url": "https://bncet.ac.in/wp-content/uploads/2024/03/Brouchure.pdf",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 89,
+          "career_node_slug": "btech_it",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Information Technology",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-n-college-of-engineering-and-technology-lucknow-bncet-btech-cse",
+      "name": "Computer Science & Engineering",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated on official catalogue",
+      "eligibility": "The official BNCET eligibility catalogue states that UG applicants must have passed Intermediate/10+2 with at least 45% aggregate (40% for SC/ST) in the specified Physics-and-Mathematics combination; qualifying engineering diploma and lateral-entry routes are also listed.",
+      "official_course_url": "https://bncet.ac.in/wp-content/uploads/2024/03/Brouchure.pdf",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-n-college-of-engineering-and-technology-lucknow-bncet-btech-data-science",
+      "name": "Data Science",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://bncet.ac.in/wp-content/uploads/2024/03/Brouchure.pdf",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 338,
+          "career_node_slug": "science_data",
+          "career_breadcrumb": "Data Science & Analytics",
+          "relation": "nearest-parent: Data Science & Analytics",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-n-college-of-engineering-and-technology-lucknow-bncet-btech-artificial-intelligence",
+      "name": "Artificial Intelligence",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://bncet.ac.in/wp-content/uploads/2024/03/Brouchure.pdf",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 81,
+          "career_node_slug": "btech_ai",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > AI & Machine Learning",
+          "relation": "closest-specialization: AI & Machine Learning",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-n-college-of-engineering-and-technology-lucknow-bncet-btech-ai-ml",
+      "name": "Artificial Intelligence & Machine Learning",
+      "level": "undergraduate",
+      "credential": "B.Tech",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://bncet.ac.in/wp-content/uploads/2024/03/Brouchure.pdf",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 81,
+          "career_node_slug": "btech_ai",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > AI & Machine Learning",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-n-college-of-engineering-and-technology-lucknow-bncet-mtech-mechanical-engg",
+      "name": "Mechanical Engg.",
+      "level": "postgraduate",
+      "credential": "M.Tech",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated on official catalogue",
+      "eligibility": "B.E./B.Tech (50% or equivalent CGPA) in Mechanical/Production/Manufacturing/Industrial/Aeronautical/Automobile Engineering or Manufacturing Technology, as stated in the official BNCET eligibility catalogue.",
+      "official_course_url": "https://bncet.ac.in/wp-content/uploads/2024/03/Brouchure.pdf",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "nearest-parent: Mechanical Engineering; postgraduate level has no exact tree node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-n-college-of-engineering-and-technology-lucknow-bncet-mtech-computer-science",
+      "name": "Computer Science",
+      "level": "postgraduate",
+      "credential": "M.Tech",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated on official catalogue",
+      "eligibility": "B.E./B.Tech (50% or equivalent CGPA) in Computer Science/Information Technology/CSE/CS & IT or MCA, as stated in the official BNCET eligibility catalogue.",
+      "official_course_url": "https://bncet.ac.in/wp-content/uploads/2024/03/Brouchure.pdf",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "nearest-parent: Computer Science; postgraduate level has no exact tree node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-n-college-of-engineering-and-technology-lucknow-bncet-polytechnic-civil-engg",
+      "name": "Civil Engg.",
+      "level": "diploma",
+      "credential": "Polytechnic diploma",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated on official catalogue",
+      "eligibility": "The official BNCET eligibility catalogue states that regular entry requires 10th passed/appeared with minimum 35% marks; lateral-entry routes are also listed.",
+      "official_course_url": "https://bncet.ac.in/wp-content/uploads/2024/03/Brouchure.pdf",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 11,
+          "career_node_slug": "diploma_engg",
+          "career_breadcrumb": "Maths / PCM > Diploma Engineering (Polytechnic)",
+          "relation": "nearest-parent: Diploma Engineering (Polytechnic)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-n-college-of-engineering-and-technology-lucknow-bncet-polytechnic-mechanical-engg",
+      "name": "Mechanical Engg.",
+      "level": "diploma",
+      "credential": "Polytechnic diploma",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://bncet.ac.in/wp-content/uploads/2024/03/Brouchure.pdf",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 11,
+          "career_node_slug": "diploma_engg",
+          "career_breadcrumb": "Maths / PCM > Diploma Engineering (Polytechnic)",
+          "relation": "nearest-parent: Diploma Engineering (Polytechnic)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-n-college-of-engineering-and-technology-lucknow-bncet-polytechnic-electronics-comm",
+      "name": "Electronics comm.",
+      "level": "diploma",
+      "credential": "Polytechnic diploma",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://bncet.ac.in/wp-content/uploads/2024/03/Brouchure.pdf",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 11,
+          "career_node_slug": "diploma_engg",
+          "career_breadcrumb": "Maths / PCM > Diploma Engineering (Polytechnic)",
+          "relation": "nearest-parent: Diploma Engineering (Polytechnic)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-n-college-of-engineering-and-technology-lucknow-bncet-polytechnic-computer-sciences",
+      "name": "Computer Sciences",
+      "level": "diploma",
+      "credential": "Polytechnic diploma",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://bncet.ac.in/wp-content/uploads/2024/03/Brouchure.pdf",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 11,
+          "career_node_slug": "diploma_engg",
+          "career_breadcrumb": "Maths / PCM > Diploma Engineering (Polytechnic)",
+          "relation": "nearest-parent: Diploma Engineering (Polytechnic)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-n-college-of-engineering-and-technology-lucknow-bncet-polytechnic-electrical-engineering",
+      "name": "Electrical Engineering",
+      "level": "diploma",
+      "credential": "Polytechnic diploma",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://bncet.ac.in/wp-content/uploads/2024/03/Brouchure.pdf",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 11,
+          "career_node_slug": "diploma_engg",
+          "career_breadcrumb": "Maths / PCM > Diploma Engineering (Polytechnic)",
+          "relation": "nearest-parent: Diploma Engineering (Polytechnic)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-n-college-of-engineering-and-technology-lucknow-bncet-mba",
+      "name": "MBA",
+      "level": "postgraduate",
+      "credential": "MBA",
+      "specialization": "Marketing; Finance; Information Technology; International Business; Operation & Research; Human Resource",
+      "duration": null,
+      "mode": "not stated on official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://bncet.ac.in/wp-content/uploads/2024/03/Brouchure.pdf",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest-parent: Management & Business",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The NIRF 2025 Engineering listing contains the exact assigned institution name with Lucknow, Uttar Pradesh, confirming the government-directory prerequisite and campus-city match.",
+    "Normal TLS verification for the expected NIRF and bncet.ac.in hosts failed with the proxy's exact self-signed-certificate-in-chain error; public GET requests then used curl --insecure after confirming the expected hostnames.",
+    "The official site has a catalogue-completeness conflict: the current-linked 2024 brochure lists B.Tech Data Science, Artificial Intelligence, Artificial Intelligence & Machine Learning, five Polytechnic families, and MBA tracks, while the older official Courses & Eligibility PDF (last modified 2022) lists a different set including Biotechnology, Electronics & Communication Engineering, and Mechanical Engineering (Production). The official AI & ML / DS department page is newer than that admissions PDF but does not provide a complete programme/eligibility table. The record is therefore manual_review and course_catalogue_status is partial_official_website; the courses above are the latest brochure-listed BNCET programme families, with null eligibility where no exact current official statement was found.",
+    "Pharmacy entries were excluded because the official brochure separately identifies B.N. College of Pharmacy (BNCP), Lucknow, rather than B.N. College of Engineering and Technology. The brochure labels BCA and BBA as upcoming courses, so they were excluded as not active offerings. Faculty PhD references were not treated as doctoral programmes.",
+    "Career mappings use the read-only career_path.db tree. Exact nodes were used where available; Data Science, standalone Artificial Intelligence, postgraduate branches, diploma branches, and MBA use clearly labelled nearest-parent or closest-specialization mappings.",
+    "The official brochure describes BNCET as part of B.N.G.I./Baij Nath Charitable and Educational Trust; this observation was not used to alter the supplied institution_context institution_type."
+  ]
+}

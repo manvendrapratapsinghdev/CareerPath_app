@@ -1,0 +1,1204 @@
+{
+  "institution_id": "uttar-pradesh-university-of-medical-sciences",
+  "nirf_name": "Uttar Pradesh University of Medical Sciences",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/DentalRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/MedicalRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/PharmacyRankingALL.html"
+  ],
+  "verification_outcome": "verified",
+  "district": "Etawah",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://www.upums.ac.in/",
+  "website_verification_status": "verified",
+  "description": "Uttar Pradesh University of Medical Sciences is a government medical university in Saifai, Etawah district, Uttar Pradesh, with faculties of Medicine, Dental Sciences, Paramedical Sciences, Nursing and Pharmacy.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/DentalRankingALL.html",
+      "supports": [
+        "Exact institution name listed with city Etawah and state Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/MedicalRankingALL.html",
+      "supports": [
+        "Exact institution name listed with city Etawah and state Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Exact institution name listed with city Etawah and state Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/PharmacyRankingALL.html",
+      "supports": [
+        "Exact institution name listed with city Etawah and state Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://www.upums.ac.in/",
+      "supports": [
+        "Institution identity, Saifai Etawah address, and government medical university designation"
+      ]
+    },
+    {
+      "type": "official_campus_page",
+      "url": "https://www.upums.ac.in/campus",
+      "supports": [
+        "Campus located in Saifai, Etawah district, Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "official_overview",
+      "url": "https://www.upums.ac.in/overview",
+      "supports": [
+        "University description, state-university status, faculties, and programme summary"
+      ]
+    },
+    {
+      "type": "official_undergraduate_catalogue",
+      "url": "https://www.upums.ac.in/undergraduate",
+      "supports": [
+        "Undergraduate programme names, durations, and seats"
+      ]
+    },
+    {
+      "type": "official_postgraduate_catalogue",
+      "url": "https://www.upums.ac.in/postgracourseseats",
+      "supports": [
+        "Postgraduate programme names, departments, durations, and seats"
+      ]
+    },
+    {
+      "type": "official_super_speciality_catalogue",
+      "url": "https://www.upums.ac.in/SuperSpecialityDivision",
+      "supports": [
+        "M.Ch. Neurosurgery programme, duration, and seats"
+      ]
+    },
+    {
+      "type": "official_diploma_catalogue",
+      "url": "https://www.upums.ac.in/diplomacourseseats",
+      "supports": [
+        "Diploma programme names, durations, and seats"
+      ]
+    },
+    {
+      "type": "official_admissions_page",
+      "url": "https://www.upums.ac.in/admission",
+      "supports": [
+        "Faculty of Medicine admissions and current student/programme listings"
+      ]
+    },
+    {
+      "type": "official_admissions_page",
+      "url": "https://www.upums.ac.in/admission-auxiliary-nurse-medwifery-anm",
+      "supports": [
+        "Active A.N.M. admission programme for academic session 2026-27"
+      ]
+    }
+  ],
+  "website_search_evidence": [],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "uttar-pradesh-university-of-medical-sciences-upums-ug-mbbs",
+      "name": "Bachelor of Medicine and Bachelor of Surgery (MBBS)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "4 Years & 6 Months (Followed by One year compulsory Internship)",
+      "mode": "Not stated by official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://www.upums.ac.in/undergraduate",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "uttar-pradesh-university-of-medical-sciences-upums-ug-bpharm",
+      "name": "Bachelor of Pharmacy (B.Pharm)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "4 Years (Semester System)",
+      "mode": "Not stated by official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://www.upums.ac.in/undergraduate",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "uttar-pradesh-university-of-medical-sciences-upums-ug-bsc-nursing",
+      "name": "Bachelor of Science (Nursing)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "Not stated by official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://www.upums.ac.in/undergraduate",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 19,
+          "career_node_slug": "bsc_nursing",
+          "career_breadcrumb": "Biology / PCB > B.Sc Nursing",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "uttar-pradesh-university-of-medical-sciences-upums-ug-bmlt",
+      "name": "Bachelor of Medical Laboratory Technology (BMLT)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "3 Years & 6 Months",
+      "mode": "Not stated by official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://www.upums.ac.in/undergraduate",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 37,
+          "career_node_slug": "dmlt",
+          "career_breadcrumb": "Paramedical & Health Sciences > DMLT (Medical Lab Technology)",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "uttar-pradesh-university-of-medical-sciences-upums-ug-bpt",
+      "name": "Bachelor of Physiotherapy (BPT)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "4 Years & 6 Months",
+      "mode": "Not stated by official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://www.upums.ac.in/undergraduate",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 23,
+          "career_node_slug": "bpt",
+          "career_breadcrumb": "Biology / PCB > BPT (Physiotherapy)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "uttar-pradesh-university-of-medical-sciences-upums-ug-brit",
+      "name": "B.Sc. in Radiological Imaging & Techniques (BRIT)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "3 Years & 6 Months",
+      "mode": "Not stated by official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://www.upums.ac.in/undergraduate",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 38,
+          "career_node_slug": "bsc_radiology",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Radiology & Imaging Technology",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "uttar-pradesh-university-of-medical-sciences-upums-ug-boptm",
+      "name": "Bachelor of Optometry (B.Optm)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "4 Years (incl. 1 year internship) from 2016-17",
+      "mode": "Not stated by official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://www.upums.ac.in/undergraduate",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 36,
+          "career_node_slug": "bsc_optometry",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Optometry",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "uttar-pradesh-university-of-medical-sciences-upums-pg-md-community-medicine",
+      "name": "MD(Community Medicine)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Community Medicine",
+      "duration": "03 Years",
+      "mode": "Not stated by official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://www.upums.ac.in/postgracourseseats",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 128,
+          "career_node_slug": "md_general",
+          "career_breadcrumb": "Biology / PCB > MBBS > MD General Medicine",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "uttar-pradesh-university-of-medical-sciences-upums-pg-md-microbiology",
+      "name": "MD(Microbiology)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Microbiology",
+      "duration": "03 Years",
+      "mode": "Not stated by official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://www.upums.ac.in/postgracourseseats",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 177,
+          "career_node_slug": "microbiologist",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Microbiology > Microbiologist",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "uttar-pradesh-university-of-medical-sciences-upums-pg-md-paediatrics",
+      "name": "MD(Paediatrics)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Paediatrics",
+      "duration": "03 Years",
+      "mode": "Not stated by official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://www.upums.ac.in/postgracourseseats",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 130,
+          "career_node_slug": "md_paediatrics",
+          "career_breadcrumb": "Biology / PCB > MBBS > MD Paediatrics",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "uttar-pradesh-university-of-medical-sciences-upums-pg-md-pathology",
+      "name": "MD(Pathology)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Pathology",
+      "duration": "03 Years",
+      "mode": "Not stated by official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://www.upums.ac.in/postgracourseseats",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "nearest_parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "uttar-pradesh-university-of-medical-sciences-upums-pg-md-pharmacology",
+      "name": "MD(Pharmacology)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Pharmacology",
+      "duration": "03 Years",
+      "mode": "Not stated by official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://www.upums.ac.in/postgracourseseats",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 144,
+          "career_node_slug": "pharma_researcher",
+          "career_breadcrumb": "Biology / PCB > Medical Updated > Pharmaceutical Researcher",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "uttar-pradesh-university-of-medical-sciences-upums-pg-md-physiology",
+      "name": "MD(Physiology)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Physiology",
+      "duration": "03 Years",
+      "mode": "Not stated by official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://www.upums.ac.in/postgracourseseats",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "nearest_parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "uttar-pradesh-university-of-medical-sciences-upums-pg-md-anaesthesiology",
+      "name": "MD(Anaesthesiology)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Anaesthesiology",
+      "duration": "03 Years",
+      "mode": "Not stated by official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://www.upums.ac.in/postgracourseseats",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "nearest_parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "uttar-pradesh-university-of-medical-sciences-upums-pg-ms-anatomy",
+      "name": "MS(Anatomy)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Anatomy",
+      "duration": "03 Years",
+      "mode": "Not stated by official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://www.upums.ac.in/postgracourseseats",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "nearest_parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "uttar-pradesh-university-of-medical-sciences-upums-pg-ms-ent",
+      "name": "MS(ENT)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "ENT",
+      "duration": "03 Years",
+      "mode": "Not stated by official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://www.upums.ac.in/postgracourseseats",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 129,
+          "career_node_slug": "ms_surgery",
+          "career_breadcrumb": "Biology / PCB > MBBS > MS Surgery",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "uttar-pradesh-university-of-medical-sciences-upums-pg-ms-general-surgery",
+      "name": "MS(General Surgery)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "General Surgery",
+      "duration": "03 Years",
+      "mode": "Not stated by official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://www.upums.ac.in/postgracourseseats",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 129,
+          "career_node_slug": "ms_surgery",
+          "career_breadcrumb": "Biology / PCB > MBBS > MS Surgery",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "uttar-pradesh-university-of-medical-sciences-upums-pg-ms-obg",
+      "name": "MS(OBG)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "OBG",
+      "duration": "03 Years",
+      "mode": "Not stated by official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://www.upums.ac.in/postgracourseseats",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 129,
+          "career_node_slug": "ms_surgery",
+          "career_breadcrumb": "Biology / PCB > MBBS > MS Surgery",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "uttar-pradesh-university-of-medical-sciences-upums-pg-ms-ophthalmology",
+      "name": "MS(Ophthalmology)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Ophthalmology",
+      "duration": "03 Years",
+      "mode": "Not stated by official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://www.upums.ac.in/postgracourseseats",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 15,
+          "career_node_slug": "mbbs",
+          "career_breadcrumb": "Biology / PCB > MBBS",
+          "relation": "nearest_parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "uttar-pradesh-university-of-medical-sciences-upums-pg-ms-orthopaedics",
+      "name": "MS(Orthopaedics)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Orthopaedics",
+      "duration": "03 Years",
+      "mode": "Not stated by official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://www.upums.ac.in/postgracourseseats",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 129,
+          "career_node_slug": "ms_surgery",
+          "career_breadcrumb": "Biology / PCB > MBBS > MS Surgery",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "uttar-pradesh-university-of-medical-sciences-upums-pg-md-tb-chest",
+      "name": "MD(TB and Chest)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "TB and Chest",
+      "duration": "03 Years",
+      "mode": "Not stated by official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://www.upums.ac.in/postgracourseseats",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 128,
+          "career_node_slug": "md_general",
+          "career_breadcrumb": "Biology / PCB > MBBS > MD General Medicine",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "uttar-pradesh-university-of-medical-sciences-upums-pg-md-biochemistry",
+      "name": "MD(Biochemistry)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Biochemistry",
+      "duration": "03 Years",
+      "mode": "Not stated by official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://www.upums.ac.in/postgracourseseats",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 181,
+          "career_node_slug": "clinical_biochemist",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Biochemistry > Clinical Biochemist",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "uttar-pradesh-university-of-medical-sciences-upums-pg-dnb-general-medicine",
+      "name": "DNB",
+      "level": "postgraduate",
+      "credential": "postgraduate medical qualification",
+      "specialization": "DNB- General Medicine",
+      "duration": "03 Years",
+      "mode": "Not stated by official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://www.upums.ac.in/postgracourseseats",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 128,
+          "career_node_slug": "md_general",
+          "career_breadcrumb": "Biology / PCB > MBBS > MD General Medicine",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "uttar-pradesh-university-of-medical-sciences-upums-pg-mds-periodontology",
+      "name": "M.D.S.",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Periodontology",
+      "duration": "03 Years",
+      "mode": "Not stated by official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://www.upums.ac.in/postgracourseseats",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 16,
+          "career_node_slug": "bds",
+          "career_breadcrumb": "Biology / PCB > BDS (Dental Surgery)",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "uttar-pradesh-university-of-medical-sciences-upums-pg-mpt-neurology",
+      "name": "MPT (Neurology)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Neurology",
+      "duration": "02 Years",
+      "mode": "Not stated by official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://www.upums.ac.in/postgracourseseats",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 151,
+          "career_node_slug": "physiotherapist",
+          "career_breadcrumb": "Biology / PCB > BPT (Physiotherapy) > Physiotherapist",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "uttar-pradesh-university-of-medical-sciences-upums-pg-mpt-orthopaedics",
+      "name": "MPT (Orthopaedics)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Orthopaedics",
+      "duration": "02 Years",
+      "mode": "Not stated by official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://www.upums.ac.in/postgracourseseats",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 151,
+          "career_node_slug": "physiotherapist",
+          "career_breadcrumb": "Biology / PCB > BPT (Physiotherapy) > Physiotherapist",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "uttar-pradesh-university-of-medical-sciences-upums-pg-master-optometry",
+      "name": "Master of Optometry",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "02 Years",
+      "mode": "Not stated by official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://www.upums.ac.in/postgracourseseats",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 183,
+          "career_node_slug": "optometrist",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Optometry > Optometrist",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "uttar-pradesh-university-of-medical-sciences-upums-pg-mmlt-medical-microbiology",
+      "name": "M.M.L.T. (Medical Microbiology)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Medical Microbiology",
+      "duration": "02 Years",
+      "mode": "Not stated by official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://www.upums.ac.in/postgracourseseats",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 177,
+          "career_node_slug": "microbiologist",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Microbiology > Microbiologist",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "uttar-pradesh-university-of-medical-sciences-upums-pg-msc-radio-imaging",
+      "name": "M.Sc. (Radio Imaging Techniques)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Radio Imaging",
+      "duration": "02 Years",
+      "mode": "Not stated by official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://www.upums.ac.in/postgracourseseats",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 188,
+          "career_node_slug": "radiographer",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Radiology & Imaging Technology > Radiographer",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "uttar-pradesh-university-of-medical-sciences-upums-pg-mpharm-pharmaceutics",
+      "name": "M. Pharm",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Pharmaceutics",
+      "duration": "02 Years",
+      "mode": "Not stated by official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://www.upums.ac.in/postgracourseseats",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 144,
+          "career_node_slug": "pharma_researcher",
+          "career_breadcrumb": "Biology / PCB > Medical Updated > Pharmaceutical Researcher",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "uttar-pradesh-university-of-medical-sciences-upums-pg-mpharm-pharmaceutical-chemistry",
+      "name": "M. Pharm",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Pharmaceutical Chemistry",
+      "duration": "02 Years",
+      "mode": "Not stated by official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://www.upums.ac.in/postgracourseseats",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 144,
+          "career_node_slug": "pharma_researcher",
+          "career_breadcrumb": "Biology / PCB > Medical Updated > Pharmaceutical Researcher",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "uttar-pradesh-university-of-medical-sciences-upums-pg-mpharm-pharmacology",
+      "name": "M. Pharm",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Pharmacology",
+      "duration": "02 Years",
+      "mode": "Not stated by official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://www.upums.ac.in/postgracourseseats",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 144,
+          "career_node_slug": "pharma_researcher",
+          "career_breadcrumb": "Biology / PCB > Medical Updated > Pharmaceutical Researcher",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "uttar-pradesh-university-of-medical-sciences-upums-pg-mpharm-pharmacognosy",
+      "name": "M. Pharm",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Pharmacognosy",
+      "duration": "02 Years",
+      "mode": "Not stated by official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://www.upums.ac.in/postgracourseseats",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 144,
+          "career_node_slug": "pharma_researcher",
+          "career_breadcrumb": "Biology / PCB > Medical Updated > Pharmaceutical Researcher",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "uttar-pradesh-university-of-medical-sciences-upums-super-mch-neurosurgery",
+      "name": "M.Ch.",
+      "level": "super_speciality",
+      "credential": "super-speciality degree",
+      "specialization": "Neurosurgery",
+      "duration": "03 Years",
+      "mode": "Not stated by official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://www.upums.ac.in/SuperSpecialityDivision",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 129,
+          "career_node_slug": "ms_surgery",
+          "career_breadcrumb": "Biology / PCB > MBBS > MS Surgery",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "uttar-pradesh-university-of-medical-sciences-upums-diploma-laboratory-technician",
+      "name": "Diploma in Laboratory Technician",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "Not stated by official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://www.upums.ac.in/diplomacourseseats",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 185,
+          "career_node_slug": "lab_tech_medical",
+          "career_breadcrumb": "Paramedical & Health Sciences > DMLT (Medical Lab Technology) > Medical Lab Technician",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "uttar-pradesh-university-of-medical-sciences-upums-diploma-xray-technician",
+      "name": "Diploma in X-ray Technician",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "Not stated by official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://www.upums.ac.in/diplomacourseseats",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 188,
+          "career_node_slug": "radiographer",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Radiology & Imaging Technology > Radiographer",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "uttar-pradesh-university-of-medical-sciences-upums-diploma-ot-technician",
+      "name": "Diploma in OT Technician",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "Not stated by official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://www.upums.ac.in/diplomacourseseats",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest_parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "uttar-pradesh-university-of-medical-sciences-upums-diploma-optometry",
+      "name": "Diploma in Optometry",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "Not stated by official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://www.upums.ac.in/diplomacourseseats",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 183,
+          "career_node_slug": "optometrist",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Optometry > Optometrist",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "uttar-pradesh-university-of-medical-sciences-upums-diploma-physiotherapy",
+      "name": "Diploma in Physiotherapy",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "Not stated by official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://www.upums.ac.in/diplomacourseseats",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 151,
+          "career_node_slug": "physiotherapist",
+          "career_breadcrumb": "Biology / PCB > BPT (Physiotherapy) > Physiotherapist",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "uttar-pradesh-university-of-medical-sciences-upums-diploma-dialysis-technician",
+      "name": "Diploma in Dialysis Technician",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "Not stated by official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://www.upums.ac.in/diplomacourseseats",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest_parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "uttar-pradesh-university-of-medical-sciences-upums-diploma-ct-scan",
+      "name": "Diploma in CT Scan",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "Not stated by official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://www.upums.ac.in/diplomacourseseats",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 189,
+          "career_node_slug": "mri_technician",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Radiology & Imaging Technology > MRI / CT Scan Technician",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "uttar-pradesh-university-of-medical-sciences-upums-diploma-cardiology-technician",
+      "name": "Diploma in Cardiology Technician",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "Not stated by official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://www.upums.ac.in/diplomacourseseats",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest_parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "uttar-pradesh-university-of-medical-sciences-upums-diploma-mri-technician",
+      "name": "Diploma in MRI Technician",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "Not stated by official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://www.upums.ac.in/diplomacourseseats",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 189,
+          "career_node_slug": "mri_technician",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Radiology & Imaging Technology > MRI / CT Scan Technician",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "uttar-pradesh-university-of-medical-sciences-upums-diploma-emergency-trauma-care",
+      "name": "Diploma in Emergency & Trauma Care",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "Not stated by official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://www.upums.ac.in/diplomacourseseats",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest_parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "uttar-pradesh-university-of-medical-sciences-upums-diploma-blood-transfusion-technician",
+      "name": "Diploma in Blood Transfusion Technician",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "Not stated by official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://www.upums.ac.in/diplomacourseseats",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 187,
+          "career_node_slug": "blood_bank_tech",
+          "career_breadcrumb": "Paramedical & Health Sciences > DMLT (Medical Lab Technology) > Blood Bank Technician",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "uttar-pradesh-university-of-medical-sciences-upums-diploma-gnm",
+      "name": "Diploma in General Nursing and Midwifery (GNM)",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "Not stated by official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://www.upums.ac.in/diplomacourseseats",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 140,
+          "career_node_slug": "clinical_nurse",
+          "career_breadcrumb": "Biology / PCB > B.Sc Nursing > Clinical Nurse Specialist",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "uttar-pradesh-university-of-medical-sciences-upums-diploma-anm",
+      "name": "Diploma in Health Worker (Female) (ANM)",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": null,
+      "duration": "2 Years",
+      "mode": "Not stated by official catalogue",
+      "eligibility": null,
+      "official_course_url": "https://www.upums.ac.in/diplomacourseseats",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 142,
+          "career_node_slug": "public_health_nurse",
+          "career_breadcrumb": "Biology / PCB > B.Sc Nursing > Public Health Nurse",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "All four supplied 2025 NIRF directory pages list the exact institution name with city Etawah and state Uttar Pradesh.",
+    "Normal TLS verification to nirfindia.org and www.upums.ac.in failed with curl error 60 (self signed certificate in certificate chain) from the managed proxy; public GETs then used --insecure only for those expected public hosts.",
+    "The official academic navigation exposes undergraduate, postgraduate, super-speciality, and diploma catalogues. The PhD Cell contains committee/notices information but no active doctoral programme catalogue entry, and no certificate programme appears in the official academic-program navigation.",
+    "The current Undergraduate catalogue leaves B.Sc. Nursing duration blank, so duration is null. The overview page lists GNM as 3 years while the current Diploma catalogue lists 2 years; the course record follows the current Diploma catalogue's 2 Years.",
+    "Career mappings were checked with read-only queries against assets/data/career_path.db. Nearest-parent and closest-specialization mappings are marked low or medium confidence where no exact career-tree node exists. The local bpharm career node has the label Medical Updated; its exact local breadcrumb was retained and marked as a career-tree label issue."
+  ]
+}

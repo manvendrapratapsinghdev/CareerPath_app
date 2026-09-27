@@ -1,0 +1,91 @@
+{
+  "batch": 12,
+  "started_at": "2026-09-27T07:10:38.547048+00:00",
+  "finished_at": "2026-09-27T07:10:48.261746+00:00",
+  "assignment_count": 5,
+  "completed_count": 0,
+  "skipped_count": 0,
+  "failed_count": 5,
+  "results": [
+    {
+      "institution_id": "bhopal-institute-of-technology-and-management-mba",
+      "nirf_name": "Bhopal Institute of Technology and Management MBA",
+      "status": "failed",
+      "started_at": "2026-09-27T07:10:38.558961+00:00",
+      "finished_at": "2026-09-27T07:10:47.582724+00:00",
+      "duration_seconds": 9.023,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/bhopal-institute-of-technology-and-management-mba.jsonl"
+    },
+    {
+      "institution_id": "bsss-college",
+      "nirf_name": "BSSS College",
+      "status": "failed",
+      "started_at": "2026-09-27T07:10:38.559034+00:00",
+      "finished_at": "2026-09-27T07:10:48.252869+00:00",
+      "duration_seconds": 9.694,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/bsss-college.jsonl"
+    },
+    {
+      "institution_id": "career-college",
+      "nirf_name": "Career College",
+      "status": "failed",
+      "started_at": "2026-09-27T07:10:38.559010+00:00",
+      "finished_at": "2026-09-27T07:10:48.260244+00:00",
+      "duration_seconds": 9.701,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/career-college.jsonl"
+    },
+    {
+      "institution_id": "career-college-of-nursing",
+      "nirf_name": "Career College of Nursing",
+      "status": "failed",
+      "started_at": "2026-09-27T07:10:38.568046+00:00",
+      "finished_at": "2026-09-27T07:10:48.107792+00:00",
+      "duration_seconds": 9.54,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/career-college-of-nursing.jsonl"
+    },
+    {
+      "institution_id": "corporate-institute-of-science-technology-hataikheda-near-patel-nagar-raisen-road-bhopal",
+      "nirf_name": "Corporate Institute of Science & Technology, Hataikheda, Near Patel\r\n                                                Nagar, Raisen Road, Bhopal",
+      "status": "failed",
+      "started_at": "2026-09-27T07:10:38.568133+00:00",
+      "finished_at": "2026-09-27T07:10:48.229521+00:00",
+      "duration_seconds": 9.661,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/corporate-institute-of-science-technology-hataikheda-near-patel-nagar-raisen-road-bhopal.jsonl"
+    }
+  ]
+}

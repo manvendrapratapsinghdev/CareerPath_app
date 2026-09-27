@@ -1,0 +1,462 @@
+{
+  "institution_id": "dr-sarvepalli-radhakrishnan-rajasthan-ayurved-university-jodhpur",
+  "nirf_name": "Dr Sarvepalli Radhakrishnan Rajasthan Ayurved University, Jodhpur",
+  "verification_outcome": "verified",
+  "district": "Jodhpur",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://rauonline.in/",
+  "website_verification_status": "verified",
+  "description": "Dr. Sarvepalli Radhakrishnan Rajasthan Ayurved University is Rajasthan's first Ayurved university, established under the RAU Act 2002 in 2003. Its main campus is at Kadwad, Jodhpur, and it operates or affiliates AYUSH colleges covering Ayurveda, Homeopathy, Unani, Yoga and Naturopathy.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "official_homepage",
+      "url": "https://rauonline.in/",
+      "supports": [
+        "official institution identity",
+        "institution name and Jodhpur address",
+        "official navigation to academic and constituent-college pages"
+      ]
+    },
+    {
+      "type": "official_about_page",
+      "url": "https://rauonline.in/index.php/about/about_us",
+      "supports": [
+        "main campus at Kadwad, Jodhpur",
+        "institution establishment and identity",
+        "institutional description and AYUSH programme families"
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://rauonline.in/index.php/document/recongnition",
+      "supports": [
+        "AVAILABLE COURSES table",
+        "exact programme names",
+        "duration and eligibility",
+        "separation of available and proposed courses"
+      ]
+    },
+    {
+      "type": "official_syllabus_page",
+      "url": "https://rauonline.in/index.php/document/syllabus",
+      "supports": [
+        "official syllabus and curriculum index",
+        "Ayurveda, Unani, Homeopathy, Yoga and Naturopathy course documents",
+        "BNYS and related curriculum entries"
+      ]
+    },
+    {
+      "type": "official_phd_section",
+      "url": "https://rauonline.in/index.php/phd/section",
+      "supports": [
+        "PhD Section",
+        "PhD Ayurveda admission and coursework material"
+      ]
+    },
+    {
+      "type": "official_admission_page",
+      "url": "https://rauonline.in/index.php/document/admission",
+      "supports": [
+        "official admissions section"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "Dr Sarvepalli Radhakrishnan Rajasthan Ayurved University Jodhpur official",
+      "result": "Google web results were CAPTCHA-gated; no search snippet was used as verification.",
+      "url": "https://www.google.com/search?q=Dr%20Sarvepalli%20Radhakrishnan%20Rajasthan%20Ayurved%20University%20Jodhpur%20official"
+    },
+    {
+      "query": "Rajasthan Ayurved University Jodhpur official website",
+      "result": "Google web results were CAPTCHA-gated; no search snippet was used as verification.",
+      "url": "https://www.google.com/search?q=Rajasthan%20Ayurved%20University%20Jodhpur%20official%20website"
+    },
+    {
+      "query": "dsrrau official website",
+      "result": "Google autocomplete surfaced the DSRRAU acronym; direct HTTPS verification of rauonline.in confirmed the institution identity and Jodhpur campus.",
+      "url": "https://rauonline.in/"
+    }
+  ],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "dr-sarvepalli-radhakrishnan-rajasthan-ayurved-university-jodhpur-dsrrau-phd-ayurved",
+      "name": "Ph.D(Ayurved)",
+      "level": "Doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Ayurveda",
+      "duration": "2-7 years *",
+      "mode": "not stated",
+      "eligibility": "M.S. / MD (Ayurveda) Passed",
+      "official_course_url": "https://rauonline.in/index.php/document/recongnition",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 138,
+          "career_node_slug": "ayurveda_researcher",
+          "career_breadcrumb": "Biology / PCB > BAMS (Ayurveda) > Ayurveda Researcher",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-sarvepalli-radhakrishnan-rajasthan-ayurved-university-jodhpur-dsrrau-md-ms-ayurved",
+      "name": "M.D.(Ayurved) / M.S.(Ayurved)",
+      "level": "Postgraduate",
+      "credential": "M.D./M.S.",
+      "specialization": "Ayurveda",
+      "duration": "03 years",
+      "mode": "not stated",
+      "eligibility": "B.A.M.S. Passed",
+      "official_course_url": "https://rauonline.in/index.php/document/recongnition",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 137,
+          "career_node_slug": "ayurveda_doctor",
+          "career_breadcrumb": "Biology / PCB > BAMS (Ayurveda) > Ayurveda Practitioner",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-sarvepalli-radhakrishnan-rajasthan-ayurved-university-jodhpur-dsrrau-md-homeopathy",
+      "name": "M.D.(Homeopathy)",
+      "level": "Postgraduate",
+      "credential": "M.D.",
+      "specialization": "Homeopathy",
+      "duration": "03 years",
+      "mode": "not stated",
+      "eligibility": "B.H.M.S. Passed",
+      "official_course_url": "https://rauonline.in/index.php/document/recongnition",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 139,
+          "career_node_slug": "homeopathy_doctor",
+          "career_breadcrumb": "Biology / PCB > BHMS (Homeopathy) > Homeopathy Practitioner",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-sarvepalli-radhakrishnan-rajasthan-ayurved-university-jodhpur-dsrrau-bams",
+      "name": "Bachelor of Ayurvedic Medicine and Surgery(B.A.M.S.)",
+      "level": "Undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Ayurveda",
+      "duration": "5 ½ years",
+      "mode": "not stated",
+      "eligibility": "10+2 passed with Science Biology ( 50 % marks are compulsory in Physics, Chemistry, Biology)",
+      "official_course_url": "https://rauonline.in/index.php/document/recongnition",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 17,
+          "career_node_slug": "bams",
+          "career_breadcrumb": "Biology / PCB > BAMS (Ayurveda)",
+          "relation": "direct_degree",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-sarvepalli-radhakrishnan-rajasthan-ayurved-university-jodhpur-dsrrau-bhms",
+      "name": "Bachelor of Homeopathy Medicine and Surgery(B.H.M.S.)",
+      "level": "Undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Homeopathy",
+      "duration": "5 ½ years",
+      "mode": "not stated",
+      "eligibility": "10+2 passed with Science Biology",
+      "official_course_url": "https://rauonline.in/index.php/document/recongnition",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 18,
+          "career_node_slug": "bhms",
+          "career_breadcrumb": "Biology / PCB > BHMS (Homeopathy)",
+          "relation": "direct_degree",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-sarvepalli-radhakrishnan-rajasthan-ayurved-university-jodhpur-dsrrau-bums",
+      "name": "Bachelor of Unani Medicine and Surgery(B.U.M.S.)",
+      "level": "Undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Unani",
+      "duration": "5 ½ years",
+      "mode": "not stated",
+      "eligibility": "10+2 passed with Science Biology & Urdu as additional subjects in secondry level or senior secondary level",
+      "official_course_url": "https://rauonline.in/index.php/document/recongnition",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest-parent; no Unani node exists in the local career tree",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-sarvepalli-radhakrishnan-rajasthan-ayurved-university-jodhpur-dsrrau-bnys",
+      "name": "Bachelor of Naturopathy & Yoga Science (B.N.Y.S.)",
+      "level": "Undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Naturopathy & Yoga",
+      "duration": "5 ½ years",
+      "mode": "not stated",
+      "eligibility": "10+2 passed with Physics, Chemistry and Biology",
+      "official_course_url": "https://rauonline.in/index.php/document/recongnition",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest-parent; no Naturopathy/Yoga node exists in the local career tree",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-sarvepalli-radhakrishnan-rajasthan-ayurved-university-jodhpur-dsrrau-ayurved-nursing",
+      "name": "B.Sc. (Ayurved Nursing)",
+      "level": "Undergraduate",
+      "credential": "B.Sc.",
+      "specialization": "Ayurved Nursing",
+      "duration": "4 years",
+      "mode": "not stated",
+      "eligibility": "10+2 passed in any discipline",
+      "official_course_url": "https://rauonline.in/index.php/document/recongnition",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 19,
+          "career_node_slug": "bsc_nursing",
+          "career_breadcrumb": "Biology / PCB > B.Sc Nursing",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-sarvepalli-radhakrishnan-rajasthan-ayurved-university-jodhpur-dsrrau-danp",
+      "name": "Diploma in AYUSH Nursing and Pharmacy(DAN & P)",
+      "level": "Diploma",
+      "credential": "Diploma",
+      "specialization": "AYUSH Nursing and Pharmacy",
+      "duration": "03 years",
+      "mode": "not stated",
+      "eligibility": "10+2 passed in any discipline",
+      "official_course_url": "https://rauonline.in/index.php/document/recongnition",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest-parent; combined AYUSH nursing and pharmacy diploma has no exact local node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-sarvepalli-radhakrishnan-rajasthan-ayurved-university-jodhpur-dsrrau-dpharma",
+      "name": "D.Pharma",
+      "level": "Diploma",
+      "credential": "Diploma",
+      "specialization": null,
+      "duration": "02 years",
+      "mode": "not stated",
+      "eligibility": "10+2 passed in any discipline",
+      "official_course_url": "https://rauonline.in/index.php/document/recongnition",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "closest-programme-family; local B.Pharm node label is Medical Updated",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-sarvepalli-radhakrishnan-rajasthan-ayurved-university-jodhpur-dsrrau-panch-karma",
+      "name": "Certificate Course in Panch Karma",
+      "level": "Certificate",
+      "credential": "Certificate",
+      "specialization": "Panch Karma",
+      "duration": "03 months",
+      "mode": "not stated",
+      "eligibility": "B.A.M.S. Passed",
+      "official_course_url": "https://rauonline.in/index.php/document/recongnition",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 137,
+          "career_node_slug": "ayurveda_doctor",
+          "career_breadcrumb": "Biology / PCB > BAMS (Ayurveda) > Ayurveda Practitioner",
+          "relation": "closest-specialization; Ayurveda therapy certificate",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-sarvepalli-radhakrishnan-rajasthan-ayurved-university-jodhpur-dsrrau-ksharsutra",
+      "name": "Certificate Course in Ksharsutra",
+      "level": "Certificate",
+      "credential": "Certificate",
+      "specialization": "Ksharsutra",
+      "duration": "3 months",
+      "mode": "not stated",
+      "eligibility": "B.A.M.S. Passed",
+      "official_course_url": "https://rauonline.in/index.php/document/recongnition",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 137,
+          "career_node_slug": "ayurveda_doctor",
+          "career_breadcrumb": "Biology / PCB > BAMS (Ayurveda) > Ayurveda Practitioner",
+          "relation": "closest-specialization; Ayurveda therapy certificate",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-sarvepalli-radhakrishnan-rajasthan-ayurved-university-jodhpur-dsrrau-pg-geriatric",
+      "name": "PG certificate course in Geriatrics",
+      "level": "Postgraduate certificate",
+      "credential": "PG certificate",
+      "specialization": "Geriatrics",
+      "duration": "3 months",
+      "mode": "not stated",
+      "eligibility": "BAMS Passed",
+      "official_course_url": "https://rauonline.in/index.php/document/recongnition",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 128,
+          "career_node_slug": "md_general",
+          "career_breadcrumb": "Biology / PCB > MBBS > MD General Medicine",
+          "relation": "closest-specialization; no geriatrics node exists in the local career tree",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-sarvepalli-radhakrishnan-rajasthan-ayurved-university-jodhpur-dsrrau-panchkarma-ta",
+      "name": "Certificate Course in Panchkarma Technical Assistant",
+      "level": "Certificate",
+      "credential": "Certificate",
+      "specialization": "Panchkarma",
+      "duration": "01 Year",
+      "mode": "not stated",
+      "eligibility": "10+2 in any discipline",
+      "official_course_url": "https://rauonline.in/index.php/document/recongnition",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest-parent; no exact Ayurveda technical-assistant node exists",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-sarvepalli-radhakrishnan-rajasthan-ayurved-university-jodhpur-dsrrau-yoga-naturopathy",
+      "name": "Certificate Course in Yoga & Naturopathy",
+      "level": "Certificate",
+      "credential": "Certificate",
+      "specialization": "Yoga & Naturopathy",
+      "duration": "01 Year",
+      "mode": "not stated",
+      "eligibility": "10+2 in any discipline",
+      "official_course_url": "https://rauonline.in/index.php/document/recongnition",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 78,
+          "career_node_slug": "sports_career",
+          "career_breadcrumb": "Performing Arts & Sports > Sports & Physical Education",
+          "relation": "closest-discipline; no dedicated Yoga/Naturopathy node exists in the local career tree",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-sarvepalli-radhakrishnan-rajasthan-ayurved-university-jodhpur-dsrrau-osteopathy-marma-ta",
+      "name": "Certificate Course in Osteopathy and Marma Chikitsa Technical Assistant",
+      "level": "Certificate",
+      "credential": "Certificate",
+      "specialization": "Osteopathy and Marma Chikitsa",
+      "duration": "01 Year",
+      "mode": "not stated",
+      "eligibility": "10+2 in any discipline",
+      "official_course_url": "https://rauonline.in/index.php/document/recongnition",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest-parent; no exact Osteopathy/Marma technical-assistant node exists",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The official Recognition page explicitly separates AVAILABLE COURSES from PROPOSED COURSES; only the 16 available rows were included.",
+    "Programme names and eligibility text were preserved from the official table, including its punctuation and typographical variants.",
+    "Normal TLS verification for the expected official/search hosts failed with the managed proxy self-signed certificate-chain error; public GET requests then used curl --insecure after confirming the hostnames.",
+    "The local career tree has no exact Unani, Naturopathy/Yoga, Osteopathy/Marma, or Geriatrics nodes; closest local branches were used with medium or low confidence where a responsible mapping existed.",
+    "The local career tree's bpharm node is labelled Medical Updated; D.Pharma was mapped to that node with reviewed_with_career_tree_label_issue status."
+  ]
+}

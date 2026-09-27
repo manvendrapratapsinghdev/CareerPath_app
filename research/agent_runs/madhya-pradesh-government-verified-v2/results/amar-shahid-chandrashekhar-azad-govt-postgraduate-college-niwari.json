@@ -1,0 +1,137 @@
+{
+  "institution_id": "amar-shahid-chandrashekhar-azad-govt-postgraduate-college-niwari",
+  "nirf_name": "Amar Shahid Chandrashekhar Azad Govt. Postgraduate College, NIWARI",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Niwari",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://highereducation.mp.gov.in/?orgid=303",
+  "website_verification_status": "verified",
+  "description": "A government postgraduate college in Niwari district, Madhya Pradesh, administered by the Madhya Pradesh Department of Higher Education.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "institution_name",
+        "city",
+        "state"
+      ]
+    },
+    {
+      "type": "official_state_college_directory",
+      "url": "https://highereducation.mp.gov.in/?page=3ReniKuyIMmDd4opO%2FkIdA%3D%3D",
+      "supports": [
+        "official_college_entry",
+        "Niwari_campus_selection",
+        "orgid_303"
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://highereducation.mp.gov.in/?orgid=303",
+      "supports": [
+        "official_identity",
+        "campus",
+        "district",
+        "government_status",
+        "description"
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=ThD3Jx%2BOoVTRkv%2F1IGem5w%3D%3D&orgid=303",
+      "supports": [
+        "programme_name",
+        "eligibility",
+        "regular_mode"
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=0T9Pn8d600vgewLXCFpT%2FQ%3D%3D&orgid=303",
+      "supports": [
+        "distance_catalogue_check"
+      ]
+    },
+    {
+      "type": "official_academics_page",
+      "url": "https://highereducation.mp.gov.in/?page=Q73TCIA7%2FaftTg4woJhfJA%3D%3D&orgid=303",
+      "supports": [
+        "catalogue_completeness_check"
+      ]
+    },
+    {
+      "type": "official_academics_page",
+      "url": "https://highereducation.mp.gov.in/?page=xtoHHQrPTRPlyXy9XUDhUQ%3D%3D&orgid=303",
+      "supports": [
+        "new_course_catalogue_check"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "Amar Shahid Chandrashekhar Azad Govt Postgraduate College Niwari official",
+      "result": "Search results did not establish a separate official institution domain; the Madhya Pradesh Higher Education Department college directory and orgid 303 profile established the official campus page.",
+      "url": "https://www.bing.com/search?q=Amar+Shahid+Chandrashekhar+Azad+Govt+Postgraduate+College+Niwari+official"
+    },
+    {
+      "query": "Government Postgraduate College Niwari Madhya Pradesh official",
+      "result": "Search results did not establish a separate official institution domain; the Madhya Pradesh Higher Education Department college directory and orgid 303 profile established the official campus page.",
+      "url": "https://www.bing.com/search?q=Government+Postgraduate+College+Niwari+Madhya+Pradesh+official"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "amar-shahid-chandrashekhar-azad-govt-postgraduate-college-niwari-b-a-economics-hindi-political-science",
+      "name": "B. A. (Economics - Hindi - Political Science)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Economics - Hindi - Political Science",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=ThD3Jx%2BOoVTRkv%2F1IGem5w%3D%3D&orgid=303",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "Normal TLS verification failed with the managed proxy's exact self-signed certificate-chain error; curl --insecure was then used only for public GET requests to expected official/search hostnames.",
+    "The official Madhya Pradesh Higher Education profile identifies orgid 303 as Amar Shahid Chandrashekhar Azad Government Postgraduate College, Niwari district; the separate Govt College, Orchha, Niwari entry was not used.",
+    "The official Regular Courses page lists only B. A. (Economics - Hindi - Political Science) under UG Programme with minimum qualification 10+2. Its PG and Diploma tables are empty.",
+    "The official Distance Education page has empty PG, UG, and Diploma tables; the official Prospectus and New Course Started pages are under construction. The catalogue is therefore partial, so the record remains manual_review and no unlisted PG, diploma, certificate, or doctoral programmes were imported."
+  ]
+}

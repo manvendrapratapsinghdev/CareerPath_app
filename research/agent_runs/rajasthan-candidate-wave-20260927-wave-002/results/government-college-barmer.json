@@ -1,0 +1,350 @@
+{
+  "institution_id": "government-college-barmer",
+  "nirf_name": "Government College, Barmer",
+  "verification_outcome": "manual_review",
+  "district": "Barmer",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://hte.rajasthan.gov.in/GovernmentCollegeBarmer/11333",
+  "website_verification_status": "verified",
+  "description": "Government College, Barmer is a co-educational, multi-faculty institution established in 1965 in Barmer, Rajasthan, offering undergraduate and postgraduate education in arts, science, and commerce.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "official_homepage",
+      "url": "https://hte.rajasthan.gov.in/GovernmentCollegeBarmer/11333",
+      "supports": [
+        "official identity",
+        "campus name",
+        "current homepage programme labels"
+      ]
+    },
+    {
+      "type": "official_campus_route",
+      "url": "https://hte.rajasthan.gov.in/college/gcbarmer",
+      "supports": [
+        "official Barmer college route redirecting to the canonical campus homepage"
+      ]
+    },
+    {
+      "type": "official_contact_page",
+      "url": "https://hte.rajasthan.gov.in/11727",
+      "supports": [
+        "district and campus address",
+        "Barmer, Rajasthan identity"
+      ]
+    },
+    {
+      "type": "official_introduction_page",
+      "url": "https://hte.rajasthan.gov.in/12084",
+      "supports": [
+        "institution description",
+        "establishment in 1965",
+        "undergraduate and postgraduate structure",
+        "3-year UG and 2-year PG duration statements"
+      ]
+    },
+    {
+      "type": "official_history_page",
+      "url": "https://hte.rajasthan.gov.in/11734",
+      "supports": [
+        "official statement that Ph.D. degree is offered",
+        "official statement about graduate and postgraduate subject counts"
+      ]
+    },
+    {
+      "type": "official_admissions_page",
+      "url": "https://hte.rajasthan.gov.in/11528",
+      "supports": [
+        "official admissions page inspected; no detailed programme catalogue displayed"
+      ]
+    },
+    {
+      "type": "official_ug_catalogue_page",
+      "url": "https://hte.rajasthan.gov.in/12439",
+      "supports": [
+        "official UG catalogue route; no programme entries displayed"
+      ]
+    },
+    {
+      "type": "official_pg_catalogue_page",
+      "url": "https://hte.rajasthan.gov.in/12440",
+      "supports": [
+        "official PG catalogue route; no programme entries displayed"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Government College, Barmer\" official website",
+      "result": "Google Search returned an unusual-traffic CAPTCHA page and no usable institution result.",
+      "url": "https://www.google.com/search?q=%22Government+College%2C+Barmer%22+official+website"
+    },
+    {
+      "query": "Government College Barmer site:ac.in",
+      "result": "Bing Search returned unrelated generic results and no reliable institution result.",
+      "url": "https://www.bing.com/search?q=Government+College+Barmer+site%3Aac.in"
+    },
+    {
+      "query": "Government College Barmer Rajasthan official website",
+      "result": "Bing Search returned unrelated generic results and no reliable institution result.",
+      "url": "https://www.bing.com/search?q=Government+College+Barmer+Rajasthan+official"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "government-college-barmer-ug-ba-part-i",
+      "name": "BA Part I",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/GovernmentCollegeBarmer/11333",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent mapping for broad BA programme",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-barmer-pg-ma-history",
+      "name": "M.A.(History)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "History",
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/GovernmentCollegeBarmer/11333",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct discipline mapping for History; existing career node is labelled BA History",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-barmer-pg-ma-political-science",
+      "name": "M.A.(Political Science)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Political Science",
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/GovernmentCollegeBarmer/11333",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct discipline mapping for Political Science; existing career node is labelled BA Political Science",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-barmer-pg-ma-hindi-sfs",
+      "name": "M.A.(Hindi)SFS",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Hindi",
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/GovernmentCollegeBarmer/11333",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct discipline mapping for Hindi; existing career node is broader and labelled BA Hindi / Regional Language",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-barmer-ug-bcom-part-i",
+      "name": "BCom Part I",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/GovernmentCollegeBarmer/11333",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct degree-family mapping for B.Com",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-barmer-pg-mcom-accounting",
+      "name": "M.Com.(Accounting)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Accounting",
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/GovernmentCollegeBarmer/11333",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 340,
+          "career_node_slug": "commerce_accounting",
+          "career_breadcrumb": "Accounting & Audit",
+          "relation": "closest-specialization mapping for Accounting",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-barmer-pg-msc-chemistry",
+      "name": "M.Sc.(Chemistry)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Chemistry",
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/GovernmentCollegeBarmer/11333",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 155,
+          "career_node_slug": "msc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry > M.Sc Chemistry → Researcher",
+          "relation": "direct discipline mapping for Chemistry",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-barmer-pg-msc-botany",
+      "name": "M.Sc.(Botany)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Botany",
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/GovernmentCollegeBarmer/11333",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest-specialization mapping from Botany to Biology / Biotech",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-barmer-ug-bsc-part-i-biology",
+      "name": "BSc Part I Biology",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Biology",
+      "duration": "3 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/GovernmentCollegeBarmer/11333",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "direct discipline mapping for Biology",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-barmer-ug-bsc-part-i-maths",
+      "name": "BSc Part I Maths",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Maths",
+      "duration": "3 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/GovernmentCollegeBarmer/11333",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct discipline mapping for Maths",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-barmer-doctoral-phd-degree",
+      "name": "Ph.D. degree",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/11734",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [],
+      "mapping_gap": "The official page confirms that a Ph.D. degree is offered but does not provide a doctoral discipline or a responsible career-tree node."
+    }
+  ],
+  "agent_notes": [
+    "Normal TLS verification produced the managed proxy certificate error: self signed certificate in certificate chain. curl --insecure was used only for public GET requests to the expected search and official Rajasthan government hostnames.",
+    "The official Rajasthan HTE route https://hte.rajasthan.gov.in/college/gcbarmer redirects to the canonical GovernmentCollegeBarmer/11333 campus page, confirming the Barmer institution.",
+    "The homepage lists ten current programme labels. The official UG and PG catalogue routes contain no programme entries, so the catalogue is incomplete.",
+    "The official introduction states 15 undergraduate academic departments and four postgraduate academic departments, while the official history page states graduate studies in 15 subjects, postgraduate studies in five subjects, and that a Ph.D. degree is offered. These counts conflict with the named homepage programme labels, so exhaustive catalogue verification requires manual review.",
+    "The official history page provides only a generic Ph.D. statement without a discipline; the doctoral programme is included as a verified programme family with no career mapping.",
+    "Career mappings were read from assets/data/career_path.db using read-only sqlite3 queries; the database was not modified."
+  ]
+}

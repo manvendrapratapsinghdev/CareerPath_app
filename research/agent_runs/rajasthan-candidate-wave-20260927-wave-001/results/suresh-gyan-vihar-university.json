@@ -1,0 +1,1885 @@
+{
+  "institution_id": "suresh-gyan-vihar-university",
+  "nirf_name": "Suresh Gyan Vihar University",
+  "verification_outcome": "manual_review",
+  "district": "Jaipur",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://www.gyanvihar.org/",
+  "website_verification_status": "verified",
+  "description": "Suresh Gyan Vihar University is a multidisciplinary university in Jagatpura, Jaipur, Rajasthan, established by the Government of Rajasthan and focused on higher education, research, and student development.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [
+    "gbs.gyanvihar.org"
+  ],
+  "verification_sources": [
+    {
+      "type": "official_homepage",
+      "url": "https://www.gyanvihar.org/",
+      "supports": [
+        "institution identity",
+        "Jaipur campus",
+        "official website"
+      ]
+    },
+    {
+      "type": "official_about_and_contact",
+      "url": "https://www.gyanvihar.org/aboutus",
+      "supports": [
+        "institution identity",
+        "Jagatpura, Jaipur, Rajasthan campus address",
+        "institution description"
+      ]
+    },
+    {
+      "type": "official_program_catalogue",
+      "url": "https://www.gyanvihar.org/programs",
+      "supports": [
+        "official programme catalogue"
+      ]
+    },
+    {
+      "type": "official_program_catalogue_undergraduate",
+      "url": "https://www.gyanvihar.org/programs?f=under-graduate",
+      "supports": [
+        "undergraduate programme names"
+      ]
+    },
+    {
+      "type": "official_program_catalogue_postgraduate",
+      "url": "https://www.gyanvihar.org/programs?f=post-graduate",
+      "supports": [
+        "postgraduate programme names"
+      ]
+    },
+    {
+      "type": "official_program_catalogue_phd",
+      "url": "https://www.gyanvihar.org/programs?f=phd",
+      "supports": [
+        "doctoral programme names"
+      ]
+    },
+    {
+      "type": "official_program_catalogue_diploma",
+      "url": "https://www.gyanvihar.org/programs?f=diploma",
+      "supports": [
+        "diploma programme names"
+      ]
+    },
+    {
+      "type": "official_sitemap_programme_index",
+      "url": "https://www.gyanvihar.org/sitemap",
+      "supports": [
+        "additional official school and programme pages"
+      ]
+    },
+    {
+      "type": "official_business_school",
+      "url": "https://gbs.gyanvihar.org/",
+      "supports": [
+        "MBA 2.0",
+        "MBA Tech Lead"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "Suresh Gyan Vihar University Jaipur official website",
+      "result": "Bing results identified gyanvihar.org and sgvu.edu.in as SGVU domains; gyanvihar.org identifies Suresh Gyan Vihar University Jaipur.",
+      "url": "https://www.gyanvihar.org/"
+    },
+    {
+      "query": "site:gyanvihar.org \"Suresh Gyan Vihar University\" Jaipur",
+      "result": "Bing results returned the official gyanvihar.org homepage and SGVU pages.",
+      "url": "https://www.gyanvihar.org/aboutus"
+    },
+    {
+      "query": "Suresh Gyan Vihar University Jaipur",
+      "result": "Bing results returned sgvu.edu.in as SGVU and gyanvihar.org as the university About Us page.",
+      "url": "https://www.gyanvihar.org/aboutus"
+    },
+    {
+      "query": "site:sgvu.edu.in courses admissions",
+      "result": "The authoritative-domain check identified sgvu.edu.in as an official SGVU domain; the main campus catalogue was verified on gyanvihar.org.",
+      "url": "https://www.sgvu.edu.in/"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-ug-ba-bsc-psychology",
+      "name": "B.A/B.Sc. Psychology",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": "Psychology",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/ils/ba-bsc-psychology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 66,
+          "career_node_slug": "ba_psychology",
+          "career_breadcrumb": "Social Sciences & Education > BA Psychology",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-ug-bba-llb",
+      "name": "B.B.A. + L.L.B.",
+      "level": "integrated_undergraduate",
+      "credential": "integrated bachelor's and law degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/law/bba-llb",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 50,
+          "career_node_slug": "bba_llb",
+          "career_breadcrumb": "Law & Legal > BBA LLB (5-Year Integrated)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-ug-bcom-honors-acca",
+      "name": "B.Com. (Honors) with ACCA",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": "ACCA",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/isbm/bcom-with-acca",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-ug-bsc-bioinformatics-ai",
+      "name": "B.Sc. Bioinformatics (with AI)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": "Bioinformatics and Artificial Intelligence",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/centre-of-bio-digital-intelligence/bsc-bioinformatics",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "nearest_parent_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 33,
+          "career_node_slug": "bsc_ai",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Artificial Intelligence",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-ug-btech-agricultural-engineering",
+      "name": "B.Tech Agricultural Engineering",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": "Agricultural Engineering",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/technology/b-tech-agricultural",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 365,
+          "career_node_slug": "agri_tech_specialist",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture > AgriTech / Precision Farming Specialist",
+          "relation": "closest_specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "nearest_parent_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-ug-btech-civil-engineering",
+      "name": "B.Tech Civil Engineering",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": "Civil Engineering",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/technology/b-tech-civil-engineering-ce",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-ug-btech-electrical-engineering",
+      "name": "B.Tech Electrical Engineering",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": "Electrical Engineering",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/technology/b-tech-electrical-engineering-ee",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-ug-btech-mechanical-engineering",
+      "name": "B.Tech Mechanical Engineering",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": "Mechanical Engineering",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/technology/b-tech-mechanical-engineering-me",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-ug-ba",
+      "name": "Bachelor of Arts",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": "Psychology, Economics, Political Science, Geography, Public Administration, History, English Literature",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/ils/ba-pass-course",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest_parent_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-ug-ba-hons",
+      "name": "Bachelor of Arts (Hons.)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/ils/bachelor-of-arts",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest_parent_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-ug-bba",
+      "name": "Bachelor of Business Administration",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": "Marketing, Business Analytics, HR, Banking and Finance Management, Digital Marketing in Collaboration with ICA",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/isbm/bba",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 46,
+          "career_node_slug": "bba",
+          "career_breadcrumb": "Management & Business > BBA (General)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-ug-bcom",
+      "name": "Bachelor of Commerce",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/isbm/bcom",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-ug-bca",
+      "name": "Bachelor of Computer Applications",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": "Google Cloud Program (GCP), Data Science (with ICA), Cyber Security, Full Stack Development, Artificial Intelligence and Machine Learning",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/learning-centre-of-excellence-with-google/bca",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-ug-bdes-communication-design",
+      "name": "Bachelor of Design (Hons) in Communication & Design",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": "Communication Design",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/arts-and-design/bdes-hons-communication-design",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 55,
+          "career_node_slug": "bdes",
+          "career_breadcrumb": "Design & Architecture > B.Des (Design)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 229,
+          "career_node_slug": "ux_design",
+          "career_breadcrumb": "Design & Architecture > B.Des (Design) > UX/UI Designer",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-ug-bdes-fashion",
+      "name": "Bachelor of Design (Hons) in Fashion & Lifestyle Accessories Design",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": "Fashion and Lifestyle Accessories Design",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/arts-and-design/bdes-fashion-and-lifestyle-accessories-design",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 55,
+          "career_node_slug": "bdes",
+          "career_breadcrumb": "Design & Architecture > B.Des (Design)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 230,
+          "career_node_slug": "fashion_design",
+          "career_breadcrumb": "Design & Architecture > B.Des (Design) > Fashion Designer",
+          "relation": "closest_specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-ug-bed",
+      "name": "Bachelor of Education",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": "Education",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/education/bachelor-of-education-b-ed",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-ug-bhmct",
+      "name": "Bachelor of Hotel Management & Catering Technology",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": "Hotel Management and Catering Technology",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/hotel-management/bachelor-of-hotel-management-and-catering-technology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 79,
+          "career_node_slug": "hotel_mgmt",
+          "career_breadcrumb": "Performing Arts & Sports > Hotel Management & Tourism",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 304,
+          "career_node_slug": "hotel_manager",
+          "career_breadcrumb": "Performing Arts & Sports > Hotel Management & Tourism > Hotel Manager",
+          "relation": "closest_specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-ug-bjmc",
+      "name": "Bachelor of Journalism and Mass Communication (BJMC)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": "Journalism and Mass Communication",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/ils/ba-in-journalism-and-mass-communication",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 59,
+          "career_node_slug": "bjmc",
+          "career_breadcrumb": "Media & Journalism > B.J.M.C (Journalism & Mass Comm)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-ug-bpharm",
+      "name": "Bachelor of Pharmacy",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": "Pharmacy",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/pharmacy/b-pharmacy",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "direct_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        },
+        {
+          "career_node_id": 143,
+          "career_node_slug": "pharmacist",
+          "career_breadcrumb": "Biology / PCB > Medical Updated > Clinical Pharmacist",
+          "relation": "closest_specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-ug-bpt",
+      "name": "Bachelor of Physiotherapy",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": "Physiotherapy",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/health-care/b-physiotherapy",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 23,
+          "career_node_slug": "bpt",
+          "career_breadcrumb": "Biology / PCB > BPT (Physiotherapy)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 151,
+          "career_node_slug": "physiotherapist",
+          "career_breadcrumb": "Biology / PCB > BPT (Physiotherapy) > Physiotherapist",
+          "relation": "closest_specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-ug-bsc",
+      "name": "Bachelor of Science",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": "Physics, Chemistry, Mathematics, Botany, Geoinformatics, Zoology, Biotechnology, Microbiology",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/applied-sciences/b-sc",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 337,
+          "career_node_slug": "science_common",
+          "career_breadcrumb": "Common Paths",
+          "relation": "nearest_parent_discipline",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-ug-bsc-hons-agriculture",
+      "name": "Bachelor of Science in Hons.",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": "Agriculture",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/agriculture/b-sc-in-hons-agriculture",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-ug-bsc-hospitality",
+      "name": "Bachelor of Science in Hospitality & Hotel Administration",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": "Hospitality and Hotel Administration",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/hotel-management/bachelor-of-science-in-hospitality-and-hotel-administration",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 79,
+          "career_node_slug": "hotel_mgmt",
+          "career_breadcrumb": "Performing Arts & Sports > Hotel Management & Tourism",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-ug-sports-management",
+      "name": "Bachelor of Sports Management",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": "Sports Management",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/centre-of-sports-and-management/bachelor-of-sports-management",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 78,
+          "career_node_slug": "sports_career",
+          "career_breadcrumb": "Performing Arts & Sports > Sports & Physical Education",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 368,
+          "career_node_slug": "sports_manager",
+          "career_breadcrumb": "Performing Arts & Sports > Sports & Physical Education > Sports Manager / Agent",
+          "relation": "closest_specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-ug-bvoc-design",
+      "name": "B.Voc In Design",
+      "level": "undergraduate",
+      "credential": "vocational bachelor's degree",
+      "specialization": "Design",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/arts-and-design/b-voc-in-design",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 55,
+          "career_node_slug": "bdes",
+          "career_breadcrumb": "Design & Architecture > B.Des (Design)",
+          "relation": "nearest_parent_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-pg-ma-economics",
+      "name": "M.A. in Economics",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": "Economics",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/ils/ma-in-economics",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "nearest_parent_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 272,
+          "career_node_slug": "economist",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics > Economist",
+          "relation": "closest_specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-pg-mphil-clinical-psychology",
+      "name": "M.PHIL Clinical Psychology",
+      "level": "postgraduate",
+      "credential": "M.Phil degree",
+      "specialization": "Clinical Psychology",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/health-care/m-phil",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 66,
+          "career_node_slug": "ba_psychology",
+          "career_breadcrumb": "Social Sciences & Education > BA Psychology",
+          "relation": "nearest_parent_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 266,
+          "career_node_slug": "clinical_psychologist",
+          "career_breadcrumb": "Social Sciences & Education > BA Psychology > Clinical Psychologist",
+          "relation": "closest_specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-pg-mtech-civil",
+      "name": "M.Tech Civil Engineering",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": "Civil Engineering",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/technology/m-tech-civil-engineering",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "nearest_parent_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-pg-mtech-electrical",
+      "name": "M.Tech in Electrical Engineering",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": "Electrical Engineering",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/technology/m-tech-electrical-engineering",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "nearest_parent_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-pg-mtech-ece",
+      "name": "M.Tech in Electronics and Communication Engineering",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": "Electronics and Communication Engineering",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/technology/mtech-electronics-and-communication-engineering",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 315,
+          "career_node_slug": "vlsi_engineer",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication > VLSI Design Engineer",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-pg-mtech-mechanical",
+      "name": "M.Tech Mechanical Engineering",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": "Mechanical Engineering",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/technology/mtech-mechanical-engineering",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "nearest_parent_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-pg-mcom",
+      "name": "Master of Commerce",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": "Commerce",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/isbm/mcom",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 198,
+          "career_node_slug": "mcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons) > M.Com → Professor / Researcher",
+          "relation": "closest_specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-pg-mca",
+      "name": "Master of Computer Applications",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": "Computer Applications",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/learning-centre-of-excellence-with-google/mca",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 93,
+          "career_node_slug": "mca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications) > MCA → Software Engineer",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-pg-mdes",
+      "name": "Master of Design",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": "Communication Design",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/arts-and-design/master-of-design",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 55,
+          "career_node_slug": "bdes",
+          "career_breadcrumb": "Design & Architecture > B.Des (Design)",
+          "relation": "nearest_parent_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 229,
+          "career_node_slug": "ux_design",
+          "career_breadcrumb": "Design & Architecture > B.Des (Design) > UX/UI Designer",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-pg-med",
+      "name": "Master of Education",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": "Education",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/education/master-of-education-m-ed",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "nearest_parent_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 276,
+          "career_node_slug": "education_consultant",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education) > Education Consultant",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-pg-msc",
+      "name": "Master of Science",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": "Physics, Forensic Science, Mathematics, Biotechnology, Microbiology",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/applied-sciences/m-sc",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 337,
+          "career_node_slug": "science_common",
+          "career_breadcrumb": "Common Paths",
+          "relation": "nearest_parent_discipline",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-pg-msc-agriculture",
+      "name": "Master of Science in Agriculture",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": "Agronomy, Genetics and Plant Breeding, Soil Science, Entomology, Plant Pathology, Agricultural Extension Education",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/agriculture/m-sc-in-agriculture",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "nearest_parent_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 165,
+          "career_node_slug": "agri_scientist",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture > Agricultural Scientist",
+          "relation": "closest_specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-pg-msc-geoinformatics",
+      "name": "Master of Science in Geoinformatics",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": "Geoinformatics",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/c3wr/master-of-sciences-geoinformatics",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 337,
+          "career_node_slug": "science_common",
+          "career_breadcrumb": "Common Paths",
+          "relation": "nearest_parent_discipline",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-pg-msc-horticulture",
+      "name": "Master of Science in Horticulture",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": "Fruit Science, Floriculture and Landscaping, Vegetable Science",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/agriculture/m-sc-in-horticulture",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "nearest_parent_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-pg-mtech-geoinformatics",
+      "name": "Master of Technology in Geoinformatics",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": "Geoinformatics",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/c3wr/master-of-technology-geoinformatics",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 337,
+          "career_node_slug": "science_common",
+          "career_breadcrumb": "Common Paths",
+          "relation": "nearest_parent_discipline",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-pg-mpharm",
+      "name": "Masters of Pharmacy",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": "Pharmaceutics",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/pharmacy/m-pharmacy",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "nearest_parent_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        },
+        {
+          "career_node_id": 144,
+          "career_node_slug": "pharma_researcher",
+          "career_breadcrumb": "Biology / PCB > Medical Updated > Pharmaceutical Researcher",
+          "relation": "closest_specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-pg-msc-bioinformatics",
+      "name": "M.Sc. Bioinformatics (with AI)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": "Bioinformatics and Artificial Intelligence",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/centre-of-bio-digital-intelligence/msc-bioinformatics",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "nearest_parent_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 146,
+          "career_node_slug": "msc_biotech",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech > M.Sc Biotechnology → Researcher",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-pg-msc-hospitality",
+      "name": "M.Sc. Hospitality Management & Catering Technology",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": "Hospitality Management and Catering Technology",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/hotel-management/msc-and-hospitality-management-and-catering-technology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 79,
+          "career_node_slug": "hotel_mgmt",
+          "career_breadcrumb": "Performing Arts & Sports > Hotel Management & Tourism",
+          "relation": "nearest_parent_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-pg-mpt",
+      "name": "MPT",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": "Neuro Sciences, Musculoskeletal Sciences, Sports Sciences, Cardiopulmonary Sciences",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/health-care/m-physiotherapy",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 23,
+          "career_node_slug": "bpt",
+          "career_breadcrumb": "Biology / PCB > BPT (Physiotherapy)",
+          "relation": "nearest_parent_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 151,
+          "career_node_slug": "physiotherapist",
+          "career_breadcrumb": "Biology / PCB > BPT (Physiotherapy) > Physiotherapist",
+          "relation": "closest_specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-pg-llm",
+      "name": "LLM (Master of Laws)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": "Criminal and Security Law, Constitutional and Administrative Law, Cyber Law and Data Protection, Corporate and Commercial Law, Intellectual Property Rights",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/law/llm-master-of-law",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 343,
+          "career_node_slug": "commerce_law",
+          "career_breadcrumb": "Law & Legal",
+          "relation": "nearest_parent_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-integrated-ba-bed",
+      "name": "Integrated Program (B.A. + B.Ed.)",
+      "level": "integrated_undergraduate",
+      "credential": "integrated degree",
+      "specialization": "Arts and Education",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/education/integrated-program-ba-bed",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest_parent_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-integrated-bsc-bed",
+      "name": "Integrated Program (B.Sc. + B.Ed.)",
+      "level": "integrated_undergraduate",
+      "credential": "integrated degree",
+      "specialization": "Science and Education",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/education/integrated-program-bsc-bed",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 337,
+          "career_node_slug": "science_common",
+          "career_breadcrumb": "Common Paths",
+          "relation": "nearest_parent_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-integrated-bed-med",
+      "name": "Integrated Program (B.Ed.+ M.Ed.)",
+      "level": "integrated_postgraduate",
+      "credential": "integrated education degree",
+      "specialization": "Education",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/education/integrated-program-bed-med",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-integrated-mca",
+      "name": "Integrated MCA",
+      "level": "integrated_postgraduate",
+      "credential": "integrated master's degree",
+      "specialization": "Computer Applications",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/learning-centre-of-excellence-with-google/integrated-mca",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 93,
+          "career_node_slug": "mca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications) > MCA → Software Engineer",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-diploma-fashion-design",
+      "name": "Diploma/Advance Diploma/B.Voc – Fashion Design, Interior Design, Graphic Design",
+      "level": "diploma",
+      "credential": "diploma / advanced diploma / vocational award",
+      "specialization": "Fashion Design, Interior Design, Graphic Design",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/arts-and-design/b-voc-in-design",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 55,
+          "career_node_slug": "bdes",
+          "career_breadcrumb": "Design & Architecture > B.Des (Design)",
+          "relation": "nearest_parent_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 230,
+          "career_node_slug": "fashion_design",
+          "career_breadcrumb": "Design & Architecture > B.Des (Design) > Fashion Designer",
+          "relation": "closest_specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 231,
+          "career_node_slug": "graphic_designer",
+          "career_breadcrumb": "Design & Architecture > B.Des (Design) > Graphic Designer",
+          "relation": "closest_specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 233,
+          "career_node_slug": "interior_design",
+          "career_breadcrumb": "Design & Architecture > B.Arch (Architecture) > Interior Designer",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-ug-btech-cse-aestr",
+      "name": "B.Tech Computer Science & Engineering",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": "AI and Machine Learning, Data Engineering, Software and Cloud Engineering, Robotics, Cyber Security",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/aestr",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 81,
+          "career_node_slug": "btech_ai",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > AI & Machine Learning",
+          "relation": "closest_specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 168,
+          "career_node_slug": "data_engineer",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Data Science > Data Engineer",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 309,
+          "career_node_slug": "cybersecurity_analyst",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science > Cybersecurity Analyst",
+          "relation": "closest_specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 363,
+          "career_node_slug": "btech_robotics",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering > Robotics Engineering",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-ug-btech-ai-shodh-ai",
+      "name": "B.Tech AI with Shodh AI",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": "Artificial Intelligence with Shodh AI",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/aestr/btech-ai-shodh-ai",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 81,
+          "career_node_slug": "btech_ai",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > AI & Machine Learning",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 313,
+          "career_node_slug": "ai_researcher",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > AI & Machine Learning > AI Researcher",
+          "relation": "closest_specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-integrated-btech-mba",
+      "name": "Dual Degree (B.Tech. CSE + MBA) (with GBS)",
+      "level": "integrated_postgraduate",
+      "credential": "dual degree",
+      "specialization": "Computer Science and Business Administration",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/aestr",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest_parent_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-integrated-btech-mtech-cse",
+      "name": "Dual Degree (B.Tech.+ M.Tech.) in Computer Science & Engineering",
+      "level": "integrated_postgraduate",
+      "credential": "dual degree",
+      "specialization": "Computer Science and Engineering",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/aestr",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-pg-mtech-aestr",
+      "name": "M.Tech. (In Specialization of CSE/AIML/Data Engineering/Cloud Computing)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": "Computer Science and Engineering, Artificial Intelligence and Machine Learning, Data Engineering, Cloud Computing",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/aestr",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "nearest_parent_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 81,
+          "career_node_slug": "btech_ai",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > AI & Machine Learning",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 168,
+          "career_node_slug": "data_engineer",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Data Science > Data Engineer",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-pg-mba-2-0",
+      "name": "MBA 2.0",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": "AI-embedded business and management",
+      "duration": null,
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://gbs.gyanvihar.org/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 208,
+          "career_node_slug": "mba_general",
+          "career_breadcrumb": "Management & Business > BBA (General) > MBA → CEO / Director Track",
+          "relation": "closest_specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-pg-mba-tech-lead",
+      "name": "MBA Tech Lead",
+      "level": "postgraduate",
+      "credential": "master's programme",
+      "specialization": "Technology, management, and leadership",
+      "duration": null,
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://gbs.gyanvihar.org/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 208,
+          "career_node_slug": "mba_general",
+          "career_breadcrumb": "Management & Business > BBA (General) > MBA → CEO / Director Track",
+          "relation": "closest_specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-phd-education",
+      "name": "Ph.D in Education",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": "Education",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/education/phd-in-education",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "nearest_parent_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-phd-agriculture",
+      "name": "Ph.D. in Agriculture",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": "Agriculture",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/agriculture/ph-d-in-agriculture",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 165,
+          "career_node_slug": "agri_scientist",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture > Agricultural Scientist",
+          "relation": "closest_specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-phd-management",
+      "name": "Ph.D. in Management",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": "Management",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/isbm/phd-in-management",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest_parent_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 208,
+          "career_node_slug": "mba_general",
+          "career_breadcrumb": "Management & Business > BBA (General) > MBA → CEO / Director Track",
+          "relation": "closest_specialization",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-phd-pharmacy",
+      "name": "Ph.D. in Pharmacy",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": "Pharmacy",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/pharmacy/phd-in-pharmacy",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "nearest_parent_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        },
+        {
+          "career_node_id": 144,
+          "career_node_slug": "pharma_researcher",
+          "career_breadcrumb": "Biology / PCB > Medical Updated > Pharmaceutical Researcher",
+          "relation": "closest_specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-phd-science",
+      "name": "Ph.D. in Science",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": "Science",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/applied-sciences/phd-in-science",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 337,
+          "career_node_slug": "science_common",
+          "career_breadcrumb": "Common Paths",
+          "relation": "nearest_parent_discipline",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-phd-engineering-technology",
+      "name": "PhD in Engineering & Technology",
+      "level": "doctoral",
+      "credential": "doctoral degree",
+      "specialization": "Engineering and Technology",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/technology/phd-in-engineering-and-technology",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest_parent_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-diploma-engineering",
+      "name": "Diploma in Engineering",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": "Computer Science, Electrical, Mechanical, Civil Engineering",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/technology/diploma-in-engineering",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 11,
+          "career_node_slug": "diploma_engg",
+          "career_breadcrumb": "Maths / PCM > Diploma Engineering (Polytechnic)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "suresh-gyan-vihar-university-sgvu-diploma-pharmacy",
+      "name": "Diploma in Pharmacy",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": "Pharmacy",
+      "duration": null,
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://www.gyanvihar.org/school/pharmacy/d-pharmacy",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "nearest_parent_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        },
+        {
+          "career_node_id": 143,
+          "career_node_slug": "pharmacist",
+          "career_breadcrumb": "Biology / PCB > Medical Updated > Clinical Pharmacist",
+          "relation": "closest_specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The managed network proxy returned the exact self-signed certificate-chain error on the first HTTPS search request; public GETs were then retried with curl --insecure only for confirmed public search and official domains.",
+    "The official homepage and About Us page identify Suresh Gyan Vihar University at Gyan Vihar Marg, Jagatpura, Jaipur, Rajasthan 302017.",
+    "The main official catalogue exposes undergraduate, postgraduate, PhD, and diploma filters, while the official sitemap and current school pages expose additional integrated, AESTR, healthcare, bioinformatics, design, hospitality, and business-school offerings. These official surfaces are not a single exhaustive, internally consistent catalogue, so the record is manual_review with partial_official_website status.",
+    "Duration and eligibility were left null because the central catalogue does not consistently state them for every programme; separate brochures were not downloaded.",
+    "Short-term training, events, and the non-award leadership acceleration offering were excluded because the official pages did not establish them as degree, diploma, certificate, or doctoral awards.",
+    "The career tree contains a label issue for the bpharm node: its slug is bpharm but its displayed name is Medical Updated; mappings using that node are flagged accordingly."
+  ]
+}

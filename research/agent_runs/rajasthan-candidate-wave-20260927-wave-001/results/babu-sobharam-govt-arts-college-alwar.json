@@ -1,0 +1,318 @@
+{
+  "institution_id": "babu-sobharam-govt-arts-college-alwar",
+  "nirf_name": "Babu Sobharam Govt. Arts College, Alwar",
+  "verification_outcome": "verified",
+  "district": "Alwar",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://dceapp.rajasthan.gov.in/",
+  "website_verification_status": "verified",
+  "description": "Government arts college in Alwar district, Rajasthan, affiliated with R.R.Bhrithari Matsya University,Alwar.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [
+    "hte.rajasthan.gov.in"
+  ],
+  "verification_sources": [
+    {
+      "type": "official_homepage",
+      "url": "https://dceapp.rajasthan.gov.in/",
+      "supports": [
+        "Department of College Education, Government of Rajasthan online-admission homepage",
+        "Current 2026-27 UG and PG admission resources"
+      ]
+    },
+    {
+      "type": "official_department_page",
+      "url": "https://hte.rajasthan.gov.in/30981",
+      "supports": [
+        "Official Department of College Education page linking the Rajasthan admissions portal and UG college-course list"
+      ]
+    },
+    {
+      "type": "district_campus_identity_and_ug_catalogue",
+      "url": "https://dceapp.rajasthan.gov.in/document/1539552499File01_05_2026_02_01_062026_UGCourses.pdf",
+      "supports": [
+        "Lists BABU SHOBHA RAM GOVERNMENT ARTS COLLEGE ALWAR under ALWAR district",
+        "Lists B.A. as an undergraduate course"
+      ]
+    },
+    {
+      "type": "pg_catalogue_and_campus_identity",
+      "url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "supports": [
+        "Lists BABU SHOBHA RAM GOVERNMENT ARTS COLLEGE ALWAR in Alwar district",
+        "Lists affiliation with R.R.Bhrithari Matsya University,Alwar",
+        "Lists the college's current M.A. programmes"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Babu Sobharam Govt. Arts College\" Alwar official",
+      "result": "Google returned an automated-traffic interstitial; no search snippet was used as verification evidence.",
+      "url": "https://www.google.com/search?q=%22Babu+Sobharam+Govt.+Arts+College%22+Alwar+official"
+    },
+    {
+      "query": "\"Babu Sobharam\" college Alwar",
+      "result": "Bing returned unrelated results; no search snippet was used as verification evidence.",
+      "url": "https://www.bing.com/search?q=%22Babu+Sobharam%22+college+Alwar"
+    },
+    {
+      "query": "site:hte.rajasthan.gov.in \"Babu Sobha Ram\"",
+      "result": "The search result was not usable; the official Rajasthan government portal was checked directly.",
+      "url": "https://www.google.com/search?q=site%3Ahte.rajasthan.gov.in+%22Babu+Sobha+Ram%22"
+    }
+  ],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "babu-sobharam-govt-arts-college-alwar-ba",
+      "name": "B.A.",
+      "level": "undergraduate",
+      "credential": "B.A.",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/document/1539552499File01_05_2026_02_01_062026_UGCourses.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "The official catalogue lists a generic B.A. without a discipline, and the career tree has no generic B.A. node."
+    },
+    {
+      "course_id": "babu-sobharam-govt-arts-college-alwar-ma-economics",
+      "name": "M.A.(Economics)",
+      "level": "postgraduate",
+      "credential": "M.A.",
+      "specialization": "Economics",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "Direct discipline mapping; the career-tree label is undergraduate while the verified programme is postgraduate.",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "babu-sobharam-govt-arts-college-alwar-ma-english",
+      "name": "M.A.(English)",
+      "level": "postgraduate",
+      "credential": "M.A.",
+      "specialization": "English",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "Direct discipline mapping; the career-tree label is undergraduate while the verified programme is postgraduate.",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "babu-sobharam-govt-arts-college-alwar-ma-geography",
+      "name": "M.A.(Geography)",
+      "level": "postgraduate",
+      "credential": "M.A.",
+      "specialization": "Geography",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "Nearest-parent mapping; no Geography node exists in the career tree.",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "babu-sobharam-govt-arts-college-alwar-ma-hindi",
+      "name": "M.A.(Hindi)",
+      "level": "postgraduate",
+      "credential": "M.A.",
+      "specialization": "Hindi",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "Direct discipline mapping; the career-tree label is undergraduate while the verified programme is postgraduate.",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "babu-sobharam-govt-arts-college-alwar-ma-history",
+      "name": "M.A.(History)",
+      "level": "postgraduate",
+      "credential": "M.A.",
+      "specialization": "History",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "Direct discipline mapping; the career-tree label is undergraduate while the verified programme is postgraduate.",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "babu-sobharam-govt-arts-college-alwar-ma-philosophy",
+      "name": "M.A.(Philosophy)",
+      "level": "postgraduate",
+      "credential": "M.A.",
+      "specialization": "Philosophy",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "Nearest-parent mapping; no Philosophy node exists in the career tree.",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "babu-sobharam-govt-arts-college-alwar-ma-political-science",
+      "name": "M.A.(Political Science)",
+      "level": "postgraduate",
+      "credential": "M.A.",
+      "specialization": "Political Science",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "Direct discipline mapping; the career-tree label is undergraduate while the verified programme is postgraduate.",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "babu-sobharam-govt-arts-college-alwar-ma-public-administration",
+      "name": "M.A.(Public Administration)",
+      "level": "postgraduate",
+      "credential": "M.A.",
+      "specialization": "Public Administration",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 283,
+          "career_node_slug": "public_admin",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science > Public Administration Officer",
+          "relation": "Closest-specialization mapping; no Public Administration subject node exists in the career tree.",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "babu-sobharam-govt-arts-college-alwar-ma-sanskrit",
+      "name": "M.A.(Sanskrit)",
+      "level": "postgraduate",
+      "credential": "M.A.",
+      "specialization": "Sanskrit",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "Nearest-parent mapping; no Sanskrit node exists in the career tree.",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "babu-sobharam-govt-arts-college-alwar-ma-sociology",
+      "name": "M.A.(Sociology)",
+      "level": "postgraduate",
+      "credential": "M.A.",
+      "specialization": "Sociology",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://dceapp.rajasthan.gov.in/DCE_Application/College_ListPG.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "Direct discipline mapping; the career-tree label is undergraduate while the verified programme is postgraduate.",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "Normal TLS verification hit the managed proxy self-signed certificate-chain error; after confirming the expected official/search hosts, public GET requests used curl --insecure.",
+    "The current official Rajasthan admissions catalogue checked lists this institution's B.A. and ten M.A. programmes; no separate active diploma, certificate, or doctoral programme was listed for this institution.",
+    "The career tree has no generic B.A., Geography, Philosophy, or Sanskrit subject nodes, so those courses use an explicit gap or labelled nearest-parent mapping."
+  ]
+}

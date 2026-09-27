@@ -1,0 +1,137 @@
+{
+  "institution_id": "govt-college-mohan-badodia",
+  "nirf_name": "Govt. College, Mohan Badodia",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Shajapur",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://highereducation.mp.gov.in/?orgid=432",
+  "website_verification_status": "verified",
+  "description": "A government college in Mohan Badodiya, Shajapur; its official microsite identifies the campus as Khumariya.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "nirf_government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Lists Govt. College, Mohan Badodia in Shajapur, Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "official_higher_education_directory",
+      "url": "https://highereducation.mp.gov.in/?page=3ReniKuyIMmDd4opO%2FkIdA%3D%3D",
+      "supports": [
+        "Lists the Shajapur institution as शा.कॉलेज मोहन बडोदिया."
+      ]
+    },
+    {
+      "type": "official_directory_record",
+      "url": "https://highereducation.mp.gov.in/CollegeDisp/getTable",
+      "supports": [
+        "Official record orgid 432 identifies Govt. College Mohan Badodiya and district Shajapur."
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://highereducation.mp.gov.in/?orgid=432",
+      "supports": [
+        "Official Madhya Pradesh Higher Education microsite header identifies शासकीय महाविद्यालय, मोहन बड़ोदिया, शाजापुर.",
+        "Footer identifies Shahskiya Mahavidyalaya Mohan Badodiya, Khumariya."
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "https://highereducation.mp.gov.in/?page=h1Z9WN%2BhzSk3p9Ip3HWjkA%3D%3D&orgid=432",
+      "supports": [
+        "Official At A Glance page repeats the college identity and Shajapur header."
+      ]
+    },
+    {
+      "type": "official_programme_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=b6PxE7KMxSHRVEFu6XUI8Q%3D%3D&orgid=432",
+      "supports": [
+        "Official Programmes Offered page exposes PG, UG, and Diploma sections but contains no programme rows."
+      ]
+    },
+    {
+      "type": "official_regular_programme_page",
+      "url": "https://highereducation.mp.gov.in/?page=kDEwRPvMgeJ6RV2T%2FOSFsg%3D%3D&orgid=432",
+      "supports": [
+        "Official Academics menu exposes the exact family label स्‍नातक - कला संकाय.",
+        "Linked page is marked Under-Construction."
+      ]
+    },
+    {
+      "type": "official_distance_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=DnvKQkALTdZRQ9YH84y%2FPg%3D%3D&orgid=432",
+      "supports": [
+        "Official Distance Education Programme page has empty PG, UG, and Diploma tables."
+      ]
+    },
+    {
+      "type": "official_prospectus_page",
+      "url": "https://highereducation.mp.gov.in/?page=9fQOKOlBGvXxJiEyC7gwOQ%3D%3D&orgid=432",
+      "supports": [
+        "Official Prospectus page is marked Under-Construction."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Govt. College, Mohan Badodia\" official website",
+      "result": "Search results did not establish an institution-specific official domain; returned unrelated government pages.",
+      "url": null
+    },
+    {
+      "query": "\"Government College Mohan Badodia\" Shajapur",
+      "result": "Search results did not establish an institution-specific official domain; returned unrelated government pages.",
+      "url": null
+    },
+    {
+      "query": "site:mponline.gov.in \"Mohan Badodia\"",
+      "result": "No institution-specific mponline subdomain was established from search results; the official Madhya Pradesh Higher Education directory was checked directly.",
+      "url": null
+    },
+    {
+      "query": "site:ac.in \"Mohan Badodia\" college",
+      "result": "No matching official college domain was established from search results.",
+      "url": null
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "govt-college-mohan-badodia-ug-arts-family",
+      "name": "स्‍नातक - कला संकाय",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=kDEwRPvMgeJ6RV2T%2FOSFsg%3D%3D&orgid=432",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent mapping: broad undergraduate Arts programme family",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The institution is present in the supplied NIRF government listing and in the official Madhya Pradesh Higher Education directory as orgid 432, district Shajapur.",
+    "The official catalogue is incomplete: the Programmes Offered and Distance Education pages show only empty PG, UG, and Diploma tables; the only current programme-family label is स्‍नातक - कला संकाय, whose linked page and Prospectus page are Under-Construction. Manual review is required before treating the catalogue as complete.",
+    "Duration and eligibility were left null because no official page explicitly verifies them.",
+    "Normal TLS first produced the exact managed-proxy self-signed certificate-chain error; subsequent public GET requests used curl --insecure only after confirming the requested hosts were expected public official or search domains."
+  ]
+}

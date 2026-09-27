@@ -1,0 +1,52 @@
+{
+  "batch": 4,
+  "started_at": "2026-09-27T12:22:27.889936+00:00",
+  "finished_at": "2026-09-27T12:37:28.329970+00:00",
+  "assignment_count": 5,
+  "completed_count": 0,
+  "skipped_count": 4,
+  "failed_count": 1,
+  "results": [
+    {
+      "institution_id": "chandra-shekhar-azad-university-of-agriculture-technology-kanpur",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/chandra-shekhar-azad-university-of-agriculture-technology-kanpur.json",
+      "finished_at": "2026-09-27T12:22:27.973839+00:00"
+    },
+    {
+      "institution_id": "chatrapati-sahuji-maharaj-kanpur-university",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/chatrapati-sahuji-maharaj-kanpur-university.json",
+      "finished_at": "2026-09-27T12:22:27.975710+00:00"
+    },
+    {
+      "institution_id": "harcourt-butler-technical-university",
+      "nirf_name": "Harcourt Butler Technical University",
+      "status": "failed",
+      "started_at": "2026-09-27T12:22:27.914790+00:00",
+      "finished_at": "2026-09-27T12:37:28.055789+00:00",
+      "duration_seconds": 900.12,
+      "return_code": -15,
+      "timed_out": true,
+      "errors": [
+        "agent timed out after 900 seconds",
+        "codex exec exited with code -15",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/logs/harcourt-butler-technical-university.jsonl"
+    },
+    {
+      "institution_id": "rama-university-uttar-pradesh",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/rama-university-uttar-pradesh.json",
+      "finished_at": "2026-09-27T12:22:27.972007+00:00"
+    },
+    {
+      "institution_id": "rani-lakshmi-bai-central-agricultural-university",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/rani-lakshmi-bai-central-agricultural-university.json",
+      "finished_at": "2026-09-27T12:22:27.979986+00:00"
+    }
+  ]
+}

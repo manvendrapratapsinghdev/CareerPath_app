@@ -1,0 +1,74 @@
+{
+  "institution_id": "govt-vrinda-sahay-pg-college-dabra",
+  "nirf_name": "Govt Vrinda Sahay PG College Dabra",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": null,
+  "district_verification_status": "pending_official_source",
+  "official_website": null,
+  "website_verification_status": "not_found",
+  "description": null,
+  "description_verification_status": "not_found",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_discovery_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact institution name, Gwalior city, and Madhya Pradesh state listing"
+      ]
+    },
+    {
+      "type": "official_government_college_profile",
+      "url": "http://103.94.204.46:8090/CollegeInfoViewPublic.aspx",
+      "supports": [
+        "Official MP Higher Education profile identifies Dabra Govt Vrinda Sahay College [0311], address in Dabra, Gwalior district, and lists www.vsgovtcollegdabra.org as the website"
+      ]
+    },
+    {
+      "type": "official_government_college_directory",
+      "url": "http://103.94.204.46:8090/ViewCollegeInformationPublic.aspx",
+      "supports": [
+        "Official MP Higher Education directory contains the exact college entry Dabra Govt Vrinda Sahay College [0311]"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Govt Vrinda Sahay PG College Dabra\"",
+      "result": "Bing RSS returned no official institution website; results were unrelated government and general pages.",
+      "url": "https://www.bing.com/search?format=rss&q=%22Govt+Vrinda+Sahay+PG+College+Dabra%22"
+    },
+    {
+      "query": "Vrinda Sahay PG College Dabra official",
+      "result": "Bing RSS returned no official institution domain; results were unrelated pages.",
+      "url": "https://www.bing.com/search?format=rss&q=Vrinda+Sahay+PG+College+Dabra+official"
+    },
+    {
+      "query": "site:mp.gov.in \"Vrinda Sahay\" Dabra",
+      "result": "Bing RSS returned no matching MP department result; the exact identity was found in the official MP Higher Education college-information portal instead.",
+      "url": "https://www.bing.com/search?format=rss&q=site%3Amp.gov.in+%22Vrinda+Sahay%22+Dabra"
+    },
+    {
+      "query": "www.vsgovtcollegdabra.org",
+      "result": "The website listed by the official MP profile had no DNS address, and HTTP/HTTPS requests could not resolve the hostname.",
+      "url": "https://www.vsgovtcollegdabra.org/"
+    },
+    {
+      "query": "MP Higher Education public college profile Dabra Govt Vrinda Sahay College 0311",
+      "result": "The official MP Higher Education public profile returned the exact Dabra campus record and listed website, but no functioning institution homepage or programme catalogue was available.",
+      "url": "http://103.94.204.46:8090/CollegeInfoViewPublic.aspx"
+    }
+  ],
+  "course_catalogue_status": "not_found",
+  "courses": [],
+  "agent_notes": [
+    "The NIRF 2025 College listing contains the exact institution name with Gwalior, Madhya Pradesh.",
+    "The official MP Higher Education public record confirms the Dabra campus and Gwalior district and lists www.vsgovtcollegdabra.org, but that domain did not resolve during independent checks.",
+    "No active degree, diploma, certificate, or doctoral programme catalogue could be verified from an accessible actual institutional website; no courses were imported.",
+    "Normal TLS verification first failed with the managed proxy self-signed certificate-chain error. Public GET requests were retried with curl --insecure only for the expected official/search hosts."
+  ]
+}

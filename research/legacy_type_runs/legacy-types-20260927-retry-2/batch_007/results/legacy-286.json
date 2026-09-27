@@ -1,0 +1,15 @@
+{
+  "institution_id": "legacy-286",
+  "database_id": 286,
+  "name": "Nalanda Dance Research Centre",
+  "website": "https://www.nalandadanceresearch.org",
+  "outcome": "manual_review",
+  "institution_type": null,
+  "source_url": null,
+  "confidence": null,
+  "evidence": null,
+  "notes": [
+    "The supplied official hostname returned DNS NXDOMAIN during normal HTTPS requests, including a host-network retry, so the institute type could not be established from official-domain evidence.",
+    "The --insecure fallback was not used because the failure was DNS resolution, not a certificate-chain error."
+  ]
+}

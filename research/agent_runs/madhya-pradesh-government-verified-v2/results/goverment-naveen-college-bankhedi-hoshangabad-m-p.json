@@ -1,0 +1,93 @@
+{
+  "institution_id": "goverment-naveen-college-bankhedi-hoshangabad-m-p",
+  "nirf_name": "GOVERMENT NAVEEN COLLEGE BANKHEDI HOSHANGABAD M P",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Narmadapuram",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://highereducation.mp.gov.in/?orgid=198",
+  "website_verification_status": "verified",
+  "description": "Government College, Bankhedi, is an official Madhya Pradesh Higher Education Department college profile for the Bankhedi campus in Narmadapuram district.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "nirf_government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact NIRF institution name, PIPARIYA city, and Madhya Pradesh state listing."
+      ]
+    },
+    {
+      "type": "official_college_homepage",
+      "url": "https://highereducation.mp.gov.in/?orgid=198",
+      "supports": [
+        "College-specific official profile orgid 198 with the header शासकीय महाविद्यालय बनखेड़ी and Higher Education Department, Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "official_government_directory_record",
+      "url": "https://highereducation.mp.gov.in/CollegeDisp/getTable",
+      "supports": [
+        "Official directory record orgid 198: Govt College, Bankhedi; college code 3213; district Narmadapuram; official email hegcbanhos@mp.gov.in."
+      ]
+    },
+    {
+      "type": "official_regular_courses_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=lxC9BCTw2sCyZIV3uu%2BxKQ%3D%3D&orgid=198",
+      "supports": [
+        "Official Regular Courses page with PG, UG, and Diploma programme sections; no programme rows are populated."
+      ]
+    },
+    {
+      "type": "official_distance_courses_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=IXs3ZrqVRMddC7H6zS4VFA%3D%3D&orgid=198",
+      "supports": [
+        "Official Distance Education Courses page with PG, UG, and Diploma sections; no programme rows are populated."
+      ]
+    },
+    {
+      "type": "official_prospectus_page",
+      "url": "https://highereducation.mp.gov.in/?page=I%2FrgIGnKRz69%2BTroyS%2F%2BQw%3D%3D&orgid=198",
+      "supports": [
+        "Official Prospectus page accessed; no programme catalogue content was displayed."
+      ]
+    },
+    {
+      "type": "official_new_course_page",
+      "url": "https://highereducation.mp.gov.in/?page=jiaBAHpGluDgRqd59MhdCQ%3D%3D&orgid=198",
+      "supports": [
+        "Official New Course Started page accessed; no active course entry was displayed."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Government Naveen College Bankhedi\"",
+      "result": "Google search was rate-limited with HTTP 429; no search result was used as verification evidence.",
+      "url": "https://www.google.com/search?q=%22Government+Naveen+College+Bankhedi%22"
+    },
+    {
+      "query": "\"GOVERMENT NAVEEN COLLEGE BANKHEDI HOSHANGABAD M P\"",
+      "result": "Bing returned no relevant official institution result; search output was not used as verification evidence.",
+      "url": "https://www.bing.com/search?q=%22GOVERMENT+NAVEEN+COLLEGE+BANKHEDI+HOSHANGABAD+M+P%22"
+    },
+    {
+      "query": "site:highereducation.mp.gov.in Bankhedi college",
+      "result": "No relevant indexed search result was returned; the authoritative Madhya Pradesh Higher Education directory was checked directly and identified orgid 198.",
+      "url": "https://www.bing.com/search?q=site%3Ahighereducation.mp.gov.in+Bankhedi+college"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [],
+  "agent_notes": [
+    "The NIRF city is PIPARIYA, while the official Higher Education profile and directory identify the campus as Govt College, Bankhedi in Narmadapuram district; the official profile does not display a separate city field.",
+    "The official directory record distinguishes this campus from the separate Pipariya colleges listed under the same district.",
+    "The official Regular Courses and Distance Education Courses pages contain only programme-category headings with no course rows; Prospectus and New Course Started pages also provide no programme catalogue. A complete active catalogue therefore cannot be established, so manual review is required.",
+    "No duration or eligibility values were imported because no official course page explicitly verified them.",
+    "Normal TLS verification produced the managed proxy certificate-chain error (curl error 60) for the expected official hosts; public HTTPS GET requests were retried with --insecure."
+  ]
+}

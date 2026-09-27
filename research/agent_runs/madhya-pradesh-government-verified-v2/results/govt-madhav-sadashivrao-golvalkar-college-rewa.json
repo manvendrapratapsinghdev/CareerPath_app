@@ -1,0 +1,87 @@
+{
+  "institution_id": "govt-madhav-sadashivrao-golvalkar-college-rewa",
+  "nirf_name": "Govt Madhav Sadashivrao Golvalkar College Rewa",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "remove_candidate",
+  "district": null,
+  "district_verification_status": "not_found",
+  "official_website": null,
+  "website_verification_status": "not_found",
+  "description": null,
+  "description_verification_status": "not_found",
+  "record_status": "remove_candidate",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact institution name listed: Govt Madhav Sadashivrao Golvalkar College Rewa",
+        "City listed: Rewa",
+        "State listed: Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "government_directory_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Exact institution name listed: Govt Madhav Sadashivrao Golvalkar College Rewa",
+        "City listed: Rewa",
+        "State listed: Madhya Pradesh"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Govt Madhav Sadashivrao Golvalkar College Rewa\" official website",
+      "result": "Search returned aggregator pages and an APSU university result; no dedicated official institution homepage was established.",
+      "url": "https://duckduckgo.com/?q=%22Govt%20Madhav%20Sadashivrao%20Golvalkar%20College%20Rewa%22%20official%20website"
+    },
+    {
+      "query": "\"Golvalkar College\" Rewa official website",
+      "result": "Search returned non-permitted aggregator and directory results; no dedicated official institution website was established.",
+      "url": "https://duckduckgo.com/?q=%22Golvalkar%20College%22%20Rewa%20official%20website"
+    },
+    {
+      "query": "\"Golvalkar\" \"Rewa\" site:gov.in",
+      "result": "Only an MPOnline admissions-portal result was found; no dedicated college website was established.",
+      "url": "https://duckduckgo.com/?q=%22Golvalkar%22%20%22Rewa%22%20site%3Agov.in"
+    },
+    {
+      "query": "\"Golvalkar\" \"Rewa\" site:ac.in",
+      "result": "No results found for an official academic-domain institution website.",
+      "url": "https://duckduckgo.com/?q=%22Golvalkar%22%20%22Rewa%22%20site%3Aac.in"
+    },
+    {
+      "query": "site:apsurewa.ac.in \"Golvalkar\"",
+      "result": "No result found on the official APS University domain for a dedicated Golvalkar College website or catalogue.",
+      "url": "https://duckduckgo.com/?q=site%3Aapsurewa.ac.in%20%22Golvalkar%22"
+    },
+    {
+      "query": "authoritative-domain check: MP Higher Education Department",
+      "result": "The official MP Higher Education portal and its linked college-information endpoint were checked; no dedicated institution homepage or complete programme catalogue was established.",
+      "url": "https://highereducation.mp.gov.in/"
+    },
+    {
+      "query": "authoritative-domain check: APS University affiliated government colleges",
+      "result": "The official APS University affiliated-college page lists Govt. M S Golvarkar College, Rewa, but does not provide a dedicated college website or complete institution catalogue.",
+      "url": "https://apsurewa.ac.in/en/affiliated-college/government-college"
+    },
+    {
+      "query": "authoritative-domain check: MPOnline college portal",
+      "result": "The state admissions portal mentions Govt. M.S. Golvalkar College, Rewa, but it is not a dedicated institutional website or official course catalogue.",
+      "url": "https://isms.mponline.gov.in/"
+    }
+  ],
+  "course_catalogue_status": "not_found",
+  "courses": [],
+  "agent_notes": [
+    "The institution was independently matched in both supplied NIRF 2025 government-directory pages with the exact name and Rewa, Madhya Pradesh location.",
+    "After multiple focused searches and checks of the official MP Higher Education, APS University, and MPOnline domains, no dedicated official institution website could be established.",
+    "Normal TLS verification first failed with the exact proxy certificate error: self signed certificate in certificate chain. Public GET requests were then retried with --insecure only for the expected official/search hostnames.",
+    "No courses, district, description, duration, or eligibility were imported from non-official sources."
+  ]
+}

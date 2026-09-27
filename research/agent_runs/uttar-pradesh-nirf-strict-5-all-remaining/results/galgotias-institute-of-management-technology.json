@@ -1,0 +1,142 @@
+{
+  "institution_id": "galgotias-institute-of-management-technology",
+  "nirf_name": "Galgotias Institute of Management & Technology",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html"
+  ],
+  "verification_outcome": "verified",
+  "district": "Gautam Buddha Nagar",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://galgotiacollege.edu/",
+  "website_verification_status": "verified",
+  "description": "Galgotias Institute of Management & Technology (GIMT), established in 1999 and affiliated to Dr. A.K.T. University, Lucknow, is a management institute located at the Galgotias College campus in Knowledge Park-II, Greater Noida, Uttar Pradesh.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html",
+      "supports": [
+        "Exact institution listing",
+        "Greater Noida city",
+        "Uttar Pradesh state"
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://galgotiacollege.edu/",
+      "supports": [
+        "Official Galgotias College website",
+        "GIMT institution listing",
+        "Campus address: Plot no. 1, Knowledge Park-II, Greater Noida, G.B. Nagar, U.P. 201310"
+      ]
+    },
+    {
+      "type": "official_institution_page",
+      "url": "https://galgotiacollege.edu/galgotias-institute-of-management-and-technology",
+      "supports": [
+        "Institution identity as Galgotias Institute of Management and Technology (GIMT)",
+        "Institution-specific navigation",
+        "Greater Noida campus address"
+      ]
+    },
+    {
+      "type": "official_about_page",
+      "url": "https://galgotiacollege.edu/gimt/about",
+      "supports": [
+        "GIMT established in 1999",
+        "Affiliation to Dr. A.K.T. University, Lucknow",
+        "MBA programme and management-focused description",
+        "Greater Noida campus address"
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://galgotiacollege.edu/courses-offered",
+      "supports": [
+        "GIMT-specific catalogue section",
+        "MBA programme name",
+        "Two-year duration",
+        "Approved intake of 180"
+      ]
+    },
+    {
+      "type": "official_eligibility_page",
+      "url": "https://galgotiacollege.edu/eligibility-criteria",
+      "supports": [
+        "GIMT eligibility table",
+        "MBA two-year duration",
+        "Three-year bachelor's degree requirement",
+        "50% aggregate marks requirement, 45% for SC/ST"
+      ]
+    },
+    {
+      "type": "official_affiliation_letter",
+      "url": "https://galgotiacollege.edu/public/uploads/all/3065/(094)-GALGOTIAS-INSTITUTE-OF-MANAGEMENT-&-TECHNOLOGY,GAUTAM-BUDDH-NAGAR(Digitally-Signed).pdf",
+      "supports": [
+        "GIMT institutional identity",
+        "Gautam Buddh Nagar district reference",
+        "AKTU affiliation evidence"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Galgotias Institute of Management & Technology\" Greater Noida",
+      "result": "Yahoo discovery identified the official Galgotias College GIMT page; the direct official page was fetched and confirmed the institution identity and campus.",
+      "url": "https://galgotiacollege.edu/galgotias-institute-of-management-and-technology"
+    },
+    {
+      "query": "\"Galgotias Institute\" site:edu.in",
+      "result": "Google search request presented a CAPTCHA and was not used as verification evidence.",
+      "url": null
+    },
+    {
+      "query": "\"Galgotias Institute of Management & Technology\" admissions",
+      "result": "Google search request presented a CAPTCHA; the official admissions link was instead confirmed from the official Galgotias College site.",
+      "url": "https://admissions.galgotiacollege.edu/"
+    },
+    {
+      "query": "Direct hostname check: https://www.gimt.ac.in/",
+      "result": "This site identifies an Institute of Management & Technology in Budhlada, Punjab, not the Greater Noida institution; excluded as a similarly named institution.",
+      "url": "https://www.gimt.ac.in/"
+    },
+    {
+      "query": "Direct hostname check: https://www.gimt.org/",
+      "result": "The domain is under construction and does not establish the target institution; excluded.",
+      "url": "https://www.gimt.org/"
+    }
+  ],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "galgotias-institute-of-management-technology-mba",
+      "name": "MBA",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "2 years",
+      "mode": "not stated on official catalogue",
+      "eligibility": "Passed a bachelor's degree course of at least three years' duration from a recognized university with at least 50% marks in aggregate (45% for SC/ST); the official criteria list CUET-PG-based AKTU counselling and a management-quota/vacant-seat route.",
+      "official_course_url": "https://galgotiacollege.edu/courses-offered",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 208,
+          "career_node_slug": "mba_general",
+          "career_breadcrumb": "Management & Business > BBA (General) > MBA → CEO / Director Track",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "Normal TLS verification initially failed with the managed proxy's self-signed certificate-chain error; public GET requests were retried with curl --insecure only after confirming the expected official or government hostnames.",
+    "The GIMT-specific sections of the official course catalogue and eligibility page list only MBA. MBA (Logistics and Supply Chain Management) and MCA appear in other Galgotias College sections and were not imported for GIMT.",
+    "The official affiliation letter uses the spelling 'GAUTAM BUDDH NAGAR'; the district field is normalized to 'Gautam Buddha Nagar'."
+  ]
+}

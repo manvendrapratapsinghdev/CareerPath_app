@@ -1,0 +1,196 @@
+{
+  "institution_id": "seth-r-n-ruia-govt-college-sikar",
+  "nirf_name": "Seth R.N. Ruia Govt. College, Sikar",
+  "verification_outcome": "verified",
+  "district": "Sikar",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://hte.rajasthan.gov.in/17889",
+  "website_verification_status": "verified",
+  "description": "Seth R.N. Ruia Government College is a government higher-education institution established in 1955 at Station Road, Ramgarh Shekhawati, Sikar district, Rajasthan. It offers undergraduate education in Arts, Commerce and Science and postgraduate Commerce education in ABST.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "official_homepage",
+      "url": "https://hte.rajasthan.gov.in/17889",
+      "supports": [
+        "official institution identity",
+        "Ramgarh Shekhawati campus address",
+        "homepage programme catalogue"
+      ]
+    },
+    {
+      "type": "official_district_identity",
+      "url": "https://hte.rajasthan.gov.in/10616",
+      "supports": [
+        "Seth RN Ruia Government College, Ramgarh Shekhawati",
+        "Sikar district",
+        "Station Road, Ramgarh Shekhawati Sikar 331024",
+        "official college page link /17889"
+      ]
+    },
+    {
+      "type": "official_about",
+      "url": "https://hte.rajasthan.gov.in/18284",
+      "supports": [
+        "institution description",
+        "established 1955",
+        "undergraduate Arts, Commerce and Science education",
+        "postgraduate Commerce (ABST) education"
+      ]
+    },
+    {
+      "type": "official_admission_catalogue",
+      "url": "https://hte.rajasthan.gov.in/18285",
+      "supports": [
+        "active 2026-27 B.A., B. Sc. Biology, B. Sc. Maths and B. Com. admissions"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Seth R.N. Ruia Govt. College\" official",
+      "result": "Google returned an anti-bot page rather than usable results; the initial normal TLS request also hit the managed proxy certificate-chain error.",
+      "url": "https://www.google.com/search?q=%22Seth+R.N.+Ruia+Govt.+College%22+official"
+    },
+    {
+      "query": "\"Seth R.N. Ruia Govt. College\" Sikar",
+      "result": "Bing returned noisy unrelated results and no reliable official institution result.",
+      "url": "https://www.bing.com/search?q=%22Seth+R.N.+Ruia+Govt.+College%22+Sikar"
+    },
+    {
+      "query": "Seth RN Ruia Government College Ramgarh Shekhawati official website",
+      "result": "Bing returned noisy results; authoritative-domain checking identified the exact Sikar campus in the Rajasthan Department of College Education directory and its official page link.",
+      "url": "https://www.bing.com/search?q=Seth+RN+Ruia+Government+College+Ramgarh+Shekhawati+official+website"
+    },
+    {
+      "query": "authoritative-domain check hte.rajasthan.gov.in/10616",
+      "result": "The official Rajasthan Department of College Education directory lists Seth RN Ruia Government College, Ramgarh Shekhawati, Sikar, PIN 331024, and links to /17889.",
+      "url": "https://hte.rajasthan.gov.in/10616"
+    }
+  ],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "seth-r-n-ruia-govt-college-sikar-ba-part-i",
+      "name": "BA Part I",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated on official website",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/17889",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest_parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "seth-r-n-ruia-govt-college-sikar-bcom-part-i",
+      "name": "BCom Part I",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "not stated on official website",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/17889",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct_programme_family",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "seth-r-n-ruia-govt-college-sikar-mcom-abst",
+      "name": "M.Com.(A.B.S.T)",
+      "level": "postgraduate",
+      "credential": "Master's degree",
+      "specialization": "A.B.S.T",
+      "duration": null,
+      "mode": "not stated on official website",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/17889",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 198,
+          "career_node_slug": "mcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons) > M.Com → Professor / Researcher",
+          "relation": "direct_programme_family",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "seth-r-n-ruia-govt-college-sikar-bsc-part-i-biology",
+      "name": "BSc Part I Biology",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Biology",
+      "duration": null,
+      "mode": "not stated on official website",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/17889",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "seth-r-n-ruia-govt-college-sikar-bsc-part-i-maths",
+      "name": "BSc Part I Maths",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Maths",
+      "duration": null,
+      "mode": "not stated on official website",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/17889",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The managed network proxy produced the exact self-signed certificate-chain error on the initial normal-TLS Google request; subsequent public GET requests used curl --insecure only for confirmed public Google, Bing and hte.rajasthan.gov.in hosts.",
+    "The official government-college directory matches the requested Ramgarh Shekhawati-331024 campus in Sikar district and links to the official college page /17889.",
+    "The homepage Our Course section, About Us page and current 2026-27 Admission List collectively establish the five active programmes. Duration and eligibility remain null because no explicit official statements were found."
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "institution_id": "legacy-281",
+  "database_id": 281,
+  "name": "Faculty of Music and Fine Arts Delhi University",
+  "website": "https://www.du.ac.in",
+  "outcome": "classified",
+  "institution_type": "specialized",
+  "source_url": "https://www.du.ac.in/index.php?page=faculties",
+  "confidence": "high",
+  "evidence": "Delhi University's official Faculties page lists the Faculty of Music and identifies its constituent Department of Music and Department of Fine Arts, establishing it as a specialized music and fine-arts academic faculty.",
+  "notes": [
+    "The official site currently labels the unit “Faculty of Music” and lists Fine Arts as a constituent department, matching the supplied legacy name.",
+    "Used curl --insecure only after normal TLS verification failed with the managed proxy's self-signed certificate-chain error."
+  ]
+}

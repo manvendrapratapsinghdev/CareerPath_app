@@ -1,0 +1,148 @@
+{
+  "institution_id": "aryakul-college-of-management",
+  "nirf_name": "ARYAKUL COLLEGE OF MANAGEMENT",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "verified",
+  "district": "Lucknow",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://www.aryakul.org.in/",
+  "website_verification_status": "verified",
+  "description": "Aryakul College of Management is a management institution established in 2008 at Vill. Natkur, Post Chandrawal, Gauri–Bijnaur Road, Lucknow – 226002. Its official institution-specific catalogue lists a Master of Business Administration programme.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html",
+      "supports": [
+        "Exact institution name ARYAKUL COLLEGE OF MANAGEMENT",
+        "City LUCKNOW",
+        "State Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Exact institution name ARYAKUL COLLEGE OF MANAGEMENT",
+        "City LUCKNOW",
+        "State Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://www.aryakul.org.in/",
+      "supports": [
+        "Official Aryakul Group of Colleges website and domain"
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "https://www.aryakul.org.in/acm-2/",
+      "supports": [
+        "Aryakul College of Management, Lucknow identity",
+        "Campus address Vill. Natkur, Post Chandrawal, Gauri–Bijnaur Road, Lucknow – 226002",
+        "Institution establishment year 2008",
+        "Institution-specific MBA course details"
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "https://www.aryakul.org.in/about-us-acm/",
+      "supports": [
+        "Aryakul College of Management, Lucknow identity",
+        "Institution establishment year 2008",
+        "AKTU affiliation and AICTE approval",
+        "MBA course details"
+      ]
+    },
+    {
+      "type": "official_group_catalogue",
+      "url": "https://www.aryakul.org.in/home-acm/",
+      "supports": [
+        "Current group catalogue assigns Master of Business Administration (MBA) to Aryakul College of Management",
+        "Current group catalogue assigns BBA, B.Com, M.Com, BJMC, MJMC, B.Ed. and D.El.Ed. to Aryakul College of Education"
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://www.aryakul.org.in/management-college-mba-acm/",
+      "supports": [
+        "Master of Business Administration programme",
+        "Duration 2 Years (4 Semesters)",
+        "Listed MBA specializations",
+        "MBA eligibility text on the programme page"
+      ]
+    },
+    {
+      "type": "official_admissions",
+      "url": "https://www.aryakul.org.in/admission/",
+      "supports": [
+        "Central official MBA admission criteria page",
+        "Official eligibility criteria, including graduation, minimum marks and entrance examination information"
+      ]
+    },
+    {
+      "type": "official_legacy_course_page",
+      "url": "https://www.aryakul.org.in/mba/",
+      "supports": [
+        "Master of Business Administration (MBA) course",
+        "Two-year, four-semester postgraduate degree structure"
+      ]
+    },
+    {
+      "type": "official_scope_check",
+      "url": "https://www.aryakul.org.in/bba/",
+      "supports": [
+        "Legacy BBA page was reviewed because it labels BBA as Aryakul College of Management; it conflicts with the current group catalogue, which assigns BBA to Aryakul College of Education, so BBA was not imported"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"ARYAKUL COLLEGE OF MANAGEMENT\" Lucknow official website",
+      "result": "Search discovery surfaced aryakul.org.in ACM pages; the domain and institution identity were independently verified by direct official-page retrieval.",
+      "url": "https://www.aryakul.org.in/acm-2/"
+    },
+    {
+      "query": "Aryakul College Management Lucknow",
+      "result": "Search discovery surfaced aryakul.org.in alongside non-official pages; only aryakul.org.in was used for institutional verification.",
+      "url": "https://www.aryakul.org.in/"
+    }
+  ],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "aryakul-college-of-management-mba",
+      "name": "Master of Business Administration (MBA)",
+      "level": "postgraduate",
+      "credential": "postgraduate degree",
+      "specialization": "Financial Management; Marketing; Human Resource Management; Operation Management; International Business; Information Technology; Cooperative Management",
+      "duration": "2 Years (4 Semesters)",
+      "mode": "not stated on official website",
+      "eligibility": null,
+      "official_course_url": "https://www.aryakul.org.in/management-college-mba-acm/",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 208,
+          "career_node_slug": "mba_general",
+          "career_breadcrumb": "Management & Business > BBA (General) > MBA → CEO / Director Track",
+          "relation": "Direct discipline mapping from MBA to the MBA → CEO / Director Track career node",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "Normal TLS verification for the expected NIRF and official website hosts failed with the exact managed-proxy error self signed certificate in certificate chain; public GET requests were retried with curl --insecure after confirming the expected hostnames. No credentials or private data were sent.",
+    "The current official group catalogue places only MBA under Aryakul College of Management and places BBA and other undergraduate programmes under Aryakul College of Education. A legacy official /bba/ page conflicts with that current institution-level catalogue, so BBA was excluded rather than guessed as an ACM programme.",
+    "Official MBA pages disagree on eligibility thresholds: the institution-specific programme page states 45% General/OBC and 40% SC/ST, while the central Admission page states 50% General/OBC/Minority and 45% SC/ST. Eligibility is therefore left null rather than selecting between conflicting official statements."
+  ]
+}

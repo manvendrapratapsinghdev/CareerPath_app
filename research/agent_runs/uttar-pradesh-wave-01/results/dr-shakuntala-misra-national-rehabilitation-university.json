@@ -1,0 +1,1946 @@
+{
+  "institution_id": "dr-shakuntala-misra-national-rehabilitation-university",
+  "nirf_name": "Dr. Shakuntala Misra National Rehabilitation University",
+  "verification_outcome": "manual_review",
+  "district": "Lucknow",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://dsmru.up.nic.in/",
+  "website_verification_status": "verified",
+  "description": "Established by the Government of Uttar Pradesh in 2008, the university operates a 131-acre campus on Mohaan Road in Lucknow and provides inclusive, barrier-free higher education, including for students with disabilities.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [
+    "dsmnru.ac.in"
+  ],
+  "verification_sources": [
+    {
+      "type": "official_homepage",
+      "url": "https://dsmru.up.nic.in/",
+      "supports": [
+        "official institutional identity",
+        "Lucknow campus",
+        "institution description"
+      ]
+    },
+    {
+      "type": "official_about_page",
+      "url": "https://dsmru.up.nic.in/main/User/AboutUs.aspx",
+      "supports": [
+        "Government of Uttar Pradesh establishment",
+        "131-acre Lucknow campus",
+        "inclusive educational environment"
+      ]
+    },
+    {
+      "type": "official_contact_page",
+      "url": "https://dsmru.up.nic.in/main/User/ContactUs.aspx",
+      "supports": [
+        "Mohaan Road, Lucknow address",
+        "campus identity"
+      ]
+    },
+    {
+      "type": "official_lucknow_page",
+      "url": "https://dsmru.up.nic.in/main/User/Abtlko.aspx",
+      "supports": [
+        "Lucknow District identification"
+      ]
+    },
+    {
+      "type": "official_admissions_page",
+      "url": "https://dsmru.up.nic.in/main/User/admission_pro.aspx",
+      "supports": [
+        "2026-27 admission cycle",
+        "official UG and PG prospectus links"
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://dsmru.up.nic.in/main/User/course.aspx",
+      "supports": [
+        "official academic programmes catalogue cross-check"
+      ]
+    },
+    {
+      "type": "official_ug_catalogue",
+      "url": "https://dsmru.up.nic.in/main/User/content/UGProspectus26-27_22052026.pdf",
+      "supports": [
+        "2026-27 UG, diploma and certificate programme names",
+        "duration",
+        "eligibility"
+      ]
+    },
+    {
+      "type": "official_pg_catalogue",
+      "url": "https://dsmru.up.nic.in/main/User/content/PGProspectus26-27_22052026.pdf",
+      "supports": [
+        "2026-27 PG programme names",
+        "duration",
+        "eligibility"
+      ]
+    },
+    {
+      "type": "official_secondary_domain",
+      "url": "https://dsmnru.ac.in/",
+      "supports": [
+        "official secondary university domain linked by the primary site",
+        "institution identity"
+      ]
+    },
+    {
+      "type": "official_phd_catalogue",
+      "url": "https://dsmnru.ac.in/Document26/PhDAdmission2025/Notices2025/PhDProspectus25_26_22052026.pdf",
+      "supports": [
+        "doctoral programme subjects",
+        "doctoral duration",
+        "doctoral eligibility"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "Dr. Shakuntala Misra National Rehabilitation University Lucknow official website",
+      "result": "Google request returned HTTP 429 and no usable result.",
+      "url": "https://www.google.com/search?q=Dr.+Shakuntala+Misra+National+Rehabilitation+University+Lucknow+official+website"
+    },
+    {
+      "query": "Dr. Shakuntala Misra National Rehabilitation University Lucknow official",
+      "result": "Bing returned irrelevant third-party results; no search result was used as verification evidence.",
+      "url": "https://www.bing.com/search?q=Dr.+Shakuntala+Misra+National+Rehabilitation+University+Lucknow+official"
+    },
+    {
+      "query": "site:dsmru.up.nic.in OR site:dsmru.edu.in Dr. Shakuntala Misra National Rehabilitation University courses admissions",
+      "result": "Bing returned no usable official result in the retrieved HTML; the expected official domain was then verified by direct HTTPS GET.",
+      "url": "https://www.bing.com/search?q=site%3Adsmru.up.nic.in+OR+site%3Adsmru.edu.in+Dr.+Shakuntala+Misra+National+Rehabilitation+University+courses+admissions"
+    },
+    {
+      "query": "authoritative-domain check dsmru.up.nic.in",
+      "result": "Direct official-domain GET returned the university title, name, Lucknow address and programme links.",
+      "url": "https://dsmru.up.nic.in/"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-ug-ba",
+      "name": "B.A. (Bachelor of Arts)",
+      "level": "UG",
+      "credential": "Bachelor's degree",
+      "specialization": "Official subject combinations include Hindi, Sociology, Economics, English, Political Science, Education, History, Sanskrit, Drawing & Painting, Music (Vocal), and Music (Instrumental-Tabla).",
+      "duration": "3 Years / 4 Years",
+      "mode": "On-campus",
+      "eligibility": "Passed 10+2 or equivalent examination from any recognized Board/University.",
+      "official_course_url": "https://dsmru.up.nic.in/main/User/content/UGProspectus26-27_22052026.pdf",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "direct_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 75,
+          "career_node_slug": "music_course",
+          "career_breadcrumb": "Performing Arts & Sports > Music (BA / Diploma)",
+          "relation": "direct_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-ug-bsc",
+      "name": "B.Sc. (Bachelor of Science)",
+      "level": "UG",
+      "credential": "Bachelor's degree",
+      "specialization": "Physics, Chemistry, Mathematics; Physics, Computer Science, Statistics; Physics, Computer Science, Mathematics.",
+      "duration": "3 Years / 4 Years",
+      "mode": "On-campus",
+      "eligibility": "Passed 10+2 or equivalent examination with Science, including Physics, Mathematics, Chemistry or Computer Science.",
+      "official_course_url": "https://dsmru.up.nic.in/main/User/content/UGProspectus26-27_22052026.pdf",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 6,
+          "career_node_slug": "bsc_stats",
+          "career_breadcrumb": "Maths / PCM > B.Sc Statistics",
+          "relation": "direct_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 24,
+          "career_node_slug": "bsc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics",
+          "relation": "direct_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "direct_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 32,
+          "career_node_slug": "bsc_cs",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Computer Science",
+          "relation": "direct_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-ug-bsc-csit",
+      "name": "B.Sc. CS & IT (Bachelor of Computer Science & Information Technology)",
+      "level": "UG",
+      "credential": "Bachelor's degree",
+      "specialization": "Computer Science and Information Technology",
+      "duration": "4 Years",
+      "mode": "On-campus",
+      "eligibility": "Passed 10+2 or equivalent examination from any recognized Board/University.",
+      "official_course_url": "https://dsmru.up.nic.in/main/User/content/UGProspectus26-27_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 32,
+          "career_node_slug": "bsc_cs",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Computer Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-ug-bcom-llb",
+      "name": "B.COM. LLB (Hons.)",
+      "level": "UG",
+      "credential": "Integrated bachelor's degree",
+      "specialization": "Bachelor of Commerce and Bachelor of Legislative Law, Honours",
+      "duration": "5 Years",
+      "mode": "On-campus",
+      "eligibility": "Passed 10+2 or equivalent examination from any recognized Board/University with 45% for General, 42% for OBC and 40% for SC/ST.",
+      "official_course_url": "https://dsmru.up.nic.in/main/User/content/UGProspectus26-27_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 51,
+          "career_node_slug": "bcom_llb",
+          "career_breadcrumb": "Law & Legal > B.Com LLB",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-ug-bcom",
+      "name": "B.COM. (Bachelor of Commerce)",
+      "level": "UG",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "4 Years",
+      "mode": "On-campus",
+      "eligibility": "Passed 10+2 or equivalent examination from any recognized Board/University.",
+      "official_course_url": "https://dsmru.up.nic.in/main/User/content/UGProspectus26-27_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-ug-bba",
+      "name": "BBA (Bachelor of Business Administration)",
+      "level": "UG",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "4 Years",
+      "mode": "On-campus",
+      "eligibility": "Passed 10+2 or equivalent examination from any recognized Board/University with minimum 50%.",
+      "official_course_url": "https://dsmru.up.nic.in/main/User/content/UGProspectus26-27_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 46,
+          "career_node_slug": "bba",
+          "career_breadcrumb": "Management & Business > BBA (General)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-ug-bva",
+      "name": "BVA (Bachelor of Visual Arts)",
+      "level": "UG",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": "4 Years",
+      "mode": "On-campus",
+      "eligibility": "Passed 10+2 or equivalent examination from any recognized Board/University.",
+      "official_course_url": "https://dsmru.up.nic.in/main/User/content/UGProspectus26-27_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 60,
+          "career_node_slug": "bfa",
+          "career_breadcrumb": "Media & Journalism > B.F.A (Fine Arts)",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-certificate-indian-classical-vocal-music",
+      "name": "Certificate Course in Indian Classical Vocal Music",
+      "level": "Certificate",
+      "credential": "Certificate",
+      "specialization": "Indian Classical Vocal Music",
+      "duration": "1 Year",
+      "mode": "On-campus",
+      "eligibility": "Passed 10+2 or equivalent examination from any recognized Board/University.",
+      "official_course_url": "https://dsmru.up.nic.in/main/User/content/UGProspectus26-27_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 75,
+          "career_node_slug": "music_course",
+          "career_breadcrumb": "Performing Arts & Sports > Music (BA / Diploma)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-diploma-ded-hi",
+      "name": "D.Ed. S.E. (HI)",
+      "level": "Diploma",
+      "credential": "Diploma",
+      "specialization": "D.Ed. in Special Education (Hearing Impairment)",
+      "duration": "2 Years",
+      "mode": "On-campus",
+      "eligibility": "Passed 10+2 or equivalent examination in any stream with 50% marks from any recognized Board/University.",
+      "official_course_url": "https://dsmru.up.nic.in/main/User/content/UGProspectus26-27_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 372,
+          "career_node_slug": "special_educator",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education) > Special Education Teacher",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-diploma-disli",
+      "name": "DISLI",
+      "level": "Diploma",
+      "credential": "Diploma",
+      "specialization": "Diploma in Indian Sign Language Interpretation",
+      "duration": "2 Years",
+      "mode": "On-campus",
+      "eligibility": "Passed 10+2 or equivalent examination in any stream with 50% marks from any recognized Board/University; for Hearing Students Only.",
+      "official_course_url": "https://dsmru.up.nic.in/main/User/content/UGProspectus26-27_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-diploma-dtisl",
+      "name": "DTISL",
+      "level": "Diploma",
+      "credential": "Diploma",
+      "specialization": "Diploma in Teaching Indian Sign Language",
+      "duration": "2 Years",
+      "mode": "On-campus",
+      "eligibility": "Passed 10+2 or equivalent examination in any stream with 50% marks from any recognized Board/University; for Deaf Students Only.",
+      "official_course_url": "https://dsmru.up.nic.in/main/User/content/UGProspectus26-27_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-certificate-pdcd",
+      "name": "PDCD",
+      "level": "Certificate",
+      "credential": "Certificate",
+      "specialization": "Pre-Degree Certificate for the Deaf Student",
+      "duration": "2 Years",
+      "mode": "On-campus",
+      "eligibility": "Passed 10th or equivalent examination from any recognized Board.",
+      "official_course_url": "https://dsmru.up.nic.in/main/User/content/UGProspectus26-27_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "No dedicated deaf-studies, rehabilitation, or pre-degree node exists in the career tree."
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-diploma-ded-vi",
+      "name": "D.Ed. S.E. (VI)",
+      "level": "Diploma",
+      "credential": "Diploma",
+      "specialization": "D.Ed. in Special Education (Visual Impairment)",
+      "duration": "2 Years",
+      "mode": "On-campus",
+      "eligibility": "Passed 10+2 or equivalent examination in any stream with 50% marks from any recognized Board/University.",
+      "official_course_url": "https://dsmru.up.nic.in/main/User/content/UGProspectus26-27_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 372,
+          "career_node_slug": "special_educator",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education) > Special Education Teacher",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-diploma-ded-idd",
+      "name": "D.Ed. S.E. (IDD)",
+      "level": "Diploma",
+      "credential": "Diploma",
+      "specialization": "D.Ed. in Special Education (Intellectual & Developmental Disability)",
+      "duration": "2 Years",
+      "mode": "On-campus",
+      "eligibility": "Passed 10+2 or equivalent examination in any stream with 50% marks from any recognized Board/University.",
+      "official_course_url": "https://dsmru.up.nic.in/main/User/content/UGProspectus26-27_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 372,
+          "career_node_slug": "special_educator",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education) > Special Education Teacher",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-ug-baslp",
+      "name": "BASLP (Bachelor in Audiology and Speech Language Pathology)",
+      "level": "UG",
+      "credential": "Bachelor's degree",
+      "specialization": "Audiology and Speech Language Pathology",
+      "duration": "4 Years",
+      "mode": "On-campus",
+      "eligibility": "Passed 10+2 or equivalent examination with at least 50% aggregate marks; Physics, Chemistry and one of Biology, Mathematics, Computer Science, Statistics, Electronics or Psychology must have been studied.",
+      "official_course_url": "https://dsmru.up.nic.in/main/User/content/UGProspectus26-27_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-diploma-dharemt",
+      "name": "DHAREMT",
+      "level": "Diploma",
+      "credential": "Diploma",
+      "specialization": "Diploma in Hearing Aid Repair and Ear Mould Technology",
+      "duration": "2 Years",
+      "mode": "On-campus",
+      "eligibility": "Passed 10+2 with Physics or Electronics, or a recognized diploma in Electronics/Electrical Engineering, qualified dental technician course, or ITI certificate/diploma in Electronics/Electrical Engineering.",
+      "official_course_url": "https://dsmru.up.nic.in/main/User/content/UGProspectus26-27_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-ug-bpo",
+      "name": "B.P.O. (Bachelor of Prosthetics and Orthotics)",
+      "level": "UG",
+      "credential": "Bachelor's degree",
+      "specialization": "Prosthetics and Orthotics",
+      "duration": "4 Years 6 Month",
+      "mode": "On-campus",
+      "eligibility": "Passed 10+2 or equivalent in Science with Physics, Chemistry, Biology and English, with minimum aggregate 50%.",
+      "official_course_url": "https://dsmru.up.nic.in/main/User/content/UGProspectus26-27_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-ug-bpharma",
+      "name": "B. Pharma (Bachelor of Pharmacy)",
+      "level": "UG",
+      "credential": "Bachelor's degree",
+      "specialization": "Pharmacy",
+      "duration": "4 Years",
+      "mode": "On-campus",
+      "eligibility": "Passed 10+2 or equivalent examination with Science including Physics, Chemistry, Mathematics or Biology.",
+      "official_course_url": "https://dsmru.up.nic.in/main/User/content/UGProspectus26-27_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-ug-bpharma-lateral",
+      "name": "BACHELOR OF PHARMACY (LATERAL ENTRY)",
+      "level": "UG",
+      "credential": "Bachelor's degree",
+      "specialization": "Lateral entry",
+      "duration": "3 Years",
+      "mode": "On-campus",
+      "eligibility": "D. Pharma passed from a PCI-recognized college.",
+      "official_course_url": "https://dsmru.up.nic.in/main/User/content/UGProspectus26-27_22052026.pdf",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-diploma-dpharma",
+      "name": "D.Pharma (Diploma in Pharmacy)",
+      "level": "Diploma",
+      "credential": "Diploma",
+      "specialization": "Pharmacy",
+      "duration": "2 Years",
+      "mode": "On-campus",
+      "eligibility": "Passed 10+2 or equivalent examination with Science including Physics, Chemistry, Mathematics or Biology.",
+      "official_course_url": "https://dsmru.up.nic.in/main/User/content/UGProspectus26-27_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-ug-btech",
+      "name": "B.Tech (Bachelor of Technology)",
+      "level": "UG",
+      "credential": "Bachelor's degree",
+      "specialization": "CSE; CE; ECE; EE; ME",
+      "duration": "4 Years",
+      "mode": "On-campus",
+      "eligibility": "Minimum 60% marks in 10+2 with Physics, Chemistry and Mathematics.",
+      "official_course_url": "https://dsmru.up.nic.in/main/User/content/UGProspectus26-27_22052026.pdf",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-ug-btech-hons",
+      "name": "B.Tech (Hons.) (Bachelor of Technology Honours)",
+      "level": "UG",
+      "credential": "Bachelor's degree",
+      "specialization": "CSE with AIDS; CSE with AIFM",
+      "duration": "4 Years",
+      "mode": "On-campus",
+      "eligibility": null,
+      "official_course_url": "https://dsmru.up.nic.in/main/User/content/UGProspectus26-27_22052026.pdf",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 81,
+          "career_node_slug": "btech_ai",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > AI & Machine Learning",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-ug-btech-lateral",
+      "name": "B.Tech LATERAL ENTRY",
+      "level": "UG",
+      "credential": "Bachelor's degree",
+      "specialization": "CSE; CE; ECE; EE; ME",
+      "duration": "3 Years",
+      "mode": "On-campus",
+      "eligibility": "Diploma holders and B.Sc. degree holders with at least 45% marks, or 40% for reserved category candidates, in any branch of Engineering & Technology.",
+      "official_course_url": "https://dsmru.up.nic.in/main/User/content/UGProspectus26-27_22052026.pdf",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-ug-btech-hons-lateral",
+      "name": "B.Tech (Hons.) LATERAL ENTRY",
+      "level": "UG",
+      "credential": "Bachelor's degree",
+      "specialization": "CSE with AIDS; CSE with AIFM",
+      "duration": null,
+      "mode": "On-campus",
+      "eligibility": null,
+      "official_course_url": "https://dsmru.up.nic.in/main/User/content/UGProspectus26-27_22052026.pdf",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 81,
+          "career_node_slug": "btech_ai",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > AI & Machine Learning",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-pg-ma-hindi",
+      "name": "M.A. (HINDI)",
+      "level": "PG",
+      "credential": "Master's degree",
+      "specialization": "Hindi",
+      "duration": "1 Year / 2 Years",
+      "mode": "On-campus",
+      "eligibility": "3-year UG Degree with minimum of 120 credits for the 2-year PG Programme / 4-year UG Degree with minimum of 160 credits for the 1-year PG Programme.",
+      "official_course_url": "https://dsmru.up.nic.in/main/User/content/PGProspectus26-27_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-pg-ma-english",
+      "name": "M.A. (ENGLISH)",
+      "level": "PG",
+      "credential": "Master's degree",
+      "specialization": "English",
+      "duration": "1 Year / 2 Years",
+      "mode": "On-campus",
+      "eligibility": "3-year UG Degree with minimum of 120 credits for the 2-year PG Programme / 4-year UG Degree with minimum of 160 credits for the 1-year PG Programme.",
+      "official_course_url": "https://dsmru.up.nic.in/main/User/content/PGProspectus26-27_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "direct_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-pg-ma-economics",
+      "name": "M.A. (ECONOMICS)",
+      "level": "PG",
+      "credential": "Master's degree",
+      "specialization": "Economics",
+      "duration": "1 Year / 2 Years",
+      "mode": "On-campus",
+      "eligibility": "3-year UG Degree with minimum of 120 credits for the 2-year PG Programme / 4-year UG Degree with minimum of 160 credits for the 1-year PG Programme.",
+      "official_course_url": "https://dsmru.up.nic.in/main/User/content/PGProspectus26-27_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-pg-ma-history",
+      "name": "M.A. (HISTORY)",
+      "level": "PG",
+      "credential": "Master's degree",
+      "specialization": "History",
+      "duration": "1 Year / 2 Years",
+      "mode": "On-campus",
+      "eligibility": "3-year UG Degree with minimum of 120 credits for the 2-year PG Programme / 4-year UG Degree with minimum of 160 credits for the 1-year PG Programme.",
+      "official_course_url": "https://dsmru.up.nic.in/main/User/content/PGProspectus26-27_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-pg-ma-political-science",
+      "name": "M.A. (POLITICAL SCIENCE)",
+      "level": "PG",
+      "credential": "Master's degree",
+      "specialization": "Political Science",
+      "duration": "1 Year / 2 Years",
+      "mode": "On-campus",
+      "eligibility": "3-year UG Degree with minimum of 120 credits for the 2-year PG Programme / 4-year UG Degree with minimum of 160 credits for the 1-year PG Programme.",
+      "official_course_url": "https://dsmru.up.nic.in/main/User/content/PGProspectus26-27_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-pg-ma-sociology",
+      "name": "M.A. (SOCIOLOGY)",
+      "level": "PG",
+      "credential": "Master's degree",
+      "specialization": "Sociology",
+      "duration": "1 Year / 2 Years",
+      "mode": "On-campus",
+      "eligibility": "3-year UG Degree with minimum of 120 credits for the 2-year PG Programme / 4-year UG Degree with minimum of 160 credits for the 1-year PG Programme.",
+      "official_course_url": "https://dsmru.up.nic.in/main/User/content/PGProspectus26-27_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-pg-msw",
+      "name": "MSW (Master of Social Work)",
+      "level": "PG",
+      "credential": "Master's degree",
+      "specialization": "Social Work",
+      "duration": "1 Year / 2 Years",
+      "mode": "On-campus",
+      "eligibility": "3-year UG Degree with minimum of 120 credits for the 2-year PG Programme / 4-year UG Degree with minimum of 160 credits for the 1-year PG Programme.",
+      "official_course_url": "https://dsmru.up.nic.in/main/User/content/PGProspectus26-27_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 269,
+          "career_node_slug": "social_worker",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology > Social Worker",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-pg-llm",
+      "name": "LLM (Master of Law)",
+      "level": "PG",
+      "credential": "Master's degree",
+      "specialization": "Law",
+      "duration": "2 Years",
+      "mode": "On-campus",
+      "eligibility": "LLB Degree with 50% for General/OBC and 45% for SC/ST/Disabled candidates.",
+      "official_course_url": "https://dsmru.up.nic.in/main/User/content/PGProspectus26-27_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 343,
+          "career_node_slug": "commerce_law",
+          "career_breadcrumb": "Law & Legal",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-pg-msc-chemistry",
+      "name": "M.Sc. (CHEMISTRY)",
+      "level": "PG",
+      "credential": "Master's degree",
+      "specialization": "Chemistry",
+      "duration": "1 Year / 2 Years",
+      "mode": "On-campus",
+      "eligibility": "3-year UG Degree with a minimum of 120 credits major subject as Chemistry for the 2-year PG Programme / 4-year UG Degree with a minimum of 160 credits for the 1-year PG Programme.",
+      "official_course_url": "https://dsmru.up.nic.in/main/User/content/PGProspectus26-27_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 155,
+          "career_node_slug": "msc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry > M.Sc Chemistry → Researcher",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-pg-msc-physics",
+      "name": "M.Sc. (PHYSICS)",
+      "level": "PG",
+      "credential": "Master's degree",
+      "specialization": "Physics",
+      "duration": "1 Year / 2 Years",
+      "mode": "On-campus",
+      "eligibility": "3-year UG Degree with a minimum of 120 credits major subject as Physics for the 2-year PG Programme / 4-year UG Degree with a minimum of 160 credits for the 1-year PG Programme.",
+      "official_course_url": "https://dsmru.up.nic.in/main/User/content/PGProspectus26-27_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 153,
+          "career_node_slug": "msc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics > M.Sc Physics → Researcher / Professor",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-pg-msc-statistics",
+      "name": "M.Sc. (STATISTICS)",
+      "level": "PG",
+      "credential": "Master's degree",
+      "specialization": "Statistics",
+      "duration": "1 Year / 2 Years",
+      "mode": "On-campus",
+      "eligibility": "3-year UG Degree in Statistics, Mathematics or Engineering with a minimum of 120 credits for the 2-year PG Programme / 4-year UG Degree with a minimum of 160 credits for the 1-year PG Programme.",
+      "official_course_url": "https://dsmru.up.nic.in/main/User/content/PGProspectus26-27_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 6,
+          "career_node_slug": "bsc_stats",
+          "career_breadcrumb": "Maths / PCM > B.Sc Statistics",
+          "relation": "direct_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-pg-msc-microbiology",
+      "name": "M.Sc. (MICROBIOLOGY)",
+      "level": "PG",
+      "credential": "Master's degree",
+      "specialization": "Microbiology",
+      "duration": "1 Year / 2 Years",
+      "mode": "On-campus",
+      "eligibility": "3-year UG Degree in Biological Science, Biology, Medical, Paramedical, M.B.B.S., B.V.Sc., B.Pharma, B.M.L.T. or allied subjects with minimum 120 credits for the 2-year PG Programme / 4-year UG Degree with minimum 160 credits for the 1-year PG Programme.",
+      "official_course_url": "https://dsmru.up.nic.in/main/User/content/PGProspectus26-27_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 34,
+          "career_node_slug": "bsc_microbio",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Microbiology",
+          "relation": "direct_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-pg-msc-it",
+      "name": "M.Sc. (INFORMATION TECHNOLOGY)",
+      "level": "PG",
+      "credential": "Master's degree",
+      "specialization": "Information Technology",
+      "duration": "1 Year / 2 Years",
+      "mode": "On-campus",
+      "eligibility": "3-year UG Degree with a minimum of 120 credits for the 2-year PG Programme / 4-year UG Degree with a minimum of 160 credits for the 1-year PG Programme.",
+      "official_course_url": "https://dsmru.up.nic.in/main/User/content/PGProspectus26-27_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 89,
+          "career_node_slug": "btech_it",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Information Technology",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-pg-mca",
+      "name": "M.C.A. (Master of Computer Applications)",
+      "level": "PG",
+      "credential": "Master's degree",
+      "specialization": "Computer Applications",
+      "duration": "1 Year / 2 Years",
+      "mode": "On-campus",
+      "eligibility": "3-year UG Degree with minimum 120 credits for the 2-year PG Programme / 4-year UG Degree with minimum 160 credits for the 1-year PG Programme; Mathematics is compulsory at 10+2 level.",
+      "official_course_url": "https://dsmru.up.nic.in/main/User/content/PGProspectus26-27_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 93,
+          "career_node_slug": "mca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications) > MCA → Software Engineer",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-pg-mcom",
+      "name": "M. Com. (Master of Commerce)",
+      "level": "PG",
+      "credential": "Master's degree",
+      "specialization": "Commerce",
+      "duration": "2 Years",
+      "mode": "On-campus",
+      "eligibility": "3-year UG Degree with minimum 120 credits for the 2-year PG Programme / 4-year UG Degree with minimum 160 credits for the 1-year PG Programme.",
+      "official_course_url": "https://dsmru.up.nic.in/main/User/content/PGProspectus26-27_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 198,
+          "career_node_slug": "mcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons) > M.Com → Professor / Researcher",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-pg-mba",
+      "name": "MBA (Master of Business Administration)",
+      "level": "PG",
+      "credential": "Master's degree",
+      "specialization": "Business Administration",
+      "duration": "2 Years",
+      "mode": "On-campus",
+      "eligibility": "3-year UG Degree with minimum 120 credits for the 2-year PG Programme / 4-year UG Degree with 160 credits for the 1-year PG Programme.",
+      "official_course_url": "https://dsmru.up.nic.in/main/User/content/PGProspectus26-27_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 208,
+          "career_node_slug": "mba_general",
+          "career_breadcrumb": "Management & Business > BBA (General) > MBA → CEO / Director Track",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-pg-mva",
+      "name": "MVA (Master of Visual Arts)",
+      "level": "PG",
+      "credential": "Master's degree",
+      "specialization": "Painting; Applied Arts; Sculpture",
+      "duration": "2 Years",
+      "mode": "On-campus",
+      "eligibility": "BFA/BVA or equivalent degree in the relevant subject.",
+      "official_course_url": "https://dsmru.up.nic.in/main/User/content/PGProspectus26-27_22052026.pdf",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 60,
+          "career_node_slug": "bfa",
+          "career_breadcrumb": "Media & Journalism > B.F.A (Fine Arts)",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-pg-meds-hi",
+      "name": "M.Ed.S.E. (HI)",
+      "level": "PG",
+      "credential": "Master's degree",
+      "specialization": "Special Education (Hearing Impairment)",
+      "duration": "2 Years",
+      "mode": "On-campus",
+      "eligibility": "One of the official qualifications listed: B.Ed. Special Education in Hearing Impairment with minimum 50% and RCI registration; B.Ed. General plus an RCI-recognized D.Ed. Special Education in Hearing Impairment with minimum 50% in each course; PG Diploma through academic session 2014-15; or integrated B.A./B.Sc./B.Com. B.Ed. Special Education.",
+      "official_course_url": "https://dsmru.up.nic.in/main/User/content/PGProspectus26-27_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 372,
+          "career_node_slug": "special_educator",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education) > Special Education Teacher",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-pg-bedse-hi",
+      "name": "B.Ed.S.E. (HI)",
+      "level": "PG",
+      "credential": "Master's degree",
+      "specialization": "Special Education (Hearing Impairment)",
+      "duration": "2 Years",
+      "mode": "On-campus",
+      "eligibility": "At least 50% marks in the Bachelor's and/or Master's degree in Science, Social Sciences or Humanities; Bachelor's in Engineering or Technology with Science and Mathematics specialization requires 55% or equivalent.",
+      "official_course_url": "https://dsmru.up.nic.in/main/User/content/PGProspectus26-27_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 372,
+          "career_node_slug": "special_educator",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education) > Special Education Teacher",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-pg-meds-vi",
+      "name": "M.Ed.S.E. (VI)",
+      "level": "PG",
+      "credential": "Master's degree",
+      "specialization": "Special Education (Visual Impairment)",
+      "duration": "2 Years",
+      "mode": "On-campus",
+      "eligibility": "One of the official qualifications listed: B.Ed. Special Education in Visual Impairment with minimum 50% and RCI registration; B.Ed. General plus an RCI-recognized D.Ed. Special Education in Visual Impairment with minimum 50% in each course; PG Diploma through academic session 2014-15; or integrated B.A./B.Sc./B.Com. B.Ed. Special Education.",
+      "official_course_url": "https://dsmru.up.nic.in/main/User/content/PGProspectus26-27_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 372,
+          "career_node_slug": "special_educator",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education) > Special Education Teacher",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-pg-bedse-vi",
+      "name": "B.Ed. S.E. (VI)",
+      "level": "PG",
+      "credential": "Master's degree",
+      "specialization": "Special Education (Visual Impairment)",
+      "duration": "2 Years",
+      "mode": "On-campus",
+      "eligibility": "At least 50% marks in the Bachelor's and/or Master's degree in Science, Social Sciences or Humanities; Bachelor's in Engineering or Technology with Science and Mathematics specialization requires 55% or equivalent.",
+      "official_course_url": "https://dsmru.up.nic.in/main/User/content/PGProspectus26-27_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 372,
+          "career_node_slug": "special_educator",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education) > Special Education Teacher",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-pg-meds-idd",
+      "name": "M.Ed. S.E. (IDD)",
+      "level": "PG",
+      "credential": "Master's degree",
+      "specialization": "Special Education (Intellectual & Developmental Disability)",
+      "duration": "2 Years",
+      "mode": "On-campus",
+      "eligibility": "One of the official qualifications listed: B.Ed. Special Education in Intellectual Disability with minimum 50% and RCI registration; B.Ed. General plus an RCI-recognized D.Ed. Special Education in Intellectual Disability with minimum 50% in each course; PG Diploma through academic session 2014-15; or integrated B.A./B.Sc./B.Com. B.Ed. Special Education.",
+      "official_course_url": "https://dsmru.up.nic.in/main/User/content/PGProspectus26-27_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 372,
+          "career_node_slug": "special_educator",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education) > Special Education Teacher",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-pg-bedse-idd",
+      "name": "B.Ed. S.E. (IDD)",
+      "level": "PG",
+      "credential": "Master's degree",
+      "specialization": "Special Education (Intellectual & Developmental Disability)",
+      "duration": "2 Years",
+      "mode": "On-campus",
+      "eligibility": "At least 50% marks in the Bachelor's and/or Master's degree in Science, Social Sciences or Humanities; Bachelor's in Engineering or Technology with Science and Mathematics specialization requires 55% or equivalent.",
+      "official_course_url": "https://dsmru.up.nic.in/main/User/content/PGProspectus26-27_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 372,
+          "career_node_slug": "special_educator",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education) > Special Education Teacher",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-pg-ma-education",
+      "name": "M.A. (EDUCATION)",
+      "level": "PG",
+      "credential": "Master's degree",
+      "specialization": "Education",
+      "duration": "2 Years",
+      "mode": "On-campus",
+      "eligibility": "3-year UG Degree with minimum of 120 credits for the 2-year PG Programme / 4-year UG Degree with minimum of 160 credits for the 1-year PG Programme.",
+      "official_course_url": "https://dsmru.up.nic.in/main/User/content/PGProspectus26-27_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-pg-pgdavt",
+      "name": "PGDAVT (Post Graduate Diploma in Auditory Verbal Therapy)",
+      "level": "PG",
+      "credential": "Postgraduate diploma",
+      "specialization": "Auditory Verbal Therapy",
+      "duration": "1 Year",
+      "mode": "On-campus",
+      "eligibility": "Graduate degree in Audiology, Speech-Language Pathology, Speech and Hearing, Special Education (HI), or equivalent, with Rehabilitation Council of India registration; foreign nationals must provide professional registration evidence.",
+      "official_course_url": "https://dsmru.up.nic.in/main/User/content/PGProspectus26-27_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-pg-mpo",
+      "name": "M.P.O. (Master of Prosthetics and Orthotics)",
+      "level": "PG",
+      "credential": "Master's degree",
+      "specialization": "Prosthetics and Orthotics",
+      "duration": "2 Years",
+      "mode": "On-campus",
+      "eligibility": "Bachelor in Prosthetics and Orthotics or Bachelor of Science in Prosthetics and Orthotics from a recognized Indian university with minimum 55% marks.",
+      "official_course_url": "https://dsmru.up.nic.in/main/User/content/PGProspectus26-27_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-pg-mtech",
+      "name": "M.TECH. (MASTER OF TECHNOLOGY)",
+      "level": "PG",
+      "credential": "Master's degree",
+      "specialization": "CSE with AI & DS; CSE with AI & ML",
+      "duration": "2 Years",
+      "mode": "On-campus",
+      "eligibility": "4-year UG Degree with minimum 160 credits, or 3-year UG plus 2-year PG Degree, or 5-year integrated UG+PG Degree in concerned or allied Science, Engineering or Technology subjects.",
+      "official_course_url": "https://dsmru.up.nic.in/main/User/content/PGProspectus26-27_22052026.pdf",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 81,
+          "career_node_slug": "btech_ai",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > AI & Machine Learning",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-phd-fine-arts",
+      "name": "Ph.D.",
+      "level": "Doctoral",
+      "credential": "Doctoral degree",
+      "specialization": "Fine Arts",
+      "duration": "Minimum 3 years; maximum 6 years",
+      "mode": "Full-time / Part-time",
+      "eligibility": "Master's degree after a 3-year bachelor's degree, or a 1-year master's degree after a 4-year bachelor's degree, with at least 55% aggregate; candidates entering after a 4-year bachelor's degree require at least 75%; M.Phil. candidates require at least 55%, with the stated category relaxations.",
+      "official_course_url": "https://dsmnru.ac.in/Document26/PhDAdmission2025/Notices2025/PhDProspectus25_26_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 60,
+          "career_node_slug": "bfa",
+          "career_breadcrumb": "Media & Journalism > B.F.A (Fine Arts)",
+          "relation": "direct_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-phd-hindi",
+      "name": "Ph.D.",
+      "level": "Doctoral",
+      "credential": "Doctoral degree",
+      "specialization": "Hindi",
+      "duration": "Minimum 3 years; maximum 6 years",
+      "mode": "Full-time / Part-time",
+      "eligibility": "Master's degree after a 3-year bachelor's degree, or a 1-year master's degree after a 4-year bachelor's degree, with at least 55% aggregate; candidates entering after a 4-year bachelor's degree require at least 75%; M.Phil. candidates require at least 55%, with the stated category relaxations.",
+      "official_course_url": "https://dsmnru.ac.in/Document26/PhDAdmission2025/Notices2025/PhDProspectus25_26_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-phd-english",
+      "name": "Ph.D.",
+      "level": "Doctoral",
+      "credential": "Doctoral degree",
+      "specialization": "English",
+      "duration": "Minimum 3 years; maximum 6 years",
+      "mode": "Full-time / Part-time",
+      "eligibility": "Master's degree after a 3-year bachelor's degree, or a 1-year master's degree after a 4-year bachelor's degree, with at least 55% aggregate; candidates entering after a 4-year bachelor's degree require at least 75%; M.Phil. candidates require at least 55%, with the stated category relaxations.",
+      "official_course_url": "https://dsmnru.ac.in/Document26/PhDAdmission2025/Notices2025/PhDProspectus25_26_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "direct_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-phd-commerce",
+      "name": "Ph.D.",
+      "level": "Doctoral",
+      "credential": "Doctoral degree",
+      "specialization": "Commerce",
+      "duration": "Minimum 3 years; maximum 6 years",
+      "mode": "Full-time / Part-time",
+      "eligibility": "Master's degree after a 3-year bachelor's degree, or a 1-year master's degree after a 4-year bachelor's degree, with at least 55% aggregate; candidates entering after a 4-year bachelor's degree require at least 75%; M.Phil. candidates require at least 55%, with the stated category relaxations.",
+      "official_course_url": "https://dsmnru.ac.in/Document26/PhDAdmission2025/Notices2025/PhDProspectus25_26_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-phd-management",
+      "name": "Ph.D.",
+      "level": "Doctoral",
+      "credential": "Doctoral degree",
+      "specialization": "Management",
+      "duration": "Minimum 3 years; maximum 6 years",
+      "mode": "Full-time / Part-time",
+      "eligibility": "Master's degree after a 3-year bachelor's degree, or a 1-year master's degree after a 4-year bachelor's degree, with at least 55% aggregate; candidates entering after a 4-year bachelor's degree require at least 75%; M.Phil. candidates require at least 55%, with the stated category relaxations.",
+      "official_course_url": "https://dsmnru.ac.in/Document26/PhDAdmission2025/Notices2025/PhDProspectus25_26_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 342,
+          "career_node_slug": "commerce_management",
+          "career_breadcrumb": "Management & Business",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-phd-physics",
+      "name": "Ph.D.",
+      "level": "Doctoral",
+      "credential": "Doctoral degree",
+      "specialization": "Physics",
+      "duration": "Minimum 3 years; maximum 6 years",
+      "mode": "Full-time / Part-time",
+      "eligibility": "Master's degree after a 3-year bachelor's degree, or a 1-year master's degree after a 4-year bachelor's degree, with at least 55% aggregate; candidates entering after a 4-year bachelor's degree require at least 75%; M.Phil. candidates require at least 55%, with the stated category relaxations.",
+      "official_course_url": "https://dsmnru.ac.in/Document26/PhDAdmission2025/Notices2025/PhDProspectus25_26_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 153,
+          "career_node_slug": "msc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics > M.Sc Physics → Researcher / Professor",
+          "relation": "direct_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-phd-computer-science",
+      "name": "Ph.D.",
+      "level": "Doctoral",
+      "credential": "Doctoral degree",
+      "specialization": "Computer Science",
+      "duration": "Minimum 3 years; maximum 6 years",
+      "mode": "Full-time / Part-time",
+      "eligibility": "Master's degree after a 3-year bachelor's degree, or a 1-year master's degree after a 4-year bachelor's degree, with at least 55% aggregate; candidates entering after a 4-year bachelor's degree require at least 75%; M.Phil. candidates require at least 55%, with the stated category relaxations.",
+      "official_course_url": "https://dsmnru.ac.in/Document26/PhDAdmission2025/Notices2025/PhDProspectus25_26_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 32,
+          "career_node_slug": "bsc_cs",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Computer Science",
+          "relation": "direct_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-phd-microbiology",
+      "name": "Ph.D.",
+      "level": "Doctoral",
+      "credential": "Doctoral degree",
+      "specialization": "Microbiology",
+      "duration": "Minimum 3 years; maximum 6 years",
+      "mode": "Full-time / Part-time",
+      "eligibility": "Master's degree after a 3-year bachelor's degree, or a 1-year master's degree after a 4-year bachelor's degree, with at least 55% aggregate; candidates entering after a 4-year bachelor's degree require at least 75%; M.Phil. candidates require at least 55%, with the stated category relaxations.",
+      "official_course_url": "https://dsmnru.ac.in/Document26/PhDAdmission2025/Notices2025/PhDProspectus25_26_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 34,
+          "career_node_slug": "bsc_microbio",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Microbiology",
+          "relation": "direct_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-phd-statistics",
+      "name": "Ph.D.",
+      "level": "Doctoral",
+      "credential": "Doctoral degree",
+      "specialization": "Statistics",
+      "duration": "Minimum 3 years; maximum 6 years",
+      "mode": "Full-time / Part-time",
+      "eligibility": "Master's degree after a 3-year bachelor's degree, or a 1-year master's degree after a 4-year bachelor's degree, with at least 55% aggregate; candidates entering after a 4-year bachelor's degree require at least 75%; M.Phil. candidates require at least 55%, with the stated category relaxations.",
+      "official_course_url": "https://dsmnru.ac.in/Document26/PhDAdmission2025/Notices2025/PhDProspectus25_26_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 6,
+          "career_node_slug": "bsc_stats",
+          "career_breadcrumb": "Maths / PCM > B.Sc Statistics",
+          "relation": "direct_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-phd-information-technology",
+      "name": "Ph.D.",
+      "level": "Doctoral",
+      "credential": "Doctoral degree",
+      "specialization": "Information Technology",
+      "duration": "Minimum 3 years; maximum 6 years",
+      "mode": "Full-time / Part-time",
+      "eligibility": "Master's degree after a 3-year bachelor's degree, or a 1-year master's degree after a 4-year bachelor's degree, with at least 55% aggregate; candidates entering after a 4-year bachelor's degree require at least 75%; M.Phil. candidates require at least 55%, with the stated category relaxations.",
+      "official_course_url": "https://dsmnru.ac.in/Document26/PhDAdmission2025/Notices2025/PhDProspectus25_26_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 89,
+          "career_node_slug": "btech_it",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Information Technology",
+          "relation": "direct_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-phd-chemistry",
+      "name": "Ph.D.",
+      "level": "Doctoral",
+      "credential": "Doctoral degree",
+      "specialization": "Chemistry",
+      "duration": "Minimum 3 years; maximum 6 years",
+      "mode": "Full-time / Part-time",
+      "eligibility": "Master's degree after a 3-year bachelor's degree, or a 1-year master's degree after a 4-year bachelor's degree, with at least 55% aggregate; candidates entering after a 4-year bachelor's degree require at least 75%; M.Phil. candidates require at least 55%, with the stated category relaxations.",
+      "official_course_url": "https://dsmnru.ac.in/Document26/PhDAdmission2025/Notices2025/PhDProspectus25_26_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 155,
+          "career_node_slug": "msc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry > M.Sc Chemistry → Researcher",
+          "relation": "direct_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-phd-education",
+      "name": "Ph.D.",
+      "level": "Doctoral",
+      "credential": "Doctoral degree",
+      "specialization": "Education",
+      "duration": "Minimum 3 years; maximum 6 years",
+      "mode": "Full-time / Part-time",
+      "eligibility": "Master's degree after a 3-year bachelor's degree, or a 1-year master's degree after a 4-year bachelor's degree, with at least 55% aggregate; candidates entering after a 4-year bachelor's degree require at least 75%; M.Phil. candidates require at least 55%, with the stated category relaxations.",
+      "official_course_url": "https://dsmnru.ac.in/Document26/PhDAdmission2025/Notices2025/PhDProspectus25_26_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "direct_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-phd-visual-impairment",
+      "name": "Ph.D.",
+      "level": "Doctoral",
+      "credential": "Doctoral degree",
+      "specialization": "Education-Special Education (Visual Impairment)",
+      "duration": "Minimum 3 years; maximum 6 years",
+      "mode": "Full-time / Part-time",
+      "eligibility": "Master's degree after a 3-year bachelor's degree, or a 1-year master's degree after a 4-year bachelor's degree, with at least 55% aggregate; candidates entering after a 4-year bachelor's degree require at least 75%; M.Phil. candidates require at least 55%, with the stated category relaxations.",
+      "official_course_url": "https://dsmnru.ac.in/Document26/PhDAdmission2025/Notices2025/PhDProspectus25_26_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 372,
+          "career_node_slug": "special_educator",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education) > Special Education Teacher",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-phd-hearing-impairment",
+      "name": "Ph.D.",
+      "level": "Doctoral",
+      "credential": "Doctoral degree",
+      "specialization": "Education-Special Education (Hearing Impairment)",
+      "duration": "Minimum 3 years; maximum 6 years",
+      "mode": "Full-time / Part-time",
+      "eligibility": "Master's degree after a 3-year bachelor's degree, or a 1-year master's degree after a 4-year bachelor's degree, with at least 55% aggregate; candidates entering after a 4-year bachelor's degree require at least 75%; M.Phil. candidates require at least 55%, with the stated category relaxations.",
+      "official_course_url": "https://dsmnru.ac.in/Document26/PhDAdmission2025/Notices2025/PhDProspectus25_26_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 372,
+          "career_node_slug": "special_educator",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education) > Special Education Teacher",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-phd-intellectual-disability",
+      "name": "Ph.D.",
+      "level": "Doctoral",
+      "credential": "Doctoral degree",
+      "specialization": "Education-Special Education (Intellectual Disability)",
+      "duration": "Minimum 3 years; maximum 6 years",
+      "mode": "Full-time / Part-time",
+      "eligibility": "Master's degree after a 3-year bachelor's degree, or a 1-year master's degree after a 4-year bachelor's degree, with at least 55% aggregate; candidates entering after a 4-year bachelor's degree require at least 75%; M.Phil. candidates require at least 55%, with the stated category relaxations.",
+      "official_course_url": "https://dsmnru.ac.in/Document26/PhDAdmission2025/Notices2025/PhDProspectus25_26_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 372,
+          "career_node_slug": "special_educator",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education) > Special Education Teacher",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-phd-social-work",
+      "name": "Ph.D.",
+      "level": "Doctoral",
+      "credential": "Doctoral degree",
+      "specialization": "Social Work",
+      "duration": "Minimum 3 years; maximum 6 years",
+      "mode": "Full-time / Part-time",
+      "eligibility": "Master's degree after a 3-year bachelor's degree, or a 1-year master's degree after a 4-year bachelor's degree, with at least 55% aggregate; candidates entering after a 4-year bachelor's degree require at least 75%; M.Phil. candidates require at least 55%, with the stated category relaxations.",
+      "official_course_url": "https://dsmnru.ac.in/Document26/PhDAdmission2025/Notices2025/PhDProspectus25_26_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 269,
+          "career_node_slug": "social_worker",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology > Social Worker",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-phd-political-science",
+      "name": "Ph.D.",
+      "level": "Doctoral",
+      "credential": "Doctoral degree",
+      "specialization": "Political Science",
+      "duration": "Minimum 3 years; maximum 6 years",
+      "mode": "Full-time / Part-time",
+      "eligibility": "Master's degree after a 3-year bachelor's degree, or a 1-year master's degree after a 4-year bachelor's degree, with at least 55% aggregate; candidates entering after a 4-year bachelor's degree require at least 75%; M.Phil. candidates require at least 55%, with the stated category relaxations.",
+      "official_course_url": "https://dsmnru.ac.in/Document26/PhDAdmission2025/Notices2025/PhDProspectus25_26_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-phd-sociology",
+      "name": "Ph.D.",
+      "level": "Doctoral",
+      "credential": "Doctoral degree",
+      "specialization": "Sociology",
+      "duration": "Minimum 3 years; maximum 6 years",
+      "mode": "Full-time / Part-time",
+      "eligibility": "Master's degree after a 3-year bachelor's degree, or a 1-year master's degree after a 4-year bachelor's degree, with at least 55% aggregate; candidates entering after a 4-year bachelor's degree require at least 75%; M.Phil. candidates require at least 55%, with the stated category relaxations.",
+      "official_course_url": "https://dsmnru.ac.in/Document26/PhDAdmission2025/Notices2025/PhDProspectus25_26_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-phd-economics",
+      "name": "Ph.D.",
+      "level": "Doctoral",
+      "credential": "Doctoral degree",
+      "specialization": "Economics",
+      "duration": "Minimum 3 years; maximum 6 years",
+      "mode": "Full-time / Part-time",
+      "eligibility": "Master's degree after a 3-year bachelor's degree, or a 1-year master's degree after a 4-year bachelor's degree, with at least 55% aggregate; candidates entering after a 4-year bachelor's degree require at least 75%; M.Phil. candidates require at least 55%, with the stated category relaxations.",
+      "official_course_url": "https://dsmnru.ac.in/Document26/PhDAdmission2025/Notices2025/PhDProspectus25_26_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-phd-history",
+      "name": "Ph.D.",
+      "level": "Doctoral",
+      "credential": "Doctoral degree",
+      "specialization": "History",
+      "duration": "Minimum 3 years; maximum 6 years",
+      "mode": "Full-time / Part-time",
+      "eligibility": "Master's degree after a 3-year bachelor's degree, or a 1-year master's degree after a 4-year bachelor's degree, with at least 55% aggregate; candidates entering after a 4-year bachelor's degree require at least 75%; M.Phil. candidates require at least 55%, with the stated category relaxations.",
+      "official_course_url": "https://dsmnru.ac.in/Document26/PhDAdmission2025/Notices2025/PhDProspectus25_26_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-shakuntala-misra-national-rehabilitation-university-dsmnru-phd-law",
+      "name": "Ph.D.",
+      "level": "Doctoral",
+      "credential": "Doctoral degree",
+      "specialization": "Law",
+      "duration": "Minimum 3 years; maximum 6 years",
+      "mode": "Full-time / Part-time",
+      "eligibility": "Master's degree after a 3-year bachelor's degree, or a 1-year master's degree after a 4-year bachelor's degree, with at least 55% aggregate; candidates entering after a 4-year bachelor's degree require at least 75%; M.Phil. candidates require at least 55%, with the stated category relaxations.",
+      "official_course_url": "https://dsmnru.ac.in/Document26/PhDAdmission2025/Notices2025/PhDProspectus25_26_22052026.pdf",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 343,
+          "career_node_slug": "commerce_law",
+          "career_breadcrumb": "Law & Legal",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The managed proxy returned the exact local self-signed certificate-chain error on the first normal TLS request; subsequent public GETs used curl --insecure only after confirming the expected official/search hostnames.",
+    "The primary official site publishes current UG, diploma, certificate and PG prospectuses for session 2026-27. The official PhD prospectus available through the university's linked secondary domain is labeled session 2025-26; no current 2026-27 doctoral catalogue was established, so the record remains manual_review and course_catalogue_status is partial_official_website.",
+    "The PhD prospectus lists Fine Arts, Hindi, Microbiology and Education rows with nil vacant seats for session 2025-26; they are included because they are explicitly named in the official doctoral programme table, but current availability should be confirmed by the university.",
+    "The career tree has no dedicated deaf-studies, rehabilitation, audiology, prosthetics or orthotics nodes; nearest responsible parent mappings were used, while PDCD was left unmapped."
+  ]
+}

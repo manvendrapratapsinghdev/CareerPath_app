@@ -1,0 +1,15 @@
+{
+  "institution_id": "legacy-155",
+  "database_id": 155,
+  "name": "INIFD",
+  "website": "https://www.inifd.com",
+  "outcome": "manual_review",
+  "institution_type": null,
+  "source_url": null,
+  "confidence": null,
+  "evidence": null,
+  "notes": [
+    "The supplied official hostname returned DNS SERVFAIL/lame-delegation errors, so no official page was available to establish the institutional type.",
+    "Used curl --insecure only after encountering the managed proxy certificate-chain error."
+  ]
+}

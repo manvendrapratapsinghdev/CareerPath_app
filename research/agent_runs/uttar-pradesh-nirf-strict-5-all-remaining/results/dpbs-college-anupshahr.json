@@ -1,0 +1,80 @@
+{
+  "institution_id": "dpbs-college-anupshahr",
+  "nirf_name": "DPBS College, Anupshahr",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "remove_candidate",
+  "district": null,
+  "district_verification_status": "not_found",
+  "official_website": null,
+  "website_verification_status": "not_found",
+  "description": null,
+  "description_verification_status": "not_found",
+  "record_status": "remove_candidate",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "DPBS College, Anupshahr is listed in the 2025 College ranking directory with city Anupshahr and state Uttar Pradesh."
+      ]
+    },
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "DPBS College, Anupshahr is listed in the 2025 Overall ranking directory with city Anupshahr and state Uttar Pradesh."
+      ]
+    },
+    {
+      "type": "university_affiliation_directory",
+      "url": "https://cdn.ccsuniversity.ac.in/public/docx/2025/07/2025-college-list.xlsx",
+      "supports": [
+        "Chaudhary Charan Singh University’s official 2025 college list identifies D.P.B.S Degree College, Anoopshahr, Bulandshahr, as an aided college; used for authoritative identity cross-check only."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "DPBS College Anupshahr official website",
+      "result": "Google search returned an automated CAPTCHA/HTTP 429 response; no usable official institution result was established.",
+      "url": "https://www.google.com/search?igu=1&q=DPBS%20College%20Anupshahr"
+    },
+    {
+      "query": "DPBS College Anupshahr courses admission",
+      "result": "Google search returned an automated CAPTCHA/HTTP 429 response; no usable official institution result was established.",
+      "url": "https://www.google.com/search?q=DPBS%20College%20Anupshahr%20courses%20admission"
+    },
+    {
+      "query": "D.P.B.S. Degree College Anoopshahr",
+      "result": "Bing returned irrelevant third-party results and no identifiable official institution website.",
+      "url": "https://www.bing.com/search?q=D.P.B.S.+Degree+College+Anoopshahr&count=50&cc=IN&setlang=en-US"
+    },
+    {
+      "query": "site:ac.in \"DPBS College\"",
+      "result": "Bing returned irrelevant results and no identifiable official institution website.",
+      "url": "https://www.bing.com/search?q=site%3Aac.in+%22DPBS+College%22&count=50&cc=IN&setlang=en-US"
+    },
+    {
+      "query": "DPBS College Anupshahr official website",
+      "result": "Yahoo search reported no matching webpages.",
+      "url": "https://search.yahoo.co.jp/search?p=DPBS%20College%20Anupshahr%20official%20website&vm=r"
+    },
+    {
+      "query": "DPBS College Anupshahr",
+      "result": "Google Maps search did not expose an official institution website or an authoritative college homepage.",
+      "url": "https://www.google.com/maps/search/DPBS+College+Anupshahr"
+    }
+  ],
+  "course_catalogue_status": "not_found",
+  "courses": [],
+  "agent_notes": [
+    "The institution is established in both supplied NIRF government directories.",
+    "No actual official institution website could be established after multiple focused searches and direct checks of plausible DPBS/degree-college domains; therefore this candidate is removed rather than importing non-official course data.",
+    "The CCSU official college list was used only as an authoritative identity cross-check and not as evidence for the institution’s website, district, description, or course catalogue.",
+    "Normal TLS first returned the managed proxy’s exact self-signed certificate-chain error; public GET checks then used curl --insecure for confirmed public/search hostnames only."
+  ]
+}

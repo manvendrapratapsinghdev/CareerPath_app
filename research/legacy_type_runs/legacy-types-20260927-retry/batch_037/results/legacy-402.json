@@ -1,0 +1,15 @@
+{
+  "institution_id": "legacy-402",
+  "database_id": 402,
+  "name": "Classic Fitness Academy",
+  "website": "https://www.classicfitnessacademy.com",
+  "outcome": "classified",
+  "institution_type": "specialized",
+  "source_url": "https://classicfitnessacademy.com/",
+  "confidence": "high",
+  "evidence": "The official homepage identifies Classic Fitness Academy as a fitness training and education academy offering personal trainer certifications, fitness courses, and diplomas, establishing it as a specialized training institution.",
+  "notes": [
+    "The supplied www hostname failed DNS resolution; the same-domain apex hostname served the matching Classic Fitness Academy site.",
+    "Normal TLS to the apex hostname produced the managed proxy's self-signed certificate-chain error, so curl --insecure was used only for public GET requests."
+  ]
+}

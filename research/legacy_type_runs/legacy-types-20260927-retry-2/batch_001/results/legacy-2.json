@@ -1,0 +1,15 @@
+{
+  "institution_id": "legacy-2",
+  "database_id": 2,
+  "name": "NITs",
+  "website": "https://www.nitcouncil.in",
+  "outcome": "manual_review",
+  "institution_type": null,
+  "source_url": null,
+  "confidence": null,
+  "evidence": null,
+  "notes": [
+    "The supplied hostname returned DNS NXDOMAIN, so no official page could be accessed for verification.",
+    "curl --insecure was not used because the failure was DNS resolution, not a proxy certificate-chain error."
+  ]
+}

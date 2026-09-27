@@ -1,0 +1,741 @@
+{
+  "institution_id": "government-engineering-college",
+  "nirf_name": "Government Engineering College",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/EngineeringRankingALL.html"
+  ],
+  "verification_outcome": "verified",
+  "district": "Jabalpur",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://www.jecjabalpur.ac.in/",
+  "website_verification_status": "verified",
+  "description": "Jabalpur Engineering College, Jabalpur, was established in 1947 as the Government Engineering College, Jabalpur and is now an autonomous engineering institution affiliated with RGPV, Bhopal and approved by AICTE.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/EngineeringRankingALL.html",
+      "supports": [
+        "The 2025 Engineering ranking directory lists Government Engineering College in Jabalpur, Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://www.jecjabalpur.ac.in/",
+      "supports": [
+        "The official homepage identifies the current campus as Jabalpur Engineering College, Jabalpur (M.P.) and states it was established in 1947 as a Government Engineering College, Jabalpur."
+      ]
+    },
+    {
+      "type": "official_identity",
+      "url": "https://www.jecjabalpur.ac.in/about-us/about-jec",
+      "supports": [
+        "The official history says the Government Engineering College later became Jabalpur Engineering College, establishing the name continuity for the NIRF-listed campus; it also states the current autonomous, RGPV-affiliated, AICTE-approved status."
+      ]
+    },
+    {
+      "type": "official_campus",
+      "url": "https://www.jecjabalpur.ac.in/contact-jec",
+      "supports": [
+        "The official contact page identifies Jabalpur Engineering College and places the 255-acre campus on the outskirts of Jabalpur at Dindori Road."
+      ]
+    },
+    {
+      "type": "official_catalogue_index",
+      "url": "https://www.jecjabalpur.ac.in/academics/courses-programs",
+      "supports": [
+        "The official academics navigation exposes UG Programmes, PG Programmes, and Ph.D. Programme catalogue pages."
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://www.jecjabalpur.ac.in/academics/courses-programs/ug-programmes",
+      "supports": [
+        "The official UG catalogue lists the nine BE/B.Tech programmes and the four BE/B.Tech part-time programmes used in the course records."
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://www.jecjabalpur.ac.in/academics/courses-programs/pg-programmes",
+      "supports": [
+        "The official PG catalogue lists the ten Master of Engineering programmes, three Applied Science M.Sc. programmes, and Master in Computer Application used in the course records."
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://www.jecjabalpur.ac.in/academics/courses-programs/ph-d-programme",
+      "supports": [
+        "The official catalogue has an active Ph.D. Programme page and identifies the institute as an RGPV research centre."
+      ]
+    },
+    {
+      "type": "official_admissions",
+      "url": "https://www.jecjabalpur.ac.in/admission/ug-admission",
+      "supports": [
+        "The official UG admissions page verifies the four-year B.Tech duration, the Class 12/JEE-based admissions description, and the four-year part-time course for serving/self-employed diploma holders."
+      ]
+    },
+    {
+      "type": "official_admissions",
+      "url": "https://www.jecjabalpur.ac.in/admission/pg-admission",
+      "supports": [
+        "The official PG admissions page verifies the M.E./M.Tech GATE/merit rule, MCA eligibility, and the Applied Science M.Sc. offerings."
+      ]
+    },
+    {
+      "type": "official_admissions",
+      "url": "https://www.jecjabalpur.ac.in/admission/phd-admission",
+      "supports": [
+        "The official Ph.D. admissions page verifies the doctoral admissions route through RGPV and the institute study-centre role."
+      ]
+    }
+  ],
+  "website_search_evidence": [],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "government-engineering-college-ug-cs",
+      "name": "Computer Science & Engineering",
+      "level": "undergraduate",
+      "credential": "Bachelor of Engineering/Bachelor of Technology (BE/B.Tech)",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not specified",
+      "eligibility": "JEE merit list; vacant seats may be filled based on Class 12 marks (the complete criteria are in the DTE admission rule book).",
+      "official_course_url": "https://www.jecjabalpur.ac.in/academics/courses-programs/ug-programmes",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-engineering-college-ug-it",
+      "name": "Information Technology",
+      "level": "undergraduate",
+      "credential": "Bachelor of Engineering/Bachelor of Technology (BE/B.Tech)",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not specified",
+      "eligibility": "JEE merit list; vacant seats may be filled based on Class 12 marks (the complete criteria are in the DTE admission rule book).",
+      "official_course_url": "https://www.jecjabalpur.ac.in/academics/courses-programs/ug-programmes",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 89,
+          "career_node_slug": "btech_it",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Information Technology",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-engineering-college-ug-ece",
+      "name": "Electronics & Telecommunication Engineering",
+      "level": "undergraduate",
+      "credential": "Bachelor of Engineering/Bachelor of Technology (BE/B.Tech)",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not specified",
+      "eligibility": "JEE merit list; vacant seats may be filled based on Class 12 marks (the complete criteria are in the DTE admission rule book).",
+      "official_course_url": "https://www.jecjabalpur.ac.in/academics/courses-programs/ug-programmes",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-engineering-college-ug-ee",
+      "name": "Electrical Engineering",
+      "level": "undergraduate",
+      "credential": "Bachelor of Engineering/Bachelor of Technology (BE/B.Tech)",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not specified",
+      "eligibility": "JEE merit list; vacant seats may be filled based on Class 12 marks (the complete criteria are in the DTE admission rule book).",
+      "official_course_url": "https://www.jecjabalpur.ac.in/academics/courses-programs/ug-programmes",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-engineering-college-ug-civil",
+      "name": "Civil Engineering",
+      "level": "undergraduate",
+      "credential": "Bachelor of Engineering/Bachelor of Technology (BE/B.Tech)",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not specified",
+      "eligibility": "JEE merit list; vacant seats may be filled based on Class 12 marks (the complete criteria are in the DTE admission rule book).",
+      "official_course_url": "https://www.jecjabalpur.ac.in/academics/courses-programs/ug-programmes",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-engineering-college-ug-industrial",
+      "name": "Industrial Production",
+      "level": "undergraduate",
+      "credential": "Bachelor of Engineering/Bachelor of Technology (BE/B.Tech)",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not specified",
+      "eligibility": "JEE merit list; vacant seats may be filled based on Class 12 marks (the complete criteria are in the DTE admission rule book).",
+      "official_course_url": "https://www.jecjabalpur.ac.in/academics/courses-programs/ug-programmes",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest_parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-engineering-college-ug-mech",
+      "name": "Mechanical Engineering",
+      "level": "undergraduate",
+      "credential": "Bachelor of Engineering/Bachelor of Technology (BE/B.Tech)",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not specified",
+      "eligibility": "JEE merit list; vacant seats may be filled based on Class 12 marks (the complete criteria are in the DTE admission rule book).",
+      "official_course_url": "https://www.jecjabalpur.ac.in/academics/courses-programs/ug-programmes",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-engineering-college-ug-ai",
+      "name": "Artificial Intelligence & Data Science",
+      "level": "undergraduate",
+      "credential": "Bachelor of Engineering/Bachelor of Technology (BE/B.Tech)",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not specified",
+      "eligibility": "JEE merit list; vacant seats may be filled based on Class 12 marks (the complete criteria are in the DTE admission rule book).",
+      "official_course_url": "https://www.jecjabalpur.ac.in/academics/courses-programs/ug-programmes",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 81,
+          "career_node_slug": "btech_ai",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > AI & Machine Learning",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-engineering-college-ug-mechatronics",
+      "name": "Mechatronics Engineering",
+      "level": "undergraduate",
+      "credential": "Bachelor of Engineering/Bachelor of Technology (BE/B.Tech)",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "not specified",
+      "eligibility": "JEE merit list; vacant seats may be filled based on Class 12 marks (the complete criteria are in the DTE admission rule book).",
+      "official_course_url": "https://www.jecjabalpur.ac.in/academics/courses-programs/ug-programmes",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 363,
+          "career_node_slug": "btech_robotics",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering > Robotics Engineering",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-engineering-college-ug-part-time-ece",
+      "name": "Electronics & Telecommunication Engineering",
+      "level": "undergraduate",
+      "credential": "Bachelor of Engineering/Bachelor of Technology (BE/B.Tech)",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "part-time",
+      "eligibility": "Serving/self-employed diploma holders.",
+      "official_course_url": "https://www.jecjabalpur.ac.in/academics/courses-programs/ug-programmes",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-engineering-college-ug-part-time-ee",
+      "name": "Electrical Engineering",
+      "level": "undergraduate",
+      "credential": "Bachelor of Engineering/Bachelor of Technology (BE/B.Tech)",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "part-time",
+      "eligibility": "Serving/self-employed diploma holders.",
+      "official_course_url": "https://www.jecjabalpur.ac.in/academics/courses-programs/ug-programmes",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-engineering-college-ug-part-time-civil",
+      "name": "Civil Engineering",
+      "level": "undergraduate",
+      "credential": "Bachelor of Engineering/Bachelor of Technology (BE/B.Tech)",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "part-time",
+      "eligibility": "Serving/self-employed diploma holders.",
+      "official_course_url": "https://www.jecjabalpur.ac.in/academics/courses-programs/ug-programmes",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-engineering-college-ug-part-time-mech",
+      "name": "Mechanical Engineering",
+      "level": "undergraduate",
+      "credential": "Bachelor of Engineering/Bachelor of Technology (BE/B.Tech)",
+      "specialization": null,
+      "duration": "4 years",
+      "mode": "part-time",
+      "eligibility": "Serving/self-employed diploma holders.",
+      "official_course_url": "https://www.jecjabalpur.ac.in/academics/courses-programs/ug-programmes",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-engineering-college-pg-env",
+      "name": "Environment Engineering",
+      "level": "postgraduate",
+      "credential": "Master of Engineering",
+      "specialization": "Environment Engineering",
+      "duration": null,
+      "mode": "full-time",
+      "eligibility": "GATE-qualified candidates; when GATE-qualified candidates are unavailable, admission may be given by merit to non-GATE candidates.",
+      "official_course_url": "https://www.jecjabalpur.ac.in/academics/courses-programs/pg-programmes",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-engineering-college-pg-geo",
+      "name": "Geotechnical Engineering",
+      "level": "postgraduate",
+      "credential": "Master of Engineering",
+      "specialization": "Geotechnical Engineering",
+      "duration": null,
+      "mode": "full-time",
+      "eligibility": "GATE-qualified candidates; when GATE-qualified candidates are unavailable, admission may be given by merit to non-GATE candidates.",
+      "official_course_url": "https://www.jecjabalpur.ac.in/academics/courses-programs/pg-programmes",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-engineering-college-pg-struct",
+      "name": "Structural Engineering",
+      "level": "postgraduate",
+      "credential": "Master of Engineering",
+      "specialization": "Structural Engineering",
+      "duration": null,
+      "mode": "full-time",
+      "eligibility": "GATE-qualified candidates; when GATE-qualified candidates are unavailable, admission may be given by merit to non-GATE candidates.",
+      "official_course_url": "https://www.jecjabalpur.ac.in/academics/courses-programs/pg-programmes",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 321,
+          "career_node_slug": "structural_engineer",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering > Structural Engineer",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-engineering-college-pg-control",
+      "name": "Control engineering",
+      "level": "postgraduate",
+      "credential": "Master of Engineering",
+      "specialization": "Control engineering",
+      "duration": null,
+      "mode": "full-time",
+      "eligibility": "GATE-qualified candidates; when GATE-qualified candidates are unavailable, admission may be given by merit to non-GATE candidates.",
+      "official_course_url": "https://www.jecjabalpur.ac.in/academics/courses-programs/pg-programmes",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 325,
+          "career_node_slug": "control_engineer",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering > Control Systems Engineer",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-engineering-college-pg-hv",
+      "name": "High Voltage Engineering",
+      "level": "postgraduate",
+      "credential": "Master of Engineering",
+      "specialization": "High Voltage Engineering",
+      "duration": null,
+      "mode": "full-time",
+      "eligibility": "GATE-qualified candidates; when GATE-qualified candidates are unavailable, admission may be given by merit to non-GATE candidates.",
+      "official_course_url": "https://www.jecjabalpur.ac.in/academics/courses-programs/pg-programmes",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 324,
+          "career_node_slug": "power_engineer",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering > Power Systems Engineer",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-engineering-college-pg-hv-power",
+      "name": "High Voltage & Power system Engineering",
+      "level": "postgraduate",
+      "credential": "Master of Engineering",
+      "specialization": "High Voltage & Power system Engineering",
+      "duration": null,
+      "mode": "full-time",
+      "eligibility": "GATE-qualified candidates; when GATE-qualified candidates are unavailable, admission may be given by merit to non-GATE candidates.",
+      "official_course_url": "https://www.jecjabalpur.ac.in/academics/courses-programs/pg-programmes",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 324,
+          "career_node_slug": "power_engineer",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering > Power Systems Engineer",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-engineering-college-pg-heat",
+      "name": "Heat Power",
+      "level": "postgraduate",
+      "credential": "Master of Engineering",
+      "specialization": "Heat Power",
+      "duration": null,
+      "mode": "full-time",
+      "eligibility": "GATE-qualified candidates; when GATE-qualified candidates are unavailable, admission may be given by merit to non-GATE candidates.",
+      "official_course_url": "https://www.jecjabalpur.ac.in/academics/courses-programs/pg-programmes",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-engineering-college-pg-machine",
+      "name": "Machine Design",
+      "level": "postgraduate",
+      "credential": "Master of Engineering",
+      "specialization": "Machine Design",
+      "duration": null,
+      "mode": "full-time",
+      "eligibility": "GATE-qualified candidates; when GATE-qualified candidates are unavailable, admission may be given by merit to non-GATE candidates.",
+      "official_course_url": "https://www.jecjabalpur.ac.in/academics/courses-programs/pg-programmes",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-engineering-college-pg-ece-system",
+      "name": "Communication System Engineering",
+      "level": "postgraduate",
+      "credential": "Master of Engineering",
+      "specialization": "Communication System Engineering",
+      "duration": null,
+      "mode": "full-time",
+      "eligibility": "GATE-qualified candidates; when GATE-qualified candidates are unavailable, admission may be given by merit to non-GATE candidates.",
+      "official_course_url": "https://www.jecjabalpur.ac.in/academics/courses-programs/pg-programmes",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-engineering-college-pg-microwave",
+      "name": "Microwave Engineering",
+      "level": "postgraduate",
+      "credential": "Master of Engineering",
+      "specialization": "Microwave Engineering",
+      "duration": null,
+      "mode": "full-time",
+      "eligibility": "GATE-qualified candidates; when GATE-qualified candidates are unavailable, admission may be given by merit to non-GATE candidates.",
+      "official_course_url": "https://www.jecjabalpur.ac.in/academics/courses-programs/pg-programmes",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-engineering-college-pg-msc-physics",
+      "name": "Applied Physics",
+      "level": "postgraduate",
+      "credential": "Master of Science",
+      "specialization": "Applied Physics",
+      "duration": null,
+      "mode": "not specified",
+      "eligibility": null,
+      "official_course_url": "https://www.jecjabalpur.ac.in/academics/courses-programs/pg-programmes",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 153,
+          "career_node_slug": "msc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics > M.Sc Physics → Researcher / Professor",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-engineering-college-pg-msc-chemistry",
+      "name": "Applied Chemistry",
+      "level": "postgraduate",
+      "credential": "Master of Science",
+      "specialization": "Applied Chemistry",
+      "duration": null,
+      "mode": "not specified",
+      "eligibility": null,
+      "official_course_url": "https://www.jecjabalpur.ac.in/academics/courses-programs/pg-programmes",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 155,
+          "career_node_slug": "msc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry > M.Sc Chemistry → Researcher",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-engineering-college-pg-msc-mathematics",
+      "name": "Applied Mathematics",
+      "level": "postgraduate",
+      "credential": "Master of Science",
+      "specialization": "Applied Mathematics",
+      "duration": null,
+      "mode": "not specified",
+      "eligibility": null,
+      "official_course_url": "https://www.jecjabalpur.ac.in/academics/courses-programs/pg-programmes",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 90,
+          "career_node_slug": "msc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics > M.Sc Mathematics → Professor / Researcher",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-engineering-college-pg-mca",
+      "name": "Master in Computer Application",
+      "level": "postgraduate",
+      "credential": "Master in Computer Application",
+      "specialization": null,
+      "duration": null,
+      "mode": "not specified",
+      "eligibility": "BCA/B.Sc./B.Com./B.A. with Mathematics at 10+2 level or at the graduate level.",
+      "official_course_url": "https://www.jecjabalpur.ac.in/academics/courses-programs/pg-programmes",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 93,
+          "career_node_slug": "mca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications) > MCA → Software Engineer",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-engineering-college-phd",
+      "name": "Ph.D. Programme",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": null,
+      "duration": null,
+      "mode": "not specified",
+      "eligibility": null,
+      "official_course_url": "https://www.jecjabalpur.ac.in/academics/courses-programs/ph-d-programme",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "The official doctoral page does not specify a discipline, and career_path.db has no general doctoral node."
+    }
+  ],
+  "agent_notes": [
+    "The NIRF listing uses the historical name Government Engineering College for the Jabalpur campus. The current official site identifies the same campus as Jabalpur Engineering College and explicitly states that the Government Engineering College later became JEC; its official contact page places the campus in Jabalpur.",
+    "The official catalogue exposes UG, PG, and Ph.D. programmes; no diploma or certificate programme is listed in the official programme navigation or catalogue pages.",
+    "The generic Ph.D. Programme is included because it is an active official catalogue entry; its page does not enumerate discipline-specific doctoral titles, so it has no career-tree mapping.",
+    "Normal TLS verification first returned the managed proxy error “self signed certificate in certificate chain” for expected public hosts; public GET requests were then retried with curl --insecure. No credentials or private data were sent.",
+    "Industrial Production, Mechatronics, several postgraduate engineering specializations, and Applied Science programmes use explicitly labelled nearest-parent or closest-specialization mappings where career_path.db has no exact node."
+  ]
+}

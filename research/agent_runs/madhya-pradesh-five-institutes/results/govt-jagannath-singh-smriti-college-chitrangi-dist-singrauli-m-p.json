@@ -1,0 +1,75 @@
+{
+  "institution_id": "govt-jagannath-singh-smriti-college-chitrangi-dist-singrauli-m-p",
+  "nirf_name": "Govt Jagannath Singh Smriti College Chitrangi dist - singrauli (M.P.)",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "remove_candidate",
+  "district": null,
+  "district_verification_status": "not_found",
+  "official_website": null,
+  "website_verification_status": "not_found",
+  "description": null,
+  "description_verification_status": "not_found",
+  "record_status": "remove_candidate",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "The exact institution name appears in the India Rankings 2025 participating College list with city SINGRAULI and state Madhya Pradesh."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Govt Jagannath Singh Smriti College\" Chitrangi official",
+      "result": "Google returned an automated-traffic challenge; no institution-specific official website result was available.",
+      "url": "https://www.google.com/search?hl=en&num=10&q=%22Govt+Jagannath+Singh+Smriti+College%22+Chitrangi+official"
+    },
+    {
+      "query": "\"Jagannath Singh Smriti College\" Chitrangi Singrauli",
+      "result": "Google returned an automated-traffic challenge; no institution-specific official website result was available.",
+      "url": "https://www.google.com/search?hl=en&num=10&q=%22Jagannath+Singh+Smriti+College%22+Chitrangi+Singrauli"
+    },
+    {
+      "query": "site:mp.gov.in Chitrangi college Singrauli",
+      "result": "No institution-specific official college website was identified.",
+      "url": "https://www.google.com/search?hl=en&num=10&q=site%3Amp.gov.in+Chitrangi+college+Singrauli"
+    },
+    {
+      "query": "site:ac.in Chitrangi Singrauli college",
+      "result": "No institution-specific official .ac.in college website was identified.",
+      "url": "https://www.google.com/search?hl=en&num=10&q=site%3Aac.in+Chitrangi+Singrauli+college"
+    },
+    {
+      "query": "Govt College Chitrangi official",
+      "result": "Bing returned unrelated or general results and no institution-specific official website.",
+      "url": "https://www.bing.com/search?cc=IN&setlang=en&adlt=off&q=Govt+College+Chitrangi+official"
+    },
+    {
+      "query": "Govt College Chitrangi Singrauli",
+      "result": "Bing returned unrelated or general results and no institution-specific official website.",
+      "url": "https://www.bing.com/search?cc=IN&setlang=en&adlt=off&q=Govt+College+Chitrangi+Singrauli"
+    },
+    {
+      "query": "Madhya Pradesh Higher Education college profile portal for Govt College Chitrangi",
+      "result": "The official MP Higher Education college-profile portal was reachable, but it exposed no public institution-specific website or course catalogue for this campus.",
+      "url": "https://highereducation.mp.gov.in/ClgProfile"
+    },
+    {
+      "query": "MP ePravesh college admissions portal Chitrangi",
+      "result": "The official MP ePravesh portal was reachable, but it did not identify or link an institution-specific website for this campus.",
+      "url": "https://epravesh.highereducation.mp.gov.in/"
+    }
+  ],
+  "course_catalogue_status": "not_found",
+  "courses": [],
+  "agent_notes": [
+    "The exact government listing was established in the NIRF 2025 participating College directory.",
+    "Two focused exact-name searches, additional domain-filtered searches, and authoritative Madhya Pradesh Higher Education portal checks did not establish an institution-specific official website.",
+    "Normal TLS verification produced the exact managed-proxy self-signed certificate-chain error; public GET requests were retried with curl --insecure after confirming the expected public hosts.",
+    "No official programme catalogue was available, so no courses were imported."
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "institution_id": "government-college-bakswaha",
+  "nirf_name": "GOVERNMENT COLLEGE BAKSWAHA",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Chhatarpur",
+  "district_verification_status": "verified_official_website",
+  "official_website": null,
+  "website_verification_status": "not_found",
+  "description": null,
+  "description_verification_status": "not_found",
+  "record_status": "manual_review",
+  "allowed_official_domains": [
+    "highereducation.mp.gov.in"
+  ],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "The NIRF 2025 College Ranking listing contains GOVERNMENT COLLEGE BAKSWAHA with Chhatarpur, Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "official_state_higher_education_directory",
+      "url": "https://highereducation.mp.gov.in/?page=3ReniKuyIMmDd4opO%2FkIdA%3D%3D",
+      "supports": [
+        "The Madhya Pradesh Higher Education Department government-college directory includes the Bakswaha campus entry."
+      ]
+    },
+    {
+      "type": "official_state_higher_education_api",
+      "url": "https://highereducation.mp.gov.in/CollegeDisp/getTable",
+      "supports": [
+        "The official record identifies orgid 99, CollegeCode 0811, Govt College, Bakswaha, District Chhatarpur, and the government email hegcbuxchh@mp.gov.in."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Government College Bakswaha\" official website",
+      "result": "No usable dedicated institutional homepage was established.",
+      "url": "https://www.bing.com/search?q=%22Government+College+Bakswaha%22+official+website"
+    },
+    {
+      "query": "site:mp.gov.in \"Government College Bakswaha\"",
+      "result": "No dedicated campus website was established; the official Madhya Pradesh Higher Education Department directory was found.",
+      "url": "https://www.bing.com/search?q=site%3Amp.gov.in+%22Government+College+Bakswaha%22"
+    },
+    {
+      "query": "site:ac.in \"Government College Bakswaha\"",
+      "result": "No official .ac.in institutional website was established.",
+      "url": "https://www.bing.com/search?q=site%3Aac.in+%22Government+College+Bakswaha%22"
+    },
+    {
+      "query": "HTTPS checks for gcbakswaha.mp.gov.in, gcbuxchh.mp.gov.in, hegcbuxchh.mponline.gov.in, gcbakswaha.ac.in",
+      "result": "The focused candidate domains did not resolve and did not provide an institutional homepage.",
+      "url": null
+    }
+  ],
+  "course_catalogue_status": "not_found",
+  "courses": [],
+  "agent_notes": [
+    "The exact campus and district were independently confirmed through the NIRF listing and the official Madhya Pradesh Higher Education Department directory/API.",
+    "No institution-owned official homepage, admissions page, or course catalogue could be established. The government directory record does not expose a website URL, so no programme, duration, eligibility, description, or career mapping was imported.",
+    "The managed proxy returned a self-signed certificate-in-chain error during normal TLS verification for official domains; curl --insecure was then used only for public GET requests to the expected official domains.",
+    "The career_path.db database was queried read-only; no mappings were produced because no official course catalogue was available."
+  ]
+}

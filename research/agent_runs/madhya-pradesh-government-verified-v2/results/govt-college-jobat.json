@@ -1,0 +1,1009 @@
+{
+  "institution_id": "govt-college-jobat",
+  "nirf_name": "Govt. College, Jobat",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "verified",
+  "district": "Alirajpur",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://highereducation.mp.gov.in/?orgid=20",
+  "website_verification_status": "verified",
+  "description": "Government postgraduate college campus in Jobat, Alirajpur district, Madhya Pradesh; the official campus page states it was established in 1982 and offers undergraduate and postgraduate programmes.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "exact NIRF institution name",
+        "city Jobat",
+        "state Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "exact NIRF institution name",
+        "city Jobat",
+        "state Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "official_government_college_directory",
+      "url": "https://highereducation.mp.gov.in/?page=3ReniKuyIMmDd4opO%2FkIdA%3D%3D",
+      "supports": [
+        "Madhya Pradesh Higher Education directory entry for the Jobat campus",
+        "college selector entry for शा.कॉलेज, जोबत"
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://highereducation.mp.gov.in/?orgid=20",
+      "supports": [
+        "official college website",
+        "campus title GOVT POSTGRADUATE COLLEGE JOBAT, DIST. ALIRAJPUR (M.P.)",
+        "official homepage and campus imagery"
+      ]
+    },
+    {
+      "type": "official_identity",
+      "url": "https://highereducation.mp.gov.in/?page=KDb3fVh9EfzEqL2Rhd4dcQ%3D%3D&orgid=20",
+      "supports": [
+        "campus identity and district in the official page header",
+        "establishment year 1982",
+        "UG and PG presence"
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=NXsGR14SHGJKFSbXQRIQlg%3D%3D&orgid=20",
+      "supports": [
+        "complete regular PG, UG, and empty Diploma Programme catalogue",
+        "exact regular programme names",
+        "regular minimum qualifications"
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=%2FiW9VJ5OwVIT7R08zDY6LQ%3D%3D&orgid=20",
+      "supports": [
+        "complete distance PG, UG, and empty Diploma Distance Programme catalogue",
+        "exact distance programme names",
+        "distance minimum qualifications"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Govt. College, Jobat\" official website",
+      "result": "Search results were generic government and job pages and did not establish a dedicated institution domain; the official Madhya Pradesh Higher Education college directory was then checked.",
+      "url": "https://www.bing.com/search?format=rss&q=%22Govt.+College%2C+Jobat%22+official+website"
+    },
+    {
+      "query": "site:mp.gov.in Jobat college",
+      "result": "Search results did not establish the campus website; the authoritative Madhya Pradesh Higher Education portal was checked directly.",
+      "url": "https://www.bing.com/search?format=rss&q=site%3Amp.gov.in+Jobat+college"
+    }
+  ],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "govt-college-jobat-regular-pg-msc-botany",
+      "name": "M. Sc. (Botany)",
+      "level": "postgraduate",
+      "credential": "M. Sc.",
+      "specialization": "Botany",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=NXsGR14SHGJKFSbXQRIQlg%3D%3D&orgid=20",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "nearest available discipline: Biology / Biotech; no dedicated Botany node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-jobat-regular-pg-msc-chemistry",
+      "name": "M. Sc. (Chemistry)",
+      "level": "postgraduate",
+      "credential": "M. Sc.",
+      "specialization": "Chemistry",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=NXsGR14PII5kb8XmCm4opBA%3D%3D&orgid=20",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 155,
+          "career_node_slug": "msc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry > M.Sc Chemistry → Researcher",
+          "relation": "direct discipline and postgraduate pathway match",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-jobat-regular-pg-ma-history",
+      "name": "M. A. (History)",
+      "level": "postgraduate",
+      "credential": "M. A.",
+      "specialization": "History",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=NXsGR14SHGJKFSbXQRIQlg%3D%3D&orgid=20",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct discipline match; postgraduate level maps to the tree's History discipline leaf",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-jobat-regular-pg-ma-economics",
+      "name": "M. A. (Economics)",
+      "level": "postgraduate",
+      "credential": "M. A.",
+      "specialization": "Economics",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=NXsGR14SHGJKFSbXQRIQlg%3D%3D&orgid=20",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct discipline match; postgraduate level maps to the tree's Economics discipline leaf",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-jobat-regular-pg-ma-sociology",
+      "name": "M. A. (M.A. Sociology)",
+      "level": "postgraduate",
+      "credential": "M. A.",
+      "specialization": "M.A. Sociology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=NXsGR14SHGJKFSbXQRIQlg%3D%3D&orgid=20",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct discipline match; postgraduate level maps to the tree's Sociology discipline leaf",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-jobat-regular-pg-ma-political-science",
+      "name": "M. A. (Political Science)",
+      "level": "postgraduate",
+      "credential": "M. A.",
+      "specialization": "Political Science",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=NXsGR14SHGJKFSbXQRIQlg%3D%3D&orgid=20",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct discipline match; postgraduate level maps to the tree's Political Science discipline leaf",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-jobat-regular-ug-bsc-physics-chemistry-maths",
+      "name": "B. Sc. (B.Sc. PHYSICS-CHEMISTRY- MATHS)",
+      "level": "undergraduate",
+      "credential": "B. Sc.",
+      "specialization": "B.Sc. PHYSICS-CHEMISTRY- MATHS",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=NXsGR14SHGJKFSbXQRIQlg%3D%3D&orgid=20",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 24,
+          "career_node_slug": "bsc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics",
+          "relation": "direct discipline match",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "direct discipline match",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct discipline match",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-jobat-regular-ug-bsc-botany-chemistry-zoology",
+      "name": "B. Sc. (Botany - Chemistry - Zoology)",
+      "level": "undergraduate",
+      "credential": "B. Sc.",
+      "specialization": "Botany - Chemistry - Zoology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=NXsGR14SHGJKFSbXQRIQlg%3D%3D&orgid=20",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "nearest available biology discipline for Botany/Zoology; no separate Botany or Zoology node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "direct discipline match",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-jobat-regular-ug-bcom-commerce",
+      "name": "B. Com (Commerce)",
+      "level": "undergraduate",
+      "credential": "B. Com.",
+      "specialization": "Commerce",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=NXsGR14SHGJKFSbXQRIQlg%3D%3D&orgid=20",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct commerce degree match",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-jobat-regular-ug-ba-economics-history-political-science",
+      "name": "B. A. (Economics - History - Political Science)",
+      "level": "undergraduate",
+      "credential": "B. A.",
+      "specialization": "Economics - History - Political Science",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=NXsGR14SHGJKFSbXQRIQlg%3D%3D&orgid=20",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct discipline match",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct discipline match",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct discipline match",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-jobat-regular-ug-ba-economics-english-history",
+      "name": "B. A. (Economics - English - History)",
+      "level": "undergraduate",
+      "credential": "B. A.",
+      "specialization": "Economics - English - History",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=NXsGR14SHGJKFSbXQRIQlg%3D%3D&orgid=20",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct discipline match",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "direct discipline match",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct discipline match",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-jobat-regular-ug-ba-economics-history-sociology",
+      "name": "B. A. (Economics - History - Sociology)",
+      "level": "undergraduate",
+      "credential": "B. A.",
+      "specialization": "Economics - History - Sociology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=NXsGR14SHGJKFSbXQRIQlg%3D%3D&orgid=20",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct discipline match",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct discipline match",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct discipline match",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-jobat-regular-ug-ba-hindi-political-science-sociology",
+      "name": "B. A. (Hindi - Political Science - Sociology)",
+      "level": "undergraduate",
+      "credential": "B. A.",
+      "specialization": "Hindi - Political Science - Sociology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=NXsGR14SHGJKFSbXQRIQlg%3D%3D&orgid=20",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct discipline match",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct discipline match",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct discipline match",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-jobat-regular-ug-ba-economics-hindi-political-science",
+      "name": "B. A. (Economics - Hindi - Political Science)",
+      "level": "undergraduate",
+      "credential": "B. A.",
+      "specialization": "Economics - Hindi - Political Science",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=NXsGR14SHGJKFSbXQRIQlg%3D%3D&orgid=20",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct discipline match",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct discipline match",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct discipline match",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-jobat-regular-ug-ba-economics-hindi-history",
+      "name": "B. A. (Economics - Hindi - History)",
+      "level": "undergraduate",
+      "credential": "B. A.",
+      "specialization": "Economics - Hindi - History",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=NXsGR14SHGJKFSbXQRIQlg%3D%3D&orgid=20",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct discipline match",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct discipline match",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct discipline match",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-jobat-regular-ug-ba-economics-political-science-sociology",
+      "name": "B. A. (Economics - Political Science - Sociology)",
+      "level": "undergraduate",
+      "credential": "B. A.",
+      "specialization": "Economics - Political Science - Sociology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=NXsGR14SHGJKFSbXQRIQlg%3D%3D&orgid=20",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct discipline match",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct discipline match",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct discipline match",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-jobat-regular-ug-ba-hindi-history-political-science",
+      "name": "B. A. (Hindi - History - Political Science)",
+      "level": "undergraduate",
+      "credential": "B. A.",
+      "specialization": "Hindi - History - Political Science",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=NXsGR14SHGJKFSbXQRIQlg%3D%3D&orgid=20",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct discipline match",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct discipline match",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct discipline match",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-jobat-regular-ug-ba-history-political-science-sociology",
+      "name": "B. A. (History - Political Science - Sociology)",
+      "level": "undergraduate",
+      "credential": "B. A.",
+      "specialization": "History - Political Science - Sociology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=NXsGR14SHGJKFSbXQRIQlg%3D%3D&orgid=20",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct discipline match",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct discipline match",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct discipline match",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-jobat-regular-ug-ba-economics-english-political-science",
+      "name": "B. A. (Economics - English - Political Science)",
+      "level": "undergraduate",
+      "credential": "B. A.",
+      "specialization": "Economics - English - Political Science",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=NXsGR14SHGJKFSbXQRIQlg%3D%3D&orgid=20",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct discipline match",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "direct discipline match",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct discipline match",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-jobat-regular-ug-ba-computer-economics-history",
+      "name": "B. A. (Computer - Economics - History)",
+      "level": "undergraduate",
+      "credential": "B. A.",
+      "specialization": "Computer - Economics - History",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=NXsGR14SHGJKFSbXQRIQlg%3D%3D&orgid=20",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "nearest available computer-applications pathway for the Computer subject",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct discipline match",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct discipline match",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-jobat-regular-ug-bsc-computer-application-chemistry-zoology",
+      "name": "B. Sc. (Computer Application - Chemistry - Zoology)",
+      "level": "undergraduate",
+      "credential": "B. Sc.",
+      "specialization": "Computer Application - Chemistry - Zoology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=NXsGR14SHGJKFSbXQRIQlg%3D%3D&orgid=20",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "direct discipline match",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "direct discipline match",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "nearest available biology discipline for Zoology; no separate Zoology node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-jobat-distance-pg-msw-social-work",
+      "name": "M. S. W. (Social Work)",
+      "level": "postgraduate",
+      "credential": "M. S. W.",
+      "specialization": "Social Work",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": "Post-Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=%2FiW9VJ5OwVIT7R08zDY6LQ%3D%3D&orgid=20",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 269,
+          "career_node_slug": "social_worker",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology > Social Worker",
+          "relation": "direct career path: Social Work to Social Worker",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-jobat-distance-pg-ma-history",
+      "name": "M. A. (History)",
+      "level": "postgraduate",
+      "credential": "M. A.",
+      "specialization": "History",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": "Post-Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=%2FiW9VJ5OwVIT7R08zDY6LQ%3D%3D&orgid=20",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct discipline match; postgraduate level maps to the tree's History discipline leaf",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-jobat-distance-pg-ma-political-science",
+      "name": "M. A. (Political Science)",
+      "level": "postgraduate",
+      "credential": "M. A.",
+      "specialization": "Political Science",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": "Post-Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=%2FiW9VJ5OwVIT7R08zDY6LQ%3D%3D&orgid=20",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct discipline match; postgraduate level maps to the tree's Political Science discipline leaf",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-jobat-distance-pg-ma-economics",
+      "name": "M. A. (Economics)",
+      "level": "postgraduate",
+      "credential": "M. A.",
+      "specialization": "Economics",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": "Post-Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=%2FiW9VJ5OwVIT7R08zDY6LQ%3D%3D&orgid=20",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct discipline match; postgraduate level maps to the tree's Economics discipline leaf",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-jobat-distance-pg-ma-hindi",
+      "name": "M. A. (Hindi)",
+      "level": "postgraduate",
+      "credential": "M. A.",
+      "specialization": "Hindi",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": "Post-Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=%2FiW9VJ5OwVIT7R08zDY6LQ%3D%3D&orgid=20",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct discipline match; postgraduate level maps to the tree's Hindi / Regional Language discipline leaf",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-jobat-distance-ug-ba-economics-hindi-sociology",
+      "name": "B. A. (Economics - Hindi - Sociology)",
+      "level": "undergraduate",
+      "credential": "B. A.",
+      "specialization": "Economics - Hindi - Sociology",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=%2FiW9VJ5OwVIT7R08zDY6LQ%3D%3D&orgid=20",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct discipline match",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct discipline match",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct discipline match",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-jobat-distance-ug-bsc-botany-chemistry-zoology",
+      "name": "B. Sc. (Botany - Chemistry - Zoology)",
+      "level": "undergraduate",
+      "credential": "B. Sc.",
+      "specialization": "Botany - Chemistry - Zoology",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=%2FiW9VJ5OwVIT7R08zDY6LQ%3D%3D&orgid=20",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "nearest available biology discipline for Botany/Zoology; no separate Botany or Zoology node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "direct discipline match",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-jobat-distance-ug-bsw-social-work",
+      "name": "B. S.W. (Social Work)",
+      "level": "undergraduate",
+      "credential": "B. S.W.",
+      "specialization": "Social Work",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=%2FiW9VJ5OwVIT7R08zDY6LQ%3D%3D&orgid=20",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 269,
+          "career_node_slug": "social_worker",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology > Social Worker",
+          "relation": "direct career path: Social Work to Social Worker",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "NIRF College and Overall 2025 listings both contain the exact institution name with city Jobat and state Madhya Pradesh.",
+    "The official Madhya Pradesh Higher Education directory identifies the corresponding campus as Govt Collge, Jobat, district Alirajpur, with orgid 20; its dedicated official campus site uses the title GOVT POSTGRADUATE COLLEGE JOBAT, DIST. ALIRAJPUR (M.P.).",
+    "The official catalogue lists regular PG and UG programmes plus distance PG and UG programmes. The regular Diploma Programme and Diploma Distance Programme tables are present but empty; no certificate or doctoral programme is listed.",
+    "Normal TLS verification failed with the managed proxy's self-signed certificate-chain error for the expected public host, so public GET requests to the expected official and government hosts used curl --insecure."
+  ]
+}

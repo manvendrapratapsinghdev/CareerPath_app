@@ -1,0 +1,534 @@
+{
+  "institution_id": "c-c-r-d-college-muzaffarnagar-mob-no-9412637436-0131-2621744",
+  "nirf_name": "C.C.R.D. College, Muzaffarnagar Mob.No.9412637436 0131-2621744",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "verified",
+  "district": "Muzaffarnagar",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://ccrpgcollege.org/",
+  "website_verification_status": "verified",
+  "description": "Ch. Chhotu Ram (P.G.) College, Muzaffarnagar, established in 1959, is a 5.4-acre campus on Circular Road affiliated with Maa Shakumbhari University, Saharanpur, offering agriculture, science and commerce education.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Lists the exact assigned institution name in Muzaffarnagar, Uttar Pradesh."
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://ccrpgcollege.org/",
+      "supports": [
+        "Official college homepage identifies the Muzaffarnagar campus and shows current admission notices."
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "https://ccrpgcollege.org/contact.php",
+      "supports": [
+        "Gives the college address as Circular Road, Muzaffarnagar-251001 and phone 0131-2621744."
+      ]
+    },
+    {
+      "type": "official_description",
+      "url": "https://ccrpgcollege.org/About%20College.php",
+      "supports": [
+        "States establishment in 1959, campus details, affiliation with Maa Shakumbhari University, Saharanpur, and agriculture, science and commerce faculties."
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://ccrpgcollege.org/Our%20Course.php",
+      "supports": [
+        "Lists the current Agriculture, Science and Commerce undergraduate, postgraduate and doctoral programmes with official programme names and available durations."
+      ]
+    },
+    {
+      "type": "official_admissions",
+      "url": "https://ccrpgcollege.org/Admission.php",
+      "supports": [
+        "States the university-controlled admissions process and required admission documents; no programme-specific eligibility was imported."
+      ]
+    },
+    {
+      "type": "official_current_identity",
+      "url": "https://ccrpgcollege.org/MyAdmin/upload/93187743.pdf",
+      "supports": [
+        "Current 2026-27 official merit sheet names College Code 407 as C.C.R.D. College, Muzaffarnagar and shows B.Com admission activity."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"C.C.R.D. College\" Muzaffarnagar official",
+      "result": "Discovery search returned the ccrpgcollege.org domain alongside non-official directory results; the official domain was independently fetched and verified.",
+      "url": "https://ccrpgcollege.org/"
+    },
+    {
+      "query": "\"C.C.R.D. College, Muzaffarnagar\" website",
+      "result": "Discovery search returned ccrpgcollege.org and non-official listings; direct official pages were then checked.",
+      "url": "https://ccrpgcollege.org/"
+    },
+    {
+      "query": "\"C.C.R.D. College\" \"9412637436\"",
+      "result": "Exact-phone search returned non-official directory entries; official identity was confirmed from the direct official-domain pages and current official merit sheet.",
+      "url": null
+    },
+    {
+      "query": "site:ccrpgcollege.org \"C.C.R.D.\"",
+      "result": "Official-domain merit-list PDFs were discovered; the direct 2026 B.Com PDF confirms the exact C.C.R.D. College, Muzaffarnagar identity.",
+      "url": "https://ccrpgcollege.org/MyAdmin/upload/93187743.pdf"
+    }
+  ],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "c-c-r-d-college-muzaffarnagar-mob-no-9412637436-0131-2621744-ccrd-bsc-ag-hons",
+      "name": "B.Sc.Ag (Hons)",
+      "level": "undergraduate",
+      "credential": "B.Sc.Ag (Hons)",
+      "specialization": "Agriculture",
+      "duration": "4 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://ccrpgcollege.org/Our%20Course.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "c-c-r-d-college-muzaffarnagar-mob-no-9412637436-0131-2621744-ccrd-msc-agril-chemistry",
+      "name": "M.Sc. in Agril. Chemistry",
+      "level": "postgraduate",
+      "credential": "M.Sc.",
+      "specialization": "Agril. Chemistry",
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://ccrpgcollege.org/Our%20Course.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 165,
+          "career_node_slug": "agri_scientist",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture > Agricultural Scientist",
+          "relation": "closest_specialization (Agril. Chemistry -> Agricultural Scientist)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "c-c-r-d-college-muzaffarnagar-mob-no-9412637436-0131-2621744-ccrd-msc-horticulture",
+      "name": "M.Sc. in Horticulture",
+      "level": "postgraduate",
+      "credential": "M.Sc.",
+      "specialization": "Horticulture",
+      "duration": "2 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://ccrpgcollege.org/Our%20Course.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 165,
+          "career_node_slug": "agri_scientist",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture > Agricultural Scientist",
+          "relation": "closest_specialization (Horticulture -> Agricultural Scientist)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "c-c-r-d-college-muzaffarnagar-mob-no-9412637436-0131-2621744-ccrd-msc-agronomy",
+      "name": "M.Sc. in Agronomy ( Self- finance)",
+      "level": "postgraduate",
+      "credential": "M.Sc.",
+      "specialization": "Agronomy",
+      "duration": "2 years",
+      "mode": "self_finance",
+      "eligibility": null,
+      "official_course_url": "https://ccrpgcollege.org/Our%20Course.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 165,
+          "career_node_slug": "agri_scientist",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture > Agricultural Scientist",
+          "relation": "closest_specialization (Agronomy -> Agricultural Scientist)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "c-c-r-d-college-muzaffarnagar-mob-no-9412637436-0131-2621744-ccrd-phd-agricultural-chemistry",
+      "name": "Ph. D in Agricultural Chemistry",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Agricultural Chemistry",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://ccrpgcollege.org/Our%20Course.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 165,
+          "career_node_slug": "agri_scientist",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture > Agricultural Scientist",
+          "relation": "closest_specialization (Agricultural Chemistry -> Agricultural Scientist)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "c-c-r-d-college-muzaffarnagar-mob-no-9412637436-0131-2621744-ccrd-phd-horticulture",
+      "name": "Ph. D in Horticulture",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Horticulture",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://ccrpgcollege.org/Our%20Course.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 165,
+          "career_node_slug": "agri_scientist",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture > Agricultural Scientist",
+          "relation": "closest_specialization (Horticulture -> Agricultural Scientist)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "c-c-r-d-college-muzaffarnagar-mob-no-9412637436-0131-2621744-ccrd-phd-agronomy",
+      "name": "Ph. D in Agronomy",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Agronomy",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://ccrpgcollege.org/Our%20Course.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 165,
+          "career_node_slug": "agri_scientist",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture > Agricultural Scientist",
+          "relation": "closest_specialization (Agronomy -> Agricultural Scientist)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "c-c-r-d-college-muzaffarnagar-mob-no-9412637436-0131-2621744-ccrd-phd-agri-economics",
+      "name": "Ph. D in Agri. Economics",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Agri. Economics",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://ccrpgcollege.org/Our%20Course.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 272,
+          "career_node_slug": "economist",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics > Economist",
+          "relation": "closest_specialization (Agri. Economics -> Economics)",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "c-c-r-d-college-muzaffarnagar-mob-no-9412637436-0131-2621744-ccrd-phd-agril-extension",
+      "name": "Ph.D. in Agril. Extension",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Agril. Extension",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://ccrpgcollege.org/Our%20Course.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 165,
+          "career_node_slug": "agri_scientist",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture > Agricultural Scientist",
+          "relation": "closest_specialization (Agril. Extension -> Agricultural Scientist)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "c-c-r-d-college-muzaffarnagar-mob-no-9412637436-0131-2621744-ccrd-phd-agril-botany",
+      "name": "Ph.D. in Agril. Botany",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Agril. Botany",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://ccrpgcollege.org/Our%20Course.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 165,
+          "career_node_slug": "agri_scientist",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture > Agricultural Scientist",
+          "relation": "closest_specialization (Agril. Botany -> Agricultural Scientist)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "c-c-r-d-college-muzaffarnagar-mob-no-9412637436-0131-2621744-ccrd-phd-entomology",
+      "name": "Ph.D. in Entomology",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Entomology",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://ccrpgcollege.org/Our%20Course.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 165,
+          "career_node_slug": "agri_scientist",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture > Agricultural Scientist",
+          "relation": "closest_specialization (Entomology -> Agricultural Scientist)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "c-c-r-d-college-muzaffarnagar-mob-no-9412637436-0131-2621744-ccrd-phd-plant-pathology",
+      "name": "Ph.D. in Plant Pathology",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Plant Pathology",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://ccrpgcollege.org/Our%20Course.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 165,
+          "career_node_slug": "agri_scientist",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture > Agricultural Scientist",
+          "relation": "closest_specialization (Plant Pathology -> Agricultural Scientist)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "c-c-r-d-college-muzaffarnagar-mob-no-9412637436-0131-2621744-ccrd-bsc-biology",
+      "name": "B.Sc. Biology",
+      "level": "undergraduate",
+      "credential": "B.Sc.",
+      "specialization": "Biology",
+      "duration": "3 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://ccrpgcollege.org/Our%20Course.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "c-c-r-d-college-muzaffarnagar-mob-no-9412637436-0131-2621744-ccrd-bsc-maths",
+      "name": "B.Sc. Maths",
+      "level": "undergraduate",
+      "credential": "B.Sc.",
+      "specialization": "Maths",
+      "duration": "3 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://ccrpgcollege.org/Our%20Course.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "c-c-r-d-college-muzaffarnagar-mob-no-9412637436-0131-2621744-ccrd-msc-botany",
+      "name": "M.Sc. Botany ( Self-finance Programme )",
+      "level": "postgraduate",
+      "credential": "M.Sc.",
+      "specialization": "Botany",
+      "duration": "2 years",
+      "mode": "self_finance",
+      "eligibility": null,
+      "official_course_url": "https://ccrpgcollege.org/Our%20Course.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 147,
+          "career_node_slug": "research_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech > Research Scientist (Biology)",
+          "relation": "closest_specialization (Botany -> Biology research)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "c-c-r-d-college-muzaffarnagar-mob-no-9412637436-0131-2621744-ccrd-msc-chemistry",
+      "name": "M.Sc. Chemistry ( Self-finance Programme )",
+      "level": "postgraduate",
+      "credential": "M.Sc.",
+      "specialization": "Chemistry",
+      "duration": "2 years",
+      "mode": "self_finance",
+      "eligibility": null,
+      "official_course_url": "https://ccrpgcollege.org/Our%20Course.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 155,
+          "career_node_slug": "msc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry > M.Sc Chemistry → Researcher",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "c-c-r-d-college-muzaffarnagar-mob-no-9412637436-0131-2621744-ccrd-phd-botany",
+      "name": "Ph.D in Botany",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Botany",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://ccrpgcollege.org/Our%20Course.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 147,
+          "career_node_slug": "research_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech > Research Scientist (Biology)",
+          "relation": "closest_specialization (Botany -> Biology research)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "c-c-r-d-college-muzaffarnagar-mob-no-9412637436-0131-2621744-ccrd-phd-chemistry",
+      "name": "Ph.D Chemistry",
+      "level": "doctoral",
+      "credential": "Ph.D.",
+      "specialization": "Chemistry",
+      "duration": null,
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://ccrpgcollege.org/Our%20Course.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 155,
+          "career_node_slug": "msc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry > M.Sc Chemistry → Researcher",
+          "relation": "closest_specialization (Ph.D Chemistry -> Chemistry research)",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "c-c-r-d-college-muzaffarnagar-mob-no-9412637436-0131-2621744-ccrd-bcom",
+      "name": "B.Com",
+      "level": "undergraduate",
+      "credential": "B.Com",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "not_stated",
+      "eligibility": null,
+      "official_course_url": "https://ccrpgcollege.org/Our%20Course.php",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "Normal TLS verification failed with the exact local self-signed certificate-in-chain proxy error; public GETs for the expected official domains used curl --insecure as the permitted fallback.",
+    "The NIRF name uses C.C.R.D. College while the current website branding is Ch. Chhotu Ram (P.G.) College; the identity was reconciled using the official contact address and phone 0131-2621744 plus the official 2026-27 merit PDF naming C.C.R.D. College, Muzaffarnagar, College Code 407.",
+    "The official central Our Courses page lists 19 programmes across Agriculture, Science and Commerce. Doctoral rows show dashes rather than a duration, so doctoral duration and all programme-specific eligibility fields remain null."
+  ]
+}

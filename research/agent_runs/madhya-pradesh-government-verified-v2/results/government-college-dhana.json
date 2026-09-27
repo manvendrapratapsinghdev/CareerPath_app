@@ -1,0 +1,99 @@
+{
+  "institution_id": "government-college-dhana",
+  "nirf_name": "Government College Dhana",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Sagar",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://highereducation.mp.gov.in/?orgid=364",
+  "website_verification_status": "verified",
+  "description": "Government College Dhana is a government college campus in Dhana, Sagar district, Madhya Pradesh, presented on the Madhya Pradesh Higher Education Department portal.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Lists Government College Dhana in Sagar, Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Lists Government College Dhana in Sagar, Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://highereducation.mp.gov.in/?orgid=364",
+      "supports": [
+        "Official Madhya Pradesh Higher Education Department microsite identifies शासकीय महाविद्यालय ढाना and Govt. College Dhana."
+      ]
+    },
+    {
+      "type": "official_district_identity",
+      "url": "https://highereducation.mp.gov.in/CollegeDisp/getTable",
+      "supports": [
+        "Official department data maps orgid 364 to Govt College, Dhana, District Sagar, CollegeCode 1012."
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=bpaXaT7YhJ80UfJCmZgGuA%3D%3D&orgid=364",
+      "supports": [
+        "Official Regular Courses page is present, but PG, UG, and Diploma tables contain no programme rows."
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=ZkQGWGsl6NLplcXWBJDnFA%3D%3D&orgid=364",
+      "supports": [
+        "Official Distance Education Courses page is present, but PG, UG, and Diploma tables contain no programme rows."
+      ]
+    },
+    {
+      "type": "official_prospectus",
+      "url": "https://highereducation.mp.gov.in/?page=R7iJWBxVaSMa14OD0%2FwiIQ%3D%3D&orgid=364",
+      "supports": [
+        "Official Prospectus page is under construction."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Government College Dhana\" official website",
+      "result": "No relevant official institution page surfaced in focused command-line search; the official Madhya Pradesh Higher Education directory was used to locate the orgid=364 microsite.",
+      "url": "https://highereducation.mp.gov.in/?page=3ReniKuyIMmDd4opO%2FkIdA%3D%3D"
+    },
+    {
+      "query": "\"Government College Dhana\" Sagar Madhya Pradesh",
+      "result": "No relevant official institution page surfaced in focused command-line search; the official department directory confirmed the Dhana college entry in Sagar.",
+      "url": "https://highereducation.mp.gov.in/CollegeDisp/getTable"
+    },
+    {
+      "query": "site:mp.gov.in \"Government College Dhana\"",
+      "result": "No directly indexed official college page surfaced; the official Madhya Pradesh Higher Education portal provided the institution microsite.",
+      "url": "https://highereducation.mp.gov.in/?orgid=364"
+    },
+    {
+      "query": "site:gov.in \"Government College Dhana\"",
+      "result": "No directly indexed official college page surfaced; the official Madhya Pradesh Higher Education portal provided the institution microsite.",
+      "url": "https://highereducation.mp.gov.in/?orgid=364"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [],
+  "agent_notes": [
+    "Government listing was independently confirmed in both supplied NIRF 2025 College and Overall listings.",
+    "The official orgid=364 microsite identifies Government College Dhana; official department data maps it to Sagar district and CollegeCode 1012.",
+    "The Regular Courses and Distance Education Courses pages expose PG, UG, and Diploma sections but contain no programme rows. The Prospectus and New Course Started pages are under construction, so the official catalogue is incomplete and no course was imported.",
+    "Duration and eligibility were left null because no current official programme entries verify them. The career tree database was queried read-only; no mapping was created because no official programme name was available.",
+    "Normal TLS verification produced the exact managed proxy self-signed certificate-chain error. Public GET requests were retried with curl --insecure only for the expected official/search hostnames."
+  ]
+}

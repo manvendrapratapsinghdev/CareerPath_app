@@ -1,0 +1,385 @@
+{
+  "institution_id": "govt-college-kasrawad",
+  "nirf_name": "Govt. College, Kasrawad",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "verified",
+  "district": "Khargone",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://highereducation.mp.gov.in/?orgid=258",
+  "website_verification_status": "verified",
+  "description": "A government college campus of the Madhya Pradesh Higher Education Department in Kasrawad, Khargone district.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_discovery_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact Govt. College, Kasrawad row with city kasrawad and state Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "official_college_homepage",
+      "url": "https://highereducation.mp.gov.in/?orgid=258",
+      "supports": [
+        "Campus-branded official homepage identifies शासकीय महाविद्यालय कसरावद and Madhya Pradesh Government."
+      ]
+    },
+    {
+      "type": "official_college_directory",
+      "url": "https://highereducation.mp.gov.in/CollegeDisp/getTable",
+      "supports": [
+        "Official directory identifies Govt College, Kasrawad in Khargone district."
+      ]
+    },
+    {
+      "type": "official_campus_profile",
+      "url": "https://highereducation.mp.gov.in/?page=gmRA4eU8360ZQscS2H24gA%3D%3D&orgid=258",
+      "supports": [
+        "Official At A Glance profile for the Kasrawad campus."
+      ]
+    },
+    {
+      "type": "official_programme_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=5wGYTluMx%2Fop%2F2aBI9r%2Fkg%3D%3D&orgid=258",
+      "supports": [
+        "Official Programmes Offered page lists six regular UG programmes and their minimum qualification."
+      ]
+    },
+    {
+      "type": "official_distance_programme_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=VHud%2Fh0A9DlG6TFoh5UGZQ%3D%3D&orgid=258",
+      "supports": [
+        "Official Distance Education Programme page lists one PG and one UG distance programme with minimum qualification."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "Govt. College Kasrawad Madhya Pradesh official website",
+      "result": "No reliable separate campus domain was established by the focused search; the official Madhya Pradesh Higher Education college directory was checked directly.",
+      "url": null
+    },
+    {
+      "query": "site:mp.gov.in \"Govt. College, Kasrawad\"",
+      "result": "No reliable separate campus domain was established by the focused search; the official department portal resolved the exact campus to orgid 258.",
+      "url": null
+    },
+    {
+      "query": "\"Govt. College, Kasrawad\"",
+      "result": "Exact-name search did not provide a reliable separate campus domain; the official campus-branded portal was verified directly.",
+      "url": null
+    }
+  ],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "govt-college-kasrawad-ba-english-hindi-political-science-regular",
+      "name": "B. A. (English - Hindi - Political Science)",
+      "level": "UG",
+      "credential": "bachelor_degree",
+      "specialization": "English - Hindi - Political Science",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=5wGYTluMx%2Fop%2F2aBI9r%2Fkg%3D%3D&orgid=258",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-kasrawad-ba-economics-hindi-sociology-regular",
+      "name": "B. A. (Economics - Hindi - Sociology)",
+      "level": "UG",
+      "credential": "bachelor_degree",
+      "specialization": "Economics - Hindi - Sociology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=5wGYTluMx%2Fop%2F2aBI9r%2Fkg%3D%3D&orgid=258",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-kasrawad-ba-hindi-history-political-science-regular",
+      "name": "B. A. (Hindi - History - Political Science)",
+      "level": "UG",
+      "credential": "bachelor_degree",
+      "specialization": "Hindi - History - Political Science",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=5wGYTluMx%2Fop%2F2aBI9r%2Fkg%3D%3D&orgid=258",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-kasrawad-ba-hindi-political-science-sociology-regular",
+      "name": "B. A. (Hindi - Political Science - Sociology)",
+      "level": "UG",
+      "credential": "bachelor_degree",
+      "specialization": "Hindi - Political Science - Sociology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=5wGYTluMx%2Fop%2F2aBI9r%2Fkg%3D%3D&orgid=258",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-kasrawad-ba-economics-english-political-science-regular",
+      "name": "B. A. (Economics - English - Political Science)",
+      "level": "UG",
+      "credential": "bachelor_degree",
+      "specialization": "Economics - English - Political Science",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=5wGYTluMx%2Fop%2F2aBI9r%2Fkg%3D%3D&orgid=258",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-kasrawad-ba-history-political-science-sociology-regular",
+      "name": "B. A. (History - Political Science - Sociology)",
+      "level": "UG",
+      "credential": "bachelor_degree",
+      "specialization": "History - Political Science - Sociology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "10+2",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=5wGYTluMx%2Fop%2F2aBI9r%2Fkg%3D%3D&orgid=258",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-kasrawad-ma-economics-distance",
+      "name": "M. A. (Economics)",
+      "level": "PG",
+      "credential": "master_degree",
+      "specialization": "Economics",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": "Post-Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=VHud%2Fh0A9DlG6TFoh5UGZQ%3D%3D&orgid=258",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-college-kasrawad-ba-economics-english-hindi-distance",
+      "name": "B. A. (Economics - English - Hindi)",
+      "level": "UG",
+      "credential": "bachelor_degree",
+      "specialization": "Economics - English - Hindi",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=VHud%2Fh0A9DlG6TFoh5UGZQ%3D%3D&orgid=258",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The exact NIRF 2025 listing row was verified for Govt. College, Kasrawad, city kasrawad, Madhya Pradesh.",
+    "The official Madhya Pradesh Higher Education Department directory identifies the exact campus as orgid 258, CollegeCode 2413, and district Khargone; the campus homepage uses the name शासकीय महाविद्यालय कसरावद.",
+    "The official Programmes Offered page lists six regular UG programmes. Its PG and Diploma sections are present but contain no programme rows; the official Distance Education Programme page lists one PG and one UG programme and no diploma rows.",
+    "The official Admission and Prospectus pages contain no additional current programme names. Duration is not stated on the official catalogue pages and is therefore null for every course.",
+    "The catalogue pages show a footer last update of 01 July 2023; the campus portal itself is official and campus-branded, with no separate institution domain required.",
+    "Normal TLS verification first returned the managed proxy error self signed certificate in certificate chain; curl --insecure was used only for subsequent public GET requests to the expected official NIRF and Madhya Pradesh Higher Education hosts.",
+    "M.A. Economics is mapped with medium confidence to the nearest available Economics node because the career tree has no exact M.A. Economics node."
+  ]
+}

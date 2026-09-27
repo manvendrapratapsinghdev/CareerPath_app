@@ -1,0 +1,141 @@
+{
+  "institution_id": "govt-girls-college-karauli",
+  "nirf_name": "Govt. Girls College, Karauli",
+  "verification_outcome": "manual_review",
+  "district": "Karauli",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://hte.rajasthan.gov.in/19502",
+  "website_verification_status": "verified",
+  "description": "Government Girls College Karauli is a Rajasthan government women's college established in 1998, located near Circuit House in Karauli, affiliated with the University of Kota, and offering undergraduate B.A. and Bsc. courses.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "official_homepage",
+      "url": "https://hte.rajasthan.gov.in/19502",
+      "supports": [
+        "official identity",
+        "campus address",
+        "affiliation",
+        "institution description",
+        "B.A. and Bsc. programme family"
+      ]
+    },
+    {
+      "type": "official_district_college_listing",
+      "url": "https://hte.rajasthan.gov.in/10616?docCatetype=9&docCategory=2",
+      "supports": [
+        "exact college name",
+        "Karauli district",
+        "Near circuit house, Karauli",
+        "1998 establishment year",
+        "Girls / UG classification",
+        "official portal link"
+      ]
+    },
+    {
+      "type": "official_introduction",
+      "url": "https://hte.rajasthan.gov.in/23637",
+      "supports": [
+        "institution identity",
+        "established 1998",
+        "Karauli district",
+        "University of Kota affiliation",
+        "B.A. and Bsc. undergraduate programme family"
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://hte.rajasthan.gov.in/19592",
+      "supports": [
+        "official Course page exists but contains no programme entries"
+      ]
+    },
+    {
+      "type": "official_admission_page",
+      "url": "https://hte.rajasthan.gov.in/19591",
+      "supports": [
+        "official Admission List page exists but contains no programme details"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Govt. Girls College, Karauli\" official website",
+      "result": "Google returned an automated-traffic CAPTCHA page; no institution result was used as evidence.",
+      "url": "https://www.google.com/search?q=%22Govt.+Girls+College%2C+Karauli%22+official+website"
+    },
+    {
+      "query": "\"Govt. Girls College, Karauli\" official website",
+      "result": "Bing RSS returned unrelated government and job-search pages and no institution result.",
+      "url": "https://www.bing.com/search?format=rss&q=%22Govt.%20Girls%20College%2C%20Karauli%22"
+    },
+    {
+      "query": "\"Government Girls College\" Karauli Rajasthan",
+      "result": "Bing RSS returned no results for this focused query.",
+      "url": "https://www.bing.com/search?format=rss&q=%22Government%20Girls%20College%22%20Karauli%20Rajasthan"
+    },
+    {
+      "query": "site:rajasthan.gov.in Karauli girls college",
+      "result": "Bing RSS returned no college result; the official HTE Government Colleges listing was then checked directly and identified the exact institution and portal.",
+      "url": "https://www.bing.com/search?format=rss&q=site%3Arajasthan.gov.in%20Karauli%20girls%20college"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "govt-girls-college-karauli-ba",
+      "name": "B.A.",
+      "level": "UG",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "Not stated on official website",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/23637",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent for a general B.A. programme; discipline not specified by the official site",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "govt-girls-college-karauli-bsc",
+      "name": "Bsc.",
+      "level": "UG",
+      "credential": "Bachelor's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "Not stated on official website",
+      "eligibility": null,
+      "official_course_url": "https://hte.rajasthan.gov.in/23637",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 337,
+          "career_node_slug": "science_common",
+          "career_breadcrumb": "Common Paths",
+          "relation": "nearest-parent for a general Bsc. programme; discipline not specified by the official site",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The exact campus is identified by the official Rajasthan Higher and Technical Education Government Colleges listing as Govt.Girls College Karauli, Rajasthan (Affiliated to University of Kota, Kota), near Circuit House, Karauli; the listing classifies it as Girls / UG and links to portal /19502.",
+    "The official college homepage and Introduction page explicitly state that the college offers B.A. and Bsc. courses with various combinations at UG level. The official Course page /19592 is present but has no programme entries, so the catalogue is incomplete and requires manual review.",
+    "The managed proxy produced the exact curl self-signed-certificate-chain error on initial normal-TLS search requests; public GET requests then used curl --insecure after confirming the expected search and official hostnames.",
+    "No duration or eligibility was populated because the official pages reviewed do not explicitly verify them. The official site also does not state a course mode, so mode is recorded as not stated.",
+    "Career mappings were checked read-only against assets/data/career_path.db; general B.A. and Bsc. programmes were mapped to nearest parent nodes because no discipline/specialization is stated."
+  ]
+}

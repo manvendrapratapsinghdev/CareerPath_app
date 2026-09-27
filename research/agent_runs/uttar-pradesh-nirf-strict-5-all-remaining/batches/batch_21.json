@@ -1,0 +1,62 @@
+{
+  "batch": 21,
+  "started_at": "2026-09-27T14:50:46.357819+00:00",
+  "finished_at": "2026-09-27T14:57:26.385120+00:00",
+  "assignment_count": 5,
+  "completed_count": 3,
+  "skipped_count": 2,
+  "failed_count": 0,
+  "results": [
+    {
+      "institution_id": "aryakul-college-of-education",
+      "nirf_name": "ARYAKUL COLLEGE OF EDUCATION",
+      "status": "completed",
+      "started_at": "2026-09-27T14:50:46.360732+00:00",
+      "finished_at": "2026-09-27T14:57:26.382794+00:00",
+      "duration_seconds": 400.01,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/aryakul-college-of-education.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/logs/aryakul-college-of-education.jsonl"
+    },
+    {
+      "institution_id": "aryakul-college-of-management",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/aryakul-college-of-management.json",
+      "finished_at": "2026-09-27T14:50:46.371013+00:00"
+    },
+    {
+      "institution_id": "aryakul-college-of-pharmacy-and-research",
+      "nirf_name": "ARYAKUL COLLEGE OF PHARMACY AND RESEARCH",
+      "status": "completed",
+      "started_at": "2026-09-27T14:50:46.361983+00:00",
+      "finished_at": "2026-09-27T14:56:27.352237+00:00",
+      "duration_seconds": 340.974,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/aryakul-college-of-pharmacy-and-research.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/logs/aryakul-college-of-pharmacy-and-research.jsonl"
+    },
+    {
+      "institution_id": "avadh-girls-degree-college",
+      "nirf_name": "AVADH GIRLS DEGREE COLLEGE",
+      "status": "completed",
+      "started_at": "2026-09-27T14:50:46.363221+00:00",
+      "finished_at": "2026-09-27T14:54:25.809924+00:00",
+      "duration_seconds": 219.433,
+      "return_code": 0,
+      "timed_out": false,
+      "errors": [],
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/avadh-girls-degree-college.json",
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/logs/avadh-girls-degree-college.jsonl"
+    },
+    {
+      "institution_id": "b-n-college-of-engineering-and-technology-lucknow",
+      "status": "skipped_valid_existing_result",
+      "result_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/uttar-pradesh-nirf-strict-5-all-remaining/results/b-n-college-of-engineering-and-technology-lucknow.json",
+      "finished_at": "2026-09-27T14:50:46.371688+00:00"
+    }
+  ]
+}

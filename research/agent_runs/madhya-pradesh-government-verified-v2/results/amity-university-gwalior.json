@@ -1,0 +1,2454 @@
+{
+  "institution_id": "amity-university-gwalior",
+  "nirf_name": "Amity University, Gwalior",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/EngineeringRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/LawRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "verified",
+  "district": "Gwalior",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://www.amity.edu/gwalior/",
+  "website_verification_status": "verified",
+  "description": "Amity University Madhya Pradesh (AUMP) is a private university established at Gwalior under Madhya Pradesh law. Its 102-acre campus is opposite Gwalior Airport and offers professional, industry-oriented programmes across areas including engineering, management, architecture, biotechnology, law, journalism and mass communication, psychology, and fashion.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/EngineeringRankingALL.html",
+      "supports": [
+        "government_listing",
+        "assigned_institution_campus_city_state"
+      ]
+    },
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/LawRankingALL.html",
+      "supports": [
+        "government_listing",
+        "assigned_institution_campus_city_state"
+      ]
+    },
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html",
+      "supports": [
+        "government_listing",
+        "assigned_institution_campus_city_state"
+      ]
+    },
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "government_listing",
+        "assigned_institution_campus_city_state"
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://www.amity.edu/gwalior/",
+      "supports": [
+        "official_identity",
+        "Amity University Gwalior campus",
+        "official_programme_navigation"
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "https://www.amity.edu/gwalior/about-amity-gwalior",
+      "supports": [
+        "institution_identity",
+        "Gwalior campus",
+        "Madhya Pradesh",
+        "campus_description"
+      ]
+    },
+    {
+      "type": "official_contact_page",
+      "url": "https://www.amity.edu/gwalior/contact-us",
+      "supports": [
+        "campus_address",
+        "Gwalior district",
+        "Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "official_programme_catalogue",
+      "url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "supports": [
+        "complete_official_catalogue",
+        "99_current_programme_names",
+        "Gwalior_course_links"
+      ]
+    },
+    {
+      "type": "official_programme_catalogue_crosscheck",
+      "url": "https://www.amity.edu/gwalior/ug-engineering-courses",
+      "supports": [
+        "undergraduate_engineering_catalogue"
+      ]
+    },
+    {
+      "type": "official_programme_catalogue_crosscheck",
+      "url": "https://www.amity.edu/gwalior/pg-engineering-courses",
+      "supports": [
+        "postgraduate_engineering_catalogue"
+      ]
+    },
+    {
+      "type": "official_programme_catalogue_crosscheck",
+      "url": "https://www.amity.edu/gwalior/ug-law-courses",
+      "supports": [
+        "undergraduate_law_catalogue"
+      ]
+    },
+    {
+      "type": "official_programme_catalogue_crosscheck",
+      "url": "https://www.amity.edu/gwalior/pg-law-courses",
+      "supports": [
+        "postgraduate_law_catalogue"
+      ]
+    },
+    {
+      "type": "official_programme_catalogue_crosscheck",
+      "url": "https://www.amity.edu/gwalior/ug-management-courses",
+      "supports": [
+        "undergraduate_management_catalogue"
+      ]
+    },
+    {
+      "type": "official_programme_catalogue_crosscheck",
+      "url": "https://www.amity.edu/gwalior/pg-management-courses",
+      "supports": [
+        "postgraduate_management_catalogue"
+      ]
+    },
+    {
+      "type": "official_doctoral_admissions_page",
+      "url": "https://www.amity.edu/phd/",
+      "supports": [
+        "doctoral_admissions",
+        "Gwalior doctoral intake listing"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "Amity University Gwalior official website",
+      "result": "Direct official-domain probe returned HTTP 200 for the Amity University Gwalior homepage; the page identifies the campus as Amity University Gwalior.",
+      "url": "https://www.amity.edu/gwalior/"
+    },
+    {
+      "query": "Amity University Gwalior official programmes",
+      "result": "Direct official-domain probe returned HTTP 200 for the official Programmes page, which lists 99 Gwalior programme entries.",
+      "url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all"
+    }
+  ],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-001",
+      "name": "B.Sc. (Animation & Visual Graphics) (Honours/Honours with Research)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Animation & Visual Graphics",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 246,
+          "career_node_slug": "animation",
+          "career_breadcrumb": "Media & Journalism > B.F.A (Fine Arts) > Animator / VFX Artist",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-002",
+      "name": "Doctor of Philosophy (Applied Chemistry)",
+      "level": "doctoral",
+      "credential": "doctoral_degree",
+      "specialization": "Applied Chemistry",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 155,
+          "career_node_slug": "msc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry > M.Sc Chemistry → Researcher",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-003",
+      "name": "Doctor of Philosophy (Applied Chemistry) - Part Time",
+      "level": "doctoral",
+      "credential": "doctoral_degree",
+      "specialization": "Applied Chemistry",
+      "duration": null,
+      "mode": "part_time",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 155,
+          "career_node_slug": "msc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry > M.Sc Chemistry → Researcher",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-004",
+      "name": "Doctor of Philosophy (Applied Mathematics)",
+      "level": "doctoral",
+      "credential": "doctoral_degree",
+      "specialization": "Applied Mathematics",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 90,
+          "career_node_slug": "msc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics > M.Sc Mathematics → Professor / Researcher",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-005",
+      "name": "Doctor of Philosophy (Applied Mathematics) - Part Time",
+      "level": "doctoral",
+      "credential": "doctoral_degree",
+      "specialization": "Applied Mathematics",
+      "duration": null,
+      "mode": "part_time",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 90,
+          "career_node_slug": "msc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics > M.Sc Mathematics → Professor / Researcher",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-006",
+      "name": "Doctor of Philosophy (Physics)",
+      "level": "doctoral",
+      "credential": "doctoral_degree",
+      "specialization": "Physics",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 153,
+          "career_node_slug": "msc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics > M.Sc Physics → Researcher / Professor",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-007",
+      "name": "Doctor of Philosophy (Physics) - Part Time",
+      "level": "doctoral",
+      "credential": "doctoral_degree",
+      "specialization": "Physics",
+      "duration": null,
+      "mode": "part_time",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 153,
+          "career_node_slug": "msc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics > M.Sc Physics → Researcher / Professor",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-008",
+      "name": "M.Sc. (Applied Chemistry)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Applied Chemistry",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 155,
+          "career_node_slug": "msc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry > M.Sc Chemistry → Researcher",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-009",
+      "name": "M.Sc. (Applied Mathematics)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Applied Mathematics",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 90,
+          "career_node_slug": "msc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics > M.Sc Mathematics → Professor / Researcher",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-010",
+      "name": "M.Sc. (Applied Physics)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Applied Physics",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 153,
+          "career_node_slug": "msc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics > M.Sc Physics → Researcher / Professor",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-011",
+      "name": "Bachelor of Architecture",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Architecture",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 56,
+          "career_node_slug": "barch",
+          "career_breadcrumb": "Design & Architecture > B.Arch (Architecture)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-012",
+      "name": "Master of Planning (Urban & Regional Planning)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Urban & Regional Planning",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 234,
+          "career_node_slug": "urban_planning",
+          "career_breadcrumb": "Design & Architecture > B.Arch (Architecture) > Urban Planner",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-013",
+      "name": "B.Sc. (Biology) (Honours/Honours with Research)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Biology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-014",
+      "name": "B.Sc. (Biotechnology) (Honours/Honours with Research)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Biotechnology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-015",
+      "name": "B.Sc. + M.Sc. - Biotechnology (Dual Degree)",
+      "level": "integrated",
+      "credential": "integrated_degree",
+      "specialization": "Biotechnology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 146,
+          "career_node_slug": "msc_biotech",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech > M.Sc Biotechnology → Researcher",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-016",
+      "name": "B.Tech (Biotechnology)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Biotechnology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 88,
+          "career_node_slug": "btech_biotech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Biotechnology",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-017",
+      "name": "Doctor of Philosophy (Biotechnology)",
+      "level": "doctoral",
+      "credential": "doctoral_degree",
+      "specialization": "Biotechnology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 146,
+          "career_node_slug": "msc_biotech",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech > M.Sc Biotechnology → Researcher",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-018",
+      "name": "Doctor of Philosophy (Biotechnology) - Part Time",
+      "level": "doctoral",
+      "credential": "doctoral_degree",
+      "specialization": "Biotechnology",
+      "duration": null,
+      "mode": "part_time",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 146,
+          "career_node_slug": "msc_biotech",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech > M.Sc Biotechnology → Researcher",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-019",
+      "name": "M.Sc. (Biotechnology)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Biotechnology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 146,
+          "career_node_slug": "msc_biotech",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech > M.Sc Biotechnology → Researcher",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-020",
+      "name": "M.Tech (Biotechnology)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Biotechnology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 146,
+          "career_node_slug": "msc_biotech",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech > M.Sc Biotechnology → Researcher",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-021",
+      "name": "B.Com. (Honours/Honours with Research)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Commerce",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-022",
+      "name": "Doctor of Philosophy (Commerce)",
+      "level": "doctoral",
+      "credential": "doctoral_degree",
+      "specialization": "Commerce",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 198,
+          "career_node_slug": "mcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons) > M.Com → Professor / Researcher",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-023",
+      "name": "Doctor of Philosophy (Commerce) - Part Time",
+      "level": "doctoral",
+      "credential": "doctoral_degree",
+      "specialization": "Commerce",
+      "duration": null,
+      "mode": "part_time",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 198,
+          "career_node_slug": "mcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons) > M.Com → Professor / Researcher",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-024",
+      "name": "M.Com.",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Commerce",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 198,
+          "career_node_slug": "mcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons) > M.Com → Professor / Researcher",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-025",
+      "name": "BCA (Honours/Honours with Research)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Computer Applications",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-026",
+      "name": "B.Sc. (Computer Science) (Honours/Honours with Research)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Computer Science",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 32,
+          "career_node_slug": "bsc_cs",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Computer Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-027",
+      "name": "B.Sc. (IT) (Honours/Honours with Research)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "IT",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 89,
+          "career_node_slug": "btech_it",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Information Technology",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-028",
+      "name": "BCA (Artificial Intelligence & Cyber Security) (Honours/Honours with Research)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Artificial Intelligence & Cyber Security",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 33,
+          "career_node_slug": "bsc_ai",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Artificial Intelligence",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-029",
+      "name": "Doctor of Philosophy (Information Technology)",
+      "level": "doctoral",
+      "credential": "doctoral_degree",
+      "specialization": "Information Technology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 89,
+          "career_node_slug": "btech_it",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Information Technology",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-030",
+      "name": "Doctor of Philosophy (Information Technology) - Part Time",
+      "level": "doctoral",
+      "credential": "doctoral_degree",
+      "specialization": "Information Technology",
+      "duration": null,
+      "mode": "part_time",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 89,
+          "career_node_slug": "btech_it",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Information Technology",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-031",
+      "name": "MCA",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Computer Applications",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 93,
+          "career_node_slug": "mca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications) > MCA → Software Engineer",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-032",
+      "name": "M.Sc. (Artificial Intelligence & Cyber Security)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Artificial Intelligence & Cyber Security",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 33,
+          "career_node_slug": "bsc_ai",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Artificial Intelligence",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-033",
+      "name": "M.Sc. (Environmental Sciences)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Environmental Sciences",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 26,
+          "career_node_slug": "bsc_env",
+          "career_breadcrumb": "Common Paths > B.Sc Environmental Science",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-034",
+      "name": "B.A. (Economics) (Honours/Honours with Research)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Economics",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-035",
+      "name": "Doctor of Philosophy (Economics)",
+      "level": "doctoral",
+      "credential": "doctoral_degree",
+      "specialization": "Economics",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 272,
+          "career_node_slug": "economist",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics > Economist",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-036",
+      "name": "Doctor of Philosophy (Economics) - Part Time",
+      "level": "doctoral",
+      "credential": "doctoral_degree",
+      "specialization": "Economics",
+      "duration": null,
+      "mode": "part_time",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 272,
+          "career_node_slug": "economist",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics > Economist",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-037",
+      "name": "MA (Economics)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Economics",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 272,
+          "career_node_slug": "economist",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics > Economist",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-038",
+      "name": "B.Tech (Civil Engineering)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Civil Engineering",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-039",
+      "name": "B.Tech (Computer Science & Engineering)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Computer Science & Engineering",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-040",
+      "name": "B.Tech (Electronics & Communication Engg.)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Electronics & Communication Engg.",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-041",
+      "name": "B.Tech (Information Technology)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Information Technology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 89,
+          "career_node_slug": "btech_it",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Information Technology",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-042",
+      "name": "B.Tech (Mechanical Engineering)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Mechanical Engineering",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-043",
+      "name": "Doctor of Philosophy (Engineering)",
+      "level": "doctoral",
+      "credential": "doctoral_degree",
+      "specialization": "Engineering",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-044",
+      "name": "Doctor of Philosophy (Engineering) - Part Time",
+      "level": "doctoral",
+      "credential": "doctoral_degree",
+      "specialization": "Engineering",
+      "duration": null,
+      "mode": "part_time",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 1,
+          "career_node_slug": "btech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E.",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-045",
+      "name": "M.Tech (Civil Engineering)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Civil Engineering",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-046",
+      "name": "M.Tech (Computer Science & Engineering)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Computer Science & Engineering",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-047",
+      "name": "M.Tech (Electronics & Communication Engg.)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Electronics & Communication Engg.",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-048",
+      "name": "M.Tech (Mechanical Engineering)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Mechanical Engineering",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-049",
+      "name": "M.Tech (Structural Engineering)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Structural Engineering",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 321,
+          "career_node_slug": "structural_engineer",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering > Structural Engineer",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-050",
+      "name": "M.Tech (VLSI Design)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "VLSI Design",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 315,
+          "career_node_slug": "vlsi_engineer",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication > VLSI Design Engineer",
+          "relation": "closest_specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-051",
+      "name": "B.A. (English) (Honours/Honours with Research)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "English",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-052",
+      "name": "M.A. (English)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "English",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-053",
+      "name": "B. Des. (Fashion Design)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Fashion Design",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 230,
+          "career_node_slug": "fashion_design",
+          "career_breadcrumb": "Design & Architecture > B.Des (Design) > Fashion Designer",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-054",
+      "name": "Doctor of Philosophy (Fashion Design & Technology)",
+      "level": "doctoral",
+      "credential": "doctoral_degree",
+      "specialization": "Fashion Design & Technology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 236,
+          "career_node_slug": "fashion_tech",
+          "career_breadcrumb": "Design & Architecture > NIFT (Fashion Technology) > Fashion Technologist",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-055",
+      "name": "Doctor of Philosophy (Fashion Design & Technology) - Part Time",
+      "level": "doctoral",
+      "credential": "doctoral_degree",
+      "specialization": "Fashion Design & Technology",
+      "duration": null,
+      "mode": "part_time",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 236,
+          "career_node_slug": "fashion_tech",
+          "career_breadcrumb": "Design & Architecture > NIFT (Fashion Technology) > Fashion Technologist",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-056",
+      "name": "M. Des. (Fashion Design)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Fashion Design",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 230,
+          "career_node_slug": "fashion_design",
+          "career_breadcrumb": "Design & Architecture > B.Des (Design) > Fashion Designer",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-057",
+      "name": "B.Sc. (Forensic Sciences) (Honours/Honours with Research)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Forensic Sciences",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 27,
+          "career_node_slug": "bsc_forensic",
+          "career_breadcrumb": "Common Paths > B.Sc Forensic Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-058",
+      "name": "Bachelor of Interior Design",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Interior Design",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 233,
+          "career_node_slug": "interior_design",
+          "career_breadcrumb": "Design & Architecture > B.Arch (Architecture) > Interior Designer",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-059",
+      "name": "Master of Interior Design",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Interior Design",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 233,
+          "career_node_slug": "interior_design",
+          "career_breadcrumb": "Design & Architecture > B.Arch (Architecture) > Interior Designer",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-060",
+      "name": "B.A. (Journalism & Mass Communication) (Honours/Honours with Research)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Journalism & Mass Communication",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 59,
+          "career_node_slug": "bjmc",
+          "career_breadcrumb": "Media & Journalism > B.J.M.C (Journalism & Mass Comm)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-061",
+      "name": "Doctor of Philosophy (Journalism & Mass Communications)",
+      "level": "doctoral",
+      "credential": "doctoral_degree",
+      "specialization": "Journalism & Mass Communications",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 59,
+          "career_node_slug": "bjmc",
+          "career_breadcrumb": "Media & Journalism > B.J.M.C (Journalism & Mass Comm)",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-062",
+      "name": "Doctor of Philosophy (Journalism & Mass Communications) - Part Time",
+      "level": "doctoral",
+      "credential": "doctoral_degree",
+      "specialization": "Journalism & Mass Communications",
+      "duration": null,
+      "mode": "part_time",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 59,
+          "career_node_slug": "bjmc",
+          "career_breadcrumb": "Media & Journalism > B.J.M.C (Journalism & Mass Comm)",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-063",
+      "name": "M.A. (Journalism & Mass Communication)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Journalism & Mass Communication",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 59,
+          "career_node_slug": "bjmc",
+          "career_breadcrumb": "Media & Journalism > B.J.M.C (Journalism & Mass Comm)",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-064",
+      "name": "Doctor of Philosophy (English)",
+      "level": "doctoral",
+      "credential": "doctoral_degree",
+      "specialization": "English",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-065",
+      "name": "Doctor of Philosophy (English) - Part Time",
+      "level": "doctoral",
+      "credential": "doctoral_degree",
+      "specialization": "English",
+      "duration": null,
+      "mode": "part_time",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-066",
+      "name": "B.A.,LL.B (Hons)",
+      "level": "integrated",
+      "credential": "integrated_degree",
+      "specialization": "Law",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 63,
+          "career_node_slug": "ba_llb",
+          "career_breadcrumb": "Law & Civil Services > BA LLB (5-Year Integrated)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-067",
+      "name": "BBA LL.B. (Hons)",
+      "level": "integrated",
+      "credential": "integrated_degree",
+      "specialization": "Law",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 50,
+          "career_node_slug": "bba_llb",
+          "career_breadcrumb": "Law & Legal > BBA LLB (5-Year Integrated)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-068",
+      "name": "Doctor of Philosophy (Law)",
+      "level": "doctoral",
+      "credential": "doctoral_degree",
+      "specialization": "Law",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 343,
+          "career_node_slug": "commerce_law",
+          "career_breadcrumb": "Law & Legal",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-069",
+      "name": "Doctor of Philosophy (Law) - Part Time",
+      "level": "doctoral",
+      "credential": "doctoral_degree",
+      "specialization": "Law",
+      "duration": null,
+      "mode": "part_time",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 343,
+          "career_node_slug": "commerce_law",
+          "career_breadcrumb": "Law & Legal",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-070",
+      "name": "LL.B (Hons)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Law",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 343,
+          "career_node_slug": "commerce_law",
+          "career_breadcrumb": "Law & Legal",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-071",
+      "name": "LL.M.",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Law",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 343,
+          "career_node_slug": "commerce_law",
+          "career_breadcrumb": "Law & Legal",
+          "relation": "nearest_parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-072",
+      "name": "Doctor of Philosophy (Environmental Sciences)",
+      "level": "doctoral",
+      "credential": "doctoral_degree",
+      "specialization": "Environmental Sciences",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 26,
+          "career_node_slug": "bsc_env",
+          "career_breadcrumb": "Common Paths > B.Sc Environmental Science",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-073",
+      "name": "Doctor of Philosophy (Environmental Sciences) - Part Time",
+      "level": "doctoral",
+      "credential": "doctoral_degree",
+      "specialization": "Environmental Sciences",
+      "duration": null,
+      "mode": "part_time",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 26,
+          "career_node_slug": "bsc_env",
+          "career_breadcrumb": "Common Paths > B.Sc Environmental Science",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-074",
+      "name": "BBA (Honours/Honours with Research)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Management",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 46,
+          "career_node_slug": "bba",
+          "career_breadcrumb": "Management & Business > BBA (General)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-075",
+      "name": "Doctor of Philosophy (Management)",
+      "level": "doctoral",
+      "credential": "doctoral_degree",
+      "specialization": "Management",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 208,
+          "career_node_slug": "mba_general",
+          "career_breadcrumb": "Management & Business > BBA (General) > MBA → CEO / Director Track",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-076",
+      "name": "Doctor of Philosophy (Management) - Part Time",
+      "level": "doctoral",
+      "credential": "doctoral_degree",
+      "specialization": "Management",
+      "duration": null,
+      "mode": "part_time",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 208,
+          "career_node_slug": "mba_general",
+          "career_breadcrumb": "Management & Business > BBA (General) > MBA → CEO / Director Track",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-077",
+      "name": "MBA",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Management",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 208,
+          "career_node_slug": "mba_general",
+          "career_breadcrumb": "Management & Business > BBA (General) > MBA → CEO / Director Track",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-078",
+      "name": "Bachelor of Pharmacy",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Pharmacy",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "direct_discipline",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-079",
+      "name": "Doctor of Philosophy (Pharmaceutical Sciences)",
+      "level": "doctoral",
+      "credential": "doctoral_degree",
+      "specialization": "Pharmaceutical Sciences",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 144,
+          "career_node_slug": "pharma_researcher",
+          "career_breadcrumb": "Biology / PCB > Medical Updated > Pharmaceutical Researcher",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-080",
+      "name": "Doctor of Philosophy (Pharmaceutical Sciences) - Part Time",
+      "level": "doctoral",
+      "credential": "doctoral_degree",
+      "specialization": "Pharmaceutical Sciences",
+      "duration": null,
+      "mode": "part_time",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 144,
+          "career_node_slug": "pharma_researcher",
+          "career_breadcrumb": "Biology / PCB > Medical Updated > Pharmaceutical Researcher",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-081",
+      "name": "M.Pharm (Pharmaceutics)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Pharmaceutics",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 144,
+          "career_node_slug": "pharma_researcher",
+          "career_breadcrumb": "Biology / PCB > Medical Updated > Pharmaceutical Researcher",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-082",
+      "name": "M.Pharm (Pharmacology)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Pharmacology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 144,
+          "career_node_slug": "pharma_researcher",
+          "career_breadcrumb": "Biology / PCB > Medical Updated > Pharmaceutical Researcher",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-083",
+      "name": "B.A. (Political Science) (Honours/Honours with Research)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Political Science",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-084",
+      "name": "Doctor of Philosophy (Political Science)",
+      "level": "doctoral",
+      "credential": "doctoral_degree",
+      "specialization": "Political Science",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 281,
+          "career_node_slug": "political_analyst",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science > Political Analyst",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-085",
+      "name": "B.A. (Applied Psychology) (Honours/Honours with Research)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Applied Psychology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 66,
+          "career_node_slug": "ba_psychology",
+          "career_breadcrumb": "Social Sciences & Education > BA Psychology",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-086",
+      "name": "B.Sc. (Clinical Psychology) (Honours/Honours with Research)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Clinical Psychology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 266,
+          "career_node_slug": "clinical_psychologist",
+          "career_breadcrumb": "Social Sciences & Education > BA Psychology > Clinical Psychologist",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-087",
+      "name": "Bachelor in Clinical Psychology",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "Clinical Psychology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 266,
+          "career_node_slug": "clinical_psychologist",
+          "career_breadcrumb": "Social Sciences & Education > BA Psychology > Clinical Psychologist",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-088",
+      "name": "M.A. (Applied Psychology)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Applied Psychology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 66,
+          "career_node_slug": "ba_psychology",
+          "career_breadcrumb": "Social Sciences & Education > BA Psychology",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-089",
+      "name": "M.A. (Clinical Psychology)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Clinical Psychology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 266,
+          "career_node_slug": "clinical_psychologist",
+          "career_breadcrumb": "Social Sciences & Education > BA Psychology > Clinical Psychologist",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-090",
+      "name": "Master in Clinical Psychology",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Clinical Psychology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 266,
+          "career_node_slug": "clinical_psychologist",
+          "career_breadcrumb": "Social Sciences & Education > BA Psychology > Clinical Psychologist",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-091",
+      "name": "PG Diploma in Rehabilitation Psychology",
+      "level": "postgraduate",
+      "credential": "postgraduate_diploma",
+      "specialization": "Rehabilitation Psychology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 266,
+          "career_node_slug": "clinical_psychologist",
+          "career_breadcrumb": "Social Sciences & Education > BA Psychology > Clinical Psychologist",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-092",
+      "name": "Post Graduate Diploma in Guidance & Counselling Psychology",
+      "level": "postgraduate",
+      "credential": "postgraduate_diploma",
+      "specialization": "Guidance & Counselling Psychology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 267,
+          "career_node_slug": "counsellor",
+          "career_breadcrumb": "Social Sciences & Education > BA Psychology > Counsellor / Therapist",
+          "relation": "closest_specialization",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-093",
+      "name": "Professional Diploma in Clinical Psychology",
+      "level": "postgraduate",
+      "credential": "professional_diploma",
+      "specialization": "Clinical Psychology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 266,
+          "career_node_slug": "clinical_psychologist",
+          "career_breadcrumb": "Social Sciences & Education > BA Psychology > Clinical Psychologist",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-094",
+      "name": "B.A. (History) (Honours/Honours with Research)",
+      "level": "undergraduate",
+      "credential": "bachelor_degree",
+      "specialization": "History",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-095",
+      "name": "Doctor of Philosophy (History)",
+      "level": "doctoral",
+      "credential": "doctoral_degree",
+      "specialization": "History",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-096",
+      "name": "Doctor of Philosophy (History) - Part Time",
+      "level": "doctoral",
+      "credential": "doctoral_degree",
+      "specialization": "History",
+      "duration": null,
+      "mode": "part_time",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-097",
+      "name": "Doctor of Philosophy (Political Science) - Part Time",
+      "level": "doctoral",
+      "credential": "doctoral_degree",
+      "specialization": "Political Science",
+      "duration": null,
+      "mode": "part_time",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 281,
+          "career_node_slug": "political_analyst",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science > Political Analyst",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-098",
+      "name": "M.A. (History)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "History",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "amity-university-gwalior-amity-gwalior-099",
+      "name": "M.A. (Political Science)",
+      "level": "postgraduate",
+      "credential": "master_degree",
+      "specialization": "Political Science",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://www.amity.edu/gwalior/programe-list.aspx?fd=all",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 281,
+          "career_node_slug": "political_analyst",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science > Political Analyst",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "NIRF 2025 Engineering, Law, Management, and Overall directory pages each contain the assigned row “Amity University, Gwalior | Gwalior | Madhya Pradesh”.",
+    "Normal TLS verification failed with the exact managed-proxy error “self signed certificate in certificate chain”; curl --insecure was then used only for public GET requests after confirming the expected NIRF, search, and amity.edu hostnames.",
+    "The official Gwalior Programmes page lists 99 current programme entries, including degree, diploma, and doctoral programmes; all 99 linked official course pages returned HTTP 200. Durations and eligibility are null because the central official catalogue does not explicitly state them and no brochure-only inference was made.",
+    "Career mappings were generated from read-only queries against assets/data/career_path.db. The local career node slug bpharm has the label “Medical Updated”; its Bachelor of Pharmacy mapping is marked reviewed_with_career_tree_label_issue."
+  ]
+}

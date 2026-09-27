@@ -1,0 +1,90 @@
+{
+  "institution_id": "mangalayatan-university-aligarh",
+  "nirf_name": "Mangalayatan University, Aligarh",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/PharmacyRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Aligarh",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://www.mangalayatan.in/",
+  "website_verification_status": "verified",
+  "description": "Mangalayatan University, founded in 2006, is a residential university campus at Beswan on the Aligarh-Mathura Highway in Aligarh, Uttar Pradesh.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Exact institution name, city and state match"
+      ]
+    },
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/PharmacyRankingALL.html",
+      "supports": [
+        "Exact institution name, city and state match"
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://www.mangalayatan.in/",
+      "supports": [
+        "Official homepage identifies Mangalayatan University Aligarh"
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "https://www.mangalayatan.in/contact-us-2/",
+      "supports": [
+        "Campus address at 33rd Milestone, Aligarh-Mathura Highway, Beswan, Aligarh, Uttar Pradesh, India"
+      ]
+    },
+    {
+      "type": "official_overview",
+      "url": "https://www.mangalayatan.in/about-mangalayatan/overview/",
+      "supports": [
+        "University founded in 2006 and residential campus description"
+      ]
+    },
+    {
+      "type": "official_current_catalogue",
+      "url": "https://www.mangalayatan.in/admission-open/",
+      "supports": [
+        "Admission Open 2026-27 programme catalogue"
+      ]
+    },
+    {
+      "type": "official_fee_catalogue",
+      "url": "https://www.mangalayatan.in/courses-fee-structure/",
+      "supports": [
+        "Official 2026-27 fee structure and programme rows"
+      ]
+    },
+    {
+      "type": "official_doctoral_catalogue",
+      "url": "https://www.mangalayatan.in/phd-admission/",
+      "supports": [
+        "PhD Admission 2026 catalogue and doctoral disciplines"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "Mangalayatan University Aligarh official website",
+      "result": "Search endpoints were proxy/captcha limited; the candidate domain was independently checked by HTTPS and returned the Mangalayatan University Aligarh homepage.",
+      "url": "https://www.mangalayatan.in/"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [],
+  "agent_notes": [
+    "Government listings verify the exact NIRF name, Aligarh city and Uttar Pradesh state in both supplied 2025 tables.",
+    "Normal TLS requests failed with the exact proxy certificate error 'self signed certificate in certificate chain'; public GETs then used curl --insecure only after confirming expected official/search hostnames.",
+    "The official Admission Open 2026-27 page lists current programme cards, while the official PhD Admission 2026 page lists 34 doctoral disciplines.",
+    "Manual review is required before importing courses because official catalogue pages conflict on durations, including B.Com, BBA, B.Sc. Biotechnology and B.Sc. PCM/ZBC, and the site exposes additional legacy, online and WILP programme pages outside the current programme-card catalogue."
+  ]
+}

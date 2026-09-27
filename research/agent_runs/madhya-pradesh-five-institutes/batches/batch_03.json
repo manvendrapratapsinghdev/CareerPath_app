@@ -1,0 +1,91 @@
+{
+  "batch": 3,
+  "started_at": "2026-09-27T07:09:20.012855+00:00",
+  "finished_at": "2026-09-27T07:09:35.444707+00:00",
+  "assignment_count": 5,
+  "completed_count": 0,
+  "skipped_count": 0,
+  "failed_count": 5,
+  "results": [
+    {
+      "institution_id": "barkatullah-university-bhopal",
+      "nirf_name": "Barkatullah University, Bhopal",
+      "status": "failed",
+      "started_at": "2026-09-27T07:09:20.113047+00:00",
+      "finished_at": "2026-09-27T07:09:34.864324+00:00",
+      "duration_seconds": 14.751,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/barkatullah-university-bhopal.jsonl"
+    },
+    {
+      "institution_id": "bhabha-university-bhopal",
+      "nirf_name": "Bhabha University, Bhopal",
+      "status": "failed",
+      "started_at": "2026-09-27T07:09:20.137656+00:00",
+      "finished_at": "2026-09-27T07:09:35.443551+00:00",
+      "duration_seconds": 15.306,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/bhabha-university-bhopal.jsonl"
+    },
+    {
+      "institution_id": "jagran-lakecity-university-bhopal",
+      "nirf_name": "Jagran Lakecity University, Bhopal",
+      "status": "failed",
+      "started_at": "2026-09-27T07:09:20.171667+00:00",
+      "finished_at": "2026-09-27T07:09:34.883850+00:00",
+      "duration_seconds": 14.712,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/jagran-lakecity-university-bhopal.jsonl"
+    },
+    {
+      "institution_id": "lnct-university",
+      "nirf_name": "LNCT University",
+      "status": "failed",
+      "started_at": "2026-09-27T07:09:20.154923+00:00",
+      "finished_at": "2026-09-27T07:09:35.419040+00:00",
+      "duration_seconds": 15.263,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/lnct-university.jsonl"
+    },
+    {
+      "institution_id": "school-of-agriculture-science-technology-research-sardar-patel-university-balaghat-m-p",
+      "nirf_name": "School of Agriculture Science, Technology & Research, Sardar Patel University, Balaghat (M. P.)",
+      "status": "failed",
+      "started_at": "2026-09-27T07:09:20.094571+00:00",
+      "finished_at": "2026-09-27T07:09:35.409822+00:00",
+      "duration_seconds": 15.315,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-five-institutes/logs/school-of-agriculture-science-technology-research-sardar-patel-university-balaghat-m-p.jsonl"
+    }
+  ]
+}

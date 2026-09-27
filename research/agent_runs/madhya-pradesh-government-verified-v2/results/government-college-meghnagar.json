@@ -1,0 +1,838 @@
+{
+  "institution_id": "government-college-meghnagar",
+  "nirf_name": "Government college meghnagar",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Jhabua",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://highereducation.mp.gov.in/?orgid=235",
+  "website_verification_status": "verified",
+  "description": "Government College, Meghnagar is a UGC-affiliated government college established in 2015 in Jhabua district, Madhya Pradesh. Its official profile says it offers undergraduate Arts and Commerce education and supports Bhoj Open University and Bachelor of Social Welfare (BSW) study centres.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "The NIRF 2025 College participated-institutes table lists Government college meghnagar, city jhabua, Madhya Pradesh."
+      ]
+    },
+    {
+      "type": "official_college_directory_record",
+      "url": "https://www.highereducation.mp.gov.in/CollegeDisp/getTable",
+      "supports": [
+        "The official Madhya Pradesh Higher Education college directory identifies orgid 235 as Govt College, Meghnagar, District Jhabua, College Code 2111."
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://highereducation.mp.gov.in/?orgid=235",
+      "supports": [
+        "The official college homepage identifies GOVT. COLLEGE MEGHNAGAR and states it is regulated by the Department of Higher Education M.P."
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "https://highereducation.mp.gov.in/?page=Omya8Z%2BNAPBiv8YLMBx%2Fsw%3D%3D&orgid=235",
+      "supports": [
+        "The official introduction identifies Government College, Meghnagar, its 2015 establishment, Jhabua location, UG Arts and Commerce courses, Bhoj Open University centre, and BSW centre."
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=bmDPoqpQjlUn%2BqlnoyO3MQ%3D%3D&orgid=235",
+      "supports": [
+        "The official Regular Courses page lists the current UG course names and minimum qualifications."
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://highereducation.mp.gov.in/?page=BoARV3lxhKQCxteoXFdsnA%3D%3D&orgid=235",
+      "supports": [
+        "The official Distance Education Programme page lists current PG and UG distance course names and minimum qualifications."
+      ]
+    },
+    {
+      "type": "official_catalogue_gap_check",
+      "url": "https://highereducation.mp.gov.in/?page=7fKvgqPVRp%2Btt5TOPJIAQQ%3D%3D&orgid=235",
+      "supports": [
+        "The official Prospectus page is under construction and does not supplement the programme catalogue."
+      ]
+    }
+  ],
+  "website_search_evidence": [],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "government-college-meghnagar-regular-ba-economics-english-history",
+      "name": "B. A. (Economics - English - History)",
+      "level": "Undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Economics - English - History",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "12th",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=bmDPoqpQjlUn%2BqlnoyO3MQ%3D%3D&orgid=235",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "closest-specialization mapping; English maps to the tree's BA English Literature node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        },
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-meghnagar-regular-ba-economics-hindi-history",
+      "name": "B. A. (Economics - Hindi - History)",
+      "level": "Undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Economics - Hindi - History",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "12th",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=bmDPoqpQjlUn%2BqlnoyO3MQ%3D%3D&orgid=235",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-meghnagar-regular-ba-economics-hindi-sociology",
+      "name": "B. A. (Economics - Hindi - Sociology)",
+      "level": "Undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Economics - Hindi - Sociology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "12th",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=bmDPoqpQjlUn%2BqlnoyO3MQ%3D%3D&orgid=235",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-meghnagar-regular-ba-economics-history-political-science",
+      "name": "B. A. (Economics - History - Political Science)",
+      "level": "Undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Economics - History - Political Science",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "12th",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=bmDPoqpQjlUn%2BqlnoyO3MQ%3D%3D&orgid=235",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-meghnagar-regular-ba-hindi-political-science-sociology",
+      "name": "B. A. (Hindi - Political Science - Sociology)",
+      "level": "Undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Hindi - Political Science - Sociology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "12th",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=bmDPoqpQjlUn%2BqlnoyO3MQ%3D%3D&orgid=235",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-meghnagar-regular-ba-history-political-science-sociology",
+      "name": "B. A. (History - Political Science - Sociology)",
+      "level": "Undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "History - Political Science - Sociology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "12th",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=bmDPoqpQjlUn%2BqlnoyO3MQ%3D%3D&orgid=235",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-meghnagar-regular-ba-economics-history-sociology",
+      "name": "B. A. (Economics - History - Sociology)",
+      "level": "Undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Economics - History - Sociology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "12th",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=bmDPoqpQjlUn%2BqlnoyO3MQ%3D%3D&orgid=235",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-meghnagar-regular-ba-economics-political-science-sociology",
+      "name": "B. A. (Economics - Political Science - Sociology)",
+      "level": "Undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Economics - Political Science - Sociology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "12th",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=bmDPoqpQjlUn%2BqlnoyO3MQ%3D%3D&orgid=235",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-meghnagar-regular-ba-hindi-history-sociology",
+      "name": "B. A. (Hindi - History - Sociology)",
+      "level": "Undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Hindi - History - Sociology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "12th",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=bmDPoqpQjlUn%2BqlnoyO3MQ%3D%3D&orgid=235",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-meghnagar-regular-b-com-commerce",
+      "name": "B. Com (Commerce)",
+      "level": "Undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Commerce",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": "12th",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=bmDPoqpQjlUn%2BqlnoyO3MQ%3D%3D&orgid=235",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-meghnagar-distance-ma-hindi",
+      "name": "M. A. (Hindi)",
+      "level": "Postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Hindi",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": "Post-Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=BoARV3lxhKQCxteoXFdsnA%3D%3D&orgid=235",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "closest-specialization mapping; postgraduate discipline mapped to the tree's same-discipline undergraduate node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-meghnagar-distance-ma-english",
+      "name": "M. A. (English)",
+      "level": "Postgraduate",
+      "credential": "Master's degree",
+      "specialization": "English",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": "Post-Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=BoARV3lxhKQCxteoXFdsnA%3D%3D&orgid=235",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "closest-specialization mapping; postgraduate discipline mapped to the tree's same-discipline undergraduate node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-meghnagar-distance-ma-history",
+      "name": "M. A. (History)",
+      "level": "Postgraduate",
+      "credential": "Master's degree",
+      "specialization": "History",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": "Post-Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=BoARV3lxhKQCxteoXFdsnA%3D%3D&orgid=235",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "closest-specialization mapping; postgraduate discipline mapped to the tree's same-discipline undergraduate node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-meghnagar-distance-ma-economics",
+      "name": "M. A. (Economics)",
+      "level": "Postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Economics",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": "Post-Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=BoARV3lxhKQCxteoXFdsnA%3D%3D&orgid=235",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "closest-specialization mapping; postgraduate discipline mapped to the tree's same-discipline undergraduate node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-meghnagar-distance-ma-sociology",
+      "name": "M. A. (Sociology)",
+      "level": "Postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Sociology",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": "Post-Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=BoARV3lxhKQCxteoXFdsnA%3D%3D&orgid=235",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "closest-specialization mapping; postgraduate discipline mapped to the tree's same-discipline undergraduate node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-meghnagar-distance-ma-political-science",
+      "name": "M. A. (Political Science)",
+      "level": "Postgraduate",
+      "credential": "Master's degree",
+      "specialization": "Political Science",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": "Post-Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=BoARV3lxhKQCxteoXFdsnA%3D%3D&orgid=235",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "closest-specialization mapping; postgraduate discipline mapped to the tree's same-discipline undergraduate node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-meghnagar-distance-ba-economics-hindi-history",
+      "name": "B. A. (Economics - Hindi - History)",
+      "level": "Undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Economics - Hindi - History",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=BoARV3lxhKQCxteoXFdsnA%3D%3D&orgid=235",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-meghnagar-distance-b-sc-botany-chemistry-zoology",
+      "name": "B. Sc. (Botany - Chemistry - Zoology)",
+      "level": "Undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Botany - Chemistry - Zoology",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=BoARV3lxhKQCxteoXFdsnA%3D%3D&orgid=235",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest-specialization mapping; Botany and Zoology map to the tree's Biology / Biotech node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-meghnagar-distance-ba-history-political-science-sociology",
+      "name": "B. A. (History - Political Science - Sociology)",
+      "level": "Undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "History - Political Science - Sociology",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=BoARV3lxhKQCxteoXFdsnA%3D%3D&orgid=235",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-meghnagar-distance-ba-economics-english-hindi",
+      "name": "B. A. (Economics - English - Hindi)",
+      "level": "Undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Economics - English - Hindi",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=BoARV3lxhKQCxteoXFdsnA%3D%3D&orgid=235",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "closest-specialization mapping; English maps to the tree's BA English Literature node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        },
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-meghnagar-distance-ba-economics-english-history",
+      "name": "B. A. (Economics - English - History)",
+      "level": "Undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Economics - English - History",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=BoARV3lxhKQCxteoXFdsnA%3D%3D&orgid=235",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "closest-specialization mapping; English maps to the tree's BA English Literature node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        },
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-meghnagar-distance-ba-economics-english-sociology",
+      "name": "B. A. (Economics - English - Sociology)",
+      "level": "Undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Economics - English - Sociology",
+      "duration": null,
+      "mode": "distance",
+      "eligibility": "Graduation",
+      "official_course_url": "https://highereducation.mp.gov.in/?page=BoARV3lxhKQCxteoXFdsnA%3D%3D&orgid=235",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "closest-specialization mapping; English maps to the tree's BA English Literature node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        },
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-meghnagar-bsw-study-centre",
+      "name": "Bachelor of Social Welfare (BSW)",
+      "level": "Undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Social Welfare",
+      "duration": null,
+      "mode": "study_centre",
+      "eligibility": null,
+      "official_course_url": "https://highereducation.mp.gov.in/?page=Omya8Z%2BNAPBiv8YLMBx%2Fsw%3D%3D&orgid=235",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 269,
+          "career_node_slug": "social_worker",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology > Social Worker",
+          "relation": "closest career-discipline mapping; Social Welfare mapped to the tree's Social Worker node",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The managed proxy returned a self-signed certificate-chain error on the first normal TLS request. Public GETs were retried with curl --insecure only for the expected NIRF and Madhya Pradesh Higher Education hosts.",
+    "The official directory record and college profile both identify the target campus as Govt/GOVT. College Meghnagar in Jhabua; orgid=235 and College Code 2111 distinguish it from similarly named institutions.",
+    "The official Regular Courses and Distance Education Programme pages list 22 named programmes. The official introduction additionally mentions a Bachelor of Social Welfare (BSW) centre, but BSW is absent from the linked course tables; it is included as a verified programme family and the record remains manual_review.",
+    "The official Prospectus page is under construction; no official duration is stated on the central catalogue pages, so duration is null. The linked Diploma Distance Programme section is empty and no certificate or doctoral programme is listed."
+  ]
+}

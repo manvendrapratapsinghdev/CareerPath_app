@@ -1,0 +1,91 @@
+{
+  "batch": 18,
+  "started_at": "2026-09-27T07:11:45.784699+00:00",
+  "finished_at": "2026-09-27T07:11:55.907366+00:00",
+  "assignment_count": 5,
+  "completed_count": 0,
+  "skipped_count": 0,
+  "failed_count": 5,
+  "results": [
+    {
+      "institution_id": "acropolis-institute-of-management-studies-research-manglia-chouraha-indore",
+      "nirf_name": "Acropolis Institute of Management Studies & Research, Manglia Chouraha,\r\n                                                Indore",
+      "status": "failed",
+      "started_at": "2026-09-27T07:11:45.807669+00:00",
+      "finished_at": "2026-09-27T07:11:54.870152+00:00",
+      "duration_seconds": 9.062,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/acropolis-institute-of-management-studies-research-manglia-chouraha-indore.jsonl"
+    },
+    {
+      "institution_id": "government-college-harrai",
+      "nirf_name": "Government College Harrai",
+      "status": "failed",
+      "started_at": "2026-09-27T07:11:45.793959+00:00",
+      "finished_at": "2026-09-27T07:11:55.568659+00:00",
+      "duration_seconds": 9.775,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/government-college-harrai.jsonl"
+    },
+    {
+      "institution_id": "govt-college-harda-harda",
+      "nirf_name": "Govt. College, Harda, Harda",
+      "status": "failed",
+      "started_at": "2026-09-27T07:11:45.793601+00:00",
+      "finished_at": "2026-09-27T07:11:55.495142+00:00",
+      "duration_seconds": 9.701,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/govt-college-harda-harda.jsonl"
+    },
+    {
+      "institution_id": "govt-vrinda-sahay-pg-college-dabra",
+      "nirf_name": "Govt Vrinda Sahay PG College Dabra",
+      "status": "failed",
+      "started_at": "2026-09-27T07:11:45.793522+00:00",
+      "finished_at": "2026-09-27T07:11:55.901758+00:00",
+      "duration_seconds": 10.108,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/govt-vrinda-sahay-pg-college-dabra.jsonl"
+    },
+    {
+      "institution_id": "school-of-computer-and-electronics-ips-academy-rajendra-nagar-a-b-road-indore-452012",
+      "nirf_name": "\"School of Computer and Electronics, IPS Academy, Rajendra Nagar, A.B.\r\n                                                Road, Indore-452012",
+      "status": "failed",
+      "started_at": "2026-09-27T07:11:45.803709+00:00",
+      "finished_at": "2026-09-27T07:11:55.873121+00:00",
+      "duration_seconds": 10.069,
+      "return_code": 1,
+      "timed_out": false,
+      "errors": [
+        "codex exec exited with code 1",
+        "codex exec did not create a final result"
+      ],
+      "result_path": null,
+      "log_path": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/agent_runs/madhya-pradesh-government-verified/logs/school-of-computer-and-electronics-ips-academy-rajendra-nagar-a-b-road-indore-452012.jsonl"
+    }
+  ]
+}

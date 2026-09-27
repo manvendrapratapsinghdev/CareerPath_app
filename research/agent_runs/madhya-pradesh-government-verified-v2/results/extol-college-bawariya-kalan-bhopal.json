@@ -1,0 +1,810 @@
+{
+  "institution_id": "extol-college-bawariya-kalan-bhopal",
+  "nirf_name": "Extol College, Bawariya Kalan, Bhopal",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Bhopal",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://www.extolcollege.com",
+  "website_verification_status": "ambiguous",
+  "description": "Extol College and Group of Institutions presents professional-education programmes in Bhopal; its homepage names E-8 Shahpura and Jahangirabad campuses.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact institution name, Bhopal city, and Madhya Pradesh state listing."
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://www.extolcollege.com",
+      "supports": [
+        "Extol College identity, Bhopal location, and listed E-8 Shahpura and Jahangirabad campuses."
+      ]
+    },
+    {
+      "type": "official_about",
+      "url": "https://www.extolcollege.com/about",
+      "supports": [
+        "Institution description and programme affiliations."
+      ]
+    },
+    {
+      "type": "official_catalogue",
+      "url": "https://www.extolcollege.com/admissions",
+      "supports": [
+        "UG and PG programme names and admission catalogue."
+      ]
+    },
+    {
+      "type": "official_catalogue",
+      "url": "https://www.extolcollege.com/dcm",
+      "supports": [
+        "Commerce and management programme names and stated durations."
+      ]
+    },
+    {
+      "type": "official_catalogue",
+      "url": "https://www.extolcollege.com/dcs",
+      "supports": [
+        "Computer-science programme names and stated durations."
+      ]
+    },
+    {
+      "type": "official_catalogue",
+      "url": "https://www.extolcollege.com/ds",
+      "supports": [
+        "Science programme families and stated durations."
+      ]
+    },
+    {
+      "type": "official_catalogue",
+      "url": "https://www.extolcollege.com/dms",
+      "supports": [
+        "Journalism and electronic-media programme names."
+      ]
+    },
+    {
+      "type": "official_catalogue",
+      "url": "https://www.extolcollege.com/iti",
+      "supports": [
+        "Skill-development certificate programme names and stated durations."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Extol College\" Bawariya Kalan Bhopal official",
+      "result": "Search results were unrelated or did not establish an official institutional website.",
+      "url": null
+    },
+    {
+      "query": "\"Extol College\" Bhopal website",
+      "result": "Search results did not provide a usable official institutional result.",
+      "url": null
+    },
+    {
+      "query": "site:ac.in \"Extol College\" Bhopal",
+      "result": "No institutional result was returned.",
+      "url": null
+    },
+    {
+      "query": "\"Extol College\" Bawariya Kalan",
+      "result": "No usable official institutional result was returned.",
+      "url": null
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "extol-college-bawariya-kalan-bhopal-extol-bcom-hon",
+      "name": "BCom Hon.",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Hon.",
+      "duration": "4 years",
+      "mode": "on_campus",
+      "eligibility": null,
+      "official_course_url": "https://www.extolcollege.com/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "extol-college-bawariya-kalan-bhopal-extol-bcom-computers",
+      "name": "BCom Computers",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Computers",
+      "duration": "3 years",
+      "mode": "on_campus",
+      "eligibility": null,
+      "official_course_url": "https://www.extolcollege.com/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "nearest-parent: specialization is not separately represented",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "extol-college-bawariya-kalan-bhopal-extol-bcom-plain",
+      "name": "BCom Plain",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Plain",
+      "duration": "3 years",
+      "mode": "on_campus",
+      "eligibility": null,
+      "official_course_url": "https://www.extolcollege.com/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "extol-college-bawariya-kalan-bhopal-extol-bcom-tax",
+      "name": "BCom Tax",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Tax",
+      "duration": "3 years",
+      "mode": "on_campus",
+      "eligibility": null,
+      "official_course_url": "https://www.extolcollege.com/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "nearest-parent: specialization is not separately represented",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "extol-college-bawariya-kalan-bhopal-extol-bcom-adv-sales",
+      "name": "BCom Adv & Sales",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Adv & Sales",
+      "duration": "3 years",
+      "mode": "on_campus",
+      "eligibility": null,
+      "official_course_url": "https://www.extolcollege.com/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "nearest-parent: specialization is not separately represented",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "extol-college-bawariya-kalan-bhopal-extol-bba",
+      "name": "BBA",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Mkt, HR, Fin",
+      "duration": "3 years",
+      "mode": "on_campus",
+      "eligibility": null,
+      "official_course_url": "https://www.extolcollege.com/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 46,
+          "career_node_slug": "bba",
+          "career_breadcrumb": "Management & Business > BBA (General)",
+          "relation": "nearest-parent: listed tracks are not separately represented",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "extol-college-bawariya-kalan-bhopal-extol-bca-bu",
+      "name": "BCA (BU)",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "on_campus",
+      "eligibility": null,
+      "official_course_url": "https://www.extolcollege.com/dcs",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "extol-college-bawariya-kalan-bhopal-extol-bca-mlc",
+      "name": "BCA MLC",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": "3 years",
+      "mode": "on_campus",
+      "eligibility": null,
+      "official_course_url": "https://www.extolcollege.com/dcs",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "extol-college-bawariya-kalan-bhopal-extol-pgdca",
+      "name": "PGDCA",
+      "level": "postgraduate",
+      "credential": "diploma",
+      "specialization": null,
+      "duration": "1 year",
+      "mode": "on_campus",
+      "eligibility": null,
+      "official_course_url": "https://www.extolcollege.com/dcs",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "No PGDCA node exists in the career tree."
+    },
+    {
+      "course_id": "extol-college-bawariya-kalan-bhopal-extol-dca",
+      "name": "DCA",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": null,
+      "duration": "1 year",
+      "mode": "on_campus",
+      "eligibility": null,
+      "official_course_url": "https://www.extolcollege.com/dcs",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "No DCA node exists in the career tree."
+    },
+    {
+      "course_id": "extol-college-bawariya-kalan-bhopal-extol-bsc-biotech",
+      "name": "BSc. Biotech",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Biotech",
+      "duration": "3 years",
+      "mode": "on_campus",
+      "eligibility": null,
+      "official_course_url": "https://www.extolcollege.com/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "extol-college-bawariya-kalan-bhopal-extol-bsc-micobio",
+      "name": "BSc. Micobio",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Micobio",
+      "duration": "3 years",
+      "mode": "on_campus",
+      "eligibility": null,
+      "official_course_url": "https://www.extolcollege.com/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 34,
+          "career_node_slug": "bsc_microbio",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Microbiology",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "extol-college-bawariya-kalan-bhopal-extol-bsc-bio",
+      "name": "BSc. Bio",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Bio",
+      "duration": null,
+      "mode": "on_campus",
+      "eligibility": null,
+      "official_course_url": "https://www.extolcollege.com/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "extol-college-bawariya-kalan-bhopal-extol-bsc-comp",
+      "name": "BSc Comp",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Comp",
+      "duration": "3 years",
+      "mode": "on_campus",
+      "eligibility": null,
+      "official_course_url": "https://www.extolcollege.com/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 32,
+          "career_node_slug": "bsc_cs",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Computer Science",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "extol-college-bawariya-kalan-bhopal-extol-bsc-it",
+      "name": "BSc IT",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "IT",
+      "duration": null,
+      "mode": "on_campus",
+      "eligibility": null,
+      "official_course_url": "https://www.extolcollege.com/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 32,
+          "career_node_slug": "bsc_cs",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Computer Science",
+          "relation": "closest-specialization: B.Sc IT is not separately represented",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "extol-college-bawariya-kalan-bhopal-extol-bsc-elec",
+      "name": "BSC. Elec",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Elec",
+      "duration": "3 years",
+      "mode": "on_campus",
+      "eligibility": null,
+      "official_course_url": "https://www.extolcollege.com/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 14,
+          "career_node_slug": "bsc_electronics",
+          "career_breadcrumb": "Maths / PCM > B.Sc Electronics / Instrumentation",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "extol-college-bawariya-kalan-bhopal-extol-bsc-maths",
+      "name": "BSc. Maths",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Maths",
+      "duration": null,
+      "mode": "on_campus",
+      "eligibility": null,
+      "official_course_url": "https://www.extolcollege.com/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "extol-college-bawariya-kalan-bhopal-extol-bsc-em",
+      "name": "BSc. EM",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "EM",
+      "duration": null,
+      "mode": "on_campus",
+      "eligibility": null,
+      "official_course_url": "https://www.extolcollege.com/dms",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 62,
+          "career_node_slug": "digital_media",
+          "career_breadcrumb": "Media & Journalism > Digital Media & Content",
+          "relation": "closest-specialization: electronic media is not separately represented",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "extol-college-bawariya-kalan-bhopal-extol-ba",
+      "name": "BA",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "on_campus",
+      "eligibility": null,
+      "official_course_url": "https://www.extolcollege.com/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "The website gives no BA discipline and the career tree has no generic BA node."
+    },
+    {
+      "course_id": "extol-college-bawariya-kalan-bhopal-extol-computer-operator",
+      "name": "Computer Operator",
+      "level": "certificate",
+      "credential": "certificate",
+      "specialization": null,
+      "duration": "1 year",
+      "mode": "on_campus",
+      "eligibility": null,
+      "official_course_url": "https://www.extolcollege.com/iti",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [],
+      "mapping_gap": "No responsible computer-operator certificate node exists in the career tree."
+    },
+    {
+      "course_id": "extol-college-bawariya-kalan-bhopal-extol-msc-biotech",
+      "name": "MSc. Biotech",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Biotech",
+      "duration": "2 years",
+      "mode": "on_campus",
+      "eligibility": null,
+      "official_course_url": "https://www.extolcollege.com/ds",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 146,
+          "career_node_slug": "msc_biotech",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech > M.Sc Biotechnology → Researcher",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "extol-college-bawariya-kalan-bhopal-extol-msc-micobio",
+      "name": "MSc. Micobio",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Micobio",
+      "duration": "2 years",
+      "mode": "on_campus",
+      "eligibility": null,
+      "official_course_url": "https://www.extolcollege.com/ds",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 34,
+          "career_node_slug": "bsc_microbio",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Microbiology",
+          "relation": "closest-specialization: M.Sc Microbiology is not separately represented",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "extol-college-bawariya-kalan-bhopal-extol-msc-zoo",
+      "name": "MSc. Zoo",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Zoo",
+      "duration": "2 years",
+      "mode": "on_campus",
+      "eligibility": null,
+      "official_course_url": "https://www.extolcollege.com/ds",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "nearest-parent: no Zoology node exists",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "extol-college-bawariya-kalan-bhopal-extol-msc-bot",
+      "name": "MSc Bot",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Bot",
+      "duration": "2 years",
+      "mode": "on_campus",
+      "eligibility": null,
+      "official_course_url": "https://www.extolcollege.com/ds",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "nearest-parent: no Botany node exists",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "extol-college-bawariya-kalan-bhopal-extol-msc-chem",
+      "name": "MSc. Chem",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Chem",
+      "duration": "2 years",
+      "mode": "on_campus",
+      "eligibility": null,
+      "official_course_url": "https://www.extolcollege.com/ds",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 155,
+          "career_node_slug": "msc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry > M.Sc Chemistry → Researcher",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "extol-college-bawariya-kalan-bhopal-extol-msc-phy",
+      "name": "MSc. Phy",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Phy",
+      "duration": "2 years",
+      "mode": "on_campus",
+      "eligibility": null,
+      "official_course_url": "https://www.extolcollege.com/ds",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 153,
+          "career_node_slug": "msc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics > M.Sc Physics → Researcher / Professor",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "extol-college-bawariya-kalan-bhopal-extol-msc-maths",
+      "name": "MSc. Maths",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Maths",
+      "duration": "2 years",
+      "mode": "on_campus",
+      "eligibility": null,
+      "official_course_url": "https://www.extolcollege.com/ds",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 90,
+          "career_node_slug": "msc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics > M.Sc Mathematics → Professor / Researcher",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "extol-college-bawariya-kalan-bhopal-extol-msc-comp",
+      "name": "MSc. Comp",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Comp",
+      "duration": "2 years",
+      "mode": "on_campus",
+      "eligibility": null,
+      "official_course_url": "https://www.extolcollege.com/ds",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 32,
+          "career_node_slug": "bsc_cs",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Computer Science",
+          "relation": "closest-specialization: M.Sc Computer Science is not separately represented",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "extol-college-bawariya-kalan-bhopal-extol-ma",
+      "name": "MA",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "on_campus",
+      "eligibility": null,
+      "official_course_url": "https://www.extolcollege.com/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "The website gives no MA discipline and the career tree has no generic MA node."
+    },
+    {
+      "course_id": "extol-college-bawariya-kalan-bhopal-extol-mcom",
+      "name": "M.Com.",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "on_campus",
+      "eligibility": null,
+      "official_course_url": "https://www.extolcollege.com/admissions",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 198,
+          "career_node_slug": "mcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons) > M.Com → Professor / Researcher",
+          "relation": "direct discipline mapping",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "extol-college-bawariya-kalan-bhopal-extol-bj-journalism",
+      "name": "B.J Journalism",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Journalism",
+      "duration": null,
+      "mode": "on_campus",
+      "eligibility": null,
+      "official_course_url": "https://www.extolcollege.com/dms",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 59,
+          "career_node_slug": "bjmc",
+          "career_breadcrumb": "Media & Journalism > B.J.M.C (Journalism & Mass Comm)",
+          "relation": "closest-specialization: B.J Journalism is not separately represented",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "extol-college-bawariya-kalan-bhopal-extol-fashion-design",
+      "name": "Fashion Design",
+      "level": "certificate",
+      "credential": "certificate",
+      "specialization": null,
+      "duration": "1 year",
+      "mode": "on_campus",
+      "eligibility": null,
+      "official_course_url": "https://www.extolcollege.com/iti",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "The career tree has no Fashion Design certificate node."
+    },
+    {
+      "course_id": "extol-college-bawariya-kalan-bhopal-extol-computer-operator-pa",
+      "name": "Computer Operator Cum Personal Assistant",
+      "level": "certificate",
+      "credential": "certificate",
+      "specialization": null,
+      "duration": "1 year",
+      "mode": "on_campus",
+      "eligibility": null,
+      "official_course_url": "https://www.extolcollege.com/iti",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "The career tree has no Computer Operator Cum Personal Assistant certificate node."
+    }
+  ],
+  "agent_notes": [
+    "The NIRF government listing contains the exact assigned institution name, city, and state.",
+    "The official site confirms Extol College in Bhopal and lists E-8 Shahpura and Jahangirabad campuses, but it never names Bawariya Kalan; the NIRF-assigned campus therefore cannot be matched conclusively to the official site.",
+    "The central admissions page says Admissions 2023 and the department pages contain inconsistent grouped labels and additional certificate-course marketing text that is not presented as a consolidated active catalogue; therefore course_catalogue_status is partial_official_website.",
+    "Durations were populated only where an official department page explicitly stated them. Eligibility remains null because no official eligibility criteria were stated.",
+    "No doctoral programme was discoverable from the official homepage, admissions page, or department catalogue pages.",
+    "Normal TLS verification failed with the managed proxy's self-signed certificate-chain error; curl --insecure was then used only for public GET requests to the expected nirfindia.org and extolcollege.com hostnames."
+  ]
+}

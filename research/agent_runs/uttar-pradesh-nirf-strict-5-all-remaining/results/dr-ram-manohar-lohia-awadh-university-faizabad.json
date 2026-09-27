@@ -1,0 +1,2974 @@
+{
+  "institution_id": "dr-ram-manohar-lohia-awadh-university-faizabad",
+  "nirf_name": "Dr. Ram Manohar Lohia Awadh University, Faizabad",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Ayodhya",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://rmlau.ac.in/",
+  "website_verification_status": "verified",
+  "description": "Dr. Rammanohar Lohia Avadh University is an affiliating-cum-residential state university in Ayodhya, Uttar Pradesh, established in 1975.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [
+    "rmlauadm.samarth.edu.in"
+  ],
+  "verification_sources": [
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html",
+      "supports": [
+        "The exact institution name is listed in Ayodhya, Uttar Pradesh."
+      ]
+    },
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "The exact institution name is listed in Ayodhya, Uttar Pradesh."
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://rmlau.ac.in/",
+      "supports": [
+        "The institution homepage redirects to the official university site."
+      ]
+    },
+    {
+      "type": "official_homepage_identity",
+      "url": "https://rmlau.ac.in/New/index.aspx",
+      "supports": [
+        "The official site names Dr. Rammanohar Lohia Avadh University, Ayodhya."
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "https://rmlau.ac.in/New/ContactUs.aspx",
+      "supports": [
+        "The official postal address identifies the Avadh University Campus in Ayodhya, Uttar Pradesh 224001."
+      ]
+    },
+    {
+      "type": "official_description",
+      "url": "https://rmlau.ac.in/New/About.aspx",
+      "supports": [
+        "The official history describes the university as an affiliating-cum-residential university and records its 1975 establishment."
+      ]
+    },
+    {
+      "type": "official_programme_catalogue_index",
+      "url": "https://rmlau.ac.in/New/Admission.aspx",
+      "supports": [
+        "The official admission page links Campus Admission 2026-27."
+      ]
+    },
+    {
+      "type": "official_programme_catalogue",
+      "url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "supports": [
+        "The linked 2026-27 campus admission catalogue lists 130 programme entries with current names, durations and eligibility; the explicit Test Programme (Do Not Apply) entry is excluded."
+      ]
+    },
+    {
+      "type": "official_doctoral_admission_page",
+      "url": "https://rmlau.ac.in/New/PhDAdmission.aspx",
+      "supports": [
+        "The official site exposes a Ph.D. admission link, but the linked portal is labelled CET-2024."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Dr. Ram Manohar Lohia Awadh University\" official",
+      "result": "Bing command-line response did not provide a usable institution result; direct official-domain verification established https://rmlau.ac.in/.",
+      "url": "https://www.bing.com/search?q=%22Dr.+Ram+Manohar+Lohia+Awadh+University%22+official"
+    },
+    {
+      "query": "site:rmlau.ac.in Dr. Ram Manohar Lohia Awadh University",
+      "result": "Bing command-line response did not provide a usable institution result; direct official-domain verification established https://rmlau.ac.in/.",
+      "url": "https://www.bing.com/search?q=site%3Armlau.ac.in+Dr.+Ram+Manohar+Lohia+Awadh+University"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-001",
+      "name": ": Bachelor of Arts (B.A.)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "3 YEARS",
+      "mode": "on-campus",
+      "eligibility": "Intermediate / Higher Secondary/10+2 with any stream",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-002",
+      "name": "BS828 : Bachelor of Science(B.Sc)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "3 YEARS",
+      "mode": "on-campus",
+      "eligibility": "B.Sc. (MathGroup):10+2with Physics, Mathematics (Minimum 36% Marks in Intermediate or Equivalent) B.Sc. (BioGroup):10+2 with Zoology, Botany (Minimum 36% Marks in Intermediate or Equivalent)",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 337,
+          "career_node_slug": "science_common",
+          "career_breadcrumb": "Common Paths",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-003",
+      "name": "LLB 5 : Bachelor of Law 05 Years (LL.B. 05Years)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "5 YEARS",
+      "mode": "on-campus",
+      "eligibility": "As per B.C.I. norms",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 347,
+          "career_node_slug": "art_law",
+          "career_breadcrumb": "Law & Civil Services",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-004",
+      "name": "BBA216 : Bachelor of Business Administration(B.B.A)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "3 YEARS",
+      "mode": "on-campus",
+      "eligibility": "Intermediate/Higher Secondary (i.e.10+2) with 36% marks",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 46,
+          "career_node_slug": "bba",
+          "career_breadcrumb": "Management & Business > BBA (General)",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-005",
+      "name": "BC834 : Bachelor of Commerce(B.Com)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "3 YEARS",
+      "mode": "on-campus",
+      "eligibility": "Intermediate/Higher Secondary (i.e.10+2) with 36% marks",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-006",
+      "name": "MASOC : M.A.in Sociology",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": "Graduation in any discipline with 40% marks",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-007",
+      "name": "MSW : Master of Social Work(MSW)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": "Graduation in any discipline with 40% marks",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 269,
+          "career_node_slug": "social_worker",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology > Social Worker",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-008",
+      "name": "IntMCA : Integrated Master of Computer Application(M.C.A.)",
+      "level": "integrated",
+      "credential": "integrated master's degree",
+      "specialization": null,
+      "duration": "4 YEARS",
+      "mode": "on-campus",
+      "eligibility": "Intermediate 10+2 Mathematics/ Statistics/Accountancy",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 93,
+          "career_node_slug": "mca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications) > MCA → Software Engineer",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-009",
+      "name": "B.LIB.I.Sc. : Bachelor of Library & Information Sciences(B.LIB.I.Sc.)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "1 YEARS",
+      "mode": "on-campus",
+      "eligibility": "Graduation in any discipline with36%marks",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "No dedicated Library and Information Science node exists in the career tree."
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-010",
+      "name": "M.LIB.I.Sc : Master of Library & Information Sciences(M.LIB.I.Sc)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "1 YEARS",
+      "mode": "on-campus",
+      "eligibility": "Graduation in B.Lib.I.Sc./ BLIS. with 45% marks",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "No dedicated Library and Information Science node exists in the career tree."
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-011",
+      "name": "ENG : M.A.in English",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": "Graduation in any discipline with 40% marks",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-012",
+      "name": "MAACE : M.A.in Adult and Continuing Education",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": "Graduation in any discipline with 40% marks",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-013",
+      "name": "BVOC : Bachelor of Vocation(Fashion Designing And Garment Technology)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "3 YEARS",
+      "mode": "on-campus",
+      "eligibility": "Intermediate/ Higher Secondary (i.e. 10+2)",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 57,
+          "career_node_slug": "nift",
+          "career_breadcrumb": "Design & Architecture > NIFT (Fashion Technology)",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-014",
+      "name": "BVOC : Bachelor of Vocation(Mass Communication And Journalism)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "4 YEARS",
+      "mode": "on-campus",
+      "eligibility": "Intermediate/ Higher Secondary (i.e. 10+2)",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 59,
+          "career_node_slug": "bjmc",
+          "career_breadcrumb": "Media & Journalism > B.J.M.C (Journalism & Mass Comm)",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-015",
+      "name": "BPES : Bachelor of Physical Education Sports (BPES)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "3 YEARS",
+      "mode": "on-campus",
+      "eligibility": "As Per UGC Norms",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 78,
+          "career_node_slug": "sports_career",
+          "career_breadcrumb": "Performing Arts & Sports > Sports & Physical Education",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-016",
+      "name": "MSBIO : M.Sc.Biochemistry",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": "B.Sc.in any discipline of Life Sciences with knowledge of Chemistry/ Microbiology/ Biochemistry/ Biotechnology from a recognized university with 40% marks",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 35,
+          "career_node_slug": "bsc_biochem",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Biochemistry",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-017",
+      "name": "MSENV : M.Sc. Environmental Science",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": "B.Sc.in any discipline, B.Sc. (Ag), B.Tech / BE (Civil, Chemical, Mechanical) with40% marks",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 26,
+          "career_node_slug": "bsc_env",
+          "career_breadcrumb": "Common Paths > B.Sc Environmental Science",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-018",
+      "name": "MBAHM : M.B.A.in Hospitality Management",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": "Graduation in any discipline with 50% Marks for GEN/OBC and 45%Marks SC/ST",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 79,
+          "career_node_slug": "hotel_mgmt",
+          "career_breadcrumb": "Performing Arts & Sports > Hotel Management & Tourism",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-019",
+      "name": "MBATM : M.B.A. in Tourism Management",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": "Graduation in any discipline with 50% Marks for GEN/OBC and 45%Marks SC/ST",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 79,
+          "career_node_slug": "hotel_mgmt",
+          "career_breadcrumb": "Performing Arts & Sports > Hotel Management & Tourism",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-020",
+      "name": "ERD : M.A. Economics and Rural Development",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": "B.A. with Economics/ B.Sc. with Mathematics or Statistics/B.Com/B.B.A. with 40% marks",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-021",
+      "name": "MSELE : M.Sc. Electronics",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": "A. B.Sc. (Physics/Chemistry/Mathematics/Electronics/Computer Science as Subject) B. B.Tech. (Electronics & Communication Engineering/Electrical & Electronics Engineering/Electrical Engineering/Instrumentation & Control, Computer Science Engineering/Information Technology and related branches) C. B.C.A* (with Maths background at 10+2 level) * Any B.C.A. completed student who has taken admission in M.Sc Electronics programme should qualify Two additional Courses/Papers (Non-Credit Qualifying Courses) decided by Department as Bridge Course during I/II Sem of M.Sc. Electronics programme.",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 14,
+          "career_node_slug": "bsc_electronics",
+          "career_breadcrumb": "Maths / PCM > B.Sc Electronics / Instrumentation",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-022",
+      "name": "MSPHY : M.Sc. Physics (Electronics)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": "B.Sc. with Physics with 40% marks",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 153,
+          "career_node_slug": "msc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics > M.Sc Physics → Researcher / Professor",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-023",
+      "name": "MAHCA : Master of Arts(History Culture and Archaeology)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": "Graduation in any discipline with 40% marks",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-024",
+      "name": "MSMATH : M.Sc. Mathematics (Statistics)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": "B.Sc. with Mathematics with 40% marks",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 90,
+          "career_node_slug": "msc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics > M.Sc Mathematics → Professor / Researcher",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-025",
+      "name": "CS : Master of Science(Computer Science)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": "B.Sc. with (Computer Science/ Information Technology/ Computer Application/ Mathematics/ Statistics) or B. Tech. (CSE/IT) or BCA with 50% marks (45% for SC/ST).",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 32,
+          "career_node_slug": "bsc_cs",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Computer Science",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-026",
+      "name": "MBT : M.Sc.Biotechnology",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": "B.Sc.in any discipline of Life Sciences with 40% marks",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 146,
+          "career_node_slug": "msc_biotech",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech > M.Sc Biotechnology → Researcher",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-027",
+      "name": "APY : M.A.in Applied Psychology",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": "Graduation with at least 40% Marks",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 66,
+          "career_node_slug": "ba_psychology",
+          "career_breadcrumb": "Social Sciences & Education > BA Psychology",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-028",
+      "name": "MAHC : Master of Yoga (Human Consciousness, Yogic Science and Therapy)y",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": "Graduate with 45%marks",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "No dedicated Yoga or Yogic Science node exists in the career tree."
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-029",
+      "name": "SINDHI : M.A.in Sindhi",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": "Graduation in any discipline with 40% marks",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-030",
+      "name": "B.Tech : B.Tech.(Civil Engineering)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "4 YEARS",
+      "mode": "on-campus",
+      "eligibility": "As per AICTE Norms",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-031",
+      "name": "B.Tech : B.Tech.(Mechanical Engineering)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "4 YEARS",
+      "mode": "on-campus",
+      "eligibility": "As per AICTE Norms",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-032",
+      "name": "B.Tech : B.Tech.(Information Technology)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "4 YEARS",
+      "mode": "on-campus",
+      "eligibility": "As per AICTE Norms",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 89,
+          "career_node_slug": "btech_it",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Information Technology",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-033",
+      "name": "B.Tech : B.Tech.(Computer Science)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "4 YEARS",
+      "mode": "on-campus",
+      "eligibility": "As per AICTE Norms",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-034",
+      "name": "B.Tech : B.Tech.(Electrical Engineering)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "4 YEARS",
+      "mode": "on-campus",
+      "eligibility": "As per AICTE Norms",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-035",
+      "name": "B.Tech : B.Tech.(Electronics&Communication Engineering)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "4 YEARS",
+      "mode": "on-campus",
+      "eligibility": "As per AICTE Norms",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-036",
+      "name": "B.P.Ed : Bachelor of Physical Education(B.P.Ed)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": "As Per NCTE Norms",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 78,
+          "career_node_slug": "sports_career",
+          "career_breadcrumb": "Performing Arts & Sports > Sports & Physical Education",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-037",
+      "name": "M.P.Ed : Master of Physical Education(M.P.Ed)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": "As Per NCTE Norms",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 78,
+          "career_node_slug": "sports_career",
+          "career_breadcrumb": "Performing Arts & Sports > Sports & Physical Education",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-038",
+      "name": "MPH : Master of Public Health (M.P.H.)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": "Any graduate of Science, Medical graduates in any discipline, B.A. with any subject (Inter with Biology is Compulsory for B.A. student) and MSW",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 339,
+          "career_node_slug": "science_paramedical",
+          "career_breadcrumb": "Paramedical & Health Sciences",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-039",
+      "name": "PPG : M.A. in Public Policy & Governance",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": "Graduation in any discipline with 40% marks",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 273,
+          "career_node_slug": "policy_analyst",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics > Policy Analyst",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-040",
+      "name": "IRR : Master of Arts( International Relations)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": "Graduation in any discipline with 40% marks",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 281,
+          "career_node_slug": "political_analyst",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science > Political Analyst",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-041",
+      "name": "M.TechPart-Time E&C : M.Tech Part-Time Electronics & Communication Engineering",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "3 YEARS",
+      "mode": "on-campus",
+      "eligibility": "(i) B. E./ B.Tech in concerned branch minimum 55% marks. Relaxation as per Govt norms to SC / ST/ OBC (NCL) / PwD. (ii) Work Experience : Minimum 2 years experience from Industry / Organization / Academic Institution / Government Department. (iii) No Objection Certificate (iv) Proximity Requirement: Maximum Distance 100 km from working institute. (v) Admission : Either by direct in GATE or based on entrance test / interview. (vi) Employment Proof : Appointment Letter, Experience Certificate, Salary Slip / ID Card and NOC from employer.",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-042",
+      "name": "M.TechPart-Time ME : M.Tech Part-Time Mechanical Engineering",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "3 YEARS",
+      "mode": "on-campus",
+      "eligibility": "(i) B. E./ B.Tech in concerned branch minimum 55% marks. Relaxation as per Govt norms to SC / ST/ OBC (NCL) / PwD. (ii) Work Experience : Minimum 2 years experience from Industry / Organization / Academic Institution / Government Department. (iii) No Objection Certificate (iv) Proximity Requirement: Maximum Distance 100 km from working institute. (v) Admission : Either by direct in GATE or based on entrance test / interview. (vi) Employment Proof : Appointment Letter, Experience Certificate, Salary Slip / ID Card and NOC from employer.",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-043",
+      "name": "PGDIPLOMA : P.G. Diploma in Awadhi",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": null,
+      "duration": "1 YEARS",
+      "mode": "on-campus",
+      "eligibility": "Graduate degree in any discipline or Diploma in Awadhi",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-044",
+      "name": "PGDIPLOMA : P.G. Diploma in Fashion Designing",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": null,
+      "duration": "1 YEARS",
+      "mode": "on-campus",
+      "eligibility": "Graduate degree in any discipline",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 57,
+          "career_node_slug": "nift",
+          "career_breadcrumb": "Design & Architecture > NIFT (Fashion Technology)",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-045",
+      "name": "PGDIPLOMA : P.G. Diploma in Counseling & Guidance",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": null,
+      "duration": "1 YEARS",
+      "mode": "on-campus",
+      "eligibility": "Three years graduation in Psychology (B.A./B.Sc.& M.A./M.Sc. with Psychology/ Social Work) as a subject in the three years at graduation level.",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 267,
+          "career_node_slug": "counsellor",
+          "career_breadcrumb": "Social Sciences & Education > BA Psychology > Counsellor / Therapist",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-046",
+      "name": "MLL : Master of Arts(Hindi Language And Literature)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": "Graduation in any discipline with 40% marks",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-047",
+      "name": "BFA : Bachelor of Fine Arts(B.F.A)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "4 YEARS",
+      "mode": "on-campus",
+      "eligibility": "Intermediate/HigherSecondary /10+2withanystream",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 60,
+          "career_node_slug": "bfa",
+          "career_breadcrumb": "Media & Journalism > B.F.A (Fine Arts)",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-048",
+      "name": "GEO : M.A./M.Sc.in Geography",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": "B.A./B.Sc. in any discipline with 40%Marks",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "No dedicated Geography node exists in the career tree."
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-049",
+      "name": "MAMAS : M.A. in Mass Communication & Journalism(M.C.J.)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": "Graduation in any discipline with 40% marks",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 59,
+          "career_node_slug": "bjmc",
+          "career_breadcrumb": "Media & Journalism > B.J.M.C (Journalism & Mass Comm)",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-050",
+      "name": "MPharm : Master of Pharmacy(Pharmaceutical Chemistry)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": "A Pass in the following examinations a) B. Pharm Degree examination of an Indian university established by law in India from an institution approved by Pharmacy Council of India and has scored not less than 55 % of the maximum marks (aggregate of 4 years of B.Pharm.) b) Every student, selected for admission to post graduate pharmacy program in any PCI approved institution should have obtained registration with the State Pharmacy Council or should obtain the same within one month from the date of his/her admission, failing which the admission of the candidate shall be cancelled. Note: It is mandatory to submit a migration certificate obtained from the respective university where the candidate had passed his/her qualifying degree (B.Pharm.)",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 143,
+          "career_node_slug": "pharmacist",
+          "career_breadcrumb": "Biology / PCB > Medical Updated > Clinical Pharmacist",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-051",
+      "name": "MPharmCeutics : Master of Pharmacy(Pharmaceutics)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": "A Pass in the following examinations a) B. Pharm Degree examination of an Indian university established by law in India from an institution approved by Pharmacy Council of India and has scored not less than 55 % of the maximum marks (aggregate of 4 years of B.Pharm.) b) Every student, selected for admission to post graduate pharmacy program in any PCI approved institution should have obtained registration with the State Pharmacy Council or should obtain the same within one month from the date of his/her admission, failing which the admission of the candidate shall be cancelled. Note: It is mandatory to submit a migration certificate obtained from the respective university where the candidate had passed his/her qualifying degree (B.Pharm.)",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 143,
+          "career_node_slug": "pharmacist",
+          "career_breadcrumb": "Biology / PCB > Medical Updated > Clinical Pharmacist",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-052",
+      "name": "MComCampus : Master of Commerce(M.Com)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": "B.Com. or B.B.A. passed",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 198,
+          "career_node_slug": "mcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons) > M.Com → Professor / Researcher",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-053",
+      "name": "B.Tech : Bachelor of Technology(Mechanical Engineering - Lateral)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "3 YEARS",
+      "mode": "on-campus",
+      "eligibility": "As per AICTE norm",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-054",
+      "name": "B.Tech : Bachelor of Technology(Computer Sc -Lateral)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "3 YEARS",
+      "mode": "on-campus",
+      "eligibility": "As per AICTE norm",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-055",
+      "name": "B.Tech : Bachelor of Technology(information Technology -Lateral)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "3 YEARS",
+      "mode": "on-campus",
+      "eligibility": "As per AICTE norm",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 89,
+          "career_node_slug": "btech_it",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Information Technology",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-056",
+      "name": "B.Tech : Bachelor of Technology(Electrical Engineering -Lateral)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "3 YEARS",
+      "mode": "on-campus",
+      "eligibility": "As per AICTE norm",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-057",
+      "name": "B.Tech : Bachelor of Technology(Electronics & Communication Engineering -Lateral)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "3 YEARS",
+      "mode": "on-campus",
+      "eligibility": "As per AICTE norm",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-058",
+      "name": "B.Pharma-lateral : Bachelor of Pharmacy(Pharmacy -Lateral)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "3 YEARS",
+      "mode": "on-campus",
+      "eligibility": "As per PCI norm",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-059",
+      "name": "B.Tech(Data Science) : Bachelor of Technology(Data Science)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "4 YEARS",
+      "mode": "on-campus",
+      "eligibility": "As per Aicte Norms",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 31,
+          "career_node_slug": "bsc_ds",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Data Science",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-060",
+      "name": "M.TechIntegrated(CE) : Integrated Master of Technology(Civil Engineering)",
+      "level": "integrated",
+      "credential": "integrated master's degree",
+      "specialization": null,
+      "duration": "5 YEARS",
+      "mode": "on-campus",
+      "eligibility": "As per AICTE Norms",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-061",
+      "name": "M.TechIntegrated(CS) : Integrated Master of Technology(Computer Science)",
+      "level": "integrated",
+      "credential": "integrated master's degree",
+      "specialization": null,
+      "duration": "5 YEARS",
+      "mode": "on-campus",
+      "eligibility": "As per AICTE Norms",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-062",
+      "name": "M.TechIntegrated(ECE : Integrated Master of Technology(Electronics&Communication Engineering)",
+      "level": "integrated",
+      "credential": "integrated master's degree",
+      "specialization": null,
+      "duration": "5 YEARS",
+      "mode": "on-campus",
+      "eligibility": "As per AICTE Norms",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-063",
+      "name": "M.TechIntegrated(EE) : Integrated Master of Technology (Electrical Engineering)",
+      "level": "integrated",
+      "credential": "integrated master's degree",
+      "specialization": null,
+      "duration": "5 YEARS",
+      "mode": "on-campus",
+      "eligibility": "As per AICTE Norms",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 85,
+          "career_node_slug": "btech_electrical",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electrical Engineering",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-064",
+      "name": "M.TechIntegrated(IT) : Integrated Master of Technology(Information Technology)",
+      "level": "integrated",
+      "credential": "integrated master's degree",
+      "specialization": null,
+      "duration": "5 YEARS",
+      "mode": "on-campus",
+      "eligibility": "As per AICTE Norms",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 89,
+          "career_node_slug": "btech_it",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Information Technology",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-065",
+      "name": "M.TechIntegrated(ME) : Integrated Master of Technology (Mechanical Engineering)",
+      "level": "integrated",
+      "credential": "integrated master's degree",
+      "specialization": null,
+      "duration": "5 YEARS",
+      "mode": "on-campus",
+      "eligibility": "As per AICTE Norms",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-066",
+      "name": "M.scZooCampus : Master of Science(Zoology)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": "B.Sc. in Zoology with 40% marks",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-067",
+      "name": "MScCheCampus : Master of Science(Chemistry)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": "B.Sc. in Chemistry with 40% marks",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 155,
+          "career_node_slug": "msc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry > M.Sc Chemistry → Researcher",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-068",
+      "name": "BTechAI : Bachelor of Technology(Artificial Intellegence)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "4 YEARS",
+      "mode": "on-campus",
+      "eligibility": "As per AICTE Norms",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 81,
+          "career_node_slug": "btech_ai",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > AI & Machine Learning",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-069",
+      "name": "BCA : Bachelor of Computer Applications(B.C.A)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "3 YEARS",
+      "mode": "on-campus",
+      "eligibility": "Intermediate/Higher Secondary (i.e. 10+2) Mathematics as one of the subjects with 36% marks",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-070",
+      "name": "GEOGARPHY : Master of Arts(Geography)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "No dedicated Geography node exists in the career tree."
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-071",
+      "name": "EDU : Master of Arts(Education)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-072",
+      "name": "B.ScAgCampus : Bachelor of Science (Agriculture)(Agriculture )",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "4 YEARS",
+      "mode": "on-campus",
+      "eligibility": "Intermediate in Agri. Sci. /PCB/PCM/PCMB",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-073",
+      "name": "BAGRI : Bachelor of Science (Agriculture)(B.Sc Ag)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "4 YEARS",
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-074",
+      "name": "ECO : Master of Arts(Economics)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-075",
+      "name": ": M.Tech.(Information Technology)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": "As per AICTE norms",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 89,
+          "career_node_slug": "btech_it",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Information Technology",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-076",
+      "name": ": M.Tech.(Electronics&Communication)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": "As per AICTE norms",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 82,
+          "career_node_slug": "btech_ece",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Electronics & Communication",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-077",
+      "name": "MADRA : M.A.in Drawing & Painting",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 247,
+          "career_node_slug": "painter_sculptor",
+          "career_breadcrumb": "Media & Journalism > B.F.A (Fine Arts) > Painter / Sculptor",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-078",
+      "name": "MAGRO : Master of Science (Agriculture)(Agronomy)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-079",
+      "name": "MAH : M.A.in Hindi",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-080",
+      "name": "MAHD : Master of Science (Agriculture)(Animal Husbandary & Dairying)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-081",
+      "name": "MANHIS : Master of Arts(Ancient History, Culture & Archaeology)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-082",
+      "name": "MAT : Master of Arts(Mathematics)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 90,
+          "career_node_slug": "msc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics > M.Sc Mathematics → Professor / Researcher",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-083",
+      "name": "MCOM : Master of Commerce(M.COM)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 198,
+          "career_node_slug": "mcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons) > M.Com → Professor / Researcher",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-084",
+      "name": "MENTO : Master of Science (Agriculture)(Entomology)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-085",
+      "name": "MGPB : Master of Science (Agriculture)(Genetics & Plant Breeding)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-086",
+      "name": "MHOR : Master of Science (Agriculture)(Horticulture)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-087",
+      "name": "MHS : Master of Arts(Home Science)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "No dedicated Home Science node exists in the career tree."
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-088",
+      "name": "MMATH : Master of Science(M.Sc. Mathematics)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 90,
+          "career_node_slug": "msc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics > M.Sc Mathematics → Professor / Researcher",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-089",
+      "name": "MMH : Master of Arts(Medieval & Modern History)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 70,
+          "career_node_slug": "ba_history",
+          "career_breadcrumb": "Social Sciences & Education > BA History",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-090",
+      "name": "MPHI : Master of Arts(Philosophy)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-091",
+      "name": "MPHY : Master of Science(M.Sc. Physics)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 153,
+          "career_node_slug": "msc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics > M.Sc Physics → Researcher / Professor",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-092",
+      "name": "MSBOT : Master of Science(Botany)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-093",
+      "name": "MSCHE : Master of Science(Chemistry)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 155,
+          "career_node_slug": "msc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry > M.Sc Chemistry → Researcher",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-094",
+      "name": "MSDSS : Master of Science(Defence and Strategic Studies)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 281,
+          "career_node_slug": "political_analyst",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science > Political Analyst",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-095",
+      "name": "MSOAG : Master of Science (Agriculture)(Soil Science & Agriculture Chemistry)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-096",
+      "name": "MVO : Master of Arts(Music (Vocal))",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 75,
+          "career_node_slug": "music_course",
+          "career_breadcrumb": "Performing Arts & Sports > Music (BA / Diploma)",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-097",
+      "name": "POL : Master of Arts(Political Science)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 281,
+          "career_node_slug": "political_analyst",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science > Political Analyst",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-098",
+      "name": "PSY : Master of Arts(Psychology)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 66,
+          "career_node_slug": "ba_psychology",
+          "career_breadcrumb": "Social Sciences & Education > BA Psychology",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-099",
+      "name": "SAN : Master of Arts(Sanskrit)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-100",
+      "name": "URDU : Master of Arts(Urdu)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-101",
+      "name": "BSCHSC : Bachelor of Science(Home Science)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "3 YEARS",
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "No dedicated Home Science node exists in the career tree."
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-102",
+      "name": "BSCAV : Bachelor of Science(B.Sc Avation)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "3 YEARS",
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 29,
+          "career_node_slug": "pilot_training",
+          "career_breadcrumb": "Common Paths > Commercial Pilot Training",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-103",
+      "name": "MHSCD : (M.Sc. Home Science- Child Development)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "No dedicated Home Science node exists in the career tree."
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-104",
+      "name": "MHSFN : (M.Sc. Home Science- Food & Nutrition)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "No dedicated Home Science node exists in the career tree."
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-105",
+      "name": "Annual 01 : Bachelor of Library & Information Sciences(library)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "1 YEARS",
+      "mode": "on-campus",
+      "eligibility": "Graduation in any discipline with36%marks",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "No dedicated Library and Information Science node exists in the career tree."
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-106",
+      "name": "Annual 02 : Master of Library & Information Sciences(library)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "1 YEARS",
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "No dedicated Library and Information Science node exists in the career tree."
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-107",
+      "name": "MZOO : Master of Science(M.Sc. Zoology)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-108",
+      "name": "B.Tech : Bachelor of Technology(Civil Engineering -Lateral)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "4 YEARS",
+      "mode": "on-campus",
+      "eligibility": "As per AICTE norm",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 84,
+          "career_node_slug": "btech_civil",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-109",
+      "name": "MPA : Master of Performing Arts(M.P.A)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": "Graduation in music with in certificate/diploma course",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 75,
+          "career_node_slug": "music_course",
+          "career_breadcrumb": "Performing Arts & Sports > Music (BA / Diploma)",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-110",
+      "name": "M.Tech : M.Tech.(Computer Science)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": "As per AICTE norms",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-111",
+      "name": "M.Tech : M.Tech.(Mechanical Engineering)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": "As per AICTE norms",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 83,
+          "career_node_slug": "btech_mech",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Mechanical Engineering",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-112",
+      "name": "M.Tech.Part-TimeCS : Master of Technology(Computer Science)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "3 YEARS",
+      "mode": "on-campus",
+      "eligibility": "(i) B. E./ B.Tech in concerned branch minimum 55% marks. Relaxation as per Govt norms to SC / ST/ OBC (NCL) / PwD. (ii) Work Experience : Minimum 2 years experience from Industry / Organization / Academic Institution / Government Department. (iii) No Objection Certificate (iv) Proximity Requirement: Maximum Distance 100 km from working institute. (v) Admission : Either by direct in GATE or based on entrance test / interview. (vi) Employment Proof : Appointment Letter, Experience Certificate, Salary Slip / ID Card and NOC from employer.",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 80,
+          "career_node_slug": "btech_cs",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Computer Science",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-113",
+      "name": "M.Tech.Part-TimeIT : Master of Technology(Information Technology)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "3 YEARS",
+      "mode": "on-campus",
+      "eligibility": "(i) B. E./ B.Tech in concerned branch minimum 55% marks. Relaxation as per Govt norms to SC / ST/ OBC (NCL) / PwD. (ii) Work Experience : Minimum 2 years experience from Industry / Organization / Academic Institution / Government Department. (iii) No Objection Certificate (iv) Proximity Requirement: Maximum Distance 100 km from working institute. (v) Admission : Either by direct in GATE or based on entrance test / interview. (vi) Employment Proof : Appointment Letter, Experience Certificate, Salary Slip / ID Card and NOC from employer.",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 89,
+          "career_node_slug": "btech_it",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Information Technology",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-114",
+      "name": "MADEF : M.A. in Strategic Studies",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": null,
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 281,
+          "career_node_slug": "political_analyst",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science > Political Analyst",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-115",
+      "name": "M.Tech : Master of Technology(Structural Engineering)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": "As per AICTE norms",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 321,
+          "career_node_slug": "structural_engineer",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering > Structural Engineer",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-116",
+      "name": "M.Tech : Master of Technology(Environmental Engineering)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": "As per AICTE norms",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 26,
+          "career_node_slug": "bsc_env",
+          "career_breadcrumb": "Common Paths > B.Sc Environmental Science",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-117",
+      "name": "M.TechPart-Time : Master of Technology(Structural Engineering Part-Time)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "3 YEARS",
+      "mode": "on-campus",
+      "eligibility": "As per AICTE Normas",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 321,
+          "career_node_slug": "structural_engineer",
+          "career_breadcrumb": "Maths / PCM > B.Tech / B.E. > Civil Engineering > Structural Engineer",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-118",
+      "name": "M.TechPart-Time : Master of Technology(Environmental Engineering Part-Time)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "3 YEARS",
+      "mode": "on-campus",
+      "eligibility": "As per AICTE Normas",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 26,
+          "career_node_slug": "bsc_env",
+          "career_breadcrumb": "Common Paths > B.Sc Environmental Science",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-119",
+      "name": "M.C.A : Master of Computer Application(M.C.A)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": "As per AICTE Norms",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 93,
+          "career_node_slug": "mca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications) > MCA → Software Engineer",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-120",
+      "name": "M.Ed : Master of Education(M.Ed)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": "As per norms of NCTE B.Ed./B.A.-B.Ed./B.Sc. B.Ed./ D.EL.Ed/ B.El.Ed. with 50% marks.",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-121",
+      "name": "MBA : Master of Business Administration(MBA)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": "Graduation in any discipline with 50% Marks for GEN/OBC and 45%Marks SC/ST",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 46,
+          "career_node_slug": "bba",
+          "career_breadcrumb": "Management & Business > BBA (General)",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-122",
+      "name": "MScBotCampus : Master of Science(Botany)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": "B.Sc. in Botany with 40% marks",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-123",
+      "name": "D.Pharma : Diploma in Pharmacy (D. Pharm.)",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": "As Per PCI Norms",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 143,
+          "career_node_slug": "pharmacist",
+          "career_breadcrumb": "Biology / PCB > Medical Updated > Clinical Pharmacist",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-124",
+      "name": "MMB : M.Sc.Microbiology",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": "B.Sc. in any discipline of Biological Sciences with Chemistry /Biochemistry/ Microbiology/Biotechnology studied for at least two years during graduation with 40% marks ***Special drive for SC/ST students only. The candidates belonging to OBC or UR must not apply***",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 34,
+          "career_node_slug": "bsc_microbio",
+          "career_breadcrumb": "Paramedical & Health Sciences > B.Sc Microbiology",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-125",
+      "name": "LLB3 : Bachelor of Law 3Years (LL.B. 03Years)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "3 YEARS",
+      "mode": "on-campus",
+      "eligibility": "As per B.C.I. norms",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 347,
+          "career_node_slug": "art_law",
+          "career_breadcrumb": "Law & Civil Services",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-126",
+      "name": "MBAAG : M.B.A.in Agri. Business",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": "Graduation in any discipline with 50% Marks for GEN/OBC and 45%Marks SC/ST",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 30,
+          "career_node_slug": "bsc_agriculture",
+          "career_breadcrumb": "Common Paths > B.Sc Agriculture",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-127",
+      "name": "MBAFC : M.B.A. in Finance & Control",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": "Graduation in any discipline with 50% Marks for GEN/OBC and 45%Marks SC/ST",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 201,
+          "career_node_slug": "mba_finance",
+          "career_breadcrumb": "Finance & Investment > BBA Finance > MBA Finance → CFO Track",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-128",
+      "name": "BP203 : Bachelor of Pharmacy (B. Pharm.)",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "4 YEARS",
+      "mode": "on-campus",
+      "eligibility": "As Per PCI Norms",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 20,
+          "career_node_slug": "bpharm",
+          "career_breadcrumb": "Biology / PCB > Medical Updated",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "dr-ram-manohar-lohia-awadh-university-faizabad-rmlauadm-129",
+      "name": "LL.M : Master of Law(LL.M)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": "2 YEARS",
+      "mode": "on-campus",
+      "eligibility": "LL.B.3 years/ 5years with 50% marks",
+      "official_course_url": "https://rmlauadm.samarth.edu.in/index.php/site/programme",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 347,
+          "career_node_slug": "art_law",
+          "career_breadcrumb": "Law & Civil Services",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The NIRF Management and Overall 2025 listings both contain the exact institution name in Ayodhya, Uttar Pradesh.",
+    "Normal TLS requests returned the managed proxy self-signed certificate-chain error; curl --insecure was used only for public GETs to the expected official domains.",
+    "The official admission page links the current 2026-27 campus catalogue at rmlauadm.samarth.edu.in. It lists 130 entries; the entry explicitly named Test Programme (Do Not Apply) was excluded as non-active.",
+    "The official Ph.D. page links a portal whose public page is labelled Application Form for Ph.D. Common Entrance Test (CET-2024), so a current doctoral programme catalogue could not be established. The record therefore requires manual review and the catalogue status is partial_official_website.",
+    "Eleven catalogue entries have no responsible exact or close career-tree mapping: Library and Information Science, Yoga, Geography, and Home Science entries are left unmapped with mapping gaps."
+  ]
+}

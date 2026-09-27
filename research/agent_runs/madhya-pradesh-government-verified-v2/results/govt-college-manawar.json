@@ -1,0 +1,79 @@
+{
+  "institution_id": "govt-college-manawar",
+  "nirf_name": "Govt. College, Manawar",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": null,
+  "district_verification_status": "pending_official_source",
+  "official_website": null,
+  "website_verification_status": "not_found",
+  "description": null,
+  "description_verification_status": "not_found",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "supplied_government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "The fetched 2025 NIRF CollegeRankingALL page contained no case-insensitive match for Manawar or Govt. College, Manawar."
+      ]
+    },
+    {
+      "type": "supplemental_government_directory",
+      "url": "https://highereducation.mp.gov.in/?page=3ReniKuyIMmDd4opO%2FkIdA%3D%3D",
+      "supports": [
+        "The Madhya Pradesh Higher Education Department directory lists शा.कॉलेज,मनावर with college ID 155."
+      ]
+    },
+    {
+      "type": "supplemental_government_directory_json",
+      "url": "https://highereducation.mp.gov.in/CollegeDisp/getTable",
+      "supports": [
+        "The public directory record for orgid 155 identifies Govt College, Manawar, District Dhar, college code 2203, and hegcmandha@mp.gov.in."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Govt. College, Manawar\" Madhya Pradesh official website",
+      "result": "Google returned HTTP 429, so no result page was available.",
+      "url": "https://www.google.com/search?q=%22Govt.%20College%2C%20Manawar%22%20Madhya%20Pradesh%20official%20website"
+    },
+    {
+      "query": "\"Govt. College, Manawar\" Madhya Pradesh official website",
+      "result": "Bing returned no focused official college result among the parsed first-page results; results were general government and job pages.",
+      "url": "https://www.bing.com/search?q=%22Govt.%20College%2C%20Manawar%22%20Madhya%20Pradesh%20official%20website"
+    },
+    {
+      "query": "site:mp.gov.in college Manawar Dhar Madhya Pradesh",
+      "result": "Bing returned no official MP college result among the parsed first-page results.",
+      "url": "https://www.bing.com/search?q=site%3Amp.gov.in%20college%20Manawar%20Dhar%20Madhya%20Pradesh"
+    },
+    {
+      "query": "\"Government College Manawar\"",
+      "result": "Bing returned no focused official college result among the parsed first-page results.",
+      "url": "https://www.bing.com/search?q=%22Government%20College%20Manawar%22"
+    },
+    {
+      "query": "\"Govt College Manawar\" Madhya Pradesh",
+      "result": "Bing returned no focused official college result among the parsed first-page results.",
+      "url": "https://www.bing.com/search?q=%22Govt%20College%20Manawar%22%20Madhya%20Pradesh"
+    },
+    {
+      "query": "\"hegcmandha@mp.gov.in\"",
+      "result": "Bing returned unrelated generic help and social results, with no official college website.",
+      "url": "https://www.bing.com/search?q=%22hegcmandha%40mp.gov.in%22"
+    }
+  ],
+  "course_catalogue_status": "not_found",
+  "courses": [],
+  "agent_notes": [
+    "Normal TLS to www.nirfindia.org failed with the managed proxy self-signed certificate-chain error; public GETs were retried with curl --insecure after confirming the expected public host.",
+    "The supplied NIRF government listing could not be established because the fetched 2025 CollegeRankingALL page contained no Manawar match.",
+    "A supplemental Madhya Pradesh Higher Education Department directory independently identifies the institution and Dhar district, but it is not the government source supplied in INSTITUTION_CONTEXT and cannot satisfy the listing gate.",
+    "The department website's college-website form requires CAPTCHA, and no actual institution website was established. No description, programme catalogue, duration, eligibility, or career mapping was imported."
+  ]
+}

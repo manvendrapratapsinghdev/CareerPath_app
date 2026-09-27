@@ -1,0 +1,15 @@
+{
+  "institution_id": "legacy-19",
+  "database_id": 19,
+  "name": "Navkar Institute",
+  "website": "https://www.navkarinstitute.com",
+  "outcome": "manual_review",
+  "institution_type": null,
+  "source_url": null,
+  "confidence": null,
+  "evidence": null,
+  "notes": [
+    "Normal TLS verification failed with the managed proxy's self-signed certificate-chain error; the permitted --insecure fallback was used for public GET requests.",
+    "The official hostname returned HTTP 502 Connection refused for the homepage and checked official paths, so institutional type could not be established from official page evidence."
+  ]
+}

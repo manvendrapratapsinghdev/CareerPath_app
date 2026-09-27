@@ -1,0 +1,15 @@
+{
+  "institution_id": "legacy-44",
+  "database_id": 44,
+  "name": "Coursera / edX MicroMasters",
+  "website": "https://www.coursera.org",
+  "outcome": "classified",
+  "institution_type": "online_learning_platform",
+  "source_url": "https://www.coursera.org/about/how-coursera-works",
+  "confidence": "medium",
+  "evidence": "Coursera's official page describes the organization as offering flexible, affordable, job-relevant online learning and providing courses and recognized credentials through its platform.",
+  "notes": [
+    "Used curl --insecure only after normal TLS verification failed with a self-signed certificate in the proxy certificate chain.",
+    "The supplied official domain identifies Coursera; the edX component of the compound name is not separately documented on the supplied domain."
+  ]
+}

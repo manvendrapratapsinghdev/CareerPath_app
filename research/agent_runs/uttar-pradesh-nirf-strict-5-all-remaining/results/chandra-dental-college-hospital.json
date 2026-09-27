@@ -1,0 +1,81 @@
+{
+  "institution_id": "chandra-dental-college-hospital",
+  "nirf_name": "Chandra Dental College & Hospital",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/DentalRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": null,
+  "district_verification_status": "pending_official_source",
+  "official_website": "https://chandradentalcollege.com/",
+  "website_verification_status": "ambiguous",
+  "description": null,
+  "description_verification_status": "not_found",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_discovery_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/DentalRankingALL.html",
+      "supports": [
+        "Exact institution listing: Chandra Dental College & Hospital",
+        "City: Barabanki",
+        "State: Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "government_discovery_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Exact institution listing: Chandra Dental College & Hospital",
+        "City: Barabanki",
+        "State: Uttar Pradesh"
+      ]
+    },
+    {
+      "type": "official_website_probe",
+      "url": "https://chandradentalcollege.com/",
+      "supports": [
+        "Expected official domain resolved, but the homepage returned HTTP 500 with zero page content; institution identity was not verifiable from the page."
+      ]
+    },
+    {
+      "type": "official_website_probe",
+      "url": "https://chandradentalcollege.com/robots.txt",
+      "supports": [
+        "The domain returned robots.txt identifying the same domain and sitemap path, but this does not establish campus identity or programme details."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Chandra Dental College & Hospital\" Barabanki official website",
+      "result": "Bing search returned no usable institution homepage; results were unrelated Chandra pages and were not used as verification evidence.",
+      "url": "https://www.bing.com/search?q=%22Chandra+Dental+College+%26+Hospital%22+Barabanki+official+website"
+    },
+    {
+      "query": "site:chandradentalcollege.com",
+      "result": "Bing site search returned no usable indexed institution page.",
+      "url": "https://www.bing.com/search?q=site%3Achandradentalcollege.com"
+    },
+    {
+      "query": "\"Chandra Dental College\" Barabanki official site",
+      "result": "Google search was blocked by an automated-traffic CAPTCHA; no search result was used as verification evidence.",
+      "url": "https://www.google.com/search?q=%22Chandra+Dental+College%22+Barabanki+official+site"
+    },
+    {
+      "query": "Direct HTTPS checks of homepage, about, programme, admissions, and courses paths on chandradentalcollege.com",
+      "result": "Homepage and tested about, BDS, MDS, admission, admissions, and courses URLs all returned HTTP 500 with zero bytes, so no current official catalogue could be read.",
+      "url": "https://chandradentalcollege.com/"
+    }
+  ],
+  "course_catalogue_status": "not_found",
+  "courses": [],
+  "agent_notes": [
+    "Government directory listing was independently established in both supplied NIRF 2025 Dental and Overall pages.",
+    "The likely official domain was reachable, but the homepage and tested programme/admissions pages consistently returned HTTP 500 with no readable content; identity, district, description, current programme names, duration, and eligibility therefore remain unverified.",
+    "Normal TLS verification first failed with the managed proxy error 'self signed certificate in certificate chain'; --insecure was then used only for public GET requests to the expected NIRF, search, and official-domain hosts.",
+    "Manual review is required before importing the institution or any courses."
+  ]
+}

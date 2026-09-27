@@ -1,0 +1,15 @@
+{
+  "institution_id": "legacy-128",
+  "database_id": 128,
+  "name": "Asian Academy of Film and Television",
+  "website": "https://www.aaft.com",
+  "outcome": "classified",
+  "institution_type": "specialized",
+  "source_url": "https://www.aaft.com/about-us",
+  "confidence": "high",
+  "evidence": "The official AAFT page describes it as a creative educational institute focused on media and arts, offering programs in cinema, journalism, animation, music, fashion, photography, and related creative fields.",
+  "notes": [
+    "The official site uses AAFT/AAFT Noida branding and lists its address in Noida, matching the supplied institution.",
+    "Used curl --insecure after normal TLS verification failed with a self-signed certificate in the certificate chain."
+  ]
+}

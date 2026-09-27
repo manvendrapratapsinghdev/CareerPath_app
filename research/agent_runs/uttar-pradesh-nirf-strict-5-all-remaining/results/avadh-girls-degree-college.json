@@ -1,0 +1,282 @@
+{
+  "institution_id": "avadh-girls-degree-college",
+  "nirf_name": "AVADH GIRLS DEGREE COLLEGE",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Lucknow",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://agdc.ac.in/",
+  "website_verification_status": "verified",
+  "description": "Avadh Girls’ Degree College is a higher education institution for female students in Lucknow, run by the Avadh Educational Society. The official history page states that it was founded in 1958 as Loreto Degree College and taken over by the society in 1975.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Lists AVADH GIRLS DEGREE COLLEGE in Lucknow, Uttar Pradesh."
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://agdc.ac.in/",
+      "supports": [
+        "Official page title identifies Avadh Girls' Degree College, Lucknow.",
+        "Footer identifies Avadh Girls’ Degree College, Lucknow.",
+        "Current official site navigation exposes programme and short-course pages."
+      ]
+    },
+    {
+      "type": "official_campus_identity",
+      "url": "https://agdc.ac.in/pages/history-tradition",
+      "supports": [
+        "Describes the institution as a higher education institution for female students.",
+        "Official page title and footer identify the Lucknow campus."
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://agdc.ac.in/pages/courses",
+      "supports": [
+        "Current Courses page lists Bachelor of Arts, Bachelor of Commerce, and Master of Arts.",
+        "Master of Arts table lists English, Political Science, Geography, and Education."
+      ]
+    },
+    {
+      "type": "official_programme_page",
+      "url": "https://agdc.ac.in/pages/ba",
+      "supports": [
+        "Official Bachelor of Arts programme page."
+      ]
+    },
+    {
+      "type": "official_programme_page",
+      "url": "https://agdc.ac.in/pages/b-com",
+      "supports": [
+        "Official Bachelor of Commerce programme page."
+      ]
+    },
+    {
+      "type": "official_programme_page",
+      "url": "https://agdc.ac.in/pages/maenglish",
+      "supports": [
+        "Official Master of Arts page listing the four specializations."
+      ]
+    },
+    {
+      "type": "official_short_course_catalogue",
+      "url": "https://agdc.ac.in/pages/short-courses",
+      "supports": [
+        "Official Short Courses page links to Certificate in Fundamentals of Computer."
+      ]
+    },
+    {
+      "type": "official_programme_page",
+      "url": "https://agdc.ac.in/pages/certificate-in-fundamentals-of-computer",
+      "supports": [
+        "Official page names and describes the Certificate in Fundamentals of Computer."
+      ]
+    },
+    {
+      "type": "official_admissions_page",
+      "url": "https://agdc.ac.in/pages/admission-procedure",
+      "supports": [
+        "States eligibility for B.A., B.Com., and M.A. admissions."
+      ]
+    },
+    {
+      "type": "official_catalogue_gap_evidence",
+      "url": "https://agdc.ac.in/pages/ignou-study-center",
+      "supports": [
+        "States that the IGNOU study centre provides 7 certificate, 6 diploma, and 7 degree courses but does not enumerate current programme names."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Avadh Girls Degree College\" Lucknow official",
+      "result": "Bing discovery result identified agdc.ac.in as a candidate; the search result was used only for discovery, not verification.",
+      "url": "https://www.bing.com/search?q=%22Avadh+Girls+Degree+College%22+Lucknow+official"
+    },
+    {
+      "query": "\"Avadh Girls Degree College\" admission Lucknow",
+      "result": "Bing discovery result again identified agdc.ac.in; official pages were fetched directly for verification.",
+      "url": "https://www.bing.com/search?q=%22Avadh+Girls+Degree+College%22+admission+Lucknow"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "avadh-girls-degree-college-bachelor-of-arts",
+      "name": "Bachelor of Arts (B.A.)",
+      "level": "Undergraduate",
+      "credential": "Bachelor of Arts",
+      "specialization": null,
+      "duration": null,
+      "mode": "On-campus",
+      "eligibility": "Intermediate or equivalent examination recognized by the University of Lucknow.",
+      "official_course_url": "https://agdc.ac.in/pages/ba",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent mapping for the general B.A.; the official page does not expose one single discipline",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "avadh-girls-degree-college-bachelor-of-commerce",
+      "name": "Bachelor of Commerce (B. Com.)",
+      "level": "Undergraduate",
+      "credential": "Bachelor of Commerce",
+      "specialization": null,
+      "duration": null,
+      "mode": "On-campus",
+      "eligibility": "Intermediate or equivalent examination recognized by the University of Lucknow.",
+      "official_course_url": "https://agdc.ac.in/pages/b-com",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct discipline mapping; the official title is B.Com and the career-tree label includes B.Com / B.Com (Hons)",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "avadh-girls-degree-college-ma-english",
+      "name": "Master of Arts in (English)",
+      "level": "Postgraduate",
+      "credential": "Master of Arts",
+      "specialization": "English",
+      "duration": null,
+      "mode": "On-campus",
+      "eligibility": "Graduation degree from a recognised university.",
+      "official_course_url": "https://agdc.ac.in/pages/maenglish",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "closest-specialization mapping; English discipline with postgraduate credential mismatch",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "avadh-girls-degree-college-ma-political-science",
+      "name": "Master of Arts in (Political Science)",
+      "level": "Postgraduate",
+      "credential": "Master of Arts",
+      "specialization": "Political Science",
+      "duration": null,
+      "mode": "On-campus",
+      "eligibility": "Graduation degree from a recognised university.",
+      "official_course_url": "https://agdc.ac.in/pages/maenglish",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "closest-specialization mapping; Political Science discipline with postgraduate credential mismatch",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "avadh-girls-degree-college-ma-geography",
+      "name": "Master of Arts in (Geography)",
+      "level": "Postgraduate",
+      "credential": "Master of Arts",
+      "specialization": "Geography",
+      "duration": null,
+      "mode": "On-campus",
+      "eligibility": "Graduation degree from a recognised university.",
+      "official_course_url": "https://agdc.ac.in/pages/maenglish",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent mapping; no Geography-specific career node exists in the local career tree",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "avadh-girls-degree-college-ma-education",
+      "name": "Master of Arts in (Education)",
+      "level": "Postgraduate",
+      "credential": "Master of Arts",
+      "specialization": "Education",
+      "duration": null,
+      "mode": "On-campus",
+      "eligibility": "Graduation degree from a recognised university.",
+      "official_course_url": "https://agdc.ac.in/pages/maenglish",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 69,
+          "career_node_slug": "ba_education",
+          "career_breadcrumb": "Social Sciences & Education > B.Ed (Education)",
+          "relation": "closest-specialization mapping; Education discipline with postgraduate credential mismatch",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "avadh-girls-degree-college-certificate-fundamentals-of-computer",
+      "name": "Certificate in Fundamentals of Computer",
+      "level": "Certificate",
+      "credential": "Certificate",
+      "specialization": null,
+      "duration": null,
+      "mode": "On-campus",
+      "eligibility": "Bona-fide students of the College.",
+      "official_course_url": "https://agdc.ac.in/pages/certificate-in-fundamentals-of-computer",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "closest-specialization mapping for computer fundamentals; the career-tree node is a degree-level computer-applications path",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The NIRF 2025 government listing contains the exact institution name with Lucknow, Uttar Pradesh.",
+    "Normal TLS verification first failed with the managed proxy's self-signed certificate chain error; after confirming the expected official, government, and search hostnames, public GET requests used curl --insecure.",
+    "The official site provides a current regular/short-course catalogue for B.A., B.Com., four M.A. specializations, and the computer fundamentals certificate.",
+    "The official IGNOU Study Center page states 7 certificate, 6 diploma, and 7 degree courses but does not enumerate current programme names; its listed examples are historical 2021-2022 enrollment codes, so those programmes were not guessed or imported.",
+    "Programme durations were not explicitly stated on the reviewed official catalogue pages and were left null."
+  ]
+}

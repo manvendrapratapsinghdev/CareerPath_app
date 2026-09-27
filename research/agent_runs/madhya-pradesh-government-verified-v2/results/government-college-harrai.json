@@ -1,0 +1,332 @@
+{
+  "institution_id": "government-college-harrai",
+  "nirf_name": "Government College Harrai",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "verified",
+  "district": "Chhindwara",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://epravesh.highereducation.mp.gov.in/EBrochure_College_Details.aspx?cm_id=LNLN20RrdDA%3D",
+  "website_verification_status": "verified",
+  "description": "Government College, Harrai is a government, co-educational rural undergraduate college in Harrai, Chhindwara district, affiliated with Chhindwara University.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "verified",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact institution listing: Government College Harrai",
+        "City: Harrai",
+        "State: Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://epravesh.highereducation.mp.gov.in/",
+      "supports": [
+        "Official Madhya Pradesh Higher Education admissions portal"
+      ]
+    },
+    {
+      "type": "official_institution_page",
+      "url": "https://epravesh.highereducation.mp.gov.in/EBrochure_College_Details.aspx?cm_id=LNLN20RrdDA%3D",
+      "supports": [
+        "College code 3612 and name Govt College, Harrai",
+        "Chhindwara district and Harrai taluka",
+        "HARRAI, TH. HARRAI 480224 address",
+        "Government status, co-educational type, rural area, undergraduate status",
+        "Chhindwara University, Chhindwara affiliation"
+      ]
+    },
+    {
+      "type": "official_catalogue_page",
+      "url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "supports": [
+        "Current official college directory and programme catalogue"
+      ]
+    },
+    {
+      "type": "official_catalogue_api",
+      "url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx/Bind_Form_EBrochure_All_Data",
+      "supports": [
+        "College 3612 current course families B. A. and B. Sc.",
+        "Under Graduation course status"
+      ]
+    },
+    {
+      "type": "official_branch_catalogue_api",
+      "url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx/Bind_Degree_Wise_Branch_intake_EBroucher",
+      "supports": [
+        "Active B. A. branches for college 325",
+        "Active B. Sc. branches for college 325"
+      ]
+    }
+  ],
+  "website_search_evidence": [],
+  "course_catalogue_status": "verified_official_website",
+  "courses": [
+    {
+      "course_id": "government-college-harrai-ba-english-literature",
+      "name": "B. A.",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "English Literature",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 72,
+          "career_node_slug": "ba_english",
+          "career_breadcrumb": "Languages & Literature > BA English Literature",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-harrai-ba-economics",
+      "name": "B. A.",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Economics",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-harrai-ba-sociology",
+      "name": "B. A.",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Sociology",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-harrai-ba-political-science",
+      "name": "B. A.",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Political Science",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-harrai-ba-geography",
+      "name": "B. A.",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Geography",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest-parent: Social Sciences & Education; no Geography node exists",
+          "confidence": "low",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-harrai-ba-hindi-literature",
+      "name": "B. A.",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Hindi Literature",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-harrai-bsc-chemistry",
+      "name": "B. Sc.",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Chemistry",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-harrai-bsc-physics",
+      "name": "B. Sc.",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Physics",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 24,
+          "career_node_slug": "bsc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-harrai-bsc-zoology",
+      "name": "B. Sc.",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Zoology",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 336,
+          "career_node_slug": "science_bio",
+          "career_breadcrumb": "Biology / PCB",
+          "relation": "nearest-parent: Biology / PCB; no Zoology node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-harrai-bsc-mathematics",
+      "name": "B. Sc.",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Mathematics",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-harrai-bsc-botany",
+      "name": "B. Sc.",
+      "level": "undergraduate",
+      "credential": "Bachelor's degree",
+      "specialization": "Botany",
+      "duration": null,
+      "mode": "not stated",
+      "eligibility": null,
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 336,
+          "career_node_slug": "science_bio",
+          "career_breadcrumb": "Biology / PCB",
+          "relation": "nearest-parent: Biology / PCB; no Botany node exists",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The matching NIRF 2025 College listing contains Government College Harrai in Harrai, Madhya Pradesh.",
+    "The official Madhya Pradesh Higher Education ePravesh e-brochure identifies college code 3612 as Govt College, Harrai, Chhindwara University, Chhindwara, with Chhindwara district, Harrai taluka, HARRAI address, government status, and undergraduate course status.",
+    "The current official catalogue lists B. A. and B. Sc. with 6 and 5 active branches respectively. Duration and eligibility were not stated and were left null.",
+    "The embedded legacy college website value www.mphighereducation.gov.in/govt.collegeharrai did not resolve; the live government-hosted ePravesh e-brochure was used as the official institutional page.",
+    "Normal TLS verification returned the exact self-signed certificate-in-chain proxy error for NIRF and ePravesh; official-host requests were retried with curl --insecure. No credentials were sent."
+  ]
+}

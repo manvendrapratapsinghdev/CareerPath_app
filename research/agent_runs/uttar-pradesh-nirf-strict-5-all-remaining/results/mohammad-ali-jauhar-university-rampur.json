@@ -1,0 +1,64 @@
+{
+  "institution_id": "mohammad-ali-jauhar-university-rampur",
+  "nirf_name": "Mohammad Ali Jauhar University, Rampur",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/AgricultureRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/EngineeringRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/LawRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/ManagementRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/PharmacyRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": null,
+  "district_verification_status": "pending_official_source",
+  "official_website": "https://www.jauharuniversity.edu.in/",
+  "website_verification_status": "ambiguous",
+  "description": null,
+  "description_verification_status": "pending",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Exact institution row: Mohammad Ali Jauhar University, Rampur; city Rampur; state Uttar Pradesh."
+      ]
+    },
+    {
+      "type": "government_directory",
+      "url": "https://www.nirfindia.org/Rankings/2025/AgricultureRankingALL.html",
+      "supports": [
+        "Exact institution row: Mohammad Ali Jauhar University, Rampur; city Rampur; state Uttar Pradesh."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "Mohammad Ali Jauhar University Rampur official website",
+      "result": "Focused search identified https://www.jauharuniversity.edu.in/ as the candidate domain. Direct HTTPS GET of the homepage returned HTTP 500 with a zero-byte response; the search result was used only for discovery, not verification.",
+      "url": "https://www.jauharuniversity.edu.in/"
+    },
+    {
+      "query": "site:jauharuniversity.edu.in course",
+      "result": "Search indexed https://www.jauharuniversity.edu.in/courses_offered.html and https://www.jauharuniversity.edu.in/engineering_and_technology.html. Direct HTTPS GETs returned HTTP 500 with zero-byte responses, so no current official catalogue could be read.",
+      "url": "https://www.jauharuniversity.edu.in/courses_offered.html"
+    },
+    {
+      "query": "site:jauharuniversity.edu.in admission",
+      "result": "Search indexed https://www.jauharuniversity.edu.in/register.aspx. Direct HTTPS GET returned HTTP 500 with a zero-byte response; no official admissions or eligibility content could be verified.",
+      "url": "https://www.jauharuniversity.edu.in/register.aspx"
+    }
+  ],
+  "course_catalogue_status": "not_found",
+  "courses": [],
+  "agent_notes": [
+    "Government listing was established from the official NIRF 2025 Overall and Agriculture ranking pages, which contain the exact assigned institution name with Rampur, Uttar Pradesh.",
+    "Normal TLS verification initially failed with the managed proxy self-signed certificate-chain error. After confirming the expected hostnames, curl --insecure was used only for public GET requests.",
+    "The candidate official domain and indexed programme paths consistently returned HTTP 500 with zero-byte bodies, so the official homepage, campus/district page, description, current programme catalogue, durations, and eligibility could not be verified.",
+    "https://mau.ac.in/ was rejected as a similarly named institution because its homepage identifies Maharaja Agrasen University and references Baddi/Himachal Pradesh.",
+    "Manual review is required; no course names were imported because the official catalogue was unavailable."
+  ]
+}

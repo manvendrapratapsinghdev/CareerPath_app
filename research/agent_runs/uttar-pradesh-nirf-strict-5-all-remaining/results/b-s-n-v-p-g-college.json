@@ -1,0 +1,851 @@
+{
+  "institution_id": "b-s-n-v-p-g-college",
+  "nirf_name": "B.S.N.V. P.G. COLLEGE",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+    "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Lucknow",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://bsnvpgcollege.ac.in/",
+  "website_verification_status": "verified",
+  "description": "Bappa Sri Narain Vocational P.G College (KKV) is a Lucknow college offering undergraduate and postgraduate programmes in arts, science, commerce and computer applications.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [],
+  "verification_sources": [
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Lists B.S.N.V. P.G. COLLEGE in Lucknow, Uttar Pradesh."
+      ]
+    },
+    {
+      "type": "government_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/OverallRankingALL.html",
+      "supports": [
+        "Lists B.S.N.V. P.G. COLLEGE in Lucknow, Uttar Pradesh."
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://bsnvpgcollege.ac.in/",
+      "supports": [
+        "Official site identifies Bappa Sri Narain Vocational P.G College (KKV).",
+        "Shows current 2026-27 admission and programme notices."
+      ]
+    },
+    {
+      "type": "official_campus_contact",
+      "url": "https://bsnvpgcollege.ac.in/ContactUs.aspx",
+      "supports": [
+        "Identifies Bappa Sri Narain Vocational P.G. College (KKV), Station Road, Lucknow, Uttar Pradesh 226001."
+      ]
+    },
+    {
+      "type": "official_course_catalogue",
+      "url": "https://bsnvpgcollege.ac.in/Courses.aspx",
+      "supports": [
+        "Lists 15 current undergraduate and postgraduate programmes with semester and year durations."
+      ]
+    },
+    {
+      "type": "official_admission_prospectus",
+      "url": "https://bsnvpgcollege.ac.in/WebDoc/PDF/EXTRA/BSNVAdmissionProspectus_2026_27_18-04-2026.pdf",
+      "supports": [
+        "2026-27 official prospectus verifies core programme eligibility and current admission offerings."
+      ]
+    },
+    {
+      "type": "official_nielit_catalogue",
+      "url": "https://bsnvpgcollege.ac.in/NIELIT_DLC.aspx",
+      "supports": [
+        "Lists ACC, BCC, ECC, CCC and CCC+ Digital Literacy Courses."
+      ]
+    },
+    {
+      "type": "official_nielit_fee_catalogue",
+      "url": "https://bsnvpgcollege.ac.in/NIELIT_Fee.aspx",
+      "supports": [
+        "Lists official durations for the five Digital Literacy Courses."
+      ]
+    },
+    {
+      "type": "official_distance_study_centre_page",
+      "url": "https://bsnvpgcollege.ac.in/RTOU.aspx",
+      "supports": [
+        "Lists programmes available through the college's Uttar Pradesh Rajarshi Tandon Open University study centre.",
+        "The page is undated and contains ambiguous programme text, requiring manual review."
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "B.S.N.V. P.G. College Lucknow",
+      "result": "Search returned the official bsnvpgcollege.ac.in website for Bappa Sri Narain Vocational P.G College (KKV).",
+      "url": "https://bsnvpgcollege.ac.in/"
+    },
+    {
+      "query": "BSNV PG College Lucknow official website",
+      "result": "Search returned the official bsnvpgcollege.ac.in homepage and Courses.aspx page.",
+      "url": "https://bsnvpgcollege.ac.in/Courses.aspx"
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "b-s-n-v-p-g-college-bsnvpg-core-ba",
+      "name": "B.A",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "3 Year Program (Semester Wise) / 6 Semester Program",
+      "mode": "regular",
+      "eligibility": "Intermediate or equivalent examination; minimum 40% for General and Other Backward Classes candidates and 33% for Scheduled Castes and Scheduled Tribes candidates.",
+      "official_course_url": "https://bsnvpgcollege.ac.in/Courses.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest_parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "nearest_parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-s-n-v-p-g-college-bsnvpg-core-bcom",
+      "name": "B.Com",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": "3 Year Program (Semester Wise) / 6 Semester Program",
+      "mode": "regular (self-finance course)",
+      "eligibility": "Intermediate or equivalent examination with Commerce, Economics or Mathematics as one subject; minimum 40% for General and Other Backward Classes candidates and 33% for Scheduled Castes and Scheduled Tribes candidates.",
+      "official_course_url": "https://bsnvpgcollege.ac.in/Courses.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 341,
+          "career_node_slug": "commerce_finance",
+          "career_breadcrumb": "Finance & Investment",
+          "relation": "nearest_parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-s-n-v-p-g-college-bsnvpg-core-bsc-computer-science",
+      "name": "B.Sc. Computer Science",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": "Computer Science",
+      "duration": "3 Year Program (Semester Wise) / 6 Semester Program",
+      "mode": "regular (self-finance course)",
+      "eligibility": "Passed in any discipline with minimum 50% marks in aggregate at 10+2 level, with Mathematics or Computer as one subject.",
+      "official_course_url": "https://bsnvpgcollege.ac.in/Courses.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 32,
+          "career_node_slug": "bsc_cs",
+          "career_breadcrumb": "Data Science & Analytics > B.Sc Computer Science",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-s-n-v-p-g-college-bsnvpg-core-bsc-bio",
+      "name": "B.Sc-Bio",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": "Biology",
+      "duration": "3 Year Program (Semester Wise) / 6 Semester Program",
+      "mode": "regular",
+      "eligibility": "Intermediate Science with Biology group or equivalent examination; minimum 40% for General and Other Backward Classes candidates and 33% for Scheduled Castes and Scheduled Tribes candidates.",
+      "official_course_url": "https://bsnvpgcollege.ac.in/Courses.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-s-n-v-p-g-college-bsnvpg-core-bsc-maths",
+      "name": "B.Sc-Maths",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": "Mathematics",
+      "duration": "3 Year Program (Semester Wise) / 6 Semester Program",
+      "mode": "regular",
+      "eligibility": "Intermediate Science with Mathematics group or equivalent examination; minimum 40% for General and Other Backward Classes candidates and 33% for Scheduled Castes and Scheduled Tribes candidates.",
+      "official_course_url": "https://bsnvpgcollege.ac.in/Courses.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-s-n-v-p-g-college-bsnvpg-core-bca",
+      "name": "Bachelor in Computer Application",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": "Computer Applications",
+      "duration": "3 Year Program (Semester Wise) / 6 Semester Program",
+      "mode": "regular (self-finance course)",
+      "eligibility": "Passed in any discipline with minimum 50% marks in aggregate at 10+2 level, with Mathematics or Computer as one subject.",
+      "official_course_url": "https://bsnvpgcollege.ac.in/Courses.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-s-n-v-p-g-college-bsnvpg-core-ma-hindi",
+      "name": "M.A-Hindi",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": "Hindi",
+      "duration": "2 Year Program (Semester Wise) / 4 Semester Program",
+      "mode": "regular (self-finance course)",
+      "eligibility": "Graduation with Hindi; minimum 45% for General and Other Backward Classes candidates and 40% for Scheduled Castes and Scheduled Tribes candidates.",
+      "official_course_url": "https://bsnvpgcollege.ac.in/Courses.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-s-n-v-p-g-college-bsnvpg-core-ma-political-science",
+      "name": "M.A-Political Science",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": "Political Science",
+      "duration": "2 Year Program (Semester Wise) / 4 Semester Program",
+      "mode": "regular (self-finance course)",
+      "eligibility": "Graduation with Political Science; minimum 45% for General and Other Backward Classes candidates and 40% for Scheduled Castes and Scheduled Tribes candidates.",
+      "official_course_url": "https://bsnvpgcollege.ac.in/Courses.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-s-n-v-p-g-college-bsnvpg-core-ma-sociology",
+      "name": "M.A-Sociology",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": "Sociology",
+      "duration": "2 Year Program (Semester Wise) / 4 Semester Program",
+      "mode": "regular (self-finance course)",
+      "eligibility": "Graduation with Sociology in final year; minimum 45% for General and Other Backward Classes candidates and 40% for Scheduled Castes and Scheduled Tribes candidates.",
+      "official_course_url": "https://bsnvpgcollege.ac.in/Courses.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-s-n-v-p-g-college-bsnvpg-core-mcom",
+      "name": "M.Com",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": "Commerce",
+      "duration": "2 Year Program (Semester Wise) / 4 Semester Program",
+      "mode": "regular (self-finance course)",
+      "eligibility": "Three-year Bachelor's degree or equivalent in B.Com or B.Com. (Hons), recognized as equivalent by the University; minimum 48% for General and Other Backward Classes candidates and 43% for Scheduled Castes and Scheduled Tribes candidates.",
+      "official_course_url": "https://bsnvpgcollege.ac.in/Courses.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 341,
+          "career_node_slug": "commerce_finance",
+          "career_breadcrumb": "Finance & Investment",
+          "relation": "nearest_parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-s-n-v-p-g-college-bsnvpg-core-msc-chemistry",
+      "name": "M.Sc-Chemistry",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": "Chemistry",
+      "duration": "2 Year Program (Semester Wise) / 4 Semester Program",
+      "mode": "regular (self-finance course)",
+      "eligibility": "Graduation from a recognized university with Chemistry as one of the subjects in B.Sc. III year; minimum 45% for General and Other Backward Classes candidates and 40% for Scheduled Castes and Scheduled Tribes candidates.",
+      "official_course_url": "https://bsnvpgcollege.ac.in/Courses.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 155,
+          "career_node_slug": "msc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry > M.Sc Chemistry → Researcher",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-s-n-v-p-g-college-bsnvpg-core-msc-geology",
+      "name": "M.Sc-Geology",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": "Geology",
+      "duration": "2 Year Program (Semester Wise) / 4 Semester Program",
+      "mode": "regular (self-finance course)",
+      "eligibility": "Graduation from a recognized university with Geology as one of the subjects in B.Sc. III year; minimum 45% for General and Other Backward Classes candidates and 40% for Scheduled Castes and Scheduled Tribes candidates.",
+      "official_course_url": "https://bsnvpgcollege.ac.in/Courses.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 9,
+          "career_node_slug": "bsc_geology",
+          "career_breadcrumb": "Maths / PCM > B.Sc Geology / Earth Sciences",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-s-n-v-p-g-college-bsnvpg-core-msc-maths",
+      "name": "M.Sc-Maths",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": "Mathematics",
+      "duration": "2 Year Program (Semester Wise) / 4 Semester Program",
+      "mode": "regular (self-finance course)",
+      "eligibility": "B.Sc. with Mathematics in final year; minimum 45% for General and Other Backward Classes candidates and 40% for Scheduled Castes and Scheduled Tribes candidates.",
+      "official_course_url": "https://bsnvpgcollege.ac.in/Courses.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 90,
+          "career_node_slug": "msc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics > M.Sc Mathematics → Professor / Researcher",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-s-n-v-p-g-college-bsnvpg-core-msc-physics",
+      "name": "M.Sc-Physics",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": "Physics",
+      "duration": "2 Year Program (Semester Wise) / 4 Semester Program",
+      "mode": "regular (self-finance course)",
+      "eligibility": "Graduation with Physics in final year; minimum 45% for General and Other Backward Classes candidates and 40% for Scheduled Castes and Scheduled Tribes candidates.",
+      "official_course_url": "https://bsnvpgcollege.ac.in/Courses.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 153,
+          "career_node_slug": "msc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics > M.Sc Physics → Researcher / Professor",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-s-n-v-p-g-college-bsnvpg-core-msc-zoology",
+      "name": "M.Sc-Zoology",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": "Zoology",
+      "duration": "2 Year Program (Semester Wise) / 4 Semester Program",
+      "mode": "regular (self-finance course)",
+      "eligibility": "Graduation with Zoology or Genetics and Genomics; minimum 45% for General and Other Backward Classes candidates and 40% for Scheduled Castes and Scheduled Tribes candidates.",
+      "official_course_url": "https://bsnvpgcollege.ac.in/Courses.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 21,
+          "career_node_slug": "bsc_bio",
+          "career_breadcrumb": "Biology / PCB > B.Sc Biology / Biotech",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-s-n-v-p-g-college-bsnvpg-nielit-acc",
+      "name": "ACC : Advance Computer Course",
+      "level": "certificate",
+      "credential": "certificate course",
+      "specialization": "Computer literacy",
+      "duration": "20 Hours",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://bsnvpgcollege.ac.in/NIELIT_DLC.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "The local career tree has no responsible digital-literacy certificate node."
+    },
+    {
+      "course_id": "b-s-n-v-p-g-college-bsnvpg-nielit-bcc",
+      "name": "BCC : Basic Computer Course",
+      "level": "certificate",
+      "credential": "certificate course",
+      "specialization": "Computer literacy",
+      "duration": "36 Hours",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://bsnvpgcollege.ac.in/NIELIT_DLC.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "The local career tree has no responsible digital-literacy certificate node."
+    },
+    {
+      "course_id": "b-s-n-v-p-g-college-bsnvpg-nielit-ecc",
+      "name": "ECC : Expert Computer Course",
+      "level": "certificate",
+      "credential": "certificate course",
+      "specialization": "Computer literacy",
+      "duration": "200 Hours",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://bsnvpgcollege.ac.in/NIELIT_DLC.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "The local career tree has no responsible digital-literacy certificate node."
+    },
+    {
+      "course_id": "b-s-n-v-p-g-college-bsnvpg-nielit-ccc",
+      "name": "CCC : Course on Computer Concepts",
+      "level": "certificate",
+      "credential": "certificate course",
+      "specialization": "Computer literacy",
+      "duration": "80 Hours",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://bsnvpgcollege.ac.in/NIELIT_DLC.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "The local career tree has no responsible digital-literacy certificate node."
+    },
+    {
+      "course_id": "b-s-n-v-p-g-college-bsnvpg-nielit-ccc-plus",
+      "name": "CCC+ : Course on Computer Concepts Plus",
+      "level": "certificate",
+      "credential": "certificate course",
+      "specialization": "Computer literacy",
+      "duration": "126 Hours",
+      "mode": "not_specified",
+      "eligibility": null,
+      "official_course_url": "https://bsnvpgcollege.ac.in/NIELIT_DLC.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [],
+      "mapping_gap": "The local career tree has no responsible digital-literacy certificate node."
+    },
+    {
+      "course_id": "b-s-n-v-p-g-college-bsnvpg-rtou-bts",
+      "name": "B.T.S. (पर्यटन अध्यन में डिप्लोमा)",
+      "level": "diploma",
+      "credential": "diploma",
+      "specialization": "Tourism Studies",
+      "duration": null,
+      "mode": "distance education (RTOU study centre)",
+      "eligibility": null,
+      "official_course_url": "https://bsnvpgcollege.ac.in/RTOU.aspx",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 79,
+          "career_node_slug": "hotel_mgmt",
+          "career_breadcrumb": "Performing Arts & Sports > Hotel Management & Tourism",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-s-n-v-p-g-college-bsnvpg-rtou-cts",
+      "name": "C.T.S. (पर्यटन अध्यन में सर्टिफिकेट कोर्स)",
+      "level": "certificate",
+      "credential": "certificate course",
+      "specialization": "Tourism Studies",
+      "duration": null,
+      "mode": "distance education (RTOU study centre)",
+      "eligibility": null,
+      "official_course_url": "https://bsnvpgcollege.ac.in/RTOU.aspx",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 79,
+          "career_node_slug": "hotel_mgmt",
+          "career_breadcrumb": "Performing Arts & Sports > Hotel Management & Tourism",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-s-n-v-p-g-college-bsnvpg-rtou-dts",
+      "name": "DT S",
+      "level": "unspecified",
+      "credential": "unspecified",
+      "specialization": null,
+      "duration": null,
+      "mode": "distance education (RTOU study centre)",
+      "eligibility": null,
+      "official_course_url": "https://bsnvpgcollege.ac.in/RTOU.aspx",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [],
+      "mapping_gap": "The official RTOU page lists “DT S” without an expansion or discipline."
+    },
+    {
+      "course_id": "b-s-n-v-p-g-college-bsnvpg-rtou-pgdjmc",
+      "name": "PGDJMC (पत्रकारिता एवं जनसंचार में स्नाकोत्तर डिप्लोमा)",
+      "level": "postgraduate",
+      "credential": "postgraduate diploma",
+      "specialization": "Journalism and Mass Communication",
+      "duration": null,
+      "mode": "distance education (RTOU study centre)",
+      "eligibility": null,
+      "official_course_url": "https://bsnvpgcollege.ac.in/RTOU.aspx",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 59,
+          "career_node_slug": "bjmc",
+          "career_breadcrumb": "Media & Journalism > B.J.M.C (Journalism & Mass Comm)",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-s-n-v-p-g-college-bsnvpg-rtou-mjmc-pgdemfp",
+      "name": "MJMC PG DE M & FP (इलेक्ट्रानिक प्रबंधन एवं फिल्म प्रोडक्शन में स्नाकोत्तर डिप्लोमा)",
+      "level": "postgraduate",
+      "credential": "postgraduate diploma",
+      "specialization": "Electronic Media and Film Production",
+      "duration": null,
+      "mode": "distance education (RTOU study centre)",
+      "eligibility": null,
+      "official_course_url": "https://bsnvpgcollege.ac.in/RTOU.aspx",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [],
+      "mapping_gap": "The official RTOU page combines the labels MJMC and PG DE M & FP in one line, so separate programme mapping cannot be established without guessing."
+    },
+    {
+      "course_id": "b-s-n-v-p-g-college-bsnvpg-rtou-journalism-masters",
+      "name": "(पत्रकारिता एवं जनसंचार में परास्नातक)",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": "Journalism and Mass Communication",
+      "duration": null,
+      "mode": "distance education (RTOU study centre)",
+      "eligibility": null,
+      "official_course_url": "https://bsnvpgcollege.ac.in/RTOU.aspx",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 59,
+          "career_node_slug": "bjmc",
+          "career_breadcrumb": "Media & Journalism > B.J.M.C (Journalism & Mass Comm)",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-s-n-v-p-g-college-bsnvpg-rtou-bba",
+      "name": "B.B.A.",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": "Business Administration",
+      "duration": null,
+      "mode": "distance education (RTOU study centre)",
+      "eligibility": null,
+      "official_course_url": "https://bsnvpgcollege.ac.in/RTOU.aspx",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 46,
+          "career_node_slug": "bba",
+          "career_breadcrumb": "Management & Business > BBA (General)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-s-n-v-p-g-college-bsnvpg-rtou-mba",
+      "name": "M.B.A",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": "Business Administration",
+      "duration": null,
+      "mode": "distance education (RTOU study centre)",
+      "eligibility": null,
+      "official_course_url": "https://bsnvpgcollege.ac.in/RTOU.aspx",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 208,
+          "career_node_slug": "mba_general",
+          "career_breadcrumb": "Management & Business > BBA (General) > MBA → CEO / Director Track",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-s-n-v-p-g-college-bsnvpg-rtou-ba",
+      "name": "B.A.",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "distance education (RTOU study centre)",
+      "eligibility": null,
+      "official_course_url": "https://bsnvpgcollege.ac.in/RTOU.aspx",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 348,
+          "career_node_slug": "art_social",
+          "career_breadcrumb": "Social Sciences & Education",
+          "relation": "nearest_parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        },
+        {
+          "career_node_id": 349,
+          "career_node_slug": "art_languages",
+          "career_breadcrumb": "Languages & Literature",
+          "relation": "nearest_parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-s-n-v-p-g-college-bsnvpg-rtou-bsc",
+      "name": "B.Sc.",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "distance education (RTOU study centre)",
+      "eligibility": null,
+      "official_course_url": "https://bsnvpgcollege.ac.in/RTOU.aspx",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [],
+      "mapping_gap": "The official RTOU page gives only generic “B.Sc.” with no discipline."
+    },
+    {
+      "course_id": "b-s-n-v-p-g-college-bsnvpg-rtou-bcom",
+      "name": "B.Com.",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "distance education (RTOU study centre)",
+      "eligibility": null,
+      "official_course_url": "https://bsnvpgcollege.ac.in/RTOU.aspx",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 341,
+          "career_node_slug": "commerce_finance",
+          "career_breadcrumb": "Finance & Investment",
+          "relation": "nearest_parent",
+          "confidence": "low",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-s-n-v-p-g-college-bsnvpg-rtou-blis",
+      "name": "B.L.I.S.",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": "Library and Information Science",
+      "duration": null,
+      "mode": "distance education (RTOU study centre)",
+      "eligibility": null,
+      "official_course_url": "https://bsnvpgcollege.ac.in/RTOU.aspx",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [],
+      "mapping_gap": "The local career tree has no Library and Information Science node."
+    },
+    {
+      "course_id": "b-s-n-v-p-g-college-bsnvpg-rtou-ma",
+      "name": "M.A.",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": null,
+      "duration": null,
+      "mode": "distance education (RTOU study centre)",
+      "eligibility": null,
+      "official_course_url": "https://bsnvpgcollege.ac.in/RTOU.aspx",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [],
+      "mapping_gap": "The official RTOU page gives only generic “M.A.” with no discipline."
+    },
+    {
+      "course_id": "b-s-n-v-p-g-college-bsnvpg-rtou-bca",
+      "name": "B.C.A.",
+      "level": "undergraduate",
+      "credential": "bachelor's degree",
+      "specialization": "Computer Applications",
+      "duration": null,
+      "mode": "distance education (RTOU study centre)",
+      "eligibility": null,
+      "official_course_url": "https://bsnvpgcollege.ac.in/RTOU.aspx",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "direct_discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-s-n-v-p-g-college-bsnvpg-rtou-mca",
+      "name": "M.C.A.",
+      "level": "postgraduate",
+      "credential": "master's degree",
+      "specialization": "Computer Applications",
+      "duration": null,
+      "mode": "distance education (RTOU study centre)",
+      "eligibility": null,
+      "official_course_url": "https://bsnvpgcollege.ac.in/RTOU.aspx",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [
+        {
+          "career_node_id": 93,
+          "career_node_slug": "mca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications) > MCA → Software Engineer",
+          "relation": "closest_specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "b-s-n-v-p-g-college-bsnvpg-rtou-dfd",
+      "name": "D.F.D.",
+      "level": "unspecified",
+      "credential": "unspecified",
+      "specialization": null,
+      "duration": null,
+      "mode": "distance education (RTOU study centre)",
+      "eligibility": null,
+      "official_course_url": "https://bsnvpgcollege.ac.in/RTOU.aspx",
+      "verification_status": "verified_programme_family",
+      "career_path_mappings": [],
+      "mapping_gap": "The official RTOU page lists “D.F.D.” without expansion or discipline."
+    }
+  ],
+  "agent_notes": [
+    "The official NIRF 2025 College and Overall listings both contain the exact institution name, city and state.",
+    "Normal TLS verification produced the managed proxy error “self signed certificate in certificate chain”; curl --insecure was then used only for public GETs to the confirmed official/search hostnames.",
+    "The official Courses.aspx page and 2026-27 prospectus establish 15 current core programmes. NIELIT_DLC.aspx and NIELIT_Fee.aspx establish five Digital Literacy Courses and their durations.",
+    "The official RTOU study-centre page lists an additional distance-programme set but is undated and contains ambiguous or combined entries such as “DT S” and “MJMC PG DE M & FP”; current status and exact programme boundaries cannot be established without guessing, so the catalogue is partial and the record requires manual review.",
+    "Bhartiya Bhasa Kendra is described by the official site as free language training rather than a degree, diploma or certificate programme and was excluded. News items and add-on short-term events were also excluded."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "source_verifications": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/uttar_pradesh_institution_verifications.json",
+  "output": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/uttar_pradesh_institution_verifications.json",
+  "applied": true,
+  "collected_count": 8,
+  "collected_institution_ids": [
+    "acharya-narendra-deva-university-of-agriculture-technology",
+    "chaudhary-charan-singh-university",
+    "government-polytechnic-kursi-road-barabanki",
+    "govind-ballabh-pant-social-science-institute",
+    "institute-of-co-operative-and-corporate-management-research-training",
+    "kamla-nehru-institute-of-technology",
+    "kendriya-hindi-sansthan",
+    "king-george-s-medical-university"
+  ],
+  "skipped": {
+    "chandra-shekhar-azad-university-of-agriculture-technology": "manual_review",
+    "deendayal-upadhyaya-state-institute-of-rural-development": "manual_review",
+    "dr-a-p-j-abdul-kalam-technical-university": "manual_review",
+    "dr-shakuntala-misra-national-rehabilitation-university": "manual_review",
+    "g-s-v-m-medical-college": "manual_review",
+    "gautam-buddha-university": "manual_review",
+    "government-polytechnic-fatehpur": "remove_candidate_not_applied",
+    "harcourt-butler-technical-university": "manual_review",
+    "madan-mohan-malaviya-university-of-technology": "manual_review"
+  }
+}

@@ -1,0 +1,523 @@
+{
+  "institution_id": "government-college-lateri",
+  "nirf_name": "GOVERNMENT COLLEGE, LATERI",
+  "government_listing_sources": [
+    "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html"
+  ],
+  "verification_outcome": "manual_review",
+  "district": "Vidisha",
+  "district_verification_status": "verified_official_website",
+  "official_website": "https://highereducation.mp.gov.in/?orgid=499",
+  "website_verification_status": "verified",
+  "description": "Co-educational government college in rural Lateri, Vidisha district, Madhya Pradesh, located on Shamshabad Road.",
+  "description_verification_status": "verified_official_website",
+  "record_status": "manual_review",
+  "allowed_official_domains": [
+    "epravesh.highereducation.mp.gov.in"
+  ],
+  "verification_sources": [
+    {
+      "type": "government_discovery_listing",
+      "url": "https://www.nirfindia.org/Rankings/2025/CollegeRankingALL.html",
+      "supports": [
+        "Exact institution name GOVERNMENT COLLEGE, LATERI",
+        "City Lateri",
+        "State Madhya Pradesh"
+      ]
+    },
+    {
+      "type": "official_homepage",
+      "url": "https://highereducation.mp.gov.in/?orgid=499",
+      "supports": [
+        "Official college page for शासकीय महाविद्यालय लटेरी",
+        "Official Higher Education Department, Madhya Pradesh identity",
+        "Official website URL"
+      ]
+    },
+    {
+      "type": "official_campus_profile",
+      "url": "https://epravesh.highereducation.mp.gov.in/EBrochure_College_Details.aspx?cm_id=WSeDZtsb3YE%3D",
+      "supports": [
+        "Govt College, Lateri",
+        "College code 2708",
+        "Government status",
+        "District Vidisha",
+        "Taluka Lateri",
+        "Address SHAMSHABAD ROAD LATERI DISTT VIDISHA MP",
+        "Website https://highereducation.mp.gov.in/?orgid=499"
+      ]
+    },
+    {
+      "type": "official_programme_catalogue_page",
+      "url": "https://highereducation.mp.gov.in/?page=K%2FzaxCNcbJ1Hgg1Xjbc%2ByQ%3D%3D&orgid=499",
+      "supports": [
+        "Official Programmes Offered page",
+        "PG, UG, and Diploma programme sections are present but contain no programme rows"
+      ]
+    },
+    {
+      "type": "official_admissions_catalogue",
+      "url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "supports": [
+        "Official Madhya Pradesh e-Pravesh college catalogue",
+        "Current Govt College, Lateri course families and branch details"
+      ]
+    },
+    {
+      "type": "official_catalogue_data",
+      "url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx/Bind_Form_EBrochure_All_Data",
+      "supports": [
+        "Official catalogue record for cm_id 237 / college code 2708",
+        "Current course families B. A., B. Com., B. Sc., M. A. (1-Year), M. A. (2-Year), M. Sc. (1-Year), and M. Sc. (2 - Year)"
+      ]
+    },
+    {
+      "type": "official_branch_catalogue_data",
+      "url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx/Bind_Degree_Wise_Branch_intake_EBroucher",
+      "supports": [
+        "Official branch and intake data for college 237 and degree IDs 18, 39, 45, 63, 7, 65, and 26"
+      ]
+    }
+  ],
+  "website_search_evidence": [
+    {
+      "query": "\"Government College, Lateri\" official website",
+      "result": "Google request returned HTTP 429 and no usable result was captured.",
+      "url": null
+    },
+    {
+      "query": "\"Government College, Lateri\" Madhya Pradesh",
+      "result": "Bing results did not surface an institution-specific official page in the captured results; official government sources were checked separately.",
+      "url": null
+    },
+    {
+      "query": "Government College Lateri Madhya Pradesh",
+      "result": "Bing results did not surface an institution-specific official page in the captured results; the official site was established from the Madhya Pradesh e-Pravesh college record.",
+      "url": null
+    }
+  ],
+  "course_catalogue_status": "partial_official_website",
+  "courses": [
+    {
+      "course_id": "government-college-lateri-epravesh-237-18-1334",
+      "name": "B. A.",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Economics",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-lateri-epravesh-237-18-1336",
+      "name": "B. A.",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Sociology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-lateri-epravesh-237-18-1339",
+      "name": "B. A.",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Political Science",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 71,
+          "career_node_slug": "ba_polsci",
+          "career_breadcrumb": "Social Sciences & Education > BA Political Science",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-lateri-epravesh-237-18-1382",
+      "name": "B. A.",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Hindi Literature",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 73,
+          "career_node_slug": "ba_hindi",
+          "career_breadcrumb": "Languages & Literature > BA Hindi / Regional Language",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-lateri-epravesh-237-39-1032",
+      "name": "B. Com.",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Commerce",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-lateri-epravesh-237-39-1035",
+      "name": "B. Com.",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Commerce with Computer Application(As A MDC)",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 42,
+          "career_node_slug": "bcom",
+          "career_breadcrumb": "Accounting & Audit > B.Com / B.Com (Hons)",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-lateri-epravesh-237-45-1324",
+      "name": "B. Sc.",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Chemistry",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 25,
+          "career_node_slug": "bsc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-lateri-epravesh-237-45-1333",
+      "name": "B. Sc.",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Physics",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 24,
+          "career_node_slug": "bsc_physics",
+          "career_breadcrumb": "Common Paths > B.Sc Physics",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-lateri-epravesh-237-45-1357",
+      "name": "B. Sc.",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Zoology",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 336,
+          "career_node_slug": "science_bio",
+          "career_breadcrumb": "Biology / PCB",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-lateri-epravesh-237-45-1376",
+      "name": "B. Sc.",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Mathematics",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 2,
+          "career_node_slug": "bsc_maths",
+          "career_breadcrumb": "Maths / PCM > B.Sc Mathematics",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_against_local_tree"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-lateri-epravesh-237-45-1377",
+      "name": "B. Sc.",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Botany",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 336,
+          "career_node_slug": "science_bio",
+          "career_breadcrumb": "Biology / PCB",
+          "relation": "nearest-parent",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-lateri-epravesh-237-45-1380",
+      "name": "B. Sc.",
+      "level": "undergraduate",
+      "credential": "degree",
+      "specialization": "Computer Application",
+      "duration": null,
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 3,
+          "career_node_slug": "bca",
+          "career_breadcrumb": "Maths / PCM > BCA (Computer Applications)",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-lateri-epravesh-237-63-1398",
+      "name": "M. A. (1-Year)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Economics",
+      "duration": "1 year",
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-lateri-epravesh-237-63-1413",
+      "name": "M. A. (1-Year)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Sociology",
+      "duration": "1 year",
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-lateri-epravesh-237-7-12",
+      "name": "M. A. (2-Year)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Economics",
+      "duration": "2 years",
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 68,
+          "career_node_slug": "ba_economics",
+          "career_breadcrumb": "Social Sciences & Education > BA Economics",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-lateri-epravesh-237-7-27",
+      "name": "M. A. (2-Year)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Sociology",
+      "duration": "2 years",
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 67,
+          "career_node_slug": "ba_sociology",
+          "career_breadcrumb": "Social Sciences & Education > BA Sociology",
+          "relation": "closest-specialization",
+          "confidence": "medium",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-lateri-epravesh-237-65-1435",
+      "name": "M. Sc. (1-Year)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Chemistry",
+      "duration": "1 year",
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 155,
+          "career_node_slug": "msc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry > M.Sc Chemistry → Researcher",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    },
+    {
+      "course_id": "government-college-lateri-epravesh-237-26-752",
+      "name": "M. Sc. (2 - Year)",
+      "level": "postgraduate",
+      "credential": "degree",
+      "specialization": "Chemistry",
+      "duration": "2 years",
+      "mode": "regular",
+      "eligibility": null,
+      "official_course_url": "https://epravesh.highereducation.mp.gov.in/Form_EBrochure.aspx",
+      "verification_status": "verified",
+      "career_path_mappings": [
+        {
+          "career_node_id": 155,
+          "career_node_slug": "msc_chemistry",
+          "career_breadcrumb": "Common Paths > B.Sc Chemistry > M.Sc Chemistry → Researcher",
+          "relation": "direct-discipline",
+          "confidence": "high",
+          "mapping_status": "reviewed_with_career_tree_label_issue"
+        }
+      ],
+      "mapping_gap": null
+    }
+  ],
+  "agent_notes": [
+    "The NIRF 2025 College ranking listing contains the exact institution name GOVERNMENT COLLEGE, LATERI with city Lateri and state Madhya Pradesh.",
+    "The official college page is the Madhya Pradesh Higher Education Department orgid=499 page; the official e-Pravesh college profile identifies college code 2708, Govt College, Lateri, district Vidisha, taluka Lateri, address, and links back to the official college page.",
+    "The linked official Regular Courses page is incomplete: its PG Programme, UG Programme, and Diploma Programme tables contain no rows, and the page footer reports last update 2021. Therefore the record is manual_review and course_catalogue_status is partial_official_website.",
+    "The official Madhya Pradesh e-Pravesh catalogue currently lists the seven course families and official branch/intake endpoints verify the 18 active degree-specialization combinations included here. No diploma, certificate, or doctoral programme appeared in the current college catalogue record.",
+    "Normal TLS verification first produced the exact managed proxy error self signed certificate in certificate chain. After confirming the expected official hosts, public GET/POST requests used curl --insecure as permitted."
+  ]
+}
