@@ -15,6 +15,8 @@ from typing import Any
 
 from college_agents.common import (
     DATABASE_PATH,
+    INVENTORY_PATH,
+    PROMPT_PATH,
     RUNS_ROOT,
     SCHEMA_PATH,
     build_prompt,
@@ -34,8 +36,12 @@ def run_agent(
     timeout_seconds: int = 1800,
     force: bool = False,
     codex_bin: str = "codex",
+    inventory_path: Path = INVENTORY_PATH,
+    database_path: Path = DATABASE_PATH,
+    schema_path: Path = SCHEMA_PATH,
+    prompt_path: Path = PROMPT_PATH,
 ) -> dict[str, Any]:
-    institution = load_inventory_institution(institution_id)
+    institution = load_inventory_institution(institution_id, inventory_path)
     results_dir = run_dir / "results"
     logs_dir = run_dir / "logs"
     metrics_dir = run_dir / "metrics"
@@ -47,7 +53,7 @@ def run_agent(
     isolated_database.parent.mkdir(parents=True, exist_ok=True)
     isolated_tmp_dir.mkdir(parents=True, exist_ok=True)
     if force or not isolated_database.exists():
-        shutil.copy2(DATABASE_PATH, isolated_database)
+        shutil.copy2(database_path, isolated_database)
 
     result_path = results_dir / f"{institution_id}.json"
     log_path = logs_dir / f"{institution_id}.jsonl"
@@ -56,7 +62,12 @@ def run_agent(
 
     if result_path.exists() and not force:
         existing = json.loads(result_path.read_text(encoding="utf-8"))
-        errors = validate_agent_result(existing, institution_id)
+        errors = validate_agent_result(
+            existing,
+            institution_id,
+            inventory_path=inventory_path,
+            database_path=database_path,
+        )
         if not errors:
             metrics = {
                 "institution_id": institution_id,
@@ -72,7 +83,7 @@ def run_agent(
         raise FileNotFoundError(f"Codex executable not found: {codex_bin}")
 
     temporary_result_path.unlink(missing_ok=True)
-    prompt = build_prompt(institution)
+    prompt = build_prompt(institution, prompt_path=prompt_path)
     command = [
         resolved_codex,
         "exec",
@@ -89,7 +100,7 @@ def run_agent(
         "--cd",
         str(workspace_dir),
         "--output-schema",
-        str(SCHEMA_PATH),
+        str(schema_path),
         "--output-last-message",
         str(temporary_result_path),
         "--json",
@@ -157,8 +168,19 @@ def run_agent(
             if not isinstance(loaded, dict):
                 errors.append("agent result must be a JSON object")
             else:
-                result = normalize_agent_result(loaded, institution_id)
-                errors.extend(validate_agent_result(result, institution_id))
+                result = normalize_agent_result(
+                    loaded,
+                    institution_id,
+                    database_path=database_path,
+                )
+                errors.extend(
+                    validate_agent_result(
+                        result,
+                        institution_id,
+                        inventory_path=inventory_path,
+                        database_path=database_path,
+                    )
+                )
         except json.JSONDecodeError as exc:
             errors.append(f"agent result is not valid JSON: {exc}")
 
@@ -203,6 +225,30 @@ def parse_args() -> argparse.Namespace:
         "--codex-bin",
         default=os.environ.get("CODEX_BIN", "codex"),
     )
+    parser.add_argument(
+        "--inventory",
+        type=Path,
+        default=INVENTORY_PATH,
+        help="State inventory containing the assigned institution.",
+    )
+    parser.add_argument(
+        "--database",
+        type=Path,
+        default=DATABASE_PATH,
+        help="Read-only career database copied into the worker workspace.",
+    )
+    parser.add_argument(
+        "--schema",
+        type=Path,
+        default=SCHEMA_PATH,
+        help="Structured result JSON schema.",
+    )
+    parser.add_argument(
+        "--prompt",
+        type=Path,
+        default=PROMPT_PATH,
+        help="Worker prompt template.",
+    )
     return parser.parse_args()
 
 
@@ -217,6 +263,10 @@ def main() -> int:
         timeout_seconds=args.timeout_seconds,
         force=args.force,
         codex_bin=args.codex_bin,
+        inventory_path=args.inventory.resolve(),
+        database_path=args.database.resolve(),
+        schema_path=args.schema.resolve(),
+        prompt_path=args.prompt.resolve(),
     )
     print(json.dumps(metrics, ensure_ascii=False))
     return 0 if metrics["status"].startswith(("completed", "skipped")) else 1

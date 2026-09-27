@@ -11,8 +11,12 @@ from pathlib import Path
 from typing import Any
 
 from college_agents.common import (
+    DATABASE_PATH,
     DEFAULT_MANIFEST_PATH,
+    INVENTORY_PATH,
+    PROMPT_PATH,
     RUNS_ROOT,
+    SCHEMA_PATH,
     load_json,
     utc_now,
     write_json_atomic,
@@ -33,6 +37,10 @@ def parse_args() -> argparse.Namespace:
         "--codex-bin",
         default=os.environ.get("CODEX_BIN", "codex"),
     )
+    parser.add_argument("--inventory", type=Path, default=INVENTORY_PATH)
+    parser.add_argument("--database", type=Path, default=DATABASE_PATH)
+    parser.add_argument("--schema", type=Path, default=SCHEMA_PATH)
+    parser.add_argument("--prompt", type=Path, default=PROMPT_PATH)
     return parser.parse_args()
 
 
@@ -69,6 +77,10 @@ def main() -> int:
                 timeout_seconds=args.timeout_seconds,
                 force=args.force,
                 codex_bin=args.codex_bin,
+                inventory_path=args.inventory.resolve(),
+                database_path=args.database.resolve(),
+                schema_path=args.schema.resolve(),
+                prompt_path=args.prompt.resolve(),
             ): assignment
             for assignment in assignments
         }
