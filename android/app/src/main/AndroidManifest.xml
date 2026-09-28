@@ -1,11 +1,24 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <!-- The app doesn't use the advertising ID (no ads, no ad attribution);
+         firebase_analytics pulls this permission in transitively via
+         play-services-measurement-api. Strip it and tell Analytics not to
+         collect it, so the manifest matches a "does not use ads ID" Play
+         Console declaration instead of one asking Analytics to zero it out
+         at runtime. -->
+    <uses-permission
+        android:name="com.google.android.gms.permission.AD_ID"
+        tools:node="remove"/>
     <application
         android:label="Career Path"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher"
         android:networkSecurityConfig="@xml/network_security_config">
+        <meta-data
+            android:name="google_analytics_adid_collection_enabled"
+            android:value="false"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"

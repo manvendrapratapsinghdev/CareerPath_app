@@ -110,12 +110,15 @@ android {
             from.attribute(ArtifactTypeDefinition.ARTIFACT_TYPE_ATTRIBUTE, "aar")
             to.attribute(ArtifactTypeDefinition.ARTIFACT_TYPE_ATTRIBUTE, "jar")
         }
-        aec3Classes("cn.enaium.webrtc.aec3:webrtc-aec3-kmp-android:1.0.2") {
+        // 1.0.3+ ships libwebrtc_aec3_jni.so aligned to 16 KB pages, which
+        // Android 15+ (and Play Console's pre-launch checks) require. 1.0.2
+        // was 4 KB-aligned only.
+        aec3Classes("cn.enaium.webrtc.aec3:webrtc-aec3-kmp-android:1.0.3") {
             attributes {
                 attribute(ArtifactTypeDefinition.ARTIFACT_TYPE_ATTRIBUTE, "jar")
             }
         }
-        aec3Native("cn.enaium.webrtc.aec3:webrtc-aec3-kmp-android:1.0.2@aar")
+        aec3Native("cn.enaium.webrtc.aec3:webrtc-aec3-kmp-android:1.0.3@aar")
         implementation(files(configurations.aec3Classes))
         testImplementation("org.jetbrains.kotlin:kotlin-test")
         testImplementation("org.mockito:mockito-core:5.0.0")
