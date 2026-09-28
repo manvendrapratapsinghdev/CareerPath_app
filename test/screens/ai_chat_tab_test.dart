@@ -987,6 +987,9 @@ void main() {
       // Ending the conversation summarises the sources gathered along the
       // way — the "Engineering" one held back from turn 1.
       await tester.tap(find.byTooltip('End voice conversation'));
+      // Stopping closes the live stream, which completes outside the fake
+      // clock; let it finish before settling.
+      await tester.runAsync(() => Future<void>.delayed(Duration.zero));
       await tester.pumpAndSettle();
 
       expect(
