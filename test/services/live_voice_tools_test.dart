@@ -62,8 +62,12 @@ void main() {
         _route('Tell me about engineering', VoiceIntent.career),
       ),
     );
-    expect(route['next_tool'], 'search_careers');
+    // Records arrive with the routing result: no separate search round trip.
+    expect(route.containsKey('next_tool'), isFalse);
+    expect(route['records'], contains('SOURCE career_node:engineering'));
+    expect(tools.turn.sources.first.exploreNodeId, 'engineering');
 
+    // search_careers stays available as a fallback.
     final search = await tools.execute(
       _call('search_careers', {'query': 'engineering'}),
     );
@@ -170,11 +174,8 @@ void main() {
 
     test('voice merges semantic matches the keywords missed', () async {
       final tools = _tools(extra: semantic);
-      await tools.execute(
-        _call('route_query', _route('coding jobs', VoiceIntent.career)),
-      );
       final route = await tools.execute(
-        _call('search_careers', {'query': 'coding jobs'}),
+        _call('route_query', _route('coding jobs', VoiceIntent.career)),
       );
       expect(route['records'], contains('SOURCE career_node:computer-science'));
       expect(
@@ -189,23 +190,82 @@ void main() {
       await tools.execute(
         _call('route_query', _route('zzz unrelated words', VoiceIntent.career)),
       );
-      await tools.execute(_call('search_careers', {'query': 'zzz'}));
       expect(tools.turn.sources.single.sourceId, semanticHit.sourceId);
       expect(tools.turn.noRecordsFound, isFalse);
     });
 
     test('a failing semantic lookup falls back to keywords', () async {
       final tools = _tools(extra: (q, s) async => throw Exception('quota'));
-      await tools.execute(
+      final route = await tools.execute(
         _call(
           'route_query',
           _route('Tell me about engineering', VoiceIntent.career),
         ),
       );
-      final route = await tools.execute(
-        _call('search_careers', {'query': 'engineering'}),
-      );
       expect(route['records'], contains('SOURCE career_node:engineering'));
+    });
+
+    test('a prefetch made while speaking is reused by the route', () async {
+      final queries = <String>[];
+      final tools = _tools(
+        extra: (q, s) {
+          queries.add(q);
+          return semantic(q, s);
+        },
+      )..startTurn();
+      tools.prefetch('tell me about engineering');
+      await tools.execute(
+        _call(
+          'route_query',
+          _route('tell me about engineering', VoiceIntent.career),
+        ),
+      );
+      expect(queries, ['tell me about engineering']);
+    });
+
+    test(
+      'a stale prefetch is ignored and short or repeated text skipped',
+      () async {
+        final queries = <String>[];
+        final tools = _tools(
+          extra: (q, s) {
+            queries.add(q);
+            return semantic(q, s);
+          },
+        )..startTurn();
+        tools
+          ..prefetch('tell me')
+          ..prefetch('tell me about')
+          ..prefetch('tell me about')
+          ..prefetch('tell me about the');
+        expect(queries, ['tell me about', 'tell me about the']);
+
+        await tools.execute(
+          _call(
+            'route_query',
+            _route(
+              'tell me about the best engineering colleges in Rajasthan please',
+              VoiceIntent.career,
+            ),
+          ),
+        );
+        expect(queries.last, contains('Rajasthan'));
+      },
+    );
+
+    test('a new turn clears the prefetch', () async {
+      final queries = <String>[];
+      final tools = _tools(
+        extra: (q, s) {
+          queries.add(q);
+          return semantic(q, s);
+        },
+      )..prefetch('tell me about engineering');
+      tools.startTurn();
+      await tools.execute(
+        _call('route_query', _route('what is science', VoiceIntent.career)),
+      );
+      expect(queries, ['tell me about engineering', 'what is science']);
     });
   });
 

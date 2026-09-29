@@ -49,6 +49,14 @@ class LiveVoiceTools {
   VoiceTurn turn = VoiceTurn();
   final _memory = <(String, String)>[];
 
+  // Semantic lookup started while the student is still speaking, so the
+  // records are usually ready by the time the model asks for them.
+  Future<AiGroundingContext>? _prefetch;
+  String _prefetchText = '';
+  int _prefetchCount = 0;
+  static const _maxPrefetchesPerTurn = 3;
+  static const _minPrefetchWords = 3;
+
   LiveVoiceTools({
     required this.grounding,
     required this.loadAppHelp,
@@ -56,7 +64,27 @@ class LiveVoiceTools {
     this.extraGrounding,
   });
 
-  void startTurn() => turn = VoiceTurn();
+  void startTurn() {
+    turn = VoiceTurn();
+    _prefetch = null;
+    _prefetchText = '';
+    _prefetchCount = 0;
+  }
+
+  /// Starts a background semantic lookup for what has been heard so far.
+  /// Bounded per turn because embedding calls share a per-minute quota.
+  void prefetch(String heard) {
+    final text = heard.trim();
+    if (extraGrounding == null ||
+        text == _prefetchText ||
+        _prefetchCount >= _maxPrefetchesPerTurn ||
+        text.split(RegExp(r'\s+')).length < _minPrefetchWords) {
+      return;
+    }
+    _prefetchCount++;
+    _prefetchText = text;
+    _prefetch = _semantic(text);
+  }
 
   Future<AiGroundingContext> _semantic(String query) async {
     final extra = extraGrounding;
@@ -71,9 +99,16 @@ class LiveVoiceTools {
     }
   }
 
-  /// Keyword and semantic grounding for [query].
+  /// Keyword and semantic grounding for [query]. The speculative lookup is
+  /// reused when it covered (nearly) the whole spoken question.
   Future<AiGroundingContext> _retrieve(String query) async {
-    final semantic = _semantic(query);
+    final spoken = turn.question ?? '';
+    final wordsHeard = spoken.trim().split(RegExp(r'\s+')).length;
+    final prefetchWords = _prefetchText.isEmpty
+        ? 0
+        : _prefetchText.split(RegExp(r'\s+')).length;
+    final reusable = _prefetch != null && wordsHeard - prefetchWords <= 3;
+    final semantic = reusable ? _prefetch! : _semantic(query);
     final keyword = await grounding.retrieve(
       query: query,
       streamId: streamId?.call(),
@@ -160,14 +195,19 @@ class LiveVoiceTools {
     if (isFollowUp && args['requires_search'] == false) {
       return {...base, 'context_only': true};
     }
-    return {...base, 'next_tool': 'search_careers'};
+    // Retrieve here, in the same step, so the model needs no separate
+    // search_careers round trip before answering.
+    final standaloneQuery = base['standalone_query'] as String;
+    return {
+      ...base,
+      ...await _records(
+        isFollowUp ? '${_memory.last.$1} $standaloneQuery' : standaloneQuery,
+      ),
+    };
   }
 
-  Future<Map<String, dynamic>> _search(Map<String, dynamic> args) async {
-    final query = args['query']?.toString().trim() ?? turn.question ?? '';
-    final context = await _retrieve(
-      turn.isFollowUp ? '${_memory.last.$1} $query' : query,
-    );
+  Future<Map<String, dynamic>> _records(String query) async {
+    final context = await _retrieve(query);
     turn.sources = context.sources;
     turn.noRecordsFound = context.isEmpty;
     return {
@@ -177,6 +217,11 @@ class LiveVoiceTools {
           'Do not speak yet. Call format_answer now with the structured '
           'draft built from these records.',
     };
+  }
+
+  Future<Map<String, dynamic>> _search(Map<String, dynamic> args) async {
+    final query = args['query']?.toString().trim() ?? turn.question ?? '';
+    return _records(turn.isFollowUp ? '${_memory.last.$1} $query' : query);
   }
 
   Map<String, dynamic> _format(Map<String, dynamic> args) {

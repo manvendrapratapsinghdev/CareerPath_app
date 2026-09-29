@@ -90,6 +90,7 @@ class LiveVoiceController extends ChangeNotifier {
   Timer? _turnTimer;
   Timer? _idleTimer;
   Timer? _drainTimer;
+  Timer? _prefetchTimer;
   bool _playerStarted = false;
   bool _reading = false;
   int _playbackGeneration = 0;
@@ -150,6 +151,7 @@ class LiveVoiceController extends ChangeNotifier {
     _turnTimer?.cancel();
     _idleTimer?.cancel();
     _drainTimer?.cancel();
+    _prefetchTimer?.cancel();
     _micTimer = null;
     await _events?.cancel();
     _events = null;
@@ -231,6 +233,7 @@ class LiveVoiceController extends ChangeNotifier {
         if (!_questionAnnounced && _heard.isEmpty) _beginTurn();
         _heard += text;
         _armIdle();
+        _schedulePrefetch();
         notifyListeners();
       case LiveToolCall(:final calls) when _welcomeActive:
         _client.sendToolResponses([
@@ -290,10 +293,23 @@ class LiveVoiceController extends ChangeNotifier {
         _announceQuestion();
       }
       responses.add({'id': ?call.id, 'name': call.name, 'response': response});
-      if (call.name == 'search_careers') _holdSpeech = true;
+      // Records were handed over: any speech before format_answer is a draft.
+      if (call.name == 'search_careers' || response.containsKey('records')) {
+        _holdSpeech = true;
+      }
     }
     _client.sendToolResponses(responses);
     _armTurnTimer();
+  }
+
+  /// Once the student pauses mid-question, start looking things up.
+  void _schedulePrefetch() {
+    if (_welcomeActive) return;
+    _prefetchTimer?.cancel();
+    _prefetchTimer = Timer(
+      const Duration(milliseconds: 450),
+      () => tools.prefetch(_heard),
+    );
   }
 
   void _discardHeldSpeech() {

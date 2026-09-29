@@ -88,10 +88,12 @@ class LiveVoicePrompts {
       'AFTER route_query: if it returns direct_response, speak only that '
           'summary. If it returns app_help_context, answer from it, call '
           'format_answer, then speak. If it returns context_only, draft from '
-          'the conversation, call format_answer, then speak. Otherwise call '
-          'search_careers with the standalone_query.',
-      'After search_careers, draft a structured answer from the returned '
-          'records only: short <Title>…</Title> sections (for a direct '
+          'the conversation, call format_answer, then speak. If it returns '
+          'records, draft from them and call format_answer immediately; do '
+          'not call search_careers. Only if it returns next_tool '
+          'search_careers, call it with the standalone_query.',
+      'After route_query (or search_careers) returns records, draft a '
+          'structured answer from those records only: short <Title>…</Title> sections (for a direct '
           'who/what/where/which/how question, start with one <Title>…</Title> '
           "heading that means \"Here you go:\", translated into the answer's "
           'own language and script, e.g. "ये लीजिए:" in Hindi — never leave it '
@@ -146,7 +148,8 @@ class LiveVoicePrompts {
         {
           'name': 'search_careers',
           'description':
-              'Find CareerPath Explore records (streams, career paths, '
+              'Fallback, only when route_query asks for it. Find CareerPath Explore '
+              'records (streams, career paths, '
               'books, institutes, job sectors) for the question. Give the '
               'query as English keywords, transliterating any Hindi or '
               'regional-language stream, course, college, city or state '

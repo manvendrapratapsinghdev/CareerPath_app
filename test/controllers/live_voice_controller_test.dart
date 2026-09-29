@@ -86,7 +86,7 @@ class _FakeClient extends GeminiLiveClient {
   void emit(LiveEvent event) => _events.add(event);
 }
 
-LiveVoiceTools _tools() {
+LiveVoiceTools _tools({ExtraGrounding? extra}) {
   final data = CareerDataService(ApiClient())
     ..initializeWithData(
       [
@@ -107,6 +107,7 @@ LiveVoiceTools _tools() {
   return LiveVoiceTools(
     grounding: LocalAiGroundingService(data),
     loadAppHelp: () async => '',
+    extraGrounding: extra,
   );
 }
 
@@ -218,5 +219,108 @@ void main() {
 
     await controller.stop();
     expect(controller.state, LiveVoiceState.off);
+  });
+
+  test(
+    'records from route_query hold draft speech; no search call needed',
+    () async {
+      final client = _FakeClient();
+      final audio = _FakeAudio();
+      final answers = <VoiceAnswer>[];
+      final controller = LiveVoiceController(
+        keyService: _FakeKeys(),
+        tools: _tools(),
+        audio: audio,
+        client: client,
+      )..onAnswer = answers.add;
+      await controller.start(
+        voiceName: 'Leda',
+        interruptions: true,
+        playAudio: true,
+      );
+      Future<void> settle() => Future<void>.delayed(Duration.zero);
+
+      client.emit(
+        const LiveToolCall([
+          LiveFunctionCall(
+            id: '1',
+            name: 'route_query',
+            args: {
+              'query': 'Tell me about engineering',
+              'intent': 'career',
+              'standalone_query': 'engineering',
+              'is_follow_up': false,
+              'requires_search': true,
+              'input_language': 'english',
+            },
+          ),
+        ]),
+      );
+      await settle();
+      await settle();
+      expect(
+        client.toolResponses.single.single['response'],
+        contains('records'),
+      );
+
+      client
+        ..emit(LiveAudio(Uint8List.fromList([9, 9])))
+        ..emit(const LiveOutputTranscript('Draft. '));
+      await settle();
+      client.emit(
+        const LiveToolCall([
+          LiveFunctionCall(
+            id: '2',
+            name: 'format_answer',
+            args: {
+              'draft':
+                  '<Title>Here you go:</Title> Engineering is technology.'
+                  '\nQuestions:\n1. What?\nAnswers:\n1. CS.',
+            },
+          ),
+        ]),
+      );
+      await settle();
+      client
+        ..emit(LiveAudio(Uint8List.fromList([1, 2])))
+        ..emit(const LiveOutputTranscript('Engineering is technology.'))
+        ..emit(const LiveTurnComplete());
+      await settle();
+      await settle();
+
+      expect(answers.single.spokenText, 'Engineering is technology.');
+      expect(audio.played, [
+        [1, 2],
+      ]);
+      await controller.stop();
+    },
+  );
+
+  test('semantic lookup starts while the student is still speaking', () async {
+    final client = _FakeClient();
+    final queries = <String>[];
+    final controller = LiveVoiceController(
+      keyService: _FakeKeys(),
+      tools: _tools(
+        extra: (q, s) async {
+          queries.add(q);
+          return AiGroundingContext.empty;
+        },
+      ),
+      audio: _FakeAudio(),
+      client: client,
+    );
+    await controller.start(
+      voiceName: 'Leda',
+      interruptions: true,
+      playAudio: true,
+    );
+    client
+      ..emit(const LiveInputTranscript('tell me about '))
+      ..emit(const LiveInputTranscript('engineering colleges'));
+    await Future<void>.delayed(const Duration(milliseconds: 700));
+
+    expect(queries, ['tell me about engineering colleges']);
+    await controller.stop();
   });
 }
