@@ -1,3 +1,4 @@
+import 'package:career_path/models/ai_chat.dart';
 import 'package:career_path/models/career_node.dart';
 import 'package:career_path/models/stream_model.dart';
 import 'package:career_path/services/api_client.dart';
@@ -8,7 +9,7 @@ import 'package:career_path/services/live_voice_tools.dart';
 import 'package:career_path/services/local_ai_grounding_service.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-LiveVoiceTools _tools() {
+LiveVoiceTools _tools({ExtraGrounding? extra}) {
   final data = CareerDataService(ApiClient())
     ..initializeWithData(
       [
@@ -35,6 +36,7 @@ LiveVoiceTools _tools() {
   return LiveVoiceTools(
     grounding: LocalAiGroundingService(data),
     loadAppHelp: () async => 'Q: How do I talk? A: Tap Talk.',
+    extraGrounding: extra,
   );
 }
 
@@ -150,6 +152,61 @@ void main() {
     expect(search['records'], 'NO RECORDS FOUND');
     expect(tools.turn.sources, isEmpty);
     expect(tools.turn.noRecordsFound, isTrue);
+  });
+
+  group('semantic search', () {
+    const semanticHit = AiChatSource(
+      sourceId: 'career_node:computer-science',
+      sourceType: 'career_node',
+      title: 'Computer Science',
+      exploreNodeId: 'computer-science',
+    );
+    Future<AiGroundingContext> semantic(String q, String? s) async =>
+        const AiGroundingContext(
+          text:
+              '\nSOURCE career_node:computer-science\nTitle: Computer Science',
+          sources: [semanticHit],
+        );
+
+    test('voice merges semantic matches the keywords missed', () async {
+      final tools = _tools(extra: semantic);
+      await tools.execute(
+        _call('route_query', _route('coding jobs', VoiceIntent.career)),
+      );
+      final route = await tools.execute(
+        _call('search_careers', {'query': 'coding jobs'}),
+      );
+      expect(route['records'], contains('SOURCE career_node:computer-science'));
+      expect(
+        tools.turn.sources.map((s) => s.sourceId),
+        contains('career_node:computer-science'),
+      );
+      expect(tools.turn.noRecordsFound, isFalse);
+    });
+
+    test('semantic-only results still count as found', () async {
+      final tools = _tools(extra: semantic);
+      await tools.execute(
+        _call('route_query', _route('zzz unrelated words', VoiceIntent.career)),
+      );
+      await tools.execute(_call('search_careers', {'query': 'zzz'}));
+      expect(tools.turn.sources.single.sourceId, semanticHit.sourceId);
+      expect(tools.turn.noRecordsFound, isFalse);
+    });
+
+    test('a failing semantic lookup falls back to keywords', () async {
+      final tools = _tools(extra: (q, s) async => throw Exception('quota'));
+      await tools.execute(
+        _call(
+          'route_query',
+          _route('Tell me about engineering', VoiceIntent.career),
+        ),
+      );
+      final route = await tools.execute(
+        _call('search_careers', {'query': 'engineering'}),
+      );
+      expect(route['records'], contains('SOURCE career_node:engineering'));
+    });
   });
 
   test('memory feeds reconnect context', () {

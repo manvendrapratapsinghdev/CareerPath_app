@@ -43,6 +43,9 @@ class LiveVoiceTools {
   final Future<String> Function() loadAppHelp;
   final String? Function()? streamId;
 
+  /// Semantic search merged with keyword grounding, as in typed chat.
+  final ExtraGrounding? extraGrounding;
+
   VoiceTurn turn = VoiceTurn();
   final _memory = <(String, String)>[];
 
@@ -50,9 +53,33 @@ class LiveVoiceTools {
     required this.grounding,
     required this.loadAppHelp,
     this.streamId,
+    this.extraGrounding,
   });
 
   void startTurn() => turn = VoiceTurn();
+
+  Future<AiGroundingContext> _semantic(String query) async {
+    final extra = extraGrounding;
+    if (extra == null) return AiGroundingContext.empty;
+    try {
+      return await extra(query, streamId?.call());
+    } on Object catch (error) {
+      debugPrint(
+        '[AI Guide voice] semantic search failed (${error.runtimeType})',
+      );
+      return AiGroundingContext.empty;
+    }
+  }
+
+  /// Keyword and semantic grounding for [query].
+  Future<AiGroundingContext> _retrieve(String query) async {
+    final semantic = _semantic(query);
+    final keyword = await grounding.retrieve(
+      query: query,
+      streamId: streamId?.call(),
+    );
+    return AiGroundingContext.merge(keyword, await semantic);
+  }
 
   /// Keeps the last few turns so follow-ups and reconnects keep context.
   void remember(String question, String answer) {
@@ -138,9 +165,8 @@ class LiveVoiceTools {
 
   Future<Map<String, dynamic>> _search(Map<String, dynamic> args) async {
     final query = args['query']?.toString().trim() ?? turn.question ?? '';
-    final context = await grounding.retrieve(
-      query: turn.isFollowUp ? '${_memory.last.$1} $query' : query,
-      streamId: streamId?.call(),
+    final context = await _retrieve(
+      turn.isFollowUp ? '${_memory.last.$1} $query' : query,
     );
     turn.sources = context.sources;
     turn.noRecordsFound = context.isEmpty;

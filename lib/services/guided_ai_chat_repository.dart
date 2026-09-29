@@ -16,10 +16,6 @@ import 'live_voice_prompts.dart';
 import 'live_voice_tools.dart';
 import 'local_ai_grounding_service.dart';
 
-/// Extra retrieval (for example semantic search) merged into grounding.
-typedef ExtraGrounding =
-    Future<AiGroundingContext> Function(String query, String? streamId);
-
 /// The AI Guide's typed-chat repository: classifies each question, answers
 /// app-help and small talk directly, grounds career questions in local
 /// CareerPath data and returns a structured, sectioned answer with
@@ -262,16 +258,7 @@ class GuidedAiChatRepository extends AiChatRepository {
     } on Object {
       return keyword;
     }
-    if (semantic.isEmpty) return keyword;
-    if (keyword.isEmpty) return semantic;
-    final seen = keyword.sources.map((s) => s.sourceId).toSet();
-    return AiGroundingContext(
-      text: '${keyword.text}\n${semantic.text}',
-      sources: [
-        ...keyword.sources,
-        ...semantic.sources.where((s) => seen.add(s.sourceId)),
-      ],
-    );
+    return AiGroundingContext.merge(keyword, semantic);
   }
 
   Future<AiChatResponse> _appHelp(

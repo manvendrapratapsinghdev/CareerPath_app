@@ -123,6 +123,7 @@ void main() async {
       client: await AiHttpClientFactory.create(),
     ),
     httpClientFactory: await AiHttpClientFactory.createIoFactory(),
+    extraGrounding: semanticIndex.search,
   );
   final networkService = NetworkService();
   final analyticsService = AnalyticsService();

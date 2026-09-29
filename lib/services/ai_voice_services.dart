@@ -18,12 +18,16 @@ class AiVoiceServices {
   final VoicePreviewService preview;
   final Object? Function()? httpClientFactory;
 
+  /// Semantic search merged into voice grounding (same as typed chat).
+  final ExtraGrounding? extraGrounding;
+
   const AiVoiceServices({
     required this.keyService,
     required this.grounding,
     required this.settings,
     required this.preview,
     this.httpClientFactory,
+    this.extraGrounding,
   });
 
   LiveVoiceController createController({String? Function()? streamId}) =>
@@ -34,6 +38,7 @@ class AiVoiceServices {
           grounding: grounding,
           loadAppHelp: () => rootBundle.loadString(_appHelpAsset),
           streamId: streamId,
+          extraGrounding: extraGrounding,
         ),
       );
 }

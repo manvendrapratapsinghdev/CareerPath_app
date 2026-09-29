@@ -12,7 +12,30 @@ class AiGroundingContext {
   const AiGroundingContext({required this.text, required this.sources});
 
   bool get isEmpty => sources.isEmpty || text.trim().isEmpty;
+
+  static const empty = AiGroundingContext(text: '', sources: []);
+
+  /// Keyword matches first, then any semantic matches not already present.
+  static AiGroundingContext merge(
+    AiGroundingContext keyword,
+    AiGroundingContext semantic,
+  ) {
+    if (semantic.isEmpty) return keyword;
+    if (keyword.isEmpty) return semantic;
+    final seen = keyword.sources.map((s) => s.sourceId).toSet();
+    return AiGroundingContext(
+      text: '${keyword.text}\n${semantic.text}',
+      sources: [
+        ...keyword.sources,
+        ...semantic.sources.where((s) => seen.add(s.sourceId)),
+      ],
+    );
+  }
 }
+
+/// Extra retrieval (for example semantic search) merged into grounding.
+typedef ExtraGrounding =
+    Future<AiGroundingContext> Function(String query, String? streamId);
 
 class LocalAiGroundingService {
   static const _stopWords = {
