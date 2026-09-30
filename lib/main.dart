@@ -39,6 +39,7 @@ import 'services/ai_guide_extras.dart';
 import 'services/ai_voice_services.dart';
 import 'services/gemini_key_service.dart';
 import 'services/institute_catalog_service.dart';
+import 'services/search_aliases.dart';
 import 'services/search_spell_corrector.dart';
 import 'services/semantic_index_service.dart';
 import 'services/voice_preview_service.dart';
@@ -82,6 +83,7 @@ void main() async {
     catalog: instituteCatalog,
     loadDictionary: () =>
         rootBundle.loadString(SearchSpellCorrector.dictionaryAsset),
+    loadAliases: () => rootBundle.loadString(SearchAliases.asset),
   );
   unawaited(groundingService.warmUp().catchError((_) {}));
   final semanticIndex = SemanticIndexService(

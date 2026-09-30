@@ -105,6 +105,36 @@ void main() {
     expect(result.text, contains('SOURCE career_node:engineering'));
   });
 
+  test('abbreviations find their records and are not "corrected"', () async {
+    final grounding = LocalAiGroundingService(
+      _careerService(),
+      loadDictionary: () async => 'mother\nplace',
+      loadAliases: () async =>
+          '{"engg": ["engineering"], "cse": ["computer science"]}',
+    );
+
+    expect(
+      (await grounding.retrieve(query: 'engg')).text,
+      contains('SOURCE career_node:engineering'),
+    );
+    expect(
+      (await grounding.retrieve(query: 'cse jobs')).text,
+      contains('SOURCE career_node:computer-science'),
+    );
+  });
+
+  test('a broken alias table falls back to the words as written', () async {
+    final grounding = LocalAiGroundingService(
+      _careerService(),
+      loadAliases: () async => 'not json',
+    );
+    expect((await grounding.retrieve(query: 'engg')).isEmpty, isTrue);
+    expect(
+      (await grounding.retrieve(query: 'engineering')).text,
+      contains('SOURCE career_node:engineering'),
+    );
+  });
+
   test('without the word list, words are matched exactly', () async {
     for (final grounding in [
       LocalAiGroundingService(_careerService()),

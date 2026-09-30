@@ -6,6 +6,7 @@ import '../models/career_node.dart';
 import '../models/institute_catalog.dart';
 import 'career_data_service.dart';
 import 'institute_catalog_service.dart';
+import 'search_aliases.dart';
 import 'search_spell_corrector.dart';
 
 class AiGroundingContext {
@@ -114,15 +115,22 @@ class LocalAiGroundingService {
   /// it words are matched exactly as given.
   final Future<String> Function()? loadDictionary;
 
+  /// Loads the alias table ([SearchAliases.asset]); without it
+  /// abbreviations are matched only as written.
+  final Future<String> Function()? loadAliases;
+
   LocalAiGroundingService(
     this._careerDataService, {
     this.catalog,
     this.loadDictionary,
+    this.loadAliases,
   });
 
   Future<SearchSpellCorrector?>? _spelling;
+  Future<SearchAliases?>? _aliases;
 
-  /// Builds the spelling corrector ahead of the first question.
+  /// Builds the alias table and spelling corrector ahead of the first
+  /// question.
   Future<void> warmUp() async {
     await _careerDataService.ensureInitialized();
     await catalog?.ensureLoaded();
@@ -138,7 +146,9 @@ class LocalAiGroundingService {
   }) async {
     await _careerDataService.ensureInitialized();
     await this.catalog?.ensureLoaded();
-    // Misspelled or misheard words would match nothing below.
+    // Abbreviations first ("engg" → engineering), then misspelled or
+    // misheard words, which would otherwise match nothing below.
+    query = (await _aliasTable())?.expand(query) ?? query;
     query = (await _speller())?.correctQuery(query) ?? query;
     final queryTokens = _tokens(query);
     final hasCareerIntent =
@@ -321,12 +331,25 @@ class LocalAiGroundingService {
     );
   }
 
+  Future<SearchAliases?> _aliasTable() => _aliases ??= () async {
+    final load = loadAliases;
+    if (load == null) return null;
+    try {
+      return SearchAliases.parse(await load());
+    } on Object catch (error) {
+      debugPrint('[AI Guide] search aliases off (${error.runtimeType})');
+      return null;
+    }
+  }();
+
   /// Built once, off the UI thread, from the bundled (read-only) data.
   Future<SearchSpellCorrector?> _speller() => _spelling ??= () async {
     final load = loadDictionary;
     if (load == null) return null;
     try {
       final dictionary = await load();
+      // Alias keys ("engg", "mbbs") are meant as written.
+      final aliasWords = (await _aliasTable())?.keyWords.toList() ?? const [];
       final records = catalog?.records ?? const <InstituteRecord>[];
       return await compute(_buildSpelling, (
         names: [
@@ -346,6 +369,7 @@ class LocalAiGroundingService {
         otherText: [
           for (final node in _careerDataService.getAllNodes()) node.intro ?? '',
           for (final record in records) record.institute.description ?? '',
+          ...aliasWords,
         ],
         dictionary: dictionary,
       ));
