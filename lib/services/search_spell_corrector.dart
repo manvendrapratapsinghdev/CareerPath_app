@@ -90,16 +90,11 @@ class SearchSpellCorrector {
   /// The closest data word to [word], or [word] itself when it is already
   /// known, too short, contains digits, or nothing is close enough.
   ///
-  /// A word the data itself misspells once ("psycology" beside many
-  /// "psychology") comes back with the common spelling too, so both the
-  /// typo'd record and the correctly spelled ones match.
+  /// Misspellings inside the data itself are fixed in the database
+  /// (tooling/fix_data_spellings.py), so data words are trusted as spelled.
   String correct(String word) {
     if (word.length < minLength || word.contains(RegExp('[0-9]'))) {
       return word;
-    }
-    if (_frequency[word] == 1 && word.length >= 6) {
-      final common = _closest(word, maxEdits: 1, minFrequency: 5);
-      return common == null ? word : '$word $common';
     }
     if (isWord(word)) return word;
     return _closest(word, maxEdits: word.length <= 7 ? 1 : 2) ?? word;
@@ -130,7 +125,7 @@ class SearchSpellCorrector {
     ('ers', ['', 'e']),
   ];
 
-  String? _closest(String word, {required int maxEdits, int minFrequency = 1}) {
+  String? _closest(String word, {required int maxEdits}) {
     String? best;
     var bestRank = const (999, 1, 0);
     for (
@@ -139,9 +134,6 @@ class SearchSpellCorrector {
       length++
     ) {
       for (final candidate in _byLength[length] ?? const <String>[]) {
-        if (candidate == word || _frequency[candidate]! < minFrequency) {
-          continue;
-        }
         final sameStart = candidate.codeUnitAt(0) == word.codeUnitAt(0);
         // A changed first letter is only trusted in longer words
         // ("kemistry" → "chemistry"); in short ones it's usually another word.

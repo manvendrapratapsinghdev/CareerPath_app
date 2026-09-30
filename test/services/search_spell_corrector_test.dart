@@ -29,7 +29,9 @@ SearchSpellCorrector _corrector({Set<String> dictionary = const {}}) =>
         'Psychology',
         'Psychology',
         'Psychology',
-        'B.Sc Psycology',
+        'Kanpur',
+        'Kanpur',
+        'Kannur',
       ],
       otherText: ['Study the best courses to become a doctor.'],
       dictionary: dictionary,
@@ -95,9 +97,10 @@ void main() {
     expect(c.correct('bolice'), 'police');
   });
 
-  test('a word the data misspells once also searches the common spelling', () {
+  test('a data word is never swapped for a more common one', () {
     final c = _corrector();
-    expect(c.correctQuery('psycology'), 'psycology psychology');
+    // Rare names are real: "Kannur" must not pull in Kanpur colleges.
+    expect(c.correctQuery('Kannur University'), 'Kannur University');
     expect(c.correctQuery('psychology'), 'psychology');
   });
 

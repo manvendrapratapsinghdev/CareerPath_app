@@ -15,6 +15,7 @@ import sqlite3
 from pathlib import Path
 from typing import Any
 
+from fix_data_spellings import fix_spellings
 from validate_verifications import validate
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
@@ -459,6 +460,8 @@ def import_verified(
                 "Import introduced foreign-key errors: "
                 f"{sorted(new_foreign_key_errors)[:5]}"
             )
+        # Source websites misspell course names; keep the bundled data clean.
+        fix_spellings(connection)
         connection.execute("PRAGMA user_version = 1")
         connection.commit()
     except Exception:
