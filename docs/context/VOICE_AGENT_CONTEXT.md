@@ -142,6 +142,14 @@ prefixPadding 400 ms, silence 600 ms, tools = the 3 declarations below, system i
   Devanagari marks), the turn is an echo: route_query replies `{ignored: true}` (`LiveVoicePrompts.echoIgnored`) and the turn's audio/text
   never play or reach chat. Do **not** replace this with a fixed loudness threshold (tried 2026-09-30: needed shouting) or with an ungated
   mic (loops). Verified on the simulator with `say` as the student: no self-loop; interruption heard.
+  **After Gemini has sent the whole answer** (`LiveTurnComplete` while the phone still plays the queue — Gemini sends audio faster than
+  real time) Gemini has nothing to interrupt and never sends `LiveInterrupted`. The controller then stops playback itself
+  (`_interruptLocally`) on the first input transcript with a word the guide did not just say (`isStudentSpeech`); in gated mode that
+  barge-in waits up to `liveBargeInTranscriptConfirmFrames` (~3.2 s) for the transcript instead of closing at ~1.6 s. The good-AEC echo
+  probe runs once at the first quiet frame from ~0.8 s (not exactly frame 10, which a loud frame used to skip).
+  Debugging "not listening": first check Gemini itself — on 2026-09-30 `gemini-3.1-flash-live-preview` briefly returned no input
+  transcripts for any audio and closed sessions with `1011 Internal error encountered` (app and mic were fine); a desktop probe that sends
+  a `say`-recorded WAV over the same WebSocket setup isolates this in a minute.
 - `playAudio == false` (Spoken answers off) → transcripts only.
 
 ### Tool contract (declared to Gemini)

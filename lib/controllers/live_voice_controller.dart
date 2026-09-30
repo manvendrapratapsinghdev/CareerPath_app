@@ -94,6 +94,12 @@ class LiveVoiceController extends ChangeNotifier {
   int _openFrames = 0;
   bool _bargeInOpen = false;
   bool _micOpen = false;
+  bool _echoProbed = false;
+
+  // Gemini has sent its whole answer (turnComplete) but the phone is still
+  // playing it. Gemini then has nothing left to interrupt and never sends
+  // `interrupted`, so a student talking over the guide is handled here.
+  bool _answerSent = false;
 
   // After a barge-in, what the guide said recently, to recognise its own
   // words coming back as a "question" (see [isOwnEcho]).
@@ -278,7 +284,12 @@ class LiveVoiceController extends ChangeNotifier {
     // Echo cancellation proved good for this answer: stream like listening.
     if (_micOpen) return [pcm];
     if (_bargeInOpen) {
-      if (++_openFrames <= AiProviderConfig.liveBargeInConfirmFrames) {
+      // With the answer already sent, only the student's transcript can
+      // confirm the barge-in (see [_onEvent]), and it lags the speech.
+      final window = _answerSent
+          ? AiProviderConfig.liveBargeInTranscriptConfirmFrames
+          : AiProviderConfig.liveBargeInConfirmFrames;
+      if (++_openFrames <= window) {
         return [pcm];
       }
       debugPrint('[AI Guide voice] barge-in not confirmed, closing mic');
@@ -304,8 +315,15 @@ class LiveVoiceController extends ChangeNotifier {
       while (_echo.length > AiProviderConfig.liveEchoWindowFrames) {
         _echo.removeFirst();
       }
-      if (_speakingFrames == AiProviderConfig.liveEchoProbeFrames &&
-          _echo.reduce(math.max) < AiProviderConfig.liveCleanEchoRms) {
+      // Probe once, at the first quiet frame from ~0.8 s on (a loud frame
+      // exactly then must not skip the probe for the whole answer).
+      if (!_echoProbed &&
+          _speakingFrames >= AiProviderConfig.liveEchoProbeFrames) {
+        _echoProbed = true;
+      } else {
+        return const [];
+      }
+      if (_echo.reduce(math.max) < AiProviderConfig.liveCleanEchoRms) {
         debugPrint(
           '[AI Guide voice] echo ${_echo.reduce(math.max).toStringAsFixed(3)}'
           ' is cancelled well; mic open while the guide speaks',
@@ -336,6 +354,7 @@ class LiveVoiceController extends ChangeNotifier {
       _echo.clear();
       _speakingFrames = 0;
       _micOpen = false;
+      _echoProbed = false;
     }
     _preRoll.clear();
     _loudFrames = 0;
@@ -375,6 +394,11 @@ class LiveVoiceController extends ChangeNotifier {
         }
         if (!_questionAnnounced && _heard.isEmpty) _beginTurn();
         _heard += text;
+        if (_state == LiveVoiceState.speaking &&
+            _answerSent &&
+            isStudentSpeech(_heard, _recentSpoken)) {
+          _interruptLocally();
+        }
         _armIdle();
         _schedulePrefetch();
         notifyListeners();
@@ -398,6 +422,7 @@ class LiveVoiceController extends ChangeNotifier {
         _heldAudio.add(pcm24k);
       case LiveAudio(:final pcm24k):
         _turnTimer?.cancel();
+        _answerSent = false;
         _announceQuestion();
         _setState(LiveVoiceState.speaking);
         if (_playAudio) _play(pcm24k);
@@ -409,12 +434,14 @@ class LiveVoiceController extends ChangeNotifier {
         _spoken += text;
         notifyListeners();
       case LiveInterrupted():
+        _answerSent = false;
         unawaited(_stopPlayback());
         _finishTurn();
         _setState(LiveVoiceState.listening);
       case LiveTurnComplete():
         _releaseHeldSpeech();
         _finishTurn();
+        _answerSent = _state == LiveVoiceState.speaking;
         _listenAfterPlayback();
       case LiveGoAway():
         unawaited(_reconnect());
@@ -493,6 +520,24 @@ class LiveVoiceController extends ChangeNotifier {
           .map((match) => match.group(0)!)
           .where((word) => word.length >= 3 && !_notContent.contains(word))
           .toList();
+
+  /// The student is talking over an answer Gemini already finished
+  /// sending: stop the phone playing it and listen, as `interrupted` does.
+  void _interruptLocally() {
+    debugPrint('[AI Guide voice] student cut in after the answer was sent');
+    _answerSent = false;
+    unawaited(_stopPlayback());
+    _setState(LiveVoiceState.listening);
+  }
+
+  /// [heard] has a word the guide did not just say, so it is the student
+  /// and not the guide's own voice coming back through the mic.
+  static bool isStudentSpeech(String heard, Iterable<String> spoken) {
+    final words = _contentWords(heard);
+    if (words.isEmpty) return false;
+    final said = spoken.expand(_contentWords).toSet();
+    return words.any((word) => !said.contains(word));
+  }
 
   /// [heard] repeats [spoken]: at least two content words, 80% of them
   /// words the guide said ("technology operation" after "Operation Theatre

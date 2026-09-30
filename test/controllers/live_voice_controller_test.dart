@@ -56,16 +56,20 @@ class _FakeAudio extends VoiceAssistantAudioBridge {
   }) async {}
   @override
   Future<void> writePlayer(Uint8List bytes) async => played.add(bytes);
+
+  /// The phone is still playing queued answer audio.
+  bool playing = false;
+  var playerStops = 0;
+
   @override
-  Future<PcmPlaybackPosition> playbackPosition() async =>
-      const PcmPlaybackPosition(
-        playedFrames: 0,
-        queuedFrames: 0,
-        sampleRate: 24000,
-        isPlaying: false,
-      );
+  Future<PcmPlaybackPosition> playbackPosition() async => PcmPlaybackPosition(
+    playedFrames: 0,
+    queuedFrames: playing ? 48000 : 0,
+    sampleRate: 24000,
+    isPlaying: playing,
+  );
   @override
-  Future<void> stopPlayer() async {}
+  Future<void> stopPlayer() async => playerStops++;
 }
 
 class _FakeClient extends GeminiLiveClient {
@@ -251,6 +255,79 @@ void main() {
       final controller = await speaking();
       await mic(repeat(3000, 30));
       expect(client.audioSent, 0);
+      await controller.stop();
+    });
+
+    group('after Gemini has sent the whole answer', () {
+      // Gemini sends audio faster than it plays: turnComplete arrives while
+      // the phone still has seconds of the answer queued, and Gemini sends
+      // no `interrupted` for a turn it has finished.
+      Future<LiveVoiceController> stillPlaying() async {
+        final controller = await speaking();
+        audio.playing = true;
+        client.emit(const LiveTurnComplete());
+        await Future<void>.delayed(Duration.zero);
+        expect(controller.state, LiveVoiceState.speaking);
+        return controller;
+      }
+
+      test('with good echo cancellation the student stops the guide', () async {
+        final controller = await speaking();
+        await mic(repeat(100, 10));
+        audio.playing = true;
+        client.emit(const LiveTurnComplete());
+        await Future<void>.delayed(Duration.zero);
+        await mic(repeat(8000, 5));
+        client.emit(const LiveInputTranscript('wait, what about law'));
+        await Future<void>.delayed(Duration.zero);
+        expect(controller.state, LiveVoiceState.listening);
+        expect(audio.playerStops, 1);
+        expect(controller.heardTranscript, 'wait, what about law');
+        await controller.stop();
+      });
+
+      test('over loud echo the mic stays open until the transcript', () async {
+        final controller = await stillPlaying();
+        await mic([...repeat(3000, 8), ...repeat(8000, 3)]);
+        expect(client.audioSent, 8);
+        // Past the usual 1.6 s window: no `interrupted` will come, so the
+        // mic waits for the student's transcript instead of closing.
+        await mic(repeat(8000, 25));
+        expect(client.audioSent, 33);
+        client.emit(const LiveInputTranscript('what about law'));
+        await Future<void>.delayed(Duration.zero);
+        expect(controller.state, LiveVoiceState.listening);
+        expect(audio.playerStops, 1);
+        await controller.stop();
+      });
+
+      test('the guide\'s own words heard back do not stop it', () async {
+        final controller = await speaking();
+        await mic(repeat(100, 10));
+        client.emit(const LiveOutputTranscript('Engineering is a good path.'));
+        audio.playing = true;
+        client.emit(const LiveTurnComplete());
+        await Future<void>.delayed(Duration.zero);
+        // Its own words heard back are not the student.
+        client.emit(const LiveInputTranscript('engineering'));
+        await Future<void>.delayed(Duration.zero);
+        expect(controller.state, LiveVoiceState.speaking);
+        expect(audio.playerStops, 0);
+        // A word of the student's own is.
+        client.emit(const LiveInputTranscript(' law'));
+        await Future<void>.delayed(Duration.zero);
+        expect(controller.state, LiveVoiceState.listening);
+        await controller.stop();
+      });
+    });
+
+    test('a loud frame at the echo probe does not keep the gate on', () async {
+      final controller = await speaking();
+      await mic([...repeat(100, 9), _tone(8000), ...repeat(100, 5)]);
+      // The probe moves to the next quiet frame and opens the mic.
+      expect(client.audioSent, greaterThan(0));
+      await mic([_tone(300)]);
+      expect(client.audioSent, greaterThan(1));
       await controller.stop();
     });
 

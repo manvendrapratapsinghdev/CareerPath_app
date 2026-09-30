@@ -85,6 +85,10 @@ class AiProviderConfig {
   /// treats the barge-in as a false alarm and closes again.
   static const int liveBargeInConfirmFrames = 20;
 
+  /// The same, once Gemini has sent the whole answer and only the student's
+  /// transcript (which lags the speech) can confirm the barge-in: ~3.2 s.
+  static const int liveBargeInTranscriptConfirmFrames = 40;
+
   static const String voicePreviewText =
       'Hi! I am your CareerPath guide. After Science, you can explore '
       'engineering, medicine, pure sciences and design. Ask me about any '
