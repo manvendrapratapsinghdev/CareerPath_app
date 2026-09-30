@@ -75,3 +75,13 @@ User Request
 - Commit messages: conventional commits (feat:, fix:, refactor:, test:, chore:)
 - One logical change per commit
 - PR summary with changes list and test plan
+
+## Session Context (read before scanning the repo)
+
+`docs/context/VOICE_AGENT_CONTEXT.md` is a verified map of the **AI Guide voice agent** (Gemini Live: controller, client,
+tools, prompts, native audio plugin, tests) and the **full SQLite schema** (`assets/data/career_path.db`, ER diagram,
+row counts, data-quality traps), the shared **search pipeline** (aliases → spelling correction → keyword +
+semantic grounding, with the tooling that rebuilds its assets) and local-storage keys. Read it first; open source files only for the function you are
+changing. Note: the app runs from the bundled SQLite DB (`LocalDataSource`), not the ngrok API described above.
+Update that file in the same commit whenever you change voice tools/intents/config, the search pipeline, the DB
+schema/asset (then re-run `tooling/build_search_aliases.py`), or prefs keys.
