@@ -1,4 +1,5 @@
 import '../models/institute_catalog.dart';
+import 'search_aliases.dart';
 
 /// Institutes with their courses and NIRF rankings, loaded once from the
 /// bundled database and searched in memory.
@@ -159,6 +160,7 @@ class InstituteCatalogService {
     return _loading ??= _loader()
         .then((rows) {
           _records = rows.map(InstituteRecord.fromJson).toList(growable: false);
+          _places = null;
         })
         .whenComplete(() => _loading = null);
   }
@@ -197,17 +199,24 @@ class InstituteCatalogService {
   }
 
   /// Institutes whose name, location or course names match [query]. When the
-  /// question names a state, only institutes actually in that state are
-  /// considered — otherwise a loosely-matching college from another state can
-  /// still hit the score threshold below and crowd out real results.
+  /// question names a state, city or district, only institutes actually
+  /// there are considered — otherwise a loosely-matching college from
+  /// elsewhere ("medical college" in Lucknow for "MBBS in Bhopal") can still
+  /// hit the score threshold below and crowd out real results.
   List<InstituteRecord> search(String query, {int limit = 5}) {
-    final tokens = _tokens(query).difference(_stopWords);
+    final tokens = _tokens(
+      query,
+    ).difference(_stopWords).difference(searchFillerWords);
     if (tokens.isEmpty) return const [];
     final requestedState = _requestedState(tokens);
+    final requestedPlaces = _requestedPlaces(tokens);
     final scored = <(InstituteRecord, int)>[];
     for (final record in records) {
       final (:name, :place, :courses, :state) = _searchText(record);
       if (requestedState != null && state != requestedState) continue;
+      if (requestedPlaces.isNotEmpty && !requestedPlaces.any(place.contains)) {
+        continue;
+      }
       // A requested state that matched already confirms relevance, even when
       // the query used an abbreviation ("UP") that never appears in the
       // stored place text.
@@ -242,6 +251,7 @@ class InstituteCatalogService {
     final categories = tokens.intersection(_rankingCategories);
     final nameTokens = tokens
         .difference(_stopWords)
+        .difference(searchFillerWords)
         .difference(_rankingWords)
         .difference(_rankingCategories);
     final pairs = <(InstituteRecord, InstituteRanking)>[
@@ -304,6 +314,33 @@ class InstituteCatalogService {
       .map((token) => token.replaceAll('.', ''))
       .where((token) => token.length >= 2)
       .toSet();
+
+  /// Cities and districts in the records (as `' word word'` haystack text),
+  /// built once; placeholders such as "Various" are not places.
+  List<(Set<String>, String)>? _places;
+
+  List<(Set<String>, String)> get _knownPlaces => _places ??= () {
+    final seen = <String>{};
+    return [
+      for (final record in records)
+        for (final value in [record.institute.city, record.institute.district])
+          if (value != null)
+            if (_haystack(value).trim() case final place
+                when place.isNotEmpty &&
+                    !_notPlaces.contains(place) &&
+                    seen.add(place))
+              (place.split(' ').toSet(), ' $place'),
+    ];
+  }();
+
+  static const _notPlaces = {'various', 'online', 'multiple', 'pan india'};
+
+  /// Haystack text of every known city or district all of whose words are in
+  /// [tokens].
+  List<String> _requestedPlaces(Set<String> tokens) => [
+    for (final (words, place) in _knownPlaces)
+      if (tokens.containsAll(words)) place,
+  ];
 
   /// Searchable text of one record, built once (the records never change):
   /// see [_haystack].

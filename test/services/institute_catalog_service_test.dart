@@ -118,6 +118,20 @@ void main() {
     expect(names('jaipur'), ['MNIT Jaipur']);
   });
 
+  test('a named city keeps colleges from elsewhere out', () {
+    final catalog = InstituteCatalogService.withRecords(
+      _rows.map(InstituteRecord.fromJson).toList(),
+    );
+    // "IIT" matches IIT Jodhpur by name, but the student asked about Jaipur.
+    expect(catalog.search('iit jaipur').map((r) => r.institute.name), [
+      'MNIT Jaipur',
+    ]);
+    expect(
+      catalog.search('iit').map((r) => r.institute.name),
+      contains('IIT Jodhpur'),
+    );
+  });
+
   test('search only returns the state named in the query', () async {
     final catalog = InstituteCatalogService(() async => _rows);
     await catalog.ensureLoaded();

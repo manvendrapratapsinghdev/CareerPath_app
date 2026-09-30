@@ -28,12 +28,15 @@ void main() {
     expect(aliases.expand('physics'), 'physics');
   });
 
-  test('multi-word keys and their parts both expand, without repeats', () {
-    final expanded = aliases.expand('JEE Advanced');
-    expect(expanded, contains('iit'));
-    expect(expanded, contains('entrance'));
-    expect(RegExp(r'\bengineering\b').allMatches(expanded), hasLength(1));
+  test('the longest alias wins, and words are not repeated', () {
+    // "jee advanced" is one alias; "jee" alone is not expanded inside it.
+    expect(aliases.expand('JEE Advanced'), 'JEE Advanced iit engineering');
+    expect(aliases.expand('JEE mains'), 'JEE mains engineering entrance');
     expect(aliases.expand('sarkari naukri'), 'sarkari naukri government jobs');
+    expect(
+      RegExp(r'\bengineering\b').allMatches(aliases.expand('btech engg')),
+      hasLength(1),
+    );
   });
 
   test('key words are exposed for spelling correction', () {

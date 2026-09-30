@@ -2,6 +2,97 @@ import 'dart:convert';
 
 import 'search_spell_corrector.dart';
 
+/// Hinglish filler words that carry no search meaning. They are skipped when
+/// matching, because short ones hide inside names ("hai" in "blockchain").
+const searchFillerWords = {
+  'aap',
+  'acha',
+  'accha',
+  'achha',
+  'achi',
+  'acchi',
+  'apna',
+  'apni',
+  'aur',
+  'baad',
+  'bahut',
+  'banana',
+  'banaye',
+  'bane',
+  'banna',
+  'banu',
+  'batao',
+  'bataiye',
+  'bataye',
+  'bhi',
+  'chahiye',
+  'chahta',
+  'chahti',
+  'hai',
+  'hain',
+  'hi',
+  'ho',
+  'hota',
+  'hote',
+  'hoti',
+  'hum',
+  'humein',
+  'ka',
+  'kab',
+  'kaha',
+  'kahan',
+  'kaisa',
+  'kaise',
+  'kar',
+  'kare',
+  'karein',
+  'karen',
+  'karna',
+  'karo',
+  'karoon',
+  'karu',
+  'kaun',
+  'kaunsa',
+  'kaunse',
+  'kaunsi',
+  'ke',
+  'ki',
+  'kitna',
+  'kitne',
+  'kitni',
+  'ko',
+  'konsa',
+  'kuch',
+  'kya',
+  'kyon',
+  'kyun',
+  'lie',
+  'liye',
+  'mai',
+  'mein',
+  'mera',
+  'mere',
+  'meri',
+  'mujhe',
+  'par',
+  'pe',
+  'pehle',
+  'sabse',
+  'sakta',
+  'sakte',
+  'sakti',
+  'samjhao',
+  'samjhaiye',
+  'se',
+  'tha',
+  'thi',
+  'toh',
+  'wala',
+  'wale',
+  'wali',
+  'ya',
+};
+
 /// Expands abbreviations, old names and Hinglish words in a search
 /// ("engg" → engineering, "bhu" → banaras hindu university, "vakil" →
 /// lawyer) so the records they stand for are found. The student's own words
@@ -36,21 +127,29 @@ class SearchAliases {
       _aliases.keys.expand((key) => key.split(' '));
 
   /// [query] followed by the expansions of every alias it contains (whole
-  /// words, case and dots ignored, so "B.Tech" matches "btech").
+  /// words, case and dots ignored, so "B.Tech" matches "btech"). The longest
+  /// alias wins: "sarkari naukri" expands as a phrase, not as "sarkari".
   String expand(String query) {
     final words = SearchSpellCorrector.words(query).toList();
     final present = words.toSet();
     final extra = <String>[];
-    for (var start = 0; start < words.length; start++) {
-      for (var length = 1; length <= _longestKey; length++) {
-        if (start + length > words.length) break;
-        final key = words.sublist(start, start + length).join(' ');
-        for (final expansion in _aliases[key] ?? const <String>[]) {
+    var start = 0;
+    while (start < words.length) {
+      var matched = 1;
+      for (var length = _longestKey; length >= 1; length--) {
+        if (start + length > words.length) continue;
+        final expansions =
+            _aliases[words.sublist(start, start + length).join(' ')];
+        if (expansions == null) continue;
+        for (final expansion in expansions) {
           for (final word in expansion.split(' ')) {
             if (present.add(word)) extra.add(word);
           }
         }
+        matched = length;
+        break;
       }
+      start += matched;
     }
     return extra.isEmpty ? query : '$query ${extra.join(' ')}';
   }

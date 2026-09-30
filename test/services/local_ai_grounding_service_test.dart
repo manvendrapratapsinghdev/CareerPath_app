@@ -163,6 +163,51 @@ void main() {
     expect(data.detailReads['computer-science'], 1);
   });
 
+  test('Hinglish filler words do not match inside names', () async {
+    final data = CareerDataService(ApiClient())
+      ..initializeWithData(
+        [
+          StreamModel(
+            id: 'science',
+            name: 'Science',
+            categoryIds: ['blockchain', 'doctor', 'lab'],
+          ),
+        ],
+        {
+          'blockchain': CareerNode(
+            id: 'blockchain',
+            name: 'Blockchain Developer',
+          ),
+          'doctor': CareerNode(id: 'doctor', name: 'Doctor (MBBS)'),
+          'lab': CareerNode(id: 'lab', name: 'Medical Laboratory Technology'),
+        },
+      );
+    final grounding = LocalAiGroundingService(
+      data,
+      loadDictionary: () async => 'mother',
+      loadAliases: () async => '{"doctor": ["medical"]}',
+    );
+
+    // "hai" is inside "blockchain"; it must not pull that career in.
+    final plain = await grounding.retrieve(query: 'doctor banna hai');
+    expect(
+      plain.sources.map((s) => s.exploreNodeId),
+      isNot(contains('blockchain')),
+    );
+    expect(plain.sources.first.exploreNodeId, 'doctor');
+
+    // A misspelled alias is corrected first, then expanded.
+    final misspelled = await grounding.retrieve(query: 'docter banna hai');
+    expect(
+      misspelled.sources.map((s) => s.exploreNodeId),
+      containsAll(['doctor', 'lab']),
+    );
+    expect(
+      misspelled.sources.map((s) => s.exploreNodeId),
+      isNot(contains('blockchain')),
+    );
+  });
+
   test('returns no context for an unrelated request', () async {
     final grounding = LocalAiGroundingService(_careerService());
 

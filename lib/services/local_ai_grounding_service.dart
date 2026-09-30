@@ -149,8 +149,11 @@ class LocalAiGroundingService {
     await this.catalog?.ensureLoaded();
     // Abbreviations first ("engg" → engineering), then misspelled or
     // misheard words, which would otherwise match nothing below.
-    query = (await _aliasTable())?.expand(query) ?? query;
+    final aliases = await _aliasTable();
+    query = aliases?.expand(query) ?? query;
     query = (await _speller())?.correctQuery(query) ?? query;
+    // Once more for aliases that were misspelled ("docter" → doctor).
+    query = aliases?.expand(query) ?? query;
     final queryTokens = _tokens(query);
     final hasCareerIntent =
         broad || queryTokens.any(_careerIntentWords.contains);
@@ -391,7 +394,12 @@ class LocalAiGroundingService {
     return RegExp(r'[a-z0-9]+')
         .allMatches(value.toLowerCase())
         .map((match) => match.group(0)!)
-        .where((token) => token.length > 1 && !_stopWords.contains(token))
+        .where(
+          (token) =>
+              token.length > 1 &&
+              !_stopWords.contains(token) &&
+              !searchFillerWords.contains(token),
+        )
         .toSet();
   }
 
