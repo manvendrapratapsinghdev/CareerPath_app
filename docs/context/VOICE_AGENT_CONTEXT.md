@@ -2,7 +2,7 @@
 
 > **Purpose:** a pre-digested map so a new Claude session does NOT re-scan the repo.
 > Read this first; open source files only for the exact function you are changing.
-> **Verified against:** branch `feature/voice-structured-search` (app version `1.4.2+16`), 2026-09-30.
+> **Verified against:** branch `feature/voice-structured-search` (app version `1.5.0+17`), 2026-09-30.
 > **Keep fresh:** if you change anything listed here, update this file in the same commit (see §12).
 
 ---
