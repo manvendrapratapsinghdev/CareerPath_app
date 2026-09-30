@@ -1,4 +1,6 @@
 import 'dart:async';
+import 'dart:collection';
+import 'dart:math' as math;
 
 import 'package:flutter/foundation.dart';
 import 'package:live_audio/live_audio.dart';
@@ -75,6 +77,28 @@ class LiveVoiceController extends ChangeNotifier {
 
   /// What the assistant is saying right now.
   String get liveTranscript => _spoken;
+
+  /// What the student has said so far in the current turn.
+  String get heardTranscript => _heard;
+
+  /// Microphone loudness while listening, 0 (silent) to 1 (loud). Separate
+  /// from [notifyListeners] so the orb can animate without rebuilding the tab.
+  final inputLevel = ValueNotifier<double>(0);
+  bool _disposed = false;
+
+  // Barge-in state while the guide speaks; see [_gate].
+  final _echo = ListQueue<double>();
+  final _preRoll = ListQueue<Uint8List>();
+  int _speakingFrames = 0;
+  int _loudFrames = 0;
+  int _openFrames = 0;
+  bool _bargeInOpen = false;
+
+  // After a barge-in, what the guide said recently, to recognise its own
+  // words coming back as a "question" (see [isOwnEcho]).
+  final _recentSpoken = ListQueue<String>();
+  bool _afterBargeIn = false;
+  bool _echoTurn = false;
 
   String _voiceName = AiProviderConfig.defaultVoice;
   bool _interruptions = true;
@@ -195,8 +219,13 @@ class LiveVoiceController extends ChangeNotifier {
     _reading = true;
     try {
       for (final frame in await _audio.readRecorderFrames()) {
-        if (!_interruptions && _state == LiveVoiceState.speaking) continue;
-        _client.sendAudio(downsample24kTo16k(frame.bytes));
+        final rms = rmsOf(frame.bytes);
+        if (_state == LiveVoiceState.listening && !_disposed) {
+          inputLevel.value = levelFromRms(rms);
+        }
+        for (final pcm in _gate(frame.bytes, rms)) {
+          _client.sendAudio(downsample24kTo16k(pcm));
+        }
       }
     } on Object catch (error) {
       debugPrint('[AI Guide voice] mic read failed (${error.runtimeType})');
@@ -224,12 +253,104 @@ class LiveVoiceController extends ChangeNotifier {
     return out.buffer.asUint8List();
   }
 
+  /// Mic audio to send now.
+  ///
+  /// While the guide speaks, the mic also hears it through the speaker. Echo
+  /// cancellation removes most of that, but not all (and none at all on a
+  /// simulator), and Gemini takes any voice as the student cutting in — so
+  /// the guide would interrupt itself and answer its own words, in a loop.
+  /// So while it speaks the mic learns how loud the echo is, holds audio
+  /// back, and opens only when it hears something clearly louder than that
+  /// echo for a sustained moment. Then the held audio (including a little
+  /// from just before) is sent and Gemini stops to listen. If Gemini does
+  /// not stop soon after, it was a false alarm and the mic closes again.
+  List<Uint8List> _gate(Uint8List pcm, double rms) {
+    if (_state != LiveVoiceState.speaking) {
+      _resetBargeIn(keepEcho: false);
+      return [pcm];
+    }
+    if (!_interruptions) return const [];
+    if (_bargeInOpen) {
+      if (++_openFrames <= AiProviderConfig.liveBargeInConfirmFrames) {
+        return [pcm];
+      }
+      debugPrint('[AI Guide voice] barge-in not confirmed, closing mic');
+      _resetBargeIn(keepEcho: true);
+      _afterBargeIn = false;
+    }
+    _speakingFrames++;
+    _preRoll.addLast(pcm);
+    const keep =
+        AiProviderConfig.liveBargeInPreRollFrames +
+        AiProviderConfig.liveBargeInFrames;
+    while (_preRoll.length > keep) {
+      _preRoll.removeFirst();
+    }
+    final echo = _echo.isEmpty ? 0.0 : _echo.reduce(math.max);
+    final loud =
+        _speakingFrames > AiProviderConfig.liveBargeInWarmUpFrames &&
+        rms >= AiProviderConfig.liveBargeInMinRms &&
+        rms >= echo * AiProviderConfig.liveBargeInEchoRatio;
+    if (!loud) {
+      _loudFrames = 0;
+      _echo.addLast(rms);
+      while (_echo.length > AiProviderConfig.liveEchoWindowFrames) {
+        _echo.removeFirst();
+      }
+      return const [];
+    }
+    if (++_loudFrames < AiProviderConfig.liveBargeInFrames) return const [];
+    debugPrint(
+      '[AI Guide voice] barge-in: rms ${rms.toStringAsFixed(3)} over echo '
+      '${echo.toStringAsFixed(3)}',
+    );
+    _bargeInOpen = true;
+    _afterBargeIn = true;
+    _openFrames = 0;
+    final held = List.of(_preRoll);
+    _preRoll.clear();
+    return held;
+  }
+
+  void _resetBargeIn({required bool keepEcho}) {
+    if (!keepEcho) {
+      _echo.clear();
+      _speakingFrames = 0;
+    }
+    _preRoll.clear();
+    _loudFrames = 0;
+    _openFrames = 0;
+    _bargeInOpen = false;
+  }
+
+  /// Root-mean-square amplitude of PCM16 little-endian audio, 0 to 1.
+  static double rmsOf(Uint8List pcm) {
+    final count = pcm.length ~/ 2;
+    if (count == 0) return 0;
+    final samples = ByteData.sublistView(pcm);
+    var sum = 0.0;
+    for (var i = 0; i < count; i++) {
+      final v = samples.getInt16(i * 2, Endian.little) / 32768;
+      sum += v * v;
+    }
+    return math.sqrt(sum / count);
+  }
+
+  /// Perceived loudness for the orb, 0 to 1. Speech RMS rarely exceeds
+  /// ~0.2; the square root spreads the quiet end.
+  static double levelFromRms(double rms) => math.sqrt(rms * 5).clamp(0.0, 1.0);
+
+  /// Perceived loudness of PCM16 little-endian audio, 0 to 1.
+  static double levelOf(Uint8List pcm) => levelFromRms(rmsOf(pcm));
+
   // ── Server events ────────────────────────────────────────────────────────
 
   void _onEvent(LiveEvent event) {
     switch (event) {
       case LiveInputTranscript(:final text):
-        if (!_interruptions && _state == LiveVoiceState.speaking) return;
+        // Nothing reaches Gemini while the mic is held back, so a transcript
+        // then can only be stale; ignore it.
+        if (_state == LiveVoiceState.speaking && !_bargeInOpen) return;
         if (!_questionAnnounced && _heard.isEmpty) _beginTurn();
         _heard += text;
         _armIdle();
@@ -248,6 +369,8 @@ class LiveVoiceController extends ChangeNotifier {
         _turnTimer?.cancel();
         _setState(LiveVoiceState.thinking);
         unawaited(_answerTools(calls));
+      case LiveAudio() || LiveOutputTranscript() when _echoTurn:
+        _turnTimer?.cancel();
       case LiveAudio(:final pcm24k) when _holdSpeech:
         _turnTimer?.cancel();
         _heldAudio.add(pcm24k);
@@ -285,6 +408,20 @@ class LiveVoiceController extends ChangeNotifier {
   Future<void> _answerTools(List<LiveFunctionCall> calls) async {
     final responses = <Map<String, dynamic>>[];
     for (final call in calls) {
+      if (call.name == 'route_query' && _isEchoQuestion(call)) {
+        debugPrint('[AI Guide voice] ignored its own words heard back');
+        _echoTurn = true;
+        _heard = '';
+        responses.add({
+          'id': ?call.id,
+          'name': call.name,
+          'response': {
+            'ignored': true,
+            'next_step': LiveVoicePrompts.echoIgnored,
+          },
+        });
+        continue;
+      }
       if (call.name == 'format_answer') _discardHeldSpeech();
       final response = await tools.execute(call);
       if (call.name == 'route_query') {
@@ -300,6 +437,51 @@ class LiveVoiceController extends ChangeNotifier {
     }
     _client.sendToolResponses(responses);
     _armTurnTimer();
+  }
+
+  /// Right after a barge-in, a "question" made only of words the guide just
+  /// said is its own voice leaking through, not the student.
+  bool _isEchoQuestion(LiveFunctionCall call) {
+    if (!_afterBargeIn) return false;
+    _afterBargeIn = false;
+    return isOwnEcho(call.args['query']?.toString() ?? '', _recentSpoken);
+  }
+
+  static const _notContent = {
+    'about',
+    'and',
+    'are',
+    'can',
+    'for',
+    'how',
+    'more',
+    'tell',
+    'that',
+    'the',
+    'what',
+    'which',
+    'with',
+    'you',
+    'your',
+  };
+
+  static List<String> _contentWords(String text) =>
+      RegExp(r'[\p{L}\p{M}\p{N}]+', unicode: true)
+          .allMatches(text.toLowerCase())
+          .map((match) => match.group(0)!)
+          .where((word) => word.length >= 3 && !_notContent.contains(word))
+          .toList();
+
+  /// [heard] repeats [spoken]: at least two content words, 80% of them
+  /// words the guide said ("technology operation" after "Operation Theatre
+  /// Technology"). A real interruption brings words of its own ("wait,
+  /// what about law?").
+  @visibleForTesting
+  static bool isOwnEcho(String heard, Iterable<String> spoken) {
+    final words = _contentWords(heard);
+    if (words.length < 2) return false;
+    final said = spoken.expand(_contentWords).toSet();
+    return words.where(said.contains).length / words.length >= 0.8;
   }
 
   /// Once the student pauses mid-question, start looking things up.
@@ -335,6 +517,7 @@ class LiveVoiceController extends ChangeNotifier {
   }
 
   void _beginTurn() {
+    _echoTurn = false;
     _discardHeldSpeech();
     tools.startTurn();
     _questionAnnounced = false;
@@ -343,6 +526,7 @@ class LiveVoiceController extends ChangeNotifier {
   }
 
   void _announceQuestion() {
+    if (_echoTurn) return;
     if (_questionAnnounced || _welcomeActive) return;
     final question = (tools.turn.question ?? _heard).trim();
     if (question.isEmpty) return;
@@ -354,6 +538,16 @@ class LiveVoiceController extends ChangeNotifier {
   void _finishTurn() {
     _turnTimer?.cancel();
     final spoken = _spoken.trim();
+    if (_echoTurn) {
+      // Nothing from an ignored echo turn reaches the chat.
+      _beginTurn();
+      _armIdle();
+      return;
+    }
+    if (spoken.isNotEmpty) {
+      _recentSpoken.addLast(spoken);
+      if (_recentSpoken.length > 2) _recentSpoken.removeFirst();
+    }
     if (_welcomeActive) {
       _welcomeActive = false;
       if (spoken.isNotEmpty) {
@@ -504,14 +698,23 @@ class LiveVoiceController extends ChangeNotifier {
     });
   }
 
+  @override
+  void notifyListeners() {
+    // stop() finishes asynchronously and may land after dispose().
+    if (!_disposed) super.notifyListeners();
+  }
+
   void _setState(LiveVoiceState state) {
     if (_state == state) return;
     _state = state;
+    if (state != LiveVoiceState.listening && !_disposed) inputLevel.value = 0;
     notifyListeners();
   }
 
   @override
   void dispose() {
+    _disposed = true;
+    inputLevel.dispose();
     unawaited(stop());
     super.dispose();
   }

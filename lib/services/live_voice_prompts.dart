@@ -207,6 +207,12 @@ class LiveVoicePrompts {
 
   static const welcomeTrigger = '__CAREERPATH_WELCOME__';
 
+  /// route_query reply when the "question" was the guide's own voice picked
+  /// up by the microphone.
+  static const echoIgnored =
+      'That was your own previous answer picked up by the microphone, not '
+      'the student. Do not answer it and say nothing; wait for the student.';
+
   static Map<String, dynamic> setup({
     required String voiceName,
     required bool interruptions,

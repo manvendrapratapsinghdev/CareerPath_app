@@ -21,6 +21,9 @@ class _FakeKeys extends GeminiKeyService {
 class _FakeAudio extends VoiceAssistantAudioBridge {
   final played = <Uint8List>[];
 
+  /// Frames the next mic read returns.
+  final frames = <Uint8List>[];
+
   @override
   Future<bool> requestAudioFocus(String mode) async => true;
   @override
@@ -36,7 +39,12 @@ class _FakeAudio extends VoiceAssistantAudioBridge {
   @override
   Future<List<PcmCaptureChunk>> readRecorderFrames({
     int frameBytes = 3840,
-  }) async => const [];
+  }) async {
+    final chunks = [for (final f in frames) PcmCaptureChunk(f, 0, const {})];
+    frames.clear();
+    return chunks;
+  }
+
   @override
   Future<void> stopRecorder() async {}
   @override
@@ -63,6 +71,7 @@ class _FakeAudio extends VoiceAssistantAudioBridge {
 class _FakeClient extends GeminiLiveClient {
   final _events = StreamController<LiveEvent>.broadcast();
   final toolResponses = <List<Map<String, dynamic>>>[];
+  var audioSent = 0;
 
   @override
   Stream<LiveEvent> get events => _events.stream;
@@ -76,7 +85,7 @@ class _FakeClient extends GeminiLiveClient {
   @override
   void sendText(String text) {}
   @override
-  void sendAudio(Uint8List pcm16k) {}
+  void sendAudio(Uint8List pcm16k) => audioSent++;
   @override
   void sendToolResponses(List<Map<String, dynamic>> responses) =>
       toolResponses.add(responses);
@@ -111,8 +120,305 @@ LiveVoiceTools _tools({ExtraGrounding? extra}) {
   );
 }
 
+Uint8List _tone(int amplitude) {
+  final data = ByteData(480 * 2);
+  for (var i = 0; i < 480; i++) {
+    data.setInt16(i * 2, i.isEven ? amplitude : -amplitude, Endian.little);
+  }
+  return data.buffer.asUint8List();
+}
+
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
+
+  group('barge-in while the guide speaks', () {
+    late _FakeClient client;
+    late _FakeAudio audio;
+
+    // _tone(a) has RMS a / 32768: 3000 ≈ 0.09 (echo left after echo
+    // cancellation), 8000 ≈ 0.24 (a student talking over it).
+    Future<void> mic(List<Uint8List> frames) async {
+      audio.frames.addAll(frames);
+      await Future<void>.delayed(const Duration(milliseconds: 120));
+    }
+
+    List<Uint8List> repeat(int amplitude, int count) => [
+      for (var i = 0; i < count; i++) _tone(amplitude),
+    ];
+
+    Future<LiveVoiceController> speaking({bool interruptions = true}) async {
+      client = _FakeClient();
+      audio = _FakeAudio();
+      final controller = LiveVoiceController(
+        keyService: _FakeKeys(),
+        tools: _tools(),
+        audio: audio,
+        client: client,
+      );
+      await controller.start(
+        voiceName: 'Leda',
+        interruptions: interruptions,
+        playAudio: true,
+      );
+      client.emit(LiveAudio(Uint8List.fromList([1, 2])));
+      await Future<void>.delayed(Duration.zero);
+      expect(controller.state, LiveVoiceState.speaking);
+      return controller;
+    }
+
+    test('the guide never hears itself, however loud its echo', () async {
+      // No echo cancellation (a simulator): loud, uneven echo for 3 s.
+      final controller = await speaking();
+      await mic([
+        for (var i = 0; i < 18; i++) ...[_tone(20000), _tone(9000)],
+      ]);
+      expect(client.audioSent, 0);
+      // Its own words transcribed back are ignored too.
+      client.emit(const LiveInputTranscript('the guide talking'));
+      await Future<void>.delayed(Duration.zero);
+      expect(controller.heardTranscript, isEmpty);
+      await controller.stop();
+    });
+
+    test(
+      'a student talking over the echo cuts in, first words included',
+      () async {
+        final controller = await speaking();
+        await mic([...repeat(3000, 8), ...repeat(8000, 3)]);
+        // The three frames of speech plus the five just before them.
+        expect(client.audioSent, 8);
+        await mic(repeat(8000, 2));
+        expect(client.audioSent, 10);
+
+        client.emit(const LiveInputTranscript('wait, what about MBBS'));
+        await Future<void>.delayed(Duration.zero);
+        expect(controller.heardTranscript, 'wait, what about MBBS');
+        client.emit(const LiveInterrupted());
+        await Future<void>.delayed(Duration.zero);
+        expect(controller.state, LiveVoiceState.listening);
+        await mic([_tone(300)]);
+        expect(client.audioSent, 11, reason: 'listening: everything flows');
+        await controller.stop();
+      },
+    );
+
+    test('the start of an answer only learns the echo level', () async {
+      final controller = await speaking();
+      // Loud from the first frame, e.g. the guide's first word.
+      await mic(repeat(8000, 6));
+      expect(client.audioSent, 0);
+      await controller.stop();
+    });
+
+    test('a short loud sound is not an interruption', () async {
+      final controller = await speaking();
+      await mic([...repeat(3000, 8), ...repeat(8000, 2), ...repeat(3000, 4)]);
+      expect(client.audioSent, 0);
+      await controller.stop();
+    });
+
+    test('a barge-in Gemini does not act on closes the mic again', () async {
+      final controller = await speaking();
+      await mic([...repeat(3000, 8), ...repeat(8000, 3)]);
+      expect(client.audioSent, 8);
+      // Gemini keeps talking: after the confirmation window, echo is held
+      // back again instead of feeding a loop.
+      await mic(repeat(3000, 30));
+      expect(client.audioSent, 8 + 20);
+      await controller.stop();
+    });
+
+    test('with interruptions off the guide is never cut off', () async {
+      final controller = await speaking(interruptions: false);
+      await mic([...repeat(3000, 8), ...repeat(20000, 10)]);
+      expect(client.audioSent, 0);
+      await controller.stop();
+    });
+  });
+
+  test('recognises the guide\'s own words heard back', () {
+    const said = [
+      'B.Sc. in Operation Theatre Technology prepares you to assist in '
+          'surgical procedures.',
+    ];
+    expect(LiveVoiceController.isOwnEcho('technology operation', said), isTrue);
+    expect(
+      LiveVoiceController.isOwnEcho('operation theatre technology', said),
+      isTrue,
+    );
+    // A real interruption brings words of its own.
+    expect(
+      LiveVoiceController.isOwnEcho('stop, tell me about law instead', said),
+      isFalse,
+    );
+    expect(
+      LiveVoiceController.isOwnEcho('wait what about surgical nursing', said),
+      isFalse,
+    );
+    // One word is too little to tell.
+    expect(LiveVoiceController.isOwnEcho('technology', said), isFalse);
+    // Hindi works the same way.
+    expect(
+      LiveVoiceController.isOwnEcho('इंजीनियरिंग कॉलेज', [
+        'अच्छे इंजीनियरिंग कॉलेज जयपुर में',
+      ]),
+      isTrue,
+    );
+  });
+
+  group('a barge-in that was really the guide\'s own voice', () {
+    late _FakeClient client;
+    late _FakeAudio audio;
+    late LiveVoiceController controller;
+    final questions = <String>[];
+    final answers = <VoiceAnswer>[];
+
+    LiveToolCall route(String id, String query) => LiveToolCall([
+      LiveFunctionCall(
+        id: id,
+        name: 'route_query',
+        args: {
+          'query': query,
+          'intent': 'career',
+          'standalone_query': query,
+          'search_keywords': query,
+          'is_follow_up': false,
+          'requires_search': true,
+          'input_language': 'english',
+        },
+      ),
+    ]);
+
+    Future<void> settle() => Future<void>.delayed(Duration.zero);
+
+    setUp(() async {
+      questions.clear();
+      answers.clear();
+      client = _FakeClient();
+      audio = _FakeAudio();
+      controller =
+          LiveVoiceController(
+              keyService: _FakeKeys(),
+              tools: _tools(),
+              audio: audio,
+              client: client,
+            )
+            ..onQuestion = questions.add
+            ..onAnswer = answers.add;
+      await controller.start(
+        voiceName: 'Leda',
+        interruptions: true,
+        playAudio: true,
+      );
+      // The guide is answering...
+      client
+        ..emit(LiveAudio(Uint8List.fromList([1, 2])))
+        ..emit(
+          const LiveOutputTranscript(
+            'B.Sc. in Operation Theatre Technology prepares you for surgery.',
+          ),
+        );
+      await settle();
+    });
+
+    tearDown(() => controller.stop());
+
+    Future<void> bargeIn() async {
+      audio.frames.addAll([
+        for (var i = 0; i < 8; i++) _tone(3000),
+        for (var i = 0; i < 3; i++) _tone(8000),
+      ]);
+      await Future<void>.delayed(const Duration(milliseconds: 120));
+      expect(client.audioSent, greaterThan(0), reason: 'barge-in opened');
+      client.emit(const LiveInterrupted());
+      await settle();
+    }
+
+    test('is ignored: no question, no answer, silence', () async {
+      await bargeIn();
+      final played = audio.played.length;
+      client.emit(route('9', 'technology operation'));
+      await settle();
+      await settle();
+      final reply = client.toolResponses.last.single['response'] as Map;
+      expect(reply['ignored'], isTrue);
+      // Whatever Gemini still says for that turn is not played or shown.
+      client
+        ..emit(LiveAudio(Uint8List.fromList([7, 7])))
+        ..emit(const LiveOutputTranscript('Operation theatre technology...'))
+        ..emit(const LiveTurnComplete());
+      await settle();
+      expect(audio.played.length, played);
+      expect(
+        questions.where((q) => q.contains('technology operation')),
+        isEmpty,
+      );
+      expect(
+        answers.map((a) => a.question),
+        isNot(contains('technology operation')),
+      );
+      expect(controller.state, LiveVoiceState.listening);
+    });
+
+    test('a real interruption is answered', () async {
+      await bargeIn();
+      client.emit(route('9', 'stop, tell me about law instead'));
+      await settle();
+      await settle();
+      final reply = client.toolResponses.last.single['response'] as Map;
+      expect(reply.containsKey('ignored'), isFalse);
+      expect(questions.last, 'stop, tell me about law instead');
+    });
+
+    test('a follow-up after the answer ends is never taken for echo', () async {
+      client.emit(const LiveTurnComplete());
+      await settle();
+      await Future<void>.delayed(const Duration(milliseconds: 250));
+      client.emit(route('9', 'operation theatre technology colleges'));
+      await settle();
+      await settle();
+      final reply = client.toolResponses.last.single['response'] as Map;
+      expect(reply.containsKey('ignored'), isFalse);
+    });
+  });
+
+  test('mic audio flows normally while listening', () async {
+    final client = _FakeClient();
+    final audio = _FakeAudio();
+    final controller = LiveVoiceController(
+      keyService: _FakeKeys(),
+      tools: _tools(),
+      audio: audio,
+      client: client,
+    );
+    await controller.start(
+      voiceName: 'Leda',
+      interruptions: true,
+      playAudio: true,
+    );
+    audio.frames.addAll([_tone(300), _tone(20000)]);
+    await Future<void>.delayed(const Duration(milliseconds: 120));
+    expect(client.audioSent, 2);
+    await controller.stop();
+  });
+
+  test('mic level is 0 for silence and rises with loudness', () {
+    Uint8List tone(int amplitude) {
+      final data = ByteData(480 * 2);
+      for (var i = 0; i < 480; i++) {
+        data.setInt16(i * 2, i.isEven ? amplitude : -amplitude, Endian.little);
+      }
+      return data.buffer.asUint8List();
+    }
+
+    expect(LiveVoiceController.levelOf(Uint8List(0)), 0);
+    expect(LiveVoiceController.levelOf(tone(0)), 0);
+    final quiet = LiveVoiceController.levelOf(tone(500));
+    final loud = LiveVoiceController.levelOf(tone(8000));
+    expect(quiet, greaterThan(0));
+    expect(loud, greaterThan(quiet));
+    expect(LiveVoiceController.levelOf(tone(32767)), 1);
+  });
 
   test('downsamples 24 kHz PCM16 to 16 kHz', () {
     final input = ByteData(6 * 2);

@@ -41,6 +41,31 @@ class AiProviderConfig {
   static const Duration liveIdleTimeout = Duration(seconds: 60);
   static const int liveMemoryTurns = 3;
 
+  // ── Barge-in while the guide speaks (80 ms mic frames) ────────────────────
+  // The mic also hears the guide through the speaker; these tell the
+  // student's voice apart from that echo (see LiveVoiceController._gate).
+
+  /// Frames at the start of each answer used only to learn the echo level.
+  static const int liveBargeInWarmUpFrames = 6;
+
+  /// Consecutive frames the student must be heard over the echo.
+  static const int liveBargeInFrames = 3;
+
+  /// How much louder than the loudest recent echo the student must be.
+  static const double liveBargeInEchoRatio = 1.8;
+
+  /// RMS below which a frame is room noise, never speech.
+  static const double liveBargeInMinRms = 0.015;
+
+  /// Frames of echo remembered (~1.6 s), and of audio sent from just before
+  /// the student started (~0.4 s) so Gemini hears their first words.
+  static const int liveEchoWindowFrames = 20;
+  static const int liveBargeInPreRollFrames = 5;
+
+  /// Frames the opened mic waits for Gemini to stop the answer before it
+  /// treats the barge-in as a false alarm and closes again.
+  static const int liveBargeInConfirmFrames = 20;
+
   static const String voicePreviewText =
       'Hi! I am your CareerPath guide. After Science, you can explore '
       'engineering, medicine, pure sciences and design. Ask me about any '

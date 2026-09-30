@@ -129,9 +129,16 @@ prefixPadding 400 ms, silence 600 ms, tools = the 3 declarations below, system i
 - Turn timeout (20 s, no audio/text after a tool response): first time → reconnect **and replay** `_lastQuestion`; second time → `onUnavailable`.
 - Idle 60 s while listening → `stop()` + `onEnded('idle')`. Reconnect failure → `onEnded('connection_lost')`.
 - `interruptions == false` → mic frames and transcripts are dropped while `speaking`.
-- `interruptions == true` → **every** mic frame streams to Gemini while the guide speaks, so the student can cut in (barge-in);
-  native AEC (`live_audio`) + Gemini VAD keep the guide's own voice out. **Do not add a loudness gate here:** one (level ≥0.6 for 3 frames)
-  was tried on 2026-09-30 and broke barge-in at normal speaking volume. Tune echo in the native AEC instead.
+- `interruptions == true` → **echo-aware barge-in** (`LiveVoiceController._gate`, tuning in `AiProviderConfig.liveBargeIn*`).
+  The mic also hears the guide through the speaker (AEC removes most, none on the iOS simulator) and Gemini treats any voice as the student
+  cutting in → the guide interrupted itself and answered its own words in a loop. While `speaking`, mic audio is **held back**: the first
+  ~0.5 s only learns the echo level; the gate opens when the mic is ≥1.8× the loudest echo of the last ~1.6 s for ~250 ms, then sends the
+  held ~0.4 s pre-roll + live audio so Gemini interrupts. If Gemini hasn't interrupted within ~1.6 s it was a false alarm → gate closes.
+  Transcripts while the gate is closed are ignored.
+  **Second guard:** right after a barge-in, if `route_query.query` is ≥80% the guide's own recent words (`isOwnEcho`, Unicode incl.
+  Devanagari marks), the turn is an echo: route_query replies `{ignored: true}` (`LiveVoicePrompts.echoIgnored`) and the turn's audio/text
+  never play or reach chat. Do **not** replace this with a fixed loudness threshold (tried 2026-09-30: needed shouting) or with an ungated
+  mic (loops). Verified on the simulator with `say` as the student: no self-loop; interruption heard.
 - `playAudio == false` (Spoken answers off) → transcripts only.
 
 ### Tool contract (declared to Gemini)
