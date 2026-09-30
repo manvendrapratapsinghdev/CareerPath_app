@@ -132,6 +132,36 @@ void main() {
     );
   });
 
+  test('a state also matches records that only have its city', () {
+    final catalog = InstituteCatalogService.withRecords(
+      [
+        {'id': 1, 'name': 'Delhi School of Economics', 'city': 'New Delhi'},
+        {
+          'id': 2,
+          'name': 'Jamia Millia Islamia',
+          'city': 'New Delhi',
+          'state': 'Delhi',
+        },
+        {
+          'id': 3,
+          'name': 'IIT Bombay',
+          'city': 'Mumbai',
+          'state': 'Maharashtra',
+        },
+        {'id': 4, 'name': 'Chandigarh University', 'city': 'Chandigarh'},
+        {'id': 5, 'name': 'Various IITs', 'city': 'Various'},
+      ].map(InstituteRecord.fromJson).toList(),
+    );
+    List<int> ids(String query) =>
+        catalog.search(query).map((r) => r.institute.id).toList()..sort();
+
+    expect(ids('colleges in Delhi'), [1, 2]);
+    expect(ids('colleges in Maharashtra'), [3]);
+    expect(ids('Chandigarh colleges'), [4]);
+    // A record with no state and an unrelated city is still left out.
+    expect(ids('IITs in Maharashtra'), [3]);
+  });
+
   test('search only returns the state named in the query', () async {
     final catalog = InstituteCatalogService(() async => _rows);
     await catalog.ensureLoaded();

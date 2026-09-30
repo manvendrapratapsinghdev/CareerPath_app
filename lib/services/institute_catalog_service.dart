@@ -213,7 +213,13 @@ class InstituteCatalogService {
     final scored = <(InstituteRecord, int)>[];
     for (final record in records) {
       final (:name, :place, :courses, :state) = _searchText(record);
-      if (requestedState != null && state != requestedState) continue;
+      if (requestedState != null &&
+          state != requestedState &&
+          // Some records have a city but no state; a city that carries the
+          // state's name (New Delhi, Chandigarh, Goa) still places them.
+          (state.isNotEmpty || !place.contains(' $requestedState'))) {
+        continue;
+      }
       if (requestedPlaces.isNotEmpty && !requestedPlaces.any(place.contains)) {
         continue;
       }
