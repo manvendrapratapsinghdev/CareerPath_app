@@ -318,8 +318,10 @@ streams 1───∞ career_nodes ∞───1 career_nodes (parent_id, self-t
 - **Streams:** 1 science, 2 commerce, 3 art.
 - **Tree depth:** L1 = 17 roots, L2 = 84, L3 = 241, L4 = 38 → **275 leaves**, 17 root nodes.
   Books/institutes/sectors hang off nodes (mostly leaves) via junction tables.
-- **institutes.state:** many NULL (429 of 669). Populated states: Rajasthan 121, Madhya Pradesh 71, Uttar Pradesh 48
-  (state-wise research/verification pipeline; more states = more research runs).
+- **institutes.state:** filled for 644 of 669 (22 states/UTs; Rajasthan 123, Maharashtra 98, Madhya Pradesh 77, Uttar Pradesh 76,
+  Delhi 74, Tamil Nadu 48, …). Only city "Various" (24) and "Online" (1) stay NULL. Courses exist only for the researched
+  Rajasthan/MP/UP institutes. Hand-added institutes had a city but no state; `tooling/fill_institute_states.py` fills it from the city
+  (curated `CITY_STATES`; add a row when a new city appears). **districts** are still NULL for those rows — never guessed.
 - **institutes.institution_type:** ~119 NULL. Values include government_college, specialized, state_university, central_institute,
   iit, iim, nit, iiit, medical, law, agriculture, central_university, deemed_university, private_university, other, …
 - **institute_courses.level / mode / relation:** free-text with **inconsistent casing & spelling**
@@ -362,7 +364,7 @@ streams 1───∞ career_nodes ∞───1 career_nodes (parent_id, self-t
 ### 8.6 Where the DB comes from (only touch when changing data)
 Built offline by Python in `tooling/` (`import_verified_institutions.py`, `enrich_institution_types.py`,
 `backfill_institution_types.py`, `discover_nirf_state_inventory.py`, `college_agents/`, `college_batches/`) from research outputs in `research/`.
-`fix_data_spellings.py` runs at the end of every import; after any other script that writes names, run it with no arguments.
+`fix_data_spellings.py` and `fill_institute_states.py` run at the end of every import; after any other script that writes names, run it with no arguments.
 The app **overwrites its on-device copy from the asset on every start** → shipping a new `.db` asset is the only way to change data;
 bump the version in `pubspec.yaml` when you do. Schema changes require matching edits in `LocalDatabase` queries + models + tests.
 

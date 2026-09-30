@@ -15,6 +15,7 @@ import sqlite3
 from pathlib import Path
 from typing import Any
 
+from fill_institute_states import fill_states
 from fix_data_spellings import fix_spellings
 from validate_verifications import validate
 
@@ -462,6 +463,8 @@ def import_verified(
             )
         # Source websites misspell course names; keep the bundled data clean.
         fix_spellings(connection)
+        # Institutes added by hand have a city but no state.
+        fill_states(connection)
         connection.execute("PRAGMA user_version = 1")
         connection.commit()
     except Exception:
