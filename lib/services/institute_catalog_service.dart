@@ -10,10 +10,16 @@ typedef InstituteMatch = ({
 });
 
 /// Best [InstituteMatch]es plus how many institutes and courses matched.
+/// [place] is the state, city or district the question named, if any, and
+/// [inPlace] how many institutes are there before any subject or level
+/// filter; [levels] are the course levels asked for.
 typedef InstituteMatches = ({
   List<InstituteMatch> hits,
   int totalInstitutes,
   int totalCourses,
+  String? place,
+  int inPlace,
+  Set<String> levels,
 });
 
 /// Institutes with their courses and NIRF rankings, loaded once from the
@@ -176,6 +182,7 @@ class InstituteCatalogService {
         .then((rows) {
           _records = rows.map(InstituteRecord.fromJson).toList(growable: false);
           _places = null;
+          _covered = null;
         })
         .whenComplete(() => _loading = null);
   }
@@ -234,13 +241,21 @@ class InstituteCatalogService {
       query,
     ).difference(_stopWords).difference(searchFillerWords);
     if (tokens.isEmpty) {
-      return (hits: const [], totalInstitutes: 0, totalCourses: 0);
+      return (
+        hits: const [],
+        totalInstitutes: 0,
+        totalCourses: 0,
+        place: null,
+        inPlace: 0,
+        levels: const {},
+      );
     }
     final requestedState = _requestedState(tokens);
     final requestedPlaces = _requestedPlaces(tokens);
     final levels = CourseLevels.requested(tokens);
     final words = tokens.where((t) => !CourseLevels.isLevelWord(t)).toSet();
     final scored = <(InstituteMatch, int, bool)>[];
+    var inPlace = 0;
     for (final record in records) {
       final (:name, :place, :state) = _searchText(record);
       if (requestedState != null &&
@@ -253,6 +268,7 @@ class InstituteCatalogService {
       if (requestedPlaces.isNotEmpty && !requestedPlaces.any(place.contains)) {
         continue;
       }
+      inPlace++;
       final atLevel = levels.isEmpty
           ? record.courses
           : record.courses
@@ -316,8 +332,31 @@ class InstituteCatalogService {
         0,
         (sum, entry) => sum + entry.$1.courses.length,
       ),
+      place: requestedPlaces.isNotEmpty
+          ? requestedPlaces.first.trim()
+          : requestedState,
+      inPlace: requestedState != null || requestedPlaces.isNotEmpty
+          ? inPlace
+          : 0,
+      levels: levels,
     );
   }
+
+  /// States with institutes, most first, as "Rajasthan (123)"; computed
+  /// from the records, so it follows the data.
+  List<String> get coveredStates => _covered ??= () {
+    final counts = <String, int>{};
+    for (final record in records) {
+      final state = record.institute.state?.trim();
+      if (state != null && state.isNotEmpty) {
+        counts[state] = (counts[state] ?? 0) + 1;
+      }
+    }
+    final states = counts.keys.toList()
+      ..sort((a, b) => counts[b]!.compareTo(counts[a]!));
+    return [for (final state in states) '$state (${counts[state]})'];
+  }();
+  List<String>? _covered;
 
   /// Ranked institutes, best first, optionally for one category such as
   /// "Engineering"; names in [query] narrow the list.

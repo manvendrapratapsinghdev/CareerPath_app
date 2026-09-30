@@ -227,7 +227,12 @@ class LiveVoiceTools {
     turn.noRecordsFound = context.isEmpty;
     return {
       'record_count': context.sources.length,
-      'records': context.isEmpty ? 'NO RECORDS FOUND' : context.text,
+      // A coverage note explains an empty result ("no colleges in Goa").
+      'records': !context.isEmpty
+          ? context.text
+          : context.text.trim().isEmpty
+          ? 'NO RECORDS FOUND'
+          : 'NO RECORDS FOUND\n${context.text.trim()}',
       'next_step':
           'Do not speak yet. Call format_answer now with the structured '
           'draft built from these records.',

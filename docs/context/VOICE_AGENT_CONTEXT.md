@@ -87,6 +87,7 @@ Related non-voice (shared) pieces: `local_ai_grounding_service.dart` (retrieval)
 | `liveConnectTimeout` / `liveTurnTimeout` / `liveIdleTimeout` | 20 s / 20 s / 60 s | |
 | `liveMemoryTurns` | 3 | turns replayed on reconnect |
 | `maxContextCharacters` / `maxGroundingNodes` / `maxDetailedNodes` | 18000 / 14 / 5 | grounding limits |
+| `maxGroundingInstitutes` / `maxNarrowedInstitutes` | 4 / 8 | colleges in grounding; 8 when a place, level or course narrows the question |
 | embeddings | `gemini-embedding-001`, 768 dims, cutoff 0.6, topK 4, batch 90 / 60 s pause | |
 
 Session `setup` (in `LiveVoicePrompts.setup`): `responseModalities: [AUDIO]`, input+output transcription on,
@@ -194,7 +195,12 @@ Keyword step details:
    `SOURCE book:<id>` blocks; up to 3 `book` source chips whose `exploreNodeId` is the book's first career path.
 5. Output text `CAREERPATH EXPLORE DATA…` with `SOURCE nirf_rankings`, `SOURCE institute:<id>`, `SOURCE career_node:<id>` blocks, truncated to 18 000 chars;
    `sources` = `AiChatSource(sourceId, sourceType: ranking|institute|career_node, title, exploreNodeId?)`.
-   Empty → `AiGroundingContext(text:'', sources:[])` → `noRecordsFound`.
+   The text opens with `MATCH SUMMARY:` ("10 institutes in Jaipur match, with 10 matching courses; showing 8." / "N books match; showing K.")
+   so the guide can say how many matched. When a named place yields no institute, a `COVERAGE:` note says so ("CareerPath has no
+   institutes in Goa yet. It lists institutes in: Rajasthan (123), …" — states computed from the catalog — or "lists N in Indore, but
+   none offer what was asked") and no college from elsewhere is cited.
+   Empty → `AiGroundingContext(text: <coverage note or ''>, sources:[])` → `noRecordsFound`; voice then sends
+   `NO RECORDS FOUND\n<note>`. `merge` keeps a keyword-side note even when only semantic search found records.
 
 Semantic search only works once `SemanticIndexService` has vectors (built in background after first launch, paced to the embedding quota, persisted to `ai_semantic_index.*`).
 Before that, both typed chat and voice degrade to keyword-only. Keyword tokens are `[a-z0-9]` so **non-English transcripts only match via the semantic part or the model's English `search_keywords`**.

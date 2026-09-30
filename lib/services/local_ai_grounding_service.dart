@@ -8,6 +8,7 @@ import '../models/leaf_details.dart';
 import '../models/book_record.dart';
 import 'book_catalog_service.dart';
 import 'career_data_service.dart';
+import 'course_levels.dart';
 import 'institute_catalog_service.dart';
 import 'search_aliases.dart';
 import 'search_spell_corrector.dart';
@@ -28,7 +29,16 @@ class AiGroundingContext {
     AiGroundingContext semantic,
   ) {
     if (semantic.isEmpty) return keyword;
-    if (keyword.isEmpty) return semantic;
+    if (keyword.isEmpty) {
+      // Keep a coverage note ("no colleges in Goa yet") from the keyword
+      // step even when only semantic search found records.
+      return keyword.text.trim().isEmpty
+          ? semantic
+          : AiGroundingContext(
+              text: '${keyword.text}\n${semantic.text}',
+              sources: semantic.sources,
+            );
+    }
     final seen = keyword.sources.map((s) => s.sourceId).toSet();
     return AiGroundingContext(
       text: '${keyword.text}\n${semantic.text}',
@@ -230,30 +240,63 @@ class LocalAiGroundingService {
 
     var institutes = const <InstituteMatch>[];
     var rankings = const <(InstituteRecord, InstituteRanking)>[];
+    InstituteMatches? found;
     final catalog = this.catalog;
     if (catalog != null) {
       if (InstituteCatalogService.asksForRankings(query)) {
         rankings = catalog.rankings(query);
       }
-      institutes = catalog.find(query, limit: 4).hits;
+      found = catalog.find(
+        query,
+        limit: AiProviderConfig.maxNarrowedInstitutes,
+      );
+      // A place, level or course asked for: the student wants the list.
+      final narrowed =
+          found.place != null ||
+          found.levels.isNotEmpty ||
+          found.hits.any((hit) => hit.courses.isNotEmpty);
+      institutes = found.hits
+          .take(
+            narrowed
+                ? AiProviderConfig.maxNarrowedInstitutes
+                : AiProviderConfig.maxGroundingInstitutes,
+          )
+          .toList(growable: false);
     }
     var bookHits = const <BookRecord>[];
+    var bookTotal = 0;
     final books = this.books;
     if (books != null && asksForBooks) {
       await books.ensureLoaded();
-      bookHits = books.search(query).hits;
+      (hits: bookHits, total: bookTotal) = books.search(query);
     }
+    final coverage = catalog == null ? null : _coverageNote(found!, catalog);
 
     if (selected.isEmpty &&
         institutes.isEmpty &&
         rankings.isEmpty &&
         bookHits.isEmpty) {
-      return const AiGroundingContext(text: '', sources: []);
+      // Nothing to cite, but the note still tells the guide why.
+      return AiGroundingContext(text: coverage ?? '', sources: const []);
     }
 
     final buffer = StringBuffer(
       'CAREERPATH EXPLORE DATA. Use only these records.\n',
     );
+    final summary = [
+      if (found != null && institutes.isNotEmpty)
+        _instituteSummary(found, institutes.length),
+      if (bookHits.isNotEmpty)
+        '$bookTotal ${bookTotal == 1 ? 'book matches' : 'books match'}; '
+            'showing ${bookHits.length}.',
+    ];
+    if (summary.isNotEmpty) {
+      buffer.writeln(
+        '\nMATCH SUMMARY: ${summary.join(' ')} When more matched than are '
+        'shown, say how many matched in all.',
+      );
+    }
+    if (coverage != null) buffer.writeln('\nCOVERAGE: $coverage');
     // Precise institute and ranking matches go first so they survive the
     // context limit.
     if (rankings.isNotEmpty) {
@@ -420,6 +463,61 @@ class LocalAiGroundingService {
     otherText: input.otherText,
     dictionary: SearchSpellCorrector.parseDictionary(input.dictionary),
   );
+
+  static const _levelNames = {
+    CourseLevels.ug: 'UG',
+    CourseLevels.pg: 'PG',
+    CourseLevels.doctoral: 'PhD/doctoral',
+    CourseLevels.diploma: 'diploma',
+    CourseLevels.certificate: 'certificate',
+    CourseLevels.integrated: 'integrated',
+  };
+
+  /// "23 institutes in Jaipur with UG courses match, with 31 matching
+  /// courses; showing 8."
+  static String _instituteSummary(InstituteMatches found, int shown) {
+    final total = found.totalInstitutes;
+    final place = found.place;
+    final levels = found.levels.map((l) => _levelNames[l] ?? l).join('/');
+    return [
+      '$total ${total == 1 ? 'institute' : 'institutes'}',
+      if (place != null) ' in ${_titleCase(place)}',
+      if (levels.isNotEmpty) ' with $levels courses',
+      total == 1 ? ' matches' : ' match',
+      if (found.totalCourses > 0)
+        ', with ${found.totalCourses} matching '
+            '${found.totalCourses == 1 ? 'course' : 'courses'}',
+      '; showing $shown.',
+    ].join();
+  }
+
+  /// Why no institute is shown for a place the student named, so the guide
+  /// says so instead of naming colleges from elsewhere; null otherwise.
+  static String? _coverageNote(
+    InstituteMatches found,
+    InstituteCatalogService catalog,
+  ) {
+    final place = found.place;
+    if (place == null || found.totalInstitutes > 0) return null;
+    final name = _titleCase(place);
+    if (found.inPlace == 0) {
+      return 'CareerPath has no institutes in $name yet. It lists institutes '
+          'in: ${catalog.coveredStates.take(12).join(', ')}. Say this '
+          'plainly; do not name colleges from other places.';
+    }
+    final count = found.inPlace == 1
+        ? '1 institute'
+        : '${found.inPlace} institutes';
+    return 'CareerPath lists $count in $name, but none '
+        'offer what was asked. Say this plainly; do not name colleges from '
+        'other places.';
+  }
+
+  static String _titleCase(String value) => value
+      .split(' ')
+      .where((word) => word.isNotEmpty)
+      .map((word) => '${word[0].toUpperCase()}${word.substring(1)}')
+      .join(' ');
 
   Set<String> _tokens(String value) {
     return RegExp(r'[a-z0-9]+')

@@ -13,6 +13,11 @@ class AiProviderConfig {
   static const int maxContextCharacters = 18000;
   static const int maxGroundingNodes = 14;
   static const int maxDetailedNodes = 5;
+
+  /// Institutes in the grounding for a broad question, and when a place,
+  /// course or level narrows it (the student wants a fuller list then).
+  static const int maxGroundingInstitutes = 4;
+  static const int maxNarrowedInstitutes = 8;
   static const int maxOutputTokens = 1200;
 
   // ── Semantic search ──────────────────────────────────────────────────────

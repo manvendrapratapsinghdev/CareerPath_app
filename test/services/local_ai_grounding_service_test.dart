@@ -1,10 +1,13 @@
+import 'package:career_path/models/ai_chat.dart';
 import 'package:career_path/models/book_record.dart';
 import 'package:career_path/models/career_node.dart';
+import 'package:career_path/models/institute_catalog.dart';
 import 'package:career_path/models/leaf_details.dart';
 import 'package:career_path/models/stream_model.dart';
 import 'package:career_path/services/api_client.dart';
 import 'package:career_path/services/book_catalog_service.dart';
 import 'package:career_path/services/career_data_service.dart';
+import 'package:career_path/services/institute_catalog_service.dart';
 import 'package:career_path/services/local_ai_grounding_service.dart';
 import 'package:flutter_test/flutter_test.dart';
 
@@ -43,6 +46,95 @@ CareerDataService _careerService() {
 }
 
 void main() {
+  group('institute answers', () {
+    InstituteCatalogService catalog() => InstituteCatalogService.withRecords([
+      for (var i = 0; i < 10; i++)
+        InstituteRecord.fromJson({
+          'id': i,
+          'name': 'Jaipur College $i',
+          'city': 'Jaipur',
+          'state': 'Rajasthan',
+          'courses': [
+            {'id': 100 + i, 'name': 'B.Pharm', 'level': 'UG'},
+          ],
+        }),
+      InstituteRecord.fromJson({
+        'id': 50,
+        'name': 'Indore Arts College',
+        'city': 'Indore',
+        'state': 'Madhya Pradesh',
+        'courses': [
+          {'id': 500, 'name': 'BA English', 'level': 'UG'},
+        ],
+      }),
+    ]);
+
+    test('a narrowed question gets more colleges and a match count', () async {
+      final grounding = LocalAiGroundingService(
+        _careerService(),
+        catalog: catalog(),
+      );
+      final result = await grounding.retrieve(query: 'bpharm in jaipur');
+      expect(
+        result.sources.where((s) => s.sourceType == 'institute'),
+        hasLength(8),
+      );
+      expect(
+        result.text,
+        contains(
+          'MATCH SUMMARY: 10 institutes in Jaipur match, with 10 matching '
+          'courses; showing 8.',
+        ),
+      );
+      final levels = await grounding.retrieve(query: 'UG courses in Indore');
+      expect(
+        levels.text,
+        contains('1 institute in Indore with UG courses matches'),
+      );
+    });
+
+    test('a place with no colleges gets an honest coverage note', () async {
+      final grounding = LocalAiGroundingService(
+        _careerService(),
+        catalog: catalog(),
+      );
+      final none = await grounding.retrieve(query: 'colleges in Kerala');
+      // The guide learns why, and which states are covered...
+      expect(none.text, contains('CareerPath has no institutes in Kerala'));
+      expect(none.text, contains('Rajasthan (10), Madhya Pradesh (1)'));
+      // ...and cites no college from elsewhere.
+      expect(none.sources.where((s) => s.sourceType == 'institute'), isEmpty);
+
+      // With nothing else to cite, the result is empty but keeps the note.
+      final bare = await grounding.retrieve(query: 'Kerala');
+      expect(bare.isEmpty, isTrue);
+      expect(bare.text, contains('no institutes in Kerala'));
+
+      final noCourse = await grounding.retrieve(query: 'PG courses in Indore');
+      expect(
+        noCourse.text,
+        contains('CareerPath lists 1 institute in Indore, but none offer'),
+      );
+
+      // A found place has no note.
+      final found = await grounding.retrieve(query: 'colleges in Indore');
+      expect(found.text, isNot(contains('COVERAGE')));
+    });
+
+    test('the coverage note survives a semantic-only merge', () {
+      const note = AiGroundingContext(text: 'COVERAGE: none', sources: []);
+      const semantic = AiGroundingContext(
+        text: 'SOURCE career_node:x',
+        sources: [
+          AiChatSource(sourceId: 'x', sourceType: 'career_node', title: 'X'),
+        ],
+      );
+      final merged = AiGroundingContext.merge(note, semantic);
+      expect(merged.text, startsWith('COVERAGE: none'));
+      expect(merged.sources, semantic.sources);
+    });
+  });
+
   test(
     'a question about books finds books with a chip to their path',
     () async {

@@ -1,15 +1,20 @@
 import 'package:career_path/models/ai_chat.dart';
 import 'package:career_path/models/career_node.dart';
+import 'package:career_path/models/institute_catalog.dart';
 import 'package:career_path/models/stream_model.dart';
 import 'package:career_path/services/api_client.dart';
 import 'package:career_path/services/career_data_service.dart';
 import 'package:career_path/services/gemini_live_client.dart';
+import 'package:career_path/services/institute_catalog_service.dart';
 import 'package:career_path/services/live_voice_prompts.dart';
 import 'package:career_path/services/live_voice_tools.dart';
 import 'package:career_path/services/local_ai_grounding_service.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-LiveVoiceTools _tools({ExtraGrounding? extra}) {
+LiveVoiceTools _tools({
+  ExtraGrounding? extra,
+  InstituteCatalogService? catalog,
+}) {
   final data = CareerDataService(ApiClient())
     ..initializeWithData(
       [
@@ -34,7 +39,7 @@ LiveVoiceTools _tools({ExtraGrounding? extra}) {
       },
     );
   return LiveVoiceTools(
-    grounding: LocalAiGroundingService(data),
+    grounding: LocalAiGroundingService(data, catalog: catalog),
     loadAppHelp: () async => 'Q: How do I talk? A: Tap Talk.',
     extraGrounding: extra,
   );
@@ -194,6 +199,29 @@ void main() {
       }),
     );
     expect(overview['records'], contains('SOURCE career_node:engineering'));
+  });
+
+  test('an uncovered place is explained, not just "not found"', () async {
+    final tools = _tools(
+      catalog: InstituteCatalogService.withRecords([
+        InstituteRecord.fromJson({
+          'id': 1,
+          'name': 'MNIT Jaipur',
+          'city': 'Jaipur',
+          'state': 'Rajasthan',
+        }),
+      ]),
+    );
+    final route = await tools.execute(
+      _call('route_query', {
+        ..._route('Goa ke college', VoiceIntent.career, lang: 'hindi'),
+        'search_keywords': 'Goa',
+      }),
+    );
+    expect(route['records'], startsWith('NO RECORDS FOUND\n'));
+    expect(route['records'], contains('CareerPath has no institutes in Goa'));
+    expect(route['records'], contains('Rajasthan (1)'));
+    expect(tools.turn.noRecordsFound, isTrue);
   });
 
   group('semantic search', () {
