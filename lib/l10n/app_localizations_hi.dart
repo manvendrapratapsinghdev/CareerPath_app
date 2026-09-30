@@ -773,6 +773,11 @@ class AppLocalizationsHi extends AppLocalizations {
   String get ai_voiceWelcome => 'नमस्ते! मैं आपकी CareerPath AI गाइड हूँ।';
 
   @override
+  String ai_voiceWelcomeNamed(String name) {
+    return 'नमस्ते $name! मैं आपकी CareerPath AI गाइड हूँ।';
+  }
+
+  @override
   String get ai_voiceSettings => 'आवाज़ सेटिंग्स';
 
   @override

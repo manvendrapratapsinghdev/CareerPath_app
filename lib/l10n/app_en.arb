@@ -307,6 +307,8 @@
   "ai_voiceThinking": "Thinking…",
   "ai_voiceAnswering": "Answering…",
   "ai_voiceWelcome": "Hi! I am your CareerPath AI Guide.",
+  "ai_voiceWelcomeNamed": "Hi {name}! I am your CareerPath AI Guide.",
+  "@ai_voiceWelcomeNamed": {"placeholders": {"name": {"type": "String"}}},
   "ai_voiceSettings": "Voice settings",
   "ai_voiceInterruptions": "Allow interruptions",
   "ai_voiceInterruptionsHint": "Start speaking to stop the guide and ask something new.",

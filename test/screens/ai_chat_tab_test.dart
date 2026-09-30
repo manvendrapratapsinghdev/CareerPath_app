@@ -1,3 +1,4 @@
+import 'dart:convert';
 import 'dart:async';
 import 'dart:typed_data';
 
@@ -13,6 +14,7 @@ import 'package:career_path/services/api_client.dart';
 import 'package:career_path/services/career_data_service.dart';
 import 'package:career_path/services/gemini_key_service.dart';
 import 'package:career_path/services/gemini_live_client.dart';
+import 'package:career_path/services/live_voice_prompts.dart';
 import 'package:career_path/services/live_voice_tools.dart';
 import 'package:career_path/services/local_ai_grounding_service.dart';
 import 'package:career_path/services/voice_preview_service.dart';
@@ -208,7 +210,8 @@ class _FakeLiveClient extends GeminiLiveClient {
   Future<void> connect({
     required String apiKey,
     required Map<String, dynamic> setup,
-  }) async {}
+  }) async => setups.add(setup);
+  final setups = <Map<String, dynamic>>[];
   @override
   void sendText(String text) => textsSent.add(text);
   final textsSent = <String>[];
@@ -248,6 +251,7 @@ Widget _buildApp({
   TextToSpeechService? textToSpeechService,
   AiVoiceServices? voiceServices,
   Locale locale = const Locale('en'),
+  String? studentName,
 }) {
   return MaterialApp(
     locale: locale,
@@ -266,6 +270,7 @@ Widget _buildApp({
             speechRecognitionService ?? _FakeSpeechRecognitionService(),
         textToSpeechService: textToSpeechService ?? _FakeTextToSpeechService(),
         voiceServices: voiceServices,
+        studentName: studentName,
       ),
     ),
   );
@@ -860,6 +865,7 @@ void main() {
 
       await tester.pumpWidget(
         _buildApp(
+          studentName: 'Aarav',
           repository: repository,
           voiceServices: _FakeVoiceServices(
             controller: controller,
@@ -901,8 +907,9 @@ void main() {
       expect(panel, findsOneWidget);
       // The panel replaces the message box.
       expect(find.byType(TextField), findsNothing);
-      // No spoken introduction: nothing is sent until the student speaks.
-      expect(client.textsSent, isEmpty);
+      // A new chat opens with the spoken introduction, by name.
+      expect(client.textsSent, [LiveVoicePrompts.welcomeTrigger]);
+      expect(jsonEncode(client.setups.single), contains('Hi Aarav!'));
 
       // The strip holds no text of its own: what the guide says streams
       // into the chat and stays there once spoken.

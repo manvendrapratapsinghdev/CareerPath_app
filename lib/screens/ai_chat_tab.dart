@@ -31,6 +31,12 @@ class AiChatTab extends StatefulWidget {
   /// Trending starters, source deep dives and answer feedback.
   final AiGuideExtras? extras;
 
+  /// Shown at the top of a new chat, e.g. "Good afternoon, Aarav".
+  final String? greeting;
+
+  /// The student's name, used in the spoken welcome.
+  final String? studentName;
+
   const AiChatTab({
     super.key,
     required this.repository,
@@ -41,6 +47,8 @@ class AiChatTab extends StatefulWidget {
     this.textToSpeechService,
     this.voiceServices,
     this.extras,
+    this.greeting,
+    this.studentName,
   });
 
   @override
@@ -71,6 +79,7 @@ class _AiChatTabState extends State<AiChatTab> {
   // Voice turns stream into the chat above the voice strip: the student's
   // words as they speak, then the guide's reply as it is spoken.
   bool _voiceQuestionAdded = false;
+  bool _voiceWelcomed = false;
 
   bool get _voiceActive => _voice?.isActive ?? false;
 
@@ -367,16 +376,30 @@ class _AiChatTabState extends State<AiChatTab> {
           ..addListener(_onVoiceChanged)
           ..onQuestion = _onVoiceQuestion
           ..onAnswer = _onVoiceAnswer
+          ..onWelcome = _onVoiceWelcome
           ..onUnavailable = _onVoiceUnavailable
           ..onEnded = _onVoiceEnded;
     final settings = services.settings;
     _voiceQuestionAdded = false;
+    final welcome = !_voiceWelcomed && !_chatController.hasMessages;
+    _voiceWelcomed = true;
+    final name = widget.studentName?.trim();
     try {
       await voice.start(
         voiceName: settings.voiceName,
         interruptions: settings.interruptions,
         playAudio: settings.spokenAnswers,
-        // No spoken introduction: the guide listens straight away.
+        // Introduces itself once per visit, by name, in a new chat.
+        welcomeGreeting: welcome
+            ? (name == null || name.isEmpty
+                  ? l.ai_voiceWelcome
+                  : l.ai_voiceWelcomeNamed(name))
+            : null,
+        welcomeStarters: [
+          l.ai_starterScience,
+          l.ai_starterCompare,
+          l.ai_starterDesign,
+        ],
       );
       widget.analyticsService?.logEvent('ai_chat_voice_started');
     } catch (_) {
@@ -398,6 +421,9 @@ class _AiChatTabState extends State<AiChatTab> {
     _voiceQuestionAdded = true;
     _chatController.addVoiceQuestion(question);
   }
+
+  void _onVoiceWelcome(String transcript, List<String> starters) =>
+      _chatController.addVoiceAnswer(content: transcript);
 
   void _onVoiceChanged() {
     if (!mounted) return;
@@ -668,7 +694,11 @@ class _AiChatTabState extends State<AiChatTab> {
         Expanded(
           child: _chatController.hasMessages || _liveBubbles.isNotEmpty
               ? _buildConversation(l)
-              : _ChatEmptyState(onPromptSelected: _send, trending: _trending),
+              : _ChatEmptyState(
+                  onPromptSelected: _send,
+                  trending: _trending,
+                  greeting: widget.greeting,
+                ),
         ),
         if (_chatController.chatBlocked)
           _BlockedNotice(onOpenExplore: () => _openExplore())
@@ -893,8 +923,13 @@ class _ChatHeader extends StatelessWidget {
 class _ChatEmptyState extends StatelessWidget {
   final ValueChanged<String> onPromptSelected;
   final List<String>? trending;
+  final String? greeting;
 
-  const _ChatEmptyState({required this.onPromptSelected, this.trending});
+  const _ChatEmptyState({
+    required this.onPromptSelected,
+    this.trending,
+    this.greeting,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -924,8 +959,10 @@ class _ChatEmptyState extends StatelessWidget {
             ),
           ),
           const SizedBox(height: AppSpacing.lg),
+          // The student's greeting when known; the header above already
+          // says what to ask about.
           Text(
-            l.ai_subtitle,
+            greeting ?? l.ai_subtitle,
             textAlign: TextAlign.center,
             style: Theme.of(
               context,

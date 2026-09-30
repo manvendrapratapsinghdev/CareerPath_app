@@ -97,8 +97,10 @@ prefixPadding 400 ms, silence 600 ms, tools = the 3 declarations below, system i
 
 1. User taps **Talk** → `_toggleVoice()` → `LiveVoiceController.start(voiceName, interruptions, playAudio, welcomeGreeting?, welcomeStarters)`.
    Requests audio focus (`continuous`), keeps screen awake, connects, starts recorder, 80 ms mic timer, state → `listening`, arms 60 s idle timer.
-2. **No spoken welcome** (removed 2026-09-30 at the user's request): the tab passes no `welcomeGreeting`, so the guide listens straight away.
-   The controller still supports a welcome turn (`sendText('__CAREERPATH_WELCOME__')`, no tools, `onWelcome`) if it is ever wanted again.
+2. **Spoken welcome, by name** — once per tab visit, only when the chat is empty: `sendText('__CAREERPATH_WELCOME__')`; the model says
+   `ai_voiceWelcomeNamed` ("Hi {name}! I am your CareerPath AI Guide.", name from the profile via `AiChatTab.studentName`; `ai_voiceWelcome`
+   without a name), reads the starter questions, asks "What would you like to explore?" — **no tools** (tool calls answered
+   `{error: no_tools_during_welcome}`). `onWelcome` adds the transcript to chat.
 3. Student speaks → `LiveInputTranscript` chunks accumulate in `_heard`; `_beginTurn()` resets `VoiceTurn`.
 4. Model calls **`route_query`** (mandatory first tool): args `query, intent, standalone_query, is_follow_up, requires_search, input_language`.
    `LiveVoiceTools._route` sets `turn.*`, then returns one of:

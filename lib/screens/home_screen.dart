@@ -68,6 +68,10 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   ProfileData? _profile;
   int _currentIndex = 0;
+
+  /// The AI Guide tab has no app bar: the chat needs the room, and it
+  /// greets the student itself.
+  static const _aiGuideTab = 2;
   late final PageController _pageController;
   late final AiChatRepository _aiChatRepository;
 
@@ -224,93 +228,97 @@ class _HomeScreenState extends State<HomeScreen> {
         : l.suggestions_setUpProfile;
 
     return Scaffold(
-      appBar: AppBar(
-        toolbarHeight: 68,
-        title: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Text(
-              '${_greeting(context)}${hasName ? ',' : ''}',
-              style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                color: colorScheme.onSurfaceVariant,
-              ),
-            ),
-            if (hasName)
-              Text(name, style: Theme.of(context).textTheme.titleLarge),
-          ],
-        ),
-        actions: [
-          IconButton(
-            onPressed: () {
-              Navigator.push(
-                context,
-                SmoothPageRoute(
-                  page: SearchScreen(
-                    careerDataService: widget.careerDataService,
-                    bookmarkService: widget.bookmarkService,
-                    analyticsService: widget.analyticsService,
-                  ),
-                ),
-              );
-            },
-            icon: const Icon(Icons.search_rounded),
-            tooltip: l.home_searchTooltip,
-          ),
-          IconButton(
-            onPressed: () {
-              Navigator.push(
-                context,
-                SmoothPageRoute(
-                  page: QuizScreen(analyticsService: widget.analyticsService),
-                ),
-              );
-            },
-            icon: const Icon(Icons.psychology_rounded),
-            tooltip: l.home_careerQuizTooltip,
-          ),
-          Padding(
-            padding: const EdgeInsets.only(right: AppSpacing.md),
-            child: Tooltip(
-              message: profileTooltip,
-              excludeFromSemantics: true,
-              child: Semantics(
-                button: true,
-                label: profileTooltip,
-                onTap: _navigateToEditProfile,
-                excludeSemantics: true,
-                child: GestureDetector(
-                  onTap: _navigateToEditProfile,
-                  child: Container(
-                    width: 40,
-                    height: 40,
-                    decoration: BoxDecoration(
-                      gradient: AppColors.primaryGradient,
-                      shape: BoxShape.circle,
-                      boxShadow: AppShadows.soft(AppColors.primaryLight),
-                    ),
-                    child: Center(
-                      child: hasName
-                          ? Text(
-                              name[0].toUpperCase(),
-                              style: const TextStyle(
-                                fontWeight: FontWeight.w700,
-                                color: Colors.white,
-                                fontSize: 16,
-                              ),
-                            )
-                          : const Icon(
-                              Icons.person_rounded,
-                              color: Colors.white,
-                              size: 24,
-                            ),
+      appBar: _currentIndex == _aiGuideTab
+          ? null
+          : AppBar(
+              toolbarHeight: 68,
+              title: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    '${_greeting(context)}${hasName ? ',' : ''}',
+                    style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                      color: colorScheme.onSurfaceVariant,
                     ),
                   ),
-                ),
+                  if (hasName)
+                    Text(name, style: Theme.of(context).textTheme.titleLarge),
+                ],
               ),
+              actions: [
+                IconButton(
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      SmoothPageRoute(
+                        page: SearchScreen(
+                          careerDataService: widget.careerDataService,
+                          bookmarkService: widget.bookmarkService,
+                          analyticsService: widget.analyticsService,
+                        ),
+                      ),
+                    );
+                  },
+                  icon: const Icon(Icons.search_rounded),
+                  tooltip: l.home_searchTooltip,
+                ),
+                IconButton(
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      SmoothPageRoute(
+                        page: QuizScreen(
+                          analyticsService: widget.analyticsService,
+                        ),
+                      ),
+                    );
+                  },
+                  icon: const Icon(Icons.psychology_rounded),
+                  tooltip: l.home_careerQuizTooltip,
+                ),
+                Padding(
+                  padding: const EdgeInsets.only(right: AppSpacing.md),
+                  child: Tooltip(
+                    message: profileTooltip,
+                    excludeFromSemantics: true,
+                    child: Semantics(
+                      button: true,
+                      label: profileTooltip,
+                      onTap: _navigateToEditProfile,
+                      excludeSemantics: true,
+                      child: GestureDetector(
+                        onTap: _navigateToEditProfile,
+                        child: Container(
+                          width: 40,
+                          height: 40,
+                          decoration: BoxDecoration(
+                            gradient: AppColors.primaryGradient,
+                            shape: BoxShape.circle,
+                            boxShadow: AppShadows.soft(AppColors.primaryLight),
+                          ),
+                          child: Center(
+                            child: hasName
+                                ? Text(
+                                    name[0].toUpperCase(),
+                                    style: const TextStyle(
+                                      fontWeight: FontWeight.w700,
+                                      color: Colors.white,
+                                      fontSize: 16,
+                                    ),
+                                  )
+                                : const Icon(
+                                    Icons.person_rounded,
+                                    color: Colors.white,
+                                    size: 24,
+                                  ),
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+              ],
             ),
-          ),
-        ],
-      ),
       body: PageView(
         controller: _pageController,
         onPageChanged: (index) {
@@ -333,13 +341,18 @@ class _HomeScreenState extends State<HomeScreen> {
             explorationService: widget.explorationService,
             analyticsService: widget.analyticsService,
           ),
-          AiChatTab(
-            repository: _aiChatRepository,
-            voiceServices: widget.aiVoiceServices,
-            extras: widget.aiGuideExtras,
-            analyticsService: widget.analyticsService,
-            streamId: _profile?.stream,
-            onOpenExplore: _openAiSource,
+          SafeArea(
+            bottom: false,
+            child: AiChatTab(
+              greeting: hasName ? '${_greeting(context)}, $name' : null,
+              studentName: name,
+              repository: _aiChatRepository,
+              voiceServices: widget.aiVoiceServices,
+              extras: widget.aiGuideExtras,
+              analyticsService: widget.analyticsService,
+              streamId: _profile?.stream,
+              onOpenExplore: _openAiSource,
+            ),
           ),
           BookmarksTab(
             bookmarkService: widget.bookmarkService,

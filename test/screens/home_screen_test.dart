@@ -263,5 +263,36 @@ void main() {
       expect(find.text('CareerPath AI Guide'), findsOneWidget);
       expect(find.text('What can I do after 12th Science?'), findsOneWidget);
     });
+
+    testWidgets('AI Guide has no app bar and greets the student in the chat', (
+      tester,
+    ) async {
+      tester.view.physicalSize = const Size(1080, 1920);
+      tester.view.devicePixelRatio = 1.0;
+      addTearDown(tester.view.resetPhysicalSize);
+      addTearDown(tester.view.resetDevicePixelRatio);
+
+      await initServices(
+        prefsValues: {'profile_name': 'Aarav', 'profile_stream': 'science'},
+      );
+      await tester.pumpWidget(buildApp());
+      await tester.pumpAndSettle();
+      expect(find.byType(AppBar), findsOneWidget);
+
+      await tester.tap(find.text('AI Guide'));
+      await tester.pump();
+      await tester.pump(const Duration(milliseconds: 300));
+
+      // The header is gone; the greeting moved into the chat.
+      expect(find.byType(AppBar), findsNothing);
+      expect(find.textContaining(', Aarav'), findsOneWidget);
+      expect(find.text('CareerPath AI Guide'), findsOneWidget);
+
+      // Other tabs keep the header with search, quiz and profile.
+      await tester.tap(find.text('Saved'));
+      await tester.pump();
+      await tester.pump(const Duration(milliseconds: 300));
+      expect(find.byType(AppBar), findsOneWidget);
+    });
   });
 }

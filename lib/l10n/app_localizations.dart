@@ -1532,6 +1532,12 @@ abstract class AppLocalizations {
   /// **'Hi! I am your CareerPath AI Guide.'**
   String get ai_voiceWelcome;
 
+  /// No description provided for @ai_voiceWelcomeNamed.
+  ///
+  /// In en, this message translates to:
+  /// **'Hi {name}! I am your CareerPath AI Guide.'**
+  String ai_voiceWelcomeNamed(String name);
+
   /// No description provided for @ai_voiceSettings.
   ///
   /// In en, this message translates to:
