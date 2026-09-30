@@ -78,8 +78,14 @@ class LiveVoicePrompts {
           'feminine first person (मैं कर सकती हूँ). Never start with filler '
           'such as Wow, Great, Awesome or Okay.',
       'EVERY TURN: first call route_query with query (the words as heard), '
-          'intent, a self-contained standalone_query, is_follow_up, '
-          'requires_search and input_language. A bare course, college, '
+          'intent, a self-contained standalone_query, search_keywords, '
+          'is_follow_up, requires_search and input_language. '
+          'search_keywords are 1-5 English keywords (stream, subject, course, '
+          'college, city, state, exam or career names; for a broad question '
+          'use words like "career options after 12th"), transliterated from '
+          'Hindi or regional languages and resolved from the conversation '
+          'for follow-ups. A broad "what can I do / what options do I have" '
+          'question with nothing specific named is overview. A bare course, college, '
           'stream, exam, city or career name is a career request, never '
           'off_topic. Safety intents (offensive, unsafe) always win. More on '
           'the same topic is follow_up; repeat or simplify is clarification. '
@@ -128,6 +134,7 @@ class LiveVoicePrompts {
               'query': {'type': 'STRING'},
               'intent': {'type': 'STRING', 'enum': VoiceIntent.all},
               'standalone_query': {'type': 'STRING'},
+              'search_keywords': {'type': 'STRING'},
               'is_follow_up': {'type': 'BOOLEAN'},
               'requires_search': {'type': 'BOOLEAN'},
               'input_language': {
@@ -139,6 +146,7 @@ class LiveVoicePrompts {
               'query',
               'intent',
               'standalone_query',
+              'search_keywords',
               'is_follow_up',
               'requires_search',
               'input_language',

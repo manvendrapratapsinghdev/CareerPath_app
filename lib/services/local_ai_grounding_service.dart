@@ -92,6 +92,12 @@ class LocalAiGroundingService {
     'sectors',
     'suggest',
     'stream',
+    // "After 10th / 12th / graduation" is how students ask for options.
+    '10th',
+    '12th',
+    'tenth',
+    'twelfth',
+    'graduation',
     'streams',
     'study',
   };
@@ -106,10 +112,14 @@ class LocalAiGroundingService {
   Future<AiGroundingContext> retrieve({
     required String query,
     String? streamId,
+
+    /// A broad roundup ("what can I do?"): always include the stream roots.
+    bool broad = false,
   }) async {
     await _careerDataService.ensureInitialized();
     final queryTokens = _tokens(query);
-    final hasCareerIntent = queryTokens.any(_careerIntentWords.contains);
+    final hasCareerIntent =
+        broad || queryTokens.any(_careerIntentWords.contains);
     final allNodes = _careerDataService.getAllNodes();
     final scored = <({CareerNode node, int score})>[];
 

@@ -163,7 +163,11 @@ class GuidedAiChatRepository extends AiChatRepository {
     final searchQuery = intent.searchQuery.isNotEmpty
         ? intent.searchQuery
         : intent.rewritten ?? question;
-    final grounding = await _retrieve(searchQuery, request.streamId);
+    final grounding = await _retrieve(
+      searchQuery,
+      request.streamId,
+      broad: intent.intent == VoiceIntent.overview,
+    );
     if (grounding.isEmpty) {
       return _fallback(request, storedFollowUp, language);
     }
@@ -248,8 +252,16 @@ class GuidedAiChatRepository extends AiChatRepository {
     }
   }
 
-  Future<AiGroundingContext> _retrieve(String query, String? streamId) async {
-    final keyword = await _grounding.retrieve(query: query, streamId: streamId);
+  Future<AiGroundingContext> _retrieve(
+    String query,
+    String? streamId, {
+    bool broad = false,
+  }) async {
+    final keyword = await _grounding.retrieve(
+      query: query,
+      streamId: streamId,
+      broad: broad,
+    );
     final extra = _extraGrounding;
     if (extra == null) return keyword;
     AiGroundingContext semantic;

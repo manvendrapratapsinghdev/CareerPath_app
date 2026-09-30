@@ -68,6 +68,32 @@ void main() {
     );
   });
 
+  test('"what can I do after twelfth" returns the stream options', () async {
+    final grounding = LocalAiGroundingService(_careerService());
+
+    for (final query in ['what can I do after twelfth', 'options after 12th']) {
+      final result = await grounding.retrieve(query: query);
+      expect(result.isEmpty, isFalse, reason: query);
+      expect(result.text, contains('SOURCE career_node:engineering'));
+    }
+  });
+
+  test(
+    'a broad question gets the stream roots even without keywords',
+    () async {
+      final grounding = LocalAiGroundingService(_careerService());
+
+      final plain = await grounding.retrieve(query: 'what should I do');
+      final broad = await grounding.retrieve(
+        query: 'what should I do',
+        broad: true,
+      );
+
+      expect(plain.isEmpty, isTrue);
+      expect(broad.text, contains('SOURCE career_node:engineering'));
+    },
+  );
+
   test('returns no context for an unrelated request', () async {
     final grounding = LocalAiGroundingService(_careerService());
 

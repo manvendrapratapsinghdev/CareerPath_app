@@ -158,6 +158,44 @@ void main() {
     expect(tools.turn.noRecordsFound, isTrue);
   });
 
+  test('the spoken question is searched by its English keywords', () async {
+    final tools = _tools();
+    // Nothing in "12वीं के बाद क्या करूँ" matches the records; the keywords do.
+    final route = await tools.execute(
+      _call('route_query', {
+        ..._route('12वीं के बाद क्या करूँ', VoiceIntent.career, lang: 'hindi'),
+        'search_keywords': 'computer science',
+      }),
+    );
+    expect(route['records'], contains('SOURCE career_node:computer-science'));
+  });
+
+  test('"what can I do after twelfth" is answered, not "not found"', () async {
+    final tools = _tools();
+    for (final intent in [VoiceIntent.overview, VoiceIntent.career]) {
+      tools.startTurn();
+      final route = await tools.execute(
+        _call('route_query', _route('what can I do after twelfth', intent)),
+      );
+      expect(
+        route['records'],
+        contains('SOURCE career_node:engineering'),
+        reason: intent,
+      );
+      expect(tools.turn.noRecordsFound, isFalse);
+    }
+
+    // A broad roundup gets the streams even when no keyword matches.
+    tools.startTurn();
+    final overview = await tools.execute(
+      _call('route_query', {
+        ..._route('what should I do', VoiceIntent.overview),
+        'search_keywords': 'future plans',
+      }),
+    );
+    expect(overview['records'], contains('SOURCE career_node:engineering'));
+  });
+
   group('semantic search', () {
     const semanticHit = AiChatSource(
       sourceId: 'career_node:computer-science',

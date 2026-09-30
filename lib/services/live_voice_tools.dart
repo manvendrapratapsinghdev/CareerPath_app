@@ -101,7 +101,10 @@ class LiveVoiceTools {
 
   /// Keyword and semantic grounding for [query]. The speculative lookup is
   /// reused when it covered (nearly) the whole spoken question.
-  Future<AiGroundingContext> _retrieve(String query) async {
+  Future<AiGroundingContext> _retrieve(
+    String query, {
+    bool broad = false,
+  }) async {
     final spoken = turn.question ?? '';
     final wordsHeard = spoken.trim().split(RegExp(r'\s+')).length;
     final prefetchWords = _prefetchText.isEmpty
@@ -112,6 +115,7 @@ class LiveVoiceTools {
     final keyword = await grounding.retrieve(
       query: query,
       streamId: streamId?.call(),
+      broad: broad,
     );
     return AiGroundingContext.merge(keyword, await semantic);
   }
@@ -196,18 +200,29 @@ class LiveVoiceTools {
       return {...base, 'context_only': true};
     }
     // Retrieve here, in the same step, so the model needs no separate
-    // search_careers round trip before answering.
+    // search_careers round trip before answering. English keywords match
+    // the records far better than a full or non-English sentence; they are
+    // already resolved from the conversation for follow-ups.
+    final keywords = args['search_keywords']?.toString().trim() ?? '';
     final standaloneQuery = base['standalone_query'] as String;
     return {
       ...base,
       ...await _records(
-        isFollowUp ? '${_memory.last.$1} $standaloneQuery' : standaloneQuery,
+        keywords.isNotEmpty
+            ? keywords
+            : isFollowUp
+            ? '${_memory.last.$1} $standaloneQuery'
+            : standaloneQuery,
+        broad: intent == VoiceIntent.overview || intent == VoiceIntent.advice,
       ),
     };
   }
 
-  Future<Map<String, dynamic>> _records(String query) async {
-    final context = await _retrieve(query);
+  Future<Map<String, dynamic>> _records(
+    String query, {
+    bool broad = false,
+  }) async {
+    final context = await _retrieve(query, broad: broad);
     turn.sources = context.sources;
     turn.noRecordsFound = context.isEmpty;
     return {
