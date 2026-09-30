@@ -83,6 +83,10 @@ class AiResponseParser {
       .map(
         (section) => _isGeneric(section.title)
             ? section.body
+            // A lead-in such as "Let's look at your options:" flows into its
+            // sentence; a heading gets a full stop.
+            : section.title.trimRight().endsWith(':')
+            ? '${section.title.trimRight()} ${section.body}'
             : '${section.title}. ${section.body}',
       )
       .join('\n\n');

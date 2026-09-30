@@ -29,4 +29,25 @@ void main() {
       expect(prompt, contains('never name colleges from other places'));
     }
   });
+
+  test('answers read like a counsellor, not a stock "Here you go"', () {
+    final typed = GuidedAiPrompts.answer(
+      question: 'What is engineering?',
+      records: 'SOURCE career_node:engineering',
+      language: ReplyLanguage.hindi,
+      overview: false,
+    );
+    final voice = LiveVoicePrompts.systemInstruction();
+    for (final prompt in [typed, voice]) {
+      expect(prompt, contains('counsellor'));
+      expect(prompt, contains('never'));
+      expect(prompt, contains('Here you go'));
+    }
+    // The stock heading is no longer handed to the model to copy.
+    expect(typed, isNot(contains('<Title>Here you go')));
+    expect(typed, isNot(contains('ये लीजिए')));
+    expect(voice, isNot(contains('ये लीजिए')));
+    expect(voice, contains('gentle next step'));
+    expect(typed, contains('gentle next step'));
+  });
 }

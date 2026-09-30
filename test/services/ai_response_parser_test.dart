@@ -42,4 +42,16 @@ Answers:
     expect(restored.title, 'Options');
     expect(restored.body, 'PCM or PCB');
   });
+
+  test('a colon lead-in flows into its sentence in read-aloud text', () {
+    final parsed = AiResponseParser.parse(
+      "<Title>Let's look at your options:</Title> Engineering is a good fit.\n"
+      '<Title>Options</Title> Civil and mechanical.',
+    );
+    expect(
+      AiResponseParser.plainText(parsed.sections),
+      "Let's look at your options: Engineering is a good fit.\n\n"
+      'Options. Civil and mechanical.',
+    );
+  });
 }
