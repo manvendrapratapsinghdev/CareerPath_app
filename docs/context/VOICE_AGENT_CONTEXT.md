@@ -2,7 +2,7 @@
 
 > **Purpose:** a pre-digested map so a new Claude session does NOT re-scan the repo.
 > Read this first; open source files only for the exact function you are changing.
-> **Verified against:** commit `692cb2d` (app version `1.4.1+15`), 2026-09-29.
+> **Verified against:** branch `feature/voice-structured-search` (app version `1.4.2+16`), 2026-09-30.
 > **Keep fresh:** if you change anything listed here, update this file in the same commit (see §12).
 
 ---
@@ -147,7 +147,7 @@ prefixPadding 400 ms, silence 600 ms, tools = the 3 declarations below, system i
 ### Tool contract (declared to Gemini)
 | Tool | Args (all required) | Returns |
 |---|---|---|
-| `route_query` | `query`, `intent` ∈ `VoiceIntent.all`, `standalone_query`, `search_keywords` (1-5 English keywords — **used for retrieval**, same as typed chat's classifier `search_query`), `is_follow_up`, `requires_search`, `input_language` ∈ {english, hindi, bengali, punjabi, gujarati, odia, tamil, telugu, kannada, malayalam, unsupported} | see step 4 |
+| `route_query` | `query`, `intent` ∈ `VoiceIntent.all`, `standalone_query`, `search_keywords` (1-5 English keywords — **used for retrieval**, same as typed chat's classifier `search_query`; the prompt makes both keep every named place, course and level, and on a follow-up like "and in Jodhpur?" keep course/level and swap only the place), `is_follow_up`, `requires_search`, `input_language` ∈ {english, hindi, bengali, punjabi, gujarati, odia, tamil, telugu, kannada, malayalam, unsupported} | see step 4 |
 | `search_careers` | `query` (English keywords; transliterate Hindi/regional names, include state) | records text |
 | `format_answer` | `draft` | `{status:'formatted'}` or `{error:'empty_draft'}` |
 
@@ -417,7 +417,9 @@ Fakes: the controller accepts injected `client` (`GeminiLiveClient`) and `audio`
 - Prompt says the model must never speak before `format_answer`; the controller is the safety net if it does.
 - Search assets must be rebuilt when their sources change: DB → `build_search_aliases.py`; never edit `search_aliases.json` by hand.
 - Keyword grounding drops stop-words and only matches node names/intros: a sentence like "what can I do after twelfth" leaves just `twelfth` (0 matches). Retrieval therefore uses `search_keywords`, `broad: true` for overview/advice intents, and `10th/12th/tenth/twelfth/graduation` count as career-intent words (→ stream roots).
-- Data-quality traps: messy `level`/`mode`/`relation` strings; NULL `state`/`institution_type`; node ids are ints in SQLite but strings in Dart models.
+- Both prompts tell the model to say the `MATCH SUMMARY` count and, on a `COVERAGE` note, to say plainly what CareerPath does not list (and which states it does) without naming colleges from elsewhere.
+- Coverage limits to expect in answers: courses exist only for the researched Rajasthan/MP/UP institutes, so level/course questions elsewhere get the "lists N institutes in <place>, but none offer…" note; districts are NULL outside those states.
+- Data-quality traps: messy `level`/`mode`/`relation` strings (compare via `CourseLevels`); NULL `institution_type`; 25 institutes (city "Various"/"Online") have no state; node ids are ints in SQLite but strings in Dart models.
 - Project rules (from `CLAUDE.md`): no new state-management libs; manual DI in `main.dart`; URLs only in `ApiUrls`; new services need tests; new models need `fromJson/toJson`; run `flutter analyze` + `flutter test` before commit.
 
 ## 12. Maintenance protocol for this file

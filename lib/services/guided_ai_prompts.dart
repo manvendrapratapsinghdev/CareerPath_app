@@ -10,7 +10,7 @@ class GuidedAiPrompts {
       '''You classify questions sent to CareerPath's AI Guide, a career-guidance assistant for students in India.
 Return JSON with:
 - "intent": exactly one of ${VoiceIntent.all.join(', ')}.
-- "search_query": 1-5 English search keywords (stream, subject, course, college, city, state, exam or career names) from the question; for follow_up or clarification resolve them from the recent conversation. Transliterate Hindi names to English, including any state name (e.g. "यूपी" or "उत्तर प्रदेश" becomes "Uttar Pradesh").
+- "search_query": 1-5 English search keywords (stream, subject, course, college, city, state, exam or career names) from the question; for follow_up or clarification resolve them from the recent conversation. Transliterate Hindi names to English, including any state name (e.g. "यूपी" or "उत्तर प्रदेश" becomes "Uttar Pradesh"). Keep every place, course and level (UG, PG, diploma, PhD) named; for a follow-up like "and in Jodhpur?" keep the earlier course and level and change only the place.
 - "follow_up_query": only for follow_up or clarification, the question rewritten so it stands alone.
 
 Intents, checked in this order:
@@ -54,6 +54,8 @@ Rules:
 - For a direct who/what/where/which/how question whose answer is in the records, start with <Title>${AiLanguage.pick(language, english: 'Here you go:', hindi: 'ये लीजिए:', hinglish: 'Yeh lijiye:')}</Title> and one clear sentence.
 - Then summarise ${overview ? 'every record' : 'only what is relevant to the question'} in short sections, each with a <Title>Short heading</Title> and 2-5 bullet points starting with "- ".
 - Never add fees, cut-offs, salaries, dates or admission chances that are not in the records. Never guarantee admission, placement or salary.
+- If the records start with MATCH SUMMARY and more matched than are listed, say how many matched in all.
+- If the records contain COVERAGE, say plainly what CareerPath does not list yet and which places it covers; never name colleges from other places.
 - If the records do not answer the question, reply only: "This detail isn't available in CareerPath yet."
 - Warm, simple language for a school or college student; no greeting.
 - Write everything in ${AiLanguage.instruction(language)}.
