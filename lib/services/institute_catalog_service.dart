@@ -1,5 +1,20 @@
 import '../models/institute_catalog.dart';
+import 'course_levels.dart';
 import 'search_aliases.dart';
+
+/// One institute found by [InstituteCatalogService.find], with the courses
+/// that matched the question.
+typedef InstituteMatch = ({
+  InstituteRecord record,
+  List<InstituteCourse> courses,
+});
+
+/// Best [InstituteMatch]es plus how many institutes and courses matched.
+typedef InstituteMatches = ({
+  List<InstituteMatch> hits,
+  int totalInstitutes,
+  int totalCourses,
+});
 
 /// Institutes with their courses and NIRF rankings, loaded once from the
 /// bundled database and searched in memory.
@@ -203,16 +218,31 @@ class InstituteCatalogService {
   /// there are considered — otherwise a loosely-matching college from
   /// elsewhere ("medical college" in Lucknow for "MBBS in Bhopal") can still
   /// hit the score threshold below and crowd out real results.
-  List<InstituteRecord> search(String query, {int limit = 5}) {
+  List<InstituteRecord> search(String query, {int limit = 5}) => find(
+    query,
+    limit: limit,
+  ).hits.map((hit) => hit.record).toList(growable: false);
+
+  /// Like [search], with the courses that matched each institute and how
+  /// many institutes and courses matched in all (before [limit]).
+  ///
+  /// A level named in the query ("PG", "diploma", "PhD") keeps only
+  /// institutes with a course at that level, and only those courses count.
+  /// Every course is searched, not just the ones shown in [describe].
+  InstituteMatches find(String query, {int limit = 5}) {
     final tokens = _tokens(
       query,
     ).difference(_stopWords).difference(searchFillerWords);
-    if (tokens.isEmpty) return const [];
+    if (tokens.isEmpty) {
+      return (hits: const [], totalInstitutes: 0, totalCourses: 0);
+    }
     final requestedState = _requestedState(tokens);
     final requestedPlaces = _requestedPlaces(tokens);
-    final scored = <(InstituteRecord, int)>[];
+    final levels = CourseLevels.requested(tokens);
+    final words = tokens.where((t) => !CourseLevels.isLevelWord(t)).toSet();
+    final scored = <(InstituteMatch, int, bool)>[];
     for (final record in records) {
-      final (:name, :place, :courses, :state) = _searchText(record);
+      final (:name, :place, :state) = _searchText(record);
       if (requestedState != null &&
           state != requestedState &&
           // Some records have a city but no state; a city that carries the
@@ -223,28 +253,70 @@ class InstituteCatalogService {
       if (requestedPlaces.isNotEmpty && !requestedPlaces.any(place.contains)) {
         continue;
       }
+      final atLevel = levels.isEmpty
+          ? record.courses
+          : record.courses
+                .where(
+                  (c) => CourseLevels.ofCourse(c.level).any(levels.contains),
+                )
+                .toList(growable: false);
+      if (levels.isNotEmpty && atLevel.isEmpty) continue;
+      final matched = <InstituteCourse>[];
       // A requested state that matched already confirms relevance, even when
       // the query used an abbreviation ("UP") that never appears in the
       // stored place text.
       var score = requestedState != null ? 6 : 0;
-      for (final token in tokens) {
+      var allWordsFound = words.isNotEmpty;
+      var subjectFound = false;
+      for (final token in words) {
+        final hits = atLevel.where((c) => _hasWord(_courseText(c), token));
+        for (final course in hits) {
+          if (!matched.contains(course)) matched.add(course);
+        }
         if (_hasWord(name, token)) {
           score += 10;
+          // "Delhi" in "Delhi School of Economics" is the place, not a
+          // subject such as "engineering".
+          if (!_hasWord(place, token)) subjectFound = true;
         } else if (_hasWord(place, token)) {
           score += 6;
-        } else if (_hasWord(courses, token)) {
+        } else if (hits.isNotEmpty) {
           score += 2;
+          subjectFound = true;
+        } else {
+          allWordsFound = false;
         }
       }
-      if (score >= 6) scored.add((record, score));
+      // Every word found, some only in a course ("B.Pharm colleges"): the
+      // institute offers what was asked for.
+      if (allWordsFound && matched.isNotEmpty) score += 4;
+      if (score < 6) continue;
+      final courses = matched.isNotEmpty
+          ? matched
+          : levels.isNotEmpty
+          ? atLevel
+          : const <InstituteCourse>[];
+      scored.add(((record: record, courses: courses), score, subjectFound));
+    }
+    // With a place named, every college there scores; once some also match
+    // the subject ("engineering colleges in Maharashtra"), the rest go.
+    if (scored.any((entry) => entry.$3)) {
+      scored.removeWhere((entry) => !entry.$3);
     }
     scored.sort((a, b) {
       final order = b.$2.compareTo(a.$2);
       return order != 0
           ? order
-          : a.$1.institute.name.compareTo(b.$1.institute.name);
+          : a.$1.record.institute.name.compareTo(b.$1.record.institute.name);
     });
-    return scored.take(limit).map((entry) => entry.$1).toList();
+    return (
+      hits: scored.take(limit).map((entry) => entry.$1).toList(growable: false),
+      totalInstitutes: scored.length,
+      totalCourses: scored.fold(
+        0,
+        (sum, entry) => sum + entry.$1.courses.length,
+      ),
+    );
   }
 
   /// Ranked institutes, best first, optionally for one category such as
@@ -279,8 +351,16 @@ class InstituteCatalogService {
     return selected.take(limit).toList();
   }
 
-  /// Grounding text for one institute.
-  static String describe(InstituteRecord record) {
+  /// Grounding text for one institute. [matched] courses (from [find]) are
+  /// listed first, so the course the student asked about is always shown.
+  static String describe(
+    InstituteRecord record, {
+    List<InstituteCourse> matched = const [],
+  }) {
+    final others = [
+      for (final course in record.courses)
+        if (!matched.contains(course)) course,
+    ];
     final institute = record.institute;
     final lines = <String>[
       'Title: ${institute.name}',
@@ -293,9 +373,15 @@ class InstituteCatalogService {
         'Institution type: ${institute.institutionType!.trim()}',
       if (record.categories.isNotEmpty)
         'Categories: ${record.categories.join(', ')}',
-      if (record.courses.isNotEmpty)
-        'Courses: ${record.courses.take(10).map(_courseLabel).join('; ')}'
-            '${record.courses.length > 10 ? ' (+${record.courses.length - 10} more)' : ''}',
+      if (matched.isNotEmpty)
+        'Matching courses (${matched.length}): '
+            '${matched.take(10).map(_courseLabel).join('; ')}'
+            '${matched.length > 10 ? ' (+${matched.length - 10} more)' : ''}',
+      if (matched.isNotEmpty && others.isNotEmpty)
+        'Other courses: ${others.length}'
+      else if (others.isNotEmpty)
+        'Courses: ${others.take(10).map(_courseLabel).join('; ')}'
+            '${others.length > 10 ? ' (+${others.length - 10} more)' : ''}',
       if (record.rankings.isNotEmpty)
         'Rankings: ${record.rankings.map((r) => '${r.label}: ${r.rankLabel}${r.score == null ? '' : ' (score ${r.score})'}').join('; ')}',
     ];
@@ -350,11 +436,11 @@ class InstituteCatalogService {
 
   /// Searchable text of one record, built once (the records never change):
   /// see [_haystack].
-  static final _texts =
-      Expando<({String name, String place, String courses, String state})>();
+  static final _texts = Expando<({String name, String place, String state})>();
 
-  static ({String name, String place, String courses, String state})
-  _searchText(InstituteRecord record) => _texts[record] ??= () {
+  static ({String name, String place, String state}) _searchText(
+    InstituteRecord record,
+  ) => _texts[record] ??= () {
     final institute = record.institute;
     return (
       name: _haystack(institute.name),
@@ -362,14 +448,15 @@ class InstituteCatalogService {
         '${institute.city ?? ''} ${institute.district ?? ''} '
         '${institute.state ?? ''} ${institute.institutionType ?? ''}',
       ),
-      courses: _haystack(
-        record.courses
-            .map((c) => '${c.name} ${c.specialization ?? ''}')
-            .join(' '),
-      ),
       state: _normalizedState(institute.state),
     );
   }();
+
+  static final _courseTexts = Expando<String>();
+
+  /// Searchable name and specialization of one course, built once.
+  static String _courseText(InstituteCourse course) => _courseTexts[course] ??=
+      _haystack('${course.name} ${course.specialization ?? ''}');
 
   static final _nonWord = RegExp('[^a-z0-9]+');
 

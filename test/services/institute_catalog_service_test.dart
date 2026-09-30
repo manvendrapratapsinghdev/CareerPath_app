@@ -155,11 +155,102 @@ void main() {
     List<int> ids(String query) =>
         catalog.search(query).map((r) => r.institute.id).toList()..sort();
 
+    // "Delhi" in a college's name is the place, so both Delhi colleges stay.
     expect(ids('colleges in Delhi'), [1, 2]);
+    // A subject word keeps only the colleges that match it.
+    expect(ids('economics colleges in Delhi'), [1]);
     expect(ids('colleges in Maharashtra'), [3]);
     expect(ids('Chandigarh colleges'), [4]);
     // A record with no state and an unrelated city is still left out.
     expect(ids('IITs in Maharashtra'), [3]);
+  });
+
+  group('courses and levels', () {
+    Map<String, dynamic> course(int id, String name, String level) => {
+      'id': id,
+      'name': name,
+      'level': level,
+    };
+    final catalog = InstituteCatalogService.withRecords(
+      [
+        {
+          'id': 1,
+          'name': 'Indore Science College',
+          'city': 'Indore',
+          'state': 'Madhya Pradesh',
+          'courses': [
+            for (var i = 0; i < 12; i++) course(100 + i, 'BA History $i', 'UG'),
+            course(200, 'M.Sc Physics', 'Post Graduate'),
+            course(201, 'B.Pharm', 'Undergraduate'),
+          ],
+        },
+        {
+          'id': 2,
+          'name': 'Indore Arts College',
+          'city': 'Indore',
+          'state': 'Madhya Pradesh',
+          'courses': [course(300, 'BA English', 'ug')],
+        },
+        {
+          'id': 3,
+          'name': 'Jaipur Pharmacy College',
+          'city': 'Jaipur',
+          'state': 'Rajasthan',
+          'courses': [
+            course(400, 'B.Pharm', 'UG'),
+            course(401, 'D.Pharm', 'diploma'),
+          ],
+        },
+      ].map(InstituteRecord.fromJson).toList(),
+    );
+
+    test('a level keeps only institutes and courses at that level', () {
+      final result = catalog.find('PG courses in Indore');
+      expect(result.hits.map((h) => h.record.institute.id), [1]);
+      expect(result.hits.single.courses.map((c) => c.name), ['M.Sc Physics']);
+      expect(result.totalInstitutes, 1);
+      expect(result.totalCourses, 1);
+
+      expect(
+        catalog.find('pharmacy diploma').hits.single.courses.map((c) => c.id),
+        [401],
+      );
+      // No PG course in Jaipur: nothing, rather than UG courses.
+      expect(catalog.find('PG courses in Jaipur').hits, isEmpty);
+    });
+
+    test('every course is searched and the matching one is shown first', () {
+      final result = catalog.find('bpharm indore');
+      // Only the Indore college that offers B.Pharm, not every Indore one.
+      expect(result.hits.map((h) => h.record.institute.id), [1]);
+      expect(
+        catalog
+            .find('colleges in Indore')
+            .hits
+            .map((h) => h.record.institute.id),
+        [2, 1],
+      );
+      final hit = result.hits.first;
+      expect(hit.courses.map((c) => c.id), [201]);
+      final text = InstituteCatalogService.describe(
+        hit.record,
+        matched: hit.courses,
+      );
+      // B.Pharm is the 14th course, past the 10 that describe() lists.
+      expect(text, contains('Matching courses (1): B.Pharm (Undergraduate)'));
+      expect(text, contains('Other courses: 13'));
+      expect(
+        InstituteCatalogService.describe(hit.record),
+        isNot(contains('B.Pharm')),
+      );
+    });
+
+    test('counts every match, not just the ones returned', () {
+      final result = catalog.find('bpharm', limit: 1);
+      expect(result.hits, hasLength(1));
+      expect(result.totalInstitutes, 2);
+      expect(result.totalCourses, 2);
+    });
   });
 
   test('search only returns the state named in the query', () async {

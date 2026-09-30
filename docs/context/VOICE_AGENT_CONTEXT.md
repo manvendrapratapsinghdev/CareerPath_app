@@ -180,6 +180,13 @@ Keyword step details:
 3. `InstituteCatalogService.search(query, limit 4)` and, if the query asks about rankings, `rankings(query)` (NIRF).
    A named **state, city or district filters** colleges (else "medical college, Lucknow" outranks Bhopal ones for "MBBS in Bhopal").
    Matching = a word *starts with* the token (dots ignored); per-record search text is prepared once (`Expando`) and matched with `contains(' token')`.
+   `search` wraps `find(query, limit)`, which also returns the matched courses per institute and the total institutes/courses matched.
+   **Every** course is searched (name + specialization). A level word (UG/PG/bachelor/masters/PhD/diploma/certificate/integrated,
+   `course_levels.dart` `CourseLevels`) keeps only institutes with a course at that level; stored `level` strings are reduced by
+   `CourseLevels.ofCourse` (mixed ones like "postgraduate_diploma" name several). With a place named, colleges that match none of the
+   other (subject) words are dropped once any college does — a place word inside a name ("Delhi School of…") is not a subject.
+   A state-less record still matches a state whose name is in its city (New Delhi → Delhi).
+   `describe(record, matched:)` lists "Matching courses (n)" first, then "Other courses: n".
 4. For up to **5 leaf** nodes: `getLeafDetails` (cached per node — data is read-only) → books (≤12), institutes (≤12), job sectors (≤12).
 5. Output text `CAREERPATH EXPLORE DATA…` with `SOURCE nirf_rankings`, `SOURCE institute:<id>`, `SOURCE career_node:<id>` blocks, truncated to 18 000 chars;
    `sources` = `AiChatSource(sourceId, sourceType: ranking|institute|career_node, title, exploreNodeId?)`.

@@ -219,14 +219,14 @@ class LocalAiGroundingService {
       }
     }
 
-    var institutes = const <InstituteRecord>[];
+    var institutes = const <InstituteMatch>[];
     var rankings = const <(InstituteRecord, InstituteRanking)>[];
     final catalog = this.catalog;
     if (catalog != null) {
       if (InstituteCatalogService.asksForRankings(query)) {
         rankings = catalog.rankings(query);
       }
-      institutes = catalog.search(query, limit: 4);
+      institutes = catalog.find(query, limit: 4).hits;
     }
 
     if (selected.isEmpty && institutes.isEmpty && rankings.isEmpty) {
@@ -250,12 +250,12 @@ class LocalAiGroundingService {
     }
     if (institutes.isNotEmpty) {
       buffer.writeln(
-        '\nInstitutes: ${institutes.map((r) => r.institute.name).join(", ")}',
+        '\nInstitutes: ${institutes.map((hit) => hit.record.institute.name).join(", ")}',
       );
-      for (final record in institutes) {
+      for (final (:record, :courses) in institutes) {
         buffer
           ..writeln('\nSOURCE institute:${record.institute.id}')
-          ..writeln(InstituteCatalogService.describe(record));
+          ..writeln(InstituteCatalogService.describe(record, matched: courses));
       }
     }
     for (final node in selected) {
@@ -314,7 +314,7 @@ class LocalAiGroundingService {
             title:
                 '${record.institute.name} · ${ranking.label} #${ranking.rankLabel}',
           ),
-        for (final record in institutes)
+        for (final (:record, courses: _) in institutes)
           AiChatSource(
             sourceId: 'institute:${record.institute.id}',
             sourceType: 'institute',
