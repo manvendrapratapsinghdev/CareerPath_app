@@ -5,6 +5,8 @@ import '../models/ai_chat.dart';
 import '../models/career_node.dart';
 import '../models/institute_catalog.dart';
 import '../models/leaf_details.dart';
+import '../models/book_record.dart';
+import 'book_catalog_service.dart';
 import 'career_data_service.dart';
 import 'institute_catalog_service.dart';
 import 'search_aliases.dart';
@@ -112,6 +114,9 @@ class LocalAiGroundingService {
   /// Optional institutes, courses and NIRF rankings.
   final InstituteCatalogService? catalog;
 
+  /// Optional recommended books, searched when a question asks for books.
+  final BookCatalogService? books;
+
   /// Loads the English word list that enables spelling correction; without
   /// it words are matched exactly as given.
   final Future<String> Function()? loadDictionary;
@@ -123,6 +128,7 @@ class LocalAiGroundingService {
   LocalAiGroundingService(
     this._careerDataService, {
     this.catalog,
+    this.books,
     this.loadDictionary,
     this.loadAliases,
   });
@@ -135,6 +141,7 @@ class LocalAiGroundingService {
   Future<void> warmUp() async {
     await _careerDataService.ensureInitialized();
     await catalog?.ensureLoaded();
+    await books?.ensureLoaded();
     await _speller();
   }
 
@@ -147,6 +154,8 @@ class LocalAiGroundingService {
   }) async {
     await _careerDataService.ensureInitialized();
     await this.catalog?.ensureLoaded();
+    // Before spelling correction, which could change "kitab" into a data word.
+    final asksForBooks = BookCatalogService.asksForBooks(query);
     // Abbreviations first ("engg" → engineering), then misspelled or
     // misheard words, which would otherwise match nothing below.
     final aliases = await _aliasTable();
@@ -228,8 +237,17 @@ class LocalAiGroundingService {
       }
       institutes = catalog.find(query, limit: 4).hits;
     }
+    var bookHits = const <BookRecord>[];
+    final books = this.books;
+    if (books != null && asksForBooks) {
+      await books.ensureLoaded();
+      bookHits = books.search(query).hits;
+    }
 
-    if (selected.isEmpty && institutes.isEmpty && rankings.isEmpty) {
+    if (selected.isEmpty &&
+        institutes.isEmpty &&
+        rankings.isEmpty &&
+        bookHits.isEmpty) {
       return const AiGroundingContext(text: '', sources: []);
     }
 
@@ -257,6 +275,11 @@ class LocalAiGroundingService {
           ..writeln('\nSOURCE institute:${record.institute.id}')
           ..writeln(InstituteCatalogService.describe(record, matched: courses));
       }
+    }
+    for (final record in bookHits) {
+      buffer
+        ..writeln('\nSOURCE book:${record.book.id}')
+        ..writeln(BookCatalogService.describe(record));
     }
     for (final node in selected) {
       buffer
@@ -319,6 +342,14 @@ class LocalAiGroundingService {
             sourceId: 'institute:${record.institute.id}',
             sourceType: 'institute',
             title: record.institute.name,
+          ),
+        // A book chip opens the career path the book is recommended for.
+        for (final record in bookHits.take(3))
+          AiChatSource(
+            sourceId: 'book:${record.book.id}',
+            sourceType: 'book',
+            title: record.book.title,
+            exploreNodeId: record.nodeIds.firstOrNull,
           ),
         ...selected.map(
           (node) => AiChatSource(

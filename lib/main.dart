@@ -24,6 +24,7 @@ import 'services/analytics_service.dart';
 import 'services/ai_chat_repository.dart';
 import 'services/ai_http_client_factory.dart';
 import 'services/bookmark_service.dart';
+import 'services/book_catalog_service.dart';
 import 'services/career_data_service.dart';
 import 'services/exploration_service.dart';
 import 'services/feedback_service.dart';
@@ -81,6 +82,7 @@ void main() async {
   final groundingService = LocalAiGroundingService(
     careerDataService,
     catalog: instituteCatalog,
+    books: BookCatalogService(localDb.getBookCatalog),
     loadDictionary: () =>
         rootBundle.loadString(SearchSpellCorrector.dictionaryAsset),
     loadAliases: () => rootBundle.loadString(SearchAliases.asset),

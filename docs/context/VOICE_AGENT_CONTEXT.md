@@ -188,6 +188,10 @@ Keyword step details:
    A state-less record still matches a state whose name is in its city (New Delhi → Delhi).
    `describe(record, matched:)` lists "Matching courses (n)" first, then "Other courses: n".
 4. For up to **5 leaf** nodes: `getLeafDetails` (cached per node — data is read-only) → books (≤12), institutes (≤12), job sectors (≤12).
+   **Books directly:** when the *original* question has a book word (book/books/kitab/kitaben/pustak/textbook/author…, checked before
+   spelling correction), `BookCatalogService.search` (all 1 111 books, loaded once via `LocalDatabase.getBookCatalog`) scores title 10,
+   author or linked career-path name 6, description 2 (min 6; tokens <3 letters must be whole words). Up to 6 books →
+   `SOURCE book:<id>` blocks; up to 3 `book` source chips whose `exploreNodeId` is the book's first career path.
 5. Output text `CAREERPATH EXPLORE DATA…` with `SOURCE nirf_rankings`, `SOURCE institute:<id>`, `SOURCE career_node:<id>` blocks, truncated to 18 000 chars;
    `sources` = `AiChatSource(sourceId, sourceType: ranking|institute|career_node, title, exploreNodeId?)`.
    Empty → `AiGroundingContext(text:'', sources:[])` → `noRecordsFound`.
@@ -203,7 +207,7 @@ Measured on the real data (desktop debug, 2026-09-30): retrieve avg **2.7 ms** (
 Order of construction: `SharedPreferences` → repositories/services (bookmarks, exploration, recently viewed, rate prompt) →
 `LocalDatabase().init()` (copies asset DB to `getDatabasesPath()/career_path.db` **on every launch**, opens `readOnly`) →
 `CareerDataService(LocalDataSource(localDb))` → `GeminiKeyService` (+ background `preload()`) →
-`InstituteCatalogService(localDb.getInstituteCatalog)` → `LocalAiGroundingService(careerData, catalog:)` →
+`InstituteCatalogService(localDb.getInstituteCatalog)` → `LocalAiGroundingService(careerData, catalog:, books: BookCatalogService(localDb.getBookCatalog))` →
 `SemanticIndexService` (background build, paced to quota) → `GuidedAiChatRepository` → `AiGeminiJson`/`AiGuideExtras` →
 **`AiVoiceServices`** → `CareerPathApp(...)` which passes `aiVoiceServices` down to the AI Guide tab.
 
@@ -348,6 +352,7 @@ streams 1───∞ career_nodes ∞───1 career_nodes (parent_id, self-t
 | `streams` (+ root ids) | `StreamModel` (`lib/models/stream_model.dart`) | ids become **strings** in models (`stream.id`, `node.id` are `String`) |
 | `career_nodes` | `CareerNode` (`career_node.dart`) | `isLeaf`, child ids computed in `LocalDatabase` |
 | `books`, `institutes`, `job_sectors` (+junctions) | `Book`, `Institute`, `JobSector`, aggregated in `LeafDetails` (`leaf_details.dart`) | via `getNodeDetails` |
+| `books` + `node_books` + `career_nodes` | `BookRecord` (`book_record.dart`: `Book` + `nodeIds` slugs + `nodeNames`) | `getBookCatalog`, loaded whole by `BookCatalogService` |
 | institutes + courses + rankings + categories | `InstituteRecord`, `InstituteCourse`, `InstituteRanking` (`institute_catalog.dart`) | loaded whole into memory by `InstituteCatalogService.ensureLoaded()` |
 | — | `AiChatMessage`, `AiChatSource`, `AiAnswerSection`, `AiChatRequest/Response` (`ai_chat.dart`) | chat models; **chat is in-memory only, never persisted** |
 

@@ -24,6 +24,14 @@ class Book {
     );
   }
 
+  Map<String, dynamic> toJson() => {
+    'id': id,
+    'title': title,
+    'author': author,
+    'url': url,
+    'description': description,
+  };
+
   @override
   String toString() => 'Book($id, $title)';
 }

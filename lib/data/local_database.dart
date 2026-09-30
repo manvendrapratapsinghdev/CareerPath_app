@@ -219,6 +219,35 @@ class LocalDatabase {
     }).toList();
   }
 
+  // ── Book catalog (every book with its career paths) — 2 queries ────────
+
+  Future<List<Map<String, dynamic>>> getBookCatalog() async {
+    final results = await Future.wait([
+      db.rawQuery(
+        'SELECT id, title, author, url, description FROM books ORDER BY title',
+      ),
+      db.rawQuery(
+        'SELECT nb.book_id, cn.slug, cn.name FROM node_books nb '
+        'JOIN career_nodes cn ON cn.id = nb.node_id ORDER BY cn.name',
+      ),
+    ]);
+    final slugs = <int, List<String>>{};
+    final names = <int, List<String>>{};
+    for (final row in results[1]) {
+      final bookId = row['book_id'] as int;
+      (slugs[bookId] ??= []).add(row['slug'] as String);
+      (names[bookId] ??= []).add(row['name'] as String);
+    }
+    return results[0].map((row) {
+      final id = row['id'] as int;
+      return {
+        ...row,
+        'node_ids': slugs[id] ?? const <String>[],
+        'node_names': names[id] ?? const <String>[],
+      };
+    }).toList();
+  }
+
   // ── All Nodes (for eager-load) — 2 queries total ───────────────────────
 
   Future<List<Map<String, dynamic>>> getAllNodes() async {

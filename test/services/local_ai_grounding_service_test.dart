@@ -1,7 +1,9 @@
+import 'package:career_path/models/book_record.dart';
 import 'package:career_path/models/career_node.dart';
 import 'package:career_path/models/leaf_details.dart';
 import 'package:career_path/models/stream_model.dart';
 import 'package:career_path/services/api_client.dart';
+import 'package:career_path/services/book_catalog_service.dart';
 import 'package:career_path/services/career_data_service.dart';
 import 'package:career_path/services/local_ai_grounding_service.dart';
 import 'package:flutter_test/flutter_test.dart';
@@ -41,6 +43,34 @@ CareerDataService _careerService() {
 }
 
 void main() {
+  test(
+    'a question about books finds books with a chip to their path',
+    () async {
+      final grounding = LocalAiGroundingService(
+        _careerService(),
+        books: BookCatalogService.withRecords([
+          BookRecord.fromJson({
+            'id': 5,
+            'title': 'Introduction to Algorithms',
+            'author': 'Cormen',
+            'node_ids': ['computer-science'],
+            'node_names': ['Computer Science'],
+          }),
+        ]),
+      );
+
+      final result = await grounding.retrieve(query: 'books on algorithms');
+      expect(result.text, contains('SOURCE book:5'));
+      expect(result.text, contains('Author: Cormen'));
+      final chip = result.sources.firstWhere((s) => s.sourceType == 'book');
+      expect(chip.exploreNodeId, 'computer-science');
+
+      // Without a book word, books are not searched.
+      final plain = await grounding.retrieve(query: 'algorithms');
+      expect(plain.text, isNot(contains('SOURCE book:')));
+    },
+  );
+
   test('retrieves matching bundled Explore nodes with source IDs', () async {
     final grounding = LocalAiGroundingService(_careerService());
 
