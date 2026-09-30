@@ -94,6 +94,33 @@ void main() {
     },
   );
 
+  test('misspelled words still find their records', () async {
+    final grounding = LocalAiGroundingService(
+      _careerService(),
+      loadDictionary: () async => 'mother\nplace',
+    );
+
+    final result = await grounding.retrieve(query: 'enginering');
+
+    expect(result.text, contains('SOURCE career_node:engineering'));
+  });
+
+  test('without the word list, words are matched exactly', () async {
+    for (final grounding in [
+      LocalAiGroundingService(_careerService()),
+      LocalAiGroundingService(
+        _careerService(),
+        loadDictionary: () async => throw Exception('missing asset'),
+      ),
+    ]) {
+      expect((await grounding.retrieve(query: 'enginering')).isEmpty, isTrue);
+      expect(
+        (await grounding.retrieve(query: 'engineering')).text,
+        contains('SOURCE career_node:engineering'),
+      );
+    }
+  });
+
   test('returns no context for an unrelated request', () async {
     final grounding = LocalAiGroundingService(_careerService());
 

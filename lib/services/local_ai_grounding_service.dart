@@ -1,9 +1,12 @@
+import 'package:flutter/foundation.dart';
+
 import '../config/ai_provider_config.dart';
 import '../models/ai_chat.dart';
 import '../models/career_node.dart';
 import '../models/institute_catalog.dart';
 import 'career_data_service.dart';
 import 'institute_catalog_service.dart';
+import 'search_spell_corrector.dart';
 
 class AiGroundingContext {
   final String text;
@@ -107,7 +110,24 @@ class LocalAiGroundingService {
   /// Optional institutes, courses and NIRF rankings.
   final InstituteCatalogService? catalog;
 
-  const LocalAiGroundingService(this._careerDataService, {this.catalog});
+  /// Loads the English word list that enables spelling correction; without
+  /// it words are matched exactly as given.
+  final Future<String> Function()? loadDictionary;
+
+  LocalAiGroundingService(
+    this._careerDataService, {
+    this.catalog,
+    this.loadDictionary,
+  });
+
+  Future<SearchSpellCorrector?>? _spelling;
+
+  /// Builds the spelling corrector ahead of the first question.
+  Future<void> warmUp() async {
+    await _careerDataService.ensureInitialized();
+    await catalog?.ensureLoaded();
+    await _speller();
+  }
 
   Future<AiGroundingContext> retrieve({
     required String query,
@@ -117,6 +137,9 @@ class LocalAiGroundingService {
     bool broad = false,
   }) async {
     await _careerDataService.ensureInitialized();
+    await this.catalog?.ensureLoaded();
+    // Misspelled or misheard words would match nothing below.
+    query = (await _speller())?.correctQuery(query) ?? query;
     final queryTokens = _tokens(query);
     final hasCareerIntent =
         broad || queryTokens.any(_careerIntentWords.contains);
@@ -189,7 +212,6 @@ class LocalAiGroundingService {
     var rankings = const <(InstituteRecord, InstituteRanking)>[];
     final catalog = this.catalog;
     if (catalog != null) {
-      await catalog.ensureLoaded();
       if (InstituteCatalogService.asksForRankings(query)) {
         rankings = catalog.rankings(query);
       }
@@ -298,6 +320,50 @@ class LocalAiGroundingService {
       ],
     );
   }
+
+  /// Built once, off the UI thread, from the bundled (read-only) data.
+  Future<SearchSpellCorrector?> _speller() => _spelling ??= () async {
+    final load = loadDictionary;
+    if (load == null) return null;
+    try {
+      final dictionary = await load();
+      final records = catalog?.records ?? const <InstituteRecord>[];
+      return await compute(_buildSpelling, (
+        names: [
+          for (final stream in _careerDataService.getAllStreams()) stream.name,
+          for (final node in _careerDataService.getAllNodes()) node.name,
+          for (final record in records) ...[
+            record.institute.name,
+            record.institute.city ?? '',
+            record.institute.district ?? '',
+            record.institute.state ?? '',
+            (record.institute.institutionType ?? '').replaceAll('_', ' '),
+            ...record.categories,
+            for (final course in record.courses)
+              '${course.name} ${course.specialization ?? ''}',
+          ],
+        ],
+        otherText: [
+          for (final node in _careerDataService.getAllNodes()) node.intro ?? '',
+          for (final record in records) record.institute.description ?? '',
+        ],
+        dictionary: dictionary,
+      ));
+    } on Object catch (error) {
+      // Without the word list, correcting could turn real words into data
+      // words, so search exactly as given instead.
+      debugPrint('[AI Guide] spelling correction off (${error.runtimeType})');
+      return null;
+    }
+  }();
+
+  static SearchSpellCorrector _buildSpelling(
+    ({List<String> names, List<String> otherText, String dictionary}) input,
+  ) => SearchSpellCorrector(
+    names: input.names,
+    otherText: input.otherText,
+    dictionary: SearchSpellCorrector.parseDictionary(input.dictionary),
+  );
 
   Set<String> _tokens(String value) {
     return RegExp(r'[a-z0-9]+')
