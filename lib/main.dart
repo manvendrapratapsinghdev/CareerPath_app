@@ -92,6 +92,7 @@ void main() async {
     keyService: geminiKeyService,
     directory: getApplicationSupportDirectory,
     client: await AiHttpClientFactory.create(),
+    catalog: instituteCatalog,
   );
   // Builds in the background, paced to the key's quota; search by meaning
   // joins keyword grounding as vectors become available.

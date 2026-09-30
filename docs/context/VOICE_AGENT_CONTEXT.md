@@ -202,6 +202,9 @@ Keyword step details:
    Empty → `AiGroundingContext(text: <coverage note or ''>, sources:[])` → `noRecordsFound`; voice then sends
    `NO RECORDS FOUND\n<note>`. `merge` keeps a keyword-side note even when only semantic search found records.
 
+Semantic search keeps institute hits inside a place the query names: `SemanticIndexService(catalog:)` asks
+`InstituteCatalogService.idsInPlace(query)` (same state/city/district rules as `find`), looks 3× deeper (top 12) and keeps the top 4
+that pass; career-path hits always pass.
 Semantic search only works once `SemanticIndexService` has vectors (built in background after first launch, paced to the embedding quota, persisted to `ai_semantic_index.*`).
 Before that, both typed chat and voice degrade to keyword-only. Keyword tokens are `[a-z0-9]` so **non-English transcripts only match via the semantic part or the model's English `search_keywords`**.
 

@@ -36,6 +36,10 @@ class SemanticIndexService {
   final Duration batchPause;
   final Duration retryPause;
 
+  /// Keeps institute hits inside the place a question names, so an Indore
+  /// college does not answer a question about Jaipur.
+  final InstituteCatalogService? catalog;
+
   final _items = <String, SemanticItem>{};
   final _vectors = <String, Float32List>{};
   Future<void>? _building;
@@ -46,6 +50,7 @@ class SemanticIndexService {
     http.Client? client,
     this.batchPause = AiProviderConfig.embeddingBatchPause,
     this.retryPause = const Duration(seconds: 30),
+    this.catalog,
   }) : _keyService = keyService,
        _directory = directory,
        _client = client ?? http.Client();
@@ -149,11 +154,31 @@ class SemanticIndexService {
       return const AiGroundingContext(text: '', sources: []);
     }
     final vectors = await _embed([query], 'RETRIEVAL_QUERY');
-    final hits = nearest(vectors.first);
+    await catalog?.ensureLoaded();
+    final allowed = catalog?.idsInPlace(query);
+    // Look further down the list when a place filter will drop some hits.
+    final hits =
+        nearest(
+              vectors.first,
+              topK: allowed == null
+                  ? AiProviderConfig.semanticTopK
+                  : AiProviderConfig.semanticTopK * 3,
+            )
+            .where((item) => _inPlace(item, allowed))
+            .take(AiProviderConfig.semanticTopK)
+            .toList(growable: false);
     return AiGroundingContext(
       text: hits.map((item) => item.text).join('\n\n'),
       sources: hits.map((item) => item.source).toList(growable: false),
     );
+  }
+
+  /// Career paths always pass; an institute only when [allowed] (the ids in
+  /// the named place, or null for no place) has it.
+  static bool _inPlace(SemanticItem item, Set<int>? allowed) {
+    if (allowed == null || !item.id.startsWith('institute:')) return true;
+    final id = int.tryParse(item.id.substring('institute:'.length));
+    return id != null && allowed.contains(id);
   }
 
   @visibleForTesting

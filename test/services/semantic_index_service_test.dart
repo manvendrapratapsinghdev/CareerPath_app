@@ -3,10 +3,12 @@ import 'dart:io';
 import 'dart:typed_data';
 
 import 'package:career_path/models/career_node.dart';
+import 'package:career_path/models/institute_catalog.dart';
 import 'package:career_path/models/stream_model.dart';
 import 'package:career_path/services/api_client.dart';
 import 'package:career_path/services/career_data_service.dart';
 import 'package:career_path/services/gemini_key_service.dart';
+import 'package:career_path/services/institute_catalog_service.dart';
 import 'package:career_path/services/semantic_index_service.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:http/http.dart' as http;
@@ -84,6 +86,59 @@ void main() {
     await reloaded.build(await items());
     expect(reloaded.indexedCount, 2);
     expect(calls, isEmpty, reason: 'vectors come from the saved file');
+  });
+
+  test('institutes outside the place a question names are dropped', () async {
+    final catalog = InstituteCatalogService.withRecords([
+      for (final (id, city, state) in [
+        (1, 'Indore', 'Madhya Pradesh'),
+        (2, 'Jaipur', 'Rajasthan'),
+        (3, 'Bhopal', 'Madhya Pradesh'),
+      ])
+        InstituteRecord.fromJson({
+          'id': id,
+          'name': 'Engineering College $id',
+          'city': city,
+          'state': state,
+        }),
+    ]);
+    final index = SemanticIndexService(
+      keyService: _FakeKeys(),
+      directory: () async => dir,
+      client: _embedder([]),
+      batchPause: Duration.zero,
+      catalog: catalog,
+    );
+    await index.build(
+      await SemanticIndexService.itemsFrom(
+        CareerDataService(ApiClient())..initializeWithData(
+          [StreamModel(id: 'science', name: 'Science', categoryIds: const [])],
+          {'engineering': CareerNode(id: 'engineering', name: 'Engineering')},
+        ),
+        catalog,
+      ),
+    );
+    Future<List<String>> ids(String query) async => (await index.search(
+      query,
+      null,
+    )).sources.map((s) => s.sourceId).toList();
+
+    // Every item is "engineering", so all four match by meaning...
+    expect(await ids('engineering'), hasLength(4));
+    // ...but only the Jaipur college stays for a Jaipur question, and
+    // career paths are never dropped.
+    expect(
+      await ids('engineering in Jaipur'),
+      unorderedEquals(['career_node:engineering', 'institute:2']),
+    );
+    expect(
+      await ids('engineering in Madhya Pradesh'),
+      unorderedEquals([
+        'career_node:engineering',
+        'institute:1',
+        'institute:3',
+      ]),
+    );
   });
 
   test('nearest respects the cut-off', () async {

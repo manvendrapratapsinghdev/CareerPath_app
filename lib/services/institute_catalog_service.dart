@@ -257,17 +257,8 @@ class InstituteCatalogService {
     final scored = <(InstituteMatch, int, bool)>[];
     var inPlace = 0;
     for (final record in records) {
-      final (:name, :place, :state) = _searchText(record);
-      if (requestedState != null &&
-          state != requestedState &&
-          // Some records have a city but no state; a city that carries the
-          // state's name (New Delhi, Chandigarh, Goa) still places them.
-          (state.isNotEmpty || !place.contains(' $requestedState'))) {
-        continue;
-      }
-      if (requestedPlaces.isNotEmpty && !requestedPlaces.any(place.contains)) {
-        continue;
-      }
+      if (!_isIn(record, requestedState, requestedPlaces)) continue;
+      final (:name, :place, state: _) = _searchText(record);
       inPlace++;
       final atLevel = levels.isEmpty
           ? record.courses
@@ -340,6 +331,39 @@ class InstituteCatalogService {
           : 0,
       levels: levels,
     );
+  }
+
+  /// Ids of the institutes in the state, city or district [query] names;
+  /// null when it names none (then every institute may match).
+  Set<int>? idsInPlace(String query) {
+    final tokens = _tokens(
+      query,
+    ).difference(_stopWords).difference(searchFillerWords);
+    final requestedState = _requestedState(tokens);
+    final requestedPlaces = _requestedPlaces(tokens);
+    if (requestedState == null && requestedPlaces.isEmpty) return null;
+    return {
+      for (final record in records)
+        if (_isIn(record, requestedState, requestedPlaces)) record.institute.id,
+    };
+  }
+
+  /// [record] is in the requested state (if any) and one of the requested
+  /// cities or districts (if any).
+  static bool _isIn(
+    InstituteRecord record,
+    String? requestedState,
+    List<String> requestedPlaces,
+  ) {
+    final (:place, :state, name: _) = _searchText(record);
+    if (requestedState != null &&
+        state != requestedState &&
+        // Some records have a city but no state; a city that carries the
+        // state's name (New Delhi, Chandigarh, Goa) still places them.
+        (state.isNotEmpty || !place.contains(' $requestedState'))) {
+      return false;
+    }
+    return requestedPlaces.isEmpty || requestedPlaces.any(place.contains);
   }
 
   /// States with institutes, most first, as "Rajasthan (123)"; computed
