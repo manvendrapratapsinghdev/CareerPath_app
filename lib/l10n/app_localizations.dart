@@ -1610,6 +1610,12 @@ abstract class AppLocalizations {
   /// **'Here\'s what we covered — tap to explore further:'**
   String get ai_voiceSourcesSummary;
 
+  /// No description provided for @ai_voiceTypeInstead.
+  ///
+  /// In en, this message translates to:
+  /// **'Type instead'**
+  String get ai_voiceTypeInstead;
+
   /// No description provided for @ai_trendingTitle.
   ///
   /// In en, this message translates to:

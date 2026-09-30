@@ -823,6 +823,9 @@ class AppLocalizationsEn extends AppLocalizations {
       'Here\'s what we covered — tap to explore further:';
 
   @override
+  String get ai_voiceTypeInstead => 'Type instead';
+
+  @override
   String get ai_trendingTitle => 'Trending questions';
 
   @override

@@ -817,8 +817,8 @@ void main() {
   });
 
   testWidgets(
-    'live voice hides per-turn sources, shows them for an unanswered '
-    'question, and summarises them once the conversation ends',
+    'voice runs in a strip in place of the message box and streams every '
+    'turn into the chat above it',
     (tester) async {
       SharedPreferences.setMockInitialValues({});
       final data = CareerDataService(ApiClient())
@@ -842,7 +842,10 @@ void main() {
       final client = _FakeLiveClient();
       final controller = LiveVoiceController(
         keyService: _FakeKeys(),
-        tools: LiveVoiceTools(grounding: grounding, loadAppHelp: () async => ''),
+        tools: LiveVoiceTools(
+          grounding: grounding,
+          loadAppHelp: () async => '',
+        ),
         audio: _FakeVoiceAudio(),
         client: client,
       );
@@ -861,56 +864,71 @@ void main() {
             controller: controller,
             keyService: _FakeKeys(),
             grounding: grounding,
-            settings: VoiceSettingsService(await SharedPreferences.getInstance()),
+            settings: VoiceSettingsService(
+              await SharedPreferences.getInstance(),
+            ),
             preview: VoicePreviewService(keyService: _FakeKeys()),
           ),
         ),
       );
       await tester.pumpAndSettle();
 
-      // The mic keeps a periodic timer running for as long as voice is
-      // active, so `pumpAndSettle` (which waits for everything to go quiet)
-      // never returns here — advance by fixed steps instead.
-      Future<void> settle() =>
-          tester.pump(const Duration(milliseconds: 100));
+      // The mic timer and the orb animation run while voice is active, so
+      // `pumpAndSettle` never returns here — advance by fixed steps instead.
+      Future<void> settle() => tester.pump(const Duration(milliseconds: 100));
+      final panel = find.byTooltip('Type instead');
+      LiveToolCall route(String id, String query, String intent) =>
+          LiveToolCall([
+            LiveFunctionCall(
+              id: id,
+              name: 'route_query',
+              args: {
+                'query': query,
+                'intent': intent,
+                'standalone_query': query,
+                'is_follow_up': false,
+                'requires_search': true,
+                'input_language': 'english',
+              },
+            ),
+          ]);
 
       await tester.tap(find.byTooltip('Start a voice conversation'));
       await settle();
+      // Past the composer → panel transition.
+      await tester.pump(const Duration(milliseconds: 300));
+      expect(panel, findsOneWidget);
+      // The panel replaces the message box.
+      expect(find.byType(TextField), findsNothing);
 
-      // Clear the welcome turn (chat starts empty, so start() speaks one)
-      // before driving the actual test turns.
+      // The strip holds no text of its own: the welcome streams into the
+      // chat and stays there once spoken.
+      client.emit(const LiveOutputTranscript('Hi! Ask me anything.'));
+      await settle();
+      expect(find.text('Hi! Ask me anything.'), findsOneWidget);
+      client.emit(const LiveTurnComplete());
+      await settle();
+      expect(find.text('Hi! Ask me anything.'), findsOneWidget);
+
+      // The student's words stream into the chat while they speak, and
+      // become one question once recognised.
+      client.emit(const LiveInputTranscript('hello there'));
+      await settle();
+      expect(find.text('hello there'), findsOneWidget);
+      client.emit(route('1', 'hello there', 'small_talk'));
+      await settle();
+      expect(find.text('hello there'), findsOneWidget);
+
+      // Spoken-only turns are kept in the chat too.
       client
-        ..emit(const LiveOutputTranscript('Hi! Ask me anything.'))
+        ..emit(const LiveOutputTranscript('Happy to chat!'))
         ..emit(const LiveTurnComplete());
       await settle();
+      expect(find.text('Happy to chat!'), findsOneWidget);
 
-      // Turn 1: a career question with matching records.
-      client.emit(
-        const LiveToolCall([
-          LiveFunctionCall(
-            id: '1',
-            name: 'route_query',
-            args: {
-              'query': 'Tell me about engineering',
-              'intent': 'career',
-              'standalone_query': 'engineering',
-              'is_follow_up': false,
-              'requires_search': true,
-              'input_language': 'english',
-            },
-          ),
-        ]),
-      );
+      // An answer backed by records shows its source chips.
+      client.emit(route('2', 'Tell me about engineering', 'career'));
       await settle();
-      client.emit(
-        const LiveToolCall([
-          LiveFunctionCall(
-            id: '2',
-            name: 'search_careers',
-            args: {'query': 'engineering'},
-          ),
-        ]),
-      );
       await settle();
       client.emit(
         const LiveToolCall([
@@ -932,71 +950,88 @@ void main() {
         ..emit(const LiveOutputTranscript('Engineering is about technology.'))
         ..emit(const LiveTurnComplete());
       await settle();
+      // Past the playback drain, which ends the live bubble.
+      await tester.pump(const Duration(milliseconds: 300));
 
+      expect(panel, findsOneWidget);
+      expect(find.text('Tell me about engineering'), findsOneWidget);
       expect(find.text('Engineering is about technology.'), findsOneWidget);
-      // The source was found, so it's held back rather than shown per-turn.
-      expect(find.widgetWithText(ActionChip, 'Engineering'), findsNothing);
-      expect(find.text('Open Explore'), findsNothing);
+      expect(find.widgetWithText(ActionChip, 'Engineering'), findsOneWidget);
 
-      // Turn 2: a question with no matching records.
-      client.emit(
-        const LiveToolCall([
-          LiveFunctionCall(
-            id: '4',
-            name: 'route_query',
-            args: {
-              'query': 'Tell me about astronomy telescopes',
-              'intent': 'career',
-              'standalone_query': 'astronomy telescopes',
-              'is_follow_up': false,
-              'requires_search': true,
-              'input_language': 'english',
-            },
-          ),
-        ]),
-      );
+      // Nothing found shows the Explore fallback in chat.
+      client.emit(route('4', 'Tell me about astronomy telescopes', 'career'));
       await settle();
-      client.emit(
-        const LiveToolCall([
-          LiveFunctionCall(
-            id: '5',
-            name: 'search_careers',
-            args: {'query': 'astronomy telescopes'},
-          ),
-        ]),
-      );
       await settle();
       client
         ..emit(LiveAudio(Uint8List.fromList([3, 4])))
         ..emit(
-          const LiveOutputTranscript(
-            "I couldn't find that in CareerPath yet.",
-          ),
+          const LiveOutputTranscript("I couldn't find that in CareerPath yet."),
         )
         ..emit(const LiveTurnComplete());
       await settle();
-
+      await tester.pump(const Duration(milliseconds: 300));
+      expect(panel, findsOneWidget);
       expect(
         find.text("I couldn't find that in CareerPath yet."),
         findsOneWidget,
       );
-      // No records for this turn — surfaced immediately, like typed chat's
-      // insufficient-data fallback.
       expect(find.text('Open Explore'), findsOneWidget);
 
-      // Ending the conversation summarises the sources gathered along the
-      // way — the "Engineering" one held back from turn 1.
+      // Ending voice restores the message box; no end-of-call summary.
       await tester.tap(find.byTooltip('End voice conversation'));
-      // Stopping closes the live stream, which completes outside the fake
-      // clock; let it finish before settling.
       await tester.runAsync(() => Future<void>.delayed(Duration.zero));
       await tester.pumpAndSettle();
-
+      expect(controller.isActive, isFalse);
       expect(
         find.text("Here's what we covered — tap to explore further:"),
-        findsOneWidget,
+        findsNothing,
       );
-      expect(find.widgetWithText(ActionChip, 'Engineering'), findsOneWidget);
+      expect(find.byTooltip('Start a voice conversation'), findsOneWidget);
     },
   );
+
+  testWidgets('keyboard button ends voice and focuses the message box', (
+    tester,
+  ) async {
+    SharedPreferences.setMockInitialValues({});
+    final grounding = LocalAiGroundingService(CareerDataService(ApiClient()));
+    final controller = LiveVoiceController(
+      keyService: _FakeKeys(),
+      tools: LiveVoiceTools(grounding: grounding, loadAppHelp: () async => ''),
+      audio: _FakeVoiceAudio(),
+      client: _FakeLiveClient(),
+    );
+    await tester.pumpWidget(
+      _buildApp(
+        repository: _FakeAiChatRepository(
+          const AiChatResponse(
+            requestId: 'r',
+            status: AiChatStatus.answered,
+            answer: 'ok',
+          ),
+        ),
+        voiceServices: _FakeVoiceServices(
+          controller: controller,
+          keyService: _FakeKeys(),
+          grounding: grounding,
+          settings: VoiceSettingsService(await SharedPreferences.getInstance()),
+          preview: VoicePreviewService(keyService: _FakeKeys()),
+        ),
+      ),
+    );
+    await tester.pumpAndSettle();
+    await tester.tap(find.byTooltip('Start a voice conversation'));
+    // Past the composer → panel transition.
+    await tester.pump(const Duration(milliseconds: 100));
+    await tester.pump(const Duration(milliseconds: 300));
+
+    await tester.tap(find.byTooltip('Type instead'));
+    await tester.runAsync(() => Future<void>.delayed(Duration.zero));
+    await tester.pumpAndSettle();
+
+    expect(controller.isActive, isFalse);
+    expect(find.byTooltip('Type instead'), findsNothing);
+    final field = tester.widget<TextField>(find.byType(TextField).first);
+    expect(field.focusNode?.hasFocus, isTrue);
+  });
 }

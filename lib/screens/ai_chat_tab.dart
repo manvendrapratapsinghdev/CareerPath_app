@@ -1,3 +1,6 @@
+import 'dart:math' as math;
+
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -63,10 +66,12 @@ class _AiChatTabState extends State<AiChatTab> {
   List<String>? _trending;
   final Map<String, bool> _feedback = {};
 
-  // Sources found during the live voice conversation, shown once the
-  // conversation ends rather than after every turn — repeating a chip row
-  // after each spoken answer is noisy for a voice interaction.
-  final _voiceSessionSources = <AiChatSource>[];
+  final _composerFocus = FocusNode();
+
+  // Voice turns stream into the chat above the voice strip: the student's
+  // words as they speak, then the guide's reply as it is spoken.
+  bool _voiceWelcomed = false;
+  bool _voiceQuestionAdded = false;
 
   bool get _voiceActive => _voice?.isActive ?? false;
 
@@ -116,6 +121,7 @@ class _AiChatTabState extends State<AiChatTab> {
     _textToSpeechService.dispose();
     _textController.dispose();
     _scrollController.dispose();
+    _composerFocus.dispose();
     super.dispose();
   }
 
@@ -335,7 +341,6 @@ class _AiChatTabState extends State<AiChatTab> {
     if (services == null) return;
     if (_voiceActive) {
       await _voice?.stop();
-      _flushVoiceSources();
       widget.analyticsService?.logEvent('ai_chat_voice_ended');
       return;
     }
@@ -361,19 +366,21 @@ class _AiChatTabState extends State<AiChatTab> {
     final voice = _voice ??=
         services.createController(streamId: () => widget.streamId)
           ..addListener(_onVoiceChanged)
-          ..onQuestion = _chatController.addVoiceQuestion
+          ..onQuestion = _onVoiceQuestion
           ..onAnswer = _onVoiceAnswer
           ..onWelcome = _onVoiceWelcome
           ..onUnavailable = _onVoiceUnavailable
           ..onEnded = _onVoiceEnded;
     final settings = services.settings;
-    _voiceSessionSources.clear();
+    final welcome = !_voiceWelcomed && !_chatController.hasMessages;
+    _voiceWelcomed = true;
+    _voiceQuestionAdded = false;
     try {
       await voice.start(
         voiceName: settings.voiceName,
         interruptions: settings.interruptions,
         playAudio: settings.spokenAnswers,
-        welcomeGreeting: _chatController.hasMessages ? null : l.ai_voiceWelcome,
+        welcomeGreeting: welcome ? l.ai_voiceWelcome : null,
         welcomeStarters: [
           l.ai_starterScience,
           l.ai_starterCompare,
@@ -386,8 +393,28 @@ class _AiChatTabState extends State<AiChatTab> {
     }
   }
 
+  /// Ends voice and opens the message box with the keyboard up.
+  Future<void> _typeInstead() async {
+    await _voice?.stop();
+    widget.analyticsService?.logEvent('ai_chat_voice_ended');
+    if (!mounted) return;
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (mounted) _composerFocus.requestFocus();
+    });
+  }
+
+  void _onVoiceQuestion(String question) {
+    _voiceQuestionAdded = true;
+    _chatController.addVoiceQuestion(question);
+  }
+
+  void _onVoiceWelcome(String transcript, List<String> starters) =>
+      _chatController.addVoiceAnswer(content: transcript);
+
   void _onVoiceChanged() {
     if (!mounted) return;
+    // A new turn has begun once the heard words are cleared.
+    if (_voice?.heardTranscript.isEmpty ?? true) _voiceQuestionAdded = false;
     setState(() {});
     WidgetsBinding.instance.addPostFrameCallback((_) {
       if (!mounted || !_scrollController.hasClients) return;
@@ -397,43 +424,15 @@ class _AiChatTabState extends State<AiChatTab> {
 
   void _onVoiceAnswer(VoiceAnswer answer) {
     final turn = answer.turn;
-    final found = turn.sources.take(3).toList(growable: false);
-    if (found.isNotEmpty) _voiceSessionSources.addAll(found);
+    _voiceQuestionAdded = false;
     _chatController.addVoiceAnswer(
       content: answer.spokenText,
-      // Sources are noisy read out after every spoken turn; only surface
-      // them inline when the guide couldn't find an answer (matching typed
-      // chat's insufficient-data fallback). Otherwise they're saved and
-      // shown once together when the conversation ends.
       status: turn.noRecordsFound
           ? AiChatStatus.insufficientData
           : AiChatStatus.answered,
-      sources: turn.noRecordsFound ? found : const [],
+      sources: turn.sources.take(3).toList(growable: false),
       suggestedPrompts: turn.suggestions,
       sections: turn.sections,
-    );
-  }
-
-  /// Shows the sources gathered across the finished voice conversation in
-  /// one interactive summary, instead of after every spoken turn.
-  void _flushVoiceSources() {
-    if (_voiceSessionSources.isEmpty) return;
-    final seen = <String>{};
-    final unique = [
-      for (final source in _voiceSessionSources)
-        if (seen.add(source.sourceId)) source,
-    ];
-    _voiceSessionSources.clear();
-    _chatController.addVoiceAnswer(
-      content: AppLocalizations.of(context)!.ai_voiceSourcesSummary,
-      sources: unique.take(6).toList(growable: false),
-    );
-  }
-
-  void _onVoiceWelcome(String transcript, List<String> starters) {
-    _chatController.addVoiceAnswer(
-      content: transcript,
-      suggestedPrompts: starters,
     );
   }
 
@@ -445,7 +444,6 @@ class _AiChatTabState extends State<AiChatTab> {
   void _onVoiceEnded(String reason) {
     if (!mounted) return;
     final l = AppLocalizations.of(context)!;
-    _flushVoiceSources();
     _showVoiceMessage(
       reason == 'idle' ? l.ai_voiceIdleEnded : l.ai_voiceConnectionLost,
     );
@@ -669,6 +667,7 @@ class _AiChatTabState extends State<AiChatTab> {
   @override
   Widget build(BuildContext context) {
     final l = AppLocalizations.of(context)!;
+    final voice = _voice;
     return Column(
       children: [
         _ChatHeader(
@@ -679,39 +678,79 @@ class _AiChatTabState extends State<AiChatTab> {
               : _openVoiceSettings,
         ),
         Expanded(
-          child: _chatController.hasMessages || _voiceActive
+          child: _chatController.hasMessages || _liveBubbles.isNotEmpty
               ? _buildConversation(l)
               : _ChatEmptyState(onPromptSelected: _send, trending: _trending),
         ),
         if (_chatController.chatBlocked)
           _BlockedNotice(onOpenExplore: () => _openExplore())
-        else if (_voiceActive)
-          _VoiceBar(
-            label: _voiceLabel(l),
-            busy:
-                _voice!.state == LiveVoiceState.connecting ||
-                _voice!.state == LiveVoiceState.thinking ||
-                _voice!.state == LiveVoiceState.reconnecting,
-            onEnd: _toggleVoice,
-          )
         else
-          _ChatComposer(
-            controller: _textController,
-            isSending: _chatController.isSending,
-            isListening: _isListening,
-            onSend: _send,
-            onStop: _chatController.stop,
-            onToggleListening: _toggleListening,
-            onTalk: widget.voiceServices == null ? null : _toggleVoice,
+          // The voice panel pops up in place of the composer, so answers
+          // and their Explore / college options stay visible above it.
+          AnimatedSwitcher(
+            duration: const Duration(milliseconds: 250),
+            switchInCurve: Curves.easeOutCubic,
+            switchOutCurve: Curves.easeInCubic,
+            transitionBuilder: (child, animation) => SizeTransition(
+              sizeFactor: animation,
+              child: FadeTransition(opacity: animation, child: child),
+            ),
+            child: _voiceActive && voice != null
+                ? _VoicePanel(
+                    key: const ValueKey('voice'),
+                    voice: voice,
+                    label: _voiceLabel(l),
+                    onClose: _toggleVoice,
+                    onType: _typeInstead,
+                  )
+                : _ChatComposer(
+                    key: const ValueKey('composer'),
+                    controller: _textController,
+                    focusNode: _composerFocus,
+                    isSending: _chatController.isSending,
+                    isListening: _isListening,
+                    onSend: _send,
+                    onStop: _chatController.stop,
+                    onToggleListening: _toggleListening,
+                    onTalk: widget.voiceServices == null ? null : _toggleVoice,
+                  ),
           ),
       ],
     );
   }
 
-  String get _liveTranscript =>
-      _voiceActive ? _voice!.liveTranscript.trim() : '';
+  /// The voice turn in progress, streamed as chat bubbles: the student's
+  /// words until the question is recorded, then the guide's reply.
+  List<AiChatMessage> get _liveBubbles {
+    final voice = _voice;
+    if (!_voiceActive || voice == null) return const [];
+    final heard = voice.heardTranscript.trim();
+    final spoken = voice.liveTranscript.trim();
+    return [
+      if (heard.isNotEmpty && !_voiceQuestionAdded)
+        AiChatMessage(
+          id: 'live-question',
+          role: AiChatRole.user,
+          content: heard,
+          fromVoice: true,
+        ),
+      if (spoken.isNotEmpty)
+        AiChatMessage(
+          id: 'live-answer',
+          role: AiChatRole.assistant,
+          content: spoken,
+          fromVoice: true,
+        ),
+    ];
+  }
+
+  /// The guide is preparing a voice answer that hasn't started streaming.
+  bool _voiceThinking(List<AiChatMessage> live) =>
+      _voice?.state == LiveVoiceState.thinking &&
+      live.every((m) => m.role != AiChatRole.assistant);
 
   Widget _buildConversation(AppLocalizations l) {
+    final live = _liveBubbles;
     return ListView.builder(
       controller: _scrollController,
       keyboardDismissBehavior: ScrollViewKeyboardDismissBehavior.onDrag,
@@ -723,26 +762,20 @@ class _AiChatTabState extends State<AiChatTab> {
       ),
       itemCount:
           _chatController.messages.length +
-          (_chatController.isSending ? 1 : 0) +
-          (_liveTranscript.isEmpty ? 0 : 1),
+          live.length +
+          (_chatController.isSending || _voiceThinking(live) ? 1 : 0),
       itemBuilder: (context, index) {
-        if (index >= _chatController.messages.length) {
-          if (_liveTranscript.isNotEmpty) {
-            return _MessageBubble(
-              message: AiChatMessage(
-                id: 'live',
-                role: AiChatRole.assistant,
-                content: _liveTranscript,
-                fromVoice: true,
-              ),
-              isSpeaking: false,
-              onToggleReadAloud: () {},
-              onOpenExplore: _openExplore,
-              onSuggestedPrompt: _send,
-            );
-          }
-          return const _ThinkingIndicator();
+        final liveIndex = index - _chatController.messages.length;
+        if (liveIndex >= 0 && liveIndex < live.length) {
+          return _MessageBubble(
+            message: live[liveIndex],
+            isSpeaking: false,
+            onToggleReadAloud: () {},
+            onOpenExplore: _openExplore,
+            onSuggestedPrompt: _send,
+          );
         }
+        if (liveIndex >= live.length) return const _ThinkingIndicator();
         final message = _chatController.messages[index];
         if (message.isError) {
           return _ChatErrorCard(
@@ -1297,6 +1330,7 @@ class _BlockedNotice extends StatelessWidget {
 
 class _ChatComposer extends StatefulWidget {
   final TextEditingController controller;
+  final FocusNode? focusNode;
   final bool isSending;
   final bool isListening;
   final VoidCallback onSend;
@@ -1304,7 +1338,9 @@ class _ChatComposer extends StatefulWidget {
   final VoidCallback onToggleListening;
 
   const _ChatComposer({
+    super.key,
     required this.controller,
+    this.focusNode,
     required this.isSending,
     required this.isListening,
     required this.onSend,
@@ -1373,6 +1409,7 @@ class _ChatComposerState extends State<_ChatComposer> {
                 Expanded(
                   child: TextField(
                     controller: widget.controller,
+                    focusNode: widget.focusNode,
                     minLines: 1,
                     maxLines: 4,
                     maxLength: AiChatController.maxInputCharacters + 1,
@@ -1467,28 +1504,36 @@ class _ChatComposerState extends State<_ChatComposer> {
   }
 }
 
-/// Replaces the composer while a voice conversation is running.
-class _VoiceBar extends StatelessWidget {
+/// Replaces the composer while a voice conversation runs, at the same
+/// size: keyboard button, a pill with the rotating orb and status, and the
+/// end button where Send was. The pill covers the Talk button's spot so a
+/// double tap on Talk doesn't end voice. Replies stream into the chat above.
+class _VoicePanel extends StatelessWidget {
+  final LiveVoiceController voice;
   final String label;
-  final bool busy;
-  final VoidCallback onEnd;
+  final VoidCallback onClose;
+  final VoidCallback onType;
 
-  const _VoiceBar({
+  const _VoicePanel({
+    super.key,
+    required this.voice,
     required this.label,
-    required this.busy,
-    required this.onEnd,
+    required this.onClose,
+    required this.onType,
   });
 
   @override
   Widget build(BuildContext context) {
     final l = AppLocalizations.of(context)!;
-    final colorScheme = Theme.of(context).colorScheme;
+    final theme = Theme.of(context);
+    final colorScheme = theme.colorScheme;
+    final input = theme.inputDecorationTheme;
     return SafeArea(
       top: false,
       child: Container(
         padding: const EdgeInsets.fromLTRB(
           AppSpacing.base,
-          AppSpacing.md,
+          AppSpacing.sm,
           AppSpacing.base,
           AppSpacing.md,
         ),
@@ -1498,42 +1543,196 @@ class _VoiceBar extends StatelessWidget {
         ),
         child: Row(
           children: [
-            Container(
-              width: 44,
-              height: 44,
-              decoration: const BoxDecoration(
-                gradient: AppColors.primaryGradient,
-                shape: BoxShape.circle,
+            SizedBox(
+              width: 48,
+              height: 48,
+              child: IconButton.filledTonal(
+                tooltip: l.ai_voiceTypeInstead,
+                onPressed: onType,
+                icon: const Icon(Icons.keyboard_alt_outlined),
               ),
-              child: busy
-                  ? const Padding(
-                      padding: EdgeInsets.all(12),
-                      child: CircularProgressIndicator(
-                        strokeWidth: 2,
-                        color: Colors.white,
-                      ),
-                    )
-                  : const Icon(Icons.graphic_eq_rounded, color: Colors.white),
             ),
-            const SizedBox(width: AppSpacing.md),
+            const SizedBox(width: AppSpacing.sm),
             Expanded(
-              child: Text(
-                label,
-                style: Theme.of(
-                  context,
-                ).textTheme.titleSmall?.copyWith(fontWeight: FontWeight.w600),
+              child: Container(
+                height: 56,
+                padding: const EdgeInsets.symmetric(horizontal: AppSpacing.sm),
+                decoration: BoxDecoration(
+                  color: input.fillColor ?? colorScheme.surfaceContainerHighest,
+                  borderRadius: BorderRadius.circular(AppRadius.md),
+                  border: Border.all(color: colorScheme.outlineVariant),
+                ),
+                child: Row(
+                  children: [
+                    _VoiceOrb(state: voice.state, level: voice.inputLevel),
+                    const SizedBox(width: AppSpacing.sm),
+                    Expanded(
+                      child: Semantics(
+                        liveRegion: true,
+                        child: Text(
+                          label,
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
+                          style: theme.textTheme.bodyLarge?.copyWith(
+                            color: colorScheme.onSurfaceVariant,
+                            fontWeight: FontWeight.w500,
+                          ),
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
               ),
             ),
-            IconButton.filledTonal(
-              tooltip: l.ai_voiceEnd,
-              onPressed: onEnd,
-              icon: const Icon(Icons.close_rounded),
+            const SizedBox(width: AppSpacing.sm),
+            SizedBox(
+              width: 48,
+              height: 48,
+              child: IconButton.filled(
+                tooltip: l.ai_voiceEnd,
+                onPressed: onClose,
+                icon: const Icon(Icons.close_rounded),
+              ),
             ),
           ],
         ),
       ),
     );
   }
+}
+
+/// Rotating orb: always turns, swells with the microphone while listening,
+/// ripples while the guide speaks and shows a ring while it thinks or
+/// connects.
+class _VoiceOrb extends StatefulWidget {
+  final LiveVoiceState state;
+  final ValueListenable<double> level;
+
+  const _VoiceOrb({required this.state, required this.level});
+
+  @override
+  State<_VoiceOrb> createState() => _VoiceOrbState();
+}
+
+class _VoiceOrbState extends State<_VoiceOrb>
+    with SingleTickerProviderStateMixin {
+  static const _size = 30.0;
+
+  late final AnimationController _clock = AnimationController(
+    vsync: this,
+    duration: const Duration(milliseconds: 3000),
+  );
+
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    if (MediaQuery.disableAnimationsOf(context)) {
+      _clock.stop();
+    } else if (!_clock.isAnimating) {
+      _clock.repeat();
+    }
+  }
+
+  @override
+  void dispose() {
+    _clock.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final colorScheme = Theme.of(context).colorScheme;
+    final primary = colorScheme.primary;
+    final state = widget.state;
+    final busy =
+        state == LiveVoiceState.connecting ||
+        state == LiveVoiceState.reconnecting ||
+        state == LiveVoiceState.thinking;
+    return SizedBox.square(
+      dimension: _size * 1.5,
+      child: AnimatedBuilder(
+        animation: Listenable.merge([_clock, widget.level]),
+        builder: (context, _) {
+          final t = _clock.value;
+          final level = widget.level.value;
+          final scale = switch (state) {
+            LiveVoiceState.listening => 1 + 0.18 * level,
+            LiveVoiceState.speaking => 1 + 0.05 * math.sin(t * 8 * math.pi),
+            LiveVoiceState.thinking => 0.94,
+            _ => 0.9,
+          };
+          return Stack(
+            alignment: Alignment.center,
+            children: [
+              if (state == LiveVoiceState.speaking)
+                for (var i = 0; i < 2; i++) _ring(primary, (t * 2 + i / 2) % 1),
+              if (busy)
+                SizedBox.square(
+                  dimension: _size * 1.2,
+                  child: CircularProgressIndicator(
+                    strokeWidth: 2.5,
+                    color: primary.withValues(alpha: 0.6),
+                  ),
+                ),
+              Transform.scale(
+                scale: scale,
+                child: Transform.rotate(
+                  angle: t * 2 * math.pi,
+                  child: Container(
+                    width: _size,
+                    height: _size,
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                      gradient: const SweepGradient(
+                        colors: [
+                          Color(0xFF4F46E5),
+                          Color(0xFF7C3AED),
+                          Color(0xFF06B6D4),
+                          Color(0xFF4F46E5),
+                        ],
+                      ),
+                      boxShadow: [
+                        BoxShadow(
+                          color: primary.withValues(alpha: 0.35),
+                          blurRadius: 8,
+                        ),
+                      ],
+                    ),
+                    child: DecoratedBox(
+                      decoration: BoxDecoration(
+                        shape: BoxShape.circle,
+                        gradient: RadialGradient(
+                          center: const Alignment(-0.3, -0.35),
+                          radius: 0.85,
+                          colors: [
+                            Colors.white.withValues(alpha: 0.45),
+                            Colors.white.withValues(alpha: 0),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+            ],
+          );
+        },
+      ),
+    );
+  }
+
+  /// One expanding, fading ripple at [phase] (0 → 1).
+  Widget _ring(Color color, double phase) => Container(
+    width: _size * (1 + 0.55 * phase),
+    height: _size * (1 + 0.55 * phase),
+    decoration: BoxDecoration(
+      shape: BoxShape.circle,
+      border: Border.all(
+        color: color.withValues(alpha: 0.45 * (1 - phase)),
+        width: 2,
+      ),
+    ),
+  );
 }
 
 /// Voice preferences: interruptions, spoken answers and the guide's voice.

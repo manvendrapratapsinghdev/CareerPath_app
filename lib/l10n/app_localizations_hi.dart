@@ -818,6 +818,9 @@ class AppLocalizationsHi extends AppLocalizations {
       'हमने इन पर बात की — आगे जानने के लिए टैप करें:';
 
   @override
+  String get ai_voiceTypeInstead => 'टाइप करें';
+
+  @override
   String get ai_trendingTitle => 'ट्रेंडिंग सवाल';
 
   @override
