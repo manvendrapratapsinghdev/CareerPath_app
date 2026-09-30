@@ -101,6 +101,15 @@ class LiveVoiceController extends ChangeNotifier {
   // `interrupted`, so a student talking over the guide is handled here.
   bool _answerSent = false;
 
+  // The live model, and how often Google closed the session with an internal
+  // error (1011) since it last understood the student. When the main model
+  // keeps failing this way the session moves to the fallback model.
+  String _model = AiProviderConfig.liveModel;
+  int _internalErrors = 0;
+
+  /// The Gemini Live model this controller currently talks to.
+  String get model => _model;
+
   // After a barge-in, what the guide said recently, to recognise its own
   // words coming back as a "question" (see [isOwnEcho]).
   final _recentSpoken = ListQueue<String>();
@@ -214,6 +223,7 @@ class LiveVoiceController extends ChangeNotifier {
         voiceName: _voiceName,
         interruptions: _interruptions,
         sessionContext: sessionContext,
+        model: _model,
       ),
     );
     _events = _client.events.listen(_onEvent);
@@ -392,6 +402,7 @@ class LiveVoiceController extends ChangeNotifier {
         if (_state == LiveVoiceState.speaking && !_bargeInOpen && !_micOpen) {
           return;
         }
+        _internalErrors = 0;
         if (!_questionAnnounced && _heard.isEmpty) _beginTurn();
         _heard += text;
         if (_state == LiveVoiceState.speaking &&
@@ -445,7 +456,17 @@ class LiveVoiceController extends ChangeNotifier {
         _listenAfterPlayback();
       case LiveGoAway():
         unawaited(_reconnect());
-      case LiveClosed():
+      case LiveClosed(:final code):
+        if (code == 1011 &&
+            ++_internalErrors >= AiProviderConfig.liveFallbackAfterFailures &&
+            _model != AiProviderConfig.liveFallbackModel) {
+          debugPrint(
+            '[AI Guide voice] $_model keeps failing (1011); switching to '
+            '${AiProviderConfig.liveFallbackModel}',
+          );
+          _model = AiProviderConfig.liveFallbackModel;
+          _internalErrors = 0;
+        }
         if (isActive && _state != LiveVoiceState.reconnecting) {
           unawaited(_reconnect());
         }

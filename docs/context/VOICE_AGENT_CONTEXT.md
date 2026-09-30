@@ -79,6 +79,7 @@ Related non-voice (shared) pieces: `local_ai_grounding_service.dart` (retrieval)
 | Constant | Value | Notes |
 |---|---|---|
 | `liveModel` | `gemini-3.1-flash-live-preview` | override `--dart-define=GEMINI_LIVE_MODEL=` |
+| `liveFallbackModel` / `liveFallbackAfterFailures` | `gemini-2.5-flash-native-audio-preview-09-2025` / 2 | after 2 consecutive `1011` closes with no student transcript in between, `LiveVoiceController` switches to this model for the rest of the app run (override `GEMINI_LIVE_FALLBACK_MODEL`) |
 | `model` (typed chat) | `gemini-2.5-flash` | override `GEMINI_MODEL` |
 | `voicePreviewModel` | `gemini-3.1-flash-tts-preview` | |
 | `defaultVoice` | `Leda` | 30 prebuilt voices in `voices` |
@@ -147,6 +148,7 @@ prefixPadding 400 ms, silence 600 ms, tools = the 3 declarations below, system i
   (`_interruptLocally`) on the first input transcript with a word the guide did not just say (`isStudentSpeech`); in gated mode that
   barge-in waits up to `liveBargeInTranscriptConfirmFrames` (~3.2 s) for the transcript instead of closing at ~1.6 s. The good-AEC echo
   probe runs once at the first quiet frame from ~0.8 s (not exactly frame 10, which a loud frame used to skip).
+  **Automatic fallback:** the 3.1 preview is intermittently broken on Google's side (2026-09-30: fine at 17:35, `1011` at 18:22, fine at 18:30), so `1011` closes are counted and the controller falls back to the 2.5 native-audio model (heard the same test audio correctly).
   Debugging "not listening": first check Gemini itself — on 2026-09-30 `gemini-3.1-flash-live-preview` briefly returned no input
   transcripts for any audio and closed sessions with `1011 Internal error encountered` (app and mic were fine); a desktop probe that sends
   a `say`-recorded WAV over the same WebSocket setup isolates this in a minute.

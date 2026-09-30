@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'dart:typed_data';
 
+import 'package:career_path/config/ai_provider_config.dart';
 import 'package:career_path/controllers/live_voice_controller.dart';
 import 'package:career_path/models/career_node.dart';
 import 'package:career_path/models/stream_model.dart';
@@ -81,11 +82,18 @@ class _FakeClient extends GeminiLiveClient {
   Stream<LiveEvent> get events => _events.stream;
   @override
   bool get isOpen => true;
+
+  /// The model each connection asked for.
+  final models = <String>[];
+
   @override
   Future<void> connect({
     required String apiKey,
     required Map<String, dynamic> setup,
-  }) async {}
+  }) async {
+    models.add((setup['setup'] as Map)['model'] as String);
+  }
+
   @override
   void sendText(String text) {}
   @override
@@ -335,6 +343,82 @@ void main() {
       final controller = await speaking(interruptions: false);
       await mic([...repeat(3000, 8), ...repeat(20000, 10)]);
       expect(client.audioSent, 0);
+      await controller.stop();
+    });
+  });
+
+  group('when Google keeps failing the live model', () {
+    Future<(LiveVoiceController, _FakeClient)> started() async {
+      final client = _FakeClient();
+      final controller = LiveVoiceController(
+        keyService: _FakeKeys(),
+        tools: _tools(),
+        audio: _FakeAudio(),
+        client: client,
+      );
+      await controller.start(
+        voiceName: 'Leda',
+        interruptions: true,
+        playAudio: true,
+      );
+      return (controller, client);
+    }
+
+    Future<void> settle() =>
+        Future<void>.delayed(const Duration(milliseconds: 20));
+    const fallback = 'models/${AiProviderConfig.liveFallbackModel}';
+    const main = 'models/${AiProviderConfig.liveModel}';
+
+    test('two 1011 closes in a row switch to the fallback model', () async {
+      final (controller, client) = await started();
+      expect(client.models, [main]);
+
+      client.emit(const LiveClosed(1011, 'Internal error encountered.'));
+      await settle();
+      expect(client.models, [main, main], reason: 'first failure: retry');
+      expect(controller.model, AiProviderConfig.liveModel);
+
+      client.emit(const LiveClosed(1011, 'Internal error encountered.'));
+      await settle();
+      expect(client.models.last, fallback);
+      expect(controller.model, AiProviderConfig.liveFallbackModel);
+      expect(controller.state, LiveVoiceState.listening);
+      await controller.stop();
+    });
+
+    test(
+      'a heard student resets the count, other closes never count',
+      () async {
+        final (controller, client) = await started();
+        client.emit(const LiveClosed(1011, 'x'));
+        await settle();
+        client.emit(const LiveInputTranscript('what about law'));
+        await Future<void>.delayed(Duration.zero);
+        client.emit(const LiveClosed(1011, 'x'));
+        await settle();
+        client.emit(const LiveClosed(1006, 'network'));
+        await settle();
+        client.emit(const LiveClosed(null, 'reset'));
+        await settle();
+        expect(controller.model, AiProviderConfig.liveModel);
+        expect(client.models.every((m) => m == main), isTrue);
+        await controller.stop();
+      },
+    );
+
+    test('the fallback model is kept for the next voice session', () async {
+      final (controller, client) = await started();
+      client.emit(const LiveClosed(1011, 'x'));
+      await settle();
+      client.emit(const LiveClosed(1011, 'x'));
+      await settle();
+      await controller.stop();
+      await controller.start(
+        voiceName: 'Leda',
+        interruptions: true,
+        playAudio: true,
+      );
+      expect(client.models.last, fallback);
       await controller.stop();
     });
   });

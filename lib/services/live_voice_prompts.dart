@@ -229,9 +229,10 @@ class LiveVoicePrompts {
     required String voiceName,
     required bool interruptions,
     String? sessionContext,
+    String? model,
   }) => {
     'setup': {
-      'model': 'models/${AiProviderConfig.liveModel}',
+      'model': 'models/${model ?? AiProviderConfig.liveModel}',
       'generationConfig': {
         'responseModalities': ['AUDIO'],
         'temperature': AiProviderConfig.liveTemperature,

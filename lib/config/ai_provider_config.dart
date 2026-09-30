@@ -37,6 +37,17 @@ class AiProviderConfig {
     'GEMINI_LIVE_MODEL',
     defaultValue: 'gemini-3.1-flash-live-preview',
   );
+
+  /// Used instead of [liveModel] when it keeps failing on Google's side
+  /// (close code 1011 before it understands anything, as on 2026-09-30).
+  static const String liveFallbackModel = String.fromEnvironment(
+    'GEMINI_LIVE_FALLBACK_MODEL',
+    defaultValue: 'gemini-2.5-flash-native-audio-preview-09-2025',
+  );
+
+  /// Consecutive 1011 closes, with the student never understood in between,
+  /// before switching to [liveFallbackModel].
+  static const int liveFallbackAfterFailures = 2;
   static const String voicePreviewModel = 'gemini-3.1-flash-tts-preview';
   static const String defaultVoice = 'Leda';
   static const double liveTemperature = 0.7;
