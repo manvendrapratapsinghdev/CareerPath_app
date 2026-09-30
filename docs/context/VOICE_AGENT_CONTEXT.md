@@ -97,8 +97,8 @@ prefixPadding 400 ms, silence 600 ms, tools = the 3 declarations below, system i
 
 1. User taps **Talk** → `_toggleVoice()` → `LiveVoiceController.start(voiceName, interruptions, playAudio, welcomeGreeting?, welcomeStarters)`.
    Requests audio focus (`continuous`), keeps screen awake, connects, starts recorder, 80 ms mic timer, state → `listening`, arms 60 s idle timer.
-2. If the chat is empty, a **welcome turn** runs: `sendText('__CAREERPATH_WELCOME__')`; model speaks greeting + starter questions **with no tools**
-   (any tool call during welcome is answered `{error: no_tools_during_welcome}`). `onWelcome(transcript, starters)` fires at turn end.
+2. **No spoken welcome** (removed 2026-09-30 at the user's request): the tab passes no `welcomeGreeting`, so the guide listens straight away.
+   The controller still supports a welcome turn (`sendText('__CAREERPATH_WELCOME__')`, no tools, `onWelcome`) if it is ever wanted again.
 3. Student speaks → `LiveInputTranscript` chunks accumulate in `_heard`; `_beginTurn()` resets `VoiceTurn`.
 4. Model calls **`route_query`** (mandatory first tool): args `query, intent, standalone_query, is_follow_up, requires_search, input_language`.
    `LiveVoiceTools._route` sets `turn.*`, then returns one of:
@@ -118,7 +118,7 @@ prefixPadding 400 ms, silence 600 ms, tools = the 3 declarations below, system i
    the Talk button's spot so a double-tap on Talk can't end voice. The strip shows **no text**: the turn in progress streams into the chat above as
    live bubbles (`_liveBubbles`: `heardTranscript` as a user bubble until `onQuestion` records it, then `liveTranscript` as the guide's bubble, with
    `_ThinkingIndicator` while `thinking`). Every voice turn is kept in the chat: `onQuestion` → `addVoiceQuestion`, `onAnswer` → `addVoiceAnswer`
-   (≤3 source chips; `noRecordsFound` → insufficient-data status with Explore fallback), `onWelcome` → welcome transcript. No end-of-call summary.
+   (≤3 source chips; `noRecordsFound` → insufficient-data status with Explore fallback). No end-of-call summary.
    **Barge-in gate** (`_gate` in the controller): while `speaking`, mic frames are dropped unless ≥ `liveBargeInFrames` (3 × 80 ms) consecutive frames reach
    `liveBargeInLevel` (0.6); then held frames are flushed and the gate stays open for the turn. Input transcripts during speech are ignored until it opens.
    This stops the guide's own voice (speaker echo) from triggering `interrupted`, which used to cut answers off after a few words.

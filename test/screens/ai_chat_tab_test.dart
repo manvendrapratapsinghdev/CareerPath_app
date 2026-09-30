@@ -210,7 +210,8 @@ class _FakeLiveClient extends GeminiLiveClient {
     required Map<String, dynamic> setup,
   }) async {}
   @override
-  void sendText(String text) {}
+  void sendText(String text) => textsSent.add(text);
+  final textsSent = <String>[];
   @override
   void sendAudio(Uint8List pcm16k) {}
   @override
@@ -900,9 +901,11 @@ void main() {
       expect(panel, findsOneWidget);
       // The panel replaces the message box.
       expect(find.byType(TextField), findsNothing);
+      // No spoken introduction: nothing is sent until the student speaks.
+      expect(client.textsSent, isEmpty);
 
-      // The strip holds no text of its own: the welcome streams into the
-      // chat and stays there once spoken.
+      // The strip holds no text of its own: what the guide says streams
+      // into the chat and stays there once spoken.
       client.emit(const LiveOutputTranscript('Hi! Ask me anything.'));
       await settle();
       expect(find.text('Hi! Ask me anything.'), findsOneWidget);

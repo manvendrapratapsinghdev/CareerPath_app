@@ -228,6 +228,32 @@ void main() {
       await controller.stop();
     });
 
+    test(
+      'with good echo cancellation the mic stays open, like before',
+      () async {
+        // A real phone: the echo left after echo cancellation is ~0.003.
+        final controller = await speaking();
+        await mic(repeat(100, 10));
+        // After ~0.8 s the echo is judged quiet; the held audio goes out...
+        expect(client.audioSent, 8);
+        // ...and from then on every frame flows, quiet or loud, so Gemini
+        // hears the student at once without any gate delay.
+        await mic([_tone(300), _tone(3000), _tone(100)]);
+        expect(client.audioSent, 11);
+        client.emit(const LiveInputTranscript('what about law'));
+        await Future<void>.delayed(Duration.zero);
+        expect(controller.heardTranscript, 'what about law');
+        await controller.stop();
+      },
+    );
+
+    test('loud echo keeps the gate on for the whole answer', () async {
+      final controller = await speaking();
+      await mic(repeat(3000, 30));
+      expect(client.audioSent, 0);
+      await controller.stop();
+    });
+
     test('with interruptions off the guide is never cut off', () async {
       final controller = await speaking(interruptions: false);
       await mic([...repeat(3000, 8), ...repeat(20000, 10)]);
@@ -359,6 +385,27 @@ void main() {
       );
       expect(controller.state, LiveVoiceState.listening);
     });
+
+    test(
+      'a barge-in far louder than the echo is never taken for echo',
+      () async {
+        // Echo 0.03 (weak cancellation), student 0.24: eight times louder.
+        audio.frames.addAll([
+          for (var i = 0; i < 8; i++) _tone(1000),
+          for (var i = 0; i < 3; i++) _tone(8000),
+        ]);
+        await Future<void>.delayed(const Duration(milliseconds: 120));
+        client.emit(const LiveInterrupted());
+        await settle();
+        // Even though it reuses the guide's words, it is the student asking.
+        client.emit(route('9', 'operation theatre technology'));
+        await settle();
+        await settle();
+        final reply = client.toolResponses.last.single['response'] as Map;
+        expect(reply.containsKey('ignored'), isFalse);
+        expect(questions.last, 'operation theatre technology');
+      },
+    );
 
     test('a real interruption is answered', () async {
       await bargeIn();

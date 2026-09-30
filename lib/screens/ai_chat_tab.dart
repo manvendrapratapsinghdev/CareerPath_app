@@ -70,7 +70,6 @@ class _AiChatTabState extends State<AiChatTab> {
 
   // Voice turns stream into the chat above the voice strip: the student's
   // words as they speak, then the guide's reply as it is spoken.
-  bool _voiceWelcomed = false;
   bool _voiceQuestionAdded = false;
 
   bool get _voiceActive => _voice?.isActive ?? false;
@@ -368,24 +367,16 @@ class _AiChatTabState extends State<AiChatTab> {
           ..addListener(_onVoiceChanged)
           ..onQuestion = _onVoiceQuestion
           ..onAnswer = _onVoiceAnswer
-          ..onWelcome = _onVoiceWelcome
           ..onUnavailable = _onVoiceUnavailable
           ..onEnded = _onVoiceEnded;
     final settings = services.settings;
-    final welcome = !_voiceWelcomed && !_chatController.hasMessages;
-    _voiceWelcomed = true;
     _voiceQuestionAdded = false;
     try {
       await voice.start(
         voiceName: settings.voiceName,
         interruptions: settings.interruptions,
         playAudio: settings.spokenAnswers,
-        welcomeGreeting: welcome ? l.ai_voiceWelcome : null,
-        welcomeStarters: [
-          l.ai_starterScience,
-          l.ai_starterCompare,
-          l.ai_starterDesign,
-        ],
+        // No spoken introduction: the guide listens straight away.
       );
       widget.analyticsService?.logEvent('ai_chat_voice_started');
     } catch (_) {
@@ -407,9 +398,6 @@ class _AiChatTabState extends State<AiChatTab> {
     _voiceQuestionAdded = true;
     _chatController.addVoiceQuestion(question);
   }
-
-  void _onVoiceWelcome(String transcript, List<String> starters) =>
-      _chatController.addVoiceAnswer(content: transcript);
 
   void _onVoiceChanged() {
     if (!mounted) return;

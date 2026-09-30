@@ -48,6 +48,20 @@ class AiProviderConfig {
   /// Frames at the start of each answer used only to learn the echo level.
   static const int liveBargeInWarmUpFrames = 6;
 
+  /// Frames (~0.8 s) after which the echo level decides how the mic works
+  /// for the rest of the answer: echo quieter than [liveCleanEchoRms] means
+  /// the phone's echo cancellation is doing its job (a OnePlus measured
+  /// 0.002-0.012), so the mic stays fully open and Gemini handles
+  /// interruptions at once; louder echo (a simulator, weak AEC) keeps the
+  /// gate on to prevent the guide hearing itself.
+  static const int liveEchoProbeFrames = 10;
+  static const double liveCleanEchoRms = 0.02;
+
+  /// A barge-in less than this many times louder than the echo might be the
+  /// echo itself, so the next "question" is checked against the guide's
+  /// own words. Anything louder is plainly the student.
+  static const double liveEchoSuspectRatio = 4;
+
   /// Consecutive frames the student must be heard over the echo.
   static const int liveBargeInFrames = 3;
 

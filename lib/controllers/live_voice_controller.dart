@@ -93,6 +93,7 @@ class LiveVoiceController extends ChangeNotifier {
   int _loudFrames = 0;
   int _openFrames = 0;
   bool _bargeInOpen = false;
+  bool _micOpen = false;
 
   // After a barge-in, what the guide said recently, to recognise its own
   // words coming back as a "question" (see [isOwnEcho]).
@@ -255,6 +256,10 @@ class LiveVoiceController extends ChangeNotifier {
 
   /// Mic audio to send now.
   ///
+  /// With good echo cancellation (the echo measured in the first ~0.8 s of
+  /// an answer is nearly silent) the mic simply stays open, as when
+  /// listening, and Gemini handles interruptions at once. Otherwise:
+  ///
   /// While the guide speaks, the mic also hears it through the speaker. Echo
   /// cancellation removes most of that, but not all (and none at all on a
   /// simulator), and Gemini takes any voice as the student cutting in — so
@@ -270,6 +275,8 @@ class LiveVoiceController extends ChangeNotifier {
       return [pcm];
     }
     if (!_interruptions) return const [];
+    // Echo cancellation proved good for this answer: stream like listening.
+    if (_micOpen) return [pcm];
     if (_bargeInOpen) {
       if (++_openFrames <= AiProviderConfig.liveBargeInConfirmFrames) {
         return [pcm];
@@ -297,6 +304,17 @@ class LiveVoiceController extends ChangeNotifier {
       while (_echo.length > AiProviderConfig.liveEchoWindowFrames) {
         _echo.removeFirst();
       }
+      if (_speakingFrames == AiProviderConfig.liveEchoProbeFrames &&
+          _echo.reduce(math.max) < AiProviderConfig.liveCleanEchoRms) {
+        debugPrint(
+          '[AI Guide voice] echo ${_echo.reduce(math.max).toStringAsFixed(3)}'
+          ' is cancelled well; mic open while the guide speaks',
+        );
+        _micOpen = true;
+        final held = List.of(_preRoll);
+        _preRoll.clear();
+        return held;
+      }
       return const [];
     }
     if (++_loudFrames < AiProviderConfig.liveBargeInFrames) return const [];
@@ -305,7 +323,8 @@ class LiveVoiceController extends ChangeNotifier {
       '${echo.toStringAsFixed(3)}',
     );
     _bargeInOpen = true;
-    _afterBargeIn = true;
+    // Only a barge-in close to the echo level could be the echo itself.
+    _afterBargeIn = rms < echo * AiProviderConfig.liveEchoSuspectRatio;
     _openFrames = 0;
     final held = List.of(_preRoll);
     _preRoll.clear();
@@ -316,6 +335,7 @@ class LiveVoiceController extends ChangeNotifier {
     if (!keepEcho) {
       _echo.clear();
       _speakingFrames = 0;
+      _micOpen = false;
     }
     _preRoll.clear();
     _loudFrames = 0;
@@ -350,7 +370,9 @@ class LiveVoiceController extends ChangeNotifier {
       case LiveInputTranscript(:final text):
         // Nothing reaches Gemini while the mic is held back, so a transcript
         // then can only be stale; ignore it.
-        if (_state == LiveVoiceState.speaking && !_bargeInOpen) return;
+        if (_state == LiveVoiceState.speaking && !_bargeInOpen && !_micOpen) {
+          return;
+        }
         if (!_questionAnnounced && _heard.isEmpty) _beginTurn();
         _heard += text;
         _armIdle();
