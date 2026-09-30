@@ -1,4 +1,5 @@
 import 'package:career_path/models/career_node.dart';
+import 'package:career_path/models/leaf_details.dart';
 import 'package:career_path/models/stream_model.dart';
 import 'package:career_path/services/api_client.dart';
 import 'package:career_path/services/career_data_service.dart';
@@ -151,6 +152,17 @@ void main() {
     }
   });
 
+  test('leaf details are read once, not on every question', () async {
+    final data = _CountingCareerData();
+    final grounding = LocalAiGroundingService(data);
+
+    for (var i = 0; i < 3; i++) {
+      await grounding.retrieve(query: 'computer science');
+    }
+
+    expect(data.detailReads['computer-science'], 1);
+  });
+
   test('returns no context for an unrelated request', () async {
     final grounding = LocalAiGroundingService(_careerService());
 
@@ -176,4 +188,25 @@ void main() {
       isNot(contains('novelist')),
     );
   });
+}
+
+/// Counts leaf-detail reads over the same test data.
+class _CountingCareerData extends CareerDataService {
+  _CountingCareerData() : super(ApiClient()) {
+    final source = _careerService();
+    initializeWithData(source.getAllStreams(), {
+      for (final node in source.getAllNodes()) node.id: node,
+    });
+  }
+
+  final detailReads = <String, int>{};
+
+  @override
+  Future<LeafDetails?> getLeafDetails(
+    String nodeId, {
+    bool forceRefresh = false,
+  }) async {
+    detailReads[nodeId] = (detailReads[nodeId] ?? 0) + 1;
+    return null;
+  }
 }

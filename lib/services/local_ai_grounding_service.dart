@@ -4,6 +4,7 @@ import '../config/ai_provider_config.dart';
 import '../models/ai_chat.dart';
 import '../models/career_node.dart';
 import '../models/institute_catalog.dart';
+import '../models/leaf_details.dart';
 import 'career_data_service.dart';
 import 'institute_catalog_service.dart';
 import 'search_aliases.dart';
@@ -157,10 +158,7 @@ class LocalAiGroundingService {
     final scored = <({CareerNode node, int score})>[];
 
     for (final node in allNodes) {
-      final name = node.name.toLowerCase();
-      final intro = node.intro?.toLowerCase() ?? '';
-      final compactName = _compact(name);
-      final compactIntro = _compact(intro);
+      final (:name, :intro, :compactName, :compactIntro) = _nodeText(node);
       var score = 0;
       for (final token in queryTokens) {
         var tokenScore = 0;
@@ -278,7 +276,7 @@ class LocalAiGroundingService {
         .where((node) => node.isLeaf)
         .take(AiProviderConfig.maxDetailedNodes);
     for (final node in detailedNodes) {
-      final details = await _careerDataService.getLeafDetails(node.id);
+      final details = await _leafDetails(node.id);
       if (details == null) continue;
       buffer.writeln('\nDETAILS FOR career_node:${node.id}');
       if (details.books.isNotEmpty) {
@@ -397,7 +395,36 @@ class LocalAiGroundingService {
         .toSet();
   }
 
-  String _compact(String value) {
-    return value.replaceAll(RegExp(r'[^a-z0-9]+'), '');
-  }
+  /// Lowercase and compact forms of a node's text, built once per node.
+  static final _nodeTexts =
+      Expando<
+        ({String name, String intro, String compactName, String compactIntro})
+      >();
+
+  static ({String name, String intro, String compactName, String compactIntro})
+  _nodeText(CareerNode node) => _nodeTexts[node] ??= () {
+    final name = node.name.toLowerCase();
+    final intro = node.intro?.toLowerCase() ?? '';
+    return (
+      name: name,
+      intro: intro,
+      compactName: _compact(name),
+      compactIntro: _compact(intro),
+    );
+  }();
+
+  // The bundled data is read-only, so a leaf's details never change; keep
+  // them instead of querying the database on every question.
+  final _leafCache = <String, Future<LeafDetails?>>{};
+
+  Future<LeafDetails?> _leafDetails(String nodeId) =>
+      _leafCache[nodeId] ??= _careerDataService.getLeafDetails(nodeId)
+        ..catchError((Object _) {
+          _leafCache.remove(nodeId);
+          return null;
+        });
+
+  static final _nonWord = RegExp(r'[^a-z0-9]+');
+
+  static String _compact(String value) => value.replaceAll(_nonWord, '');
 }

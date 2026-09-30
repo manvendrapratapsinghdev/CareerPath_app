@@ -206,20 +206,8 @@ class InstituteCatalogService {
     final requestedState = _requestedState(tokens);
     final scored = <(InstituteRecord, int)>[];
     for (final record in records) {
-      final institute = record.institute;
-      if (requestedState != null &&
-          _normalizedState(institute.state) != requestedState) {
-        continue;
-      }
-      final name = institute.name.toLowerCase();
-      final place =
-          '${institute.city ?? ''} ${institute.district ?? ''} '
-                  '${institute.state ?? ''} ${institute.institutionType ?? ''}'
-              .toLowerCase();
-      final courses = record.courses
-          .map((c) => '${c.name} ${c.specialization ?? ''}')
-          .join(' ')
-          .toLowerCase();
+      final (:name, :place, :courses, :state) = _searchText(record);
+      if (requestedState != null && state != requestedState) continue;
       // A requested state that matched already confirms relevance, even when
       // the query used an abbreviation ("UP") that never appears in the
       // stored place text.
@@ -266,7 +254,7 @@ class InstituteCatalogService {
     final named = pairs
         .where(
           (pair) => nameTokens.any(
-            (token) => _hasWord(pair.$1.institute.name.toLowerCase(), token),
+            (token) => _hasWord(_searchText(pair.$1).name, token),
           ),
         )
         .toList();
@@ -317,9 +305,40 @@ class InstituteCatalogService {
       .where((token) => token.length >= 2)
       .toSet();
 
-  static bool _hasWord(String haystack, String token) => RegExp(
-    '(^|[^a-z0-9])${RegExp.escape(token)}',
-  ).hasMatch(haystack.replaceAll('.', ''));
+  /// Searchable text of one record, built once (the records never change):
+  /// see [_haystack].
+  static final _texts =
+      Expando<({String name, String place, String courses, String state})>();
+
+  static ({String name, String place, String courses, String state})
+  _searchText(InstituteRecord record) => _texts[record] ??= () {
+    final institute = record.institute;
+    return (
+      name: _haystack(institute.name),
+      place: _haystack(
+        '${institute.city ?? ''} ${institute.district ?? ''} '
+        '${institute.state ?? ''} ${institute.institutionType ?? ''}',
+      ),
+      courses: _haystack(
+        record.courses
+            .map((c) => '${c.name} ${c.specialization ?? ''}')
+            .join(' '),
+      ),
+      state: _normalizedState(institute.state),
+    );
+  }();
+
+  static final _nonWord = RegExp('[^a-z0-9]+');
+
+  /// Lowercase, dots dropped, every other non-alphanumeric run turned into
+  /// one space and a leading space added — so "a word of [haystack] starts
+  /// with [token]" is a plain `contains(' token')`.
+  static String _haystack(String text) =>
+      ' ${text.toLowerCase().replaceAll('.', '').replaceAll(_nonWord, ' ')}';
+
+  /// Some word of [haystack] (from [_haystack]) starts with [token].
+  static bool _hasWord(String haystack, String token) =>
+      haystack.contains(' $token');
 
   static String _clip(String value, int max) =>
       value.length <= max ? value : '${value.substring(0, max)}…';

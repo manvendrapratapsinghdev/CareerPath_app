@@ -99,6 +99,25 @@ void main() {
     );
   });
 
+  test('matches the start of words, ignoring dots and punctuation', () {
+    final catalog = InstituteCatalogService.withRecords(
+      _rows.map(InstituteRecord.fromJson).toList(),
+    );
+    List<String> names(String query) =>
+        catalog.search(query).map((r) => r.institute.name).toList();
+
+    // Dots are ignored ("M.N.I.T" is "mnit") and a word prefix matches
+    // ("jod" → Jodhpur), but the middle of a word does not.
+    expect(names('M.N.I.T'), ['MNIT Jaipur']);
+    expect(names('jod'), ['IIT Jodhpur']);
+    expect(names('dhpur'), isEmpty);
+    // Course words count too, alongside the city ("B.Tech" is "btech").
+    expect(names('btech jodhpur'), ['IIT Jodhpur']);
+    // Repeated searches use the same prepared text and give the same result.
+    expect(names('jaipur'), ['MNIT Jaipur']);
+    expect(names('jaipur'), ['MNIT Jaipur']);
+  });
+
   test('search only returns the state named in the query', () async {
     final catalog = InstituteCatalogService(() async => _rows);
     await catalog.ensureLoaded();
