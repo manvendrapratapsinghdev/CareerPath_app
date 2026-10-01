@@ -1,0 +1,465 @@
+{
+ "batch": "B2",
+ "title": "Wave B (G2): the 25 IIITs (IIIT Act 2014 and IIIT PPP Act 2017)",
+ "verified_at": "2026-10-01",
+ "nirf_snapshot": "research/official_lists/nirf/nirf_2025.json",
+ "verification": {
+  "authority": "Parliament of India",
+  "list_name": "IIIT (Public-Private Partnership) Act, 2017 Schedule (as amended in 2020)",
+  "list_url": "https://prsindia.org/files/bills_acts/acts_parliament/2020/Indian%20Institutes%20of%20Information%20Technology%20Laws%20(Amendment)%20Act,%202020.pdf",
+  "list_as_of": "2026-10-01"
+ },
+ "defaults": {
+  "family": "iiit",
+  "group": "G2",
+  "legacy_type": "iiit",
+  "nodes": [
+   "btech",
+   "btech_cs"
+  ]
+ },
+ "families": {
+  "iiit": {
+   "national_count": 25,
+   "as_of": "2026-10-01",
+   "official_list_url": "https://prsindia.org/files/bills_acts/acts_parliament/2020/Indian%20Institutes%20of%20Information%20Technology%20Laws%20(Amendment)%20Act,%202020.pdf"
+  }
+ },
+ "institutes": [
+  {
+   "key": "iiit-allahabad",
+   "name": "Indian Institute of Information Technology Allahabad",
+   "website": "https://www.iiita.ac.in",
+   "reference_id": "https://www.iiita.ac.in",
+   "ownership": "central_govt",
+   "statutory_basis": "Indian Institutes of Information Technology Act, 2014",
+   "verification": {
+    "authority": "Parliament of India",
+    "list_name": "Indian Institutes of Information Technology Act, 2014 Schedule (as amended in 2017)",
+    "list_url": "https://prsindia.org/files/bills_acts/bills_parliament/2017/IIIT%20(Amendment)%20Bill,%202017.pdf",
+    "list_as_of": "2026-10-01"
+   }
+  },
+  {
+   "key": "iiitm-gwalior",
+   "name": "Atal Bihari Vajpayee Indian Institute of Information Technology and Management Gwalior",
+   "website": "https://www.iiitm.ac.in",
+   "reference_id": "https://www.iiitm.ac.in",
+   "ownership": "central_govt",
+   "statutory_basis": "Indian Institutes of Information Technology Act, 2014",
+   "verification": {
+    "authority": "Parliament of India",
+    "list_name": "Indian Institutes of Information Technology Act, 2014 Schedule (as amended in 2017)",
+    "list_url": "https://prsindia.org/files/bills_acts/bills_parliament/2017/IIIT%20(Amendment)%20Bill,%202017.pdf",
+    "list_as_of": "2026-10-01"
+   },
+   "nirf_names": [
+    "Atal Bihari Vajpayee Indian Institute of Information Technology and Management"
+   ],
+   "existing": [
+    "Atal Bihari Vajpayee Indian Institute of Information Technology and Management"
+   ]
+  },
+  {
+   "key": "iiitdm-jabalpur",
+   "name": "Pandit Dwarka Prasad Mishra Indian Institute of Information Technology Design and Manufacturing Jabalpur",
+   "website": "https://www.iiitdmj.ac.in",
+   "reference_id": "https://www.iiitdmj.ac.in",
+   "ownership": "central_govt",
+   "statutory_basis": "Indian Institutes of Information Technology Act, 2014",
+   "verification": {
+    "authority": "Parliament of India",
+    "list_name": "Indian Institutes of Information Technology Act, 2014 Schedule (as amended in 2017)",
+    "list_url": "https://prsindia.org/files/bills_acts/bills_parliament/2017/IIIT%20(Amendment)%20Bill,%202017.pdf",
+    "list_as_of": "2026-10-01"
+   },
+   "nirf_names": [
+    "Pandit Dwarka Prasad Mishra Indian Institute of Information Technology, Design and Manufacturing (IIITDM) Jabalpur"
+   ]
+  },
+  {
+   "key": "iiitdm-kancheepuram",
+   "name": "Indian Institute of Information Technology Design and Manufacturing Kancheepuram",
+   "website": "https://www.iiitdm.ac.in",
+   "reference_id": "https://www.iiitdm.ac.in",
+   "ownership": "central_govt",
+   "statutory_basis": "Indian Institutes of Information Technology Act, 2014",
+   "verification": {
+    "authority": "Parliament of India",
+    "list_name": "Indian Institutes of Information Technology Act, 2014 Schedule (as amended in 2017)",
+    "list_url": "https://prsindia.org/files/bills_acts/bills_parliament/2017/IIIT%20(Amendment)%20Bill,%202017.pdf",
+    "list_as_of": "2026-10-01"
+   },
+   "nirf_names": [
+    "Indian Institute of Information Technology, Design & Manufacturing, Kancheepuram"
+   ]
+  },
+  {
+   "key": "iiitdm-kurnool",
+   "name": "Indian Institute of Information Technology Design and Manufacturing Kurnool",
+   "website": "https://iiitk.ac.in",
+   "reference_id": "https://iiitk.ac.in",
+   "ownership": "central_govt",
+   "statutory_basis": "Indian Institutes of Information Technology Act, 2014",
+   "verification": {
+    "authority": "Parliament of India",
+    "list_name": "Indian Institutes of Information Technology Act, 2014 Schedule (as amended in 2017)",
+    "list_url": "https://prsindia.org/files/bills_acts/bills_parliament/2017/IIIT%20(Amendment)%20Bill,%202017.pdf",
+    "list_as_of": "2026-10-01"
+   },
+   "nirf": false,
+   "city": "Kurnool",
+   "state": "Andhra Pradesh"
+  },
+  {
+   "key": "iiit-sri-city",
+   "name": "Indian Institute of Information Technology Sri City",
+   "website": "https://iiits.ac.in",
+   "reference_id": "https://iiits.ac.in",
+   "ownership": "ppp",
+   "statutory_basis": "Indian Institutes of Information Technology (Public-Private Partnership) Act, 2017",
+   "verification": {
+    "authority": "Parliament of India",
+    "list_name": "IIIT (Public-Private Partnership) Act, 2017 Schedule (as amended in 2020)",
+    "list_url": "https://prsindia.org/files/bills_acts/acts_parliament/2020/Indian%20Institutes%20of%20Information%20Technology%20Laws%20(Amendment)%20Act,%202020.pdf",
+    "list_as_of": "2026-10-01"
+   },
+   "nirf": false,
+   "city": "Sri City",
+   "state": "Andhra Pradesh",
+   "notes": "Sri City, Chittoor district."
+  },
+  {
+   "key": "iiit-guwahati",
+   "name": "Indian Institute of Information Technology Guwahati",
+   "website": "https://www.iiitg.ac.in",
+   "reference_id": "https://www.iiitg.ac.in",
+   "ownership": "ppp",
+   "statutory_basis": "Indian Institutes of Information Technology (Public-Private Partnership) Act, 2017",
+   "verification": {
+    "authority": "Parliament of India",
+    "list_name": "IIIT (Public-Private Partnership) Act, 2017 Schedule (as amended in 2020)",
+    "list_url": "https://prsindia.org/files/bills_acts/acts_parliament/2020/Indian%20Institutes%20of%20Information%20Technology%20Laws%20(Amendment)%20Act,%202020.pdf",
+    "list_as_of": "2026-10-01"
+   }
+  },
+  {
+   "key": "iiit-vadodara",
+   "name": "Indian Institute of Information Technology Vadodara",
+   "website": "https://iiitvadodara.ac.in",
+   "reference_id": "https://iiitvadodara.ac.in",
+   "ownership": "ppp",
+   "statutory_basis": "Indian Institutes of Information Technology (Public-Private Partnership) Act, 2017",
+   "verification": {
+    "authority": "Parliament of India",
+    "list_name": "IIIT (Public-Private Partnership) Act, 2017 Schedule (as amended in 2020)",
+    "list_url": "https://prsindia.org/files/bills_acts/acts_parliament/2020/Indian%20Institutes%20of%20Information%20Technology%20Laws%20(Amendment)%20Act,%202020.pdf",
+    "list_as_of": "2026-10-01"
+   },
+   "nirf": false,
+   "city": "Vadodara",
+   "state": "Gujarat"
+  },
+  {
+   "key": "iiit-sonepat",
+   "name": "Indian Institute of Information Technology Sonepat",
+   "website": "https://www.iiitsonepat.ac.in",
+   "reference_id": "https://www.iiitsonepat.ac.in",
+   "ownership": "ppp",
+   "statutory_basis": "Indian Institutes of Information Technology (Public-Private Partnership) Act, 2017",
+   "verification": {
+    "authority": "Parliament of India",
+    "list_name": "IIIT (Public-Private Partnership) Act, 2017 Schedule (as amended in 2020)",
+    "list_url": "https://prsindia.org/files/bills_acts/acts_parliament/2020/Indian%20Institutes%20of%20Information%20Technology%20Laws%20(Amendment)%20Act,%202020.pdf",
+    "list_as_of": "2026-10-01"
+   },
+   "nirf": false,
+   "city": "Sonepat",
+   "state": "Haryana"
+  },
+  {
+   "key": "iiit-una",
+   "name": "Indian Institute of Information Technology Una",
+   "website": "https://www.iiitu.ac.in",
+   "reference_id": "https://www.iiitu.ac.in",
+   "ownership": "ppp",
+   "statutory_basis": "Indian Institutes of Information Technology (Public-Private Partnership) Act, 2017",
+   "verification": {
+    "authority": "Parliament of India",
+    "list_name": "IIIT (Public-Private Partnership) Act, 2017 Schedule (as amended in 2020)",
+    "list_url": "https://prsindia.org/files/bills_acts/acts_parliament/2020/Indian%20Institutes%20of%20Information%20Technology%20Laws%20(Amendment)%20Act,%202020.pdf",
+    "list_as_of": "2026-10-01"
+   },
+   "nirf": false,
+   "city": "Una",
+   "state": "Himachal Pradesh"
+  },
+  {
+   "key": "iiit-ranchi",
+   "name": "Indian Institute of Information Technology Ranchi",
+   "website": "https://www.iiitranchi.ac.in",
+   "reference_id": "https://www.iiitranchi.ac.in",
+   "ownership": "ppp",
+   "statutory_basis": "Indian Institutes of Information Technology (Public-Private Partnership) Act, 2017",
+   "verification": {
+    "authority": "Parliament of India",
+    "list_name": "IIIT (Public-Private Partnership) Act, 2017 Schedule (as amended in 2020)",
+    "list_url": "https://prsindia.org/files/bills_acts/acts_parliament/2020/Indian%20Institutes%20of%20Information%20Technology%20Laws%20(Amendment)%20Act,%202020.pdf",
+    "list_as_of": "2026-10-01"
+   },
+   "nirf": false,
+   "city": "Ranchi",
+   "state": "Jharkhand"
+  },
+  {
+   "key": "iiit-dharwad",
+   "name": "Indian Institute of Information Technology Dharwad",
+   "website": "https://www.iiitdwd.ac.in",
+   "reference_id": "https://www.iiitdwd.ac.in",
+   "ownership": "ppp",
+   "statutory_basis": "Indian Institutes of Information Technology (Public-Private Partnership) Act, 2017",
+   "verification": {
+    "authority": "Parliament of India",
+    "list_name": "IIIT (Public-Private Partnership) Act, 2017 Schedule (as amended in 2020)",
+    "list_url": "https://prsindia.org/files/bills_acts/acts_parliament/2020/Indian%20Institutes%20of%20Information%20Technology%20Laws%20(Amendment)%20Act,%202020.pdf",
+    "list_as_of": "2026-10-01"
+   },
+   "nirf": false,
+   "city": "Dharwad",
+   "state": "Karnataka"
+  },
+  {
+   "key": "iiit-kottayam",
+   "name": "Indian Institute of Information Technology Kottayam",
+   "website": "https://www.iiitkottayam.ac.in",
+   "reference_id": "https://www.iiitkottayam.ac.in",
+   "ownership": "ppp",
+   "statutory_basis": "Indian Institutes of Information Technology (Public-Private Partnership) Act, 2017",
+   "verification": {
+    "authority": "Parliament of India",
+    "list_name": "IIIT (Public-Private Partnership) Act, 2017 Schedule (as amended in 2020)",
+    "list_url": "https://prsindia.org/files/bills_acts/acts_parliament/2020/Indian%20Institutes%20of%20Information%20Technology%20Laws%20(Amendment)%20Act,%202020.pdf",
+    "list_as_of": "2026-10-01"
+   },
+   "nirf": false,
+   "city": "Kottayam",
+   "state": "Kerala"
+  },
+  {
+   "key": "iiit-nagpur",
+   "name": "Indian Institute of Information Technology Nagpur",
+   "website": "https://www.iiitn.ac.in",
+   "reference_id": "https://www.iiitn.ac.in",
+   "ownership": "ppp",
+   "statutory_basis": "Indian Institutes of Information Technology (Public-Private Partnership) Act, 2017",
+   "verification": {
+    "authority": "Parliament of India",
+    "list_name": "IIIT (Public-Private Partnership) Act, 2017 Schedule (as amended in 2020)",
+    "list_url": "https://prsindia.org/files/bills_acts/acts_parliament/2020/Indian%20Institutes%20of%20Information%20Technology%20Laws%20(Amendment)%20Act,%202020.pdf",
+    "list_as_of": "2026-10-01"
+   },
+   "nirf": false,
+   "city": "Nagpur",
+   "state": "Maharashtra"
+  },
+  {
+   "key": "iiit-pune",
+   "name": "Indian Institute of Information Technology Pune",
+   "website": "https://www.iiitp.ac.in",
+   "reference_id": "https://www.iiitp.ac.in",
+   "ownership": "ppp",
+   "statutory_basis": "Indian Institutes of Information Technology (Public-Private Partnership) Act, 2017",
+   "verification": {
+    "authority": "Parliament of India",
+    "list_name": "IIIT (Public-Private Partnership) Act, 2017 Schedule (as amended in 2020)",
+    "list_url": "https://prsindia.org/files/bills_acts/acts_parliament/2020/Indian%20Institutes%20of%20Information%20Technology%20Laws%20(Amendment)%20Act,%202020.pdf",
+    "list_as_of": "2026-10-01"
+   },
+   "nirf": false,
+   "city": "Pune",
+   "state": "Maharashtra"
+  },
+  {
+   "key": "iiit-senapati",
+   "name": "Indian Institute of Information Technology Senapati Manipur",
+   "website": "https://www.iiitmanipur.ac.in",
+   "reference_id": "https://www.iiitmanipur.ac.in",
+   "ownership": "ppp",
+   "statutory_basis": "Indian Institutes of Information Technology (Public-Private Partnership) Act, 2017",
+   "verification": {
+    "authority": "Parliament of India",
+    "list_name": "IIIT (Public-Private Partnership) Act, 2017 Schedule (as amended in 2020)",
+    "list_url": "https://prsindia.org/files/bills_acts/acts_parliament/2020/Indian%20Institutes%20of%20Information%20Technology%20Laws%20(Amendment)%20Act,%202020.pdf",
+    "list_as_of": "2026-10-01"
+   },
+   "nirf": false,
+   "city": "Senapati",
+   "state": "Manipur",
+   "notes": "Named IIIT Senapati in the Act; known as IIIT Manipur."
+  },
+  {
+   "key": "iiit-kota",
+   "name": "Indian Institute of Information Technology Kota",
+   "website": "https://iiitkota.ac.in",
+   "reference_id": "https://iiitkota.ac.in",
+   "ownership": "ppp",
+   "statutory_basis": "Indian Institutes of Information Technology (Public-Private Partnership) Act, 2017",
+   "verification": {
+    "authority": "Parliament of India",
+    "list_name": "IIIT (Public-Private Partnership) Act, 2017 Schedule (as amended in 2020)",
+    "list_url": "https://prsindia.org/files/bills_acts/acts_parliament/2020/Indian%20Institutes%20of%20Information%20Technology%20Laws%20(Amendment)%20Act,%202020.pdf",
+    "list_as_of": "2026-10-01"
+   },
+   "nirf": false,
+   "city": "Kota",
+   "state": "Rajasthan",
+   "existing": [
+    "INDIAN INSTITUTE OF INFORMATION TECHNOLOGY, KOTA"
+   ]
+  },
+  {
+   "key": "iiit-tiruchirappalli",
+   "name": "Indian Institute of Information Technology Tiruchirappalli",
+   "website": "https://www.iiitt.ac.in",
+   "reference_id": "https://www.iiitt.ac.in",
+   "ownership": "ppp",
+   "statutory_basis": "Indian Institutes of Information Technology (Public-Private Partnership) Act, 2017",
+   "verification": {
+    "authority": "Parliament of India",
+    "list_name": "IIIT (Public-Private Partnership) Act, 2017 Schedule (as amended in 2020)",
+    "list_url": "https://prsindia.org/files/bills_acts/acts_parliament/2020/Indian%20Institutes%20of%20Information%20Technology%20Laws%20(Amendment)%20Act,%202020.pdf",
+    "list_as_of": "2026-10-01"
+   },
+   "nirf": false,
+   "city": "Tiruchirappalli",
+   "state": "Tamil Nadu",
+   "notes": "Campus at Srirangam, Tiruchirappalli."
+  },
+  {
+   "key": "iiit-lucknow",
+   "name": "Indian Institute of Information Technology Lucknow",
+   "website": "https://iiitl.ac.in",
+   "reference_id": "https://iiitl.ac.in",
+   "ownership": "ppp",
+   "statutory_basis": "Indian Institutes of Information Technology (Public-Private Partnership) Act, 2017",
+   "verification": {
+    "authority": "Parliament of India",
+    "list_name": "IIIT (Public-Private Partnership) Act, 2017 Schedule (as amended in 2020)",
+    "list_url": "https://prsindia.org/files/bills_acts/acts_parliament/2020/Indian%20Institutes%20of%20Information%20Technology%20Laws%20(Amendment)%20Act,%202020.pdf",
+    "list_as_of": "2026-10-01"
+   },
+   "nirf": false,
+   "city": "Lucknow",
+   "state": "Uttar Pradesh"
+  },
+  {
+   "key": "iiit-kalyani",
+   "name": "Indian Institute of Information Technology Kalyani",
+   "website": "https://iiitkalyani.ac.in",
+   "reference_id": "https://iiitkalyani.ac.in",
+   "ownership": "ppp",
+   "statutory_basis": "Indian Institutes of Information Technology (Public-Private Partnership) Act, 2017",
+   "verification": {
+    "authority": "Parliament of India",
+    "list_name": "IIIT (Public-Private Partnership) Act, 2017 Schedule (as amended in 2020)",
+    "list_url": "https://prsindia.org/files/bills_acts/acts_parliament/2020/Indian%20Institutes%20of%20Information%20Technology%20Laws%20(Amendment)%20Act,%202020.pdf",
+    "list_as_of": "2026-10-01"
+   },
+   "nirf": false,
+   "city": "Kalyani",
+   "state": "West Bengal"
+  },
+  {
+   "key": "iiit-bhagalpur",
+   "name": "Indian Institute of Information Technology Bhagalpur",
+   "website": "https://www.iiitbh.ac.in",
+   "reference_id": "https://www.iiitbh.ac.in",
+   "ownership": "ppp",
+   "statutory_basis": "Indian Institutes of Information Technology (Public-Private Partnership) Act, 2017",
+   "verification": {
+    "authority": "Parliament of India",
+    "list_name": "IIIT (Public-Private Partnership) Act, 2017 Schedule (as amended in 2020)",
+    "list_url": "https://prsindia.org/files/bills_acts/acts_parliament/2020/Indian%20Institutes%20of%20Information%20Technology%20Laws%20(Amendment)%20Act,%202020.pdf",
+    "list_as_of": "2026-10-01"
+   },
+   "nirf": false,
+   "city": "Bhagalpur",
+   "state": "Bihar"
+  },
+  {
+   "key": "iiit-surat",
+   "name": "Indian Institute of Information Technology Surat",
+   "website": "https://www.iiitsurat.ac.in",
+   "reference_id": "https://www.iiitsurat.ac.in",
+   "ownership": "ppp",
+   "statutory_basis": "Indian Institutes of Information Technology (Public-Private Partnership) Act, 2017",
+   "verification": {
+    "authority": "Parliament of India",
+    "list_name": "IIIT (Public-Private Partnership) Act, 2017 Schedule (as amended in 2020)",
+    "list_url": "https://prsindia.org/files/bills_acts/acts_parliament/2020/Indian%20Institutes%20of%20Information%20Technology%20Laws%20(Amendment)%20Act,%202020.pdf",
+    "list_as_of": "2026-10-01"
+   },
+   "nirf": false,
+   "city": "Surat",
+   "state": "Gujarat"
+  },
+  {
+   "key": "iiit-raichur",
+   "name": "Indian Institute of Information Technology Raichur",
+   "website": "https://iiitr.ac.in",
+   "reference_id": "https://iiitr.ac.in",
+   "ownership": "ppp",
+   "statutory_basis": "Indian Institutes of Information Technology (Public-Private Partnership) Act, 2017",
+   "verification": {
+    "authority": "Parliament of India",
+    "list_name": "IIIT (Public-Private Partnership) Act, 2017 Schedule (as amended in 2020)",
+    "list_url": "https://prsindia.org/files/bills_acts/acts_parliament/2020/Indian%20Institutes%20of%20Information%20Technology%20Laws%20(Amendment)%20Act,%202020.pdf",
+    "list_as_of": "2026-10-01"
+   },
+   "nirf": false,
+   "city": "Raichur",
+   "state": "Karnataka"
+  },
+  {
+   "key": "iiit-bhopal",
+   "name": "Indian Institute of Information Technology Bhopal",
+   "website": "https://www.iiitbhopal.ac.in",
+   "reference_id": "https://www.iiitbhopal.ac.in",
+   "ownership": "ppp",
+   "statutory_basis": "Indian Institutes of Information Technology (Public-Private Partnership) Act, 2017",
+   "verification": {
+    "authority": "Parliament of India",
+    "list_name": "IIIT (Public-Private Partnership) Act, 2017 Schedule (as amended in 2020)",
+    "list_url": "https://prsindia.org/files/bills_acts/acts_parliament/2020/Indian%20Institutes%20of%20Information%20Technology%20Laws%20(Amendment)%20Act,%202020.pdf",
+    "list_as_of": "2026-10-01"
+   },
+   "nirf": false,
+   "city": "Bhopal",
+   "state": "Madhya Pradesh",
+   "notes": "Runs from the MANIT Bhopal campus."
+  },
+  {
+   "key": "iiit-agartala",
+   "name": "Indian Institute of Information Technology Agartala",
+   "website": "https://iiitagartala.ac.in",
+   "reference_id": "https://iiitagartala.ac.in",
+   "ownership": "ppp",
+   "statutory_basis": "Indian Institutes of Information Technology (Public-Private Partnership) Act, 2017",
+   "verification": {
+    "authority": "Parliament of India",
+    "list_name": "IIIT (Public-Private Partnership) Act, 2017 Schedule (as amended in 2020)",
+    "list_url": "https://prsindia.org/files/bills_acts/acts_parliament/2020/Indian%20Institutes%20of%20Information%20Technology%20Laws%20(Amendment)%20Act,%202020.pdf",
+    "list_as_of": "2026-10-01"
+   },
+   "nirf": false,
+   "city": "Agartala",
+   "state": "Tripura"
+  }
+ ],
+ "summary_rows": [
+  {
+   "name": "IIITs",
+   "ownership": "central_govt"
+  }
+ ]
+}
