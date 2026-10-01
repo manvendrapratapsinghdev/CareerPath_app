@@ -240,7 +240,7 @@ Row counts as of this commit: streams 3 · career_nodes 380 · books 1 111 · in
 institute_courses 8 376 · node_books 2 751 · node_institutes 5 787 · node_job_sectors 1 375 · course_career_nodes 9 495
 · institute_categories 409 · institute_rankings 261 · institution_groups 13 · families 114 · institute_classification
 208 · institute_verifications 160 · institute_accreditations 0 · countries 1 · states 36 · districts 0 · places 0 ·
-place_aliases 0 · campuses 0.
+place_aliases 0 · campuses 0 · domains 27 · domain_nodes 90 · domain_tiers 276 · institute_domain_tiers 238.
 
 ### 8.1 Tables (DDL, condensed from `sqlite3 .schema`)
 
@@ -344,6 +344,16 @@ institute_verifications (institute_id, authority, list_name PK; list_url, list_a
 institute_accreditations (institute_id, body NAAC|NBA, programme PK; grade, status, valid_until, source_url)
 countries (code PK 'IN') → states (code PK ISO 3166-2 'IN-RJ'; lgd_code; name; kind state|ut; zone)
   → districts (lgd_code PK) → places (city/town) → place_aliases; campuses (institute_id, place_id, is_main)
+
+-- ── domain tiers (tooling/domain_tiers.py; NOT read by the app yet) ──
+domains (slug PK: engineering, medical, law, ca_cma_cs … 27; name; route_type degree|professional_body|exam|mixed;
+         regulators; entrance_exams; sort_order)
+domain_nodes (node_id PK → career_nodes; domain_slug)          -- 89 career nodes; descendants inherit the domain
+domain_tiers (domain_slug, tier PK; label; group_codes; family_slugs)  -- ladder: apex families (NLUs in Law, ICAI in
+                                                                    -- CA, NSD/Kalakshetra in arts) then G1 → G9
+institute_domain_tiers (institute_id, domain_slug PK; tier)    -- DERIVED, rebuilt by every batch load: one row per
+                                                                    -- classified top-level institute per domain it is
+                                                                    -- linked to (department links count for the parent)
 ```
 
 ### 8.2 ER diagram
@@ -397,7 +407,8 @@ streams 1───∞ career_nodes ∞───1 career_nodes (parent_id, self-t
   Ropar → "Rupnagar"). All other institutes are not classified yet. IIT/IIM/medical short forms (iitkgp, iima, pgimer, nimhans …) are
   hand-written in `tooling/search_aliases.txt`, because official renames drop the "(IIMA)"-style names they were
   derived from.
-  Batch-inserted institutes have `source_id` NULL (source_id still means "state research import").
+  Tiers are never a quality score (only group + family); they inherit any noise in `node_institutes` (e.g. IISc is
+  linked to an AYUSH career leaf, so it gets an AYUSH tier). Batch-inserted institutes have `source_id` NULL (source_id still means "state research import").
 
 ### 8.4 How the app maps DB → Dart
 

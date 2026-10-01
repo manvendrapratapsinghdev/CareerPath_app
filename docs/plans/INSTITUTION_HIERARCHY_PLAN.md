@@ -809,7 +809,7 @@ CREATE TABLE domains (                     -- ~26 rows, §4
   sort_order INTEGER NOT NULL
 );
 
-CREATE TABLE domain_nodes (                -- maps career L2 nodes → domain (many-to-one)
+CREATE TABLE domain_nodes (                -- career node → domain; descendants inherit (built: tooling/domain_tiers.py)
   node_id INTEGER PRIMARY KEY REFERENCES career_nodes(id) ON DELETE CASCADE,
   domain_slug TEXT NOT NULL REFERENCES domains(slug)
 );
@@ -818,11 +818,12 @@ CREATE TABLE domain_tiers (                -- the ladders in §5
   domain_slug TEXT NOT NULL REFERENCES domains(slug),
   tier INTEGER NOT NULL,                   -- 1 = top
   label TEXT NOT NULL,                     -- 'National Law Universities'
-  group_codes TEXT NOT NULL,               -- 'G4' | 'G5,G7,G8'
-  family_slug TEXT REFERENCES families(slug),   -- 'nlu' (optional narrowing)
+  group_codes TEXT NOT NULL,               -- 'G4' | 'G1,G3'
+  family_slugs TEXT,                       -- apex tier only: 'nlu' | 'icai,icmai,icsi' (CSV; seed checks each
+                                           -- exists in families); NULL = every family of those groups
   entry_exams TEXT,
   PRIMARY KEY (domain_slug, tier)
-);
+);                                         -- ladder = apex tiers, then G1, G2, G3, G4, G5, G6, G7, G11, G8, G9
 
 CREATE TABLE institute_classification (    -- one row per institute
   institute_id INTEGER PRIMARY KEY REFERENCES institutes(id) ON DELETE CASCADE,
@@ -841,12 +842,13 @@ CREATE TABLE institute_classification (    -- one row per institute
   source_url TEXT, verified_at TEXT, notes TEXT
 );
 
-CREATE TABLE institute_domain_tiers (      -- derived; stored so the app does no rule logic
+CREATE TABLE institute_domain_tiers (      -- derived, rebuilt by every batch load; the app does no rule logic
   institute_id INTEGER NOT NULL REFERENCES institutes(id) ON DELETE CASCADE,
-  domain_slug TEXT NOT NULL REFERENCES domains(slug),
+  domain_slug TEXT NOT NULL,
   tier INTEGER NOT NULL,
-  PRIMARY KEY (institute_id, domain_slug)
-);
+  PRIMARY KEY (institute_id, domain_slug),
+  FOREIGN KEY (domain_slug, tier) REFERENCES domain_tiers(domain_slug, tier)
+);                                         -- a department's career links count for its parent
 
 CREATE TABLE professional_routes (         -- CA, CMA, CS, CFA, UPSC, SSC, banking exams, NDA …
   slug TEXT PRIMARY KEY, name TEXT NOT NULL,
@@ -1036,7 +1038,7 @@ Follows CLAUDE.md: no new state management, manual DI, one test per new service 
 | T3 | `classify_institution_groups.py` + override CSV + tests | script | T2 |
 | T4 | Dedupe + department → parent + family flags (D4–D6) | DB asset | T3 |
 | T5 | All new tables (§6.5, §7, §8.6): groups, families, domains, tiers, classification, verifications, accreditations, location | DB asset | T4 |
-| T6 | Fill `families` (all ~80, national counts) + `domains`, `domain_nodes`, `domain_tiers` | DB asset | T5 |
+| T6 | Fill `families` (all ~80, national counts) + `domains`, `domain_nodes`, `domain_tiers` — **done** (`tooling/domain_tiers.py`: 27 domains, ladders = apex families + group order; `institute_domain_tiers` derived and rebuilt by every batch) | DB asset | T5 |
 | T7 | Location master: LGD `states` + `districts`, `places` + `place_aliases` | DB asset | T5 |
 | T8 | Career tree additions §8.7 + course-based linking | DB asset | T5 |
 | T9 | Batch loader `tooling/load_family_batch.py`: official list → institutes + campuses (city) + verification + NIRF/NAAC + tier → UGC Yes/No for private rows → review sheet → DB. One command per batch. | script + tests | T5–T7 |

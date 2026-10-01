@@ -15,7 +15,8 @@ the loader:
    appears in;
 5. links it to the batch's career nodes;
 6. attaches department/centre rows to it as children, merging duplicates;
-7. marks national summary rows ("IITs") as family records.
+7. marks national summary rows ("IITs") as family records;
+8. rebuilds every institute's domain tiers (tooling/domain_tiers.py).
 
 Nothing is written when any institute fails a check (no NIRF match, a
 department that does not exist, ...). Run with --dry-run to see the report.
@@ -33,6 +34,8 @@ import sqlite3
 import sys
 from pathlib import Path
 from typing import Any
+
+from domain_tiers import assign_tiers
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_DATABASE = REPO_ROOT / "assets/data/career_path.db"
@@ -407,6 +410,11 @@ def load(connection: sqlite3.Connection, batch: dict[str, Any], snapshot: dict[s
                 f"family {slug}: {listed} institutes loaded, official count is "
                 f"{family['national_count']}"
             )
+    # Tiers follow from groups and career links, so they are rebuilt with every batch.
+    if connection.execute(
+        "SELECT 1 FROM sqlite_master WHERE type = 'table' AND name = 'domain_tiers'"
+    ).fetchone():
+        report["tiers"] = assign_tiers(connection)
     problems = connection.execute("PRAGMA foreign_key_check").fetchall()
     if problems:
         raise BatchError(f"foreign key problems: {problems[:5]}")
