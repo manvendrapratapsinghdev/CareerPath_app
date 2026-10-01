@@ -1,0 +1,405 @@
+{
+ "batch": "B1",
+ "title": "Wave B (G2): the 31 NITs and IIEST Shibpur",
+ "verified_at": "2026-10-01",
+ "nirf_snapshot": "research/official_lists/nirf/nirf_2025.json",
+ "verification": {
+  "authority": "MoE",
+  "list_name": "NITSER Council list of National Institutes of Technology",
+  "list_url": "https://nitcouncil.org.in/",
+  "list_as_of": "2026-10-01"
+ },
+ "defaults": {
+  "family": "nit",
+  "group": "G2",
+  "ownership": "central_govt",
+  "statutory_basis": "National Institutes of Technology, Science Education and Research Act, 2007",
+  "regulators": null,
+  "legacy_type": "nit"
+ },
+ "families": {
+  "nit": {
+   "national_count": 31,
+   "as_of": "2026-10-01",
+   "official_list_url": "https://nitcouncil.org.in/"
+  },
+  "iiest": {
+   "national_count": 1,
+   "as_of": "2026-10-01",
+   "official_list_url": "https://nitcouncil.org.in/"
+  }
+ },
+ "institutes": [
+  {
+   "key": "national-institute-of-technology-agartala",
+   "name": "National Institute of Technology Agartala",
+   "website": "https://www.nita.ac.in",
+   "reference_id": "https://www.nita.ac.in/",
+   "city": "Agartala",
+   "nodes": [
+    "btech"
+   ]
+  },
+  {
+   "key": "national-institute-of-technology-mizoram",
+   "name": "National Institute of Technology Mizoram",
+   "website": "https://www.nitmz.ac.in",
+   "reference_id": "http://www.nitmz.ac.in/",
+   "nodes": [
+    "btech"
+   ]
+  },
+  {
+   "key": "motilal-nehru-national-institute-of-technology-allahabad",
+   "name": "Motilal Nehru National Institute of Technology Allahabad",
+   "website": "https://www.mnnit.ac.in",
+   "reference_id": "http://www.mnnit.ac.in",
+   "nirf_names": [
+    "Motilal Nehru National Institute of Technology"
+   ],
+   "nodes": [
+    "btech"
+   ]
+  },
+  {
+   "key": "maulana-azad-national-institute-of-technology-bhopal",
+   "name": "Maulana Azad National Institute of Technology Bhopal",
+   "website": "https://www.manit.ac.in",
+   "reference_id": "https://www.manit.ac.in/",
+   "nirf_names": [
+    "Maulana Azad National Institute of Technology"
+   ],
+   "existing": [
+    "Maulana Azad National Institute of Technology"
+   ],
+   "nodes": [
+    "btech",
+    "barch",
+    "barch_sci"
+   ]
+  },
+  {
+   "key": "national-institute-of-technology-calicut",
+   "name": "National Institute of Technology Calicut",
+   "website": "https://www.nitc.ac.in",
+   "reference_id": "http://www.nitc.ac.in",
+   "existing": [
+    "NIT Calicut"
+   ],
+   "nodes": [
+    "btech",
+    "barch",
+    "barch_sci"
+   ]
+  },
+  {
+   "key": "national-institute-of-technology-delhi",
+   "name": "National Institute of Technology Delhi",
+   "website": "https://nitdelhi.ac.in",
+   "reference_id": "http://nitdelhi.ac.in",
+   "nodes": [
+    "btech"
+   ]
+  },
+  {
+   "key": "national-institute-of-technology-nagaland",
+   "name": "National Institute of Technology Nagaland",
+   "website": "https://www.nitnagaland.ac.in",
+   "reference_id": "https://www.nitnagaland.ac.in/",
+   "nodes": [
+    "btech"
+   ]
+  },
+  {
+   "key": "national-institute-of-technology-durgapur",
+   "name": "National Institute of Technology Durgapur",
+   "website": "https://nitdgp.ac.in",
+   "reference_id": "https://nitdgp.ac.in/",
+   "nodes": [
+    "btech"
+   ]
+  },
+  {
+   "key": "national-institute-of-technology-uttarakhand",
+   "name": "National Institute of Technology Uttarakhand",
+   "website": "https://www.nituk.ac.in",
+   "reference_id": "http://www.nituk.ac.in",
+   "nodes": [
+    "btech"
+   ]
+  },
+  {
+   "key": "national-institute-of-technology-goa",
+   "name": "National Institute of Technology Goa",
+   "website": "https://www.nitgoa.ac.in",
+   "reference_id": "http://www.nitgoa.ac.in",
+   "nodes": [
+    "btech"
+   ]
+  },
+  {
+   "key": "national-institute-of-technology-hamirpur",
+   "name": "National Institute of Technology Hamirpur",
+   "website": "https://www.nith.ac.in",
+   "reference_id": "http://www.nith.ac.in",
+   "nodes": [
+    "btech",
+    "barch",
+    "barch_sci"
+   ]
+  },
+  {
+   "key": "national-institute-of-technology-manipur",
+   "name": "National Institute of Technology Manipur",
+   "website": "https://nitmanipur.ac.in",
+   "reference_id": "https://nitmanipur.ac.in/",
+   "nodes": [
+    "btech"
+   ]
+  },
+  {
+   "key": "malaviya-national-institute-of-technology-jaipur",
+   "name": "Malaviya National Institute of Technology Jaipur",
+   "website": "https://www.mnit.ac.in",
+   "reference_id": "http://www.mnit.ac.in",
+   "nirf_names": [
+    "Malaviya National Institute of Technology"
+   ],
+   "existing": [
+    "Malaviya National Institute of Technology"
+   ],
+   "nodes": [
+    "btech",
+    "barch",
+    "barch_sci"
+   ]
+  },
+  {
+   "key": "dr-b-r-ambedkar-national-institute-of-technology-jalandhar",
+   "name": "Dr B R Ambedkar National Institute of Technology Jalandhar",
+   "website": "https://www.nitj.ac.in",
+   "reference_id": "http://www.nitj.ac.in",
+   "nirf_names": [
+    "Dr. B R Ambedkar National Institute of Technology, Jalandhar"
+   ],
+   "nodes": [
+    "btech"
+   ]
+  },
+  {
+   "key": "national-institute-of-technology-jamshedpur",
+   "name": "National Institute of Technology Jamshedpur",
+   "website": "https://nitjsr.ac.in",
+   "reference_id": "http://nitjsr.ac.in",
+   "nirf_names": [
+    "National Institute of Technology, Jamshedpur"
+   ],
+   "nodes": [
+    "btech"
+   ]
+  },
+  {
+   "key": "national-institute-of-technology-puducherry",
+   "name": "National Institute of Technology Puducherry",
+   "website": "https://nitpy.ac.in",
+   "reference_id": "http://nitpy.ac.in/",
+   "state": "Puducherry",
+   "nodes": [
+    "btech"
+   ]
+  },
+  {
+   "key": "national-institute-of-technology-kurukshetra",
+   "name": "National Institute of Technology Kurukshetra",
+   "website": "https://www.nitkkr.ac.in",
+   "reference_id": "http://www.nitkkr.ac.in",
+   "nodes": [
+    "btech"
+   ]
+  },
+  {
+   "key": "national-institute-of-technology-karnataka-surathkal",
+   "name": "National Institute of Technology Karnataka Surathkal",
+   "website": "https://www.nitk.ac.in",
+   "reference_id": "http://www.nitk.ac.in",
+   "nirf_names": [
+    "National Institute of Technology Karnataka, Surathkal"
+   ],
+   "existing": [
+    "NIT Surathkal"
+   ],
+   "nodes": [
+    "btech"
+   ]
+  },
+  {
+   "key": "visvesvaraya-national-institute-of-technology-nagpur",
+   "name": "Visvesvaraya National Institute of Technology Nagpur",
+   "website": "https://www.vnit.ac.in",
+   "reference_id": "http://www.vnit.ac.in",
+   "nirf_names": [
+    "Visvesvaraya National Institute of Technology, Nagpur"
+   ],
+   "nodes": [
+    "btech",
+    "barch",
+    "barch_sci"
+   ]
+  },
+  {
+   "key": "national-institute-of-technology-patna",
+   "name": "National Institute of Technology Patna",
+   "website": "https://www.nitp.ac.in",
+   "reference_id": "http://www.nitp.ac.in/php/home.php",
+   "nodes": [
+    "btech",
+    "barch",
+    "barch_sci"
+   ]
+  },
+  {
+   "key": "national-institute-of-technology-raipur",
+   "name": "National Institute of Technology Raipur",
+   "website": "https://www.nitrr.ac.in",
+   "reference_id": "http://www.nitrr.ac.in",
+   "nirf_names": [
+    "National Institute of Technology, Raipur"
+   ],
+   "nodes": [
+    "btech",
+    "barch",
+    "barch_sci"
+   ]
+  },
+  {
+   "key": "national-institute-of-technology-rourkela",
+   "name": "National Institute of Technology Rourkela",
+   "website": "https://www.nitrkl.ac.in",
+   "reference_id": "http://www.nitrkl.ac.in",
+   "nodes": [
+    "btech",
+    "barch",
+    "barch_sci"
+   ]
+  },
+  {
+   "key": "national-institute-of-technology-meghalaya",
+   "name": "National Institute of Technology Meghalaya",
+   "website": "https://www.nitm.ac.in",
+   "reference_id": "http://www.nitm.ac.in",
+   "nodes": [
+    "btech"
+   ]
+  },
+  {
+   "key": "national-institute-of-technology-silchar",
+   "name": "National Institute of Technology Silchar",
+   "website": "https://www.nits.ac.in",
+   "reference_id": "http://www.nits.ac.in",
+   "nodes": [
+    "btech"
+   ]
+  },
+  {
+   "key": "national-institute-of-technology-sikkim",
+   "name": "National Institute of Technology Sikkim",
+   "website": "https://www.nitsikkim.ac.in",
+   "reference_id": "http://www.nitsikkim.ac.in",
+   "city": "Ravangla",
+   "notes": "Temporary campus at Barfung Block, Ravangla, Sikkim (institute website).",
+   "nodes": [
+    "btech"
+   ]
+  },
+  {
+   "key": "national-institute-of-technology-srinagar",
+   "name": "National Institute of Technology Srinagar",
+   "website": "https://nitsri.ac.in",
+   "reference_id": "https://nitsri.ac.in/",
+   "nodes": [
+    "btech"
+   ]
+  },
+  {
+   "key": "sardar-vallabhbhai-national-institute-of-technology-surat",
+   "name": "Sardar Vallabhbhai National Institute of Technology Surat",
+   "website": "https://www.svnit.ac.in",
+   "reference_id": "http://www.svnit.ac.in",
+   "nirf_names": [
+    "Sardar Vallabhbhai National Institute of Technology"
+   ],
+   "city": "Surat",
+   "nodes": [
+    "btech"
+   ]
+  },
+  {
+   "key": "national-institute-of-technology-andhra-pradesh",
+   "name": "National Institute of Technology Andhra Pradesh",
+   "website": "https://www.nitandhra.ac.in",
+   "reference_id": "http://www.nitandhra.ac.in",
+   "nirf_names": [
+    "National Institute Of Technology, Andhra Pradesh"
+   ],
+   "nodes": [
+    "btech"
+   ]
+  },
+  {
+   "key": "national-institute-of-technology-tiruchirappalli",
+   "name": "National Institute of Technology Tiruchirappalli",
+   "website": "https://www.nitt.edu",
+   "reference_id": "http://www.nitt.edu/home",
+   "existing": [
+    "NIT Trichy"
+   ],
+   "nodes": [
+    "btech",
+    "barch",
+    "barch_sci"
+   ]
+  },
+  {
+   "key": "national-institute-of-technology-warangal",
+   "name": "National Institute of Technology Warangal",
+   "website": "https://www.nitw.ac.in",
+   "reference_id": "http://www.nitw.ac.in/nitw",
+   "existing": [
+    "NIT Warangal"
+   ],
+   "nodes": [
+    "btech"
+   ]
+  },
+  {
+   "key": "national-institute-of-technology-arunachal-pradesh",
+   "name": "National Institute of Technology Arunachal Pradesh",
+   "website": "https://www.nitap.ac.in",
+   "reference_id": "http://www.nitap.ac.in",
+   "nodes": [
+    "btech"
+   ]
+  },
+  {
+   "key": "iiest-shibpur",
+   "name": "Indian Institute of Engineering Science and Technology Shibpur",
+   "website": "https://www.iiests.ac.in",
+   "reference_id": "https://www.iiests.ac.in/",
+   "family": "iiest",
+   "nirf_names": [
+    "Indian Institute of Engineering Science and Technology, Shibpur"
+   ],
+   "statutory_basis": "National Institutes of Technology, Science Education and Research Act, 2007 (as amended in 2014)",
+   "nodes": [
+    "btech",
+    "barch",
+    "barch_sci"
+   ]
+  }
+ ],
+ "summary_rows": [
+  {
+   "name": "NITs"
+  }
+ ]
+}
