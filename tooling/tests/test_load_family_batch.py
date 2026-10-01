@@ -125,6 +125,23 @@ class LoadFamilyBatchTest(unittest.TestCase):
             [("Engineering",)],
         )
         self.assertIn("IIT Bombay -> Indian Institute of Technology Bombay", report["merged"])
+        # The kept row already had the official name, so nothing was renamed.
+        self.assertEqual(report["renamed"], [])
+
+    def test_reports_renames_and_takes_confidence_from_the_spec(self) -> None:
+        connection = _database()
+        connection.execute("DELETE FROM institutes WHERE id = 11")
+        batch = copy.deepcopy(BATCH)
+        batch["institutes"][1]["confidence"] = "medium"
+        report = load(connection, batch, SNAPSHOT)
+        self.assertEqual(report["renamed"], ["IIT Bombay -> Indian Institute of Technology Bombay"])
+        self.assertEqual(
+            connection.execute(
+                "SELECT c.confidence FROM institute_classification c JOIN institutes i "
+                "ON i.id = c.institute_id WHERE i.name = 'Indian Institute of Technology Goa'"
+            ).fetchone(),
+            ("medium",),
+        )
 
     def test_inserts_new_institutes_with_a_verified_description(self) -> None:
         connection = _database()
@@ -308,6 +325,26 @@ class LoadFamilyBatchTest(unittest.TestCase):
                 "ORDER BY year, category"
             ).fetchall(),
             [(2024, "Engineering"), (2025, "Engineering"), (2025, "Overall")],
+        )
+
+    def test_an_institute_still_being_built_is_listed_as_not_admitting(self) -> None:
+        connection = _database()
+        batch = copy.deepcopy(BATCH)
+        batch["institutes"][1]["admits_students"] = False
+        load(connection, batch, SNAPSHOT)
+        self.assertEqual(
+            connection.execute(
+                "SELECT c.admits_students, c.listed FROM institute_classification c "
+                "JOIN institutes i ON i.id = c.institute_id "
+                "WHERE i.name = 'Indian Institute of Technology Goa'"
+            ).fetchone(),
+            (0, 1),
+        )
+        self.assertEqual(
+            connection.execute(
+                "SELECT admits_students FROM institute_classification WHERE institute_id = 11"
+            ).fetchone(),
+            (1,),
         )
 
     def test_an_update_without_a_website_keeps_the_known_one(self) -> None:

@@ -230,10 +230,13 @@ def classify(
         "family_slug, ownership, statutory_basis, admits_students, parent_institute_id, "
         "is_family_record, regulators, listed, ugc_verified, ugc_list_name, "
         "ugc_reference_id, ugc_source_url, ugc_checked_at, confidence, source_url, "
-        "verified_at, notes) VALUES (?, ?, ?, ?, ?, 1, ?, ?, ?, 1, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+        "verified_at, notes) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, 1, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
         (
             institute_id, spec["group"], spec["family"], ownership,
-            spec.get("statutory_basis"), parent_id, int(family_record),
+            spec.get("statutory_basis"),
+            # An institute still being built is listed but marked as not admitting.
+            int(spec.get("admits_students", True)),
+            parent_id, int(family_record),
             spec.get("regulators"),
             None if ugc is None else int(ugc["verified"]),
             None if ugc is None else ugc.get("list_name"),
@@ -249,7 +252,7 @@ def classify(
 def load(connection: sqlite3.Connection, batch: dict[str, Any], snapshot: dict[str, Any]) -> dict[str, Any]:
     year = snapshot["metadata"]["year"]
     report: dict[str, Any] = {
-        "batch": batch["batch"], "inserted": [], "updated": [], "merged": [],
+        "batch": batch["batch"], "inserted": [], "updated": [], "renamed": [], "merged": [],
         "departments": [], "summary_rows": [], "rankings": 0, "node_links": 0,
     }
     family_names = dict(connection.execute("SELECT slug, name FROM families"))
@@ -291,6 +294,10 @@ def load(connection: sqlite3.Connection, batch: dict[str, Any], snapshot: dict[s
             institute_id = connection.execute("SELECT last_insert_rowid()").fetchone()[0]
             report["inserted"].append(item["name"])
         else:
+            old_name = _name_of(connection, institute_id)
+            if old_name != item["name"]:
+                # Short names disappear from the data; add search aliases for them.
+                report["renamed"].append(f"{old_name} -> {item['name']}")
             relocate(connection, institute_id, city, state)
             connection.execute(
                 "UPDATE institutes SET name = ?, website = COALESCE(?, website), "
@@ -309,7 +316,8 @@ def load(connection: sqlite3.Connection, batch: dict[str, Any], snapshot: dict[s
         )
         claimed.ids.add(institute_id)
 
-        classify(connection, institute_id, item)
+        # A status that rests on an old or partial source is not "high".
+        classify(connection, institute_id, item, confidence=item.get("confidence", "high"))
         verification = item["verification"]
         connection.execute(
             "INSERT OR REPLACE INTO institute_verifications (institute_id, authority, "
