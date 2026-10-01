@@ -223,7 +223,9 @@ def classify(
     family_record: bool = False,
     confidence: str = "high",
 ) -> None:
-    ownership = spec["ownership"]
+    ownership = spec.get("ownership")
+    if ownership is None:
+        raise BatchError(f"{spec['name']}: no ownership given")
     ugc = spec.get("ugc")
     if ownership in GOVERNMENT_OWNERSHIP and ugc is not None:
         raise BatchError(f"{spec['name']}: UGC check is for private institutions only")

@@ -271,6 +271,15 @@ class LoadFamilyBatchTest(unittest.TestCase):
             ("Jaipur", "201-300", 1),
         )
 
+    def test_missing_ownership_is_a_batch_error(self) -> None:
+        batch = copy.deepcopy(BATCH)
+        del batch["defaults"]["ownership"]
+        batch["institutes"] = batch["institutes"][1:]
+        batch["families"] = {}
+        batch["institutes"][0]["ownership"] = "central_govt"
+        with self.assertRaisesRegex(BatchError, "IITs: no ownership given"):
+            load(_database(), batch, SNAPSHOT)
+
     def test_ugc_check_only_and_always_for_private(self) -> None:
         batch = copy.deepcopy(BATCH)
         batch["institutes"][1]["ugc"] = {"verified": True}
