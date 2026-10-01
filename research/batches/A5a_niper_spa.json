@@ -1,0 +1,156 @@
+{
+ "batch": "A5a",
+ "title": "Wave A (G1): NIPERs and Schools of Planning and Architecture",
+ "verified_at": "2026-10-01",
+ "nirf_snapshot": "research/official_lists/nirf/nirf_2025.json",
+ "verification": {
+  "authority": "Department of Pharmaceuticals",
+  "list_name": "Department of Pharmaceuticals: NIPERs",
+  "list_url": "https://pharma-dept.gov.in/nipers",
+  "list_as_of": "2026-10-01"
+ },
+ "defaults": {
+  "family": "niper",
+  "group": "G1",
+  "ownership": "central_govt",
+  "statutory_basis": "National Institute of Pharmaceutical Education and Research Act, 1998 (as amended in 2007)",
+  "regulators": "PCI",
+  "legacy_type": "central_institute",
+  "nodes": [
+   "pharma_researcher"
+  ]
+ },
+ "families": {
+  "niper": {
+   "national_count": 7,
+   "as_of": "2026-10-01",
+   "official_list_url": "https://pharma-dept.gov.in/nipers"
+  },
+  "spa": {
+   "national_count": 3,
+   "as_of": "2026-10-01",
+   "official_list_url": "https://www.spa.ac.in"
+  }
+ },
+ "institutes": [
+  {
+   "key": "niper-mohali",
+   "name": "National Institute of Pharmaceutical Education and Research Mohali",
+   "website": "https://www.niper.gov.in",
+   "reference_id": "https://www.niper.gov.in",
+   "existing": [
+    "National Institute of Pharmaceutical Education and Research (NIPER)"
+   ],
+   "statutory_basis": "National Institute of Pharmaceutical Education and Research Act, 1998",
+   "notes": "NIPER S.A.S. Nagar, the first NIPER; conducts the joint entrance examination for all NIPERs."
+  },
+  {
+   "key": "niper-ahmedabad",
+   "name": "National Institute of Pharmaceutical Education and Research Ahmedabad",
+   "website": "https://niperahm.ac.in",
+   "reference_id": "https://niperahm.ac.in"
+  },
+  {
+   "key": "niper-hyderabad",
+   "name": "National Institute of Pharmaceutical Education and Research Hyderabad",
+   "website": "https://www.niperhyd.ac.in",
+   "reference_id": "https://www.niperhyd.ac.in"
+  },
+  {
+   "key": "niper-kolkata",
+   "name": "National Institute of Pharmaceutical Education and Research Kolkata",
+   "website": "https://niperkolkata.edu.in",
+   "reference_id": "https://niperkolkata.edu.in"
+  },
+  {
+   "key": "niper-guwahati",
+   "name": "National Institute of Pharmaceutical Education and Research Guwahati",
+   "website": "https://www.niperguwahati.ac.in",
+   "reference_id": "https://www.niperguwahati.ac.in"
+  },
+  {
+   "key": "niper-raebareli",
+   "name": "National Institute of Pharmaceutical Education and Research Raebareli",
+   "website": "https://www.niperraebareli.edu.in",
+   "reference_id": "https://www.niperraebareli.edu.in",
+   "notes": "Currently in Lucknow (NIRF lists it there)."
+  },
+  {
+   "key": "niper-hajipur",
+   "name": "National Institute of Pharmaceutical Education and Research Hajipur",
+   "website": "https://niperhajipur.ac.in",
+   "reference_id": "https://niperhajipur.ac.in"
+  },
+  {
+   "key": "spa-new-delhi",
+   "name": "School of Planning and Architecture New Delhi",
+   "website": "https://www.spa.ac.in",
+   "reference_id": "https://www.spa.ac.in",
+   "existing": [
+    "School of Planning and Architecture Delhi",
+    "School of Planning and Architecture (SPA) Delhi",
+    "School of Planning and Architecture (SPA)"
+   ],
+   "family": "spa",
+   "statutory_basis": "School of Planning and Architecture Act, 2014",
+   "regulators": "CoA",
+   "nodes": [
+    "barch",
+    "barch_sci"
+   ],
+   "verification": {
+    "authority": "Parliament of India",
+    "list_name": "School of Planning and Architecture Act, 2014",
+    "list_url": "https://www.spa.ac.in",
+    "list_as_of": "2026-10-01"
+   }
+  },
+  {
+   "key": "spa-bhopal",
+   "name": "School of Planning and Architecture Bhopal",
+   "website": "https://www.spabhopal.ac.in",
+   "reference_id": "https://www.spabhopal.ac.in",
+   "existing": [
+    "SPA Bhopal"
+   ],
+   "family": "spa",
+   "statutory_basis": "School of Planning and Architecture Act, 2014",
+   "regulators": "CoA",
+   "nodes": [
+    "barch",
+    "barch_sci"
+   ],
+   "verification": {
+    "authority": "Parliament of India",
+    "list_name": "School of Planning and Architecture Act, 2014",
+    "list_url": "https://www.spa.ac.in",
+    "list_as_of": "2026-10-01"
+   }
+  },
+  {
+   "key": "spa-vijayawada",
+   "name": "School of Planning and Architecture Vijayawada",
+   "website": "https://www.spav.ac.in",
+   "reference_id": "https://www.spav.ac.in",
+   "nirf_names": [
+    "School of Planning & Architecture, Vijayawada"
+   ],
+   "existing": [
+    "SPA Vijayawada"
+   ],
+   "family": "spa",
+   "statutory_basis": "School of Planning and Architecture Act, 2014",
+   "regulators": "CoA",
+   "nodes": [
+    "barch",
+    "barch_sci"
+   ],
+   "verification": {
+    "authority": "Parliament of India",
+    "list_name": "School of Planning and Architecture Act, 2014",
+    "list_url": "https://www.spa.ac.in",
+    "list_as_of": "2026-10-01"
+   }
+  }
+ ]
+}
