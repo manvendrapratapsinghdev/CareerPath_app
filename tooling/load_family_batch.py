@@ -300,8 +300,11 @@ def load(connection: sqlite3.Connection, batch: dict[str, Any], snapshot: dict[s
             report["updated"].append(item["name"])
         connection.execute(
             "UPDATE institutes SET institution_type_source_url = ?, "
-            "institution_type_confidence = 'high', institution_type_verified_at = ? WHERE id = ?",
-            (item["verification"]["list_url"], batch["verified_at"], institute_id),
+            "institution_type_confidence = 'high', institution_type_verified_at = ?, "
+            "institution_type_notes = ? WHERE id = ?",
+            (item["verification"]["list_url"], batch["verified_at"],
+             f"Verified against {item['verification']['list_name']} (batch {batch['batch']}).",
+             institute_id),
         )
         claimed.ids.add(institute_id)
 

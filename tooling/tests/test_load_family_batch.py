@@ -156,6 +156,13 @@ class LoadFamilyBatchTest(unittest.TestCase):
         )
         self.assertEqual(
             connection.execute(
+                "SELECT institution_type_source_url, institution_type_notes FROM institutes "
+                "WHERE id = 11"
+            ).fetchone(),
+            ("https://www.iitsystem.ac.in/", "Verified against IIT Council list of IITs (batch T)."),
+        )
+        self.assertEqual(
+            connection.execute(
                 "SELECT category, rank FROM institute_rankings WHERE institute_id = 11 "
                 "ORDER BY category"
             ).fetchall(),
