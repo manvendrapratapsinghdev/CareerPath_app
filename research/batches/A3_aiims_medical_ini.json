@@ -1,0 +1,324 @@
+{
+ "batch": "A3",
+ "title": "Wave A (G1): AIIMS, JIPMER, PGIMER and NIMHANS",
+ "verified_at": "2026-10-01",
+ "nirf_snapshot": "research/official_lists/nirf/nirf_2025.json",
+ "verification": {
+  "authority": "MoHFW",
+  "list_name": "MoHFW Lok Sabha reply on AIIMS under PMSSY (22 Jul 2022)",
+  "list_url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1843848&reg=48&lang=2",
+  "list_as_of": "2022-07-22"
+ },
+ "defaults": {
+  "family": "aiims",
+  "group": "G1",
+  "ownership": "central_govt",
+  "statutory_basis": "All India Institute of Medical Sciences Act, 1956 (as amended)",
+  "regulators": "NMC",
+  "legacy_type": "medical",
+  "nodes": [
+   "mbbs"
+  ]
+ },
+ "families": {
+  "aiims": {
+   "national_count": 23,
+   "as_of": "2022-07-22",
+   "official_list_url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1843848&reg=48&lang=2"
+  },
+  "national_medical_ini": {
+   "national_count": 3,
+   "as_of": "2026-10-01",
+   "official_list_url": null
+  }
+ },
+ "institutes": [
+  {
+   "key": "aiims-new-delhi",
+   "name": "All India Institute of Medical Sciences New Delhi",
+   "website": "https://www.aiims.edu",
+   "reference_id": "https://www.aiims.edu",
+   "nirf_names": [
+    "All India Institute of Medical Sciences, Delhi"
+   ],
+   "existing": [
+    "AIIMS New Delhi"
+   ],
+   "departments": [
+    "AIIMS (Physiotherapy)",
+    "AIIMS Nursing College"
+   ],
+   "statutory_basis": "All India Institute of Medical Sciences Act, 1956",
+   "verification": {
+    "authority": "Parliament of India",
+    "list_name": "All India Institute of Medical Sciences Act, 1956",
+    "list_url": "https://www.aiims.edu",
+    "list_as_of": "2026-10-01"
+   }
+  },
+  {
+   "key": "aiims-bhopal",
+   "name": "All India Institute of Medical Sciences Bhopal",
+   "website": "https://www.aiimsbhopal.edu.in",
+   "reference_id": "https://www.aiimsbhopal.edu.in"
+  },
+  {
+   "key": "aiims-bhubaneswar",
+   "name": "All India Institute of Medical Sciences Bhubaneswar",
+   "website": "https://aiimsbhubaneswar.nic.in",
+   "reference_id": "https://aiimsbhubaneswar.nic.in"
+  },
+  {
+   "key": "aiims-jodhpur",
+   "name": "All India Institute of Medical Sciences Jodhpur",
+   "website": "https://aiimsjodhpur.edu.in",
+   "reference_id": "https://aiimsjodhpur.edu.in"
+  },
+  {
+   "key": "aiims-patna",
+   "name": "All India Institute of Medical Sciences Patna",
+   "website": "https://aiimspatna.edu.in",
+   "reference_id": "https://aiimspatna.edu.in"
+  },
+  {
+   "key": "aiims-raipur",
+   "name": "All India Institute of Medical Sciences Raipur",
+   "website": "https://aiimsraipur.edu.in",
+   "reference_id": "https://aiimsraipur.edu.in"
+  },
+  {
+   "key": "aiims-rishikesh",
+   "name": "All India Institute of Medical Sciences Rishikesh",
+   "website": "https://aiimsrishikesh.edu.in",
+   "reference_id": "https://aiimsrishikesh.edu.in"
+  },
+  {
+   "key": "aiims-mangalagiri",
+   "name": "All India Institute of Medical Sciences Mangalagiri",
+   "website": "https://www.aiimsmangalagiri.edu.in",
+   "reference_id": "https://www.aiimsmangalagiri.edu.in",
+   "nirf": false,
+   "city": "Mangalagiri",
+   "state": "Andhra Pradesh"
+  },
+  {
+   "key": "aiims-guwahati",
+   "name": "All India Institute of Medical Sciences Guwahati",
+   "website": "https://aiimsguwahati.ac.in",
+   "reference_id": "https://aiimsguwahati.ac.in",
+   "nirf": false,
+   "city": "Guwahati",
+   "state": "Assam"
+  },
+  {
+   "key": "aiims-darbhanga",
+   "name": "All India Institute of Medical Sciences Darbhanga",
+   "website": null,
+   "reference_id": "PIB PRID 1843848",
+   "nirf": false,
+   "city": "Darbhanga",
+   "state": "Bihar",
+   "admits_students": false,
+   "nodes": [],
+   "confidence": "medium",
+   "notes": "Approved under PMSSY; no MBBS intake in the latest official status read (Lok Sabha, 22 Jul 2022). Official website not found. Re-check."
+  },
+  {
+   "key": "aiims-rajkot",
+   "name": "All India Institute of Medical Sciences Rajkot",
+   "website": "https://www.aiimsrajkot.edu.in",
+   "reference_id": "https://www.aiimsrajkot.edu.in",
+   "nirf": false,
+   "city": "Rajkot",
+   "state": "Gujarat"
+  },
+  {
+   "key": "aiims-rewari",
+   "name": "All India Institute of Medical Sciences Rewari",
+   "website": "https://www.aiimsrewari.edu.in",
+   "reference_id": "https://www.aiimsrewari.edu.in",
+   "nirf": false,
+   "city": "Rewari",
+   "state": "Haryana",
+   "admits_students": false,
+   "nodes": [],
+   "confidence": "medium",
+   "notes": "Approved under PMSSY (first at Manethi, now Rewari district); no MBBS intake in the latest official status read (Lok Sabha, 22 Jul 2022); website lists OPD services. Re-check."
+  },
+  {
+   "key": "aiims-bilaspur",
+   "name": "All India Institute of Medical Sciences Bilaspur",
+   "website": "https://www.aiimsbilaspur.edu.in",
+   "reference_id": "https://www.aiimsbilaspur.edu.in",
+   "nirf": false,
+   "city": "Bilaspur",
+   "state": "Himachal Pradesh"
+  },
+  {
+   "key": "aiims-jammu",
+   "name": "All India Institute of Medical Sciences Jammu",
+   "website": "https://www.aiimsjammu.edu.in",
+   "reference_id": "https://www.aiimsjammu.edu.in",
+   "nirf": false,
+   "city": "Vijaypur",
+   "state": "Jammu and Kashmir",
+   "notes": "Campus at Vijaypur, Samba district."
+  },
+  {
+   "key": "aiims-awantipora",
+   "name": "All India Institute of Medical Sciences Awantipora",
+   "website": "https://aiimsawantipora.edu.in",
+   "reference_id": "https://aiimsawantipora.edu.in",
+   "nirf": false,
+   "city": "Awantipora",
+   "state": "Jammu and Kashmir",
+   "admits_students": false,
+   "nodes": [],
+   "confidence": "medium",
+   "notes": "Approved under PMSSY; no MBBS intake in the latest official status read (Lok Sabha, 22 Jul 2022). Re-check."
+  },
+  {
+   "key": "aiims-deoghar",
+   "name": "All India Institute of Medical Sciences Deoghar",
+   "website": "https://www.aiimsdeoghar.edu.in",
+   "reference_id": "https://www.aiimsdeoghar.edu.in",
+   "nirf": false,
+   "city": "Deoghar",
+   "state": "Jharkhand"
+  },
+  {
+   "key": "aiims-nagpur",
+   "name": "All India Institute of Medical Sciences Nagpur",
+   "website": "https://www.aiimsnagpur.edu.in",
+   "reference_id": "https://www.aiimsnagpur.edu.in",
+   "nirf": false,
+   "city": "Nagpur",
+   "state": "Maharashtra"
+  },
+  {
+   "key": "aiims-bathinda",
+   "name": "All India Institute of Medical Sciences Bathinda",
+   "website": "https://www.aiimsbathinda.edu.in",
+   "reference_id": "https://www.aiimsbathinda.edu.in",
+   "nirf": false,
+   "city": "Bathinda",
+   "state": "Punjab"
+  },
+  {
+   "key": "aiims-madurai",
+   "name": "All India Institute of Medical Sciences Madurai",
+   "website": "https://www.aiimsmadurai.edu.in",
+   "reference_id": "https://www.aiimsmadurai.edu.in",
+   "nirf": false,
+   "city": "Madurai",
+   "state": "Tamil Nadu",
+   "notes": "MBBS from a temporary campus since 2021-22."
+  },
+  {
+   "key": "aiims-bibinagar",
+   "name": "All India Institute of Medical Sciences Bibinagar",
+   "website": "https://aiimsbibinagar.edu.in",
+   "reference_id": "https://aiimsbibinagar.edu.in",
+   "nirf": false,
+   "city": "Bibinagar",
+   "state": "Telangana"
+  },
+  {
+   "key": "aiims-raebareli",
+   "name": "All India Institute of Medical Sciences Raebareli",
+   "website": "https://www.aiimsrbl.edu.in",
+   "reference_id": "https://www.aiimsrbl.edu.in",
+   "nirf": false,
+   "city": "Raebareli",
+   "state": "Uttar Pradesh"
+  },
+  {
+   "key": "aiims-gorakhpur",
+   "name": "All India Institute of Medical Sciences Gorakhpur",
+   "website": "https://aiimsgorakhpur.edu.in",
+   "reference_id": "https://aiimsgorakhpur.edu.in",
+   "nirf": false,
+   "city": "Gorakhpur",
+   "state": "Uttar Pradesh"
+  },
+  {
+   "key": "aiims-kalyani",
+   "name": "All India Institute of Medical Sciences Kalyani",
+   "website": "https://www.aiimskalyani.edu.in",
+   "reference_id": "https://www.aiimskalyani.edu.in",
+   "nirf": false,
+   "city": "Kalyani",
+   "state": "West Bengal"
+  },
+  {
+   "key": "jipmer",
+   "name": "Jawaharlal Institute of Postgraduate Medical Education and Research",
+   "website": "https://jipmer.edu.in",
+   "reference_id": "https://jipmer.edu.in",
+   "family": "national_medical_ini",
+   "nirf_names": [
+    "Jawaharlal Institute of Post Graduate Medical Education & Research"
+   ],
+   "city": "Puducherry",
+   "state": "Puducherry",
+   "existing": [
+    "JIPMER Puducherry"
+   ],
+   "statutory_basis": "JIPMER, Puducherry Act, 2008",
+   "verification": {
+    "authority": "Parliament of India",
+    "list_name": "Jawaharlal Institute of Post-Graduate Medical Education and Research, Puducherry Act, 2008",
+    "list_url": "https://jipmer.edu.in",
+    "list_as_of": "2026-10-01"
+   }
+  },
+  {
+   "key": "pgimer",
+   "name": "Post Graduate Institute of Medical Education and Research",
+   "website": "https://pgimer.edu.in",
+   "reference_id": "https://pgimer.edu.in",
+   "family": "national_medical_ini",
+   "nodes": [],
+   "existing": [
+    "PGI Chandigarh",
+    "PGIMER Chandigarh"
+   ],
+   "statutory_basis": "Post-Graduate Institute of Medical Education and Research, Chandigarh Act, 1966",
+   "notes": "Postgraduate institute; no MBBS.",
+   "verification": {
+    "authority": "Parliament of India",
+    "list_name": "Post-Graduate Institute of Medical Education and Research, Chandigarh Act, 1966",
+    "list_url": "https://pgimer.edu.in",
+    "list_as_of": "2026-10-01"
+   }
+  },
+  {
+   "key": "nimhans",
+   "name": "National Institute of Mental Health and Neuro Sciences",
+   "website": "https://nimhans.ac.in",
+   "reference_id": "https://nimhans.ac.in",
+   "family": "national_medical_ini",
+   "nodes": [],
+   "nirf_names": [
+    "National Institute of Mental Health & Neuro Sciences, Bangalore"
+   ],
+   "existing": [
+    "NIMHANS Bangalore",
+    "National Institute of Mental Health and Neuro-Sciences (NIMHANS)"
+   ],
+   "statutory_basis": "National Institute of Mental Health and Neuro-Sciences, Bangalore Act, 2012",
+   "notes": "Mental health and neurosciences; no MBBS.",
+   "verification": {
+    "authority": "Parliament of India",
+    "list_name": "National Institute of Mental Health and Neuro-Sciences, Bangalore Act, 2012",
+    "list_url": "https://nimhans.ac.in",
+    "list_as_of": "2026-10-01"
+   }
+  }
+ ],
+ "summary_rows": [
+  {
+   "name": "AIIMS (All Campuses)"
+  }
+ ]
+}
