@@ -1,0 +1,132 @@
+{
+ "batch": "A4",
+ "title": "Wave A (G1): IISERs, NISER and ISI",
+ "verified_at": "2026-10-01",
+ "nirf_snapshot": "research/official_lists/nirf/nirf_2025.json",
+ "verification": {
+  "authority": "MoE",
+  "list_name": "IISER joint admission portal (IAT): the seven IISERs",
+  "list_url": "https://iiseradmission.in/",
+  "list_as_of": "2026-10-01"
+ },
+ "defaults": {
+  "family": "iiser",
+  "group": "G1",
+  "ownership": "central_govt",
+  "statutory_basis": "National Institutes of Technology, Science Education and Research Act, 2007",
+  "legacy_type": "central_institute",
+  "nodes": [
+   "integrated_msc"
+  ]
+ },
+ "families": {
+  "iiser": {
+   "national_count": 7,
+   "as_of": "2026-10-01",
+   "official_list_url": "https://iiseradmission.in/"
+  },
+  "niser": {
+   "national_count": 1,
+   "as_of": "2026-10-01",
+   "official_list_url": "https://www.niser.ac.in"
+  },
+  "isi": {
+   "national_count": 1,
+   "as_of": "2026-10-01",
+   "official_list_url": "https://www.isical.ac.in"
+  }
+ },
+ "institutes": [
+  {
+   "key": "iiser-kolkata",
+   "name": "Indian Institute of Science Education and Research Kolkata",
+   "website": "https://www.iiserkol.ac.in",
+   "reference_id": "https://www.iiserkol.ac.in"
+  },
+  {
+   "key": "iiser-pune",
+   "name": "Indian Institute of Science Education and Research Pune",
+   "website": "https://www.iiserpune.ac.in",
+   "reference_id": "https://www.iiserpune.ac.in"
+  },
+  {
+   "key": "iiser-mohali",
+   "name": "Indian Institute of Science Education and Research Mohali",
+   "website": "https://www.iisermohali.ac.in",
+   "reference_id": "https://www.iisermohali.ac.in"
+  },
+  {
+   "key": "iiser-bhopal",
+   "name": "Indian Institute of Science Education and Research Bhopal",
+   "website": "https://www.iiserb.ac.in",
+   "reference_id": "https://www.iiserb.ac.in"
+  },
+  {
+   "key": "iiser-thiruvananthapuram",
+   "name": "Indian Institute of Science Education and Research Thiruvananthapuram",
+   "website": "https://www.iisertvm.ac.in",
+   "reference_id": "https://www.iisertvm.ac.in"
+  },
+  {
+   "key": "iiser-tirupati",
+   "name": "Indian Institute of Science Education and Research Tirupati",
+   "website": "https://www.iisertirupati.ac.in",
+   "reference_id": "https://www.iisertirupati.ac.in",
+   "nirf": false,
+   "city": "Tirupati",
+   "state": "Andhra Pradesh"
+  },
+  {
+   "key": "iiser-berhampur",
+   "name": "Indian Institute of Science Education and Research Berhampur",
+   "website": "https://www.iiserbpr.ac.in",
+   "reference_id": "https://www.iiserbpr.ac.in",
+   "nirf": false,
+   "city": "Berhampur",
+   "state": "Odisha"
+  },
+  {
+   "key": "niser",
+   "name": "National Institute of Science Education and Research",
+   "website": "https://www.niser.ac.in",
+   "reference_id": "https://www.niser.ac.in",
+   "family": "niser",
+   "nirf": false,
+   "city": "Jatni",
+   "state": "Odisha",
+   "statutory_basis": "Department of Atomic Energy; constituent institution of Homi Bhabha National Institute",
+   "notes": "Campus at Jatni, Khordha district (Bhubaneswar). Admits through NEST; ranked by NIRF only as part of HBNI.",
+   "verification": {
+    "authority": "Department of Atomic Energy",
+    "list_name": "NISER official website (DAE institution)",
+    "list_url": "https://www.niser.ac.in",
+    "list_as_of": "2026-10-01"
+   }
+  },
+  {
+   "key": "isi",
+   "name": "Indian Statistical Institute",
+   "website": "https://www.isical.ac.in",
+   "reference_id": "https://www.isical.ac.in",
+   "family": "isi",
+   "nirf_names": [
+    "Indian Statistical Institute, Kolkata"
+   ],
+   "existing": [
+    "ISI Kolkata",
+    "Indian Statistical Institute Kolkata"
+   ],
+   "statutory_basis": "Indian Statistical Institute Act, 1959",
+   "nodes": [
+    "bsc_stats"
+   ],
+   "notes": "Headquarters in Kolkata; B.Stat and B.Math are taught at the Kolkata and Bengaluru centres.",
+   "verification": {
+    "authority": "Parliament of India",
+    "list_name": "Indian Statistical Institute Act, 1959",
+    "list_url": "https://www.isical.ac.in",
+    "list_as_of": "2026-10-01"
+   }
+  }
+ ]
+}
