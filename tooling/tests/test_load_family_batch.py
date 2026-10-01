@@ -347,6 +347,21 @@ class LoadFamilyBatchTest(unittest.TestCase):
             (1,),
         )
 
+    def test_a_one_member_family_is_described_by_its_group(self) -> None:
+        connection = _database()
+        batch = copy.deepcopy(BATCH)
+        batch["families"] = {"iisc": {"national_count": 1, "as_of": "2026-10-01",
+                                      "official_list_url": "https://ugc"}}
+        batch["institutes"] = [dict(batch["institutes"][1], family="iisc")]
+        load(connection, batch, SNAPSHOT)
+        self.assertEqual(
+            connection.execute(
+                "SELECT description FROM institutes WHERE name = 'Indian Institute of Technology Goa'"
+            ).fetchone()[0],
+            "Indian Institute of Technology Goa — National flagship / Institutes of National "
+            "Importance. Verified against IIT Council list of IITs. NIRF 2025: band 101-150 in Engineering.",
+        )
+
     def test_an_update_without_a_website_keeps_the_known_one(self) -> None:
         connection = _database()
         connection.execute("UPDATE institutes SET website = 'https://www.iitb.ac.in' WHERE id = 11")

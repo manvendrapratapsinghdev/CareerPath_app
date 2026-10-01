@@ -181,9 +181,13 @@ def node_ids(connection: sqlite3.Connection, slugs: list[str]) -> list[int]:
 
 
 def describe(item: dict[str, Any], family_name: str, entries: list[dict[str, Any]],
-             year: int, list_name: str) -> str:
-    """A short description built only from verified fields."""
-    text = f"{item['name']} is one of the {family_name}, listed in {list_name}."
+             year: int, list_name: str, group_name: str, single: bool) -> str:
+    """A short description built only from verified fields. A family with
+    one member (NISER) is not "one of" itself, so it names the group."""
+    if single:
+        text = f"{item['name']} — {group_name}. Verified against {list_name}."
+    else:
+        text = f"{item['name']} is one of the {family_name}, listed in {list_name}."
     ranked = sorted(
         (e for e in entries if e["rank"] is not None), key=lambda e: e["rank"]
     )
@@ -256,6 +260,7 @@ def load(connection: sqlite3.Connection, batch: dict[str, Any], snapshot: dict[s
         "departments": [], "summary_rows": [], "rankings": 0, "node_links": 0,
     }
     family_names = dict(connection.execute("SELECT slug, name FROM families"))
+    group_names = dict(connection.execute("SELECT code, name FROM institution_groups"))
     defaults = batch.get("defaults", {})
     claimed = Claims()
 
@@ -287,7 +292,9 @@ def load(connection: sqlite3.Connection, batch: dict[str, Any], snapshot: dict[s
                 (
                     item["name"], city, state, item.get("website"),
                     describe(item, family_names[item["family"]], entries, year,
-                             item["verification"]["list_name"]),
+                             item["verification"]["list_name"], group_names[item["group"]],
+                             batch.get("families", {}).get(item["family"], {})
+                             .get("national_count") == 1),
                     item.get("legacy_type"),
                 ),
             )
