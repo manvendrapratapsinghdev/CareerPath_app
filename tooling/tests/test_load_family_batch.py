@@ -56,9 +56,8 @@ BATCH = {
          "website": "https://www.iitb.ac.in", "existing": ["IIT Bombay"],
          "departments": ["IIT Bombay (Civil)",
                          {"name": "Industrial Design Centre (IDC), IIT Bombay",
-                          "existing": ["IDC IIT Bombay"]}]},
-        {"key": "iit-goa", "name": "Indian Institute of Technology Goa",
-         "website": "https://www.iitgoa.ac.in"},
+                          "existing": ["IDC IIT Bombay"], "city": "Panaji", "state": "Goa"}]},
+        {"key": "iit-goa", "name": "Indian Institute of Technology Goa"},
     ],
     "summary_rows": [{"name": "IITs"}],
 }
@@ -135,6 +134,9 @@ class LoadFamilyBatchTest(unittest.TestCase):
             "WHERE name = 'Indian Institute of Technology Goa'"
         ).fetchone()
         self.assertEqual((city, state, source_id), ("Ponda", "Goa", None))
+        self.assertIsNone(connection.execute(
+            "SELECT website FROM institutes WHERE name = 'Indian Institute of Technology Goa'"
+        ).fetchone()[0])
         self.assertIn("IIT Council list of IITs", description)
         self.assertIn("band 101-150 in Engineering", description)
 
@@ -184,7 +186,10 @@ class LoadFamilyBatchTest(unittest.TestCase):
         self.assertEqual(
             children,
             [("IIT Bombay (Civil)", 11, "medium", "Maharashtra"),
-             ("Industrial Design Centre (IDC), IIT Bombay", 11, "medium", "Maharashtra")],
+             ("Industrial Design Centre (IDC), IIT Bombay", 11, "medium", "Goa")],
+        )
+        self.assertEqual(
+            connection.execute("SELECT city FROM institutes WHERE id = 14").fetchone(), ("Panaji",)
         )
         # The duplicate department row is merged, with its career-node link.
         self.assertIsNone(connection.execute("SELECT 1 FROM institutes WHERE id = 13").fetchone())
@@ -303,6 +308,17 @@ class LoadFamilyBatchTest(unittest.TestCase):
                 "ORDER BY year, category"
             ).fetchall(),
             [(2024, "Engineering"), (2025, "Engineering"), (2025, "Overall")],
+        )
+
+    def test_an_update_without_a_website_keeps_the_known_one(self) -> None:
+        connection = _database()
+        connection.execute("UPDATE institutes SET website = 'https://www.iitb.ac.in' WHERE id = 11")
+        batch = copy.deepcopy(BATCH)
+        del batch["institutes"][0]["website"]
+        load(connection, batch, SNAPSHOT)
+        self.assertEqual(
+            connection.execute("SELECT website FROM institutes WHERE id = 11").fetchone(),
+            ("https://www.iitb.ac.in",),
         )
 
     def test_district_is_kept_only_when_city_and_state_are_unchanged(self) -> None:

@@ -282,7 +282,7 @@ def load(connection: sqlite3.Connection, batch: dict[str, Any], snapshot: dict[s
                 "INSERT INTO institutes (name, city, state, website, description, "
                 "institution_type) VALUES (?, ?, ?, ?, ?, ?)",
                 (
-                    item["name"], city, state, item["website"],
+                    item["name"], city, state, item.get("website"),
                     describe(item, family_names[item["family"]], entries, year,
                              item["verification"]["list_name"]),
                     item.get("legacy_type"),
@@ -293,9 +293,10 @@ def load(connection: sqlite3.Connection, batch: dict[str, Any], snapshot: dict[s
         else:
             relocate(connection, institute_id, city, state)
             connection.execute(
-                "UPDATE institutes SET name = ?, website = ?, "
+                "UPDATE institutes SET name = ?, website = COALESCE(?, website), "
                 "institution_type = COALESCE(?, institution_type) WHERE id = ?",
-                (item["name"], item["website"], item.get("legacy_type"), institute_id),
+                # An unknown website is never guessed; a known one is kept.
+                (item["name"], item.get("website"), item.get("legacy_type"), institute_id),
             )
             report["updated"].append(item["name"])
         connection.execute(
@@ -347,7 +348,9 @@ def load(connection: sqlite3.Connection, batch: dict[str, Any], snapshot: dict[s
             )
             if department_id is None:
                 raise BatchError(f"{item['name']}: department not found: {department['name']}")
-            relocate(connection, department_id, city, state)
+            # A department at another campus (IIM Lucknow's Noida campus) keeps its place.
+            relocate(connection, department_id, department.get("city", city),
+                     department.get("state", state))
             # Departments come from earlier curated research, not the official list.
             classify(connection, department_id, {**item, "name": department["name"]},
                      parent_id=institute_id, confidence="medium")
