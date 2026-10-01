@@ -277,13 +277,15 @@ def load(connection: sqlite3.Connection, batch: dict[str, Any], snapshot: dict[s
         )
         if institute_id is None:
             connection.execute(
-                "INSERT INTO institutes (name, city, state, website, description, source_id, "
-                "institution_type) VALUES (?, ?, ?, ?, ?, ?, ?)",
+                # source_id stays NULL: it marks rows from the state research
+                # imports; a batch row is traced by its verification record.
+                "INSERT INTO institutes (name, city, state, website, description, "
+                "institution_type) VALUES (?, ?, ?, ?, ?, ?)",
                 (
                     item["name"], city, state, item["website"],
                     describe(item, family_names[item["family"]], entries, year,
                              item["verification"]["list_name"]),
-                    f"batch:{item['key']}", item.get("legacy_type"),
+                    item.get("legacy_type"),
                 ),
             )
             institute_id = connection.execute("SELECT last_insert_rowid()").fetchone()[0]

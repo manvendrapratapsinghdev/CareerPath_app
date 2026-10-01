@@ -134,7 +134,7 @@ class LoadFamilyBatchTest(unittest.TestCase):
             "SELECT name, city, state, description, source_id FROM institutes "
             "WHERE name = 'Indian Institute of Technology Goa'"
         ).fetchone()
-        self.assertEqual((city, state, source_id), ("Ponda", "Goa", "batch:iit-goa"))
+        self.assertEqual((city, state, source_id), ("Ponda", "Goa", None))
         self.assertIn("IIT Council list of IITs", description)
         self.assertIn("band 101-150 in Engineering", description)
 
