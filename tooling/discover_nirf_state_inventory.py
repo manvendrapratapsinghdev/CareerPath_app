@@ -84,6 +84,9 @@ CENTRAL_MARKERS = (
     "indian institute",
 )
 
+LAW_WORDS = re.compile(r"\b(?:law|laws|llb|legal|juridical)\b")
+GOVERNMENT_WORDS = re.compile(r"\b(?:government|govt|rajkiya)\b")
+
 SPECIALIZED_CATEGORIES = {
     "architecture and planning",
     "pharmacy",
@@ -117,7 +120,9 @@ def institution_type(name: str, categories: list[str]) -> str:
         return "government_polytechnic"
     if any("medical" in category or "dental" in category for category in category_text):
         return "medical"
-    if "law" in category_text or "law" in folded:
+    # Whole words only: a plain substring test typed "Government Engineering
+    # College, Jhalawar" as a law college.
+    if "law" in category_text or LAW_WORDS.search(folded):
         return "law"
     if any("agriculture" in category or "agri" in category for category in category_text):
         return "agriculture"
@@ -125,7 +130,9 @@ def institution_type(name: str, categories: list[str]) -> str:
         return "specialized"
     if "aided" in folded:
         return "government_aided_college"
-    if any(word in folded for word in ("college", "institute", "school")):
+    # Ownership is only claimed when the name states it; a private college
+    # must not become a government one just because it is a college.
+    if GOVERNMENT_WORDS.search(folded):
         return "government_college"
     return "other"
 
