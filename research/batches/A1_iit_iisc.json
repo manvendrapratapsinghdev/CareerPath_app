@@ -1,0 +1,292 @@
+{
+ "batch": "A1",
+ "title": "Wave A (G1): Indian Institutes of Technology and IISc",
+ "verified_at": "2026-10-01",
+ "nirf_snapshot": "research/official_lists/nirf/nirf_2025.json",
+ "verification": {
+  "authority": "MoE",
+  "list_name": "IIT Council list of Indian Institutes of Technology",
+  "list_url": "https://www.iitsystem.ac.in/",
+  "list_as_of": "2026-10-01"
+ },
+ "defaults": {
+  "family": "iit",
+  "group": "G1",
+  "ownership": "central_govt",
+  "statutory_basis": "Institutes of Technology Act, 1961",
+  "legacy_type": "iit",
+  "nodes": [
+   "btech"
+  ]
+ },
+ "families": {
+  "iit": {
+   "national_count": 23,
+   "as_of": "2026-10-01",
+   "official_list_url": "https://www.iitsystem.ac.in/"
+  },
+  "iisc": {
+   "national_count": 1,
+   "as_of": "2026-10-01",
+   "official_list_url": "https://www.ugc.gov.in/oldpdf/Deemed%20University/1452975_Consolidated-Deemed-Universities-List.pdf"
+  }
+ },
+ "institutes": [
+  {
+   "key": "iit-kharagpur",
+   "name": "Indian Institute of Technology Kharagpur",
+   "website": "https://www.iitkgp.ac.in",
+   "reference_id": "https://www.iitkgp.ac.in",
+   "existing": [
+    "IIT Kharagpur"
+   ],
+   "departments": [
+    "IIT Kharagpur (Architecture)",
+    "IIT Kharagpur (ECE)",
+    "IIT Kharagpur - Agricultural & Food Engineering",
+    "Rajiv Gandhi School of Intellectual Property Law, IIT Kharagpur"
+   ]
+  },
+  {
+   "key": "iit-bombay",
+   "name": "Indian Institute of Technology Bombay",
+   "website": "https://www.iitb.ac.in",
+   "reference_id": "https://www.iitb.ac.in",
+   "existing": [
+    "IIT Bombay"
+   ],
+   "departments": [
+    "IIT Bombay (Aerospace)",
+    "IIT Bombay (Chemical)",
+    "IIT Bombay (Chemistry)",
+    "IIT Bombay (Civil)",
+    "IIT Bombay (Cyber Security)",
+    "IIT Bombay (ECE)",
+    "IIT Bombay (Electrical)",
+    "IIT Bombay (Mathematics)",
+    "IIT Bombay (Mechanical)",
+    "IIT Bombay (Physics)",
+    "IIT Bombay - Department of Energy Science and Engineering",
+    {
+     "name": "Industrial Design Centre (IDC), IIT Bombay",
+     "existing": [
+      "IDC IIT Bombay"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "iit-madras",
+   "name": "Indian Institute of Technology Madras",
+   "website": "https://www.iitm.ac.in",
+   "reference_id": "https://www.iitm.ac.in",
+   "existing": [
+    "IIT Madras"
+   ],
+   "departments": [
+    "IIT Madras (Aerospace)",
+    "IIT Madras (Civil)",
+    "IIT Madras (Data Science)",
+    "IIT Madras (ECE)",
+    "IIT Madras (Electrical)",
+    "IIT Madras (Mathematics)",
+    "IIT Madras (Mechanical)",
+    "IIT Madras (Physics)",
+    "IIT Madras - CBEEV"
+   ]
+  },
+  {
+   "key": "iit-kanpur",
+   "name": "Indian Institute of Technology Kanpur",
+   "website": "https://www.iitk.ac.in",
+   "reference_id": "https://www.iitk.ac.in",
+   "existing": [
+    "IIT Kanpur"
+   ],
+   "departments": [
+    "IIT Kanpur (Cyber Security)",
+    "IIT Kanpur (Mathematics)",
+    "IIT Kanpur - E&ICT Academy"
+   ]
+  },
+  {
+   "key": "iit-delhi",
+   "name": "Indian Institute of Technology Delhi",
+   "website": "https://www.iitd.ac.in",
+   "reference_id": "https://www.iitd.ac.in",
+   "existing": [
+    "IIT Delhi"
+   ],
+   "departments": [
+    "IIT Delhi (Atmospheric Sciences)",
+    "IIT Delhi (Biotechnology)",
+    "IIT Delhi (Chemical)",
+    "IIT Delhi (Electrical)",
+    "IIT Delhi - CART"
+   ]
+  },
+  {
+   "key": "iit-guwahati",
+   "name": "Indian Institute of Technology Guwahati",
+   "website": "https://www.iitg.ac.in",
+   "reference_id": "https://www.iitg.ac.in",
+   "departments": [
+    "IIT Guwahati (Biotech)",
+    "IIT Guwahati - Centre for Drone Technology"
+   ]
+  },
+  {
+   "key": "iit-roorkee",
+   "name": "Indian Institute of Technology Roorkee",
+   "website": "https://www.iitr.ac.in",
+   "reference_id": "https://www.iitr.ac.in",
+   "existing": [
+    "IIT Roorkee"
+   ],
+   "departments": [
+    {
+     "name": "IIT Roorkee (Architecture)",
+     "existing": [
+      "IIT Roorkee - Architecture Department"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "iit-bhubaneswar",
+   "name": "Indian Institute of Technology Bhubaneswar",
+   "website": "https://www.iitbbs.ac.in",
+   "reference_id": "https://www.iitbbs.ac.in"
+  },
+  {
+   "key": "iit-hyderabad",
+   "name": "Indian Institute of Technology Hyderabad",
+   "website": "https://www.iith.ac.in",
+   "reference_id": "https://www.iith.ac.in"
+  },
+  {
+   "key": "iit-patna",
+   "name": "Indian Institute of Technology Patna",
+   "website": "https://www.iitp.ac.in",
+   "reference_id": "https://www.iitp.ac.in"
+  },
+  {
+   "key": "iit-gandhinagar",
+   "name": "Indian Institute of Technology Gandhinagar",
+   "website": "https://www.iitgn.ac.in",
+   "reference_id": "https://www.iitgn.ac.in"
+  },
+  {
+   "key": "iit-jodhpur",
+   "name": "Indian Institute of Technology Jodhpur",
+   "website": "https://www.iitj.ac.in",
+   "reference_id": "https://www.iitj.ac.in"
+  },
+  {
+   "key": "iit-ropar",
+   "name": "Indian Institute of Technology Ropar",
+   "website": "https://www.iitrpr.ac.in",
+   "reference_id": "https://www.iitrpr.ac.in"
+  },
+  {
+   "key": "iit-indore",
+   "name": "Indian Institute of Technology Indore",
+   "website": "https://www.iiti.ac.in",
+   "reference_id": "https://www.iiti.ac.in"
+  },
+  {
+   "key": "iit-mandi",
+   "name": "Indian Institute of Technology Mandi",
+   "website": "https://www.iitmandi.ac.in",
+   "reference_id": "https://www.iitmandi.ac.in"
+  },
+  {
+   "key": "iit-bhu",
+   "name": "Indian Institute of Technology (Banaras Hindu University) Varanasi",
+   "website": "https://www.iitbhu.ac.in",
+   "reference_id": "https://www.iitbhu.ac.in"
+  },
+  {
+   "key": "iit-palakkad",
+   "name": "Indian Institute of Technology Palakkad",
+   "website": "https://iitpkd.ac.in",
+   "reference_id": "https://iitpkd.ac.in"
+  },
+  {
+   "key": "iit-tirupati",
+   "name": "Indian Institute of Technology Tirupati",
+   "website": "https://www.iittp.ac.in",
+   "reference_id": "https://www.iittp.ac.in"
+  },
+  {
+   "key": "iit-ism-dhanbad",
+   "name": "Indian Institute of Technology (Indian School of Mines) Dhanbad",
+   "website": "https://www.iitism.ac.in",
+   "reference_id": "https://www.iitism.ac.in",
+   "existing": [
+    "Indian School of Mines (IIT Dhanbad)"
+   ],
+   "nirf_names": [
+    "Indian Institute of Technology (Indian School of Mines)"
+   ]
+  },
+  {
+   "key": "iit-bhilai",
+   "name": "Indian Institute of Technology Bhilai",
+   "website": "https://www.iitbhilai.ac.in",
+   "reference_id": "https://www.iitbhilai.ac.in"
+  },
+  {
+   "key": "iit-goa",
+   "name": "Indian Institute of Technology Goa",
+   "website": "https://www.iitgoa.ac.in",
+   "reference_id": "https://www.iitgoa.ac.in"
+  },
+  {
+   "key": "iit-jammu",
+   "name": "Indian Institute of Technology Jammu",
+   "website": "https://www.iitjammu.ac.in",
+   "reference_id": "https://www.iitjammu.ac.in"
+  },
+  {
+   "key": "iit-dharwad",
+   "name": "Indian Institute of Technology Dharwad",
+   "website": "https://www.iitdh.ac.in",
+   "reference_id": "https://www.iitdh.ac.in"
+  },
+  {
+   "key": "iisc",
+   "name": "Indian Institute of Science",
+   "website": "https://www.iisc.ac.in",
+   "family": "iisc",
+   "statutory_basis": "Deemed to be University under Section 3 of the UGC Act (1958)",
+   "legacy_type": null,
+   "nodes": [],
+   "existing": [
+    "IISc Bangalore"
+   ],
+   "reference_id": "S.No. 30",
+   "verification": {
+    "authority": "UGC",
+    "list_name": "UGC consolidated list of deemed universities",
+    "list_url": "https://www.ugc.gov.in/oldpdf/Deemed%20University/1452975_Consolidated-Deemed-Universities-List.pdf",
+    "list_as_of": "2026-10-01"
+   }
+  }
+ ],
+ "summary_rows": [
+  {
+   "name": "IITs"
+  },
+  {
+   "name": "IITs (Data Science programs)"
+  },
+  {
+   "name": "IITs (Statistics Dept)"
+  }
+ ],
+ "not_claimed": {
+  "IIT Guwahati RPTO (EduRade)": "drone pilot training (G10b, Phase 2)",
+  "DroneAcharya RPTO at IIT Ropar": "drone pilot training (G10b, Phase 2)"
+ }
+}
