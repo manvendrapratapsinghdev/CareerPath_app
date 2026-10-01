@@ -1,0 +1,334 @@
+{
+ "batch": "A5b",
+ "title": "Wave A (G1): NIDs, NIFTEMs, ITRA, NFSU, RRU and Kalakshetra (+ AIIA, G3)",
+ "verified_at": "2026-10-01",
+ "nirf_snapshot": "research/official_lists/nirf/nirf_2025.json",
+ "verification": {
+  "authority": "Parliament of India",
+  "list_name": "National Institute of Design Act, 2014 (as amended in 2019)",
+  "list_url": "https://www.nid.edu",
+  "list_as_of": "2026-10-01"
+ },
+ "defaults": {
+  "group": "G1",
+  "ownership": "central_govt",
+  "legacy_type": "central_institute"
+ },
+ "families": {
+  "nid": {
+   "national_count": 5,
+   "as_of": "2026-10-01",
+   "official_list_url": "https://www.nid.edu"
+  },
+  "niftem": {
+   "national_count": 2,
+   "as_of": "2026-10-01",
+   "official_list_url": "https://www.niftem.ac.in"
+  },
+  "itra": {
+   "national_count": 1,
+   "as_of": "2026-10-01",
+   "official_list_url": "https://ayush.gov.in/assets/pdf/ITRA_Act_2020.pdf"
+  },
+  "aiia": {
+   "national_count": 1,
+   "as_of": "2026-10-01",
+   "official_list_url": "https://www.aiia.gov.in"
+  },
+  "nfsu": {
+   "national_count": 1,
+   "as_of": "2026-10-01",
+   "official_list_url": "https://www.nfsu.ac.in"
+  },
+  "rru": {
+   "national_count": 1,
+   "as_of": "2026-10-01",
+   "official_list_url": "https://www.rru.ac.in"
+  },
+  "kalakshetra": {
+   "national_count": 1,
+   "as_of": "2026-10-01",
+   "official_list_url": "https://kalakshetra.in"
+  }
+ },
+ "institutes": [
+  {
+   "key": "nid-ahmedabad",
+   "name": "National Institute of Design Ahmedabad",
+   "website": "https://www.nid.edu",
+   "reference_id": "https://www.nid.edu",
+   "family": "nid",
+   "nirf": false,
+   "statutory_basis": "National Institute of Design Act, 2014 (as amended in 2019)",
+   "nodes": [
+    "nid",
+    "bdes"
+   ],
+   "verification": {
+    "authority": "Parliament of India",
+    "list_name": "National Institute of Design Act, 2014 (as amended in 2019)",
+    "list_url": "https://www.nid.edu",
+    "list_as_of": "2026-10-01"
+   },
+   "legacy_type": "central_institute",
+   "city": "Ahmedabad",
+   "state": "Gujarat",
+   "existing": [
+    "NID Ahmedabad",
+    "National Institute of Design (NID)"
+   ]
+  },
+  {
+   "key": "nid-andhra-pradesh",
+   "name": "National Institute of Design Andhra Pradesh",
+   "website": "https://nid.ac.in",
+   "reference_id": "https://nid.ac.in",
+   "family": "nid",
+   "nirf": false,
+   "statutory_basis": "National Institute of Design Act, 2014 (as amended in 2019)",
+   "nodes": [
+    "nid",
+    "bdes"
+   ],
+   "verification": {
+    "authority": "Parliament of India",
+    "list_name": "National Institute of Design Act, 2014 (as amended in 2019)",
+    "list_url": "https://www.nid.edu",
+    "list_as_of": "2026-10-01"
+   },
+   "legacy_type": "central_institute",
+   "city": "Amaravati",
+   "state": "Andhra Pradesh",
+   "notes": "Campus at Sakhamuru, Amaravati, Guntur district."
+  },
+  {
+   "key": "nid-madhya-pradesh",
+   "name": "National Institute of Design Madhya Pradesh",
+   "website": "https://nidmp.ac.in",
+   "reference_id": "https://nidmp.ac.in",
+   "family": "nid",
+   "nirf": false,
+   "statutory_basis": "National Institute of Design Act, 2014 (as amended in 2019)",
+   "nodes": [
+    "nid",
+    "bdes"
+   ],
+   "verification": {
+    "authority": "Parliament of India",
+    "list_name": "National Institute of Design Act, 2014 (as amended in 2019)",
+    "list_url": "https://www.nid.edu",
+    "list_as_of": "2026-10-01"
+   },
+   "legacy_type": "central_institute",
+   "city": "Bhopal",
+   "state": "Madhya Pradesh"
+  },
+  {
+   "key": "nid-assam",
+   "name": "National Institute of Design Assam",
+   "website": "https://nidj.ac.in",
+   "reference_id": "https://nidj.ac.in",
+   "family": "nid",
+   "nirf": false,
+   "statutory_basis": "National Institute of Design Act, 2014 (as amended in 2019)",
+   "nodes": [
+    "nid",
+    "bdes"
+   ],
+   "verification": {
+    "authority": "Parliament of India",
+    "list_name": "National Institute of Design Act, 2014 (as amended in 2019)",
+    "list_url": "https://www.nid.edu",
+    "list_as_of": "2026-10-01"
+   },
+   "legacy_type": "central_institute",
+   "city": "Jorhat",
+   "state": "Assam"
+  },
+  {
+   "key": "nid-haryana",
+   "name": "National Institute of Design Haryana",
+   "website": "https://www.nidh.ac.in",
+   "reference_id": "https://www.nidh.ac.in",
+   "family": "nid",
+   "nirf": false,
+   "statutory_basis": "National Institute of Design Act, 2014 (as amended in 2019)",
+   "nodes": [
+    "nid",
+    "bdes"
+   ],
+   "verification": {
+    "authority": "Parliament of India",
+    "list_name": "National Institute of Design Act, 2014 (as amended in 2019)",
+    "list_url": "https://www.nid.edu",
+    "list_as_of": "2026-10-01"
+   },
+   "legacy_type": "central_institute",
+   "city": "Kurukshetra",
+   "state": "Haryana",
+   "existing": [
+    "NID Haryana"
+   ]
+  },
+  {
+   "key": "niftem-kundli",
+   "name": "National Institute of Food Technology Entrepreneurship and Management Kundli",
+   "website": "https://www.niftem.ac.in",
+   "reference_id": "https://www.niftem.ac.in",
+   "family": "niftem",
+   "nirf": false,
+   "city": "Sonipat",
+   "state": "Haryana",
+   "existing": [
+    "National Institute of Food Technology (NIFTEM)"
+   ],
+   "nodes": [
+    "bsc_food_tech"
+   ],
+   "statutory_basis": "National Institutes of Food Technology, Entrepreneurship and Management Act, 2021",
+   "notes": "Campus at Kundli, Sonipat district.",
+   "verification": {
+    "authority": "Parliament of India",
+    "list_name": "National Institutes of Food Technology, Entrepreneurship and Management Act, 2021",
+    "list_url": "https://www.niftem.ac.in",
+    "list_as_of": "2026-10-01"
+   }
+  },
+  {
+   "key": "niftem-thanjavur",
+   "name": "National Institute of Food Technology Entrepreneurship and Management Thanjavur",
+   "website": "https://www.niftem-t.ac.in",
+   "reference_id": "https://www.niftem-t.ac.in",
+   "family": "niftem",
+   "nirf_names": [
+    "National Institute of Food Technology, Entrepreneurship and Management - Thanjavur (NIFTEM - Thanjavur)"
+   ],
+   "nodes": [
+    "bsc_food_tech"
+   ],
+   "statutory_basis": "National Institutes of Food Technology, Entrepreneurship and Management Act, 2021",
+   "verification": {
+    "authority": "Parliament of India",
+    "list_name": "National Institutes of Food Technology, Entrepreneurship and Management Act, 2021",
+    "list_url": "https://www.niftem.ac.in",
+    "list_as_of": "2026-10-01"
+   }
+  },
+  {
+   "key": "itra",
+   "name": "Institute of Teaching and Research in Ayurveda",
+   "website": "https://www.itra.edu.in",
+   "reference_id": "https://www.itra.edu.in",
+   "family": "itra",
+   "nirf": false,
+   "city": "Jamnagar",
+   "state": "Gujarat",
+   "nodes": [
+    "bams"
+   ],
+   "regulators": "NCISM",
+   "statutory_basis": "Institute of Teaching and Research in Ayurveda Act, 2020 (No. 16 of 2020)",
+   "notes": "On the Gujarat Ayurved University campus; formed from IPGT&RA, Shree Gulabkunverba Ayurved Mahavidyalaya and IIAPS, Jamnagar.",
+   "verification": {
+    "authority": "Parliament of India",
+    "list_name": "Institute of Teaching and Research in Ayurveda Act, 2020",
+    "list_url": "https://ayush.gov.in/assets/pdf/ITRA_Act_2020.pdf",
+    "list_as_of": "2026-10-01"
+   }
+  },
+  {
+   "key": "aiia",
+   "name": "All India Institute of Ayurveda",
+   "website": "https://www.aiia.gov.in",
+   "reference_id": "https://www.aiia.gov.in",
+   "family": "aiia",
+   "group": "G3",
+   "nirf": false,
+   "city": "New Delhi",
+   "state": "Delhi",
+   "nodes": [],
+   "regulators": "NCISM",
+   "statutory_basis": "Autonomous organisation under the Ministry of Ayush",
+   "notes": "Apex postgraduate Ayurveda institute (MD/MS, PhD) of the Ministry of Ayush; not an Institution of National Importance.",
+   "verification": {
+    "authority": "Ministry of Ayush",
+    "list_name": "All India Institute of Ayurveda (official website)",
+    "list_url": "https://www.aiia.gov.in",
+    "list_as_of": "2026-10-01"
+   }
+  },
+  {
+   "key": "nfsu",
+   "name": "National Forensic Sciences University",
+   "website": "https://www.nfsu.ac.in",
+   "reference_id": "https://www.nfsu.ac.in",
+   "family": "nfsu",
+   "nirf": false,
+   "city": "Gandhinagar",
+   "state": "Gujarat",
+   "existing": [
+    "Gujarat Forensic Sciences University"
+   ],
+   "nodes": [
+    "bsc_forensic"
+   ],
+   "departments": [
+    {
+     "name": "LNJN National Institute of Criminology and Forensic Science",
+     "city": "New Delhi",
+     "state": "Delhi"
+    }
+   ],
+   "statutory_basis": "National Forensic Sciences University Act, 2020",
+   "notes": "Formerly Gujarat Forensic Sciences University; the LNJN NICFS in Delhi is now an NFSU campus.",
+   "description": "National Forensic Sciences University (formerly Gujarat Forensic Sciences University), Gandhinagar, is an Institution of National Importance under the National Forensic Sciences University Act, 2020, with campuses in other states including Delhi (the former LNJN National Institute of Criminology and Forensic Science).",
+   "verification": {
+    "authority": "Parliament of India",
+    "list_name": "National Forensic Sciences University Act, 2020",
+    "list_url": "https://www.nfsu.ac.in",
+    "list_as_of": "2026-10-01"
+   }
+  },
+  {
+   "key": "rru",
+   "name": "Rashtriya Raksha University",
+   "website": "https://www.rru.ac.in",
+   "reference_id": "https://www.rru.ac.in",
+   "family": "rru",
+   "nirf": false,
+   "city": "Gandhinagar",
+   "state": "Gujarat",
+   "nodes": [],
+   "statutory_basis": "Rashtriya Raksha University Act, 2020",
+   "notes": "Police, security and strategic studies; formerly Raksha Shakti University.",
+   "verification": {
+    "authority": "Parliament of India",
+    "list_name": "Rashtriya Raksha University Act, 2020",
+    "list_url": "https://www.rru.ac.in",
+    "list_as_of": "2026-10-01"
+   }
+  },
+  {
+   "key": "kalakshetra",
+   "name": "Kalakshetra Foundation",
+   "website": "https://kalakshetra.in",
+   "reference_id": "https://kalakshetra.in",
+   "family": "kalakshetra",
+   "nirf": false,
+   "city": "Chennai",
+   "state": "Tamil Nadu",
+   "nodes": [
+    "dance_course",
+    "music_course"
+   ],
+   "statutory_basis": "Kalakshetra Foundation Act, 1993",
+   "notes": "Bharatanatyam, Carnatic music and visual arts (Rukmini Devi College of Fine Arts).",
+   "verification": {
+    "authority": "Parliament of India",
+    "list_name": "Kalakshetra Foundation Act, 1993",
+    "list_url": "https://kalakshetra.in",
+    "list_as_of": "2026-10-01"
+   }
+  }
+ ]
+}
