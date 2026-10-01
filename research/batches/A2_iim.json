@@ -1,0 +1,215 @@
+{
+ "batch": "A2",
+ "title": "Wave A (G1): Indian Institutes of Management",
+ "verified_at": "2026-10-01",
+ "nirf_snapshot": "research/official_lists/nirf/nirf_2025.json",
+ "verification": {
+  "authority": "Parliament of India",
+  "list_name": "IIM Act 2017 Schedule (as amended 2023, 2025)",
+  "list_url": "https://www.indiacode.nic.in/handle/123456789/2248",
+  "list_as_of": "2026-10-01"
+ },
+ "defaults": {
+  "family": "iim",
+  "group": "G1",
+  "ownership": "central_govt",
+  "statutory_basis": "Indian Institutes of Management Act, 2017",
+  "legacy_type": "iim",
+  "nodes": [
+   "mba_general"
+  ]
+ },
+ "families": {
+  "iim": {
+   "national_count": 22,
+   "as_of": "2026-10-01",
+   "official_list_url": "https://www.indiacode.nic.in/handle/123456789/2248"
+  }
+ },
+ "institutes": [
+  {
+   "key": "iim-ahmedabad",
+   "name": "Indian Institute of Management Ahmedabad",
+   "website": "https://www.iima.ac.in",
+   "reference_id": "https://www.iima.ac.in",
+   "existing": [
+    "Indian Institute of Management Ahmedabad (IIMA)"
+   ]
+  },
+  {
+   "key": "iim-bangalore",
+   "name": "Indian Institute of Management Bangalore",
+   "website": "https://www.iimb.ac.in",
+   "reference_id": "https://www.iimb.ac.in",
+   "existing": [
+    "Indian Institute of Management Bangalore (IIMB)"
+   ]
+  },
+  {
+   "key": "iim-kozhikode",
+   "name": "Indian Institute of Management Kozhikode",
+   "website": "https://www.iimk.ac.in",
+   "reference_id": "https://www.iimk.ac.in",
+   "existing": [
+    "Indian Institute of Management Kozhikode (IIMK)"
+   ]
+  },
+  {
+   "key": "iim-lucknow",
+   "name": "Indian Institute of Management Lucknow",
+   "website": "https://www.iiml.ac.in",
+   "reference_id": "https://www.iiml.ac.in",
+   "existing": [
+    "Indian Institute of Management Lucknow (IIML)"
+   ],
+   "departments": [
+    {
+     "name": "IIM Lucknow - PGP-SM",
+     "city": "Noida",
+     "state": "Uttar Pradesh"
+    }
+   ]
+  },
+  {
+   "key": "iim-mumbai",
+   "name": "Indian Institute of Management Mumbai",
+   "website": "https://www.iimmumbai.ac.in",
+   "reference_id": "https://www.iimmumbai.ac.in",
+   "nirf_names": [
+    "Indian Institute of Management, Mumbai"
+   ]
+  },
+  {
+   "key": "iim-calcutta",
+   "name": "Indian Institute of Management Calcutta",
+   "website": "https://www.iimcal.ac.in",
+   "reference_id": "https://www.iimcal.ac.in",
+   "existing": [
+    "Indian Institute of Management Calcutta (IIMC)"
+   ]
+  },
+  {
+   "key": "iim-indore",
+   "name": "Indian Institute of Management Indore",
+   "website": "https://www.iimidr.ac.in",
+   "reference_id": "https://www.iimidr.ac.in"
+  },
+  {
+   "key": "iim-raipur",
+   "name": "Indian Institute of Management Raipur",
+   "website": "https://www.iimraipur.ac.in",
+   "reference_id": "https://www.iimraipur.ac.in"
+  },
+  {
+   "key": "iim-tiruchirappalli",
+   "name": "Indian Institute of Management Tiruchirappalli",
+   "website": "https://www.iimtrichy.ac.in",
+   "reference_id": "https://www.iimtrichy.ac.in"
+  },
+  {
+   "key": "iim-ranchi",
+   "name": "Indian Institute of Management Ranchi",
+   "website": "https://www.iimranchi.ac.in",
+   "reference_id": "https://www.iimranchi.ac.in",
+   "existing": [
+    "Indian Institute of Management Ranchi (IIMR)"
+   ]
+  },
+  {
+   "key": "iim-rohtak",
+   "name": "Indian Institute of Management Rohtak",
+   "website": "https://www.iimrohtak.ac.in",
+   "reference_id": "https://www.iimrohtak.ac.in"
+  },
+  {
+   "key": "iim-udaipur",
+   "name": "Indian Institute of Management Udaipur",
+   "website": "https://www.iimu.ac.in",
+   "reference_id": "https://www.iimu.ac.in"
+  },
+  {
+   "key": "iim-kashipur",
+   "name": "Indian Institute of Management Kashipur",
+   "website": "https://www.iimkashipur.ac.in",
+   "reference_id": "https://www.iimkashipur.ac.in"
+  },
+  {
+   "key": "iim-nagpur",
+   "name": "Indian Institute of Management Nagpur",
+   "website": "https://www.iimnagpur.ac.in",
+   "reference_id": "https://www.iimnagpur.ac.in",
+   "nirf_names": [
+    "Indian Institute of Management"
+   ],
+   "nirf_city": "Nagpur",
+   "existing": [
+    "IIM Nagpur"
+   ]
+  },
+  {
+   "key": "iim-visakhapatnam",
+   "name": "Indian Institute of Management Visakhapatnam",
+   "website": "https://www.iimv.ac.in",
+   "reference_id": "https://www.iimv.ac.in"
+  },
+  {
+   "key": "iim-bodh-gaya",
+   "name": "Indian Institute of Management Bodh Gaya",
+   "website": "https://www.iimbg.ac.in",
+   "reference_id": "https://www.iimbg.ac.in"
+  },
+  {
+   "key": "iim-jammu",
+   "name": "Indian Institute of Management Jammu",
+   "website": "https://www.iimj.ac.in",
+   "reference_id": "https://www.iimj.ac.in",
+   "nirf_names": [
+    "Indian Institute of Management Jammu (IIMJ)"
+   ]
+  },
+  {
+   "key": "iim-sambalpur",
+   "name": "Indian Institute of Management Sambalpur",
+   "website": "https://www.iimsambalpur.ac.in",
+   "reference_id": "https://www.iimsambalpur.ac.in"
+  },
+  {
+   "key": "iim-shillong",
+   "name": "Indian Institute of Management Shillong",
+   "website": "https://www.iimshillong.ac.in",
+   "reference_id": "https://www.iimshillong.ac.in"
+  },
+  {
+   "key": "iim-sirmaur",
+   "name": "Indian Institute of Management Sirmaur",
+   "website": "https://www.iimsirmaur.ac.in",
+   "reference_id": "https://www.iimsirmaur.ac.in"
+  },
+  {
+   "key": "iim-amritsar",
+   "name": "Indian Institute of Management Amritsar",
+   "website": "https://www.iimamritsar.ac.in",
+   "reference_id": "https://www.iimamritsar.ac.in",
+   "nirf_names": [
+    "Indian Institute of Management, Amritsar"
+   ]
+  },
+  {
+   "key": "iim-guwahati",
+   "name": "Indian Institute of Management Guwahati",
+   "nirf": false,
+   "city": "Guwahati",
+   "state": "Assam",
+   "reference_id": "Schedule Sl. No. 22",
+   "notes": "Added to the IIM Act Schedule in 2025; first MBA batch 2026-28 at a temporary campus. Not ranked by NIRF 2025. Official website not yet confirmed."
+  }
+ ],
+ "summary_rows": [
+  {
+   "name": "IIM (MBA Marketing)"
+  },
+  {
+   "name": "IIM A/B/C (MBA Finance)"
+  }
+ ]
+}
