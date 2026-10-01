@@ -99,7 +99,7 @@ fits them.
 
 | Group | Name | Includes | Excludes | Primary source of truth |
 |---|---|---|---|---|
-| **G1** | National flagship / Institutes of National Importance | IIT, IIM, AIIMS, JIPMER, PGIMER, NIMHANS, IISc, IISER, NISER, ISI, NIPER, SPA, NID, AIIA | NIT/IIIT (→ G2) | MoE INI list; the acts |
+| **G1** | National flagship / Institutes of National Importance | IIT, IIM, AIIMS, JIPMER, PGIMER, NIMHANS, IISc, IISER, NISER, ISI, NIPER, SPA, NID, ITRA | NIT/IIIT (→ G2) | MoE INI list; the acts |
 | **G2** | National technical institutes | NIT, IIIT (MoE + PPP), IIEST | — | MoE CFTI list |
 | **G3** | Central universities & central-government institutes | Central universities (DU, BHU, JNU, AMU, Jamia, EFLU, IMU, NSU…), NIFT, NSD, FTII, SRFTI, IIMC, IHM (NCHMCT), ICAR institutes, NDA, IMA, INA, OTA, AFMC, IGRUA | Research labs that don’t admit (→ X) | UGC central list; ministry lists |
 | **G4** | State public universities | State universities, state technical, health, agricultural, veterinary and law universities, **NLUs**, state open universities → G9 | State **private** universities (→ G7), colleges (→ G6/G8) | UGC state list |
@@ -146,7 +146,7 @@ lookup table (§7) will hold. Each family belongs to exactly one group.
 | NIPER | Pharmacy | Dept. of Pharmaceuticals | 7 | ⚠️ 1 summary row |
 | SPA | Architecture & planning | MoE · SPA Act | 3 | ✅ 3 |
 | NID (INI campuses) | Design | DPIIT · NID Act | 5 | ✅ 2 + summary row |
-| AIIA | AYUSH | Ministry of AYUSH | 1 | ✅ |
+| ITRA Jamnagar *(correction: AIIA New Delhi is an autonomous Ayush institute, G3)* | AYUSH | Ministry of AYUSH · ITRA Act 2020 | 1 | ✅ (loaded in A5b) |
 | NIFTEM | Food technology | MoFPI | 2 | ✅ 1 |
 | National Forensic Sciences Univ. | Forensic science | MHA | 1 (+ campuses) | ✅ (as “Gujarat Forensic Sciences Univ.” — rename) |
 | Rashtriya Raksha University | Police, security | MHA | 1 | ❌ |
@@ -175,7 +175,7 @@ lookup table (§7) will hold. Each family belongs to exactly one group.
 | NIELIT | Computing diplomas | MeitY | ~50 centres | ⚠️ summary row |
 | CIPET · CLRI · MSME tool rooms | Polymer, leather, tool-making | various | ~45 · 1 · ~18 | ❌ |
 | National rehab institutes | Rehabilitation (RCI) | MoSJE | 9 | ✅ 2 |
-| AYUSH national institutes (NIA, NIH, NIUM, NIS, MDNIY) | AYUSH, yoga | Ministry of AYUSH | ~7 | ✅ 2 |
+| AYUSH national institutes (AIIA, NIA, NIH, NIUM, NIS, MDNIY) | AYUSH, yoga | Ministry of AYUSH | ~7 | ✅ 3 (AIIA loaded in A5b) |
 | Defence academies (NDA, IMA, INA, AFA, OTA) | Defence | MoD | 5 | ✅ all 5 (NDA duplicated) |
 | AFMC | Medical (defence) | MoD | 1 | ✅ |
 | Sainik Schools · RIMC | Defence prep (school-level) | MoD | ~33 + new · 1 | ❌ (school-level, see §3.3) |
@@ -404,7 +404,7 @@ Regulator: NCISM (Ayurveda/Unani/Siddha), NCH (Homoeopathy). Entrance: NEET-UG.
 
 | Tier | Step | Group | In DB? |
 |---|---|---|---|
-| T1 | AIIA Delhi, NIA Jaipur, NIH Kolkata | G1 / G3 | ✅ 3 / ⚠️ 2 |
+| T1 | ITRA Jamnagar (G1); AIIA Delhi, NIA Jaipur, NIH Kolkata (G3) | G1 / G3 | ✅ ITRA / ✅ AIIA, NIA |
 | T2 | State AYUSH universities (Rajasthan Ayurved Univ., Gujarat Ayurved Univ., Homoeopathy Univ. Jaipur) | G4 | ✅ 3 |
 | T3 | Govt AYUSH colleges | G6 | **❌ 0** |
 | T4 | Private AYUSH colleges & universities | G7 / G8 | ✅ 7 / ⚠️ 2 |
@@ -925,7 +925,7 @@ is re-checked inside the batch it belongs to. Rows that no batch claims stay hid
 | | | A2 IIM | Management | MoE INI list | 21 |
 | | | A3 AIIMS + JIPMER, PGIMER, NIMHANS | Medical, nursing, allied | MoHFW / MoE INI list | ~24 |
 | | | A4 IISER, NISER, ISI | Science | MoE / DAE / MoSPI | 9 |
-| | | A5 NIPER · SPA · NID · NIFTEM · AIIA · NFSU · RRU · Kalakshetra | Pharmacy, architecture, design, food, AYUSH, forensic, police, arts | MoE INI list | ~25 |
+| | | A5 NIPER · SPA · NID · NIFTEM · ITRA · NFSU · RRU · Kalakshetra (+ AIIA, G3) | Pharmacy, architecture, design, food, AYUSH, forensic, police, arts | MoE INI list | ~25 |
 | **B** | G2 | B1 NIT | Engineering, architecture | MoE CFTI list | 31 |
 | | | B2 IIIT (MoE + PPP) + IIEST | Computing, engineering | MoE | ~27 |
 | **C** | G3 | C1 Central universities | All (departments as children) | UGC central list | ~56 |

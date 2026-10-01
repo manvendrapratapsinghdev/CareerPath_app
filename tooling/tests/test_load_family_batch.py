@@ -362,6 +362,25 @@ class LoadFamilyBatchTest(unittest.TestCase):
             "Importance. Verified against IIT Council list of IITs. NIRF 2025: band 101-150 in Engineering.",
         )
 
+    def test_a_spec_description_replaces_the_old_one_and_departments_keep_own_notes(self) -> None:
+        connection = _database()
+        batch = copy.deepcopy(BATCH)
+        batch["institutes"][0]["description"] = "Official description."
+        batch["institutes"][0]["notes"] = "Parent note."
+        batch["institutes"][0]["departments"][0] = {"name": "IIT Bombay (Civil)", "notes": "Civil note."}
+        load(connection, batch, SNAPSHOT)
+        self.assertEqual(
+            connection.execute("SELECT description FROM institutes WHERE id = 11").fetchone(),
+            ("Official description.",),
+        )
+        self.assertEqual(
+            connection.execute(
+                "SELECT notes FROM institute_classification WHERE institute_id IN (11, 12, 14) "
+                "ORDER BY institute_id"
+            ).fetchall(),
+            [("Parent note.",), ("Civil note.",), (None,)],
+        )
+
     def test_an_update_without_a_website_keeps_the_known_one(self) -> None:
         connection = _database()
         connection.execute("UPDATE institutes SET website = 'https://www.iitb.ac.in' WHERE id = 11")

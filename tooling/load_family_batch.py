@@ -321,6 +321,11 @@ def load(connection: sqlite3.Connection, batch: dict[str, Any], snapshot: dict[s
              f"Verified against {item['verification']['list_name']} (batch {batch['batch']}).",
              institute_id),
         )
+        if item.get("description"):
+            # An earlier description that no longer fits (a renamed university) is replaced.
+            connection.execute(
+                "UPDATE institutes SET description = ? WHERE id = ?", (item["description"], institute_id)
+            )
         claimed.ids.add(institute_id)
 
         # A status that rests on an old or partial source is not "high".
@@ -367,7 +372,8 @@ def load(connection: sqlite3.Connection, batch: dict[str, Any], snapshot: dict[s
             relocate(connection, department_id, department.get("city", city),
                      department.get("state", state))
             # Departments come from earlier curated research, not the official list.
-            classify(connection, department_id, {**item, "name": department["name"]},
+            classify(connection, department_id,
+                     {**item, "name": department["name"], "notes": department.get("notes")},
                      parent_id=institute_id, confidence="medium")
             claimed.ids.add(department_id)
             report["departments"].append(f"{department['name']} -> {item['name']}")
