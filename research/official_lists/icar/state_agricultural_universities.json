@@ -1,0 +1,715 @@
+{
+ "source_authority": "Indian Council of Agricultural Research (ICAR) — State Agricultural Universities (includes state veterinary, horticulture and fisheries universities)",
+ "source_url": "https://icar.org.in/en/state-agricultural-universities",
+ "fetched_on": "2026-10-02",
+ "page_last_updated": "01-10-2026 (as printed on the page)",
+ "count": 68,
+ "count_by_kind": {
+  "agriculture": 42,
+  "veterinary": 13,
+  "fisheries": 3,
+  "veterinary_fisheries": 4,
+  "horticulture_forestry": 6
+ },
+ "cross_reference": "Every row is matched to a row of UGC's live State Universities list (research/official_lists/ugc/ugc_state_universities.json, ugc_id). kind is derived from the name.",
+ "not_included_here": {
+  "central_agricultural_universities": "CAU Imphal, Dr. RPCAU Pusa and RLBCAU Jhansi are central (UGC central list; ICAR page /en/node/17302); loaded in C1/C4.",
+  "icar_deemed_universities": "IARI, NDRI, IVRI, CIFE (ministries/c4_icar.json).",
+  "private_agri_colleges": "Not on this list."
+ },
+ "ugc_state_rows_with_agri_vet_names_not_on_icar_page": [
+  {
+   "ugc_id": 1404,
+   "name": "University of Agricultural Sciences, Mandya",
+   "state": "Karnataka"
+  }
+ ],
+ "notes": "ICAR's page prints 'Orissa', 'UttraKhand', 'Jammu & Kashmir'; states are normalised to UGC spelling. The asterisk on row 17 has no footnote on the page. Names are kept verbatim (including ICAR's typos) in name_as_listed; prefer ugc_name for display after review.",
+ "universities": [
+  {
+   "icar_sr_no": 1,
+   "name_as_listed": "Acharya NG Ranga Agricultural University, Guntur",
+   "state": "Andhra Pradesh",
+   "seat_as_listed": "Guntur",
+   "kind": "agriculture",
+   "ugc_id": 185,
+   "ugc_name": "Acharaya N.G.Ranga Agricultural University",
+   "ugc_status": "2(f)"
+  },
+  {
+   "icar_sr_no": 2,
+   "name_as_listed": "Dr. YSRHU (APHU), Venkataramannagudem",
+   "state": "Andhra Pradesh",
+   "seat_as_listed": "Venkataramannagudem",
+   "kind": "agriculture",
+   "ugc_id": 652,
+   "ugc_name": "Dr. Y.S.R. Horticultural University",
+   "ugc_status": "2(f)"
+  },
+  {
+   "icar_sr_no": 3,
+   "name_as_listed": "Sri Venkateswara Veterinary University, Tirupati",
+   "state": "Andhra Pradesh",
+   "seat_as_listed": "Tirupati",
+   "kind": "veterinary",
+   "ugc_id": 391,
+   "ugc_name": "Sri Venkateswara Veterinary University",
+   "ugc_status": "2(f) & 12B"
+  },
+  {
+   "icar_sr_no": 4,
+   "name_as_listed": "Andhra Pradesh Fisheries University, Vijayawada",
+   "state": "Andhra Pradesh",
+   "seat_as_listed": "Vijayawada",
+   "kind": "fisheries",
+   "ugc_id": 1216,
+   "ugc_name": "Andhra Pradesh Fisheries University",
+   "ugc_status": "2(f)"
+  },
+  {
+   "icar_sr_no": 5,
+   "name_as_listed": "Assam Agricultural University, Jorhat",
+   "state": "Assam",
+   "seat_as_listed": "Jorhat",
+   "kind": "agriculture",
+   "ugc_id": 198,
+   "ugc_name": "Assam Agricultural University",
+   "ugc_status": "2(f) & 12B"
+  },
+  {
+   "icar_sr_no": 6,
+   "name_as_listed": "Assam Veterinary and Fishery University, Guwahati, Assam",
+   "state": "Assam",
+   "seat_as_listed": "Assam",
+   "kind": "veterinary_fisheries",
+   "ugc_id": 1417,
+   "ugc_name": "Assam Veterinary and Fishery University",
+   "ugc_status": "2(f)"
+  },
+  {
+   "icar_sr_no": 7,
+   "name_as_listed": "Bihar Agricultural University, Sabour, Bhagalpur",
+   "state": "Bihar",
+   "seat_as_listed": "Bhagalpur",
+   "kind": "agriculture",
+   "ugc_id": 682,
+   "ugc_name": "Bihar Agricultural University",
+   "ugc_status": "2(f)"
+  },
+  {
+   "icar_sr_no": 8,
+   "name_as_listed": "Bihar Animal Sciences University, Patna",
+   "state": "Bihar",
+   "seat_as_listed": "Patna",
+   "kind": "veterinary",
+   "ugc_id": 993,
+   "ugc_name": "Bihar Animal Sciences University",
+   "ugc_status": "2(f)"
+  },
+  {
+   "icar_sr_no": 9,
+   "name_as_listed": "Indira Gandhi Krishi Viswa Vidhyalaya, Raipur",
+   "state": "Chhattisgarh",
+   "seat_as_listed": "Raipur",
+   "kind": "agriculture",
+   "ugc_id": 266,
+   "ugc_name": "Indira Gandhi Krishi Vishwavidyalaya",
+   "ugc_status": "2(f) & 12B"
+  },
+  {
+   "icar_sr_no": 10,
+   "name_as_listed": "Chhattisgarh Kamdhenu Visvavidyalaya, Durg",
+   "state": "Chhattisgarh",
+   "seat_as_listed": "Durg",
+   "kind": "veterinary",
+   "ugc_id": 708,
+   "ugc_name": "Chhattisgarh Kamdhenu Vishwavidyalaya",
+   "ugc_status": "2(f)"
+  },
+  {
+   "icar_sr_no": 11,
+   "name_as_listed": "Mahatma Gandhi Udyanikee Evam Vanikee Vishwavidyalaya, Durg, Chhattisgarh",
+   "state": "Chhattisgarh",
+   "seat_as_listed": "Chhattisgarh",
+   "kind": "horticulture_forestry",
+   "ugc_id": 1161,
+   "ugc_name": "Mahatma Gandhi Udyanikee and Vanikee Vishwavidyalaya",
+   "ugc_status": "2(f)"
+  },
+  {
+   "icar_sr_no": 12,
+   "name_as_listed": "Sardar Krushinagar Dantiwada Agricultural University, Dantiwada",
+   "state": "Gujarat",
+   "seat_as_listed": "Dantiwada",
+   "kind": "agriculture",
+   "ugc_id": 947,
+   "ugc_name": "Sardar Krushinagar Dantiwada Agricultural University",
+   "ugc_status": "2(f) & 12B"
+  },
+  {
+   "icar_sr_no": 13,
+   "name_as_listed": "Anand Agricultural University, Anand",
+   "state": "Gujarat",
+   "seat_as_listed": "Anand",
+   "kind": "agriculture",
+   "ugc_id": 190,
+   "ugc_name": "Anand Agricultural University",
+   "ugc_status": "2(f)"
+  },
+  {
+   "icar_sr_no": 14,
+   "name_as_listed": "Navsari Agricultural University, Navsari",
+   "state": "Gujarat",
+   "seat_as_listed": "Navsari",
+   "kind": "agriculture",
+   "ugc_id": 840,
+   "ugc_name": "Navsari Agriculture University",
+   "ugc_status": "2(f)"
+  },
+  {
+   "icar_sr_no": 15,
+   "name_as_listed": "Junagarh Agricultural University, Junagarh",
+   "state": "Gujarat",
+   "seat_as_listed": "Junagarh",
+   "kind": "agriculture",
+   "ugc_id": 739,
+   "ugc_name": "Junagarh Agricultural University",
+   "ugc_status": "2(f)"
+  },
+  {
+   "icar_sr_no": 16,
+   "name_as_listed": "Kamdhenu University, Gandhinagar",
+   "state": "Gujarat",
+   "seat_as_listed": "Gandhinagar",
+   "kind": "veterinary",
+   "ugc_id": 927,
+   "ugc_name": "Kamdhenu University",
+   "ugc_status": "2(f)"
+  },
+  {
+   "icar_sr_no": 17,
+   "name_as_listed": "Gujarat Natural Farming Sciences University, Panchmahal, Gujarat",
+   "state": "Gujarat",
+   "seat_as_listed": "Gujarat",
+   "kind": "agriculture",
+   "ugc_id": 1187,
+   "ugc_name": "Gujarat Natural Farming and Organic Agricultural University",
+   "ugc_status": "2(f)",
+   "note": "ICAR lists 'Gujarat Natural Farming Sciences University, Panchmahal' with an unexplained asterisk; the closest UGC row is 'Gujarat Natural Farming and Organic Agricultural University' (address Anand). Treat the match as doubtful and confirm in the batch."
+  },
+  {
+   "icar_sr_no": 18,
+   "name_as_listed": "Chaudhary Charan Singh Haryana Agricultural University, Hisar",
+   "state": "Haryana",
+   "seat_as_listed": "Hisar",
+   "kind": "agriculture",
+   "ugc_id": 225,
+   "ugc_name": "Choudhary Charan Singh Haryana Agricultural Univeersity",
+   "ugc_status": "2(f) & 12B"
+  },
+  {
+   "icar_sr_no": 19,
+   "name_as_listed": "Lala Lajpat Rai University of Veterinary & Animal Sciences, Hisar",
+   "state": "Haryana",
+   "seat_as_listed": "Hisar",
+   "kind": "veterinary",
+   "ugc_id": 559,
+   "ugc_name": "Lala Lajpat Rai University of Veterinary & Animal Sciences",
+   "ugc_status": "2(f) & 12B"
+  },
+  {
+   "icar_sr_no": 20,
+   "name_as_listed": "Maharana Pratap Horticultural University, Karnal, Karnal",
+   "state": "Haryana",
+   "seat_as_listed": "Karnal",
+   "kind": "horticulture_forestry",
+   "ugc_id": 940,
+   "ugc_name": "Maharana Partap Horticultural University",
+   "ugc_status": "2(f)"
+  },
+  {
+   "icar_sr_no": 21,
+   "name_as_listed": "Ch. Sarwan Kumar Himachal Pradesh Krishi Viswavidyalaya, Palampur",
+   "state": "Himachal Pradesh",
+   "seat_as_listed": "Palampur",
+   "kind": "agriculture",
+   "ugc_id": 264,
+   "ugc_name": "Chaudhary Sarwan Kumar Himachal Pradesh Krishi Vishvavidyalaya",
+   "ugc_status": "2(f) & 12B"
+  },
+  {
+   "icar_sr_no": 22,
+   "name_as_listed": "Dr. Yaswant Singh Parmar University of Horticulture & Forestry, Solan",
+   "state": "Himachal Pradesh",
+   "seat_as_listed": "Solan",
+   "kind": "horticulture_forestry",
+   "ugc_id": 245,
+   "ugc_name": "Dr. Y.S.Parmar University of Horticulture & Forestry",
+   "ugc_status": "2(f) & 12B"
+  },
+  {
+   "icar_sr_no": 23,
+   "name_as_listed": "Birsa Agricultural University, Ranchi",
+   "state": "Jharkhand",
+   "seat_as_listed": "Ranchi",
+   "kind": "agriculture",
+   "ugc_id": 214,
+   "ugc_name": "Birsa Agricultural University",
+   "ugc_status": "2(f) & 12B"
+  },
+  {
+   "icar_sr_no": 24,
+   "name_as_listed": "Sher-e-Kashmir University of Agricultural Science & Technology, Srinagar",
+   "state": "Jammu and Kashmir",
+   "seat_as_listed": "Srinagar",
+   "kind": "agriculture",
+   "ugc_id": 377,
+   "ugc_name": "Sher-e-Kashmir University of Agricultural Science & Technology",
+   "ugc_status": "2(f) & 12B"
+  },
+  {
+   "icar_sr_no": 25,
+   "name_as_listed": "Sher-e-Kashmir University of Agricultural Science & Technology, Jammu",
+   "state": "Jammu and Kashmir",
+   "seat_as_listed": "Jammu",
+   "kind": "agriculture",
+   "ugc_id": 1143,
+   "ugc_name": "Sher-e-Kashmir University of Agricultural Science & Technology, Jammu",
+   "ugc_status": "2(f)"
+  },
+  {
+   "icar_sr_no": 26,
+   "name_as_listed": "University of Agricultural Sciences, Bangalore",
+   "state": "Karnataka",
+   "seat_as_listed": "Bangalore",
+   "kind": "agriculture",
+   "ugc_id": 409,
+   "ugc_name": "University of Agricultural Sciences Banglore",
+   "ugc_status": "2(f) & 12B"
+  },
+  {
+   "icar_sr_no": 27,
+   "name_as_listed": "Karnataka Veterinary, Animal and Fisheries Sciences University, Bidar",
+   "state": "Karnataka",
+   "seat_as_listed": "Bidar",
+   "kind": "veterinary_fisheries",
+   "ugc_id": 288,
+   "ugc_name": "Karnataka Veterinary, Animal & Fisheries Science University",
+   "ugc_status": "2(f)"
+  },
+  {
+   "icar_sr_no": 28,
+   "name_as_listed": "University of Agricultural Sciences, Raichur",
+   "state": "Karnataka",
+   "seat_as_listed": "Raichur",
+   "kind": "agriculture",
+   "ugc_id": 919,
+   "ugc_name": "University of Agricultural Sciences",
+   "ugc_status": "2(f) & 12B"
+  },
+  {
+   "icar_sr_no": 29,
+   "name_as_listed": "University of Agricultural Sciences, Dharwad",
+   "state": "Karnataka",
+   "seat_as_listed": "Dharwad",
+   "kind": "agriculture",
+   "ugc_id": 410,
+   "ugc_name": "University of Agricultural Sciences Dharwad",
+   "ugc_status": "2(f) & 12B"
+  },
+  {
+   "icar_sr_no": 30,
+   "name_as_listed": "University of Horticulture Science, Bagalkot",
+   "state": "Karnataka",
+   "seat_as_listed": "Bagalkot",
+   "kind": "horticulture_forestry",
+   "ugc_id": 816,
+   "ugc_name": "University of Horticultural Sciences",
+   "ugc_status": "2(f)"
+  },
+  {
+   "icar_sr_no": 31,
+   "name_as_listed": "University of Agriculture & Horticulture Sciences, Shimoga",
+   "state": "Karnataka",
+   "seat_as_listed": "Shimoga",
+   "kind": "agriculture",
+   "ugc_id": 1287,
+   "ugc_name": "Keladi Shivappa Nayaka University of Agriculture and Horticultural Sciences",
+   "ugc_status": "2(f)"
+  },
+  {
+   "icar_sr_no": 32,
+   "name_as_listed": "Kerala Agricultural University, Thrissur",
+   "state": "Kerala",
+   "seat_as_listed": "Thrissur",
+   "kind": "agriculture",
+   "ugc_id": 292,
+   "ugc_name": "Kerala Agricultural Unviersity",
+   "ugc_status": "2(f) & 12B"
+  },
+  {
+   "icar_sr_no": 33,
+   "name_as_listed": "Kerala University of Fisheries and Ocean Studies, Panangad, Kochi",
+   "state": "Kerala",
+   "seat_as_listed": "Kochi",
+   "kind": "fisheries",
+   "ugc_id": 565,
+   "ugc_name": "Kerala University of Fisheries & Ocean Studies",
+   "ugc_status": "2(f) & 12B"
+  },
+  {
+   "icar_sr_no": 34,
+   "name_as_listed": "Kerala Veterinary and Animal Sciences University, Pookode, Wayanand, Kerala",
+   "state": "Kerala",
+   "seat_as_listed": "Kerala",
+   "kind": "veterinary",
+   "ugc_id": 566,
+   "ugc_name": "Kerala Veterinary & Animal Sciences University",
+   "ugc_status": "2(f)"
+  },
+  {
+   "icar_sr_no": 35,
+   "name_as_listed": "Rajmata Vijayaraje Scindia Krishi VishwaVidyalaya, Gwalior",
+   "state": "Madhya Pradesh",
+   "seat_as_listed": "Gwalior",
+   "kind": "agriculture",
+   "ugc_id": 656,
+   "ugc_name": "Rajmata Vijayaraje Scindia Krishi Vishwa Vidyalaya",
+   "ugc_status": "2(f)"
+  },
+  {
+   "icar_sr_no": 36,
+   "name_as_listed": "Nanaji Deshmukh Pashu ChikitsaVisvaVidyalaya, Jabalpur",
+   "state": "Madhya Pradesh",
+   "seat_as_listed": "Jabalpur",
+   "kind": "veterinary",
+   "ugc_id": 568,
+   "ugc_name": "Nanaji Deshmukh Pashu Chikitsa Vigyan Vishwavidyalaya",
+   "ugc_status": "2(f)"
+  },
+  {
+   "icar_sr_no": 37,
+   "name_as_listed": "Jawaharlal Nehru Krishi Viswa Vidyalaya, Jabalpur",
+   "state": "Madhya Pradesh",
+   "seat_as_listed": "Jabalpur",
+   "kind": "agriculture",
+   "ugc_id": 274,
+   "ugc_name": "Jawaharlal Nehru Krishi Vishwavidyalaya",
+   "ugc_status": "2(f) & 12B"
+  },
+  {
+   "icar_sr_no": 38,
+   "name_as_listed": "Dr. Balaesahib Sawant Kokan KrishiVidyapeeth, Dapoli",
+   "state": "Maharashtra",
+   "seat_as_listed": "Dapoli",
+   "kind": "agriculture",
+   "ugc_id": 295,
+   "ugc_name": "Konkan Krishi Vidyapeeth",
+   "ugc_status": "2(f) & 12B",
+   "note": "UGC still prints the old name 'Konkan Krishi Vidyapeeth'."
+  },
+  {
+   "icar_sr_no": 39,
+   "name_as_listed": "Maharastra Animal & Fisheries. Sciences University, Nagpur",
+   "state": "Maharashtra",
+   "seat_as_listed": "Nagpur",
+   "kind": "veterinary_fisheries",
+   "ugc_id": 315,
+   "ugc_name": "Maharashtra Animal & Fishery Sciences University",
+   "ugc_status": "2(f)"
+  },
+  {
+   "icar_sr_no": 40,
+   "name_as_listed": "Vasantrao Naik Marathwada Krishi Vidyapeeth, Parbhani",
+   "state": "Maharashtra",
+   "seat_as_listed": "Parbhani",
+   "kind": "agriculture",
+   "ugc_id": 326,
+   "ugc_name": "Marathwada Agricultural University",
+   "ugc_status": "2(f) & 12B",
+   "note": "UGC still prints the old name 'Marathwada Agricultural University'."
+  },
+  {
+   "icar_sr_no": 41,
+   "name_as_listed": "Mahatma Phule Krishi Vidyapeeth, Rahuri",
+   "state": "Maharashtra",
+   "seat_as_listed": "Rahuri",
+   "kind": "agriculture",
+   "ugc_id": 322,
+   "ugc_name": "Mahatma Phule Krishi Vidyapeeth",
+   "ugc_status": "2(f) & 12B"
+  },
+  {
+   "icar_sr_no": 42,
+   "name_as_listed": "Dr. Punjabrao Deshmukh KrishiViswaVidyalaya, Akola",
+   "state": "Maharashtra",
+   "seat_as_listed": "Akola",
+   "kind": "agriculture",
+   "ugc_id": 241,
+   "ugc_name": "Dr. Punjabrao Deshmukh Krishi Vidyapeeth",
+   "ugc_status": "2(f) & 12B"
+  },
+  {
+   "icar_sr_no": 43,
+   "name_as_listed": "Orissa University of Agricultural & Technology, Bhubaneswar",
+   "state": "Odisha",
+   "seat_as_listed": "Bhubaneswar",
+   "kind": "agriculture",
+   "ugc_id": 344,
+   "ugc_name": "Odisha University Of Agriculture & Technology",
+   "ugc_status": "2(f) & 12B"
+  },
+  {
+   "icar_sr_no": 44,
+   "name_as_listed": "Guru Angad Dev Veterinary and Animal Sciences University, Ludhiana",
+   "state": "Punjab",
+   "seat_as_listed": "Ludhiana",
+   "kind": "veterinary",
+   "ugc_id": 259,
+   "ugc_name": "Guru Angad Dev Veterinary & Animal Sciences University",
+   "ugc_status": "2(f) & 12B"
+  },
+  {
+   "icar_sr_no": 45,
+   "name_as_listed": "Punjab Agricultural University, Ludhiana",
+   "state": "Punjab",
+   "seat_as_listed": "Ludhiana",
+   "kind": "agriculture",
+   "ugc_id": 353,
+   "ugc_name": "Punjab Agriculture University",
+   "ugc_status": "2(f) & 12B"
+  },
+  {
+   "icar_sr_no": 46,
+   "name_as_listed": "Maharana Pratap University of Agriculture & Technology, Udaipur",
+   "state": "Rajasthan",
+   "seat_as_listed": "Udaipur",
+   "kind": "agriculture",
+   "ugc_id": 314,
+   "ugc_name": "Maharana Pratap University of Agriculture & Technology",
+   "ugc_status": "2(f)"
+  },
+  {
+   "icar_sr_no": 47,
+   "name_as_listed": "Swami Keshwanand Rajasthan Agricultural University, Bikaner",
+   "state": "Rajasthan",
+   "seat_as_listed": "Bikaner",
+   "kind": "agriculture",
+   "ugc_id": 357,
+   "ugc_name": "Swami Keshwanand Rajasthan Agricultural University",
+   "ugc_status": "2(f) & 12B"
+  },
+  {
+   "icar_sr_no": 48,
+   "name_as_listed": "Rajasthan University of Veterinary & Animal Sciences, Bikaner",
+   "state": "Rajasthan",
+   "seat_as_listed": "Bikaner",
+   "kind": "veterinary",
+   "ugc_id": 681,
+   "ugc_name": "Rajasthan University of Veterinary & Animal Sciences",
+   "ugc_status": "2(f) & 12B"
+  },
+  {
+   "icar_sr_no": 49,
+   "name_as_listed": "Rajasthan University of Veterinary & Animal Sciences, jaipur",
+   "state": "Rajasthan",
+   "seat_as_listed": "jaipur",
+   "kind": "veterinary",
+   "ugc_id": 1418,
+   "ugc_name": "The Rajasthan University of Veterinary and Animal Sciences (Jobner) Jaipur",
+   "ugc_status": "2(f)",
+   "note": "Second RAJUVAS row on ICAR's page (Jaipur); UGC lists it separately as 'The Rajasthan University of Veterinary and Animal Sciences (Jobner) Jaipur', a distinct university, not a duplicate."
+  },
+  {
+   "icar_sr_no": 50,
+   "name_as_listed": "SKN Agriculture University, Jobner",
+   "state": "Rajasthan",
+   "seat_as_listed": "Jobner",
+   "kind": "agriculture",
+   "ugc_id": 1365,
+   "ugc_name": "Sri Karan Narendra Agriculture University",
+   "ugc_status": "2(f)"
+  },
+  {
+   "icar_sr_no": 51,
+   "name_as_listed": "Agriculture University, Kota",
+   "state": "Rajasthan",
+   "seat_as_listed": "Kota",
+   "kind": "agriculture",
+   "ugc_id": 1381,
+   "ugc_name": "Agriculture University",
+   "ugc_status": "2(f)"
+  },
+  {
+   "icar_sr_no": 52,
+   "name_as_listed": "Agriculture University, Jodhpur",
+   "state": "Rajasthan",
+   "seat_as_listed": "Jodhpur",
+   "kind": "agriculture",
+   "ugc_id": 1163,
+   "ugc_name": "Agriculture University",
+   "ugc_status": "2(f)"
+  },
+  {
+   "icar_sr_no": 53,
+   "name_as_listed": "Tamil Nadu Agricultural University, Coimbatore",
+   "state": "Tamil Nadu",
+   "seat_as_listed": "Coimbatore",
+   "kind": "agriculture",
+   "ugc_id": 397,
+   "ugc_name": "Tamilnadu Agricultural University",
+   "ugc_status": "2(f) & 12B"
+  },
+  {
+   "icar_sr_no": 54,
+   "name_as_listed": "Tamil Nadu Veterinary & Animal Sciences University, Chennai",
+   "state": "Tamil Nadu",
+   "seat_as_listed": "Chennai",
+   "kind": "veterinary",
+   "ugc_id": 401,
+   "ugc_name": "Tamilnadu Veterinary & Animal Sciences University",
+   "ugc_status": "2(f) & 12B"
+  },
+  {
+   "icar_sr_no": 55,
+   "name_as_listed": "Tamil Nadu Fisheries University, Nagapattinam",
+   "state": "Tamil Nadu",
+   "seat_as_listed": "Nagapattinam",
+   "kind": "fisheries",
+   "ugc_id": 711,
+   "ugc_name": "Tamil Nadu Fisheries University",
+   "ugc_status": "2(f) & 12B"
+  },
+  {
+   "icar_sr_no": 56,
+   "name_as_listed": "Sri Konda Laxman Telangana State Horticultural University, Hyderabad",
+   "state": "Telangana",
+   "seat_as_listed": "Hyderabad",
+   "kind": "horticulture_forestry",
+   "ugc_id": 784,
+   "ugc_name": "Sri Konda Laxman Telangana State Horticultural University",
+   "ugc_status": "2(f)"
+  },
+  {
+   "icar_sr_no": 57,
+   "name_as_listed": "Sri PV Narsimha Rao Telangana Veterinary University, Hyderabad",
+   "state": "Telangana",
+   "seat_as_listed": "Hyderabad",
+   "kind": "veterinary",
+   "ugc_id": 939,
+   "ugc_name": "P. V. Narsimha Rao Telangana Veterinary University",
+   "ugc_status": "2(f)"
+  },
+  {
+   "icar_sr_no": 58,
+   "name_as_listed": "Professor Jayashankar Telangana State Agricultural University, Hyderabad",
+   "state": "Telangana",
+   "seat_as_listed": "Hyderabad",
+   "kind": "agriculture",
+   "ugc_id": 775,
+   "ugc_name": "Professor Jayashankar Telangana State Agricultural University",
+   "ugc_status": "2(f) & 12B"
+  },
+  {
+   "icar_sr_no": 59,
+   "name_as_listed": "G.B. Pant University of Agriculture & Technology, Pantnagar",
+   "state": "Uttarakhand",
+   "seat_as_listed": "Pantnagar",
+   "kind": "agriculture",
+   "ugc_id": 248,
+   "ugc_name": "G.B.Pant University of Agriculture & Technology",
+   "ugc_status": "2(f) & 12B"
+  },
+  {
+   "icar_sr_no": 60,
+   "name_as_listed": "VCSG Uttarakhand University of Horticulture & Forestry, Bharsar",
+   "state": "Uttarakhand",
+   "seat_as_listed": "Bharsar",
+   "kind": "horticulture_forestry",
+   "ugc_id": 741,
+   "ugc_name": "Veer Chandra Singh Garhwali Uttarakhand University of Horticulture & Forestry",
+   "ugc_status": "2(f)"
+  },
+  {
+   "icar_sr_no": 61,
+   "name_as_listed": "Chandra Shekhar Azad University of Agricultural & Technology, Kanpur",
+   "state": "Uttar Pradesh",
+   "seat_as_listed": "Kanpur",
+   "kind": "agriculture",
+   "ugc_id": 221,
+   "ugc_name": "Chandra Shekhar Azad University of Agriculture & Technology",
+   "ugc_status": "2(f) & 12B"
+  },
+  {
+   "icar_sr_no": 62,
+   "name_as_listed": "Narendra Deva University of Agriculture & Technology, Faizabad",
+   "state": "Uttar Pradesh",
+   "seat_as_listed": "Faizabad",
+   "kind": "agriculture",
+   "ugc_id": 333,
+   "ugc_name": "Acharya Narendra Deva Krishi Evam Prodyogik Vishwavidyalaya",
+   "ugc_status": "2(f) & 12B",
+   "note": "UGC name: Acharya Narendra Deva Krishi Evam Prodyogik Vishwavidyalaya (Kumarganj, Ayodhya)."
+  },
+  {
+   "icar_sr_no": 63,
+   "name_as_listed": "Sardar Vallabhbhai Patel University of Agriculture & Technology, Meerut",
+   "state": "Uttar Pradesh",
+   "seat_as_listed": "Meerut",
+   "kind": "agriculture",
+   "ugc_id": 373,
+   "ugc_name": "Sardar Vallabh Bhai Patel University of Agriculture & Technology",
+   "ugc_status": "2(f)"
+  },
+  {
+   "icar_sr_no": 64,
+   "name_as_listed": "U.P. Pt. Deen Dayal Upadhyaya Pashu Chikitsa VigyanVishwaVidhyalaya Evem Go Anusandhan Sansthan, Mathura",
+   "state": "Uttar Pradesh",
+   "seat_as_listed": "Mathura",
+   "kind": "veterinary",
+   "ugc_id": 764,
+   "ugc_name": "U.P. Pandit Deen Dayal Upadhyaya Pashu Chikitsa Vigyan Vishwavidhyalaya Evam Go-Anusandhan Sansthan",
+   "ugc_status": "2(f)"
+  },
+  {
+   "icar_sr_no": 65,
+   "name_as_listed": "Banda University of Agricultural and Technology, Banda",
+   "state": "Uttar Pradesh",
+   "seat_as_listed": "Banda",
+   "kind": "agriculture",
+   "ugc_id": 890,
+   "ugc_name": "Banda University of Agriculture & Technology",
+   "ugc_status": "2(f)"
+  },
+  {
+   "icar_sr_no": 66,
+   "name_as_listed": "Bidhan Chandra Krishi Viswa Vidhyalaya, Mohanpur",
+   "state": "West Bengal",
+   "seat_as_listed": "Mohanpur",
+   "kind": "agriculture",
+   "ugc_id": 212,
+   "ugc_name": "Bidhan Chandra Krishi Vishwavidyalaya",
+   "ugc_status": "2(f) & 12B"
+  },
+  {
+   "icar_sr_no": 67,
+   "name_as_listed": "West Bengal University of Animal & Fishery Sciences, Kolkata",
+   "state": "West Bengal",
+   "seat_as_listed": "Kolkata",
+   "kind": "veterinary_fisheries",
+   "ugc_id": 489,
+   "ugc_name": "West Bengal University of Animal and Fishery Sciences",
+   "ugc_status": "2(f) & 12B"
+  },
+  {
+   "icar_sr_no": 68,
+   "name_as_listed": "Uttar Banga Krishi Viswavidhyalaya, Cooch Behar",
+   "state": "West Bengal",
+   "seat_as_listed": "Cooch Behar",
+   "kind": "agriculture",
+   "ugc_id": 491,
+   "ugc_name": "Uttar Banga Krishi Vishwavidyalaya",
+   "ugc_status": "2(f)"
+  }
+ ]
+}

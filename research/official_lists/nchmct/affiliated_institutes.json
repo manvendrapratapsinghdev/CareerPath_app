@@ -1,0 +1,824 @@
+{
+ "source_authority": "National Council for Hotel Management and Catering Technology (NCHMCT, Ministry of Tourism) — affiliated institute lists",
+ "fetched_on": "2026-10-02",
+ "central_ihm_note": "Central IHMs are in ministries/c3_hospitality_tourism.json (22, batch C3).",
+ "excluded": "Principal names, phone/fax numbers and e-mail addresses printed by NCHMCT are deliberately dropped: institution-level fields only (code, name, address, PIN, website, courses).",
+ "state_note": "NCHMCT prints no separate state or city column. 'state' is derived from the LAST state/UT name (or common abbreviation such as U.P., M.P.) in the address, and is null when none is found; the address text is verbatim and sometimes inconsistent (e.g. '... Jodhpur Jaipur - 342001', Zaheerabad listed under 'Andhra Pradesh' though it is in Telangana). Many names are generic ('Institute of Hotel Management', 'Food Craft Institute'): take the city from the address in the batch.",
+ "lists": {
+  "state_government": {
+   "url": "https://nchm.gov.in/state-government-affiliated-institutes-of-hotel-management",
+   "pages_fetched": 4,
+   "columns_on_page": [
+    "Institute Code",
+    "Institute Name & Address",
+    "Principal",
+    "Telephone/Fax/Email/Website",
+    "Courses Name"
+   ],
+   "count": 35,
+   "count_by_state": {
+    "Haryana": 5,
+    "Rajasthan": 4,
+    "Uttarakhand": 2,
+    "Himachal Pradesh": 2,
+    "Andhra Pradesh": 2,
+    "Madhya Pradesh": 2,
+    "Chandigarh": 1,
+    "Sikkim": 1,
+    "null": 1,
+    "Kerala": 1,
+    "Delhi": 1,
+    "Punjab": 1,
+    "Tamil Nadu": 1,
+    "Dadra and Nagar Haveli and Daman and Diu": 1,
+    "Puducherry": 1,
+    "Telangana": 1,
+    "Odisha": 1,
+    "West Bengal": 1,
+    "Bihar": 1,
+    "Jharkhand": 1,
+    "Chhattisgarh": 1,
+    "Maharashtra": 1,
+    "Nagaland": 1,
+    "Tripura": 1
+   },
+   "entries": [
+    {
+     "code": 201,
+     "name": "Chandigarh Institute of Hotel Management",
+     "address": "Sector 42- D, Chandigarh Chandigarh - 160036",
+     "pin": "160036",
+     "state": "Chandigarh",
+     "website": "https://cihmct.co.in/",
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic Diploma in Food Production Diploma in Food & Beverage Service Diploma in Front Office Operation Diploma in Housekeeping Operation Diploma in Bakery & Confectionery"
+    },
+    {
+     "code": 202,
+     "name": "Institute of Hotel Management",
+     "address": "Near Tapekeshwar Temple, Garhi Cantt., Dehradun Uttarakhand - 248001",
+     "pin": "248001",
+     "state": "Uttarakhand",
+     "website": "https://www.ihmddn.com",
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic Diploma in Food Production Diploma in Food & Beverage Service Diploma in Bakery & Confectionery"
+    },
+    {
+     "code": 203,
+     "name": "Institute of Hotel Management",
+     "address": "Sajong, Rumtek, Ranipol, Gangtok Sikkim - 737135",
+     "pin": "737135",
+     "state": "Sikkim",
+     "website": "https://ihmgangtok.com/",
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic Diploma in Food Production Diploma in Food & Beverage Service Craftsmanship Certificate Course in Food Production & Patisserie"
+    },
+    {
+     "code": 204,
+     "name": "Institute of Hotel Management",
+     "address": "Polytechnic Campus, New Pali Road, Jodhpur Jaipur - 342001",
+     "pin": "342001",
+     "state": null,
+     "website": "https://ihmjodhpur.com/",
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic Diploma in Food Production Diploma in Food & Beverage Service Diploma in Front Office Operation Diploma in Bakery & Confectionery"
+    },
+    {
+     "code": 205,
+     "name": "State Institute of Hotel Management",
+     "address": "Govt. Guest House Compound, Varakkal Beach, West Hills, Kozhikode Kerala - 673005",
+     "pin": "673005",
+     "state": "Kerala",
+     "website": "https://www.sihmkerala.com/",
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic"
+    },
+    {
+     "code": 206,
+     "name": "Institute of Hotel Management",
+     "address": "Jyotisar, Near Kalpana Chawla Planatarium, Kurukshetra Haryana - 136119",
+     "pin": "136119",
+     "state": "Haryana",
+     "website": "http://www.ihmkkr.com",
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic Diploma in Food Production Diploma in Food & Beverage Service Diploma in Bakery & Confectionery"
+    },
+    {
+     "code": 207,
+     "name": "Delhi Institute of Hotel Management",
+     "address": "Behind Lady Sriram College, Lajpat Nagar IV, Lajpat Nagar New Delhi - 110024",
+     "pin": "110024",
+     "state": "Delhi",
+     "website": "https://dihmct.in/",
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic"
+    },
+    {
+     "code": 208,
+     "name": "Institute of Hotel Management",
+     "address": "Badkal Lake Crossing, Faridabad Haryana - 121001",
+     "pin": "121001",
+     "state": "Haryana",
+     "website": "https://www.ihmfaridabad.com/",
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic Diploma in Food Production Diploma in Food & Beverage Service"
+    },
+    {
+     "code": 209,
+     "name": "Institute of Hotel Management",
+     "address": "Industrial Growth Centre, Mansa Road, Bathinda Punjab - 151001",
+     "pin": "151001",
+     "state": "Punjab",
+     "website": "https://www.ihmbti.com/",
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic Diploma in Food Production"
+    },
+    {
+     "code": 210,
+     "name": "Institute of Hotel Management",
+     "address": "Village Sasan, P.O. Jhaniari, Hamirpur Himachal Pradesh 177001",
+     "pin": "177001",
+     "state": "Himachal Pradesh",
+     "website": "https://www.ihmhamirpur.in/",
+     "courses": "Diploma in Food & Beverage Service Craftsmanship Certificate Course in Food Production & Patisserie"
+    },
+    {
+     "code": 211,
+     "name": "State Institute of Hotel Management",
+     "address": "Thuvakudi, Tiruchirapalli Tamil Nadu - 620015",
+     "pin": "620015",
+     "state": "Tamil Nadu",
+     "website": "http://www.sihmct.org",
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic Diploma in Food Production Diploma in Bakery & Confectionery Craftsmanship Certificate Course in Food Production & Patisserie"
+    },
+    {
+     "code": 212,
+     "name": "Institute of Hotel Management",
+     "address": "Dr. BBA Polytechnic Campus, Srv. No.137/P, Madhuban Dam Road, Karad, Silvassa U.T. Dadra & Nagar Haveli, Daman & Diu. 396230",
+     "pin": "396230",
+     "state": "Dadra and Nagar Haveli and Daman and Diu",
+     "website": "http://www.ihmsilvassa.ac.in",
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic"
+    },
+    {
+     "code": 213,
+     "name": "Pondicherry Institute of Hotel Management",
+     "address": "Mahalaxmi Nagar, Murungabakkam Puducherry 605004",
+     "pin": "605004",
+     "state": "Puducherry",
+     "website": "https://pihmct.py.gov.in/",
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic Diploma in Food Production Diploma in Food & Beverage Service Diploma in Housekeeping Operation"
+    },
+    {
+     "code": 214,
+     "name": "State Institute of Hotel Management",
+     "address": "Near S. V. Zoo Park, Perur (v), Beside AP Tourism Transport, Tirupati Andhra Pradesh - 517505",
+     "pin": "517505",
+     "state": "Andhra Pradesh",
+     "website": "http://www.sihmtpt.org/",
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic Craftsmanship Certificate Course in Food & Beverage Service"
+    },
+    {
+     "code": 215,
+     "name": "State Institute of Hotel Management",
+     "address": "Tilyar Lake, Rohtak Haryana - 124001",
+     "pin": "124001",
+     "state": "Haryana",
+     "website": "http://www.ihmrohtak.com/",
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic Diploma in Food Production"
+    },
+    {
+     "code": 216,
+     "name": "Telangana State Institute of Hotel Management",
+     "address": "Kaveli (V) Kohir Mandal Zaheerabad Andhra Pradesh Medak 502321",
+     "pin": "502321",
+     "state": "Andhra Pradesh",
+     "website": "https://www.tsihm.ac.in/",
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic Craftsmanship Certificate Course in Food Production & Patisserie"
+    },
+    {
+     "code": 217,
+     "name": "State Institute of Hotel Management",
+     "address": "Survey No. 1094/1, 807 Village Rau, Tarik Khan Ki Tekri, Near Silicon Valley, Indore Madhya Pradesh - 453331",
+     "pin": "453331",
+     "state": "Madhya Pradesh",
+     "website": "http://www.sihmind.mp.gov.in/",
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic Diploma in Food Production Diploma in Food & Beverage Service Diploma in Front Office Operation Diploma in Housekeeping Operation Diploma in Bakery & Confectionery"
+    },
+    {
+     "code": 218,
+     "name": "State Institute of Hotel Management",
+     "address": "Near Blind School, Industrial Area Panipat Haryana - 132103",
+     "pin": "132103",
+     "state": "Haryana",
+     "website": "http://www.ihmpanipat.com/",
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic Diploma in Food Production Diploma in Food & Beverage Service"
+    },
+    {
+     "code": 219,
+     "name": "Dr. YSR National Institute of Tourism & Hospitality Management",
+     "address": "Telecom Nagar, Near Urdu University, Hyderabad Telangana 500032",
+     "pin": "500032",
+     "state": "Telangana",
+     "website": "https://www.nithm.ac.in/",
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic"
+    },
+    {
+     "code": 220,
+     "name": "State Institute of Hotel Management",
+     "address": "Village Bhamboli, Ambala Jagadhari Highway, Yamuna Nagar Haryana - 135001",
+     "pin": "135001",
+     "state": "Haryana",
+     "website": "http://www.ihmyamunanagar.com/",
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic Diploma in Food Production Diploma in Bakery & Confectionery Craftsmanship Certificate Course in Food Production & Patisserie"
+    },
+    {
+     "code": 221,
+     "name": "State Institute of Hotel Management",
+     "address": "Titilagarh Road, Balangir ODISHA - 767001",
+     "pin": "767001",
+     "state": "Odisha",
+     "website": "https://www.sihmbalangir.org/",
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic Diploma in Food Production Diploma in Food & Beverage Service Diploma in Front Office Operation Diploma in Housekeeping Operation Craftsmanship Certificate Course in Food Production & Patisserie Craftsmanship Certificate Course in Food & Beverage Service"
+    },
+    {
+     "code": 222,
+     "name": "SIHM Durgapur",
+     "address": "Fuljhore, Durgapur West Bengal 713206",
+     "pin": "713206",
+     "state": "West Bengal",
+     "website": "https://www.wbsihm.in/",
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic Diploma in Food Production Diploma in Food & Beverage Service Diploma in Housekeeping Operation Diploma in Bakery & Confectionery"
+    },
+    {
+     "code": 223,
+     "name": "State Institute of Hotel Management",
+     "address": "Opposite Magadh University, Dobhi Road, Gaya Bihar - 824234",
+     "pin": "824234",
+     "state": "Bihar",
+     "website": "https://www.ihmbodhgaya.com/",
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic Diploma in Food Production Diploma in Food & Beverage Service"
+    },
+    {
+     "code": 224,
+     "name": "State Institute of Hotel Management",
+     "address": "Sector-14, Nela Road, Hiran Magri Udaipur Rajasthan 313001",
+     "pin": "313001",
+     "state": "Rajasthan",
+     "website": "https://ihmcudaipur.org/",
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic Diploma in Food Production Diploma in Food & Beverage Service Diploma in Front Office Operation Diploma in Housekeeping Operation"
+    },
+    {
+     "code": 225,
+     "name": "State institute of Hotel Management",
+     "address": "Brambe, Ranchi Jharkhand 835205",
+     "pin": "835205",
+     "state": "Jharkhand",
+     "website": "https://ihmranchi.in/",
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic Diploma in Food Production Diploma in Front Office Operation Diploma in Housekeeping Operation Craftsmanship Certificate Course in Food Production & Patisserie Craftsmanship Certificate Course in Food & Beverage Service"
+    },
+    {
+     "code": 226,
+     "name": "Institute of Hotel Management",
+     "address": "Raipur Upwarwara, Sector 40 , Atal Nagar, New Raipur Raipur Chhatishgarh 493661",
+     "pin": "493661",
+     "state": "Chhattisgarh",
+     "website": "https://ihmraipur.com/",
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic Diploma in Food Production Diploma in Food & Beverage Service Diploma in Housekeeping Operation"
+    },
+    {
+     "code": 227,
+     "name": "State Institute of Hotel Mangaement",
+     "address": "Jabalpur Airport Area, Khamaria, Near IIITDM, Jabalpur Madhya Pradesh 482005",
+     "pin": "482005",
+     "state": "Madhya Pradesh",
+     "website": "http://sihmjbp.mp.gov.in/",
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic Diploma in Food Production Diploma in Food & Beverage Service Diploma in Bakery & Confectionery"
+    },
+    {
+     "code": 228,
+     "name": "State Institute of Hotel Management",
+     "address": "Tehsil-Dharamshala, Dharamsala Himachal Pradesh 176218",
+     "pin": "176218",
+     "state": "Himachal Pradesh",
+     "website": "https://www.sihmdharamshala.org/",
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic"
+    },
+    {
+     "code": 229,
+     "name": "Swami Samartha Maharashtra Institute of Hotel Management",
+     "address": "A-160, Near Kamber Talaw 30, Vijaypur Road, Solapur - 413004 Solapur Maharashtra",
+     "pin": null,
+     "state": "Maharashtra",
+     "website": null,
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic Diploma in Food Production Diploma in Food & Beverage Service Diploma in Bakery & Confectionery"
+    },
+    {
+     "code": 230,
+     "name": "State Institute of Hotel Management",
+     "address": "Dimapur Purana Bazar, 'B' Village , Block-5 Dimapur Nagaland 797116",
+     "pin": "797116",
+     "state": "Nagaland",
+     "website": "https://www.sihmdimapur.com/",
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic Diploma in Food Production Diploma in Food & Beverage Service"
+    },
+    {
+     "code": 231,
+     "name": "State Institute of Hotel Management",
+     "address": "Agartala Bypass, Anandanagar Agartala Tripura 799004",
+     "pin": "799004",
+     "state": "Tripura",
+     "website": "https://www.sihmtripura.co.in",
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic Diploma in Food Production Diploma in Food & Beverage Service Diploma in Front Office Operation Diploma in Housekeeping Operation"
+    },
+    {
+     "code": 232,
+     "name": "State Institute of Hotel Management",
+     "address": "Dholpur Village Narpura, Old Chhawani Near Thermal Power Station Dholpur Rajasthan 328030",
+     "pin": "328030",
+     "state": "Rajasthan",
+     "website": null,
+     "courses": "Diploma in Food & Beverage Service Diploma in Front Office Operation"
+    },
+    {
+     "code": 233,
+     "name": "State Institute of Hotel Management",
+     "address": "Jhalawar PTS Road , Jhalrapatan Jhalawar Rajasthan 326023",
+     "pin": "326023",
+     "state": "Rajasthan",
+     "website": null,
+     "courses": "Diploma in Food Production Diploma in Front Office Operation"
+    },
+    {
+     "code": 234,
+     "name": "State Institute of Hotel Management",
+     "address": "Madhopur Ramsinghpura Sawai Madhopur Rajasthan 322027",
+     "pin": "322027",
+     "state": "Rajasthan",
+     "website": null,
+     "courses": "Diploma in Food & Beverage Service Diploma in Front Office Operation"
+    },
+    {
+     "code": 235,
+     "name": "State Institute of Hotel Management",
+     "address": "Ramnagar, Nainital Sawaldey West, Ramnagar, Dist.-Nainital Ramnagar Uttarakhand 244715",
+     "pin": "244715",
+     "state": "Uttarakhand",
+     "website": "https://ihmramnagar.com/",
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic Diploma in Food Production Diploma in Food & Beverage Service Diploma in Bakery & Confectionery"
+    }
+   ]
+  },
+  "private": {
+   "url": "https://nchm.gov.in/private-institutes-of-hotel-management",
+   "pages_fetched": 3,
+   "columns_on_page": [
+    "Institute Code",
+    "Institute Name & Address",
+    "Principal",
+    "Telephone/Fax/Email/Website",
+    "Courses Name"
+   ],
+   "count": 26,
+   "count_by_state": {
+    "Uttar Pradesh": 5,
+    "Punjab": 3,
+    "Haryana": 3,
+    "Rajasthan": 3,
+    "Kerala": 2,
+    "West Bengal": 2,
+    "Uttarakhand": 2,
+    "Maharashtra": 2,
+    "Tamil Nadu": 1,
+    "Telangana": 1,
+    "Madhya Pradesh": 1,
+    "Karnataka": 1
+   },
+   "entries": [
+    {
+     "code": 301,
+     "name": "SRM Institute of Hotel Management",
+     "address": "SRM Nagar, Kattankulathur,Kancheepuram Chennai Tamil Nadu 603203",
+     "pin": "603203",
+     "state": "Tamil Nadu",
+     "website": "http://www.srmihm.info",
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic"
+    },
+    {
+     "code": 302,
+     "name": "Institute of Hotel Management",
+     "address": "Meerut 77th Mile Stone, Delhi Dehradun Highway, NH-58,Daurala, Meerut (UP) , Meerut Uttar Pradesh 250008",
+     "pin": "250008",
+     "state": "Uttar Pradesh",
+     "website": "https://www.ihmmeerut.com/",
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic"
+    },
+    {
+     "code": 303,
+     "name": "IHM Shri Shakti",
+     "address": "Venus Plaza, Adjacent to The Manohar Hotel, Begumpet, Hyderabad Telangana - 500016",
+     "pin": "500016",
+     "state": "Telangana",
+     "website": "http://www.ihmshrishakti.com",
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic Craftsmanship Certificate Course in Food Production & Patisserie"
+    },
+    {
+     "code": 304,
+     "name": "Oriental School of Hotel Management",
+     "address": "Valley View, Lakkidi, Vythiri, Wayanad Kerala - 673576",
+     "pin": "673576",
+     "state": "Kerala",
+     "website": "https://www.orientalschool.com/",
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic"
+    },
+    {
+     "code": 307,
+     "name": "Chitkara School of Hospitality",
+     "address": "Chandigarh–Patiala National Highway (NH-64), Jansla, Tehsil Rajpura, Patiala Punjab - 140401",
+     "pin": "140401",
+     "state": "Punjab",
+     "website": "https://www.chitkara.edu.in/",
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic"
+    },
+    {
+     "code": 310,
+     "name": "St. Soldier Institute of Hotel Management",
+     "address": "Behind NIT, Jalandhar-Amritsar Bye Pass, Jalandhar Punjab - 144002",
+     "pin": "144002",
+     "state": "Punjab",
+     "website": "https://stsoldiergroup.com/",
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic"
+    },
+    {
+     "code": 311,
+     "name": "Munnar Catering College",
+     "address": "Thachankary Hills, Sooryanelli, Idukki, Munnar Kerala - 685618",
+     "pin": "685618",
+     "state": "Kerala",
+     "website": "https://munnarcateringcollege.edu.in/",
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic Craftsmanship Certificate Course in Food Production & Patisserie"
+    },
+    {
+     "code": 312,
+     "name": "Guru Nanak Institute of Hotel Management",
+     "address": "157/F, Nilgunj Road, Panihati, Kolkata West Bengal - 700114",
+     "pin": "700114",
+     "state": "West Bengal",
+     "website": "https://www.gnihm.ac.in/",
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic"
+    },
+    {
+     "code": 313,
+     "name": "CT Institute of Hotel Management",
+     "address": "UE II- Pratap Pura Road, Shahpur, Jalandhar Punjab - 144008",
+     "pin": "144008",
+     "state": "Punjab",
+     "website": "https://www.ctgroup.in/",
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic Craftsmanship Certificate Course in Food Production & Patisserie Craftsmanship Certificate Course in Food & Beverage Service"
+    },
+    {
+     "code": 314,
+     "name": "The Lalit Suri Hospitality School",
+     "address": "Near Badkhal Lake Complex, Pali Road, Faridabad Haryana - 121001",
+     "pin": "121001",
+     "state": "Haryana",
+     "website": "https://tlshs.com/",
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic Diploma in Food Production Diploma in Bakery & Confectionery"
+    },
+    {
+     "code": 317,
+     "name": "RIG Institute of Hospitality & Management",
+     "address": "48/1, Knowledge Park-III Greater Noida Noida Uttar Pradesh 201306",
+     "pin": "201306",
+     "state": "Uttar Pradesh",
+     "website": "https://rigimt.com/",
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic Diploma in Food Production Diploma in Food & Beverage Service"
+    },
+    {
+     "code": 320,
+     "name": "Jodhpur Institute of Hotel Management",
+     "address": "JIET Universe, NH-65, Pali Road, Mogra Jodhpur RAJASTHAN 342802",
+     "pin": "342802",
+     "state": "Rajasthan",
+     "website": "https://www.jietjodhpur.ac.in/",
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic Diploma in Food Production Diploma in Food & Beverage Service Diploma in Front Office Operation Diploma in Bakery & Confectionery"
+    },
+    {
+     "code": 321,
+     "name": "Dewan V.S. Institute of Hotel Management",
+     "address": "NH-58, By-Pass Road, Partapur Meerut Uttar Pradesh 250103",
+     "pin": "250103",
+     "state": "Uttar Pradesh",
+     "website": "https://dvsihm.dewaninstitutes.com/",
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic Diploma in Food Production Diploma in Food & Beverage Service Diploma in Housekeeping Operation"
+    },
+    {
+     "code": 323,
+     "name": "Ambala Institute of Hotel Management",
+     "address": "9 KMS. Ambala-Chandigarh Highway, Kakru Ambala City Haryana 134003",
+     "pin": "134003",
+     "state": "Haryana",
+     "website": "https://www.ihmambala.com/",
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic Diploma in Food Production"
+    },
+    {
+     "code": 324,
+     "name": "Kukreja Institute of Hotel Management",
+     "address": "Dharampur Chowk, Mata Mandir Rd. Ganesh Vihar Dehradun Uttarakhand 248001",
+     "pin": "248001",
+     "state": "Uttarakhand",
+     "website": "https://kukrejainstitute.in/",
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic Diploma in Food Production Diploma in Food & Beverage Service Diploma in Bakery & Confectionery"
+    },
+    {
+     "code": 326,
+     "name": "Poornima Institute of Hotel Management",
+     "address": "Ramachandrapura, Vill. Vidhani, Sitapur Extn. Jaipur Rajasthan 303905",
+     "pin": "303905",
+     "state": "Rajasthan",
+     "website": "https://www.poornima.edu.in/",
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic Diploma in Food Production Diploma in Food & Beverage Service Diploma in Front Office Operation Diploma in Bakery & Confectionery"
+    },
+    {
+     "code": 327,
+     "name": "SRM Institute of Hotel Management",
+     "address": "Sonepat Plot no-39, Rajiv Gandhi Education City, Post office - P.S Rai, Delhi–NCR, Sonepat Haryana 131029",
+     "pin": "131029",
+     "state": "Haryana",
+     "website": "https://srmuniversity.ac.in/",
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic"
+    },
+    {
+     "code": 330,
+     "name": "FHRAI Institute of Hospitality Management",
+     "address": "Plot No. 45 , Knowledge Park-III Greater Noida U.P. 201310",
+     "pin": "201310",
+     "state": "Uttar Pradesh",
+     "website": "http://www.fhrai-ihm.com/",
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic Diploma in Food Production Diploma in Food & Beverage Service Diploma in Bakery & Confectionery"
+    },
+    {
+     "code": 331,
+     "name": "Preston Institute of Hotel Management",
+     "address": "Khureri, Badagaon Road, Morar Gwalior M.P. 474006",
+     "pin": "474006",
+     "state": "Madhya Pradesh",
+     "website": "https://www.prestoncollege.info/",
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic Diploma in Food Production Diploma in Food & Beverage Service Diploma in Front Office Operation Diploma in Housekeeping Operation Diploma in Bakery & Confectionery"
+    },
+    {
+     "code": 333,
+     "name": "MLRSM Institute of Hotel Management",
+     "address": "D 22-23, UPSIDC , Insdustrial Area, Sarojini Nagar Lucknow UTTAR PRADESH 226008",
+     "pin": "226008",
+     "state": "Uttar Pradesh",
+     "website": "https://mlrsmihm.com/",
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic"
+    },
+    {
+     "code": 334,
+     "name": "St. Francis Institute of Hotel Management",
+     "address": "St. Francis ITI Campus, Mount Poinsur Road, Gate No.8, Near Bhagwati Hospital, Borivali (West) Mumbai Maharashtra 400103",
+     "pin": "400103",
+     "state": "Maharashtra",
+     "website": "https://sfihm.com/",
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic"
+    },
+    {
+     "code": 335,
+     "name": "Maj. Durgamal Subharti College of Hotel Management",
+     "address": "Subhartipuram, Kotda Santour, Aamwala Road, Chandanwadi,Nanda ki Chowki, Premnagar Dehradun Uttarachal",
+     "pin": null,
+     "state": "Uttarakhand",
+     "website": "https://subhartihm.com/",
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic"
+    },
+    {
+     "code": 336,
+     "name": "Subhase Bose IHM",
+     "address": "Kajibari , Barasat, P:O - Mallikapore Kolkata West Bengal 700126",
+     "pin": "700126",
+     "state": "West Bengal",
+     "website": "https://sbihm.com/",
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic"
+    },
+    {
+     "code": 338,
+     "name": "Mai IHM Sindhudurg Sawantwadi",
+     "address": "SAWANTWADI - VENGURLA RODA, NEAR SAWANTWADI ROAD RAILWAY STATION MALGAON, TALUKA - SAWANTWADI, DISTRICT - SINDHUDURG, MAHARASHTRA - 416510",
+     "pin": "416510",
+     "state": "Maharashtra",
+     "website": "https://www.maiihm.in/about-mai-institute/",
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic Diploma in Food Production Diploma in Food & Beverage Service Diploma in Front Office Operation Diploma in Housekeeping Operation"
+    },
+    {
+     "code": 339,
+     "name": "Army Institute of Hotel Management and Catering Technology",
+     "address": "Survey No.13, Nagareshwara, Nagenahalli, Kothanur Post, Bengaluru, Karnataka- 560 077",
+     "pin": "560077",
+     "state": "Karnataka",
+     "website": null,
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic"
+    },
+    {
+     "code": 340,
+     "name": "Shekhawati Institute of Hotel Management",
+     "address": "Behind Circuit House, Jaipur Road, Sikar, Rajasthan – 332 001",
+     "pin": "332001",
+     "state": "Rajasthan",
+     "website": null,
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic Diploma in Food Production Diploma in Food & Beverage Service Diploma in Front Office Operation Diploma in Housekeeping Operation"
+    }
+   ]
+  },
+  "psu": {
+   "url": "https://nchm.gov.in/psu-institutes-of-hotel-management",
+   "pages_fetched": 1,
+   "columns_on_page": [
+    "Institute Code",
+    "Institute Name & Address",
+    "Principal",
+    "Telephone/Fax/Email/Website",
+    "Courses Name"
+   ],
+   "count": 1,
+   "count_by_state": {
+    "Delhi": 1
+   },
+   "entries": [
+    {
+     "code": 322,
+     "name": "IHM Ashok",
+     "address": "Hotel Samrat Campus, Chanakyapuri -New Delhi - 110021",
+     "pin": "110021",
+     "state": "Delhi",
+     "website": null,
+     "courses": "B.Sc. in Hospitality and Hotel Administration - Generic"
+    }
+   ]
+  },
+  "food_craft": {
+   "url": "https://nchm.gov.in/food-craft-institutes",
+   "pages_fetched": 2,
+   "columns_on_page": [
+    "Institute Code",
+    "Institute Name & Address",
+    "Principal",
+    "Telephone/Fax/Email/Website",
+    "Courses Name"
+   ],
+   "count": 16,
+   "count_by_state": {
+    "Madhya Pradesh": 5,
+    "Rajasthan": 2,
+    "Uttar Pradesh": 1,
+    "West Bengal": 1,
+    "Punjab": 1,
+    "Assam": 1,
+    "Meghalaya": 1,
+    "Ladakh": 1,
+    "Karnataka": 1,
+    "Jammu and Kashmir": 1,
+    "Jharkhand": 1
+   },
+   "entries": [
+    {
+     "code": 401,
+     "name": "Food Craft Institute",
+     "address": "Anasagar Circular Road, Vaishali Nagar, Ajmer Rajasthan 305004",
+     "pin": "305004",
+     "state": "Rajasthan",
+     "website": "https://fciajmer.com/",
+     "courses": "Diploma in Food Production Diploma in Food & Beverage Service Diploma in Front Office Operation Diploma in Housekeeping Operation"
+    },
+    {
+     "code": 402,
+     "name": "Food Craft Institute",
+     "address": "University Polytechnic Campus, Aligarh Uttar Pradesh 202002",
+     "pin": "202002",
+     "state": "Uttar Pradesh",
+     "website": "https://foodcraftaligarh.com/",
+     "courses": "Diploma in Food Production Diploma in Food & Beverage Service Diploma in Housekeeping Operation Diploma in Bakery & Confectionery Craftsmanship Certificate Course in Food & Beverage Service"
+    },
+    {
+     "code": 403,
+     "name": "Food Craft Institute",
+     "address": "Lowis Jubilee Complex, Darjeeling West Bengal 160036",
+     "pin": "160036",
+     "state": "West Bengal",
+     "website": null,
+     "courses": "Diploma in Food Production Diploma in Food & Beverage Service Diploma in Front Office Operation"
+    },
+    {
+     "code": 405,
+     "name": "Food Craft Institute",
+     "address": "CAMP, Chandigarh Road, Hoshiarpur Punjab 146001",
+     "pin": "146001",
+     "state": "Punjab",
+     "website": "https://www.fcihoshiarpur.com/",
+     "courses": "Diploma in Food Production"
+    },
+    {
+     "code": 406,
+     "name": "Food Craft Institute",
+     "address": "Rangagora, P.O. Samaguri , Nagaon Assam 782140",
+     "pin": "782140",
+     "state": "Assam",
+     "website": "https://foodcraftinstituteassam.in/",
+     "courses": "Diploma in Food Production Diploma in Food & Beverage Service Diploma in Housekeeping Operation Diploma in Bakery & Confectionery Craftsmanship Certificate Course in Food & Beverage Service"
+    },
+    {
+     "code": 407,
+     "name": "Food Craft Institute",
+     "address": "Orchid Lodge, Opp. Central School Campus, Nazing Bazar, TURA Meghalaya 794001",
+     "pin": "794001",
+     "state": "Meghalaya",
+     "website": null,
+     "courses": "Diploma in Food Production"
+    },
+    {
+     "code": 410,
+     "name": "Food Craft Institute- LEH",
+     "address": "Leh, Ladakh",
+     "pin": null,
+     "state": "Ladakh",
+     "website": null,
+     "courses": "Diploma in Food Production Diploma in Front Office Operation Diploma in Housekeeping Operation"
+    },
+    {
+     "code": 412,
+     "name": "Food Craft Institute- Mysuru",
+     "address": "1st floor, Kannada Karanji Building Karnataka Exhibition Authority Ground Doddakere Maidana Mysuru Karnataka 570010",
+     "pin": "570010",
+     "state": "Karnataka",
+     "website": "https://www.fcimysuru.com/",
+     "courses": "Diploma in Food Production"
+    },
+    {
+     "code": 413,
+     "name": "Food Craft Institute- Jammu",
+     "address": "Village Dhammi Bhara, PO Shibba, Nagrota Jammu jammu and kashmir 181221",
+     "pin": "181221",
+     "state": "Jammu and Kashmir",
+     "website": "https://fcijammu.org/food/index.asp",
+     "courses": "Diploma in Food Production Diploma in Food & Beverage Service Diploma in Front Office Operation Diploma in Housekeeping Operation Diploma in Bakery & Confectionery"
+    },
+    {
+     "code": 414,
+     "name": "Food Craft Institute",
+     "address": "Behind RTO Office, Ratahara Rewa Madhya Pradesh 486001",
+     "pin": "486001",
+     "state": "Madhya Pradesh",
+     "website": "http://fcirewa.mp.gov.in/",
+     "courses": null
+    },
+    {
+     "code": 416,
+     "name": "Food Craft Institute",
+     "address": "Chattarpur District khajuraho Madhya Pradesh 471606",
+     "pin": "471606",
+     "state": "Madhya Pradesh",
+     "website": "https://www.fcikhj.mp.gov.in/",
+     "courses": "Diploma in Food Production Diploma in Food & Beverage Service Diploma in Front Office Operation Diploma in Housekeeping Operation Diploma in Bakery & Confectionery"
+    },
+    {
+     "code": 417,
+     "name": "Food Craft Institute",
+     "address": "Jakha Nagar, Sumerpur District. Pali Rajasthan 306902",
+     "pin": "306902",
+     "state": "Rajasthan",
+     "website": null,
+     "courses": "Diploma in Food Production Diploma in Food & Beverage Service Diploma in Front Office Operation"
+    },
+    {
+     "code": 418,
+     "name": "Food Craft Institute",
+     "address": "Deoghar Kumaitha, Deoghar - 814142, Jharkhand 146001",
+     "pin": "146001",
+     "state": "Jharkhand",
+     "website": "https://fcideoghar.org/",
+     "courses": "Diploma in Food Production Diploma in Food & Beverage Service Diploma in Housekeeping Operation Diploma in Bakery & Confectionery"
+    },
+    {
+     "code": 419,
+     "name": "FCI, Balaghat",
+     "address": "Behind KrishiMandi, Gongli, Balaghat, Madhya Pradesh - 481 001",
+     "pin": "481001",
+     "state": "Madhya Pradesh",
+     "website": null,
+     "courses": "Diploma in Food Production Craftsmanship Certificate Course in Food & Beverage Service"
+    },
+    {
+     "code": 420,
+     "name": "FCI Dhar",
+     "address": "Gram Jetpura, Tehsil- Dhar,District- Dhar, Madhya Pradesh – 462 101",
+     "pin": "462101",
+     "state": "Madhya Pradesh",
+     "website": null,
+     "courses": "Diploma in Food Production Craftsmanship Certificate Course in Food & Beverage Service"
+    },
+    {
+     "code": 421,
+     "name": "FCI, Shahdol",
+     "address": "Vill. – Barukha, Teh. – Sohagpur, Dist. - Shahdol, Madhya Pradesh - 484 001",
+     "pin": "484001",
+     "state": "Madhya Pradesh",
+     "website": null,
+     "courses": "Diploma in Food Production Craftsmanship Certificate Course in Food & Beverage Service"
+    }
+   ]
+  }
+ },
+ "count_total": 78
+}
