@@ -166,10 +166,10 @@ lookup table (§7) will hold. Each family belongs to exactly one group.
 | Central universities | All | UGC · Central Universities Act | ~56 | ✅ ~12 (DU, BHU, JNU, AMU, Jamia, UoH, Visva-Bharati, EFLU, IMU, IGNTU, MGAHV, NSU) |
 | Central Sanskrit universities | Sanskrit, Indology | UGC | 3 | ❌ |
 | Central agricultural universities | Agriculture | ICAR | 3 | ❌ |
-| NIFT | Fashion design | Ministry of Textiles · NIFT Act | 19 campuses | ⚠️ 1 summary row |
-| FDDI | Footwear & design | Ministry of Commerce | 12 campuses | ❌ |
-| NSD · FTII · SRFTI | Theatre, film | Ministry of Culture / I&B | 3 (+ centres) | ✅ all 3 |
-| IIMC | Journalism | Ministry of I&B | 1 (+ ~5 regional) | ✅ |
+| NIFT | Fashion design | Ministry of Textiles · NIFT Act | 20 campuses (Raipur from 2026) | ✅ 20 (C2) |
+| FDDI | Footwear & design | Ministry of Commerce | 12 campuses | ✅ 12 (C2) |
+| NSD · FTII · SRFTI | Theatre, film | Ministry of Culture / I&B | 3 (+ centres) | ✅ all 3 (C2) |
+| IIMC | Journalism | Ministry of I&B | 6 campuses (deemed university since 2024) | ✅ 6 (C2) |
 | Central IHMs (NCHMCT) · IITTM | Hospitality, tourism | Ministry of Tourism | ~21 · 1 | ✅ 3 · ✅ |
 | NCERT RIEs | Teacher education | NCERT | 5 | ⚠️ summary row |
 | NIELIT | Computing diplomas | MeitY | ~50 centres | ⚠️ summary row |

@@ -1,0 +1,924 @@
+{
+ "batch": "C2",
+ "title": "Wave C (G3): NIFT, FDDI, NSD, FTII, SRFTI and IIMC campuses",
+ "verified_at": "2026-10-02",
+ "nirf_snapshot": "research/official_lists/nirf/nirf_2025.json",
+ "verification": {
+  "authority": "Ministry of Textiles — National Institute of Fashion Technology",
+  "list_name": "NIFT campus list (National Institute of Fashion Technology Act, 2006)",
+  "list_url": "https://www.nift.ac.in",
+  "list_as_of": "2026-10-02"
+ },
+ "defaults": {
+  "group": "G3",
+  "ownership": "central_govt",
+  "legacy_type": "central_institute",
+  "nirf": false
+ },
+ "families": {
+  "nift": {
+   "national_count": 20,
+   "as_of": "2026-10-02",
+   "official_list_url": "https://www.nift.ac.in"
+  },
+  "fddi": {
+   "national_count": 12,
+   "as_of": "2026-10-02",
+   "official_list_url": "https://fddiindia.com"
+  },
+  "national_arts_film": {
+   "national_count": 3,
+   "as_of": "2026-10-02",
+   "official_list_url": "https://nsd.gov.in"
+  },
+  "iimc": {
+   "national_count": 6,
+   "as_of": "2026-10-02",
+   "official_list_url": "https://iimc.gov.in"
+  }
+ },
+ "summary_rows": [
+  {
+   "name": "NIFT (all campuses)",
+   "family": "nift"
+  }
+ ],
+ "institutes": [
+  {
+   "key": "nift-new-delhi",
+   "name": "National Institute of Fashion Technology New Delhi",
+   "website": "https://www.nift.ac.in",
+   "reference_id": "https://www.nift.ac.in/newdelhi",
+   "family": "nift",
+   "statutory_basis": "National Institute of Fashion Technology Act, 2006 (Institution of National Importance; Ministry of Textiles)",
+   "nodes": [
+    "nift",
+    "fashion_design",
+    "fashion_tech"
+   ],
+   "verification": {
+    "authority": "Ministry of Textiles — National Institute of Fashion Technology",
+    "list_name": "NIFT campus list (National Institute of Fashion Technology Act, 2006)",
+    "list_url": "https://www.nift.ac.in",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "New Delhi",
+   "state": "Delhi",
+   "existing": [
+    "National Institute of Fashion Technology Delhi"
+   ]
+  },
+  {
+   "key": "nift-mumbai",
+   "name": "National Institute of Fashion Technology Mumbai",
+   "website": "https://www.nift.ac.in",
+   "reference_id": "https://www.nift.ac.in/mumbai",
+   "family": "nift",
+   "statutory_basis": "National Institute of Fashion Technology Act, 2006 (Institution of National Importance; Ministry of Textiles)",
+   "nodes": [
+    "nift",
+    "fashion_design",
+    "fashion_tech"
+   ],
+   "verification": {
+    "authority": "Ministry of Textiles — National Institute of Fashion Technology",
+    "list_name": "NIFT campus list (National Institute of Fashion Technology Act, 2006)",
+    "list_url": "https://www.nift.ac.in",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Navi Mumbai",
+   "state": "Maharashtra",
+   "notes": "Campus at Kharghar, Navi Mumbai."
+  },
+  {
+   "key": "nift-bengaluru",
+   "name": "National Institute of Fashion Technology Bengaluru",
+   "website": "https://www.nift.ac.in",
+   "reference_id": "https://www.nift.ac.in/bengaluru",
+   "family": "nift",
+   "statutory_basis": "National Institute of Fashion Technology Act, 2006 (Institution of National Importance; Ministry of Textiles)",
+   "nodes": [
+    "nift",
+    "fashion_design",
+    "fashion_tech"
+   ],
+   "verification": {
+    "authority": "Ministry of Textiles — National Institute of Fashion Technology",
+    "list_name": "NIFT campus list (National Institute of Fashion Technology Act, 2006)",
+    "list_url": "https://www.nift.ac.in",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Bengaluru",
+   "state": "Karnataka"
+  },
+  {
+   "key": "nift-bhubaneswar",
+   "name": "National Institute of Fashion Technology Bhubaneswar",
+   "website": "https://www.nift.ac.in",
+   "reference_id": "https://www.nift.ac.in/bhubaneswar",
+   "family": "nift",
+   "statutory_basis": "National Institute of Fashion Technology Act, 2006 (Institution of National Importance; Ministry of Textiles)",
+   "nodes": [
+    "nift",
+    "fashion_design",
+    "fashion_tech"
+   ],
+   "verification": {
+    "authority": "Ministry of Textiles — National Institute of Fashion Technology",
+    "list_name": "NIFT campus list (National Institute of Fashion Technology Act, 2006)",
+    "list_url": "https://www.nift.ac.in",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Bhubaneswar",
+   "state": "Odisha"
+  },
+  {
+   "key": "nift-srinagar",
+   "name": "National Institute of Fashion Technology Srinagar",
+   "website": "https://www.nift.ac.in",
+   "reference_id": "https://www.nift.ac.in/srinagar",
+   "family": "nift",
+   "statutory_basis": "National Institute of Fashion Technology Act, 2006 (Institution of National Importance; Ministry of Textiles)",
+   "nodes": [
+    "nift",
+    "fashion_design",
+    "fashion_tech"
+   ],
+   "verification": {
+    "authority": "Ministry of Textiles — National Institute of Fashion Technology",
+    "list_name": "NIFT campus list (National Institute of Fashion Technology Act, 2006)",
+    "list_url": "https://www.nift.ac.in",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Srinagar",
+   "state": "Jammu and Kashmir"
+  },
+  {
+   "key": "nift-varanasi",
+   "name": "National Institute of Fashion Technology Varanasi",
+   "website": "https://www.nift.ac.in",
+   "reference_id": "https://www.nift.ac.in/varanasi",
+   "family": "nift",
+   "statutory_basis": "National Institute of Fashion Technology Act, 2006 (Institution of National Importance; Ministry of Textiles)",
+   "nodes": [
+    "nift",
+    "fashion_design",
+    "fashion_tech"
+   ],
+   "verification": {
+    "authority": "Ministry of Textiles — National Institute of Fashion Technology",
+    "list_name": "NIFT campus list (National Institute of Fashion Technology Act, 2006)",
+    "list_url": "https://www.nift.ac.in",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Varanasi",
+   "state": "Uttar Pradesh"
+  },
+  {
+   "key": "nift-shillong",
+   "name": "National Institute of Fashion Technology Shillong",
+   "website": "https://www.nift.ac.in",
+   "reference_id": "https://www.nift.ac.in/shillong",
+   "family": "nift",
+   "statutory_basis": "National Institute of Fashion Technology Act, 2006 (Institution of National Importance; Ministry of Textiles)",
+   "nodes": [
+    "nift",
+    "fashion_design",
+    "fashion_tech"
+   ],
+   "verification": {
+    "authority": "Ministry of Textiles — National Institute of Fashion Technology",
+    "list_name": "NIFT campus list (National Institute of Fashion Technology Act, 2006)",
+    "list_url": "https://www.nift.ac.in",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Shillong",
+   "state": "Meghalaya"
+  },
+  {
+   "key": "nift-raebareli",
+   "name": "National Institute of Fashion Technology Raebareli",
+   "website": "https://www.nift.ac.in",
+   "reference_id": "https://www.nift.ac.in/raebareli",
+   "family": "nift",
+   "statutory_basis": "National Institute of Fashion Technology Act, 2006 (Institution of National Importance; Ministry of Textiles)",
+   "nodes": [
+    "nift",
+    "fashion_design",
+    "fashion_tech"
+   ],
+   "verification": {
+    "authority": "Ministry of Textiles — National Institute of Fashion Technology",
+    "list_name": "NIFT campus list (National Institute of Fashion Technology Act, 2006)",
+    "list_url": "https://www.nift.ac.in",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Raebareli",
+   "state": "Uttar Pradesh"
+  },
+  {
+   "key": "nift-patna",
+   "name": "National Institute of Fashion Technology Patna",
+   "website": "https://www.nift.ac.in",
+   "reference_id": "https://www.nift.ac.in/patna",
+   "family": "nift",
+   "statutory_basis": "National Institute of Fashion Technology Act, 2006 (Institution of National Importance; Ministry of Textiles)",
+   "nodes": [
+    "nift",
+    "fashion_design",
+    "fashion_tech"
+   ],
+   "verification": {
+    "authority": "Ministry of Textiles — National Institute of Fashion Technology",
+    "list_name": "NIFT campus list (National Institute of Fashion Technology Act, 2006)",
+    "list_url": "https://www.nift.ac.in",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Patna",
+   "state": "Bihar"
+  },
+  {
+   "key": "nift-panchkula",
+   "name": "National Institute of Fashion Technology Panchkula",
+   "website": "https://www.nift.ac.in",
+   "reference_id": "https://www.nift.ac.in/panchkula",
+   "family": "nift",
+   "statutory_basis": "National Institute of Fashion Technology Act, 2006 (Institution of National Importance; Ministry of Textiles)",
+   "nodes": [
+    "nift",
+    "fashion_design",
+    "fashion_tech"
+   ],
+   "verification": {
+    "authority": "Ministry of Textiles — National Institute of Fashion Technology",
+    "list_name": "NIFT campus list (National Institute of Fashion Technology Act, 2006)",
+    "list_url": "https://www.nift.ac.in",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Panchkula",
+   "state": "Haryana"
+  },
+  {
+   "key": "nift-kannur",
+   "name": "National Institute of Fashion Technology Kannur",
+   "website": "https://www.nift.ac.in",
+   "reference_id": "https://www.nift.ac.in/kannur",
+   "family": "nift",
+   "statutory_basis": "National Institute of Fashion Technology Act, 2006 (Institution of National Importance; Ministry of Textiles)",
+   "nodes": [
+    "nift",
+    "fashion_design",
+    "fashion_tech"
+   ],
+   "verification": {
+    "authority": "Ministry of Textiles — National Institute of Fashion Technology",
+    "list_name": "NIFT campus list (National Institute of Fashion Technology Act, 2006)",
+    "list_url": "https://www.nift.ac.in",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Kannur",
+   "state": "Kerala"
+  },
+  {
+   "key": "nift-kangra",
+   "name": "National Institute of Fashion Technology Kangra",
+   "website": "https://www.nift.ac.in",
+   "reference_id": "https://www.nift.ac.in/kangra",
+   "family": "nift",
+   "statutory_basis": "National Institute of Fashion Technology Act, 2006 (Institution of National Importance; Ministry of Textiles)",
+   "nodes": [
+    "nift",
+    "fashion_design",
+    "fashion_tech"
+   ],
+   "verification": {
+    "authority": "Ministry of Textiles — National Institute of Fashion Technology",
+    "list_name": "NIFT campus list (National Institute of Fashion Technology Act, 2006)",
+    "list_url": "https://www.nift.ac.in",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Kangra",
+   "state": "Himachal Pradesh"
+  },
+  {
+   "key": "nift-jodhpur",
+   "name": "National Institute of Fashion Technology Jodhpur",
+   "website": "https://www.nift.ac.in",
+   "reference_id": "https://www.nift.ac.in/jodhpur",
+   "family": "nift",
+   "statutory_basis": "National Institute of Fashion Technology Act, 2006 (Institution of National Importance; Ministry of Textiles)",
+   "nodes": [
+    "nift",
+    "fashion_design",
+    "fashion_tech"
+   ],
+   "verification": {
+    "authority": "Ministry of Textiles — National Institute of Fashion Technology",
+    "list_name": "NIFT campus list (National Institute of Fashion Technology Act, 2006)",
+    "list_url": "https://www.nift.ac.in",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Jodhpur",
+   "state": "Rajasthan"
+  },
+  {
+   "key": "nift-hyderabad",
+   "name": "National Institute of Fashion Technology Hyderabad",
+   "website": "https://www.nift.ac.in",
+   "reference_id": "https://www.nift.ac.in/hyderabad",
+   "family": "nift",
+   "statutory_basis": "National Institute of Fashion Technology Act, 2006 (Institution of National Importance; Ministry of Textiles)",
+   "nodes": [
+    "nift",
+    "fashion_design",
+    "fashion_tech"
+   ],
+   "verification": {
+    "authority": "Ministry of Textiles — National Institute of Fashion Technology",
+    "list_name": "NIFT campus list (National Institute of Fashion Technology Act, 2006)",
+    "list_url": "https://www.nift.ac.in",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Hyderabad",
+   "state": "Telangana"
+  },
+  {
+   "key": "nift-chennai",
+   "name": "National Institute of Fashion Technology Chennai",
+   "website": "https://www.nift.ac.in",
+   "reference_id": "https://www.nift.ac.in/chennai",
+   "family": "nift",
+   "statutory_basis": "National Institute of Fashion Technology Act, 2006 (Institution of National Importance; Ministry of Textiles)",
+   "nodes": [
+    "nift",
+    "fashion_design",
+    "fashion_tech"
+   ],
+   "verification": {
+    "authority": "Ministry of Textiles — National Institute of Fashion Technology",
+    "list_name": "NIFT campus list (National Institute of Fashion Technology Act, 2006)",
+    "list_url": "https://www.nift.ac.in",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Chennai",
+   "state": "Tamil Nadu"
+  },
+  {
+   "key": "nift-bhopal",
+   "name": "National Institute of Fashion Technology Bhopal",
+   "website": "https://www.nift.ac.in",
+   "reference_id": "https://www.nift.ac.in/bhopal",
+   "family": "nift",
+   "statutory_basis": "National Institute of Fashion Technology Act, 2006 (Institution of National Importance; Ministry of Textiles)",
+   "nodes": [
+    "nift",
+    "fashion_design",
+    "fashion_tech"
+   ],
+   "verification": {
+    "authority": "Ministry of Textiles — National Institute of Fashion Technology",
+    "list_name": "NIFT campus list (National Institute of Fashion Technology Act, 2006)",
+    "list_url": "https://www.nift.ac.in",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Bhopal",
+   "state": "Madhya Pradesh"
+  },
+  {
+   "key": "nift-raipur",
+   "name": "National Institute of Fashion Technology Raipur",
+   "website": "https://www.nift.ac.in",
+   "reference_id": "https://www.nift.ac.in/raipur",
+   "family": "nift",
+   "statutory_basis": "National Institute of Fashion Technology Act, 2006 (Institution of National Importance; Ministry of Textiles)",
+   "nodes": [
+    "nift",
+    "fashion_design",
+    "fashion_tech"
+   ],
+   "verification": {
+    "authority": "Ministry of Textiles — National Institute of Fashion Technology",
+    "list_name": "NIFT campus list (National Institute of Fashion Technology Act, 2006)",
+    "list_url": "https://www.nift.ac.in",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Raipur",
+   "state": "Chhattisgarh",
+   "notes": "20th NIFT campus; first session July 2026 from a temporary campus at the Old Vidhan Sabha complex, Raipur (permanent campus in Nava Raipur). B.Des only."
+  },
+  {
+   "key": "nift-kolkata",
+   "name": "National Institute of Fashion Technology Kolkata",
+   "website": "https://www.nift.ac.in",
+   "reference_id": "https://www.nift.ac.in/kolkata",
+   "family": "nift",
+   "statutory_basis": "National Institute of Fashion Technology Act, 2006 (Institution of National Importance; Ministry of Textiles)",
+   "nodes": [
+    "nift",
+    "fashion_design",
+    "fashion_tech"
+   ],
+   "verification": {
+    "authority": "Ministry of Textiles — National Institute of Fashion Technology",
+    "list_name": "NIFT campus list (National Institute of Fashion Technology Act, 2006)",
+    "list_url": "https://www.nift.ac.in",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Kolkata",
+   "state": "West Bengal"
+  },
+  {
+   "key": "nift-gandhinagar",
+   "name": "National Institute of Fashion Technology Gandhinagar",
+   "website": "https://www.nift.ac.in",
+   "reference_id": "https://www.nift.ac.in/gandhinagar",
+   "family": "nift",
+   "statutory_basis": "National Institute of Fashion Technology Act, 2006 (Institution of National Importance; Ministry of Textiles)",
+   "nodes": [
+    "nift",
+    "fashion_design",
+    "fashion_tech"
+   ],
+   "verification": {
+    "authority": "Ministry of Textiles — National Institute of Fashion Technology",
+    "list_name": "NIFT campus list (National Institute of Fashion Technology Act, 2006)",
+    "list_url": "https://www.nift.ac.in",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Gandhinagar",
+   "state": "Gujarat"
+  },
+  {
+   "key": "nift-daman",
+   "name": "National Institute of Fashion Technology Daman",
+   "website": "https://www.nift.ac.in",
+   "reference_id": "https://www.nift.ac.in/daman",
+   "family": "nift",
+   "statutory_basis": "National Institute of Fashion Technology Act, 2006 (Institution of National Importance; Ministry of Textiles)",
+   "nodes": [
+    "nift",
+    "fashion_design",
+    "fashion_tech"
+   ],
+   "verification": {
+    "authority": "Ministry of Textiles — National Institute of Fashion Technology",
+    "list_name": "NIFT campus list (National Institute of Fashion Technology Act, 2006)",
+    "list_url": "https://www.nift.ac.in",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Daman",
+   "state": "Dadra and Nagar Haveli and Daman and Diu"
+  },
+  {
+   "key": "fddi-noida",
+   "name": "Footwear Design and Development Institute Noida",
+   "website": "https://fddiindia.com",
+   "reference_id": "https://fddiindia.com (campuses)",
+   "family": "fddi",
+   "statutory_basis": "Footwear Design and Development Institute Act, 2017 (Institution of National Importance; Ministry of Commerce and Industry)",
+   "nodes": [
+    "fashion_design",
+    "product_designer"
+   ],
+   "verification": {
+    "authority": "Ministry of Commerce and Industry (DPIIT) — Footwear Design and Development Institute",
+    "list_name": "FDDI campus list (Footwear Design and Development Institute Act, 2017)",
+    "list_url": "https://fddiindia.com",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Noida",
+   "state": "Uttar Pradesh"
+  },
+  {
+   "key": "fddi-fursatganj",
+   "name": "Footwear Design and Development Institute Fursatganj",
+   "website": "https://fddiindia.com",
+   "reference_id": "https://fddiindia.com (campuses)",
+   "family": "fddi",
+   "statutory_basis": "Footwear Design and Development Institute Act, 2017 (Institution of National Importance; Ministry of Commerce and Industry)",
+   "nodes": [
+    "fashion_design",
+    "product_designer"
+   ],
+   "verification": {
+    "authority": "Ministry of Commerce and Industry (DPIIT) — Footwear Design and Development Institute",
+    "list_name": "FDDI campus list (Footwear Design and Development Institute Act, 2017)",
+    "list_url": "https://fddiindia.com",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Fursatganj",
+   "state": "Uttar Pradesh",
+   "notes": "Fursatganj campus, Amethi district (listed by FDDI as Fursatganj, Raebareli)."
+  },
+  {
+   "key": "fddi-rohtak",
+   "name": "Footwear Design and Development Institute Rohtak",
+   "website": "https://fddiindia.com",
+   "reference_id": "https://fddiindia.com (campuses)",
+   "family": "fddi",
+   "statutory_basis": "Footwear Design and Development Institute Act, 2017 (Institution of National Importance; Ministry of Commerce and Industry)",
+   "nodes": [
+    "fashion_design",
+    "product_designer"
+   ],
+   "verification": {
+    "authority": "Ministry of Commerce and Industry (DPIIT) — Footwear Design and Development Institute",
+    "list_name": "FDDI campus list (Footwear Design and Development Institute Act, 2017)",
+    "list_url": "https://fddiindia.com",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Rohtak",
+   "state": "Haryana"
+  },
+  {
+   "key": "fddi-chandigarh",
+   "name": "Footwear Design and Development Institute Chandigarh",
+   "website": "https://fddiindia.com",
+   "reference_id": "https://fddiindia.com (campuses)",
+   "family": "fddi",
+   "statutory_basis": "Footwear Design and Development Institute Act, 2017 (Institution of National Importance; Ministry of Commerce and Industry)",
+   "nodes": [
+    "fashion_design",
+    "product_designer"
+   ],
+   "verification": {
+    "authority": "Ministry of Commerce and Industry (DPIIT) — Footwear Design and Development Institute",
+    "list_name": "FDDI campus list (Footwear Design and Development Institute Act, 2017)",
+    "list_url": "https://fddiindia.com",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Banur",
+   "state": "Punjab",
+   "notes": "FDDI's 'Chandigarh' campus is at Banur, SAS Nagar (Mohali) district, Punjab."
+  },
+  {
+   "key": "fddi-jodhpur",
+   "name": "Footwear Design and Development Institute Jodhpur",
+   "website": "https://fddiindia.com",
+   "reference_id": "https://fddiindia.com (campuses)",
+   "family": "fddi",
+   "statutory_basis": "Footwear Design and Development Institute Act, 2017 (Institution of National Importance; Ministry of Commerce and Industry)",
+   "nodes": [
+    "fashion_design",
+    "product_designer"
+   ],
+   "verification": {
+    "authority": "Ministry of Commerce and Industry (DPIIT) — Footwear Design and Development Institute",
+    "list_name": "FDDI campus list (Footwear Design and Development Institute Act, 2017)",
+    "list_url": "https://fddiindia.com",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Jodhpur",
+   "state": "Rajasthan"
+  },
+  {
+   "key": "fddi-ankleshwar",
+   "name": "Footwear Design and Development Institute Ankleshwar",
+   "website": "https://fddiindia.com",
+   "reference_id": "https://fddiindia.com (campuses)",
+   "family": "fddi",
+   "statutory_basis": "Footwear Design and Development Institute Act, 2017 (Institution of National Importance; Ministry of Commerce and Industry)",
+   "nodes": [
+    "fashion_design",
+    "product_designer"
+   ],
+   "verification": {
+    "authority": "Ministry of Commerce and Industry (DPIIT) — Footwear Design and Development Institute",
+    "list_name": "FDDI campus list (Footwear Design and Development Institute Act, 2017)",
+    "list_url": "https://fddiindia.com",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Ankleshwar",
+   "state": "Gujarat",
+   "notes": "Listed by FDDI as Ankleshwar (Surat region); Ankleshwar is in Bharuch district."
+  },
+  {
+   "key": "fddi-guna",
+   "name": "Footwear Design and Development Institute Guna",
+   "website": "https://fddiindia.com",
+   "reference_id": "https://fddiindia.com (campuses)",
+   "family": "fddi",
+   "statutory_basis": "Footwear Design and Development Institute Act, 2017 (Institution of National Importance; Ministry of Commerce and Industry)",
+   "nodes": [
+    "fashion_design",
+    "product_designer"
+   ],
+   "verification": {
+    "authority": "Ministry of Commerce and Industry (DPIIT) — Footwear Design and Development Institute",
+    "list_name": "FDDI campus list (Footwear Design and Development Institute Act, 2017)",
+    "list_url": "https://fddiindia.com",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Guna",
+   "state": "Madhya Pradesh"
+  },
+  {
+   "key": "fddi-chhindwara",
+   "name": "Footwear Design and Development Institute Chhindwara",
+   "website": "https://fddiindia.com",
+   "reference_id": "https://fddiindia.com (campuses)",
+   "family": "fddi",
+   "statutory_basis": "Footwear Design and Development Institute Act, 2017 (Institution of National Importance; Ministry of Commerce and Industry)",
+   "nodes": [
+    "fashion_design",
+    "product_designer"
+   ],
+   "verification": {
+    "authority": "Ministry of Commerce and Industry (DPIIT) — Footwear Design and Development Institute",
+    "list_name": "FDDI campus list (Footwear Design and Development Institute Act, 2017)",
+    "list_url": "https://fddiindia.com",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Chhindwara",
+   "state": "Madhya Pradesh"
+  },
+  {
+   "key": "fddi-patna",
+   "name": "Footwear Design and Development Institute Patna",
+   "website": "https://fddiindia.com",
+   "reference_id": "https://fddiindia.com (campuses)",
+   "family": "fddi",
+   "statutory_basis": "Footwear Design and Development Institute Act, 2017 (Institution of National Importance; Ministry of Commerce and Industry)",
+   "nodes": [
+    "fashion_design",
+    "product_designer"
+   ],
+   "verification": {
+    "authority": "Ministry of Commerce and Industry (DPIIT) — Footwear Design and Development Institute",
+    "list_name": "FDDI campus list (Footwear Design and Development Institute Act, 2017)",
+    "list_url": "https://fddiindia.com",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Patna",
+   "state": "Bihar"
+  },
+  {
+   "key": "fddi-kolkata",
+   "name": "Footwear Design and Development Institute Kolkata",
+   "website": "https://fddiindia.com",
+   "reference_id": "https://fddiindia.com (campuses)",
+   "family": "fddi",
+   "statutory_basis": "Footwear Design and Development Institute Act, 2017 (Institution of National Importance; Ministry of Commerce and Industry)",
+   "nodes": [
+    "fashion_design",
+    "product_designer"
+   ],
+   "verification": {
+    "authority": "Ministry of Commerce and Industry (DPIIT) — Footwear Design and Development Institute",
+    "list_name": "FDDI campus list (Footwear Design and Development Institute Act, 2017)",
+    "list_url": "https://fddiindia.com",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Kolkata",
+   "state": "West Bengal"
+  },
+  {
+   "key": "fddi-hyderabad",
+   "name": "Footwear Design and Development Institute Hyderabad",
+   "website": "https://fddiindia.com",
+   "reference_id": "https://fddiindia.com (campuses)",
+   "family": "fddi",
+   "statutory_basis": "Footwear Design and Development Institute Act, 2017 (Institution of National Importance; Ministry of Commerce and Industry)",
+   "nodes": [
+    "fashion_design",
+    "product_designer"
+   ],
+   "verification": {
+    "authority": "Ministry of Commerce and Industry (DPIIT) — Footwear Design and Development Institute",
+    "list_name": "FDDI campus list (Footwear Design and Development Institute Act, 2017)",
+    "list_url": "https://fddiindia.com",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Hyderabad",
+   "state": "Telangana"
+  },
+  {
+   "key": "fddi-chennai",
+   "name": "Footwear Design and Development Institute Chennai",
+   "website": "https://fddiindia.com",
+   "reference_id": "https://fddiindia.com (campuses)",
+   "family": "fddi",
+   "statutory_basis": "Footwear Design and Development Institute Act, 2017 (Institution of National Importance; Ministry of Commerce and Industry)",
+   "nodes": [
+    "fashion_design",
+    "product_designer"
+   ],
+   "verification": {
+    "authority": "Ministry of Commerce and Industry (DPIIT) — Footwear Design and Development Institute",
+    "list_name": "FDDI campus list (Footwear Design and Development Institute Act, 2017)",
+    "list_url": "https://fddiindia.com",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Chennai",
+   "state": "Tamil Nadu"
+  },
+  {
+   "key": "nsd",
+   "name": "National School of Drama",
+   "website": "https://nsd.gov.in",
+   "reference_id": "https://nsd.gov.in",
+   "family": "national_arts_film",
+   "statutory_basis": "Autonomous organisation of the Ministry of Culture (registered society)",
+   "nodes": [
+    "theatre_course",
+    "theatre_actor",
+    "theatre_director"
+   ],
+   "verification": {
+    "authority": "Ministry of Culture",
+    "list_name": "National School of Drama — autonomous organisation of the Ministry of Culture",
+    "list_url": "https://nsd.gov.in",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "New Delhi",
+   "state": "Delhi",
+   "notes": "Regional centres (e.g. Bengaluru, Varanasi, Gangtok, Agartala) are not loaded as separate institutes."
+  },
+  {
+   "key": "ftii",
+   "name": "Film and Television Institute of India",
+   "website": "https://www.ftii.ac.in",
+   "reference_id": "UGC 588th meeting, 13 Mar 2025; MoE notification 22 Apr 2025",
+   "family": "national_arts_film",
+   "statutory_basis": "Institution Deemed to be University (distinct category), 2025; Ministry of Information and Broadcasting",
+   "legacy_type": "deemed_university",
+   "nodes": [
+    "film_direction",
+    "cinematographer",
+    "film_editor",
+    "sound_engineer",
+    "theatre_actor"
+   ],
+   "verification": {
+    "authority": "Ministry of Education, on UGC's advice",
+    "list_name": "FTII Pune and SRFTI Kolkata — Institutions Deemed to be Universities (distinct category), April 2025",
+    "list_url": "https://srfti.ac.in/news/srfti-granted-deemed-to-be-university-status/",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Pune",
+   "state": "Maharashtra",
+   "existing": [
+    "FTII Pune"
+   ]
+  },
+  {
+   "key": "srfti",
+   "name": "Satyajit Ray Film and Television Institute",
+   "website": "https://srfti.ac.in",
+   "reference_id": "MoE notification, April 2025",
+   "family": "national_arts_film",
+   "statutory_basis": "Institution Deemed to be University (distinct category), 2025; Ministry of Information and Broadcasting",
+   "legacy_type": "deemed_university",
+   "nodes": [
+    "film_direction",
+    "cinematographer",
+    "film_editor",
+    "sound_engineer",
+    "theatre_actor"
+   ],
+   "verification": {
+    "authority": "Ministry of Education, on UGC's advice",
+    "list_name": "FTII Pune and SRFTI Kolkata — Institutions Deemed to be Universities (distinct category), April 2025",
+    "list_url": "https://srfti.ac.in/news/srfti-granted-deemed-to-be-university-status/",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Kolkata",
+   "state": "West Bengal",
+   "existing": [
+    "SRFTI Kolkata",
+    "Satyajit Ray Film and Television Institute Kolkata"
+   ],
+   "notes": "Its extended campus, the Film and Television Institute, Arunachal Pradesh (Jote), started its first full-time batch in 2025; not loaded separately."
+  },
+  {
+   "key": "iimc-new-delhi",
+   "name": "Indian Institute of Mass Communication New Delhi",
+   "website": "https://iimc.gov.in",
+   "reference_id": "MoE notification, 31 Jan 2024",
+   "family": "iimc",
+   "statutory_basis": "Institution Deemed to be University (distinct category), 2024, with its regional campuses; Ministry of Information and Broadcasting",
+   "legacy_type": "deemed_university",
+   "nodes": [
+    "print_journalism",
+    "broadcast_journalism",
+    "hindi_journalist"
+   ],
+   "verification": {
+    "authority": "Ministry of Education, on UGC's advice",
+    "list_name": "IIMC New Delhi and its five regional campuses — Institution Deemed to be University (distinct category), 31 Jan 2024",
+    "list_url": "https://iimc.gov.in",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "New Delhi",
+   "state": "Delhi",
+   "existing": [
+    "Indian Institute of Mass Communication (IIMC)"
+   ]
+  },
+  {
+   "key": "iimc-dhenkanal",
+   "name": "Indian Institute of Mass Communication Dhenkanal",
+   "website": "https://iimc.gov.in",
+   "reference_id": "MoE notification, 31 Jan 2024",
+   "family": "iimc",
+   "statutory_basis": "Institution Deemed to be University (distinct category), 2024, with its regional campuses; Ministry of Information and Broadcasting",
+   "legacy_type": "deemed_university",
+   "nodes": [
+    "print_journalism"
+   ],
+   "verification": {
+    "authority": "Ministry of Education, on UGC's advice",
+    "list_name": "IIMC New Delhi and its five regional campuses — Institution Deemed to be University (distinct category), 31 Jan 2024",
+    "list_url": "https://iimc.gov.in",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Dhenkanal",
+   "state": "Odisha",
+   "notes": "Regional campus of IIMC New Delhi."
+  },
+  {
+   "key": "iimc-aizawl",
+   "name": "Indian Institute of Mass Communication Aizawl",
+   "website": "https://iimc.gov.in",
+   "reference_id": "MoE notification, 31 Jan 2024",
+   "family": "iimc",
+   "statutory_basis": "Institution Deemed to be University (distinct category), 2024, with its regional campuses; Ministry of Information and Broadcasting",
+   "legacy_type": "deemed_university",
+   "nodes": [
+    "print_journalism"
+   ],
+   "verification": {
+    "authority": "Ministry of Education, on UGC's advice",
+    "list_name": "IIMC New Delhi and its five regional campuses — Institution Deemed to be University (distinct category), 31 Jan 2024",
+    "list_url": "https://iimc.gov.in",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Aizawl",
+   "state": "Mizoram",
+   "notes": "Regional campus of IIMC New Delhi."
+  },
+  {
+   "key": "iimc-amravati",
+   "name": "Indian Institute of Mass Communication Amravati",
+   "website": "https://iimc.gov.in",
+   "reference_id": "MoE notification, 31 Jan 2024",
+   "family": "iimc",
+   "statutory_basis": "Institution Deemed to be University (distinct category), 2024, with its regional campuses; Ministry of Information and Broadcasting",
+   "legacy_type": "deemed_university",
+   "nodes": [
+    "print_journalism"
+   ],
+   "verification": {
+    "authority": "Ministry of Education, on UGC's advice",
+    "list_name": "IIMC New Delhi and its five regional campuses — Institution Deemed to be University (distinct category), 31 Jan 2024",
+    "list_url": "https://iimc.gov.in",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Amravati",
+   "state": "Maharashtra",
+   "notes": "Regional campus of IIMC New Delhi."
+  },
+  {
+   "key": "iimc-jammu",
+   "name": "Indian Institute of Mass Communication Jammu",
+   "website": "https://iimc.gov.in",
+   "reference_id": "MoE notification, 31 Jan 2024",
+   "family": "iimc",
+   "statutory_basis": "Institution Deemed to be University (distinct category), 2024, with its regional campuses; Ministry of Information and Broadcasting",
+   "legacy_type": "deemed_university",
+   "nodes": [
+    "print_journalism"
+   ],
+   "verification": {
+    "authority": "Ministry of Education, on UGC's advice",
+    "list_name": "IIMC New Delhi and its five regional campuses — Institution Deemed to be University (distinct category), 31 Jan 2024",
+    "list_url": "https://iimc.gov.in",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Jammu",
+   "state": "Jammu and Kashmir",
+   "notes": "Regional campus of IIMC New Delhi."
+  },
+  {
+   "key": "iimc-kottayam",
+   "name": "Indian Institute of Mass Communication Kottayam",
+   "website": "https://iimc.gov.in",
+   "reference_id": "MoE notification, 31 Jan 2024",
+   "family": "iimc",
+   "statutory_basis": "Institution Deemed to be University (distinct category), 2024, with its regional campuses; Ministry of Information and Broadcasting",
+   "legacy_type": "deemed_university",
+   "nodes": [
+    "print_journalism"
+   ],
+   "verification": {
+    "authority": "Ministry of Education, on UGC's advice",
+    "list_name": "IIMC New Delhi and its five regional campuses — Institution Deemed to be University (distinct category), 31 Jan 2024",
+    "list_url": "https://iimc.gov.in",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Kottayam",
+   "state": "Kerala",
+   "notes": "Regional campus of IIMC New Delhi."
+  }
+ ]
+}
