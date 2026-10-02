@@ -14,7 +14,8 @@ the loader:
 4. replaces its NIRF rankings for the snapshot year with every category it
    appears in;
 5. links it to the batch's career nodes;
-6. attaches department/centre rows to it as children, merging duplicates;
+6. attaches department/centre rows to it as children, merging duplicates
+   (a campus marked "new" is inserted when no row has its name);
 7. marks national summary rows ("IITs") as family records;
 8. rebuilds every institute's domain tiers (tooling/domain_tiers.py).
 
@@ -371,7 +372,20 @@ def load(connection: sqlite3.Connection, batch: dict[str, Any], snapshot: dict[s
             department_id = consolidate(
                 connection, department["name"], department.get("existing", []), report, claimed
             )
-            if department_id is None:
+            if department_id is None and department.get("new"):
+                # A campus from the official list that the data never had (IMU Kochi).
+                connection.execute(
+                    "INSERT INTO institutes (name, city, state, website, description, "
+                    "institution_type) VALUES (?, ?, ?, ?, ?, ?)",
+                    (department["name"], department.get("city", city),
+                     department.get("state", state), item.get("website"),
+                     f"{department['name']} is a campus of {item['name']}, listed in "
+                     f"{item['verification']['list_name']}.",
+                     item.get("legacy_type")),
+                )
+                department_id = connection.execute("SELECT last_insert_rowid()").fetchone()[0]
+                report["inserted"].append(department["name"])
+            elif department_id is None:
                 raise BatchError(f"{item['name']}: department not found: {department['name']}")
             # A department at another campus (IIM Lucknow's Noida campus) keeps its place.
             relocate(connection, department_id, department.get("city", city),

@@ -420,6 +420,28 @@ class LoadFamilyBatchTest(unittest.TestCase):
             (None, "Maharashtra"),
         )
 
+    def test_a_new_campus_is_inserted_as_a_child_and_an_unknown_one_still_fails(self) -> None:
+        batch = copy.deepcopy(BATCH)
+        batch["institutes"][0]["departments"].append(
+            {"name": "IIT Bombay Campus Kochi", "new": True, "city": "Kochi", "state": "Kerala"})
+        connection = _database()
+        report = load(connection, batch, SNAPSHOT)
+        self.assertIn("IIT Bombay Campus Kochi", report["inserted"])
+        self.assertEqual(
+            connection.execute(
+                "SELECT i.city, i.state, i.website, c.parent_institute_id, c.family_slug "
+                "FROM institutes i JOIN institute_classification c ON c.institute_id = i.id "
+                "WHERE i.name = 'IIT Bombay Campus Kochi'"
+            ).fetchone(),
+            ("Kochi", "Kerala", "https://www.iitb.ac.in", 11, "iit"),
+        )
+        # A rerun finds the campus by name instead of inserting it again.
+        self.assertEqual(load(connection, copy.deepcopy(batch), SNAPSHOT)["inserted"], [])
+        batch["institutes"][0]["departments"][-1].pop("new")
+        batch["institutes"][0]["departments"][-1]["name"] = "IIT Bombay Campus Nowhere"
+        with self.assertRaisesRegex(BatchError, "department not found"):
+            load(_database(), batch, SNAPSHOT)
+
 
 if __name__ == "__main__":
     unittest.main()
