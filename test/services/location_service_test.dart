@@ -1,6 +1,8 @@
 import 'dart:io';
 
 import 'package:career_path/data/local_database.dart';
+import 'package:career_path/models/district_region.dart';
+import 'package:career_path/models/place_record.dart';
 import 'package:career_path/models/state_region.dart';
 import 'package:career_path/services/location_service.dart';
 import 'package:flutter_test/flutter_test.dart';
@@ -223,9 +225,73 @@ void main() {
       expect(counted.resolveLoaded('Goa')?.level, PlaceLevel.state);
     });
 
+    test('loads places when district and alias loaders are omitted', () async {
+      final placesOnly = LocationService(
+        loadStates: local.getStates,
+        loadCities: () async => const [],
+        loadPlaces: () async => const [
+          PlaceRecord(
+            id: 321,
+            districtLgd: 999,
+            districtName: 'Example District',
+            stateCode: 'IN-RJ',
+            name: 'Example City',
+            kind: 'city',
+          ),
+        ],
+      );
+
+      final place = await placesOnly.resolve('Example City');
+      expect(place?.placeIds, {321});
+      expect(place?.state?.code, 'IN-RJ');
+    });
+
     test('compact keeps lowercase letters and digits only', () {
       expect(LocationService.compact(' Tamil Nadu! '), 'tamilnadu');
       expect(LocationService.compact(null), '');
+    });
+
+    test('ambiguous city names retain every mapped place id', () async {
+      final mapped = LocationService(
+        loadStates: () async => const [
+          StateRegion(
+            code: 'IN-MP',
+            lgdCode: 23,
+            name: 'Madhya Pradesh',
+            kind: 'state',
+            zone: 'central',
+          ),
+        ],
+        loadCities: () async => const [],
+        loadDistricts: () async => const [
+          DistrictRegion(lgdCode: 396, stateCode: 'IN-MP', name: 'Bhopal'),
+          DistrictRegion(lgdCode: 421, stateCode: 'IN-MP', name: 'Raisen'),
+        ],
+        loadPlaces: () async => const [
+          PlaceRecord(
+            id: 4,
+            districtLgd: 396,
+            districtName: 'Bhopal',
+            stateCode: 'IN-MP',
+            name: 'Bhopal',
+            kind: 'city',
+          ),
+          PlaceRecord(
+            id: 138,
+            districtLgd: 421,
+            districtName: 'Raisen',
+            stateCode: 'IN-MP',
+            name: 'Bhopal',
+            kind: 'city',
+          ),
+        ],
+      );
+
+      final place = await mapped.resolve('Bhopal');
+      expect(place?.placeIds, {4, 138});
+      expect(place?.districtLgds, {396, 421});
+      expect(place?.state?.code, 'IN-MP');
+      expect(place?.district, isNull);
     });
   });
 

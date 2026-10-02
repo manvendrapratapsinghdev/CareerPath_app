@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 import '../config/app_theme.dart';
 import '../l10n/app_localizations.dart';
@@ -9,6 +10,9 @@ import '../models/career_node.dart';
 import '../services/analytics_service.dart';
 import '../services/bookmark_service.dart';
 import '../services/career_data_service.dart';
+import '../services/institute_catalog_service.dart';
+import '../services/location_service.dart';
+import '../services/route_service.dart';
 import '../widgets/accent_icon_box.dart';
 import '../widgets/empty_state.dart';
 import '../widgets/page_transitions.dart';
@@ -18,12 +22,20 @@ class SearchScreen extends StatefulWidget {
   final CareerDataService careerDataService;
   final BookmarkService bookmarkService;
   final AnalyticsService? analyticsService;
+  final InstituteCatalogService? instituteCatalog;
+  final LocationService? locationService;
+  final RouteService? routeService;
+  final SharedPreferences? prefs;
 
   const SearchScreen({
     super.key,
     required this.careerDataService,
     required this.bookmarkService,
     this.analyticsService,
+    this.instituteCatalog,
+    this.locationService,
+    this.routeService,
+    this.prefs,
   });
 
   @override
@@ -72,6 +84,10 @@ class _SearchScreenState extends State<SearchScreen> {
           careerDataService: widget.careerDataService,
           bookmarkService: widget.bookmarkService,
           analyticsService: widget.analyticsService,
+          instituteCatalog: widget.instituteCatalog,
+          locationService: widget.locationService,
+          routeService: widget.routeService,
+          prefs: widget.prefs,
           nodeId: node.id,
           breadcrumbs: [BreadcrumbEntry(nodeId: node.id, label: node.name)],
         ),
@@ -167,12 +183,8 @@ class _SearchScreenState extends State<SearchScreen> {
                             node.isLeaf
                                 ? l.search_careerEndpoint
                                 : l.search_optionsAhead(node.childCount),
-                            style: Theme.of(context)
-                                .textTheme
-                                .bodySmall
-                                ?.copyWith(
-                                  color: colorScheme.onSurfaceVariant,
-                                ),
+                            style: Theme.of(context).textTheme.bodySmall
+                                ?.copyWith(color: colorScheme.onSurfaceVariant),
                           ),
                         ],
                       ),

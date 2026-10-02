@@ -2,7 +2,7 @@
 
 > **Purpose:** a pre-digested map so a new Claude session does NOT re-scan the repo.
 > Read this first; open source files only for the exact function you are changing.
-> **Verified against:** branch `feature/voice-structured-search` (app version `1.5.0+17`), 2026-09-30.
+> **Verified against:** working tree on branch `feature/institution-hierarchy` (app version `1.5.0+17`), 2026-10-02.
 > **Keep fresh:** if you change anything listed here, update this file in the same commit (see §12).
 
 ---
@@ -236,11 +236,11 @@ Order of construction: `SharedPreferences` → repositories/services (bookmarks,
 
 ## 8. DATABASE SCHEMA — `assets/data/career_path.db` (SQLite, read-only in app)
 
-Row counts as of this commit: streams 3 · career_nodes 380 · books 1 111 · institutes 951 · job_sectors 476 ·
+Row counts verified 2026-10-02: streams 3 · career_nodes 380 · books 1 111 · institutes 951 · job_sectors 476 ·
 institute_courses 8 376 · node_books 2 751 · node_institutes 6 204 · node_job_sectors 1 375 · course_career_nodes 9 495
 · institute_categories 409 · institute_rankings 447 · institution_groups 13 · families 114 · institute_classification
-512 · institute_verifications 433 · institute_accreditations 0 · countries 1 · states 36 · districts 0 · places 0 ·
-place_aliases 0 · campuses 0 · domains 27 · domain_nodes 90 · domain_tiers 278 · institute_domain_tiers 600.
+708 · institute_verifications 433 · institute_accreditations 0 · countries 1 · states 36 · districts 784 · places 100 ·
+place_aliases 3 · campuses 231 · domains 27 · domain_nodes 90 · domain_tiers 278 · institute_domain_tiers 600.
 
 ### 8.1 Tables (DDL, condensed from `sqlite3 .schema`)
 
@@ -378,9 +378,11 @@ streams 1───∞ career_nodes ∞───1 career_nodes (parent_id, self-t
 - **Streams:** 1 science, 2 commerce, 3 art.
 - **Tree depth:** L1 = 17 roots, L2 = 84, L3 = 241, L4 = 38 → **275 leaves**, 17 root nodes.
   Books/institutes/sectors hang off nodes (mostly leaves) via junction tables.
-- **institutes.state:** filled for 926 of 951 (34 states/UTs; Andaman and Nicobar and Lakshadweep still have none; Rajasthan 133, Maharashtra 105, Uttar Pradesh 96, Madhya Pradesh 90, Delhi 77, Tamil Nadu 57, …). Only city "Various" (24) and "Online" (1) stay NULL. Courses exist only for the researched
-  Rajasthan/MP/UP institutes. Hand-added institutes had a city but no state; `tooling/fill_institute_states.py` fills it from the city
-  (curated `CITY_STATES`; add a row when a new city appears). **districts** are still NULL for those rows — never guessed.
+- **institutes.state:** filled for 926 of 951 legacy institute rows. This is not the same as having a resolved campus:
+  only 231 institutes currently link to campus/place/district records, across Rajasthan (117), Madhya Pradesh (70), and
+  Uttar Pradesh (44). Another 667 physical institute rows need location review (`research/location_review.csv`); 658 lack
+  an explicit district and 9 district labels do not match LGD. No districts are inferred. Campus citations are NULL because
+  the legacy records have no location-specific source URLs.
 - **institutes.institution_type:** ~119 NULL. Values include government_college, specialized, state_university, central_institute,
   iit, iim, nit, iiit, medical, law, agriculture, central_university, deemed_university, private_university, other, …
 - **institute_courses.level / mode / relation:** free-text with **inconsistent casing & spelling**
@@ -458,27 +460,24 @@ streams 1───∞ career_nodes ∞───1 career_nodes (parent_id, self-t
 | `institute_verifications`, `institute_accreditations` | `InstituteVerification`, `InstituteAccreditation` | `getInstituteVerifications`, `getInstituteAccreditations` (NAAC first) |
 | `institute_rankings` (per institute) | `InstituteRanking` (`institute_catalog.dart`, reused) | `getInstituteRankings(id, {system, latestYearOnly})`; `getDisplayRanking(id, {domainSlug})` uses `nirfCategoriesFor(domain)` in `domain.dart` (domain category, then Overall/University/College…; null = "Not ranked") |
 | `domains`, `domain_nodes`, `domain_tiers`, `institute_domain_tiers` | `Domain` (`domain.dart`), `DomainTier` (`domain_tier.dart`), `InstituteDomainTier` (`institute_domain_tier.dart`) | `getDomains`/`getDomain`, `getDomainSlugForNode` (nearest ancestor), `getDomainTiers(slug)`, `getInstitutesOnDomainLadder(slug, {tier})`, `getInstituteDomainTiers(id)`; CSV columns exposed as `groupCodeList`/`familySlugList` |
-| `states` | `StateRegion` (`state_region.dart`) | `getStates()`; districts/places/campuses not mapped yet (tables empty) |
-| `institutes.city` (distinct, with state) | `({String city, String? state})` | `getInstituteCities()`: the place resolver's city list until `places` is filled |
+| `states`, `districts`, `places`, `place_aliases`, `campuses` | `StateRegion`, `DistrictRegion`, `PlaceRecord`, `PlaceAlias`, `InstituteCampus` | `getStates`, `getDistricts`, `getPlaces`, `getPlaceAliases`, `getCampuses`; `getInstituteCatalog` joins mapped campus rows into each `InstituteRecord` |
+| `institutes.city` (distinct, with state) | `({String city, String? state})` | `getInstituteCities()` remains a legacy fallback for the text resolver; campus-scoped filtering uses explicit campus/place IDs |
 
 Taxonomy queries return empty/null when their tables are missing (older DB), via a cached table check in `LocalDatabase`.
 Tests: `LocalDatabase.withDatabase(db)` (`@visibleForTesting`) + dev dependency `sqflite_common_ffi` run real SQL in
-`test/data/local_database_taxonomy_test.dart` (in-memory, old-schema and read-only bundled-DB cases).
+the taxonomy and location DB tests (in-memory, old-schema and read-only bundled-DB cases). Current Flutter verification:
+401 tests passed and `flutter analyze` is clean (2026-10-02).
 
-Services on top (T11; not wired in `main.dart` yet, that happens in T12/T13):
+Services on top (wired in `main.dart`):
 - **`InstituteCatalogService`** (constructor arg `taxonomy: localDb`): `ladderFor(domain)` → tiers top first with their listed
   top-level institutes (NIRF rank, band, NAAC grade, name; empty tiers kept); `filter(InstituteFilter)` by domain, tier, group, family,
   ownerships, `ResolvedPlace`, "UGC verified only" (drops only unverified private rows), admits-students; `displayInfo(id, domainSlug:)`
-  → `InstituteListing` (group/family names, `getDisplayRanking`, `RankHighlight` top10/top100 — a band ending ≤ 100 counts —, NAAC
-  fallback, `UgcBadge` verified/notVerified/notApplicable). Without `taxonomy` these return empty/null. `find`, `search`, `rankings`,
-  `idsInPlace` and `coveredStates` are unchanged.
-- **`LocationService`** (`loadStates: getStates`, `loadCities: getInstituteCities`): `resolve(text)` → `ResolvedPlace` (state | city;
-  district reserved until `districts` is filled). Whole text tries state name, city, city alias (Bangalore↔Bengaluru, both spellings
-  match), state alias (Orissa), abbreviation (RJ, UP, TS); in a sentence the longest phrase wins and a city wins if its state agrees;
-  only unambiguous abbreviations count mid-sentence. A whole-text state name beats a same-named city ("Delhi" → state, "New Delhi" →
-  city); a city in two states (Bilaspur) has no state. `ResolvedPlace.matches(city, district, state)`; `citiesIn(stateCode)`.
-  `idsInPlace` / `_requestedState` / `_requestedPlaces` still use their own token logic (switch in T13: `ensureLoaded()` in warm-up,
-  then `resolveLoaded(query)` + `matches`).
+  → `InstituteListing` (group/family names, NIRF first then NAAC then “Not ranked”, separate NBA/program accreditation, `UgcBadge`). Without `taxonomy` these return empty/null. `find` and `ladderSearch` share the injected location resolver; typed chat, voice, ladder UI and filters use the same catalog contract.
+- **`LocationService`** (`loadStates: getStates`, `loadCities: getInstituteCities`, plus `getDistricts`, `getPlaces`, `getPlaceAliases`):
+  `resolve(text)` → state, district, or city. It prefers exact LGD/place identity, uses unique place/district aliases, and preserves
+  ambiguous city matches rather than silently selecting one. `districtsIn`, `placesInDistrict`, `matchesFilter`, and `matchesRecord`
+  back the cascading picker and shared chat/voice matching. The legacy city list remains a fallback for resolving text, but does not
+  create a campus link for an unresolved institute.
 - **`RouteService(localDb)`**: `routeForNode(id)` / `routeForDomain(slug)` → `CareerRoute` (domain, `RouteType` degree /
   professionalBody / exam / mixed, tiers top first, entry exams: the domain's, then tier-only ones).
 Service tests use `test/support/taxonomy_db.dart` (`openTaxonomyDb(seed)`, in-memory sqflite_ffi DB with taxonomy + catalog tables).
@@ -546,7 +545,7 @@ Fakes: the controller accepts injected `client` (`GeminiLiveClient`) and `audio`
 - Gemini Live model is a **preview** (`gemini-3.1-flash-live-preview`) on `v1alpha` — expect API drift.
 - `search_careers` sets `_holdSpeech`; changing tool order/names requires updating `LiveVoicePrompts` **and** controller hold/discard logic **and** tests.
 - Prompt says the model must never speak before `format_answer`; the controller is the safety net if it does.
-- Search assets must be rebuilt when their sources change: DB → `build_search_aliases.py`; never edit `search_aliases.json` by hand.
+- Search assets must be rebuilt when their sources change: DB → `build_search_aliases.py`; never edit `search_aliases.json` by hand. The current generated asset rebuilds to 573 keys / 690 expansions with no diff. SQLite place aliases resolve during location matching but are not added to the spelling-correction vocabulary, so typo correction for a place alias remains a follow-up.
 - Keyword grounding drops stop-words and only matches node names/intros: a sentence like "what can I do after twelfth" leaves just `twelfth` (0 matches). Retrieval therefore uses `search_keywords`, `broad: true` for overview/advice intents, and `10th/12th/tenth/twelfth/graduation` count as career-intent words (→ stream roots).
 - Both prompts tell the model to say the `MATCH SUMMARY` count and, on a `COVERAGE` note, to say plainly what CareerPath does not list (and which states it does) without naming colleges from elsewhere.
 - Coverage limits to expect in answers: courses exist only for the researched Rajasthan/MP/UP institutes, so level/course questions elsewhere get the "lists N institutes in <place>, but none offer…" note; districts are NULL outside those states.

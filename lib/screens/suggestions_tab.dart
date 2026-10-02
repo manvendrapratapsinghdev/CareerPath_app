@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 import '../config/app_theme.dart';
 import '../l10n/app_localizations.dart';
@@ -9,6 +10,9 @@ import '../services/analytics_service.dart';
 import '../services/bookmark_service.dart';
 import '../services/career_data_service.dart';
 import '../services/exploration_service.dart';
+import '../services/institute_catalog_service.dart';
+import '../services/location_service.dart';
+import '../services/route_service.dart';
 import '../services/recently_viewed_service.dart';
 import '../services/profile_service.dart';
 import '../widgets/accent_icon_box.dart';
@@ -26,6 +30,10 @@ class SuggestionsTab extends StatefulWidget {
   final RecentlyViewedService? recentlyViewedService;
   final CareerDataService careerDataService;
   final AnalyticsService? analyticsService;
+  final InstituteCatalogService? instituteCatalog;
+  final LocationService? locationService;
+  final RouteService? routeService;
+  final SharedPreferences? prefs;
 
   const SuggestionsTab({
     super.key,
@@ -35,6 +43,10 @@ class SuggestionsTab extends StatefulWidget {
     this.recentlyViewedService,
     required this.careerDataService,
     this.analyticsService,
+    this.instituteCatalog,
+    this.locationService,
+    this.routeService,
+    this.prefs,
   });
 
   @override
@@ -69,7 +81,12 @@ class _SuggestionsTabState extends State<SuggestionsTab> {
   }
 
   Future<void> _loadData({bool forceRefresh = false}) async {
-    if (mounted) setState(() { _isLoading = true; _error = null; });
+    if (mounted) {
+      setState(() {
+        _isLoading = true;
+        _error = null;
+      });
+    }
     if (forceRefresh) {
       widget.careerDataService.reset(clearHttpCache: true);
     }
@@ -78,8 +95,10 @@ class _SuggestionsTabState extends State<SuggestionsTab> {
       List<CareerNode> categories = [];
       if (profile != null && profile.stream.isNotEmpty) {
         await widget.careerDataService.ensureInitialized();
-        categories = await widget.careerDataService
-            .fetchStreamCategories(profile.stream, forceRefresh: forceRefresh);
+        categories = await widget.careerDataService.fetchStreamCategories(
+          profile.stream,
+          forceRefresh: forceRefresh,
+        );
       }
       if (mounted) {
         setState(() {
@@ -109,6 +128,10 @@ class _SuggestionsTabState extends State<SuggestionsTab> {
           explorationService: widget.explorationService,
           recentlyViewedService: widget.recentlyViewedService,
           analyticsService: widget.analyticsService,
+          instituteCatalog: widget.instituteCatalog,
+          locationService: widget.locationService,
+          routeService: widget.routeService,
+          prefs: widget.prefs,
           nodeId: node.id,
           breadcrumbs: [BreadcrumbEntry(nodeId: node.id, label: node.name)],
         ),
@@ -132,8 +155,15 @@ class _SuggestionsTabState extends State<SuggestionsTab> {
   Widget build(BuildContext context) {
     final l = AppLocalizations.of(context)!;
     if (_isLoading) return _buildLoadingState();
-    if (_error != null) return ErrorState(message: l.suggestions_connectionError, onRetry: _loadData);
-    if (_profile == null || _profile!.stream.isEmpty) return _buildNoProfileState(l);
+    if (_error != null) {
+      return ErrorState(
+        message: l.suggestions_connectionError,
+        onRetry: _loadData,
+      );
+    }
+    if (_profile == null || _profile!.stream.isEmpty) {
+      return _buildNoProfileState(l);
+    }
     return _buildContent(l);
   }
 
@@ -196,7 +226,8 @@ class _SuggestionsTabState extends State<SuggestionsTab> {
 
           final i = index - 1 - (hasRecent ? 1 : 0);
           final node = _categories[i];
-          final color = AppColors.accentPalette[i % AppColors.accentPalette.length];
+          final color =
+              AppColors.accentPalette[i % AppColors.accentPalette.length];
           final icon = _iconPalette[i % _iconPalette.length];
 
           return AnimatedListItem(
@@ -268,6 +299,10 @@ class _SuggestionsTabState extends State<SuggestionsTab> {
                           explorationService: widget.explorationService,
                           recentlyViewedService: widget.recentlyViewedService,
                           analyticsService: widget.analyticsService,
+                          instituteCatalog: widget.instituteCatalog,
+                          locationService: widget.locationService,
+                          routeService: widget.routeService,
+                          prefs: widget.prefs,
                           nodeId: node.id,
                           breadcrumbs: [
                             BreadcrumbEntry(nodeId: node.id, label: node.name),
@@ -331,17 +366,19 @@ class _SuggestionsTabState extends State<SuggestionsTab> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    l.suggestions_streamLabel('${streamName[0].toUpperCase()}${streamName.substring(1)}'),
-                    style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                          color: streamColor,
-                        ),
+                    l.suggestions_streamLabel(
+                      '${streamName[0].toUpperCase()}${streamName.substring(1)}',
+                    ),
+                    style: Theme.of(
+                      context,
+                    ).textTheme.titleMedium?.copyWith(color: streamColor),
                   ),
                   const SizedBox(height: 2),
                   Text(
                     l.suggestions_careerPathsAvailable(_categories.length),
                     style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                          color: colorScheme.onSurfaceVariant,
-                        ),
+                      color: colorScheme.onSurfaceVariant,
+                    ),
                   ),
                   if (widget.explorationService != null &&
                       _categories.isNotEmpty) ...[
@@ -359,8 +396,7 @@ class _SuggestionsTabState extends State<SuggestionsTab> {
 
   Widget _buildProgressBar(Color color) {
     final categoryIds = _categories.map((c) => c.id).toList();
-    final visited =
-        widget.explorationService!.visitedCountFor(categoryIds);
+    final visited = widget.explorationService!.visitedCountFor(categoryIds);
     final total = categoryIds.length;
     final progress = total > 0 ? visited / total : 0.0;
 
@@ -378,11 +414,13 @@ class _SuggestionsTabState extends State<SuggestionsTab> {
         ),
         const SizedBox(height: 4),
         Text(
-          AppLocalizations.of(context)!.suggestions_exploredProgress(visited, total),
+          AppLocalizations.of(
+            context,
+          )!.suggestions_exploredProgress(visited, total),
           style: Theme.of(context).textTheme.labelSmall?.copyWith(
-                color: color,
-                fontWeight: FontWeight.w600,
-              ),
+            color: color,
+            fontWeight: FontWeight.w600,
+          ),
         ),
       ],
     );
@@ -390,19 +428,27 @@ class _SuggestionsTabState extends State<SuggestionsTab> {
 
   Color _getStreamColor(String stream) {
     switch (stream.toLowerCase()) {
-      case 'science': return AppColors.science;
-      case 'commerce': return AppColors.commerce;
-      case 'art': return AppColors.art;
-      default: return AppColors.primaryLight;
+      case 'science':
+        return AppColors.science;
+      case 'commerce':
+        return AppColors.commerce;
+      case 'art':
+        return AppColors.art;
+      default:
+        return AppColors.primaryLight;
     }
   }
 
   IconData _getStreamIcon(String stream) {
     switch (stream.toLowerCase()) {
-      case 'science': return Icons.science_rounded;
-      case 'commerce': return Icons.account_balance_rounded;
-      case 'art': return Icons.palette_rounded;
-      default: return Icons.school_rounded;
+      case 'science':
+        return Icons.science_rounded;
+      case 'commerce':
+        return Icons.account_balance_rounded;
+      case 'art':
+        return Icons.palette_rounded;
+      default:
+        return Icons.school_rounded;
     }
   }
 }
@@ -449,9 +495,8 @@ class _CategoryCard extends StatelessWidget {
                         const SizedBox(height: 2),
                         Text(
                           l.suggestions_pathsAvailable(node.childIds.length),
-                          style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                                color: colorScheme.onSurfaceVariant,
-                              ),
+                          style: Theme.of(context).textTheme.bodySmall
+                              ?.copyWith(color: colorScheme.onSurfaceVariant),
                         ),
                       ],
                     ],

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 import '../config/app_theme.dart';
 import '../l10n/app_localizations.dart';
@@ -10,6 +11,9 @@ import '../services/api_client.dart';
 import '../services/bookmark_service.dart';
 import '../services/career_data_service.dart';
 import '../services/exploration_service.dart';
+import '../services/institute_catalog_service.dart';
+import '../services/location_service.dart';
+import '../services/route_service.dart';
 import '../widgets/accent_icon_box.dart';
 import '../widgets/animated_list_item.dart';
 import '../widgets/empty_state.dart';
@@ -22,6 +26,10 @@ class ExploreTab extends StatefulWidget {
   final BookmarkService? bookmarkService;
   final ExplorationService? explorationService;
   final AnalyticsService? analyticsService;
+  final InstituteCatalogService? instituteCatalog;
+  final LocationService? locationService;
+  final RouteService? routeService;
+  final SharedPreferences? prefs;
 
   const ExploreTab({
     super.key,
@@ -29,6 +37,10 @@ class ExploreTab extends StatefulWidget {
     this.bookmarkService,
     this.explorationService,
     this.analyticsService,
+    this.instituteCatalog,
+    this.locationService,
+    this.routeService,
+    this.prefs,
   });
 
   @override
@@ -52,8 +64,8 @@ class _ExploreTabState extends State<ExploreTab> {
       setState(() {
         if (streams.isNotEmpty) {
           _expandedStreams[streams[0].id] = true;
-          _categoryFutures[streams[0].id] =
-              widget.careerDataService.fetchStreamCategories(streams[0].id);
+          _categoryFutures[streams[0].id] = widget.careerDataService
+              .fetchStreamCategories(streams[0].id);
           for (int i = 1; i < streams.length; i++) {
             _expandedStreams[streams[i].id] = false;
           }
@@ -73,8 +85,8 @@ class _ExploreTabState extends State<ExploreTab> {
         setState(() {
           if (streams.isNotEmpty) {
             _expandedStreams[streams[0].id] = true;
-            _categoryFutures[streams[0].id] =
-                widget.careerDataService.fetchStreamCategories(streams[0].id);
+            _categoryFutures[streams[0].id] = widget.careerDataService
+                .fetchStreamCategories(streams[0].id);
             for (int i = 1; i < streams.length; i++) {
               _expandedStreams[streams[i].id] = false;
             }
@@ -128,18 +140,23 @@ class _ExploreTabState extends State<ExploreTab> {
                   bookmarkService: widget.bookmarkService,
                   explorationService: widget.explorationService,
                   analyticsService: widget.analyticsService,
+                  instituteCatalog: widget.instituteCatalog,
+                  locationService: widget.locationService,
+                  routeService: widget.routeService,
+                  prefs: widget.prefs,
                   icon: _iconPalette[index % _iconPalette.length],
-                  color: AppColors.accentPalette[index % AppColors.accentPalette.length],
+                  color: AppColors
+                      .accentPalette[index % AppColors.accentPalette.length],
                   isExpanded: _expandedStreams[stream.id] ?? false,
                   onExpanded: () {
                     setState(() {
-                      final willExpand = !(_expandedStreams[stream.id] ?? false);
+                      final willExpand =
+                          !(_expandedStreams[stream.id] ?? false);
                       _expandedStreams[stream.id] = willExpand;
                       if (willExpand) {
                         widget.analyticsService?.logStreamExpanded(stream.name);
-                        _categoryFutures[stream.id] ??=
-                            widget.careerDataService
-                                .fetchStreamCategories(stream.id);
+                        _categoryFutures[stream.id] ??= widget.careerDataService
+                            .fetchStreamCategories(stream.id);
                       }
                     });
                   },
@@ -160,6 +177,10 @@ class _StreamSection extends StatelessWidget {
   final BookmarkService? bookmarkService;
   final ExplorationService? explorationService;
   final AnalyticsService? analyticsService;
+  final InstituteCatalogService? instituteCatalog;
+  final LocationService? locationService;
+  final RouteService? routeService;
+  final SharedPreferences? prefs;
   final IconData icon;
   final Color color;
   final bool isExpanded;
@@ -172,6 +193,10 @@ class _StreamSection extends StatelessWidget {
     this.bookmarkService,
     this.explorationService,
     this.analyticsService,
+    this.instituteCatalog,
+    this.locationService,
+    this.routeService,
+    this.prefs,
     required this.icon,
     required this.color,
     required this.isExpanded,
@@ -205,7 +230,8 @@ class _StreamSection extends StatelessWidget {
                     children: [
                       Text(
                         stream.name,
-                        style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                        style: Theme.of(context).textTheme.titleMedium
+                            ?.copyWith(
                               fontWeight: FontWeight.w700,
                               color: color,
                             ),
@@ -213,8 +239,8 @@ class _StreamSection extends StatelessWidget {
                       Text(
                         l.explore_categoriesCount(stream.rootNodeCount),
                         style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                              color: colorScheme.onSurfaceVariant,
-                            ),
+                          color: colorScheme.onSurfaceVariant,
+                        ),
                       ),
                     ],
                   ),
@@ -269,9 +295,9 @@ class _StreamSection extends StatelessWidget {
                     ? l.explore_serverDown
                     : l.explore_failedToLoadCategories,
                 textAlign: TextAlign.center,
-                style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                      color: colorScheme.error,
-                    ),
+                style: Theme.of(
+                  context,
+                ).textTheme.bodyMedium?.copyWith(color: colorScheme.error),
               ),
             ),
           );
@@ -285,9 +311,9 @@ class _StreamSection extends StatelessWidget {
               child: Text(
                 l.explore_noCategoriesAvailable,
                 style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                      color: colorScheme.onSurfaceVariant,
-                      fontStyle: FontStyle.italic,
-                    ),
+                  color: colorScheme.onSurfaceVariant,
+                  fontStyle: FontStyle.italic,
+                ),
               ),
             ),
           );
@@ -310,6 +336,10 @@ class _StreamSection extends StatelessWidget {
                   bookmarkService: bookmarkService,
                   explorationService: explorationService,
                   analyticsService: analyticsService,
+                  instituteCatalog: instituteCatalog,
+                  locationService: locationService,
+                  routeService: routeService,
+                  prefs: prefs,
                 ),
               );
             }),
@@ -327,6 +357,10 @@ class _CategoryTile extends StatelessWidget {
   final BookmarkService? bookmarkService;
   final ExplorationService? explorationService;
   final AnalyticsService? analyticsService;
+  final InstituteCatalogService? instituteCatalog;
+  final LocationService? locationService;
+  final RouteService? routeService;
+  final SharedPreferences? prefs;
 
   const _CategoryTile({
     required this.node,
@@ -335,6 +369,10 @@ class _CategoryTile extends StatelessWidget {
     this.bookmarkService,
     this.explorationService,
     this.analyticsService,
+    this.instituteCatalog,
+    this.locationService,
+    this.routeService,
+    this.prefs,
   });
 
   @override
@@ -355,6 +393,10 @@ class _CategoryTile extends StatelessWidget {
                   bookmarkService: bookmarkService,
                   explorationService: explorationService,
                   analyticsService: analyticsService,
+                  instituteCatalog: instituteCatalog,
+                  locationService: locationService,
+                  routeService: routeService,
+                  prefs: prefs,
                   nodeId: node.id,
                   breadcrumbs: [
                     BreadcrumbEntry(nodeId: node.id, label: node.name),
@@ -387,10 +429,11 @@ class _CategoryTile extends StatelessWidget {
                       ),
                       if (!node.isLeaf)
                         Text(
-                          AppLocalizations.of(context)!.explore_subPathsCount(node.childCount),
-                          style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                                color: colorScheme.onSurfaceVariant,
-                              ),
+                          AppLocalizations.of(
+                            context,
+                          )!.explore_subPathsCount(node.childCount),
+                          style: Theme.of(context).textTheme.bodySmall
+                              ?.copyWith(color: colorScheme.onSurfaceVariant),
                         ),
                     ],
                   ),

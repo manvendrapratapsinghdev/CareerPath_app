@@ -885,4 +885,139 @@ class AppLocalizationsMl extends AppLocalizations {
 
   @override
   String get ai_openInExplore => 'Open in Explore';
+
+  @override
+  String get institute_stepsTitle => 'ഘട്ടങ്ങൾ';
+
+  @override
+  String get institute_ladderTitle => 'സ്ഥാപനങ്ങളുടെ പടിവര';
+
+  @override
+  String get institute_locationFilterTooltip =>
+      'സ്ഥലം അനുസരിച്ച് ഫിൽട്ടർ ചെയ്യുക';
+
+  @override
+  String get institute_ladderLoadError =>
+      'സ്ഥാപനങ്ങളുടെ പടിവര ലോഡ് ചെയ്യാനായില്ല.';
+
+  @override
+  String get institute_noRouteData => 'റൂട്ടിന്റെ വിവരങ്ങൾ ഇപ്പോൾ ലഭ്യമല്ല.';
+
+  @override
+  String get institute_hidePrivateWithoutUgc =>
+      'UGC സ്ഥിരീകരണമില്ലാത്ത സ്വകാര്യ സ്ഥാപനങ്ങൾ മറയ്ക്കുക';
+
+  @override
+  String get institute_groupLabel => 'സ്ഥാപന ഗ്രൂപ്പ്';
+
+  @override
+  String get institute_familyLabel => 'സ്ഥാപന വിഭാഗം';
+
+  @override
+  String get institute_chooseProfessionalBody => 'പ്രൊഫഷണൽ ബോഡി തിരഞ്ഞെടുക്കുക';
+
+  @override
+  String get institute_relevantExams => 'ബന്ധപ്പെട്ട പരീക്ഷകൾ';
+
+  @override
+  String get institute_entryRoutes => 'പ്രവേശന മാർഗങ്ങൾ';
+
+  @override
+  String get institute_checkOfficialRoute => 'ഔദ്യോഗിക മാർഗം പരിശോധിക്കുക';
+
+  @override
+  String get institute_entryRequirementsVary =>
+      'സ്ഥാപനവും പ്രോഗ്രാമും അനുസരിച്ച് പ്രവേശന നിബന്ധനകൾ വ്യത്യാസപ്പെടും.';
+
+  @override
+  String get institute_stepsAndEntryRoutes => 'ഘട്ടങ്ങളും പ്രവേശന മാർഗങ്ങളും';
+
+  @override
+  String get institute_caCmaCsNote =>
+      'CA, CMA, CS എന്നിവ വ്യത്യസ്ത യോഗ്യതകളാണ്. മുകളിലെ പ്രവേശന മാർഗങ്ങൾ പരസ്പര പകരക്കാരാണ്; തുടർച്ചയായ പരീക്ഷാഘട്ടങ്ങളല്ല.';
+
+  @override
+  String institute_allLabel(String label) {
+    return 'എല്ലാ $label';
+  }
+
+  @override
+  String get institute_online => 'ഓൺലൈൻ';
+
+  @override
+  String get institute_allIndia => 'ഇന്ത്യയിലുടനീളം';
+
+  @override
+  String institute_showingFilters(String labels) {
+    return 'കാണിക്കുന്നത്: $labels';
+  }
+
+  @override
+  String get institute_clear => 'മായ്ക്കുക';
+
+  @override
+  String institute_coverageInIndia(int count, int listed) {
+    return 'ഇന്ത്യയിൽ $count · പട്ടികയിൽ $listed';
+  }
+
+  @override
+  String institute_coverageListed(int count) {
+    return 'പട്ടികയിൽ $count';
+  }
+
+  @override
+  String get institute_noListedInTier =>
+      'തിരഞ്ഞെടുത്ത ഫിൽട്ടറുകൾക്ക് ഈ നിരയിൽ പട്ടികപ്പെടുത്തിയ സ്ഥാപനങ്ങളില്ല.';
+
+  @override
+  String get institute_mappedLocationDisclaimer =>
+      'നിലവിലുള്ള സ്ഥാപന രേഖകളിൽ നിന്നാണ് സ്ഥലം ചേർത്തത്; സ്വതന്ത്രമായി സ്ഥിരീകരിച്ചിട്ടില്ല.';
+
+  @override
+  String get institute_notRanked => 'റാങ്ക് ചെയ്തിട്ടില്ല';
+
+  @override
+  String institute_top10(String label) {
+    return 'ടോപ്പ് 10 · $label';
+  }
+
+  @override
+  String institute_nirfTop100(int year) {
+    return 'NIRF ടോപ്പ് 100 · $year';
+  }
+
+  @override
+  String get institute_ugcVerified => 'UGC സ്ഥിരീകരിച്ചു ✓';
+
+  @override
+  String get institute_ugcNotVerified => 'UGC സ്ഥിരീകരിച്ചിട്ടില്ല';
+
+  @override
+  String get institute_ugcPending => 'UGC സ്ഥിരീകരണം തീർപ്പായിട്ടില്ല';
+
+  @override
+  String get institute_locationUnavailable => 'സ്ഥലവിവരം ലഭ്യമല്ല.';
+
+  @override
+  String get institute_studyLocation => 'പഠനസ്ഥലം';
+
+  @override
+  String get institute_stateOrUnionTerritory => 'സംസ്ഥാനം / കേന്ദ്രഭരണ പ്രദേശം';
+
+  @override
+  String get institute_district => 'ജില്ല';
+
+  @override
+  String get institute_cityTown => 'നഗരം / പട്ടണം';
+
+  @override
+  String get institute_applyLocation => 'സ്ഥലം പ്രയോഗിക്കുക';
+
+  @override
+  String institute_collegeLadderSubtitle(int count) {
+    return '$count സ്ഥാപന തലങ്ങൾ · റാങ്കും സ്ഥലവും അനുസരിച്ച് താരതമ്യം ചെയ്യുക';
+  }
+
+  @override
+  String get institute_entryRoutesSummary => 'പ്രവേശന മാർഗങ്ങൾ';
 }

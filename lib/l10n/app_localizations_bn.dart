@@ -871,4 +871,138 @@ class AppLocalizationsBn extends AppLocalizations {
 
   @override
   String get ai_openInExplore => 'Open in Explore';
+
+  @override
+  String get institute_stepsTitle => 'ধাপসমূহ';
+
+  @override
+  String get institute_ladderTitle => 'প্রতিষ্ঠানের স্তরক্রম';
+
+  @override
+  String get institute_locationFilterTooltip => 'অবস্থান অনুযায়ী ফিল্টার';
+
+  @override
+  String get institute_ladderLoadError =>
+      'প্রতিষ্ঠানের স্তরক্রম লোড করা যায়নি।';
+
+  @override
+  String get institute_noRouteData => 'এখনও কোনো রুটের তথ্য পাওয়া যায়নি।';
+
+  @override
+  String get institute_hidePrivateWithoutUgc =>
+      'UGC যাচাই নেই এমন বেসরকারি প্রতিষ্ঠান লুকান';
+
+  @override
+  String get institute_groupLabel => 'প্রতিষ্ঠান গোষ্ঠী';
+
+  @override
+  String get institute_familyLabel => 'প্রতিষ্ঠানের ধরন';
+
+  @override
+  String get institute_chooseProfessionalBody => 'পেশাগত সংস্থা বেছে নিন';
+
+  @override
+  String get institute_relevantExams => 'প্রাসঙ্গিক পরীক্ষা';
+
+  @override
+  String get institute_entryRoutes => 'ভর্তির পথ';
+
+  @override
+  String get institute_checkOfficialRoute => 'সরকারি নির্দেশিকা দেখুন';
+
+  @override
+  String get institute_entryRequirementsVary =>
+      'প্রতিষ্ঠান ও প্রোগ্রাম অনুযায়ী ভর্তির শর্ত আলাদা হয়।';
+
+  @override
+  String get institute_stepsAndEntryRoutes => 'ধাপ ও ভর্তির পথ';
+
+  @override
+  String get institute_caCmaCsNote =>
+      'CA, CMA ও CS আলাদা যোগ্যতা। উপরের ভর্তির পথগুলি বিকল্প, ধারাবাহিক পরীক্ষার ধাপ নয়।';
+
+  @override
+  String institute_allLabel(String label) {
+    return 'সব $label';
+  }
+
+  @override
+  String get institute_online => 'অনলাইন';
+
+  @override
+  String get institute_allIndia => 'সারা ভারত';
+
+  @override
+  String institute_showingFilters(String labels) {
+    return 'দেখানো হচ্ছে: $labels';
+  }
+
+  @override
+  String get institute_clear => 'মুছুন';
+
+  @override
+  String institute_coverageInIndia(int count, int listed) {
+    return 'ভারতে $countটি · তালিকাভুক্ত $listedটি';
+  }
+
+  @override
+  String institute_coverageListed(int count) {
+    return 'তালিকাভুক্ত $countটি';
+  }
+
+  @override
+  String get institute_noListedInTier =>
+      'নির্বাচিত ফিল্টারে এই স্তরে কোনো প্রতিষ্ঠান তালিকাভুক্ত নেই।';
+
+  @override
+  String get institute_mappedLocationDisclaimer =>
+      'বিদ্যমান প্রতিষ্ঠানের নথি থেকে অবস্থান নেওয়া হয়েছে; স্বাধীনভাবে যাচাই করা হয়নি।';
+
+  @override
+  String get institute_notRanked => 'র‌্যাঙ্ক করা হয়নি';
+
+  @override
+  String institute_top10(String label) {
+    return 'শীর্ষ ১০ · $label';
+  }
+
+  @override
+  String institute_nirfTop100(int year) {
+    return 'NIRF-এর শীর্ষ ১০০ · $year';
+  }
+
+  @override
+  String get institute_ugcVerified => 'UGC যাচাইকৃত ✓';
+
+  @override
+  String get institute_ugcNotVerified => 'UGC যাচাইকৃত নয়';
+
+  @override
+  String get institute_ugcPending => 'UGC যাচাই বাকি';
+
+  @override
+  String get institute_locationUnavailable => 'অবস্থানের তথ্য পাওয়া যায়নি।';
+
+  @override
+  String get institute_studyLocation => 'পড়াশোনার অবস্থান';
+
+  @override
+  String get institute_stateOrUnionTerritory => 'রাজ্য / কেন্দ্রশাসিত অঞ্চল';
+
+  @override
+  String get institute_district => 'জেলা';
+
+  @override
+  String get institute_cityTown => 'শহর / মফস্বল';
+
+  @override
+  String get institute_applyLocation => 'অবস্থান প্রয়োগ করুন';
+
+  @override
+  String institute_collegeLadderSubtitle(int count) {
+    return '$countটি প্রতিষ্ঠানের স্তর · র‍্যাঙ্ক ও অবস্থান অনুযায়ী তুলনা করুন';
+  }
+
+  @override
+  String get institute_entryRoutesSummary => 'ভর্তির পথ';
 }

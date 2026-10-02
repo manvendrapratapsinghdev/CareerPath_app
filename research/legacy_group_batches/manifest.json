@@ -1,0 +1,757 @@
+{
+  "generated_at": "2026-10-02T04:41:24.751564+00:00",
+  "database": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/assets/data/career_path.db",
+  "selection": "Institutes without institute_classification",
+  "total_records": 439,
+  "batch_size": 10,
+  "batch_count": 44,
+  "batches": [
+    {
+      "batch_id": "legacy-group-001",
+      "file": "legacy-group-001.json",
+      "record_count": 10,
+      "database_ids": [
+        3,
+        4,
+        11,
+        13,
+        14,
+        15,
+        16,
+        19,
+        20,
+        23
+      ]
+    },
+    {
+      "batch_id": "legacy-group-002",
+      "file": "legacy-group-002.json",
+      "record_count": 10,
+      "database_ids": [
+        26,
+        30,
+        31,
+        38,
+        42,
+        44,
+        48,
+        56,
+        62,
+        63
+      ]
+    },
+    {
+      "batch_id": "legacy-group-003",
+      "file": "legacy-group-003.json",
+      "record_count": 10,
+      "database_ids": [
+        66,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77
+      ]
+    },
+    {
+      "batch_id": "legacy-group-004",
+      "file": "legacy-group-004.json",
+      "record_count": 10,
+      "database_ids": [
+        78,
+        84,
+        85,
+        86,
+        87,
+        88,
+        91,
+        94,
+        95,
+        97
+      ]
+    },
+    {
+      "batch_id": "legacy-group-005",
+      "file": "legacy-group-005.json",
+      "record_count": 10,
+      "database_ids": [
+        99,
+        100,
+        101,
+        105,
+        107,
+        110,
+        111,
+        112,
+        113,
+        114
+      ]
+    },
+    {
+      "batch_id": "legacy-group-006",
+      "file": "legacy-group-006.json",
+      "record_count": 10,
+      "database_ids": [
+        115,
+        120,
+        121,
+        122,
+        123,
+        124,
+        126,
+        128,
+        129,
+        130
+      ]
+    },
+    {
+      "batch_id": "legacy-group-007",
+      "file": "legacy-group-007.json",
+      "record_count": 10,
+      "database_ids": [
+        131,
+        141,
+        142,
+        146,
+        148,
+        149,
+        154,
+        155,
+        156,
+        157
+      ]
+    },
+    {
+      "batch_id": "legacy-group-008",
+      "file": "legacy-group-008.json",
+      "record_count": 10,
+      "database_ids": [
+        158,
+        161,
+        162,
+        165,
+        166,
+        167,
+        169,
+        175,
+        176,
+        181
+      ]
+    },
+    {
+      "batch_id": "legacy-group-009",
+      "file": "legacy-group-009.json",
+      "record_count": 10,
+      "database_ids": [
+        182,
+        183,
+        188,
+        189,
+        191,
+        193,
+        195,
+        196,
+        197,
+        198
+      ]
+    },
+    {
+      "batch_id": "legacy-group-010",
+      "file": "legacy-group-010.json",
+      "record_count": 10,
+      "database_ids": [
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        215,
+        222,
+        228,
+        229
+      ]
+    },
+    {
+      "batch_id": "legacy-group-011",
+      "file": "legacy-group-011.json",
+      "record_count": 10,
+      "database_ids": [
+        230,
+        231,
+        232,
+        233,
+        240,
+        243,
+        244,
+        245,
+        247,
+        248
+      ]
+    },
+    {
+      "batch_id": "legacy-group-012",
+      "file": "legacy-group-012.json",
+      "record_count": 10,
+      "database_ids": [
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        260,
+        264,
+        265
+      ]
+    },
+    {
+      "batch_id": "legacy-group-013",
+      "file": "legacy-group-013.json",
+      "record_count": 10,
+      "database_ids": [
+        269,
+        273,
+        274,
+        275,
+        276,
+        278,
+        280,
+        282,
+        283,
+        284
+      ]
+    },
+    {
+      "batch_id": "legacy-group-014",
+      "file": "legacy-group-014.json",
+      "record_count": 10,
+      "database_ids": [
+        286,
+        287,
+        292,
+        293,
+        294,
+        295,
+        296,
+        297,
+        300,
+        304
+      ]
+    },
+    {
+      "batch_id": "legacy-group-015",
+      "file": "legacy-group-015.json",
+      "record_count": 10,
+      "database_ids": [
+        306,
+        307,
+        312,
+        313,
+        314,
+        315,
+        319,
+        320,
+        321,
+        323
+      ]
+    },
+    {
+      "batch_id": "legacy-group-016",
+      "file": "legacy-group-016.json",
+      "record_count": 10,
+      "database_ids": [
+        324,
+        325,
+        326,
+        327,
+        329,
+        332,
+        333,
+        337,
+        338,
+        345
+      ]
+    },
+    {
+      "batch_id": "legacy-group-017",
+      "file": "legacy-group-017.json",
+      "record_count": 10,
+      "database_ids": [
+        346,
+        347,
+        348,
+        349,
+        350,
+        351,
+        361,
+        364,
+        367,
+        368
+      ]
+    },
+    {
+      "batch_id": "legacy-group-018",
+      "file": "legacy-group-018.json",
+      "record_count": 10,
+      "database_ids": [
+        371,
+        376,
+        377,
+        379,
+        382,
+        383,
+        384,
+        386,
+        387,
+        388
+      ]
+    },
+    {
+      "batch_id": "legacy-group-019",
+      "file": "legacy-group-019.json",
+      "record_count": 10,
+      "database_ids": [
+        393,
+        395,
+        396,
+        398,
+        399,
+        400,
+        401,
+        402,
+        403,
+        404
+      ]
+    },
+    {
+      "batch_id": "legacy-group-020",
+      "file": "legacy-group-020.json",
+      "record_count": 10,
+      "database_ids": [
+        406,
+        407,
+        408,
+        415,
+        419,
+        421,
+        424,
+        426,
+        427,
+        428
+      ]
+    },
+    {
+      "batch_id": "legacy-group-021",
+      "file": "legacy-group-021.json",
+      "record_count": 10,
+      "database_ids": [
+        429,
+        430,
+        431,
+        432,
+        435,
+        450,
+        451,
+        456,
+        457,
+        458
+      ]
+    },
+    {
+      "batch_id": "legacy-group-022",
+      "file": "legacy-group-022.json",
+      "record_count": 10,
+      "database_ids": [
+        459,
+        463,
+        464,
+        466,
+        467,
+        469,
+        470,
+        471,
+        472,
+        473
+      ]
+    },
+    {
+      "batch_id": "legacy-group-023",
+      "file": "legacy-group-023.json",
+      "record_count": 10,
+      "database_ids": [
+        478,
+        480,
+        483,
+        484,
+        488,
+        489,
+        490,
+        491,
+        492,
+        493
+      ]
+    },
+    {
+      "batch_id": "legacy-group-024",
+      "file": "legacy-group-024.json",
+      "record_count": 10,
+      "database_ids": [
+        494,
+        495,
+        496,
+        497,
+        498,
+        499,
+        500,
+        501,
+        502,
+        503
+      ]
+    },
+    {
+      "batch_id": "legacy-group-025",
+      "file": "legacy-group-025.json",
+      "record_count": 10,
+      "database_ids": [
+        504,
+        505,
+        506,
+        507,
+        508,
+        509,
+        510,
+        511,
+        512,
+        513
+      ]
+    },
+    {
+      "batch_id": "legacy-group-026",
+      "file": "legacy-group-026.json",
+      "record_count": 10,
+      "database_ids": [
+        514,
+        515,
+        516,
+        517,
+        518,
+        519,
+        520,
+        521,
+        522,
+        523
+      ]
+    },
+    {
+      "batch_id": "legacy-group-027",
+      "file": "legacy-group-027.json",
+      "record_count": 10,
+      "database_ids": [
+        524,
+        525,
+        526,
+        527,
+        528,
+        529,
+        530,
+        534,
+        535,
+        536
+      ]
+    },
+    {
+      "batch_id": "legacy-group-028",
+      "file": "legacy-group-028.json",
+      "record_count": 10,
+      "database_ids": [
+        537,
+        538,
+        539,
+        540,
+        541,
+        542,
+        543,
+        544,
+        545,
+        546
+      ]
+    },
+    {
+      "batch_id": "legacy-group-029",
+      "file": "legacy-group-029.json",
+      "record_count": 10,
+      "database_ids": [
+        548,
+        549,
+        550,
+        551,
+        552,
+        553,
+        554,
+        555,
+        556,
+        557
+      ]
+    },
+    {
+      "batch_id": "legacy-group-030",
+      "file": "legacy-group-030.json",
+      "record_count": 10,
+      "database_ids": [
+        558,
+        559,
+        560,
+        561,
+        562,
+        563,
+        564,
+        565,
+        566,
+        567
+      ]
+    },
+    {
+      "batch_id": "legacy-group-031",
+      "file": "legacy-group-031.json",
+      "record_count": 10,
+      "database_ids": [
+        568,
+        569,
+        570,
+        571,
+        572,
+        573,
+        574,
+        576,
+        577,
+        578
+      ]
+    },
+    {
+      "batch_id": "legacy-group-032",
+      "file": "legacy-group-032.json",
+      "record_count": 10,
+      "database_ids": [
+        579,
+        580,
+        581,
+        582,
+        583,
+        584,
+        585,
+        586,
+        588,
+        589
+      ]
+    },
+    {
+      "batch_id": "legacy-group-033",
+      "file": "legacy-group-033.json",
+      "record_count": 10,
+      "database_ids": [
+        590,
+        592,
+        597,
+        598,
+        599,
+        600,
+        601,
+        602,
+        603,
+        604
+      ]
+    },
+    {
+      "batch_id": "legacy-group-034",
+      "file": "legacy-group-034.json",
+      "record_count": 10,
+      "database_ids": [
+        605,
+        606,
+        607,
+        608,
+        609,
+        610,
+        611,
+        612,
+        613,
+        614
+      ]
+    },
+    {
+      "batch_id": "legacy-group-035",
+      "file": "legacy-group-035.json",
+      "record_count": 10,
+      "database_ids": [
+        615,
+        616,
+        617,
+        618,
+        619,
+        620,
+        621,
+        622,
+        623,
+        624
+      ]
+    },
+    {
+      "batch_id": "legacy-group-036",
+      "file": "legacy-group-036.json",
+      "record_count": 10,
+      "database_ids": [
+        626,
+        627,
+        628,
+        629,
+        630,
+        631,
+        632,
+        633,
+        634,
+        635
+      ]
+    },
+    {
+      "batch_id": "legacy-group-037",
+      "file": "legacy-group-037.json",
+      "record_count": 10,
+      "database_ids": [
+        636,
+        637,
+        638,
+        639,
+        640,
+        641,
+        642,
+        643,
+        644,
+        645
+      ]
+    },
+    {
+      "batch_id": "legacy-group-038",
+      "file": "legacy-group-038.json",
+      "record_count": 10,
+      "database_ids": [
+        646,
+        647,
+        648,
+        649,
+        650,
+        651,
+        652,
+        653,
+        654,
+        655
+      ]
+    },
+    {
+      "batch_id": "legacy-group-039",
+      "file": "legacy-group-039.json",
+      "record_count": 10,
+      "database_ids": [
+        656,
+        657,
+        658,
+        659,
+        661,
+        662,
+        663,
+        664,
+        665,
+        666
+      ]
+    },
+    {
+      "batch_id": "legacy-group-040",
+      "file": "legacy-group-040.json",
+      "record_count": 10,
+      "database_ids": [
+        667,
+        668,
+        669,
+        670,
+        671,
+        672,
+        673,
+        674,
+        675,
+        676
+      ]
+    },
+    {
+      "batch_id": "legacy-group-041",
+      "file": "legacy-group-041.json",
+      "record_count": 10,
+      "database_ids": [
+        679,
+        680,
+        681,
+        682,
+        683,
+        684,
+        685,
+        686,
+        687,
+        688
+      ]
+    },
+    {
+      "batch_id": "legacy-group-042",
+      "file": "legacy-group-042.json",
+      "record_count": 10,
+      "database_ids": [
+        689,
+        690,
+        691,
+        693,
+        694,
+        695,
+        696,
+        697,
+        698,
+        699
+      ]
+    },
+    {
+      "batch_id": "legacy-group-043",
+      "file": "legacy-group-043.json",
+      "record_count": 10,
+      "database_ids": [
+        700,
+        701,
+        702,
+        703,
+        704,
+        705,
+        706,
+        707,
+        708,
+        709
+      ]
+    },
+    {
+      "batch_id": "legacy-group-044",
+      "file": "legacy-group-044.json",
+      "record_count": 9,
+      "database_ids": [
+        710,
+        711,
+        713,
+        715,
+        716,
+        717,
+        718,
+        719,
+        720
+      ]
+    }
+  ]
+}

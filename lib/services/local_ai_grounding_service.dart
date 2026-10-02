@@ -151,6 +151,7 @@ class LocalAiGroundingService {
   Future<void> warmUp() async {
     await _careerDataService.ensureInitialized();
     await catalog?.ensureLoaded();
+    await catalog?.ensureLocationsLoaded();
     await books?.ensureLoaded();
     await _speller();
   }
@@ -164,6 +165,7 @@ class LocalAiGroundingService {
   }) async {
     await _careerDataService.ensureInitialized();
     await this.catalog?.ensureLoaded();
+    await this.catalog?.ensureLocationsLoaded();
     // Before spelling correction, which could change "kitab" into a data word.
     final asksForBooks = BookCatalogService.asksForBooks(query);
     // Abbreviations first ("engg" → engineering), then misspelled or
@@ -241,27 +243,48 @@ class LocalAiGroundingService {
     var institutes = const <InstituteMatch>[];
     var rankings = const <(InstituteRecord, InstituteRanking)>[];
     InstituteMatches? found;
+    List<InstituteListing>? ladderListings;
     final catalog = this.catalog;
     if (catalog != null) {
       if (InstituteCatalogService.asksForRankings(query)) {
         rankings = catalog.rankings(query);
       }
-      found = catalog.find(
+      ladderListings = await catalog.ladderSearch(
         query,
         limit: AiProviderConfig.maxNarrowedInstitutes,
       );
-      // A place, level or course asked for: the student wants the list.
-      final narrowed =
-          found.place != null ||
-          found.levels.isNotEmpty ||
-          found.hits.any((hit) => hit.courses.isNotEmpty);
-      institutes = found.hits
-          .take(
-            narrowed
-                ? AiProviderConfig.maxNarrowedInstitutes
-                : AiProviderConfig.maxGroundingInstitutes,
-          )
-          .toList(growable: false);
+      if (ladderListings != null) {
+        rankings = const [];
+        found = (
+          hits: [
+            for (final listing in ladderListings)
+              if (catalog.recordById(listing.instituteId) case final record?)
+                (record: record, courses: const <InstituteCourse>[]),
+          ],
+          totalInstitutes: ladderListings.length,
+          totalCourses: 0,
+          place: catalog.resolvePlaceLabel(query),
+          inPlace: ladderListings.length,
+          levels: const <String>{},
+        );
+      } else {
+        found = catalog.find(
+          query,
+          limit: AiProviderConfig.maxNarrowedInstitutes,
+        );
+        // A place, level or course asked for: the student wants the list.
+        final narrowed =
+            found.place != null ||
+            found.levels.isNotEmpty ||
+            found.hits.any((hit) => hit.courses.isNotEmpty);
+        institutes = found.hits
+            .take(
+              narrowed
+                  ? AiProviderConfig.maxNarrowedInstitutes
+                  : AiProviderConfig.maxGroundingInstitutes,
+            )
+            .toList(growable: false);
+      }
     }
     var bookHits = const <BookRecord>[];
     var bookTotal = 0;
@@ -270,12 +293,19 @@ class LocalAiGroundingService {
       await books.ensureLoaded();
       (hits: bookHits, total: bookTotal) = books.search(query);
     }
-    final coverage = catalog == null ? null : _coverageNote(found!, catalog);
+    final coverage = ladderListings != null && ladderListings.isEmpty
+        ? 'CareerPath does not currently list matching institutes for this '
+              'domain and location. Say that the local list is incomplete; '
+              'do not substitute institutes from another domain or place.'
+        : catalog == null
+        ? null
+        : _coverageNote(found!, catalog);
 
     if (selected.isEmpty &&
         institutes.isEmpty &&
         rankings.isEmpty &&
-        bookHits.isEmpty) {
+        bookHits.isEmpty &&
+        (ladderListings == null || ladderListings.isEmpty)) {
       // Nothing to cite, but the note still tells the guide why.
       return AiGroundingContext(text: coverage ?? '', sources: const []);
     }
@@ -317,6 +347,14 @@ class LocalAiGroundingService {
         buffer
           ..writeln('\nSOURCE institute:${record.institute.id}')
           ..writeln(InstituteCatalogService.describe(record, matched: courses));
+      }
+    }
+    if (ladderListings != null && ladderListings.isNotEmpty) {
+      buffer.writeln('\nInstitutes from the domain ladder:');
+      for (final listing in ladderListings) {
+        buffer
+          ..writeln('\nSOURCE institute:${listing.instituteId}')
+          ..writeln(catalog!.describeListing(listing));
       }
     }
     for (final record in bookHits) {
@@ -386,6 +424,18 @@ class LocalAiGroundingService {
             sourceType: 'institute',
             title: record.institute.name,
           ),
+        if (ladderListings != null)
+          for (final listing in ladderListings.take(3))
+            AiChatSource(
+              sourceId:
+                  'institute:${listing.instituteId}:${listing.ranking?.year ?? 0}',
+              sourceType: 'institute',
+              title: [
+                listing.name,
+                if (listing.ranking != null)
+                  '${listing.ranking!.label} #${listing.ranking!.rankLabel}',
+              ].join(' · '),
+            ),
         // A book chip opens the career path the book is recommended for.
         for (final record in bookHits.take(3))
           AiChatSource(

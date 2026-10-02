@@ -1,0 +1,947 @@
+{
+  "wave_id": "legacy-group-wave-01",
+  "generated_at": "2026-10-02T05:28:27.714770+00:00",
+  "database": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/assets/data/career_path.db",
+  "selection": "Institutes without institute_classification at merge time",
+  "record_count": 50,
+  "classified_count": 48,
+  "manual_review_count": 2,
+  "source_batches": [
+    "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/legacy_group_batches/results/legacy-group-031.json",
+    "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/legacy_group_batches/results/legacy-group-032.json",
+    "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/legacy_group_batches/results/legacy-group-033.json",
+    "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/legacy_group_batches/results/legacy-group-034.json",
+    "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/legacy_group_batches/results/legacy-group-035.json"
+  ],
+  "records": [
+    {
+      "database_id": 568,
+      "name": "SHRI BALAJI COLLEGE OF PHARMACY, JAIPUR",
+      "outcome": "classified",
+      "group_code": "G8",
+      "family_slug": "private_pharmacy_college",
+      "ownership": "private",
+      "statutory_basis": "private pharmacy college affiliated to Rajasthan University of Health Sciences and approved by the Pharmacy Council of India",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "PCI",
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://sbcp.sbss.ac.in/",
+      "evidence": "The official college description identifies Shri Balaji College of Pharmacy as a pharmacy college managed by Sri Balaji Shiksha Samiti, affiliated to RUHS and approved by PCI.",
+      "notes": []
+    },
+    {
+      "database_id": 569,
+      "name": "Shri Govind Singh Gurjar Government College, Nasirabad",
+      "outcome": "classified",
+      "group_code": "G6",
+      "family_slug": "govt_degree_college",
+      "ownership": "state_govt",
+      "statutory_basis": "Rajasthan government degree college",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://hte.rajasthan.gov.in/ShriGovindSinghGurjarRajkiyaMahavidyalayaNasirabad/10767",
+      "evidence": "The official Rajasthan Higher Education directory identifies Shri Govind Singh Gurjar Rajkiya Mahavidyalaya as a government college offering undergraduate and postgraduate programmes.",
+      "notes": []
+    },
+    {
+      "database_id": 570,
+      "name": "Shri Jain P. G. College - Bikaner",
+      "outcome": "manual_review",
+      "group_code": null,
+      "family_slug": null,
+      "ownership": null,
+      "statutory_basis": null,
+      "admits_students": null,
+      "is_family_record": null,
+      "regulators": [],
+      "confidence": null,
+      "source_url": "https://shrijainpgcollege.in/",
+      "evidence": null,
+      "notes": [
+        "The supplied official site confirms the college and its programmes but does not provide sufficiently clear government, aided or private legal-status evidence for safe group assignment."
+      ]
+    },
+    {
+      "database_id": 571,
+      "name": "Shri Pragya Mahavidyalaya, Bijainagar",
+      "outcome": "manual_review",
+      "group_code": null,
+      "family_slug": null,
+      "ownership": null,
+      "statutory_basis": null,
+      "admits_students": null,
+      "is_family_record": null,
+      "regulators": [],
+      "confidence": null,
+      "source_url": "https://pragyacollege.com/",
+      "evidence": null,
+      "notes": [
+        "The supplied official site confirms an affiliated college but does not provide sufficiently clear ownership/legal-status evidence for distinguishing private, aided or government classification."
+      ]
+    },
+    {
+      "database_id": 572,
+      "name": "SHRINATHJI INSTITUTE OF TECHNOLOGY & ENGINEERING, UPALI ODEN, NATHDWARA, RAJSAMAND",
+      "outcome": "classified",
+      "group_code": "G8",
+      "family_slug": "private_engineering_college",
+      "ownership": "private",
+      "statutory_basis": "private engineering college affiliated with Rajasthan Technical University",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "AICTE",
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://shrinathjiinstitute.com/",
+      "evidence": "The official institute site presents Shrinathji Institute as a private engineering and management institute with admissions and affiliation to Rajasthan Technical University.",
+      "notes": []
+    },
+    {
+      "database_id": 573,
+      "name": "Sophia Girls College",
+      "outcome": "classified",
+      "group_code": "G8",
+      "family_slug": "private_degree_college",
+      "ownership": "trust",
+      "statutory_basis": "minority/trust-run autonomous college affiliated with Maharshi Dayanand Saraswati University",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://sophia.college/page",
+      "evidence": "The official college page identifies Sophia Girls College as an autonomous higher-education college managed by the Mission Sisters of Ajmer and affiliated with MDS University.",
+      "notes": []
+    },
+    {
+      "database_id": 574,
+      "name": "Sri Balaji P G Mahavidyalaya, Jaipur",
+      "outcome": "classified",
+      "group_code": "G8",
+      "family_slug": "private_degree_college",
+      "ownership": "private",
+      "statutory_basis": "private affiliated degree college recognized by Rajasthan Directorate of College Education",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC",
+        "NCTE"
+      ],
+      "confidence": "high",
+      "source_url": "https://sbpgm.sbss.ac.in/",
+      "evidence": "The official college description identifies Sri Balaji P.G. Mahavidyalaya as established by Sri Balaji Shiksha Samiti, affiliated with the University of Rajasthan and recognized by Rajasthan higher education authorities.",
+      "notes": []
+    },
+    {
+      "database_id": 576,
+      "name": "St. Wilfred`s P. G. College",
+      "outcome": "classified",
+      "group_code": "G8",
+      "family_slug": "private_degree_college",
+      "ownership": "private",
+      "statutory_basis": "private affiliated postgraduate degree college",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://stwilfredscollege.com/",
+      "evidence": "The official college site presents St. Wilfred's P.G. College as a Jaipur college affiliated with the University of Rajasthan and offering undergraduate and postgraduate admissions.",
+      "notes": []
+    },
+    {
+      "database_id": 577,
+      "name": "St. Xavier's College, Jaipur",
+      "outcome": "classified",
+      "group_code": "G8",
+      "family_slug": "private_degree_college",
+      "ownership": "trust",
+      "statutory_basis": "Jesuit Christian minority college affiliated with the University of Rajasthan",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://sxcjpr.edu.in/",
+      "evidence": "The official college site identifies St. Xavier's College Jaipur as a Jesuit Christian minority college affiliated with the University of Rajasthan and offering degree programmes.",
+      "notes": []
+    },
+    {
+      "database_id": 578,
+      "name": "Surendera Dental College and Research Institute",
+      "outcome": "classified",
+      "group_code": "G8",
+      "family_slug": "private_dental_college",
+      "ownership": "private",
+      "statutory_basis": "private dental college affiliated with Rajasthan University of Health Sciences",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "NMC",
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://sdcri.in/",
+      "evidence": "The official institute site identifies Surendera Dental College and Research Institute as a private dental college offering BDS and MDS programmes affiliated with RUHS.",
+      "notes": []
+    },
+    {
+      "database_id": 579,
+      "name": "Swami Keshvanand Institute of Technology, Management & Gramothan",
+      "outcome": "classified",
+      "group_code": "G8",
+      "family_slug": "private_degree_college",
+      "ownership": "trust",
+      "statutory_basis": "private AICTE-approved affiliated engineering and management institute",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "AICTE",
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.skit.ac.in/",
+      "evidence": "The official SKIT site describes the Jaipur institution as an AICTE-approved engineering and management institute affiliated with Rajasthan Technical University; it is a private affiliated college rather than a university.",
+      "notes": []
+    },
+    {
+      "database_id": 580,
+      "name": "Swami Vivekanand Mahila Mahavidhyalaya, Roopangarh",
+      "outcome": "classified",
+      "group_code": "G8",
+      "family_slug": "private_degree_college",
+      "ownership": "private",
+      "statutory_basis": "private affiliated women’s degree college",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC",
+        "NAAC"
+      ],
+      "confidence": "high",
+      "source_url": "https://svmmcollege.in/",
+      "evidence": "The official college site identifies Swami Vivekanand Mahila Mahavidhyalaya as a women’s college in Roopangarh affiliated with MDSU and offering undergraduate and postgraduate programmes; it is not a university.",
+      "notes": []
+    },
+    {
+      "database_id": 581,
+      "name": "THE ICFAI UNIVERSITY, JAIPUR",
+      "outcome": "classified",
+      "group_code": "G7",
+      "family_slug": "private_university",
+      "ownership": "private",
+      "statutory_basis": "Rajasthan state private university act, 2011",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.iujaipur.edu.in/",
+      "evidence": "The official ICFAI Jaipur site identifies the institution as a private university established under The ICFAI University, Jaipur Act, 2011.",
+      "notes": []
+    },
+    {
+      "database_id": 582,
+      "name": "Tirupati College of Technical Education",
+      "outcome": "classified",
+      "group_code": "G8",
+      "family_slug": "private_degree_college",
+      "ownership": "private",
+      "statutory_basis": "private technical and vocational education institute",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "AICTE",
+        "UGC"
+      ],
+      "confidence": "medium",
+      "source_url": "https://tirupaticollege.com/",
+      "evidence": "The official site presents Tirupati College of Technical Education as a Jaipur private institute offering undergraduate, postgraduate, professional and ITI programmes; it is not a university.",
+      "notes": [
+        "Verify the current affiliating university and separate ITI/skill approvals before import."
+      ]
+    },
+    {
+      "database_id": 583,
+      "name": "University of Engineering and Management",
+      "outcome": "classified",
+      "group_code": "G7",
+      "family_slug": "private_university",
+      "ownership": "private",
+      "statutory_basis": "Rajasthan state private university",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC",
+        "AICTE"
+      ],
+      "confidence": "high",
+      "source_url": "https://uem.edu.in/uem-jaipur/",
+      "evidence": "The official UEM Jaipur site identifies the Jaipur campus as a private university offering degree, diploma and doctoral programmes across engineering, management, science and related fields.",
+      "notes": []
+    },
+    {
+      "database_id": 584,
+      "name": "Vardhman Mahaveer Open University, Kota",
+      "outcome": "classified",
+      "group_code": "G9",
+      "family_slug": "state_open_university",
+      "ownership": "state_govt",
+      "statutory_basis": "Rajasthan state open university established by state legislation",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC",
+        "DEB"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.vmou.ac.in/",
+      "evidence": "The official VMOU site identifies Vardhman Mahaveer Open University as a Rajasthan state open university headquartered in Kota and delivering open and distance education.",
+      "notes": []
+    },
+    {
+      "database_id": 585,
+      "name": "Vedanta PG Girls' College, Reengus, Sikar",
+      "outcome": "classified",
+      "group_code": "G8",
+      "family_slug": "private_degree_college",
+      "ownership": "private",
+      "statutory_basis": "private affiliated women’s degree college",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC",
+        "NAAC"
+      ],
+      "confidence": "medium",
+      "source_url": "https://vpggc.ac.in/",
+      "evidence": "The official site presents Vedanta PG Girls’ College as a not-for-profit women’s college offering undergraduate and postgraduate Arts, Commerce and Science programmes; it is not a university.",
+      "notes": [
+        "Verify the current affiliating university and NAAC record before import."
+      ]
+    },
+    {
+      "database_id": 586,
+      "name": "VIVEKANAND COLLEGE, ANJANA",
+      "outcome": "classified",
+      "group_code": "G8",
+      "family_slug": "private_degree_college",
+      "ownership": "private",
+      "statutory_basis": "private affiliated postgraduate college",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "medium",
+      "source_url": "http://www.vncanjana.in/",
+      "evidence": "The official college profile describes Vivekanand College Anjana as a postgraduate college in Arthuna tehsil, affiliated with Govind Guru Tribal University; it is a college rather than a university.",
+      "notes": [
+        "Confirm ownership from the affiliating university or state college directory before import."
+      ]
+    },
+    {
+      "database_id": 588,
+      "name": "Babu Sobharam Govt. Arts College, Alwar",
+      "outcome": "classified",
+      "group_code": "G6",
+      "family_slug": "govt_degree_college",
+      "ownership": "state_govt",
+      "statutory_basis": "Rajasthan government arts college",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://dceapp.rajasthan.gov.in/",
+      "evidence": "The official Rajasthan Department of College Education directory identifies Babu Sobharam Government Arts College as a government college in Alwar affiliated with R.R. Bhrithari Matsya University.",
+      "notes": []
+    },
+    {
+      "database_id": 589,
+      "name": "Bhagwant University-Ajmer",
+      "outcome": "classified",
+      "group_code": "G7",
+      "family_slug": "private_university",
+      "ownership": "private",
+      "statutory_basis": "Rajasthan state private university act no. 18 of 2008",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC",
+        "AICTE",
+        "PCI",
+        "NMC"
+      ],
+      "confidence": "high",
+      "source_url": "https://bhagwantuniversity.ac.in/",
+      "evidence": "The official Bhagwant University site identifies the Ajmer institution as a private university established under Rajasthan Act No. 18 of 2008 with undergraduate, postgraduate, diploma and doctoral programmes.",
+      "notes": [
+        "Verify programme-specific regulator approvals separately; university classification is established."
+      ]
+    },
+    {
+      "database_id": 590,
+      "name": "Samrat Prithviraj Chauhan Government College, Ajmer",
+      "outcome": "classified",
+      "group_code": "G6",
+      "family_slug": "govt_degree_college",
+      "ownership": "state_govt",
+      "statutory_basis": "Rajasthan government degree college",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://spcgcajmer.ac.in/",
+      "evidence": "The official college site identifies Samrat Prithviraj Chauhan Government College as a Rajasthan government postgraduate degree college offering undergraduate and postgraduate admissions.",
+      "notes": []
+    },
+    {
+      "database_id": 592,
+      "name": "Devi Ahilya Vishwavidyalaya",
+      "outcome": "classified",
+      "group_code": "G4",
+      "family_slug": "state_university",
+      "ownership": "state_govt",
+      "statutory_basis": "Madhya Pradesh state university",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.dauniv.ac.in/",
+      "evidence": "The official university site identifies Devi Ahilya Vishwavidyalaya as a multidisciplinary state university of Madhya Pradesh with teaching departments and degree admissions.",
+      "notes": []
+    },
+    {
+      "database_id": 597,
+      "name": "Madhya Pradesh Ayurvigyan Vishwavidyalaya",
+      "outcome": "classified",
+      "group_code": "G4",
+      "family_slug": "state_health_university",
+      "ownership": "state_govt",
+      "statutory_basis": "Madhya Pradesh state health-science university",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "NMC",
+        "DCI",
+        "INC",
+        "NCISM",
+        "NCH"
+      ],
+      "confidence": "high",
+      "source_url": "https://mpmsu.mponline.gov.in/portal/",
+      "evidence": "The official university portal identifies MP Ayurvigyan Vishwavidyalaya as the Madhya Pradesh health-sciences university governing affiliated medical, dental, nursing, paramedical and AYUSH admissions.",
+      "notes": []
+    },
+    {
+      "database_id": 598,
+      "name": "Rajiv Gandhi Proudyogiki Vishwavidyalaya",
+      "outcome": "classified",
+      "group_code": "G4",
+      "family_slug": "state_technical_university",
+      "ownership": "state_govt",
+      "statutory_basis": "Madhya Pradesh state technical university",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "AICTE",
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.rgpv.ac.in/",
+      "evidence": "The official RGPV site identifies it as the University of Technology of the Government of Madhya Pradesh, offering engineering, pharmacy, architecture and related degree admissions.",
+      "notes": []
+    },
+    {
+      "database_id": 599,
+      "name": "BHOGI LAL PANDIYA, GOVT.COLLEGE, DUNGARPUR",
+      "outcome": "classified",
+      "group_code": "G6",
+      "family_slug": "govt_degree_college",
+      "ownership": "state_govt",
+      "statutory_basis": "Rajasthan government degree college",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://hte.rajasthan.gov.in/11985",
+      "evidence": "The Rajasthan Higher Education directory identifies Bhogi Lal Pandya Government College as a state government postgraduate degree college in Dungarpur.",
+      "notes": []
+    },
+    {
+      "database_id": 600,
+      "name": "Govt. P.G. College, Dhaulpur",
+      "outcome": "classified",
+      "group_code": "G6",
+      "family_slug": "govt_degree_college",
+      "ownership": "state_govt",
+      "statutory_basis": "Rajasthan government degree college",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://dceapp.rajasthan.gov.in/",
+      "evidence": "The Rajasthan Department of College Education catalogue identifies Government P.G. College Dholpur as a state government college with UG and PG admissions.",
+      "notes": []
+    },
+    {
+      "database_id": 601,
+      "name": "Jayoti Vidyapeeth Women's University",
+      "outcome": "classified",
+      "group_code": "G7",
+      "family_slug": "private_university",
+      "ownership": "private",
+      "statutory_basis": "Rajasthan state private university act",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.jvwu.ac.in/",
+      "evidence": "The official university site identifies Jayoti Vidyapeeth Women's University as a private women's university established under Rajasthan state legislation and offering degree admissions.",
+      "notes": []
+    },
+    {
+      "database_id": 602,
+      "name": "S S G Pareek PG College, Jaipur",
+      "outcome": "classified",
+      "group_code": "G8",
+      "family_slug": "private_degree_college",
+      "ownership": "private",
+      "statutory_basis": "private affiliated degree college",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "medium",
+      "source_url": "https://ssgpareekpgcollege.com/",
+      "evidence": "The official college site identifies S.S.G. Pareek PG College as an affiliated undergraduate and postgraduate college in Jaipur offering science, commerce and arts admissions.",
+      "notes": []
+    },
+    {
+      "database_id": 603,
+      "name": "Dr Sarvepalli Radhakrishnan Rajasthan Ayurved University, Jodhpur",
+      "outcome": "classified",
+      "group_code": "G4",
+      "family_slug": "state_ayush_university",
+      "ownership": "state_govt",
+      "statutory_basis": "Rajasthan state AYUSH university act",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "NCISM",
+        "NCH"
+      ],
+      "confidence": "high",
+      "source_url": "https://rauonline.in/",
+      "evidence": "The official university site identifies Dr. Sarvepalli Radhakrishnan Rajasthan Ayurved University as a Rajasthan state AYUSH university with Ayurveda, Homeopathy, Unani, Yoga and Naturopathy admissions and affiliations.",
+      "notes": []
+    },
+    {
+      "database_id": 604,
+      "name": "VIVEKANANDA GLOBAL UNIVERSITY",
+      "outcome": "classified",
+      "group_code": "G7",
+      "family_slug": "private_university",
+      "ownership": "private",
+      "statutory_basis": "Rajasthan state private university act",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://vgu.ac.in",
+      "evidence": "The official VGU site identifies Vivekananda Global University as a private multidisciplinary university in Jaipur offering undergraduate, postgraduate and doctoral admissions.",
+      "notes": []
+    },
+    {
+      "database_id": 605,
+      "name": "Dr. K. N. Modi University",
+      "outcome": "classified",
+      "group_code": "G7",
+      "family_slug": "private_university",
+      "ownership": "private",
+      "statutory_basis": "Rajasthan state private university act",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.dknmu.org/",
+      "evidence": "The official university site presents Dr. K.N. Modi University as a private university in Rajasthan.",
+      "notes": []
+    },
+    {
+      "database_id": 606,
+      "name": "Government College, Merta City",
+      "outcome": "classified",
+      "group_code": "G6",
+      "family_slug": "govt_degree_college",
+      "ownership": "state_govt",
+      "statutory_basis": "Rajasthan government college",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://hte.rajasthan.gov.in/GOVTCOLLEGEMERTACITY/20658",
+      "evidence": "The Rajasthan higher-education directory identifies Government College Merta City as a state government degree college.",
+      "notes": []
+    },
+    {
+      "database_id": 607,
+      "name": "S.M.B. GOVT. COLLEGE, NATHDWARA",
+      "outcome": "classified",
+      "group_code": "G6",
+      "family_slug": "govt_degree_college",
+      "ownership": "state_govt",
+      "statutory_basis": "Rajasthan government college",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://dceapp.rajasthan.gov.in/",
+      "evidence": "The Rajasthan Directorate of College Education directory identifies S.M.B. Government College Nathdwara as a state government degree college.",
+      "notes": []
+    },
+    {
+      "database_id": 608,
+      "name": "Seth R.N. Ruia Govt. College, Sikar",
+      "outcome": "classified",
+      "group_code": "G6",
+      "family_slug": "govt_degree_college",
+      "ownership": "state_govt",
+      "statutory_basis": "Rajasthan government college",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://hte.rajasthan.gov.in/17889",
+      "evidence": "The Rajasthan higher-education directory identifies Seth R.N. Ruia Government College as a state government degree college.",
+      "notes": []
+    },
+    {
+      "database_id": 609,
+      "name": "Shrimati Narbada Devi Bihani Government Post Graduate College, Nohar",
+      "outcome": "classified",
+      "group_code": "G6",
+      "family_slug": "govt_degree_college",
+      "ownership": "state_govt",
+      "statutory_basis": "Rajasthan government college",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://dceapp.rajasthan.gov.in/",
+      "evidence": "The Rajasthan Directorate of College Education directory identifies the Nohar institution as a government postgraduate college.",
+      "notes": []
+    },
+    {
+      "database_id": 610,
+      "name": "Ch. Balluram Godara Government Girls College",
+      "outcome": "classified",
+      "group_code": "G6",
+      "family_slug": "govt_degree_college",
+      "ownership": "state_govt",
+      "statutory_basis": "Rajasthan government college",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://dceapp.rajasthan.gov.in/",
+      "evidence": "The Rajasthan Directorate of College Education directory identifies Ch. Balluram Godara Government Girls College as a state government degree college.",
+      "notes": []
+    },
+    {
+      "database_id": 611,
+      "name": "GOVT. COLLEGE, SIROHI",
+      "outcome": "classified",
+      "group_code": "G6",
+      "family_slug": "govt_degree_college",
+      "ownership": "state_govt",
+      "statutory_basis": "Rajasthan government college",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://hte.rajasthan.gov.in/HTE/19723",
+      "evidence": "The Rajasthan higher-education directory identifies Government College Sirohi as a state government degree college.",
+      "notes": []
+    },
+    {
+      "database_id": 612,
+      "name": "Sir Padmapat Singhania University",
+      "outcome": "classified",
+      "group_code": "G7",
+      "family_slug": "private_university",
+      "ownership": "private",
+      "statutory_basis": "Rajasthan state private university act",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.spsu.ac.in/",
+      "evidence": "The official SPSU site presents Sir Padampat Singhania University as a private university in Rajasthan.",
+      "notes": []
+    },
+    {
+      "database_id": 613,
+      "name": "Acropolis Institute Of Technology And Research",
+      "outcome": "classified",
+      "group_code": "G8",
+      "family_slug": "private_engineering_college",
+      "ownership": "private",
+      "statutory_basis": "private engineering college",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "AICTE"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.aitr.ac.in/",
+      "evidence": "The official Acropolis site presents a private engineering and technology institute in Indore.",
+      "notes": []
+    },
+    {
+      "database_id": 614,
+      "name": "Adina Institute of Science And Technology, Sagar",
+      "outcome": "classified",
+      "group_code": "G8",
+      "family_slug": "private_engineering_college",
+      "ownership": "private",
+      "statutory_basis": "private engineering college",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "AICTE"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.adina.edu.in/",
+      "evidence": "The official Adina site presents a private science and technology institute with engineering admissions.",
+      "notes": []
+    },
+    {
+      "database_id": 615,
+      "name": "Amity University, Gwalior",
+      "outcome": "classified",
+      "group_code": "G7",
+      "family_slug": "private_university",
+      "ownership": "private",
+      "statutory_basis": "Madhya Pradesh state private university act",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.amity.edu/gwalior/",
+      "evidence": "The official Amity Gwalior site presents Amity University Madhya Pradesh as a private university.",
+      "notes": []
+    },
+    {
+      "database_id": 616,
+      "name": "Anand Institute Of Management (MBA)",
+      "outcome": "classified",
+      "group_code": "G8",
+      "family_slug": "private_degree_college",
+      "ownership": "private",
+      "statutory_basis": "private management college",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "AICTE"
+      ],
+      "confidence": "medium",
+      "source_url": "https://www.aim-bhopal.org/",
+      "evidence": "The official AIM site presents a private management institute offering MBA education.",
+      "notes": []
+    },
+    {
+      "database_id": 617,
+      "name": "Annie Besant College Annapurna Road, Indore",
+      "outcome": "classified",
+      "group_code": "G8",
+      "family_slug": "private_degree_college",
+      "ownership": "private",
+      "statutory_basis": "private affiliated degree college",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "medium",
+      "source_url": "https://anniebesant.co.in/college/",
+      "evidence": "The official college site presents Annie Besant College as a private higher-education college in Indore.",
+      "notes": []
+    },
+    {
+      "database_id": 618,
+      "name": "Avantika University",
+      "outcome": "classified",
+      "group_code": "G7",
+      "family_slug": "private_university",
+      "ownership": "private",
+      "statutory_basis": "Madhya Pradesh state private university act",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.avantikauniversity.edu.in/",
+      "evidence": "The official Avantika site presents Avantika University as a private university in Madhya Pradesh.",
+      "notes": []
+    },
+    {
+      "database_id": 619,
+      "name": "B S PATEL COLLEGE, SEPURA, MEHGAON",
+      "outcome": "classified",
+      "group_code": "G6",
+      "family_slug": "govt_degree_college",
+      "ownership": "state_govt",
+      "statutory_basis": "Madhya Pradesh government college",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://highereducation.mp.gov.in/?orgid=72",
+      "evidence": "The Madhya Pradesh Higher Education directory identifies B.S. Patel College as a government degree college.",
+      "notes": []
+    },
+    {
+      "database_id": 620,
+      "name": "Baderia Global Institute of Engineering & Management, Jabalpur",
+      "outcome": "classified",
+      "group_code": "G8",
+      "family_slug": "private_engineering_college",
+      "ownership": "private",
+      "statutory_basis": "private engineering college",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "AICTE"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.globalengineeringcollege.com/",
+      "evidence": "The official institute site presents Baderia Global Institute as a private engineering and management college.",
+      "notes": []
+    },
+    {
+      "database_id": 621,
+      "name": "BHARTIYA INSTITUTE OF PROFESSIONAL STUDIES UJJAIN",
+      "outcome": "classified",
+      "group_code": "G8",
+      "family_slug": "private_degree_college",
+      "ownership": "private",
+      "statutory_basis": "private affiliated degree college",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "medium",
+      "source_url": "https://www.bipsujjain.com/index.php",
+      "evidence": "The official BIPS site presents a private professional studies college in Ujjain.",
+      "notes": []
+    },
+    {
+      "database_id": 622,
+      "name": "Bhopal Institute of Technology and Management MBA",
+      "outcome": "classified",
+      "group_code": "G8",
+      "family_slug": "private_engineering_college",
+      "ownership": "private",
+      "statutory_basis": "private technical and management institute",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "AICTE"
+      ],
+      "confidence": "medium",
+      "source_url": "https://bitmmba.ac.in/",
+      "evidence": "The official institute site presents private technical and MBA education.",
+      "notes": []
+    },
+    {
+      "database_id": 623,
+      "name": "Career College of Nursing",
+      "outcome": "classified",
+      "group_code": "G8",
+      "family_slug": "private_nursing_college",
+      "ownership": "private",
+      "statutory_basis": "private nursing college",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "INC"
+      ],
+      "confidence": "high",
+      "source_url": "https://careernursing.org/",
+      "evidence": "The official college site presents Career College of Nursing as a private nursing institution with nursing admissions.",
+      "notes": []
+    },
+    {
+      "database_id": 624,
+      "name": "Corporate Institute of Science & Technology, Hataikheda, Near Patel Nagar, Raisen Road, Bhopal",
+      "outcome": "classified",
+      "group_code": "G8",
+      "family_slug": "private_engineering_college",
+      "ownership": "private",
+      "statutory_basis": "private engineering college",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "AICTE"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.corporatebpl.com/dept-cist/",
+      "evidence": "The official Corporate Institute site presents a private science and technology college with engineering admissions.",
+      "notes": []
+    }
+  ],
+  "database_apply_status": "not_applied",
+  "database_apply_note": "Private/trust rows still need structured UGC Yes/No evidence before import."
+}

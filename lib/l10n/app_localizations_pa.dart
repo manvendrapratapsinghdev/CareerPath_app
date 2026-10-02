@@ -871,4 +871,139 @@ class AppLocalizationsPa extends AppLocalizations {
 
   @override
   String get ai_openInExplore => 'Open in Explore';
+
+  @override
+  String get institute_stepsTitle => 'ਕਦਮ';
+
+  @override
+  String get institute_ladderTitle => 'ਸੰਸਥਾਵਾਂ ਦੀ ਪੱਧਰੀ ਸੂਚੀ';
+
+  @override
+  String get institute_locationFilterTooltip => 'ਟਿਕਾਣੇ ਮੁਤਾਬਕ ਫਿਲਟਰ ਕਰੋ';
+
+  @override
+  String get institute_ladderLoadError =>
+      'ਸੰਸਥਾਵਾਂ ਦੀ ਪੱਧਰੀ ਸੂਚੀ ਲੋਡ ਨਹੀਂ ਹੋ ਸਕੀ।';
+
+  @override
+  String get institute_noRouteData => 'ਹਾਲੇ ਰੂਟ ਦੀ ਜਾਣਕਾਰੀ ਉਪਲਬਧ ਨਹੀਂ ਹੈ।';
+
+  @override
+  String get institute_hidePrivateWithoutUgc =>
+      'UGC ਤਸਦੀਕ ਤੋਂ ਬਿਨਾਂ ਨਿੱਜੀ ਸੰਸਥਾਵਾਂ ਲੁਕਾਓ';
+
+  @override
+  String get institute_groupLabel => 'ਸੰਸਥਾ ਸਮੂਹ';
+
+  @override
+  String get institute_familyLabel => 'ਸੰਸਥਾ ਦੀ ਸ਼੍ਰੇਣੀ';
+
+  @override
+  String get institute_chooseProfessionalBody => 'ਪੇਸ਼ਾਵਰ ਸੰਸਥਾ ਚੁਣੋ';
+
+  @override
+  String get institute_relevantExams => 'ਸੰਬੰਧਿਤ ਪ੍ਰੀਖਿਆਵਾਂ';
+
+  @override
+  String get institute_entryRoutes => 'ਦਾਖ਼ਲੇ ਦੇ ਰਸਤੇ';
+
+  @override
+  String get institute_checkOfficialRoute => 'ਅਧਿਕਾਰਤ ਰਸਤਾ ਵੇਖੋ';
+
+  @override
+  String get institute_entryRequirementsVary =>
+      'ਸੰਸਥਾ ਅਤੇ ਪ੍ਰੋਗਰਾਮ ਮੁਤਾਬਕ ਦਾਖ਼ਲੇ ਦੀਆਂ ਸ਼ਰਤਾਂ ਵੱਖਰੀਆਂ ਹੁੰਦੀਆਂ ਹਨ।';
+
+  @override
+  String get institute_stepsAndEntryRoutes => 'ਕਦਮ ਅਤੇ ਦਾਖ਼ਲੇ ਦੇ ਰਸਤੇ';
+
+  @override
+  String get institute_caCmaCsNote =>
+      'CA, CMA ਅਤੇ CS ਵੱਖ-ਵੱਖ ਯੋਗਤਾਵਾਂ ਹਨ। ਉੱਪਰ ਦਿੱਤੇ ਦਾਖ਼ਲੇ ਦੇ ਰਸਤੇ ਵਿਕਲਪ ਹਨ, ਲਗਾਤਾਰ ਪ੍ਰੀਖਿਆ ਦੇ ਪੜਾਅ ਨਹੀਂ।';
+
+  @override
+  String institute_allLabel(String label) {
+    return 'ਸਾਰੇ $label';
+  }
+
+  @override
+  String get institute_online => 'ਆਨਲਾਈਨ';
+
+  @override
+  String get institute_allIndia => 'ਪੂਰਾ ਭਾਰਤ';
+
+  @override
+  String institute_showingFilters(String labels) {
+    return 'ਦਿਖਾਇਆ ਜਾ ਰਿਹਾ ਹੈ: $labels';
+  }
+
+  @override
+  String get institute_clear => 'ਸਾਫ਼ ਕਰੋ';
+
+  @override
+  String institute_coverageInIndia(int count, int listed) {
+    return 'ਭਾਰਤ ਵਿੱਚ $count · ਸੂਚੀ ਵਿੱਚ $listed';
+  }
+
+  @override
+  String institute_coverageListed(int count) {
+    return 'ਸੂਚੀ ਵਿੱਚ $count';
+  }
+
+  @override
+  String get institute_noListedInTier =>
+      'ਚੁਣੇ ਫਿਲਟਰਾਂ ਲਈ ਇਸ ਪੱਧਰ ਵਿੱਚ ਕੋਈ ਸੰਸਥਾ ਸੂਚੀਬੱਧ ਨਹੀਂ ਹੈ।';
+
+  @override
+  String get institute_mappedLocationDisclaimer =>
+      'ਟਿਕਾਣਾ ਮੌਜੂਦਾ ਸੰਸਥਾ ਰਿਕਾਰਡਾਂ ਤੋਂ ਲਿਆ ਗਿਆ ਹੈ; ਸੁਤੰਤਰ ਤੌਰ \'ਤੇ ਤਸਦੀਕ ਨਹੀਂ ਕੀਤਾ ਗਿਆ।';
+
+  @override
+  String get institute_notRanked => 'ਰੈਂਕ ਨਹੀਂ';
+
+  @override
+  String institute_top10(String label) {
+    return 'ਸਿਖਰਲੇ 10 · $label';
+  }
+
+  @override
+  String institute_nirfTop100(int year) {
+    return 'NIRF ਸਿਖਰਲੇ 100 · $year';
+  }
+
+  @override
+  String get institute_ugcVerified => 'UGC ਤਸਦੀਕਸ਼ੁਦਾ ✓';
+
+  @override
+  String get institute_ugcNotVerified => 'UGC ਤਸਦੀਕਸ਼ੁਦਾ ਨਹੀਂ';
+
+  @override
+  String get institute_ugcPending => 'UGC ਤਸਦੀਕ ਬਾਕੀ ਹੈ';
+
+  @override
+  String get institute_locationUnavailable =>
+      'ਟਿਕਾਣੇ ਦੀ ਜਾਣਕਾਰੀ ਉਪਲਬਧ ਨਹੀਂ ਹੈ।';
+
+  @override
+  String get institute_studyLocation => 'ਪੜ੍ਹਾਈ ਦਾ ਟਿਕਾਣਾ';
+
+  @override
+  String get institute_stateOrUnionTerritory => 'ਰਾਜ / ਕੇਂਦਰ-ਸ਼ਾਸਿਤ ਪ੍ਰਦੇਸ਼';
+
+  @override
+  String get institute_district => 'ਜ਼ਿਲ੍ਹਾ';
+
+  @override
+  String get institute_cityTown => 'ਸ਼ਹਿਰ / ਕਸਬਾ';
+
+  @override
+  String get institute_applyLocation => 'ਟਿਕਾਣਾ ਲਾਗੂ ਕਰੋ';
+
+  @override
+  String institute_collegeLadderSubtitle(int count) {
+    return '$count ਸੰਸਥਾ ਪੱਧਰ · ਰੈਂਕ ਅਤੇ ਟਿਕਾਣੇ ਅਨੁਸਾਰ ਤੁਲਨਾ ਕਰੋ';
+  }
+
+  @override
+  String get institute_entryRoutesSummary => 'ਦਾਖ਼ਲੇ ਦੇ ਰਸਤੇ';
 }

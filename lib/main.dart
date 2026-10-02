@@ -40,6 +40,8 @@ import 'services/ai_guide_extras.dart';
 import 'services/ai_voice_services.dart';
 import 'services/gemini_key_service.dart';
 import 'services/institute_catalog_service.dart';
+import 'services/location_service.dart';
+import 'services/route_service.dart';
 import 'services/search_aliases.dart';
 import 'services/search_spell_corrector.dart';
 import 'services/semantic_index_service.dart';
@@ -78,7 +80,19 @@ void main() async {
     client: await AiHttpClientFactory.create(),
   );
   unawaited(geminiKeyService.preload().catchError((_) {}));
-  final instituteCatalog = InstituteCatalogService(localDb.getInstituteCatalog);
+  final locationService = LocationService(
+    loadStates: localDb.getStates,
+    loadCities: localDb.getInstituteCities,
+    loadDistricts: localDb.getDistricts,
+    loadPlaces: localDb.getPlaces,
+    loadPlaceAliases: localDb.getPlaceAliases,
+  );
+  final instituteCatalog = InstituteCatalogService(
+    localDb.getInstituteCatalog,
+    taxonomy: localDb,
+    locations: locationService,
+  );
+  final routeService = RouteService(localDb);
   final groundingService = LocalAiGroundingService(
     careerDataService,
     catalog: instituteCatalog,
@@ -153,6 +167,9 @@ void main() async {
       recentlyViewedService: recentlyViewedService,
       ratePromptService: ratePromptService,
       careerDataService: careerDataService,
+      instituteCatalog: instituteCatalog,
+      locationService: locationService,
+      routeService: routeService,
       aiChatRepository: aiChatRepository,
       aiVoiceServices: aiVoiceServices,
       aiGuideExtras: aiGuideExtras,
@@ -175,6 +192,9 @@ class CareerPathApp extends StatelessWidget {
   final RecentlyViewedService recentlyViewedService;
   final RatePromptService ratePromptService;
   final CareerDataService careerDataService;
+  final InstituteCatalogService? instituteCatalog;
+  final LocationService? locationService;
+  final RouteService? routeService;
   final AiChatRepository aiChatRepository;
   final AiVoiceServices? aiVoiceServices;
   final AiGuideExtras? aiGuideExtras;
@@ -195,6 +215,9 @@ class CareerPathApp extends StatelessWidget {
     required this.recentlyViewedService,
     required this.ratePromptService,
     required this.careerDataService,
+    this.instituteCatalog,
+    this.locationService,
+    this.routeService,
     required this.aiChatRepository,
     this.aiVoiceServices,
     this.aiGuideExtras,
@@ -235,6 +258,10 @@ class CareerPathApp extends StatelessWidget {
             ratePromptService: ratePromptService,
             feedbackService: feedbackService,
             careerDataService: careerDataService,
+            instituteCatalog: instituteCatalog,
+            locationService: locationService,
+            routeService: routeService,
+            prefs: prefs,
             aiChatRepository: aiChatRepository,
             aiVoiceServices: aiVoiceServices,
             aiGuideExtras: aiGuideExtras,
@@ -262,6 +289,10 @@ class CareerPathApp extends StatelessWidget {
         bookmarkService: bookmarkService,
         explorationService: explorationService,
         careerDataService: careerDataService,
+        instituteCatalog: instituteCatalog,
+        locationService: locationService,
+        routeService: routeService,
+        prefs: prefs,
         aiChatRepository: aiChatRepository,
         aiVoiceServices: aiVoiceServices,
         aiGuideExtras: aiGuideExtras,

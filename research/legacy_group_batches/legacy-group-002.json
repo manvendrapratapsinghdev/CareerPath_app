@@ -1,0 +1,179 @@
+{
+  "batch_id": "legacy-group-002",
+  "generated_at": "2026-10-02T04:41:24.731180+00:00",
+  "database": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/assets/data/career_path.db",
+  "selection": "Institutes without institute_classification",
+  "classification_policy": "Do not infer silently; require official evidence or manual_review.",
+  "records": [
+    {
+      "database_id": 26,
+      "name": "Bombay Flying Club",
+      "city": "Mumbai",
+      "district": null,
+      "state": "Maharashtra",
+      "website": "https://www.bombayfc.com",
+      "description": "Bombay Flying Club, Mumbai is one of India's oldest and most established flying clubs, offering Commercial Pilot License training from Juhu Aerodrome.",
+      "existing_institution_type": null,
+      "existing_categories": [],
+      "career_nodes": [
+        "Airline Pilot",
+        "Flight Instructor"
+      ],
+      "review_status": "pending_official_review"
+    },
+    {
+      "database_id": 30,
+      "name": "Pearl Academy",
+      "city": "New Delhi",
+      "district": null,
+      "state": "Delhi",
+      "website": "https://www.pearlacademy.com",
+      "description": "Pearl Academy is a private design and fashion institution with campuses across India, offering undergraduate and postgraduate programs in fashion, media, design, and business.",
+      "existing_institution_type": "specialized",
+      "existing_categories": [],
+      "career_nodes": [
+        "Fashion Designer",
+        "Fashion Technologist",
+        "Game Developer",
+        "Textile Designer",
+        "Visual Merchandiser"
+      ],
+      "review_status": "pending_official_review"
+    },
+    {
+      "database_id": 31,
+      "name": "Symbiosis Institute of Design Pune",
+      "city": "Pune",
+      "district": null,
+      "state": "Maharashtra",
+      "website": "https://sid.edu.in",
+      "description": "Symbiosis Institute of Design, Pune is a reputed private design school offering undergraduate programs in communication, industrial, fashion, and space design under Symbiosis International University.",
+      "existing_institution_type": "specialized",
+      "existing_categories": [],
+      "career_nodes": [
+        "Art Director (Advertising)",
+        "Fashion Designer",
+        "Graphic Designer",
+        "Visual Merchandiser"
+      ],
+      "review_status": "pending_official_review"
+    },
+    {
+      "database_id": 38,
+      "name": "SP Jain Mumbai",
+      "city": "Mumbai",
+      "district": null,
+      "state": "Maharashtra",
+      "website": "https://www.spjimr.org",
+      "description": "S.P. Jain Institute of Management and Research, Mumbai is a leading private business school known for innovative MBA and PGDM programs with strong industry partnerships and global exposure.",
+      "existing_institution_type": "specialized",
+      "existing_categories": [],
+      "career_nodes": [
+        "Investment Banker",
+        "Marketing Manager"
+      ],
+      "review_status": "pending_official_review"
+    },
+    {
+      "database_id": 42,
+      "name": "NCTE Recognised B.Ed Colleges",
+      "city": "Various",
+      "district": null,
+      "state": null,
+      "website": "https://ncte.gov.in",
+      "description": "NCTE Recognised B.Ed Colleges are institutions approved by the National Council for Teacher Education to offer the two-year Bachelor of Education degree for aspiring school teachers.",
+      "existing_institution_type": null,
+      "existing_categories": [],
+      "career_nodes": [
+        "Curriculum Designer",
+        "School Teacher (TGT/PGT)"
+      ],
+      "review_status": "pending_official_review"
+    },
+    {
+      "database_id": 44,
+      "name": "Coursera / edX MicroMasters",
+      "city": "Online",
+      "district": null,
+      "state": null,
+      "website": "https://www.coursera.org",
+      "description": "Online learning platforms offering MicroMasters and professional certificate programs from global universities, widely used by Indian learners for upskilling in technology, business, and data science.",
+      "existing_institution_type": "online_learning_platform",
+      "existing_categories": [],
+      "career_nodes": [
+        "Data Analyst",
+        "Podcast Producer",
+        "Social Media Manager",
+        "Travel Consultant",
+        "YouTuber / Content Creator"
+      ],
+      "review_status": "pending_official_review"
+    },
+    {
+      "database_id": 48,
+      "name": "XLRI",
+      "city": "Jamshedpur",
+      "district": null,
+      "state": "Jharkhand",
+      "website": "https://www.xlri.ac.in",
+      "description": "Xavier Labour Relations Institute, Jamshedpur offers finance and business management programs with a strong tradition of academic rigor, ethical grounding, and industry relevance.",
+      "existing_institution_type": "specialized",
+      "existing_categories": [],
+      "career_nodes": [
+        "Investment Banker",
+        "Marketing Manager",
+        "Organizational Psychologist"
+      ],
+      "review_status": "pending_official_review"
+    },
+    {
+      "database_id": 56,
+      "name": "Chennai Mathematical Institute",
+      "city": "Chennai",
+      "district": null,
+      "state": "Tamil Nadu",
+      "website": "https://www.cmi.ac.in",
+      "description": "Chennai Mathematical Institute (CMI) is a leading research and education center in mathematics and computer science, founded in 1989. It offers BSc, MSc, and PhD programs in Mathematics, Computer Science, and Data Science, attracting top mathematical talent from across India. CMI is known for its rigorous academic environment and strong research output in pure and applied mathematics.",
+      "existing_institution_type": "specialized",
+      "existing_categories": [],
+      "career_nodes": [
+        "Data Scientist",
+        "M.Sc Mathematics → Professor / Researcher",
+        "Quantitative Analyst",
+        "Research Scientist",
+        "Statistician"
+      ],
+      "review_status": "pending_official_review"
+    },
+    {
+      "database_id": 62,
+      "name": "Amity University (Actuarial Science)",
+      "city": "Noida",
+      "district": null,
+      "state": "Uttar Pradesh",
+      "website": "https://www.amity.edu",
+      "description": "Amity University offers a specialized BSc and MSc program in Actuarial Science at its Noida campus, designed to prepare students for professional actuarial examinations. The program covers statistics, mathematics, finance, and insurance principles in alignment with IAI and international actuarial syllabi. Amity's strong industry connections provide students with internship and placement opportunities in insurance and financial services.",
+      "existing_institution_type": "private_university",
+      "existing_categories": [],
+      "career_nodes": [
+        "Actuarial Science"
+      ],
+      "review_status": "pending_official_review"
+    },
+    {
+      "database_id": 63,
+      "name": "Bishop Heber College",
+      "city": "Tiruchirappalli",
+      "district": null,
+      "state": "Tamil Nadu",
+      "website": "https://www.bishopheber.ac.in",
+      "description": "Bishop Heber College, Tiruchirappalli, is an autonomous Christian minority institution affiliated with Bharathidasan University, established in 1966. It is known for its strong undergraduate and postgraduate programs in sciences, commerce, arts, and humanities, and has been accredited with 'A+' grade by NAAC. The college is particularly recognized for its mathematics, physics, and computer science departments.",
+      "existing_institution_type": null,
+      "existing_categories": [],
+      "career_nodes": [
+        "Actuarial Science"
+      ],
+      "review_status": "pending_official_review"
+    }
+  ]
+}

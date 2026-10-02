@@ -199,5 +199,79 @@
   "common_noneAvailableYet": "ಇನ್ನೂ ಯಾವುದೂ ಲಭ್ಯವಿಲ್ಲ",
   "common_byAuthor": "{author} ಅವರಿಂದ",
   "common_viewBook": "ಪುಸ್ತಕ ನೋಡಿ",
-  "common_visitWebsite": "ವೆಬ್‌ಸೈಟ್‌ಗೆ ಭೇಟಿ ನೀಡಿ"
+  "common_visitWebsite": "ವೆಬ್‌ಸೈಟ್‌ಗೆ ಭೇಟಿ ನೀಡಿ",
+  "institute_stepsTitle": "ಹಂತಗಳು",
+  "institute_ladderTitle": "ಸಂಸ್ಥೆಗಳ ಹಂತಕ್ರಮ",
+  "institute_locationFilterTooltip": "ಸ್ಥಳದ ಪ್ರಕಾರ ಫಿಲ್ಟರ್ ಮಾಡಿ",
+  "institute_ladderLoadError": "ಸಂಸ್ಥೆಗಳ ಹಂತಕ್ರಮವನ್ನು ಲೋಡ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.",
+  "institute_noRouteData": "ಇನ್ನೂ ಮಾರ್ಗದ ಮಾಹಿತಿ ಲಭ್ಯವಿಲ್ಲ.",
+  "institute_hidePrivateWithoutUgc": "UGC ಪರಿಶೀಲನೆ ಇಲ್ಲದ ಖಾಸಗಿ ಸಂಸ್ಥೆಗಳನ್ನು ಮರೆಮಾಡಿ",
+  "institute_groupLabel": "ಸಂಸ್ಥೆಯ ಗುಂಪು",
+  "institute_familyLabel": "ಸಂಸ್ಥೆಯ ವರ್ಗ",
+  "institute_chooseProfessionalBody": "ವೃತ್ತಿಪರ ಮಂಡಳಿಯನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+  "institute_relevantExams": "ಸಂಬಂಧಿತ ಪರೀಕ್ಷೆಗಳು",
+  "institute_entryRoutes": "ಪ್ರವೇಶದ ಮಾರ್ಗಗಳು",
+  "institute_checkOfficialRoute": "ಅಧಿಕೃತ ಮಾರ್ಗವನ್ನು ಪರಿಶೀಲಿಸಿ",
+  "institute_entryRequirementsVary": "ಸಂಸ್ಥೆ ಮತ್ತು ಕಾರ್ಯಕ್ರಮದ ಪ್ರಕಾರ ಪ್ರವೇಶದ ಅರ್ಹತೆಗಳು ಬದಲಾಗುತ್ತವೆ.",
+  "institute_stepsAndEntryRoutes": "ಹಂತಗಳು ಮತ್ತು ಪ್ರವೇಶದ ಮಾರ್ಗಗಳು",
+  "institute_caCmaCsNote": "CA, CMA ಮತ್ತು CS ಪ್ರತ್ಯೇಕ ಅರ್ಹತೆಗಳು. ಮೇಲಿನ ಪ್ರವೇಶ ಮಾರ್ಗಗಳು ಪರ್ಯಾಯಗಳು; ಅವು ಕ್ರಮಾನುಗತ ಪರೀಕ್ಷಾ ಹಂತಗಳಲ್ಲ.",
+  "institute_allLabel": "ಎಲ್ಲಾ {label}",
+  "@institute_allLabel": {
+    "placeholders": {
+      "label": { "type": "String" }
+    }
+  },
+  "institute_online": "ಆನ್‌ಲೈನ್",
+  "institute_allIndia": "ಭಾರತದಾದ್ಯಂತ",
+  "institute_showingFilters": "ತೋರಿಸಲಾಗುತ್ತಿದೆ: {labels}",
+  "@institute_showingFilters": {
+    "placeholders": {
+      "labels": { "type": "String" }
+    }
+  },
+  "institute_clear": "ತೆರವುಗೊಳಿಸಿ",
+  "institute_coverageInIndia": "ಭಾರತದಲ್ಲಿ {count} · ಪಟ್ಟಿಯಲ್ಲಿ {listed}",
+  "@institute_coverageInIndia": {
+    "placeholders": {
+      "count": { "type": "int" },
+      "listed": { "type": "int" }
+    }
+  },
+  "institute_coverageListed": "ಪಟ್ಟಿಯಲ್ಲಿ {count}",
+  "@institute_coverageListed": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "institute_noListedInTier": "ಆಯ್ಕೆ ಮಾಡಿದ ಫಿಲ್ಟರ್‌ಗಳಿಗೆ ಈ ಹಂತದಲ್ಲಿ ಯಾವುದೇ ಸಂಸ್ಥೆಗಳು ಪಟ್ಟಿಯಾಗಿಲ್ಲ.",
+  "institute_mappedLocationDisclaimer": "ಸ್ಥಳವನ್ನು ಈಗಿರುವ ಸಂಸ್ಥೆಯ ದಾಖಲೆಗಳಿಂದ ನಕ್ಷೆ ಮಾಡಲಾಗಿದೆ; ಸ್ವತಂತ್ರವಾಗಿ ಪರಿಶೀಲಿಸಿಲ್ಲ.",
+  "institute_notRanked": "ಶ್ರೇಯಾಂಕವಿಲ್ಲ",
+  "institute_top10": "ಟಾಪ್ 10 · {label}",
+  "@institute_top10": {
+    "placeholders": {
+      "label": { "type": "String" }
+    }
+  },
+  "institute_nirfTop100": "NIRF ಟಾಪ್ 100 · {year}",
+  "@institute_nirfTop100": {
+    "placeholders": {
+      "year": { "type": "int" }
+    }
+  },
+  "institute_ugcVerified": "UGC ಪರಿಶೀಲಿಸಲಾಗಿದೆ ✓",
+  "institute_ugcNotVerified": "UGC ಪರಿಶೀಲಿಸಲಾಗಿಲ್ಲ",
+  "institute_ugcPending": "UGC ಪರಿಶೀಲನೆ ಬಾಕಿಯಿದೆ",
+  "institute_locationUnavailable": "ಸ್ಥಳದ ಮಾಹಿತಿ ಲಭ್ಯವಿಲ್ಲ.",
+  "institute_studyLocation": "ಅಧ್ಯಯನದ ಸ್ಥಳ",
+  "institute_stateOrUnionTerritory": "ರಾಜ್ಯ / ಕೇಂದ್ರಾಡಳಿತ ಪ್ರದೇಶ",
+  "institute_district": "ಜಿಲ್ಲೆ",
+  "institute_cityTown": "ನಗರ / ಪಟ್ಟಣ",
+  "institute_applyLocation": "ಸ್ಥಳ ಅನ್ವಯಿಸಿ",
+  "institute_collegeLadderSubtitle": "{count} ಸಂಸ್ಥೆಯ ಹಂತಗಳು · ಶ್ರೇಯಾಂಕ ಮತ್ತು ಸ್ಥಳದ ಆಧಾರದಲ್ಲಿ ಹೋಲಿಸಿ",
+  "@institute_collegeLadderSubtitle": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "institute_entryRoutesSummary": "ಪ್ರವೇಶದ ಮಾರ್ಗಗಳು"
 }

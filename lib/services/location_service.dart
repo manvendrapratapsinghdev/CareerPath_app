@@ -1,7 +1,12 @@
 import '../models/state_region.dart';
+import '../models/district_region.dart';
+import '../models/institute_campus.dart';
+import '../models/institute_catalog.dart';
+import '../models/institute_location_filter.dart';
+import '../models/place_alias.dart';
+import '../models/place_record.dart';
 
-/// How specific a [ResolvedPlace] is. Districts come from the `districts`
-/// table, which is still empty, so [PlaceLevel.district] is not produced yet.
+/// How specific a [ResolvedPlace] is.
 enum PlaceLevel { state, district, city }
 
 /// What part of the text matched: an official name, a known alias
@@ -16,8 +21,11 @@ class ResolvedPlace {
   /// (e.g. Bilaspur, in Chhattisgarh and Himachal Pradesh).
   final StateRegion? state;
 
-  /// Reserved for the district level; null until `districts` is filled.
+  /// District label for a district match or an unambiguous mapped city.
+  /// Null for a city spanning multiple districts or for state-only matches.
   final String? district;
+  final int? districtLgd;
+  final Set<int> districtLgds;
 
   /// The city as shown to students ("Bengaluru"), for [PlaceLevel.city].
   final String? city;
@@ -25,6 +33,7 @@ class ResolvedPlace {
   /// Every spelling counted as [city], compacted (lowercase letters and
   /// digits only): "bengaluru" and "bangalore" are the same city.
   final Set<String> cityKeys;
+  final Set<int> placeIds;
 
   final PlaceMatch via;
 
@@ -33,8 +42,11 @@ class ResolvedPlace {
     required this.via,
     this.state,
     this.district,
+    this.districtLgd,
+    this.districtLgds = const {},
     this.city,
     this.cityKeys = const {},
+    this.placeIds = const {},
   });
 
   /// What to show: the city, else the district, else the state name.
@@ -51,6 +63,14 @@ class ResolvedPlace {
       return wanted.isNotEmpty &&
           LocationService.compact(city).contains(wanted);
     }
+    if (level == PlaceLevel.district) {
+      final wanted = LocationService.compact(this.district);
+      final stored = LocationService.compact(district);
+      return stored == wanted ||
+          (stored.isEmpty &&
+              stateKey.isNotEmpty &&
+              stateKey == LocationService.compact(this.state?.name));
+    }
     final inCity =
         cityKeys.contains(LocationService.compact(city)) ||
         cityKeys.contains(LocationService.compact(district));
@@ -61,16 +81,41 @@ class ResolvedPlace {
         stateKey == LocationService.compact(region.name);
   }
 
+  bool matchesCampus(InstituteCampus campus) {
+    if (level == PlaceLevel.state) {
+      return campus.stateCode == state?.code ||
+          LocationService.compact(campus.stateName) ==
+              LocationService.compact(state?.name);
+    }
+    if (level == PlaceLevel.district) {
+      if (districtLgds.isNotEmpty && campus.districtLgd != 0) {
+        return districtLgds.contains(campus.districtLgd);
+      }
+      if (districtLgd != null && campus.districtLgd != 0) {
+        return campus.districtLgd == districtLgd;
+      }
+      return LocationService.compact(campus.districtName) ==
+          LocationService.compact(district);
+    }
+    if (placeIds.isNotEmpty && campus.placeId != 0) {
+      return placeIds.contains(campus.placeId);
+    }
+    return matches(
+      city: campus.placeName,
+      district: campus.districtName,
+      state: campus.stateName,
+    );
+  }
+
   @override
   String toString() => 'ResolvedPlace(${level.name}: $label, ${state?.code})';
 }
 
-/// Resolves place names in typed, chat and voice text to a state or city
-/// (plan §6.6), so every entry point filters the same way.
-///
-/// States come from the `states` table; cities from the distinct
-/// `institutes.city` values until `places` / `districts` are filled, when
-/// the same API gains the district level.
+/// Resolves place names in typed, chat and voice text to a state, district or
+/// city (plan §6.6), so every entry point filters the same way. When location
+/// tables are configured, filtering uses mapped campus links and does not
+/// infer locations for institutes without one. Older callers without place
+/// loaders retain the legacy distinct-`institutes.city` fallback.
 class LocationService {
   /// Old or common names → (city as shown, state code). Matching either
   /// spelling finds rows stored under both ("Bangalore" and "Bengaluru").
@@ -159,6 +204,10 @@ class LocationService {
 
   final Future<List<StateRegion>> Function() _loadStates;
   final Future<List<({String city, String? state})>> Function() _loadCities;
+  final Future<List<DistrictRegion>> Function()? _loadDistricts;
+  final Future<List<PlaceRecord>> Function()? _loadPlaces;
+  final Future<List<PlaceAlias>> Function()? _loadPlaceAliases;
+  bool get hasCampusScopedLocationData => _loadPlaces != null;
 
   List<StateRegion> _states = const [];
   final _stateByKey = <String, StateRegion>{};
@@ -166,29 +215,62 @@ class LocationService {
   final _abbreviations = <String, StateRegion>{};
   final _cities = <String, _City>{};
   final _cityKeyToCanonical = <String, String>{};
+  List<DistrictRegion> _districts = const [];
+  List<PlaceRecord> _places = const [];
+  final _districtByLgd = <int, DistrictRegion>{};
+  final _districtByKey = <String, List<DistrictRegion>>{};
+  final _placeById = <int, PlaceRecord>{};
+  final _placeByKey = <String, List<PlaceRecord>>{};
+  final _districtAliasKeys = <int, Set<String>>{};
+  final _placeAliasKeys = <int, Set<String>>{};
   bool _loaded = false;
   Future<void>? _loading;
 
   LocationService({
     required Future<List<StateRegion>> Function() loadStates,
     required Future<List<({String city, String? state})>> Function() loadCities,
+    Future<List<DistrictRegion>> Function()? loadDistricts,
+    Future<List<PlaceRecord>> Function()? loadPlaces,
+    Future<List<PlaceAlias>> Function()? loadPlaceAliases,
   }) : _loadStates = loadStates,
-       _loadCities = loadCities;
+       _loadCities = loadCities,
+       _loadDistricts = loadDistricts,
+       _loadPlaces = loadPlaces,
+       _loadPlaceAliases = loadPlaceAliases;
 
   /// All states and UTs, by name; empty until [ensureLoaded] completes.
   List<StateRegion> get states => _states;
+  List<DistrictRegion> get districts => List.unmodifiable(_districts);
+  List<PlaceRecord> get places => List.unmodifiable(_places);
 
   Future<void> ensureLoaded() {
     if (_loaded) return Future.value();
-    return _loading ??= Future.wait([_loadStates(), _loadCities()])
-        .then((results) {
-          _index(
-            results[0] as List<StateRegion>,
-            results[1] as List<({String city, String? state})>,
-          );
-          _loaded = true;
-        })
-        .whenComplete(() => _loading = null);
+    return _loading ??= _loadData().whenComplete(() => _loading = null);
+  }
+
+  Future<void> _loadData() async {
+    final futures = <Future<Object>>[_loadStates(), _loadCities()];
+    final districtsIndex = _loadDistricts == null ? null : futures.length;
+    if (_loadDistricts != null) futures.add(_loadDistricts());
+    final placesIndex = _loadPlaces == null ? null : futures.length;
+    if (_loadPlaces != null) futures.add(_loadPlaces());
+    final aliasesIndex = _loadPlaceAliases == null ? null : futures.length;
+    if (_loadPlaceAliases != null) futures.add(_loadPlaceAliases());
+    final results = await Future.wait(futures);
+    _index(
+      results[0] as List<StateRegion>,
+      results[1] as List<({String city, String? state})>,
+      districts: districtsIndex != null
+          ? results[districtsIndex] as List<DistrictRegion>
+          : const [],
+      places: placesIndex != null
+          ? results[placesIndex] as List<PlaceRecord>
+          : const [],
+      aliases: aliasesIndex != null
+          ? results[aliasesIndex] as List<PlaceAlias>
+          : const [],
+    );
+    _loaded = true;
   }
 
   /// The place [text] names, or null. Loads the data on first use.
@@ -255,6 +337,95 @@ class LocationService {
     return names;
   }
 
+  List<DistrictRegion> districtsIn(String stateCode) {
+    final code = stateCode.toUpperCase();
+    return List.unmodifiable(
+      _districts.where((district) => district.stateCode.toUpperCase() == code),
+    );
+  }
+
+  List<PlaceRecord> placesInDistrict(int districtLgd) => List.unmodifiable(
+    _places.where((place) => place.districtLgd == districtLgd),
+  );
+
+  DistrictRegion? districtByCode(int lgdCode) => _districtByLgd[lgdCode];
+
+  PlaceRecord? placeById(int id) => _placeById[id];
+
+  /// Match a saved location against mapped campus links. Legacy city/state
+  /// values are used only when this service was created without place data.
+  bool matchesFilter(InstituteLocationFilter filter, InstituteRecord record) {
+    if (filter.isAllIndia) return true;
+    if (filter.onlineOnly) {
+      return (record.institute.city ?? '').toLowerCase().contains('online') ||
+          record.courses.any(
+            (course) => (course.mode ?? '').toLowerCase().contains('online'),
+          );
+    }
+
+    bool campusMatches(InstituteCampus campus) {
+      if (filter.placeId != null) {
+        if (hasCampusScopedLocationData) {
+          return campus.placeId == filter.placeId;
+        }
+        final aliasKeys =
+            _placeAliasKeys[filter.placeId] ?? {compact(filter.placeName)};
+        return campus.placeId == filter.placeId ||
+            aliasKeys.contains(compact(campus.placeName));
+      }
+      if (filter.districtLgd != null) {
+        if (hasCampusScopedLocationData) {
+          return campus.districtLgd == filter.districtLgd;
+        }
+        final aliasKeys =
+            _districtAliasKeys[filter.districtLgd] ??
+            {compact(filter.districtName)};
+        return campus.districtLgd == filter.districtLgd ||
+            aliasKeys.contains(compact(campus.districtName));
+      }
+      if (hasCampusScopedLocationData) {
+        return campus.stateCode.toUpperCase() ==
+            filter.stateCode?.toUpperCase();
+      }
+      return campus.stateCode.toUpperCase() ==
+              filter.stateCode?.toUpperCase() ||
+          compact(campus.stateName) == compact(filter.stateName);
+    }
+
+    final institute = record.institute;
+    if (record.campuses.any(campusMatches)) return true;
+    if (hasCampusScopedLocationData) return false;
+    if (record.campuses.isNotEmpty) return false;
+    if (filter.placeId != null) {
+      final keys =
+          _placeAliasKeys[filter.placeId] ?? {compact(filter.placeName)};
+      return keys.contains(compact(institute.city)) ||
+          keys.contains(compact(institute.district));
+    }
+    if (filter.districtLgd != null) {
+      final keys =
+          _districtAliasKeys[filter.districtLgd] ??
+          {compact(filter.districtName)};
+      return keys.contains(compact(institute.district));
+    }
+    final selectedState = _stateByCode[filter.stateCode?.toUpperCase()];
+    return selectedState != null &&
+        (stateNamed(institute.state)?.code == selectedState.code ||
+            compact(institute.city).contains(compact(selectedState.name)));
+  }
+
+  bool matchesRecord(ResolvedPlace place, InstituteRecord record) {
+    if (hasCampusScopedLocationData) {
+      return record.campuses.any(place.matchesCampus);
+    }
+    return place.matches(
+          city: record.institute.city,
+          district: record.institute.district,
+          state: record.institute.state,
+        ) ||
+        record.campuses.any(place.matchesCampus);
+  }
+
   /// Lowercase letters and digits only: "Tamil Nadu" → "tamilnadu".
   static String compact(String? text) =>
       (text ?? '').toLowerCase().replaceAll(RegExp('[^a-z0-9]'), '');
@@ -269,7 +440,66 @@ class LocationService {
   ResolvedPlace? _match(String key, {required bool sentence}) {
     if (key.isEmpty) return null;
     final byName = _stateByKey[key];
-    if (byName != null) return _stateResult(byName, PlaceMatch.name);
+    if (byName != null) {
+      return _stateResult(
+        byName,
+        key == compact(byName.name) ? PlaceMatch.name : PlaceMatch.alias,
+      );
+    }
+    final districtMatches = _districtByKey[key];
+    // Prefer a named place when it shares a label with its district. A place
+    // label may map to multiple districts; keeping all place IDs is safer
+    // than silently narrowing the match to the district of the same name.
+    if (districtMatches != null && _placeByKey[key] == null) {
+      final states = districtMatches
+          .map((district) => district.stateCode)
+          .toSet();
+      final lgdCodes = districtMatches
+          .map((district) => district.lgdCode)
+          .toSet();
+      final state = states.length == 1
+          ? _stateByCode[states.single.toUpperCase()]
+          : null;
+      return ResolvedPlace(
+        level: PlaceLevel.district,
+        state: state,
+        district: districtMatches.first.name,
+        districtLgd: lgdCodes.length == 1 ? lgdCodes.single : null,
+        districtLgds: lgdCodes,
+        via: districtMatches.any((district) => key == compact(district.name))
+            ? PlaceMatch.name
+            : PlaceMatch.alias,
+      );
+    }
+    final placeMatches = _placeByKey[key];
+    if (placeMatches != null) {
+      final stateCodes = placeMatches.map((place) => place.stateCode).toSet();
+      final districtLgds = placeMatches
+          .map((place) => place.districtLgd)
+          .toSet();
+      final aliases = <String>{
+        for (final place in placeMatches) ...?_placeAliasKeys[place.id],
+      };
+      final state = stateCodes.length == 1
+          ? _stateByCode[stateCodes.single.toUpperCase()]
+          : null;
+      final district = districtLgds.length == 1
+          ? placeMatches.first.districtName
+          : null;
+      return ResolvedPlace(
+        level: PlaceLevel.city,
+        state: state,
+        district: district,
+        districtLgd: districtLgds.length == 1 ? districtLgds.single : null,
+        districtLgds: districtLgds,
+        city: placeMatches.first.name,
+        cityKeys: aliases,
+        placeIds: {for (final place in placeMatches) place.id},
+        via: placeMatches.any((place) => key == compact(place.name))
+            ? PlaceMatch.name
+            : PlaceMatch.alias,
+      );
+    }
     final canonical = _cityKeyToCanonical[key];
     if (canonical != null) {
       final city = _cities[canonical]!;
@@ -299,8 +529,11 @@ class LocationService {
 
   void _index(
     List<StateRegion> states,
-    List<({String city, String? state})> cities,
-  ) {
+    List<({String city, String? state})> cities, {
+    List<DistrictRegion> districts = const [],
+    List<PlaceRecord> places = const [],
+    List<PlaceAlias> aliases = const [],
+  }) {
     _states = List.unmodifiable(
       [...states]..sort((a, b) => a.name.compareTo(b.name)),
     );
@@ -311,6 +544,41 @@ class LocationService {
       _stateByCode[state.code.toUpperCase()] = state;
       final suffix = state.code.split('-').last.toLowerCase();
       _abbreviations[suffix] = state;
+    }
+    _districts = List.unmodifiable(
+      [...districts]..sort((a, b) => a.name.compareTo(b.name)),
+    );
+    _places = List.unmodifiable(
+      [...places]..sort((a, b) => a.name.compareTo(b.name)),
+    );
+    for (final district in districts) {
+      _districtByLgd[district.lgdCode] = district;
+      _addDistrictKey(compact(district.name), district);
+      _districtAliasKeys[district.lgdCode] = {compact(district.name)};
+    }
+    for (final place in places) {
+      _placeById[place.id] = place;
+      _addPlaceKey(compact(place.name), place);
+      _placeAliasKeys[place.id] = {compact(place.name)};
+    }
+    for (final alias in aliases) {
+      final key = compact(alias.alias);
+      if (alias.placeId != null) {
+        final place = _placeById[alias.placeId];
+        if (place != null) {
+          _placeAliasKeys[place.id]!.add(key);
+          _addPlaceKey(key, place);
+        }
+      } else if (alias.districtLgd != null) {
+        final district = _districtByLgd[alias.districtLgd];
+        if (district != null) {
+          _districtAliasKeys[district.lgdCode]!.add(key);
+          _addDistrictKey(key, district);
+        }
+      } else if (alias.stateCode != null) {
+        final state = _stateByCode[alias.stateCode!.toUpperCase()];
+        if (state != null) _stateByKey.putIfAbsent(key, () => state);
+      }
     }
     for (final entry in extraAbbreviations.entries) {
       final state = _stateByCode[entry.value];
@@ -341,6 +609,18 @@ class LocationService {
       final state = stateNamed(row.state);
       if (state != null) city.stateCodes.add(state.code);
     }
+  }
+
+  void _addDistrictKey(String key, DistrictRegion district) {
+    final matches = _districtByKey.putIfAbsent(key, () => []);
+    if (!matches.any((item) => item.lgdCode == district.lgdCode)) {
+      matches.add(district);
+    }
+  }
+
+  void _addPlaceKey(String key, PlaceRecord place) {
+    final matches = _placeByKey.putIfAbsent(key, () => []);
+    if (!matches.any((item) => item.id == place.id)) matches.add(place);
   }
 }
 

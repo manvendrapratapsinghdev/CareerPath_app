@@ -22,7 +22,7 @@ const _seed = [
       "(20, 'NLSIU Bengaluru', 'Bengaluru', 'Karnataka'), "
       "(21, 'NLU Jodhpur', 'Jodhpur', 'Rajasthan'), "
       "(30, 'Private Law School', 'Jaipur', 'Rajasthan'), "
-      "(31, 'Unverified Law College', 'Jaipur', 'Rajasthan'), "
+      "(31, 'Pending Law College', 'Jaipur', 'Rajasthan'), "
       "(32, 'Unclassified College', 'Jaipur', 'Rajasthan')",
   "INSERT INTO institution_groups VALUES ('G1', 'National flagship', 'INIs', 1), "
       "('G4', 'State public universities', 'State', 4), "
@@ -41,7 +41,7 @@ const _seed = [
       "(20, 'G4', 'nlu', 'state_govt', 1, NULL, 0, 1, NULL, 'high'), "
       "(21, 'G4', 'nlu', 'state_govt', 1, NULL, 0, 1, NULL, 'high'), "
       "(30, 'G8', NULL, 'private', 1, NULL, 0, 1, 1, 'medium'), "
-      "(31, 'G8', NULL, 'private', 1, NULL, 0, 1, 0, 'medium')",
+      "(31, 'G8', NULL, 'private', 1, NULL, 0, 1, NULL, 'medium')",
   'INSERT INTO institute_rankings (institute_id, system, year, category, rank, '
       'rank_band, source_url) VALUES '
       "(10, 'NIRF', 2025, 'Overall', 3, NULL, 'u'), "
@@ -205,6 +205,24 @@ void main() {
   });
 
   group('displayInfo', () {
+    test(
+      'catalog records batch ranks and accreditations for listing cards',
+      () async {
+        await catalog.ensureLoaded();
+        final record = catalog.recordById(30)!;
+        expect(record.rankings, isEmpty);
+        expect(record.accreditations.map((item) => item.body), ['NAAC']);
+
+        final ranked = await catalog.displayInfo(10, domainSlug: 'engineering');
+        expect(ranked?.ranking?.category, 'Engineering');
+        expect(ranked?.ranking?.rank, 2);
+
+        final fallback = await catalog.displayInfo(30, domainSlug: 'law');
+        expect(fallback?.ranking, isNull);
+        expect(fallback?.naacGrade, 'A');
+      },
+    );
+
     test('group and family names, domain rank, highlight and tier', () async {
       final info = await catalog.displayInfo(10, domainSlug: 'engineering');
       expect(info?.name, 'IIT Bombay');
@@ -236,8 +254,10 @@ void main() {
       expect(verified?.highlight, RankHighlight.none);
       expect(verified?.familyName, isNull);
       final unverified = await catalog.displayInfo(31);
-      expect(unverified?.ugcBadge, UgcBadge.notVerified);
-      expect(unverified?.naacGrade, isNull);
+      expect(unverified?.ugcBadge, UgcBadge.pending);
+      final grounded = catalog.describeListing(unverified!);
+      expect(grounded, contains('UGC status: pending evidence'));
+      expect(unverified.naacGrade, isNull);
     });
 
     test('child and unclassified institutes still get info', () async {
@@ -285,7 +305,7 @@ void main() {
       );
       expect(
         InstituteCatalogService.ugcBadgeFor(row('trust', null)),
-        UgcBadge.notVerified,
+        UgcBadge.pending,
       );
       expect(
         InstituteCatalogService.ugcBadgeFor(row('state_govt', null)),

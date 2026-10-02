@@ -269,5 +269,79 @@
   "ai_sources": "स्रोत",
   "ai_blockedTitle": "चैट कुछ समय के लिए बंद है",
   "ai_blockedMessage": "कृपया बाद में कोशिश करें। तब तक Explore में करियर देख सकते हैं।",
-  "ai_messageTooLong": "अपना संदेश {count} अक्षरों से छोटा रखें।"
+  "ai_messageTooLong": "अपना संदेश {count} अक्षरों से छोटा रखें।",
+  "institute_stepsTitle": "चरण",
+  "institute_ladderTitle": "संस्थानों की श्रेणी",
+  "institute_locationFilterTooltip": "स्थान के अनुसार फ़िल्टर करें",
+  "institute_ladderLoadError": "संस्थानों की सूची लोड नहीं हो सकी।",
+  "institute_noRouteData": "अभी मार्ग की जानकारी उपलब्ध नहीं है।",
+  "institute_hidePrivateWithoutUgc": "UGC सत्यापन के बिना निजी संस्थान छिपाएँ",
+  "institute_groupLabel": "संस्थान समूह",
+  "institute_familyLabel": "संस्थान श्रेणी",
+  "institute_chooseProfessionalBody": "पेशेवर संस्था चुनें",
+  "institute_relevantExams": "संबंधित परीक्षाएँ",
+  "institute_entryRoutes": "प्रवेश के रास्ते",
+  "institute_checkOfficialRoute": "आधिकारिक मार्ग देखें",
+  "institute_entryRequirementsVary": "संस्थान और कार्यक्रम के अनुसार प्रवेश की शर्तें अलग होती हैं।",
+  "institute_stepsAndEntryRoutes": "चरण और प्रवेश के रास्ते",
+  "institute_caCmaCsNote": "CA, CMA और CS अलग-अलग योग्यताएँ हैं। ऊपर दिए गए प्रवेश मार्ग विकल्प हैं, लगातार होने वाले परीक्षा चरण नहीं।",
+  "institute_allLabel": "सभी {label}",
+  "@institute_allLabel": {
+    "placeholders": {
+      "label": { "type": "String" }
+    }
+  },
+  "institute_online": "ऑनलाइन",
+  "institute_allIndia": "अखिल भारतीय",
+  "institute_showingFilters": "दिखाया जा रहा है: {labels}",
+  "@institute_showingFilters": {
+    "placeholders": {
+      "labels": { "type": "String" }
+    }
+  },
+  "institute_clear": "साफ़ करें",
+  "institute_coverageInIndia": "भारत में {count} · सूचीबद्ध {listed}",
+  "@institute_coverageInIndia": {
+    "placeholders": {
+      "count": { "type": "int" },
+      "listed": { "type": "int" }
+    }
+  },
+  "institute_coverageListed": "सूचीबद्ध {count}",
+  "@institute_coverageListed": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "institute_noListedInTier": "चुने गए फ़िल्टर के लिए इस स्तर में कोई संस्थान सूचीबद्ध नहीं है।",
+  "institute_mappedLocationDisclaimer": "स्थान मौजूदा संस्थान रिकॉर्ड से लिया गया है; इसकी स्वतंत्र पुष्टि नहीं हुई है।",
+  "institute_notRanked": "रैंक नहीं है",
+  "institute_top10": "शीर्ष 10 · {label}",
+  "@institute_top10": {
+    "placeholders": {
+      "label": { "type": "String" }
+    }
+  },
+  "institute_nirfTop100": "NIRF शीर्ष 100 · {year}",
+  "@institute_nirfTop100": {
+    "placeholders": {
+      "year": { "type": "int" }
+    }
+  },
+  "institute_ugcVerified": "UGC सत्यापित ✓",
+  "institute_ugcNotVerified": "UGC सत्यापित नहीं",
+  "institute_ugcPending": "UGC सत्यापन लंबित",
+  "institute_locationUnavailable": "स्थान की जानकारी उपलब्ध नहीं है।",
+  "institute_studyLocation": "पढ़ाई का स्थान",
+  "institute_stateOrUnionTerritory": "राज्य / केंद्रशासित प्रदेश",
+  "institute_district": "ज़िला",
+  "institute_cityTown": "शहर / कस्बा",
+  "institute_applyLocation": "स्थान लागू करें",
+  "institute_collegeLadderSubtitle": "{count} संस्थान-स्तर · रैंक और स्थान के अनुसार तुलना करें",
+  "@institute_collegeLadderSubtitle": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "institute_entryRoutesSummary": "प्रवेश के रास्ते"
 }

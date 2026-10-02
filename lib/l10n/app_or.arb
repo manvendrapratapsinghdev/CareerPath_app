@@ -199,5 +199,79 @@
   "common_noneAvailableYet": "ଏପର୍ଯ୍ୟନ୍ତ କିଛି ଉପଲବ୍ଧ ନାହିଁ",
   "common_byAuthor": "{author} ଦ୍ୱାରା",
   "common_viewBook": "ପୁସ୍ତକ ଦେଖନ୍ତୁ",
-  "common_visitWebsite": "ୱେବସାଇଟ୍ ଦେଖନ୍ତୁ"
+  "common_visitWebsite": "ୱେବସାଇଟ୍ ଦେଖନ୍ତୁ",
+  "institute_stepsTitle": "ପଦକ୍ଷେପ",
+  "institute_ladderTitle": "ଶିକ୍ଷାନୁଷ୍ଠାନର ସ୍ତରକ୍ରମ",
+  "institute_locationFilterTooltip": "ସ୍ଥାନ ଅନୁସାରେ ଫିଲ୍ଟର କରନ୍ତୁ",
+  "institute_ladderLoadError": "ଶିକ୍ଷାନୁଷ୍ଠାନର ସ୍ତରକ୍ରମ ଲୋଡ୍ ହୋଇପାରିଲା ନାହିଁ।",
+  "institute_noRouteData": "ଏପର୍ଯ୍ୟନ୍ତ ମାର୍ଗର ସୂଚନା ଉପଲବ୍ଧ ନାହିଁ।",
+  "institute_hidePrivateWithoutUgc": "UGC ଯାଞ୍ଚ ହୋଇନଥିବା ବେସରକାରୀ ଶିକ୍ଷାନୁଷ୍ଠାନ ଲୁଚାନ୍ତୁ",
+  "institute_groupLabel": "ଶିକ୍ଷାନୁଷ୍ଠାନ ଗୋଷ୍ଠୀ",
+  "institute_familyLabel": "ଶିକ୍ଷାନୁଷ୍ଠାନର ଶ୍ରେଣୀ",
+  "institute_chooseProfessionalBody": "ବୃତ୍ତିଗତ ସଂସ୍ଥା ବାଛନ୍ତୁ",
+  "institute_relevantExams": "ସମ୍ପୃକ୍ତ ପରୀକ୍ଷା",
+  "institute_entryRoutes": "ପ୍ରବେଶ ମାର୍ଗ",
+  "institute_checkOfficialRoute": "ଅଧିକାରିକ ମାର୍ଗ ଯାଞ୍ଚ କରନ୍ତୁ",
+  "institute_entryRequirementsVary": "ଶିକ୍ଷାନୁଷ୍ଠାନ ଓ ପ୍ରୋଗ୍ରାମ ଅନୁସାରେ ପ୍ରବେଶ ଯୋଗ୍ୟତା ଭିନ୍ନ ହୋଇଥାଏ।",
+  "institute_stepsAndEntryRoutes": "ପଦକ୍ଷେପ ଓ ପ୍ରବେଶ ମାର୍ଗ",
+  "institute_caCmaCsNote": "CA, CMA ଓ CS ଅଲଗା ଯୋଗ୍ୟତା। ଉପରୋକ୍ତ ପ୍ରବେଶ ମାର୍ଗଗୁଡ଼ିକ ବିକଳ୍ପ; କ୍ରମାଗତ ପରୀକ୍ଷା ପର୍ଯ୍ୟାୟ ନୁହେଁ।",
+  "institute_allLabel": "ସମସ୍ତ {label}",
+  "@institute_allLabel": {
+    "placeholders": {
+      "label": { "type": "String" }
+    }
+  },
+  "institute_online": "ଅନଲାଇନ୍",
+  "institute_allIndia": "ସମଗ୍ର ଭାରତ",
+  "institute_showingFilters": "ଦେଖାଯାଉଛି: {labels}",
+  "@institute_showingFilters": {
+    "placeholders": {
+      "labels": { "type": "String" }
+    }
+  },
+  "institute_clear": "ସଫା କରନ୍ତୁ",
+  "institute_coverageInIndia": "ଭାରତରେ {count} · ତାଲିକାଭୁକ୍ତ {listed}",
+  "@institute_coverageInIndia": {
+    "placeholders": {
+      "count": { "type": "int" },
+      "listed": { "type": "int" }
+    }
+  },
+  "institute_coverageListed": "ତାଲିକାଭୁକ୍ତ {count}",
+  "@institute_coverageListed": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "institute_noListedInTier": "ବଛାଯାଇଥିବା ଫିଲ୍ଟର ପାଇଁ ଏହି ସ୍ତରରେ କୌଣସି ଶିକ୍ଷାନୁଷ୍ଠାନ ତାଲିକାଭୁକ୍ତ ନାହିଁ।",
+  "institute_mappedLocationDisclaimer": "ବର୍ତ୍ତମାନର ଶିକ୍ଷାନୁଷ୍ଠାନ ରେକର୍ଡରୁ ସ୍ଥାନ ନିଆଯାଇଛି; ସ୍ୱାଧୀନ ଭାବେ ଯାଞ୍ଚ ହୋଇନାହିଁ।",
+  "institute_notRanked": "ରାଙ୍କ ନାହିଁ",
+  "institute_top10": "ଶ୍ରେଷ୍ଠ ୧୦ · {label}",
+  "@institute_top10": {
+    "placeholders": {
+      "label": { "type": "String" }
+    }
+  },
+  "institute_nirfTop100": "NIRF ଶ୍ରେଷ୍ଠ ୧୦୦ · {year}",
+  "@institute_nirfTop100": {
+    "placeholders": {
+      "year": { "type": "int" }
+    }
+  },
+  "institute_ugcVerified": "UGC ଯାଞ୍ଚ ହୋଇଛି ✓",
+  "institute_ugcNotVerified": "UGC ଯାଞ୍ଚ ହୋଇନାହିଁ",
+  "institute_ugcPending": "UGC ଯାଞ୍ଚ ବାକି ଅଛି",
+  "institute_locationUnavailable": "ସ୍ଥାନର ସୂଚନା ଉପଲବ୍ଧ ନାହିଁ।",
+  "institute_studyLocation": "ଅଧ୍ୟୟନ ସ୍ଥାନ",
+  "institute_stateOrUnionTerritory": "ରାଜ୍ୟ / କେନ୍ଦ୍ରଶାସିତ ଅଞ୍ଚଳ",
+  "institute_district": "ଜିଲ୍ଲା",
+  "institute_cityTown": "ସହର / ଛୋଟ ସହର",
+  "institute_applyLocation": "ସ୍ଥାନ ଲାଗୁ କରନ୍ତୁ",
+  "institute_collegeLadderSubtitle": "{count}ଟି ଶିକ୍ଷାନୁଷ୍ଠାନ ସ୍ତର · ରାଙ୍କ ଓ ସ୍ଥାନ ଅନୁସାରେ ତୁଳନା କରନ୍ତୁ",
+  "@institute_collegeLadderSubtitle": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "institute_entryRoutesSummary": "ପ୍ରବେଶ ମାର୍ଗ"
 }

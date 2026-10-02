@@ -1,0 +1,182 @@
+{
+  "batch_id": "legacy-group-010",
+  "generated_at": "2026-10-02T04:41:24.736055+00:00",
+  "database": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/assets/data/career_path.db",
+  "selection": "Institutes without institute_classification",
+  "classification_policy": "Do not infer silently; require official evidence or manual_review.",
+  "records": [
+    {
+      "database_id": 208,
+      "name": "Raman Research Institute",
+      "city": "Bengaluru",
+      "district": null,
+      "state": "Karnataka",
+      "website": "https://www.rri.res.in",
+      "description": "Raman Research Institute in Bengaluru is an autonomous research institution funded by the Department of Science and Technology, renowned for its work in astrophysics, light and matter physics, and theoretical physics. Founded by Nobel Laureate Sir C.V. Raman in 1948, it maintains a strong legacy in experimental and observational astronomy. The institute offers Ph.D. programs and hosts scientists and visiting researchers from around the world.",
+      "existing_institution_type": "central_institute",
+      "existing_categories": [],
+      "career_nodes": [
+        "Physicist (BARC/ISRO)"
+      ],
+      "review_status": "pending_official_review"
+    },
+    {
+      "database_id": 209,
+      "name": "Tata Institute of Fundamental Research (TIFR)",
+      "city": "Mumbai",
+      "district": null,
+      "state": "Maharashtra",
+      "website": "https://www.tifr.res.in",
+      "description": "Tata Institute of Fundamental Research (TIFR) Mumbai is a premier research institution and deemed university dedicated to basic sciences including physics, chemistry, mathematics, and biology. Established in 1945 by Homi J. Bhabha with support from J.R.D. Tata, it has produced numerous Shanti Swarup Bhatnagar laureates and contributes significantly to India's scientific heritage. TIFR offers Ph.D. and integrated Ph.D. programs and is considered among Asia's finest research institutes.",
+      "existing_institution_type": "central_institute",
+      "existing_categories": [],
+      "career_nodes": [
+        "AI Researcher",
+        "Biochemist (Research)",
+        "M.Sc Physics → Researcher / Professor",
+        "Physicist (BARC/ISRO)",
+        "Research Scientist",
+        "Research Scientist (Biology)"
+      ],
+      "review_status": "pending_official_review"
+    },
+    {
+      "database_id": 210,
+      "name": "Physical Research Laboratory (PRL)",
+      "city": "Ahmedabad",
+      "district": null,
+      "state": "Gujarat",
+      "website": "https://www.prl.res.in",
+      "description": "Physical Research Laboratory (PRL) Ahmedabad is a premier national research institution under the Department of Space, Government of India, specializing in space and atmospheric sciences, solar physics, and planetary sciences. Founded by Dr. Vikram Sarabhai in 1947, it played a foundational role in India's space program and the establishment of ISRO. PRL offers Ph.D. programs and has been involved in landmark Indian space missions including Mars Orbiter Mission and Chandrayaan.",
+      "existing_institution_type": "central_institute",
+      "existing_categories": [],
+      "career_nodes": [
+        "M.Sc Physics → Researcher / Professor",
+        "Physicist (BARC/ISRO)",
+        "Space Scientist (ISRO)"
+      ],
+      "review_status": "pending_official_review"
+    },
+    {
+      "database_id": 211,
+      "name": "Bhabha Atomic Research Centre (BARC)",
+      "city": "Mumbai",
+      "district": null,
+      "state": "Maharashtra",
+      "website": "https://www.barc.gov.in",
+      "description": "Bhabha Atomic Research Centre (BARC) is India's premier nuclear research facility, established in 1954 as part of India's atomic energy program under Dr. Homi J. Bhabha. Located in Trombay, Mumbai, it conducts research in nuclear science, reactor design, isotope production, radiation medicine, and various allied disciplines. BARC offers a unique one-year training school program for engineering and science graduates, making it one of the most sought-after research career pathways in India.",
+      "existing_institution_type": "central_institute",
+      "existing_categories": [],
+      "career_nodes": [
+        "Industrial Chemist",
+        "Physicist (BARC/ISRO)"
+      ],
+      "review_status": "pending_official_review"
+    },
+    {
+      "database_id": 212,
+      "name": "Indian Institute of Chemical Technology (IICT)",
+      "city": "Hyderabad",
+      "district": null,
+      "state": "Telangana",
+      "website": "https://www.iictindia.org",
+      "description": "Indian Institute of Chemical Technology (IICT) Hyderabad is a premier research laboratory under CSIR, specializing in synthetic chemistry, chemical engineering, and pharmaceutical chemistry. It is known for developing indigenous processes for manufacturing APIs (Active Pharmaceutical Ingredients) and specialty chemicals. IICT has strong industry partnerships with major Indian pharma companies and offers AcSIR-affiliated Ph.D. programs.",
+      "existing_institution_type": "central_institute",
+      "existing_categories": [],
+      "career_nodes": [
+        "Industrial Chemist",
+        "M.Sc Chemistry → Researcher",
+        "Pharmaceutical Researcher",
+        "Quality Assurance Analyst"
+      ],
+      "review_status": "pending_official_review"
+    },
+    {
+      "database_id": 213,
+      "name": "National Chemical Laboratory (NCL)",
+      "city": "Pune",
+      "district": null,
+      "state": "Maharashtra",
+      "website": "https://www.ncl-india.org",
+      "description": "National Chemical Laboratory (NCL) Pune is a constituent laboratory of CSIR and one of India's leading research institutes in chemistry and chemical engineering. It is particularly renowned for polymer science, catalysis, and chemical biology, holding hundreds of patents and licensing technologies globally. NCL offers Ph.D. programs through AcSIR and has incubated several successful deep-science startups.",
+      "existing_institution_type": "autonomous_institute",
+      "existing_categories": [],
+      "career_nodes": [
+        "Industrial Chemist",
+        "M.Sc Chemistry → Researcher",
+        "Quality Assurance Analyst"
+      ],
+      "review_status": "pending_official_review"
+    },
+    {
+      "database_id": 215,
+      "name": "Institute of Chemical Technology (ICT) Mumbai",
+      "city": "Mumbai",
+      "district": null,
+      "state": "Maharashtra",
+      "website": "https://www.ictmumbai.edu.in",
+      "description": "Institute of Chemical Technology (ICT) Mumbai, formerly UDCT, is a deemed university considered the 'IIT of chemical technology' in India, known for producing leaders in the chemical, petrochemical, and pharmaceutical industries. It offers undergraduate, postgraduate, and doctoral programs in chemical engineering, dyestuff technology, polymer engineering, and pharmaceutical sciences. ICT has unparalleled industry connectivity with chemical majors like Reliance, BASF, and Tata Chemicals.",
+      "existing_institution_type": null,
+      "existing_categories": [],
+      "career_nodes": [
+        "Clinical Pharmacist",
+        "Drug Inspector",
+        "Food Technologist",
+        "Industrial Chemist",
+        "M.Sc Chemistry → Researcher",
+        "Pharmaceutical Biochemist",
+        "Pharmaceutical Researcher",
+        "Process Engineer",
+        "Quality Assurance Analyst"
+      ],
+      "review_status": "pending_official_review"
+    },
+    {
+      "database_id": 222,
+      "name": "ILS Law College Pune",
+      "city": "Pune",
+      "district": null,
+      "state": "Maharashtra",
+      "website": "https://www.ilspune.edu.in",
+      "description": "ILS Law College Pune is one of the oldest and most reputed law colleges in India, established in 1924, and affiliated with Savitribai Phule Pune University. It offers three-year LL.B. and five-year integrated B.A. LL.B. programs with strong emphasis on practical legal training, debates, and moot courts. The college has produced eminent judges, lawyers, and legal academics across India.",
+      "existing_institution_type": null,
+      "existing_categories": [],
+      "career_nodes": [
+        "Civil Lawyer",
+        "Criminal Lawyer"
+      ],
+      "review_status": "pending_official_review"
+    },
+    {
+      "database_id": 228,
+      "name": "National Academy of Direct Taxes (NADT)",
+      "city": "Nagpur",
+      "district": null,
+      "state": "Maharashtra",
+      "website": "https://www.nadt.gov.in",
+      "description": "National Academy of Direct Taxes (NADT) Nagpur is the apex training institution for IRS (IT) officers under the Central Board of Direct Taxes, Ministry of Finance. It conducts foundational and in-service training programs for officers in income tax administration, international taxation, and transfer pricing. NADT also serves as a research hub for tax policy and capacity building in direct tax administration.",
+      "existing_institution_type": "central_institute",
+      "existing_categories": [],
+      "career_nodes": [
+        "IRS Officer (Revenue Service)",
+        "Income Tax Officer"
+      ],
+      "review_status": "pending_official_review"
+    },
+    {
+      "database_id": 229,
+      "name": "National Academy of Customs Indirect Taxes and Narcotics (NACIN)",
+      "city": "Faridabad",
+      "district": null,
+      "state": "Haryana",
+      "website": "https://www.nacin.gov.in",
+      "description": "National Academy of Customs Indirect Taxes and Narcotics (NACIN) is the premier training institution for IRS (Customs & Indirect Taxes) officers, located in Faridabad with regional campuses across India. It provides foundational training for officers joining the Central Board of Indirect Taxes and Customs (CBIC) and in-service programs on GST, customs valuation, and anti-smuggling. NACIN also conducts training programs for officers from friendly foreign countries in excise and customs administration.",
+      "existing_institution_type": "central_institute",
+      "existing_categories": [],
+      "career_nodes": [
+        "Customs Officer"
+      ],
+      "review_status": "pending_official_review"
+    }
+  ]
+}

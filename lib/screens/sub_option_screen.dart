@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:share_plus/share_plus.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 import '../config/app_theme.dart';
 import '../l10n/app_localizations.dart';
@@ -11,7 +12,10 @@ import '../services/api_client.dart';
 import '../services/bookmark_service.dart';
 import '../services/career_data_service.dart';
 import '../services/exploration_service.dart';
+import '../services/institute_catalog_service.dart';
+import '../services/location_service.dart';
 import '../services/recently_viewed_service.dart';
+import '../services/route_service.dart';
 import '../widgets/accent_icon_box.dart';
 import '../widgets/depth_indicator.dart';
 import '../widgets/animated_list_item.dart';
@@ -21,6 +25,7 @@ import '../widgets/resource_tiles.dart';
 import '../widgets/shimmer_loading.dart';
 import 'resource_filter_screen.dart';
 import 'resource_list_screen.dart';
+import 'institute_ladder_screen.dart';
 
 class SubOptionScreen extends StatefulWidget {
   final CareerDataService careerDataService;
@@ -28,6 +33,10 @@ class SubOptionScreen extends StatefulWidget {
   final ExplorationService? explorationService;
   final RecentlyViewedService? recentlyViewedService;
   final AnalyticsService? analyticsService;
+  final InstituteCatalogService? instituteCatalog;
+  final LocationService? locationService;
+  final RouteService? routeService;
+  final SharedPreferences? prefs;
   final String nodeId;
   final List<BreadcrumbEntry> breadcrumbs;
 
@@ -38,6 +47,10 @@ class SubOptionScreen extends StatefulWidget {
     this.explorationService,
     this.recentlyViewedService,
     this.analyticsService,
+    this.instituteCatalog,
+    this.locationService,
+    this.routeService,
+    this.prefs,
     required this.nodeId,
     required this.breadcrumbs,
   });
@@ -240,11 +253,16 @@ class _SubOptionScreenState extends State<SubOptionScreen> {
                       future: _leafDetailsFuture,
                       builder: (context, leafSnapshot) {
                         return _LeafView(
+                          nodeId: widget.nodeId,
                           node: _currentNode,
                           details: leafSnapshot.data,
                           isLoading:
                               leafSnapshot.connectionState ==
                               ConnectionState.waiting,
+                          catalog: widget.instituteCatalog,
+                          locations: widget.locationService,
+                          routes: widget.routeService,
+                          prefs: widget.prefs,
                         );
                       },
                     );
@@ -267,9 +285,24 @@ class _SubOptionScreenState extends State<SubOptionScreen> {
     final l = AppLocalizations.of(context)!;
     return ListView.builder(
       padding: AppSpacing.pagePadding,
-      itemCount: children.length,
+      itemCount: children.length + (widget.routeService == null ? 0 : 1),
       itemBuilder: (context, index) {
-        final child = children[index];
+        if (widget.routeService != null && index == 0) {
+          final catalog = widget.instituteCatalog;
+          if (catalog == null) return const SizedBox.shrink();
+          return Padding(
+            padding: const EdgeInsets.only(bottom: AppSpacing.sm),
+            child: _DomainRouteCard(
+              nodeId: widget.nodeId,
+              routes: widget.routeService!,
+              catalog: catalog,
+              locations: widget.locationService,
+              prefs: widget.prefs,
+            ),
+          );
+        }
+        final childIndex = index - (widget.routeService == null ? 0 : 1);
+        final child = children[childIndex];
         return AnimatedListItem(
           index: index,
           child: Padding(
@@ -287,6 +320,10 @@ class _SubOptionScreenState extends State<SubOptionScreen> {
                         explorationService: widget.explorationService,
                         recentlyViewedService: widget.recentlyViewedService,
                         analyticsService: widget.analyticsService,
+                        instituteCatalog: widget.instituteCatalog,
+                        locationService: widget.locationService,
+                        routeService: widget.routeService,
+                        prefs: widget.prefs,
                         nodeId: child.id,
                         breadcrumbs: [
                           ...widget.breadcrumbs,
@@ -459,14 +496,24 @@ class _BreadcrumbBar extends StatelessWidget {
 // ── Leaf View ───────────────────────────────────────────────────────────────
 
 class _LeafView extends StatelessWidget {
+  final String nodeId;
   final CareerNode? node;
   final LeafDetails? details;
   final bool isLoading;
+  final InstituteCatalogService? catalog;
+  final LocationService? locations;
+  final RouteService? routes;
+  final SharedPreferences? prefs;
 
   const _LeafView({
+    required this.nodeId,
     required this.node,
     required this.details,
     required this.isLoading,
+    this.catalog,
+    this.locations,
+    this.routes,
+    this.prefs,
   });
 
   void _openBooks(BuildContext context, AppLocalizations l) {
@@ -490,7 +537,31 @@ class _LeafView extends StatelessWidget {
     );
   }
 
-  void _openInstitutes(BuildContext context, AppLocalizations l) {
+  Future<void> _openInstitutes(BuildContext context, AppLocalizations l) async {
+    final routeService = routes;
+    final catalogService = catalog;
+    final locationService = locations;
+    if (routeService != null &&
+        catalogService != null &&
+        locationService != null) {
+      final route = await routeService.routeForNode(int.tryParse(nodeId) ?? -1);
+      if (route != null && context.mounted) {
+        await Navigator.push(
+          context,
+          SmoothPageRoute(
+            page: InstituteLadderScreen(
+              domainSlug: route.domain.slug,
+              catalog: catalogService,
+              locations: locationService,
+              routes: routeService,
+              prefs: prefs,
+            ),
+          ),
+        );
+        return;
+      }
+    }
+    if (!context.mounted) return;
     final locationCounts = <String, int>{};
     for (final institute in details!.institutes) {
       final location = institute.district ?? institute.city;
@@ -620,6 +691,16 @@ class _LeafView extends StatelessWidget {
               color: const Color(0xFF14B8A6),
               onTap: () => _openInstitutes(context, l),
             ),
+            if (catalog != null && routes != null) ...[
+              const SizedBox(height: AppSpacing.md),
+              _DomainRouteCard(
+                nodeId: nodeId,
+                routes: routes!,
+                catalog: catalog!,
+                locations: locations,
+                prefs: prefs,
+              ),
+            ],
             const SizedBox(height: AppSpacing.md),
             ResourceSection(
               title: l.sub_recommendedBooks,
@@ -694,4 +775,75 @@ class _LeafView extends StatelessWidget {
       ),
     );
   }
+}
+
+class _DomainRouteCard extends StatefulWidget {
+  final String nodeId;
+  final RouteService routes;
+  final InstituteCatalogService catalog;
+  final LocationService? locations;
+  final SharedPreferences? prefs;
+
+  const _DomainRouteCard({
+    required this.nodeId,
+    required this.routes,
+    required this.catalog,
+    this.locations,
+    this.prefs,
+  });
+
+  @override
+  State<_DomainRouteCard> createState() => _DomainRouteCardState();
+}
+
+class _DomainRouteCardState extends State<_DomainRouteCard> {
+  late Future<CareerRoute?> _route;
+
+  @override
+  void initState() {
+    super.initState();
+    _route = widget.routes.routeForNode(int.tryParse(widget.nodeId) ?? -1);
+  }
+
+  @override
+  Widget build(BuildContext context) => FutureBuilder<CareerRoute?>(
+    future: _route,
+    builder: (context, snapshot) {
+      final route = snapshot.data;
+      if (route == null) return const SizedBox.shrink();
+      final l10n = AppLocalizations.of(context)!;
+      final title = route.hasCollegeLadder
+          ? l10n.institute_ladderTitle
+          : l10n.institute_stepsTitle;
+      final subtitle = route.hasCollegeLadder
+          ? l10n.institute_collegeLadderSubtitle(route.tiers.length)
+          : '${l10n.institute_entryRoutesSummary}${route.entryExams.isEmpty ? '' : ' · ${route.entryExams.take(2).join(', ')}'}';
+      return Card(
+        clipBehavior: Clip.antiAlias,
+        child: ListTile(
+          key: const Key('career-domain-route'),
+          leading: const Icon(Icons.account_tree_outlined),
+          title: Text(title),
+          subtitle: Text(subtitle),
+          trailing: const Icon(Icons.chevron_right_rounded),
+          onTap: () {
+            final locations = widget.locations;
+            if (locations == null) return;
+            Navigator.push(
+              context,
+              SmoothPageRoute(
+                page: InstituteLadderScreen(
+                  domainSlug: route.domain.slug,
+                  catalog: widget.catalog,
+                  locations: locations,
+                  routes: widget.routes,
+                  prefs: widget.prefs,
+                ),
+              ),
+            );
+          },
+        ),
+      );
+    },
+  );
 }

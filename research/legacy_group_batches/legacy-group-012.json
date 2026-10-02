@@ -1,0 +1,181 @@
+{
+  "batch_id": "legacy-group-012",
+  "generated_at": "2026-10-02T04:41:24.736642+00:00",
+  "database": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/assets/data/career_path.db",
+  "selection": "Institutes without institute_classification",
+  "classification_policy": "Do not infer silently; require official evidence or manual_review.",
+  "records": [
+    {
+      "database_id": 250,
+      "name": "Indian Institute of Tropical Meteorology (IITM)",
+      "city": "Pune",
+      "district": null,
+      "state": "Maharashtra",
+      "website": "https://www.tropmet.res.in",
+      "description": "Indian Institute of Tropical Meteorology (IITM) Pune is a premier research institute under the Ministry of Earth Sciences, dedicated to research in tropical meteorology, monsoon prediction, climate variability, and earth system science. It operates India's Earth System Models and contributes to IPCC assessment reports, playing a crucial role in India's climate change research and policy. IITM offers Ph.D. programs and collaborative research fellowships with international institutions.",
+      "existing_institution_type": "central_institute",
+      "existing_categories": [],
+      "career_nodes": [
+        "Aviation Meteorologist",
+        "Climate Scientist",
+        "Meteorologist (IMD)"
+      ],
+      "review_status": "pending_official_review"
+    },
+    {
+      "database_id": 251,
+      "name": "Cochin University of Science and Technology",
+      "city": "Kochi",
+      "district": null,
+      "state": "Kerala",
+      "website": "https://cusat.ac.in",
+      "description": "Cochin University of Science and Technology (CUSAT) is a premier technical university in Kerala, particularly renowned for its programs in marine sciences, ship technology, and atmospheric sciences. Its School of Marine Sciences offers M.Sc. and Ph.D. programs with strong research in fisheries biology, physical oceanography, and coastal management. CUSAT's location on the Kerala coast provides unique advantages for marine research and industry interaction.",
+      "existing_institution_type": "state_university",
+      "existing_categories": [],
+      "career_nodes": [
+        "Aviation Meteorologist",
+        "Marine Scientist (INCOIS / NIO)",
+        "Meteorologist (IMD)",
+        "Oceanographer"
+      ],
+      "review_status": "pending_official_review"
+    },
+    {
+      "database_id": 252,
+      "name": "National Institute of Oceanography (NIO)",
+      "city": "Goa",
+      "district": null,
+      "state": "Goa",
+      "website": "https://www.nio.res.in",
+      "description": "National Institute of Oceanography (NIO) Goa is a premier ocean research institute under CSIR, known for world-class research in physical, chemical, biological, and geological oceanography. NIO operates research vessels for deep-sea expeditions and is involved in India's seabed mineral exploration programs. It offers Ph.D. programs through AcSIR and hosts national and international research fellowships in marine science.",
+      "existing_institution_type": "specialized",
+      "existing_categories": [],
+      "career_nodes": [
+        "Climate Scientist",
+        "Hydrographer",
+        "Marine Scientist (INCOIS / NIO)",
+        "Oceanographer",
+        "Wildlife Biologist"
+      ],
+      "review_status": "pending_official_review"
+    },
+    {
+      "database_id": 253,
+      "name": "Indian National Centre for Ocean Information Services (INCOIS)",
+      "city": "Hyderabad",
+      "district": null,
+      "state": "Telangana",
+      "website": "https://www.incois.gov.in",
+      "description": "Indian National Centre for Ocean Information Services (INCOIS) Hyderabad is an autonomous body under the Ministry of Earth Sciences, responsible for providing ocean information and advisory services to society, industry, and government. It operates the Indian Ocean Tsunami Warning System and provides operational ocean state forecasts, potential fishing zone advisories, and storm surge warnings. INCOIS offers research programs in operational oceanography and ocean data management.",
+      "existing_institution_type": "central_institute",
+      "existing_categories": [],
+      "career_nodes": [
+        "Hydrographer",
+        "Marine Scientist (INCOIS / NIO)",
+        "Oceanographer"
+      ],
+      "review_status": "pending_official_review"
+    },
+    {
+      "database_id": 254,
+      "name": "National Institute of Ocean Technology (NIOT)",
+      "city": "Chennai",
+      "district": null,
+      "state": "Tamil Nadu",
+      "website": "https://www.niot.res.in",
+      "description": "National Institute of Ocean Technology (NIOT) Chennai is an autonomous body under the Ministry of Earth Sciences, focusing on the development of reliable indigenous technology for harnessing ocean resources and observations. It has developed deep-sea mining systems, ocean thermal energy conversion (OTEC) plants, and real-time ocean monitoring buoy networks. NIOT offers research internships and collaborative Ph.D. programs in ocean engineering and marine technology.",
+      "existing_institution_type": "central_institute",
+      "existing_categories": [],
+      "career_nodes": [
+        "Hydrographer",
+        "Marine Scientist (INCOIS / NIO)"
+      ],
+      "review_status": "pending_official_review"
+    },
+    {
+      "database_id": 255,
+      "name": "Goa University (Marine Science)",
+      "city": "Goa",
+      "district": null,
+      "state": "Goa",
+      "website": "https://www.unigoa.ac.in",
+      "description": "Goa University's Department of Marine Sciences offers graduate and postgraduate programs in oceanography and marine sciences, leveraging the state's unique coastal and estuarine ecosystems for field research. The department has strong ties with NIO Goa and offers M.Sc. programs in marine biology, chemical oceanography, and coastal management. Its location on the Konkan coast makes it ideal for marine ecology and monsoon research studies.",
+      "existing_institution_type": "state_university",
+      "existing_categories": [],
+      "career_nodes": [
+        "Marine Scientist (INCOIS / NIO)",
+        "Oceanographer"
+      ],
+      "review_status": "pending_official_review"
+    },
+    {
+      "database_id": 256,
+      "name": "Berhampur University (Marine Science)",
+      "city": "Berhampur",
+      "district": null,
+      "state": "Odisha",
+      "website": "https://www.buodisha.edu.in",
+      "description": "Berhampur University in Odisha's Ganjam district offers postgraduate and research programs in marine sciences, with access to the ecologically rich Bay of Bengal coastline. The Department of Marine Sciences focuses on tropical coastal ecology, fisheries biology, and marine pollution research. The university collaborates with Chilika Development Authority and other regional bodies for applied marine research.",
+      "existing_institution_type": "state_university",
+      "existing_categories": [],
+      "career_nodes": [
+        "Oceanographer"
+      ],
+      "review_status": "pending_official_review"
+    },
+    {
+      "database_id": 260,
+      "name": "Gokhale Institute of Politics and Economics",
+      "city": "Pune",
+      "district": null,
+      "state": "Maharashtra",
+      "website": "https://www.gipe.ac.in",
+      "description": "Gokhale Institute of Politics and Economics (GIPE) Pune is a deemed university and one of India's oldest and most respected centers for economics research and education, founded in 1930. It offers postgraduate and doctoral programs in economics with specializations in agricultural economics, development economics, and public policy. GIPE has a strong tradition of applied economics research contributing to Maharashtra's rural and agricultural policy frameworks.",
+      "existing_institution_type": "deemed_university",
+      "existing_categories": [],
+      "career_nodes": [
+        "Economist",
+        "Policy Analyst"
+      ],
+      "review_status": "pending_official_review"
+    },
+    {
+      "database_id": 264,
+      "name": "ITI (Industrial Training Institutes)",
+      "city": "Various",
+      "district": null,
+      "state": null,
+      "website": "https://dgt.gov.in",
+      "description": "Industrial Training Institutes (ITIs) are vocational training centers established under the Directorate General of Training (DGT), Ministry of Skill Development and Entrepreneurship, offering trade-specific courses under the National Council for Vocational Training (NCVT). They provide one to two-year programs in trades like electrician, fitter, welder, mechanic, and IT&ESM, equipping students with industry-ready technical skills. ITIs are the backbone of India's skilled workforce pipeline, with thousands of institutes across every state and union territory.",
+      "existing_institution_type": "specialized",
+      "existing_categories": [],
+      "career_nodes": [
+        "Civil Site Supervisor",
+        "Electrical Technician",
+        "Electronics Technician",
+        "Junior Engineer (Govt / PWD)",
+        "Mechanical Draughtsman / Technician"
+      ],
+      "review_status": "pending_official_review"
+    },
+    {
+      "database_id": 265,
+      "name": "AICTE Approved Polytechnics",
+      "city": "Various",
+      "district": null,
+      "state": null,
+      "website": "https://www.aicte-india.org",
+      "description": "AICTE Approved Polytechnics across India offer diploma programs in engineering and technology disciplines approved by the All India Council for Technical Education. These institutions follow standardized curricula and are eligible for state and central government scholarships, making technical education accessible to students from economically weaker sections. They serve as critical entry points into industries like manufacturing, automotive, electronics, and civil construction.",
+      "existing_institution_type": "vocational_training_institute",
+      "existing_categories": [],
+      "career_nodes": [
+        "Civil Site Supervisor",
+        "Electrical Technician",
+        "Electronics Technician",
+        "Junior Engineer (Govt / PWD)",
+        "Mechanical Draughtsman / Technician"
+      ],
+      "review_status": "pending_official_review"
+    }
+  ]
+}

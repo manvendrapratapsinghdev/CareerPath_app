@@ -1,0 +1,983 @@
+{
+  "wave_id": "legacy-group-wave-01",
+  "generated_at": "2026-10-02T05:23:51.398924+00:00",
+  "database": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/assets/data/career_path.db",
+  "selection": "Institutes without institute_classification at merge time",
+  "record_count": 50,
+  "classified_count": 48,
+  "manual_review_count": 2,
+  "source_batches": [
+    "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/legacy_group_batches/results/legacy-group-006.json",
+    "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/legacy_group_batches/results/legacy-group-007.json",
+    "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/legacy_group_batches/results/legacy-group-008.json",
+    "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/legacy_group_batches/results/legacy-group-009.json",
+    "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/legacy_group_batches/results/legacy-group-010.json"
+  ],
+  "records": [
+    {
+      "database_id": 115,
+      "name": "Chandigarh College of Architecture",
+      "outcome": "classified",
+      "group_code": "G6",
+      "family_slug": null,
+      "ownership": "state_govt",
+      "statutory_basis": "Government architecture college under the Chandigarh Administration, affiliated to Panjab University and regulated by the Council of Architecture",
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [
+        "Chandigarh Administration",
+        "Panjab University",
+        "Council of Architecture"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.ccachandigarh.ac.in/",
+      "evidence": "The official Chandigarh College of Architecture website identifies the college as a Chandigarh Administration institution and publishes its B.Arch and M.Arch academic programmes. It is a government college rather than a separate university, so it belongs in G6.",
+      "notes": [
+        "Affiliation and professional approval should be represented separately from the ownership/group classification."
+      ]
+    },
+    {
+      "database_id": 120,
+      "name": "KEM Hospital Mumbai",
+      "outcome": "classified",
+      "group_code": "G6",
+      "family_slug": null,
+      "ownership": "state_govt",
+      "statutory_basis": "Municipal public teaching hospital attached to Seth GS Medical College, under the Municipal Corporation of Greater Mumbai",
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [
+        "Municipal Corporation of Greater Mumbai",
+        "Maharashtra University of Health Sciences",
+        "National Medical Commission"
+      ],
+      "confidence": "medium",
+      "source_url": "https://www.kem.edu/",
+      "evidence": "KEM's official site describes King Edward Memorial Hospital as a public teaching hospital and identifies its medical education and training functions with Seth GS Medical College. The hospital is not a university; the attached public medical college is appropriately represented as a government college in G6.",
+      "notes": [
+        "This legacy row is a hospital/teaching-campus record; a future parent link to Seth GS Medical College should prevent counting it as a standalone university."
+      ]
+    },
+    {
+      "database_id": 121,
+      "name": "Rajiv Gandhi Academy for Aviation Technology",
+      "outcome": "classified",
+      "group_code": "G9",
+      "family_slug": null,
+      "ownership": "state_govt",
+      "statutory_basis": "Government of Kerala aviation training academy providing DGCA-aligned vocational and technical training",
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [
+        "Government of Kerala",
+        "Directorate General of Civil Aviation"
+      ],
+      "confidence": "high",
+      "source_url": "https://rgaat.gov.in/",
+      "evidence": "The official RGAAT website identifies the academy as a Government of Kerala institution and lists aviation training programmes, including pilot and aircraft-maintenance pathways. It is a state training institution rather than a university, so it belongs in G9.",
+      "notes": [
+        "Use the aviation regulator and programme approvals as separate verification metadata."
+      ]
+    },
+    {
+      "database_id": 122,
+      "name": "Indira Gandhi Institute of Aeronautics",
+      "outcome": "classified",
+      "group_code": "G9",
+      "family_slug": null,
+      "ownership": "private",
+      "statutory_basis": "Private aviation training institute offering DGCA-regulated training and related aviation courses",
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [
+        "Directorate General of Civil Aviation"
+      ],
+      "confidence": "medium",
+      "source_url": "https://www.igiaviationacademy.com/",
+      "evidence": "The institute's official website presents Indira Gandhi Institute of Aeronautics as a private aviation training provider and lists pilot, aircraft-maintenance and airport-management courses. It is not a university or affiliated degree college, so it maps to G9.",
+      "notes": [
+        "Verify the current DGCA approval scope before displaying individual course approvals; the legacy record should not be treated as a degree-awarding university."
+      ]
+    },
+    {
+      "database_id": 123,
+      "name": "Aldine CA Classes",
+      "outcome": "classified",
+      "group_code": "G10b",
+      "family_slug": "coaching_professional",
+      "ownership": "private",
+      "statutory_basis": "Private coaching provider for the ICAI Chartered Accountancy examination route",
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [
+        "Institute of Chartered Accountants of India (ICAI)"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.aldineca.com/",
+      "evidence": "Aldine's official website offers coaching for CA Foundation, Intermediate and Final examinations. ICAI owns and administers the professional qualification; Aldine is a private coaching provider, not an ICAI college or degree-awarding institution.",
+      "notes": [
+        "Keep the ICAI professional route separate from the coaching provider record."
+      ]
+    },
+    {
+      "database_id": 124,
+      "name": "J.K. Shah Classes",
+      "outcome": "classified",
+      "group_code": "G10b",
+      "family_slug": "coaching_professional",
+      "ownership": "private",
+      "statutory_basis": "Private coaching provider for CA, CMA, CS and related professional examinations",
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [
+        "Institute of Chartered Accountants of India",
+        "Institute of Cost Accountants of India",
+        "Institute of Company Secretaries of India"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.jkshahclasses.com/",
+      "evidence": "The official J.K. Shah Classes website lists preparation programmes for CA and other professional examinations and describes its classroom/online coaching centres. It is a private training provider, so it belongs to G10b with the professional-coaching family.",
+      "notes": [
+        "The regulators administer the qualifications; J.K. Shah is not itself a statutory professional body."
+      ]
+    },
+    {
+      "database_id": 126,
+      "name": "LV Prasad Film and TV Academy",
+      "outcome": "classified",
+      "group_code": "G9",
+      "family_slug": null,
+      "ownership": "private",
+      "statutory_basis": "Private film and television training academy offering vocational and professional programmes",
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [],
+      "confidence": "medium",
+      "source_url": "https://www.lvprasadacademy.com/",
+      "evidence": "The academy's official website lists admissions and practical programmes in direction, cinematography, editing and related film/television skills. It is a private vocational academy, not a national institute or university, so it maps to G9.",
+      "notes": [
+        "Do not imply UGC degree recognition unless a specific programme and awarding university are verified."
+      ]
+    },
+    {
+      "database_id": 128,
+      "name": "Asian Academy of Film and Television",
+      "outcome": "classified",
+      "group_code": "G9",
+      "family_slug": null,
+      "ownership": "private",
+      "statutory_basis": "Private film, media and communication training academy offering diploma and professional programmes",
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [],
+      "confidence": "medium",
+      "source_url": "https://www.aaft.com/",
+      "evidence": "AAFT's official website advertises admissions for film, media, communication and related programmes at its Noida campus. The legacy record is the academy/training provider, so it belongs to G9; any separate degree-awarding university or affiliated programme should be modeled as a parent/provider relationship.",
+      "notes": [
+        "Avoid classifying the academy itself as a private university without verifying the awarding institution for each programme."
+      ]
+    },
+    {
+      "database_id": 129,
+      "name": "Shankar IAS Academy",
+      "outcome": "classified",
+      "group_code": "G10b",
+      "family_slug": "coaching_civil_services",
+      "ownership": "private",
+      "statutory_basis": "Private civil-services examination coaching provider",
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [
+        "Union Public Service Commission",
+        "Tamil Nadu Public Service Commission"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.shankariastoppers.com/",
+      "evidence": "The official Shankar IAS Academy website offers classroom and online preparation for UPSC Civil Services and state public-service examinations. These are examination routes administered by the commissions; Shankar IAS is a private coaching provider in G10b.",
+      "notes": [
+        "UPSC/TNPSC are exam authorities, not ownership or accreditation bodies for the coaching institute."
+      ]
+    },
+    {
+      "database_id": 130,
+      "name": "KSG India (Khan Study Group)",
+      "outcome": "classified",
+      "group_code": "G10b",
+      "family_slug": "coaching_civil_services",
+      "ownership": "private",
+      "statutory_basis": "Private civil-services examination coaching provider",
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [
+        "Union Public Service Commission"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.ksgindia.com/",
+      "evidence": "KSG's official website offers UPSC Civil Services preparation for Preliminary, Main and interview stages. It is a private coaching provider for a UPSC examination route, not a university or government institute, so it belongs to G10b.",
+      "notes": [
+        "The coaching record should remain separate from UPSC as the examination authority."
+      ]
+    },
+    {
+      "database_id": 131,
+      "name": "Amity University",
+      "outcome": "classified",
+      "group_code": "G7",
+      "family_slug": null,
+      "ownership": "private",
+      "statutory_basis": "Private university established under the Uttar Pradesh state private-university framework and listed by UGC",
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.amity.edu/about-university/recognitions-accreditations",
+      "evidence": "Amity's official recognition and accreditation material identifies Amity University Uttar Pradesh as a private university with degree admissions and UGC recognition.",
+      "notes": [
+        "G7 private university. No canonical Amity family slug is currently present in the families table."
+      ]
+    },
+    {
+      "database_id": 141,
+      "name": "Tolani Maritime Institute",
+      "outcome": "classified",
+      "group_code": "G9",
+      "family_slug": null,
+      "ownership": "private",
+      "statutory_basis": "Private maritime education and training institute approved by the Directorate General of Shipping; student programmes include maritime degree/training routes",
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [
+        "DG Shipping"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.tmi.ac.in/about-us/",
+      "evidence": "The official institute site describes Tolani Maritime Institute as a private maritime education and training provider and publishes admissions for nautical science and marine engineering programmes. DG Shipping approval governs the maritime training route.",
+      "notes": [
+        "G9 because this legacy row represents a regulated maritime education/training institute rather than a UGC university."
+      ]
+    },
+    {
+      "database_id": 142,
+      "name": "Coimbatore Marine College",
+      "outcome": "classified",
+      "group_code": "G9",
+      "family_slug": null,
+      "ownership": "private",
+      "statutory_basis": "Private maritime training college approved by the Directorate General of Shipping for merchant-navy training",
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [
+        "DG Shipping"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.coimbatoremarinecollege.com/",
+      "evidence": "The official college site publishes student admissions and maritime courses/training and identifies the institution as DG Shipping-approved maritime education.",
+      "notes": [
+        "G9 regulated maritime skill/diploma route; do not treat this row as a private university."
+      ]
+    },
+    {
+      "database_id": 146,
+      "name": "Management Development Institute (MDI)",
+      "outcome": "classified",
+      "group_code": "G8",
+      "family_slug": null,
+      "ownership": "private",
+      "statutory_basis": "Standalone private management institute offering PGDM and executive management programmes; not a university",
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [
+        "AICTE"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.mdi.ac.in/",
+      "evidence": "MDI's official site publishes admissions for PGDM and executive programmes and presents MDI Gurgaon as an independent management institute, not a UGC university.",
+      "notes": [
+        "G8 standalone private management college/institute."
+      ]
+    },
+    {
+      "database_id": 148,
+      "name": "Symbiosis Institute of Business Management (SIBM)",
+      "outcome": "classified",
+      "group_code": "G6",
+      "family_slug": null,
+      "ownership": "private",
+      "statutory_basis": "Constituent institute of Symbiosis International (Deemed University), offering postgraduate management admissions",
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.sibm.edu/about-sibm-pune/",
+      "evidence": "SIBM Pune's official site identifies it as a constituent institute of Symbiosis International (Deemed University) and publishes its MBA admissions.",
+      "notes": [
+        "G6 is used for constituent colleges/departments; the parent Symbiosis university belongs to G5."
+      ]
+    },
+    {
+      "database_id": 149,
+      "name": "MICA",
+      "outcome": "classified",
+      "group_code": "G8",
+      "family_slug": null,
+      "ownership": "private",
+      "statutory_basis": "Standalone private management institute offering PGDM and certificate programmes; not a university",
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [
+        "AICTE"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.mica.ac.in/",
+      "evidence": "MICA's official site publishes admissions for its PGDM and related management programmes and presents MICA as an independent communications-management institute.",
+      "notes": [
+        "G8 standalone private management/design institute."
+      ]
+    },
+    {
+      "database_id": 154,
+      "name": "Amity School of Fashion Technology",
+      "outcome": "classified",
+      "group_code": "G6",
+      "family_slug": null,
+      "ownership": "private",
+      "statutory_basis": "Constituent school of Amity University offering fashion degree admissions",
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.amity.edu/asft/",
+      "evidence": "The official ASFT site identifies the school as part of Amity University and publishes B.Des/M.Des and related student programmes.",
+      "notes": [
+        "G6 constituent school; parent Amity University is G7."
+      ]
+    },
+    {
+      "database_id": 155,
+      "name": "INIFD",
+      "outcome": "classified",
+      "group_code": "G10b",
+      "family_slug": null,
+      "ownership": "private",
+      "statutory_basis": "Private fashion and interior-design training network offering diploma/certificate courses",
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [],
+      "confidence": "medium",
+      "source_url": "https://www.inifd.com/",
+      "evidence": "INIFD's official site advertises private fashion and interior-design education through diploma and certificate courses across its centre network; it is not presented as a UGC university.",
+      "notes": [
+        "G10b private training provider. Treat individual centres separately only if regulator/awarding-body evidence is later supplied."
+      ]
+    },
+    {
+      "database_id": 156,
+      "name": "IMT Ghaziabad",
+      "outcome": "classified",
+      "group_code": "G8",
+      "family_slug": null,
+      "ownership": "private",
+      "statutory_basis": "Standalone private management institute offering PGDM and doctoral management programmes; not a university",
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [
+        "AICTE"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.imt.edu/",
+      "evidence": "IMT Ghaziabad's official site publishes admissions for PGDM and other management programmes and identifies the institute as an independent management school rather than a UGC university.",
+      "notes": [
+        "G8 standalone private management institute."
+      ]
+    },
+    {
+      "database_id": 157,
+      "name": "JD Institute of Fashion Technology",
+      "outcome": "classified",
+      "group_code": "G8",
+      "family_slug": null,
+      "ownership": "private",
+      "statutory_basis": "Private standalone fashion/design institute offering degree-linked, diploma and certificate programmes through its centres",
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [],
+      "confidence": "medium",
+      "source_url": "https://www.jdinstitute.edu.in/",
+      "evidence": "JD Institute's official site publishes admissions for fashion, interior and jewellery design programmes through its private institute network; the record is not identified as a UGC university.",
+      "notes": [
+        "G8 private standalone college/institute. Verify the awarding university separately for any degree programme before importing regulator metadata."
+      ]
+    },
+    {
+      "database_id": 158,
+      "name": "Tata Institute of Social Sciences (TISS)",
+      "outcome": "classified",
+      "group_code": "G5",
+      "family_slug": "government_deemed",
+      "ownership": "central_govt",
+      "statutory_basis": "Deemed-to-be university under Section 3 of the UGC Act, 1956; publicly funded autonomous institute",
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [
+        "UGC",
+        "Ministry of Education"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.tiss.edu/view/5/about-tiss/",
+      "evidence": "TISS's official About page identifies it as a deemed-to-be university under Section 3 of the UGC Act and describes its postgraduate, doctoral and professional education programmes. TISS is funded by the Government of India and is an autonomous public institution, so it maps to the government-funded deemed group.",
+      "notes": [
+        "The legacy TISS Mumbai row is also represented by a duplicate cleanup candidate; retain this classification for the current row and link duplicates during the approved cleanup."
+      ]
+    },
+    {
+      "database_id": 161,
+      "name": "T.A. Pai Management Institute (TAPMI)",
+      "outcome": "classified",
+      "group_code": "G8",
+      "family_slug": null,
+      "ownership": "private",
+      "statutory_basis": "Private autonomous standalone management institute offering AICTE-approved PGDM programmes",
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [
+        "AICTE",
+        "AACSB"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.tapmi.edu.in/about-tapmi/",
+      "evidence": "TAPMI's official site identifies it as a management institute in Manipal, lists its PGDM admissions and describes its autonomous institutional status. It is a private standalone management school rather than a university, so it maps to G8.",
+      "notes": [
+        "No matching TAPMI family slug is present in the current families table."
+      ]
+    },
+    {
+      "database_id": 162,
+      "name": "Great Lakes Institute of Management",
+      "outcome": "classified",
+      "group_code": "G8",
+      "family_slug": null,
+      "ownership": "private",
+      "statutory_basis": "Private standalone management institute offering PGDM and PGPM programmes",
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [
+        "AICTE",
+        "AACSB"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.greatlakes.edu.in/chennai/about-us",
+      "evidence": "Great Lakes' official Chennai About page describes the institute and its PGDM/PGPM management programmes and admissions. It is a private standalone business school, not a university, so it maps to G8.",
+      "notes": [
+        "The NIRF 2025 official institute list also includes Great Lakes; no matching family slug is present."
+      ]
+    },
+    {
+      "database_id": 165,
+      "name": "Asian College of Journalism",
+      "outcome": "classified",
+      "group_code": "G8",
+      "family_slug": "private_design_media_school",
+      "ownership": "private",
+      "statutory_basis": "Private standalone postgraduate journalism school",
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [
+        "AICTE"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.asianmedia.org.in/",
+      "evidence": "The institution's official site describes the Asian College of Journalism and its postgraduate journalism programme and admissions. It is a private standalone media school, so it maps to G8 and the existing private design/media family.",
+      "notes": []
+    },
+    {
+      "database_id": 166,
+      "name": "Symbiosis Institute of Media and Communication",
+      "outcome": "classified",
+      "group_code": "G5",
+      "family_slug": "private_deemed",
+      "ownership": "private",
+      "statutory_basis": "Constituent institute of Symbiosis International (Deemed University) under Section 3 of the UGC Act",
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [
+        "UGC",
+        "Symbiosis International (Deemed University)"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.symbiosis.ac.in/institutions/university",
+      "evidence": "Symbiosis's official institutions page identifies Symbiosis International as a deemed-to-be university, while SIMC's official site lists its media and communication degree admissions. The constituent institute therefore maps to G5.",
+      "notes": [
+        "Use the parent deemed-university relationship when parent_institute_id support is added."
+      ]
+    },
+    {
+      "database_id": 167,
+      "name": "Xavier Institute of Communications",
+      "outcome": "classified",
+      "group_code": "G8",
+      "family_slug": "private_design_media_school",
+      "ownership": "private",
+      "statutory_basis": "Private standalone media and communication training institute",
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [],
+      "confidence": "high",
+      "source_url": "https://www.xaviercomm.org/",
+      "evidence": "XIC's official site lists its journalism, advertising, public relations and communication diploma/certificate admissions. It is a private standalone media school rather than a university or affiliated college, so it maps to G8.",
+      "notes": []
+    },
+    {
+      "database_id": 169,
+      "name": "Times School of Journalism",
+      "outcome": "classified",
+      "group_code": "G8",
+      "family_slug": "private_design_media_school",
+      "ownership": "private",
+      "statutory_basis": "Private standalone journalism and media training school operated by the Times Group",
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [],
+      "confidence": "high",
+      "source_url": "https://timesschoolofjournalism.com/",
+      "evidence": "The school's official site describes its postgraduate journalism and media programme and admissions. It is a private standalone media-training school, so it maps to G8.",
+      "notes": []
+    },
+    {
+      "database_id": 175,
+      "name": "Symbiosis Law School",
+      "outcome": "classified",
+      "group_code": "G5",
+      "family_slug": "private_deemed",
+      "ownership": "private",
+      "statutory_basis": "Constituent law school of Symbiosis International (Deemed University) under Section 3 of the UGC Act",
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [
+        "UGC",
+        "Bar Council of India"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.symlaw.ac.in/",
+      "evidence": "The official Symbiosis Law School site lists BA/BBA LLB, LLM and doctoral admissions, and Symbiosis International is a UGC deemed-to-be university. The constituent law school therefore maps to G5.",
+      "notes": [
+        "Use the parent deemed-university relationship when parent_institute_id support is added."
+      ]
+    },
+    {
+      "database_id": 176,
+      "name": "Government Law College",
+      "outcome": "classified",
+      "group_code": "G6",
+      "family_slug": "govt_law_college",
+      "ownership": "state_govt",
+      "statutory_basis": "Government law college of the Government of Maharashtra, affiliated with the University of Mumbai",
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [
+        "Government of Maharashtra",
+        "University of Mumbai",
+        "Bar Council of India"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.glcmumbai.ac.in/about-us/",
+      "evidence": "The official GLC Mumbai About page identifies it as a government law college established by the Government of Maharashtra and lists its LLB/LLM admissions and University of Mumbai affiliation. It maps to G6 and the existing government-law-college family.",
+      "notes": [
+        "A separate Government Law College Mumbai duplicate is already identified by cleanup review; merge only through the approved cleanup process."
+      ]
+    },
+    {
+      "database_id": 181,
+      "name": "Arena Animation",
+      "outcome": "classified",
+      "group_code": "G10b",
+      "family_slug": "animation_training",
+      "ownership": "private",
+      "statutory_basis": "Private commercial animation, VFX and digital-media training network",
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [],
+      "confidence": "high",
+      "source_url": "https://www.arenaanimation.com/",
+      "evidence": "Arena Animation's official site lists its animation, VFX, gaming and digital-film training programmes and centre network. It is a private training provider rather than a degree-awarding institution, so it maps to G10b and the existing animation-training family.",
+      "notes": [
+        "This is a multi-centre brand record, not a single campus; preserve it as a training-provider record."
+      ]
+    },
+    {
+      "database_id": 182,
+      "name": "Frameboxx Animation and Visual Effects",
+      "outcome": "classified",
+      "group_code": "G10b",
+      "family_slug": "animation_training",
+      "ownership": "private",
+      "statutory_basis": "private training provider",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [],
+      "confidence": "high",
+      "source_url": "https://www.frameboxx.in",
+      "evidence": "The official Frameboxx site presents animation, VFX and multimedia training programmes rather than a degree-granting university or college.",
+      "notes": [
+        "G10b is Phase 2 and should remain hidden from the Phase 1 college ladder."
+      ]
+    },
+    {
+      "database_id": 183,
+      "name": "Maya Academy of Advanced Cinematics (MAAC)",
+      "outcome": "classified",
+      "group_code": "G10b",
+      "family_slug": "animation_training",
+      "ownership": "private",
+      "statutory_basis": "private training provider",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [],
+      "confidence": "high",
+      "source_url": "https://www.maacindia.com",
+      "evidence": "The official MAAC site presents career-oriented animation, VFX and gaming courses, not a UGC degree university.",
+      "notes": [
+        "G10b is Phase 2 and should remain hidden from the Phase 1 college ladder."
+      ]
+    },
+    {
+      "database_id": 188,
+      "name": "Faculty of Fine Arts MSU Baroda",
+      "outcome": "classified",
+      "group_code": "G4",
+      "family_slug": "state_arts_university",
+      "ownership": "state_govt",
+      "statutory_basis": "state_act",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://msubaroda.ac.in/faculty-of-fine-arts",
+      "evidence": "The official faculty site identifies the Faculty of Fine Arts as part of The Maharaja Sayajirao University of Baroda, a Gujarat state public university.",
+      "notes": [
+        "Constituent faculty; parent linking can be added during the department cleanup pass."
+      ]
+    },
+    {
+      "database_id": 189,
+      "name": "College of Art Delhi",
+      "outcome": "classified",
+      "group_code": "G6",
+      "family_slug": "govt_art_college",
+      "ownership": "central_govt",
+      "statutory_basis": "government college",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.collegeofart.co.in",
+      "evidence": "The official College of Art Delhi site identifies the institution as a government art college in Delhi offering art education programmes.",
+      "notes": []
+    },
+    {
+      "database_id": 191,
+      "name": "Government College of Fine Arts Chennai",
+      "outcome": "classified",
+      "group_code": "G6",
+      "family_slug": "govt_art_college",
+      "ownership": "state_govt",
+      "statutory_basis": "state government college",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [],
+      "confidence": "high",
+      "source_url": "https://www.gcfachennai.ac.in",
+      "evidence": "The official institution site identifies Government College of Fine Arts Chennai as a government fine-arts college under Tamil Nadu.",
+      "notes": []
+    },
+    {
+      "database_id": 193,
+      "name": "National Insurance Academy (NIA)",
+      "outcome": "manual_review",
+      "group_code": null,
+      "family_slug": null,
+      "ownership": null,
+      "statutory_basis": null,
+      "admits_students": null,
+      "is_family_record": null,
+      "regulators": [
+        "IRDAI"
+      ],
+      "confidence": null,
+      "source_url": "https://www.niapune.org.in",
+      "evidence": "The official NIA site presents insurance education and professional training, but the legal ownership and correct professional-training family need confirmation before taxonomy import.",
+      "notes": [
+        "Likely G10b, but ownership is not represented by a valid current taxonomy value; verify before classifying."
+      ]
+    },
+    {
+      "database_id": 195,
+      "name": "Reserve Bank of India (RBI) Staff College",
+      "outcome": "classified",
+      "group_code": "X",
+      "family_slug": "psu_academy",
+      "ownership": "central_govt",
+      "statutory_basis": "RBI staff training academy",
+      "admits_students": 0,
+      "is_family_record": 0,
+      "regulators": [
+        "RBI"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.rbistaffcollege.org.in",
+      "evidence": "The official site identifies RBI Staff College as a staff training institution for RBI personnel, not an open-admission college.",
+      "notes": []
+    },
+    {
+      "database_id": 196,
+      "name": "Indira Gandhi Institute of Development Research (IGIDR)",
+      "outcome": "classified",
+      "group_code": "G5",
+      "family_slug": "government_deemed",
+      "ownership": "central_govt",
+      "statutory_basis": "deemed-to-be university under UGC Act Section 3",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC",
+        "RBI"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.igidr.ac.in",
+      "evidence": "IGIDR's official site identifies it as a deemed-to-be university established by the Reserve Bank of India and offering postgraduate and doctoral programmes.",
+      "notes": []
+    },
+    {
+      "database_id": 197,
+      "name": "Institute of Economic Growth (IEG)",
+      "outcome": "manual_review",
+      "group_code": null,
+      "family_slug": null,
+      "ownership": null,
+      "statutory_basis": null,
+      "admits_students": null,
+      "is_family_record": null,
+      "regulators": [],
+      "confidence": null,
+      "source_url": "https://iegindia.org",
+      "evidence": "The official site confirms research and education activity, but the legal group and open-admission status need confirmation against the UGC/affiliating-university record.",
+      "notes": [
+        "Do not classify until the legal status and student-admission route are verified."
+      ]
+    },
+    {
+      "database_id": 198,
+      "name": "State Bank Institute of Learning and Development",
+      "outcome": "classified",
+      "group_code": "X",
+      "family_slug": "psu_academy",
+      "ownership": "central_govt",
+      "statutory_basis": "bank staff training academy",
+      "admits_students": 0,
+      "is_family_record": 0,
+      "regulators": [
+        "SBI"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.sbild.in",
+      "evidence": "The official SBILD site presents employee learning and development programmes for State Bank of India, not open-admission degree education.",
+      "notes": []
+    },
+    {
+      "database_id": 208,
+      "name": "Raman Research Institute",
+      "outcome": "classified",
+      "group_code": "X",
+      "family_slug": "research_lab",
+      "ownership": "central_govt",
+      "statutory_basis": "autonomous research institute",
+      "admits_students": 0,
+      "is_family_record": 0,
+      "regulators": [
+        "DST"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.rri.res.in",
+      "evidence": "The official RRI site presents a national research institute and research programmes rather than an open-admission degree college.",
+      "notes": [
+        "Keep in X until an open degree/admission route is separately verified."
+      ]
+    },
+    {
+      "database_id": 209,
+      "name": "Tata Institute of Fundamental Research (TIFR)",
+      "outcome": "classified",
+      "group_code": "G5",
+      "family_slug": "government_deemed",
+      "ownership": "central_govt",
+      "statutory_basis": "deemed-to-be university under UGC Act Section 3",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC",
+        "DAE"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.tifr.res.in",
+      "evidence": "TIFR's official site identifies its graduate school and doctoral admissions; TIFR is a deemed-to-be university under the UGC framework.",
+      "notes": []
+    },
+    {
+      "database_id": 210,
+      "name": "Physical Research Laboratory (PRL)",
+      "outcome": "classified",
+      "group_code": "X",
+      "family_slug": "research_lab",
+      "ownership": "central_govt",
+      "statutory_basis": "autonomous research institute",
+      "admits_students": 0,
+      "is_family_record": 0,
+      "regulators": [
+        "Department of Space"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.prl.res.in",
+      "evidence": "The official PRL site presents a national space-science research laboratory, not an open-admission degree institution.",
+      "notes": []
+    },
+    {
+      "database_id": 211,
+      "name": "Bhabha Atomic Research Centre (BARC)",
+      "outcome": "classified",
+      "group_code": "X",
+      "family_slug": "research_lab",
+      "ownership": "central_govt",
+      "statutory_basis": "government research centre",
+      "admits_students": 0,
+      "is_family_record": 0,
+      "regulators": [
+        "DAE"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.barc.gov.in",
+      "evidence": "BARC's official site presents a Department of Atomic Energy research centre; its training routes are recruitment/service routes rather than open college admission.",
+      "notes": []
+    },
+    {
+      "database_id": 212,
+      "name": "Indian Institute of Chemical Technology (IICT)",
+      "outcome": "classified",
+      "group_code": "X",
+      "family_slug": "research_lab",
+      "ownership": "central_govt",
+      "statutory_basis": "CSIR research laboratory",
+      "admits_students": 0,
+      "is_family_record": 0,
+      "regulators": [
+        "CSIR"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.iictindia.org",
+      "evidence": "The official IICT site identifies it as a CSIR research laboratory; it is not a degree-granting open-admission college.",
+      "notes": []
+    },
+    {
+      "database_id": 213,
+      "name": "National Chemical Laboratory (NCL)",
+      "outcome": "classified",
+      "group_code": "X",
+      "family_slug": "research_lab",
+      "ownership": "central_govt",
+      "statutory_basis": "CSIR research laboratory",
+      "admits_students": 0,
+      "is_family_record": 0,
+      "regulators": [
+        "CSIR"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.ncl-india.org",
+      "evidence": "The official NCL site identifies it as a CSIR research laboratory; it is not a degree-granting open-admission college.",
+      "notes": []
+    },
+    {
+      "database_id": 215,
+      "name": "Institute of Chemical Technology (ICT) Mumbai",
+      "outcome": "classified",
+      "group_code": "G5",
+      "family_slug": "government_deemed",
+      "ownership": "state_govt",
+      "statutory_basis": "deemed-to-be university under UGC Act Section 3",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC",
+        "AICTE"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.ictmumbai.edu.in",
+      "evidence": "ICT Mumbai's official site publishes undergraduate, postgraduate and doctoral admissions; it is a degree-granting deemed university.",
+      "notes": []
+    },
+    {
+      "database_id": 222,
+      "name": "ILS Law College Pune",
+      "outcome": "classified",
+      "group_code": "G6",
+      "family_slug": "aided_autonomous_college",
+      "ownership": "govt_aided",
+      "statutory_basis": "aided autonomous college affiliated to Savitribai Phule Pune University",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "BCI",
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.ilspune.edu.in",
+      "evidence": "The official ILS site identifies the institution as an aided autonomous law college affiliated to Savitribai Phule Pune University.",
+      "notes": []
+    },
+    {
+      "database_id": 228,
+      "name": "National Academy of Direct Taxes (NADT)",
+      "outcome": "classified",
+      "group_code": "X",
+      "family_slug": "psu_academy",
+      "ownership": "central_govt",
+      "statutory_basis": "Income Tax Department training academy",
+      "admits_students": 0,
+      "is_family_record": 0,
+      "regulators": [
+        "CBDT"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.nadt.gov.in",
+      "evidence": "The official NADT site identifies it as the training academy for Indian Revenue Service officers, not an open-admission college.",
+      "notes": []
+    },
+    {
+      "database_id": 229,
+      "name": "National Academy of Customs Indirect Taxes and Narcotics (NACIN)",
+      "outcome": "classified",
+      "group_code": "X",
+      "family_slug": "psu_academy",
+      "ownership": "central_govt",
+      "statutory_basis": "CBIC training academy",
+      "admits_students": 0,
+      "is_family_record": 0,
+      "regulators": [
+        "CBIC"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.nacin.gov.in",
+      "evidence": "The official NACIN site identifies it as a training academy for tax and customs officers, not an open-admission college.",
+      "notes": []
+    }
+  ],
+  "database_apply_status": "not_applied",
+  "database_apply_note": "Private/trust rows still need structured UGC Yes/No evidence before import."
+}

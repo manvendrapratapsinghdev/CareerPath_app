@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 import '../config/app_theme.dart';
 import '../l10n/app_localizations.dart';
@@ -8,6 +9,9 @@ import '../services/analytics_service.dart';
 import '../services/bookmark_service.dart';
 import '../services/career_data_service.dart';
 import '../services/exploration_service.dart';
+import '../services/institute_catalog_service.dart';
+import '../services/location_service.dart';
+import '../services/route_service.dart';
 import '../widgets/accent_icon_box.dart';
 import '../widgets/animated_list_item.dart';
 import '../widgets/empty_state.dart';
@@ -21,6 +25,10 @@ class BookmarksTab extends StatefulWidget {
   final ExplorationService? explorationService;
   final CareerDataService careerDataService;
   final AnalyticsService? analyticsService;
+  final InstituteCatalogService? instituteCatalog;
+  final LocationService? locationService;
+  final RouteService? routeService;
+  final SharedPreferences? prefs;
 
   const BookmarksTab({
     super.key,
@@ -28,6 +36,10 @@ class BookmarksTab extends StatefulWidget {
     this.explorationService,
     required this.careerDataService,
     this.analyticsService,
+    this.instituteCatalog,
+    this.locationService,
+    this.routeService,
+    this.prefs,
   });
 
   @override
@@ -65,6 +77,10 @@ class _BookmarksTabState extends State<BookmarksTab> {
           bookmarkService: widget.bookmarkService,
           explorationService: widget.explorationService,
           analyticsService: widget.analyticsService,
+          instituteCatalog: widget.instituteCatalog,
+          locationService: widget.locationService,
+          routeService: widget.routeService,
+          prefs: widget.prefs,
           nodeId: node.id,
           breadcrumbs: [BreadcrumbEntry(nodeId: node.id, label: node.name)],
         ),
@@ -90,8 +106,9 @@ class _BookmarksTabState extends State<BookmarksTab> {
   }
 
   void _startComparison(List<CareerNode> allNodes) {
-    final selectedNodes =
-        allNodes.where((n) => _selected.contains(n.id)).toList();
+    final selectedNodes = allNodes
+        .where((n) => _selected.contains(n.id))
+        .toList();
     Navigator.push(
       context,
       SmoothPageRoute(
@@ -185,8 +202,8 @@ class _BookmarksTabState extends State<BookmarksTab> {
                   ? l.bookmarks_selectToCompare
                   : l.bookmarks_savedPathsCount(count),
               style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                    color: Theme.of(context).colorScheme.onSurfaceVariant,
-                  ),
+                color: Theme.of(context).colorScheme.onSurfaceVariant,
+              ),
             ),
           ),
           TextButton.icon(
@@ -195,7 +212,9 @@ class _BookmarksTabState extends State<BookmarksTab> {
               _compareMode ? Icons.close_rounded : Icons.compare_arrows_rounded,
               size: 18,
             ),
-            label: Text(_compareMode ? l.bookmarks_cancel : l.bookmarks_compare),
+            label: Text(
+              _compareMode ? l.bookmarks_cancel : l.bookmarks_compare,
+            ),
           ),
         ],
       ),
@@ -242,10 +261,8 @@ class _BookmarksTabState extends State<BookmarksTab> {
                       Text(
                         l.bookmarks_savedCareerPath,
                         style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                              color: Theme.of(context)
-                                  .colorScheme
-                                  .onSurfaceVariant,
-                            ),
+                          color: Theme.of(context).colorScheme.onSurfaceVariant,
+                        ),
                       ),
                     ],
                   ),

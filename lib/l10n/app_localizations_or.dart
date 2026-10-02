@@ -873,4 +873,138 @@ class AppLocalizationsOr extends AppLocalizations {
 
   @override
   String get ai_openInExplore => 'Open in Explore';
+
+  @override
+  String get institute_stepsTitle => 'ପଦକ୍ଷେପ';
+
+  @override
+  String get institute_ladderTitle => 'ଶିକ୍ଷାନୁଷ୍ଠାନର ସ୍ତରକ୍ରମ';
+
+  @override
+  String get institute_locationFilterTooltip => 'ସ୍ଥାନ ଅନୁସାରେ ଫିଲ୍ଟର କରନ୍ତୁ';
+
+  @override
+  String get institute_ladderLoadError =>
+      'ଶିକ୍ଷାନୁଷ୍ଠାନର ସ୍ତରକ୍ରମ ଲୋଡ୍ ହୋଇପାରିଲା ନାହିଁ।';
+
+  @override
+  String get institute_noRouteData => 'ଏପର୍ଯ୍ୟନ୍ତ ମାର୍ଗର ସୂଚନା ଉପଲବ୍ଧ ନାହିଁ।';
+
+  @override
+  String get institute_hidePrivateWithoutUgc =>
+      'UGC ଯାଞ୍ଚ ହୋଇନଥିବା ବେସରକାରୀ ଶିକ୍ଷାନୁଷ୍ଠାନ ଲୁଚାନ୍ତୁ';
+
+  @override
+  String get institute_groupLabel => 'ଶିକ୍ଷାନୁଷ୍ଠାନ ଗୋଷ୍ଠୀ';
+
+  @override
+  String get institute_familyLabel => 'ଶିକ୍ଷାନୁଷ୍ଠାନର ଶ୍ରେଣୀ';
+
+  @override
+  String get institute_chooseProfessionalBody => 'ବୃତ୍ତିଗତ ସଂସ୍ଥା ବାଛନ୍ତୁ';
+
+  @override
+  String get institute_relevantExams => 'ସମ୍ପୃକ୍ତ ପରୀକ୍ଷା';
+
+  @override
+  String get institute_entryRoutes => 'ପ୍ରବେଶ ମାର୍ଗ';
+
+  @override
+  String get institute_checkOfficialRoute => 'ଅଧିକାରିକ ମାର୍ଗ ଯାଞ୍ଚ କରନ୍ତୁ';
+
+  @override
+  String get institute_entryRequirementsVary =>
+      'ଶିକ୍ଷାନୁଷ୍ଠାନ ଓ ପ୍ରୋଗ୍ରାମ ଅନୁସାରେ ପ୍ରବେଶ ଯୋଗ୍ୟତା ଭିନ୍ନ ହୋଇଥାଏ।';
+
+  @override
+  String get institute_stepsAndEntryRoutes => 'ପଦକ୍ଷେପ ଓ ପ୍ରବେଶ ମାର୍ଗ';
+
+  @override
+  String get institute_caCmaCsNote =>
+      'CA, CMA ଓ CS ଅଲଗା ଯୋଗ୍ୟତା। ଉପରୋକ୍ତ ପ୍ରବେଶ ମାର୍ଗଗୁଡ଼ିକ ବିକଳ୍ପ; କ୍ରମାଗତ ପରୀକ୍ଷା ପର୍ଯ୍ୟାୟ ନୁହେଁ।';
+
+  @override
+  String institute_allLabel(String label) {
+    return 'ସମସ୍ତ $label';
+  }
+
+  @override
+  String get institute_online => 'ଅନଲାଇନ୍';
+
+  @override
+  String get institute_allIndia => 'ସମଗ୍ର ଭାରତ';
+
+  @override
+  String institute_showingFilters(String labels) {
+    return 'ଦେଖାଯାଉଛି: $labels';
+  }
+
+  @override
+  String get institute_clear => 'ସଫା କରନ୍ତୁ';
+
+  @override
+  String institute_coverageInIndia(int count, int listed) {
+    return 'ଭାରତରେ $count · ତାଲିକାଭୁକ୍ତ $listed';
+  }
+
+  @override
+  String institute_coverageListed(int count) {
+    return 'ତାଲିକାଭୁକ୍ତ $count';
+  }
+
+  @override
+  String get institute_noListedInTier =>
+      'ବଛାଯାଇଥିବା ଫିଲ୍ଟର ପାଇଁ ଏହି ସ୍ତରରେ କୌଣସି ଶିକ୍ଷାନୁଷ୍ଠାନ ତାଲିକାଭୁକ୍ତ ନାହିଁ।';
+
+  @override
+  String get institute_mappedLocationDisclaimer =>
+      'ବର୍ତ୍ତମାନର ଶିକ୍ଷାନୁଷ୍ଠାନ ରେକର୍ଡରୁ ସ୍ଥାନ ନିଆଯାଇଛି; ସ୍ୱାଧୀନ ଭାବେ ଯାଞ୍ଚ ହୋଇନାହିଁ।';
+
+  @override
+  String get institute_notRanked => 'ରାଙ୍କ ନାହିଁ';
+
+  @override
+  String institute_top10(String label) {
+    return 'ଶ୍ରେଷ୍ଠ ୧୦ · $label';
+  }
+
+  @override
+  String institute_nirfTop100(int year) {
+    return 'NIRF ଶ୍ରେଷ୍ଠ ୧୦୦ · $year';
+  }
+
+  @override
+  String get institute_ugcVerified => 'UGC ଯାଞ୍ଚ ହୋଇଛି ✓';
+
+  @override
+  String get institute_ugcNotVerified => 'UGC ଯାଞ୍ଚ ହୋଇନାହିଁ';
+
+  @override
+  String get institute_ugcPending => 'UGC ଯାଞ୍ଚ ବାକି ଅଛି';
+
+  @override
+  String get institute_locationUnavailable => 'ସ୍ଥାନର ସୂଚନା ଉପଲବ୍ଧ ନାହିଁ।';
+
+  @override
+  String get institute_studyLocation => 'ଅଧ୍ୟୟନ ସ୍ଥାନ';
+
+  @override
+  String get institute_stateOrUnionTerritory => 'ରାଜ୍ୟ / କେନ୍ଦ୍ରଶାସିତ ଅଞ୍ଚଳ';
+
+  @override
+  String get institute_district => 'ଜିଲ୍ଲା';
+
+  @override
+  String get institute_cityTown => 'ସହର / ଛୋଟ ସହର';
+
+  @override
+  String get institute_applyLocation => 'ସ୍ଥାନ ଲାଗୁ କରନ୍ତୁ';
+
+  @override
+  String institute_collegeLadderSubtitle(int count) {
+    return '$countଟି ଶିକ୍ଷାନୁଷ୍ଠାନ ସ୍ତର · ରାଙ୍କ ଓ ସ୍ଥାନ ଅନୁସାରେ ତୁଳନା କରନ୍ତୁ';
+  }
+
+  @override
+  String get institute_entryRoutesSummary => 'ପ୍ରବେଶ ମାର୍ଗ';
 }

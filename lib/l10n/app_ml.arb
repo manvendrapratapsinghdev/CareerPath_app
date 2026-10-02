@@ -199,5 +199,79 @@
   "common_noneAvailableYet": "ഇതുവരെ ഒന്നും ലഭ്യമല്ല",
   "common_byAuthor": "{author} രചിച്ചത്",
   "common_viewBook": "പുസ്തകം കാണുക",
-  "common_visitWebsite": "വെബ്‌സൈറ്റ് സന്ദർശിക്കുക"
+  "common_visitWebsite": "വെബ്‌സൈറ്റ് സന്ദർശിക്കുക",
+  "institute_stepsTitle": "ഘട്ടങ്ങൾ",
+  "institute_ladderTitle": "സ്ഥാപനങ്ങളുടെ പടിവര",
+  "institute_locationFilterTooltip": "സ്ഥലം അനുസരിച്ച് ഫിൽട്ടർ ചെയ്യുക",
+  "institute_ladderLoadError": "സ്ഥാപനങ്ങളുടെ പടിവര ലോഡ് ചെയ്യാനായില്ല.",
+  "institute_noRouteData": "റൂട്ടിന്റെ വിവരങ്ങൾ ഇപ്പോൾ ലഭ്യമല്ല.",
+  "institute_hidePrivateWithoutUgc": "UGC സ്ഥിരീകരണമില്ലാത്ത സ്വകാര്യ സ്ഥാപനങ്ങൾ മറയ്ക്കുക",
+  "institute_groupLabel": "സ്ഥാപന ഗ്രൂപ്പ്",
+  "institute_familyLabel": "സ്ഥാപന വിഭാഗം",
+  "institute_chooseProfessionalBody": "പ്രൊഫഷണൽ ബോഡി തിരഞ്ഞെടുക്കുക",
+  "institute_relevantExams": "ബന്ധപ്പെട്ട പരീക്ഷകൾ",
+  "institute_entryRoutes": "പ്രവേശന മാർഗങ്ങൾ",
+  "institute_checkOfficialRoute": "ഔദ്യോഗിക മാർഗം പരിശോധിക്കുക",
+  "institute_entryRequirementsVary": "സ്ഥാപനവും പ്രോഗ്രാമും അനുസരിച്ച് പ്രവേശന നിബന്ധനകൾ വ്യത്യാസപ്പെടും.",
+  "institute_stepsAndEntryRoutes": "ഘട്ടങ്ങളും പ്രവേശന മാർഗങ്ങളും",
+  "institute_caCmaCsNote": "CA, CMA, CS എന്നിവ വ്യത്യസ്ത യോഗ്യതകളാണ്. മുകളിലെ പ്രവേശന മാർഗങ്ങൾ പരസ്പര പകരക്കാരാണ്; തുടർച്ചയായ പരീക്ഷാഘട്ടങ്ങളല്ല.",
+  "institute_allLabel": "എല്ലാ {label}",
+  "@institute_allLabel": {
+    "placeholders": {
+      "label": { "type": "String" }
+    }
+  },
+  "institute_online": "ഓൺലൈൻ",
+  "institute_allIndia": "ഇന്ത്യയിലുടനീളം",
+  "institute_showingFilters": "കാണിക്കുന്നത്: {labels}",
+  "@institute_showingFilters": {
+    "placeholders": {
+      "labels": { "type": "String" }
+    }
+  },
+  "institute_clear": "മായ്ക്കുക",
+  "institute_coverageInIndia": "ഇന്ത്യയിൽ {count} · പട്ടികയിൽ {listed}",
+  "@institute_coverageInIndia": {
+    "placeholders": {
+      "count": { "type": "int" },
+      "listed": { "type": "int" }
+    }
+  },
+  "institute_coverageListed": "പട്ടികയിൽ {count}",
+  "@institute_coverageListed": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "institute_noListedInTier": "തിരഞ്ഞെടുത്ത ഫിൽട്ടറുകൾക്ക് ഈ നിരയിൽ പട്ടികപ്പെടുത്തിയ സ്ഥാപനങ്ങളില്ല.",
+  "institute_mappedLocationDisclaimer": "നിലവിലുള്ള സ്ഥാപന രേഖകളിൽ നിന്നാണ് സ്ഥലം ചേർത്തത്; സ്വതന്ത്രമായി സ്ഥിരീകരിച്ചിട്ടില്ല.",
+  "institute_notRanked": "റാങ്ക് ചെയ്തിട്ടില്ല",
+  "institute_top10": "ടോപ്പ് 10 · {label}",
+  "@institute_top10": {
+    "placeholders": {
+      "label": { "type": "String" }
+    }
+  },
+  "institute_nirfTop100": "NIRF ടോപ്പ് 100 · {year}",
+  "@institute_nirfTop100": {
+    "placeholders": {
+      "year": { "type": "int" }
+    }
+  },
+  "institute_ugcVerified": "UGC സ്ഥിരീകരിച്ചു ✓",
+  "institute_ugcNotVerified": "UGC സ്ഥിരീകരിച്ചിട്ടില്ല",
+  "institute_ugcPending": "UGC സ്ഥിരീകരണം തീർപ്പായിട്ടില്ല",
+  "institute_locationUnavailable": "സ്ഥലവിവരം ലഭ്യമല്ല.",
+  "institute_studyLocation": "പഠനസ്ഥലം",
+  "institute_stateOrUnionTerritory": "സംസ്ഥാനം / കേന്ദ്രഭരണ പ്രദേശം",
+  "institute_district": "ജില്ല",
+  "institute_cityTown": "നഗരം / പട്ടണം",
+  "institute_applyLocation": "സ്ഥലം പ്രയോഗിക്കുക",
+  "institute_collegeLadderSubtitle": "{count} സ്ഥാപന തലങ്ങൾ · റാങ്കും സ്ഥലവും അനുസരിച്ച് താരതമ്യം ചെയ്യുക",
+  "@institute_collegeLadderSubtitle": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "institute_entryRoutesSummary": "പ്രവേശന മാർഗങ്ങൾ"
 }

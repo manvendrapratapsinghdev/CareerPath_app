@@ -1,17 +1,17 @@
 # Institution Groups & College Hierarchy — Plan
 
-Status: **in progress — taxonomy foundations, Waves A–C and batches D1, D3 and J1 are implemented; app integration and remaining data waves are pending.** Last verified: 2026-10-02.
+Status: **in progress — taxonomy foundations, Waves A–C and batches D1, D3 and J1 are implemented; T10–T14 app integration is wired; location review and remaining data waves are pending.** Last verified: 2026-10-02.
 
 ### Current completion snapshot (2026-10-02)
 
-The original “plan only” status is no longer accurate. The branch now contains committed database/tooling work:
+The original “plan only” status is no longer accurate. The current branch contains database/tooling work, and this working tree also has the app integration and location import changes described below. No commit or push has been made for this work.
 
 **Completed**
 
 - Fixed the NIRF state-inventory classifier bugs for Jhalawar/law false positives and private-college defaults (T1).
 - Added the institution taxonomy schema and lookup data: groups, families, domains, domain nodes, domain tiers,
   classifications, verification tables, ranking/accreditation tables, and the initial India/state master (T3–T6 foundations).
-- Added the domain-tier builder and tests. The database currently contains 27 domains, 278 domain tiers and 599
+- Added the domain-tier builder and tests. The database currently contains 27 domains, 278 domain tiers and 600
   institute-domain-tier links.
 - Loaded and classified Wave A (G1): IIT/IISc, IIM, AIIMS/JIPMER/PGIMER/NIMHANS, IISER/NISER/ISI, NIPER/SPA,
   NID/NIFTEM/ITRA/NFSU/RRU/Kalakshetra and AIIA.
@@ -23,7 +23,20 @@ The original “plan only” status is no longer accurate. The branch now contai
   5 state law universities; D3 loaded all 68 state agricultural/veterinary/horticulture/fisheries universities (ICAR list).
 - Wave J1 loaded the professional bodies: ICAI, ICSI, ICMAI, IAI, NISM, IIBF and III (G10a, ownership not applicable).
 - Added the family-batch loader and official-list batch fixtures for the completed waves.
-- Tooling QA currently passes: `72 passed, 7 subtests passed` (`python3 -m pytest tooling/tests -q`).
+- Loaded LGD location masters (36 states/UTs, 784 districts), 100 canonical places, 3 unambiguous place aliases, and 231
+  explicit campus-to-place links. The importer does not infer districts: 667 physical-institute rows remain in
+  `research/location_review.csv` (658 missing a district, 9 district labels not found in the LGD master). Campus
+  `source_url` and `verified_at` remain NULL because source rows do not have location-specific citations.
+- Added the Flutter college ladder, ranking/UGC display, cascading location filter, and shared catalog/location grounding
+  for chat and voice (T10–T14). The generated career-search alias asset is current; the ladder uses runtime domain aliases.
+- Prepared and reviewed all 439 legacy records as 44 deterministic batches (43 batches of 10 and a final batch of 9).
+  The cumulative review is merged at `research/legacy_group_batches/legacy-group-all-439.json`: 426
+  evidence-backed classifications and 13 `manual_review` records. The verified non-private subset (196 rows) is now
+  imported into SQLite by `tooling/import_verified_legacy_classifications.py`. The remaining 230 private/trust rows require
+  the structured UGC Yes/No evidence required by §8.6, and 13 records remain manual review.
+- Taxonomy/batch JSON validation passes. The full tooling suite passes 76/76 tests. Both Rajasthan career-mapping
+  artifacts have been refreshed against the active database tree: 0 breadcrumb mismatches across 3,659 verification
+  mappings and 2,916 NIRF mappings. Older notes/statuses about the former pharmacy label are marked as historical.
 
 **Pending / incomplete**
 
@@ -33,21 +46,25 @@ The original “plan only” status is no longer accurate. The branch now contai
   classification and name hygiene: `tooling/cleanup_institutes.py` (T4) is in and its first approved pass is applied
   (19 merges, 3 family records); departments wait for their parents' batches. The current database has 65 parent links, 14 family flags and
   3 non-admitting classifications, so this is not finished.
-- T7 location data is incomplete. The state table has 36 rows, but district, place and campus tables are currently empty.
+- T7's official location masters and importer are present, but institute coverage is incomplete: only 231 institutes have
+  explicit campus links, currently across Rajasthan (117 institutes / 25 districts), Madhya Pradesh (70 / 27), and Uttar
+  Pradesh (44 / 19). Resolve the 667 rows in `research/location_review.csv`; do not infer districts.
 - T8 career-tree additions are pending: Pharmacy, PCS children, BUMS/BSMS/BNYS, Social Work and Judicial Services.
 - T9 loader foundations exist, but the full verification/review workflow and all regulator-specific imports are not
   complete.
-- T10 (Dart models, `LocalDatabase` taxonomy queries) and T11 (`InstituteCatalogService` ladder/filter/display,
-  `LocationService`, `RouteService`, with tests) are done but not yet wired into `main.dart`. Pending: ranking/UGC UI, ladder/steps screens, and shared chat/voice filtering remain pending.
+- T10–T14 are implemented and wired through `main.dart`: Dart/location models and database queries; catalog, location and
+  route services; ranking and UGC UI; ladder and cascading location screens; and shared typed-chat/voice filtering.
 - Remaining data waves are pending: D2, D4–D6 (state public), E (deemed), F (private universities), G (government/aided
   colleges), H (private colleges), I (open/skill/diploma), and J2 (foreign campuses).
 - Wave C is complete. IIPA (in-service officers only) and NIN Pune (degree intake unconfirmed) are not loaded.
-- Accreditation data is still empty and ranking data is currently NIRF 2025 only (360 rows); NAAC/NBA fallback and
-  multi-year ranking support remain pending.
+- Accreditation data is still empty; ranking data is NIRF only (447 rows). The app supports a NAAC fallback and a
+  “Not ranked” line, but no NAAC/NBA data has been imported. Private/trust rows still need sourced UGC decisions.
 
-Current database counts: 951 institutes, 114 families, 27 domains, 36 states, and 13 institution groups. These counts
-are implementation evidence, not a completion claim for all-India coverage.
-Source of every count below: `assets/data/career_path.db` as shipped in `1.5.0+17`, read-only.
+Current database counts: 951 institutes, 114 families, 27 domains, 13 institution groups, 708 classifications, 36 states,
+784 districts, 100 places, 3 place aliases, 231 campus links, 447 rankings, and 0 accreditations. These counts are
+implementation evidence, not a completion claim for all-India coverage.
+Source of the counts above: `assets/data/career_path.db` in the current working tree on 2026-10-02; this asset differs
+from version `1.5.0+17` because this branch contains the hierarchy and location updates.
 
 Approach, as asked:
 
@@ -661,27 +678,38 @@ Entrance: **NCHM JEE** (IHMs), university tests.
 
 ## 6. Step 3 — Location hierarchy (India → State/UT → District → City → Campus)
 
-### 6.1 What the DB has today (verified)
+### 6.1 What the DB has today (verified 2026-10-02)
 
 | Fact | Value |
 |---|---|
-| Location columns | `institutes.city`, `district`, `state` (free text, on the institute, not the campus) |
-| States / UTs present | **22 of 36** (19 of 28 states, 3 of 8 UTs) |
-| States / UTs with **0** institutes | **Bihar**, Chhattisgarh, Himachal Pradesh, Arunachal Pradesh, Meghalaya, Mizoram, Nagaland, Sikkim, Tripura, Jammu & Kashmir, Ladakh, Andaman & Nicobar, Dadra & Nagar Haveli and Daman & Diu, Lakshadweep. So IIT Patna, AIIMS Patna, NIT Patna, NIT Srinagar, IIT Jammu, IIT Bhilai, AIIMS Raipur and others are all missing. |
-| `district` NULL | **429 of 669** (the existing rule is “never guess a district”) |
-| `state` NULL | 25 (all “Various” / “Online” summary rows — D5) |
-| Distinct city strings | 184, with **14 case variants** (`JAIPUR`/`Jaipur` 43 rows, `LUCKNOW`/`Lucknow`, `INDORE`/`Indore` …) and **renamed-city splits** (`Bangalore` 9 vs `Bengaluru` 12) |
-| Delhi | all 74 rows have city “New Delhi”. New Delhi is one district of the NCT, so district-level filtering in Delhi doesn’t work today. |
-| Multi-campus institutes | stored once with one city (or “Various”): NIFT (19 campuses), AIIMS, IITs, Amity (several) |
+| Administrative master | 36 states/UTs and 784 LGD districts |
+| Places / aliases | 100 canonical places; 3 aliases with a unique target |
+| Campus links | 231; created only where legacy state, district, and city agree with the LGD master |
+| Unresolved physical institute locations | 667 rows in `research/location_review.csv`: 658 lack an explicit district; 9 district labels do not match the imported LGD master |
+| Campus evidence | `source_url` and `verified_at` are NULL; legacy rows lack location-specific citations, so the app must not present these links as separately verified |
+| Legacy columns | `institutes.city`, `district`, `state` remain free-text institute-level fields; campus links are a separate, stricter hierarchy |
 
-**How the app uses location today.** The Institutes list (`sub_option_screen.dart:493–540`) builds a **flat** chip filter
-from `district ?? city`, so “JAIPUR” and “Jaipur” are separate chips, and there is no state or country level.
-AI chat and voice match places through `InstituteCatalogService.idsInPlace` (`institute_catalog_service.dart:336`),
-which uses its own token matching and has no alias for Bangalore/Bengaluru.
+**How the app uses location today.** `LocationService` resolves the country → state/UT → district → city path, including
+database aliases. The cascading picker and catalog filter use campus IDs; typed chat and voice use the same resolver.
+Institutes without an explicit campus link are not assigned a guessed city or district. The current linked campus coverage
+is intentionally limited to the three states below; this is not nationwide location coverage.
 
-### 6.2 Coverage today: state × group
+### 6.2 Current campus-linked coverage
 
-Shows what a student in each state would find today. The last row lists the states and UTs that are missing entirely.
+Only three states currently have district-backed campus links. Other institutes may still have legacy state/city text,
+but they are not included in campus-scoped filtering until their locations are reviewed and linked.
+
+| State | Campus-linked institutes | LGD districts represented |
+|---|---:|---:|
+| Rajasthan | 117 | 25 |
+| Madhya Pradesh | 70 | 27 |
+| Uttar Pradesh | 44 | 19 |
+| **Total** | **231** | **71** |
+
+### Historical baseline (outdated state × group snapshot)
+
+The following state-by-group table predates the more recent classification and location imports. It is retained only as a
+historical baseline and must not be used for current coverage decisions.
 
 | State | G1 | G2 | G3 | G4 | G5 | G6 | G7 | G8 | G9 | G10a | G10b | Total |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -1087,18 +1115,18 @@ Follows CLAUDE.md: no new state management, manual DI, one test per new service 
 | T4 | Dedupe + department → parent + family flags (D4–D6) | DB asset | T3 |
 | T5 | All new tables (§6.5, §7, §8.6): groups, families, domains, tiers, classification, verifications, accreditations, location | DB asset | T4 |
 | T6 | Fill `families` (all ~80, national counts) + `domains`, `domain_nodes`, `domain_tiers` — **done** (`tooling/domain_tiers.py`: 27 domains, ladders = apex families + group order; `institute_domain_tiers` derived and rebuilt by every batch) | DB asset | T5 |
-| T7 | Location master: LGD `states` + `districts`, `places` + `place_aliases` | DB asset | T5 |
+| T7 | LGD `states` + `districts`, canonical `places` + `place_aliases`, explicit campus links; review 667 unresolved rows | DB asset + review CSV | T5 |
 | T8 | Career tree additions §8.7 + course-based linking | DB asset | T5 |
 | T9 | Batch loader `tooling/load_family_batch.py`: official list → institutes + campuses (city) + verification + NIRF/NAAC + tier → UGC Yes/No for private rows → review sheet → DB. One command per batch. | script + tests | T5–T7 |
 
 ### Phase 1a — app support (can start once T5 is done)
 | # | Task | Output | Depends on |
 |---|---|---|---|
-| T10 | Dart models + `LocalDatabase` queries + parser tests | code | T5 |
-| T11 | `InstituteCatalogService` ladder + filter APIs, `LocationService`, `RouteService` + tests | code | T10 |
-| T12 | Ranking line (top highlight, NAAC fallback, “Not ranked”) + private-only UGC Yes/No badge + “UGC verified only” filter + widget tests | code | T11 |
-| T13 | “College ladder” + “Steps” UI; cascading India → State → District → City filter; chat/voice switched to the shared filter | code | T11 |
-| T14 | Grounding / voice text (group, tier, rank, verification) + search aliases rebuild | code + asset | T11 |
+| T10 | Dart models + `LocalDatabase` queries + parser tests | code | ✅ done |
+| T11 | `InstituteCatalogService` ladder + filter APIs, `LocationService`, `RouteService` + tests | code | ✅ done |
+| T12 | Ranking line (NIRF → NAAC → “Not ranked”) + private-only UGC badge + verified-only filter + widget tests | code | ✅ done; unknown private/trust UGC is pending (not a negative); data evidence pending |
+| T13 | College ladder + CA/CS/CMA/UPSC “Steps” timeline + cascading location filter; chat/voice use shared location/catalog filter | code | ✅ done |
+| T14 | Grounding / voice text, institution-domain matching, and generated search alias verification | code + asset | ✅ done; 573 keys / 690 expansions verified, no generated asset diff |
 
 ### Phase 1b — data waves (each batch = one commit, §8.5)
 | # | Wave | Release gate |

@@ -59,5 +59,15 @@ void main() {
     expect(bundled.expand('bhu'), contains('banaras hindu university'));
     expect(bundled.expand('afmc'), contains('armed forces medical college'));
     expect(bundled.expand('colleges in up'), contains('uttar pradesh'));
+    // T14 institution-family aliases are already present in the generated
+    // table; ladderSearch also has direct domain aliases at runtime.
+    expect(bundled.expand('iit'), contains('indian institute of technology'));
+    expect(bundled.expand('iim'), contains('indian institute of management'));
+    expect(bundled.expand('nlu'), contains('national law university'));
+    expect(bundled.expand('nit'), contains('national institute of technology'));
+    expect(
+      bundled.expand('aiims'),
+      contains('all india institute of medical sciences'),
+    );
   });
 }

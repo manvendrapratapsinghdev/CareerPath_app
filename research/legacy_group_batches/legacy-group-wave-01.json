@@ -1,0 +1,1029 @@
+{
+  "wave_id": "legacy-group-wave-01",
+  "generated_at": "2026-10-02T04:44:02.402956+00:00",
+  "database": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/assets/data/career_path.db",
+  "selection": "Institutes without institute_classification at merge time",
+  "record_count": 50,
+  "classified_count": 49,
+  "manual_review_count": 1,
+  "source_batches": [
+    "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/legacy_group_batches/results/legacy-group-001.json",
+    "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/legacy_group_batches/results/legacy-group-002.json",
+    "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/legacy_group_batches/results/legacy-group-003.json",
+    "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/legacy_group_batches/results/legacy-group-004.json",
+    "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/legacy_group_batches/results/legacy-group-005.json"
+  ],
+  "records": [
+    {
+      "database_id": 3,
+      "name": "Birla Institute of Technology & Science - Pilani",
+      "outcome": "classified",
+      "group_code": "G5",
+      "family_slug": null,
+      "ownership": "private",
+      "statutory_basis": "Institution deemed to be a university under Section 3 of the UGC Act, 1956; notification dated 18 June 1964",
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.bits-pilani.ac.in/ugc-approval/",
+      "evidence": "BITS Pilani's official UGC Approval page identifies it as an Institution Deemed to be University established under Section 3 of the UGC Act, 1956. Its official Pilani campus page confirms the Pilani campus and residential student programmes.",
+      "notes": [
+        "Family row is not present in the current families table; leave family_slug null until the canonical BITS family is added."
+      ]
+    },
+    {
+      "database_id": 4,
+      "name": "VIT",
+      "outcome": "classified",
+      "group_code": "G5",
+      "family_slug": null,
+      "ownership": "private",
+      "statutory_basis": "Institution deemed to be a university under Section 3 of the UGC Act, 1956",
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://vit.ac.in/about-vit",
+      "evidence": "VIT's official About VIT page states that it was established under Section 3 of the UGC Act, 1956. Its official recognition material describes VIT as a deemed-to-be university and a private institution.",
+      "notes": [
+        "Family row is not present in the current families table; leave family_slug null until the canonical VIT family is added."
+      ]
+    },
+    {
+      "database_id": 11,
+      "name": "CDAC",
+      "outcome": "classified",
+      "group_code": "G9",
+      "family_slug": null,
+      "ownership": "central_govt",
+      "statutory_basis": "Autonomous scientific society under the Ministry of Electronics and Information Technology, Government of India; offers C-DAC postgraduate diploma training",
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [
+        "MeitY"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.cdac.in/index.aspx?id=print_page&print=about",
+      "evidence": "C-DAC's official About page identifies it as an autonomous R&D organisation under MeitY. The institute's official education/admissions material documents postgraduate diploma programmes, so it belongs in the skill/diploma group and admits students.",
+      "notes": [
+        "Classified as G9 because this record represents C-DAC's student-facing postgraduate diploma/training route, not a degree university. Family row is not present."
+      ]
+    },
+    {
+      "database_id": 13,
+      "name": "LBSNAA Mussoorie (Training Academy)",
+      "outcome": "classified",
+      "group_code": "X",
+      "family_slug": null,
+      "ownership": "central_govt",
+      "statutory_basis": "Attached office of the Department of Personnel & Training, Government of India; post-selection civil-services training academy",
+      "admits_students": false,
+      "is_family_record": false,
+      "regulators": [
+        "DoPT"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.lbsnaa.gov.in/menu/about-lbsnaa",
+      "evidence": "The official LBSNAA page says the academy is an attached office of DoPT and conducts foundation, professional and in-service training for civil-service entrants and officers. Entry follows UPSC/service selection; it is not an open admissions college.",
+      "notes": [
+        "X is intentional: this is a post-selection employer/service academy, not a student-admitting higher-education institute."
+      ]
+    },
+    {
+      "database_id": 14,
+      "name": "Drishti IAS",
+      "outcome": "classified",
+      "group_code": "G10b",
+      "family_slug": null,
+      "ownership": "private",
+      "statutory_basis": null,
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [],
+      "confidence": "medium",
+      "source_url": "https://www.drishtiias.com",
+      "evidence": "The supplied official Drishti IAS domain identifies the organisation as a private civil-services preparation provider offering UPSC/PCS classroom and online courses. This is coaching/training, not a UGC university or college.",
+      "notes": [
+        "G10b is Phase 2 coaching; keep listed status controlled by the loader. No statutory higher-education regulator applies."
+      ]
+    },
+    {
+      "database_id": 15,
+      "name": "Vision IAS",
+      "outcome": "classified",
+      "group_code": "G10b",
+      "family_slug": null,
+      "ownership": "private",
+      "statutory_basis": null,
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [],
+      "confidence": "medium",
+      "source_url": "https://www.visionias.in",
+      "evidence": "The supplied official Vision IAS domain identifies the organisation as a private UPSC civil-services preparation provider with courses, test series and mentorship. This is coaching/training, not a UGC university or college.",
+      "notes": [
+        "G10b is Phase 2 coaching; no statutory higher-education regulator applies."
+      ]
+    },
+    {
+      "database_id": 16,
+      "name": "Vajiram & Ravi",
+      "outcome": "classified",
+      "group_code": "G10b",
+      "family_slug": null,
+      "ownership": "private",
+      "statutory_basis": null,
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [],
+      "confidence": "medium",
+      "source_url": "https://www.vajiramandravi.com",
+      "evidence": "The supplied official Vajiram & Ravi domain identifies the organisation as a private civil-services examination coaching provider offering UPSC preparation courses. It is not a UGC university or college.",
+      "notes": [
+        "G10b is Phase 2 coaching; no statutory higher-education regulator applies."
+      ]
+    },
+    {
+      "database_id": 19,
+      "name": "Navkar Institute",
+      "outcome": "classified",
+      "group_code": "G10b",
+      "family_slug": null,
+      "ownership": "private",
+      "statutory_basis": null,
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [],
+      "confidence": "medium",
+      "source_url": "https://www.navkarinstitute.com",
+      "evidence": "The supplied official Navkar Institute domain identifies a private coaching provider for CA, CS and CMA examinations. Professional exam preparation is a training route, not a UGC degree institution.",
+      "notes": [
+        "G10b is Phase 2 coaching. ICAI/ICSI/ICMAI own the professional routes; Navkar is not the statutory route owner."
+      ]
+    },
+    {
+      "database_id": 20,
+      "name": "VG Learning Destination",
+      "outcome": "classified",
+      "group_code": "G10b",
+      "family_slug": null,
+      "ownership": "private",
+      "statutory_basis": null,
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [],
+      "confidence": "medium",
+      "source_url": "https://vgld.in",
+      "evidence": "The supplied official VG Learning Destination domain identifies a private coaching provider for CA and professional accounting examinations. Professional exam preparation is training, not a UGC degree institution.",
+      "notes": [
+        "G10b is Phase 2 coaching. ICAI owns the CA route; VG Learning Destination is not the statutory route owner."
+      ]
+    },
+    {
+      "database_id": 23,
+      "name": "CMC Vellore",
+      "outcome": "classified",
+      "group_code": "G8",
+      "family_slug": null,
+      "ownership": "private",
+      "statutory_basis": "Unaided minority educational institution; medical programmes subject to NMC recognition and university affiliation",
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [
+        "NMC",
+        "The Tamil Nadu Dr. M.G.R. Medical University"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.cmch-vellore.edu/about-us/",
+      "evidence": "CMC Vellore's official About Us page explicitly describes it as an unaided minority educational institution in Vellore and confirms medical, nursing and allied-health education. It is therefore a private medical college/college-level provider, not a private university.",
+      "notes": [
+        "Family row is not present in the current families table; leave family_slug null until the canonical CMC family is added."
+      ]
+    },
+    {
+      "database_id": 26,
+      "name": "Bombay Flying Club",
+      "outcome": "classified",
+      "group_code": "G8",
+      "family_slug": "dgca_fto",
+      "ownership": "private",
+      "statutory_basis": "society",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "DGCA"
+      ],
+      "confidence": "high",
+      "source_url": "https://public-prd-dgca.s3.ap-south-1.amazonaws.com/InventoryList/personal/training/pilot/flrTrainOrgs/flyclub.pdf",
+      "evidence": "The DGCA approved-FTO list includes The Bombay Flying Club, and the Government of India records it as a functional CPL flying-training organisation. It is a training provider rather than a university.",
+      "notes": [
+        "Mapped to the existing dgca_fto family; this family is currently grouped under G8 in the database taxonomy."
+      ]
+    },
+    {
+      "database_id": 30,
+      "name": "Pearl Academy",
+      "outcome": "classified",
+      "group_code": "G8",
+      "family_slug": "private_design_media_school",
+      "ownership": "private",
+      "statutory_basis": "private_society",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC",
+        "RGNIYD"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.pearlacademy.com/about-us/accreditation",
+      "evidence": "Pearl Academy describes itself as a private design institution whose current bachelor's and master's degrees are offered through its CAES-RGNIYD arrangement; the academy itself is a private design school, not a separate university.",
+      "notes": [
+        "Degrees under the RGNIYD arrangement should not be used to classify Pearl Academy as G3; parent/awarding-body linkage is a separate cleanup concern."
+      ]
+    },
+    {
+      "database_id": 31,
+      "name": "Symbiosis Institute of Design Pune",
+      "outcome": "classified",
+      "group_code": "G5",
+      "family_slug": "private_deemed",
+      "ownership": "private",
+      "statutory_basis": "ugc_deemed",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://sid.edu.in/about/about-sid",
+      "evidence": "SID's official site identifies it as a constituent of Symbiosis International (Deemed University), and its mandatory disclosure cites Section 3 of the UGC Act, 1956.",
+      "notes": [
+        "Constituent-institute parent link to Symbiosis International should be added by the department/parent cleanup pass."
+      ]
+    },
+    {
+      "database_id": 38,
+      "name": "SP Jain Mumbai",
+      "outcome": "classified",
+      "group_code": "G8",
+      "family_slug": "standalone_pgdm",
+      "ownership": "private",
+      "statutory_basis": "trust",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "AICTE",
+        "NBA"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.spjimr.org/aicte/",
+      "evidence": "SPJIMR's official AICTE disclosure lists its approved PGDM programmes and Category-I graded autonomy; it is a standalone management institute rather than a UGC university.",
+      "notes": []
+    },
+    {
+      "database_id": 42,
+      "name": "NCTE Recognised B.Ed Colleges",
+      "outcome": "manual_review",
+      "group_code": null,
+      "family_slug": null,
+      "ownership": null,
+      "statutory_basis": null,
+      "admits_students": null,
+      "is_family_record": 1,
+      "regulators": [
+        "NCTE"
+      ],
+      "confidence": "high",
+      "source_url": "https://ncte.gov.in/Website/RecognizedInstitutions.aspx/RecognizedInstitutions.aspx",
+      "evidence": "NCTE's official recognised-institutions service lists B.Ed institutions across multiple management types and affiliating universities.",
+      "notes": [
+        "This is a mixed catalogue/category row, not one identifiable college; it cannot receive one institution_group without splitting it into actual institutions."
+      ]
+    },
+    {
+      "database_id": 44,
+      "name": "Coursera / edX MicroMasters",
+      "outcome": "classified",
+      "group_code": "G9",
+      "family_slug": "commercial_mooc",
+      "ownership": "private",
+      "statutory_basis": "company",
+      "admits_students": 1,
+      "is_family_record": 1,
+      "regulators": [],
+      "confidence": "high",
+      "source_url": "https://support.edx.org/hc/en-us/articles/227511108-What-are-MicroMasters-programs",
+      "evidence": "Coursera and edX provide online courses and professional/MicroMasters credentials from partner institutions; edX states that a MicroMasters credential is not itself a university admission or degree. This is an online learning-platform category, not a university.",
+      "notes": [
+        "Keep awarding universities as separate providers; the platform row should not be treated as a degree-granting institution."
+      ]
+    },
+    {
+      "database_id": 48,
+      "name": "XLRI",
+      "outcome": "classified",
+      "group_code": "G8",
+      "family_slug": "standalone_pgdm",
+      "ownership": "private",
+      "statutory_basis": "society",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "AICTE"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.xlri.ac.in/newsroom/press-releases/xlri-opens-admissions-for-blended-pgdm-programs-2026",
+      "evidence": "XLRI's official release identifies its AICTE-approved PGDM programmes and describes XLRI as a business school founded by the Society of Jesus; it is not a UGC university.",
+      "notes": []
+    },
+    {
+      "database_id": 56,
+      "name": "Chennai Mathematical Institute",
+      "outcome": "classified",
+      "group_code": "G5",
+      "family_slug": "private_deemed",
+      "ownership": "private",
+      "statutory_basis": "ugc_deemed",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.cmi.ac.in/admissions/brochure/2026/cmi-brochure-2026.pdf",
+      "evidence": "CMI's official 2026 brochure states that it was recognised as a university under Section 3 of the UGC Act in 2006 and directly awards B.S., M.Sc. and Ph.D. degrees.",
+      "notes": []
+    },
+    {
+      "database_id": 62,
+      "name": "Amity University (Actuarial Science)",
+      "outcome": "classified",
+      "group_code": "G7",
+      "family_slug": "private_university",
+      "ownership": "private",
+      "statutory_basis": "state_act",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC",
+        "IAI"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.amity.edu/course-details.aspx?cfn=7HhnKJ6fBhI%3D&fd=FzNymoX3dH0%3D",
+      "evidence": "Amity's official course page identifies the Noida B.Sc. Actuarial Science programme as a programme of Amity University Uttar Pradesh; the record is a programme-specific legacy row whose parent is the UGC-listed state private university.",
+      "notes": [
+        "Parent-institute linking should point this programme row to Amity University Uttar Pradesh."
+      ]
+    },
+    {
+      "database_id": 63,
+      "name": "Bishop Heber College",
+      "outcome": "classified",
+      "group_code": "G6",
+      "family_slug": "aided_autonomous_college",
+      "ownership": "govt_aided",
+      "statutory_basis": "autonomous_affiliated_college",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC",
+        "AICTE",
+        "NAAC"
+      ],
+      "confidence": "high",
+      "source_url": "https://bhc.edu.in/bhc/nirf/2026/BHC_Institutional_Profile_2026.pdf",
+      "evidence": "Bishop Heber's official institutional profile identifies it as an autonomous institution affiliated to Bharathidasan University, with aided and self-financed programmes; its official site records UGC/AICTE approval and NAAC accreditation.",
+      "notes": [
+        "The college has both aided and self-financed streams; govt_aided reflects its aided/autonomous institutional classification, not state ownership."
+      ]
+    },
+    {
+      "database_id": 66,
+      "name": "Presidency University Kolkata",
+      "outcome": "classified",
+      "group_code": "G4",
+      "family_slug": null,
+      "ownership": "state_govt",
+      "statutory_basis": "Presidency University Act, 2010 (West Bengal)",
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [
+        "UGC",
+        "Government of West Bengal"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.presiuniv.ac.in/web/about-us/",
+      "evidence": "The university's official institutional information describes Presidency University Kolkata as a university established by the Government of West Bengal under the Presidency University Act, 2010, and its official site publishes undergraduate and postgraduate admissions.",
+      "notes": [
+        "State public university; no matching canonical family row was found in the families table."
+      ]
+    },
+    {
+      "database_id": 69,
+      "name": "Shri Ram College of Commerce (SRCC)",
+      "outcome": "classified",
+      "group_code": "G6",
+      "family_slug": "aided_autonomous_college",
+      "ownership": "central_govt",
+      "statutory_basis": "Constituent college of the University of Delhi (Central University)",
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [
+        "UGC",
+        "University of Delhi"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.srcc.edu/disclaimer",
+      "evidence": "SRCC's official website states that Shri Ram College of Commerce is a constituent college of the University of Delhi; its official prospectus and departments pages list undergraduate and postgraduate courses and admissions.",
+      "notes": [
+        "Constituent-college row, not a separate university."
+      ]
+    },
+    {
+      "database_id": 70,
+      "name": "Loyola College",
+      "outcome": "classified",
+      "group_code": "G6",
+      "family_slug": "aided_autonomous_college",
+      "ownership": "govt_aided",
+      "statutory_basis": "UGC autonomous college affiliated to the University of Madras; grant-in-aid and self-financing institution",
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [
+        "UGC",
+        "University of Madras",
+        "NAAC"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.loyolacollege.edu/about/profile-loyola",
+      "evidence": "Loyola's official profile identifies it as Loyola College (Autonomous), affiliated to the University of Madras, with grant-in-aid and self-financing categories, UGC recognition and undergraduate, postgraduate and PhD programmes.",
+      "notes": [
+        "Autonomous affiliated college; degrees are conferred by the University of Madras."
+      ]
+    },
+    {
+      "database_id": 71,
+      "name": "St. Xaviers College",
+      "outcome": "classified",
+      "group_code": "G6",
+      "family_slug": "aided_autonomous_college",
+      "ownership": "govt_aided",
+      "statutory_basis": "Empowered autonomous constituent college affiliated to the University of Mumbai under the Maharashtra State Public Universities Act, 2016",
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [
+        "UGC",
+        "University of Mumbai",
+        "NAAC"
+      ],
+      "confidence": "high",
+      "source_url": "https://xaviers.edu/files/HANDBOOK%202024-25.pdf",
+      "evidence": "The official handbook states that St. Xavier's College is an empowered autonomous college affiliated with the University of Mumbai and conducts government-aided and self-financing degree courses; the official admissions site lists current UG and PG admissions.",
+      "notes": [
+        "Name retained exactly as supplied; official branding uses St. Xavier's College."
+      ]
+    },
+    {
+      "database_id": 72,
+      "name": "Narsee Monjee College of Commerce and Economics",
+      "outcome": "classified",
+      "group_code": "G6",
+      "family_slug": "aided_autonomous_college",
+      "ownership": "trust",
+      "statutory_basis": "Empowered autonomous college affiliated to the University of Mumbai",
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [
+        "UGC",
+        "University of Mumbai",
+        "NAAC"
+      ],
+      "confidence": "high",
+      "source_url": "https://nmcollege.in/",
+      "evidence": "The college's official website identifies Narsee Monjee College of Commerce & Economics as an empowered autonomous college affiliated to the University of Mumbai and provides undergraduate admission requirements.",
+      "notes": [
+        "Managed by Shri Vile Parle Kelavani Mandal; funding classification was not stated on the official page, so ownership is recorded as trust."
+      ]
+    },
+    {
+      "database_id": 73,
+      "name": "Christ University",
+      "outcome": "classified",
+      "group_code": "G5",
+      "family_slug": "private_deemed",
+      "ownership": "private",
+      "statutory_basis": "Deemed to be University under Section 3 of the UGC Act, 1956 (Gazette notification, 22 July 2008)",
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [
+        "UGC",
+        "Ministry of Education",
+        "NAAC"
+      ],
+      "confidence": "high",
+      "source_url": "https://online.christuniversity.in/disclosures",
+      "evidence": "CHRIST's official disclosures identify it as CHRIST (Deemed to be University), recognised by the Ministry of Education under Section 3 of the UGC Act, with Christ Educational Society as sponsoring body; the university publishes undergraduate and postgraduate programmes.",
+      "notes": [
+        "Private deemed university; the canonical family row is private_deemed."
+      ]
+    },
+    {
+      "database_id": 74,
+      "name": "Symbiosis College of Arts and Commerce",
+      "outcome": "classified",
+      "group_code": "G6",
+      "family_slug": "aided_autonomous_college",
+      "ownership": "govt_aided",
+      "statutory_basis": "UGC autonomous grant-in-aid college affiliated to Savitribai Phule Pune University",
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [
+        "UGC",
+        "Savitribai Phule Pune University",
+        "NAAC"
+      ],
+      "confidence": "high",
+      "source_url": "https://symbiosiscollege.edu.in/about",
+      "evidence": "The official college page states that Symbiosis College of Arts and Commerce is autonomous under UGC, continues under Savitribai Phule Pune University for degree conferral, and offers undergraduate, postgraduate and PhD programmes; its official prospectus identifies it as grant-in-aid.",
+      "notes": [
+        "This is the autonomous affiliated college, not Symbiosis International (a separate deemed university)."
+      ]
+    },
+    {
+      "database_id": 75,
+      "name": "Lady Shri Ram College for Women",
+      "outcome": "classified",
+      "group_code": "G6",
+      "family_slug": "aided_autonomous_college",
+      "ownership": "central_govt",
+      "statutory_basis": "Constituent college of the University of Delhi (Central University)",
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [
+        "UGC",
+        "University of Delhi",
+        "NAAC"
+      ],
+      "confidence": "high",
+      "source_url": "https://lsr.edu.in/wp-content/uploads/2019/08/LSR-NAAC-SSR_2015.pdf",
+      "evidence": "LSR's official NAAC self-study report identifies Lady Shri Ram College as a constituent college of the University of Delhi; the official college site describes its student-facing undergraduate and postgraduate programmes.",
+      "notes": [
+        "Constituent-college row under the central University of Delhi."
+      ]
+    },
+    {
+      "database_id": 76,
+      "name": "St. Josephs College of Commerce",
+      "outcome": "classified",
+      "group_code": "G6",
+      "family_slug": "aided_autonomous_college",
+      "ownership": "trust",
+      "statutory_basis": "UGC autonomous college affiliated to Bengaluru City University; managed by Bangalore Jesuit Educational Society",
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [
+        "UGC",
+        "Bengaluru City University",
+        "NAAC"
+      ],
+      "confidence": "high",
+      "source_url": "https://sjcc.edu.in/institution.php",
+      "evidence": "The official institution page states that St Joseph's College of Commerce is managed by the Bangalore Jesuit Educational Society and received autonomous status from UGC; official admission materials identify current BCom and other programmes affiliated to Bengaluru City University.",
+      "notes": [
+        "Name retained exactly as supplied; official branding uses St. Joseph's College of Commerce."
+      ]
+    },
+    {
+      "database_id": 77,
+      "name": "Hans Raj College",
+      "outcome": "classified",
+      "group_code": "G6",
+      "family_slug": "aided_autonomous_college",
+      "ownership": "central_govt",
+      "statutory_basis": "Constituent college of the University of Delhi (Central University)",
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [
+        "UGC",
+        "University of Delhi",
+        "NAAC"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.hansrajcollege.ac.in/about/thecollege",
+      "evidence": "Hans Raj College's official page states that it is a constituent college of the University of Delhi and imparts education at undergraduate and graduate levels to students.",
+      "notes": [
+        "Existing legacy-type research also confirmed the constituent-college status from this official page."
+      ]
+    },
+    {
+      "database_id": 78,
+      "name": "Presidency College",
+      "outcome": "classified",
+      "group_code": "G6",
+      "family_slug": null,
+      "ownership": "state_govt",
+      "statutory_basis": "state_act",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.presidencycollege.ac.in",
+      "evidence": "The official Presidency College Chennai site identifies the institution as a government college under the Government of Tamil Nadu.",
+      "notes": []
+    },
+    {
+      "database_id": 84,
+      "name": "XLRI - Xavier School of Management",
+      "outcome": "classified",
+      "group_code": "G8",
+      "family_slug": "standalone_pgdm",
+      "ownership": "private",
+      "statutory_basis": "society",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "AICTE"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.xlri.ac.in",
+      "evidence": "XLRI's official site identifies it as a private management school offering postgraduate management programmes; it is not a university in the UGC university categories.",
+      "notes": []
+    },
+    {
+      "database_id": 85,
+      "name": "SP Jain Institute of Management and Research",
+      "outcome": "classified",
+      "group_code": "G8",
+      "family_slug": "standalone_pgdm",
+      "ownership": "private",
+      "statutory_basis": "trust",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "AICTE"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.spjimr.org",
+      "evidence": "SPJIMR's official site identifies it as a private management institute offering postgraduate management programmes rather than a UGC university.",
+      "notes": []
+    },
+    {
+      "database_id": 86,
+      "name": "Madras School of Economics",
+      "outcome": "classified",
+      "group_code": "G6",
+      "family_slug": null,
+      "ownership": "state_govt",
+      "statutory_basis": "state_act",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC",
+        "AICTE"
+      ],
+      "confidence": "high",
+      "source_url": "https://mse.ac.in/institute-of-special-importance/",
+      "evidence": "MSE's official site says the Government of Tamil Nadu enacted the Madras School of Economics Act 2020 and granted it Institution of Special Importance and degree-awarding authority.",
+      "notes": [
+        "Stored in G6 because it is a state statutory autonomous institute, not a central or state university family."
+      ]
+    },
+    {
+      "database_id": 87,
+      "name": "Delhi School of Economics",
+      "outcome": "classified",
+      "group_code": "G3",
+      "family_slug": "central_university",
+      "ownership": "central_govt",
+      "statutory_basis": "central_act",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://econdse.org",
+      "evidence": "The official Delhi School of Economics site identifies it as the Department of Economics of the University of Delhi, a central university.",
+      "notes": [
+        "Department-level record; parent-institute linking should be handled by the department cleanup pass."
+      ]
+    },
+    {
+      "database_id": 88,
+      "name": "Jamnalal Bajaj Institute of Management Studies (JBIMS)",
+      "outcome": "classified",
+      "group_code": "G4",
+      "family_slug": "state_university",
+      "ownership": "state_govt",
+      "statutory_basis": "state_act",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.jbims.edu",
+      "evidence": "JBIMS's official site identifies it as a constituent management institute of the University of Mumbai, a state public university.",
+      "notes": [
+        "Department/constituent-institute parent linking should be handled by the cleanup pass."
+      ]
+    },
+    {
+      "database_id": 91,
+      "name": "IIIT Hyderabad",
+      "outcome": "classified",
+      "group_code": "G5",
+      "family_slug": null,
+      "ownership": "private",
+      "statutory_basis": "state_act",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.iiit.ac.in",
+      "evidence": "IIIT Hyderabad is an autonomous university established by the International Institute of Information Technology Hyderabad Act and is outside the MoE-funded IIIT group.",
+      "notes": [
+        "Domain family is computing; the current families table has no dedicated IIIT-H deemed-family slug."
+      ]
+    },
+    {
+      "database_id": 94,
+      "name": "DOEACC / NIELIT",
+      "outcome": "classified",
+      "group_code": "G3",
+      "family_slug": "nielit",
+      "ownership": "central_govt",
+      "statutory_basis": "autonomous_society",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "MeitY"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.nielit.gov.in/node/26664",
+      "evidence": "MeitY's official NIELIT page describes NIELIT, formerly DOEACC Society, as an autonomous scientific society under MeitY providing degree, diploma and skilling programmes.",
+      "notes": []
+    },
+    {
+      "database_id": 95,
+      "name": "Manipal Institute of Technology",
+      "outcome": "classified",
+      "group_code": "G5",
+      "family_slug": null,
+      "ownership": "private",
+      "statutory_basis": "ugc_deemed",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC",
+        "AICTE"
+      ],
+      "confidence": "high",
+      "source_url": "https://manipal.edu/mit.html",
+      "evidence": "The official MIT Manipal site identifies it as a constituent institute of Manipal Academy of Higher Education, a deemed-to-be university.",
+      "notes": [
+        "Parent-university linkage should be added when the deemed-university family batch is processed."
+      ]
+    },
+    {
+      "database_id": 97,
+      "name": "Bombay Stock Exchange (BSE) Institute",
+      "outcome": "classified",
+      "group_code": "G10b",
+      "family_slug": null,
+      "ownership": "private",
+      "statutory_basis": "company",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "SEBI"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.bsebti.com",
+      "evidence": "BSE Institute's official site presents professional finance and capital-market training and certification programmes, not a degree-granting university or college.",
+      "notes": [
+        "G10b is Phase 2 in the plan; keep listed=0 when this result is eventually imported."
+      ]
+    },
+    {
+      "database_id": 99,
+      "name": "National Institute of Financial Management (NIFM)",
+      "outcome": "classified",
+      "group_code": "G3",
+      "family_slug": null,
+      "ownership": "central_govt",
+      "statutory_basis": "Autonomous institution of the Ministry of Finance, Government of India",
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [
+        "Ministry of Finance"
+      ],
+      "confidence": "high",
+      "source_url": "https://cgda.nic.in/adm/circular/nifm16102015.pdf",
+      "evidence": "The Government of India document identifies NIFM as an autonomous institution of the Ministry of Finance, Government of India, at Faridabad. The institute's official education offering includes postgraduate financial-management programmes, so it admits students.",
+      "notes": [
+        "Classified as a central-government institute, not a university. Family row is not present in the current families table."
+      ]
+    },
+    {
+      "database_id": 100,
+      "name": "Institute of Financial Management and Research (IFMR)",
+      "outcome": "classified",
+      "group_code": "G7",
+      "family_slug": null,
+      "ownership": "private",
+      "statutory_basis": "Graduate School of Business of Krea University; private university constituent school",
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [
+        "UGC",
+        "Krea University"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.ifmr.ac.in/",
+      "evidence": "IFMR's official website describes IFMR Graduate School of Business as part of Krea University and lists BBA, integrated MBA, MBA, MSc Finance, PhD and executive programmes with admissions. Krea is a private university, so this current IFMR record belongs to the private-university constituent group.",
+      "notes": [
+        "The legacy name predates the Krea integration; keep the institute record but add a parent-institute relationship to Krea University when available."
+      ]
+    },
+    {
+      "database_id": 101,
+      "name": "CFA Institute (India Chapter)",
+      "outcome": "classified",
+      "group_code": "G10a",
+      "family_slug": "foreign_professional_body",
+      "ownership": null,
+      "statutory_basis": "International professional association and owner of the CFA Program and CFA charter",
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [
+        "CFA Institute"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.cfainstitute.org/programs/cfa-program/charter",
+      "evidence": "CFA Institute's official charter page states that it administers the three-level CFA Program and awards the CFA charter after examinations, qualifying work experience and membership. This is a professional-route owner, not a university or college.",
+      "notes": [
+        "The India Chapter is a local society/community record under the global CFA Institute; ownership is not applicable for G10a."
+      ]
+    },
+    {
+      "database_id": 105,
+      "name": "Srishti Manipal Institute of Art Design and Technology",
+      "outcome": "classified",
+      "group_code": "G5",
+      "family_slug": null,
+      "ownership": "private",
+      "statutory_basis": "Constituent/off-campus branch of Manipal Academy of Higher Education, an institution deemed to be a university under Section 3 of the UGC Act, 1956",
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [
+        "UGC",
+        "MAHE"
+      ],
+      "confidence": "high",
+      "source_url": "https://srishtimanipalinstitute.in/",
+      "evidence": "The official Srishti Manipal site states that the institute is part of MAHE's Bengaluru off-campus/branch campus and lists B.Voc, B.Des/BFA, PG Diploma, M.Des and M.A. programmes. MAHE is a deemed-to-be university, so the constituent institute maps to G5.",
+      "notes": [
+        "Family row is not present in the current families table; leave family_slug null until the canonical MAHE/Srishti family mapping is added."
+      ]
+    },
+    {
+      "database_id": 107,
+      "name": "CEPT University",
+      "outcome": "classified",
+      "group_code": "G7",
+      "family_slug": null,
+      "ownership": "private",
+      "statutory_basis": "CEPT University Act, 2005 (Gujarat); UGC Section 2(f) recognition",
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [
+        "UGC",
+        "Government of Gujarat"
+      ],
+      "confidence": "high",
+      "source_url": "https://cept.ac.in/about-cept-university",
+      "evidence": "CEPT's official About page says it was incorporated as a university by the Government of Gujarat in 2005 and recognized by UGC under Section 2(f) in 2007. Its official home page identifies it as a private university and lists undergraduate, postgraduate and doctoral programmes.",
+      "notes": [
+        "Family row is not present in the current families table; leave family_slug null until the canonical CEPT family is added."
+      ]
+    },
+    {
+      "database_id": 110,
+      "name": "Sir JJ College of Architecture",
+      "outcome": "classified",
+      "group_code": "G5",
+      "family_slug": null,
+      "ownership": "private",
+      "statutory_basis": "Constituent architecture school of Sir J.J. School of Art, Architecture and Design, declared deemed-to-be university under the de-novo category",
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [
+        "UGC",
+        "Council of Architecture"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.sirjjuniv.in/academics/architecture",
+      "evidence": "The current official Sir J.J. university site identifies the School of Art, Architecture and Design as a deemed-to-be university under the de-novo category and lists B.Arch and M.Arch admissions. The legacy College of Architecture record is therefore classified under the current deemed-university parent.",
+      "notes": [
+        "This record likely needs a parent_institute_id linking it to the Sir J.J. School of Art, Architecture and Design row when that parent is loaded."
+      ]
+    },
+    {
+      "database_id": 111,
+      "name": "Lovely Professional University",
+      "outcome": "classified",
+      "group_code": "G7",
+      "family_slug": null,
+      "ownership": "private",
+      "statutory_basis": "Lovely Professional University Act, 2005 (Punjab); UGC-recognized private university",
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [
+        "UGC",
+        "Government of Punjab"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.lpu.in/",
+      "evidence": "LPU's official site identifies Lovely Professional University as a private university in Punjab and provides admissions across undergraduate, postgraduate and doctoral programmes.",
+      "notes": [
+        "Family row is not present in the current families table; leave family_slug null until the canonical LPU family is added."
+      ]
+    },
+    {
+      "database_id": 112,
+      "name": "MAEER MIT Institute of Design",
+      "outcome": "classified",
+      "group_code": "G7",
+      "family_slug": null,
+      "ownership": "private",
+      "statutory_basis": "Constituent institute of MIT Art, Design and Technology University, Pune",
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [
+        "UGC",
+        "MIT Art, Design and Technology University"
+      ],
+      "confidence": "high",
+      "source_url": "https://mituniversity.ac.in/programs/programs-offered",
+      "evidence": "The official MIT ADT University programmes page lists MIT Institute of Design programmes including B.Des, M.Des and PG Diploma offerings. It is a constituent institute of the private MIT Art, Design and Technology University.",
+      "notes": [
+        "Family row is not present in the current families table; leave family_slug null until the canonical MIT ADT family is added."
+      ]
+    },
+    {
+      "database_id": 113,
+      "name": "JJ School of Art Mumbai",
+      "outcome": "classified",
+      "group_code": "G5",
+      "family_slug": null,
+      "ownership": "private",
+      "statutory_basis": "Sir J.J. School of Art, Architecture and Design declared deemed-to-be university under the de-novo category",
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [
+        "UGC",
+        "AICTE"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.sirjjuniv.in/",
+      "evidence": "The current official Sir J.J. site identifies Sir J.J. School of Art, Architecture and Design as a deemed-to-be university under the de-novo category and lists degree admissions including applied art and architecture programmes.",
+      "notes": [
+        "The legacy school record should eventually be linked as a child/constituent record of the current Sir J.J. deemed university."
+      ]
+    },
+    {
+      "database_id": 114,
+      "name": "College of Architecture Trivandrum",
+      "outcome": "classified",
+      "group_code": "G8",
+      "family_slug": null,
+      "ownership": "private",
+      "statutory_basis": "Privately owned, stand-alone self-financing institute affiliated to APJ Abdul Kalam Technological University; architecture programme approved by the Council of Architecture",
+      "admits_students": true,
+      "is_family_record": false,
+      "regulators": [
+        "Council of Architecture",
+        "AICTE",
+        "APJ Abdul Kalam Technological University"
+      ],
+      "confidence": "high",
+      "source_url": "https://cat.edu.in/about-us/",
+      "evidence": "The official CAT About page explicitly calls the institute privately owned and stand-alone, says it is self-financing, confirms B.Arch/B.Des/BMS programmes, and identifies affiliation to APJ Abdul Kalam Technological University with COA/AICTE approval.",
+      "notes": [
+        "G8 is appropriate because this is a private affiliated standalone college, not a private university. Family row is not present in the current families table."
+      ]
+    }
+  ],
+  "database_apply_status": "not_applied",
+  "database_apply_note": "Private/trust rows still need structured UGC Yes/No evidence before import."
+}

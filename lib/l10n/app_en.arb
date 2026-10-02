@@ -335,5 +335,79 @@
   "ai_feedbackSubmit": "Submit",
   "ai_feedbackThanks": "Thanks for your feedback!",
   "ai_learnMore": "Learn more about this",
-  "ai_openInExplore": "Open in Explore"
+  "ai_openInExplore": "Open in Explore",
+  "institute_stepsTitle": "Steps",
+  "institute_ladderTitle": "College ladder",
+  "institute_locationFilterTooltip": "Filter by location",
+  "institute_ladderLoadError": "The institute ladder could not be loaded.",
+  "institute_noRouteData": "No route data is available yet.",
+  "institute_hidePrivateWithoutUgc": "Hide private institutions without UGC verification",
+  "institute_groupLabel": "Institution group",
+  "institute_familyLabel": "Institution family",
+  "institute_chooseProfessionalBody": "Choose the professional body",
+  "institute_relevantExams": "Relevant examinations",
+  "institute_entryRoutes": "Entry routes",
+  "institute_checkOfficialRoute": "Check the official route",
+  "institute_entryRequirementsVary": "Entry requirements vary by institution and programme.",
+  "institute_stepsAndEntryRoutes": "Steps and entry routes",
+  "institute_caCmaCsNote": "CA, CMA and CS are separate qualifications. The entry routes above are alternatives, not consecutive exam stages.",
+  "institute_allLabel": "All {label}",
+  "@institute_allLabel": {
+    "placeholders": {
+      "label": { "type": "String" }
+    }
+  },
+  "institute_online": "Online",
+  "institute_allIndia": "All India",
+  "institute_showingFilters": "Showing: {labels}",
+  "@institute_showingFilters": {
+    "placeholders": {
+      "labels": { "type": "String" }
+    }
+  },
+  "institute_clear": "Clear",
+  "institute_coverageInIndia": "{count} in India · {listed} listed",
+  "@institute_coverageInIndia": {
+    "placeholders": {
+      "count": { "type": "int" },
+      "listed": { "type": "int" }
+    }
+  },
+  "institute_coverageListed": "{count} listed",
+  "@institute_coverageListed": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "institute_noListedInTier": "No listed institutes in this tier for the selected filters.",
+  "institute_mappedLocationDisclaimer": "Mapped from existing institute records; not independently verified.",
+  "institute_notRanked": "Not ranked",
+  "institute_top10": "Top 10 · {label}",
+  "@institute_top10": {
+    "placeholders": {
+      "label": { "type": "String" }
+    }
+  },
+  "institute_nirfTop100": "NIRF Top 100 · {year}",
+  "@institute_nirfTop100": {
+    "placeholders": {
+      "year": { "type": "int" }
+    }
+  },
+  "institute_ugcVerified": "UGC verified ✓",
+  "institute_ugcNotVerified": "Not UGC verified",
+  "institute_ugcPending": "UGC verification pending",
+  "institute_locationUnavailable": "Location data is unavailable.",
+  "institute_studyLocation": "Study location",
+  "institute_stateOrUnionTerritory": "State / Union Territory",
+  "institute_district": "District",
+  "institute_cityTown": "City / Town",
+  "institute_applyLocation": "Apply location",
+  "institute_collegeLadderSubtitle": "{count} institution tiers · compare by rank and location",
+  "@institute_collegeLadderSubtitle": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "institute_entryRoutesSummary": "Entry routes"
 }

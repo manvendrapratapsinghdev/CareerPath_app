@@ -1,4 +1,7 @@
 import 'institute.dart';
+import 'institute_accreditation.dart';
+import 'institute_campus.dart';
+import 'institute_classification.dart';
 
 /// A course offered by an institute (from `institute_courses`).
 class InstituteCourse {
@@ -111,18 +114,24 @@ class InstituteRanking {
   String get label => '$system $year $category';
 }
 
-/// An institute with its courses, rankings and categories.
+/// An institute with courses, rankings, accreditations and taxonomy data.
 class InstituteRecord {
   final Institute institute;
   final List<InstituteCourse> courses;
   final List<InstituteRanking> rankings;
+  final List<InstituteAccreditation> accreditations;
   final List<String> categories;
+  final List<InstituteCampus> campuses;
+  final InstituteClassification? classification;
 
   const InstituteRecord({
     required this.institute,
     this.courses = const [],
     this.rankings = const [],
+    this.accreditations = const [],
     this.categories = const [],
+    this.campuses = const [],
+    this.classification,
   });
 
   factory InstituteRecord.fromJson(Map<String, dynamic> json) =>
@@ -134,9 +143,26 @@ class InstituteRecord {
         rankings: (json['rankings'] as List? ?? const [])
             .map((r) => InstituteRanking.fromJson(Map<String, dynamic>.from(r)))
             .toList(growable: false),
+        accreditations: (json['accreditations'] as List? ?? const [])
+            .map(
+              (a) =>
+                  InstituteAccreditation.fromJson(Map<String, dynamic>.from(a)),
+            )
+            .toList(growable: false),
         categories: (json['categories'] as List? ?? const [])
             .map((c) => c.toString())
             .toList(growable: false),
+        campuses: (json['campuses'] as List? ?? const [])
+            .map(
+              (campus) =>
+                  InstituteCampus.fromJson(Map<String, dynamic>.from(campus)),
+            )
+            .toList(growable: false),
+        classification: json['classification'] is Map
+            ? InstituteClassification.fromJson(
+                Map<String, dynamic>.from(json['classification'] as Map),
+              )
+            : null,
       );
 
   Map<String, dynamic> toJson() => {
@@ -151,6 +177,9 @@ class InstituteRecord {
     'description': institute.description,
     'courses': courses.map((c) => c.toJson()).toList(),
     'rankings': rankings.map((r) => r.toJson()).toList(),
+    'accreditations': accreditations.map((a) => a.toJson()).toList(),
     'categories': categories,
+    'campuses': campuses.map((campus) => campus.toJson()).toList(),
+    'classification': classification?.toJson(),
   };
 }

@@ -199,5 +199,79 @@
   "common_noneAvailableYet": "এখনও কিছু উপলব্ধ নেই",
   "common_byAuthor": "{author} দ্বারা",
   "common_viewBook": "বই দেখুন",
-  "common_visitWebsite": "ওয়েবসাইট দেখুন"
+  "common_visitWebsite": "ওয়েবসাইট দেখুন",
+  "institute_stepsTitle": "ধাপসমূহ",
+  "institute_ladderTitle": "প্রতিষ্ঠানের স্তরক্রম",
+  "institute_locationFilterTooltip": "অবস্থান অনুযায়ী ফিল্টার",
+  "institute_ladderLoadError": "প্রতিষ্ঠানের স্তরক্রম লোড করা যায়নি।",
+  "institute_noRouteData": "এখনও কোনো রুটের তথ্য পাওয়া যায়নি।",
+  "institute_hidePrivateWithoutUgc": "UGC যাচাই নেই এমন বেসরকারি প্রতিষ্ঠান লুকান",
+  "institute_groupLabel": "প্রতিষ্ঠান গোষ্ঠী",
+  "institute_familyLabel": "প্রতিষ্ঠানের ধরন",
+  "institute_chooseProfessionalBody": "পেশাগত সংস্থা বেছে নিন",
+  "institute_relevantExams": "প্রাসঙ্গিক পরীক্ষা",
+  "institute_entryRoutes": "ভর্তির পথ",
+  "institute_checkOfficialRoute": "সরকারি নির্দেশিকা দেখুন",
+  "institute_entryRequirementsVary": "প্রতিষ্ঠান ও প্রোগ্রাম অনুযায়ী ভর্তির শর্ত আলাদা হয়।",
+  "institute_stepsAndEntryRoutes": "ধাপ ও ভর্তির পথ",
+  "institute_caCmaCsNote": "CA, CMA ও CS আলাদা যোগ্যতা। উপরের ভর্তির পথগুলি বিকল্প, ধারাবাহিক পরীক্ষার ধাপ নয়।",
+  "institute_allLabel": "সব {label}",
+  "@institute_allLabel": {
+    "placeholders": {
+      "label": { "type": "String" }
+    }
+  },
+  "institute_online": "অনলাইন",
+  "institute_allIndia": "সারা ভারত",
+  "institute_showingFilters": "দেখানো হচ্ছে: {labels}",
+  "@institute_showingFilters": {
+    "placeholders": {
+      "labels": { "type": "String" }
+    }
+  },
+  "institute_clear": "মুছুন",
+  "institute_coverageInIndia": "ভারতে {count}টি · তালিকাভুক্ত {listed}টি",
+  "@institute_coverageInIndia": {
+    "placeholders": {
+      "count": { "type": "int" },
+      "listed": { "type": "int" }
+    }
+  },
+  "institute_coverageListed": "তালিকাভুক্ত {count}টি",
+  "@institute_coverageListed": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "institute_noListedInTier": "নির্বাচিত ফিল্টারে এই স্তরে কোনো প্রতিষ্ঠান তালিকাভুক্ত নেই।",
+  "institute_mappedLocationDisclaimer": "বিদ্যমান প্রতিষ্ঠানের নথি থেকে অবস্থান নেওয়া হয়েছে; স্বাধীনভাবে যাচাই করা হয়নি।",
+  "institute_notRanked": "র‌্যাঙ্ক করা হয়নি",
+  "institute_top10": "শীর্ষ ১০ · {label}",
+  "@institute_top10": {
+    "placeholders": {
+      "label": { "type": "String" }
+    }
+  },
+  "institute_nirfTop100": "NIRF-এর শীর্ষ ১০০ · {year}",
+  "@institute_nirfTop100": {
+    "placeholders": {
+      "year": { "type": "int" }
+    }
+  },
+  "institute_ugcVerified": "UGC যাচাইকৃত ✓",
+  "institute_ugcNotVerified": "UGC যাচাইকৃত নয়",
+  "institute_ugcPending": "UGC যাচাই বাকি",
+  "institute_locationUnavailable": "অবস্থানের তথ্য পাওয়া যায়নি।",
+  "institute_studyLocation": "পড়াশোনার অবস্থান",
+  "institute_stateOrUnionTerritory": "রাজ্য / কেন্দ্রশাসিত অঞ্চল",
+  "institute_district": "জেলা",
+  "institute_cityTown": "শহর / মফস্বল",
+  "institute_applyLocation": "অবস্থান প্রয়োগ করুন",
+  "institute_collegeLadderSubtitle": "{count}টি প্রতিষ্ঠানের স্তর · র‍্যাঙ্ক ও অবস্থান অনুযায়ী তুলনা করুন",
+  "@institute_collegeLadderSubtitle": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "institute_entryRoutesSummary": "ভর্তির পথ"
 }

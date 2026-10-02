@@ -199,5 +199,79 @@
   "common_noneAvailableYet": "ਅਜੇ ਕੁਝ ਉਪਲਬਧ ਨਹੀਂ",
   "common_byAuthor": "{author} ਦੁਆਰਾ",
   "common_viewBook": "ਕਿਤਾਬ ਦੇਖੋ",
-  "common_visitWebsite": "ਵੈੱਬਸਾਈਟ 'ਤੇ ਜਾਓ"
+  "common_visitWebsite": "ਵੈੱਬਸਾਈਟ 'ਤੇ ਜਾਓ",
+  "institute_stepsTitle": "ਕਦਮ",
+  "institute_ladderTitle": "ਸੰਸਥਾਵਾਂ ਦੀ ਪੱਧਰੀ ਸੂਚੀ",
+  "institute_locationFilterTooltip": "ਟਿਕਾਣੇ ਮੁਤਾਬਕ ਫਿਲਟਰ ਕਰੋ",
+  "institute_ladderLoadError": "ਸੰਸਥਾਵਾਂ ਦੀ ਪੱਧਰੀ ਸੂਚੀ ਲੋਡ ਨਹੀਂ ਹੋ ਸਕੀ।",
+  "institute_noRouteData": "ਹਾਲੇ ਰੂਟ ਦੀ ਜਾਣਕਾਰੀ ਉਪਲਬਧ ਨਹੀਂ ਹੈ।",
+  "institute_hidePrivateWithoutUgc": "UGC ਤਸਦੀਕ ਤੋਂ ਬਿਨਾਂ ਨਿੱਜੀ ਸੰਸਥਾਵਾਂ ਲੁਕਾਓ",
+  "institute_groupLabel": "ਸੰਸਥਾ ਸਮੂਹ",
+  "institute_familyLabel": "ਸੰਸਥਾ ਦੀ ਸ਼੍ਰੇਣੀ",
+  "institute_chooseProfessionalBody": "ਪੇਸ਼ਾਵਰ ਸੰਸਥਾ ਚੁਣੋ",
+  "institute_relevantExams": "ਸੰਬੰਧਿਤ ਪ੍ਰੀਖਿਆਵਾਂ",
+  "institute_entryRoutes": "ਦਾਖ਼ਲੇ ਦੇ ਰਸਤੇ",
+  "institute_checkOfficialRoute": "ਅਧਿਕਾਰਤ ਰਸਤਾ ਵੇਖੋ",
+  "institute_entryRequirementsVary": "ਸੰਸਥਾ ਅਤੇ ਪ੍ਰੋਗਰਾਮ ਮੁਤਾਬਕ ਦਾਖ਼ਲੇ ਦੀਆਂ ਸ਼ਰਤਾਂ ਵੱਖਰੀਆਂ ਹੁੰਦੀਆਂ ਹਨ।",
+  "institute_stepsAndEntryRoutes": "ਕਦਮ ਅਤੇ ਦਾਖ਼ਲੇ ਦੇ ਰਸਤੇ",
+  "institute_caCmaCsNote": "CA, CMA ਅਤੇ CS ਵੱਖ-ਵੱਖ ਯੋਗਤਾਵਾਂ ਹਨ। ਉੱਪਰ ਦਿੱਤੇ ਦਾਖ਼ਲੇ ਦੇ ਰਸਤੇ ਵਿਕਲਪ ਹਨ, ਲਗਾਤਾਰ ਪ੍ਰੀਖਿਆ ਦੇ ਪੜਾਅ ਨਹੀਂ।",
+  "institute_allLabel": "ਸਾਰੇ {label}",
+  "@institute_allLabel": {
+    "placeholders": {
+      "label": { "type": "String" }
+    }
+  },
+  "institute_online": "ਆਨਲਾਈਨ",
+  "institute_allIndia": "ਪੂਰਾ ਭਾਰਤ",
+  "institute_showingFilters": "ਦਿਖਾਇਆ ਜਾ ਰਿਹਾ ਹੈ: {labels}",
+  "@institute_showingFilters": {
+    "placeholders": {
+      "labels": { "type": "String" }
+    }
+  },
+  "institute_clear": "ਸਾਫ਼ ਕਰੋ",
+  "institute_coverageInIndia": "ਭਾਰਤ ਵਿੱਚ {count} · ਸੂਚੀ ਵਿੱਚ {listed}",
+  "@institute_coverageInIndia": {
+    "placeholders": {
+      "count": { "type": "int" },
+      "listed": { "type": "int" }
+    }
+  },
+  "institute_coverageListed": "ਸੂਚੀ ਵਿੱਚ {count}",
+  "@institute_coverageListed": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "institute_noListedInTier": "ਚੁਣੇ ਫਿਲਟਰਾਂ ਲਈ ਇਸ ਪੱਧਰ ਵਿੱਚ ਕੋਈ ਸੰਸਥਾ ਸੂਚੀਬੱਧ ਨਹੀਂ ਹੈ।",
+  "institute_mappedLocationDisclaimer": "ਟਿਕਾਣਾ ਮੌਜੂਦਾ ਸੰਸਥਾ ਰਿਕਾਰਡਾਂ ਤੋਂ ਲਿਆ ਗਿਆ ਹੈ; ਸੁਤੰਤਰ ਤੌਰ 'ਤੇ ਤਸਦੀਕ ਨਹੀਂ ਕੀਤਾ ਗਿਆ।",
+  "institute_notRanked": "ਰੈਂਕ ਨਹੀਂ",
+  "institute_top10": "ਸਿਖਰਲੇ 10 · {label}",
+  "@institute_top10": {
+    "placeholders": {
+      "label": { "type": "String" }
+    }
+  },
+  "institute_nirfTop100": "NIRF ਸਿਖਰਲੇ 100 · {year}",
+  "@institute_nirfTop100": {
+    "placeholders": {
+      "year": { "type": "int" }
+    }
+  },
+  "institute_ugcVerified": "UGC ਤਸਦੀਕਸ਼ੁਦਾ ✓",
+  "institute_ugcNotVerified": "UGC ਤਸਦੀਕਸ਼ੁਦਾ ਨਹੀਂ",
+  "institute_ugcPending": "UGC ਤਸਦੀਕ ਬਾਕੀ ਹੈ",
+  "institute_locationUnavailable": "ਟਿਕਾਣੇ ਦੀ ਜਾਣਕਾਰੀ ਉਪਲਬਧ ਨਹੀਂ ਹੈ।",
+  "institute_studyLocation": "ਪੜ੍ਹਾਈ ਦਾ ਟਿਕਾਣਾ",
+  "institute_stateOrUnionTerritory": "ਰਾਜ / ਕੇਂਦਰ-ਸ਼ਾਸਿਤ ਪ੍ਰਦੇਸ਼",
+  "institute_district": "ਜ਼ਿਲ੍ਹਾ",
+  "institute_cityTown": "ਸ਼ਹਿਰ / ਕਸਬਾ",
+  "institute_applyLocation": "ਟਿਕਾਣਾ ਲਾਗੂ ਕਰੋ",
+  "institute_collegeLadderSubtitle": "{count} ਸੰਸਥਾ ਪੱਧਰ · ਰੈਂਕ ਅਤੇ ਟਿਕਾਣੇ ਅਨੁਸਾਰ ਤੁਲਨਾ ਕਰੋ",
+  "@institute_collegeLadderSubtitle": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "institute_entryRoutesSummary": "ਦਾਖ਼ਲੇ ਦੇ ਰਸਤੇ"
 }

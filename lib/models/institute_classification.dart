@@ -23,7 +23,8 @@ class InstituteClassification {
   final bool listed;
 
   /// UGC Yes/No check, private institutions only: `true` = verified,
-  /// `false` = not verified, `null` = government (not applicable).
+  /// `false` = checked and not verified. `null` = not yet checked for
+  /// private/trust institutions, or not applicable for government rows.
   final bool? ugcVerified;
   final String? ugcListName;
   final String? ugcReferenceId;

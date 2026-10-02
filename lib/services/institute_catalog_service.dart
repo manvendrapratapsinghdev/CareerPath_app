@@ -1,7 +1,13 @@
 import '../data/local_database.dart';
 import '../models/domain_tier.dart';
 import '../models/institute_catalog.dart';
+import '../models/institute_campus.dart';
 import '../models/institute_classification.dart';
+import '../models/institute_accreditation.dart';
+import '../models/institute_location_filter.dart';
+import '../models/domain.dart';
+import '../models/institution_family.dart';
+import '../models/institution_group.dart';
 import 'course_levels.dart';
 import 'location_service.dart';
 import 'search_aliases.dart';
@@ -28,7 +34,7 @@ typedef InstituteMatches = ({
 
 /// The UGC line on an institute card (plan §8.6): only private rows are
 /// checked; government rows show no badge.
-enum UgcBadge { verified, notVerified, notApplicable }
+enum UgcBadge { verified, notVerified, pending, notApplicable }
 
 /// NIRF highlight on an institute card (plan §8.6).
 enum RankHighlight { none, top100, top10 }
@@ -40,6 +46,7 @@ class InstituteListing {
   final String? city;
   final String? district;
   final String? state;
+  final List<InstituteCampus> campuses;
 
   /// Null only for an institute that is not classified yet.
   final InstituteClassification? classification;
@@ -56,6 +63,7 @@ class InstituteListing {
 
   /// Institution-level NAAC grade, the fallback when there is no NIRF rank.
   final String? naacGrade;
+  final List<InstituteAccreditation> accreditations;
   final UgcBadge ugcBadge;
 
   const InstituteListing({
@@ -64,6 +72,7 @@ class InstituteListing {
     this.city,
     this.district,
     this.state,
+    this.campuses = const [],
     this.classification,
     this.groupName,
     this.familyName,
@@ -71,6 +80,7 @@ class InstituteListing {
     this.ranking,
     this.highlight = RankHighlight.none,
     this.naacGrade,
+    this.accreditations = const [],
     this.ugcBadge = UgcBadge.notApplicable,
   });
 
@@ -96,6 +106,9 @@ class InstituteFilter {
 
   /// A state or city from [LocationService.resolve].
   final ResolvedPlace? place;
+
+  /// Saved India → state → district → city selection for catalog screens.
+  final InstituteLocationFilter? locationFilter;
   final bool ugcVerifiedOnly;
   final bool admitsStudentsOnly;
 
@@ -106,6 +119,7 @@ class InstituteFilter {
     this.familySlug,
     this.ownerships = const {},
     this.place,
+    this.locationFilter,
     this.ugcVerifiedOnly = false,
     this.admitsStudentsOnly = false,
   });
@@ -233,16 +247,23 @@ class InstituteCatalogService {
   /// Source of the taxonomy (groups, families, tiers, rankings). Without
   /// it the ladder, filter and display APIs return empty / null.
   final LocalDatabase? _taxonomy;
+  final LocationService? _locations;
 
-  InstituteCatalogService(this._loader, {LocalDatabase? taxonomy})
-    : _taxonomy = taxonomy;
+  InstituteCatalogService(
+    this._loader, {
+    LocalDatabase? taxonomy,
+    LocationService? locations,
+  }) : _taxonomy = taxonomy,
+       _locations = locations;
 
   InstituteCatalogService.withRecords(
     List<InstituteRecord> records, {
     LocalDatabase? taxonomy,
+    LocationService? locations,
   }) : _loader = (() async => const []),
        _records = records,
-       _taxonomy = taxonomy;
+       _taxonomy = taxonomy,
+       _locations = locations;
 
   List<InstituteRecord> get records => _records ?? const [];
 
@@ -284,6 +305,14 @@ class InstituteCatalogService {
         })
         .whenComplete(() => _loading = null);
   }
+
+  /// Loads the shared location index used by typed chat, voice and filters.
+  Future<void> ensureLocationsLoaded() async {
+    await _locations?.ensureLoaded();
+  }
+
+  String? resolvePlaceLabel(String query) =>
+      _locations?.resolveLoaded(query)?.label;
 
   /// Two-token state names (e.g. "uttar" + "pradesh") that a single-token
   /// alias can't cover, since query tokens lose word order.
@@ -350,12 +379,16 @@ class InstituteCatalogService {
     }
     final requestedState = _requestedState(tokens);
     final requestedPlaces = _requestedPlaces(tokens);
+    final resolvedPlace = _locations?.resolveLoaded(query);
     final levels = CourseLevels.requested(tokens);
     final words = tokens.where((t) => !CourseLevels.isLevelWord(t)).toSet();
     final scored = <(InstituteMatch, int, bool)>[];
     var inPlace = 0;
     for (final record in records) {
-      if (!_isIn(record, requestedState, requestedPlaces)) continue;
+      final matchesPlace = resolvedPlace == null
+          ? _isIn(record, requestedState, requestedPlaces)
+          : _locations!.matchesRecord(resolvedPlace, record);
+      if (!matchesPlace) continue;
       final (:name, :place, state: _) = _searchText(record);
       inPlace++;
       final atLevel = levels.isEmpty
@@ -421,10 +454,15 @@ class InstituteCatalogService {
         0,
         (sum, entry) => sum + entry.$1.courses.length,
       ),
-      place: requestedPlaces.isNotEmpty
+      place: resolvedPlace != null
+          ? resolvedPlace.label
+          : requestedPlaces.isNotEmpty
           ? requestedPlaces.first.trim()
           : requestedState,
-      inPlace: requestedState != null || requestedPlaces.isNotEmpty
+      inPlace:
+          resolvedPlace != null ||
+              requestedState != null ||
+              requestedPlaces.isNotEmpty
           ? inPlace
           : 0,
       levels: levels,
@@ -469,9 +507,11 @@ class InstituteCatalogService {
   List<String> get coveredStates => _covered ??= () {
     final counts = <String, int>{};
     for (final record in records) {
-      final state = record.institute.state?.trim();
-      if (state != null && state.isNotEmpty) {
-        counts[state] = (counts[state] ?? 0) + 1;
+      final states = _locations?.hasCampusScopedLocationData == true
+          ? record.campuses.map((campus) => campus.stateName.trim()).toSet()
+          : {record.institute.state?.trim() ?? ''};
+      for (final state in states) {
+        if (state.isNotEmpty) counts[state] = (counts[state] ?? 0) + 1;
       }
     }
     final states = counts.keys.toList()
@@ -524,12 +564,26 @@ class InstituteCatalogService {
   /// sorted NIRF rank → band → NAAC grade → name. Family summary rows,
   /// unlisted rows and campuses/departments of another institute are left
   /// out. Tiers with no institute are kept (empty list).
-  Future<List<LadderTier>> ladderFor(String domainSlug) async {
+  Future<List<LadderTier>> ladderFor(
+    String domainSlug, {
+    InstituteLocationFilter? locationFilter,
+    bool ugcVerifiedOnly = false,
+    String? groupCode,
+    String? familySlug,
+  }) async {
     final db = _taxonomy;
     if (db == null) return const [];
     final tiers = await db.getDomainTiers(domainSlug);
     if (tiers.isEmpty) return const [];
-    final listings = await filter(InstituteFilter(domainSlug: domainSlug));
+    final listings = await filter(
+      InstituteFilter(
+        domainSlug: domainSlug,
+        locationFilter: locationFilter,
+        ugcVerifiedOnly: ugcVerifiedOnly,
+        groupCode: groupCode,
+        familySlug: familySlug,
+      ),
+    );
     return [
       for (final tier in tiers)
         (
@@ -564,12 +618,111 @@ class InstituteCatalogService {
       final record = _recordsById[id];
       if (classification == null || record == null) continue;
       if (!_passes(filter, classification, record)) continue;
-      listings.add(
-        await _listing(db, taxonomy, record, classification, domain, tier),
-      );
+      listings.add(_listing(taxonomy, record, classification, domain, tier));
     }
     listings.sort(_compareListings);
     return listings;
+  }
+
+  /// Database-defined domain list for catalog navigation.
+  Future<List<Domain>> getDomains() async {
+    final db = _taxonomy;
+    return db == null ? const [] : db.getDomains();
+  }
+
+  Future<List<InstitutionFamily>> getFamilies({String? groupCode}) async {
+    final db = _taxonomy;
+    return db == null ? const [] : db.getFamilies(groupCode: groupCode);
+  }
+
+  Future<List<InstitutionGroup>> getInstitutionGroups() async {
+    final db = _taxonomy;
+    return db == null ? const [] : db.getInstitutionGroups();
+  }
+
+  InstituteRecord? recordById(int instituteId) => _recordsById[instituteId];
+
+  /// Matches a student's college/ranking question to a known domain and
+  /// returns the already ranked ladder results, narrowed with the same place
+  /// resolver used by the UI. Null means this was not a domain ladder query.
+  Future<List<InstituteListing>?> ladderSearch(
+    String query, {
+    int limit = 8,
+    bool verifiedOnly = false,
+  }) async {
+    final db = _taxonomy;
+    if (db == null) return null;
+    await ensureLoaded();
+    await ensureLocationsLoaded();
+    final domains = await db.getDomains();
+    final compactQuery = LocationService.compact(query);
+    final words = RegExp(
+      r'[a-z0-9]+',
+    ).allMatches(query.toLowerCase()).map((match) => match.group(0)!).toSet();
+    final candidates = <(Domain, int)>[];
+    const domainAliases = <String, Set<String>>{
+      'engineering': {'engg', 'btech', 'iit', 'jee'},
+      'medical': {'mbbs', 'doctor', 'doctors', 'aiims', 'neet'},
+      'management': {'mba', 'iim', 'cat'},
+      'law': {'llb', 'nlu', 'clat', 'lawyer'},
+      'ca_cma_cs': {'ca', 'cma', 'cs', 'icai', 'icsi', 'icmai'},
+      'pharmacy': {'pharmacy', 'bpharm', 'dpharm'},
+      'architecture': {'architecture', 'nata', 'architect'},
+      'agriculture': {'agriculture', 'agri', 'icar'},
+    };
+    for (final domain in domains) {
+      final terms = domain.name
+          .toLowerCase()
+          .split(RegExp(r'[^a-z0-9]+'))
+          .where((term) => term.length > 1 && term != 'and')
+          .toSet();
+      final compactName = LocationService.compact(domain.name);
+      final slugTerms = domain.slug.split('_').where((term) => term.length > 1);
+      final nameMatched =
+          compactName.isNotEmpty && compactQuery.contains(compactName);
+      final wordsMatched = terms.isNotEmpty && terms.every(words.contains);
+      final slugMatched =
+          slugTerms.isNotEmpty && slugTerms.every(words.contains);
+      final aliasMatched = (domainAliases[domain.slug] ?? const <String>{})
+          .intersection(words)
+          .isNotEmpty;
+      if (nameMatched || wordsMatched || slugMatched || aliasMatched) {
+        candidates.add((
+          domain,
+          nameMatched ? 100 + terms.length : (aliasMatched ? 20 : terms.length),
+        ));
+      }
+    }
+    if (candidates.isEmpty) return null;
+    candidates.sort((a, b) => b.$2.compareTo(a.$2));
+    final domain = candidates.first.$1;
+    final queryWords = words;
+    final asksForCatalog = queryWords.any(
+      const {
+        'college',
+        'colleges',
+        'university',
+        'universities',
+        'institute',
+        'institutes',
+        'rank',
+        'rankings',
+        'ranking',
+        'nirf',
+        'top',
+        'best',
+      }.contains,
+    );
+    if (!asksForCatalog || !domain.hasCollegeLadder) return null;
+    final place = _locations?.resolveLoaded(query);
+    final listings = await filter(
+      InstituteFilter(
+        domainSlug: domain.slug,
+        place: place,
+        ugcVerifiedOnly: verifiedOnly,
+      ),
+    );
+    return listings.take(limit).toList(growable: false);
   }
 
   /// Card info for one institute: group and family names, display ranking
@@ -594,16 +747,17 @@ class InstituteCatalogService {
         if (row.domainSlug == domainSlug) tier = row.tier;
       }
     }
-    return _listing(db, taxonomy, record, classification, domainSlug, tier);
+    return _listing(taxonomy, record, classification, domainSlug, tier);
   }
 
   /// The UGC line for a classification (plan §8.6).
   static UgcBadge ugcBadgeFor(InstituteClassification? classification) {
     if (classification == null) return UgcBadge.notApplicable;
     if (classification.ugcVerified == true) return UgcBadge.verified;
-    if (classification.ugcVerified == false || classification.isPrivate) {
+    if (classification.ugcVerified == false) {
       return UgcBadge.notVerified;
     }
+    if (classification.isPrivate) return UgcBadge.pending;
     return UgcBadge.notApplicable;
   }
 
@@ -623,7 +777,7 @@ class InstituteCatalogService {
     return RankHighlight.none;
   }
 
-  static bool _passes(
+  bool _passes(
     InstituteFilter filter,
     InstituteClassification classification,
     InstituteRecord record,
@@ -644,32 +798,75 @@ class InstituteCatalogService {
       return false;
     }
     if (filter.ugcVerifiedOnly &&
-        ugcBadgeFor(classification) == UgcBadge.notVerified) {
+        classification.isPrivate &&
+        classification.ugcVerified != true) {
       return false;
+    }
+    final locationFilter = filter.locationFilter;
+    if (locationFilter != null) {
+      return _locations?.matchesFilter(locationFilter, record) ??
+          _matchesLocationFilter(locationFilter, record);
     }
     final place = filter.place;
     final institute = record.institute;
     return place == null ||
-        place.matches(
-          city: institute.city,
-          district: institute.district,
-          state: institute.state,
-        );
+        (_locations?.matchesRecord(place, record) ??
+            place.matches(
+                  city: institute.city,
+                  district: institute.district,
+                  state: institute.state,
+                ) ||
+                record.campuses.any(place.matchesCampus));
   }
 
-  Future<InstituteListing> _listing(
-    LocalDatabase db,
+  static bool _matchesLocationFilter(
+    InstituteLocationFilter filter,
+    InstituteRecord record,
+  ) {
+    if (filter.isAllIndia) return true;
+    if (filter.onlineOnly) {
+      return (record.institute.city ?? '').toLowerCase().contains('online') ||
+          record.courses.any(
+            (course) => (course.mode ?? '').toLowerCase().contains('online'),
+          );
+    }
+    final campuses = record.campuses;
+    if (filter.placeId != null) {
+      return campuses.any((campus) => campus.placeId == filter.placeId) ||
+          (campuses.isEmpty &&
+              LocationService.compact(record.institute.city) ==
+                  LocationService.compact(filter.placeName));
+    }
+    if (filter.districtLgd != null) {
+      return campuses.any(
+            (campus) => campus.districtLgd == filter.districtLgd,
+          ) ||
+          (campuses.isEmpty &&
+              LocationService.compact(record.institute.district) ==
+                  LocationService.compact(filter.districtName));
+    }
+    return campuses.any(
+          (campus) =>
+              campus.stateCode.toUpperCase() == filter.stateCode?.toUpperCase(),
+        ) ||
+        (campuses.isEmpty &&
+            LocationService.compact(record.institute.state) ==
+                LocationService.compact(filter.stateName));
+  }
+
+  InstituteListing _listing(
     _Taxonomy taxonomy,
     InstituteRecord record,
     InstituteClassification? classification,
     String? domainSlug,
     int? tier,
-  ) async {
+  ) {
     final id = record.institute.id;
-    final ranking = await db.getDisplayRanking(id, domainSlug: domainSlug);
+    final ranking = _displayRanking(record.rankings, domainSlug);
+    final accreditations = record.accreditations;
     String? naac;
     if (ranking == null) {
-      for (final accreditation in await db.getInstituteAccreditations(id)) {
+      for (final accreditation in accreditations) {
         if (accreditation.body == 'NAAC' && accreditation.grade != null) {
           naac = accreditation.grade;
           break;
@@ -677,12 +874,21 @@ class InstituteCatalogService {
       }
     }
     final institute = record.institute;
+    final hasCampusScopedLocations =
+        _locations?.hasCampusScopedLocationData == true;
     return InstituteListing(
       instituteId: id,
       name: institute.name,
-      city: institute.city,
-      district: institute.district,
-      state: institute.state,
+      city: hasCampusScopedLocations && record.campuses.isEmpty
+          ? null
+          : institute.city,
+      district: hasCampusScopedLocations && record.campuses.isEmpty
+          ? null
+          : institute.district,
+      state: hasCampusScopedLocations && record.campuses.isEmpty
+          ? null
+          : institute.state,
+      campuses: record.campuses,
       classification: classification,
       groupName: taxonomy.groupNames[classification?.groupCode],
       familyName: taxonomy.familyNames[classification?.familySlug],
@@ -690,8 +896,22 @@ class InstituteCatalogService {
       ranking: ranking,
       highlight: highlightFor(ranking),
       naacGrade: naac,
+      accreditations: accreditations,
       ugcBadge: ugcBadgeFor(classification),
     );
+  }
+
+  static InstituteRanking? _displayRanking(
+    List<InstituteRanking> rankings,
+    String? domainSlug,
+  ) {
+    final nirfRankings = rankings.where((ranking) => ranking.system == 'NIRF');
+    for (final category in nirfCategoriesFor(domainSlug)) {
+      for (final ranking in nirfRankings) {
+        if (ranking.category == category) return ranking;
+      }
+    }
+    return null;
   }
 
   static const _naacOrder = ['A++', 'A+', 'A', 'B++', 'B+', 'B', 'C'];
@@ -740,7 +960,10 @@ class InstituteCatalogService {
     final institute = record.institute;
     final lines = <String>[
       'Title: ${institute.name}',
-      if (institute.location != null) 'Location: ${institute.location}',
+      if (record.campuses.isNotEmpty)
+        'Mapped campus locations: ${record.campuses.map((campus) => '${campus.placeName}, ${campus.stateName}').toSet().join('; ')}',
+      if (record.campuses.any(_hasUnverifiedLocation))
+        'Location provenance: mapped from existing institute records; not independently verified',
       if (institute.website?.isNotEmpty == true)
         'Website: ${institute.website}',
       if (institute.description?.trim().isNotEmpty == true)
@@ -763,6 +986,55 @@ class InstituteCatalogService {
     ];
     return lines.join('\n');
   }
+
+  /// Grounding text for a classified institute, including only facts present
+  /// in the taxonomy and ranking tables.
+  String describeListing(InstituteListing listing) {
+    final record = _recordsById[listing.instituteId];
+    final classification = listing.classification;
+    final rank = listing.ranking;
+    final badge = listing.ugcBadge;
+    final campusLocations = listing.campuses
+        .map((campus) => '${campus.placeName}, ${campus.stateName}'.trim())
+        .toSet();
+    return [
+      'Title: ${listing.name}',
+      if (campusLocations.isNotEmpty)
+        'Campus locations: ${campusLocations.join('; ')}'
+      else if (listing.city != null || listing.state != null)
+        'Location: ${[listing.city, listing.state].whereType<String>().where((part) => part.isNotEmpty).join(', ')}',
+      if (campusLocations.isNotEmpty &&
+              listing.campuses.any(_hasUnverifiedLocation) ||
+          campusLocations.isEmpty &&
+              (listing.city != null || listing.state != null))
+        'Location provenance: mapped from existing institute records; not independently verified',
+      if (listing.groupName != null) 'Institution group: ${listing.groupName}',
+      if (listing.familyName != null)
+        'Institution family: ${listing.familyName}',
+      if (listing.tier != null) 'Domain tier: ${listing.tier}',
+      if (rank != null)
+        'Ranking: ${rank.label} #${rank.rankLabel}'
+      else if (listing.naacGrade != null)
+        'Accreditation: NAAC ${listing.naacGrade}'
+      else
+        'Ranking: Not ranked',
+      if (listing.highlight == RankHighlight.top10)
+        'Highlight: Top 10 · ${rank!.label}'
+      else if (listing.highlight == RankHighlight.top100)
+        'Highlight: NIRF Top 100 · ${rank!.year}',
+      if (badge == UgcBadge.verified) 'UGC status: verified',
+      if (badge == UgcBadge.notVerified) 'UGC status: not verified',
+      if (badge == UgcBadge.pending) 'UGC status: pending evidence',
+      if (classification?.regulators?.trim().isNotEmpty == true)
+        'Regulators: ${classification!.regulators}',
+      if (record?.institute.website?.isNotEmpty == true)
+        'Website: ${record!.institute.website}',
+    ].join('\n');
+  }
+
+  static bool _hasUnverifiedLocation(InstituteCampus campus) =>
+      campus.sourceUrl?.trim().isNotEmpty != true ||
+      campus.verifiedAt?.trim().isNotEmpty != true;
 
   static String _courseLabel(InstituteCourse course) {
     final details = [

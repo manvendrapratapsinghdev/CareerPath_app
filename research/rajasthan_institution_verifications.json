@@ -1,8 +1,9 @@
 {
   "metadata": {
     "title": "Rajasthan institution official-site verifications",
-    "updated_on": "2026-09-27",
-    "policy": "Only official institution pages may verify websites, districts, descriptions, and courses. Career mappings are editorial mappings to the local career_path.db tree and must retain confidence and review status."
+    "updated_on": "2026-10-02",
+    "policy": "Only official institution pages may verify websites, districts, descriptions, and courses. Career mappings are editorial mappings to the local career_path.db tree and must retain confidence and review status.",
+    "career_tree_label_history": "Legacy agent notes and reviewed_with_career_tree_label_issue statuses refer to the label observed before 2026-10-02. The current database label is Biology / PCB > B.Pharm (Pharmacy); career_breadcrumb values were refreshed against the current database on 2026-10-02. Treat older issue text and statuses as historical audit context, not current state."
   },
   "institutions": [
     {
@@ -1639,7 +1640,7 @@
             {
               "career_node_id": 143,
               "career_node_slug": "pharmacist",
-              "career_breadcrumb": "Biology / PCB > Medical Updated > Clinical Pharmacist",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy) > Clinical Pharmacist",
               "relation": "closest_specialization",
               "confidence": "medium",
               "mapping_status": "reviewed_against_local_tree"
@@ -2398,7 +2399,7 @@
             {
               "career_node_id": 143,
               "career_node_slug": "pharmacist",
-              "career_breadcrumb": "Biology / PCB > Medical Updated > Clinical Pharmacist",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy) > Clinical Pharmacist",
               "relation": "closest_specialization",
               "confidence": "medium",
               "mapping_status": "reviewed_against_local_tree"
@@ -6001,7 +6002,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "closest_discipline",
               "confidence": "medium",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -6834,7 +6835,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "direct_discipline",
               "confidence": "high",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -6857,7 +6858,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "closest_discipline",
               "confidence": "medium",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -8708,7 +8709,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "Closest pharmacy programme-family mapping; the tree has no D.Pharm node.",
               "confidence": "medium",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -8731,7 +8732,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "Direct B.Pharm programme mapping.",
               "confidence": "high",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -8754,7 +8755,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "Closest pharmacy programme-family mapping; the tree has no M.Pharm Pharmaceutics node.",
               "confidence": "medium",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -8777,7 +8778,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "Closest pharmacy programme-family mapping; the tree has no M.Pharm Pharmacology node.",
               "confidence": "medium",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -12675,7 +12676,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "direct B.Pharm node; local breadcrumb label is inaccurate",
               "confidence": "high",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -13135,7 +13136,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "nearest pharmacy parent; local breadcrumb label is inaccurate",
               "confidence": "medium",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -13738,7 +13739,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "closest pharmaceutical parent; local breadcrumb label is inaccurate",
               "confidence": "medium",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -14930,7 +14931,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "direct_discipline",
               "confidence": "high",
               "mapping_status": "reviewed_against_local_tree"
@@ -15335,7 +15336,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "nearest_parent",
               "confidence": "medium",
               "mapping_status": "reviewed_against_local_tree"
@@ -15731,7 +15732,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "nearest_parent",
               "confidence": "medium",
               "mapping_status": "reviewed_against_local_tree"
@@ -18618,7 +18619,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "direct programme mapping; local node label is malformed",
               "confidence": "high",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -18641,7 +18642,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "closest pharmacy programme parent; local node label is malformed",
               "confidence": "medium",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -18664,7 +18665,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "closest pharmacy programme parent; local node label is malformed",
               "confidence": "medium",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -18687,7 +18688,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "closest pharmacy programme parent; local node label is malformed",
               "confidence": "medium",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -18710,7 +18711,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "closest pharmacy programme parent; local node label is malformed",
               "confidence": "medium",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -18733,7 +18734,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "closest pharmacy programme parent; local node label is malformed",
               "confidence": "medium",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -18756,7 +18757,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "closest pharmacy programme parent; local node label is malformed",
               "confidence": "medium",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -19123,7 +19124,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "closest pharmacy programme parent; local node label is malformed",
               "confidence": "medium",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -19709,13 +19710,13 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "direct_slug_match",
               "confidence": "high",
               "mapping_status": "reviewed_with_career_tree_label_issue"
             }
           ],
-          "career_tree_issue": "The matching bpharm node exists, but its current display name is incorrectly stored as 'Medical Updated'."
+          "career_tree_issue": "Historical note: before 2026-10-02, the matching bpharm node was reported with the display name 'Medical Updated'; its current label is B.Pharm (Pharmacy)."
         },
         {
           "course_id": "bits-pilani-be-computer-science",
@@ -19922,7 +19923,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "parent_discipline",
               "confidence": "high",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -19944,7 +19945,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "parent_discipline",
               "confidence": "high",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -19966,7 +19967,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "parent_discipline",
               "confidence": "high",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -19988,7 +19989,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "discipline",
               "confidence": "high",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -21496,7 +21497,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "direct pharmacy mapping; local career-tree label is inaccurate",
               "confidence": "medium",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -21611,7 +21612,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "direct B.Pharm slug mapping; local career-tree label is inaccurate",
               "confidence": "medium",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -22277,7 +22278,7 @@
             {
               "career_node_id": 144,
               "career_node_slug": "pharma_researcher",
-              "career_breadcrumb": "Biology / PCB > Medical Updated > Pharmaceutical Researcher",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy) > Pharmaceutical Researcher",
               "relation": "closest postgraduate pharmaceutical-research mapping",
               "confidence": "medium",
               "mapping_status": "reviewed_against_local_tree"
@@ -23982,7 +23983,7 @@
             {
               "career_node_id": 144,
               "career_node_slug": "pharma_researcher",
-              "career_breadcrumb": "Biology / PCB > Medical Updated > Pharmaceutical Researcher",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy) > Pharmaceutical Researcher",
               "relation": "closest_specialization",
               "confidence": "medium",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -24005,7 +24006,7 @@
             {
               "career_node_id": 144,
               "career_node_slug": "pharma_researcher",
-              "career_breadcrumb": "Biology / PCB > Medical Updated > Pharmaceutical Researcher",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy) > Pharmaceutical Researcher",
               "relation": "closest_specialization",
               "confidence": "medium",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -24028,7 +24029,7 @@
             {
               "career_node_id": 144,
               "career_node_slug": "pharma_researcher",
-              "career_breadcrumb": "Biology / PCB > Medical Updated > Pharmaceutical Researcher",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy) > Pharmaceutical Researcher",
               "relation": "closest_specialization",
               "confidence": "medium",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -24741,7 +24742,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "direct_discipline",
               "confidence": "high",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -28292,7 +28293,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "direct discipline: Pharmacy; career-tree label is Medical Updated",
               "confidence": "high",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -28476,7 +28477,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "direct discipline: Pharmacy; career-tree label is Medical Updated",
               "confidence": "high",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -28683,7 +28684,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "direct discipline: Pharmacy; career-tree label is Medical Updated",
               "confidence": "high",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -29327,7 +29328,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "direct discipline: Pharmacy; career-tree label is Medical Updated",
               "confidence": "high",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -30493,7 +30494,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "closest-programme-family; local B.Pharm node label is Medical Updated",
               "confidence": "medium",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -32108,7 +32109,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "closest pharmacy-discipline mapping",
               "confidence": "medium",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -32131,7 +32132,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "direct B.Pharm discipline mapping",
               "confidence": "high",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -32154,7 +32155,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "closest pharmacy-discipline mapping",
               "confidence": "medium",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -32177,7 +32178,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "closest pharmacy-discipline mapping",
               "confidence": "medium",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -33905,7 +33906,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "closest pharmacy discipline",
               "confidence": "medium",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -34089,7 +34090,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "direct pharmacy discipline",
               "confidence": "high",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -34112,7 +34113,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "direct pharmacy discipline",
               "confidence": "high",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -34135,7 +34136,7 @@
             {
               "career_node_id": 144,
               "career_node_slug": "pharma_researcher",
-              "career_breadcrumb": "Biology / PCB > Medical Updated > Pharmaceutical Researcher",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy) > Pharmaceutical Researcher",
               "relation": "closest pharmaceutical research specialization",
               "confidence": "medium",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -34158,7 +34159,7 @@
             {
               "career_node_id": 144,
               "career_node_slug": "pharma_researcher",
-              "career_breadcrumb": "Biology / PCB > Medical Updated > Pharmaceutical Researcher",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy) > Pharmaceutical Researcher",
               "relation": "closest pharmaceutical research specialization",
               "confidence": "medium",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -34181,7 +34182,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "direct pharmacy discipline",
               "confidence": "high",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -34526,7 +34527,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "exact programme despite local label issue",
               "confidence": "high",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -34687,7 +34688,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "direct pharmacy discipline",
               "confidence": "high",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -40112,7 +40113,7 @@
             {
               "career_node_id": 144,
               "career_node_slug": "pharma_researcher",
-              "career_breadcrumb": "Biology / PCB > Medical Updated > Pharmaceutical Researcher",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy) > Pharmaceutical Researcher",
               "relation": "closest specialization",
               "confidence": "medium",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -46957,7 +46958,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "direct slug match; displayed tree label is defective",
               "confidence": "high",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -46980,7 +46981,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "nearest pharmacy programme family; displayed tree label is defective",
               "confidence": "medium",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -47096,7 +47097,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "nearest pharmacy discipline; displayed tree label is defective",
               "confidence": "medium",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -47626,7 +47627,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "direct_programme_slug",
               "confidence": "high",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -47711,7 +47712,7 @@
             {
               "career_node_id": 144,
               "career_node_slug": "pharma_researcher",
-              "career_breadcrumb": "Biology / PCB > Medical Updated > Pharmaceutical Researcher",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy) > Pharmaceutical Researcher",
               "relation": "closest_specialization",
               "confidence": "medium",
               "mapping_status": "reviewed_against_local_tree"
@@ -47734,7 +47735,7 @@
             {
               "career_node_id": 144,
               "career_node_slug": "pharma_researcher",
-              "career_breadcrumb": "Biology / PCB > Medical Updated > Pharmaceutical Researcher",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy) > Pharmaceutical Researcher",
               "relation": "closest_specialization",
               "confidence": "medium",
               "mapping_status": "reviewed_against_local_tree"
@@ -47757,7 +47758,7 @@
             {
               "career_node_id": 144,
               "career_node_slug": "pharma_researcher",
-              "career_breadcrumb": "Biology / PCB > Medical Updated > Pharmaceutical Researcher",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy) > Pharmaceutical Researcher",
               "relation": "closest_specialization",
               "confidence": "high",
               "mapping_status": "reviewed_against_local_tree"
@@ -60744,7 +60745,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "direct degree",
               "confidence": "high",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -62355,7 +62356,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "direct degree mapping; local career-tree display label is incorrect",
               "confidence": "high",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -62378,7 +62379,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "direct degree mapping; local career-tree display label is incorrect",
               "confidence": "high",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -75592,7 +75593,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "direct programme identifier",
               "confidence": "high",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -75615,7 +75616,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "closest programme family",
               "confidence": "medium",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -78379,7 +78380,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "direct discipline mapping",
               "confidence": "high",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -78402,7 +78403,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "direct discipline mapping",
               "confidence": "high",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -78425,7 +78426,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "closest available pharmacy node; no D. Pharm node exists",
               "confidence": "medium",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -89720,7 +89721,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "direct B.Pharm slug mapping; local node label is defective",
               "confidence": "high",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -89743,7 +89744,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "nearest B.Pharm programme; lateral-entry node unavailable and local label is defective",
               "confidence": "medium",
               "mapping_status": "reviewed_with_career_tree_label_issue"
@@ -96456,7 +96457,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "direct_discipline",
               "confidence": "high",
               "mapping_status": "reviewed_against_local_tree"
@@ -96464,7 +96465,7 @@
             {
               "career_node_id": 143,
               "career_node_slug": "pharmacist",
-              "career_breadcrumb": "Biology / PCB > Medical Updated > Clinical Pharmacist",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy) > Clinical Pharmacist",
               "relation": "direct_discipline",
               "confidence": "high",
               "mapping_status": "reviewed_against_local_tree"
@@ -96487,7 +96488,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "direct_discipline",
               "confidence": "high",
               "mapping_status": "reviewed_against_local_tree"
@@ -96510,7 +96511,7 @@
             {
               "career_node_id": 20,
               "career_node_slug": "bpharm",
-              "career_breadcrumb": "Biology / PCB > Medical Updated",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy)",
               "relation": "direct_discipline",
               "confidence": "high",
               "mapping_status": "reviewed_against_local_tree"
@@ -96518,7 +96519,7 @@
             {
               "career_node_id": 143,
               "career_node_slug": "pharmacist",
-              "career_breadcrumb": "Biology / PCB > Medical Updated > Clinical Pharmacist",
+              "career_breadcrumb": "Biology / PCB > B.Pharm (Pharmacy) > Clinical Pharmacist",
               "relation": "direct_discipline",
               "confidence": "high",
               "mapping_status": "reviewed_against_local_tree"

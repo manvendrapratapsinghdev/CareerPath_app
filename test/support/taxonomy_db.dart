@@ -45,6 +45,16 @@ const taxonomySchema = [
       'domain_slug TEXT, tier INTEGER, PRIMARY KEY (institute_id, domain_slug))',
   'CREATE TABLE states (code TEXT PRIMARY KEY, lgd_code INTEGER, '
       'country_code TEXT, name TEXT, kind TEXT, zone TEXT)',
+  'CREATE TABLE districts (lgd_code INTEGER PRIMARY KEY, state_code TEXT, '
+      'name TEXT, UNIQUE (state_code, name))',
+  'CREATE TABLE places (id INTEGER PRIMARY KEY, district_lgd INTEGER, '
+      'name TEXT, kind TEXT, is_district_hq INTEGER DEFAULT 0, '
+      'UNIQUE (district_lgd, name))',
+  'CREATE TABLE place_aliases (alias TEXT PRIMARY KEY, place_id INTEGER, '
+      'district_lgd INTEGER, state_code TEXT)',
+  'CREATE TABLE campuses (id INTEGER PRIMARY KEY, institute_id INTEGER, '
+      'name TEXT, place_id INTEGER, is_main INTEGER DEFAULT 0, '
+      'source_url TEXT, verified_at TEXT)',
 ];
 
 /// A fresh in-memory database with [taxonomySchema] and [seed] applied,

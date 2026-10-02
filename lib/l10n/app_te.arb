@@ -199,5 +199,79 @@
   "common_noneAvailableYet": "ఇంకా ఏమీ అందుబాటులో లేదు",
   "common_byAuthor": "{author} రచన",
   "common_viewBook": "పుస్తకం చూడండి",
-  "common_visitWebsite": "వెబ్‌సైట్ సందర్శించండి"
+  "common_visitWebsite": "వెబ్‌సైట్ సందర్శించండి",
+  "institute_stepsTitle": "దశలు",
+  "institute_ladderTitle": "సంస్థల స్థాయిక్రమం",
+  "institute_locationFilterTooltip": "ప్రాంతం ఆధారంగా వడపోత",
+  "institute_ladderLoadError": "సంస్థల స్థాయిక్రమాన్ని లోడ్ చేయలేకపోయాం.",
+  "institute_noRouteData": "మార్గ సమాచారం ఇంకా అందుబాటులో లేదు.",
+  "institute_hidePrivateWithoutUgc": "UGC ధృవీకరణ లేని ప్రైవేట్ సంస్థలను దాచండి",
+  "institute_groupLabel": "సంస్థల సమూహం",
+  "institute_familyLabel": "సంస్థల వర్గం",
+  "institute_chooseProfessionalBody": "వృత్తిపరమైన సంస్థను ఎంచుకోండి",
+  "institute_relevantExams": "సంబంధిత పరీక్షలు",
+  "institute_entryRoutes": "ప్రవేశ మార్గాలు",
+  "institute_checkOfficialRoute": "అధికారిక మార్గాన్ని చూడండి",
+  "institute_entryRequirementsVary": "సంస్థ మరియు ప్రోగ్రామ్‌ను బట్టి ప్రవేశ అర్హతలు మారుతాయి.",
+  "institute_stepsAndEntryRoutes": "దశలు మరియు ప్రవేశ మార్గాలు",
+  "institute_caCmaCsNote": "CA, CMA, CS వేర్వేరు అర్హతలు. పైన ఉన్న ప్రవేశ మార్గాలు ప్రత్యామ్నాయాలు; వరుస పరీక్ష దశలు కావు.",
+  "institute_allLabel": "అన్ని {label}",
+  "@institute_allLabel": {
+    "placeholders": {
+      "label": { "type": "String" }
+    }
+  },
+  "institute_online": "ఆన్‌లైన్",
+  "institute_allIndia": "భారతదేశమంతటా",
+  "institute_showingFilters": "చూపిస్తున్నవి: {labels}",
+  "@institute_showingFilters": {
+    "placeholders": {
+      "labels": { "type": "String" }
+    }
+  },
+  "institute_clear": "తొలగించు",
+  "institute_coverageInIndia": "భారతదేశంలో {count} · జాబితాలో {listed}",
+  "@institute_coverageInIndia": {
+    "placeholders": {
+      "count": { "type": "int" },
+      "listed": { "type": "int" }
+    }
+  },
+  "institute_coverageListed": "జాబితాలో {count}",
+  "@institute_coverageListed": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "institute_noListedInTier": "ఎంచుకున్న వడపోతలకు ఈ స్థాయిలో జాబితా చేసిన సంస్థలు లేవు.",
+  "institute_mappedLocationDisclaimer": "ప్రస్తుత సంస్థ రికార్డుల ఆధారంగా ప్రాంతం చూపబడింది; స్వతంత్రంగా ధృవీకరించలేదు.",
+  "institute_notRanked": "ర్యాంక్ లేదు",
+  "institute_top10": "టాప్ 10 · {label}",
+  "@institute_top10": {
+    "placeholders": {
+      "label": { "type": "String" }
+    }
+  },
+  "institute_nirfTop100": "NIRF టాప్ 100 · {year}",
+  "@institute_nirfTop100": {
+    "placeholders": {
+      "year": { "type": "int" }
+    }
+  },
+  "institute_ugcVerified": "UGC ధృవీకరించబడింది ✓",
+  "institute_ugcNotVerified": "UGC ధృవీకరించబడలేదు",
+  "institute_ugcPending": "UGC ధృవీకరణ పెండింగ్‌లో ఉంది",
+  "institute_locationUnavailable": "ప్రాంత సమాచారం అందుబాటులో లేదు.",
+  "institute_studyLocation": "చదువు ప్రాంతం",
+  "institute_stateOrUnionTerritory": "రాష్ట్రం / కేంద్రపాలిత ప్రాంతం",
+  "institute_district": "జిల్లా",
+  "institute_cityTown": "నగరం / పట్టణం",
+  "institute_applyLocation": "ప్రాంతాన్ని వర్తింపజేయండి",
+  "institute_collegeLadderSubtitle": "{count} సంస్థ స్థాయిలు · ర్యాంక్ మరియు ప్రాంతం ఆధారంగా సరిపోల్చండి",
+  "@institute_collegeLadderSubtitle": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "institute_entryRoutesSummary": "ప్రవేశ మార్గాలు"
 }

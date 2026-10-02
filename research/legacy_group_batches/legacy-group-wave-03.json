@@ -1,0 +1,973 @@
+{
+  "wave_id": "legacy-group-wave-01",
+  "generated_at": "2026-10-02T05:24:47.974663+00:00",
+  "database": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/assets/data/career_path.db",
+  "selection": "Institutes without institute_classification at merge time",
+  "record_count": 50,
+  "classified_count": 49,
+  "manual_review_count": 1,
+  "source_batches": [
+    "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/legacy_group_batches/results/legacy-group-011.json",
+    "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/legacy_group_batches/results/legacy-group-012.json",
+    "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/legacy_group_batches/results/legacy-group-013.json",
+    "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/legacy_group_batches/results/legacy-group-014.json",
+    "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/legacy_group_batches/results/legacy-group-015.json"
+  ],
+  "records": [
+    {
+      "database_id": 230,
+      "name": "Sardar Vallabhbhai Patel National Police Academy",
+      "outcome": "classified",
+      "group_code": "X",
+      "family_slug": "civil_service_academy",
+      "ownership": "central_govt",
+      "statutory_basis": "Central government police-service training academy under the Ministry of Home Affairs",
+      "admits_students": 0,
+      "is_family_record": 0,
+      "regulators": [
+        "Ministry of Home Affairs"
+      ],
+      "confidence": "high",
+      "source_url": "https://svpnpa.gov.in",
+      "evidence": "The official SVPNPA website identifies the academy as the national training institution for Indian Police Service probationers and serving police officers; entry is through civil-service selection rather than open college admission.",
+      "notes": [
+        "X is intentional: this is a post-selection civil-service training academy, not a student-admitting higher-education institute."
+      ]
+    },
+    {
+      "database_id": 231,
+      "name": "Foreign Service Institute",
+      "outcome": "classified",
+      "group_code": "X",
+      "family_slug": "civil_service_academy",
+      "ownership": "central_govt",
+      "statutory_basis": "Foreign-service training institute under the Ministry of External Affairs",
+      "admits_students": 0,
+      "is_family_record": 0,
+      "regulators": [
+        "Ministry of External Affairs"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.mea.gov.in/foreign-service-institute.htm",
+      "evidence": "The official Ministry of External Affairs page describes the Foreign Service Institute as the training institution for Indian Foreign Service officers, other government officers and foreign diplomats; it is not an open-admission college.",
+      "notes": [
+        "X is intentional: training follows government-service selection or nomination."
+      ]
+    },
+    {
+      "database_id": 232,
+      "name": "Chanakya IAS Academy",
+      "outcome": "classified",
+      "group_code": "G10b",
+      "family_slug": "coaching_civil_services",
+      "ownership": "private",
+      "statutory_basis": null,
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [],
+      "confidence": "high",
+      "source_url": "https://www.chanakya-ias.com",
+      "evidence": "The supplied official Chanakya IAS domain identifies a private provider of UPSC and civil-services preparation courses, test series and interview guidance; it is coaching rather than a recognised degree institution.",
+      "notes": [
+        "G10b is the private training/coaching group; no statutory higher-education regulator applies."
+      ]
+    },
+    {
+      "database_id": 233,
+      "name": "Vaid's ICS Lucknow",
+      "outcome": "classified",
+      "group_code": "G10b",
+      "family_slug": "coaching_civil_services",
+      "ownership": "private",
+      "statutory_basis": null,
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [],
+      "confidence": "high",
+      "source_url": "https://www.vaidicslucknow.com/",
+      "evidence": "The supplied official Vaid's ICS domain identifies the organisation as a private civil-services coaching provider for UPSC and state PCS examinations, with classroom, distance-learning and test-series offerings.",
+      "notes": [
+        "G10b is the private training/coaching group; this is not a UGC university or college."
+      ]
+    },
+    {
+      "database_id": 240,
+      "name": "University of Mumbai",
+      "outcome": "classified",
+      "group_code": "G4",
+      "family_slug": "state_university",
+      "ownership": "state_govt",
+      "statutory_basis": "University established under Maharashtra state legislation; recognised public university",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC",
+        "Government of Maharashtra"
+      ],
+      "confidence": "high",
+      "source_url": "https://mu.ac.in",
+      "evidence": "The official University of Mumbai website identifies the institution as the public university serving Maharashtra and publishes undergraduate, postgraduate and research programmes and admissions.",
+      "notes": [
+        "Mapped to G4 as a state public university; its affiliated colleges remain separate institute records."
+      ]
+    },
+    {
+      "database_id": 243,
+      "name": "Geological Survey of India Training Institute",
+      "outcome": "classified",
+      "group_code": "X",
+      "family_slug": "psu_academy",
+      "ownership": "central_govt",
+      "statutory_basis": "Government geoscience department training institute under the Geological Survey of India",
+      "admits_students": 0,
+      "is_family_record": 0,
+      "regulators": [
+        "Ministry of Mines"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.gsi.gov.in",
+      "evidence": "The official GSI domain identifies Geological Survey of India as a Government of India geoscience organisation whose training institute provides specialist training to officers and professionals; it is not an open-admission degree college.",
+      "notes": [
+        "X is intentional: this is an employer/government training institute rather than a student-admitting higher-education institute."
+      ]
+    },
+    {
+      "database_id": 244,
+      "name": "Wadia Institute of Himalayan Geology",
+      "outcome": "classified",
+      "group_code": "X",
+      "family_slug": "research_lab",
+      "ownership": "central_govt",
+      "statutory_basis": "Autonomous Himalayan geoscience research institute under the Department of Science and Technology",
+      "admits_students": 0,
+      "is_family_record": 0,
+      "regulators": [
+        "Department of Science and Technology"
+      ],
+      "confidence": "medium",
+      "source_url": "https://www.wihg.res.in",
+      "evidence": "The official WIHG domain describes an autonomous DST research institute focused on Himalayan geology, glaciology and seismology; its research and PhD collaboration routes do not establish it as an open-admission degree university.",
+      "notes": [
+        "X/research_lab is used because the record is a research institute; any affiliated PhD admission should be represented through the awarding university separately."
+      ]
+    },
+    {
+      "database_id": 245,
+      "name": "Andhra University (Geology)",
+      "outcome": "classified",
+      "group_code": "G4",
+      "family_slug": "state_university",
+      "ownership": "state_govt",
+      "statutory_basis": "State public university established under the Andhra University Act, 1926",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC",
+        "Government of Andhra Pradesh"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.andhrauniversity.edu.in",
+      "evidence": "The official Andhra University website identifies Andhra University as a public state university and publishes degree and research programmes, including the Department of Geology; the supplied row is a department-focused view of that university.",
+      "notes": [
+        "Mapped to the parent state university; department-specific rows should link to the Andhra University parent during cleanup."
+      ]
+    },
+    {
+      "database_id": 247,
+      "name": "Oil and Natural Gas Corporation (ONGC) Academy",
+      "outcome": "classified",
+      "group_code": "X",
+      "family_slug": "psu_academy",
+      "ownership": "central_govt",
+      "statutory_basis": "Training academy of Oil and Natural Gas Corporation, a Government of India public-sector enterprise",
+      "admits_students": 0,
+      "is_family_record": 0,
+      "regulators": [
+        "Ministry of Petroleum and Natural Gas"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.ongcindia.com",
+      "evidence": "The official ONGC domain identifies ONGC Academy as the corporation's technical and managerial training arm for employees and energy-sector professionals; it is not an open-admission degree institution.",
+      "notes": [
+        "X is intentional: employer/PSU training route rather than a recognised university or college."
+      ]
+    },
+    {
+      "database_id": 248,
+      "name": "India Meteorological Department (IMD)",
+      "outcome": "classified",
+      "group_code": "X",
+      "family_slug": "psu_academy",
+      "ownership": "central_govt",
+      "statutory_basis": "National meteorological service under the Ministry of Earth Sciences",
+      "admits_students": 0,
+      "is_family_record": 0,
+      "regulators": [
+        "Ministry of Earth Sciences"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.imd.gov.in",
+      "evidence": "The official IMD website identifies the India Meteorological Department as the Government of India's national meteorological service; its Meteorological Training Institute trains weather professionals and is not an open-admission degree college.",
+      "notes": [
+        "X is intentional: government service and professional training organisation, not a student-admitting higher-education institute."
+      ]
+    },
+    {
+      "database_id": 250,
+      "name": "Indian Institute of Tropical Meteorology (IITM)",
+      "outcome": "classified",
+      "group_code": "X",
+      "family_slug": "research_lab",
+      "ownership": "central_govt",
+      "statutory_basis": "autonomous research institute under the Ministry of Earth Sciences",
+      "admits_students": 0,
+      "is_family_record": 0,
+      "regulators": [
+        "Ministry of Earth Sciences"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.tropmet.res.in",
+      "evidence": "The official IITM site and Ministry of Earth Sciences material identify IITM Pune as a national research institute under MoES. Its primary role is government climate and meteorology research rather than open-admission degree education.",
+      "notes": [
+        "Keep in X because this record represents a research institute, not a standalone open-admission college."
+      ]
+    },
+    {
+      "database_id": 251,
+      "name": "Cochin University of Science and Technology",
+      "outcome": "classified",
+      "group_code": "G4",
+      "family_slug": "state_university",
+      "ownership": "state_govt",
+      "statutory_basis": "public state university constituted by an Act of the Government of Kerala",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC",
+        "AICTE"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.cusat.ac.in/about",
+      "evidence": "CUSAT's official About page states that it was constituted through an Act of the Kerala Government and provides graduate, postgraduate and research education in science, technology and related fields.",
+      "notes": []
+    },
+    {
+      "database_id": 252,
+      "name": "National Institute of Oceanography (NIO)",
+      "outcome": "classified",
+      "group_code": "X",
+      "family_slug": "research_lab",
+      "ownership": "central_govt",
+      "statutory_basis": "CSIR research laboratory under the Government of India",
+      "admits_students": 0,
+      "is_family_record": 0,
+      "regulators": [
+        "CSIR",
+        "Ministry of Science and Technology"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.nio.res.in",
+      "evidence": "The official CSIR-NIO material identifies the Goa institute as a premier CSIR research laboratory and autonomous Government of India body focused on ocean science research, not an open-admission degree institution.",
+      "notes": [
+        "Research training or fellowships do not change this catalogue record into an open-admission college."
+      ]
+    },
+    {
+      "database_id": 253,
+      "name": "Indian National Centre for Ocean Information Services (INCOIS)",
+      "outcome": "classified",
+      "group_code": "X",
+      "family_slug": "research_lab",
+      "ownership": "central_govt",
+      "statutory_basis": "autonomous body under the Ministry of Earth Sciences",
+      "admits_students": 0,
+      "is_family_record": 0,
+      "regulators": [
+        "Ministry of Earth Sciences"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.incois.gov.in/site/aboutus.jsp",
+      "evidence": "The official INCOIS About page identifies INCOIS as an autonomous body under MoES, mandated to provide ocean information and advisory services through observations and research; it is not an open-admission degree institution.",
+      "notes": []
+    },
+    {
+      "database_id": 254,
+      "name": "National Institute of Ocean Technology (NIOT)",
+      "outcome": "classified",
+      "group_code": "X",
+      "family_slug": "research_lab",
+      "ownership": "central_govt",
+      "statutory_basis": "autonomous society under the Ministry of Earth Sciences",
+      "admits_students": 0,
+      "is_family_record": 0,
+      "regulators": [
+        "Ministry of Earth Sciences"
+      ],
+      "confidence": "high",
+      "source_url": "https://niot.res.in/index.php/node/index/13/mbt_intro.php",
+      "evidence": "NIOT's official About page identifies it as an autonomous society under MoES focused on indigenous ocean technology and engineering research, rather than an open-admission degree institution.",
+      "notes": []
+    },
+    {
+      "database_id": 255,
+      "name": "Goa University (Marine Science)",
+      "outcome": "classified",
+      "group_code": "G4",
+      "family_slug": "state_university",
+      "ownership": "state_govt",
+      "statutory_basis": "public state university established under the Goa University Act",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.unigoa.ac.in",
+      "evidence": "Goa University's official prospectus and institutional disclosures identify it as the public university providing higher education in Goa; the database name is its Marine Science department/programme context, not a separate institution.",
+      "notes": [
+        "Classified as the parent state university; retain the Marine Science qualifier in the display name."
+      ]
+    },
+    {
+      "database_id": 256,
+      "name": "Berhampur University (Marine Science)",
+      "outcome": "classified",
+      "group_code": "G4",
+      "family_slug": "state_university",
+      "ownership": "state_govt",
+      "statutory_basis": "public funded state university established by the Government of Odisha",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://buodisha.edu.in",
+      "evidence": "Berhampur University's official site identifies the university at Bhanja Bihar, Berhampur, and its official prospectus describes it as a public funded state university. The Marine Science suffix identifies the department/programme context.",
+      "notes": [
+        "Classified as the parent state university; retain the Marine Science qualifier in the display name."
+      ]
+    },
+    {
+      "database_id": 260,
+      "name": "Gokhale Institute of Politics and Economics",
+      "outcome": "classified",
+      "group_code": "G5",
+      "family_slug": "government_deemed",
+      "ownership": "govt_aided",
+      "statutory_basis": "deemed-to-be university under Section 3 of the UGC Act, 1956",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.gipe.ac.in/about-us",
+      "evidence": "GIPE's official About and RTI pages state that it was recognised as a Deemed University under Section 3 of the UGC Act in 1993 and runs teaching and research programmes in economics and allied social sciences.",
+      "notes": [
+        "The institute is operated under the Servants of India Society; govt_aided records the public/aided character without treating it as a private university."
+      ]
+    },
+    {
+      "database_id": 264,
+      "name": "ITI (Industrial Training Institutes)",
+      "outcome": "classified",
+      "group_code": "G9",
+      "family_slug": "iti",
+      "ownership": null,
+      "statutory_basis": "vocational training institutions administered by States/UTs under the national DGT framework",
+      "admits_students": 1,
+      "is_family_record": 1,
+      "regulators": [
+        "Directorate General of Training"
+      ],
+      "confidence": "high",
+      "source_url": "https://dgt.gov.in/en",
+      "evidence": "The official DGT site describes Industrial Training Institutes as the national vocational-training network; DGT coordinates standards and schemes while day-to-day administration rests with State and Union Territory governments.",
+      "notes": [
+        "This is a family/catalogue record representing the ITI network, so ownership is intentionally null because institutes may be government or private."
+      ]
+    },
+    {
+      "database_id": 265,
+      "name": "AICTE Approved Polytechnics",
+      "outcome": "classified",
+      "group_code": "G9",
+      "family_slug": "polytechnic",
+      "ownership": null,
+      "statutory_basis": "technical diploma institutions approved within the AICTE framework",
+      "admits_students": 1,
+      "is_family_record": 1,
+      "regulators": [
+        "AICTE"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.aicte-india.org",
+      "evidence": "The official AICTE portal is the statutory technical-education approval authority and publishes approved-institution and programme information covering polytechnic diploma institutions.",
+      "notes": [
+        "This is a family/catalogue record spanning multiple ownership types, so ownership is intentionally null."
+      ]
+    },
+    {
+      "database_id": 269,
+      "name": "Government Aviation Training Institute",
+      "outcome": "classified",
+      "group_code": "G9",
+      "family_slug": null,
+      "ownership": "state_govt",
+      "statutory_basis": "state aviation training institute; DGCA-approved flying training organisation",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "DGCA"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.flywithgati.com",
+      "evidence": "The official GATI site describes a Government of Odisha aviation training institute and publishes admissions/training for commercial pilot licensing under DGCA rules. It is a regulated vocational training institute rather than a university.",
+      "notes": [
+        "Classified in G9 (open, distance, skill and diploma institutions)."
+      ]
+    },
+    {
+      "database_id": 273,
+      "name": "Deccan College Pune",
+      "outcome": "classified",
+      "group_code": "G5",
+      "family_slug": "government_deemed",
+      "ownership": "state_govt",
+      "statutory_basis": "deemed-to-be university under UGC Act Section 3",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://deccancollegepune.ac.in",
+      "evidence": "The official Deccan College site identifies the Post-Graduate and Research Institute as a deemed university and publishes postgraduate and doctoral academic programmes in archaeology, linguistics and related fields.",
+      "notes": []
+    },
+    {
+      "database_id": 274,
+      "name": "National Museum Institute",
+      "outcome": "classified",
+      "group_code": "G5",
+      "family_slug": "government_deemed",
+      "ownership": "central_govt",
+      "statutory_basis": "deemed-to-be university under UGC Act Section 3; Ministry of Culture institute",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC",
+        "Ministry of Culture"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.nmi.gov.in",
+      "evidence": "The official NMI site identifies the institute as a deemed university under the Ministry of Culture and publishes postgraduate programmes and admissions in art history, conservation and museology.",
+      "notes": []
+    },
+    {
+      "database_id": 275,
+      "name": "Archaeological Survey of India Training Institute",
+      "outcome": "classified",
+      "group_code": "X",
+      "family_slug": "psu_academy",
+      "ownership": "central_govt",
+      "statutory_basis": "Archaeological Survey of India departmental training institute",
+      "admits_students": 0,
+      "is_family_record": 0,
+      "regulators": [
+        "ASI",
+        "Ministry of Culture"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.asi.nic.in",
+      "evidence": "The official ASI site identifies this as departmental training for ASI officers and heritage professionals, including excavation and conservation training, rather than an open-admission degree institution.",
+      "notes": [
+        "Keep in X because the route is departmental/professional training, not general college admission."
+      ]
+    },
+    {
+      "database_id": 276,
+      "name": "Jadavpur University",
+      "outcome": "classified",
+      "group_code": "G4",
+      "family_slug": null,
+      "ownership": "state_govt",
+      "statutory_basis": "state_act; state public university",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.jaduniv.edu.in",
+      "evidence": "The official university site identifies Jadavpur University as a public university established under the Jadavpur University Act and publishes undergraduate, postgraduate and doctoral admissions.",
+      "notes": []
+    },
+    {
+      "database_id": 278,
+      "name": "Kendriya Hindi Sansthan",
+      "outcome": "classified",
+      "group_code": "G3",
+      "family_slug": null,
+      "ownership": "central_govt",
+      "statutory_basis": "autonomous institute under the Department of Higher Education, Ministry of Education",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "Ministry of Education"
+      ],
+      "confidence": "high",
+      "source_url": "https://khs.ac.in/en",
+      "evidence": "The official institute site identifies Kendriya Hindi Sansthan as an autonomous educational institute governed by Kendriya Hindi Shikshan Mandal under the Ministry of Education and lists its academic programmes and regional centres.",
+      "notes": []
+    },
+    {
+      "database_id": 280,
+      "name": "Sangeet Natak Akademi",
+      "outcome": "classified",
+      "group_code": "X",
+      "family_slug": "psu_academy",
+      "ownership": "central_govt",
+      "statutory_basis": "national academy established by the Government of India for music, dance and drama",
+      "admits_students": 0,
+      "is_family_record": 0,
+      "regulators": [
+        "Ministry of Culture"
+      ],
+      "confidence": "high",
+      "source_url": "https://sangeetnatak.gov.in",
+      "evidence": "The official Akademi site describes the national apex body for performing arts, awards, grants and archives; it is not an open-admission degree college.",
+      "notes": [
+        "Keep in X as a national cultural academy rather than presenting it as a college."
+      ]
+    },
+    {
+      "database_id": 282,
+      "name": "Bhatkhande Music Institute",
+      "outcome": "classified",
+      "group_code": "G5",
+      "family_slug": "government_deemed",
+      "ownership": "state_govt",
+      "statutory_basis": "deemed-to-be university under UGC Act Section 3",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.bhatkhande.edu.in",
+      "evidence": "The official institute site identifies Bhatkhande Music Institute as a deemed university and publishes certificate, diploma, undergraduate and postgraduate music programmes.",
+      "notes": []
+    },
+    {
+      "database_id": 283,
+      "name": "ITC Sangeet Research Academy",
+      "outcome": "classified",
+      "group_code": "G10b",
+      "family_slug": null,
+      "ownership": "private",
+      "statutory_basis": "company-funded residential guru-shishya music training academy",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [],
+      "confidence": "high",
+      "source_url": "https://www.itcsra.org",
+      "evidence": "The official SRA site describes a privately funded residential academy that selects scholars through audition and provides advanced Hindustani classical music training; it is not a UGC university or degree college.",
+      "notes": [
+        "Classified as a private training provider (G10b), not a university."
+      ]
+    },
+    {
+      "database_id": 284,
+      "name": "KM Music Conservatory",
+      "outcome": "classified",
+      "group_code": "G10b",
+      "family_slug": null,
+      "ownership": "private",
+      "statutory_basis": "private music conservatory offering diploma and degree-linked music education",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [],
+      "confidence": "high",
+      "source_url": "https://www.kmmc.in",
+      "evidence": "The official conservatory site publishes admissions for music performance, composition, production and sound-design programmes. It is a private specialist conservatory rather than a UGC university, so it belongs in G10b.",
+      "notes": [
+        "Do not treat the Berklee collaboration as independent UGC university status."
+      ]
+    },
+    {
+      "database_id": 286,
+      "name": "Nalanda Dance Research Centre",
+      "outcome": "classified",
+      "group_code": "G8",
+      "family_slug": null,
+      "ownership": "private",
+      "statutory_basis": "private arts institute",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [],
+      "confidence": "medium",
+      "source_url": "https://www.nalandadanceresearch.org",
+      "evidence": "The official site presents Nalanda as a private Indian classical dance education and research centre offering courses and training.",
+      "notes": []
+    },
+    {
+      "database_id": 287,
+      "name": "Bharatiya Vidya Bhavan",
+      "outcome": "manual_review",
+      "group_code": null,
+      "family_slug": null,
+      "ownership": null,
+      "statutory_basis": null,
+      "admits_students": null,
+      "is_family_record": null,
+      "regulators": [],
+      "confidence": null,
+      "source_url": "https://www.bharatiyavidyabhavan.org",
+      "evidence": "Bharatiya Vidya Bhavan is a multi-campus trust with different schools, colleges and training centres; one group cannot be assigned to the umbrella record without splitting its campuses.",
+      "notes": [
+        "Create constituent records before classification."
+      ]
+    },
+    {
+      "database_id": 292,
+      "name": "Maulana Azad Medical College",
+      "outcome": "classified",
+      "group_code": "G6",
+      "family_slug": "govt_medical_college",
+      "ownership": "central_govt",
+      "statutory_basis": "government medical college",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "NMC"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.mamc.ac.in",
+      "evidence": "The official MAMC site identifies it as a government medical college in New Delhi with undergraduate and postgraduate medical admissions.",
+      "notes": []
+    },
+    {
+      "database_id": 293,
+      "name": "Grant Medical College Mumbai",
+      "outcome": "classified",
+      "group_code": "G6",
+      "family_slug": "govt_medical_college",
+      "ownership": "state_govt",
+      "statutory_basis": "state government medical college",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "NMC"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.grantmedicalcollegejcm.edu.in",
+      "evidence": "The official Grant Medical College site identifies it as a Maharashtra government medical college with medical admissions.",
+      "notes": []
+    },
+    {
+      "database_id": 294,
+      "name": "Maulana Azad Institute of Dental Sciences",
+      "outcome": "classified",
+      "group_code": "G6",
+      "family_slug": "govt_dental_college",
+      "ownership": "central_govt",
+      "statutory_basis": "government dental college",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "NDC"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.maids.ac.in",
+      "evidence": "The official MAIDS site identifies it as a government dental institute in New Delhi offering BDS/MDS education.",
+      "notes": []
+    },
+    {
+      "database_id": 295,
+      "name": "Government Dental College Mumbai",
+      "outcome": "classified",
+      "group_code": "G6",
+      "family_slug": "govt_dental_college",
+      "ownership": "state_govt",
+      "statutory_basis": "state government dental college",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "NDC"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.gdc-mum.org",
+      "evidence": "The official college site identifies Government Dental College Mumbai as a Maharashtra government dental college.",
+      "notes": []
+    },
+    {
+      "database_id": 296,
+      "name": "Manipal College of Dental Sciences",
+      "outcome": "classified",
+      "group_code": "G5",
+      "family_slug": "private_deemed",
+      "ownership": "private",
+      "statutory_basis": "constituent college of MAHE deemed-to-be university",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "NDC",
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://mcods.manipal.edu",
+      "evidence": "The official MCODS site identifies it as a constituent dental college of Manipal Academy of Higher Education, a deemed-to-be university.",
+      "notes": []
+    },
+    {
+      "database_id": 297,
+      "name": "SDM College of Dental Sciences",
+      "outcome": "classified",
+      "group_code": "G5",
+      "family_slug": "private_deemed",
+      "ownership": "private",
+      "statutory_basis": "constituent college of a deemed-to-be university",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "NDC",
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.sdmcds.org",
+      "evidence": "The official SDM site identifies the dental college as part of the SDM University/deemed-to-be university system and publishes dental admissions.",
+      "notes": []
+    },
+    {
+      "database_id": 300,
+      "name": "Lakshmibai National Institute of Physical Education",
+      "outcome": "classified",
+      "group_code": "G5",
+      "family_slug": "government_deemed",
+      "ownership": "central_govt",
+      "statutory_basis": "government-funded deemed-to-be university",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC",
+        "Ministry of Youth Affairs and Sports"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.lnipe.edu.in",
+      "evidence": "The official LNIPE site publishes degree admissions and identifies the institution as a government-funded deemed university for physical education.",
+      "notes": []
+    },
+    {
+      "database_id": 304,
+      "name": "Oberoi Centre of Learning and Development",
+      "outcome": "classified",
+      "group_code": "G10b",
+      "family_slug": null,
+      "ownership": "private",
+      "statutory_basis": "private hospitality training provider",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [],
+      "confidence": "medium",
+      "source_url": "https://www.oberoihotels.com/oberoi-centre-of-learning-and-development",
+      "evidence": "The official Oberoi site presents OCLD as a hospitality-industry training programme, not a degree-granting university or college.",
+      "notes": [
+        "The current family catalogue lacks a dedicated hospitality-training slug."
+      ]
+    },
+    {
+      "database_id": 306,
+      "name": "National Institute of Event Management (NIEM)",
+      "outcome": "classified",
+      "group_code": "G10b",
+      "family_slug": null,
+      "ownership": "private",
+      "statutory_basis": "private vocational training provider",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [],
+      "confidence": "high",
+      "source_url": "https://www.niem.edu.in",
+      "evidence": "The official NIEM site presents event-management diploma and certificate training, not a UGC degree university.",
+      "notes": [
+        "G10b is Phase 2 and should remain hidden from the Phase 1 college ladder."
+      ]
+    },
+    {
+      "database_id": 307,
+      "name": "Gujarat Ayurved University",
+      "outcome": "classified",
+      "group_code": "G4",
+      "family_slug": "state_ayush_university",
+      "ownership": "state_govt",
+      "statutory_basis": "Gujarat state university act",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC",
+        "NCISM"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.ayurvedauniversity.edu.in",
+      "evidence": "The official university site identifies Gujarat Ayurved University as a Gujarat state university for Ayurveda education and research.",
+      "notes": []
+    },
+    {
+      "database_id": 312,
+      "name": "Dr. B.R. Sur Homoeopathic Medical College",
+      "outcome": "classified",
+      "group_code": "G6",
+      "family_slug": "govt_ayush_college",
+      "ownership": "central_govt",
+      "statutory_basis": "government AYUSH college",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "NCH"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.drbrsurhomeopathic.ac.in",
+      "evidence": "The official site identifies Dr. B.R. Sur Homoeopathic Medical College as a government homoeopathic medical college in Delhi.",
+      "notes": []
+    },
+    {
+      "database_id": 313,
+      "name": "Father Muller Homoeopathic Medical College",
+      "outcome": "classified",
+      "group_code": "G8",
+      "family_slug": null,
+      "ownership": "private",
+      "statutory_basis": "private minority/trust college",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "NCH"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.fathermullerhmc.edu.in",
+      "evidence": "The official site identifies Father Muller Homoeopathic Medical College as a private institution run by a charitable trust and offering homoeopathic medical education.",
+      "notes": []
+    },
+    {
+      "database_id": 314,
+      "name": "RAK College of Nursing",
+      "outcome": "classified",
+      "group_code": "G6",
+      "family_slug": "govt_nursing_college",
+      "ownership": "central_govt",
+      "statutory_basis": "government nursing college",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "INC"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.rakcollegeofnursing.ac.in",
+      "evidence": "The official RAK College site identifies the college as a government nursing institution in New Delhi with nursing admissions.",
+      "notes": []
+    },
+    {
+      "database_id": 315,
+      "name": "CMC Vellore (Nursing)",
+      "outcome": "classified",
+      "group_code": "G8",
+      "family_slug": null,
+      "ownership": "trust",
+      "statutory_basis": "Christian minority trust institution",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "INC"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.cmch-vellore.edu",
+      "evidence": "CMC Vellore's official site publishes nursing admissions and identifies the institution as a private minority/trust medical education provider.",
+      "notes": [
+        "Department/programme row; parent CMC Vellore linking should be handled by the department cleanup pass."
+      ]
+    },
+    {
+      "database_id": 319,
+      "name": "Jamia Hamdard (Pharmacy)",
+      "outcome": "classified",
+      "group_code": "G5",
+      "family_slug": "government_deemed",
+      "ownership": "private",
+      "statutory_basis": "deemed-to-be university under UGC Act Section 3",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC",
+        "PCI"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.jamiahamdard.edu",
+      "evidence": "The official Jamia Hamdard site publishes pharmacy admissions and identifies Jamia Hamdard as a deemed-to-be university.",
+      "notes": [
+        "Department/programme row; parent Jamia Hamdard linking should be handled by the department cleanup pass."
+      ]
+    },
+    {
+      "database_id": 320,
+      "name": "Bombay College of Pharmacy",
+      "outcome": "classified",
+      "group_code": "G6",
+      "family_slug": "govt_pharmacy_college",
+      "ownership": "govt_aided",
+      "statutory_basis": "government-aided autonomous pharmacy college",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "PCI",
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.bcp.edu.in",
+      "evidence": "The official BCP site identifies Bombay College of Pharmacy as an aided autonomous pharmacy college with degree admissions.",
+      "notes": []
+    },
+    {
+      "database_id": 321,
+      "name": "BITS Pilani (Pharmacy)",
+      "outcome": "classified",
+      "group_code": "G5",
+      "family_slug": null,
+      "ownership": "private",
+      "statutory_basis": "programme of BITS Pilani deemed-to-be university",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC",
+        "PCI"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.bits-pilani.ac.in",
+      "evidence": "The official BITS site publishes pharmacy programmes under BITS Pilani, an institution deemed to be a university under the UGC Act.",
+      "notes": [
+        "Department/programme row; parent BITS Pilani linking should be handled by the department cleanup pass."
+      ]
+    },
+    {
+      "database_id": 323,
+      "name": "Bombay Veterinary College",
+      "outcome": "classified",
+      "group_code": "G6",
+      "family_slug": "govt_agri_vet_college",
+      "ownership": "state_govt",
+      "statutory_basis": "Maharashtra government veterinary college",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "VCI"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.mvsc.ac.in",
+      "evidence": "The official college site identifies Bombay Veterinary College as a Maharashtra government veterinary college with veterinary admissions.",
+      "notes": []
+    }
+  ],
+  "database_apply_status": "not_applied",
+  "database_apply_note": "Private/trust rows still need structured UGC Yes/No evidence before import."
+}

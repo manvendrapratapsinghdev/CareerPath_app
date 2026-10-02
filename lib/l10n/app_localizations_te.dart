@@ -876,4 +876,140 @@ class AppLocalizationsTe extends AppLocalizations {
 
   @override
   String get ai_openInExplore => 'Open in Explore';
+
+  @override
+  String get institute_stepsTitle => 'దశలు';
+
+  @override
+  String get institute_ladderTitle => 'సంస్థల స్థాయిక్రమం';
+
+  @override
+  String get institute_locationFilterTooltip => 'ప్రాంతం ఆధారంగా వడపోత';
+
+  @override
+  String get institute_ladderLoadError =>
+      'సంస్థల స్థాయిక్రమాన్ని లోడ్ చేయలేకపోయాం.';
+
+  @override
+  String get institute_noRouteData => 'మార్గ సమాచారం ఇంకా అందుబాటులో లేదు.';
+
+  @override
+  String get institute_hidePrivateWithoutUgc =>
+      'UGC ధృవీకరణ లేని ప్రైవేట్ సంస్థలను దాచండి';
+
+  @override
+  String get institute_groupLabel => 'సంస్థల సమూహం';
+
+  @override
+  String get institute_familyLabel => 'సంస్థల వర్గం';
+
+  @override
+  String get institute_chooseProfessionalBody =>
+      'వృత్తిపరమైన సంస్థను ఎంచుకోండి';
+
+  @override
+  String get institute_relevantExams => 'సంబంధిత పరీక్షలు';
+
+  @override
+  String get institute_entryRoutes => 'ప్రవేశ మార్గాలు';
+
+  @override
+  String get institute_checkOfficialRoute => 'అధికారిక మార్గాన్ని చూడండి';
+
+  @override
+  String get institute_entryRequirementsVary =>
+      'సంస్థ మరియు ప్రోగ్రామ్‌ను బట్టి ప్రవేశ అర్హతలు మారుతాయి.';
+
+  @override
+  String get institute_stepsAndEntryRoutes => 'దశలు మరియు ప్రవేశ మార్గాలు';
+
+  @override
+  String get institute_caCmaCsNote =>
+      'CA, CMA, CS వేర్వేరు అర్హతలు. పైన ఉన్న ప్రవేశ మార్గాలు ప్రత్యామ్నాయాలు; వరుస పరీక్ష దశలు కావు.';
+
+  @override
+  String institute_allLabel(String label) {
+    return 'అన్ని $label';
+  }
+
+  @override
+  String get institute_online => 'ఆన్‌లైన్';
+
+  @override
+  String get institute_allIndia => 'భారతదేశమంతటా';
+
+  @override
+  String institute_showingFilters(String labels) {
+    return 'చూపిస్తున్నవి: $labels';
+  }
+
+  @override
+  String get institute_clear => 'తొలగించు';
+
+  @override
+  String institute_coverageInIndia(int count, int listed) {
+    return 'భారతదేశంలో $count · జాబితాలో $listed';
+  }
+
+  @override
+  String institute_coverageListed(int count) {
+    return 'జాబితాలో $count';
+  }
+
+  @override
+  String get institute_noListedInTier =>
+      'ఎంచుకున్న వడపోతలకు ఈ స్థాయిలో జాబితా చేసిన సంస్థలు లేవు.';
+
+  @override
+  String get institute_mappedLocationDisclaimer =>
+      'ప్రస్తుత సంస్థ రికార్డుల ఆధారంగా ప్రాంతం చూపబడింది; స్వతంత్రంగా ధృవీకరించలేదు.';
+
+  @override
+  String get institute_notRanked => 'ర్యాంక్ లేదు';
+
+  @override
+  String institute_top10(String label) {
+    return 'టాప్ 10 · $label';
+  }
+
+  @override
+  String institute_nirfTop100(int year) {
+    return 'NIRF టాప్ 100 · $year';
+  }
+
+  @override
+  String get institute_ugcVerified => 'UGC ధృవీకరించబడింది ✓';
+
+  @override
+  String get institute_ugcNotVerified => 'UGC ధృవీకరించబడలేదు';
+
+  @override
+  String get institute_ugcPending => 'UGC ధృవీకరణ పెండింగ్‌లో ఉంది';
+
+  @override
+  String get institute_locationUnavailable => 'ప్రాంత సమాచారం అందుబాటులో లేదు.';
+
+  @override
+  String get institute_studyLocation => 'చదువు ప్రాంతం';
+
+  @override
+  String get institute_stateOrUnionTerritory =>
+      'రాష్ట్రం / కేంద్రపాలిత ప్రాంతం';
+
+  @override
+  String get institute_district => 'జిల్లా';
+
+  @override
+  String get institute_cityTown => 'నగరం / పట్టణం';
+
+  @override
+  String get institute_applyLocation => 'ప్రాంతాన్ని వర్తింపజేయండి';
+
+  @override
+  String institute_collegeLadderSubtitle(int count) {
+    return '$count సంస్థ స్థాయిలు · ర్యాంక్ మరియు ప్రాంతం ఆధారంగా సరిపోల్చండి';
+  }
+
+  @override
+  String get institute_entryRoutesSummary => 'ప్రవేశ మార్గాలు';
 }

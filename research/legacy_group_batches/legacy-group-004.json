@@ -1,0 +1,206 @@
+{
+  "batch_id": "legacy-group-004",
+  "generated_at": "2026-10-02T04:41:24.731788+00:00",
+  "database": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/assets/data/career_path.db",
+  "selection": "Institutes without institute_classification",
+  "classification_policy": "Do not infer silently; require official evidence or manual_review.",
+  "records": [
+    {
+      "database_id": 78,
+      "name": "Presidency College",
+      "city": "Chennai",
+      "district": null,
+      "state": "Tamil Nadu",
+      "website": "https://www.presidencycollege.ac.in",
+      "description": "Presidency College Chennai, established in 1840, is one of India's oldest and most distinguished government arts and science colleges, affiliated with the University of Madras. It is renowned for its programs in mathematics, physics, chemistry, economics, and humanities, having produced several eminent scientists and scholars. The college holds autonomous status and NAAC 'A+' accreditation, and is a landmark institution in South Indian education.",
+      "existing_institution_type": null,
+      "existing_categories": [],
+      "career_nodes": [],
+      "review_status": "pending_official_review"
+    },
+    {
+      "database_id": 84,
+      "name": "XLRI - Xavier School of Management",
+      "city": "Jamshedpur",
+      "district": null,
+      "state": "Jharkhand",
+      "website": "https://www.xlri.ac.in",
+      "description": "XLRI - Xavier School of Management, Jamshedpur, established in 1949, is India's oldest business management school and is renowned for its flagship PGDM (Business Management) and PGDM (Human Resource Management) programs. The HRM program at XLRI is considered India's best and among the finest in Asia, producing HR leaders at top corporations. XLRI is a Jesuit institution known for combining business excellence with ethical leadership and social responsibility.",
+      "existing_institution_type": "specialized",
+      "existing_categories": [],
+      "career_nodes": [
+        "Business Consultant",
+        "HR Manager",
+        "MBA → CEO / Director Track",
+        "Talent Acquisition Specialist"
+      ],
+      "review_status": "pending_official_review"
+    },
+    {
+      "database_id": 85,
+      "name": "SP Jain Institute of Management and Research",
+      "city": "Mumbai",
+      "district": null,
+      "state": "Maharashtra",
+      "website": "https://www.spjimr.org",
+      "description": "S.P. Jain Institute of Management and Research (SPJIMR) Mumbai, established in 1981, is a top-ranked autonomous management institute known for its PGDM program and strong focus on social relevance and managerial impact. It is consistently ranked among India's top 10 business schools and is globally recognized for innovative pedagogy. SPJIMR emphasizes sustainability, ethics, and leadership development alongside rigorous business education.",
+      "existing_institution_type": "specialized",
+      "existing_categories": [],
+      "career_nodes": [
+        "Brand Manager",
+        "Digital Marketing Specialist",
+        "E-Commerce Business Owner",
+        "FinTech Analyst / Product Manager",
+        "Startup Founder"
+      ],
+      "review_status": "pending_official_review"
+    },
+    {
+      "database_id": 86,
+      "name": "Madras School of Economics",
+      "city": "Chennai",
+      "district": null,
+      "state": "Tamil Nadu",
+      "website": "https://www.mse.ac.in",
+      "description": "Madras School of Economics (MSE) Chennai is a premier postgraduate institution offering MA and PhD programs in economics, established in 1990. It is known for research and teaching in econometrics, environmental economics, financial economics, and public policy. MSE has strong collaborative ties with government agencies and international research institutions, making it a key center for applied economic research in India.",
+      "existing_institution_type": "institute_of_special_importance",
+      "existing_categories": [],
+      "career_nodes": [
+        "Development Economist",
+        "Economic Analyst",
+        "Economist",
+        "M.Com → Professor / Researcher",
+        "RBI Manager"
+      ],
+      "review_status": "pending_official_review"
+    },
+    {
+      "database_id": 87,
+      "name": "Delhi School of Economics",
+      "city": "New Delhi",
+      "district": null,
+      "state": "Delhi",
+      "website": "https://econdse.org",
+      "description": "Delhi School of Economics (DSE), established in 1949 within the University of Delhi, is India's most famous center for economics education and research. Its MA Economics program is among the most competitive in India, producing economists, civil servants, and academics who have shaped Indian economic policy. DSE faculty and alumni include some of India's most eminent economists and Nobel Prize-associated scholars.",
+      "existing_institution_type": "specialized",
+      "existing_categories": [],
+      "career_nodes": [
+        "Development Economist",
+        "Economic Analyst",
+        "Economist",
+        "M.Com → Professor / Researcher",
+        "Policy Analyst",
+        "RBI Manager"
+      ],
+      "review_status": "pending_official_review"
+    },
+    {
+      "database_id": 88,
+      "name": "Jamnalal Bajaj Institute of Management Studies (JBIMS)",
+      "city": "Mumbai",
+      "district": null,
+      "state": "Maharashtra",
+      "website": "https://www.jbims.edu",
+      "description": "Jamnalal Bajaj Institute of Management Studies (JBIMS) Mumbai, established in 1965 and affiliated with the University of Mumbai, is one of India's most selective and prestigious business schools. Its MMS and MFM programs are highly regarded, with exceptional placement outcomes in finance, consulting, and general management. JBIMS is particularly known for its finance specialization and strong alumni network in Mumbai's financial sector.",
+      "existing_institution_type": "specialized",
+      "existing_categories": [],
+      "career_nodes": [
+        "Bank Manager",
+        "Branch Head",
+        "MBA Finance → CFO Track"
+      ],
+      "review_status": "pending_official_review"
+    },
+    {
+      "database_id": 91,
+      "name": "IIIT Hyderabad",
+      "city": "Hyderabad",
+      "district": null,
+      "state": "Telangana",
+      "website": "https://www.iiit.ac.in",
+      "description": "International Institute of Information Technology Hyderabad (IIIT-H), established in 1998, is a deemed university renowned for its research-driven approach to computer science, electronics, and computational linguistics. It offers BTech, MTech, MS (Research), and PhD programs with strong emphasis on research from the undergraduate level. IIIT-H is particularly known for its work in AI, machine learning, speech and language technologies, and robotics.",
+      "existing_institution_type": "iiit",
+      "existing_categories": [],
+      "career_nodes": [
+        "AI Engineer",
+        "AI Product Manager",
+        "AI Researcher",
+        "Blockchain Developer",
+        "Business Intelligence Analyst",
+        "Cloud Architect",
+        "Cybersecurity Analyst",
+        "Data Engineer",
+        "Data Product Manager",
+        "Database Administrator",
+        "DevOps Engineer",
+        "Ethical Hacker / Penetration Tester",
+        "IT Consultant",
+        "IoT Specialist",
+        "MCA → Software Engineer",
+        "ML Engineer",
+        "Mobile App Developer",
+        "NLP Specialist",
+        "Robotics & AI Specialist",
+        "Robotics Engineer",
+        "Software Analyst",
+        "System Administrator",
+        "System Analyst",
+        "Web Developer"
+      ],
+      "review_status": "pending_official_review"
+    },
+    {
+      "database_id": 94,
+      "name": "DOEACC / NIELIT",
+      "city": "Various",
+      "district": null,
+      "state": null,
+      "website": "https://www.nielit.gov.in",
+      "description": "National Institute of Electronics and Information Technology (NIELIT), formerly DOEACC, is an autonomous body under the Ministry of Electronics and IT offering IT training and certification programs across India. It conducts the widely recognized 'O', 'A', 'B', and 'C' level courses in computer applications, as well as specialized courses in embedded systems, cybersecurity, and digital marketing. NIELIT operates through a network of accredited centers nationwide, making IT education accessible in tier-2 and tier-3 cities.",
+      "existing_institution_type": "central_institute",
+      "existing_categories": [],
+      "career_nodes": [
+        "Database Administrator",
+        "Electronics Technician",
+        "MCA → Software Engineer",
+        "Network Engineer",
+        "System Administrator",
+        "Web Developer"
+      ],
+      "review_status": "pending_official_review"
+    },
+    {
+      "database_id": 95,
+      "name": "Manipal Institute of Technology",
+      "city": "Manipal",
+      "district": null,
+      "state": "Karnataka",
+      "website": "https://manipal.edu/mit.html",
+      "description": "Manipal Institute of Technology (MIT) Manipal, established in 1957, is one of India's oldest and most reputed private engineering colleges, offering BTech, MTech, and PhD programs across 19 engineering disciplines. It is part of Manipal Academy of Higher Education (MAHE) and is known for its international collaborations, modern infrastructure, and strong placement record. MIT Manipal is particularly recognized for programs in computer science, electronics, mechanical, and biotechnology engineering.",
+      "existing_institution_type": "specialized",
+      "existing_categories": [],
+      "career_nodes": [
+        "MCA → Software Engineer",
+        "Mobile App Developer",
+        "Web Developer"
+      ],
+      "review_status": "pending_official_review"
+    },
+    {
+      "database_id": 97,
+      "name": "Bombay Stock Exchange (BSE) Institute",
+      "city": "Mumbai",
+      "district": null,
+      "state": "Maharashtra",
+      "website": "https://www.bsebti.com",
+      "description": "BSE Institute Ltd. (BIL), a wholly owned subsidiary of BSE Ltd. (Bombay Stock Exchange), offers specialized programs in finance, capital markets, and financial services. It provides certificate, diploma, and postgraduate programs in areas such as investment banking, equity research, financial planning, and commodity markets. BSE Institute's location in India's financial capital and its industry connections provide students with unmatched exposure to live markets and finance professionals.",
+      "existing_institution_type": null,
+      "existing_categories": [],
+      "career_nodes": [
+        "Equity Research Analyst",
+        "Stock Broker / Trader"
+      ],
+      "review_status": "pending_official_review"
+    }
+  ]
+}

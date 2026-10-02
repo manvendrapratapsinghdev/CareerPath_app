@@ -870,4 +870,137 @@ class AppLocalizationsGu extends AppLocalizations {
 
   @override
   String get ai_openInExplore => 'Open in Explore';
+
+  @override
+  String get institute_stepsTitle => 'પગલાં';
+
+  @override
+  String get institute_ladderTitle => 'સંસ્થાઓની ક્રમબદ્ધ યાદી';
+
+  @override
+  String get institute_locationFilterTooltip => 'સ્થાન પ્રમાણે ફિલ્ટર કરો';
+
+  @override
+  String get institute_ladderLoadError => 'સંસ્થાઓની યાદી લોડ થઈ શકી નથી.';
+
+  @override
+  String get institute_noRouteData => 'હજુ સુધી માર્ગની માહિતી ઉપલબ્ધ નથી.';
+
+  @override
+  String get institute_hidePrivateWithoutUgc =>
+      'UGC ચકાસણી ન હોય તેવી ખાનગી સંસ્થાઓ છુપાવો';
+
+  @override
+  String get institute_groupLabel => 'સંસ્થા જૂથ';
+
+  @override
+  String get institute_familyLabel => 'સંસ્થાની શ્રેણી';
+
+  @override
+  String get institute_chooseProfessionalBody => 'વ્યાવસાયિક સંસ્થા પસંદ કરો';
+
+  @override
+  String get institute_relevantExams => 'સંબંધિત પરીક્ષાઓ';
+
+  @override
+  String get institute_entryRoutes => 'પ્રવેશના માર્ગો';
+
+  @override
+  String get institute_checkOfficialRoute => 'સત્તાવાર માર્ગ તપાસો';
+
+  @override
+  String get institute_entryRequirementsVary =>
+      'સંસ્થા અને કાર્યક્રમ પ્રમાણે પ્રવેશની શરતો બદલાય છે.';
+
+  @override
+  String get institute_stepsAndEntryRoutes => 'પગલાં અને પ્રવેશના માર્ગો';
+
+  @override
+  String get institute_caCmaCsNote =>
+      'CA, CMA અને CS અલગ લાયકાતો છે. ઉપરના પ્રવેશના માર્ગો વિકલ્પો છે, ક્રમશઃ પરીક્ષાના તબક્કા નથી.';
+
+  @override
+  String institute_allLabel(String label) {
+    return 'બધા $label';
+  }
+
+  @override
+  String get institute_online => 'ઑનલાઇન';
+
+  @override
+  String get institute_allIndia => 'સમગ્ર ભારત';
+
+  @override
+  String institute_showingFilters(String labels) {
+    return 'દર્શાવેલ: $labels';
+  }
+
+  @override
+  String get institute_clear => 'સાફ કરો';
+
+  @override
+  String institute_coverageInIndia(int count, int listed) {
+    return 'ભારતમાં $count · સૂચિમાં $listed';
+  }
+
+  @override
+  String institute_coverageListed(int count) {
+    return 'સૂચિમાં $count';
+  }
+
+  @override
+  String get institute_noListedInTier =>
+      'પસંદ કરેલા ફિલ્ટર માટે આ સ્તરમાં કોઈ સંસ્થા સૂચિબદ્ધ નથી.';
+
+  @override
+  String get institute_mappedLocationDisclaimer =>
+      'હાલના સંસ્થાના રેકોર્ડ પરથી સ્થાન દર્શાવ્યું છે; તેની સ્વતંત્ર પુષ્ટિ થઈ નથી.';
+
+  @override
+  String get institute_notRanked => 'રેન્ક નથી';
+
+  @override
+  String institute_top10(String label) {
+    return 'ટોપ 10 · $label';
+  }
+
+  @override
+  String institute_nirfTop100(int year) {
+    return 'NIRF ટોપ 100 · $year';
+  }
+
+  @override
+  String get institute_ugcVerified => 'UGC ચકાસાયેલ ✓';
+
+  @override
+  String get institute_ugcNotVerified => 'UGC ચકાસાયેલ નથી';
+
+  @override
+  String get institute_ugcPending => 'UGC ચકાસણી બાકી છે';
+
+  @override
+  String get institute_locationUnavailable => 'સ્થાનની માહિતી ઉપલબ્ધ નથી.';
+
+  @override
+  String get institute_studyLocation => 'અભ્યાસનું સ્થાન';
+
+  @override
+  String get institute_stateOrUnionTerritory => 'રાજ્ય / કેન્દ્રશાસિત પ્રદેશ';
+
+  @override
+  String get institute_district => 'જિલ્લો';
+
+  @override
+  String get institute_cityTown => 'શહેર / નગર';
+
+  @override
+  String get institute_applyLocation => 'સ્થાન લાગુ કરો';
+
+  @override
+  String institute_collegeLadderSubtitle(int count) {
+    return '$count સંસ્થા સ્તરો · રેન્ક અને સ્થાન પ્રમાણે સરખાવો';
+  }
+
+  @override
+  String get institute_entryRoutesSummary => 'પ્રવેશના માર્ગો';
 }

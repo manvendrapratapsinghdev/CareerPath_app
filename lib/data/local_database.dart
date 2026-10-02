@@ -8,9 +8,13 @@ import 'package:sqflite/sqflite.dart';
 import '../models/domain.dart';
 import '../models/domain_tier.dart';
 import '../models/institute_accreditation.dart';
+import '../models/institute_campus.dart';
 import '../models/institute_catalog.dart';
 import '../models/institute_classification.dart';
 import '../models/institute_domain_tier.dart';
+import '../models/place_alias.dart';
+import '../models/place_record.dart';
+import '../models/district_region.dart';
 import '../models/institute_verification.dart';
 import '../models/institution_family.dart';
 import '../models/institution_group.dart';
@@ -182,9 +186,43 @@ class LocalDatabase {
     };
   }
 
-  // ── Institute catalog (courses, rankings, categories) — 5 queries ──────
+  // ── Institute catalog (courses, rankings, accreditations) — batched queries
 
   Future<List<Map<String, dynamic>>> getInstituteCatalog() async {
+    final hasCampusTables = await _hasTables(const [
+      'campuses',
+      'places',
+      'districts',
+      'states',
+    ]);
+    final campusRows = hasCampusTables
+        ? await db.rawQuery(
+            'SELECT c.id, c.institute_id, c.name, c.place_id, p.name AS place_name, '
+            'd.name AS district_name, d.lgd_code AS district_lgd, '
+            's.code AS state_code, s.name AS state_name, c.is_main, '
+            'c.source_url, c.verified_at FROM campuses c '
+            'JOIN places p ON p.id = c.place_id '
+            'JOIN districts d ON d.lgd_code = p.district_lgd '
+            'JOIN states s ON s.code = d.state_code '
+            'ORDER BY c.institute_id, c.is_main DESC, p.name',
+          )
+        : <Map<String, Object?>>[];
+    final hasClassificationTable = await _hasTables(const [
+      'institute_classification',
+    ]);
+    final classificationRows = hasClassificationTable
+        ? await db.rawQuery('SELECT * FROM institute_classification')
+        : <Map<String, Object?>>[];
+    final hasAccreditationTable = await _hasTables(const [
+      'institute_accreditations',
+    ]);
+    final accreditationRows = hasAccreditationTable
+        ? await db.rawQuery(
+            'SELECT institute_id, body, programme, grade, status, valid_until, '
+            'source_url FROM institute_accreditations '
+            "ORDER BY institute_id, CASE body WHEN 'NAAC' THEN 0 ELSE 1 END, programme",
+          )
+        : <Map<String, Object?>>[];
     final results = await Future.wait([
       db.rawQuery(
         'SELECT id, source_id, name, city, district, state, '
@@ -230,6 +268,22 @@ class LocalDatabase {
         row['category'] as String,
       );
     }
+    final campuses = <int, List<Map<String, dynamic>>>{};
+    for (final row in campusRows) {
+      (campuses[row['institute_id'] as int] ??= []).add(
+        Map<String, dynamic>.from(row),
+      );
+    }
+    final classifications = <int, Map<String, dynamic>>{
+      for (final row in classificationRows)
+        row['institute_id'] as int: Map<String, dynamic>.from(row),
+    };
+    final accreditations = <int, List<Map<String, dynamic>>>{};
+    for (final row in accreditationRows) {
+      (accreditations[row['institute_id'] as int] ??= []).add(
+        Map<String, dynamic>.from(row),
+      );
+    }
     return results[0].map((row) {
       final id = row['id'] as int;
       return {
@@ -237,6 +291,9 @@ class LocalDatabase {
         'courses': courses[id] ?? const [],
         'rankings': rankings[id] ?? const [],
         'categories': categories[id] ?? const [],
+        'campuses': campuses[id] ?? const [],
+        'classification': classifications[id],
+        'accreditations': accreditations[id] ?? const [],
       };
     }).toList();
   }
@@ -615,6 +672,65 @@ class LocalDatabase {
       'ORDER BY name',
     );
     return rows.map(StateRegion.fromJson).toList(growable: false);
+  }
+
+  /// LGD districts, optionally limited to one state.
+  Future<List<DistrictRegion>> getDistricts({String? stateCode}) async {
+    if (!await _hasTables(const ['districts', 'states'])) return const [];
+    final rows = await db.rawQuery(
+      'SELECT lgd_code, state_code, name FROM districts '
+      '${stateCode == null ? '' : 'WHERE state_code = ? '}ORDER BY name',
+      [?stateCode],
+    );
+    return rows.map(DistrictRegion.fromJson).toList(growable: false);
+  }
+
+  /// LGD places, optionally limited to one district.
+  Future<List<PlaceRecord>> getPlaces({int? districtLgd}) async {
+    if (!await _hasTables(const ['places', 'districts'])) return const [];
+    final rows = await db.rawQuery(
+      'SELECT p.id, p.district_lgd, d.name AS district_name, '
+      'd.state_code, p.name, p.kind, p.is_district_hq FROM places p '
+      'JOIN districts d ON d.lgd_code = p.district_lgd '
+      '${districtLgd == null ? '' : 'WHERE p.district_lgd = ? '}ORDER BY p.name',
+      [?districtLgd],
+    );
+    return rows.map(PlaceRecord.fromJson).toList(growable: false);
+  }
+
+  /// Alternate place spellings, each linked to exactly one canonical target.
+  Future<List<PlaceAlias>> getPlaceAliases() async {
+    if (!await _hasTables(const ['place_aliases'])) return const [];
+    final rows = await db.rawQuery(
+      'SELECT alias, place_id, district_lgd, state_code '
+      'FROM place_aliases ORDER BY alias',
+    );
+    return rows.map(PlaceAlias.fromJson).toList(growable: false);
+  }
+
+  /// Official campus-to-place links for one institute or the whole catalog.
+  Future<List<InstituteCampus>> getCampuses({int? instituteId}) async {
+    if (!await _hasTables(const [
+      'campuses',
+      'places',
+      'districts',
+      'states',
+    ])) {
+      return const [];
+    }
+    final rows = await db.rawQuery(
+      'SELECT c.id, c.institute_id, c.name, c.place_id, p.name AS place_name, '
+      'd.name AS district_name, d.lgd_code AS district_lgd, '
+      's.code AS state_code, s.name AS state_name, c.is_main, '
+      'c.source_url, c.verified_at FROM campuses c '
+      'JOIN places p ON p.id = c.place_id '
+      'JOIN districts d ON d.lgd_code = p.district_lgd '
+      'JOIN states s ON s.code = d.state_code '
+      '${instituteId == null ? '' : 'WHERE c.institute_id = ? '} '
+      'ORDER BY c.institute_id, c.is_main DESC, p.name',
+      [?instituteId],
+    );
+    return rows.map(InstituteCampus.fromJson).toList(growable: false);
   }
 
   /// Distinct (city, state) pairs on institutes, by city. The place

@@ -1,0 +1,176 @@
+{
+  "batch_id": "legacy-group-016",
+  "generated_at": "2026-10-02T04:41:24.737500+00:00",
+  "database": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/assets/data/career_path.db",
+  "selection": "Institutes without institute_classification",
+  "classification_policy": "Do not infer silently; require official evidence or manual_review.",
+  "records": [
+    {
+      "database_id": 324,
+      "name": "Madras Veterinary College",
+      "city": "Chennai",
+      "district": null,
+      "state": "Tamil Nadu",
+      "website": "https://www.tanuvas.ac.in",
+      "description": "Madras Veterinary College in Chennai is one of the oldest and most respected veterinary colleges in Asia, established in 1903, and now a constituent college of Tamil Nadu Veterinary and Animal Sciences University (TANUVAS). It offers B.V.Sc. & A.H., M.V.Sc., and Ph.D. programs and is known for strong clinical facilities, teaching hospital, and research in tropical veterinary medicine. The college has trained generations of veterinarians serving across Tamil Nadu and other states.",
+      "existing_institution_type": "government_college",
+      "existing_categories": [],
+      "career_nodes": [
+        "Animal Science Researcher",
+        "Veterinary Doctor"
+      ],
+      "review_status": "pending_official_review"
+    },
+    {
+      "database_id": 325,
+      "name": "College of Veterinary Science Hyderabad",
+      "city": "Hyderabad",
+      "district": null,
+      "state": "Telangana",
+      "website": "https://www.pvcafsc.telangana.gov.in",
+      "description": "College of Veterinary Science Rajendranagar in Hyderabad is a constituent college of P.V. Narasimha Rao Telangana Veterinary University, offering B.V.Sc. & A.H. and postgraduate programs in various veterinary specialties. It is one of the premier veterinary colleges in southern India, known for its attached teaching hospital and research work in poultry science, livestock management, and animal biotechnology. The college serves Telangana's large livestock and poultry sectors through research and extension activities.",
+      "existing_institution_type": null,
+      "existing_categories": [],
+      "career_nodes": [
+        "Animal Science Researcher",
+        "Veterinary Doctor"
+      ],
+      "review_status": "pending_official_review"
+    },
+    {
+      "database_id": 326,
+      "name": "KGMU Lucknow (Physiotherapy)",
+      "city": "Lucknow",
+      "district": null,
+      "state": "Uttar Pradesh",
+      "website": "https://www.kgmu.org",
+      "description": "King George's Medical University (KGMU) in Lucknow is one of India's oldest medical universities, established in 1905, offering MBBS, BPT (Bachelor of Physiotherapy), MPT, and Ph.D. programs. The Department of Physiotherapy at KGMU is one of the most prestigious in northern India, known for its integration with the broad clinical environment of a major tertiary care hospital. KGMU physiotherapy graduates work in hospitals, rehabilitation centers, and sports organizations across India.",
+      "existing_institution_type": "medical",
+      "existing_categories": [],
+      "career_nodes": [
+        "Physiotherapist",
+        "Sports Physiotherapist"
+      ],
+      "review_status": "pending_official_review"
+    },
+    {
+      "database_id": 327,
+      "name": "CMC Vellore (Physiotherapy)",
+      "city": "Vellore",
+      "district": null,
+      "state": "Tamil Nadu",
+      "website": "https://www.cmch-vellore.edu",
+      "description": "Christian Medical College (CMC) Vellore's Physiotherapy program is one of India's most respected, offering BPT and MPT degrees with specializations in neuro-rehabilitation, musculoskeletal physiotherapy, and sports physiotherapy. CMC's physiotherapy department benefits from an exceptionally diverse clinical case load at one of India's busiest hospitals, providing unmatched patient contact hours. CMC-trained physiotherapists are highly regarded internationally and many work in reputed rehabilitation centers in the UK, US, and Australia.",
+      "existing_institution_type": "medical",
+      "existing_categories": [],
+      "career_nodes": [
+        "Physiotherapist",
+        "Sports Physiotherapist"
+      ],
+      "review_status": "pending_official_review"
+    },
+    {
+      "database_id": 329,
+      "name": "National Institute of Biologicals",
+      "city": "Noida",
+      "district": null,
+      "state": "Uttar Pradesh",
+      "website": "https://www.nib.gov.in",
+      "description": "National Institute of Biologicals (NIB) in Noida is an autonomous body under the Ministry of Health and Family Welfare, responsible for quality assurance of biological products including vaccines, blood products, and recombinant therapeutics. It offers training programs and internships for biotechnology and pharmaceutical professionals in biologics testing and regulatory affairs. NIB plays a critical role in ensuring the safety and efficacy of biological medicines available in the Indian market.",
+      "existing_institution_type": "central_institute",
+      "existing_categories": [],
+      "career_nodes": [
+        "Lab Technician",
+        "M.Sc Biotechnology → Researcher",
+        "Microbiologist",
+        "Research Scientist (Biology)"
+      ],
+      "review_status": "pending_official_review"
+    },
+    {
+      "database_id": 332,
+      "name": "Wildlife Institute of India",
+      "city": "Dehradun",
+      "district": null,
+      "state": "Uttarakhand",
+      "website": "https://wii.gov.in",
+      "description": "Wildlife Institute of India (WII) in Dehradun is an autonomous institution under the Ministry of Environment, Forest and Climate Change, offering postgraduate and doctoral programs in wildlife science, conservation biology, and wildlife management. It provides training to forest officers, wildlife managers, and researchers from India and neighboring countries in ecological surveying, GIS-based habitat modeling, and wildlife forensics. WII conducts nationwide biodiversity assessments and provides scientific advisory support for India's Project Tiger, Project Elephant, and other conservation programs.",
+      "existing_institution_type": "central_institute",
+      "existing_categories": [],
+      "career_nodes": [
+        "Environmental Consultant",
+        "Wildlife Biologist"
+      ],
+      "review_status": "pending_official_review"
+    },
+    {
+      "database_id": 333,
+      "name": "Forest Research Institute (FRI)",
+      "city": "Dehradun",
+      "district": null,
+      "state": "Uttarakhand",
+      "website": "https://www.icfre.gov.in/fri.html",
+      "description": "Forest Research Institute (FRI) in Dehradun is one of the oldest and most prestigious forest research institutes in the world, established in 1906, and an autonomous body under the Indian Council of Forestry Research and Education (ICFRE). It offers postgraduate and doctoral programs in forestry, wood science, social forestry, and silviculture, and houses India's largest natural history museum dedicated to forest ecosystems. FRI undertakes research in forest conservation, wood utilization, non-timber forest products, and climate change impacts on Indian forests.",
+      "existing_institution_type": "central_institute",
+      "existing_categories": [],
+      "career_nodes": [
+        "Environmental Consultant",
+        "Wildlife Biologist"
+      ],
+      "review_status": "pending_official_review"
+    },
+    {
+      "database_id": 337,
+      "name": "CFSL (Central Forensic Science Laboratory)",
+      "city": "Hyderabad",
+      "district": null,
+      "state": "Telangana",
+      "website": "https://cfsl.gov.in",
+      "description": "Central Forensic Science Laboratory (CFSL) Hyderabad is one of three central government forensic laboratories under the Directorate of Forensic Science Services, Ministry of Home Affairs, providing forensic analysis support to central investigative agencies including CBI, NIA, and SFIO. It offers training programs in forensic biology, document examination, cyber forensics, and forensic toxicology for law enforcement officers and forensic professionals. CFSL Hyderabad is also involved in research and development of new forensic techniques and methodologies.",
+      "existing_institution_type": null,
+      "existing_categories": [],
+      "career_nodes": [
+        "Crime Lab Analyst",
+        "Forensic Expert"
+      ],
+      "review_status": "pending_official_review"
+    },
+    {
+      "database_id": 338,
+      "name": "Central Food Technological Research Institute (CFTRI)",
+      "city": "Mysuru",
+      "district": null,
+      "state": "Karnataka",
+      "website": "https://www.cftri.res.in",
+      "description": "Central Food Technological Research Institute (CFTRI) in Mysuru is India's foremost food science and technology research institute, under CSIR, with over 75 years of research in food processing, food safety, and nutrition. It offers postgraduate and doctoral programs through AcSIR and has developed hundreds of food processing technologies that have been transferred to over 3000 industries. CFTRI is internationally recognized for research in functional foods, food packaging, and traditional food product development.",
+      "existing_institution_type": "central_institute",
+      "existing_categories": [],
+      "career_nodes": [
+        "Food Technologist",
+        "Quality Assurance Analyst"
+      ],
+      "review_status": "pending_official_review"
+    },
+    {
+      "database_id": 345,
+      "name": "Lady Hardinge Medical College",
+      "city": "New Delhi",
+      "district": null,
+      "state": "Delhi",
+      "website": "https://www.lhmc.edu.in",
+      "description": "Lady Hardinge Medical College (LHMC) in New Delhi is one of India's premier women's medical colleges and a central government institution affiliated with the University of Delhi. Established in 1916, it offers MBBS and postgraduate MD/MS programs and is attached to Smt. Sucheta Kriplani Hospital and Kalawati Saran Children's Hospital. LHMC is renowned for its obstetrics, gynecology, and pediatrics departments and has produced generations of leading women physicians across India.",
+      "existing_institution_type": null,
+      "existing_categories": [],
+      "career_nodes": [
+        "Clinical Biochemist",
+        "Clinical Lab Scientist",
+        "MRI / CT Scan Technician",
+        "Medical Lab Technician",
+        "Pathology Technician",
+        "Radiographer",
+        "Sonographer (Ultrasound Tech)"
+      ],
+      "review_status": "pending_official_review"
+    }
+  ]
+}

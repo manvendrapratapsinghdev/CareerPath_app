@@ -199,5 +199,79 @@
   "common_noneAvailableYet": "હજુ કંઈ ઉપલબ્ધ નથી",
   "common_byAuthor": "{author} દ્વારા",
   "common_viewBook": "પુસ્તક જુઓ",
-  "common_visitWebsite": "વેબસાઇટ મુલાકાત લો"
+  "common_visitWebsite": "વેબસાઇટ મુલાકાત લો",
+  "institute_stepsTitle": "પગલાં",
+  "institute_ladderTitle": "સંસ્થાઓની ક્રમબદ્ધ યાદી",
+  "institute_locationFilterTooltip": "સ્થાન પ્રમાણે ફિલ્ટર કરો",
+  "institute_ladderLoadError": "સંસ્થાઓની યાદી લોડ થઈ શકી નથી.",
+  "institute_noRouteData": "હજુ સુધી માર્ગની માહિતી ઉપલબ્ધ નથી.",
+  "institute_hidePrivateWithoutUgc": "UGC ચકાસણી ન હોય તેવી ખાનગી સંસ્થાઓ છુપાવો",
+  "institute_groupLabel": "સંસ્થા જૂથ",
+  "institute_familyLabel": "સંસ્થાની શ્રેણી",
+  "institute_chooseProfessionalBody": "વ્યાવસાયિક સંસ્થા પસંદ કરો",
+  "institute_relevantExams": "સંબંધિત પરીક્ષાઓ",
+  "institute_entryRoutes": "પ્રવેશના માર્ગો",
+  "institute_checkOfficialRoute": "સત્તાવાર માર્ગ તપાસો",
+  "institute_entryRequirementsVary": "સંસ્થા અને કાર્યક્રમ પ્રમાણે પ્રવેશની શરતો બદલાય છે.",
+  "institute_stepsAndEntryRoutes": "પગલાં અને પ્રવેશના માર્ગો",
+  "institute_caCmaCsNote": "CA, CMA અને CS અલગ લાયકાતો છે. ઉપરના પ્રવેશના માર્ગો વિકલ્પો છે, ક્રમશઃ પરીક્ષાના તબક્કા નથી.",
+  "institute_allLabel": "બધા {label}",
+  "@institute_allLabel": {
+    "placeholders": {
+      "label": { "type": "String" }
+    }
+  },
+  "institute_online": "ઑનલાઇન",
+  "institute_allIndia": "સમગ્ર ભારત",
+  "institute_showingFilters": "દર્શાવેલ: {labels}",
+  "@institute_showingFilters": {
+    "placeholders": {
+      "labels": { "type": "String" }
+    }
+  },
+  "institute_clear": "સાફ કરો",
+  "institute_coverageInIndia": "ભારતમાં {count} · સૂચિમાં {listed}",
+  "@institute_coverageInIndia": {
+    "placeholders": {
+      "count": { "type": "int" },
+      "listed": { "type": "int" }
+    }
+  },
+  "institute_coverageListed": "સૂચિમાં {count}",
+  "@institute_coverageListed": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "institute_noListedInTier": "પસંદ કરેલા ફિલ્ટર માટે આ સ્તરમાં કોઈ સંસ્થા સૂચિબદ્ધ નથી.",
+  "institute_mappedLocationDisclaimer": "હાલના સંસ્થાના રેકોર્ડ પરથી સ્થાન દર્શાવ્યું છે; તેની સ્વતંત્ર પુષ્ટિ થઈ નથી.",
+  "institute_notRanked": "રેન્ક નથી",
+  "institute_top10": "ટોપ 10 · {label}",
+  "@institute_top10": {
+    "placeholders": {
+      "label": { "type": "String" }
+    }
+  },
+  "institute_nirfTop100": "NIRF ટોપ 100 · {year}",
+  "@institute_nirfTop100": {
+    "placeholders": {
+      "year": { "type": "int" }
+    }
+  },
+  "institute_ugcVerified": "UGC ચકાસાયેલ ✓",
+  "institute_ugcNotVerified": "UGC ચકાસાયેલ નથી",
+  "institute_ugcPending": "UGC ચકાસણી બાકી છે",
+  "institute_locationUnavailable": "સ્થાનની માહિતી ઉપલબ્ધ નથી.",
+  "institute_studyLocation": "અભ્યાસનું સ્થાન",
+  "institute_stateOrUnionTerritory": "રાજ્ય / કેન્દ્રશાસિત પ્રદેશ",
+  "institute_district": "જિલ્લો",
+  "institute_cityTown": "શહેર / નગર",
+  "institute_applyLocation": "સ્થાન લાગુ કરો",
+  "institute_collegeLadderSubtitle": "{count} સંસ્થા સ્તરો · રેન્ક અને સ્થાન પ્રમાણે સરખાવો",
+  "@institute_collegeLadderSubtitle": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "institute_entryRoutesSummary": "પ્રવેશના માર્ગો"
 }

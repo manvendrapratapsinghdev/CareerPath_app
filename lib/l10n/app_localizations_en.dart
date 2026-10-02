@@ -868,4 +868,138 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get ai_openInExplore => 'Open in Explore';
+
+  @override
+  String get institute_stepsTitle => 'Steps';
+
+  @override
+  String get institute_ladderTitle => 'College ladder';
+
+  @override
+  String get institute_locationFilterTooltip => 'Filter by location';
+
+  @override
+  String get institute_ladderLoadError =>
+      'The institute ladder could not be loaded.';
+
+  @override
+  String get institute_noRouteData => 'No route data is available yet.';
+
+  @override
+  String get institute_hidePrivateWithoutUgc =>
+      'Hide private institutions without UGC verification';
+
+  @override
+  String get institute_groupLabel => 'Institution group';
+
+  @override
+  String get institute_familyLabel => 'Institution family';
+
+  @override
+  String get institute_chooseProfessionalBody => 'Choose the professional body';
+
+  @override
+  String get institute_relevantExams => 'Relevant examinations';
+
+  @override
+  String get institute_entryRoutes => 'Entry routes';
+
+  @override
+  String get institute_checkOfficialRoute => 'Check the official route';
+
+  @override
+  String get institute_entryRequirementsVary =>
+      'Entry requirements vary by institution and programme.';
+
+  @override
+  String get institute_stepsAndEntryRoutes => 'Steps and entry routes';
+
+  @override
+  String get institute_caCmaCsNote =>
+      'CA, CMA and CS are separate qualifications. The entry routes above are alternatives, not consecutive exam stages.';
+
+  @override
+  String institute_allLabel(String label) {
+    return 'All $label';
+  }
+
+  @override
+  String get institute_online => 'Online';
+
+  @override
+  String get institute_allIndia => 'All India';
+
+  @override
+  String institute_showingFilters(String labels) {
+    return 'Showing: $labels';
+  }
+
+  @override
+  String get institute_clear => 'Clear';
+
+  @override
+  String institute_coverageInIndia(int count, int listed) {
+    return '$count in India · $listed listed';
+  }
+
+  @override
+  String institute_coverageListed(int count) {
+    return '$count listed';
+  }
+
+  @override
+  String get institute_noListedInTier =>
+      'No listed institutes in this tier for the selected filters.';
+
+  @override
+  String get institute_mappedLocationDisclaimer =>
+      'Mapped from existing institute records; not independently verified.';
+
+  @override
+  String get institute_notRanked => 'Not ranked';
+
+  @override
+  String institute_top10(String label) {
+    return 'Top 10 · $label';
+  }
+
+  @override
+  String institute_nirfTop100(int year) {
+    return 'NIRF Top 100 · $year';
+  }
+
+  @override
+  String get institute_ugcVerified => 'UGC verified ✓';
+
+  @override
+  String get institute_ugcNotVerified => 'Not UGC verified';
+
+  @override
+  String get institute_ugcPending => 'UGC verification pending';
+
+  @override
+  String get institute_locationUnavailable => 'Location data is unavailable.';
+
+  @override
+  String get institute_studyLocation => 'Study location';
+
+  @override
+  String get institute_stateOrUnionTerritory => 'State / Union Territory';
+
+  @override
+  String get institute_district => 'District';
+
+  @override
+  String get institute_cityTown => 'City / Town';
+
+  @override
+  String get institute_applyLocation => 'Apply location';
+
+  @override
+  String institute_collegeLadderSubtitle(int count) {
+    return '$count institution tiers · compare by rank and location';
+  }
+
+  @override
+  String get institute_entryRoutesSummary => 'Entry routes';
 }

@@ -199,5 +199,79 @@
   "common_noneAvailableYet": "இதுவரை எதுவும் இல்லை",
   "common_byAuthor": "{author} எழுதியது",
   "common_viewBook": "புத்தகத்தைப் பாருங்கள்",
-  "common_visitWebsite": "இணையதளத்தைப் பாருங்கள்"
+  "common_visitWebsite": "இணையதளத்தைப் பாருங்கள்",
+  "institute_stepsTitle": "படிகள்",
+  "institute_ladderTitle": "நிறுவனங்களின் படிநிலை",
+  "institute_locationFilterTooltip": "இடத்தின் அடிப்படையில் வடிகட்டவும்",
+  "institute_ladderLoadError": "நிறுவனங்களின் படிநிலையை ஏற்ற முடியவில்லை.",
+  "institute_noRouteData": "வழி பற்றிய தகவல் இன்னும் கிடைக்கவில்லை.",
+  "institute_hidePrivateWithoutUgc": "UGC சரிபார்ப்பு இல்லாத தனியார் நிறுவனங்களை மறைக்கவும்",
+  "institute_groupLabel": "நிறுவனக் குழு",
+  "institute_familyLabel": "நிறுவன வகை",
+  "institute_chooseProfessionalBody": "தொழில்முறை அமைப்பைத் தேர்ந்தெடுக்கவும்",
+  "institute_relevantExams": "தொடர்புடைய தேர்வுகள்",
+  "institute_entryRoutes": "சேர்க்கை வழிகள்",
+  "institute_checkOfficialRoute": "அதிகாரப்பூர்வ வழியைச் சரிபார்க்கவும்",
+  "institute_entryRequirementsVary": "நிறுவனம் மற்றும் படிப்பைப் பொறுத்து சேர்க்கைத் தகுதிகள் மாறுபடும்.",
+  "institute_stepsAndEntryRoutes": "படிகள் மற்றும் சேர்க்கை வழிகள்",
+  "institute_caCmaCsNote": "CA, CMA, CS ஆகியவை தனித்தனி தகுதிகள். மேலே உள்ள சேர்க்கை வழிகள் மாற்று வழிகள்; அடுத்தடுத்த தேர்வுக் கட்டங்கள் அல்ல.",
+  "institute_allLabel": "அனைத்து {label}",
+  "@institute_allLabel": {
+    "placeholders": {
+      "label": { "type": "String" }
+    }
+  },
+  "institute_online": "ஆன்லைன்",
+  "institute_allIndia": "இந்தியா முழுவதும்",
+  "institute_showingFilters": "காட்டப்படுவது: {labels}",
+  "@institute_showingFilters": {
+    "placeholders": {
+      "labels": { "type": "String" }
+    }
+  },
+  "institute_clear": "அழிக்கவும்",
+  "institute_coverageInIndia": "இந்தியாவில் {count} · பட்டியலில் {listed}",
+  "@institute_coverageInIndia": {
+    "placeholders": {
+      "count": { "type": "int" },
+      "listed": { "type": "int" }
+    }
+  },
+  "institute_coverageListed": "பட்டியலில் {count}",
+  "@institute_coverageListed": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "institute_noListedInTier": "தேர்ந்தெடுத்த வடிகட்டிகளுக்கு இந்த நிலையில் பட்டியலிடப்பட்ட நிறுவனங்கள் இல்லை.",
+  "institute_mappedLocationDisclaimer": "தற்போதுள்ள நிறுவனப் பதிவுகளிலிருந்து இடம் காட்டப்பட்டுள்ளது; தனியாகச் சரிபார்க்கப்படவில்லை.",
+  "institute_notRanked": "தரவரிசை இல்லை",
+  "institute_top10": "முதல் 10 · {label}",
+  "@institute_top10": {
+    "placeholders": {
+      "label": { "type": "String" }
+    }
+  },
+  "institute_nirfTop100": "NIRF முதல் 100 · {year}",
+  "@institute_nirfTop100": {
+    "placeholders": {
+      "year": { "type": "int" }
+    }
+  },
+  "institute_ugcVerified": "UGC சரிபார்க்கப்பட்டது ✓",
+  "institute_ugcNotVerified": "UGC சரிபார்க்கப்படவில்லை",
+  "institute_ugcPending": "UGC சரிபார்ப்பு நிலுவையில் உள்ளது",
+  "institute_locationUnavailable": "இடத் தகவல் கிடைக்கவில்லை.",
+  "institute_studyLocation": "படிக்கும் இடம்",
+  "institute_stateOrUnionTerritory": "மாநிலம் / யூனியன் பிரதேசம்",
+  "institute_district": "மாவட்டம்",
+  "institute_cityTown": "நகரம் / சிற்றூர்",
+  "institute_applyLocation": "இடத்தைப் பயன்படுத்து",
+  "institute_collegeLadderSubtitle": "{count} நிறுவன நிலைகள் · தரவரிசை மற்றும் இடத்தின் அடிப்படையில் ஒப்பிடுங்கள்",
+  "@institute_collegeLadderSubtitle": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "institute_entryRoutesSummary": "சேர்க்கை வழிகள்"
 }

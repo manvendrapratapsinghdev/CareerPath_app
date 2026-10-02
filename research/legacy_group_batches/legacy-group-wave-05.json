@@ -1,0 +1,949 @@
+{
+  "wave_id": "legacy-group-wave-01",
+  "generated_at": "2026-10-02T05:26:34.547040+00:00",
+  "database": "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/assets/data/career_path.db",
+  "selection": "Institutes without institute_classification at merge time",
+  "record_count": 50,
+  "classified_count": 49,
+  "manual_review_count": 1,
+  "source_batches": [
+    "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/legacy_group_batches/results/legacy-group-021.json",
+    "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/legacy_group_batches/results/legacy-group-022.json",
+    "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/legacy_group_batches/results/legacy-group-023.json",
+    "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/legacy_group_batches/results/legacy-group-024.json",
+    "/Users/d111879/Documents/Project/DEMO/Student/Student_mobile/sapp/research/legacy_group_batches/results/legacy-group-025.json"
+  ],
+  "records": [
+    {
+      "database_id": 429,
+      "name": "Delta Defence Academy",
+      "outcome": "classified",
+      "group_code": "G10b",
+      "family_slug": "coaching_defence",
+      "ownership": "private",
+      "statutory_basis": "private defence-examination coaching provider",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [],
+      "confidence": "high",
+      "source_url": "https://www.deltadefenceacademy.com",
+      "evidence": "The official Delta Defence Academy site presents NDA, CDS, AFCAT, MNS and SSB preparation programmes, making this a private defence coaching provider rather than a degree-awarding institution.",
+      "notes": [
+        "G10b is Phase 2."
+      ]
+    },
+    {
+      "database_id": 430,
+      "name": "Target Defence Academy",
+      "outcome": "classified",
+      "group_code": "G10b",
+      "family_slug": "coaching_defence",
+      "ownership": "private",
+      "statutory_basis": "private defence-examination coaching provider",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [],
+      "confidence": "high",
+      "source_url": "https://www.targetdefenceacademy.com",
+      "evidence": "The official Target Defence Academy site presents NDA, CDS, AFCAT and armed-forces-entry coaching with mock SSB and fitness preparation, not a recognised degree institution.",
+      "notes": [
+        "G10b is Phase 2."
+      ]
+    },
+    {
+      "database_id": 431,
+      "name": "Trident Academy",
+      "outcome": "classified",
+      "group_code": "G10b",
+      "family_slug": "coaching_defence",
+      "ownership": "private",
+      "statutory_basis": "private defence-examination coaching provider",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [],
+      "confidence": "high",
+      "source_url": "https://www.tridentacademy.in",
+      "evidence": "The official Trident Academy site presents NDA, CDS and SSB preparation and residential coaching, which is private defence coaching rather than university or affiliated-college education.",
+      "notes": [
+        "G10b is Phase 2."
+      ]
+    },
+    {
+      "database_id": 432,
+      "name": "SAFAL Academy",
+      "outcome": "classified",
+      "group_code": "G10b",
+      "family_slug": "coaching_defence",
+      "ownership": "private",
+      "statutory_basis": "private defence-examination coaching provider",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [],
+      "confidence": "high",
+      "source_url": "https://www.safalacademy.com",
+      "evidence": "The official SAFAL Academy site presents NDA, CDS, AFCAT, MNS and SSB coaching programmes, not a degree-awarding institution.",
+      "notes": [
+        "G10b is Phase 2."
+      ]
+    },
+    {
+      "database_id": 435,
+      "name": "Jindal Global Law School",
+      "outcome": "classified",
+      "group_code": "G7",
+      "family_slug": "private_university",
+      "ownership": "private",
+      "statutory_basis": "constituent law school of a state private university",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC",
+        "BCI"
+      ],
+      "confidence": "high",
+      "source_url": "https://jgls.edu.in",
+      "evidence": "The official JGLS site publishes admissions for integrated law, LL.M. and doctoral programmes and identifies the school as part of O.P. Jindal Global University, a private university.",
+      "notes": [
+        "Constituent law school; parent linking can be added during cleanup."
+      ]
+    },
+    {
+      "database_id": 450,
+      "name": "Bennett University",
+      "outcome": "classified",
+      "group_code": "G7",
+      "family_slug": "private_university",
+      "ownership": "private",
+      "statutory_basis": "state private university established under Uttar Pradesh law",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.bennett.edu.in",
+      "evidence": "The official Bennett University site presents degree admissions across engineering, media, law and management as a state private university.",
+      "notes": []
+    },
+    {
+      "database_id": 451,
+      "name": "SRM Institute of Science and Technology",
+      "outcome": "classified",
+      "group_code": "G5",
+      "family_slug": "private_deemed",
+      "ownership": "private",
+      "statutory_basis": "deemed-to-be university under Section 3 of the UGC Act",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.srmist.edu.in",
+      "evidence": "The official SRMIST site presents degree admissions across engineering, medicine, law, science and management; SRM Institute of Science and Technology is a private deemed-to-be university.",
+      "notes": []
+    },
+    {
+      "database_id": 456,
+      "name": "IITRAM Ahmedabad",
+      "outcome": "classified",
+      "group_code": "G4",
+      "family_slug": "state_technical_university",
+      "ownership": "state_govt",
+      "statutory_basis": "institute established by the Government of Gujarat under state legislation",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC",
+        "AICTE"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.iitram.ac.in",
+      "evidence": "The official IITRAM site presents B.Tech. and M.Tech. admissions and identifies IITRAM as a Government of Gujarat institute focused on infrastructure, technology, research and management.",
+      "notes": []
+    },
+    {
+      "database_id": 457,
+      "name": "Vel Tech Chennai",
+      "outcome": "classified",
+      "group_code": "G5",
+      "family_slug": "private_deemed",
+      "ownership": "private",
+      "statutory_basis": "deemed-to-be university under Section 3 of the UGC Act",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.veltech.edu.in",
+      "evidence": "The official Vel Tech site presents degree admissions in engineering, technology and science; Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology is a private deemed-to-be university.",
+      "notes": []
+    },
+    {
+      "database_id": 458,
+      "name": "Indian Institute of Drone Technology (IIDT)",
+      "outcome": "classified",
+      "group_code": "G9",
+      "family_slug": "drone_rpto",
+      "ownership": "private",
+      "statutory_basis": "DGCA-approved Remote Pilot Training Organisation",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "DGCA"
+      ],
+      "confidence": "medium",
+      "source_url": "https://www.iidt.edu.in",
+      "evidence": "The official IIDT site presents drone-pilot, repair and entrepreneurship training as a DGCA-approved Remote Pilot Training Organisation, a regulated skill-training provider rather than a university.",
+      "notes": [
+        "G9 covers regulated skill and vocational training; verify current DGCA listing during final import."
+      ]
+    },
+    {
+      "database_id": 459,
+      "name": "Presidency University",
+      "outcome": "classified",
+      "group_code": "G7",
+      "family_slug": "private_university",
+      "ownership": "private",
+      "statutory_basis": "private university established under Karnataka law and listed in the UGC university framework",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://presidencyuniversity.in",
+      "evidence": "The official Presidency University site presents the Bengaluru institution as a private university with undergraduate and postgraduate admissions; it is not a state or central university.",
+      "notes": []
+    },
+    {
+      "database_id": 463,
+      "name": "Delhi Technological University",
+      "outcome": "classified",
+      "group_code": "G4",
+      "family_slug": "state_technical_university",
+      "ownership": "state_govt",
+      "statutory_basis": "Delhi Technological University Act, 2009",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.dtu.ac.in",
+      "evidence": "DTU's official site identifies it as a statutory university of the Government of NCT of Delhi, with degree admissions in engineering and other disciplines; it therefore belongs to the state-public group.",
+      "notes": []
+    },
+    {
+      "database_id": 464,
+      "name": "Chandigarh University",
+      "outcome": "classified",
+      "group_code": "G7",
+      "family_slug": "private_university",
+      "ownership": "private",
+      "statutory_basis": "Chandigarh University Act, 2012 (Punjab)",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.cuchd.in",
+      "evidence": "The official Chandigarh University site presents it as a private university in Mohali with degree admissions across engineering, management, law, pharmacy and other domains.",
+      "notes": []
+    },
+    {
+      "database_id": 466,
+      "name": "National Institute of Solar Energy (NISE)",
+      "outcome": "classified",
+      "group_code": "G3",
+      "family_slug": "research_lab",
+      "ownership": "central_govt",
+      "statutory_basis": "autonomous institute under the Ministry of New and Renewable Energy, Government of India",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "MNRE"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.nise.res.in",
+      "evidence": "NISE's official site identifies it as the apex national institute under MNRE for solar research, testing and capacity building. Its training and research programmes make it a central-government institute, not a private college.",
+      "notes": [
+        "Research/training institute; do not treat it as a conventional degree university in ranking UI."
+      ]
+    },
+    {
+      "database_id": 467,
+      "name": "TERI School of Advanced Studies",
+      "outcome": "classified",
+      "group_code": "G5",
+      "family_slug": "private_deemed",
+      "ownership": "private",
+      "statutory_basis": "deemed-to-be university under Section 3 of the UGC Act, 1956",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.terisas.ac.in",
+      "evidence": "The official TERI SAS site presents the institution as TERI School of Advanced Studies, a deemed-to-be university offering postgraduate and doctoral admissions in energy, environment and sustainability.",
+      "notes": []
+    },
+    {
+      "database_id": 469,
+      "name": "Garuda Aerospace RPTO",
+      "outcome": "classified",
+      "group_code": "G10b",
+      "family_slug": "drone_rpto",
+      "ownership": "private",
+      "statutory_basis": "DGCA-approved Remote Pilot Training Organisation",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "DGCA"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.garudaaerospace.com",
+      "evidence": "Garuda Aerospace's official site presents its RPTO as a DGCA-approved remote-pilot training organisation providing drone pilot training, not a degree-granting university or college.",
+      "notes": [
+        "G10b is Phase 2."
+      ]
+    },
+    {
+      "database_id": 470,
+      "name": "IIT Guwahati RPTO (EduRade)",
+      "outcome": "classified",
+      "group_code": "G10b",
+      "family_slug": "drone_rpto",
+      "ownership": "central_govt",
+      "statutory_basis": "DGCA-approved Remote Pilot Training Organisation operating through IIT Guwahati/EduRade",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "DGCA",
+        "IIT Guwahati"
+      ],
+      "confidence": "medium",
+      "source_url": "https://www.iitg.ac.in",
+      "evidence": "The IIT Guwahati official site identifies the RPTO/training offering as drone remote-pilot training. Because this row represents the short-course RPTO rather than IIT Guwahati's degree institution, it is classified as a drone training provider.",
+      "notes": [
+        "G10b is Phase 2; parent IIT Guwahati remains a separate G1 institute record."
+      ]
+    },
+    {
+      "database_id": 471,
+      "name": "Pavaman Aviation RPTO",
+      "outcome": "classified",
+      "group_code": "G10b",
+      "family_slug": "drone_rpto",
+      "ownership": "private",
+      "statutory_basis": "DGCA-approved Remote Pilot Training Organisation",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "DGCA"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.pavamanaero.com",
+      "evidence": "The official Pavaman Aviation site presents the Hyderabad organisation as an RPTO delivering remote-pilot certificate training, not a degree-granting higher-education institution.",
+      "notes": [
+        "G10b is Phase 2."
+      ]
+    },
+    {
+      "database_id": 472,
+      "name": "Berry Avionics RPTO",
+      "outcome": "classified",
+      "group_code": "G10b",
+      "family_slug": "drone_rpto",
+      "ownership": "private",
+      "statutory_basis": "DGCA-approved Remote Pilot Training Organisation",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "DGCA"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.berryavionics.com",
+      "evidence": "The official Berry Avionics site presents its Pune RPTO as a provider of small- and medium-drone remote-pilot training leading to the Remote Pilot Certificate, rather than a university or college.",
+      "notes": [
+        "G10b is Phase 2."
+      ]
+    },
+    {
+      "database_id": 473,
+      "name": "DroneAcharya RPTO at IIT Ropar",
+      "outcome": "classified",
+      "group_code": "G10b",
+      "family_slug": "drone_rpto",
+      "ownership": "private",
+      "statutory_basis": "DGCA-approved RPTO operated by DroneAcharya in association with IIT Ropar",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "DGCA",
+        "IIT Ropar"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.droneacharya.com",
+      "evidence": "DroneAcharya's official site presents the IIT Ropar offering as commercial drone pilot and technology training. This specific row is the RPTO/training provider, not the IIT degree institution.",
+      "notes": [
+        "G10b is Phase 2; parent IIT Ropar remains a separate G1 institute record."
+      ]
+    },
+    {
+      "database_id": 478,
+      "name": "MANAGE Hyderabad",
+      "outcome": "classified",
+      "group_code": "G3",
+      "family_slug": null,
+      "ownership": "central_govt",
+      "statutory_basis": "autonomous institute under the Ministry of Agriculture and Farmers Welfare, Government of India",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "MoA&FW",
+        "AICTE"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.manage.gov.in/aimedp/about/manage.asp",
+      "evidence": "The official MANAGE profile identifies it as an apex-level autonomous institute under the Ministry of Agriculture and Farmers Welfare, Government of India, and its official admissions page publishes the AICTE-recognised PGDM in Agri-Business Management.",
+      "notes": [
+        "Central-government institute; no narrower seeded family currently exists."
+      ]
+    },
+    {
+      "database_id": 480,
+      "name": "Indian Institute of Corporate Affairs (IICA)",
+      "outcome": "classified",
+      "group_code": "G3",
+      "family_slug": null,
+      "ownership": "central_govt",
+      "statutory_basis": "autonomous institution under the Ministry of Corporate Affairs, Government of India",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "MCA"
+      ],
+      "confidence": "high",
+      "source_url": "https://iica.nic.in/structure_society.aspx",
+      "evidence": "The official IICA structure page identifies the Indian Institute of Corporate Affairs as a society established to run IICA, whose governing body is headed by the Minister and Secretary of Corporate Affairs; official IICA programme pages publish education and certification admissions.",
+      "notes": [
+        "Central-government capacity-building and research institute; no narrower seeded family currently exists."
+      ]
+    },
+    {
+      "database_id": 483,
+      "name": "TERI - The Energy and Resources Institute",
+      "outcome": "classified",
+      "group_code": "X",
+      "family_slug": "research_lab",
+      "ownership": "private",
+      "statutory_basis": "independent not-for-profit research institute; degree programmes are offered through the separate TERI School of Advanced Studies",
+      "admits_students": 0,
+      "is_family_record": 0,
+      "regulators": [],
+      "confidence": "high",
+      "source_url": "https://www.teri.res.in",
+      "evidence": "TERI's official profile identifies it as an independent research organisation in energy, environment and sustainable development. The supplied record describes graduate and doctoral education through TERI School of Advanced Studies, so TERI itself is retained as a non-degree research body.",
+      "notes": [
+        "Keep TERI School of Advanced Studies as the admitting academic institution if represented separately."
+      ]
+    },
+    {
+      "database_id": 484,
+      "name": "Indian Green Building Council (IGBC)",
+      "outcome": "classified",
+      "group_code": "X",
+      "family_slug": null,
+      "ownership": "private",
+      "statutory_basis": "green-building council operated by the Confederation of Indian Industry",
+      "admits_students": 0,
+      "is_family_record": 0,
+      "regulators": [],
+      "confidence": "high",
+      "source_url": "https://www.igbc.in",
+      "evidence": "The official IGBC profile presents IGBC as the Confederation of Indian Industry's green-building council providing certification, training and advocacy; it is not a degree-admitting college.",
+      "notes": [
+        "Professional certification body; keep outside the college ladder."
+      ]
+    },
+    {
+      "database_id": 488,
+      "name": "Amity University Rajasthan, Jaipur",
+      "outcome": "classified",
+      "group_code": "G7",
+      "family_slug": "private_university",
+      "ownership": "private",
+      "statutory_basis": "private university established under the Amity University Rajasthan Act, 2008",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.amity.edu/jaipur/",
+      "evidence": "The official Amity Rajasthan campus profile identifies Amity University Rajasthan as a university established under the Amity University Rajasthan Act, 2008, with undergraduate, postgraduate and doctoral programmes.",
+      "notes": []
+    },
+    {
+      "database_id": 489,
+      "name": "Anand International College of Engineering",
+      "outcome": "classified",
+      "group_code": "G8",
+      "family_slug": "private_engineering_college",
+      "ownership": "private",
+      "statutory_basis": "private AICTE-approved engineering college affiliated with Rajasthan Technical University",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "AICTE"
+      ],
+      "confidence": "high",
+      "source_url": "https://anandice.ac.in/",
+      "evidence": "The official college profile identifies Anand International College of Engineering as an AICTE-approved engineering college affiliated with Rajasthan Technical University and offering full-time B.Tech programmes.",
+      "notes": []
+    },
+    {
+      "database_id": 490,
+      "name": "Aravali Institute of Technical Studies, Udaipur",
+      "outcome": "classified",
+      "group_code": "G8",
+      "family_slug": "private_engineering_college",
+      "ownership": "private",
+      "statutory_basis": "private AICTE-approved engineering and diploma institution affiliated with Rajasthan Technical University",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "AICTE"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.aravalieducation.org/",
+      "evidence": "The official institute profile identifies Aravali Institute of Technical Studies as an AICTE-approved institution affiliated with Rajasthan Technical University, offering B.Tech, M.Tech, MCA and diploma programmes.",
+      "notes": []
+    },
+    {
+      "database_id": 491,
+      "name": "Arya College of Engg. & Information Technology, Jaipur",
+      "outcome": "classified",
+      "group_code": "G8",
+      "family_slug": "private_engineering_college",
+      "ownership": "private",
+      "statutory_basis": "private AICTE-approved engineering college affiliated with Rajasthan Technical University",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "AICTE"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.aryacollege.in/",
+      "evidence": "The official Arya College profile identifies the institution as an AICTE-approved technical institution affiliated with Rajasthan Technical University and offering engineering and management programmes.",
+      "notes": []
+    },
+    {
+      "database_id": 492,
+      "name": "ARYA COLLEGE OF PHARMACY, JAIPUR",
+      "outcome": "classified",
+      "group_code": "G8",
+      "family_slug": "private_pharmacy_college",
+      "ownership": "private",
+      "statutory_basis": "private PCI-approved pharmacy college affiliated with Rajasthan University of Health Sciences",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "PCI"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.aryapharmacyjpr.com/",
+      "evidence": "The official college profile identifies Arya College of Pharmacy as a PCI-approved pharmacy institution affiliated with Rajasthan University of Health Sciences and offering B.Pharm education.",
+      "notes": []
+    },
+    {
+      "database_id": 493,
+      "name": "Aryabhatta College Of Engineering And Research Center",
+      "outcome": "classified",
+      "group_code": "G8",
+      "family_slug": "private_engineering_college",
+      "ownership": "private",
+      "statutory_basis": "private engineering college offering B.Tech, M.Tech and polytechnic programmes",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "AICTE"
+      ],
+      "confidence": "medium",
+      "source_url": "https://aryabhattaajmer.in/",
+      "evidence": "The official Aryabhatta Group profile identifies its Ajmer engineering campus as a private college offering B.Tech, M.Tech and Polytechnic programmes; the supplied record describes it as an engineering institution.",
+      "notes": [
+        "Confirm current AICTE approval/affiliation in the regulator-verification pass; classification is based on the official institutional profile and supplied record."
+      ]
+    },
+    {
+      "database_id": 494,
+      "name": "Aryabhatta College of Management",
+      "outcome": "classified",
+      "group_code": "G8",
+      "family_slug": "private_degree_college",
+      "ownership": "private",
+      "statutory_basis": "private college",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "medium",
+      "source_url": "https://www.acmajmer.in/",
+      "evidence": "The official college site presents management degree education at a private college in Ajmer.",
+      "notes": []
+    },
+    {
+      "database_id": 495,
+      "name": "Aryabhatta International College of Technical Education, Ajmer",
+      "outcome": "classified",
+      "group_code": "G8",
+      "family_slug": "private_engineering_college",
+      "ownership": "private",
+      "statutory_basis": "private technical college",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "AICTE"
+      ],
+      "confidence": "medium",
+      "source_url": "https://aicteajmer.in/",
+      "evidence": "The official site presents private technical and engineering education in Ajmer.",
+      "notes": []
+    },
+    {
+      "database_id": 496,
+      "name": "B K Birla Institute of Engineering & Technology, Pilani",
+      "outcome": "classified",
+      "group_code": "G8",
+      "family_slug": "private_engineering_college",
+      "ownership": "private",
+      "statutory_basis": "private engineering college",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "AICTE"
+      ],
+      "confidence": "high",
+      "source_url": "https://bkbiet.ac.in/",
+      "evidence": "The official institute site presents B K Birla Institute as a private engineering college with technical admissions.",
+      "notes": []
+    },
+    {
+      "database_id": 497,
+      "name": "B.R. Mirdha Government College, Nagaur",
+      "outcome": "classified",
+      "group_code": "G6",
+      "family_slug": "govt_degree_college",
+      "ownership": "state_govt",
+      "statutory_basis": "Rajasthan government college",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://hte.rajasthan.gov.in/SRIBALDEVRAMMIRDHAGOVTCOLLEGENAGAURRAJ/19731",
+      "evidence": "The Rajasthan Higher Technical Education directory identifies B.R. Mirdha Government College as a state government degree college.",
+      "notes": []
+    },
+    {
+      "database_id": 498,
+      "name": "Baba Kheenva Das PG Mahavidyalaya, Sikar",
+      "outcome": "classified",
+      "group_code": "G8",
+      "family_slug": "private_degree_college",
+      "ownership": "private",
+      "statutory_basis": "private degree college",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "medium",
+      "source_url": "https://www.bkdpgcollege.com/",
+      "evidence": "The official college site presents postgraduate and undergraduate education at a private mahavidyalaya.",
+      "notes": []
+    },
+    {
+      "database_id": 499,
+      "name": "Banasthali Vidyapith",
+      "outcome": "classified",
+      "group_code": "G5",
+      "family_slug": "private_deemed",
+      "ownership": "private",
+      "statutory_basis": "deemed-to-be university under UGC Act Section 3",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "http://www.banasthali.org/",
+      "evidence": "Banasthali's official site identifies Banasthali Vidyapith as a deemed-to-be university offering degree admissions.",
+      "notes": []
+    },
+    {
+      "database_id": 500,
+      "name": "BBD GOVT PG COLLEGE CHIMANPURA, JAIPUR",
+      "outcome": "classified",
+      "group_code": "G6",
+      "family_slug": "govt_degree_college",
+      "ownership": "state_govt",
+      "statutory_basis": "Rajasthan government college",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://hte.rajasthan.gov.in/BBDGOVERNMENTCOLLEGECHIMANPURASHAHPURA/15565",
+      "evidence": "The Rajasthan higher-education directory identifies BBD Government PG College as a state government college.",
+      "notes": []
+    },
+    {
+      "database_id": 501,
+      "name": "Bhartiya Skill Development University",
+      "outcome": "classified",
+      "group_code": "G7",
+      "family_slug": "private_university",
+      "ownership": "private",
+      "statutory_basis": "Rajasthan state private university act",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://ruj-bsdu.in/",
+      "evidence": "The official BSDU site presents a private university established under Rajasthan law and offering skill-focused degree programmes.",
+      "notes": []
+    },
+    {
+      "database_id": 502,
+      "name": "BHUPAL NOBLES' UNIVERSITY",
+      "outcome": "classified",
+      "group_code": "G7",
+      "family_slug": "private_university",
+      "ownership": "private",
+      "statutory_basis": "Rajasthan state private university act",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.bnuniversity.ac.in/home.aspx",
+      "evidence": "The official university site presents Bhupal Nobles' University as a private university in Rajasthan with degree admissions.",
+      "notes": []
+    },
+    {
+      "database_id": 503,
+      "name": "Biyani Institute of Science & Management",
+      "outcome": "classified",
+      "group_code": "G8",
+      "family_slug": "private_degree_college",
+      "ownership": "private",
+      "statutory_basis": "private college",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "medium",
+      "source_url": "https://bisma.in/",
+      "evidence": "The official BISMA site presents a private science and management college in Jaipur.",
+      "notes": []
+    },
+    {
+      "database_id": 504,
+      "name": "BIYANI INSTITUTEITUTE OF SCIENCE AND MANAGEMENT, JAIPUR",
+      "outcome": "manual_review",
+      "group_code": null,
+      "family_slug": null,
+      "ownership": null,
+      "statutory_basis": null,
+      "admits_students": null,
+      "is_family_record": null,
+      "regulators": [],
+      "confidence": null,
+      "source_url": "https://bisma.in/",
+      "evidence": "The record appears to be a spelling-variant duplicate of database record 503, Biyani Institute of Science & Management, with the same website.",
+      "notes": [
+        "Do not classify independently; merge into the verified parent during the cleanup pass."
+      ]
+    },
+    {
+      "database_id": 505,
+      "name": "Biyani Law College",
+      "outcome": "classified",
+      "group_code": "G8",
+      "family_slug": "private_law_college",
+      "ownership": "private",
+      "statutory_basis": "private law college",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "BCI"
+      ],
+      "confidence": "high",
+      "source_url": "https://biyanilawcollege.com/",
+      "evidence": "The official Biyani Law College site presents a private law college with legal-education admissions.",
+      "notes": []
+    },
+    {
+      "database_id": 506,
+      "name": "Career point University",
+      "outcome": "classified",
+      "group_code": "G7",
+      "family_slug": "private_university",
+      "ownership": "private",
+      "statutory_basis": "Rajasthan state private university act",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://cpur.in/",
+      "evidence": "The official CPU site presents Career Point University as a private university in Rajasthan with degree admissions.",
+      "notes": []
+    },
+    {
+      "database_id": 507,
+      "name": "CH. CHARAN SINGH NATIONAL INSTITUTE OF AGRICULTURAL MARKETING",
+      "outcome": "classified",
+      "group_code": "G3",
+      "family_slug": null,
+      "ownership": "central_govt",
+      "statutory_basis": "autonomous institute under Ministry of Agriculture",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "Ministry of Agriculture"
+      ],
+      "confidence": "high",
+      "source_url": "https://ccsniam.gov.in/",
+      "evidence": "The official CCS NIAM site presents a Government of India institute providing agricultural-marketing education and training.",
+      "notes": []
+    },
+    {
+      "database_id": 508,
+      "name": "College of Community and Applied Sciences, MPUAT Udaipur",
+      "outcome": "classified",
+      "group_code": "G4",
+      "family_slug": "state_agricultural_university",
+      "ownership": "state_govt",
+      "statutory_basis": "constituent college of Maharana Pratap University of Agriculture and Technology",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "ICAR",
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.ccasmpuat.ac.in/",
+      "evidence": "The official college site identifies it as a constituent college of MPUAT, a Rajasthan state agricultural university.",
+      "notes": []
+    },
+    {
+      "database_id": 509,
+      "name": "College of Dairy & Food Technology",
+      "outcome": "classified",
+      "group_code": "G4",
+      "family_slug": "state_agricultural_university",
+      "ownership": "state_govt",
+      "statutory_basis": "constituent college of state agricultural university",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "ICAR",
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "http://www.cdfst.ac.in/",
+      "evidence": "The official college site presents dairy and food technology education as a constituent college of Rajasthan's state agricultural university system.",
+      "notes": []
+    },
+    {
+      "database_id": 510,
+      "name": "Darshan Dental College & Hospital",
+      "outcome": "classified",
+      "group_code": "G8",
+      "family_slug": "private_dental_college",
+      "ownership": "private",
+      "statutory_basis": "private dental college",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "NDC"
+      ],
+      "confidence": "high",
+      "source_url": "https://darshandentalcollege.org/",
+      "evidence": "The official Darshan site presents a private dental college and hospital with dental admissions.",
+      "notes": []
+    },
+    {
+      "database_id": 511,
+      "name": "DR. B.R. AMBEDKER GOVT.COLLEGE, NIMBAHERA",
+      "outcome": "classified",
+      "group_code": "G6",
+      "family_slug": "govt_degree_college",
+      "ownership": "state_govt",
+      "statutory_basis": "Rajasthan government college",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "UGC"
+      ],
+      "confidence": "high",
+      "source_url": "https://hte.rajasthan.gov.in/DRBHIMRAOAMBEDKARGOVERNMENTPGCOLLEGENIMBAHERARAJ/13821",
+      "evidence": "The Rajasthan higher-education directory identifies Dr. B.R. Ambedkar Government College as a state government degree college.",
+      "notes": []
+    },
+    {
+      "database_id": 512,
+      "name": "Dr. S. N. Medical College and Hospital",
+      "outcome": "classified",
+      "group_code": "G6",
+      "family_slug": "govt_medical_college",
+      "ownership": "state_govt",
+      "statutory_basis": "Rajasthan government medical college",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "NMC"
+      ],
+      "confidence": "high",
+      "source_url": "https://medicaleducation.rajasthan.gov.in/mcjodhpur/#/",
+      "evidence": "The Rajasthan Medical Education site identifies Dr. S.N. Medical College Jodhpur as a government medical college.",
+      "notes": []
+    },
+    {
+      "database_id": 513,
+      "name": "Engineering College Bikaner",
+      "outcome": "classified",
+      "group_code": "G6",
+      "family_slug": "govt_engineering_college",
+      "ownership": "state_govt",
+      "statutory_basis": "Rajasthan government engineering college",
+      "admits_students": 1,
+      "is_family_record": 0,
+      "regulators": [
+        "AICTE"
+      ],
+      "confidence": "high",
+      "source_url": "https://www.ecb.ac.in/",
+      "evidence": "The official ECB site presents Engineering College Bikaner as a Rajasthan government engineering college.",
+      "notes": []
+    }
+  ],
+  "database_apply_status": "not_applied",
+  "database_apply_note": "Private/trust rows still need structured UGC Yes/No evidence before import."
+}

@@ -1699,6 +1699,234 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Open in Explore'**
   String get ai_openInExplore;
+
+  /// No description provided for @institute_stepsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Steps'**
+  String get institute_stepsTitle;
+
+  /// No description provided for @institute_ladderTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'College ladder'**
+  String get institute_ladderTitle;
+
+  /// No description provided for @institute_locationFilterTooltip.
+  ///
+  /// In en, this message translates to:
+  /// **'Filter by location'**
+  String get institute_locationFilterTooltip;
+
+  /// No description provided for @institute_ladderLoadError.
+  ///
+  /// In en, this message translates to:
+  /// **'The institute ladder could not be loaded.'**
+  String get institute_ladderLoadError;
+
+  /// No description provided for @institute_noRouteData.
+  ///
+  /// In en, this message translates to:
+  /// **'No route data is available yet.'**
+  String get institute_noRouteData;
+
+  /// No description provided for @institute_hidePrivateWithoutUgc.
+  ///
+  /// In en, this message translates to:
+  /// **'Hide private institutions without UGC verification'**
+  String get institute_hidePrivateWithoutUgc;
+
+  /// No description provided for @institute_groupLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Institution group'**
+  String get institute_groupLabel;
+
+  /// No description provided for @institute_familyLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Institution family'**
+  String get institute_familyLabel;
+
+  /// No description provided for @institute_chooseProfessionalBody.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose the professional body'**
+  String get institute_chooseProfessionalBody;
+
+  /// No description provided for @institute_relevantExams.
+  ///
+  /// In en, this message translates to:
+  /// **'Relevant examinations'**
+  String get institute_relevantExams;
+
+  /// No description provided for @institute_entryRoutes.
+  ///
+  /// In en, this message translates to:
+  /// **'Entry routes'**
+  String get institute_entryRoutes;
+
+  /// No description provided for @institute_checkOfficialRoute.
+  ///
+  /// In en, this message translates to:
+  /// **'Check the official route'**
+  String get institute_checkOfficialRoute;
+
+  /// No description provided for @institute_entryRequirementsVary.
+  ///
+  /// In en, this message translates to:
+  /// **'Entry requirements vary by institution and programme.'**
+  String get institute_entryRequirementsVary;
+
+  /// No description provided for @institute_stepsAndEntryRoutes.
+  ///
+  /// In en, this message translates to:
+  /// **'Steps and entry routes'**
+  String get institute_stepsAndEntryRoutes;
+
+  /// No description provided for @institute_caCmaCsNote.
+  ///
+  /// In en, this message translates to:
+  /// **'CA, CMA and CS are separate qualifications. The entry routes above are alternatives, not consecutive exam stages.'**
+  String get institute_caCmaCsNote;
+
+  /// No description provided for @institute_allLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'All {label}'**
+  String institute_allLabel(String label);
+
+  /// No description provided for @institute_online.
+  ///
+  /// In en, this message translates to:
+  /// **'Online'**
+  String get institute_online;
+
+  /// No description provided for @institute_allIndia.
+  ///
+  /// In en, this message translates to:
+  /// **'All India'**
+  String get institute_allIndia;
+
+  /// No description provided for @institute_showingFilters.
+  ///
+  /// In en, this message translates to:
+  /// **'Showing: {labels}'**
+  String institute_showingFilters(String labels);
+
+  /// No description provided for @institute_clear.
+  ///
+  /// In en, this message translates to:
+  /// **'Clear'**
+  String get institute_clear;
+
+  /// No description provided for @institute_coverageInIndia.
+  ///
+  /// In en, this message translates to:
+  /// **'{count} in India · {listed} listed'**
+  String institute_coverageInIndia(int count, int listed);
+
+  /// No description provided for @institute_coverageListed.
+  ///
+  /// In en, this message translates to:
+  /// **'{count} listed'**
+  String institute_coverageListed(int count);
+
+  /// No description provided for @institute_noListedInTier.
+  ///
+  /// In en, this message translates to:
+  /// **'No listed institutes in this tier for the selected filters.'**
+  String get institute_noListedInTier;
+
+  /// No description provided for @institute_mappedLocationDisclaimer.
+  ///
+  /// In en, this message translates to:
+  /// **'Mapped from existing institute records; not independently verified.'**
+  String get institute_mappedLocationDisclaimer;
+
+  /// No description provided for @institute_notRanked.
+  ///
+  /// In en, this message translates to:
+  /// **'Not ranked'**
+  String get institute_notRanked;
+
+  /// No description provided for @institute_top10.
+  ///
+  /// In en, this message translates to:
+  /// **'Top 10 · {label}'**
+  String institute_top10(String label);
+
+  /// No description provided for @institute_nirfTop100.
+  ///
+  /// In en, this message translates to:
+  /// **'NIRF Top 100 · {year}'**
+  String institute_nirfTop100(int year);
+
+  /// No description provided for @institute_ugcVerified.
+  ///
+  /// In en, this message translates to:
+  /// **'UGC verified ✓'**
+  String get institute_ugcVerified;
+
+  /// No description provided for @institute_ugcNotVerified.
+  ///
+  /// In en, this message translates to:
+  /// **'Not UGC verified'**
+  String get institute_ugcNotVerified;
+
+  /// No description provided for @institute_ugcPending.
+  ///
+  /// In en, this message translates to:
+  /// **'UGC verification pending'**
+  String get institute_ugcPending;
+
+  /// No description provided for @institute_locationUnavailable.
+  ///
+  /// In en, this message translates to:
+  /// **'Location data is unavailable.'**
+  String get institute_locationUnavailable;
+
+  /// No description provided for @institute_studyLocation.
+  ///
+  /// In en, this message translates to:
+  /// **'Study location'**
+  String get institute_studyLocation;
+
+  /// No description provided for @institute_stateOrUnionTerritory.
+  ///
+  /// In en, this message translates to:
+  /// **'State / Union Territory'**
+  String get institute_stateOrUnionTerritory;
+
+  /// No description provided for @institute_district.
+  ///
+  /// In en, this message translates to:
+  /// **'District'**
+  String get institute_district;
+
+  /// No description provided for @institute_cityTown.
+  ///
+  /// In en, this message translates to:
+  /// **'City / Town'**
+  String get institute_cityTown;
+
+  /// No description provided for @institute_applyLocation.
+  ///
+  /// In en, this message translates to:
+  /// **'Apply location'**
+  String get institute_applyLocation;
+
+  /// No description provided for @institute_collegeLadderSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'{count} institution tiers · compare by rank and location'**
+  String institute_collegeLadderSubtitle(int count);
+
+  /// No description provided for @institute_entryRoutesSummary.
+  ///
+  /// In en, this message translates to:
+  /// **'Entry routes'**
+  String get institute_entryRoutesSummary;
 }
 
 class _AppLocalizationsDelegate

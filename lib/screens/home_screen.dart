@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import '../config/app_theme.dart';
@@ -15,6 +16,9 @@ import '../services/career_data_service.dart';
 import '../services/exploration_service.dart';
 import '../services/feedback_service.dart';
 import '../services/locale_service.dart';
+import '../services/institute_catalog_service.dart';
+import '../services/location_service.dart';
+import '../services/route_service.dart';
 import '../services/rate_prompt_service.dart';
 import '../services/recently_viewed_service.dart';
 import '../services/profile_service.dart';
@@ -37,6 +41,10 @@ class HomeScreen extends StatefulWidget {
   final RatePromptService? ratePromptService;
   final FeedbackService? feedbackService;
   final CareerDataService careerDataService;
+  final InstituteCatalogService? instituteCatalog;
+  final LocationService? locationService;
+  final RouteService? routeService;
+  final SharedPreferences? prefs;
   final AnalyticsService? analyticsService;
   final ThemeService? themeService;
   final LocaleService? localeService;
@@ -53,6 +61,10 @@ class HomeScreen extends StatefulWidget {
     this.ratePromptService,
     this.feedbackService,
     required this.careerDataService,
+    this.instituteCatalog,
+    this.locationService,
+    this.routeService,
+    this.prefs,
     this.analyticsService,
     this.themeService,
     this.localeService,
@@ -202,6 +214,10 @@ class _HomeScreenState extends State<HomeScreen> {
           bookmarkService: widget.bookmarkService,
           explorationService: widget.explorationService,
           analyticsService: widget.analyticsService,
+          instituteCatalog: widget.instituteCatalog,
+          locationService: widget.locationService,
+          routeService: widget.routeService,
+          prefs: widget.prefs,
           nodeId: node.id,
           breadcrumbs: [BreadcrumbEntry(nodeId: node.id, label: node.name)],
         ),
@@ -255,6 +271,10 @@ class _HomeScreenState extends State<HomeScreen> {
                           careerDataService: widget.careerDataService,
                           bookmarkService: widget.bookmarkService,
                           analyticsService: widget.analyticsService,
+                          instituteCatalog: widget.instituteCatalog,
+                          locationService: widget.locationService,
+                          routeService: widget.routeService,
+                          prefs: widget.prefs,
                         ),
                       ),
                     );
@@ -334,12 +354,20 @@ class _HomeScreenState extends State<HomeScreen> {
             recentlyViewedService: widget.recentlyViewedService,
             careerDataService: widget.careerDataService,
             analyticsService: widget.analyticsService,
+            instituteCatalog: widget.instituteCatalog,
+            locationService: widget.locationService,
+            routeService: widget.routeService,
+            prefs: widget.prefs,
           ),
           ExploreTab(
             careerDataService: widget.careerDataService,
             bookmarkService: widget.bookmarkService,
             explorationService: widget.explorationService,
             analyticsService: widget.analyticsService,
+            instituteCatalog: widget.instituteCatalog,
+            locationService: widget.locationService,
+            routeService: widget.routeService,
+            prefs: widget.prefs,
           ),
           SafeArea(
             bottom: false,
@@ -359,6 +387,10 @@ class _HomeScreenState extends State<HomeScreen> {
             explorationService: widget.explorationService,
             careerDataService: widget.careerDataService,
             analyticsService: widget.analyticsService,
+            instituteCatalog: widget.instituteCatalog,
+            locationService: widget.locationService,
+            routeService: widget.routeService,
+            prefs: widget.prefs,
           ),
         ],
       ),
