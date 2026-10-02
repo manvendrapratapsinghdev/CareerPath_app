@@ -1,6 +1,6 @@
 # Institution Groups & College Hierarchy — Plan
 
-Status: **in progress — taxonomy foundations, Waves A–C and batch D1 are implemented; app integration and remaining data waves are pending.** Last verified: 2026-10-02.
+Status: **in progress — taxonomy foundations, Waves A–C and batches D1 and J1 are implemented; app integration and remaining data waves are pending.** Last verified: 2026-10-02.
 
 ### Current completion snapshot (2026-10-02)
 
@@ -20,6 +20,7 @@ The original “plan only” status is no longer accurate. The branch now contai
   central IHMs/IITTM, ICAR institutions including the four ICAR deemed universities and NAARM, the six defence
   academies and AFMC (C5), IGRUA, NFTI and IMU's campuses (C6), IIFT, IIFM, the six RIEs and the SAI colleges (C7a), and the AYUSH and DEPwD rehabilitation national institutes (C7b).
 - Wave D started: D1 loaded all 26 National Law Universities (25 consortium members + NLU Delhi).
+- Wave J1 loaded the professional bodies: ICAI, ICSI, ICMAI, IAI, NISM, IIBF and III (G10a, ownership not applicable).
 - Added the family-batch loader and official-list batch fixtures for the completed waves.
 - Tooling QA currently passes: `58 passed, 7 subtests passed` (`python3 -m pytest tooling/tests -q`).
 
@@ -37,12 +38,12 @@ The original “plan only” status is no longer accurate. The branch now contai
 - Phase 1a app work (T10–T14) is not implemented: Dart models, local-database queries, ladder/filter services,
   location and route services, ranking/UGC UI, ladder/steps screens, and shared chat/voice filtering remain pending.
 - Remaining data waves are pending: D2–D6 (state public), E (deemed), F (private universities), G (government/aided
-  colleges), H (private colleges), I (open/skill/diploma), and J (professional bodies/foreign campuses).
+  colleges), H (private colleges), I (open/skill/diploma), and J2 (foreign campuses).
 - Wave C is complete. IIPA (in-service officers only) and NIN Pune (degree intake unconfirmed) are not loaded.
 - Accreditation data is still empty and ranking data is currently NIRF 2025 only (360 rows); NAAC/NBA fallback and
   multi-year ranking support remain pending.
 
-Current database counts: 909 institutes, 114 families, 27 domains, 36 states, and 13 institution groups. These counts
+Current database counts: 907 institutes, 114 families, 27 domains, 36 states, and 13 institution groups. These counts
 are implementation evidence, not a completion claim for all-India coverage.
 Source of every count below: `assets/data/career_path.db` as shipped in `1.5.0+17`, read-only.
 

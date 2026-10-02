@@ -1,0 +1,210 @@
+{
+ "batch": "J1",
+ "title": "Wave J: statutory professional bodies (ICAI, ICSI, ICMAI, IAI) and NISM, IIBF, III",
+ "verified_at": "2026-10-02",
+ "nirf_snapshot": "research/official_lists/nirf/nirf_2025.json",
+ "verification": {
+  "authority": "Parliament of India",
+  "list_name": "Chartered Accountants Act, 1949",
+  "list_url": "https://www.icai.org",
+  "list_as_of": "2026-10-02"
+ },
+ "defaults": {
+  "group": "G10a",
+  "ownership": "not_applicable",
+  "legacy_type": "specialized",
+  "nirf": false
+ },
+ "families": {
+  "icai": {
+   "national_count": 1,
+   "as_of": "2026-10-02",
+   "official_list_url": "https://www.icai.org"
+  },
+  "icsi": {
+   "national_count": 1,
+   "as_of": "2026-10-02",
+   "official_list_url": "https://www.icsi.edu"
+  },
+  "icmai": {
+   "national_count": 1,
+   "as_of": "2026-10-02",
+   "official_list_url": "https://icmai.in"
+  },
+  "iai": {
+   "national_count": 1,
+   "as_of": "2026-10-02",
+   "official_list_url": "https://www.actuariesindia.org"
+  },
+  "finance_certification_body": {
+   "national_count": 3,
+   "as_of": "2026-10-02",
+   "official_list_url": "https://www.nism.ac.in"
+  }
+ },
+ "institutes": [
+  {
+   "key": "icai",
+   "name": "Institute of Chartered Accountants of India",
+   "website": "https://www.icai.org",
+   "city": "New Delhi",
+   "state": "Delhi",
+   "existing": [
+    "ICAI (Institute of Chartered Accountants of India)",
+    "Institute of Chartered Accountants of India (ICAI)"
+   ],
+   "family": "icai",
+   "statutory_basis": "Chartered Accountants Act, 1949 (Parliament)",
+   "nodes": [
+    "ca",
+    "ca_practice",
+    "ca_corporate",
+    "ca_tax_consultant"
+   ],
+   "verification": {
+    "authority": "Parliament of India",
+    "list_name": "Chartered Accountants Act, 1949",
+    "list_url": "https://www.icai.org",
+    "list_as_of": "2026-10-02"
+   },
+   "reference_id": "Chartered Accountants Act, 1949",
+   "notes": "Runs the CA course (Foundation, Intermediate, Final) through regional councils and branches across India."
+  },
+  {
+   "key": "icsi",
+   "name": "Institute of Company Secretaries of India",
+   "website": "https://www.icsi.edu",
+   "city": "New Delhi",
+   "state": "Delhi",
+   "existing": [
+    "Institute of Company Secretaries of India (ICSI)"
+   ],
+   "family": "icsi",
+   "statutory_basis": "Company Secretaries Act, 1980 (Parliament)",
+   "nodes": [
+    "cs_course",
+    "cs_practice",
+    "cs_corporate"
+   ],
+   "verification": {
+    "authority": "Parliament of India",
+    "list_name": "Company Secretaries Act, 1980",
+    "list_url": "https://www.icsi.edu",
+    "list_as_of": "2026-10-02"
+   },
+   "reference_id": "Company Secretaries Act, 1980",
+   "notes": "Runs the CS course (CSEET, Executive, Professional)."
+  },
+  {
+   "key": "icmai",
+   "name": "Institute of Cost Accountants of India",
+   "website": "https://icmai.in",
+   "city": "Kolkata",
+   "state": "West Bengal",
+   "existing": [
+    "Institute of Cost Accountants of India (ICMAI)"
+   ],
+   "family": "icmai",
+   "statutory_basis": "Cost and Works Accountants Act, 1959 (Parliament)",
+   "nodes": [
+    "cma_course"
+   ],
+   "verification": {
+    "authority": "Parliament of India",
+    "list_name": "Cost and Works Accountants Act, 1959",
+    "list_url": "https://icmai.in",
+    "list_as_of": "2026-10-02"
+   },
+   "reference_id": "Cost and Works Accountants Act, 1959",
+   "notes": "Headquarters in Kolkata; runs the CMA course (Foundation, Intermediate, Final)."
+  },
+  {
+   "key": "iai",
+   "name": "Institute of Actuaries of India",
+   "website": "https://www.actuariesindia.org",
+   "city": "Navi Mumbai",
+   "state": "Maharashtra",
+   "family": "iai",
+   "statutory_basis": "Actuaries Act, 2006 (Parliament)",
+   "nodes": [
+    "actuarial_science"
+   ],
+   "verification": {
+    "authority": "Parliament of India",
+    "list_name": "Actuaries Act, 2006",
+    "list_url": "https://actuariesindia.org/about-iai",
+    "list_as_of": "2026-10-02"
+   },
+   "reference_id": "Actuaries Act, 2006",
+   "notes": "Office at Seawoods, Navi Mumbai; runs the actuarial examinations (ACET entrance)."
+  },
+  {
+   "key": "nism",
+   "name": "National Institute of Securities Markets",
+   "website": "https://www.nism.ac.in",
+   "city": "Rasayani",
+   "state": "Maharashtra",
+   "existing": [
+    "National Institute of Securities Markets (NISM)"
+   ],
+   "family": "finance_certification_body",
+   "statutory_basis": "Educational initiative of the Securities and Exchange Board of India (SEBI)",
+   "nodes": [
+    "financial_analyst",
+    "stock_broker"
+   ],
+   "verification": {
+    "authority": "Securities and Exchange Board of India",
+    "list_name": "NISM — established by SEBI",
+    "list_url": "https://nism.ac.in/contact-us",
+    "list_as_of": "2026-10-02"
+   },
+   "reference_id": "https://nism.ac.in/contact-us",
+   "notes": "Campus at Patalganga, Rasayani (Raigad district), near Navi Mumbai; runs the SEBI-mandated NISM certifications and PG programmes."
+  },
+  {
+   "key": "iibf",
+   "name": "Indian Institute of Banking and Finance",
+   "website": "https://www.iibf.org.in",
+   "city": "Mumbai",
+   "state": "Maharashtra",
+   "existing": [
+    "Indian Institute of Banking and Finance (IIBF)"
+   ],
+   "family": "finance_certification_body",
+   "statutory_basis": "Professional body of banks and financial institutions (non-profit company, founded 1928)",
+   "nodes": [
+    "bank_po",
+    "bank_manager"
+   ],
+   "verification": {
+    "authority": "Indian Institute of Banking and Finance",
+    "list_name": "IIBF — professional body for bankers (JAIIB, CAIIB)",
+    "list_url": "https://www.iibf.org.in",
+    "list_as_of": "2026-10-02"
+   },
+   "reference_id": "https://www.iibf.org.in",
+   "notes": "Runs JAIIB, CAIIB and banking certificate examinations."
+  },
+  {
+   "key": "iii",
+   "name": "Insurance Institute of India",
+   "website": "https://www.insuranceinstituteofindia.com",
+   "city": "Mumbai",
+   "state": "Maharashtra",
+   "family": "finance_certification_body",
+   "statutory_basis": "Professional body of the insurance industry (founded 1955)",
+   "nodes": [
+    "insurance_sector"
+   ],
+   "verification": {
+    "authority": "Insurance Institute of India",
+    "list_name": "Insurance Institute of India — Licentiate, Associate and Fellowship examinations",
+    "list_url": "https://www.insuranceinstituteofindia.com",
+    "list_as_of": "2026-10-02"
+   },
+   "reference_id": "https://www.insuranceinstituteofindia.com",
+   "notes": "Runs the Licentiate, Associate and Fellowship insurance examinations."
+  }
+ ]
+}
