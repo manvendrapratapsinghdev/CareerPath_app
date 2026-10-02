@@ -359,6 +359,13 @@ class LoadFamilyBatchTest(unittest.TestCase):
             [(2024, "Engineering"), (2025, "Engineering"), (2025, "Overall")],
         )
 
+    def test_two_rows_with_research_source_ids_are_never_merged(self) -> None:
+        connection = _database()
+        connection.execute("UPDATE institutes SET source_id = 'a' WHERE id = 10")
+        connection.execute("UPDATE institutes SET source_id = 'b' WHERE id = 11")
+        with self.assertRaisesRegex(BatchError, "both have a research source_id"):
+            load(connection, copy.deepcopy(BATCH), SNAPSHOT)
+
     def test_an_institute_still_being_built_is_listed_as_not_admitting(self) -> None:
         connection = _database()
         batch = copy.deepcopy(BATCH)

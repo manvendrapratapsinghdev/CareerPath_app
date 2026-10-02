@@ -83,12 +83,21 @@ def merge_into(connection: sqlite3.Connection, keep: int, drop: int) -> None:
     """Move every link of institute [drop] to [keep], then delete [drop].
 
     The kept row also takes [drop]'s source id, website and description when
-    it has none, so a later re-import still finds it by source id."""
+    it has none, so a later re-import still finds it by source id. Two rows
+    that both have a source id are never merged: the research importer looks
+    rows up by it and would bring the dropped one back."""
     if keep == drop:
         raise BatchError(f"cannot merge institute {keep} into itself")
     source_id, website, description = connection.execute(
         "SELECT source_id, website, description FROM institutes WHERE id = ?", (drop,)
     ).fetchone()
+    kept_source_id = connection.execute(
+        "SELECT source_id FROM institutes WHERE id = ?", (keep,)
+    ).fetchone()[0]
+    if source_id is not None and kept_source_id is not None and source_id != kept_source_id:
+        raise BatchError(
+            f"institutes {keep} and {drop} both have a research source_id; not merging them"
+        )
     for table, column in institute_references(connection):
         connection.execute(
             f"UPDATE OR IGNORE {table} SET {column} = ? WHERE {column} = ?", (keep, drop)
