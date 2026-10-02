@@ -280,6 +280,29 @@ class LoadFamilyBatchTest(unittest.TestCase):
         with self.assertRaisesRegex(BatchError, "IITs: no ownership given"):
             load(_database(), batch, SNAPSHOT)
 
+    def test_only_a_professional_body_has_no_ownership(self) -> None:
+        batch = copy.deepcopy(BATCH)
+        batch["institutes"] = batch["institutes"][1:]
+        batch["families"] = {}
+        batch["summary_rows"] = []
+        batch["institutes"][0]["ownership"] = "not_applicable"
+        with self.assertRaisesRegex(BatchError, "only for G10a"):
+            load(_database(), copy.deepcopy(batch), SNAPSHOT)
+        batch["institutes"][0]["group"] = "G10a"
+        connection = _database()
+        load(connection, batch, SNAPSHOT)
+        self.assertEqual(
+            connection.execute(
+                "SELECT c.group_code, c.ownership, c.ugc_verified FROM institute_classification c "
+                "JOIN institutes i ON i.id = c.institute_id "
+                "WHERE i.name = 'Indian Institute of Technology Goa'"
+            ).fetchone(),
+            ("G10a", None, None),
+        )
+        batch["institutes"][0]["ugc"] = {"verified": True}
+        with self.assertRaisesRegex(BatchError, "UGC check is for private"):
+            load(_database(), batch, SNAPSHOT)
+
     def test_ugc_check_only_and_always_for_private(self) -> None:
         batch = copy.deepcopy(BATCH)
         batch["institutes"][1]["ugc"] = {"verified": True}

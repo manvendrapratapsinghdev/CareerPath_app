@@ -42,6 +42,8 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_DATABASE = REPO_ROOT / "assets/data/career_path.db"
 
 GOVERNMENT_OWNERSHIP = {"central_govt", "state_govt", "govt_aided", "ppp"}
+# Ownership of a statutory professional body (G10a), stored as NULL.
+NOT_APPLICABLE = "not_applicable"
 
 
 class BatchError(Exception):
@@ -231,9 +233,19 @@ def classify(
     if ownership is None:
         raise BatchError(f"{spec['name']}: no ownership given")
     ugc = spec.get("ugc")
-    if ownership in GOVERNMENT_OWNERSHIP and ugc is not None:
+    if ownership == NOT_APPLICABLE:
+        # A statutory professional body (ICAI) is neither government nor
+        # private; it is stored with no ownership and no UGC check.
+        if spec["group"] != "G10a":
+            raise BatchError(
+                f"{spec['name']}: ownership '{NOT_APPLICABLE}' is only for G10a professional bodies"
+            )
+        if ugc is not None:
+            raise BatchError(f"{spec['name']}: UGC check is for private institutions only")
+        ownership = None
+    elif ownership in GOVERNMENT_OWNERSHIP and ugc is not None:
         raise BatchError(f"{spec['name']}: UGC check is for private institutions only")
-    if ownership not in GOVERNMENT_OWNERSHIP and ugc is None:
+    elif ownership not in GOVERNMENT_OWNERSHIP and ugc is None:
         raise BatchError(f"{spec['name']}: private institutions need a UGC Yes/No check")
     connection.execute(
         "INSERT OR REPLACE INTO institute_classification (institute_id, group_code, "
