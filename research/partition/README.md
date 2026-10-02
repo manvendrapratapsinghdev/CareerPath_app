@@ -8,7 +8,7 @@ so batches prepared in parallel never claim the same university:
 |---|---|
 | D1 | already loaded: NLUs and state law universities |
 | D2 | state technical universities (name rule: technolog/technical/engineering/IT) |
-| D3, D3b | already loaded from ICAR's list; D3b = UAS Mandya, not on ICAR's page |
+| D3 | already loaded from ICAR's list (plus UAS Mandya from UGC's list) |
 | D4 | state health-science and AYUSH universities |
 | D5 | state general universities (loaded state by state) |
 | D6 | state sports, music/arts and women's universities |

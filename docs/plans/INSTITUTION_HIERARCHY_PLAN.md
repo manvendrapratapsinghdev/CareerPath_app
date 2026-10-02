@@ -11,7 +11,7 @@ The original “plan only” status is no longer accurate. The branch now contai
 - Fixed the NIRF state-inventory classifier bugs for Jhalawar/law false positives and private-college defaults (T1).
 - Added the institution taxonomy schema and lookup data: groups, families, domains, domain nodes, domain tiers,
   classifications, verification tables, ranking/accreditation tables, and the initial India/state master (T3–T6 foundations).
-- Added the domain-tier builder and tests. The database currently contains 27 domains, 278 domain tiers and 509
+- Added the domain-tier builder and tests. The database currently contains 27 domains, 278 domain tiers and 599
   institute-domain-tier links.
 - Loaded and classified Wave A (G1): IIT/IISc, IIM, AIIMS/JIPMER/PGIMER/NIMHANS, IISER/NISER/ISI, NIPER/SPA,
   NID/NIFTEM/ITRA/NFSU/RRU/Kalakshetra and AIIA.
@@ -46,7 +46,7 @@ The original “plan only” status is no longer accurate. The branch now contai
 - Accreditation data is still empty and ranking data is currently NIRF 2025 only (360 rows); NAAC/NBA fallback and
   multi-year ranking support remain pending.
 
-Current database counts: 950 institutes, 114 families, 27 domains, 36 states, and 13 institution groups. These counts
+Current database counts: 951 institutes, 114 families, 27 domains, 36 states, and 13 institution groups. These counts
 are implementation evidence, not a completion claim for all-India coverage.
 Source of every count below: `assets/data/career_path.db` as shipped in `1.5.0+17`, read-only.
 

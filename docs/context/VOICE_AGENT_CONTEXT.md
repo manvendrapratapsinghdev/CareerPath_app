@@ -236,11 +236,11 @@ Order of construction: `SharedPreferences` → repositories/services (bookmarks,
 
 ## 8. DATABASE SCHEMA — `assets/data/career_path.db` (SQLite, read-only in app)
 
-Row counts as of this commit: streams 3 · career_nodes 380 · books 1 111 · institutes 950 · job_sectors 476 ·
-institute_courses 8 376 · node_books 2 751 · node_institutes 6 201 · node_job_sectors 1 375 · course_career_nodes 9 495
+Row counts as of this commit: streams 3 · career_nodes 380 · books 1 111 · institutes 951 · job_sectors 476 ·
+institute_courses 8 376 · node_books 2 751 · node_institutes 6 204 · node_job_sectors 1 375 · course_career_nodes 9 495
 · institute_categories 409 · institute_rankings 447 · institution_groups 13 · families 114 · institute_classification
-511 · institute_verifications 432 · institute_accreditations 0 · countries 1 · states 36 · districts 0 · places 0 ·
-place_aliases 0 · campuses 0 · domains 27 · domain_nodes 90 · domain_tiers 278 · institute_domain_tiers 599.
+512 · institute_verifications 433 · institute_accreditations 0 · countries 1 · states 36 · districts 0 · places 0 ·
+place_aliases 0 · campuses 0 · domains 27 · domain_nodes 90 · domain_tiers 278 · institute_domain_tiers 600.
 
 ### 8.1 Tables (DDL, condensed from `sqlite3 .schema`)
 
@@ -378,7 +378,7 @@ streams 1───∞ career_nodes ∞───1 career_nodes (parent_id, self-t
 - **Streams:** 1 science, 2 commerce, 3 art.
 - **Tree depth:** L1 = 17 roots, L2 = 84, L3 = 241, L4 = 38 → **275 leaves**, 17 root nodes.
   Books/institutes/sectors hang off nodes (mostly leaves) via junction tables.
-- **institutes.state:** filled for 925 of 950 (34 states/UTs; Andaman and Nicobar and Lakshadweep still have none; Rajasthan 133, Maharashtra 105, Uttar Pradesh 96, Madhya Pradesh 90, Delhi 77, Tamil Nadu 57, …). Only city "Various" (24) and "Online" (1) stay NULL. Courses exist only for the researched
+- **institutes.state:** filled for 926 of 951 (34 states/UTs; Andaman and Nicobar and Lakshadweep still have none; Rajasthan 133, Maharashtra 105, Uttar Pradesh 96, Madhya Pradesh 90, Delhi 77, Tamil Nadu 57, …). Only city "Various" (24) and "Online" (1) stay NULL. Courses exist only for the researched
   Rajasthan/MP/UP institutes. Hand-added institutes had a city but no state; `tooling/fill_institute_states.py` fills it from the city
   (curated `CITY_STATES`; add a row when a new city appears). **districts** are still NULL for those rows — never guessed.
 - **institutes.institution_type:** ~119 NULL. Values include government_college, specialized, state_university, central_institute,
@@ -421,7 +421,7 @@ streams 1───∞ career_nodes ∞───1 career_nodes (parent_id, self-t
   + NLU Delhi + Sikkim NLU from UGC's state list; family `nlu`, G4, `state_govt`, all linked to BA LLB; GNLU Silvassa campus as a child row; IIULER Goa, a BCI-trust
   private consortium member, is left for Wave F) and the 5 state law universities (KSLU, TNDALU, Dr. Bhimrao Ambedkar LU Jaipur,
   Madhusudan LU, SGTB State University of Law; family `state_law_university`). 13 carry NIRF 2025 Law ranks. D3: all 68
-  universities on ICAR's State Agricultural Universities list (51 agricultural/horticulture/fisheries → `state_agricultural_university`,
+  universities on ICAR's State Agricultural Universities list + UAS Mandya from UGC's list (52 agricultural/horticulture/fisheries → `state_agricultural_university`,
   17 veterinary → `state_veterinary_university`), names hand-corrected, seats from UGC addresses, 73 NIRF 2025 rank rows; constituent
   colleges (RCA Udaipur, Madras/Bombay Veterinary College) stay separate for Wave G. The "ANDUAT …, Kumarganj, Ayodhya" duplicate is
   not merged: both ANDUAT rows carry a research `source_id`, and `merge_into` refuses such pairs (the importer would recreate them).

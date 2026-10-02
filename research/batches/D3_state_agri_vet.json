@@ -1,6 +1,6 @@
 {
  "batch": "D3",
- "title": "Wave D (G4): the 68 state agricultural, veterinary, horticulture and fisheries universities (ICAR list)",
+ "title": "Wave D (G4): the 68 state agricultural, veterinary, horticulture and fisheries universities (ICAR list) + UAS Mandya (UGC)",
  "verified_at": "2026-10-02",
  "nirf_snapshot": "research/official_lists/nirf/nirf_2025.json",
  "verification": {
@@ -19,7 +19,7 @@
  },
  "families": {
   "state_agricultural_university": {
-   "national_count": 51,
+   "national_count": 52,
    "as_of": "2026-10-02",
    "official_list_url": "https://icar.org.in/en/state-agricultural-universities"
   },
@@ -1037,6 +1037,27 @@
    ],
    "website": "https://www.ubkv.ac.in",
    "notes": "Campus at Pundibari, Cooch Behar."
+  },
+  {
+   "key": "sau-uas-mandya",
+   "name": "University of Agricultural Sciences Mandya",
+   "city": "Mandya",
+   "state": "Karnataka",
+   "website": "https://uasmandya.co.in",
+   "reference_id": "UGC state universities, ugc_id 1404",
+   "family": "state_agricultural_university",
+   "nodes": [
+    "bsc_agriculture",
+    "agri_scientist",
+    "agri_officer"
+   ],
+   "verification": {
+    "authority": "UGC",
+    "list_name": "UGC list of State Universities",
+    "list_url": "https://www.ugc.gov.in/universitydetails/university?type=LZ1FUMk6U2JWGNLvhWfVSA==",
+    "list_as_of": "2026-10-02"
+   },
+   "notes": "Seat at V. C. Farm, Mandya. On UGC's state list but not on ICAR's State Agricultural Universities page."
   }
  ]
 }
