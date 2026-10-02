@@ -622,10 +622,11 @@ def apply(connection: sqlite3.Connection, approved: list[dict[str, str]],
     """Apply approved rows: merges, then departments, then family records.
 
     A row whose source is classified by a batch, or whose names no longer
-    match the database, is refused (listed in the report, nothing touched).
+    match the database, is refused (listed in the report, nothing touched);
+    only a target that a batch has since classified may carry a new name.
     A row that is already applied is skipped, so a re-run changes nothing."""
     report: dict[str, Any] = {"merged": [], "departments": [], "family_records": [],
-                              "already_applied": [], "refused": []}
+                              "already_applied": [], "refused": [], "target_renamed": []}
     moved: dict[int, int] = {}
 
     def refuse(row: dict[str, str], why: str) -> None:
@@ -652,8 +653,13 @@ def apply(connection: sqlite3.Connection, approved: list[dict[str, str]],
                 refuse(row, f"target {target_id} no longer exists")
                 continue
             if target_id == live(target_id) and scrub(target[0]) != row["target_name"]:
-                refuse(row, f"target {target_id} is now named '{target[0]}'")
-                continue
+                # Ids are never reused (AUTOINCREMENT): a batch that classified the
+                # target may have given it its official name. Anything else is stale.
+                if not target[1]:
+                    refuse(row, f"target {target_id} is now named '{target[0]}'")
+                    continue
+                report["target_renamed"].append(
+                    f"{target_id}: '{row['target_name']}' is now '{target[0]}'")
         if source is None:
             if action == "merge" and target is not None:
                 report["already_applied"].append(f"merge {source_id} -> {target_id}")

@@ -200,6 +200,21 @@ class ApplyTest(unittest.TestCase):
         self.assertIn("not classified", report["refused"][0] + report["refused"][1])
         self.assertIsNotNone(connection.execute("SELECT 1 FROM institutes WHERE id = 21").fetchone())
 
+    def test_a_target_renamed_by_its_batch_is_still_merged_into(self) -> None:
+        connection = _database()
+        approved = _approved(propose(connection), 21, 31)
+        # A batch gives the classified target its official name; the unclassified
+        # target "MICA" gets a new name only from something unexpected.
+        connection.execute("UPDATE institutes SET name = 'Gujarat National Law University, "
+                           "Gandhinagar' WHERE id = 30")
+        connection.execute("UPDATE institutes SET name = 'MICA - The School' WHERE id = 20")
+        report = apply(connection, approved, "2026-10-02")
+        self.assertEqual(report["merged"], ["Gujarat National Law University (GNLU) -> "
+                                            "Gujarat National Law University, Gandhinagar"])
+        self.assertEqual(len(report["target_renamed"]), 1)
+        self.assertEqual(len(report["refused"]), 1)
+        self.assertIn("now named", report["refused"][0])
+
     def test_rerun_is_idempotent(self) -> None:
         connection = _database()
         proposals = propose(connection)
