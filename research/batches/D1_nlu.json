@@ -1,6 +1,6 @@
 {
  "batch": "D1",
- "title": "Wave D (G4): the National Law Universities",
+ "title": "Wave D (G4): the National Law Universities and the state law universities",
  "verified_at": "2026-10-02",
  "nirf_snapshot": "research/official_lists/nirf/nirf_2025.json",
  "verification": {
@@ -22,9 +22,14 @@
  },
  "families": {
   "nlu": {
-   "national_count": 26,
+   "national_count": 27,
    "as_of": "2026-10-02",
    "official_list_url": "https://consortiumofnlus.ac.in/"
+  },
+  "state_law_university": {
+   "national_count": 5,
+   "as_of": "2026-10-02",
+   "official_list_url": "https://www.ugc.gov.in/universitydetails/university?type=LZ1FUMk6U2JWGNLvhWfVSA=="
   }
  },
  "institutes": [
@@ -486,6 +491,103 @@
     "list_as_of": "2026-10-02"
    },
    "notes": "Not a member of the Consortium of NLUs; admits through its own AILET."
+  },
+  {
+   "key": "sikkim-nlu",
+   "name": "Sikkim National Law University",
+   "reference_id": "UGC state universities, ugc_id 1128",
+   "city": "Gangtok",
+   "state": "Sikkim",
+   "verification": {
+    "authority": "UGC",
+    "list_name": "UGC list of State Universities",
+    "list_url": "https://www.ugc.gov.in/universitydetails/university?type=LZ1FUMk6U2JWGNLvhWfVSA==",
+    "list_as_of": "2026-10-02"
+   },
+   "statutory_basis": "State Act establishing a National Law University",
+   "notes": "UGC 2(f); runs from the Sikkim Government Law College campus at Burtuk, Gangtok. Not a Consortium of NLUs member as of 2026-10-02."
+  },
+  {
+   "key": "karnataka-state-law-university",
+   "name": "Karnataka State Law University",
+   "city": "Hubballi",
+   "state": "Karnataka",
+   "reference_id": "UGC state universities, ugc_id 282",
+   "family": "state_law_university",
+   "statutory_basis": "State Act (state law university)",
+   "verification": {
+    "authority": "UGC",
+    "list_name": "UGC list of State Universities",
+    "list_url": "https://www.ugc.gov.in/universitydetails/university?type=LZ1FUMk6U2JWGNLvhWfVSA==",
+    "list_as_of": "2026-10-02"
+   },
+   "website": "https://kslu.karnataka.gov.in",
+   "notes": "Affiliating law university at Navanagar, Hubballi."
+  },
+  {
+   "key": "tamil-nadu-dr-ambedkar-law-university",
+   "name": "Tamil Nadu Dr. Ambedkar Law University",
+   "city": "Chennai",
+   "state": "Tamil Nadu",
+   "reference_id": "UGC state universities, ugc_id 398",
+   "family": "state_law_university",
+   "statutory_basis": "State Act (state law university)",
+   "verification": {
+    "authority": "UGC",
+    "list_name": "UGC list of State Universities",
+    "list_url": "https://www.ugc.gov.in/universitydetails/university?type=LZ1FUMk6U2JWGNLvhWfVSA==",
+    "list_as_of": "2026-10-02"
+   },
+   "website": "https://www.tndalu.ac.in",
+   "notes": "Affiliating law university; runs the School of Excellence in Law."
+  },
+  {
+   "key": "dr-bhimrao-ambedkar-law-university",
+   "name": "Dr. Bhimrao Ambedkar Law University",
+   "city": "Jaipur",
+   "state": "Rajasthan",
+   "reference_id": "UGC state universities, ugc_id 1056",
+   "family": "state_law_university",
+   "statutory_basis": "State Act (state law university)",
+   "verification": {
+    "authority": "UGC",
+    "list_name": "UGC list of State Universities",
+    "list_url": "https://www.ugc.gov.in/universitydetails/university?type=LZ1FUMk6U2JWGNLvhWfVSA==",
+    "list_as_of": "2026-10-02"
+   },
+   "website": "https://www.alujaipur.ac.in"
+  },
+  {
+   "key": "madhusudan-law-university",
+   "name": "Madhusudan Law University",
+   "city": "Cuttack",
+   "state": "Odisha",
+   "reference_id": "UGC state universities, ugc_id 1129",
+   "family": "state_law_university",
+   "statutory_basis": "State Act (state law university)",
+   "verification": {
+    "authority": "UGC",
+    "list_name": "UGC list of State Universities",
+    "list_url": "https://www.ugc.gov.in/universitydetails/university?type=LZ1FUMk6U2JWGNLvhWfVSA==",
+    "list_as_of": "2026-10-02"
+   },
+   "website": "https://mlu.ac.in"
+  },
+  {
+   "key": "sri-guru-teg-bahadur-state-university-of-law",
+   "name": "Sri Guru Teg Bahadur State University of Law",
+   "city": "Patti",
+   "state": "Punjab",
+   "reference_id": "UGC state universities, ugc_id 1077",
+   "family": "state_law_university",
+   "statutory_basis": "State Act (state law university)",
+   "verification": {
+    "authority": "UGC",
+    "list_name": "UGC list of State Universities",
+    "list_url": "https://www.ugc.gov.in/universitydetails/university?type=LZ1FUMk6U2JWGNLvhWfVSA==",
+    "list_as_of": "2026-10-02"
+   },
+   "notes": "At Patti, Tarn Taran district."
   }
  ]
 }

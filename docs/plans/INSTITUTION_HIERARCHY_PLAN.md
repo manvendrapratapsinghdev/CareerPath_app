@@ -19,15 +19,16 @@ The original “plan only” status is no longer accurate. The branch now contai
 - Loaded and classified the completed Wave C batches: 57 central universities, NIFT/FDDI/NSD/FTII/SRFTI/IIMC,
   central IHMs/IITTM, ICAR institutions including the four ICAR deemed universities and NAARM, the six defence
   academies and AFMC (C5), IGRUA, NFTI and IMU's campuses (C6), IIFT, IIFM, the six RIEs and the SAI colleges (C7a), and the AYUSH and DEPwD rehabilitation national institutes (C7b).
-- Wave D started: D1 loaded all 26 National Law Universities (25 consortium members + NLU Delhi).
+- Wave D started: D1 loaded all 27 National Law Universities (25 consortium members, NLU Delhi, Sikkim NLU) and the
+  5 state law universities.
 - Wave J1 loaded the professional bodies: ICAI, ICSI, ICMAI, IAI, NISM, IIBF and III (G10a, ownership not applicable).
 - Added the family-batch loader and official-list batch fixtures for the completed waves.
 - Tooling QA currently passes: `60 passed, 7 subtests passed` (`python3 -m pytest tooling/tests -q`).
 
 **Pending / incomplete**
 
-- T2 is only partial: official reference snapshots still need to be completed for every regulator/list named in the
-  plan (NMC, BCI, PCI, CoA, ICAR, NCHMCT, NCTE, NAAC and the remaining UGC lists).
+- T2 is mostly done: UGC state/private/deemed university lists, NLUs, ICAR SAUs, the NMC MBBS seat matrix and NCHMCT
+  institutes are in `research/official_lists/`. Still missing: CoA, PCI, NCTE, BCI approved law colleges and NAAC.
 - T4 cleanup is incomplete: duplicate review, all department-to-parent links, family-record flags, non-admitting-body
   classification and name hygiene still need a full pass. The current database has 65 parent links, 11 family flags and
   3 non-admitting classifications, so this is not finished.
@@ -44,7 +45,7 @@ The original “plan only” status is no longer accurate. The branch now contai
 - Accreditation data is still empty and ranking data is currently NIRF 2025 only (360 rows); NAAC/NBA fallback and
   multi-year ranking support remain pending.
 
-Current database counts: 907 institutes, 114 families, 27 domains, 36 states, and 13 institution groups. These counts
+Current database counts: 913 institutes, 114 families, 27 domains, 36 states, and 13 institution groups. These counts
 are implementation evidence, not a completion claim for all-India coverage.
 Source of every count below: `assets/data/career_path.db` as shipped in `1.5.0+17`, read-only.
 
@@ -562,7 +563,7 @@ Regulator: **BCI**. Entrance: **CLAT** (NLUs), AILET (NLU Delhi), LSAT-India, st
 
 | Tier | Step | Group | In DB? |
 |---|---|---|---|
-| T1 Apex | **National Law Universities** (NLSIU, NALSAR, NLU Delhi, NUJS, GNLU, NUALS, RMLNLU, NLIU, DNLU …) | G4 + family `NLU` | ✅ all 26 (D1, duplicates merged) |
+| T1 Apex | **National Law Universities** (NLSIU, NALSAR, NLU Delhi, NUJS, GNLU, NUALS, RMLNLU, NLIU, DNLU …) | G4 + family `NLU` | ✅ all 27 (D1, duplicates merged) |
 | T2 | INI law schools (RGSoIPL IIT Kharagpur) | G1 | ⚠️ 1 |
 | T3 | Central-university law faculties (DU Faculty of Law, BHU, AMU, Jamia) | G3 | ✅ 3 |
 | T4 | State-university law depts & govt law colleges (GLC Mumbai, USLLS GGSIPU, ILS Pune — aided) | G4 / G6 | ✅ ~13 / 2 |
