@@ -31,4 +31,12 @@ void main() {
     expect(d.hasCollegeLadder, isFalse);
     expect(d.regulatorList, isEmpty);
   });
+
+  test('NIRF categories try the domain first, then institution-wide', () {
+    final law = nirfCategoriesFor('law');
+    expect(law.first, 'Law');
+    expect(law, contains('Overall'));
+    expect(nirfCategoriesFor('ca_cma_cs').first, 'Overall');
+    expect(nirfCategoriesFor(null), nirfFallbackCategories);
+  });
 }

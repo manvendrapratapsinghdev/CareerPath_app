@@ -49,3 +49,35 @@ class Domain {
   @override
   String toString() => 'Domain($slug, $name)';
 }
+
+/// NIRF categories that match a domain, best first (plan §8.6). Domains
+/// without a NIRF category of their own fall back to [nirfFallbackCategories].
+const Map<String, List<String>> nirfCategoriesByDomain = {
+  'engineering': ['Engineering'],
+  'computing': ['Engineering'],
+  'science': ['Research'],
+  'medical': ['Medical'],
+  'dental': ['Dental'],
+  'pharmacy': ['Pharmacy'],
+  'agriculture': ['Agriculture and Allied Sectors'],
+  'veterinary': ['Agriculture and Allied Sectors'],
+  'architecture': ['Architecture and Planning'],
+  'management': ['Management'],
+  'law': ['Law'],
+};
+
+/// Institution-wide NIRF categories used when there is no domain rank.
+const List<String> nirfFallbackCategories = [
+  'Overall',
+  'University',
+  'College',
+  'Colleges',
+  'State Public University',
+  'Open University',
+];
+
+/// The NIRF categories to try for [domainSlug], domain-matched first.
+List<String> nirfCategoriesFor(String? domainSlug) => [
+  ...?nirfCategoriesByDomain[domainSlug],
+  ...nirfFallbackCategories,
+];
