@@ -1,10 +1,10 @@
 # Institution Groups & College Hierarchy — Plan
 
-Status: **in progress — taxonomy foundations, Waves A–C and batches D1, D3 and J1 are implemented; T10–T14 app integration is wired; location review and remaining data waves are pending.** Last verified: 2026-10-02.
+Status: **in progress — taxonomy foundations, Waves A–C and batches D1, D3 and J1 are implemented; T10–T14 app integration and the initial UI refresh are committed; location review and remaining data waves are pending.** Last verified: 2026-10-03.
 
-### Current completion snapshot (2026-10-02)
+### Current completion snapshot (2026-10-03)
 
-The original “plan only” status is no longer accurate. The current branch contains database/tooling work, and this working tree also has the app integration and location import changes described below. No commit or push has been made for this work.
+The original “plan only” status is no longer accurate. The current branch contains the database, tooling, app integration, location import, and initial UI refresh work described below. The implementation is committed in `4a92910` (`feat: refine institution ladder and professional routes`).
 
 **Completed**
 
@@ -32,6 +32,9 @@ The original “plan only” status is no longer accurate. The current branch co
   `source_url` and `verified_at` remain NULL because source rows do not have location-specific citations.
 - Added the Flutter college ladder, ranking/UGC display, cascading location filter, and shared catalog/location grounding
   for chat and voice (T10–T14). The generated career-search alias asset is current; the ladder uses runtime domain aliases.
+- Refined the committed ladder UI with live coverage summaries, location/group/family filters, private UGC filtering,
+  unavailable-location states, and professional-body route presentation for CA/CMA/CS-style steps. Targeted Flutter
+  validation passes 16/16 tests.
 - Prepared and reviewed all 439 legacy records as 44 deterministic batches (43 batches of 10 and a final batch of 9).
   The cumulative review is merged at `research/legacy_group_batches/legacy-group-all-439.json`: 426
   evidence-backed classifications and 13 `manual_review` records. The verified non-private subset (196 rows) is now
@@ -67,8 +70,8 @@ The original “plan only” status is no longer accurate. The current branch co
   route services; ranking and UGC UI; ladder and cascading location screens; and shared typed-chat/voice filtering.
 - A follow-up app UI refresh is still required after the remaining data waves: use newly verified institutions in the
   domain ladders and location filters, refresh displayed counts/coverage, and show accreditation/verification as
-  verified, unverified, expired or unknown without treating missing data as a negative. This is data-driven UI work,
-  not a replacement for the completed T10–T14 foundation.
+  verified, unverified, expired or unknown without treating missing data as a negative. The initial UI refresh is
+  committed; this remaining work is data-driven follow-up, not a replacement for the completed T10–T14 foundation.
 - Remaining data waves are pending: D2, D4–D6 (state public), E (deemed), F (private universities), G (government/aided
   colleges), H (private colleges), I (open/skill/diploma), and J2 (foreign campuses).
 - Wave C is complete. IIPA (in-service officers only) and NIN Pune (degree intake unconfirmed) are not loaded.
@@ -1149,9 +1152,9 @@ Follows CLAUDE.md: no new state management, manual DI, one test per new service 
 ### Phase 1b — data waves (each batch = one commit, §8.5)
 | # | Wave | Release gate |
 |---|---|---|
-| T15 | Wave A (G1) + Wave J (professional bodies, foreign campuses) | ship release 1: all national flagships + CA/CS/CMA steps |
-| T16 | Wave B (G2) | |
-| T17 | Wave C (G3) | ship release 2: every state/UT has G1–G3 coverage |
+| T15 | Wave A (G1) + Wave J (professional bodies, foreign campuses) — ✅ Wave A and J1 loaded; J2 remains pending | ship release 1: all national flagships + CA/CS/CMA steps |
+| T16 | Wave B (G2) — ✅ done | |
+| T17 | Wave C (G3) — ✅ done | ship release 2: every state/UT has G1–G3 coverage |
 | T18 | Wave D (G4) | |
 | T19 | Wave E (G5) + Wave F (G7) | ship release 3: all universities |
 | T20+ | Waves G, H, I — domain × state batches | ship per state group |
@@ -1160,7 +1163,7 @@ Follows CLAUDE.md: no new state management, manual DI, one test per new service 
 
 | # | Task | Output | Depends on |
 |---|---|---|---|
-| T21 | Initial UI pass ✅: slug-aware route wiring now opens the ladder from career screens; the ladder overview shows live tier/listed counts and cards explicitly show unavailable location data. Remaining after verified data imports: refresh ladders/cards and location filters with newly loaded institutions, correct coverage counts, NIRF/NAAC/NBA and private UGC evidence states; confirm typed-chat and voice results match the UI. | UI + tests | T2, T4, T7–T9, T15–T20 |
+| T21 | Initial UI pass ✅ and committed in `4a92910`: slug-aware route wiring opens the ladder from career screens; the ladder overview shows live tier/listed counts; filters cover location, group, family and private UGC evidence; professional-body routes show steps; cards explicitly show unavailable location data. Remaining after verified data imports: refresh ladders/cards and location filters with newly loaded institutions, correct coverage counts, NIRF/NAAC/NBA and private UGC evidence states; confirm typed-chat and voice results match the UI. | UI + tests | T2, T4, T7–T9, T15–T20 |
 
 Each release: update `VOICE_AGENT_CONTEXT.md` (schema, counts, prefs key `institute_location_filter`), bump
 `pubspec.yaml`, run the Play build.
