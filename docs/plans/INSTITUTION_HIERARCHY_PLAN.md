@@ -11,7 +11,7 @@ The original “plan only” status is no longer accurate. The branch now contai
 - Fixed the NIRF state-inventory classifier bugs for Jhalawar/law false positives and private-college defaults (T1).
 - Added the institution taxonomy schema and lookup data: groups, families, domains, domain nodes, domain tiers,
   classifications, verification tables, ranking/accreditation tables, and the initial India/state master (T3–T6 foundations).
-- Added the domain-tier builder and tests. The database currently contains 27 domains, 276 domain tiers and 432
+- Added the domain-tier builder and tests. The database currently contains 27 domains, 278 domain tiers and 509
   institute-domain-tier links.
 - Loaded and classified Wave A (G1): IIT/IISc, IIM, AIIMS/JIPMER/PGIMER/NIMHANS, IISER/NISER/ISI, NIPER/SPA,
   NID/NIFTEM/ITRA/NFSU/RRU/Kalakshetra and AIIA.
@@ -22,7 +22,7 @@ The original “plan only” status is no longer accurate. The branch now contai
 - Wave D started: D1 loaded all 26 National Law Universities (25 consortium members + NLU Delhi).
 - Wave J1 loaded the professional bodies: ICAI, ICSI, ICMAI, IAI, NISM, IIBF and III (G10a, ownership not applicable).
 - Added the family-batch loader and official-list batch fixtures for the completed waves.
-- Tooling QA currently passes: `58 passed, 7 subtests passed` (`python3 -m pytest tooling/tests -q`).
+- Tooling QA currently passes: `60 passed, 7 subtests passed` (`python3 -m pytest tooling/tests -q`).
 
 **Pending / incomplete**
 

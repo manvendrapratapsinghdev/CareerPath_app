@@ -164,8 +164,13 @@ APEX = {
 }
 
 # Exam and professional routes also list the professional bodies that teach them.
-PROFESSIONAL_BODIES = {"commerce_finance": [("Professional and certification bodies",
-                                             "finance_certification_body,foreign_professional_body", "G10a")]}
+PROFESSIONAL_BODIES = {
+    "commerce_finance": [("Professional and certification bodies",
+                          "icai,icmai,icsi,iai,finance_certification_body,foreign_professional_body", "G10a")],
+    "management": [("Professional and certification bodies", "finance_certification_body", "G10a")],
+    # Actuarial science sits under science; the Institute of Actuaries teaches it.
+    "science": [("Professional bodies", "iai", "G10a")],
+}
 
 
 def ladder(domain: str) -> list[tuple[int, str, str, str | None]]:

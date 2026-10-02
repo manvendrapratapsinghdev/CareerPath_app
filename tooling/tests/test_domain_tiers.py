@@ -93,6 +93,21 @@ class DomainTiersTest(unittest.TestCase):
         )
         self.assertEqual(report, {"institute_tiers": 4, "unplaced": 0})
 
+    def test_professional_bodies_close_the_ladders_they_teach(self) -> None:
+        connection = _database()
+        _add(connection, 1, "ICAI", "G10a", "icai", ["ca", "accountant"])
+        _add(connection, 2, "IAI", "G10a", "iai", ["actuarial_science"])
+        _add(connection, 3, "NISM", "G10a", "finance_certification_body", ["financial_analyst"])
+        report = assign_tiers(connection)
+        domains = connection.execute(
+            "SELECT institute_id, domain_slug FROM institute_domain_tiers ORDER BY 1, 2").fetchall()
+        self.assertIn((1, "commerce_finance"), domains)
+        self.assertIn((2, "science"), domains)
+        self.assertIn((3, "management"), domains)
+        self.assertEqual(report["unplaced"], 0)
+        last = ladder("management")[-1]
+        self.assertEqual(last[2:], ("G10a", "finance_certification_body"))
+
     def test_seed_rejects_an_unknown_apex_family(self) -> None:
         connection = _database()
         connection.execute("DELETE FROM families WHERE slug = 'nlu'")

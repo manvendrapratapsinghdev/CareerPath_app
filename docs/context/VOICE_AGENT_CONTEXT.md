@@ -240,7 +240,7 @@ Row counts as of this commit: streams 3 · career_nodes 380 · books 1 111 · in
 institute_courses 8 376 · node_books 2 751 · node_institutes 6 035 · node_job_sectors 1 375 · course_career_nodes 9 495
 · institute_categories 409 · institute_rankings 374 · institution_groups 13 · families 114 · institute_classification
 434 · institute_verifications 358 · institute_accreditations 0 · countries 1 · states 36 · districts 0 · places 0 ·
-place_aliases 0 · campuses 0 · domains 27 · domain_nodes 90 · domain_tiers 276 · institute_domain_tiers 506.
+place_aliases 0 · campuses 0 · domains 27 · domain_nodes 90 · domain_tiers 278 · institute_domain_tiers 509.
 
 ### 8.1 Tables (DDL, condensed from `sqlite3 .schema`)
 
@@ -421,8 +421,8 @@ streams 1───∞ career_nodes ∞───1 career_nodes (parent_id, self-t
   + NLU Delhi; family `nlu`, G4, `state_govt`, all linked to BA LLB; GNLU Silvassa campus as a child row; IIULER Goa, a BCI-trust
   private consortium member, is left for Wave F). 13 carry NIRF 2025 Law ranks. Wave J1: ICAI, ICSI, ICMAI, IAI (their Acts) and
   NISM, IIBF, III (`finance_certification_body`) are G10a with `ownership` NULL (a spec's `"ownership": "not_applicable"`,
-  allowed only for G10a; no UGC check). Three older cross-domain links of ICAI/IAI/NISM stay unplaced (no G10a tier in
-  commerce_finance/science/management). Each has a verification row. AIIMS Darbhanga, Rewari and Awantipora have `admits_students = 0`,
+  allowed only for G10a; no UGC check); the commerce_finance, management and science ladders end with a G10a
+  professional-bodies tier (`PROFESSIONAL_BODIES` in `tooling/domain_tiers.py`), so every institute is placed. Each has a verification row. AIIMS Darbhanga, Rewari and Awantipora have `admits_students = 0`,
   `confidence = medium` (no MBBS intake in the latest official status read, Lok Sabha 2022 — re-check); PGIMER and
   NIMHANS are not linked to MBBS (no MBBS course). 65
   department/centre rows ("IIT Bombay (Civil)", "IIM Lucknow - PGP-SM" which stays in Noida, "AIIMS Nursing College") have
