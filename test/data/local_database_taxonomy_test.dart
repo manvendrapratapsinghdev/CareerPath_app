@@ -283,6 +283,28 @@ void main() {
     expect(states.first.isUnionTerritory, isTrue);
   });
 
+  test('listed classifications skip family, child and unlisted rows', () async {
+    final listed = await local.getListedClassifications();
+    // By institute name: IIT Bombay, IIT Delhi, NLSIU Bengaluru, Private Law School.
+    expect(listed.map((c) => c.instituteId), [10, 11, 20, 30]);
+  });
+
+  test('institute cities are distinct, trimmed and keep their state', () async {
+    await database.execute(
+      "UPDATE institutes SET city = ' Mumbai ', state = 'Maharashtra' "
+      'WHERE id IN (10, 12)',
+    );
+    await database.execute(
+      "UPDATE institutes SET city = 'New Delhi', state = 'Delhi' WHERE id = 11",
+    );
+    await database.execute("UPDATE institutes SET city = '' WHERE id = 20");
+    final cities = await local.getInstituteCities();
+    expect(cities, [
+      (city: 'Mumbai', state: 'Maharashtra'),
+      (city: 'New Delhi', state: 'Delhi'),
+    ]);
+  });
+
   test(
     'an older DB without the taxonomy tables returns empty, not errors',
     () async {
@@ -313,6 +335,8 @@ void main() {
       expect(await legacy.getInstitutesOnDomainLadder('law'), isEmpty);
       expect(await legacy.getInstituteDomainTiers(1), isEmpty);
       expect(await legacy.getStates(), isEmpty);
+      expect(await legacy.getListedClassifications(), isEmpty);
+      expect(await legacy.getInstituteCities(), isEmpty);
       await legacy.close();
     },
   );

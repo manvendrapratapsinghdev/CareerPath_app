@@ -433,6 +433,17 @@ class LocalDatabase {
     includeUnlisted: includeUnlisted,
   );
 
+  /// Every listed, top-level classification row (no family, child or
+  /// unlisted rows), by institute name. The catalog filter reads it once.
+  Future<List<InstituteClassification>> getListedClassifications() =>
+      _classifiedInstitutes(
+        '1 = 1',
+        const [],
+        includeChildren: false,
+        includeFamilyRecords: false,
+        includeUnlisted: false,
+      );
+
   /// Campuses, departments and centres whose parent is [parentInstituteId].
   Future<List<InstituteClassification>> getChildInstitutes(
     int parentInstituteId, {
@@ -604,6 +615,19 @@ class LocalDatabase {
       'ORDER BY name',
     );
     return rows.map(StateRegion.fromJson).toList(growable: false);
+  }
+
+  /// Distinct (city, state) pairs on institutes, by city. The place
+  /// resolver matches cities against these until `places` is filled.
+  Future<List<({String city, String? state})>> getInstituteCities() async {
+    final rows = await db.rawQuery(
+      'SELECT DISTINCT TRIM(city) AS city, state FROM institutes '
+      "WHERE city IS NOT NULL AND TRIM(city) <> '' ORDER BY city, state",
+    );
+    return [
+      for (final row in rows)
+        (city: row['city'] as String, state: row['state'] as String?),
+    ];
   }
 
   // ── Taxonomy helpers ───────────────────────────────────────────────────
