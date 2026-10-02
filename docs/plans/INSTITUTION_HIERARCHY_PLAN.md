@@ -1,6 +1,48 @@
 # Institution Groups & College Hierarchy — Plan
 
-Status: **plan only — no DB or code changes made.** Date: 2026-10-01.
+Status: **in progress — taxonomy foundations and Waves A–C4 are implemented; app integration and remaining data waves are pending.** Last verified: 2026-10-02.
+
+### Current completion snapshot (2026-10-02)
+
+The original “plan only” status is no longer accurate. The branch now contains committed database/tooling work:
+
+**Completed**
+
+- Fixed the NIRF state-inventory classifier bugs for Jhalawar/law false positives and private-college defaults (T1).
+- Added the institution taxonomy schema and lookup data: groups, families, domains, domain nodes, domain tiers,
+  classifications, verification tables, ranking/accreditation tables, and the initial India/state master (T3–T6 foundations).
+- Added the domain-tier builder and tests. The database currently contains 27 domains, 276 domain tiers and 432
+  institute-domain-tier links.
+- Loaded and classified Wave A (G1): IIT/IISc, IIM, AIIMS/JIPMER/PGIMER/NIMHANS, IISER/NISER/ISI, NIPER/SPA,
+  NID/NIFTEM/ITRA/NFSU/RRU/Kalakshetra and AIIA.
+- Loaded and classified Wave B (G2): all 31 NITs, IIEST and the IIIT batch.
+- Loaded and classified the completed Wave C batches: 57 central universities, NIFT/FDDI/NSD/FTII/SRFTI/IIMC,
+  central IHMs/IITTM, and ICAR institutions including the four ICAR deemed universities and NAARM.
+- Added the family-batch loader and official-list batch fixtures for the completed waves.
+- Tooling QA currently passes: `57 passed, 7 subtests passed` (`python3 -m pytest tooling/tests -q`).
+
+**Pending / incomplete**
+
+- T2 is only partial: official reference snapshots still need to be completed for every regulator/list named in the
+  plan (NMC, BCI, PCI, CoA, ICAR, NCHMCT, NCTE, NAAC and the remaining UGC lists).
+- T4 cleanup is incomplete: duplicate review, all department-to-parent links, family-record flags, non-admitting-body
+  classification and name hygiene still need a full pass. The current database has 55 parent links, 9 family flags and
+  3 non-admitting classifications, so this is not finished.
+- T7 location data is incomplete. The state table has 36 rows, but district, place and campus tables are currently empty.
+- T8 career-tree additions are pending: Pharmacy, PCS children, BUMS/BSMS/BNYS, Social Work and Judicial Services.
+- T9 loader foundations exist, but the full verification/review workflow and all regulator-specific imports are not
+  complete.
+- Phase 1a app work (T10–T14) is not implemented: Dart models, local-database queries, ladder/filter services,
+  location and route services, ranking/UGC UI, ladder/steps screens, and shared chat/voice filtering remain pending.
+- Remaining data waves are pending: D (state public), E (deemed), F (private universities), G (government/aided
+  colleges), H (private colleges), I (open/skill/diploma), and J (professional bodies/foreign campuses).
+- Wave C5 (defence academies and AFMC) has local, uncommitted batch/reference JSON files, but it is not yet loaded into
+  the database or committed; C6 and C7 are also pending.
+- Accreditation data is still empty and ranking data is currently NIRF 2025 only (360 rows); NAAC/NBA fallback and
+  multi-year ranking support remain pending.
+
+Current database counts: 872 institutes, 114 families, 27 domains, 36 states, and 13 institution groups. These counts
+are implementation evidence, not a completion claim for all-India coverage.
 Source of every count below: `assets/data/career_path.db` as shipped in `1.5.0+17`, read-only.
 
 Approach, as asked:
@@ -176,8 +218,8 @@ lookup table (§7) will hold. Each family belongs to exactly one group.
 | CIPET · CLRI · MSME tool rooms | Polymer, leather, tool-making | various | ~45 · 1 · ~18 | ❌ |
 | National rehab institutes | Rehabilitation (RCI) | MoSJE | 9 | ✅ 2 |
 | AYUSH national institutes (AIIA, NIA, NIH, NIUM, NIS, MDNIY) | AYUSH, yoga | Ministry of AYUSH | ~7 | ✅ 3 (AIIA loaded in A5b) |
-| Defence academies (NDA, IMA, INA, AFA, OTA) | Defence | MoD | 5 | ✅ all 5 (NDA duplicated) |
-| AFMC | Medical (defence) | MoD | 1 | ✅ |
+| Defence academies (NDA, IMA, INA, AFA, OTA Chennai + Gaya) | Defence | MoD | 6 | ✅ all 6 (C5; NDA duplicate merged) |
+| AFMC | Medical (defence) | MoD | 1 | ✅ (C5) |
 | Sainik Schools · RIMC | Defence prep (school-level) | MoD | ~33 + new · 1 | ❌ (school-level, see §3.3) |
 | IGRUA · NFTI | Aviation | MoCA | 2 | ✅ both |
 | IIFT · IIFM · IIPA | Management, public policy | various | 3 | ✅ 2 · IIPA ❌ |

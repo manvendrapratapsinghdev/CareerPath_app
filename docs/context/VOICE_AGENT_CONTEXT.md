@@ -237,10 +237,10 @@ Order of construction: `SharedPreferences` → repositories/services (bookmarks,
 ## 8. DATABASE SCHEMA — `assets/data/career_path.db` (SQLite, read-only in app)
 
 Row counts as of this commit: streams 3 · career_nodes 380 · books 1 111 · institutes 872 · job_sectors 476 ·
-institute_courses 8 376 · node_books 2 751 · node_institutes 5 965 · node_job_sectors 1 375 · course_career_nodes 9 495
+institute_courses 8 376 · node_books 2 751 · node_institutes 5 971 · node_job_sectors 1 375 · course_career_nodes 9 495
 · institute_categories 409 · institute_rankings 360 · institution_groups 13 · families 114 · institute_classification
-354 · institute_verifications 290 · institute_accreditations 0 · countries 1 · states 36 · districts 0 · places 0 ·
-place_aliases 0 · campuses 0 · domains 27 · domain_nodes 90 · domain_tiers 276 · institute_domain_tiers 432.
+361 · institute_verifications 297 · institute_accreditations 0 · countries 1 · states 36 · districts 0 · places 0 ·
+place_aliases 0 · campuses 0 · domains 27 · domain_nodes 90 · domain_tiers 276 · institute_domain_tiers 443.
 
 ### 8.1 Tables (DDL, condensed from `sqlite3 .schema`)
 
@@ -378,7 +378,7 @@ streams 1───∞ career_nodes ∞───1 career_nodes (parent_id, self-t
 - **Streams:** 1 science, 2 commerce, 3 art.
 - **Tree depth:** L1 = 17 roots, L2 = 84, L3 = 241, L4 = 38 → **275 leaves**, 17 root nodes.
   Books/institutes/sectors hang off nodes (mostly leaves) via junction tables.
-- **institutes.state:** filled for 847 of 872 (34 states/UTs; Andaman and Nicobar and Lakshadweep still have none; Rajasthan 126, Maharashtra 105, Uttar Pradesh 92, Madhya Pradesh 86, Delhi 77, Tamil Nadu 55, …). Only city "Various" (24) and "Online" (1) stay NULL. Courses exist only for the researched
+- **institutes.state:** filled for 847 of 872 (34 states/UTs; Andaman and Nicobar and Lakshadweep still have none; Rajasthan 126, Maharashtra 104, Uttar Pradesh 92, Madhya Pradesh 86, Delhi 77, Tamil Nadu 55, …). Only city "Various" (24) and "Online" (1) stay NULL. Courses exist only for the researched
   Rajasthan/MP/UP institutes. Hand-added institutes had a city but no state; `tooling/fill_institute_states.py` fills it from the city
   (curated `CITY_STATES`; add a row when a new city appears). **districts** are still NULL for those rows — never guessed.
 - **institutes.institution_type:** ~119 NULL. Values include government_college, specialized, state_university, central_institute,
@@ -407,7 +407,8 @@ streams 1───∞ career_nodes ∞───1 career_nodes (parent_id, self-t
   `central_ihm`) and IITTM's 5 degree centres (Gwalior, Bhubaneswar, Noida, Nellore, Goa; Bodh Gaya and Shillong camps not loaded),
   none in NIRF; C4: the 4 ICAR deemed universities (IARI, NDRI, IVRI, CIFE — family `icar_deemed`, group **G5** as the plan
   says, loaded early with the ICAR domain batch) and ICAR-NAARM (G3, `icar_institute`); ICAR labs that only teach through them are
-  not listed. Each has a verification row. AIIMS Darbhanga, Rewari and Awantipora have `admits_students = 0`,
+  not listed; C5: the 6 defence academies (NDA, IMA, INA, AFA, OTA Chennai, OTA Gaya — family `defence_academy`, from the UPSC
+  NDA/CDS 2026 notices) and AFMC Pune (`afmc`, linked to MBBS); private "defence academies" are coaching (G10b). Each has a verification row. AIIMS Darbhanga, Rewari and Awantipora have `admits_students = 0`,
   `confidence = medium` (no MBBS intake in the latest official status read, Lok Sabha 2022 — re-check); PGIMER and
   NIMHANS are not linked to MBBS (no MBBS course). 55
   department/centre rows ("IIT Bombay (Civil)", "IIM Lucknow - PGP-SM" which stays in Noida, "AIIMS Nursing College") have

@@ -1,0 +1,199 @@
+{
+ "batch": "C5",
+ "title": "Wave C (G3): the defence academies (NDA, IMA, INA, AFA, OTA Chennai, OTA Gaya) and AFMC",
+ "verified_at": "2026-10-02",
+ "nirf_snapshot": "research/official_lists/nirf/nirf_2025.json",
+ "verification": {
+  "authority": "Union Public Service Commission / Ministry of Defence",
+  "list_name": "UPSC notice — Combined Defence Services Examination (II), 2026 (IMA, INA, AFA, OTA Chennai)",
+  "list_url": "https://www.upsc.gov.in/sites/default/files/Notif-CDS-II-2026-Engl-200526.pdf",
+  "list_as_of": "2026-10-02"
+ },
+ "defaults": {
+  "group": "G3",
+  "ownership": "central_govt",
+  "legacy_type": "central_institute",
+  "nirf": false
+ },
+ "families": {
+  "defence_academy": {
+   "national_count": 6,
+   "as_of": "2026-10-02",
+   "official_list_url": "https://www.upsc.gov.in/sites/default/files/Notif-CDS-II-2026-Engl-200526.pdf"
+  },
+  "afmc": {
+   "national_count": 1,
+   "as_of": "2026-10-02",
+   "official_list_url": "https://afmc.nic.in"
+  }
+ },
+ "institutes": [
+  {
+   "key": "nda",
+   "name": "National Defence Academy",
+   "website": "https://nda.nic.in",
+   "city": "Pune",
+   "state": "Maharashtra",
+   "existing": [
+    "National Defence Academy (NDA) Pune",
+    "Nation Defence Academy Pune"
+   ],
+   "verification": {
+    "authority": "Union Public Service Commission / Ministry of Defence",
+    "list_name": "UPSC Examination Notice No. 3/2026 — NDA & NA Examination (I), 2026",
+    "list_url": "https://www.upsc.gov.in/sites/default/files/Notif-NDA-NA-I-2026-Engl-101225.pdf",
+    "list_as_of": "2026-10-02"
+   },
+   "reference_id": "UPSC NDA & NA Examination",
+   "statutory_basis": "Training establishment of the Ministry of Defence (tri-service; degree awarded by JNU)",
+   "nodes": [
+    "nda",
+    "army_officer",
+    "navy_officer",
+    "airforce_officer"
+   ],
+   "notes": "Campus at Khadakwasla, Pune.",
+   "family": "defence_academy"
+  },
+  {
+   "key": "ima",
+   "name": "Indian Military Academy",
+   "website": "https://indianarmy.nic.in",
+   "city": "Dehradun",
+   "state": "Uttarakhand",
+   "existing": [
+    "Indian Military Academy (IMA) Dehradun"
+   ],
+   "verification": {
+    "authority": "Union Public Service Commission / Ministry of Defence",
+    "list_name": "UPSC notice — Combined Defence Services Examination (II), 2026 (IMA, INA, AFA, OTA Chennai)",
+    "list_url": "https://www.upsc.gov.in/sites/default/files/Notif-CDS-II-2026-Engl-200526.pdf",
+    "list_as_of": "2026-10-02"
+   },
+   "reference_id": "UPSC CDS Examination: IMA Dehradun",
+   "statutory_basis": "Training establishment of the Ministry of Defence (Indian Army)",
+   "nodes": [
+    "cds_course",
+    "army_officer",
+    "army_tech_officer"
+   ],
+   "family": "defence_academy"
+  },
+  {
+   "key": "ina",
+   "name": "Indian Naval Academy",
+   "website": "https://www.indiannavy.nic.in",
+   "city": "Kannur",
+   "state": "Kerala",
+   "existing": [
+    "Indian Naval Academy (INA) Ezhimala"
+   ],
+   "verification": {
+    "authority": "Union Public Service Commission / Ministry of Defence",
+    "list_name": "UPSC notice — Combined Defence Services Examination (II), 2026 (IMA, INA, AFA, OTA Chennai)",
+    "list_url": "https://www.upsc.gov.in/sites/default/files/Notif-CDS-II-2026-Engl-200526.pdf",
+    "list_as_of": "2026-10-02"
+   },
+   "reference_id": "UPSC CDS and NDA & NA Examinations: INA Ezhimala",
+   "statutory_basis": "Training establishment of the Ministry of Defence (Indian Navy)",
+   "nodes": [
+    "navy_officer",
+    "cds_navy_officer"
+   ],
+   "notes": "Campus at Ezhimala, Kannur district.",
+   "family": "defence_academy"
+  },
+  {
+   "key": "afa",
+   "name": "Air Force Academy",
+   "website": "https://indianairforce.nic.in",
+   "city": "Hyderabad",
+   "state": "Telangana",
+   "existing": [
+    "Air Force Academy (AFA) Dundigal"
+   ],
+   "verification": {
+    "authority": "Union Public Service Commission / Ministry of Defence",
+    "list_name": "UPSC notice — Combined Defence Services Examination (II), 2026 (IMA, INA, AFA, OTA Chennai)",
+    "list_url": "https://www.upsc.gov.in/sites/default/files/Notif-CDS-II-2026-Engl-200526.pdf",
+    "list_as_of": "2026-10-02"
+   },
+   "reference_id": "UPSC CDS Examination: AFA Hyderabad",
+   "statutory_basis": "Training establishment of the Ministry of Defence (Indian Air Force)",
+   "nodes": [
+    "airforce_officer",
+    "cds_af_officer"
+   ],
+   "notes": "Campus at Dundigal, near Hyderabad.",
+   "family": "defence_academy"
+  },
+  {
+   "key": "ota-chennai",
+   "name": "Officers Training Academy Chennai",
+   "website": "https://joinindianarmy.nic.in",
+   "city": "Chennai",
+   "state": "Tamil Nadu",
+   "existing": [
+    "Officers Training Academy (OTA) Chennai"
+   ],
+   "verification": {
+    "authority": "Union Public Service Commission / Ministry of Defence",
+    "list_name": "UPSC notice — Combined Defence Services Examination (II), 2026 (IMA, INA, AFA, OTA Chennai)",
+    "list_url": "https://www.upsc.gov.in/sites/default/files/Notif-CDS-II-2026-Engl-200526.pdf",
+    "list_as_of": "2026-10-02"
+   },
+   "reference_id": "UPSC CDS Examination: OTA Chennai (SSC)",
+   "statutory_basis": "Training establishment of the Ministry of Defence (Indian Army; Short Service Commission)",
+   "nodes": [
+    "cds_course",
+    "army_officer"
+   ],
+   "family": "defence_academy"
+  },
+  {
+   "key": "ota-gaya",
+   "name": "Officers Training Academy Gaya",
+   "website": "https://joinindianarmy.nic.in",
+   "city": "Gaya",
+   "state": "Bihar",
+   "verification": {
+    "authority": "Ministry of Defence — Indian Army",
+    "list_name": "Join Indian Army — officer entries and training academies",
+    "list_url": "https://joinindianarmy.nic.in",
+    "list_as_of": "2026-10-02"
+   },
+   "reference_id": "Indian Army: OTA Gaya (TES, SSC Tech)",
+   "statutory_basis": "Training establishment of the Ministry of Defence (Indian Army)",
+   "nodes": [
+    "army_officer",
+    "army_tech_officer"
+   ],
+   "notes": "Trains Technical Entry Scheme and SSC (Technical) cadets; passing-out parades held in March and September 2025.",
+   "family": "defence_academy"
+  },
+  {
+   "key": "afmc",
+   "name": "Armed Forces Medical College",
+   "website": "https://afmc.nic.in",
+   "city": "Pune",
+   "state": "Maharashtra",
+   "existing": [
+    "Armed Forces Medical College (AFMC)"
+   ],
+   "family": "afmc",
+   "verification": {
+    "authority": "Ministry of Defence — Armed Forces Medical Services",
+    "list_name": "Armed Forces Medical College, Pune",
+    "list_url": "https://afmc.nic.in",
+    "list_as_of": "2026-10-02"
+   },
+   "reference_id": "https://afmc.nic.in",
+   "statutory_basis": "Armed Forces Medical Services, Ministry of Defence; MBBS affiliated to Maharashtra University of Health Sciences",
+   "legacy_type": "medical",
+   "nodes": [
+    "mbbs"
+   ],
+   "notes": "MBBS admission through NEET-UG with a service commitment; also runs a College of Nursing."
+  }
+ ]
+}
