@@ -1,0 +1,503 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-02",
+  "plan_scope": "Wave D2 — State technical universities (Engineering; AICTE / UGC), approximately 30 expected. The plan's engineering tier examples include RTU, RGPV, AKTU, DTU, Jadavpur University, and CUSAT.",
+  "scope_note": "This is a research shortlist, not an eligibility decision or import file. Core candidates are state technical universities or public technical universities with engineering/technology as their core mandate. Boundary candidates are state public universities with substantive engineering programmes but a broader mandate; keep them out of D2 unless the project confirms that wider rule. Colleges, individual campuses/departments, and state technical education boards are not listed as university candidates.",
+  "database_comparison": {
+    "database": "assets/data/career_path.db (read-only)",
+    "candidate_count": 41,
+    "matched_existing_records": 6,
+    "matched_records_with_engineering_domain_tier": 0,
+    "match_basis": "Compared canonical university names and common acronyms against institute names and inspected matching institute_classification and institute_domain_tiers rows. No aliases or records were written.",
+    "existing_matches": [
+      {"canonical_name": "Delhi Technological University", "db_id": 463, "db_name": "Delhi Technological University", "group_code": "G4", "family_slug": "state_technical_university", "engineering_domain_tier_present": false},
+      {"canonical_name": "Cochin University of Science and Technology", "db_id": 251, "db_name": "Cochin University of Science and Technology", "group_code": "G4", "family_slug": "state_university", "engineering_domain_tier_present": false},
+      {"canonical_name": "Madan Mohan Malaviya University of Technology", "db_id": 704, "db_name": "Madan Mohan Malaviya University of Technology", "group_code": "G4", "family_slug": "state_technical_university", "engineering_domain_tier_present": false},
+      {"canonical_name": "Jadavpur University", "db_id": 276, "db_name": "Jadavpur University", "group_code": "G4", "family_slug": null, "engineering_domain_tier_present": false},
+      {"canonical_name": "Institute of Infrastructure, Technology, Research And Management", "db_id": 456, "db_name": "IITRAM Ahmedabad", "match_basis": "Official acronym IITRAM; the existing row uses the short display name.", "group_code": "G4", "family_slug": "state_technical_university", "engineering_domain_tier_present": false},
+      {"canonical_name": "Rajiv Gandhi Proudyogiki Vishwavidyalaya", "db_id": 598, "db_name": "Rajiv Gandhi Proudyogiki Vishwavidyalaya", "group_code": "G4", "family_slug": "state_technical_university", "engineering_domain_tier_present": false}
+    ]
+  },
+  "reference_sources": [
+    {
+      "url": "https://www.education.gov.in/sites/upload_files/mhrd/files/parliament_annexure_en/2779_en.pdf",
+      "publisher": "Ministry of Education, Government of India",
+      "use": "2023 state-wise TEQIP-III list of 12 technical-education universities; useful corroboration, not treated as a current exhaustive national roster."
+    },
+    {
+      "url": "https://www.ugc.gov.in/universitydetails/",
+      "publisher": "University Grants Commission",
+      "use": "Official university directory for confirming university status and state-university listing during verification."
+    },
+    {
+      "url": "https://tte.delhi.gov.in/tte/technical-universities-and-govt-engineering-colleges",
+      "publisher": "Directorate of Training and Technical Education, Government of NCT of Delhi",
+      "use": "Official Delhi technical-university list; distinguishes university candidates from engineering colleges."
+    },
+    {
+      "url": "https://punjab.gov.in/government/departments/department-of-technical-education-and-industrial-training/",
+      "publisher": "Government of Punjab",
+      "use": "Official department roster lists I.K. Gujral Punjab Technical University and Maharaja Ranjit Singh State Technical University."
+    },
+    {
+      "url": "https://sdte.odisha.gov.in/sites/default/files/2023-05/3618.pdf",
+      "publisher": "Skill Development and Technical Education Department, Government of Odisha",
+      "use": "Identifies BPUT, VSSUT and OUTR as Odisha government technical universities."
+    }
+  ],
+  "candidates": [
+    {
+      "canonical_name": "Assam Science and Technology University",
+      "state": "Assam",
+      "candidate_source_url": "https://astu.ac.in/?page_id=9",
+      "candidate_class": "core_state_technical_university",
+      "reason_for_inclusion": "Official university page calls it Assam's state technical university and assigns it engineering-programme regulation.",
+      "eligibility_uncertainty": null,
+      "record_match_status": "not_found",
+      "matched_db_record": null
+    },
+    {
+      "canonical_name": "Bihar Engineering University",
+      "state": "Bihar",
+      "candidate_source_url": "https://beu-bih.ac.in/",
+      "candidate_class": "core_state_technical_university",
+      "reason_for_inclusion": "Official site says it is a state-run public university established under the Bihar Engineering University Act, 2021 to oversee engineering education.",
+      "eligibility_uncertainty": "Newer than the 2023 MoE technical-university list; verify current UGC / AISHE listing and active degree-awarding status at import time.",
+      "record_match_status": "not_found",
+      "matched_db_record": null
+    },
+    {
+      "canonical_name": "Chhattisgarh Swami Vivekanand Technical University",
+      "state": "Chhattisgarh",
+      "candidate_source_url": "https://www.csvtu.ac.in/",
+      "candidate_class": "core_state_technical_university",
+      "reason_for_inclusion": "Official university site identifies it as the State Government Technical University of Chhattisgarh; it appears in the MoE technical-education university list.",
+      "eligibility_uncertainty": null,
+      "record_match_status": "not_found",
+      "matched_db_record": null
+    },
+    {
+      "canonical_name": "Himachal Pradesh Technical University",
+      "state": "Himachal Pradesh",
+      "candidate_source_url": "https://www.himtu.ac.in/en/about-us/about-university",
+      "candidate_class": "core_state_technical_university",
+      "reason_for_inclusion": "Official site and state-university act identify HPTU as a state technical university; it appears in the MoE technical-education university list.",
+      "eligibility_uncertainty": null,
+      "record_match_status": "not_found",
+      "matched_db_record": null
+    },
+    {
+      "canonical_name": "Jawaharlal Nehru Technological University Anantapur",
+      "state": "Andhra Pradesh",
+      "candidate_source_url": "https://www.jntua.ac.in/",
+      "candidate_class": "core_state_technical_university",
+      "reason_for_inclusion": "Official annual report says JNTUA was formed as an independent technological university by Andhra Pradesh legislation and describes its technical-education mandate.",
+      "eligibility_uncertainty": "Verify exact current official name and state listing; do not merge with former JNTU Hyderabad or its constituent colleges.",
+      "record_match_status": "not_found",
+      "matched_db_record": null
+    },
+    {
+      "canonical_name": "Jawaharlal Nehru Technological University Kakinada",
+      "state": "Andhra Pradesh",
+      "candidate_source_url": "https://jntuk.edu.in/",
+      "candidate_class": "core_state_technical_university",
+      "reason_for_inclusion": "Official university website identifies JNTUK and its engineering/technology academic mandate; UGC's state-university expert-committee index also lists the predecessor university at Kakinada.",
+      "eligibility_uncertainty": "Verify current state-university and degree-awarding record for the present name at import time.",
+      "record_match_status": "not_found",
+      "matched_db_record": null
+    },
+    {
+      "canonical_name": "Jawaharlal Nehru Technological University Gurajada, Vizianagaram",
+      "state": "Andhra Pradesh",
+      "candidate_source_url": "https://admissions.jntugv.edu.in/",
+      "candidate_class": "core_state_technical_university",
+      "reason_for_inclusion": "Official JNTU-GV admissions portal states it became a separate university under the JNTU-GV Act, 2021.",
+      "eligibility_uncertainty": "Newer separate institution; verify current UGC / AISHE entry and canonical spelling before loading.",
+      "record_match_status": "not_found",
+      "matched_db_record": null
+    },
+    {
+      "canonical_name": "Jawaharlal Nehru Technological University Hyderabad",
+      "state": "Telangana",
+      "candidate_source_url": "https://www.jntuh.ac.in/",
+      "candidate_class": "core_state_technical_university",
+      "reason_for_inclusion": "Official university page says it was established by state legislation as a technological university and runs engineering programmes; it appears in the MoE technical-education university list.",
+      "eligibility_uncertainty": null,
+      "record_match_status": "not_found",
+      "matched_db_record": null
+    },
+    {
+      "canonical_name": "Visvesvaraya Technological University",
+      "state": "Karnataka",
+      "candidate_source_url": "https://vtu.ac.in/en/about-vtu/",
+      "candidate_class": "core_state_technical_university",
+      "reason_for_inclusion": "Official VTU page describes its technological-university mandate, engineering education and state-wide affiliated institutions; it appears in the MoE list.",
+      "eligibility_uncertainty": null,
+      "record_match_status": "not_found",
+      "matched_db_record": null
+    },
+    {
+      "canonical_name": "Rajiv Gandhi Proudyogiki Vishwavidyalaya",
+      "state": "Madhya Pradesh",
+      "candidate_source_url": "https://www.rgpv.ac.in/",
+      "candidate_class": "core_state_technical_university",
+      "reason_for_inclusion": "Official university site identifies RGPV as a Madhya Pradesh technology university; it is explicitly named in the plan and the MoE technical-education university list.",
+      "eligibility_uncertainty": null,
+      "record_match_status": "matched_existing_record_missing_engineering_tier",
+      "matched_db_record": {
+        "id": 598,
+        "name": "Rajiv Gandhi Proudyogiki Vishwavidyalaya",
+        "group_code": "G4",
+        "family_slug": "state_technical_university",
+        "ownership": "state_govt",
+        "engineering_domain_tier_present": false
+      }
+    },
+    {
+      "canonical_name": "Dr. Babasaheb Ambedkar Technological University",
+      "state": "Maharashtra",
+      "candidate_source_url": "https://dbatu.ac.in/",
+      "candidate_class": "core_state_technical_university",
+      "reason_for_inclusion": "Official university material identifies DBATU as Maharashtra's state technical university; it appears in the MoE technical-education university list.",
+      "eligibility_uncertainty": null,
+      "record_match_status": "not_found",
+      "matched_db_record": null
+    },
+    {
+      "canonical_name": "Biju Patnaik University of Technology",
+      "state": "Odisha",
+      "candidate_source_url": "https://www.bput.ac.in/",
+      "candidate_class": "core_state_technical_university",
+      "reason_for_inclusion": "Official state university roster lists BPUT under the technical-education department; Government of Odisha identifies it as a government technical university.",
+      "eligibility_uncertainty": null,
+      "record_match_status": "not_found",
+      "matched_db_record": null
+    },
+    {
+      "canonical_name": "Rajasthan Technical University",
+      "state": "Rajasthan",
+      "candidate_source_url": "https://rtu.ac.in/index/",
+      "candidate_class": "core_state_technical_university",
+      "reason_for_inclusion": "Official site says RTU was established by the Government of Rajasthan to enhance state technical education; explicitly named in the plan and MoE list.",
+      "eligibility_uncertainty": null,
+      "record_match_status": "not_found",
+      "matched_db_record": null
+    },
+    {
+      "canonical_name": "Dr. A.P.J. Abdul Kalam Technical University",
+      "state": "Uttar Pradesh",
+      "candidate_source_url": "https://aktu.ac.in/",
+      "candidate_class": "core_state_technical_university",
+      "reason_for_inclusion": "State university established for technical education; explicitly named in the plan and MoE technical-education university list.",
+      "eligibility_uncertainty": "Confirm canonical current official website and state-university listing during source verification.",
+      "record_match_status": "not_found",
+      "matched_db_record": null
+    },
+    {
+      "canonical_name": "Veer Madho Singh Bhandari Uttarakhand Technical University",
+      "state": "Uttarakhand",
+      "candidate_source_url": "https://www.uktech.ac.in/index.aspx",
+      "candidate_class": "core_state_technical_university",
+      "reason_for_inclusion": "Official university site and Uttarakhand government district page identify the state technical university; it appears in the MoE technical-education university list.",
+      "eligibility_uncertainty": "Verify whether app display should use the expanded current name or the shorter plan name, Uttarakhand Technical University.",
+      "record_match_status": "not_found",
+      "matched_db_record": null
+    },
+    {
+      "canonical_name": "Jharkhand University of Technology",
+      "state": "Jharkhand",
+      "candidate_source_url": "https://jutranchi.ac.in/",
+      "candidate_class": "core_state_technical_university",
+      "reason_for_inclusion": "Official university site publishes B.E./B.Tech. admissions and engineering academic activity; Jharkhand government university directory lists it.",
+      "eligibility_uncertainty": "Check current UGC / AISHE classification and statutory status in the official university source file before final acceptance.",
+      "record_match_status": "not_found",
+      "matched_db_record": null
+    },
+    {
+      "canonical_name": "Manipur Technical University",
+      "state": "Manipur",
+      "candidate_source_url": "https://mtu.ac.in/",
+      "candidate_class": "core_state_technical_university",
+      "reason_for_inclusion": "Official site says it was established under the Manipur Technical University Act, 2016 and offers B.Tech degrees.",
+      "eligibility_uncertainty": "Official page notes recognition / accreditation status requires careful current verification; confirm UGC listing and degree-awarding authority before import.",
+      "record_match_status": "not_found",
+      "matched_db_record": null
+    },
+    {
+      "canonical_name": "Gujarat Technological University",
+      "state": "Gujarat",
+      "candidate_source_url": "https://www.gtu.ac.in/about",
+      "candidate_class": "core_state_technical_university",
+      "reason_for_inclusion": "Official GTU source says it was established by the Government of Gujarat and runs engineering and technology programmes across state affiliated colleges.",
+      "eligibility_uncertainty": null,
+      "record_match_status": "not_found",
+      "matched_db_record": null
+    },
+    {
+      "canonical_name": "I.K. Gujral Punjab Technical University",
+      "state": "Punjab",
+      "candidate_source_url": "https://ptu.ac.in/",
+      "candidate_class": "core_state_technical_university",
+      "reason_for_inclusion": "Official Punjab department roster lists PTU as an organization under the state technical-education department; the university describes itself as a state technical university.",
+      "eligibility_uncertainty": "Use the current official name; older sources and records may say Punjab Technical University or IKGPTU.",
+      "record_match_status": "not_found",
+      "matched_db_record": null
+    },
+    {
+      "canonical_name": "Maharaja Ranjit Singh Punjab Technical University",
+      "state": "Punjab",
+      "candidate_source_url": "https://mrsptu.ac.in/",
+      "candidate_class": "core_state_technical_university",
+      "reason_for_inclusion": "Official Punjab department roster lists Maharaja Ranjit Singh State Technical University as an organization under the state technical-education department.",
+      "eligibility_uncertainty": "Verify current official name and university website; state roster uses the earlier 'State Technical University' form.",
+      "record_match_status": "not_found",
+      "matched_db_record": null
+    },
+    {
+      "canonical_name": "Maulana Abul Kalam Azad University of Technology, West Bengal",
+      "state": "West Bengal",
+      "candidate_source_url": "https://makaut.wb.gov.in/",
+      "candidate_class": "core_state_technical_university",
+      "reason_for_inclusion": "Official university page describes the Government of West Bengal's engineering/technology university, formerly West Bengal University of Technology.",
+      "eligibility_uncertainty": null,
+      "record_match_status": "not_found",
+      "matched_db_record": null
+    },
+    {
+      "canonical_name": "APJ Abdul Kalam Technological University",
+      "state": "Kerala",
+      "candidate_source_url": "https://ktu.edu.in/university/about",
+      "candidate_class": "core_state_technical_university",
+      "reason_for_inclusion": "Official university source identifies it as a State Government University created to lead engineering planning and regulate technical education.",
+      "eligibility_uncertainty": "Canonical display name differs across official pages and historical references (Kerala Technological University / APJ Abdul Kalam Technological University); confirm current UGC name.",
+      "record_match_status": "not_found",
+      "matched_db_record": null
+    },
+    {
+      "canonical_name": "Anna University",
+      "state": "Tamil Nadu",
+      "candidate_source_url": "https://annauniv.edu/",
+      "candidate_class": "core_state_technical_university",
+      "reason_for_inclusion": "Official university page says it is a unitary university offering higher education in engineering, technology and architecture; it is the state's main engineering university.",
+      "eligibility_uncertainty": "Confirm whether D2 covers this broad unitary engineering university as well as affiliating technical universities; the plan names it only by implication through university engineering campuses.",
+      "record_match_status": "not_found",
+      "matched_db_record": null
+    },
+    {
+      "canonical_name": "Delhi Technological University",
+      "state": "Delhi",
+      "candidate_source_url": "https://dtu.ac.in/",
+      "candidate_class": "core_state_technical_university",
+      "reason_for_inclusion": "Plan T4 explicitly names DTU; Delhi government lists it among technical universities and government engineering colleges.",
+      "eligibility_uncertainty": null,
+      "record_match_status": "matched_existing_record_missing_engineering_tier",
+      "matched_db_record": {
+        "id": 463,
+        "name": "Delhi Technological University",
+        "group_code": "G4",
+        "family_slug": "state_technical_university",
+        "ownership": "state_govt",
+        "engineering_domain_tier_present": false
+      }
+    },
+    {
+      "canonical_name": "Indira Gandhi Delhi Technical University for Women",
+      "state": "Delhi",
+      "candidate_source_url": "https://igdtuw.ac.in/",
+      "candidate_class": "core_state_technical_university",
+      "reason_for_inclusion": "Delhi government lists IGDTUW among technical universities; its official identity and degree programmes are technical/engineering.",
+      "eligibility_uncertainty": "Verify current official roster and ensure it is not represented by a legacy department/campus row.",
+      "record_match_status": "not_found",
+      "matched_db_record": null
+    },
+    {
+      "canonical_name": "Netaji Subhas University of Technology",
+      "state": "Delhi",
+      "candidate_source_url": "https://nsut.ac.in/",
+      "candidate_class": "core_state_technical_university",
+      "reason_for_inclusion": "Delhi government lists NSUT among technical universities; it is a public university focused on engineering and technology.",
+      "eligibility_uncertainty": null,
+      "record_match_status": "not_found",
+      "matched_db_record": null
+    },
+    {
+      "canonical_name": "Jadavpur University",
+      "state": "West Bengal",
+      "candidate_source_url": "https://www.jaduniv.edu.in/",
+      "candidate_class": "core_state_technical_university",
+      "reason_for_inclusion": "Explicitly named in plan T4 as a state technical university/university engineering campus; official university has engineering faculties.",
+      "eligibility_uncertainty": "It is a broad state university rather than an institution named a technical university; retain because the plan explicitly includes it.",
+      "record_match_status": "matched_existing_record_missing_engineering_tier",
+      "matched_db_record": {
+        "id": 276,
+        "name": "Jadavpur University",
+        "group_code": "G4",
+        "family_slug": null,
+        "ownership": "state_govt",
+        "engineering_domain_tier_present": false
+      }
+    },
+    {
+      "canonical_name": "Cochin University of Science and Technology",
+      "state": "Kerala",
+      "candidate_source_url": "https://cusat.ac.in/",
+      "candidate_class": "core_state_technical_university",
+      "reason_for_inclusion": "Explicitly named in plan T4; a Kerala state university with engineering/technology programmes.",
+      "eligibility_uncertainty": "Broad university rather than a technical-only institution; retain because the plan explicitly includes CUSAT.",
+      "record_match_status": "matched_existing_record_missing_engineering_tier",
+      "matched_db_record": {
+        "id": 251,
+        "name": "Cochin University of Science and Technology",
+        "group_code": "G4",
+        "family_slug": "state_university",
+        "ownership": "state_govt",
+        "engineering_domain_tier_present": false
+      }
+    },
+    {
+      "canonical_name": "Madan Mohan Malaviya University of Technology",
+      "state": "Uttar Pradesh",
+      "candidate_source_url": "https://www.mmmut.ac.in/",
+      "candidate_class": "core_state_technical_university",
+      "reason_for_inclusion": "Official university offers B.Tech. programmes and engineering schools; it is classified in the current DB as a state technical university.",
+      "eligibility_uncertainty": null,
+      "record_match_status": "matched_existing_record_missing_engineering_tier",
+      "matched_db_record": {
+        "id": 704,
+        "name": "Madan Mohan Malaviya University of Technology",
+        "group_code": "G4",
+        "family_slug": "state_technical_university",
+        "ownership": "state_govt",
+        "engineering_domain_tier_present": false
+      }
+    },
+    {
+      "canonical_name": "Harcourt Butler Technical University",
+      "state": "Uttar Pradesh",
+      "candidate_source_url": "https://hbtu.ac.in/about-us/",
+      "candidate_class": "core_state_technical_university",
+      "reason_for_inclusion": "Official site states HBTU was upgraded by UP Act No. 11 of 2016 and offers multiple B.Tech. programmes.",
+      "eligibility_uncertainty": null,
+      "record_match_status": "not_found",
+      "matched_db_record": null
+    },
+    {
+      "canonical_name": "Institute of Infrastructure, Technology, Research And Management",
+      "state": "Gujarat",
+      "candidate_source_url": "https://www.iitram.ac.in/about_us",
+      "candidate_class": "core_state_technical_university",
+      "reason_for_inclusion": "Official site identifies IITRAM as an autonomous university established by the Government of Gujarat and lists its B.Tech. programmes in engineering disciplines.",
+      "eligibility_uncertainty": null,
+      "record_match_status": "matched_existing_record_missing_engineering_tier",
+      "matched_db_record": {
+        "id": 456,
+        "name": "IITRAM Ahmedabad",
+        "match_basis": "Official acronym IITRAM; the existing row uses the short display name.",
+        "group_code": "G4",
+        "family_slug": "state_technical_university",
+        "ownership": "state_govt",
+        "engineering_domain_tier_present": false
+      }
+    },
+    {
+      "canonical_name": "COEP Technological University",
+      "state": "Maharashtra",
+      "candidate_source_url": "https://www.coeptech.ac.in/",
+      "candidate_class": "state_public_engineering_university_boundary",
+      "reason_for_inclusion": "Official site calls COEP a unitary public university of Maharashtra and lists a School of Engineering and Technology with B.Tech. programmes.",
+      "eligibility_uncertainty": "University formed from a government engineering college; confirm whether D2 covers unitary technical universities or whether it belongs in a separate state engineering-institute wave.",
+      "record_match_status": "not_found",
+      "matched_db_record": null
+    },
+    {
+      "canonical_name": "MBM University",
+      "state": "Rajasthan",
+      "candidate_source_url": "https://www.mbm.ac.in/",
+      "candidate_class": "state_public_engineering_university_boundary",
+      "reason_for_inclusion": "Official site identifies it as a Rajasthan state university established by the government in 2021, with a technical/engineering institutional origin.",
+      "eligibility_uncertainty": "Confirm its current statutory mandate and whether it is a D2 technical-university record rather than a state university campus/institute record.",
+      "record_match_status": "not_found",
+      "matched_db_record": null
+    },
+    {
+      "canonical_name": "Veer Surendra Sai University of Technology",
+      "state": "Odisha",
+      "candidate_source_url": "https://www.vssut.ac.in/",
+      "candidate_class": "state_public_engineering_university_boundary",
+      "reason_for_inclusion": "Odisha government identifies VSSUT as one of the state's government technical universities; official university site publishes B.Tech. programmes.",
+      "eligibility_uncertainty": "Confirm whether D2 includes unitary public technical universities in addition to the MoE's 12-entry affiliating-university roster.",
+      "record_match_status": "not_found",
+      "matched_db_record": null
+    },
+    {
+      "canonical_name": "Odisha University of Technology and Research",
+      "state": "Odisha",
+      "candidate_source_url": "https://www.outr.ac.in/odisha-university-of-technology-and",
+      "candidate_class": "state_public_engineering_university_boundary",
+      "reason_for_inclusion": "Official source says Odisha established OUTR under its 2021 Act by upgrading a state engineering college; its site calls it a premier state technical university.",
+      "eligibility_uncertainty": "Confirm D2 includes unitary public technical universities as well as affiliating technical universities.",
+      "record_match_status": "not_found",
+      "matched_db_record": null
+    },
+    {
+      "canonical_name": "Deenbandhu Chhotu Ram University of Science and Technology",
+      "state": "Haryana",
+      "candidate_source_url": "https://www.dcrustm.ac/",
+      "candidate_class": "state_public_engineering_university_boundary",
+      "reason_for_inclusion": "Haryana public university with a technical/engineering origin and current engineering programmes.",
+      "eligibility_uncertainty": "Broader science-and-technology university rather than a state technical university by name; include only if D2 scope extends to engineering-focused public universities.",
+      "record_match_status": "not_found",
+      "matched_db_record": null
+    },
+    {
+      "canonical_name": "J.C. Bose University of Science and Technology, YMCA",
+      "state": "Haryana",
+      "candidate_source_url": "https://www.jcboseust.ac.in/",
+      "candidate_class": "state_public_engineering_university_boundary",
+      "reason_for_inclusion": "Official university page identifies a Haryana state university with an engineering-institute origin and technical programmes.",
+      "eligibility_uncertainty": "Broader science-and-technology university rather than a state technical university by name; include only if D2 scope extends to engineering-focused public universities.",
+      "record_match_status": "not_found",
+      "matched_db_record": null
+    },
+    {
+      "canonical_name": "Guru Jambheshwar University of Science and Technology",
+      "state": "Haryana",
+      "candidate_source_url": "https://www.gjust.ac.in/",
+      "candidate_class": "state_public_engineering_university_boundary",
+      "reason_for_inclusion": "Official university site identifies it as a Haryana state university with engineering and technology programmes.",
+      "eligibility_uncertainty": "Broad multi-domain university; not a technical university by statutory title. Keep as a boundary check, not a presumed D2 inclusion.",
+      "record_match_status": "not_found",
+      "matched_db_record": null
+    },
+    {
+      "canonical_name": "Guru Gobind Singh Indraprastha University",
+      "state": "Delhi",
+      "candidate_source_url": "https://www.ipu.ac.in/aboutuni.php",
+      "candidate_class": "state_public_engineering_university_boundary",
+      "reason_for_inclusion": "Delhi public university with university schools and affiliated institutes offering multiple engineering degree programmes.",
+      "eligibility_uncertainty": "Multi-domain professional university, not a technical university; include only if D2 covers state universities with substantial university-run engineering education.",
+      "record_match_status": "not_found",
+      "matched_db_record": null
+    },
+    {
+      "canonical_name": "Shri Mata Vaishno Devi University",
+      "state": "Jammu and Kashmir",
+      "candidate_source_url": "https://www.smvdu.ac.in/",
+      "candidate_class": "state_public_engineering_university_boundary",
+      "reason_for_inclusion": "State public residential university with established engineering schools and degree programmes.",
+      "eligibility_uncertainty": "General state university, not a technical university; confirm D2 treatment and current ownership/statutory entry.",
+      "record_match_status": "not_found",
+      "matched_db_record": null
+    },
+    {
+      "canonical_name": "Islamic University of Science and Technology",
+      "state": "Jammu and Kashmir",
+      "candidate_source_url": "https://www.iust.ac.in/",
+      "candidate_class": "state_public_engineering_university_boundary",
+      "reason_for_inclusion": "State public university with science, technology and engineering schools/programmes.",
+      "eligibility_uncertainty": "Broad university, not a technical university; confirm D2 treatment and current statutory classification.",
+      "record_match_status": "not_found",
+      "matched_db_record": null
+    }
+  ]
+}

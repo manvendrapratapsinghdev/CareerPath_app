@@ -1,0 +1,21 @@
+{
+  "artifact_type": "source_acquisition_manifest",
+  "source_authority": "Bar Council of India (BCI)",
+  "source_title": "Recognised Universities/Colleges (official route; body not extractable in this check)",
+  "source_url": "https://www.barcouncilofindia.org/info/recognised-universities-colleges",
+  "application_portal_url": "https://www.barcouncilofindia.org/user/login",
+  "supporting_official_report_url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=2081473&lang=2&reg=48",
+  "fetched_on": "2026-10-02",
+  "supporting_report_date": "2024-12-06",
+  "scope": "Needed national name-level list of BCI-approved Centres of Legal Education / law colleges and recognised universities, with course and current approval status. PIB's 2024 parliamentary reply reports state-wise CLE approval counts over the prior ten years, not a current name-level roster.",
+  "acquisition_status": "blocked_name_level_roster_not_obtained",
+  "record_count": null,
+  "scope_caveats": [
+    "The BCI recognised-universities/colleges route resolved, but its body did not render/expose records through the browser check.",
+    "The PIB annexure is historical state-wise counts only (868 total over ten years); it cannot establish which individual CLE approvals are current.",
+    "Existing research/official_lists/bci/nlus.json covers Consortium/CLAT NLU candidates and UGC matching, not the national BCI approved CLE roster.",
+    "CLAT participation, university affiliation, or state admission eligibility alone must not be used as a proxy for BCI approval."
+  ],
+  "next_action": "Obtain a current name-level BCI CLE/university roster and its effective academic session/validity and operative approval/withdrawal decisions from a working public source or BCI/Legal Education Committee.",
+  "acquisition_caveat": "No college approvals were inferred and no partial state list was promoted to a national roster."
+}

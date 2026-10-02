@@ -1,0 +1,37 @@
+{
+  "artifact_type": "source_acquisition_manifest",
+  "source_authority": "National Institutional Ranking Framework (NIRF), Ministry of Education",
+  "year": 2023,
+  "index_url": "https://www.nirfindia.org/Rankings/2023/Ranking.html",
+  "source_urls_verified": [
+    "https://www.nirfindia.org/Rankings/2023/OverallRanking.html",
+    "https://www.nirfindia.org/Rankings/2023/EngineeringRanking.html",
+    "https://www.nirfindia.org/nirfpdfcdn/2023/pdf/Report/IR2023_Report.pdf"
+  ],
+  "fetched_on": "2026-10-02",
+  "source_as_of": "India Rankings 2023; original publication year 2023.",
+  "categories_listed_on_index": [
+    "Overall",
+    "Universities",
+    "Colleges",
+    "Research Institutions",
+    "Engineering",
+    "Management",
+    "Pharmacy",
+    "Medical",
+    "Dental",
+    "Law",
+    "Architecture and Planning",
+    "Agriculture and Allied Sectors",
+    "Innovation"
+  ],
+  "scope": "Official category ranking pages and associated rank bands; ranking records only, not a complete institution universe.",
+  "acquisition_status": "official_pages_verified_records_not_materialized",
+  "record_count": null,
+  "scope_caveats": [
+    "The NIRF index exposes categories and individual tabular pages; every category and any rank-band pages must be included for a complete snapshot.",
+    "Participating-institute lists and ranking tables have different scopes; participation is not a rank or a complete approved-college list.",
+    "One institution can have multiple category records; preserve NIRF institute ID, category, rank/band, score, city and state.",
+    "The browser verified the official pages, but complete output was not saved. Local shell request failed DNS resolution and browser output is truncated, so no partial rows are presented as complete."
+  ]
+}

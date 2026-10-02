@@ -1,0 +1,29 @@
+{
+  "artifact_type": "source_acquisition_manifest",
+  "source_authority": "National Council for Teacher Education (NCTE)",
+  "source_title": "Institutions List (Recognized), regional committee portal",
+  "index_url": "https://ncte.gov.in/website/RecognizedInstitutions.aspx/RecognizedInstitutions.aspx",
+  "example_region_page_url": "https://web.ncte.gov.in/page-regional-committee-institution-lists/18/-?page=1",
+  "fetched_on": "2026-10-02",
+  "source_as_of": "The portal footer reports last modified 2026-09-07; individual page data has no common snapshot date.",
+  "scope": "NCTE-recognized teacher-education institutions searchable by state/district, programme, institution name and file number; paginated regional-committee results include institution details and multiple course/order records.",
+  "fields_observed": [
+    "NCTE institute ID",
+    "institution name and address",
+    "management",
+    "affiliating body",
+    "recognition file number",
+    "course and intake",
+    "order date and session",
+    "order type"
+  ],
+  "acquisition_status": "manifest_only_source_verified_not_exported",
+  "record_count": null,
+  "scope_caveats": [
+    "A recognized-only view is not proof that an omitted institution is unrecognized.",
+    "Recognition histories include initial, revised, withdrawal, restoration, continuation and court-order records; resolve the latest operative decision per institute/course/session.",
+    "The example region URL is not a national endpoint. A complete acquisition must enumerate all regional committees, filters and pages.",
+    "Drop contact names, personal phone numbers and email addresses from the institution catalog."
+  ],
+  "acquisition_caveat": "The official paginated portal is readable, but a complete all-region/all-programme roster was not materialized. Direct shell acquisition was unavailable. No recognition conclusions or counts are asserted by this manifest."
+}

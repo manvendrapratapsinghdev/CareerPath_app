@@ -1,0 +1,31 @@
+{
+  "artifact_type": "source_acquisition_manifest",
+  "source_authority": "Council of Architecture (CoA), Ministry of Education",
+  "source_title": "List of Approved Institutions 2026-27 (UG)",
+  "source_url": "https://ecoa.in/academic/public/Approved-Institution-UG-2026",
+  "index_url": "https://coa.gov.in/architectural_institutions.php",
+  "related_source_urls": [
+    "https://ecoa.in/academic/public/Approved-Institution-PG-2026",
+    "https://coa.gov.in/architectural_institutions.php"
+  ],
+  "fetched_on": "2026-10-02",
+  "source_last_updated": "2026-09-29",
+  "scope": "Live CoA institution/course approval table for 2026-27 UG architecture; the index separately links PG, diploma, prior-session and closed-institution lists.",
+  "fields_observed": [
+    "institution code",
+    "institution name and address",
+    "affiliating university",
+    "course",
+    "course commencement year",
+    "current intake",
+    "approval period"
+  ],
+  "acquisition_status": "manifest_only_source_verified_not_exported",
+  "record_count": null,
+  "scope_caveats": [
+    "A listing is course- and academic-session-specific, not blanket approval for every course at an institute.",
+    "The source includes head-of-institution names and contact details; exclude these personal fields from an institutional catalog.",
+    "School/department entries require parent-institute and campus reconciliation before import."
+  ],
+  "acquisition_caveat": "The official live table was verified in the browser, but no complete downloadable data artifact was saved in this task. The current environment's shell could not resolve the public host for direct acquisition; do not treat this manifest as the roster."
+}

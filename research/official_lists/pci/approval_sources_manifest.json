@@ -1,0 +1,25 @@
+{
+  "artifact_type": "source_acquisition_manifest",
+  "source_authority": "Pharmacy Council of India (PCI), Ministry of Health and Family Welfare",
+  "source_title": "Approved Colleges / Approved Institutions lists by pharmacy course",
+  "index_url": "https://www.pci.gov.in/en/pharmacy-council-of-india/",
+  "source_urls": [
+    "https://www.pci.gov.in/en/approved-institute/approved-degree-institutions-us-12/",
+    "https://www.pci.gov.in/en/approved-institute/approved-diploma-institutions-u-s-12/",
+    "https://www.pci.gov.in/en/approved-institute/approved-institutions-for-pharm-d/",
+    "https://www.pci.gov.in/en/approved-institute/approved-institutions-for-pharmd-post-baccalaureate/",
+    "https://www.pci.gov.in/en/approved-institute/approved-institutions-for-m-pharm-courses/",
+    "https://www.pci.gov.in/en/faqs/"
+  ],
+  "fetched_on": "2026-10-02",
+  "source_as_of": null,
+  "scope": "PCI's separate institution approval lists for degree and diploma courses under section 12, Pharm.D, Pharm.D post-baccalaureate, M.Pharm, and other separately linked course/only-for-conduct lists.",
+  "acquisition_status": "manifest_only_source_verified_not_exported",
+  "record_count": null,
+  "scope_caveats": [
+    "PCI states its approved-institution list is updated regularly; there is no common dated snapshot for all course pages.",
+    "Approval to conduct a course and approval under section 12 are distinct; preserve the exact approval scope, course, intake and academic session.",
+    "Do not infer a negative approval from absence on one course-specific page."
+  ],
+  "acquisition_caveat": "The official index and page labels were verified, but this task did not obtain a complete consolidated export. The public pages did not expose a stable machine-readable national roster in the browser output; direct shell acquisition was unavailable. This file contains source references only, not pharmacy approvals."
+}

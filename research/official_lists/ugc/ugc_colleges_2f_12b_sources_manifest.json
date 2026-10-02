@@ -1,0 +1,18 @@
+{
+  "artifact_type": "source_acquisition_manifest",
+  "source_authority": "University Grants Commission (UGC), College Development Bureau",
+  "source_title": "Colleges under section 2(f) & 12(B) of the UGC Act 1956",
+  "source_url": "https://www.ugc.gov.in/colleges",
+  "bureau_reference_url": "https://www.ugc.gov.in/Bureaus",
+  "fetched_on": "2026-10-02",
+  "source_as_of": "No snapshot date was visible on the live colleges page; UGC Bureaus page footer was updated 2026-10-02.",
+  "scope": "UGC live college table for colleges included under section 2(f), with status values including 2(f) and 2(f) & 12B. Visible fields include college, affiliating university, address, district, state, status, establishment year, teaching level, government/non-government and aided/unaided.",
+  "acquisition_status": "blocked_full_page_exceeds_browser_limit",
+  "record_count": null,
+  "scope_caveats": [
+    "This source lists UGC-included colleges; it is not a complete all-college universe or a professional-regulator approval list.",
+    "The browser fetch failed because the page content is 16,369,613 bytes, beyond its content-length limit; shell direct fetch also failed DNS resolution in this environment.",
+    "No row count or complete snapshot was acquired. A web-search preview is not a complete dataset."
+  ],
+  "next_action": "Acquire the full official table through a working UGC download/export or approved browser/HTTP route, record a snapshot date, and validate page/record completeness before creating the row dataset."
+}

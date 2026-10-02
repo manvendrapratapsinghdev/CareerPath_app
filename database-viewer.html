@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CareerPath Database Explorer</title>
+  <style>
+    :root { --ink:#172033; --muted:#64748b; --line:#e5e7eb; --panel:#fff; --bg:#f6f8fb; --brand:#3157d5; --brand-soft:#eef2ff; --green:#087f5b; --shadow:0 10px 28px #17203312; }
+    * { box-sizing:border-box; }
+    body { margin:0; color:var(--ink); background:var(--bg); font:14px/1.45 Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    button, input, select { font:inherit; }
+    .shell { display:grid; grid-template-columns:280px minmax(0,1fr); min-height:100vh; }
+    aside { background:#111a30; color:#d9e2ff; padding:24px 14px; }
+    .brand { padding:0 12px 22px; border-bottom:1px solid #ffffff1a; }
+    .brand h1 { margin:0 0 5px; font-size:19px; color:#fff; letter-spacing:-.02em; }
+    .brand p { margin:0; color:#aebbe0; font-size:12px; }
+    .table-list { margin-top:18px; max-height:calc(100vh - 155px); overflow:auto; }
+    .table-list button { display:flex; align-items:center; justify-content:space-between; width:100%; border:0; border-radius:8px; background:transparent; color:#c9d4f5; padding:8px 12px; text-align:left; cursor:pointer; }
+    .table-list button:hover, .table-list button.active { background:#ffffff14; color:#fff; }
+    .table-list button.active { box-shadow:inset 3px 0 var(--brand); }
+    .count { color:#91a2d0; font-size:11px; }
+    main { min-width:0; padding:28px clamp(18px,4vw,52px) 46px; }
+    .topbar { display:flex; justify-content:space-between; gap:18px; align-items:flex-start; margin-bottom:24px; }
+    .eyebrow { color:var(--brand); font-size:12px; font-weight:700; letter-spacing:.09em; text-transform:uppercase; }
+    h2 { margin:4px 0 5px; font-size:28px; letter-spacing:-.04em; }
+    .subtle { color:var(--muted); margin:0; }
+    .status { display:flex; align-items:center; gap:8px; padding:9px 12px; background:var(--panel); border:1px solid var(--line); border-radius:999px; white-space:nowrap; color:var(--muted); font-size:12px; }
+    .dot { width:8px; height:8px; border-radius:50%; background:#f59f00; }
+    .dot.ok { background:#12b886; }
+    .dot.error { background:#e03131; }
+    .cards { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:12px; margin-bottom:20px; }
+    .card, .panel { background:var(--panel); border:1px solid var(--line); border-radius:14px; box-shadow:var(--shadow); }
+    .card { padding:16px 18px; }
+    .card .label { color:var(--muted); font-size:12px; }
+    .card strong { display:block; font-size:24px; margin-top:3px; letter-spacing:-.04em; }
+    .panel { overflow:hidden; }
+    .toolbar { display:flex; flex-wrap:wrap; align-items:center; gap:9px; padding:15px; border-bottom:1px solid var(--line); }
+    .toolbar input, .toolbar select { min-height:38px; border:1px solid #d7dce5; border-radius:8px; background:#fff; color:var(--ink); padding:0 11px; outline:none; }
+    .toolbar input:focus, .toolbar select:focus { border-color:var(--brand); box-shadow:0 0 0 3px #3157d51a; }
+    #search { flex:1 1 240px; }
+    .button { min-height:38px; padding:0 13px; border:1px solid #d7dce5; border-radius:8px; background:#fff; color:var(--ink); cursor:pointer; }
+    .button.primary { background:var(--brand); border-color:var(--brand); color:#fff; }
+    .tabs { display:flex; gap:20px; padding:0 15px; border-bottom:1px solid var(--line); }
+    .tab { border:0; border-bottom:2px solid transparent; background:transparent; padding:13px 0 10px; color:var(--muted); cursor:pointer; }
+    .tab.active { border-color:var(--brand); color:var(--brand); font-weight:700; }
+    .table-wrap { overflow:auto; max-height:58vh; }
+    table { width:100%; border-collapse:collapse; min-width:720px; }
+    th, td { padding:11px 14px; border-bottom:1px solid #edf0f4; text-align:left; vertical-align:top; white-space:nowrap; }
+    th { position:sticky; top:0; z-index:1; background:#fafbfc; color:#526071; font-size:11px; letter-spacing:.05em; text-transform:uppercase; }
+    td { max-width:330px; overflow:hidden; text-overflow:ellipsis; }
+    tr:hover td { background:#fafcff; }
+    .empty, .loading { padding:40px; color:var(--muted); text-align:center; }
+    .footer { display:flex; justify-content:space-between; align-items:center; gap:12px; padding:12px 15px; color:var(--muted); font-size:12px; }
+    .pager { display:flex; gap:7px; }
+    .schema { display:none; padding:18px; }
+    .schema.visible { display:block; }
+    .schema h3 { margin:0 0 12px; font-size:16px; }
+    .schema-table { min-width:0; }
+    .schema-table th, .schema-table td { white-space:normal; }
+    .tag { display:inline-block; border-radius:5px; background:var(--brand-soft); color:var(--brand); padding:2px 6px; font-size:11px; }
+    .hint { margin:0 0 16px; padding:10px 12px; border-left:3px solid #91a7ff; background:#f5f7ff; color:#44506b; }
+    @media (max-width:900px) { .shell { grid-template-columns:1fr; } aside { position:static; padding:16px; } .table-list { display:flex; gap:6px; max-height:none; overflow:auto; padding-bottom:3px; } .table-list button { min-width:max-content; } .cards { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+    @media (max-width:560px) { main { padding:20px 12px 32px; } .topbar { display:block; } .status { display:inline-flex; margin-top:14px; } .cards { gap:8px; } .card { padding:12px; } .card strong { font-size:20px; } }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <aside>
+      <div class="brand"><h1>CareerPath Explorer</h1><p>Read-only view of career_path.db</p></div>
+      <nav id="table-list" class="table-list" aria-label="Database tables"><div class="loading">Loading schema…</div></nav>
+    </aside>
+    <main>
+      <div class="topbar">
+        <div><div class="eyebrow">Database explorer</div><h2 id="table-title">Connecting…</h2><p id="table-description" class="subtle">Loading the bundled SQLite database.</p></div>
+        <div class="status"><span id="status-dot" class="dot"></span><span id="status-text">Connecting</span></div>
+      </div>
+      <section id="stats" class="cards" aria-label="Database summary"></section>
+      <section class="panel">
+        <div class="toolbar">
+          <input id="search" type="search" placeholder="Search visible rows…" aria-label="Search visible rows">
+          <select id="page-size" aria-label="Rows per page"><option>25</option><option selected>50</option><option>100</option></select>
+          <button id="clear" class="button" type="button">Clear</button>
+          <button id="refresh" class="button primary" type="button">Refresh</button>
+        </div>
+        <div class="tabs"><button class="tab active" data-tab="data" type="button">Data</button><button class="tab" data-tab="schema" type="button">Schema</button></div>
+        <div id="data-view"><div id="data-table" class="table-wrap"><div class="loading">Loading rows…</div></div><div class="footer"><span id="row-summary"></span><span class="pager"><button id="previous" class="button" type="button">Previous</button><button id="next" class="button" type="button">Next</button></span></div></div>
+        <div id="schema-view" class="schema"></div>
+      </section>
+    </main>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.13.0/sql-wasm.js"></script>
+  <script>
+    const DB_URL = 'assets/data/career_path.db';
+    const state = { db:null, table:'', tables:[], columns:[], page:0, pageSize:50, search:'' };
+    const $ = (id) => document.getElementById(id);
+    const quote = (name) => '"' + String(name).replaceAll('"', '""') + '"';
+    const number = (value) => Number(value || 0).toLocaleString('en-IN');
+    const escapeHtml = (value) => String(value ?? '').replace(/[&<>"']/g, (char) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[char]));
+    const sqlRows = (sql, params = []) => { const result = state.db.exec(sql, params); if (!result.length) return []; return result[0].values.map((row) => Object.fromEntries(result[0].columns.map((key, i) => [key, row[i]]))); };
+
+    async function start() {
+      try {
+        const SQL = await initSqlJs({ locateFile: (file) => `https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.13.0/${file}` });
+        const response = await fetch(DB_URL);
+        if (!response.ok) throw new Error(`Could not load ${DB_URL} (${response.status})`);
+        state.db = new SQL.Database(new Uint8Array(await response.arrayBuffer()));
+        state.tables = sqlRows("SELECT name FROM sqlite_master WHERE type='table' AND name NOT LIKE 'sqlite_%' ORDER BY name").map((row) => row.name);
+        setStatus('ok', 'Database ready');
+        renderStats();
+        renderTableList();
+        await selectTable(state.tables.includes('institutes') ? 'institutes' : state.tables[0]);
+      } catch (error) {
+        setStatus('error', 'Could not load database');
+        $('table-title').textContent = 'Database unavailable';
+        $('table-description').textContent = `${error.message}. Run a local server from the project root, then open /database-viewer.html.`;
+        $('table-list').innerHTML = '<div class="empty">Start with:<br><code>python3 -m http.server</code></div>';
+      }
+    }
+    function setStatus(type, text) { $('status-dot').className = `dot ${type === 'ok' ? 'ok' : type === 'error' ? 'error' : ''}`; $('status-text').textContent = text; }
+    function renderStats() {
+      const important = [['Tables', state.tables.length, 'schema objects'], ['Institutes', count('institutes'), 'catalog records'], ['Courses', count('institute_courses'), 'course records'], ['Career nodes', count('career_nodes'), 'career tree records']];
+      $('stats').innerHTML = important.map(([label, value, note]) => `<div class="card"><div class="label">${label}</div><strong>${number(value)}</strong><div class="label">${note}</div></div>`).join('');
+    }
+    function count(table) { return state.tables.includes(table) ? sqlRows(`SELECT COUNT(*) AS count FROM ${quote(table)}`)[0].count : 0; }
+    function renderTableList() { $('table-list').innerHTML = state.tables.map((table) => `<button type="button" data-table="${escapeHtml(table)}"><span>${escapeHtml(table)}</span><span class="count">${number(count(table))}</span></button>`).join(''); document.querySelectorAll('[data-table]').forEach((button) => button.addEventListener('click', () => selectTable(button.dataset.table))); }
+    async function selectTable(table) { if (!table) return; state.table = table; state.page = 0; state.search = ''; $('search').value = ''; document.querySelectorAll('[data-table]').forEach((button) => button.classList.toggle('active', button.dataset.table === table)); const info = sqlRows(`PRAGMA table_info(${quote(table)})`); state.columns = info; $('table-title').textContent = table; $('table-description').textContent = `${number(count(table))} rows · ${info.length} columns`; renderSchema(info); await renderData(); }
+    function renderSchema(columns = state.columns) { const foreignKeys = sqlRows(`PRAGMA foreign_key_list(${quote(state.table)})`); $('schema-view').innerHTML = `<p class="hint">This is the actual SQLite schema for <strong>${escapeHtml(state.table)}</strong>. Primary keys, nullability, defaults, and relationships are shown below.</p><h3>Columns</h3><table class="schema-table"><thead><tr><th>Name</th><th>Type</th><th>Required</th><th>Key</th><th>Default</th></tr></thead><tbody>${columns.map((column) => `<tr><td><strong>${escapeHtml(column.name)}</strong></td><td><span class="tag">${escapeHtml(column.type || 'ANY')}</span></td><td>${column.notnull ? 'Yes' : 'No'}</td><td>${column.pk ? 'Primary key' : '—'}</td><td>${escapeHtml(column.dflt_value ?? '—')}</td></tr>`).join('')}</tbody></table>${foreignKeys.length ? `<h3 style="margin-top:24px">Relationships</h3><table class="schema-table"><thead><tr><th>Column</th><th>References</th><th>On update</th><th>On delete</th></tr></thead><tbody>${foreignKeys.map((key) => `<tr><td>${escapeHtml(key.from)}</td><td>${escapeHtml(key.table)}.${escapeHtml(key.to)}</td><td>${escapeHtml(key.on_update)}</td><td>${escapeHtml(key.on_delete)}</td></tr>`).join('')}</tbody></table>` : ''}`; }
+    async function renderData() { const pageSize = state.pageSize; const where = state.search.trim() ? `WHERE ${state.columns.map((column) => `CAST(${quote(column.name)} AS TEXT) LIKE '%' || $search || '%'`).join(' OR ')}` : ''; const params = state.search.trim() ? { '$search': state.search.trim() } : {}; const total = sqlRows(`SELECT COUNT(*) AS count FROM ${quote(state.table)} ${where}`, params)[0].count; const offset = state.page * pageSize; const rows = sqlRows(`SELECT * FROM ${quote(state.table)} ${where} LIMIT ${pageSize} OFFSET ${offset}`, params); $('data-table').innerHTML = rows.length ? `<table><thead><tr>${state.columns.map((column) => `<th>${escapeHtml(column.name)}</th>`).join('')}</tr></thead><tbody>${rows.map((row) => `<tr>${state.columns.map((column) => `<td title="${escapeHtml(row[column.name])}">${escapeHtml(row[column.name] ?? 'NULL')}</td>`).join('')}</tr>`).join('')}</tbody></table>` : '<div class="empty">No rows match this search.</div>'; $('row-summary').textContent = total ? `Showing ${number(offset + 1)}–${number(Math.min(offset + rows.length, total))} of ${number(total)}` : '0 rows'; $('previous').disabled = state.page === 0; $('next').disabled = offset + rows.length >= total; }
+    document.querySelectorAll('.tab').forEach((tab) => tab.addEventListener('click', () => { document.querySelectorAll('.tab').forEach((item) => item.classList.toggle('active', item === tab)); $('data-view').style.display = tab.dataset.tab === 'data' ? '' : 'none'; $('schema-view').classList.toggle('visible', tab.dataset.tab === 'schema'); }));
+    $('search').addEventListener('input', () => { state.search = $('search').value; state.page = 0; renderData(); });
+    $('page-size').addEventListener('change', () => { state.pageSize = Number($('page-size').value); state.page = 0; renderData(); });
+    $('clear').addEventListener('click', () => { $('search').value = ''; state.search = ''; state.page = 0; renderData(); });
+    $('refresh').addEventListener('click', () => renderData());
+    $('previous').addEventListener('click', () => { if (state.page) { state.page -= 1; renderData(); } });
+    $('next').addEventListener('click', () => { state.page += 1; renderData(); });
+    start();
+  </script>
+</body>
+</html>

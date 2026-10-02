@@ -1,0 +1,22 @@
+{
+  "artifact_type": "source_acquisition_manifest",
+  "source_authority": "National Assessment and Accreditation Council (NAAC), an autonomous body established by UGC",
+  "source_title": "NAAC Basic Accreditation Portal / public accreditation status lookup",
+  "source_urls": [
+    "https://www.naac.gov.in/",
+    "https://assessmentonline-basic.naac.gov.in/"
+  ],
+  "discovery_reference_url": "https://www.india.gov.in/category/education-learning/subcategory/higher-education/details/website-of-national-assessment-and-accreditation-council",
+  "fetched_on": "2026-10-02",
+  "source_as_of": null,
+  "scope": "Institution-level higher-education accreditation status/grade and cycle information. The India.gov discovery entry says accredited and re-accredited institution lists under the new methodology are available; NAAC remains the data authority.",
+  "acquisition_status": "blocked_public_roster_or_export_not_verified",
+  "record_count": null,
+  "scope_caveats": [
+    "The official portal is dynamic and no stable public bulk endpoint or complete export was verified in this check.",
+    "An accredited-only roster is not a complete HEI universe; absence must be unknown, not a negative accreditation result.",
+    "Preserve cycle/methodology, grade/score, accreditation date and validity; do not show expired status as current.",
+    "NAAC institutional accreditation is distinct from programme accreditation and from NIRF ranking."
+  ],
+  "acquisition_caveat": "The NAAC home/portal did not expose a complete downloadable status roster through the available browser. The India.gov URL is only a discovery reference and is not used as NAAC data. No grades were acquired or assigned."
+}
