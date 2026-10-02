@@ -1,0 +1,775 @@
+{
+ "batch": "C1",
+ "title": "Wave C (G3): the 57 central universities",
+ "verified_at": "2026-10-01",
+ "nirf_snapshot": "research/official_lists/nirf/nirf_2025.json",
+ "verification": {
+  "authority": "UGC",
+  "list_name": "UGC list of Central Universities",
+  "list_url": "https://www.ugc.gov.in/universitydetails/university?type=ddmCMsxJZgXH2S/m0uMOKQ==",
+  "list_as_of": "2026-10-01"
+ },
+ "defaults": {
+  "family": "central_university",
+  "group": "G3",
+  "ownership": "central_govt",
+  "statutory_basis": "Act of Parliament (central university)",
+  "regulators": "UGC",
+  "legacy_type": "central_university"
+ },
+ "families": {
+  "central_university": {
+   "national_count": 50,
+   "as_of": "2026-10-01",
+   "official_list_url": "https://www.ugc.gov.in/universitydetails/university?type=ddmCMsxJZgXH2S/m0uMOKQ=="
+  },
+  "central_sanskrit_university": {
+   "national_count": 3,
+   "as_of": "2026-10-01",
+   "official_list_url": "https://www.ugc.gov.in/universitydetails/university?type=ddmCMsxJZgXH2S/m0uMOKQ=="
+  },
+  "central_agricultural_university": {
+   "national_count": 3,
+   "as_of": "2026-10-01",
+   "official_list_url": "https://www.ugc.gov.in/universitydetails/university?type=ddmCMsxJZgXH2S/m0uMOKQ=="
+  },
+  "ignou": {
+   "national_count": 1,
+   "as_of": "2026-10-01",
+   "official_list_url": "https://www.ugc.gov.in/universitydetails/university?type=ddmCMsxJZgXH2S/m0uMOKQ=="
+  }
+ },
+ "institutes": [
+  {
+   "key": "aligarh-muslim-university",
+   "name": "Aligarh Muslim University",
+   "website": "http://www.amu.ac.in",
+   "reference_id": "UGC central universities, Sr. No. 1",
+   "city": "Aligarh",
+   "state": "Uttar Pradesh",
+   "nirf_names": [
+    "Aligarh Muslim University"
+   ],
+   "nodes": [
+    "ba_llb",
+    "barch",
+    "barch_sci",
+    "bds",
+    "btech",
+    "mba_general",
+    "mbbs"
+   ]
+  },
+  {
+   "key": "assam-university",
+   "name": "Assam University",
+   "website": "http://www.aus.ac.in",
+   "reference_id": "UGC central universities, Sr. No. 2",
+   "city": "Silchar",
+   "state": "Assam",
+   "nirf_names": [
+    "Assam University-Silchar"
+   ],
+   "nodes": [
+    "bpharm"
+   ]
+  },
+  {
+   "key": "babasaheb-bhimrao-ambedkar-university",
+   "name": "Babasaheb Bhimrao Ambedkar University",
+   "website": "http://www.bbau.ac.in",
+   "reference_id": "UGC central universities, Sr. No. 3",
+   "city": "Lucknow",
+   "state": "Uttar Pradesh",
+   "nirf_names": [
+    "Babasheb Bhimrao Ambedkar University"
+   ],
+   "nodes": [
+    "ba_llb",
+    "bpharm",
+    "bsc_agriculture",
+    "mba_general"
+   ]
+  },
+  {
+   "key": "banaras-hindu-university",
+   "name": "Banaras Hindu University",
+   "website": "http://www.bhu.ac.in",
+   "reference_id": "UGC central universities, Sr. No. 4",
+   "city": "Varanasi",
+   "state": "Uttar Pradesh",
+   "nirf_names": [
+    "Banaras Hindu University"
+   ],
+   "nodes": [
+    "bds",
+    "bsc_agriculture",
+    "mba_general",
+    "mbbs"
+   ],
+   "departments": [
+    "BHU (Geology)",
+    "Banaras Hindu University (Ayurveda)",
+    "Banaras Hindu University (Veterinary Science)",
+    "Banaras Hindu University - Faculty of Education"
+   ]
+  },
+  {
+   "key": "central-agricultural-university",
+   "name": "Central Agricultural University",
+   "website": "https://cau.ac.in",
+   "reference_id": "UGC central universities, Sr. No. 5",
+   "city": "Imphal",
+   "state": "Manipur",
+   "family": "central_agricultural_university",
+   "nirf_names": [
+    "Central Agricultural University"
+   ],
+   "nodes": [
+    "bsc_agriculture"
+   ]
+  },
+  {
+   "key": "central-sanskrit-university",
+   "name": "Central Sanskrit University",
+   "website": "http://www.sanskrit.nic.in",
+   "reference_id": "UGC central universities, Sr. No. 6",
+   "city": "New Delhi",
+   "state": "Delhi",
+   "family": "central_sanskrit_university",
+   "nirf": false,
+   "nodes": []
+  },
+  {
+   "key": "central-tribal-university-of-andhra-pradesh",
+   "name": "Central Tribal University of Andhra Pradesh",
+   "website": "https://www.ctuap.ac.in",
+   "reference_id": "UGC central universities, Sr. No. 7",
+   "city": "Vizianagaram",
+   "state": "Andhra Pradesh",
+   "nirf": false,
+   "nodes": []
+  },
+  {
+   "key": "central-university-of-andhra-pradesh",
+   "name": "Central University of Andhra Pradesh",
+   "website": "https://cuap.ac.in",
+   "reference_id": "UGC central universities, Sr. No. 8",
+   "city": "Anantapur",
+   "state": "Andhra Pradesh",
+   "nirf": false,
+   "nodes": []
+  },
+  {
+   "key": "central-university-of-gujarat",
+   "name": "Central University of Gujarat",
+   "website": "https://www.cug.ac.in",
+   "reference_id": "UGC central universities, Sr. No. 9",
+   "city": "Gandhinagar",
+   "state": "Gujarat",
+   "nirf": false,
+   "nodes": []
+  },
+  {
+   "key": "central-university-of-haryana",
+   "name": "Central University of Haryana",
+   "website": "http://www.cuh.ac.in",
+   "reference_id": "UGC central universities, Sr. No. 10",
+   "city": "Mahendergarh",
+   "state": "Haryana",
+   "nirf": false,
+   "nodes": []
+  },
+  {
+   "key": "central-university-of-himachal-pradesh",
+   "name": "Central University of Himachal Pradesh",
+   "website": "http://www.cuhimachal.ac.in",
+   "reference_id": "UGC central universities, Sr. No. 11",
+   "city": "Dharamshala",
+   "state": "Himachal Pradesh",
+   "nirf": false,
+   "nodes": []
+  },
+  {
+   "key": "central-university-of-jammu",
+   "name": "Central University of Jammu",
+   "website": "http://www.cujammu.ac.in",
+   "reference_id": "UGC central universities, Sr. No. 12",
+   "city": "Samba",
+   "state": "Jammu and Kashmir",
+   "nirf": false,
+   "nodes": [],
+   "notes": "Campus at Rahya-Suchani (Bagla), Samba district."
+  },
+  {
+   "key": "central-university-of-jharkhand",
+   "name": "Central University of Jharkhand",
+   "website": "http://www.cuj.ac.in",
+   "reference_id": "UGC central universities, Sr. No. 13",
+   "city": "Ranchi",
+   "state": "Jharkhand",
+   "nirf": false,
+   "nodes": []
+  },
+  {
+   "key": "central-university-of-karnataka",
+   "name": "Central University of Karnataka",
+   "website": "http://www.cuk.ac.in",
+   "reference_id": "UGC central universities, Sr. No. 14",
+   "city": "Kalaburagi",
+   "state": "Karnataka",
+   "nirf_names": [
+    "Central University of Karnataka"
+   ],
+   "nodes": []
+  },
+  {
+   "key": "central-university-of-kashmir",
+   "name": "Central University of Kashmir",
+   "website": "http://www.cukashmir.ac.in",
+   "reference_id": "UGC central universities, Sr. No. 15",
+   "city": "Ganderbal",
+   "state": "Jammu and Kashmir",
+   "nirf": false,
+   "nodes": []
+  },
+  {
+   "key": "central-university-of-kerala",
+   "name": "Central University of Kerala",
+   "website": "https://www.cukerala.ac.in",
+   "reference_id": "UGC central universities, Sr. No. 16",
+   "city": "Kasaragod",
+   "state": "Kerala",
+   "nirf_names": [
+    "Central University of Kerala"
+   ],
+   "nodes": []
+  },
+  {
+   "key": "central-university-of-odisha",
+   "name": "Central University of Odisha",
+   "website": "http://cuo.ac.in",
+   "reference_id": "UGC central universities, Sr. No. 17",
+   "city": "Koraput",
+   "state": "Odisha",
+   "nirf": false,
+   "nodes": []
+  },
+  {
+   "key": "central-university-of-punjab",
+   "name": "Central University of Punjab",
+   "website": "http://www.cup.ac.in",
+   "reference_id": "UGC central universities, Sr. No. 18",
+   "city": "Bathinda",
+   "state": "Punjab",
+   "nirf_names": [
+    "Central University of Punjab"
+   ],
+   "nodes": [
+    "ba_llb",
+    "bpharm"
+   ]
+  },
+  {
+   "key": "central-university-of-rajasthan",
+   "name": "Central University of Rajasthan",
+   "website": "http://www.curaj.ac.in",
+   "reference_id": "UGC central universities, Sr. No. 19",
+   "city": "Kishangarh",
+   "state": "Rajasthan",
+   "nirf_names": [
+    "Central University of Rajasthan"
+   ],
+   "nodes": [
+    "bpharm"
+   ]
+  },
+  {
+   "key": "central-university-of-south-bihar",
+   "name": "Central University of South Bihar",
+   "website": "https://www.cusb.ac.in",
+   "reference_id": "UGC central universities, Sr. No. 20",
+   "city": "Gaya",
+   "state": "Bihar",
+   "nirf_names": [
+    "Central University of South Bihar"
+   ],
+   "nodes": [
+    "ba_llb",
+    "bpharm"
+   ]
+  },
+  {
+   "key": "central-university-of-tamil-nadu",
+   "name": "Central University of Tamil Nadu",
+   "website": "https://cutn.ac.in",
+   "reference_id": "UGC central universities, Sr. No. 21",
+   "city": "Tiruvarur",
+   "state": "Tamil Nadu",
+   "nirf_names": [
+    "Central University of Tamil Nadu"
+   ],
+   "nodes": []
+  },
+  {
+   "key": "dr-harisingh-gour-vishwavidyalaya",
+   "name": "Dr. Harisingh Gour Vishwavidyalaya",
+   "website": "https://dhsgsu.edu.in",
+   "reference_id": "UGC central universities, Sr. No. 22",
+   "city": "Sagar",
+   "state": "Madhya Pradesh",
+   "nirf": false,
+   "nodes": []
+  },
+  {
+   "key": "dr-rajendra-prasad-central-agricultural-university",
+   "name": "Dr. Rajendra Prasad Central Agricultural University",
+   "website": "https://www.rpcau.ac.in",
+   "reference_id": "UGC central universities, Sr. No. 23",
+   "city": "Pusa",
+   "state": "Bihar",
+   "family": "central_agricultural_university",
+   "nirf_names": [
+    "Dr Rajendra Prasad Central Agricultural University, Samastipur"
+   ],
+   "nodes": [
+    "bsc_agriculture"
+   ],
+   "notes": "Pusa, Samastipur district."
+  },
+  {
+   "key": "english-and-foreign-languages-university",
+   "name": "English and Foreign Languages University",
+   "website": "https://www.efluniversity.ac.in",
+   "reference_id": "UGC central universities, Sr. No. 24",
+   "city": "Hyderabad",
+   "state": "Telangana",
+   "nirf": false,
+   "nodes": [],
+   "existing": [
+    "English and Foreign Languages University (EFLU)"
+   ]
+  },
+  {
+   "key": "gati-shakti-vishwavidyalaya",
+   "name": "Gati Shakti Vishwavidyalaya",
+   "website": "https://gsv.ac.in",
+   "reference_id": "UGC central universities, Sr. No. 25",
+   "city": "Vadodara",
+   "state": "Gujarat",
+   "nirf": false,
+   "nodes": []
+  },
+  {
+   "key": "guru-ghasidas-vishwavidyalaya",
+   "name": "Guru Ghasidas Vishwavidyalaya",
+   "website": "http://www.ggu.ac.in",
+   "reference_id": "UGC central universities, Sr. No. 26",
+   "city": "Bilaspur",
+   "state": "Chhattisgarh",
+   "nirf_names": [
+    "Guru Ghasidas Vishwavidyalaya"
+   ],
+   "nodes": [
+    "bpharm",
+    "btech"
+   ]
+  },
+  {
+   "key": "hemvati-nandan-bahuguna-garhwal-university",
+   "name": "Hemvati Nandan Bahuguna Garhwal University",
+   "website": "http://www.hnbgu.ac.in",
+   "reference_id": "UGC central universities, Sr. No. 27",
+   "city": "Srinagar (Garhwal)",
+   "state": "Uttarakhand",
+   "nirf": false,
+   "nodes": []
+  },
+  {
+   "key": "indian-maritime-university",
+   "name": "Indian Maritime University",
+   "website": "https://www.imu.edu.in",
+   "reference_id": "UGC central universities, Sr. No. 28",
+   "city": "Chennai",
+   "state": "Tamil Nadu",
+   "nirf": false,
+   "nodes": []
+  },
+  {
+   "key": "indira-gandhi-national-open-university",
+   "name": "Indira Gandhi National Open University",
+   "website": "http://www.ignou.ac.in",
+   "reference_id": "UGC central universities, Sr. No. 29",
+   "city": "New Delhi",
+   "state": "Delhi",
+   "family": "ignou",
+   "nirf_names": [
+    "Indira Gandhi National Open University (IGNOU)"
+   ],
+   "nodes": [],
+   "departments": [
+    "IGNOU (Actuarial Science)"
+   ],
+   "group": "G9"
+  },
+  {
+   "key": "jamia-millia-islamia",
+   "name": "Jamia Millia Islamia",
+   "website": "http://www.jmi.nic.in",
+   "reference_id": "UGC central universities, Sr. No. 30",
+   "city": "New Delhi",
+   "state": "Delhi",
+   "nirf_names": [
+    "Jamia Millia Islamia"
+   ],
+   "nodes": [
+    "ba_llb",
+    "barch",
+    "barch_sci",
+    "bds",
+    "btech",
+    "mba_general"
+   ],
+   "departments": [
+    "Jamia Millia Islamia - Department of Educational Studies",
+    "Jamia Millia Islamia - Department of Psychology",
+    "AJK Mass Communication Research Centre JMI"
+   ]
+  },
+  {
+   "key": "jawaharlal-nehru-university",
+   "name": "Jawaharlal Nehru University",
+   "website": "http://www.jnu.ac.in",
+   "reference_id": "UGC central universities, Sr. No. 31",
+   "city": "New Delhi",
+   "state": "Delhi",
+   "nirf_names": [
+    "Jawaharlal Nehru University"
+   ],
+   "nodes": [],
+   "departments": [
+    "JNU (Biotechnology)",
+    "JNU School of International Studies",
+    "JNU School of Social Sciences"
+   ]
+  },
+  {
+   "key": "mahatma-gandhi-antarrashtriya-hindi-vishwavidyalaya",
+   "name": "Mahatma Gandhi Antarrashtriya Hindi Vishwavidyalaya",
+   "website": "https://hindivishwa.org",
+   "reference_id": "UGC central universities, Sr. No. 32",
+   "city": "Wardha",
+   "state": "Maharashtra",
+   "nirf": false,
+   "nodes": []
+  },
+  {
+   "key": "mahatma-gandhi-central-university",
+   "name": "Mahatma Gandhi Central University",
+   "website": "http://www.mgcub.ac.in",
+   "reference_id": "UGC central universities, Sr. No. 33",
+   "city": "Motihari",
+   "state": "Bihar",
+   "nirf": false,
+   "nodes": []
+  },
+  {
+   "key": "manipur-university",
+   "name": "Manipur University",
+   "website": "https://www.manipuruniv.ac.in",
+   "reference_id": "UGC central universities, Sr. No. 34",
+   "city": "Imphal",
+   "state": "Manipur",
+   "nirf_names": [
+    "Manipur University"
+   ],
+   "nodes": []
+  },
+  {
+   "key": "maulana-azad-national-urdu-university",
+   "name": "Maulana Azad National Urdu University",
+   "website": "https://manuu.edu.in",
+   "reference_id": "UGC central universities, Sr. No. 35",
+   "city": "Hyderabad",
+   "state": "Telangana",
+   "nirf_names": [
+    "Maulana Azad National Urdu University"
+   ],
+   "nodes": [
+    "btech"
+   ]
+  },
+  {
+   "key": "mizoram-university",
+   "name": "Mizoram University",
+   "website": "https://mzu.edu.in",
+   "reference_id": "UGC central universities, Sr. No. 36",
+   "city": "Aizawl",
+   "state": "Mizoram",
+   "nirf_names": [
+    "Mizoram University"
+   ],
+   "nodes": []
+  },
+  {
+   "key": "nagaland-university",
+   "name": "Nagaland University",
+   "website": "https://nagalanduniversity.ac.in",
+   "reference_id": "UGC central universities, Sr. No. 37",
+   "city": "Lumami",
+   "state": "Nagaland",
+   "nirf_names": [
+    "Nagaland University"
+   ],
+   "nodes": [],
+   "notes": "Headquarters at Lumami, Zunheboto district; campuses at Kohima (Meriema) and Medziphema."
+  },
+  {
+   "key": "nalanda-university",
+   "name": "Nalanda University",
+   "website": "https://nalandauniv.edu.in",
+   "reference_id": "UGC central universities, Sr. No. 38",
+   "city": "Rajgir",
+   "state": "Bihar",
+   "nirf": false,
+   "nodes": []
+  },
+  {
+   "key": "national-sanskrit-university",
+   "name": "National Sanskrit University",
+   "website": "http://nsktu.ac.in",
+   "reference_id": "UGC central universities, Sr. No. 39",
+   "city": "Tirupati",
+   "state": "Andhra Pradesh",
+   "family": "central_sanskrit_university",
+   "nirf": false,
+   "nodes": [],
+   "notes": "Formerly Rashtriya Sanskrit Vidyapeeth."
+  },
+  {
+   "key": "national-sports-university",
+   "name": "National Sports University",
+   "website": "https://www.nsu.ac.in",
+   "reference_id": "UGC central universities, Sr. No. 40",
+   "city": "Imphal",
+   "state": "Manipur",
+   "nirf": false,
+   "nodes": []
+  },
+  {
+   "key": "north-eastern-hill-university",
+   "name": "North Eastern Hill University",
+   "website": "https://www.nehu.ac.in",
+   "reference_id": "UGC central universities, Sr. No. 41",
+   "city": "Shillong",
+   "state": "Meghalaya",
+   "nirf_names": [
+    "North Eastern Hill University"
+   ],
+   "nodes": []
+  },
+  {
+   "key": "pondicherry-university",
+   "name": "Pondicherry University",
+   "website": "http://www.pondiuni.edu.in",
+   "reference_id": "UGC central universities, Sr. No. 42",
+   "city": "Puducherry",
+   "state": "Puducherry",
+   "nirf_names": [
+    "Pondicherry University"
+   ],
+   "nodes": []
+  },
+  {
+   "key": "rajiv-gandhi-national-aviation-university",
+   "name": "Rajiv Gandhi National Aviation University",
+   "website": "https://www.rgnau.ac.in",
+   "reference_id": "UGC central universities, Sr. No. 43",
+   "city": "Fursatganj",
+   "state": "Uttar Pradesh",
+   "nirf": false,
+   "nodes": []
+  },
+  {
+   "key": "rajiv-gandhi-university",
+   "name": "Rajiv Gandhi University",
+   "website": "https://www.rgu.ac.in",
+   "reference_id": "UGC central universities, Sr. No. 44",
+   "city": "Itanagar",
+   "state": "Arunachal Pradesh",
+   "nirf_names": [
+    "Rajiv Gandhi University"
+   ],
+   "nodes": []
+  },
+  {
+   "key": "rani-lakshmi-bai-central-agricultural-university",
+   "name": "Rani Lakshmi Bai Central Agricultural University",
+   "website": "https://rlbcau.ac.in",
+   "reference_id": "UGC central universities, Sr. No. 45",
+   "city": "Jhansi",
+   "state": "Uttar Pradesh",
+   "family": "central_agricultural_university",
+   "nirf": false,
+   "nodes": []
+  },
+  {
+   "key": "sammakka-sarakka-central-tribal-university",
+   "name": "Sammakka Sarakka Central Tribal University",
+   "website": "https://ssctu.ac.in",
+   "reference_id": "UGC central universities, Sr. No. 46",
+   "city": "Mulugu",
+   "state": "Telangana",
+   "nirf": false,
+   "nodes": [],
+   "notes": "Jakaram village, Mulugu district."
+  },
+  {
+   "key": "shri-lal-bahadur-shastri-national-sanskrit-university",
+   "name": "Shri Lal Bahadur Shastri National Sanskrit University",
+   "website": "http://www.slbsrsv.ac.in",
+   "reference_id": "UGC central universities, Sr. No. 47",
+   "city": "New Delhi",
+   "state": "Delhi",
+   "family": "central_sanskrit_university",
+   "nirf": false,
+   "nodes": []
+  },
+  {
+   "key": "sikkim-university",
+   "name": "Sikkim University",
+   "website": "https://cus.ac.in",
+   "reference_id": "UGC central universities, Sr. No. 48",
+   "city": "Gangtok",
+   "state": "Sikkim",
+   "nirf": false,
+   "nodes": []
+  },
+  {
+   "key": "sindhu-central-university",
+   "name": "Sindhu Central University",
+   "website": "https://sindhucu.ac.in",
+   "reference_id": "UGC central universities, Sr. No. 49",
+   "city": "Leh",
+   "state": "Ladakh",
+   "nirf": false,
+   "nodes": []
+  },
+  {
+   "key": "south-asian-university",
+   "name": "South Asian University",
+   "website": "https://sau.int",
+   "reference_id": "UGC central universities, Sr. No. 50",
+   "city": "New Delhi",
+   "state": "Delhi",
+   "nirf": false,
+   "nodes": [],
+   "notes": "International university of the SAARC countries, set up by the South Asian University Act, 2008."
+  },
+  {
+   "key": "tezpur-university",
+   "name": "Tezpur University",
+   "website": "http://www.tezu.ernet.in",
+   "reference_id": "UGC central universities, Sr. No. 51",
+   "city": "Tezpur",
+   "state": "Assam",
+   "nirf_names": [
+    "Tezpur University"
+   ],
+   "nodes": [
+    "btech",
+    "mba_general"
+   ]
+  },
+  {
+   "key": "indira-gandhi-national-tribal-university",
+   "name": "Indira Gandhi National Tribal University",
+   "website": "https://www.igntu.ac.in",
+   "reference_id": "UGC central universities, Sr. No. 52",
+   "city": "Amarkantak",
+   "state": "Madhya Pradesh",
+   "nirf": false,
+   "nodes": []
+  },
+  {
+   "key": "tripura-university",
+   "name": "Tripura University",
+   "website": "https://tripurauniv.ac.in",
+   "reference_id": "UGC central universities, Sr. No. 53",
+   "city": "Agartala",
+   "state": "Tripura",
+   "nirf": false,
+   "nodes": []
+  },
+  {
+   "key": "university-of-allahabad",
+   "name": "University of Allahabad",
+   "website": "https://allduniv.ac.in",
+   "reference_id": "UGC central universities, Sr. No. 54",
+   "city": "Prayagraj",
+   "state": "Uttar Pradesh",
+   "nirf_names": [
+    "University of Allahabad"
+   ],
+   "nodes": [
+    "btech",
+    "mba_general"
+   ]
+  },
+  {
+   "key": "university-of-delhi",
+   "name": "University of Delhi",
+   "website": "http://www.du.ac.in",
+   "reference_id": "UGC central universities, Sr. No. 55",
+   "city": "Delhi",
+   "state": "Delhi",
+   "nirf_names": [
+    "University of Delhi"
+   ],
+   "nodes": [],
+   "existing": [
+    "Delhi University"
+   ],
+   "departments": [
+    {
+     "name": "Faculty of Law, University of Delhi",
+     "existing": [
+      "Faculty of Law Delhi University"
+     ]
+    },
+    "Faculty of Management Studies (FMS), University of Delhi",
+    "Faculty of Music and Fine Arts Delhi University"
+   ]
+  },
+  {
+   "key": "university-of-hyderabad",
+   "name": "University of Hyderabad",
+   "website": "http://www.uohyd.ac.in",
+   "reference_id": "UGC central universities, Sr. No. 56",
+   "city": "Hyderabad",
+   "state": "Telangana",
+   "nirf_names": [
+    "University of Hyderabad"
+   ],
+   "nodes": [
+    "btech",
+    "mba_general"
+   ]
+  },
+  {
+   "key": "visva-bharati",
+   "name": "Visva-Bharati",
+   "website": "https://visvabharati.ac.in",
+   "reference_id": "UGC central universities, Sr. No. 57",
+   "city": "Santiniketan",
+   "state": "West Bengal",
+   "nirf_names": [
+    "Visva Bharati"
+   ],
+   "nodes": [],
+   "departments": [
+    "Kala Bhavana Santiniketan"
+   ]
+  }
+ ]
+}
