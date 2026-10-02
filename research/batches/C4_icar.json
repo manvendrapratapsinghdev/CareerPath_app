@@ -1,0 +1,151 @@
+{
+ "batch": "C4",
+ "title": "Wave C: the ICAR system — the 4 ICAR deemed universities (G5) and NAARM (G3)",
+ "verified_at": "2026-10-02",
+ "nirf_snapshot": "research/official_lists/nirf/nirf_2025.json",
+ "verification": {
+  "authority": "Indian Council of Agricultural Research (ICAR)",
+  "list_name": "ICAR deemed universities",
+  "list_url": "https://icar.org.in/deemed-universities",
+  "list_as_of": "2026-10-02"
+ },
+ "defaults": {
+  "group": "G3",
+  "ownership": "central_govt",
+  "legacy_type": "central_institute"
+ },
+ "families": {
+  "icar_deemed": {
+   "national_count": 4,
+   "as_of": "2026-10-02",
+   "official_list_url": "https://icar.org.in/deemed-universities"
+  }
+ },
+ "institutes": [
+  {
+   "key": "iari",
+   "name": "Indian Agricultural Research Institute",
+   "website": "https://www.iari.res.in",
+   "reference_id": "ICAR deemed universities: IARI, New Delhi",
+   "existing": [
+    "Indian Agricultural Research Institute (IARI)"
+   ],
+   "nodes": [
+    "agri_scientist"
+   ],
+   "notes": "Also known as Pusa Institute. Its outreach campuses (IARI Jharkhand, IARI Assam) are not loaded separately.",
+   "family": "icar_deemed",
+   "group": "G5",
+   "statutory_basis": "ICAR institute, Institution Deemed to be University under Section 3 of the UGC Act",
+   "legacy_type": "deemed_university",
+   "verification": {
+    "authority": "Indian Council of Agricultural Research (ICAR)",
+    "list_name": "ICAR deemed universities",
+    "list_url": "https://icar.org.in/deemed-universities",
+    "list_as_of": "2026-10-02"
+   }
+  },
+  {
+   "key": "ndri",
+   "name": "National Dairy Research Institute",
+   "website": "https://ndri.res.in",
+   "reference_id": "ICAR deemed universities: NDRI, Karnal",
+   "nirf_names": [
+    "ICAR - National Dairy Research Institute"
+   ],
+   "nodes": [
+    "food_technologist",
+    "animal_researcher"
+   ],
+   "notes": "Runs B.Tech Dairy Technology at Karnal; regional stations at Bengaluru and Kalyani are not loaded separately.",
+   "family": "icar_deemed",
+   "group": "G5",
+   "statutory_basis": "ICAR institute, Institution Deemed to be University under Section 3 of the UGC Act",
+   "legacy_type": "deemed_university",
+   "verification": {
+    "authority": "Indian Council of Agricultural Research (ICAR)",
+    "list_name": "ICAR deemed universities",
+    "list_url": "https://icar.org.in/deemed-universities",
+    "list_as_of": "2026-10-02"
+   }
+  },
+  {
+   "key": "ivri",
+   "name": "Indian Veterinary Research Institute",
+   "website": "https://ivri.nic.in",
+   "reference_id": "ICAR deemed universities: IVRI, Izatnagar",
+   "nirf_names": [
+    "Indian Veterinary Research Institute, Izatnagar"
+   ],
+   "existing": [
+    "Indian Veterinary Research Institute (IVRI)"
+   ],
+   "city": "Bareilly",
+   "state": "Uttar Pradesh",
+   "nodes": [
+    "bvsc",
+    "veterinarian",
+    "animal_researcher"
+   ],
+   "notes": "Campus at Izatnagar, Bareilly; runs B.V.Sc. & A.H.",
+   "family": "icar_deemed",
+   "group": "G5",
+   "statutory_basis": "ICAR institute, Institution Deemed to be University under Section 3 of the UGC Act",
+   "legacy_type": "deemed_university",
+   "verification": {
+    "authority": "Indian Council of Agricultural Research (ICAR)",
+    "list_name": "ICAR deemed universities",
+    "list_url": "https://icar.org.in/deemed-universities",
+    "list_as_of": "2026-10-02"
+   }
+  },
+  {
+   "key": "cife",
+   "name": "Central Institute of Fisheries Education",
+   "website": "https://www.cife.edu.in",
+   "reference_id": "ICAR deemed universities: CIFE, Mumbai",
+   "nirf_names": [
+    "Central Institute of Fisheries Education, Fisheries University"
+   ],
+   "nodes": [
+    "agri_scientist",
+    "animal_researcher"
+   ],
+   "notes": "Postgraduate fisheries university (M.F.Sc., Ph.D.).",
+   "family": "icar_deemed",
+   "group": "G5",
+   "statutory_basis": "ICAR institute, Institution Deemed to be University under Section 3 of the UGC Act",
+   "legacy_type": "deemed_university",
+   "verification": {
+    "authority": "Indian Council of Agricultural Research (ICAR)",
+    "list_name": "ICAR deemed universities",
+    "list_url": "https://icar.org.in/deemed-universities",
+    "list_as_of": "2026-10-02"
+   }
+  },
+  {
+   "key": "naarm",
+   "name": "National Academy of Agricultural Research Management",
+   "website": "https://naarm.org.in",
+   "reference_id": "ICAR-NAARM, Rajendranagar, Hyderabad",
+   "nirf_names": [
+    "ICAR-National Academy of Agricultural Research Management (NAARM)"
+   ],
+   "city": "Hyderabad",
+   "state": "Telangana",
+   "family": "icar_institute",
+   "statutory_basis": "ICAR institute (Indian Council of Agricultural Research, Ministry of Agriculture and Farmers Welfare)",
+   "nodes": [
+    "mba_general",
+    "farm_manager"
+   ],
+   "verification": {
+    "authority": "Indian Council of Agricultural Research (ICAR)",
+    "list_name": "ICAR institutes — ICAR-NAARM, Hyderabad",
+    "list_url": "https://naarm.org.in",
+    "list_as_of": "2026-10-02"
+   },
+   "notes": "Admits students to its PGDM (Agri-Business Management). Other ICAR research institutes teach only through the ICAR deemed universities and are not listed."
+  }
+ ]
+}

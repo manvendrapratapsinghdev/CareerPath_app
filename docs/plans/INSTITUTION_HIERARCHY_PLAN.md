@@ -165,7 +165,7 @@ lookup table (§7) will hold. Each family belongs to exactly one group.
 |---|---|---|---|---|
 | Central universities | All | UGC · Central Universities Act | ~56 | ✅ ~12 (DU, BHU, JNU, AMU, Jamia, UoH, Visva-Bharati, EFLU, IMU, IGNTU, MGAHV, NSU) |
 | Central Sanskrit universities | Sanskrit, Indology | UGC | 3 | ❌ |
-| Central agricultural universities | Agriculture | ICAR | 3 | ❌ |
+| Central agricultural universities | Agriculture | ICAR | 3 | ✅ 3 (C1) |
 | NIFT | Fashion design | Ministry of Textiles · NIFT Act | 20 campuses (Raipur from 2026) | ✅ 20 (C2) |
 | FDDI | Footwear & design | Ministry of Commerce | 12 campuses | ✅ 12 (C2) |
 | NSD · FTII · SRFTI | Theatre, film | Ministry of Culture / I&B | 3 (+ centres) | ✅ all 3 (C2) |
@@ -204,7 +204,7 @@ lookup table (§7) will hold. Each family belongs to exactly one group.
 |---|---|
 | Private deemed (BITS, MAHE, Symbiosis, NMIMS, VIT, SRM, Amrita, KIIT, Datta Meghe, DY Patil, Bharati Vidyapeeth, Banasthali, Christ) | ✅ ~15 |
 | Government-funded deemed (TISS, ICT Mumbai, Jamia Hamdard, LNIPE, IIST, DIAT, HBNI, IIIT-H/B) | ✅ TISS, ICT, Jamia Hamdard, LNIPE, IIST, IIIT-H/B · DIAT ❌ · HBNI ❌ |
-| ICAR deemed (IARI, NDRI, IVRI, CIFE) | ✅ IARI, IVRI · NDRI ⚠️ · CIFE ❌ |
+| ICAR deemed (IARI, NDRI, IVRI, CIFE) | ✅ all 4 (loaded early, with batch C4) |
 
 #### G6 — Government, aided & autonomous colleges (~45 000 colleges nationally, all kinds — AISHE)
 | Family | Regulator | ≈ All-India | In our DB |
