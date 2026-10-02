@@ -1,6 +1,6 @@
 # Institution Groups & College Hierarchy — Plan
 
-Status: **in progress — taxonomy foundations and Waves A–C4 are implemented; app integration and remaining data waves are pending.** Last verified: 2026-10-02.
+Status: **in progress — taxonomy foundations and Waves A–C6 are implemented; app integration and remaining data waves are pending.** Last verified: 2026-10-02.
 
 ### Current completion snapshot (2026-10-02)
 
@@ -17,16 +17,17 @@ The original “plan only” status is no longer accurate. The branch now contai
   NID/NIFTEM/ITRA/NFSU/RRU/Kalakshetra and AIIA.
 - Loaded and classified Wave B (G2): all 31 NITs, IIEST and the IIIT batch.
 - Loaded and classified the completed Wave C batches: 57 central universities, NIFT/FDDI/NSD/FTII/SRFTI/IIMC,
-  central IHMs/IITTM, and ICAR institutions including the four ICAR deemed universities and NAARM.
+  central IHMs/IITTM, ICAR institutions including the four ICAR deemed universities and NAARM, the six defence
+  academies and AFMC (C5), and IGRUA, NFTI and IMU's campuses (C6).
 - Added the family-batch loader and official-list batch fixtures for the completed waves.
-- Tooling QA currently passes: `57 passed, 7 subtests passed` (`python3 -m pytest tooling/tests -q`).
+- Tooling QA currently passes: `58 passed, 7 subtests passed` (`python3 -m pytest tooling/tests -q`).
 
 **Pending / incomplete**
 
 - T2 is only partial: official reference snapshots still need to be completed for every regulator/list named in the
   plan (NMC, BCI, PCI, CoA, ICAR, NCHMCT, NCTE, NAAC and the remaining UGC lists).
 - T4 cleanup is incomplete: duplicate review, all department-to-parent links, family-record flags, non-admitting-body
-  classification and name hygiene still need a full pass. The current database has 55 parent links, 9 family flags and
+  classification and name hygiene still need a full pass. The current database has 60 parent links, 9 family flags and
   3 non-admitting classifications, so this is not finished.
 - T7 location data is incomplete. The state table has 36 rows, but district, place and campus tables are currently empty.
 - T8 career-tree additions are pending: Pharmacy, PCS children, BUMS/BSMS/BNYS, Social Work and Judicial Services.
@@ -36,12 +37,11 @@ The original “plan only” status is no longer accurate. The branch now contai
   location and route services, ranking/UGC UI, ladder/steps screens, and shared chat/voice filtering remain pending.
 - Remaining data waves are pending: D (state public), E (deemed), F (private universities), G (government/aided
   colleges), H (private colleges), I (open/skill/diploma), and J (professional bodies/foreign campuses).
-- Wave C5 (defence academies and AFMC) has local, uncommitted batch/reference JSON files, but it is not yet loaded into
-  the database or committed; C6 and C7 are also pending.
+- Wave C7 (IIFT, IIFM, IIPA, RIEs, NIS, AYUSH and rehab national institutes) is pending.
 - Accreditation data is still empty and ranking data is currently NIRF 2025 only (360 rows); NAAC/NBA fallback and
   multi-year ranking support remain pending.
 
-Current database counts: 872 institutes, 114 families, 27 domains, 36 states, and 13 institution groups. These counts
+Current database counts: 874 institutes, 114 families, 27 domains, 36 states, and 13 institution groups. These counts
 are implementation evidence, not a completion claim for all-India coverage.
 Source of every count below: `assets/data/career_path.db` as shipped in `1.5.0+17`, read-only.
 
@@ -221,7 +221,7 @@ lookup table (§7) will hold. Each family belongs to exactly one group.
 | Defence academies (NDA, IMA, INA, AFA, OTA Chennai + Gaya) | Defence | MoD | 6 | ✅ all 6 (C5; NDA duplicate merged) |
 | AFMC | Medical (defence) | MoD | 1 | ✅ (C5) |
 | Sainik Schools · RIMC | Defence prep (school-level) | MoD | ~33 + new · 1 | ❌ (school-level, see §3.3) |
-| IGRUA · NFTI | Aviation | MoCA | 2 | ✅ both |
+| IGRUA · NFTI | Aviation | MoCA | 2 | ✅ both (C6) |
 | IIFT · IIFM · IIPA | Management, public policy | various | 3 | ✅ 2 · IIPA ❌ |
 | NIS Patiala (SAI) | Sports coaching | MoYAS | 1 (+ SAI centres) | ✅ |
 | Kendriya Hindi Sansthan | Hindi | MoE | 1 | ✅ |

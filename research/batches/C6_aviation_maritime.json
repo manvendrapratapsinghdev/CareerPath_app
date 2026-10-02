@@ -1,0 +1,145 @@
+{
+ "batch": "C6",
+ "title": "Wave C (G3): IGRUA, NFTI and the Indian Maritime University's campuses",
+ "verified_at": "2026-10-02",
+ "nirf_snapshot": "research/official_lists/nirf/nirf_2025.json",
+ "verification": {
+  "authority": "Ministry of Civil Aviation",
+  "list_name": "Indira Gandhi Rashtriya Uran Akademi — autonomous body of the Ministry of Civil Aviation",
+  "list_url": "https://igrua.gov.in",
+  "list_as_of": "2026-10-02"
+ },
+ "defaults": {
+  "group": "G3",
+  "legacy_type": "central_institute",
+  "nirf": false
+ },
+ "families": {
+  "national_aviation_institute": {
+   "national_count": 2,
+   "as_of": "2026-10-02",
+   "official_list_url": "https://igrua.gov.in"
+  }
+ },
+ "institutes": [
+  {
+   "key": "igrua",
+   "name": "Indira Gandhi Rashtriya Uran Akademi",
+   "website": "https://igrua.gov.in",
+   "reference_id": "https://igrua.gov.in",
+   "existing": [
+    "IGRUA (Govt)",
+    "Indira Gandhi Rashtriya Uran Akademi (IGRUA)"
+   ],
+   "city": "Fursatganj",
+   "state": "Uttar Pradesh",
+   "family": "national_aviation_institute",
+   "ownership": "central_govt",
+   "statutory_basis": "Autonomous body of the Ministry of Civil Aviation",
+   "regulators": "DGCA",
+   "nodes": [
+    "pilot_training",
+    "airline_pilot"
+   ],
+   "verification": {
+    "authority": "Ministry of Civil Aviation",
+    "list_name": "Indira Gandhi Rashtriya Uran Akademi — autonomous body of the Ministry of Civil Aviation",
+    "list_url": "https://igrua.gov.in",
+    "list_as_of": "2026-10-02"
+   },
+   "notes": "Flying school at Fursatganj airfield, Amethi district (listed by the data as Rae Bareli)."
+  },
+  {
+   "key": "nfti",
+   "name": "National Flying Training Institute",
+   "existing": [
+    "National Flying Training Institute Gondia"
+   ],
+   "reference_id": "CAE NFTI Gondia brochure",
+   "city": "Gondia",
+   "state": "Maharashtra",
+   "family": "national_aviation_institute",
+   "ownership": "ppp",
+   "regulators": "DGCA",
+   "statutory_basis": "Joint venture of the Airports Authority of India and CAE (CAE 51 per cent; Pawan Hans a minority shareholder)",
+   "nodes": [
+    "pilot_training",
+    "airline_pilot"
+   ],
+   "verification": {
+    "authority": "Airports Authority of India and CAE (joint venture)",
+    "list_name": "National Flying Training Institute, Gondia — AAI–CAE joint venture (CAE Commercial Pilot Training Program brochure)",
+    "list_url": "https://www.cae.com/content/docs/civil-aviation/Brochures/Commercial_Pilot_Training_Program_-_NFTI%2C_Gondia_%281%29.pdf",
+    "list_as_of": "2026-10-02"
+   },
+   "notes": "Also called Rajiv Gandhi National Flying Training Institute; run as CAE Gondia at Birsi airport. Website not confirmed."
+  },
+  {
+   "family": "central_university",
+   "group": "G3",
+   "ownership": "central_govt",
+   "statutory_basis": "Act of Parliament (central university)",
+   "regulators": "UGC",
+   "legacy_type": "central_university",
+   "key": "indian-maritime-university",
+   "name": "Indian Maritime University",
+   "website": "https://www.imu.edu.in",
+   "reference_id": "UGC central universities, Sr. No. 28",
+   "city": "Chennai",
+   "state": "Tamil Nadu",
+   "nirf": false,
+   "nodes": [
+    "merchant_navy",
+    "navigation_officer"
+   ],
+   "verification": {
+    "authority": "UGC",
+    "list_name": "UGC list of Central Universities",
+    "list_url": "https://www.ugc.gov.in/universitydetails/university?type=ddmCMsxJZgXH2S/m0uMOKQ==",
+    "list_as_of": "2026-10-01"
+   },
+   "notes": "Headquarters and Chennai campus; five more campuses are child rows (IMU Annual Report 2023-24).",
+   "departments": [
+    {
+     "name": "Indian Maritime University Kolkata Campus",
+     "existing": [
+      "Marine Engineering and Research Institute (MERI)"
+     ],
+     "city": "Kolkata",
+     "state": "West Bengal",
+     "notes": "Formerly MERI Kolkata and IIPM."
+    },
+    {
+     "name": "Indian Maritime University Navi Mumbai Campus",
+     "existing": [
+      "T.S. Chanakya (Mumbai)"
+     ],
+     "city": "Navi Mumbai",
+     "state": "Maharashtra",
+     "notes": "Formerly T.S. Chanakya."
+    },
+    {
+     "name": "Indian Maritime University Mumbai Port Campus",
+     "new": true,
+     "city": "Mumbai",
+     "state": "Maharashtra",
+     "notes": "Formerly MERI Mumbai and LBS CAMSAR."
+    },
+    {
+     "name": "Indian Maritime University Visakhapatnam Campus",
+     "new": true,
+     "city": "Visakhapatnam",
+     "state": "Andhra Pradesh",
+     "notes": "Formerly the National Ship Design and Research Centre."
+    },
+    {
+     "name": "Indian Maritime University Kochi Campus",
+     "new": true,
+     "city": "Kochi",
+     "state": "Kerala",
+     "notes": "Set up in 2009."
+    }
+   ]
+  }
+ ]
+}
