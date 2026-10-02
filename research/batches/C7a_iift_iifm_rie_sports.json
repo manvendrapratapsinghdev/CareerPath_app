@@ -1,0 +1,277 @@
+{
+ "batch": "C7a",
+ "title": "Wave C (G3): IIFT and IIFM, the six NCERT RIEs, NSNIS Patiala and SAI LNCPE",
+ "verified_at": "2026-10-02",
+ "nirf_snapshot": "research/official_lists/nirf/nirf_2025.json",
+ "verification": {
+  "authority": "National Council of Educational Research and Training (NCERT)",
+  "list_name": "NCERT Common Entrance Examination (CEE) 2026 information bulletin",
+  "list_url": "https://cee.ncert.gov.in/upload/info/Information_Bulletin.pdf",
+  "list_as_of": "2026-10-02"
+ },
+ "defaults": {
+  "group": "G3",
+  "ownership": "central_govt",
+  "legacy_type": "central_institute",
+  "nirf": false
+ },
+ "families": {
+  "ncert_rie": {
+   "national_count": 6,
+   "as_of": "2026-10-02",
+   "official_list_url": "https://cee.ncert.gov.in/upload/info/Information_Bulletin.pdf"
+  },
+  "national_sports_institute": {
+   "national_count": 2,
+   "as_of": "2026-10-02",
+   "official_list_url": "https://sportsauthorityofindia.nic.in/sai/academic-institutions"
+  }
+ },
+ "summary_rows": [
+  {
+   "name": "RIEs (Regional Institutes of Education)",
+   "family": "ncert_rie"
+  },
+  {
+   "name": "Sports Authority of India (SAI)",
+   "family": "national_sports_institute"
+  }
+ ],
+ "institutes": [
+  {
+   "key": "iift",
+   "name": "Indian Institute of Foreign Trade",
+   "website": "https://www.iift.ac.in",
+   "reference_id": "IIFT information bulletin 2026",
+   "existing": [
+    "Indian Institute of Foreign Trade (IIFT)"
+   ],
+   "city": "New Delhi",
+   "state": "Delhi",
+   "family": "central_management_institute",
+   "statutory_basis": "Institution Deemed to be University (2002); Ministry of Commerce and Industry",
+   "legacy_type": "deemed_university",
+   "nirf": true,
+   "nodes": [
+    "mba_general"
+   ],
+   "verification": {
+    "authority": "Ministry of Commerce and Industry — Indian Institute of Foreign Trade",
+    "list_name": "IIFT MBA admission information bulletin 2026 (four campuses)",
+    "list_url": "https://www.iift.ac.in/uploads/manage-files/2026/05/information-bulletin.pdf",
+    "list_as_of": "2026-10-02"
+   },
+   "notes": "Main campus in Delhi; Kolkata, Kakinada and GIFT City campuses are child rows.",
+   "departments": [
+    {
+     "name": "Indian Institute of Foreign Trade Kolkata Campus",
+     "new": true,
+     "city": "Kolkata",
+     "state": "West Bengal"
+    },
+    {
+     "name": "Indian Institute of Foreign Trade Kakinada Campus",
+     "new": true,
+     "city": "Kakinada",
+     "state": "Andhra Pradesh"
+    },
+    {
+     "name": "Indian Institute of Foreign Trade GIFT City Campus",
+     "new": true,
+     "city": "Gandhinagar",
+     "state": "Gujarat",
+     "notes": "Campus at GIFT City, Gandhinagar."
+    }
+   ]
+  },
+  {
+   "key": "iifm",
+   "name": "Indian Institute of Forest Management",
+   "website": "https://iifm.ac.in",
+   "reference_id": "https://iifm.ac.in",
+   "city": "Bhopal",
+   "state": "Madhya Pradesh",
+   "family": "central_management_institute",
+   "statutory_basis": "Autonomous institute of the Ministry of Environment, Forest and Climate Change",
+   "regulators": "AICTE",
+   "nodes": [
+    "mba_general",
+    "env_consultant"
+   ],
+   "verification": {
+    "authority": "Ministry of Environment, Forest and Climate Change",
+    "list_name": "Indian Institute of Forest Management — autonomous institute of MoEFCC",
+    "list_url": "https://iifm.ac.in",
+    "list_as_of": "2026-10-02"
+   },
+   "notes": "Admits to its PGDM/MBA (Forestry Management) through CAT, XAT, MAT or CMAT."
+  },
+  {
+   "key": "rie-ajmer",
+   "name": "Regional Institute of Education Ajmer",
+   "reference_id": "NCERT CEE 2026 bulletin",
+   "city": "Ajmer",
+   "state": "Rajasthan",
+   "family": "ncert_rie",
+   "statutory_basis": "Constituent unit of NCERT (Ministry of Education)",
+   "regulators": "NCTE",
+   "nodes": [
+    "ba_education",
+    "school_teacher"
+   ],
+   "verification": {
+    "authority": "National Council of Educational Research and Training (NCERT)",
+    "list_name": "NCERT Common Entrance Examination (CEE) 2026 information bulletin",
+    "list_url": "https://cee.ncert.gov.in/upload/info/Information_Bulletin.pdf",
+    "list_as_of": "2026-10-02"
+   }
+  },
+  {
+   "key": "rie-bhopal",
+   "name": "Regional Institute of Education Bhopal",
+   "reference_id": "NCERT CEE 2026 bulletin",
+   "city": "Bhopal",
+   "state": "Madhya Pradesh",
+   "family": "ncert_rie",
+   "statutory_basis": "Constituent unit of NCERT (Ministry of Education)",
+   "regulators": "NCTE",
+   "nodes": [
+    "ba_education",
+    "school_teacher"
+   ],
+   "verification": {
+    "authority": "National Council of Educational Research and Training (NCERT)",
+    "list_name": "NCERT Common Entrance Examination (CEE) 2026 information bulletin",
+    "list_url": "https://cee.ncert.gov.in/upload/info/Information_Bulletin.pdf",
+    "list_as_of": "2026-10-02"
+   }
+  },
+  {
+   "key": "rie-bhubaneswar",
+   "name": "Regional Institute of Education Bhubaneswar",
+   "reference_id": "NCERT CEE 2026 bulletin",
+   "city": "Bhubaneswar",
+   "state": "Odisha",
+   "family": "ncert_rie",
+   "statutory_basis": "Constituent unit of NCERT (Ministry of Education)",
+   "regulators": "NCTE",
+   "nodes": [
+    "ba_education",
+    "school_teacher"
+   ],
+   "verification": {
+    "authority": "National Council of Educational Research and Training (NCERT)",
+    "list_name": "NCERT Common Entrance Examination (CEE) 2026 information bulletin",
+    "list_url": "https://cee.ncert.gov.in/upload/info/Information_Bulletin.pdf",
+    "list_as_of": "2026-10-02"
+   }
+  },
+  {
+   "key": "rie-mysuru",
+   "name": "Regional Institute of Education Mysuru",
+   "reference_id": "NCERT CEE 2026 bulletin",
+   "city": "Mysuru",
+   "state": "Karnataka",
+   "family": "ncert_rie",
+   "statutory_basis": "Constituent unit of NCERT (Ministry of Education)",
+   "regulators": "NCTE",
+   "nodes": [
+    "ba_education",
+    "school_teacher"
+   ],
+   "verification": {
+    "authority": "National Council of Educational Research and Training (NCERT)",
+    "list_name": "NCERT Common Entrance Examination (CEE) 2026 information bulletin",
+    "list_url": "https://cee.ncert.gov.in/upload/info/Information_Bulletin.pdf",
+    "list_as_of": "2026-10-02"
+   },
+   "website": "https://riemysore.ac.in"
+  },
+  {
+   "key": "rie-shillong",
+   "name": "North East Regional Institute of Education Shillong",
+   "reference_id": "NCERT CEE 2026 bulletin",
+   "city": "Shillong",
+   "state": "Meghalaya",
+   "family": "ncert_rie",
+   "statutory_basis": "Constituent unit of NCERT (Ministry of Education)",
+   "regulators": "NCTE",
+   "nodes": [
+    "ba_education",
+    "school_teacher"
+   ],
+   "verification": {
+    "authority": "National Council of Educational Research and Training (NCERT)",
+    "list_name": "NCERT Common Entrance Examination (CEE) 2026 information bulletin",
+    "list_url": "https://cee.ncert.gov.in/upload/info/Information_Bulletin.pdf",
+    "list_as_of": "2026-10-02"
+   }
+  },
+  {
+   "key": "rie-nellore",
+   "name": "Regional Institute of Education Nellore",
+   "reference_id": "NCERT CEE 2026 bulletin",
+   "city": "Nellore",
+   "state": "Andhra Pradesh",
+   "family": "ncert_rie",
+   "statutory_basis": "Constituent unit of NCERT (Ministry of Education)",
+   "regulators": "NCTE",
+   "nodes": [
+    "ba_education",
+    "school_teacher"
+   ],
+   "verification": {
+    "authority": "National Council of Educational Research and Training (NCERT)",
+    "list_name": "NCERT Common Entrance Examination (CEE) 2026 information bulletin",
+    "list_url": "https://cee.ncert.gov.in/upload/info/Information_Bulletin.pdf",
+    "list_as_of": "2026-10-02"
+   },
+   "notes": "Newest RIE (Southern Region, with Mysuru); offers M.A. Education Technology (55 seats, Vikrama Simhapuri University)."
+  },
+  {
+   "key": "nsnis-patiala",
+   "name": "Netaji Subhas National Institute of Sports",
+   "website": "https://sportsauthorityofindia.nic.in",
+   "reference_id": "SAI academic institutions: NSNIS Patiala",
+   "existing": [
+    "National Institute of Sports Patiala"
+   ],
+   "city": "Patiala",
+   "state": "Punjab",
+   "family": "national_sports_institute",
+   "statutory_basis": "Academic institution of the Sports Authority of India",
+   "nodes": [
+    "sports_coach",
+    "sports_career"
+   ],
+   "verification": {
+    "authority": "Sports Authority of India (Ministry of Youth Affairs and Sports)",
+    "list_name": "SAI academic institutions",
+    "list_url": "https://sportsauthorityofindia.nic.in/sai/academic-institutions",
+    "list_as_of": "2026-10-02"
+   },
+   "notes": "Also called NIS Patiala; trains sports coaches."
+  },
+  {
+   "key": "lncpe-thiruvananthapuram",
+   "name": "Lakshmibai National College of Physical Education Thiruvananthapuram",
+   "website": "https://sportsauthorityofindia.gov.in/sai/lncpe",
+   "reference_id": "SAI academic institutions: LNCPE",
+   "city": "Thiruvananthapuram",
+   "state": "Kerala",
+   "family": "national_sports_institute",
+   "statutory_basis": "Academic institution of the Sports Authority of India; affiliated to the University of Kerala",
+   "nodes": [
+    "sports_career",
+    "sports_coach"
+   ],
+   "verification": {
+    "authority": "Sports Authority of India (Ministry of Youth Affairs and Sports)",
+    "list_name": "SAI academic institutions",
+    "list_url": "https://sportsauthorityofindia.nic.in/sai/academic-institutions",
+    "list_as_of": "2026-10-02"
+   },
+   "notes": "Campus at Kariavattom; B.P.Ed. (50 seats) and M.P.Ed. Not the same as LNIPE Gwalior (a deemed university)."
+  }
+ ]
+}

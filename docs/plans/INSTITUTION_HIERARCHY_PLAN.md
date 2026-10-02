@@ -1,6 +1,6 @@
 # Institution Groups & College Hierarchy — Plan
 
-Status: **in progress — taxonomy foundations and Waves A–C6 are implemented; app integration and remaining data waves are pending.** Last verified: 2026-10-02.
+Status: **in progress — taxonomy foundations and Waves A–C7a are implemented; app integration and remaining data waves are pending.** Last verified: 2026-10-02.
 
 ### Current completion snapshot (2026-10-02)
 
@@ -18,7 +18,7 @@ The original “plan only” status is no longer accurate. The branch now contai
 - Loaded and classified Wave B (G2): all 31 NITs, IIEST and the IIIT batch.
 - Loaded and classified the completed Wave C batches: 57 central universities, NIFT/FDDI/NSD/FTII/SRFTI/IIMC,
   central IHMs/IITTM, ICAR institutions including the four ICAR deemed universities and NAARM, the six defence
-  academies and AFMC (C5), and IGRUA, NFTI and IMU's campuses (C6).
+  academies and AFMC (C5), IGRUA, NFTI and IMU's campuses (C6), and IIFT, IIFM, the six RIEs and the SAI colleges (C7a).
 - Added the family-batch loader and official-list batch fixtures for the completed waves.
 - Tooling QA currently passes: `58 passed, 7 subtests passed` (`python3 -m pytest tooling/tests -q`).
 
@@ -27,7 +27,7 @@ The original “plan only” status is no longer accurate. The branch now contai
 - T2 is only partial: official reference snapshots still need to be completed for every regulator/list named in the
   plan (NMC, BCI, PCI, CoA, ICAR, NCHMCT, NCTE, NAAC and the remaining UGC lists).
 - T4 cleanup is incomplete: duplicate review, all department-to-parent links, family-record flags, non-admitting-body
-  classification and name hygiene still need a full pass. The current database has 60 parent links, 9 family flags and
+  classification and name hygiene still need a full pass. The current database has 63 parent links, 11 family flags and
   3 non-admitting classifications, so this is not finished.
 - T7 location data is incomplete. The state table has 36 rows, but district, place and campus tables are currently empty.
 - T8 career-tree additions are pending: Pharmacy, PCS children, BUMS/BSMS/BNYS, Social Work and Judicial Services.
@@ -37,11 +37,11 @@ The original “plan only” status is no longer accurate. The branch now contai
   location and route services, ranking/UGC UI, ladder/steps screens, and shared chat/voice filtering remain pending.
 - Remaining data waves are pending: D (state public), E (deemed), F (private universities), G (government/aided
   colleges), H (private colleges), I (open/skill/diploma), and J (professional bodies/foreign campuses).
-- Wave C7 (IIFT, IIFM, IIPA, RIEs, NIS, AYUSH and rehab national institutes) is pending.
+- Wave C7b (AYUSH and rehabilitation national institutes) is pending. IIPA is not loaded (in-service officers only).
 - Accreditation data is still empty and ranking data is currently NIRF 2025 only (360 rows); NAAC/NBA fallback and
   multi-year ranking support remain pending.
 
-Current database counts: 874 institutes, 114 families, 27 domains, 36 states, and 13 institution groups. These counts
+Current database counts: 883 institutes, 114 families, 27 domains, 36 states, and 13 institution groups. These counts
 are implementation evidence, not a completion claim for all-India coverage.
 Source of every count below: `assets/data/career_path.db` as shipped in `1.5.0+17`, read-only.
 
@@ -213,7 +213,7 @@ lookup table (§7) will hold. Each family belongs to exactly one group.
 | NSD · FTII · SRFTI | Theatre, film | Ministry of Culture / I&B | 3 (+ centres) | ✅ all 3 (C2) |
 | IIMC | Journalism | Ministry of I&B | 6 campuses (deemed university since 2024) | ✅ 6 (C2) |
 | Central IHMs (NCHMCT) · IITTM | Hospitality, tourism | Ministry of Tourism | 21 + NCHM-IH · 5 degree centres | ✅ 22 · ✅ 5 (C3) |
-| NCERT RIEs | Teacher education | NCERT | 5 | ⚠️ summary row |
+| NCERT RIEs | Teacher education | NCERT | 6 (Nellore added) | ✅ 6 (C7a) |
 | NIELIT | Computing diplomas | MeitY | ~50 centres | ⚠️ summary row |
 | CIPET · CLRI · MSME tool rooms | Polymer, leather, tool-making | various | ~45 · 1 · ~18 | ❌ |
 | National rehab institutes | Rehabilitation (RCI) | MoSJE | 9 | ✅ 2 |
