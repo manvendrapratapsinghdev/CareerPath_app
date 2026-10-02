@@ -454,16 +454,34 @@ streams 1───∞ career_nodes ∞───1 career_nodes (parent_id, self-t
 | institutes + courses + rankings + categories | `InstituteRecord`, `InstituteCourse`, `InstituteRanking` (`institute_catalog.dart`) | loaded whole into memory by `InstituteCatalogService.ensureLoaded()` |
 | — | `AiChatMessage`, `AiChatSource`, `AiAnswerSection`, `AiChatRequest/Response` (`ai_chat.dart`) | chat models; **chat is in-memory only, never persisted** |
 | `institution_groups`, `families` | `InstitutionGroup` (`institution_group.dart`), `InstitutionFamily` (`institution_family.dart`) | `getInstitutionGroups`/`getInstitutionGroup`, `getFamilies({groupCode})`/`getFamily`, `getFamilyListedCounts` (listed top-level rows per family) |
-| `institute_classification` | `InstituteClassification` (`institute_classification.dart`) | ints → `bool` (`admitsStudents`, `isFamilyRecord`, `listed`); `ugcVerified` is `bool?` (NULL = government); `getInstituteClassification`, `getInstitutesInFamily`/`getInstitutesInGroup` (exclude family/unlisted/child rows unless `include…`), `getChildInstitutes(parentId)` |
+| `institute_classification` | `InstituteClassification` (`institute_classification.dart`) | ints → `bool` (`admitsStudents`, `isFamilyRecord`, `listed`); `ugcVerified` is `bool?` (NULL = government); `getInstituteClassification`, `getInstitutesInFamily`/`getInstitutesInGroup` (exclude family/unlisted/child rows unless `include…`), `getChildInstitutes(parentId)`; `getListedClassifications()` (all listed top-level rows, read once by the catalog filter) |
 | `institute_verifications`, `institute_accreditations` | `InstituteVerification`, `InstituteAccreditation` | `getInstituteVerifications`, `getInstituteAccreditations` (NAAC first) |
 | `institute_rankings` (per institute) | `InstituteRanking` (`institute_catalog.dart`, reused) | `getInstituteRankings(id, {system, latestYearOnly})`; `getDisplayRanking(id, {domainSlug})` uses `nirfCategoriesFor(domain)` in `domain.dart` (domain category, then Overall/University/College…; null = "Not ranked") |
 | `domains`, `domain_nodes`, `domain_tiers`, `institute_domain_tiers` | `Domain` (`domain.dart`), `DomainTier` (`domain_tier.dart`), `InstituteDomainTier` (`institute_domain_tier.dart`) | `getDomains`/`getDomain`, `getDomainSlugForNode` (nearest ancestor), `getDomainTiers(slug)`, `getInstitutesOnDomainLadder(slug, {tier})`, `getInstituteDomainTiers(id)`; CSV columns exposed as `groupCodeList`/`familySlugList` |
 | `states` | `StateRegion` (`state_region.dart`) | `getStates()`; districts/places/campuses not mapped yet (tables empty) |
+| `institutes.city` (distinct, with state) | `({String city, String? state})` | `getInstituteCities()`: the place resolver's city list until `places` is filled |
 
 Taxonomy queries return empty/null when their tables are missing (older DB), via a cached table check in `LocalDatabase`.
 Tests: `LocalDatabase.withDatabase(db)` (`@visibleForTesting`) + dev dependency `sqflite_common_ffi` run real SQL in
-`test/data/local_database_taxonomy_test.dart` (in-memory, old-schema and read-only bundled-DB cases). No screen or service uses
-these queries yet (plan T11–T14).
+`test/data/local_database_taxonomy_test.dart` (in-memory, old-schema and read-only bundled-DB cases).
+
+Services on top (T11; not wired in `main.dart` yet, that happens in T12/T13):
+- **`InstituteCatalogService`** (constructor arg `taxonomy: localDb`): `ladderFor(domain)` → tiers top first with their listed
+  top-level institutes (NIRF rank, band, NAAC grade, name; empty tiers kept); `filter(InstituteFilter)` by domain, tier, group, family,
+  ownerships, `ResolvedPlace`, "UGC verified only" (drops only unverified private rows), admits-students; `displayInfo(id, domainSlug:)`
+  → `InstituteListing` (group/family names, `getDisplayRanking`, `RankHighlight` top10/top100 — a band ending ≤ 100 counts —, NAAC
+  fallback, `UgcBadge` verified/notVerified/notApplicable). Without `taxonomy` these return empty/null. `find`, `search`, `rankings`,
+  `idsInPlace` and `coveredStates` are unchanged.
+- **`LocationService`** (`loadStates: getStates`, `loadCities: getInstituteCities`): `resolve(text)` → `ResolvedPlace` (state | city;
+  district reserved until `districts` is filled). Whole text tries state name, city, city alias (Bangalore↔Bengaluru, both spellings
+  match), state alias (Orissa), abbreviation (RJ, UP, TS); in a sentence the longest phrase wins and a city wins if its state agrees;
+  only unambiguous abbreviations count mid-sentence. A whole-text state name beats a same-named city ("Delhi" → state, "New Delhi" →
+  city); a city in two states (Bilaspur) has no state. `ResolvedPlace.matches(city, district, state)`; `citiesIn(stateCode)`.
+  `idsInPlace` / `_requestedState` / `_requestedPlaces` still use their own token logic (switch in T13: `ensureLoaded()` in warm-up,
+  then `resolveLoaded(query)` + `matches`).
+- **`RouteService(localDb)`**: `routeForNode(id)` / `routeForDomain(slug)` → `CareerRoute` (domain, `RouteType` degree /
+  professionalBody / exam / mixed, tiers top first, entry exams: the domain's, then tier-only ones).
+Service tests use `test/support/taxonomy_db.dart` (`openTaxonomyDb(seed)`, in-memory sqflite_ffi DB with taxonomy + catalog tables).
 
 ### 8.5 Non-SQLite local storage
 
@@ -505,6 +523,7 @@ bump the version in `pubspec.yaml` when you do. Schema changes require matching 
 
 | Test | Covers |
 |---|---|
+| `test/services/institute_catalog_taxonomy_test.dart`, `location_service_test.dart`, `route_service_test.dart` | T11 ladder/filter/display, place resolver, career routes; each has a bundled-asset smoke test on a temp copy of the DB |
 | `controllers/live_voice_controller_test.dart` | 24k→16k downsample; one question + one answer per turn; premature draft dropped |
 | `services/live_voice_tools_test.dart` | route→search→format flow; guardrails on transcripts; off-topic/unsupported/app-help; no-records flag; memory→reconnect context; `setup()` uses configured model/interruptions |
 | `services/gemini_live_client_test.dart` | frame parsing (audio, transcripts, turnComplete, setup, toolCall, interrupted) |

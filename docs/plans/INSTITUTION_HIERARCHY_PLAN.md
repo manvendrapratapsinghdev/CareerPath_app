@@ -37,9 +37,8 @@ The original “plan only” status is no longer accurate. The branch now contai
 - T8 career-tree additions are pending: Pharmacy, PCS children, BUMS/BSMS/BNYS, Social Work and Judicial Services.
 - T9 loader foundations exist, but the full verification/review workflow and all regulator-specific imports are not
   complete.
-- T10 is done (Dart models, `LocalDatabase` taxonomy queries, parser and query tests). Phase 1a T11–T14 is not
-  implemented: ladder/filter services,
-  location and route services, ranking/UGC UI, ladder/steps screens, and shared chat/voice filtering remain pending.
+- T10 (Dart models, `LocalDatabase` taxonomy queries) and T11 (`InstituteCatalogService` ladder/filter/display,
+  `LocationService`, `RouteService`, with tests) are done but not yet wired into `main.dart`. Pending: ranking/UGC UI, ladder/steps screens, and shared chat/voice filtering remain pending.
 - Remaining data waves are pending: D2, D4–D6 (state public), E (deemed), F (private universities), G (government/aided
   colleges), H (private colleges), I (open/skill/diploma), and J2 (foreign campuses).
 - Wave C is complete. IIPA (in-service officers only) and NIN Pune (degree intake unconfirmed) are not loaded.
