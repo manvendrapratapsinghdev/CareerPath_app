@@ -1,0 +1,595 @@
+{
+ "batch": "C3",
+ "title": "Wave C (G3): the 22 central IHMs (NCHMCT) and IITTM's five centres",
+ "verified_at": "2026-10-02",
+ "nirf_snapshot": "research/official_lists/nirf/nirf_2025.json",
+ "verification": {
+  "authority": "Ministry of Tourism — National Council for Hotel Management and Catering Technology (NCHMCT)",
+  "list_name": "NCHMCT list of Central Government Affiliated Institutes of Hotel Management",
+  "list_url": "https://nchm.gov.in/central-government-affiliated-institutes-of-hotel-management",
+  "list_as_of": "2026-10-02"
+ },
+ "defaults": {
+  "group": "G3",
+  "ownership": "central_govt",
+  "legacy_type": "central_institute",
+  "nirf": false
+ },
+ "families": {
+  "central_ihm": {
+   "national_count": 22,
+   "as_of": "2026-10-02",
+   "official_list_url": "https://nchm.gov.in/central-government-affiliated-institutes-of-hotel-management"
+  },
+  "iittm": {
+   "national_count": 5,
+   "as_of": "2026-10-02",
+   "official_list_url": "https://iittm.ac.in"
+  }
+ },
+ "institutes": [
+  {
+   "key": "ihm-bengaluru",
+   "name": "Institute of Hotel Management Bengaluru",
+   "reference_id": "NCHMCT central IHM code 101",
+   "family": "central_ihm",
+   "statutory_basis": "Autonomous society under the Ministry of Tourism, affiliated to NCHMCT",
+   "nodes": [
+    "hotel_mgmt",
+    "hotel_manager"
+   ],
+   "verification": {
+    "authority": "Ministry of Tourism — National Council for Hotel Management and Catering Technology (NCHMCT)",
+    "list_name": "NCHMCT list of Central Government Affiliated Institutes of Hotel Management",
+    "list_url": "https://nchm.gov.in/central-government-affiliated-institutes-of-hotel-management",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Bengaluru",
+   "state": "Karnataka",
+   "website": "https://ihmbangalore.ac.in",
+   "existing": [
+    "IHM Bangalore"
+   ]
+  },
+  {
+   "key": "ihm-bhopal",
+   "name": "Institute of Hotel Management Bhopal",
+   "reference_id": "NCHMCT central IHM code 102",
+   "family": "central_ihm",
+   "statutory_basis": "Autonomous society under the Ministry of Tourism, affiliated to NCHMCT",
+   "nodes": [
+    "hotel_mgmt",
+    "hotel_manager"
+   ],
+   "verification": {
+    "authority": "Ministry of Tourism — National Council for Hotel Management and Catering Technology (NCHMCT)",
+    "list_name": "NCHMCT list of Central Government Affiliated Institutes of Hotel Management",
+    "list_url": "https://nchm.gov.in/central-government-affiliated-institutes-of-hotel-management",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Bhopal",
+   "state": "Madhya Pradesh",
+   "website": "https://www.ihmbhopal.ac.in"
+  },
+  {
+   "key": "ihm-bhubaneswar",
+   "name": "Institute of Hotel Management Bhubaneswar",
+   "reference_id": "NCHMCT central IHM code 103",
+   "family": "central_ihm",
+   "statutory_basis": "Autonomous society under the Ministry of Tourism, affiliated to NCHMCT",
+   "nodes": [
+    "hotel_mgmt",
+    "hotel_manager"
+   ],
+   "verification": {
+    "authority": "Ministry of Tourism — National Council for Hotel Management and Catering Technology (NCHMCT)",
+    "list_name": "NCHMCT list of Central Government Affiliated Institutes of Hotel Management",
+    "list_url": "https://nchm.gov.in/central-government-affiliated-institutes-of-hotel-management",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Bhubaneswar",
+   "state": "Odisha",
+   "website": "https://www.ihmbbs.org"
+  },
+  {
+   "key": "ihm-chandigarh",
+   "name": "Dr. Ambedkar Institute of Hotel Management Chandigarh",
+   "reference_id": "NCHMCT central IHM code 104",
+   "family": "central_ihm",
+   "statutory_basis": "Autonomous society under the Ministry of Tourism, affiliated to NCHMCT",
+   "nodes": [
+    "hotel_mgmt",
+    "hotel_manager"
+   ],
+   "verification": {
+    "authority": "Ministry of Tourism — National Council for Hotel Management and Catering Technology (NCHMCT)",
+    "list_name": "NCHMCT list of Central Government Affiliated Institutes of Hotel Management",
+    "list_url": "https://nchm.gov.in/central-government-affiliated-institutes-of-hotel-management",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Chandigarh",
+   "state": "Chandigarh",
+   "website": "https://www.ihmchandigarh.org"
+  },
+  {
+   "key": "ihm-chennai",
+   "name": "Institute of Hotel Management Chennai",
+   "reference_id": "NCHMCT central IHM code 105",
+   "family": "central_ihm",
+   "statutory_basis": "Autonomous society under the Ministry of Tourism, affiliated to NCHMCT",
+   "nodes": [
+    "hotel_mgmt",
+    "hotel_manager"
+   ],
+   "verification": {
+    "authority": "Ministry of Tourism — National Council for Hotel Management and Catering Technology (NCHMCT)",
+    "list_name": "NCHMCT list of Central Government Affiliated Institutes of Hotel Management",
+    "list_url": "https://nchm.gov.in/central-government-affiliated-institutes-of-hotel-management",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Chennai",
+   "state": "Tamil Nadu",
+   "website": "http://www.ihmchennai.org"
+  },
+  {
+   "key": "ihm-gandhinagar",
+   "name": "Institute of Hotel Management Gandhinagar",
+   "reference_id": "NCHMCT central IHM code 106",
+   "family": "central_ihm",
+   "statutory_basis": "Autonomous society under the Ministry of Tourism, affiliated to NCHMCT",
+   "nodes": [
+    "hotel_mgmt",
+    "hotel_manager"
+   ],
+   "verification": {
+    "authority": "Ministry of Tourism — National Council for Hotel Management and Catering Technology (NCHMCT)",
+    "list_name": "NCHMCT list of Central Government Affiliated Institutes of Hotel Management",
+    "list_url": "https://nchm.gov.in/central-government-affiliated-institutes-of-hotel-management",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Gandhinagar",
+   "state": "Gujarat",
+   "website": "https://ihmahmedabad.com",
+   "notes": "Also known as IHM Ahmedabad; campus on the Gandhinagar highway at Kudasan."
+  },
+  {
+   "key": "ihm-porvorim",
+   "name": "Institute of Hotel Management Goa",
+   "reference_id": "NCHMCT central IHM code 107",
+   "family": "central_ihm",
+   "statutory_basis": "Autonomous society under the Ministry of Tourism, affiliated to NCHMCT",
+   "nodes": [
+    "hotel_mgmt",
+    "hotel_manager"
+   ],
+   "verification": {
+    "authority": "Ministry of Tourism — National Council for Hotel Management and Catering Technology (NCHMCT)",
+    "list_name": "NCHMCT list of Central Government Affiliated Institutes of Hotel Management",
+    "list_url": "https://nchm.gov.in/central-government-affiliated-institutes-of-hotel-management",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Porvorim",
+   "state": "Goa",
+   "website": "https://www.ihmgoa.gov.in",
+   "notes": "Campus at Alto Porvorim, Bardez."
+  },
+  {
+   "key": "ihm-gurdaspur",
+   "name": "Institute of Hotel Management Gurdaspur",
+   "reference_id": "NCHMCT central IHM code 108",
+   "family": "central_ihm",
+   "statutory_basis": "Autonomous society under the Ministry of Tourism, affiliated to NCHMCT",
+   "nodes": [
+    "hotel_mgmt",
+    "hotel_manager"
+   ],
+   "verification": {
+    "authority": "Ministry of Tourism — National Council for Hotel Management and Catering Technology (NCHMCT)",
+    "list_name": "NCHMCT list of Central Government Affiliated Institutes of Hotel Management",
+    "list_url": "https://nchm.gov.in/central-government-affiliated-institutes-of-hotel-management",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Gurdaspur",
+   "state": "Punjab",
+   "website": "https://ihm-gsp.ac.in"
+  },
+  {
+   "key": "ihm-guwahati",
+   "name": "Institute of Hotel Management Guwahati",
+   "reference_id": "NCHMCT central IHM code 109",
+   "family": "central_ihm",
+   "statutory_basis": "Autonomous society under the Ministry of Tourism, affiliated to NCHMCT",
+   "nodes": [
+    "hotel_mgmt",
+    "hotel_manager"
+   ],
+   "verification": {
+    "authority": "Ministry of Tourism — National Council for Hotel Management and Catering Technology (NCHMCT)",
+    "list_name": "NCHMCT list of Central Government Affiliated Institutes of Hotel Management",
+    "list_url": "https://nchm.gov.in/central-government-affiliated-institutes-of-hotel-management",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Guwahati",
+   "state": "Assam",
+   "website": "https://ihmctanghy.org.in"
+  },
+  {
+   "key": "ihm-gwalior",
+   "name": "Institute of Hotel Management Gwalior",
+   "reference_id": "NCHMCT central IHM code 110",
+   "family": "central_ihm",
+   "statutory_basis": "Autonomous society under the Ministry of Tourism, affiliated to NCHMCT",
+   "nodes": [
+    "hotel_mgmt",
+    "hotel_manager"
+   ],
+   "verification": {
+    "authority": "Ministry of Tourism — National Council for Hotel Management and Catering Technology (NCHMCT)",
+    "list_name": "NCHMCT list of Central Government Affiliated Institutes of Hotel Management",
+    "list_url": "https://nchm.gov.in/central-government-affiliated-institutes-of-hotel-management",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Gwalior",
+   "state": "Madhya Pradesh",
+   "website": "https://ihmgwalior.org"
+  },
+  {
+   "key": "ihm-hajipur",
+   "name": "Institute of Hotel Management Hajipur",
+   "reference_id": "NCHMCT central IHM code 111",
+   "family": "central_ihm",
+   "statutory_basis": "Autonomous society under the Ministry of Tourism, affiliated to NCHMCT",
+   "nodes": [
+    "hotel_mgmt",
+    "hotel_manager"
+   ],
+   "verification": {
+    "authority": "Ministry of Tourism — National Council for Hotel Management and Catering Technology (NCHMCT)",
+    "list_name": "NCHMCT list of Central Government Affiliated Institutes of Hotel Management",
+    "list_url": "https://nchm.gov.in/central-government-affiliated-institutes-of-hotel-management",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Hajipur",
+   "state": "Bihar",
+   "website": "https://www.ihmhajipur.net"
+  },
+  {
+   "key": "ihm-hyderabad",
+   "name": "Institute of Hotel Management Hyderabad",
+   "reference_id": "NCHMCT central IHM code 112",
+   "family": "central_ihm",
+   "statutory_basis": "Autonomous society under the Ministry of Tourism, affiliated to NCHMCT",
+   "nodes": [
+    "hotel_mgmt",
+    "hotel_manager"
+   ],
+   "verification": {
+    "authority": "Ministry of Tourism — National Council for Hotel Management and Catering Technology (NCHMCT)",
+    "list_name": "NCHMCT list of Central Government Affiliated Institutes of Hotel Management",
+    "list_url": "https://nchm.gov.in/central-government-affiliated-institutes-of-hotel-management",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Hyderabad",
+   "state": "Telangana",
+   "website": "https://www.ihmhyd.org"
+  },
+  {
+   "key": "ihm-jaipur",
+   "name": "Institute of Hotel Management Jaipur",
+   "reference_id": "NCHMCT central IHM code 113",
+   "family": "central_ihm",
+   "statutory_basis": "Autonomous society under the Ministry of Tourism, affiliated to NCHMCT",
+   "nodes": [
+    "hotel_mgmt",
+    "hotel_manager"
+   ],
+   "verification": {
+    "authority": "Ministry of Tourism — National Council for Hotel Management and Catering Technology (NCHMCT)",
+    "list_name": "NCHMCT list of Central Government Affiliated Institutes of Hotel Management",
+    "list_url": "https://nchm.gov.in/central-government-affiliated-institutes-of-hotel-management",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Jaipur",
+   "state": "Rajasthan",
+   "website": "https://www.ihmjaipur.com"
+  },
+  {
+   "key": "ihm-kolkata",
+   "name": "Institute of Hotel Management Kolkata",
+   "reference_id": "NCHMCT central IHM code 114",
+   "family": "central_ihm",
+   "statutory_basis": "Autonomous society under the Ministry of Tourism, affiliated to NCHMCT",
+   "nodes": [
+    "hotel_mgmt",
+    "hotel_manager"
+   ],
+   "verification": {
+    "authority": "Ministry of Tourism — National Council for Hotel Management and Catering Technology (NCHMCT)",
+    "list_name": "NCHMCT list of Central Government Affiliated Institutes of Hotel Management",
+    "list_url": "https://nchm.gov.in/central-government-affiliated-institutes-of-hotel-management",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Kolkata",
+   "state": "West Bengal",
+   "website": "https://ihmkol.org"
+  },
+  {
+   "key": "ihm-lucknow",
+   "name": "Institute of Hotel Management Lucknow",
+   "reference_id": "NCHMCT central IHM code 115",
+   "family": "central_ihm",
+   "statutory_basis": "Autonomous society under the Ministry of Tourism, affiliated to NCHMCT",
+   "nodes": [
+    "hotel_mgmt",
+    "hotel_manager"
+   ],
+   "verification": {
+    "authority": "Ministry of Tourism — National Council for Hotel Management and Catering Technology (NCHMCT)",
+    "list_name": "NCHMCT list of Central Government Affiliated Institutes of Hotel Management",
+    "list_url": "https://nchm.gov.in/central-government-affiliated-institutes-of-hotel-management",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Lucknow",
+   "state": "Uttar Pradesh",
+   "website": "http://www.ihmlucknow.com"
+  },
+  {
+   "key": "ihm-mumbai",
+   "name": "Institute of Hotel Management Mumbai",
+   "reference_id": "NCHMCT central IHM code 116",
+   "family": "central_ihm",
+   "statutory_basis": "Autonomous society under the Ministry of Tourism, affiliated to NCHMCT",
+   "nodes": [
+    "hotel_mgmt",
+    "hotel_manager"
+   ],
+   "verification": {
+    "authority": "Ministry of Tourism — National Council for Hotel Management and Catering Technology (NCHMCT)",
+    "list_name": "NCHMCT list of Central Government Affiliated Institutes of Hotel Management",
+    "list_url": "https://nchm.gov.in/central-government-affiliated-institutes-of-hotel-management",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Mumbai",
+   "state": "Maharashtra",
+   "website": "https://www.ihmctan.edu",
+   "existing": [
+    "IHM Mumbai"
+   ],
+   "notes": "Institute of Hotel Management, Catering Technology and Applied Nutrition (IHMCTAN), Dadar."
+  },
+  {
+   "key": "ihm-new-delhi",
+   "name": "Institute of Hotel Management Pusa New Delhi",
+   "reference_id": "NCHMCT central IHM code 117",
+   "family": "central_ihm",
+   "statutory_basis": "Autonomous society under the Ministry of Tourism, affiliated to NCHMCT",
+   "nodes": [
+    "hotel_mgmt",
+    "hotel_manager"
+   ],
+   "verification": {
+    "authority": "Ministry of Tourism — National Council for Hotel Management and Catering Technology (NCHMCT)",
+    "list_name": "NCHMCT list of Central Government Affiliated Institutes of Hotel Management",
+    "list_url": "https://nchm.gov.in/central-government-affiliated-institutes-of-hotel-management",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "New Delhi",
+   "state": "Delhi",
+   "website": "https://ihmpusa.net",
+   "existing": [
+    "Institute of Hotel Management Delhi"
+   ],
+   "notes": "IHM Pusa, Library Avenue, Pusa Complex."
+  },
+  {
+   "key": "ihm-shillong",
+   "name": "Institute of Hotel Management Shillong",
+   "reference_id": "NCHMCT central IHM code 118",
+   "family": "central_ihm",
+   "statutory_basis": "Autonomous society under the Ministry of Tourism, affiliated to NCHMCT",
+   "nodes": [
+    "hotel_mgmt",
+    "hotel_manager"
+   ],
+   "verification": {
+    "authority": "Ministry of Tourism — National Council for Hotel Management and Catering Technology (NCHMCT)",
+    "list_name": "NCHMCT list of Central Government Affiliated Institutes of Hotel Management",
+    "list_url": "https://nchm.gov.in/central-government-affiliated-institutes-of-hotel-management",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Shillong",
+   "state": "Meghalaya",
+   "website": "https://ihmshillong.nic.in"
+  },
+  {
+   "key": "ihm-shimla",
+   "name": "Institute of Hotel Management Shimla",
+   "reference_id": "NCHMCT central IHM code 119",
+   "family": "central_ihm",
+   "statutory_basis": "Autonomous society under the Ministry of Tourism, affiliated to NCHMCT",
+   "nodes": [
+    "hotel_mgmt",
+    "hotel_manager"
+   ],
+   "verification": {
+    "authority": "Ministry of Tourism — National Council for Hotel Management and Catering Technology (NCHMCT)",
+    "list_name": "NCHMCT list of Central Government Affiliated Institutes of Hotel Management",
+    "list_url": "https://nchm.gov.in/central-government-affiliated-institutes-of-hotel-management",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Shimla",
+   "state": "Himachal Pradesh",
+   "website": "https://www.ihmshimla.ac.in",
+   "notes": "Campus at Kufri."
+  },
+  {
+   "key": "ihm-srinagar",
+   "name": "Institute of Hotel Management Srinagar",
+   "reference_id": "NCHMCT central IHM code 120",
+   "family": "central_ihm",
+   "statutory_basis": "Autonomous society under the Ministry of Tourism, affiliated to NCHMCT",
+   "nodes": [
+    "hotel_mgmt",
+    "hotel_manager"
+   ],
+   "verification": {
+    "authority": "Ministry of Tourism — National Council for Hotel Management and Catering Technology (NCHMCT)",
+    "list_name": "NCHMCT list of Central Government Affiliated Institutes of Hotel Management",
+    "list_url": "https://nchm.gov.in/central-government-affiliated-institutes-of-hotel-management",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Srinagar",
+   "state": "Jammu and Kashmir",
+   "website": "https://ihmsrinagar.edu.in"
+  },
+  {
+   "key": "ihm-thiruvananthapuram",
+   "name": "Institute of Hotel Management Thiruvananthapuram",
+   "reference_id": "NCHMCT central IHM code 121",
+   "family": "central_ihm",
+   "statutory_basis": "Autonomous society under the Ministry of Tourism, affiliated to NCHMCT",
+   "nodes": [
+    "hotel_mgmt",
+    "hotel_manager"
+   ],
+   "verification": {
+    "authority": "Ministry of Tourism — National Council for Hotel Management and Catering Technology (NCHMCT)",
+    "list_name": "NCHMCT list of Central Government Affiliated Institutes of Hotel Management",
+    "list_url": "https://nchm.gov.in/central-government-affiliated-institutes-of-hotel-management",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Thiruvananthapuram",
+   "state": "Kerala",
+   "website": "https://www.ihmctkovalam.org",
+   "notes": "Campus at Kovalam."
+  },
+  {
+   "key": "nchm-ih-noida",
+   "name": "NCHM-IH Noida",
+   "reference_id": "NCHMCT central IHM code 122",
+   "family": "central_ihm",
+   "statutory_basis": "Autonomous society under the Ministry of Tourism, affiliated to NCHMCT",
+   "nodes": [
+    "hotel_mgmt",
+    "hotel_manager"
+   ],
+   "verification": {
+    "authority": "Ministry of Tourism — National Council for Hotel Management and Catering Technology (NCHMCT)",
+    "list_name": "NCHMCT list of Central Government Affiliated Institutes of Hotel Management",
+    "list_url": "https://nchm.gov.in/central-government-affiliated-institutes-of-hotel-management",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Noida",
+   "state": "Uttar Pradesh",
+   "notes": "NCHMCT's own institute (listed as NCHM-IH); runs the M.Sc. Hospitality Administration with JNU."
+  },
+  {
+   "key": "iittm-gwalior",
+   "name": "Indian Institute of Tourism and Travel Management Gwalior",
+   "website": "https://iittm.ac.in",
+   "reference_id": "IITTM MBA bulletin 2026-28, intake table (Gwalior: 334 seats)",
+   "family": "iittm",
+   "statutory_basis": "Autonomous body under the Ministry of Tourism",
+   "nodes": [
+    "hotel_mgmt",
+    "travel_consultant"
+   ],
+   "verification": {
+    "authority": "Ministry of Tourism — Indian Institute of Tourism and Travel Management",
+    "list_name": "IITTM MBA/BBA 2026 admission bulletins (intake by centre)",
+    "list_url": "https://iittm.ac.in/images/pdf/latest_iittm/2026/Bulletin%20MBA%202026-28.pdf",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Gwalior",
+   "state": "Madhya Pradesh",
+   "existing": [
+    "Indian Institute of Tourism and Travel Management"
+   ],
+   "notes": "Headquarters; 334 seats (2026)."
+  },
+  {
+   "key": "iittm-bhubaneswar",
+   "name": "Indian Institute of Tourism and Travel Management Bhubaneswar",
+   "website": "https://iittm.ac.in",
+   "reference_id": "IITTM MBA bulletin 2026-28, intake table (Bhubaneswar: 112 seats)",
+   "family": "iittm",
+   "statutory_basis": "Autonomous body under the Ministry of Tourism",
+   "nodes": [
+    "hotel_mgmt",
+    "travel_consultant"
+   ],
+   "verification": {
+    "authority": "Ministry of Tourism — Indian Institute of Tourism and Travel Management",
+    "list_name": "IITTM MBA/BBA 2026 admission bulletins (intake by centre)",
+    "list_url": "https://iittm.ac.in/images/pdf/latest_iittm/2026/Bulletin%20MBA%202026-28.pdf",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Bhubaneswar",
+   "state": "Odisha",
+   "notes": "IITTM centre offering BBA and MBA (Tourism and Travel); 112 seats (2026)."
+  },
+  {
+   "key": "iittm-noida",
+   "name": "Indian Institute of Tourism and Travel Management Noida",
+   "website": "https://iittm.ac.in",
+   "reference_id": "IITTM MBA bulletin 2026-28, intake table (Noida: 189 seats)",
+   "family": "iittm",
+   "statutory_basis": "Autonomous body under the Ministry of Tourism",
+   "nodes": [
+    "hotel_mgmt",
+    "travel_consultant"
+   ],
+   "verification": {
+    "authority": "Ministry of Tourism — Indian Institute of Tourism and Travel Management",
+    "list_name": "IITTM MBA/BBA 2026 admission bulletins (intake by centre)",
+    "list_url": "https://iittm.ac.in/images/pdf/latest_iittm/2026/Bulletin%20MBA%202026-28.pdf",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Noida",
+   "state": "Uttar Pradesh",
+   "notes": "IITTM centre offering BBA and MBA (Tourism and Travel); 189 seats (2026)."
+  },
+  {
+   "key": "iittm-nellore",
+   "name": "Indian Institute of Tourism and Travel Management Nellore",
+   "website": "https://iittm.ac.in",
+   "reference_id": "IITTM MBA bulletin 2026-28, intake table (Nellore: 75 seats)",
+   "family": "iittm",
+   "statutory_basis": "Autonomous body under the Ministry of Tourism",
+   "nodes": [
+    "hotel_mgmt",
+    "travel_consultant"
+   ],
+   "verification": {
+    "authority": "Ministry of Tourism — Indian Institute of Tourism and Travel Management",
+    "list_name": "IITTM MBA/BBA 2026 admission bulletins (intake by centre)",
+    "list_url": "https://iittm.ac.in/images/pdf/latest_iittm/2026/Bulletin%20MBA%202026-28.pdf",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Nellore",
+   "state": "Andhra Pradesh",
+   "notes": "IITTM centre offering BBA and MBA (Tourism and Travel); 75 seats (2026)."
+  },
+  {
+   "key": "iittm-goa",
+   "name": "Indian Institute of Tourism and Travel Management Goa",
+   "website": "https://iittm.ac.in",
+   "reference_id": "IITTM MBA bulletin 2026-28, intake table (Goa: 40 seats)",
+   "family": "iittm",
+   "statutory_basis": "Autonomous body under the Ministry of Tourism",
+   "nodes": [
+    "hotel_mgmt",
+    "travel_consultant"
+   ],
+   "verification": {
+    "authority": "Ministry of Tourism — Indian Institute of Tourism and Travel Management",
+    "list_name": "IITTM MBA/BBA 2026 admission bulletins (intake by centre)",
+    "list_url": "https://iittm.ac.in/images/pdf/latest_iittm/2026/Bulletin%20MBA%202026-28.pdf",
+    "list_as_of": "2026-10-02"
+   },
+   "city": "Panaji",
+   "state": "Goa",
+   "notes": "NIWS IITTM Goa (National Institute of Water Sports), Panaji; also runs water-sports courses."
+  }
+ ]
+}

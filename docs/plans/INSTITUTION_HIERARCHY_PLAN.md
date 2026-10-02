@@ -170,7 +170,7 @@ lookup table (§7) will hold. Each family belongs to exactly one group.
 | FDDI | Footwear & design | Ministry of Commerce | 12 campuses | ✅ 12 (C2) |
 | NSD · FTII · SRFTI | Theatre, film | Ministry of Culture / I&B | 3 (+ centres) | ✅ all 3 (C2) |
 | IIMC | Journalism | Ministry of I&B | 6 campuses (deemed university since 2024) | ✅ 6 (C2) |
-| Central IHMs (NCHMCT) · IITTM | Hospitality, tourism | Ministry of Tourism | ~21 · 1 | ✅ 3 · ✅ |
+| Central IHMs (NCHMCT) · IITTM | Hospitality, tourism | Ministry of Tourism | 21 + NCHM-IH · 5 degree centres | ✅ 22 · ✅ 5 (C3) |
 | NCERT RIEs | Teacher education | NCERT | 5 | ⚠️ summary row |
 | NIELIT | Computing diplomas | MeitY | ~50 centres | ⚠️ summary row |
 | CIPET · CLRI · MSME tool rooms | Polymer, leather, tool-making | various | ~45 · 1 · ~18 | ❌ |
