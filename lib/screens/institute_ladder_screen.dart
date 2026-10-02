@@ -53,8 +53,24 @@ class _InstituteLadderScreenState extends State<InstituteLadderScreen> {
     // connections are inexpensive on-device, but the shared cached database
     // can otherwise queue several nested catalog reads during a screen build.
     final route = await widget.routes.routeForDomain(widget.domainSlug);
-    final families = await widget.catalog.getFamilies();
-    final groups = await widget.catalog.getInstitutionGroups();
+    final allLadder = await widget.catalog.ladderFor(widget.domainSlug);
+    final allListings = [for (final rung in allLadder) ...rung.institutes];
+    final availableGroupCodes = allListings
+        .map((listing) => listing.classification?.groupCode)
+        .whereType<String>()
+        .toSet();
+    final availableFamilySlugs = allListings
+        .map((listing) => listing.classification?.familySlug)
+        .whereType<String>()
+        .toSet();
+    final allFamilies = await widget.catalog.getFamilies();
+    final allGroups = await widget.catalog.getInstitutionGroups();
+    final families = allFamilies
+        .where((family) => availableFamilySlugs.contains(family.slug))
+        .toList(growable: false);
+    final groups = allGroups
+        .where((group) => availableGroupCodes.contains(group.code))
+        .toList(growable: false);
     final ladder = await widget.catalog.ladderFor(
       widget.domainSlug,
       locationFilter: _locationFilter,
@@ -82,6 +98,197 @@ class _InstituteLadderScreenState extends State<InstituteLadderScreen> {
       _locationFilter = selection;
       _data = _load();
     });
+  }
+
+  Future<void> _showFilterSheet(_LadderData data) async {
+    var location = _locationFilter;
+    var ugcVerifiedOnly = _ugcVerifiedOnly;
+    var groupCode = _groupCode;
+    var familySlug = _familySlug;
+    final selection = await showModalBottomSheet<_LadderFilterSelection>(
+      context: context,
+      isScrollControlled: true,
+      useSafeArea: true,
+      builder: (sheetContext) => StatefulBuilder(
+        builder: (context, setSheetState) {
+          final families = data.families
+              .where(
+                (family) => groupCode == null || family.groupCode == groupCode,
+              )
+              .toList(growable: false);
+          return Padding(
+            padding: EdgeInsets.fromLTRB(
+              AppSpacing.lg,
+              AppSpacing.sm,
+              AppSpacing.lg,
+              MediaQuery.viewInsetsOf(context).bottom + AppSpacing.lg,
+            ),
+            child: SingleChildScrollView(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Row(
+                    children: [
+                      Expanded(
+                        child: Text(
+                          AppLocalizations.of(context)!.resource_filterTooltip,
+                          style: Theme.of(context).textTheme.headlineSmall,
+                        ),
+                      ),
+                      IconButton(
+                        tooltip: MaterialLocalizations.of(
+                          context,
+                        ).closeButtonTooltip,
+                        onPressed: () => Navigator.pop(sheetContext),
+                        icon: const Icon(Icons.close),
+                      ),
+                    ],
+                  ),
+                  const SizedBox(height: AppSpacing.sm),
+                  Card(
+                    child: ListTile(
+                      leading: const Icon(Icons.location_on_outlined),
+                      title: Text(_locationSummaryLabel(context, location)),
+                      subtitle: Text(
+                        AppLocalizations.of(
+                          context,
+                        )!.institute_locationFilterTooltip,
+                      ),
+                      trailing: const Icon(Icons.chevron_right_rounded),
+                      onTap: () async {
+                        final next = await showInstituteLocationFilterSheet(
+                          context,
+                          locations: widget.locations,
+                          prefs: widget.prefs,
+                          initial: location,
+                          persist: false,
+                        );
+                        if (next != null) {
+                          setSheetState(() => location = next);
+                        }
+                      },
+                    ),
+                  ),
+                  const SizedBox(height: AppSpacing.sm),
+                  Card(
+                    child: SwitchListTile(
+                      key: const Key('ugc-verified-only'),
+                      title: Text(
+                        AppLocalizations.of(
+                          context,
+                        )!.institute_hidePrivateWithoutUgc,
+                      ),
+                      value: ugcVerifiedOnly,
+                      onChanged: (value) =>
+                          setSheetState(() => ugcVerifiedOnly = value),
+                    ),
+                  ),
+                  const SizedBox(height: AppSpacing.sm),
+                  _dropdown<String>(
+                    key: const Key('ladder-group-filter'),
+                    label: AppLocalizations.of(context)!.institute_groupLabel,
+                    value: groupCode,
+                    values: [
+                      for (final group in data.groups)
+                        DropdownMenuItem(
+                          value: group.code,
+                          child: Text(group.name),
+                        ),
+                    ],
+                    onChanged: (value) => setSheetState(() {
+                      groupCode = value;
+                      if (familySlug != null &&
+                          !data.families.any(
+                            (family) =>
+                                family.slug == familySlug &&
+                                family.groupCode == value,
+                          )) {
+                        familySlug = null;
+                      }
+                    }),
+                  ),
+                  const SizedBox(height: AppSpacing.sm),
+                  _dropdown<String>(
+                    key: const Key('ladder-family-filter'),
+                    label: AppLocalizations.of(context)!.institute_familyLabel,
+                    value: familySlug,
+                    values: [
+                      for (final family in families)
+                        DropdownMenuItem(
+                          value: family.slug,
+                          child: Text(family.name),
+                        ),
+                    ],
+                    onChanged: (value) =>
+                        setSheetState(() => familySlug = value),
+                  ),
+                  const SizedBox(height: AppSpacing.lg),
+                  Row(
+                    children: [
+                      Expanded(
+                        child: OutlinedButton(
+                          onPressed: () => setSheetState(() {
+                            location = const InstituteLocationFilter();
+                            ugcVerifiedOnly = false;
+                            groupCode = null;
+                            familySlug = null;
+                          }),
+                          child: Text(
+                            AppLocalizations.of(context)!.resource_filterClear,
+                          ),
+                        ),
+                      ),
+                      const SizedBox(width: AppSpacing.sm),
+                      Expanded(
+                        child: FilledButton(
+                          onPressed: () => Navigator.pop(
+                            sheetContext,
+                            _LadderFilterSelection(
+                              location: location,
+                              ugcVerifiedOnly: ugcVerifiedOnly,
+                              groupCode: groupCode,
+                              familySlug: familySlug,
+                            ),
+                          ),
+                          child: Text(
+                            AppLocalizations.of(context)!.resource_filterApply,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ],
+              ),
+            ),
+          );
+        },
+      ),
+    );
+    if (selection == null || !mounted) return;
+    final preferences = widget.prefs ?? await SharedPreferences.getInstance();
+    await preferences.setString(
+      instituteLocationPreferenceKey,
+      selection.location.encode(),
+    );
+    setState(() {
+      _locationFilter = selection.location;
+      _ugcVerifiedOnly = selection.ugcVerifiedOnly;
+      _groupCode = selection.groupCode;
+      _familySlug = selection.familySlug;
+      _data = _load();
+    });
+  }
+
+  String _locationSummaryLabel(
+    BuildContext context,
+    InstituteLocationFilter filter,
+  ) {
+    final l10n = AppLocalizations.of(context)!;
+    if (filter.onlineOnly) return l10n.institute_online;
+    if (filter.placeName != null) return filter.placeName!;
+    if (filter.districtName != null) return filter.districtName!;
+    if (filter.stateName != null) return filter.stateName!;
+    return l10n.institute_allIndia;
   }
 
   Future<void> _clearFilters() async {
@@ -154,11 +361,49 @@ class _InstituteLadderScreenState extends State<InstituteLadderScreen> {
     final familiesBySlug = {
       for (final family in data.families) family.slug: family,
     };
+    final listedCount = data.ladder.fold<int>(
+      0,
+      (total, rung) => total + rung.institutes.length,
+    );
     return ListView(
       padding: AppSpacing.pagePadding,
       children: [
+        Card(
+          key: const Key('ladder-overview'),
+          child: ListTile(
+            leading: const Icon(Icons.account_balance_outlined),
+            isThreeLine: true,
+            title: Text(data.route!.domain.name),
+            subtitle: Text(
+              l10n.institute_collegeLadderSubtitle(data.ladder.length),
+            ),
+            trailing: DecoratedBox(
+              decoration: BoxDecoration(
+                color: colorScheme.primaryContainer,
+                borderRadius: AppRadius.pillAll,
+              ),
+              child: Padding(
+                padding: const EdgeInsets.symmetric(
+                  horizontal: AppSpacing.sm,
+                  vertical: AppSpacing.xs,
+                ),
+                child: Text(
+                  l10n.institute_coverageListed(listedCount),
+                  style: Theme.of(context).textTheme.labelLarge?.copyWith(
+                    color: colorScheme.onPrimaryContainer,
+                    fontWeight: FontWeight.w700,
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+        const SizedBox(height: AppSpacing.sm),
         _FilterSummary(
           location: _locationFilter,
+          ugcVerifiedOnly: _ugcVerifiedOnly,
+          groupName: _groupName(data),
+          familyName: _familyName(data),
           onClear:
               _locationFilter.isAllIndia &&
                   !_ugcVerifiedOnly &&
@@ -168,50 +413,17 @@ class _InstituteLadderScreenState extends State<InstituteLadderScreen> {
               : _clearFilters,
         ),
         const SizedBox(height: AppSpacing.sm),
-        SwitchListTile(
-          key: const Key('ugc-verified-only'),
-          contentPadding: const EdgeInsets.symmetric(horizontal: AppSpacing.sm),
-          title: Text(l10n.institute_hidePrivateWithoutUgc),
-          value: _ugcVerifiedOnly,
-          onChanged: (value) => setState(() {
-            _ugcVerifiedOnly = value;
-            _data = _load();
-          }),
-        ),
-        _dropdown<String>(
-          key: const Key('ladder-group-filter'),
-          label: l10n.institute_groupLabel,
-          value: _groupCode,
-          values: [
-            for (final group in data.groups)
-              DropdownMenuItem(value: group.code, child: Text(group.name)),
-          ],
-          onChanged: (value) => setState(() {
-            _groupCode = value;
-            if (_familySlug != null &&
-                !data.families.any(
-                  (family) =>
-                      family.slug == _familySlug && family.groupCode == value,
-                )) {
-              _familySlug = null;
-            }
-            _data = _load();
-          }),
-        ),
-        const SizedBox(height: AppSpacing.sm),
-        _dropdown<String>(
-          key: const Key('ladder-family-filter'),
-          label: l10n.institute_familyLabel,
-          value: _familySlug,
-          values: [
-            for (final family in data.families)
-              if (_groupCode == null || family.groupCode == _groupCode)
-                DropdownMenuItem(value: family.slug, child: Text(family.name)),
-          ],
-          onChanged: (value) => setState(() {
-            _familySlug = value;
-            _data = _load();
-          }),
+        Card(
+          key: const Key('ladder-filter-control'),
+          child: ListTile(
+            leading: const Icon(Icons.tune_rounded),
+            title: Text(l10n.resource_filterTooltip),
+            subtitle: Text(
+              l10n.institute_showingFilters(_activeFilterSummary(data)),
+            ),
+            trailing: const Icon(Icons.chevron_right_rounded),
+            onTap: () => _showFilterSheet(data),
+          ),
         ),
         const SizedBox(height: AppSpacing.md),
         for (final rung in data.ladder)
@@ -222,6 +434,33 @@ class _InstituteLadderScreenState extends State<InstituteLadderScreen> {
           ),
       ],
     );
+  }
+
+  String? _groupName(_LadderData data) {
+    if (_groupCode == null) return null;
+    for (final group in data.groups) {
+      if (group.code == _groupCode) return group.name;
+    }
+    return _groupCode;
+  }
+
+  String? _familyName(_LadderData data) {
+    if (_familySlug == null) return null;
+    for (final family in data.families) {
+      if (family.slug == _familySlug) return family.name;
+    }
+    return _familySlug;
+  }
+
+  String _activeFilterSummary(_LadderData data) {
+    final l10n = AppLocalizations.of(context)!;
+    final labels = <String>[
+      _locationSummaryLabel(context, _locationFilter),
+      ?_groupName(data),
+      ?_familyName(data),
+      if (_ugcVerifiedOnly) l10n.institute_hidePrivateWithoutUgc,
+    ];
+    return labels.join(' · ');
   }
 
   Widget _buildSteps(CareerRoute route) {
@@ -279,6 +518,7 @@ class _InstituteLadderScreenState extends State<InstituteLadderScreen> {
   }) => DropdownButtonFormField<T>(
     key: key,
     initialValue: value,
+    isExpanded: true,
     decoration: InputDecoration(labelText: label),
     items: [
       DropdownMenuItem<T>(
@@ -293,9 +533,18 @@ class _InstituteLadderScreenState extends State<InstituteLadderScreen> {
 
 class _FilterSummary extends StatelessWidget {
   final InstituteLocationFilter location;
+  final bool ugcVerifiedOnly;
+  final String? groupName;
+  final String? familyName;
   final VoidCallback? onClear;
 
-  const _FilterSummary({required this.location, this.onClear});
+  const _FilterSummary({
+    required this.location,
+    this.ugcVerifiedOnly = false,
+    this.groupName,
+    this.familyName,
+    this.onClear,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -308,17 +557,32 @@ class _FilterSummary extends StatelessWidget {
       if (location.stateName != null && location.districtName == null)
         location.stateName!,
       if (location.isAllIndia) l10n.institute_allIndia,
+      ?groupName,
+      ?familyName,
+      if (ugcVerifiedOnly) l10n.institute_hidePrivateWithoutUgc,
     ];
-    return Row(
-      children: [
-        const Icon(Icons.filter_alt_outlined),
-        const SizedBox(width: AppSpacing.sm),
-        Expanded(
-          child: Text(l10n.institute_showingFilters(labels.join(' · '))),
+    return Card(
+      child: Padding(
+        padding: const EdgeInsets.symmetric(
+          horizontal: AppSpacing.base,
+          vertical: AppSpacing.xs,
         ),
-        if (onClear != null)
-          TextButton(onPressed: onClear, child: Text(l10n.institute_clear)),
-      ],
+        child: Row(
+          children: [
+            const Icon(Icons.filter_alt_outlined),
+            const SizedBox(width: AppSpacing.sm),
+            Expanded(
+              child: Text(
+                l10n.institute_showingFilters(labels.join(' · ')),
+                maxLines: 2,
+                overflow: TextOverflow.ellipsis,
+              ),
+            ),
+            if (onClear != null)
+              TextButton(onPressed: onClear, child: Text(l10n.institute_clear)),
+          ],
+        ),
+      ),
     );
   }
 }
@@ -450,6 +714,14 @@ class InstituteListingCard extends StatelessWidget {
                   ),
                 ),
               ],
+            ] else ...[
+              const SizedBox(height: AppSpacing.xs),
+              Text(
+                l10n.institute_locationUnavailable,
+                style: theme.textTheme.bodySmall?.copyWith(
+                  color: theme.colorScheme.onSurfaceVariant,
+                ),
+              ),
             ],
             if (listing.groupName != null || listing.familyName != null) ...[
               const SizedBox(height: AppSpacing.xs),
@@ -557,6 +829,20 @@ class _RouteStepCard extends StatelessWidget {
       ),
     );
   }
+}
+
+class _LadderFilterSelection {
+  final InstituteLocationFilter location;
+  final bool ugcVerifiedOnly;
+  final String? groupCode;
+  final String? familySlug;
+
+  const _LadderFilterSelection({
+    required this.location,
+    required this.ugcVerifiedOnly,
+    required this.groupCode,
+    required this.familySlug,
+  });
 }
 
 class _LadderData {

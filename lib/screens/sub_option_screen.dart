@@ -544,7 +544,7 @@ class _LeafView extends StatelessWidget {
     if (routeService != null &&
         catalogService != null &&
         locationService != null) {
-      final route = await routeService.routeForNode(int.tryParse(nodeId) ?? -1);
+      final route = await routeService.routeForNodeKey(nodeId);
       if (route != null && context.mounted) {
         await Navigator.push(
           context,
@@ -802,7 +802,7 @@ class _DomainRouteCardState extends State<_DomainRouteCard> {
   @override
   void initState() {
     super.initState();
-    _route = widget.routes.routeForNode(int.tryParse(widget.nodeId) ?? -1);
+    _route = widget.routes.routeForNodeKey(widget.nodeId);
   }
 
   @override

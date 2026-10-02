@@ -23,6 +23,9 @@ The original “plan only” status is no longer accurate. The current branch co
   5 state law universities; D3 loaded all 68 state agricultural/veterinary/horticulture/fisheries universities (ICAR list).
 - Wave J1 loaded the professional bodies: ICAI, ICSI, ICMAI, IAI, NISM, IIBF and III (G10a, ownership not applicable).
 - Added the family-batch loader and official-list batch fixtures for the completed waves.
+- Extended the batch loader to accept source-backed canonical campus links and NAAC/NBA records, with checks for
+  seeded places, conflicting main campuses, valid URLs/dates and programme-level NBA entries. This is loader support
+  only; no new campus or accreditation rows were imported.
 - Loaded LGD location masters (36 states/UTs, 784 districts), 100 canonical places, 3 unambiguous place aliases, and 231
   explicit campus-to-place links. The importer does not infer districts: 667 physical-institute rows remain in
   `research/location_review.csv` (658 missing a district, 9 district labels not found in the LGD master). Campus
@@ -34,31 +37,46 @@ The original “plan only” status is no longer accurate. The current branch co
   evidence-backed classifications and 13 `manual_review` records. The verified non-private subset (196 rows) is now
   imported into SQLite by `tooling/import_verified_legacy_classifications.py`. The remaining 230 private/trust rows require
   the structured UGC Yes/No evidence required by §8.6, and 13 records remain manual review.
-- Taxonomy/batch JSON validation passes. The full tooling suite passes 76/76 tests. Both Rajasthan career-mapping
+- Taxonomy/batch JSON validation passes. The full tooling suite passes 80/80 tests. Both Rajasthan career-mapping
   artifacts have been refreshed against the active database tree: 0 breadcrumb mismatches across 3,659 verification
   mappings and 2,916 NIRF mappings. Older notes/statuses about the former pharmacy label are marked as historical.
 
 **Pending / incomplete**
 
-- T2 is mostly done: UGC state/private/deemed university lists, NLUs, ICAR SAUs, the NMC MBBS seat matrix and NCHMCT
-  institutes are in `research/official_lists/`. Still missing: CoA, PCI, NCTE, BCI approved law colleges and NAAC.
+- T2 has source references but not a complete dataset for several authorities: CoA, PCI, NCTE, BCI approved law
+  colleges, NAAC, and UGC 2(f)/12(B) colleges have acquisition manifests under `research/official_lists/`. These
+  manifests are not rosters; counts and institution-level approvals/accreditations remain unverified. UGC's live
+  colleges page exceeds the available browser fetch limit, CoA/PCI are dynamic or course-specific, NCTE is paginated
+  by region/programme, and no complete NAAC export was verified. Do not treat a manifest as approval data.
 - T4 cleanup is incomplete: duplicate review, all department-to-parent links, family-record flags, non-admitting-body
   classification and name hygiene: `tooling/cleanup_institutes.py` (T4) is in and its first approved pass is applied
   (19 merges, 3 family records); departments wait for their parents' batches. The current database has 65 parent links, 14 family flags and
   3 non-admitting classifications, so this is not finished.
-- T7's official location masters and importer are present, but institute coverage is incomplete: only 231 institutes have
-  explicit campus links, currently across Rajasthan (117 institutes / 25 districts), Madhya Pradesh (70 / 27), and Uttar
-  Pradesh (44 / 19). Resolve the 667 rows in `research/location_review.csv`; do not infer districts.
+- T7's official location masters and importer are present, but the DB still has only 231 explicit campus links, across
+  Rajasthan (117 institutes / 25 districts), Madhya Pradesh (70 / 27), and Uttar Pradesh (44 / 19). A source review now
+  covers all 667 rows in `research/location_review.csv`: 49 of the 658 missing-district rows have explicit campus/district
+  evidence matching LGD; 609 remain unresolved, plus the 9 original district-label mismatches. The 49 are not yet in the
+  DB because canonical city/place-to-campus rows still need review. See
+  `research/phase1_parallel/location_address_review_all.csv`; do not infer districts.
 - T8 career-tree additions are pending: Pharmacy, PCS children, BUMS/BSMS/BNYS, Social Work and Judicial Services.
-- T9 loader foundations exist, but the full verification/review workflow and all regulator-specific imports are not
-  complete.
+- T9 loader foundations and the optional campus/accreditation import path exist, but the full verification/review
+  workflow and regulator-specific source imports are not complete. A read-only D3 dry-run currently stops at the
+  state-agricultural-university family count (56 classified roots versus the batch's official 52); three college rows
+  and one duplicate university-name row need T4 parent/deduplication review before D3 can be replayed cleanly.
 - T10–T14 are implemented and wired through `main.dart`: Dart/location models and database queries; catalog, location and
   route services; ranking and UGC UI; ladder and cascading location screens; and shared typed-chat/voice filtering.
+- A follow-up app UI refresh is still required after the remaining data waves: use newly verified institutions in the
+  domain ladders and location filters, refresh displayed counts/coverage, and show accreditation/verification as
+  verified, unverified, expired or unknown without treating missing data as a negative. This is data-driven UI work,
+  not a replacement for the completed T10–T14 foundation.
 - Remaining data waves are pending: D2, D4–D6 (state public), E (deemed), F (private universities), G (government/aided
   colleges), H (private colleges), I (open/skill/diploma), and J2 (foreign campuses).
 - Wave C is complete. IIPA (in-service officers only) and NIN Pune (degree intake unconfirmed) are not loaded.
 - Accreditation data is still empty; ranking data is NIRF only (447 rows). The app supports a NAAC fallback and a
   “Not ranked” line, but no NAAC/NBA data has been imported. Private/trust rows still need sourced UGC decisions.
+- D2 research is a shortlist, not an import: `research/phase1_parallel/wave_d2_candidates.json` has 31 core and 10
+  boundary candidates. Six match existing rows, and none currently has an Engineering domain tier; the list is not
+  yet an exhaustive, verified national roster, so no D2 rows or family count were changed.
 
 Current database counts: 951 institutes, 114 families, 27 domains, 13 institution groups, 708 classifications, 36 states,
 784 districts, 100 places, 3 place aliases, 231 campus links, 447 rankings, and 0 accreditations. These counts are
@@ -1137,6 +1155,12 @@ Follows CLAUDE.md: no new state management, manual DI, one test per new service 
 | T18 | Wave D (G4) | |
 | T19 | Wave E (G5) + Wave F (G7) | ship release 3: all universities |
 | T20+ | Waves G, H, I — domain × state batches | ship per state group |
+
+### Phase 1c — data-driven app UI refresh
+
+| # | Task | Output | Depends on |
+|---|---|---|---|
+| T21 | Initial UI pass ✅: slug-aware route wiring now opens the ladder from career screens; the ladder overview shows live tier/listed counts and cards explicitly show unavailable location data. Remaining after verified data imports: refresh ladders/cards and location filters with newly loaded institutions, correct coverage counts, NIRF/NAAC/NBA and private UGC evidence states; confirm typed-chat and voice results match the UI. | UI + tests | T2, T4, T7–T9, T15–T20 |
 
 Each release: update `VOICE_AGENT_CONTEXT.md` (schema, counts, prefs key `institute_location_filter`), bump
 `pubspec.yaml`, run the Play build.

@@ -141,4 +141,21 @@ void main() {
     expect(find.text('UGC verification pending'), findsOneWidget);
     expect(find.text('Not UGC verified'), findsNothing);
   });
+
+  testWidgets('card makes missing location data explicit', (tester) async {
+    const listing = InstituteListing(
+      instituteId: 4,
+      name: 'Unmapped Institute',
+    );
+
+    await tester.pumpWidget(
+      MaterialApp(
+        localizationsDelegates: AppLocalizations.localizationsDelegates,
+        supportedLocales: AppLocalizations.supportedLocales,
+        home: Scaffold(body: InstituteListingCard(listing: listing)),
+      ),
+    );
+
+    expect(find.text('Location data is unavailable.'), findsOneWidget);
+  });
 }

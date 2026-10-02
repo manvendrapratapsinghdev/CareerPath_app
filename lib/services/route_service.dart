@@ -66,6 +66,13 @@ class RouteService {
     return slug == null ? null : routeForDomain(slug);
   }
 
+  /// Looks up a route using the public career-node key. The Flutter career
+  /// tree uses slugs, while older callers may still provide numeric IDs.
+  Future<CareerRoute?> routeForNodeKey(String nodeKey) async {
+    final slug = await _db.getDomainSlugForNodeKey(nodeKey);
+    return slug == null ? null : routeForDomain(slug);
+  }
+
   /// The route for a domain slug ("law"), or null if there is no such domain.
   Future<CareerRoute?> routeForDomain(String domainSlug) async {
     final domain = await _db.getDomain(domainSlug);

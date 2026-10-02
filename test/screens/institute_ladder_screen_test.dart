@@ -87,13 +87,21 @@ void main() {
         ),
       ),
     );
-    await pumpUntilFound(tester, find.byKey(const Key('ugc-verified-only')));
+    await pumpUntilFound(
+      tester,
+      find.byKey(const Key('ladder-filter-control')),
+    );
     await tester.pump(const Duration(milliseconds: 500));
 
     expect(find.text('College ladder'), findsOneWidget);
+    expect(find.byKey(const Key('ladder-overview')), findsOneWidget);
+    expect(find.textContaining('institution tiers'), findsOneWidget);
     expect(find.byKey(const Key('institute-location-button')), findsOneWidget);
+    await tester.tap(find.byKey(const Key('ladder-filter-control')));
+    await tester.pumpAndSettle();
     expect(find.byKey(const Key('ugc-verified-only')), findsOneWidget);
     expect(find.byKey(const Key('ladder-group-filter')), findsOneWidget);
+    expect(find.byKey(const Key('ladder-family-filter')), findsOneWidget);
     expect(find.text('Institutes of National Importance'), findsOneWidget);
     expect(find.text('IIT Bombay'), findsOneWidget);
     expect(find.text('NIRF 2025 Engineering #3'), findsOneWidget);

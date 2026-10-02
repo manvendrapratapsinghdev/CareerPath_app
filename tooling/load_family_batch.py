@@ -11,13 +11,16 @@ the loader:
    website (city and state come from NIRF unless the spec gives them);
 3. records its group, family and ownership (institute_classification) and
    the official list it was verified against (institute_verifications);
-4. replaces its NIRF rankings for the snapshot year with every category it
+4. upserts optional campus links only when the spec names a seeded canonical
+   place and supplies a source URL; it never derives a district from a city;
+5. upserts optional source-backed NAAC/NBA accreditation records;
+6. replaces its NIRF rankings for the snapshot year with every category it
    appears in;
-5. links it to the batch's career nodes;
-6. attaches department/centre rows to it as children, merging duplicates
+7. links it to the batch's career nodes;
+8. attaches department/centre rows to it as children, merging duplicates
    (a campus marked "new" is inserted when no row has its name);
-7. marks national summary rows ("IITs") as family records;
-8. rebuilds every institute's domain tiers (tooling/domain_tiers.py).
+9. marks national summary rows ("IITs") as family records;
+10. rebuilds every institute's domain tiers (tooling/domain_tiers.py).
 
 Nothing is written when any institute fails a check (no NIRF match, a
 department that does not exist, ...). Run with --dry-run to see the report.
@@ -33,8 +36,10 @@ import json
 import re
 import sqlite3
 import sys
+from datetime import date
 from pathlib import Path
 from typing import Any
+from urllib.parse import urlsplit
 
 from domain_tiers import assign_tiers
 
@@ -56,6 +61,24 @@ class Claims:
     def __init__(self) -> None:
         self.ids: set[int] = set()
         self.names: set[str] = set()
+
+
+def is_http_url(value: Any) -> bool:
+    """Require a syntactically valid HTTP(S) URL; source authority is reviewed separately."""
+    if not isinstance(value, str):
+        return False
+    try:
+        parsed = urlsplit(value.strip())
+        # Accessing port also validates that an explicit port is numeric/in range.
+        _ = parsed.port
+        return (
+            parsed.scheme in {"http", "https"}
+            and bool(parsed.hostname)
+            and parsed.username is None
+            and parsed.password is None
+        )
+    except ValueError:
+        return False
 
 
 def normalize(name: str) -> str:
@@ -229,6 +252,158 @@ def relocate(connection: sqlite3.Connection, institute_id: int, city: str, state
     )
 
 
+def campus_place(connection: sqlite3.Connection, campus: dict[str, Any]) -> tuple[int, str, str]:
+    """Return the canonical city and state for an explicitly referenced place."""
+    place_id = campus.get("place_id")
+    if type(place_id) is not int:
+        raise BatchError(f"campus place_id must be an integer: {campus.get('name', '<unnamed>')}")
+    row = connection.execute(
+        "SELECT p.name, s.name FROM places p "
+        "JOIN districts d ON d.lgd_code = p.district_lgd "
+        "JOIN states s ON s.code = d.state_code WHERE p.id = ?",
+        (place_id,),
+    ).fetchone()
+    if row is None:
+        raise BatchError(f"campus place_id {place_id} is not a seeded canonical place")
+    return place_id, row[0], row[1]
+
+
+def add_campuses(
+    connection: sqlite3.Connection,
+    institute_id: int,
+    campuses: list[dict[str, Any]],
+    verified_at: str,
+    report: dict[str, Any],
+) -> None:
+    """Upsert only campuses tied to an existing canonical place and source."""
+    if not isinstance(campuses, list):
+        raise BatchError("campuses must be a list")
+    if any(not isinstance(campus, dict) for campus in campuses):
+        raise BatchError(f"institute {institute_id}: campus entries must be objects")
+    seen: set[tuple[int, str]] = set()
+    main_place_ids = [c.get("place_id") for c in campuses if c.get("is_main") is True]
+    if len(main_place_ids) > 1:
+        raise BatchError(f"institute {institute_id}: more than one main campus")
+
+    for campus in campuses:
+        name = campus.get("name")
+        if name is not None and (not isinstance(name, str) or not name.strip()):
+            raise BatchError(f"institute {institute_id}: campus name must be non-empty text or null")
+        if isinstance(name, str):
+            name = name.strip()
+        source_url = campus.get("source_url")
+        if isinstance(source_url, str):
+            source_url = source_url.strip()
+        if not is_http_url(source_url):
+            raise BatchError(f"institute {institute_id}: campus needs a valid HTTP(S) source_url")
+        if not isinstance(campus.get("is_main", False), bool):
+            raise BatchError(f"institute {institute_id}: campus is_main must be boolean")
+
+        place_id, _, _ = campus_place(connection, campus)
+        key = (place_id, normalize(name or ""))
+        if key in seen:
+            raise BatchError(f"institute {institute_id}: duplicate campus entry for place {place_id}")
+        seen.add(key)
+
+        existing_rows = connection.execute(
+            "SELECT id, place_id, name FROM campuses WHERE institute_id = ? "
+            "AND place_id = ? ORDER BY id",
+            (institute_id, place_id),
+        ).fetchall()
+        existing = next(
+            (row for row in existing_rows if normalize(row[2] or "") == normalize(name or "")),
+            None,
+        )
+        is_main = int(campus.get("is_main", False))
+        if is_main:
+            current_mains = connection.execute(
+                "SELECT id, place_id FROM campuses WHERE institute_id = ? AND is_main = 1 "
+                "ORDER BY id",
+                (institute_id,),
+            ).fetchall()
+            if len(current_mains) > 1:
+                raise BatchError(f"institute {institute_id}: multiple existing main campuses")
+            current_main = current_mains[0] if current_mains else None
+            if current_main is not None and current_main[1] != place_id:
+                raise BatchError(
+                    f"institute {institute_id}: new main campus conflicts with existing campus {current_main[0]}"
+                )
+            if existing is None and current_main is not None:
+                existing = connection.execute(
+                    "SELECT id, place_id, name FROM campuses WHERE id = ?", (current_main[0],)
+                ).fetchone()
+            elif current_main is not None and existing[0] != current_main[0]:
+                connection.execute("UPDATE campuses SET is_main = 0 WHERE id = ?", (current_main[0],))
+
+        if existing is None:
+            connection.execute(
+                "INSERT INTO campuses (institute_id, name, place_id, is_main, source_url, verified_at) "
+                "VALUES (?, ?, ?, ?, ?, ?)",
+                (institute_id, name, place_id, is_main, source_url, verified_at),
+            )
+            report["campuses_added"].append(name or str(place_id))
+        else:
+            connection.execute(
+                "UPDATE campuses SET name = ?, is_main = ?, source_url = ?, verified_at = ? WHERE id = ?",
+                (name, is_main, source_url, verified_at, existing[0]),
+            )
+            report["campuses_updated"].append(name or str(place_id))
+
+
+def add_accreditations(
+    connection: sqlite3.Connection,
+    institute_id: int,
+    accreditations: list[dict[str, Any]],
+    report: dict[str, Any],
+) -> None:
+    """Upsert source-backed NAAC/NBA records without deriving accreditation status."""
+    if not isinstance(accreditations, list):
+        raise BatchError("accreditations must be a list")
+    seen: set[tuple[str, str]] = set()
+    for item in accreditations:
+        if not isinstance(item, dict):
+            raise BatchError(f"institute {institute_id}: accreditation entries must be objects")
+        body = item.get("body")
+        if not isinstance(body, str) or body not in {"NAAC", "NBA"}:
+            raise BatchError(f"institute {institute_id}: unsupported accreditation body {body!r}")
+        programme = item.get("programme", "")
+        if not isinstance(programme, str):
+            raise BatchError(f"institute {institute_id}: accreditation programme must be text")
+        programme = programme.strip()
+        for field in ("grade", "status"):
+            if item.get(field) is not None and not isinstance(item[field], str):
+                raise BatchError(f"institute {institute_id}: accreditation {field} must be text or null")
+        source_url = item.get("source_url")
+        if isinstance(source_url, str):
+            source_url = source_url.strip()
+        if not is_http_url(source_url):
+            raise BatchError(f"institute {institute_id}: accreditation needs a valid HTTP(S) source_url")
+        if body == "NBA" and not programme:
+            raise BatchError(f"institute {institute_id}: NBA accreditation needs a programme")
+        if not any(isinstance(item.get(field), str) and item[field].strip() for field in ("grade", "status")):
+            raise BatchError(f"institute {institute_id}: accreditation needs a grade or status")
+        valid_until = item.get("valid_until")
+        if valid_until is not None:
+            try:
+                date.fromisoformat(valid_until)
+            except (TypeError, ValueError) as error:
+                raise BatchError(
+                    f"institute {institute_id}: invalid accreditation valid_until date {valid_until!r}"
+                ) from error
+        key = (body, programme)
+        if key in seen:
+            raise BatchError(f"institute {institute_id}: duplicate {body} accreditation for {programme!r}")
+        seen.add(key)
+        connection.execute(
+            "INSERT OR REPLACE INTO institute_accreditations "
+            "(institute_id, body, programme, grade, status, valid_until, source_url) "
+            "VALUES (?, ?, ?, ?, ?, ?, ?)",
+            (institute_id, body, programme, item.get("grade"), item.get("status"),
+             valid_until, source_url),
+        )
+        report["accreditations"] += 1
+
+
 def classify(
     connection: sqlite3.Connection,
     institute_id: int,
@@ -285,6 +460,7 @@ def load(connection: sqlite3.Connection, batch: dict[str, Any], snapshot: dict[s
     report: dict[str, Any] = {
         "batch": batch["batch"], "inserted": [], "updated": [], "renamed": [], "merged": [],
         "departments": [], "summary_rows": [], "rankings": 0, "node_links": 0,
+        "campuses_added": [], "campuses_updated": [], "accreditations": 0,
     }
     family_names = dict(connection.execute("SELECT slug, name FROM families"))
     group_names = dict(connection.execute("SELECT code, name FROM institution_groups"))
@@ -302,10 +478,26 @@ def load(connection: sqlite3.Connection, batch: dict[str, Any], snapshot: dict[s
         if not entries and item.get("nirf", True):
             raise BatchError(f"{item['name']}: no NIRF {year} entry matches")
         located = next((e for e in entries if e["nirf_institute_id"]), entries[0] if entries else None)
-        city = item.get("city") or (located or {}).get("city")
-        state = item.get("state") or (located or {}).get("state")
+        campus_specs = item.get("campuses", [])
+        if not isinstance(campus_specs, list) or any(not isinstance(c, dict) for c in campus_specs):
+            raise BatchError(f"{item['name']}: campuses must be a list of objects")
+        main_campuses = [c for c in campus_specs if c.get("is_main") is True]
+        if len(main_campuses) > 1:
+            raise BatchError(f"{item['name']}: more than one main campus")
+        main_place = campus_place(connection, main_campuses[0]) if main_campuses else None
+        campus_city = main_place[1] if main_place else None
+        campus_state = main_place[2] if main_place else None
+        city = item.get("city") or (located or {}).get("city") or campus_city
+        state = item.get("state") or (located or {}).get("state") or campus_state
         if not city or not state:
             raise BatchError(f"{item['name']}: no city/state")
+        if main_place and (
+            normalize(city) != normalize(main_place[1]) or normalize(state) != normalize(main_place[2])
+        ):
+            raise BatchError(
+                f"{item['name']}: main campus place {main_place[1]}, {main_place[2]} "
+                f"does not match institute location {city}, {state}"
+            )
 
         institute_id = consolidate(
             connection, item["name"], item.get("existing", []), report, claimed
@@ -354,6 +546,11 @@ def load(connection: sqlite3.Connection, batch: dict[str, Any], snapshot: dict[s
                 "UPDATE institutes SET description = ? WHERE id = ?", (item["description"], institute_id)
             )
         claimed.ids.add(institute_id)
+
+        add_campuses(connection, institute_id, campus_specs, batch["verified_at"], report)
+        add_accreditations(
+            connection, institute_id, item.get("accreditations", []), report
+        )
 
         # A status that rests on an old or partial source is not "high".
         classify(connection, institute_id, item, confidence=item.get("confidence", "high"))

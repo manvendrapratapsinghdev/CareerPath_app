@@ -13,6 +13,7 @@ Future<InstituteLocationFilter?> showInstituteLocationFilterSheet(
   required LocationService locations,
   SharedPreferences? prefs,
   InstituteLocationFilter? initial,
+  bool persist = true,
 }) async {
   final preferences = prefs ?? await SharedPreferences.getInstance();
   if (!context.mounted) return null;
@@ -28,7 +29,7 @@ Future<InstituteLocationFilter?> showInstituteLocationFilterSheet(
     builder: (_) =>
         InstituteLocationFilterSheet(locations: locations, initial: starting),
   );
-  if (result != null) {
+  if (persist && result != null) {
     await preferences.setString(
       instituteLocationPreferenceKey,
       result.encode(),

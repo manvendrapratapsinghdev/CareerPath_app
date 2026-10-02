@@ -16,7 +16,8 @@ from institution_taxonomy import apply  # noqa: E402
 from load_family_batch import DEFAULT_DATABASE, BatchError, load  # noqa: E402
 
 TABLES = ("institutes", "career_nodes", "node_institutes", "institute_courses",
-          "institute_categories", "institute_rankings", "streams")
+          "institute_categories", "institute_rankings", "streams", "countries", "states",
+          "districts", "places", "campuses", "institute_accreditations")
 
 SNAPSHOT = {
     "metadata": {"year": 2025},
@@ -94,6 +95,14 @@ def _database() -> sqlite3.Connection:
           (15, 'IITs', 'Various', NULL, NULL, 'summary');
         INSERT INTO node_institutes VALUES (2, 10), (2, 11), (2, 13);
         INSERT INTO institute_categories VALUES (11, 'Engineering');
+        """
+    )
+    connection.executescript(
+        """
+        INSERT INTO districts (lgd_code, state_code, name)
+          VALUES (99999, 'IN-GA', 'South Goa');
+        INSERT INTO places (id, district_lgd, name, kind, is_district_hq)
+          VALUES (300, 99999, 'Ponda', 'city', 0);
         """
     )
     return connection
@@ -430,6 +439,127 @@ class LoadFamilyBatchTest(unittest.TestCase):
             connection.execute("SELECT website FROM institutes WHERE id = 11").fetchone(),
             ("https://www.iitb.ac.in",),
         )
+
+    def test_upserts_only_source_backed_campuses_and_accreditations(self) -> None:
+        connection = _database()
+        batch = copy.deepcopy(BATCH)
+        batch["families"] = {}
+        batch["summary_rows"] = []
+        batch["institutes"] = [batch["institutes"][1]]
+        batch["institutes"][0]["campuses"] = [{
+            "name": "Main campus", "place_id": 300, "is_main": True,
+            "source_url": "https://iitgoa.ac.in/contact",
+        }]
+        batch["institutes"][0]["accreditations"] = [{
+            "body": "NAAC", "grade": "A++", "status": "accredited",
+            "valid_until": "2028-03-31", "source_url": "https://naac.gov.in/record/1",
+        }]
+
+        report = load(connection, batch, SNAPSHOT)
+        self.assertEqual(report["campuses_added"], ["Main campus"])
+        self.assertEqual(report["accreditations"], 1)
+        self.assertEqual(
+            connection.execute(
+                "SELECT p.name, s.name, c.is_main, c.source_url, c.verified_at "
+                "FROM campuses c JOIN places p ON p.id = c.place_id "
+                "JOIN districts d ON d.lgd_code = p.district_lgd "
+                "JOIN states s ON s.code = d.state_code "
+                "JOIN institutes i ON i.id = c.institute_id WHERE i.name = ?",
+                ("Indian Institute of Technology Goa",),
+            ).fetchone(),
+            ("Ponda", "Goa", 1, "https://iitgoa.ac.in/contact", "2026-10-01"),
+        )
+        self.assertEqual(
+            connection.execute(
+                "SELECT body, programme, grade, status, valid_until, source_url "
+                "FROM institute_accreditations WHERE institute_id = "
+                "(SELECT id FROM institutes WHERE name = 'Indian Institute of Technology Goa')"
+            ).fetchone(),
+            ("NAAC", "", "A++", "accredited", "2028-03-31", "https://naac.gov.in/record/1"),
+        )
+
+        rerun = load(connection, batch, SNAPSHOT)
+        self.assertEqual(rerun["campuses_added"], [])
+        self.assertEqual(rerun["campuses_updated"], ["Main campus"])
+        self.assertEqual(connection.execute("SELECT COUNT(*) FROM campuses").fetchone(), (1,))
+        self.assertEqual(
+            connection.execute("SELECT COUNT(*) FROM institute_accreditations").fetchone(), (1,)
+        )
+
+    def test_promoting_an_existing_campus_keeps_exactly_one_main(self) -> None:
+        connection = _database()
+        connection.execute(
+            "INSERT INTO institutes (id, name, city, state, website) VALUES "
+            "(20, 'Indian Institute of Technology Goa', 'Ponda', 'Goa', 'https://iitgoa.ac.in')"
+        )
+        connection.executemany(
+            "INSERT INTO campuses (institute_id, name, place_id, is_main) VALUES (20, ?, 300, ?)",
+            [("Old Main", 1), ("main campus", 0)],
+        )
+        batch = copy.deepcopy(BATCH)
+        batch["families"] = {}
+        batch["summary_rows"] = []
+        batch["institutes"] = [batch["institutes"][1]]
+        batch["institutes"][0]["campuses"] = [{
+            "name": "Main Campus", "place_id": 300, "is_main": True,
+            "source_url": "https://iitgoa.ac.in/contact",
+        }]
+
+        report = load(connection, batch, SNAPSHOT)
+
+        self.assertEqual(report["campuses_added"], [])
+        self.assertEqual(report["campuses_updated"], ["Main Campus"])
+        self.assertEqual(
+            connection.execute(
+                "SELECT name, is_main FROM campuses WHERE institute_id = 20 ORDER BY id"
+            ).fetchall(),
+            [("Old Main", 0), ("Main Campus", 1)],
+        )
+
+    def test_rejects_unmapped_or_conflicting_campus_evidence(self) -> None:
+        batch = copy.deepcopy(BATCH)
+        batch["families"] = {}
+        batch["institutes"] = [batch["institutes"][1]]
+        batch["institutes"][0]["campuses"] = [{
+            "name": "Main campus", "place_id": 999, "is_main": True,
+            "source_url": "https://iitgoa.ac.in/contact",
+        }]
+        with self.assertRaisesRegex(BatchError, "not a seeded canonical place"):
+            load(_database(), batch, SNAPSHOT)
+
+        batch["institutes"][0]["campuses"][0]["place_id"] = 300
+        batch["institutes"][0]["city"] = "Panaji"
+        with self.assertRaisesRegex(BatchError, "does not match institute location"):
+            load(_database(), batch, SNAPSHOT)
+
+    def test_rejects_unsupported_or_malformed_accreditation(self) -> None:
+        batch = copy.deepcopy(BATCH)
+        batch["families"] = {}
+        batch["institutes"] = [batch["institutes"][1]]
+        batch["institutes"][0]["accreditations"] = [{
+            "body": "UGC", "source_url": "https://ugc.gov.in/record/1",
+        }]
+        with self.assertRaisesRegex(BatchError, "unsupported accreditation body"):
+            load(_database(), batch, SNAPSHOT)
+
+        batch["institutes"][0]["accreditations"] = [{
+            "body": "NAAC", "grade": "A", "valid_until": "not-a-date",
+            "source_url": "https://naac.gov.in/record/1",
+        }]
+        with self.assertRaisesRegex(BatchError, "invalid accreditation valid_until date"):
+            load(_database(), batch, SNAPSHOT)
+
+        batch["institutes"][0]["accreditations"] = [{
+            "body": "NBA", "status": "accredited",
+            "source_url": "https://nba.gov.in/record/1",
+        }]
+        with self.assertRaisesRegex(BatchError, "NBA accreditation needs a programme"):
+            load(_database(), batch, SNAPSHOT)
+
+        batch["institutes"][0]["accreditations"][0]["programme"] = "B.Tech"
+        batch["institutes"][0]["accreditations"][0]["source_url"] = "https:///missing-host"
+        with self.assertRaisesRegex(BatchError, "needs a valid HTTP\(S\) source_url"):
+            load(_database(), batch, SNAPSHOT)
 
     def test_district_is_kept_only_when_city_and_state_are_unchanged(self) -> None:
         connection = _database()

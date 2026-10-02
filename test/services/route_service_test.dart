@@ -51,6 +51,15 @@ void main() {
     expect(route?.hasCollegeLadder, isTrue);
   });
 
+  test(
+    'a node slug resolves the same inherited route as its numeric ID',
+    () async {
+      final route = await routes.routeForNodeKey('civil');
+      expect(route?.domain.slug, 'engineering');
+      expect(route?.tierLabels, ['INIs']);
+    },
+  );
+
   test('tiers come top first and add tier-only exams', () async {
     final route = await routes.routeForDomain('law');
     expect(route?.tierLabels, [

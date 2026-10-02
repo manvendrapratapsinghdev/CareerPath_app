@@ -618,6 +618,27 @@ class LocalDatabase {
     return rows.isEmpty ? null : rows.first['domain_slug'] as String;
   }
 
+  /// The domain a career node belongs to when the caller has the node's
+  /// public slug (the form used by [CareerDataService]). Descendants inherit
+  /// the nearest ancestor's domain mapping.
+  Future<String?> getDomainSlugForNodeKey(String nodeKey) async {
+    if (!await _hasTables(const ['domain_nodes', 'career_nodes'])) return null;
+    final numericId = int.tryParse(nodeKey) ?? -1;
+    final rows = await db.rawQuery(
+      'WITH RECURSIVE up(id, parent_id, depth) AS ('
+      '  SELECT id, parent_id, 0 FROM career_nodes '
+      '  WHERE id = ? OR slug = ? '
+      '  UNION ALL '
+      '  SELECT cn.id, cn.parent_id, up.depth + 1 FROM career_nodes cn '
+      '  JOIN up ON cn.id = up.parent_id'
+      ') '
+      'SELECT dn.domain_slug FROM up JOIN domain_nodes dn ON dn.node_id = up.id '
+      'ORDER BY up.depth LIMIT 1',
+      [numericId, nodeKey],
+    );
+    return rows.isEmpty ? null : rows.first['domain_slug'] as String;
+  }
+
   /// A domain's college ladder, tier 1 (top) first.
   Future<List<DomainTier>> getDomainTiers(String domainSlug) async {
     if (!await _hasTables(const ['domain_tiers'])) return const [];
