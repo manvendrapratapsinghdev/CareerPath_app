@@ -23,14 +23,15 @@ The original “plan only” status is no longer accurate. The branch now contai
   5 state law universities; D3 loaded all 68 state agricultural/veterinary/horticulture/fisheries universities (ICAR list).
 - Wave J1 loaded the professional bodies: ICAI, ICSI, ICMAI, IAI, NISM, IIBF and III (G10a, ownership not applicable).
 - Added the family-batch loader and official-list batch fixtures for the completed waves.
-- Tooling QA currently passes: `61 passed, 7 subtests passed` (`python3 -m pytest tooling/tests -q`).
+- Tooling QA currently passes: `72 passed, 7 subtests passed` (`python3 -m pytest tooling/tests -q`).
 
 **Pending / incomplete**
 
 - T2 is mostly done: UGC state/private/deemed university lists, NLUs, ICAR SAUs, the NMC MBBS seat matrix and NCHMCT
   institutes are in `research/official_lists/`. Still missing: CoA, PCI, NCTE, BCI approved law colleges and NAAC.
 - T4 cleanup is incomplete: duplicate review, all department-to-parent links, family-record flags, non-admitting-body
-  classification and name hygiene still need a full pass. The current database has 65 parent links, 11 family flags and
+  classification and name hygiene: `tooling/cleanup_institutes.py` (T4) is in and its first approved pass is applied
+  (19 merges, 3 family records); departments wait for their parents' batches. The current database has 65 parent links, 14 family flags and
   3 non-admitting classifications, so this is not finished.
 - T7 location data is incomplete. The state table has 36 rows, but district, place and campus tables are currently empty.
 - T8 career-tree additions are pending: Pharmacy, PCS children, BUMS/BSMS/BNYS, Social Work and Judicial Services.
@@ -45,7 +46,7 @@ The original “plan only” status is no longer accurate. The branch now contai
 - Accreditation data is still empty and ranking data is currently NIRF 2025 only (360 rows); NAAC/NBA fallback and
   multi-year ranking support remain pending.
 
-Current database counts: 969 institutes, 114 families, 27 domains, 36 states, and 13 institution groups. These counts
+Current database counts: 950 institutes, 114 families, 27 domains, 36 states, and 13 institution groups. These counts
 are implementation evidence, not a completion claim for all-India coverage.
 Source of every count below: `assets/data/career_path.db` as shipped in `1.5.0+17`, read-only.
 

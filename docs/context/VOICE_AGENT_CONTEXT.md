@@ -236,10 +236,10 @@ Order of construction: `SharedPreferences` → repositories/services (bookmarks,
 
 ## 8. DATABASE SCHEMA — `assets/data/career_path.db` (SQLite, read-only in app)
 
-Row counts as of this commit: streams 3 · career_nodes 380 · books 1 111 · institutes 969 · job_sectors 476 ·
+Row counts as of this commit: streams 3 · career_nodes 380 · books 1 111 · institutes 950 · job_sectors 476 ·
 institute_courses 8 376 · node_books 2 751 · node_institutes 6 201 · node_job_sectors 1 375 · course_career_nodes 9 495
 · institute_categories 409 · institute_rankings 447 · institution_groups 13 · families 114 · institute_classification
-508 · institute_verifications 432 · institute_accreditations 0 · countries 1 · states 36 · districts 0 · places 0 ·
+511 · institute_verifications 432 · institute_accreditations 0 · countries 1 · states 36 · districts 0 · places 0 ·
 place_aliases 0 · campuses 0 · domains 27 · domain_nodes 90 · domain_tiers 278 · institute_domain_tiers 599.
 
 ### 8.1 Tables (DDL, condensed from `sqlite3 .schema`)
@@ -378,7 +378,7 @@ streams 1───∞ career_nodes ∞───1 career_nodes (parent_id, self-t
 - **Streams:** 1 science, 2 commerce, 3 art.
 - **Tree depth:** L1 = 17 roots, L2 = 84, L3 = 241, L4 = 38 → **275 leaves**, 17 root nodes.
   Books/institutes/sectors hang off nodes (mostly leaves) via junction tables.
-- **institutes.state:** filled for 944 of 969 (34 states/UTs; Andaman and Nicobar and Lakshadweep still have none; Rajasthan 133, Maharashtra 112, Uttar Pradesh 96, Madhya Pradesh 90, Delhi 78, Tamil Nadu 59, …). Only city "Various" (24) and "Online" (1) stay NULL. Courses exist only for the researched
+- **institutes.state:** filled for 925 of 950 (34 states/UTs; Andaman and Nicobar and Lakshadweep still have none; Rajasthan 133, Maharashtra 105, Uttar Pradesh 96, Madhya Pradesh 90, Delhi 77, Tamil Nadu 57, …). Only city "Various" (24) and "Online" (1) stay NULL. Courses exist only for the researched
   Rajasthan/MP/UP institutes. Hand-added institutes had a city but no state; `tooling/fill_institute_states.py` fills it from the city
   (curated `CITY_STATES`; add a row when a new city appears). **districts** are still NULL for those rows — never guessed.
 - **institutes.institution_type:** ~119 NULL. Values include government_college, specialized, state_university, central_institute,
@@ -424,7 +424,10 @@ streams 1───∞ career_nodes ∞───1 career_nodes (parent_id, self-t
   universities on ICAR's State Agricultural Universities list (51 agricultural/horticulture/fisheries → `state_agricultural_university`,
   17 veterinary → `state_veterinary_university`), names hand-corrected, seats from UGC addresses, 73 NIRF 2025 rank rows; constituent
   colleges (RCA Udaipur, Madras/Bombay Veterinary College) stay separate for Wave G. The "ANDUAT …, Kumarganj, Ayodhya" duplicate is
-  not merged: both ANDUAT rows carry a research `source_id`, and `merge_into` refuses such pairs (the importer would recreate them). Wave J1: ICAI, ICSI, ICMAI, IAI (their Acts) and
+  not merged: both ANDUAT rows carry a research `source_id`, and `merge_into` refuses such pairs (the importer would recreate them).
+  T4 clean-up applied: 19 more duplicate rows merged (ISB, MICA, XLRI, TISS, IGIDR, CMI, FMS Delhi, IIIT Bangalore, SVPNPA, Christ,
+  Loyola, Whistling Woods …; 7 of the 26 approved were already merged by J1/D1/D3), and "DIET", "State CTEs" and "Government
+  Polytechnics (Various States)" are family records (`confidence = medium`). Wave J1: ICAI, ICSI, ICMAI, IAI (their Acts) and
   NISM, IIBF, III (`finance_certification_body`) are G10a with `ownership` NULL (a spec's `"ownership": "not_applicable"`,
   allowed only for G10a; no UGC check); the commerce_finance, management and science ladders end with a G10a
   professional-bodies tier (`PROFESSIONAL_BODIES` in `tooling/domain_tiers.py`), so every institute is placed. Each has a verification row. Official reference lists for later waves (UGC state 523 / private 560 / deemed 161, ICAR SAUs 68,
@@ -484,8 +487,17 @@ Built offline by Python in `tooling/` (`import_verified_institutions.py`, `enric
 `backfill_institution_types.py`, `discover_nirf_state_inventory.py`, `college_agents/`, `college_batches/`) from research outputs in `research/`.
 `fix_data_spellings.py` and `fill_institute_states.py` run at the end of every import; after any other script that writes names, run it with no arguments.
 Official-list batches: `nirf_rankings.py` snapshots NIRF into `research/official_lists/nirf/`, and
-`load_family_batch.py research/batches/<batch>.json` loads one family batch (A1 = IITs + IISc, A2 = IIMs, A3 = AIIMS + JIPMER/PGIMER/NIMHANS, A4 = IISERs + NISER + ISI, A5a = NIPERs + SPAs, A5b = NIDs, NIFTEMs, ITRA, NFSU, RRU, Kalakshetra + AIIA, B1 = NITs + IIEST, B2 = IIITs, C1 = central universities) in one transaction;
+`load_family_batch.py research/batches/<batch>.json` loads one family batch (A1 = IITs + IISc, A2 = IIMs, A3 = AIIMS + JIPMER/PGIMER/NIMHANS, A4 = IISERs + NISER + ISI, A5a = NIPERs + SPAs, A5b = NIDs, NIFTEMs, ITRA, NFSU, RRU, Kalakshetra + AIIA, B1 = NITs + IIEST, B2 = IIITs, C1 = central universities, C2–C7b = central institutes, D1 = NLUs + state law universities,
+D3 = state agricultural/veterinary universities, J1 = professional bodies) in one transaction; a department spec with `"new": true`
+inserts a missing campus child row, `"ownership": "not_applicable"` is allowed only for G10a, and two rows that both have a research
+`source_id` are never merged;
 the official lists it cites live in `research/official_lists/`. Then run the two scripts above and `build_search_aliases.py`.
+Clean-up (plan T4, D4–D6): `tooling/cleanup_institutes.py` (dry run by default) writes `research/cleanup/cleanup_review.csv` with
+proposed merges, department → parent links and family-record flags, each with a confidence, status and reason;
+`--apply research/cleanup/cleanup_approved.csv --write` applies only the approved rows in one transaction (merges use `merge_into`;
+children copy the parent's classification with `confidence = 'medium'`; tiers rebuilt; foreign-key check). Batch-classified rows are
+only ever targets or parents; departments whose parent is not classified stay "blocked", so re-run the dry run after each wave.
+When a merge drops an "X (ABBR)" name, re-check `build_search_aliases.py`'s output and hand-write lost short forms.
 The app **overwrites its on-device copy from the asset on every start** → shipping a new `.db` asset is the only way to change data;
 bump the version in `pubspec.yaml` when you do. Schema changes require matching edits in `LocalDatabase` queries + models + tests.
 
