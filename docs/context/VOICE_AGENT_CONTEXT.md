@@ -330,7 +330,7 @@ CREATE TABLE institute_rankings (
   PRIMARY KEY (institute_id, system, year, category)
 );                                       -- idx_institute_rankings_order(year,category,rank,rank_band)
 
--- ── institution taxonomy (tooling/institution_taxonomy.py; NOT read by the app yet) ──
+-- ── institution taxonomy (tooling/institution_taxonomy.py; read by LocalDatabase, see §8.4) ──
 -- Plan: docs/plans/INSTITUTION_HIERARCHY_PLAN.md. Additive; existing tables unchanged.
 institution_groups (code PK: G1..G9, G10a, G10b, G11, X; name, description, sort_order)
 families (slug PK: iit, nit, aiims, nlu, iti, …; name, group_code → institution_groups,
@@ -345,7 +345,7 @@ institute_accreditations (institute_id, body NAAC|NBA, programme PK; grade, stat
 countries (code PK 'IN') → states (code PK ISO 3166-2 'IN-RJ'; lgd_code; name; kind state|ut; zone)
   → districts (lgd_code PK) → places (city/town) → place_aliases; campuses (institute_id, place_id, is_main)
 
--- ── domain tiers (tooling/domain_tiers.py; NOT read by the app yet) ──
+-- ── domain tiers (tooling/domain_tiers.py; read by LocalDatabase, see §8.4) ──
 domains (slug PK: engineering, medical, law, ca_cma_cs … 27; name; route_type degree|professional_body|exam|mixed;
          regulators; entrance_exams; sort_order)
 domain_nodes (node_id PK → career_nodes; domain_slug)          -- 89 career nodes; descendants inherit the domain
@@ -444,6 +444,17 @@ streams 1───∞ career_nodes ∞───1 career_nodes (parent_id, self-t
 | `books` + `node_books` + `career_nodes` | `BookRecord` (`book_record.dart`: `Book` + `nodeIds` slugs + `nodeNames`) | `getBookCatalog`, loaded whole by `BookCatalogService` |
 | institutes + courses + rankings + categories | `InstituteRecord`, `InstituteCourse`, `InstituteRanking` (`institute_catalog.dart`) | loaded whole into memory by `InstituteCatalogService.ensureLoaded()` |
 | — | `AiChatMessage`, `AiChatSource`, `AiAnswerSection`, `AiChatRequest/Response` (`ai_chat.dart`) | chat models; **chat is in-memory only, never persisted** |
+| `institution_groups`, `families` | `InstitutionGroup` (`institution_group.dart`), `InstitutionFamily` (`institution_family.dart`) | `getInstitutionGroups`/`getInstitutionGroup`, `getFamilies({groupCode})`/`getFamily`, `getFamilyListedCounts` (listed top-level rows per family) |
+| `institute_classification` | `InstituteClassification` (`institute_classification.dart`) | ints → `bool` (`admitsStudents`, `isFamilyRecord`, `listed`); `ugcVerified` is `bool?` (NULL = government); `getInstituteClassification`, `getInstitutesInFamily`/`getInstitutesInGroup` (exclude family/unlisted/child rows unless `include…`), `getChildInstitutes(parentId)` |
+| `institute_verifications`, `institute_accreditations` | `InstituteVerification`, `InstituteAccreditation` | `getInstituteVerifications`, `getInstituteAccreditations` (NAAC first) |
+| `institute_rankings` (per institute) | `InstituteRanking` (`institute_catalog.dart`, reused) | `getInstituteRankings(id, {system, latestYearOnly})`; `getDisplayRanking(id, {domainSlug})` uses `nirfCategoriesFor(domain)` in `domain.dart` (domain category, then Overall/University/College…; null = "Not ranked") |
+| `domains`, `domain_nodes`, `domain_tiers`, `institute_domain_tiers` | `Domain` (`domain.dart`), `DomainTier` (`domain_tier.dart`), `InstituteDomainTier` (`institute_domain_tier.dart`) | `getDomains`/`getDomain`, `getDomainSlugForNode` (nearest ancestor), `getDomainTiers(slug)`, `getInstitutesOnDomainLadder(slug, {tier})`, `getInstituteDomainTiers(id)`; CSV columns exposed as `groupCodeList`/`familySlugList` |
+| `states` | `StateRegion` (`state_region.dart`) | `getStates()`; districts/places/campuses not mapped yet (tables empty) |
+
+Taxonomy queries return empty/null when their tables are missing (older DB), via a cached table check in `LocalDatabase`.
+Tests: `LocalDatabase.withDatabase(db)` (`@visibleForTesting`) + dev dependency `sqflite_common_ffi` run real SQL in
+`test/data/local_database_taxonomy_test.dart` (in-memory, old-schema and read-only bundled-DB cases). No screen or service uses
+these queries yet (plan T11–T14).
 
 ### 8.5 Non-SQLite local storage
 
