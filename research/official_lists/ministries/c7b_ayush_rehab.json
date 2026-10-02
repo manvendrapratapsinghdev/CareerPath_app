@@ -1,0 +1,46 @@
+{
+ "source_authority": "Union Budget 2026-27 SBE (Ministry of Ayush); DEPwD national institutes page",
+ "fetched_on": "2026-10-02",
+ "ayush": {
+  "url": "https://www.indiabudget.gov.in/doc/eb/sbe4.pdf",
+  "budget_lists": [
+   "Institute of Teaching and Research in Ayurveda (G1, A5b)",
+   "All India Institute of Ayurveda (G3, A5b)",
+   "National Institute of Homoeopathy, Kolkata",
+   "Other autonomous bodies: NIA Jaipur, RAV New Delhi, NIS Chennai, NIUM Bengaluru, MDNIY New Delhi, NIN Pune, NEIAH Shillong, NEIFM Pasighat, National Institute of Medicinal Plants, National Institute of Sowa-Rigpa, Indian Institute of AYUSH Pharmaceutical Sciences"
+  ],
+  "loaded": [
+   "NIA",
+   "NIH",
+   "NIUM (+ Ghaziabad campus)",
+   "NIS",
+   "MDNIY",
+   "NEIAH",
+   "NISR Leh"
+  ],
+  "not_loaded": {
+   "NIN Pune": "no official confirmation of a degree intake found",
+   "RAV": "guru-shishya training, no degree intake",
+   "NEIFM Pasighat": "research",
+   "National Institute of Medicinal Plants": "research",
+   "IIAPS": "not admitting"
+  }
+ },
+ "depwd": {
+  "url": "https://depwd.gov.in/en/national-institutes/",
+  "count": 9,
+  "entries": [
+   "National Institute for the Empowerment of Persons with Visual Disabilities",
+   "Ali Yavar Jung National Institute of Speech and Hearing Disabilities",
+   "National Institute for the Empowerment of Persons with Intellectual Disabilities",
+   "National Institute for Empowerment of Persons with Multiple Disabilities",
+   "Pt. Deendayal Upadhyaya National Institute for Persons with Physical Disabilities",
+   "Swami Vivekanand National Institute of Rehabilitation Training and Research",
+   "National Institute for Locomotor Disabilities",
+   "Indian Sign Language Research and Training Centre",
+   "National Institute of Mental Health and Rehabilitation"
+  ],
+  "not_loaded": "ABV Training Centre for Disability Sports, Gwalior (listed on the same page) is not one of the nine NIs."
+ },
+ "nirf_2025": "None of these appears in NIRF 2025."
+}

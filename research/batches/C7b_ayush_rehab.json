@@ -1,0 +1,372 @@
+{
+ "batch": "C7b",
+ "title": "Wave C (G3): the AYUSH national institutes and the nine DEPwD national rehabilitation institutes",
+ "verified_at": "2026-10-02",
+ "nirf_snapshot": "research/official_lists/nirf/nirf_2025.json",
+ "verification": {
+  "authority": "Ministry of Ayush",
+  "list_name": "Union Budget 2026-27, Statement of Budget Estimates — Ministry of Ayush autonomous bodies",
+  "list_url": "https://www.indiabudget.gov.in/doc/eb/sbe4.pdf",
+  "list_as_of": "2026-10-02"
+ },
+ "defaults": {
+  "group": "G3",
+  "ownership": "central_govt",
+  "legacy_type": "central_institute",
+  "nirf": false
+ },
+ "families": {
+  "ayush_national_institute": {
+   "national_count": 7,
+   "as_of": "2026-10-02",
+   "official_list_url": "https://www.indiabudget.gov.in/doc/eb/sbe4.pdf"
+  },
+  "national_rehab_institute": {
+   "national_count": 9,
+   "as_of": "2026-10-02",
+   "official_list_url": "https://depwd.gov.in/en/national-institutes/"
+  }
+ },
+ "institutes": [
+  {
+   "key": "nia-jaipur",
+   "name": "National Institute of Ayurveda",
+   "city": "Jaipur",
+   "state": "Rajasthan",
+   "statutory_basis": "Autonomous national institute of the Ministry of Ayush; Institution Deemed to be University (de novo), 2020",
+   "legacy_type": "deemed_university",
+   "regulators": "NCISM",
+   "nodes": [
+    "bams",
+    "ayurveda_doctor"
+   ],
+   "notes": "BAMS, MD/MS and Ph.D. Its Panchkula satellite is not loaded separately.",
+   "family": "ayush_national_institute",
+   "verification": {
+    "authority": "Ministry of Ayush",
+    "list_name": "Union Budget 2026-27, Statement of Budget Estimates — Ministry of Ayush autonomous bodies",
+    "list_url": "https://www.indiabudget.gov.in/doc/eb/sbe4.pdf",
+    "list_as_of": "2026-10-02"
+   },
+   "reference_id": "Union Budget 2026-27 SBE, Ministry of Ayush",
+   "existing": []
+  },
+  {
+   "key": "nih-kolkata",
+   "name": "National Institute of Homoeopathy",
+   "city": "Kolkata",
+   "state": "West Bengal",
+   "statutory_basis": "Autonomous national institute of the Ministry of Ayush",
+   "regulators": "NCH",
+   "nodes": [
+    "bhms",
+    "homeopathy_doctor"
+   ],
+   "notes": "BHMS and MD (Hom.). Its Narela (Delhi) satellite is not loaded separately.",
+   "family": "ayush_national_institute",
+   "verification": {
+    "authority": "Ministry of Ayush",
+    "list_name": "Union Budget 2026-27, Statement of Budget Estimates — Ministry of Ayush autonomous bodies",
+    "list_url": "https://www.indiabudget.gov.in/doc/eb/sbe4.pdf",
+    "list_as_of": "2026-10-02"
+   },
+   "reference_id": "Union Budget 2026-27 SBE, Ministry of Ayush"
+  },
+  {
+   "key": "nium-bengaluru",
+   "name": "National Institute of Unani Medicine",
+   "website": "https://nium.in",
+   "city": "Bengaluru",
+   "state": "Karnataka",
+   "statutory_basis": "Autonomous national institute of the Ministry of Ayush; affiliated to Rajiv Gandhi University of Health Sciences",
+   "regulators": "NCISM",
+   "nodes": [],
+   "notes": "MD/MS (Unani) in ten subjects. No BUMS career node exists yet.",
+   "departments": [
+    {
+     "name": "National Institute of Unani Medicine Ghaziabad Campus",
+     "new": true,
+     "city": "Ghaziabad",
+     "state": "Uttar Pradesh",
+     "notes": "Satellite campus inaugurated 11 Dec 2022; MD/MS seats."
+    }
+   ],
+   "family": "ayush_national_institute",
+   "verification": {
+    "authority": "Ministry of Ayush",
+    "list_name": "Union Budget 2026-27, Statement of Budget Estimates — Ministry of Ayush autonomous bodies",
+    "list_url": "https://www.indiabudget.gov.in/doc/eb/sbe4.pdf",
+    "list_as_of": "2026-10-02"
+   },
+   "reference_id": "Union Budget 2026-27 SBE, Ministry of Ayush"
+  },
+  {
+   "key": "nis-chennai",
+   "name": "National Institute of Siddha",
+   "website": "https://nischennai.org",
+   "city": "Chennai",
+   "state": "Tamil Nadu",
+   "statutory_basis": "Autonomous national institute of the Ministry of Ayush",
+   "regulators": "NCISM",
+   "nodes": [],
+   "notes": "MD (Siddha) at Tambaram Sanatorium. No BSMS career node exists yet.",
+   "family": "ayush_national_institute",
+   "verification": {
+    "authority": "Ministry of Ayush",
+    "list_name": "Union Budget 2026-27, Statement of Budget Estimates — Ministry of Ayush autonomous bodies",
+    "list_url": "https://www.indiabudget.gov.in/doc/eb/sbe4.pdf",
+    "list_as_of": "2026-10-02"
+   },
+   "reference_id": "Union Budget 2026-27 SBE, Ministry of Ayush"
+  },
+  {
+   "key": "mdniy",
+   "name": "Morarji Desai National Institute of Yoga",
+   "city": "New Delhi",
+   "state": "Delhi",
+   "statutory_basis": "Autonomous national institute of the Ministry of Ayush",
+   "nodes": [],
+   "notes": "B.Sc. (Yoga Science) and diploma courses. No yoga career node exists yet.",
+   "family": "ayush_national_institute",
+   "verification": {
+    "authority": "Ministry of Ayush",
+    "list_name": "Union Budget 2026-27, Statement of Budget Estimates — Ministry of Ayush autonomous bodies",
+    "list_url": "https://www.indiabudget.gov.in/doc/eb/sbe4.pdf",
+    "list_as_of": "2026-10-02"
+   },
+   "reference_id": "Union Budget 2026-27 SBE, Ministry of Ayush"
+  },
+  {
+   "key": "neiah",
+   "name": "North Eastern Institute of Ayurveda and Homoeopathy",
+   "city": "Shillong",
+   "state": "Meghalaya",
+   "statutory_basis": "Autonomous national institute of the Ministry of Ayush; affiliated to North-Eastern Hill University",
+   "regulators": "NCISM; NCH",
+   "nodes": [
+    "bams",
+    "bhms",
+    "ayurveda_doctor",
+    "homeopathy_doctor"
+   ],
+   "notes": "BAMS and BHMS.",
+   "family": "ayush_national_institute",
+   "verification": {
+    "authority": "Ministry of Ayush",
+    "list_name": "Union Budget 2026-27, Statement of Budget Estimates — Ministry of Ayush autonomous bodies",
+    "list_url": "https://www.indiabudget.gov.in/doc/eb/sbe4.pdf",
+    "list_as_of": "2026-10-02"
+   },
+   "reference_id": "Union Budget 2026-27 SBE, Ministry of Ayush"
+  },
+  {
+   "key": "nisr-leh",
+   "name": "National Institute of Sowa-Rigpa",
+   "website": "https://sowarigpainstitute.in",
+   "city": "Leh",
+   "state": "Ladakh",
+   "statutory_basis": "Autonomous national institute of the Ministry of Ayush",
+   "regulators": "NCISM",
+   "nodes": [],
+   "notes": "BSRMS (Sowa-Rigpa) through the University of Ladakh, taught in Bhoti; admission via NCISM-NEET (Sowa-Rigpa).",
+   "family": "ayush_national_institute",
+   "verification": {
+    "authority": "Ministry of Ayush",
+    "list_name": "Union Budget 2026-27, Statement of Budget Estimates — Ministry of Ayush autonomous bodies",
+    "list_url": "https://www.indiabudget.gov.in/doc/eb/sbe4.pdf",
+    "list_as_of": "2026-10-02"
+   },
+   "reference_id": "Union Budget 2026-27 SBE, Ministry of Ayush"
+  },
+  {
+   "key": "ni-dehradun-7",
+   "name": "National Institute for the Empowerment of Persons with Visual Disabilities",
+   "website": "https://niepvd.nic.in",
+   "reference_id": "DEPwD national institutes list",
+   "city": "Dehradun",
+   "state": "Uttarakhand",
+   "family": "national_rehab_institute",
+   "regulators": "RCI",
+   "statutory_basis": "Autonomous society of DEPwD (Ministry of Social Justice and Empowerment)",
+   "nodes": [
+    "special_educator",
+    "clinical_psychologist"
+   ],
+   "verification": {
+    "authority": "Department of Empowerment of Persons with Disabilities (Ministry of Social Justice and Empowerment)",
+    "list_name": "DEPwD — the nine National Institutes",
+    "list_url": "https://depwd.gov.in/en/national-institutes/",
+    "list_as_of": "2026-10-02"
+   }
+  },
+  {
+   "key": "ni-mumbai-8",
+   "name": "Ali Yavar Jung National Institute of Speech and Hearing Disabilities",
+   "website": "https://ayjnishd.nic.in",
+   "reference_id": "DEPwD national institutes list",
+   "city": "Mumbai",
+   "state": "Maharashtra",
+   "family": "national_rehab_institute",
+   "regulators": "RCI",
+   "statutory_basis": "Autonomous society of DEPwD (Ministry of Social Justice and Empowerment)",
+   "nodes": [
+    "special_educator"
+   ],
+   "verification": {
+    "authority": "Department of Empowerment of Persons with Disabilities (Ministry of Social Justice and Empowerment)",
+    "list_name": "DEPwD — the nine National Institutes",
+    "list_url": "https://depwd.gov.in/en/national-institutes/",
+    "list_as_of": "2026-10-02"
+   },
+   "notes": "Courses in audiology, speech-language pathology and special education."
+  },
+  {
+   "key": "ni-secunderabad-9",
+   "name": "National Institute for the Empowerment of Persons with Intellectual Disabilities",
+   "website": "https://niepid.nic.in",
+   "reference_id": "DEPwD national institutes list",
+   "city": "Secunderabad",
+   "state": "Telangana",
+   "family": "national_rehab_institute",
+   "regulators": "RCI",
+   "statutory_basis": "Autonomous society of DEPwD (Ministry of Social Justice and Empowerment)",
+   "nodes": [
+    "special_educator",
+    "clinical_psychologist"
+   ],
+   "verification": {
+    "authority": "Department of Empowerment of Persons with Disabilities (Ministry of Social Justice and Empowerment)",
+    "list_name": "DEPwD — the nine National Institutes",
+    "list_url": "https://depwd.gov.in/en/national-institutes/",
+    "list_as_of": "2026-10-02"
+   }
+  },
+  {
+   "key": "ni-chennai-10",
+   "name": "National Institute for Empowerment of Persons with Multiple Disabilities",
+   "website": "https://niepmd.nic.in",
+   "reference_id": "DEPwD national institutes list",
+   "city": "Chennai",
+   "state": "Tamil Nadu",
+   "family": "national_rehab_institute",
+   "regulators": "RCI",
+   "statutory_basis": "Autonomous society of DEPwD (Ministry of Social Justice and Empowerment)",
+   "nodes": [
+    "special_educator",
+    "clinical_psychologist",
+    "physiotherapist"
+   ],
+   "verification": {
+    "authority": "Department of Empowerment of Persons with Disabilities (Ministry of Social Justice and Empowerment)",
+    "list_name": "DEPwD — the nine National Institutes",
+    "list_url": "https://depwd.gov.in/en/national-institutes/",
+    "list_as_of": "2026-10-02"
+   },
+   "existing": [
+    "National Institute for Empowerment of Persons with Multiple Disabilities (NIEPMD)"
+   ],
+   "notes": "Campus at Muttukadu, East Coast Road."
+  },
+  {
+   "key": "ni-new-delhi-11",
+   "name": "Pt. Deendayal Upadhyaya National Institute for Persons with Physical Disabilities",
+   "website": "https://pdunippd.nic.in",
+   "reference_id": "DEPwD national institutes list",
+   "city": "New Delhi",
+   "state": "Delhi",
+   "family": "national_rehab_institute",
+   "regulators": "RCI",
+   "statutory_basis": "Autonomous society of DEPwD (Ministry of Social Justice and Empowerment)",
+   "nodes": [
+    "physiotherapist"
+   ],
+   "verification": {
+    "authority": "Department of Empowerment of Persons with Disabilities (Ministry of Social Justice and Empowerment)",
+    "list_name": "DEPwD — the nine National Institutes",
+    "list_url": "https://depwd.gov.in/en/national-institutes/",
+    "list_as_of": "2026-10-02"
+   }
+  },
+  {
+   "key": "ni-cuttack-12",
+   "name": "Swami Vivekanand National Institute of Rehabilitation Training and Research",
+   "website": "https://www.svnirtar.nic.in",
+   "reference_id": "DEPwD national institutes list",
+   "city": "Cuttack",
+   "state": "Odisha",
+   "family": "national_rehab_institute",
+   "regulators": "RCI",
+   "statutory_basis": "Autonomous society of DEPwD (Ministry of Social Justice and Empowerment)",
+   "nodes": [
+    "physiotherapist"
+   ],
+   "verification": {
+    "authority": "Department of Empowerment of Persons with Disabilities (Ministry of Social Justice and Empowerment)",
+    "list_name": "DEPwD — the nine National Institutes",
+    "list_url": "https://depwd.gov.in/en/national-institutes/",
+    "list_as_of": "2026-10-02"
+   },
+   "notes": "Campus at Olatpur; also runs BASLP and DNB (PMR)."
+  },
+  {
+   "key": "ni-kolkata-13",
+   "name": "National Institute for Locomotor Disabilities",
+   "website": "https://nild.nic.in",
+   "reference_id": "DEPwD national institutes list",
+   "city": "Kolkata",
+   "state": "West Bengal",
+   "family": "national_rehab_institute",
+   "regulators": "RCI",
+   "statutory_basis": "Autonomous society of DEPwD (Ministry of Social Justice and Empowerment)",
+   "nodes": [
+    "physiotherapist"
+   ],
+   "verification": {
+    "authority": "Department of Empowerment of Persons with Disabilities (Ministry of Social Justice and Empowerment)",
+    "list_name": "DEPwD — the nine National Institutes",
+    "list_url": "https://depwd.gov.in/en/national-institutes/",
+    "list_as_of": "2026-10-02"
+   }
+  },
+  {
+   "key": "ni-new-delhi-14",
+   "name": "Indian Sign Language Research and Training Centre",
+   "website": "https://islrtc.nic.in",
+   "reference_id": "DEPwD national institutes list",
+   "city": "New Delhi",
+   "state": "Delhi",
+   "family": "national_rehab_institute",
+   "regulators": "RCI",
+   "statutory_basis": "Autonomous society of DEPwD (Ministry of Social Justice and Empowerment)",
+   "nodes": [],
+   "verification": {
+    "authority": "Department of Empowerment of Persons with Disabilities (Ministry of Social Justice and Empowerment)",
+    "list_name": "DEPwD — the nine National Institutes",
+    "list_url": "https://depwd.gov.in/en/national-institutes/",
+    "list_as_of": "2026-10-02"
+   },
+   "notes": "Diplomas in Indian Sign Language interpretation and teaching."
+  },
+  {
+   "key": "ni-sehore-15",
+   "name": "National Institute of Mental Health and Rehabilitation",
+   "website": "https://nimhr.nic.in",
+   "reference_id": "DEPwD national institutes list",
+   "city": "Sehore",
+   "state": "Madhya Pradesh",
+   "family": "national_rehab_institute",
+   "regulators": "RCI",
+   "statutory_basis": "Autonomous society of DEPwD (Ministry of Social Justice and Empowerment)",
+   "nodes": [
+    "clinical_psychologist"
+   ],
+   "verification": {
+    "authority": "Department of Empowerment of Persons with Disabilities (Ministry of Social Justice and Empowerment)",
+    "list_name": "DEPwD — the nine National Institutes",
+    "list_url": "https://depwd.gov.in/en/national-institutes/",
+    "list_as_of": "2026-10-02"
+   },
+   "notes": "Approved by the Cabinet in 2018; admits to a Bachelor in Clinical Psychology."
+  }
+ ]
+}
