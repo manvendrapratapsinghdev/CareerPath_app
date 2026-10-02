@@ -174,7 +174,7 @@ Keyword step details:
    **Query normalisation (shared by voice + typed chat):** `SearchAliases.expand` → `SearchSpellCorrector.correctQuery` → `expand` again
    (so a misspelled alias like "docter" still expands). Both are built once in `warmUp()` (called from `main.dart`), the corrector in a
    background isolate (`compute`). If an asset fails to load, that step is skipped and words match as written.
-   - **Aliases** (`search_aliases.dart`, asset `assets/data/search_aliases.json`, ~530 keys): adds expansions after the student's words
+   - **Aliases** (`search_aliases.dart`, asset `assets/data/search_aliases.json`, ~573 keys): adds expansions after the student's words
      (`engg`→engineering, `mbbs`→medical, `bhu`→Banaras Hindu University, `vakil`→lawyer, `up`→Uttar Pradesh). Longest key wins
      ("sarkari naukri" as a phrase). **Never hand-edit the JSON:** edit `tooling/search_aliases.txt`, run `python3 tooling/build_search_aliases.py`
      (merges DB-derived "Name (ABBR)" pairs whose letters spell the name + institute initials used on their own in the same city; drops
@@ -236,11 +236,11 @@ Order of construction: `SharedPreferences` → repositories/services (bookmarks,
 
 ## 8. DATABASE SCHEMA — `assets/data/career_path.db` (SQLite, read-only in app)
 
-Row counts as of this commit: streams 3 · career_nodes 380 · books 1 111 · institutes 913 · job_sectors 476 ·
-institute_courses 8 376 · node_books 2 751 · node_institutes 6 041 · node_job_sectors 1 375 · course_career_nodes 9 495
-· institute_categories 409 · institute_rankings 374 · institution_groups 13 · families 114 · institute_classification
-440 · institute_verifications 364 · institute_accreditations 0 · countries 1 · states 36 · districts 0 · places 0 ·
-place_aliases 0 · campuses 0 · domains 27 · domain_nodes 90 · domain_tiers 278 · institute_domain_tiers 515.
+Row counts as of this commit: streams 3 · career_nodes 380 · books 1 111 · institutes 969 · job_sectors 476 ·
+institute_courses 8 376 · node_books 2 751 · node_institutes 6 201 · node_job_sectors 1 375 · course_career_nodes 9 495
+· institute_categories 409 · institute_rankings 447 · institution_groups 13 · families 114 · institute_classification
+508 · institute_verifications 432 · institute_accreditations 0 · countries 1 · states 36 · districts 0 · places 0 ·
+place_aliases 0 · campuses 0 · domains 27 · domain_nodes 90 · domain_tiers 278 · institute_domain_tiers 599.
 
 ### 8.1 Tables (DDL, condensed from `sqlite3 .schema`)
 
@@ -378,7 +378,7 @@ streams 1───∞ career_nodes ∞───1 career_nodes (parent_id, self-t
 - **Streams:** 1 science, 2 commerce, 3 art.
 - **Tree depth:** L1 = 17 roots, L2 = 84, L3 = 241, L4 = 38 → **275 leaves**, 17 root nodes.
   Books/institutes/sectors hang off nodes (mostly leaves) via junction tables.
-- **institutes.state:** filled for 888 of 913 (34 states/UTs; Andaman and Nicobar and Lakshadweep still have none; Rajasthan 129, Maharashtra 107, Uttar Pradesh 93, Madhya Pradesh 88, Delhi 78, Tamil Nadu 58, …). Only city "Various" (24) and "Online" (1) stay NULL. Courses exist only for the researched
+- **institutes.state:** filled for 944 of 969 (34 states/UTs; Andaman and Nicobar and Lakshadweep still have none; Rajasthan 133, Maharashtra 112, Uttar Pradesh 96, Madhya Pradesh 90, Delhi 78, Tamil Nadu 59, …). Only city "Various" (24) and "Online" (1) stay NULL. Courses exist only for the researched
   Rajasthan/MP/UP institutes. Hand-added institutes had a city but no state; `tooling/fill_institute_states.py` fills it from the city
   (curated `CITY_STATES`; add a row when a new city appears). **districts** are still NULL for those rows — never guessed.
 - **institutes.institution_type:** ~119 NULL. Values include government_college, specialized, state_university, central_institute,
@@ -391,7 +391,7 @@ streams 1───∞ career_nodes ∞───1 career_nodes (parent_id, self-t
   Look-alike real names stay as they are: Kannur, Lovely Professional, Bhupal Nobles', Narsee Monjee, Sanskriti.
   `SearchSpellCorrector` trusts every data word as spelled.
 - **institute_categories:** ~35 distinct labels (College 92, Engineering 63, Management 63, Overall 61, Pharmacy 28, Law 23, …).
-- **institute_rankings:** 374 rows, NIRF 2025 only (incl. Research, Innovation, SDG Institutions). `rank` may be NULL with
+- **institute_rankings:** 447 rows, NIRF 2025 only (incl. Research, Innovation, SDG Institutions). `rank` may be NULL with
   `rank_band` set (e.g. IIT Goa Engineering 101-150). Batch loads replace an institute's rows for the snapshot year.
 - **Taxonomy coverage (Wave A, batches A1–A5b, done — every G1 family):** all 23 IITs + IISc (A1), all 22 IIMs (A2, incl. IIM Guwahati, added
   to the IIM Act in 2025, no NIRF rank, website NULL), all 23 AIIMS + JIPMER, PGIMER, NIMHANS (A3), the 7 IISERs,
@@ -420,7 +420,11 @@ streams 1───∞ career_nodes ∞───1 career_nodes (parent_id, self-t
   nodes, plan T8). Wave C is complete. Wave D has started: D1, the 27 National Law Universities (25 Consortium of NLUs members
   + NLU Delhi + Sikkim NLU from UGC's state list; family `nlu`, G4, `state_govt`, all linked to BA LLB; GNLU Silvassa campus as a child row; IIULER Goa, a BCI-trust
   private consortium member, is left for Wave F) and the 5 state law universities (KSLU, TNDALU, Dr. Bhimrao Ambedkar LU Jaipur,
-  Madhusudan LU, SGTB State University of Law; family `state_law_university`). 13 carry NIRF 2025 Law ranks. Wave J1: ICAI, ICSI, ICMAI, IAI (their Acts) and
+  Madhusudan LU, SGTB State University of Law; family `state_law_university`). 13 carry NIRF 2025 Law ranks. D3: all 68
+  universities on ICAR's State Agricultural Universities list (51 agricultural/horticulture/fisheries → `state_agricultural_university`,
+  17 veterinary → `state_veterinary_university`), names hand-corrected, seats from UGC addresses, 73 NIRF 2025 rank rows; constituent
+  colleges (RCA Udaipur, Madras/Bombay Veterinary College) stay separate for Wave G. The "ANDUAT …, Kumarganj, Ayodhya" duplicate is
+  not merged: both ANDUAT rows carry a research `source_id`, and `merge_into` refuses such pairs (the importer would recreate them). Wave J1: ICAI, ICSI, ICMAI, IAI (their Acts) and
   NISM, IIBF, III (`finance_certification_body`) are G10a with `ownership` NULL (a spec's `"ownership": "not_applicable"`,
   allowed only for G10a; no UGC check); the commerce_finance, management and science ladders end with a G10a
   professional-bodies tier (`PROFESSIONAL_BODIES` in `tooling/domain_tiers.py`), so every institute is placed. Each has a verification row. Official reference lists for later waves (UGC state 523 / private 560 / deemed 161, ICAR SAUs 68,

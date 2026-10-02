@@ -1,0 +1,1042 @@
+{
+ "batch": "D3",
+ "title": "Wave D (G4): the 68 state agricultural, veterinary, horticulture and fisheries universities (ICAR list)",
+ "verified_at": "2026-10-02",
+ "nirf_snapshot": "research/official_lists/nirf/nirf_2025.json",
+ "verification": {
+  "authority": "Indian Council of Agricultural Research (ICAR)",
+  "list_name": "ICAR list of State Agricultural Universities",
+  "list_url": "https://icar.org.in/en/state-agricultural-universities",
+  "list_as_of": "2026-10-02"
+ },
+ "defaults": {
+  "group": "G4",
+  "ownership": "state_govt",
+  "legacy_type": "state_university",
+  "regulators": "ICAR; UGC",
+  "statutory_basis": "State Act (state agricultural university)",
+  "nirf": false
+ },
+ "families": {
+  "state_agricultural_university": {
+   "national_count": 51,
+   "as_of": "2026-10-02",
+   "official_list_url": "https://icar.org.in/en/state-agricultural-universities"
+  },
+  "state_veterinary_university": {
+   "national_count": 17,
+   "as_of": "2026-10-02",
+   "official_list_url": "https://icar.org.in/en/state-agricultural-universities"
+  }
+ },
+ "institutes": [
+  {
+   "key": "sau-1",
+   "name": "Acharya N.G. Ranga Agricultural University",
+   "city": "Guntur",
+   "state": "Andhra Pradesh",
+   "reference_id": "ICAR SAU list Sr. 1; UGC state universities ugc_id 185",
+   "family": "state_agricultural_university",
+   "nodes": [
+    "bsc_agriculture",
+    "agri_scientist",
+    "agri_officer"
+   ],
+   "website": "https://angrau.ac.in",
+   "nirf_names": [
+    "Acharya NG Ranga Agricultural University, Guntur"
+   ],
+   "notes": "Campus at Lam, Guntur."
+  },
+  {
+   "key": "sau-2",
+   "name": "Dr. Y.S.R. Horticultural University",
+   "city": "Venkataramannagudem",
+   "state": "Andhra Pradesh",
+   "reference_id": "ICAR SAU list Sr. 2; UGC state universities ugc_id 652",
+   "family": "state_agricultural_university",
+   "nodes": [
+    "bsc_agriculture",
+    "agri_scientist",
+    "agri_officer"
+   ],
+   "website": "https://drysrhu.ap.gov.in",
+   "nirf_names": [
+    "Dr Y S R Horticulture University"
+   ],
+   "notes": "West Godavari district."
+  },
+  {
+   "key": "sau-3",
+   "name": "Sri Venkateswara Veterinary University",
+   "city": "Tirupati",
+   "state": "Andhra Pradesh",
+   "reference_id": "ICAR SAU list Sr. 3; UGC state universities ugc_id 391",
+   "family": "state_veterinary_university",
+   "nodes": [
+    "bvsc",
+    "veterinarian"
+   ],
+   "website": "https://www.svvu.edu.in"
+  },
+  {
+   "key": "sau-4",
+   "name": "Andhra Pradesh Fisheries University",
+   "city": "Vijayawada",
+   "state": "Andhra Pradesh",
+   "reference_id": "ICAR SAU list Sr. 4; UGC state universities ugc_id 1216",
+   "family": "state_agricultural_university",
+   "nodes": [
+    "agri_scientist"
+   ],
+   "website": "https://apfu.ap.gov.in"
+  },
+  {
+   "key": "sau-5",
+   "name": "Assam Agricultural University",
+   "city": "Jorhat",
+   "state": "Assam",
+   "reference_id": "ICAR SAU list Sr. 5; UGC state universities ugc_id 198",
+   "family": "state_agricultural_university",
+   "nodes": [
+    "bsc_agriculture",
+    "agri_scientist",
+    "agri_officer"
+   ],
+   "website": "http://www.aau.ac.in",
+   "nirf_names": [
+    "Assam Agricultural University, Jorhat"
+   ]
+  },
+  {
+   "key": "sau-6",
+   "name": "Assam Veterinary and Fishery University",
+   "city": "Guwahati",
+   "state": "Assam",
+   "reference_id": "ICAR SAU list Sr. 6; UGC state universities ugc_id 1417",
+   "family": "state_veterinary_university",
+   "nodes": [
+    "bvsc",
+    "veterinarian"
+   ],
+   "website": "http://www.vetbifg.ac.in",
+   "notes": "Seat at Khanapara, Guwahati."
+  },
+  {
+   "key": "sau-7",
+   "name": "Bihar Agricultural University",
+   "city": "Bhagalpur",
+   "state": "Bihar",
+   "reference_id": "ICAR SAU list Sr. 7; UGC state universities ugc_id 682",
+   "family": "state_agricultural_university",
+   "nodes": [
+    "bsc_agriculture",
+    "agri_scientist",
+    "agri_officer"
+   ],
+   "website": "http://bausabour.ac.in",
+   "nirf_names": [
+    "Bihar Agriculture University"
+   ],
+   "notes": "Campus at Sabour, Bhagalpur."
+  },
+  {
+   "key": "sau-8",
+   "name": "Bihar Animal Sciences University",
+   "city": "Patna",
+   "state": "Bihar",
+   "reference_id": "ICAR SAU list Sr. 8; UGC state universities ugc_id 993",
+   "family": "state_veterinary_university",
+   "nodes": [
+    "bvsc",
+    "veterinarian"
+   ],
+   "website": "https://www.basu.org.in"
+  },
+  {
+   "key": "sau-9",
+   "name": "Indira Gandhi Krishi Vishwavidyalaya",
+   "city": "Raipur",
+   "state": "Chhattisgarh",
+   "reference_id": "ICAR SAU list Sr. 9; UGC state universities ugc_id 266",
+   "family": "state_agricultural_university",
+   "nodes": [
+    "bsc_agriculture",
+    "agri_scientist",
+    "agri_officer"
+   ],
+   "website": "https://igkv.ac.in",
+   "nirf_names": [
+    "Indira Gandhi Krishi Vishwavidyalaya, Raipur"
+   ]
+  },
+  {
+   "key": "sau-10",
+   "name": "Chhattisgarh Kamdhenu Vishwavidyalaya",
+   "city": "Durg",
+   "state": "Chhattisgarh",
+   "reference_id": "ICAR SAU list Sr. 10; UGC state universities ugc_id 708",
+   "family": "state_veterinary_university",
+   "nodes": [
+    "bvsc",
+    "veterinarian"
+   ],
+   "website": "http://cgkv.ac.in"
+  },
+  {
+   "key": "sau-11",
+   "name": "Mahatma Gandhi Udyanikee Evam Vanikee Vishwavidyalaya",
+   "city": "Durg",
+   "state": "Chhattisgarh",
+   "reference_id": "ICAR SAU list Sr. 11; UGC state universities ugc_id 1161",
+   "family": "state_agricultural_university",
+   "nodes": [
+    "bsc_agriculture",
+    "agri_scientist"
+   ],
+   "website": "https://mguvv.ac.in",
+   "notes": "Seat at Sankra-Patan, Durg district."
+  },
+  {
+   "key": "sau-12",
+   "name": "Sardarkrushinagar Dantiwada Agricultural University",
+   "city": "Dantiwada",
+   "state": "Gujarat",
+   "reference_id": "ICAR SAU list Sr. 12; UGC state universities ugc_id 947",
+   "family": "state_agricultural_university",
+   "nodes": [
+    "bsc_agriculture",
+    "agri_scientist",
+    "agri_officer"
+   ],
+   "website": "http://www.sdau.edu.in",
+   "notes": "Banaskantha district."
+  },
+  {
+   "key": "sau-13",
+   "name": "Anand Agricultural University",
+   "city": "Anand",
+   "state": "Gujarat",
+   "reference_id": "ICAR SAU list Sr. 13; UGC state universities ugc_id 190",
+   "family": "state_agricultural_university",
+   "nodes": [
+    "bsc_agriculture",
+    "agri_scientist",
+    "agri_officer"
+   ],
+   "website": "http://www.aau.in"
+  },
+  {
+   "key": "sau-14",
+   "name": "Navsari Agricultural University",
+   "city": "Navsari",
+   "state": "Gujarat",
+   "reference_id": "ICAR SAU list Sr. 14; UGC state universities ugc_id 840",
+   "family": "state_agricultural_university",
+   "nodes": [
+    "bsc_agriculture",
+    "agri_scientist",
+    "agri_officer"
+   ],
+   "website": "https://nau.in"
+  },
+  {
+   "key": "sau-15",
+   "name": "Junagadh Agricultural University",
+   "city": "Junagadh",
+   "state": "Gujarat",
+   "reference_id": "ICAR SAU list Sr. 15; UGC state universities ugc_id 739",
+   "family": "state_agricultural_university",
+   "nodes": [
+    "bsc_agriculture",
+    "agri_scientist",
+    "agri_officer"
+   ],
+   "website": "http://www.jau.in"
+  },
+  {
+   "key": "sau-16",
+   "name": "Kamdhenu University",
+   "city": "Gandhinagar",
+   "state": "Gujarat",
+   "reference_id": "ICAR SAU list Sr. 16; UGC state universities ugc_id 927",
+   "family": "state_veterinary_university",
+   "nodes": [
+    "bvsc",
+    "veterinarian"
+   ],
+   "website": "https://www.kamdhenuuni.edu.in"
+  },
+  {
+   "key": "sau-17",
+   "name": "Gujarat Natural Farming and Organic Agricultural University",
+   "city": "Anand",
+   "state": "Gujarat",
+   "reference_id": "ICAR SAU list Sr. 17; UGC state universities ugc_id 1187",
+   "family": "state_agricultural_university",
+   "nodes": [
+    "bsc_agriculture",
+    "agri_scientist",
+    "agri_officer"
+   ],
+   "notes": "Named on ICAR's list as Gujarat Natural Farming Sciences University, Panchmahal (marked * with no footnote); name and seat here follow UGC (ATIC Building, Borsad Chokdi, Anand). Re-check.",
+   "confidence": "medium"
+  },
+  {
+   "key": "sau-18",
+   "name": "Chaudhary Charan Singh Haryana Agricultural University",
+   "city": "Hisar",
+   "state": "Haryana",
+   "reference_id": "ICAR SAU list Sr. 18; UGC state universities ugc_id 225",
+   "family": "state_agricultural_university",
+   "nodes": [
+    "bsc_agriculture",
+    "agri_scientist",
+    "agri_officer"
+   ],
+   "website": "http://www.hau.ac.in"
+  },
+  {
+   "key": "sau-19",
+   "name": "Lala Lajpat Rai University of Veterinary and Animal Sciences",
+   "city": "Hisar",
+   "state": "Haryana",
+   "reference_id": "ICAR SAU list Sr. 19; UGC state universities ugc_id 559",
+   "family": "state_veterinary_university",
+   "nodes": [
+    "bvsc",
+    "veterinarian"
+   ],
+   "website": "https://www.luvas.edu.in"
+  },
+  {
+   "key": "sau-20",
+   "name": "Maharana Pratap Horticultural University",
+   "city": "Karnal",
+   "state": "Haryana",
+   "reference_id": "ICAR SAU list Sr. 20; UGC state universities ugc_id 940",
+   "family": "state_agricultural_university",
+   "nodes": [
+    "bsc_agriculture",
+    "agri_scientist"
+   ],
+   "website": "https://www.mhu.ac.in"
+  },
+  {
+   "key": "sau-21",
+   "name": "Chaudhary Sarwan Kumar Himachal Pradesh Krishi Vishvavidyalaya",
+   "city": "Palampur",
+   "state": "Himachal Pradesh",
+   "reference_id": "ICAR SAU list Sr. 21; UGC state universities ugc_id 264",
+   "family": "state_agricultural_university",
+   "nodes": [
+    "bsc_agriculture",
+    "agri_scientist",
+    "agri_officer"
+   ],
+   "website": "http://hillagric.ac.in:1003/cskhpau",
+   "nirf_names": [
+    "Chaudhary Sarwan Kumar Himachal Pardesh Krishi Vishvavidyalaya"
+   ],
+   "notes": "Kangra district."
+  },
+  {
+   "key": "sau-22",
+   "name": "Dr. Yashwant Singh Parmar University of Horticulture and Forestry",
+   "city": "Solan",
+   "state": "Himachal Pradesh",
+   "reference_id": "ICAR SAU list Sr. 22; UGC state universities ugc_id 245",
+   "family": "state_agricultural_university",
+   "nodes": [
+    "bsc_agriculture",
+    "agri_scientist"
+   ],
+   "website": "http://www.yspuniversity.ac.in",
+   "nirf_names": [
+    "Dr. Y.S. Parmar University of Horticulture and Forestry"
+   ],
+   "notes": "Campus at Nauni, Solan."
+  },
+  {
+   "key": "sau-23",
+   "name": "Birsa Agricultural University",
+   "city": "Ranchi",
+   "state": "Jharkhand",
+   "reference_id": "ICAR SAU list Sr. 23; UGC state universities ugc_id 214",
+   "family": "state_agricultural_university",
+   "nodes": [
+    "bsc_agriculture",
+    "agri_scientist",
+    "agri_officer"
+   ],
+   "website": "http://www.baujharkhand.org"
+  },
+  {
+   "key": "sau-24",
+   "name": "Sher-e-Kashmir University of Agricultural Sciences and Technology of Kashmir",
+   "city": "Srinagar",
+   "state": "Jammu and Kashmir",
+   "reference_id": "ICAR SAU list Sr. 24; UGC state universities ugc_id 377",
+   "family": "state_agricultural_university",
+   "nodes": [
+    "bsc_agriculture",
+    "agri_scientist",
+    "agri_officer"
+   ],
+   "website": "http://www.skuastkashmir.ac.in",
+   "nirf_names": [
+    "Sher-e-Kashmir University of Agricultural Science and Technology of Kashmir"
+   ]
+  },
+  {
+   "key": "sau-25",
+   "name": "Sher-e-Kashmir University of Agricultural Sciences and Technology of Jammu",
+   "city": "Jammu",
+   "state": "Jammu and Kashmir",
+   "reference_id": "ICAR SAU list Sr. 25; UGC state universities ugc_id 1143",
+   "family": "state_agricultural_university",
+   "nodes": [
+    "bsc_agriculture",
+    "agri_scientist",
+    "agri_officer"
+   ],
+   "nirf_names": [
+    "Sher-e-Kashmir University of Agricultural Science and Technology of Jammu"
+   ]
+  },
+  {
+   "key": "sau-26",
+   "name": "University of Agricultural Sciences Bangalore",
+   "city": "Bengaluru",
+   "state": "Karnataka",
+   "reference_id": "ICAR SAU list Sr. 26; UGC state universities ugc_id 409",
+   "family": "state_agricultural_university",
+   "nodes": [
+    "bsc_agriculture",
+    "agri_scientist",
+    "agri_officer"
+   ],
+   "website": "http://www.uasbangalore.edu.in",
+   "nirf_names": [
+    "University of Agricultural Sciences, Bangalore"
+   ]
+  },
+  {
+   "key": "sau-27",
+   "name": "Karnataka Veterinary, Animal and Fisheries Sciences University",
+   "city": "Bidar",
+   "state": "Karnataka",
+   "reference_id": "ICAR SAU list Sr. 27; UGC state universities ugc_id 288",
+   "family": "state_veterinary_university",
+   "nodes": [
+    "bvsc",
+    "veterinarian"
+   ],
+   "website": "https://www.kvafsu.edu.in"
+  },
+  {
+   "key": "sau-28",
+   "name": "University of Agricultural Sciences Raichur",
+   "city": "Raichur",
+   "state": "Karnataka",
+   "reference_id": "ICAR SAU list Sr. 28; UGC state universities ugc_id 919",
+   "family": "state_agricultural_university",
+   "nodes": [
+    "bsc_agriculture",
+    "agri_scientist",
+    "agri_officer"
+   ]
+  },
+  {
+   "key": "sau-29",
+   "name": "University of Agricultural Sciences Dharwad",
+   "city": "Dharwad",
+   "state": "Karnataka",
+   "reference_id": "ICAR SAU list Sr. 29; UGC state universities ugc_id 410",
+   "family": "state_agricultural_university",
+   "nodes": [
+    "bsc_agriculture",
+    "agri_scientist",
+    "agri_officer"
+   ],
+   "website": "http://www.uasd.edu",
+   "nirf_names": [
+    "University of Agricultural Sciences"
+   ],
+   "nirf_city": "Dharwad"
+  },
+  {
+   "key": "sau-30",
+   "name": "University of Horticultural Sciences Bagalkot",
+   "city": "Bagalkot",
+   "state": "Karnataka",
+   "reference_id": "ICAR SAU list Sr. 30; UGC state universities ugc_id 816",
+   "family": "state_agricultural_university",
+   "nodes": [
+    "bsc_agriculture",
+    "agri_scientist"
+   ],
+   "website": "https://www.uhsbagalkot.edu.in"
+  },
+  {
+   "key": "sau-31",
+   "name": "Keladi Shivappa Nayaka University of Agricultural and Horticultural Sciences",
+   "city": "Shivamogga",
+   "state": "Karnataka",
+   "reference_id": "ICAR SAU list Sr. 31; UGC state universities ugc_id 1287",
+   "family": "state_agricultural_university",
+   "nodes": [
+    "bsc_agriculture",
+    "agri_scientist",
+    "agri_officer"
+   ],
+   "website": "https://uahs.edu.in/?lang=en"
+  },
+  {
+   "key": "sau-32",
+   "name": "Kerala Agricultural University",
+   "city": "Thrissur",
+   "state": "Kerala",
+   "reference_id": "ICAR SAU list Sr. 32; UGC state universities ugc_id 292",
+   "family": "state_agricultural_university",
+   "nodes": [
+    "bsc_agriculture",
+    "agri_scientist",
+    "agri_officer"
+   ],
+   "website": "http://www.kau.edu",
+   "nirf_names": [
+    "Kerala Agricultural University, Thrissur"
+   ]
+  },
+  {
+   "key": "sau-33",
+   "name": "Kerala University of Fisheries and Ocean Studies",
+   "city": "Kochi",
+   "state": "Kerala",
+   "reference_id": "ICAR SAU list Sr. 33; UGC state universities ugc_id 565",
+   "family": "state_agricultural_university",
+   "nodes": [
+    "agri_scientist"
+   ],
+   "website": "http://www.kufos.ac.in",
+   "notes": "Campus at Panangad, Kochi."
+  },
+  {
+   "key": "sau-34",
+   "name": "Kerala Veterinary and Animal Sciences University",
+   "city": "Pookode",
+   "state": "Kerala",
+   "reference_id": "ICAR SAU list Sr. 34; UGC state universities ugc_id 566",
+   "family": "state_veterinary_university",
+   "nodes": [
+    "bvsc",
+    "veterinarian"
+   ],
+   "website": "https://www.kvasu.ac.in",
+   "notes": "Wayanad district."
+  },
+  {
+   "key": "sau-35",
+   "name": "Rajmata Vijayaraje Scindia Krishi Vishwa Vidyalaya",
+   "city": "Gwalior",
+   "state": "Madhya Pradesh",
+   "reference_id": "ICAR SAU list Sr. 35; UGC state universities ugc_id 656",
+   "family": "state_agricultural_university",
+   "nodes": [
+    "bsc_agriculture",
+    "agri_scientist",
+    "agri_officer"
+   ]
+  },
+  {
+   "key": "sau-36",
+   "name": "Nanaji Deshmukh Veterinary Science University",
+   "city": "Jabalpur",
+   "state": "Madhya Pradesh",
+   "reference_id": "ICAR SAU list Sr. 36; UGC state universities ugc_id 568",
+   "family": "state_veterinary_university",
+   "nodes": [
+    "bvsc",
+    "veterinarian"
+   ],
+   "website": "http://www.ndvsu.org"
+  },
+  {
+   "key": "sau-37",
+   "name": "Jawaharlal Nehru Krishi Vishwavidyalaya",
+   "city": "Jabalpur",
+   "state": "Madhya Pradesh",
+   "reference_id": "ICAR SAU list Sr. 37; UGC state universities ugc_id 274",
+   "family": "state_agricultural_university",
+   "nodes": [
+    "bsc_agriculture",
+    "agri_scientist",
+    "agri_officer"
+   ],
+   "website": "http://www.jnkvv.nic.in"
+  },
+  {
+   "key": "sau-38",
+   "name": "Dr. Balasaheb Sawant Konkan Krishi Vidyapeeth",
+   "city": "Dapoli",
+   "state": "Maharashtra",
+   "reference_id": "ICAR SAU list Sr. 38; UGC state universities ugc_id 295",
+   "family": "state_agricultural_university",
+   "nodes": [
+    "bsc_agriculture",
+    "agri_scientist",
+    "agri_officer"
+   ],
+   "website": "http://www.dbskkv.org",
+   "notes": "UGC still lists it as Konkan Krishi Vidyapeeth."
+  },
+  {
+   "key": "sau-39",
+   "name": "Maharashtra Animal and Fishery Sciences University",
+   "city": "Nagpur",
+   "state": "Maharashtra",
+   "reference_id": "ICAR SAU list Sr. 39; UGC state universities ugc_id 315",
+   "family": "state_veterinary_university",
+   "nodes": [
+    "bvsc",
+    "veterinarian"
+   ],
+   "website": "http://www.mafsu.in"
+  },
+  {
+   "key": "sau-40",
+   "name": "Vasantrao Naik Marathwada Krishi Vidyapeeth",
+   "city": "Parbhani",
+   "state": "Maharashtra",
+   "reference_id": "ICAR SAU list Sr. 40; UGC state universities ugc_id 326",
+   "family": "state_agricultural_university",
+   "nodes": [
+    "bsc_agriculture",
+    "agri_scientist",
+    "agri_officer"
+   ],
+   "website": "https://www.vnmkv.ac.in",
+   "notes": "UGC still lists it as Marathwada Agricultural University."
+  },
+  {
+   "key": "sau-41",
+   "name": "Mahatma Phule Krishi Vidyapeeth",
+   "city": "Rahuri",
+   "state": "Maharashtra",
+   "reference_id": "ICAR SAU list Sr. 41; UGC state universities ugc_id 322",
+   "family": "state_agricultural_university",
+   "nodes": [
+    "bsc_agriculture",
+    "agri_scientist",
+    "agri_officer"
+   ],
+   "website": "http://www.mpkv.mah.nic.in",
+   "nirf_names": [
+    "Mahatma Phule Krishi Vidyapeeth, Rahuri"
+   ]
+  },
+  {
+   "key": "sau-42",
+   "name": "Dr. Panjabrao Deshmukh Krishi Vidyapeeth",
+   "city": "Akola",
+   "state": "Maharashtra",
+   "reference_id": "ICAR SAU list Sr. 42; UGC state universities ugc_id 241",
+   "family": "state_agricultural_university",
+   "nodes": [
+    "bsc_agriculture",
+    "agri_scientist",
+    "agri_officer"
+   ],
+   "website": "http://www.pdkv.mah.nic.in"
+  },
+  {
+   "key": "sau-43",
+   "name": "Odisha University of Agriculture and Technology",
+   "city": "Bhubaneswar",
+   "state": "Odisha",
+   "reference_id": "ICAR SAU list Sr. 43; UGC state universities ugc_id 344",
+   "family": "state_agricultural_university",
+   "nodes": [
+    "bsc_agriculture",
+    "agri_scientist",
+    "agri_officer"
+   ],
+   "website": "https://ouat.ac.in"
+  },
+  {
+   "key": "sau-44",
+   "name": "Guru Angad Dev Veterinary and Animal Sciences University",
+   "city": "Ludhiana",
+   "state": "Punjab",
+   "reference_id": "ICAR SAU list Sr. 44; UGC state universities ugc_id 259",
+   "family": "state_veterinary_university",
+   "nodes": [
+    "bvsc",
+    "veterinarian"
+   ],
+   "website": "http://www.gadvasu.in"
+  },
+  {
+   "key": "sau-45",
+   "name": "Punjab Agricultural University",
+   "city": "Ludhiana",
+   "state": "Punjab",
+   "reference_id": "ICAR SAU list Sr. 45; UGC state universities ugc_id 353",
+   "family": "state_agricultural_university",
+   "nodes": [
+    "bsc_agriculture",
+    "agri_scientist",
+    "agri_officer"
+   ],
+   "website": "https://www.pau.edu",
+   "existing": [
+    "Punjab Agricultural University (PAU)"
+   ]
+  },
+  {
+   "key": "sau-46",
+   "name": "Maharana Pratap University of Agriculture and Technology",
+   "city": "Udaipur",
+   "state": "Rajasthan",
+   "reference_id": "ICAR SAU list Sr. 46; UGC state universities ugc_id 314",
+   "family": "state_agricultural_university",
+   "nodes": [
+    "bsc_agriculture",
+    "agri_scientist",
+    "agri_officer"
+   ],
+   "website": "http://www.mpuat.ac.in",
+   "nirf_names": [
+    "Maharana Pratap University of Agriculture & Technology, Udaipur"
+   ]
+  },
+  {
+   "key": "sau-47",
+   "name": "Swami Keshwanand Rajasthan Agricultural University",
+   "city": "Bikaner",
+   "state": "Rajasthan",
+   "reference_id": "ICAR SAU list Sr. 47; UGC state universities ugc_id 357",
+   "family": "state_agricultural_university",
+   "nodes": [
+    "bsc_agriculture",
+    "agri_scientist",
+    "agri_officer"
+   ],
+   "website": "http://www.raubikaner.org"
+  },
+  {
+   "key": "sau-48",
+   "name": "Rajasthan University of Veterinary and Animal Sciences",
+   "city": "Bikaner",
+   "state": "Rajasthan",
+   "reference_id": "ICAR SAU list Sr. 48; UGC state universities ugc_id 681",
+   "family": "state_veterinary_university",
+   "nodes": [
+    "bvsc",
+    "veterinarian"
+   ],
+   "website": "https://rajuvas.org"
+  },
+  {
+   "key": "sau-49",
+   "name": "Rajasthan University of Veterinary and Animal Sciences Jobner",
+   "city": "Jobner",
+   "state": "Rajasthan",
+   "reference_id": "ICAR SAU list Sr. 49; UGC state universities ugc_id 1418",
+   "family": "state_veterinary_university",
+   "nodes": [
+    "bvsc",
+    "veterinarian"
+   ],
+   "website": "https://rajuvas.ac.in",
+   "notes": "Newer state veterinary university at Jobner, Jaipur district (UGC: The Rajasthan University of Veterinary and Animal Sciences (Jobner) Jaipur)."
+  },
+  {
+   "key": "sau-50",
+   "name": "Sri Karan Narendra Agriculture University",
+   "city": "Jobner",
+   "state": "Rajasthan",
+   "reference_id": "ICAR SAU list Sr. 50; UGC state universities ugc_id 1365",
+   "family": "state_agricultural_university",
+   "nodes": [
+    "bsc_agriculture",
+    "agri_scientist",
+    "agri_officer"
+   ],
+   "website": "https://sknau.ac.in"
+  },
+  {
+   "key": "sau-51",
+   "name": "Agriculture University Kota",
+   "city": "Kota",
+   "state": "Rajasthan",
+   "reference_id": "ICAR SAU list Sr. 51; UGC state universities ugc_id 1381",
+   "family": "state_agricultural_university",
+   "nodes": [
+    "bsc_agriculture",
+    "agri_scientist",
+    "agri_officer"
+   ],
+   "website": "https://aukota.org"
+  },
+  {
+   "key": "sau-52",
+   "name": "Agriculture University Jodhpur",
+   "city": "Jodhpur",
+   "state": "Rajasthan",
+   "reference_id": "ICAR SAU list Sr. 52; UGC state universities ugc_id 1163",
+   "family": "state_agricultural_university",
+   "nodes": [
+    "bsc_agriculture",
+    "agri_scientist",
+    "agri_officer"
+   ],
+   "website": "https://www.aujodhpur.ac.in"
+  },
+  {
+   "key": "sau-53",
+   "name": "Tamil Nadu Agricultural University",
+   "city": "Coimbatore",
+   "state": "Tamil Nadu",
+   "reference_id": "ICAR SAU list Sr. 53; UGC state universities ugc_id 397",
+   "family": "state_agricultural_university",
+   "nodes": [
+    "bsc_agriculture",
+    "agri_scientist",
+    "agri_officer"
+   ],
+   "website": "http://www.tnau.ac.in",
+   "existing": [
+    "Tamil Nadu Agricultural University (TNAU)"
+   ]
+  },
+  {
+   "key": "sau-54",
+   "name": "Tamil Nadu Veterinary and Animal Sciences University",
+   "city": "Chennai",
+   "state": "Tamil Nadu",
+   "reference_id": "ICAR SAU list Sr. 54; UGC state universities ugc_id 401",
+   "family": "state_veterinary_university",
+   "nodes": [
+    "bvsc",
+    "veterinarian"
+   ],
+   "website": "http://www.tanuvas.ac.in"
+  },
+  {
+   "key": "sau-55",
+   "name": "Tamil Nadu Fisheries University",
+   "city": "Nagapattinam",
+   "state": "Tamil Nadu",
+   "reference_id": "ICAR SAU list Sr. 55; UGC state universities ugc_id 711",
+   "family": "state_agricultural_university",
+   "nodes": [
+    "agri_scientist"
+   ],
+   "website": "http://www.tnfu.org.in/university/wp",
+   "notes": "Renamed Tamil Nadu Dr. J. Jayalalithaa Fisheries University; ICAR and UGC still list the old name."
+  },
+  {
+   "key": "sau-56",
+   "name": "Sri Konda Laxman Telangana Horticultural University",
+   "city": "Mulugu",
+   "state": "Telangana",
+   "reference_id": "ICAR SAU list Sr. 56; UGC state universities ugc_id 784",
+   "family": "state_agricultural_university",
+   "nodes": [
+    "bsc_agriculture",
+    "agri_scientist"
+   ],
+   "website": "http://skltshu.ac.in",
+   "notes": "Seat at Mulugu, Siddipet district (formerly Rajendranagar, Hyderabad)."
+  },
+  {
+   "key": "sau-57",
+   "name": "P.V. Narsimha Rao Telangana Veterinary University",
+   "city": "Hyderabad",
+   "state": "Telangana",
+   "reference_id": "ICAR SAU list Sr. 57; UGC state universities ugc_id 939",
+   "family": "state_veterinary_university",
+   "nodes": [
+    "bvsc",
+    "veterinarian"
+   ],
+   "website": "https://www.tsvu.nic.in"
+  },
+  {
+   "key": "sau-58",
+   "name": "Professor Jayashankar Telangana Agricultural University",
+   "city": "Hyderabad",
+   "state": "Telangana",
+   "reference_id": "ICAR SAU list Sr. 58; UGC state universities ugc_id 775",
+   "family": "state_agricultural_university",
+   "nodes": [
+    "bsc_agriculture",
+    "agri_scientist",
+    "agri_officer"
+   ],
+   "website": "http://www.pjtsau.edu.in",
+   "nirf_names": [
+    "Professor Jayashankar Telangana Agricultural University (PJTAU)"
+   ],
+   "notes": "Formerly Professor Jayashankar Telangana State Agricultural University."
+  },
+  {
+   "key": "sau-59",
+   "name": "G.B. Pant University of Agriculture and Technology",
+   "city": "Pantnagar",
+   "state": "Uttarakhand",
+   "reference_id": "ICAR SAU list Sr. 59; UGC state universities ugc_id 248",
+   "family": "state_agricultural_university",
+   "nodes": [
+    "bsc_agriculture",
+    "agri_scientist",
+    "agri_officer"
+   ],
+   "website": "http://www.gbpuat.ac.in",
+   "nirf_names": [
+    "G.B. Pant Universtiy of Agriculture and Technology, Pantnagar"
+   ]
+  },
+  {
+   "key": "sau-60",
+   "name": "Veer Chandra Singh Garhwali Uttarakhand University of Horticulture and Forestry",
+   "city": "Bharsar",
+   "state": "Uttarakhand",
+   "reference_id": "ICAR SAU list Sr. 60; UGC state universities ugc_id 741",
+   "family": "state_agricultural_university",
+   "nodes": [
+    "bsc_agriculture",
+    "agri_scientist"
+   ],
+   "website": "https://www.uuhf.ac.in"
+  },
+  {
+   "key": "sau-61",
+   "name": "Chandra Shekhar Azad University of Agriculture and Technology",
+   "city": "Kanpur",
+   "state": "Uttar Pradesh",
+   "reference_id": "ICAR SAU list Sr. 61; UGC state universities ugc_id 221",
+   "family": "state_agricultural_university",
+   "nodes": [
+    "bsc_agriculture",
+    "agri_scientist",
+    "agri_officer"
+   ],
+   "website": "http://www.csauk.ac.in"
+  },
+  {
+   "key": "sau-62",
+   "name": "Acharya Narendra Deva University of Agriculture and Technology",
+   "city": "Ayodhya",
+   "state": "Uttar Pradesh",
+   "reference_id": "ICAR SAU list Sr. 62; UGC state universities ugc_id 333",
+   "family": "state_agricultural_university",
+   "nodes": [
+    "bsc_agriculture",
+    "agri_scientist",
+    "agri_officer"
+   ],
+   "website": "https://www.nduat.org",
+   "nirf_names": [
+    "Acharya Narendra Deva University of Agriculture & Technology, Kumarganj, Ayodhya"
+   ],
+   "notes": "Campus at Kumarganj, Ayodhya."
+  },
+  {
+   "key": "sau-63",
+   "name": "Sardar Vallabhbhai Patel University of Agriculture and Technology",
+   "city": "Meerut",
+   "state": "Uttar Pradesh",
+   "reference_id": "ICAR SAU list Sr. 63; UGC state universities ugc_id 373",
+   "family": "state_agricultural_university",
+   "nodes": [
+    "bsc_agriculture",
+    "agri_scientist",
+    "agri_officer"
+   ],
+   "website": "http://www.svbpmeerut.ac.in"
+  },
+  {
+   "key": "sau-64",
+   "name": "U.P. Pandit Deen Dayal Upadhyaya Pashu Chikitsa Vigyan Vishwavidyalaya Evam Go-Anusandhan Sansthan",
+   "city": "Mathura",
+   "state": "Uttar Pradesh",
+   "reference_id": "ICAR SAU list Sr. 64; UGC state universities ugc_id 764",
+   "family": "state_veterinary_university",
+   "nodes": [
+    "bvsc",
+    "veterinarian"
+   ],
+   "website": "http://www.upvetuniv.edu.in",
+   "existing": [
+    "UP Pandit Deen Dayal Upadhyaya Veterinary University & Gau-Anusandhan Sansthan, Mathura"
+   ],
+   "notes": "Also known as DUVASU."
+  },
+  {
+   "key": "sau-65",
+   "name": "Banda University of Agriculture and Technology",
+   "city": "Banda",
+   "state": "Uttar Pradesh",
+   "reference_id": "ICAR SAU list Sr. 65; UGC state universities ugc_id 890",
+   "family": "state_agricultural_university",
+   "nodes": [
+    "bsc_agriculture",
+    "agri_scientist",
+    "agri_officer"
+   ],
+   "website": "http://buat.edu.in"
+  },
+  {
+   "key": "sau-66",
+   "name": "Bidhan Chandra Krishi Viswavidyalaya",
+   "city": "Mohanpur",
+   "state": "West Bengal",
+   "reference_id": "ICAR SAU list Sr. 66; UGC state universities ugc_id 212",
+   "family": "state_agricultural_university",
+   "nodes": [
+    "bsc_agriculture",
+    "agri_scientist",
+    "agri_officer"
+   ],
+   "website": "http://www.bckv.edu.in",
+   "nirf_names": [
+    "Bidhan Chandra Krishi Vishwavidyalaya"
+   ],
+   "notes": "Nadia district."
+  },
+  {
+   "key": "sau-67",
+   "name": "West Bengal University of Animal and Fishery Sciences",
+   "city": "Kolkata",
+   "state": "West Bengal",
+   "reference_id": "ICAR SAU list Sr. 67; UGC state universities ugc_id 489",
+   "family": "state_veterinary_university",
+   "nodes": [
+    "bvsc",
+    "veterinarian"
+   ],
+   "website": "http://wbuafscl.ac.in",
+   "nirf_names": [
+    "West Bengal University of Animal and Fishery Sciences, Kolkata"
+   ]
+  },
+  {
+   "key": "sau-68",
+   "name": "Uttar Banga Krishi Viswavidyalaya",
+   "city": "Cooch Behar",
+   "state": "West Bengal",
+   "reference_id": "ICAR SAU list Sr. 68; UGC state universities ugc_id 491",
+   "family": "state_agricultural_university",
+   "nodes": [
+    "bsc_agriculture",
+    "agri_scientist",
+    "agri_officer"
+   ],
+   "website": "https://www.ubkv.ac.in",
+   "notes": "Campus at Pundibari, Cooch Behar."
+  }
+ ]
+}

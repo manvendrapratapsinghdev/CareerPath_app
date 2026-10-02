@@ -1,6 +1,6 @@
 # Institution Groups & College Hierarchy — Plan
 
-Status: **in progress — taxonomy foundations, Waves A–C and batches D1 and J1 are implemented; app integration and remaining data waves are pending.** Last verified: 2026-10-02.
+Status: **in progress — taxonomy foundations, Waves A–C and batches D1, D3 and J1 are implemented; app integration and remaining data waves are pending.** Last verified: 2026-10-02.
 
 ### Current completion snapshot (2026-10-02)
 
@@ -20,10 +20,10 @@ The original “plan only” status is no longer accurate. The branch now contai
   central IHMs/IITTM, ICAR institutions including the four ICAR deemed universities and NAARM, the six defence
   academies and AFMC (C5), IGRUA, NFTI and IMU's campuses (C6), IIFT, IIFM, the six RIEs and the SAI colleges (C7a), and the AYUSH and DEPwD rehabilitation national institutes (C7b).
 - Wave D started: D1 loaded all 27 National Law Universities (25 consortium members, NLU Delhi, Sikkim NLU) and the
-  5 state law universities.
+  5 state law universities; D3 loaded all 68 state agricultural/veterinary/horticulture/fisheries universities (ICAR list).
 - Wave J1 loaded the professional bodies: ICAI, ICSI, ICMAI, IAI, NISM, IIBF and III (G10a, ownership not applicable).
 - Added the family-batch loader and official-list batch fixtures for the completed waves.
-- Tooling QA currently passes: `60 passed, 7 subtests passed` (`python3 -m pytest tooling/tests -q`).
+- Tooling QA currently passes: `61 passed, 7 subtests passed` (`python3 -m pytest tooling/tests -q`).
 
 **Pending / incomplete**
 
@@ -39,13 +39,13 @@ The original “plan only” status is no longer accurate. The branch now contai
 - T10 is done (Dart models, `LocalDatabase` taxonomy queries, parser and query tests). Phase 1a T11–T14 is not
   implemented: ladder/filter services,
   location and route services, ranking/UGC UI, ladder/steps screens, and shared chat/voice filtering remain pending.
-- Remaining data waves are pending: D2–D6 (state public), E (deemed), F (private universities), G (government/aided
+- Remaining data waves are pending: D2, D4–D6 (state public), E (deemed), F (private universities), G (government/aided
   colleges), H (private colleges), I (open/skill/diploma), and J2 (foreign campuses).
 - Wave C is complete. IIPA (in-service officers only) and NIN Pune (degree intake unconfirmed) are not loaded.
 - Accreditation data is still empty and ranking data is currently NIRF 2025 only (360 rows); NAAC/NBA fallback and
   multi-year ranking support remain pending.
 
-Current database counts: 913 institutes, 114 families, 27 domains, 36 states, and 13 institution groups. These counts
+Current database counts: 969 institutes, 114 families, 27 domains, 36 states, and 13 institution groups. These counts
 are implementation evidence, not a completion claim for all-India coverage.
 Source of every count below: `assets/data/career_path.db` as shipped in `1.5.0+17`, read-only.
 
@@ -236,7 +236,7 @@ lookup table (§7) will hold. Each family belongs to exactly one group.
 | State general universities | All | UGC (state list) | ~480 (all G4 kinds) | ✅ ~25 |
 | State technical universities (RTU, AKTU, RGPV, GTU, VTU …) | Engineering | AICTE / state act | ~30 | ⚠️ 2 (RGPV, DTU); RTU, AKTU ❌ |
 | National Law Universities | Law | BCI · state acts | ~26 | ✅ ~10 distinct (duplicates) |
-| State agricultural universities | Agriculture | ICAR | ~63 | ✅ ~9 |
+| State agricultural universities | Agriculture | ICAR | 68 (incl. veterinary, horticulture, fisheries) | ✅ all 68 (D3) |
 | State veterinary universities | Veterinary | VCI | ~16 | ⚠️ 1 (DUVASU); RAJUVAS, TANUVAS ❌ |
 | State health-science universities | Medical, dental, nursing | NMC etc. | ~20 | ✅ 3 (KGMU, MPMSU, UPUMS) |
 | State AYUSH universities | AYUSH | NCISM / NCH | ~8 | ✅ 3 |
