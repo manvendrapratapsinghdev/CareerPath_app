@@ -1047,7 +1047,9 @@ and add `institute_accreditations(institute_id, body NAAC|NBA, programme NULL|na
 source_url)`.
 
 ### 8.7 Career tree additions (D9, D10, §4.1)
-Add Pharmacy L2 (+ B.Pharm, D.Pharm, Pharm.D leaves), PCS children, BUMS/BSMS/BNYS, Social Work, Judicial Services. Link institutes
+Pharmacy: **resolved 2026-10-02** — the L2 node existed (slug `bpharm`, 52 institutes, children pharmacist / pharma_researcher /
+drug_inspector, domain `pharmacy`) but was named "Medical Updated"; renamed "B.Pharm (Pharmacy)". D.Pharm / Pharm.D siblings still optional.
+Still to add: PCS children, BUMS/BSMS/BNYS, Social Work, Judicial Services. Link institutes
 through their courses (`course_career_nodes`).
 
 ---
