@@ -1,6 +1,6 @@
 # Institution Groups & College Hierarchy — Plan
 
-Status: **in progress — taxonomy foundations and Waves A–C are implemented; app integration and remaining data waves are pending.** Last verified: 2026-10-02.
+Status: **in progress — taxonomy foundations, Waves A–C and batch D1 are implemented; app integration and remaining data waves are pending.** Last verified: 2026-10-02.
 
 ### Current completion snapshot (2026-10-02)
 
@@ -19,6 +19,7 @@ The original “plan only” status is no longer accurate. The branch now contai
 - Loaded and classified the completed Wave C batches: 57 central universities, NIFT/FDDI/NSD/FTII/SRFTI/IIMC,
   central IHMs/IITTM, ICAR institutions including the four ICAR deemed universities and NAARM, the six defence
   academies and AFMC (C5), IGRUA, NFTI and IMU's campuses (C6), IIFT, IIFM, the six RIEs and the SAI colleges (C7a), and the AYUSH and DEPwD rehabilitation national institutes (C7b).
+- Wave D started: D1 loaded all 26 National Law Universities (25 consortium members + NLU Delhi).
 - Added the family-batch loader and official-list batch fixtures for the completed waves.
 - Tooling QA currently passes: `58 passed, 7 subtests passed` (`python3 -m pytest tooling/tests -q`).
 
@@ -27,7 +28,7 @@ The original “plan only” status is no longer accurate. The branch now contai
 - T2 is only partial: official reference snapshots still need to be completed for every regulator/list named in the
   plan (NMC, BCI, PCI, CoA, ICAR, NCHMCT, NCTE, NAAC and the remaining UGC lists).
 - T4 cleanup is incomplete: duplicate review, all department-to-parent links, family-record flags, non-admitting-body
-  classification and name hygiene still need a full pass. The current database has 64 parent links, 11 family flags and
+  classification and name hygiene still need a full pass. The current database has 65 parent links, 11 family flags and
   3 non-admitting classifications, so this is not finished.
 - T7 location data is incomplete. The state table has 36 rows, but district, place and campus tables are currently empty.
 - T8 career-tree additions are pending: Pharmacy, PCS children, BUMS/BSMS/BNYS, Social Work and Judicial Services.
@@ -35,13 +36,13 @@ The original “plan only” status is no longer accurate. The branch now contai
   complete.
 - Phase 1a app work (T10–T14) is not implemented: Dart models, local-database queries, ladder/filter services,
   location and route services, ranking/UGC UI, ladder/steps screens, and shared chat/voice filtering remain pending.
-- Remaining data waves are pending: D (state public), E (deemed), F (private universities), G (government/aided
+- Remaining data waves are pending: D2–D6 (state public), E (deemed), F (private universities), G (government/aided
   colleges), H (private colleges), I (open/skill/diploma), and J (professional bodies/foreign campuses).
 - Wave C is complete. IIPA (in-service officers only) and NIN Pune (degree intake unconfirmed) are not loaded.
 - Accreditation data is still empty and ranking data is currently NIRF 2025 only (360 rows); NAAC/NBA fallback and
   multi-year ranking support remain pending.
 
-Current database counts: 896 institutes, 114 families, 27 domains, 36 states, and 13 institution groups. These counts
+Current database counts: 909 institutes, 114 families, 27 domains, 36 states, and 13 institution groups. These counts
 are implementation evidence, not a completion claim for all-India coverage.
 Source of every count below: `assets/data/career_path.db` as shipped in `1.5.0+17`, read-only.
 
@@ -559,7 +560,7 @@ Regulator: **BCI**. Entrance: **CLAT** (NLUs), AILET (NLU Delhi), LSAT-India, st
 
 | Tier | Step | Group | In DB? |
 |---|---|---|---|
-| T1 Apex | **National Law Universities** (NLSIU, NALSAR, NLU Delhi, NUJS, GNLU, NUALS, RMLNLU, NLIU, DNLU …) | G4 + family `NLU` | ✅ ~10 (with duplicates — D6) |
+| T1 Apex | **National Law Universities** (NLSIU, NALSAR, NLU Delhi, NUJS, GNLU, NUALS, RMLNLU, NLIU, DNLU …) | G4 + family `NLU` | ✅ all 26 (D1, duplicates merged) |
 | T2 | INI law schools (RGSoIPL IIT Kharagpur) | G1 | ⚠️ 1 |
 | T3 | Central-university law faculties (DU Faculty of Law, BHU, AMU, Jamia) | G3 | ✅ 3 |
 | T4 | State-university law depts & govt law colleges (GLC Mumbai, USLLS GGSIPU, ILS Pune — aided) | G4 / G6 | ✅ ~13 / 2 |

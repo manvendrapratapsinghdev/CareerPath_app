@@ -174,7 +174,7 @@ Keyword step details:
    **Query normalisation (shared by voice + typed chat):** `SearchAliases.expand` → `SearchSpellCorrector.correctQuery` → `expand` again
    (so a misspelled alias like "docter" still expands). Both are built once in `warmUp()` (called from `main.dart`), the corrector in a
    background isolate (`compute`). If an asset fails to load, that step is skipped and words match as written.
-   - **Aliases** (`search_aliases.dart`, asset `assets/data/search_aliases.json`, ~507 keys): adds expansions after the student's words
+   - **Aliases** (`search_aliases.dart`, asset `assets/data/search_aliases.json`, ~526 keys): adds expansions after the student's words
      (`engg`→engineering, `mbbs`→medical, `bhu`→Banaras Hindu University, `vakil`→lawyer, `up`→Uttar Pradesh). Longest key wins
      ("sarkari naukri" as a phrase). **Never hand-edit the JSON:** edit `tooling/search_aliases.txt`, run `python3 tooling/build_search_aliases.py`
      (merges DB-derived "Name (ABBR)" pairs whose letters spell the name + institute initials used on their own in the same city; drops
@@ -236,11 +236,11 @@ Order of construction: `SharedPreferences` → repositories/services (bookmarks,
 
 ## 8. DATABASE SCHEMA — `assets/data/career_path.db` (SQLite, read-only in app)
 
-Row counts as of this commit: streams 3 · career_nodes 380 · books 1 111 · institutes 896 · job_sectors 476 ·
-institute_courses 8 376 · node_books 2 751 · node_institutes 6 007 · node_job_sectors 1 375 · course_career_nodes 9 495
-· institute_categories 409 · institute_rankings 361 · institution_groups 13 · families 114 · institute_classification
-400 · institute_verifications 325 · institute_accreditations 0 · countries 1 · states 36 · districts 0 · places 0 ·
-place_aliases 0 · campuses 0 · domains 27 · domain_nodes 90 · domain_tiers 276 · institute_domain_tiers 471.
+Row counts as of this commit: streams 3 · career_nodes 380 · books 1 111 · institutes 909 · job_sectors 476 ·
+institute_courses 8 376 · node_books 2 751 · node_institutes 6 030 · node_job_sectors 1 375 · course_career_nodes 9 495
+· institute_categories 409 · institute_rankings 374 · institution_groups 13 · families 114 · institute_classification
+427 · institute_verifications 351 · institute_accreditations 0 · countries 1 · states 36 · districts 0 · places 0 ·
+place_aliases 0 · campuses 0 · domains 27 · domain_nodes 90 · domain_tiers 276 · institute_domain_tiers 499.
 
 ### 8.1 Tables (DDL, condensed from `sqlite3 .schema`)
 
@@ -378,7 +378,7 @@ streams 1───∞ career_nodes ∞───1 career_nodes (parent_id, self-t
 - **Streams:** 1 science, 2 commerce, 3 art.
 - **Tree depth:** L1 = 17 roots, L2 = 84, L3 = 241, L4 = 38 → **275 leaves**, 17 root nodes.
   Books/institutes/sectors hang off nodes (mostly leaves) via junction tables.
-- **institutes.state:** filled for 871 of 896 (34 states/UTs; Andaman and Nicobar and Lakshadweep still have none; Rajasthan 127, Maharashtra 105, Uttar Pradesh 92, Madhya Pradesh 88, Delhi 80, Tamil Nadu 56, …). Only city "Various" (24) and "Online" (1) stay NULL. Courses exist only for the researched
+- **institutes.state:** filled for 884 of 909 (34 states/UTs; Andaman and Nicobar and Lakshadweep still have none; Rajasthan 128, Maharashtra 108, Uttar Pradesh 93, Madhya Pradesh 88, Delhi 79, Tamil Nadu 57, …). Only city "Various" (24) and "Online" (1) stay NULL. Courses exist only for the researched
   Rajasthan/MP/UP institutes. Hand-added institutes had a city but no state; `tooling/fill_institute_states.py` fills it from the city
   (curated `CITY_STATES`; add a row when a new city appears). **districts** are still NULL for those rows — never guessed.
 - **institutes.institution_type:** ~119 NULL. Values include government_college, specialized, state_university, central_institute,
@@ -391,7 +391,7 @@ streams 1───∞ career_nodes ∞───1 career_nodes (parent_id, self-t
   Look-alike real names stay as they are: Kannur, Lovely Professional, Bhupal Nobles', Narsee Monjee, Sanskriti.
   `SearchSpellCorrector` trusts every data word as spelled.
 - **institute_categories:** ~35 distinct labels (College 92, Engineering 63, Management 63, Overall 61, Pharmacy 28, Law 23, …).
-- **institute_rankings:** 361 rows, NIRF 2025 only (incl. Research, Innovation, SDG Institutions). `rank` may be NULL with
+- **institute_rankings:** 374 rows, NIRF 2025 only (incl. Research, Innovation, SDG Institutions). `rank` may be NULL with
   `rank_band` set (e.g. IIT Goa Engineering 101-150). Batch loads replace an institute's rows for the snapshot year.
 - **Taxonomy coverage (Wave A, batches A1–A5b, done — every G1 family):** all 23 IITs + IISc (A1), all 22 IIMs (A2, incl. IIM Guwahati, added
   to the IIM Act in 2025, no NIRF rank, website NULL), all 23 AIIMS + JIPMER, PGIMER, NIMHANS (A3), the 7 IISERs,
@@ -417,9 +417,11 @@ streams 1───∞ career_nodes ∞───1 career_nodes (parent_id, self-t
   institutes from the Union Budget 2026-27 Ayush statement (NIA, NIH, NIUM + its Ghaziabad campus as a child row, NIS, MDNIY, NEIAH,
   NISR Leh; NIN Pune, RAV, NEIFM not loaded) and DEPwD's 9 national rehabilitation institutes (NIEPVD, AYJNISHD, NIEPID, NIEPMD,
   PDUNIPPD, SVNIRTAR, NILD, ISLRTC, NIMHR). NIUM, NIS, MDNIY and NISR have no career links yet (no BUMS/BSMS/yoga/Sowa-Rigpa
-  nodes, plan T8). Wave C is complete. Each has a verification row. AIIMS Darbhanga, Rewari and Awantipora have `admits_students = 0`,
+  nodes, plan T8). Wave C is complete. Wave D has started: D1, the 26 National Law Universities (25 Consortium of NLUs members
+  + NLU Delhi; family `nlu`, G4, `state_govt`, all linked to BA LLB; GNLU Silvassa campus as a child row; IIULER Goa, a BCI-trust
+  private consortium member, is left for Wave F). 13 carry NIRF 2025 Law ranks. Each has a verification row. AIIMS Darbhanga, Rewari and Awantipora have `admits_students = 0`,
   `confidence = medium` (no MBBS intake in the latest official status read, Lok Sabha 2022 — re-check); PGIMER and
-  NIMHANS are not linked to MBBS (no MBBS course). 64
+  NIMHANS are not linked to MBBS (no MBBS course). 65
   department/centre rows ("IIT Bombay (Civil)", "IIM Lucknow - PGP-SM" which stays in Noida, "AIIMS Nursing College") have
   `parent_institute_id`; "IITs", "IITs (Data Science programs)", "IITs (Statistics Dept)", "IIM (MBA Marketing)",
   "IIM A/B/C (MBA Finance)", "AIIMS (All Campuses)", "NIFT (all campuses)", the RIE and SAI rows are `is_family_record` rows. Cities follow NIRF ("Bengaluru", Bodh Gaya → "Gaya",

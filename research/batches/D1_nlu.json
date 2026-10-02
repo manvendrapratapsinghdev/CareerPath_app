@@ -1,0 +1,491 @@
+{
+ "batch": "D1",
+ "title": "Wave D (G4): the National Law Universities",
+ "verified_at": "2026-10-02",
+ "nirf_snapshot": "research/official_lists/nirf/nirf_2025.json",
+ "verification": {
+  "authority": "Consortium of National Law Universities",
+  "list_name": "Consortium of NLUs — member universities (CLAT)",
+  "list_url": "https://consortiumofnlus.ac.in/",
+  "list_as_of": "2026-10-02"
+ },
+ "defaults": {
+  "group": "G4",
+  "family": "nlu",
+  "ownership": "state_govt",
+  "legacy_type": "state_university",
+  "regulators": "BCI; UGC",
+  "nodes": [
+   "ba_llb"
+  ],
+  "nirf": false
+ },
+ "families": {
+  "nlu": {
+   "national_count": 26,
+   "as_of": "2026-10-02",
+   "official_list_url": "https://consortiumofnlus.ac.in/"
+  }
+ },
+ "institutes": [
+  {
+   "key": "national-law-school-of-india-university",
+   "name": "National Law School of India University",
+   "website": "https://www.nls.ac.in",
+   "reference_id": "Consortium of NLUs member list",
+   "city": "Bengaluru",
+   "state": "Karnataka",
+   "verification": {
+    "authority": "Consortium of National Law Universities",
+    "list_name": "Consortium of NLUs — member universities (CLAT)",
+    "list_url": "https://consortiumofnlus.ac.in/",
+    "list_as_of": "2026-10-02"
+   },
+   "statutory_basis": "State Act establishing a National Law University",
+   "existing": [
+    "National Law School of India University (NLSIU)"
+   ]
+  },
+  {
+   "key": "nalsar-university-of-law",
+   "name": "NALSAR University of Law",
+   "website": "https://www.nalsar.ac.in",
+   "reference_id": "Consortium of NLUs member list",
+   "city": "Hyderabad",
+   "state": "Telangana",
+   "verification": {
+    "authority": "Consortium of National Law Universities",
+    "list_name": "Consortium of NLUs — member universities (CLAT)",
+    "list_url": "https://consortiumofnlus.ac.in/",
+    "list_as_of": "2026-10-02"
+   },
+   "statutory_basis": "State Act establishing a National Law University",
+   "existing": [
+    "National Academy of Legal Studies and Research (NALSAR)"
+   ],
+   "nirf_names": [
+    "Nalsar University of Law"
+   ]
+  },
+  {
+   "key": "national-law-institute-university",
+   "name": "National Law Institute University",
+   "website": "https://www.nliu.ac.in",
+   "reference_id": "Consortium of NLUs member list",
+   "city": "Bhopal",
+   "state": "Madhya Pradesh",
+   "verification": {
+    "authority": "Consortium of National Law Universities",
+    "list_name": "Consortium of NLUs — member universities (CLAT)",
+    "list_url": "https://consortiumofnlus.ac.in/",
+    "list_as_of": "2026-10-02"
+   },
+   "statutory_basis": "State Act establishing a National Law University",
+   "existing": [
+    "National Law Institute University, Bhopal"
+   ],
+   "nirf_names": [
+    "National Law Institute University, Bhopal"
+   ]
+  },
+  {
+   "key": "west-bengal-national-university-of-juridical-sciences",
+   "name": "West Bengal National University of Juridical Sciences",
+   "website": "http://www.nujs.edu",
+   "reference_id": "Consortium of NLUs member list",
+   "city": "Kolkata",
+   "state": "West Bengal",
+   "verification": {
+    "authority": "Consortium of National Law Universities",
+    "list_name": "Consortium of NLUs — member universities (CLAT)",
+    "list_url": "https://consortiumofnlus.ac.in/",
+    "list_as_of": "2026-10-02"
+   },
+   "statutory_basis": "State Act establishing a National Law University",
+   "existing": [
+    "West Bengal National University of Juridical Sciences (NUJS)",
+    "NUJS Kolkata"
+   ],
+   "nirf_names": [
+    "The West Bengal National University of Juridical Sciences"
+   ]
+  },
+  {
+   "key": "national-law-university-jodhpur",
+   "name": "National Law University Jodhpur",
+   "website": "http://www.nlujodhpur.ac.in",
+   "reference_id": "Consortium of NLUs member list",
+   "city": "Jodhpur",
+   "state": "Rajasthan",
+   "verification": {
+    "authority": "Consortium of National Law Universities",
+    "list_name": "Consortium of NLUs — member universities (CLAT)",
+    "list_url": "https://consortiumofnlus.ac.in/",
+    "list_as_of": "2026-10-02"
+   },
+   "statutory_basis": "State Act establishing a National Law University"
+  },
+  {
+   "key": "hidayatullah-national-law-university",
+   "name": "Hidayatullah National Law University",
+   "website": "https://www.hnlu.ac.in",
+   "reference_id": "Consortium of NLUs member list",
+   "city": "Raipur",
+   "state": "Chhattisgarh",
+   "verification": {
+    "authority": "Consortium of National Law Universities",
+    "list_name": "Consortium of NLUs — member universities (CLAT)",
+    "list_url": "https://consortiumofnlus.ac.in/",
+    "list_as_of": "2026-10-02"
+   },
+   "statutory_basis": "State Act establishing a National Law University",
+   "notes": "Campus at Atal Nagar (Nava Raipur)."
+  },
+  {
+   "key": "gujarat-national-law-university",
+   "name": "Gujarat National Law University",
+   "website": "https://www.gnlu.ac.in",
+   "reference_id": "Consortium of NLUs member list",
+   "city": "Gandhinagar",
+   "state": "Gujarat",
+   "verification": {
+    "authority": "Consortium of National Law Universities",
+    "list_name": "Consortium of NLUs — member universities (CLAT)",
+    "list_url": "https://consortiumofnlus.ac.in/",
+    "list_as_of": "2026-10-02"
+   },
+   "statutory_basis": "State Act establishing a National Law University",
+   "existing": [
+    "Gujarat National Law University (GNLU)"
+   ],
+   "departments": [
+    {
+     "name": "Gujarat National Law University Silvassa Campus",
+     "new": true,
+     "city": "Silvassa",
+     "state": "Dadra and Nagar Haveli and Daman and Diu",
+     "notes": "GNLU's off-campus centre, admits through CLAT."
+    }
+   ]
+  },
+  {
+   "key": "dr-ram-manohar-lohiya-national-law-university",
+   "name": "Dr. Ram Manohar Lohiya National Law University",
+   "website": "http://www.rmlnlu.ac.in",
+   "reference_id": "Consortium of NLUs member list",
+   "city": "Lucknow",
+   "state": "Uttar Pradesh",
+   "verification": {
+    "authority": "Consortium of National Law Universities",
+    "list_name": "Consortium of NLUs — member universities (CLAT)",
+    "list_url": "https://consortiumofnlus.ac.in/",
+    "list_as_of": "2026-10-02"
+   },
+   "statutory_basis": "State Act establishing a National Law University",
+   "existing": [
+    "Dr. Ram Manohar Lohiya National Law University, Lucknow"
+   ],
+   "nirf_names": [
+    "Dr. Ram Manohar Lohiya National Law University, Lucknow"
+   ]
+  },
+  {
+   "key": "rajiv-gandhi-national-university-of-law",
+   "name": "Rajiv Gandhi National University of Law",
+   "website": "https://www.rgnul.ac.in",
+   "reference_id": "Consortium of NLUs member list",
+   "city": "Patiala",
+   "state": "Punjab",
+   "verification": {
+    "authority": "Consortium of National Law Universities",
+    "list_name": "Consortium of NLUs — member universities (CLAT)",
+    "list_url": "https://consortiumofnlus.ac.in/",
+    "list_as_of": "2026-10-02"
+   },
+   "statutory_basis": "State Act establishing a National Law University"
+  },
+  {
+   "key": "chanakya-national-law-university",
+   "name": "Chanakya National Law University",
+   "website": "http://www.cnlu.ac.in",
+   "reference_id": "Consortium of NLUs member list",
+   "city": "Patna",
+   "state": "Bihar",
+   "verification": {
+    "authority": "Consortium of National Law Universities",
+    "list_name": "Consortium of NLUs — member universities (CLAT)",
+    "list_url": "https://consortiumofnlus.ac.in/",
+    "list_as_of": "2026-10-02"
+   },
+   "statutory_basis": "State Act establishing a National Law University"
+  },
+  {
+   "key": "national-university-of-advanced-legal-studies",
+   "name": "National University of Advanced Legal Studies",
+   "website": "http://www.nuals.ac.in",
+   "reference_id": "Consortium of NLUs member list",
+   "city": "Kochi",
+   "state": "Kerala",
+   "verification": {
+    "authority": "Consortium of National Law Universities",
+    "list_name": "Consortium of NLUs — member universities (CLAT)",
+    "list_url": "https://consortiumofnlus.ac.in/",
+    "list_as_of": "2026-10-02"
+   },
+   "statutory_basis": "State Act establishing a National Law University"
+  },
+  {
+   "key": "national-law-university-odisha",
+   "name": "National Law University Odisha",
+   "website": "http://www.nluo.ac.in",
+   "reference_id": "Consortium of NLUs member list",
+   "city": "Cuttack",
+   "state": "Odisha",
+   "verification": {
+    "authority": "Consortium of National Law Universities",
+    "list_name": "Consortium of NLUs — member universities (CLAT)",
+    "list_url": "https://consortiumofnlus.ac.in/",
+    "list_as_of": "2026-10-02"
+   },
+   "statutory_basis": "State Act establishing a National Law University",
+   "nirf_names": [
+    "National Law University"
+   ],
+   "nirf_city": "Cuttack"
+  },
+  {
+   "key": "national-university-of-study-and-research-in-law",
+   "name": "National University of Study and Research in Law",
+   "website": "http://www.nusrlranchi.ac.in",
+   "reference_id": "Consortium of NLUs member list",
+   "city": "Ranchi",
+   "state": "Jharkhand",
+   "verification": {
+    "authority": "Consortium of National Law Universities",
+    "list_name": "Consortium of NLUs — member universities (CLAT)",
+    "list_url": "https://consortiumofnlus.ac.in/",
+    "list_as_of": "2026-10-02"
+   },
+   "statutory_basis": "State Act establishing a National Law University",
+   "nirf_names": [
+    "National University of Study & Research in Law, Ranchi"
+   ]
+  },
+  {
+   "key": "national-law-university-and-judicial-academy-assam",
+   "name": "National Law University and Judicial Academy Assam",
+   "website": "http://www.nluassam.ac.in",
+   "reference_id": "Consortium of NLUs member list",
+   "city": "Guwahati",
+   "state": "Assam",
+   "verification": {
+    "authority": "Consortium of National Law Universities",
+    "list_name": "Consortium of NLUs — member universities (CLAT)",
+    "list_url": "https://consortiumofnlus.ac.in/",
+    "list_as_of": "2026-10-02"
+   },
+   "statutory_basis": "State Act establishing a National Law University",
+   "nirf_names": [
+    "National Law University and Judicial Academy"
+   ],
+   "notes": "NIRF lists it under Kamrup district."
+  },
+  {
+   "key": "damodaram-sanjivayya-national-law-university",
+   "name": "Damodaram Sanjivayya National Law University",
+   "website": "https://dsnlu.ac.in",
+   "reference_id": "Consortium of NLUs member list",
+   "city": "Visakhapatnam",
+   "state": "Andhra Pradesh",
+   "verification": {
+    "authority": "Consortium of National Law Universities",
+    "list_name": "Consortium of NLUs — member universities (CLAT)",
+    "list_url": "https://consortiumofnlus.ac.in/",
+    "list_as_of": "2026-10-02"
+   },
+   "statutory_basis": "State Act establishing a National Law University"
+  },
+  {
+   "key": "tamil-nadu-national-law-university",
+   "name": "Tamil Nadu National Law University",
+   "website": "https://tnnlu.ac.in",
+   "reference_id": "Consortium of NLUs member list",
+   "city": "Tiruchirappalli",
+   "state": "Tamil Nadu",
+   "verification": {
+    "authority": "Consortium of National Law Universities",
+    "list_name": "Consortium of NLUs — member universities (CLAT)",
+    "list_url": "https://consortiumofnlus.ac.in/",
+    "list_as_of": "2026-10-02"
+   },
+   "statutory_basis": "State Act establishing a National Law University"
+  },
+  {
+   "key": "maharashtra-national-law-university-mumbai",
+   "name": "Maharashtra National Law University Mumbai",
+   "website": "https://mnlumumbai.edu.in",
+   "reference_id": "Consortium of NLUs member list",
+   "city": "Mumbai",
+   "state": "Maharashtra",
+   "verification": {
+    "authority": "Consortium of National Law Universities",
+    "list_name": "Consortium of NLUs — member universities (CLAT)",
+    "list_url": "https://consortiumofnlus.ac.in/",
+    "list_as_of": "2026-10-02"
+   },
+   "statutory_basis": "State Act establishing a National Law University"
+  },
+  {
+   "key": "maharashtra-national-law-university-nagpur",
+   "name": "Maharashtra National Law University Nagpur",
+   "website": "http://www.nlunagpur.ac.in",
+   "reference_id": "Consortium of NLUs member list",
+   "city": "Nagpur",
+   "state": "Maharashtra",
+   "verification": {
+    "authority": "Consortium of National Law Universities",
+    "list_name": "Consortium of NLUs — member universities (CLAT)",
+    "list_url": "https://consortiumofnlus.ac.in/",
+    "list_as_of": "2026-10-02"
+   },
+   "statutory_basis": "State Act establishing a National Law University",
+   "nirf_names": [
+    "Maharashtra National Law University, Nagpur"
+   ]
+  },
+  {
+   "key": "maharashtra-national-law-university-chhatrapati-sambhajinagar",
+   "name": "Maharashtra National Law University Chhatrapati Sambhajinagar",
+   "website": "https://www.mnlua.ac.in",
+   "reference_id": "Consortium of NLUs member list",
+   "city": "Chhatrapati Sambhajinagar",
+   "state": "Maharashtra",
+   "verification": {
+    "authority": "Consortium of National Law Universities",
+    "list_name": "Consortium of NLUs — member universities (CLAT)",
+    "list_url": "https://consortiumofnlus.ac.in/",
+    "list_as_of": "2026-10-02"
+   },
+   "statutory_basis": "State Act establishing a National Law University",
+   "notes": "Formerly MNLU Aurangabad."
+  },
+  {
+   "key": "himachal-pradesh-national-law-university",
+   "name": "Himachal Pradesh National Law University",
+   "website": "http://www.hpnlu.ac.in",
+   "reference_id": "Consortium of NLUs member list",
+   "city": "Shimla",
+   "state": "Himachal Pradesh",
+   "verification": {
+    "authority": "Consortium of National Law Universities",
+    "list_name": "Consortium of NLUs — member universities (CLAT)",
+    "list_url": "https://consortiumofnlus.ac.in/",
+    "list_as_of": "2026-10-02"
+   },
+   "statutory_basis": "State Act establishing a National Law University",
+   "nirf_names": [
+    "Himachal Pradesh National Law University, Shimla"
+   ]
+  },
+  {
+   "key": "dharmashastra-national-law-university",
+   "name": "Dharmashastra National Law University",
+   "website": "https://www.mpdnlu.ac.in",
+   "reference_id": "Consortium of NLUs member list",
+   "city": "Jabalpur",
+   "state": "Madhya Pradesh",
+   "verification": {
+    "authority": "Consortium of National Law Universities",
+    "list_name": "Consortium of NLUs — member universities (CLAT)",
+    "list_url": "https://consortiumofnlus.ac.in/",
+    "list_as_of": "2026-10-02"
+   },
+   "statutory_basis": "State Act establishing a National Law University"
+  },
+  {
+   "key": "dr-br-ambedkar-national-law-university",
+   "name": "Dr. B.R. Ambedkar National Law University",
+   "website": "https://www.dbranlu.ac.in",
+   "reference_id": "Consortium of NLUs member list",
+   "city": "Sonipat",
+   "state": "Haryana",
+   "verification": {
+    "authority": "Consortium of National Law Universities",
+    "list_name": "Consortium of NLUs — member universities (CLAT)",
+    "list_url": "https://consortiumofnlus.ac.in/",
+    "list_as_of": "2026-10-02"
+   },
+   "statutory_basis": "State Act establishing a National Law University"
+  },
+  {
+   "key": "national-law-university-tripura",
+   "name": "National Law University Tripura",
+   "website": "https://nlutripura.ac.in",
+   "reference_id": "Consortium of NLUs member list",
+   "city": "Agartala",
+   "state": "Tripura",
+   "verification": {
+    "authority": "Consortium of National Law Universities",
+    "list_name": "Consortium of NLUs — member universities (CLAT)",
+    "list_url": "https://consortiumofnlus.ac.in/",
+    "list_as_of": "2026-10-02"
+   },
+   "statutory_basis": "State Act establishing a National Law University"
+  },
+  {
+   "key": "dr-rajendra-prasad-national-law-university",
+   "name": "Dr. Rajendra Prasad National Law University",
+   "website": "https://rpnlup.ac.in",
+   "reference_id": "Consortium of NLUs member list",
+   "city": "Prayagraj",
+   "state": "Uttar Pradesh",
+   "verification": {
+    "authority": "Consortium of National Law Universities",
+    "list_name": "Consortium of NLUs — member universities (CLAT)",
+    "list_url": "https://consortiumofnlus.ac.in/",
+    "list_as_of": "2026-10-02"
+   },
+   "statutory_basis": "State Act establishing a National Law University",
+   "notes": "Established as Uttar Pradesh National Law University (U.P. Act 26 of 2020), renamed 2023; first batch 2024, admits through CLAT from 2025-26."
+  },
+  {
+   "key": "national-law-university-of-meghalaya",
+   "name": "National Law University of Meghalaya",
+   "website": "https://www.nlumeg.ac.in",
+   "reference_id": "Consortium of NLUs member list",
+   "city": "Shillong",
+   "state": "Meghalaya",
+   "verification": {
+    "authority": "Consortium of National Law Universities",
+    "list_name": "Consortium of NLUs — member universities (CLAT)",
+    "list_url": "https://consortiumofnlus.ac.in/",
+    "list_as_of": "2026-10-02"
+   },
+   "statutory_basis": "State Act establishing a National Law University",
+   "notes": "National Law University of Meghalaya Act, 2022; UGC 2(f) since 13 Dec 2023."
+  },
+  {
+   "key": "nlu-delhi",
+   "name": "National Law University Delhi",
+   "website": "https://nludelhi.ac.in",
+   "reference_id": "National Law University, Delhi Act, 2007",
+   "city": "New Delhi",
+   "state": "Delhi",
+   "existing": [
+    "National Law University (NLU) Delhi"
+   ],
+   "nirf_names": [
+    "National Law University"
+   ],
+   "nirf_city": "New Delhi",
+   "statutory_basis": "National Law University, Delhi Act, 2007 (Delhi Act 1 of 2008)",
+   "verification": {
+    "authority": "Government of NCT of Delhi",
+    "list_name": "National Law University, Delhi Act, 2007",
+    "list_url": "https://nludelhi.ac.in",
+    "list_as_of": "2026-10-02"
+   },
+   "notes": "Not a member of the Consortium of NLUs; admits through its own AILET."
+  }
+ ]
+}
