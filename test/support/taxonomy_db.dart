@@ -1,14 +1,20 @@
 import 'package:career_path/data/local_database.dart';
 import 'package:sqflite_common_ffi/sqflite_ffi.dart';
 
-/// The bundled schema's taxonomy part, trimmed to what the queries read
-/// (same shape as `test/data/local_database_taxonomy_test.dart`).
+/// The bundled schema's taxonomy part plus the catalog tables
+/// `getInstituteCatalog` reads, trimmed to the columns the queries use.
 const taxonomySchema = [
   'CREATE TABLE career_nodes (id INTEGER PRIMARY KEY, slug TEXT, '
       'stream_id INTEGER, parent_id INTEGER, name TEXT, intro TEXT)',
   'CREATE TABLE institutes (id INTEGER PRIMARY KEY, name TEXT NOT NULL, '
       'city TEXT, website TEXT, description TEXT, source_id TEXT, '
       'district TEXT, state TEXT, institution_type TEXT)',
+  'CREATE TABLE institute_courses (id INTEGER PRIMARY KEY, source_id TEXT, '
+      'institute_id INTEGER, name TEXT, level TEXT, credential TEXT, '
+      'specialization TEXT, duration TEXT, mode TEXT, eligibility TEXT, '
+      'official_course_url TEXT)',
+  'CREATE TABLE course_career_nodes (course_id INTEGER, node_id INTEGER)',
+  'CREATE TABLE institute_categories (institute_id INTEGER, category TEXT)',
   'CREATE TABLE institute_rankings (institute_id INTEGER, system TEXT, '
       'year INTEGER, category TEXT, nirf_institute_id TEXT, rank INTEGER, '
       'rank_band TEXT, score REAL, source_url TEXT, '

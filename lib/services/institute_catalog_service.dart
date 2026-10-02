@@ -1,5 +1,9 @@
+import '../data/local_database.dart';
+import '../models/domain_tier.dart';
 import '../models/institute_catalog.dart';
+import '../models/institute_classification.dart';
 import 'course_levels.dart';
+import 'location_service.dart';
 import 'search_aliases.dart';
 
 /// One institute found by [InstituteCatalogService.find], with the courses
@@ -21,6 +25,91 @@ typedef InstituteMatches = ({
   int inPlace,
   Set<String> levels,
 });
+
+/// The UGC line on an institute card (plan §8.6): only private rows are
+/// checked; government rows show no badge.
+enum UgcBadge { verified, notVerified, notApplicable }
+
+/// NIRF highlight on an institute card (plan §8.6).
+enum RankHighlight { none, top100, top10 }
+
+/// One institute as the ladder, filter and card views show it.
+class InstituteListing {
+  final int instituteId;
+  final String name;
+  final String? city;
+  final String? district;
+  final String? state;
+
+  /// Null only for an institute that is not classified yet.
+  final InstituteClassification? classification;
+  final String? groupName;
+  final String? familyName;
+
+  /// Tier on the domain ladder asked for, if any.
+  final int? tier;
+
+  /// The rank to show (domain category first, then Overall …); null =
+  /// "Not ranked" unless [naacGrade] is set.
+  final InstituteRanking? ranking;
+  final RankHighlight highlight;
+
+  /// Institution-level NAAC grade, the fallback when there is no NIRF rank.
+  final String? naacGrade;
+  final UgcBadge ugcBadge;
+
+  const InstituteListing({
+    required this.instituteId,
+    required this.name,
+    this.city,
+    this.district,
+    this.state,
+    this.classification,
+    this.groupName,
+    this.familyName,
+    this.tier,
+    this.ranking,
+    this.highlight = RankHighlight.none,
+    this.naacGrade,
+    this.ugcBadge = UgcBadge.notApplicable,
+  });
+
+  @override
+  String toString() => 'InstituteListing($instituteId, $name)';
+}
+
+/// One tier of a domain's college ladder with its institutes, best first.
+/// [institutes] may be empty: the UI says so plainly.
+typedef LadderTier = ({DomainTier tier, List<InstituteListing> institutes});
+
+/// The combined institute filter (plan §6.4, §9). Null / empty fields mean
+/// "any". [tier] needs [domainSlug]. [ugcVerifiedOnly] drops private rows
+/// that are not UGC verified and keeps government rows (§8.6).
+class InstituteFilter {
+  final String? domainSlug;
+  final int? tier;
+  final String? groupCode;
+  final String? familySlug;
+
+  /// `institute_classification.ownership` values (private, state_govt …).
+  final Set<String> ownerships;
+
+  /// A state or city from [LocationService.resolve].
+  final ResolvedPlace? place;
+  final bool ugcVerifiedOnly;
+  final bool admitsStudentsOnly;
+
+  const InstituteFilter({
+    this.domainSlug,
+    this.tier,
+    this.groupCode,
+    this.familySlug,
+    this.ownerships = const {},
+    this.place,
+    this.ugcVerifiedOnly = false,
+    this.admitsStudentsOnly = false,
+  });
+}
 
 /// Institutes with their courses and NIRF rankings, loaded once from the
 /// bundled database and searched in memory.
@@ -141,11 +230,19 @@ class InstituteCatalogService {
   List<InstituteRecord>? _records;
   Future<void>? _loading;
 
-  InstituteCatalogService(this._loader);
+  /// Source of the taxonomy (groups, families, tiers, rankings). Without
+  /// it the ladder, filter and display APIs return empty / null.
+  final LocalDatabase? _taxonomy;
 
-  InstituteCatalogService.withRecords(List<InstituteRecord> records)
-    : _loader = (() async => const []),
-      _records = records;
+  InstituteCatalogService(this._loader, {LocalDatabase? taxonomy})
+    : _taxonomy = taxonomy;
+
+  InstituteCatalogService.withRecords(
+    List<InstituteRecord> records, {
+    LocalDatabase? taxonomy,
+  }) : _loader = (() async => const []),
+       _records = records,
+       _taxonomy = taxonomy;
 
   List<InstituteRecord> get records => _records ?? const [];
 
@@ -183,6 +280,7 @@ class InstituteCatalogService {
           _records = rows.map(InstituteRecord.fromJson).toList(growable: false);
           _places = null;
           _covered = null;
+          _byId = null;
         })
         .whenComplete(() => _loading = null);
   }
@@ -414,6 +512,221 @@ class InstituteCatalogService {
     return selected.take(limit).toList();
   }
 
+  // ── Taxonomy: ladder, filter and card info (plan §9, §8.6) ─────────────
+
+  Map<int, InstituteRecord>? _byId;
+  Future<_Taxonomy>? _taxonomyCache;
+
+  Map<int, InstituteRecord> get _recordsById =>
+      _byId ??= {for (final record in records) record.institute.id: record};
+
+  /// [domainSlug]'s college ladder, tier 1 first, each tier's institutes
+  /// sorted NIRF rank → band → NAAC grade → name. Family summary rows,
+  /// unlisted rows and campuses/departments of another institute are left
+  /// out. Tiers with no institute are kept (empty list).
+  Future<List<LadderTier>> ladderFor(String domainSlug) async {
+    final db = _taxonomy;
+    if (db == null) return const [];
+    final tiers = await db.getDomainTiers(domainSlug);
+    if (tiers.isEmpty) return const [];
+    final listings = await filter(InstituteFilter(domainSlug: domainSlug));
+    return [
+      for (final tier in tiers)
+        (
+          tier: tier,
+          institutes: listings
+              .where((listing) => listing.tier == tier.tier)
+              .toList(growable: false),
+        ),
+    ];
+  }
+
+  /// Listed top-level institutes matching every field of [filter]. With a
+  /// domain they come by tier, then best rank; otherwise best rank first.
+  Future<List<InstituteListing>> filter(InstituteFilter filter) async {
+    final db = _taxonomy;
+    if (db == null) return const [];
+    await ensureLoaded();
+    final taxonomy = await _loadTaxonomy(db);
+    final domain = filter.domainSlug;
+    final Map<int, int?> candidates = domain == null
+        ? {for (final id in taxonomy.listed.keys) id: null}
+        : {
+            for (final row in await db.getInstitutesOnDomainLadder(
+              domain,
+              tier: filter.tier,
+            ))
+              row.instituteId: row.tier,
+          };
+    final listings = <InstituteListing>[];
+    for (final MapEntry(key: id, value: tier) in candidates.entries) {
+      final classification = taxonomy.listed[id];
+      final record = _recordsById[id];
+      if (classification == null || record == null) continue;
+      if (!_passes(filter, classification, record)) continue;
+      listings.add(
+        await _listing(db, taxonomy, record, classification, domain, tier),
+      );
+    }
+    listings.sort(_compareListings);
+    return listings;
+  }
+
+  /// Card info for one institute: group and family names, display ranking
+  /// for [domainSlug] (with its top-10 / top-100 highlight), tier on that
+  /// ladder, NAAC fallback and UGC badge. Null for an unknown institute.
+  Future<InstituteListing?> displayInfo(
+    int instituteId, {
+    String? domainSlug,
+  }) async {
+    final db = _taxonomy;
+    if (db == null) return null;
+    await ensureLoaded();
+    final record = _recordsById[instituteId];
+    if (record == null) return null;
+    final taxonomy = await _loadTaxonomy(db);
+    final classification =
+        taxonomy.listed[instituteId] ??
+        await db.getInstituteClassification(instituteId);
+    int? tier;
+    if (domainSlug != null) {
+      for (final row in await db.getInstituteDomainTiers(instituteId)) {
+        if (row.domainSlug == domainSlug) tier = row.tier;
+      }
+    }
+    return _listing(db, taxonomy, record, classification, domainSlug, tier);
+  }
+
+  /// The UGC line for a classification (plan §8.6).
+  static UgcBadge ugcBadgeFor(InstituteClassification? classification) {
+    if (classification == null) return UgcBadge.notApplicable;
+    if (classification.ugcVerified == true) return UgcBadge.verified;
+    if (classification.ugcVerified == false || classification.isPrivate) {
+      return UgcBadge.notVerified;
+    }
+    return UgcBadge.notApplicable;
+  }
+
+  /// Top 10 / top 100 for a display ranking: an exact rank, or a band
+  /// that ends within the limit ("51-100").
+  static RankHighlight highlightFor(InstituteRanking? ranking) {
+    if (ranking == null) return RankHighlight.none;
+    final best =
+        ranking.rank ??
+        RegExp(r'\d+')
+            .allMatches(ranking.rankBand ?? '')
+            .map((match) => int.parse(match.group(0)!))
+            .fold<int?>(null, (last, value) => value);
+    if (best == null) return RankHighlight.none;
+    if (best <= 10) return RankHighlight.top10;
+    if (best <= 100) return RankHighlight.top100;
+    return RankHighlight.none;
+  }
+
+  static bool _passes(
+    InstituteFilter filter,
+    InstituteClassification classification,
+    InstituteRecord record,
+  ) {
+    if (filter.groupCode != null &&
+        classification.groupCode != filter.groupCode) {
+      return false;
+    }
+    if (filter.familySlug != null &&
+        classification.familySlug != filter.familySlug) {
+      return false;
+    }
+    if (filter.ownerships.isNotEmpty &&
+        !filter.ownerships.contains(classification.ownership)) {
+      return false;
+    }
+    if (filter.admitsStudentsOnly && !classification.admitsStudents) {
+      return false;
+    }
+    if (filter.ugcVerifiedOnly &&
+        ugcBadgeFor(classification) == UgcBadge.notVerified) {
+      return false;
+    }
+    final place = filter.place;
+    final institute = record.institute;
+    return place == null ||
+        place.matches(
+          city: institute.city,
+          district: institute.district,
+          state: institute.state,
+        );
+  }
+
+  Future<InstituteListing> _listing(
+    LocalDatabase db,
+    _Taxonomy taxonomy,
+    InstituteRecord record,
+    InstituteClassification? classification,
+    String? domainSlug,
+    int? tier,
+  ) async {
+    final id = record.institute.id;
+    final ranking = await db.getDisplayRanking(id, domainSlug: domainSlug);
+    String? naac;
+    if (ranking == null) {
+      for (final accreditation in await db.getInstituteAccreditations(id)) {
+        if (accreditation.body == 'NAAC' && accreditation.grade != null) {
+          naac = accreditation.grade;
+          break;
+        }
+      }
+    }
+    final institute = record.institute;
+    return InstituteListing(
+      instituteId: id,
+      name: institute.name,
+      city: institute.city,
+      district: institute.district,
+      state: institute.state,
+      classification: classification,
+      groupName: taxonomy.groupNames[classification?.groupCode],
+      familyName: taxonomy.familyNames[classification?.familySlug],
+      tier: tier,
+      ranking: ranking,
+      highlight: highlightFor(ranking),
+      naacGrade: naac,
+      ugcBadge: ugcBadgeFor(classification),
+    );
+  }
+
+  static const _naacOrder = ['A++', 'A+', 'A', 'B++', 'B+', 'B', 'C'];
+
+  /// Tier, then exact NIRF rank, then band, then NAAC grade, then name.
+  static int _compareListings(InstituteListing a, InstituteListing b) {
+    int key(InstituteListing listing) {
+      final ranking = listing.ranking;
+      if (ranking?.rank != null) return ranking!.rank!;
+      if (ranking != null) return 100000 + ranking.sortKey;
+      final naac = _naacOrder.indexOf(listing.naacGrade?.trim() ?? '');
+      return naac >= 0 ? 200000 + naac : 300000;
+    }
+
+    return [
+      (a.tier ?? 0).compareTo(b.tier ?? 0),
+      key(a).compareTo(key(b)),
+      a.name.toLowerCase().compareTo(b.name.toLowerCase()),
+    ].firstWhere((order) => order != 0, orElse: () => 0);
+  }
+
+  Future<_Taxonomy> _loadTaxonomy(LocalDatabase db) =>
+      _taxonomyCache ??= () async {
+        final groups = await db.getInstitutionGroups();
+        final families = await db.getFamilies();
+        final listed = await db.getListedClassifications();
+        return _Taxonomy(
+          groupNames: {for (final group in groups) group.code: group.name},
+          familyNames: {
+            for (final family in families) family.slug: family.name,
+          },
+          listed: {for (final row in listed) row.instituteId: row},
+        );
+      }();
+
   /// Grounding text for one institute. [matched] courses (from [find]) are
   /// listed first, so the course the student asked about is always shown.
   static String describe(
@@ -535,4 +848,17 @@ class InstituteCatalogService {
 
   static String _clip(String value, int max) =>
       value.length <= max ? value : '${value.substring(0, max)}…';
+}
+
+/// Group / family names and listed classifications, read once.
+class _Taxonomy {
+  final Map<String, String> groupNames;
+  final Map<String, String> familyNames;
+  final Map<int, InstituteClassification> listed;
+
+  const _Taxonomy({
+    required this.groupNames,
+    required this.familyNames,
+    required this.listed,
+  });
 }
