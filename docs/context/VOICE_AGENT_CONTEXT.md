@@ -192,7 +192,8 @@ Keyword step details:
    A named **state, city or district filters** colleges (else "medical college, Lucknow" outranks Bhopal ones for "MBBS in Bhopal").
    Matching = a word *starts with* the token (dots ignored); per-record search text is prepared once (`Expando`) and matched with `contains(' token')`.
    `search` wraps `find(query, limit)`, which also returns the matched courses per institute and the total institutes/courses matched.
-   **Every** course is searched (name + specialization). A level word (UG/PG/bachelor/masters/PhD/diploma/certificate/integrated,
+   **Every** course is searched (name + specialization). Broad institute searches return only the first result in the
+   data-defined top-to-bottom order; a specific institute name, place, course or level widens the result list. A level word (UG/PG/bachelor/masters/PhD/diploma/certificate/integrated,
    `course_levels.dart` `CourseLevels`) keeps only institutes with a course at that level; stored `level` strings are reduced by
    `CourseLevels.ofCourse` (mixed ones like "postgraduate_diploma" name several). With a place named, colleges that match none of the
    other (subject) words are dropped once any college does — a place word inside a name ("Delhi School of…") is not a subject.

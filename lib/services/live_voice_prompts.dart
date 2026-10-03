@@ -113,7 +113,11 @@ class LiveVoicePrompts {
           '(e.g. "I found 12 colleges in Jaipur that offer B.Pharm") and name '
           'a few. If they contain COVERAGE, say plainly what CareerPath does '
           'not list yet and which places it does cover; never name colleges '
-          'from other places. If no records came back, say you could not '
+          'from other places. Institute records are already ordered from the '
+          'highest tier/best ranking downward. For a broad institute request '
+          'with no specific name, place, course or level, only one top result '
+          'is supplied; do not invent more. A specific filter may supply the '
+          'full ranked list, which must stay in order. If no records came back, say you could not '
           'find it in CareerPath and suggest the Explore tab.',
       'SPEAKING: after format_answer succeeds, speak only the direct answer '
           'in two to four sentences (for an overview, one sentence per '

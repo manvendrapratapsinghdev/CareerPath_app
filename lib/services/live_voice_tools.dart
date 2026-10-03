@@ -117,7 +117,7 @@ class LiveVoiceTools {
       streamId: streamId?.call(),
       broad: broad,
     );
-    return AiGroundingContext.merge(keyword, await semantic);
+    return grounding.mergeExtra(query, keyword, await semantic);
   }
 
   /// Keeps the last few turns so follow-ups and reconnects keep context.

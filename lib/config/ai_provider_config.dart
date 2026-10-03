@@ -14,9 +14,10 @@ class AiProviderConfig {
   static const int maxGroundingNodes = 14;
   static const int maxDetailedNodes = 5;
 
-  /// Institutes in the grounding for a broad question, and when a place,
-  /// course or level narrows it (the student wants a fuller list then).
-  static const int maxGroundingInstitutes = 4;
+  /// Institutes in the grounding for a broad question. Broad searches show
+  /// only the first result in the data-defined order; a place, name, course
+  /// or level filter opts into the fuller list below.
+  static const int maxGroundingInstitutes = 1;
   static const int maxNarrowedInstitutes = 8;
   static const int maxOutputTokens = 1200;
 

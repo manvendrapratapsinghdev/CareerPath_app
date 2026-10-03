@@ -99,6 +99,17 @@ void main() {
     );
   });
 
+  test('broad searches stay top-only while explicit filters widen them', () {
+    final catalog = InstituteCatalogService.withRecords(
+      _rows.map(InstituteRecord.fromJson).toList(),
+    );
+
+    expect(catalog.hasSpecificSearchFilter('engineering colleges'), isFalse);
+    expect(catalog.hasSpecificSearchFilter('engineering colleges in Jaipur'), isTrue);
+    expect(catalog.hasSpecificSearchFilter('IIT'), isTrue);
+    expect(catalog.hasSpecificSearchFilter('PG courses'), isTrue);
+  });
+
   test('matches the start of words, ignoring dots and punctuation', () {
     final catalog = InstituteCatalogService.withRecords(
       _rows.map(InstituteRecord.fromJson).toList(),

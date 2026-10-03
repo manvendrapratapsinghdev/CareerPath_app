@@ -330,6 +330,42 @@ class InstituteCatalogService {
   static bool asksForRankings(String query) =>
       _tokens(query).any(_rankingWords.contains);
 
+  /// Whether the student supplied a filter that should widen the default
+  /// top-only result. Broad requests such as "engineering colleges" stay on
+  /// the first result; a named place, level, course or institute name is an
+  /// intentional narrowing and may show the fuller ranked list.
+  bool hasSpecificSearchFilter(String query) {
+    final tokens = _tokens(
+      query,
+    ).difference(_stopWords).difference(searchFillerWords);
+    if (tokens.isEmpty) return false;
+    if (_locations?.resolveLoaded(query) != null ||
+        _requestedState(tokens) != null ||
+        _requestedPlaces(tokens).isNotEmpty ||
+        CourseLevels.requested(tokens).isNotEmpty) {
+      return true;
+    }
+
+    // Keep generic subject/category words broad. An exact institute/family
+    // word such as "IIT" or "AIIMS" is a meaningful name filter.
+    const generic = {
+      ..._rankingWords,
+      ..._rankingCategories,
+      'best',
+      'course',
+      'courses',
+      'institute',
+      'institutes',
+      'india',
+      'top',
+    };
+    final nameTokens = tokens.difference(generic);
+    return nameTokens.any(
+      (token) =>
+          records.any((record) => _hasWord(_searchText(record).name, token)),
+    );
+  }
+
   /// The state named in [tokens], if any, in its canonical form.
   static String? _requestedState(Set<String> tokens) {
     for (final entry in _stateAliases.entries) {
@@ -443,8 +479,12 @@ class InstituteCatalogService {
     }
     scored.sort((a, b) {
       final order = b.$2.compareTo(a.$2);
-      return order != 0
-          ? order
+      if (order != 0) return order;
+      final rankOrder = _recordRankKey(
+        a.$1.record,
+      ).compareTo(_recordRankKey(b.$1.record));
+      return rankOrder != 0
+          ? rankOrder
           : a.$1.record.institute.name.compareTo(b.$1.record.institute.name);
     });
     return (
@@ -1105,6 +1145,18 @@ class InstituteCatalogService {
   /// Searchable name and specialization of one course, built once.
   static String _courseText(InstituteCourse course) => _courseTexts[course] ??=
       _haystack('${course.name} ${course.specialization ?? ''}');
+
+  /// Best available ranking for search tie-breaking. Relevance remains the
+  /// primary ordering signal, while equally relevant records stay top first.
+  static int _recordRankKey(InstituteRecord record) {
+    if (record.rankings.isEmpty) return 300000;
+    return record.rankings
+        .map(
+          (ranking) =>
+              ranking.rank != null ? ranking.rank! : 100000 + ranking.sortKey,
+        )
+        .reduce((a, b) => a < b ? a : b);
+  }
 
   static final _nonWord = RegExp('[^a-z0-9]+');
 

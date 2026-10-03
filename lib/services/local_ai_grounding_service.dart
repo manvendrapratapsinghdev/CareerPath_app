@@ -26,27 +26,87 @@ class AiGroundingContext {
   /// Keyword matches first, then any semantic matches not already present.
   static AiGroundingContext merge(
     AiGroundingContext keyword,
-    AiGroundingContext semantic,
-  ) {
+    AiGroundingContext semantic, {
+    int? maxInstituteSources,
+  }) {
     if (semantic.isEmpty) return keyword;
     if (keyword.isEmpty) {
       // Keep a coverage note ("no colleges in Goa yet") from the keyword
       // step even when only semantic search found records.
+      final sources = _capInstituteSources(
+        semantic.sources,
+        maxInstituteSources,
+      );
       return keyword.text.trim().isEmpty
-          ? semantic
+          ? AiGroundingContext(
+              text: _limitInstituteBlocks(semantic.text, sources),
+              sources: sources,
+            )
           : AiGroundingContext(
-              text: '${keyword.text}\n${semantic.text}',
-              sources: semantic.sources,
+              text:
+                  '${keyword.text}\n${_limitInstituteBlocks(semantic.text, sources)}',
+              sources: sources,
             );
     }
     final seen = keyword.sources.map((s) => s.sourceId).toSet();
+    final instituteIds = <String>{
+      for (final source in keyword.sources)
+        if (source.sourceType == 'institute') source.sourceId,
+    };
+    final allowedSemantic = <AiChatSource>[];
+    for (final source in semantic.sources) {
+      if (seen.contains(source.sourceId)) continue;
+      if (source.sourceType == 'institute' &&
+          maxInstituteSources != null &&
+          instituteIds.length >= maxInstituteSources) {
+        continue;
+      }
+      if (source.sourceType == 'institute') instituteIds.add(source.sourceId);
+      seen.add(source.sourceId);
+      allowedSemantic.add(source);
+    }
+    final mergedSources = [...keyword.sources, ...allowedSemantic];
     return AiGroundingContext(
-      text: '${keyword.text}\n${semantic.text}',
-      sources: [
-        ...keyword.sources,
-        ...semantic.sources.where((s) => seen.add(s.sourceId)),
-      ],
+      text: _limitInstituteBlocks(
+        '${keyword.text}\n${semantic.text}',
+        mergedSources,
+      ),
+      sources: mergedSources,
     );
+  }
+
+  static String _limitInstituteBlocks(String text, List<AiChatSource> sources) {
+    final allowed = sources
+        .where((source) => source.sourceType == 'institute')
+        .map((source) => source.sourceId)
+        .toSet();
+    if (allowed.isEmpty) return text;
+    final lines = text.split('\n');
+    final output = <String>[];
+    var keep = true;
+    for (final line in lines) {
+      if (line.startsWith('SOURCE institute:')) {
+        keep = allowed.contains(line.trim().substring('SOURCE '.length));
+      } else if (line.startsWith('SOURCE ')) {
+        keep = true;
+      }
+      if (keep) output.add(line);
+    }
+    return output.join('\n');
+  }
+
+  static List<AiChatSource> _capInstituteSources(
+    List<AiChatSource> sources,
+    int? maxInstituteSources,
+  ) {
+    if (maxInstituteSources == null) return sources;
+    var instituteCount = 0;
+    return [
+      for (final source in sources)
+        if (source.sourceType != 'institute' ||
+            instituteCount++ < maxInstituteSources)
+          source,
+    ];
   }
 }
 
@@ -142,6 +202,24 @@ class LocalAiGroundingService {
     this.loadDictionary,
     this.loadAliases,
   });
+
+  /// Merge optional semantic records using the same institute-result policy
+  /// as keyword search. Typed and voice agents call this helper so their
+  /// result counts and ordering cannot diverge.
+  AiGroundingContext mergeExtra(
+    String query,
+    AiGroundingContext keyword,
+    AiGroundingContext semantic,
+  ) {
+    final specific = catalog?.hasSpecificSearchFilter(query) ?? false;
+    return AiGroundingContext.merge(
+      keyword,
+      semantic,
+      maxInstituteSources: specific
+          ? AiProviderConfig.maxNarrowedInstitutes
+          : AiProviderConfig.maxGroundingInstitutes,
+    );
+  }
 
   Future<SearchSpellCorrector?>? _spelling;
   Future<SearchAliases?>? _aliases;
@@ -246,12 +324,20 @@ class LocalAiGroundingService {
     List<InstituteListing>? ladderListings;
     final catalog = this.catalog;
     if (catalog != null) {
+      final specific = catalog.hasSpecificSearchFilter(query);
       if (InstituteCatalogService.asksForRankings(query)) {
-        rankings = catalog.rankings(query);
+        rankings = catalog.rankings(
+          query,
+          limit: specific
+              ? AiProviderConfig.maxNarrowedInstitutes
+              : AiProviderConfig.maxGroundingInstitutes,
+        );
       }
       ladderListings = await catalog.ladderSearch(
         query,
-        limit: AiProviderConfig.maxNarrowedInstitutes,
+        limit: specific
+            ? AiProviderConfig.maxNarrowedInstitutes
+            : AiProviderConfig.maxGroundingInstitutes,
       );
       if (ladderListings != null) {
         rankings = const [];
@@ -270,7 +356,9 @@ class LocalAiGroundingService {
       } else {
         found = catalog.find(
           query,
-          limit: AiProviderConfig.maxNarrowedInstitutes,
+          limit: specific
+              ? AiProviderConfig.maxNarrowedInstitutes
+              : AiProviderConfig.maxGroundingInstitutes,
         );
         // A place, level or course asked for: the student wants the list.
         final narrowed =
@@ -279,7 +367,7 @@ class LocalAiGroundingService {
             found.hits.any((hit) => hit.courses.isNotEmpty);
         institutes = found.hits
             .take(
-              narrowed
+              narrowed || specific
                   ? AiProviderConfig.maxNarrowedInstitutes
                   : AiProviderConfig.maxGroundingInstitutes,
             )

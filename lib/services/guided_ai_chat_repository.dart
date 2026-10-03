@@ -270,7 +270,7 @@ class GuidedAiChatRepository extends AiChatRepository {
     } on Object {
       return keyword;
     }
-    return AiGroundingContext.merge(keyword, semantic);
+    return _grounding.mergeExtra(query, keyword, semantic);
   }
 
   Future<AiChatResponse> _appHelp(

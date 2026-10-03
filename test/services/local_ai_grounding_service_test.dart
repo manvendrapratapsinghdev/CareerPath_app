@@ -51,7 +51,7 @@ void main() {
       for (var i = 0; i < 10; i++)
         InstituteRecord.fromJson({
           'id': i,
-          'name': 'Jaipur College $i',
+          'name': 'Jaipur Engineering College $i',
           'city': 'Jaipur',
           'state': 'Rajasthan',
           'courses': [
@@ -91,6 +91,13 @@ void main() {
         levels.text,
         contains('1 institute in Indore with UG courses matches'),
       );
+
+      final broad = await grounding.retrieve(query: 'engineering colleges');
+      expect(
+        broad.sources.where((s) => s.sourceType == 'institute'),
+        hasLength(1),
+      );
+      expect(broad.text, contains('showing 1.'));
     });
 
     test('a place with no colleges gets an honest coverage note', () async {
@@ -133,6 +140,48 @@ void main() {
       expect(merged.text, startsWith('COVERAGE: none'));
       expect(merged.sources, semantic.sources);
     });
+  });
+
+  test('semantic institute records cannot bypass the broad top-only cap', () {
+    const keyword = AiGroundingContext(
+      text: 'SOURCE institute:1\nTitle: Top',
+      sources: [
+        AiChatSource(
+          sourceId: 'institute:1',
+          sourceType: 'institute',
+          title: 'Top',
+        ),
+      ],
+    );
+    const semantic = AiGroundingContext(
+      text:
+          'SOURCE institute:2\nTitle: Other\n\nSOURCE career_node:x\nTitle: Career',
+      sources: [
+        AiChatSource(
+          sourceId: 'institute:2',
+          sourceType: 'institute',
+          title: 'Other',
+        ),
+        AiChatSource(
+          sourceId: 'career_node:x',
+          sourceType: 'career_node',
+          title: 'Career',
+        ),
+      ],
+    );
+
+    final merged = AiGroundingContext.merge(
+      keyword,
+      semantic,
+      maxInstituteSources: 1,
+    );
+    expect(merged.sources.map((source) => source.sourceId), [
+      'institute:1',
+      'career_node:x',
+    ]);
+    expect(merged.text, contains('SOURCE institute:1'));
+    expect(merged.text, isNot(contains('SOURCE institute:2')));
+    expect(merged.text, contains('SOURCE career_node:x'));
   });
 
   test(
