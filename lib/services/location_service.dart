@@ -249,26 +249,25 @@ class LocationService {
   }
 
   Future<void> _loadData() async {
-    final futures = <Future<Object>>[_loadStates(), _loadCities()];
-    final districtsIndex = _loadDistricts == null ? null : futures.length;
-    if (_loadDistricts != null) futures.add(_loadDistricts());
-    final placesIndex = _loadPlaces == null ? null : futures.length;
-    if (_loadPlaces != null) futures.add(_loadPlaces());
-    final aliasesIndex = _loadPlaceAliases == null ? null : futures.length;
-    if (_loadPlaceAliases != null) futures.add(_loadPlaceAliases());
-    final results = await Future.wait(futures);
+    // These loaders often share one SQLite connection. Keep them ordered so
+    // a direct state selector cannot queue concurrent reads on that connection.
+    final states = await _loadStates();
+    final cities = await _loadCities();
+    final districts = _loadDistricts == null
+        ? const <DistrictRegion>[]
+        : await _loadDistricts();
+    final places = _loadPlaces == null
+        ? const <PlaceRecord>[]
+        : await _loadPlaces();
+    final aliases = _loadPlaceAliases == null
+        ? const <PlaceAlias>[]
+        : await _loadPlaceAliases();
     _index(
-      results[0] as List<StateRegion>,
-      results[1] as List<({String city, String? state})>,
-      districts: districtsIndex != null
-          ? results[districtsIndex] as List<DistrictRegion>
-          : const [],
-      places: placesIndex != null
-          ? results[placesIndex] as List<PlaceRecord>
-          : const [],
-      aliases: aliasesIndex != null
-          ? results[aliasesIndex] as List<PlaceAlias>
-          : const [],
+      states,
+      cities,
+      districts: districts,
+      places: places,
+      aliases: aliases,
     );
     _loaded = true;
   }

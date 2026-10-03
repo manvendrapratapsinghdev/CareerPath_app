@@ -104,10 +104,35 @@ void main() {
     await tester.tap(find.byKey(const Key('ladder-filter-control')));
     await tester.pumpAndSettle();
     expect(find.text('Filter'), findsOneWidget);
-    expect(find.byKey(const Key('ugc-verified-only')), findsOneWidget);
+    expect(find.byKey(const Key('ladder-location-filter')), findsOneWidget);
     expect(find.byKey(const Key('ladder-group-filter')), findsOneWidget);
-    expect(find.byKey(const Key('ladder-family-filter')), findsOneWidget);
     expect(find.byKey(const Key('ladder-filter-apply')), findsOneWidget);
+    expect(find.byKey(const Key('ugc-verified-only')), findsNothing);
+    expect(find.byKey(const Key('ladder-family-filter')), findsNothing);
+
+    await tester.tap(find.byKey(const Key('ladder-location-filter')));
+    await pumpUntilFound(
+      tester,
+      find.byKey(const Key('ladder-location-apply')),
+    );
+    expect(find.text('State / Union Territory'), findsAtLeastNWidgets(1));
+    expect(find.byKey(const Key('ladder-location-reset')), findsOneWidget);
+    expect(find.byKey(const Key('ladder-location-apply')), findsOneWidget);
+    expect(find.byKey(const Key('location-district')), findsNothing);
+    expect(find.byKey(const Key('location-city')), findsNothing);
+    await tester.tap(find.byKey(const Key('ladder-location-IN-MH')));
+    await tester.tap(find.byKey(const Key('ladder-location-apply')));
+    await tester.pumpAndSettle();
+    expect(find.text('Maharashtra'), findsOneWidget);
+
+    await tester.tap(find.byKey(const Key('ladder-group-filter')));
+    await tester.pumpAndSettle();
+    expect(find.byKey(const Key('ladder-group-reset')), findsOneWidget);
+    expect(find.byKey(const Key('ladder-group-apply')), findsOneWidget);
+    expect(find.byKey(const Key('ladder-group-option-G1')), findsOneWidget);
+    await tester.tap(find.byKey(const Key('ladder-group-option-G1')));
+    await tester.tap(find.byKey(const Key('ladder-group-apply')));
+    await tester.pumpAndSettle();
 
     await tester.tap(find.byKey(const Key('ladder-filter-apply')));
     await pumpUntilFound(tester, find.byKey(const Key('ladder-group-G1')));
