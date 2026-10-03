@@ -53,13 +53,21 @@ class _InstituteLadderScreenState extends State<InstituteLadderScreen> {
     // connections are inexpensive on-device, but the shared cached database
     // can otherwise queue several nested catalog reads during a screen build.
     final route = await widget.routes.routeForDomain(widget.domainSlug);
-    final allLadder = await widget.catalog.ladderFor(widget.domainSlug);
-    final allListings = [for (final rung in allLadder) ...rung.institutes];
-    final availableGroupCodes = allListings
+    // Filter options are derived from the currently applicable location and
+    // UGC data, so the picker never offers groups/families with no records.
+    final availableLadder = await widget.catalog.ladderFor(
+      widget.domainSlug,
+      locationFilter: _locationFilter,
+      ugcVerifiedOnly: _ugcVerifiedOnly,
+    );
+    final availableListings = [
+      for (final rung in availableLadder) ...rung.institutes,
+    ];
+    final availableGroupCodes = availableListings
         .map((listing) => listing.classification?.groupCode)
         .whereType<String>()
         .toSet();
-    final availableFamilySlugs = allListings
+    final availableFamilySlugs = availableListings
         .map((listing) => listing.classification?.familySlug)
         .whereType<String>()
         .toSet();
@@ -86,182 +94,19 @@ class _InstituteLadderScreenState extends State<InstituteLadderScreen> {
     );
   }
 
-  Future<void> _chooseLocation() async {
-    final selection = await showInstituteLocationFilterSheet(
-      context,
-      locations: widget.locations,
-      prefs: widget.prefs,
-      initial: _locationFilter,
-    );
-    if (selection == null || !mounted) return;
-    setState(() {
-      _locationFilter = selection;
-      _data = _load();
-    });
-  }
-
   Future<void> _showFilterSheet(_LadderData data) async {
-    var location = _locationFilter;
-    var ugcVerifiedOnly = _ugcVerifiedOnly;
-    var groupCode = _groupCode;
-    var familySlug = _familySlug;
-    final selection = await showModalBottomSheet<_LadderFilterSelection>(
-      context: context,
-      isScrollControlled: true,
-      useSafeArea: true,
-      builder: (sheetContext) => StatefulBuilder(
-        builder: (context, setSheetState) {
-          final families = data.families
-              .where(
-                (family) => groupCode == null || family.groupCode == groupCode,
-              )
-              .toList(growable: false);
-          return Padding(
-            padding: EdgeInsets.fromLTRB(
-              AppSpacing.lg,
-              AppSpacing.sm,
-              AppSpacing.lg,
-              MediaQuery.viewInsetsOf(context).bottom + AppSpacing.lg,
-            ),
-            child: SingleChildScrollView(
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Row(
-                    children: [
-                      Expanded(
-                        child: Text(
-                          AppLocalizations.of(context)!.resource_filterTooltip,
-                          style: Theme.of(context).textTheme.headlineSmall,
-                        ),
-                      ),
-                      IconButton(
-                        tooltip: MaterialLocalizations.of(
-                          context,
-                        ).closeButtonTooltip,
-                        onPressed: () => Navigator.pop(sheetContext),
-                        icon: const Icon(Icons.close),
-                      ),
-                    ],
-                  ),
-                  const SizedBox(height: AppSpacing.sm),
-                  Card(
-                    child: ListTile(
-                      leading: const Icon(Icons.location_on_outlined),
-                      title: Text(_locationSummaryLabel(context, location)),
-                      subtitle: Text(
-                        AppLocalizations.of(
-                          context,
-                        )!.institute_locationFilterTooltip,
-                      ),
-                      trailing: const Icon(Icons.chevron_right_rounded),
-                      onTap: () async {
-                        final next = await showInstituteLocationFilterSheet(
-                          context,
-                          locations: widget.locations,
-                          prefs: widget.prefs,
-                          initial: location,
-                          persist: false,
-                        );
-                        if (next != null) {
-                          setSheetState(() => location = next);
-                        }
-                      },
-                    ),
-                  ),
-                  const SizedBox(height: AppSpacing.sm),
-                  Card(
-                    child: SwitchListTile(
-                      key: const Key('ugc-verified-only'),
-                      title: Text(
-                        AppLocalizations.of(
-                          context,
-                        )!.institute_hidePrivateWithoutUgc,
-                      ),
-                      value: ugcVerifiedOnly,
-                      onChanged: (value) =>
-                          setSheetState(() => ugcVerifiedOnly = value),
-                    ),
-                  ),
-                  const SizedBox(height: AppSpacing.sm),
-                  _dropdown<String>(
-                    key: const Key('ladder-group-filter'),
-                    label: AppLocalizations.of(context)!.institute_groupLabel,
-                    value: groupCode,
-                    values: [
-                      for (final group in data.groups)
-                        DropdownMenuItem(
-                          value: group.code,
-                          child: Text(group.name),
-                        ),
-                    ],
-                    onChanged: (value) => setSheetState(() {
-                      groupCode = value;
-                      if (familySlug != null &&
-                          !data.families.any(
-                            (family) =>
-                                family.slug == familySlug &&
-                                family.groupCode == value,
-                          )) {
-                        familySlug = null;
-                      }
-                    }),
-                  ),
-                  const SizedBox(height: AppSpacing.sm),
-                  _dropdown<String>(
-                    key: const Key('ladder-family-filter'),
-                    label: AppLocalizations.of(context)!.institute_familyLabel,
-                    value: familySlug,
-                    values: [
-                      for (final family in families)
-                        DropdownMenuItem(
-                          value: family.slug,
-                          child: Text(family.name),
-                        ),
-                    ],
-                    onChanged: (value) =>
-                        setSheetState(() => familySlug = value),
-                  ),
-                  const SizedBox(height: AppSpacing.lg),
-                  Row(
-                    children: [
-                      Expanded(
-                        child: OutlinedButton(
-                          onPressed: () => setSheetState(() {
-                            location = const InstituteLocationFilter();
-                            ugcVerifiedOnly = false;
-                            groupCode = null;
-                            familySlug = null;
-                          }),
-                          child: Text(
-                            AppLocalizations.of(context)!.resource_filterClear,
-                          ),
-                        ),
-                      ),
-                      const SizedBox(width: AppSpacing.sm),
-                      Expanded(
-                        child: FilledButton(
-                          onPressed: () => Navigator.pop(
-                            sheetContext,
-                            _LadderFilterSelection(
-                              location: location,
-                              ugcVerifiedOnly: ugcVerifiedOnly,
-                              groupCode: groupCode,
-                              familySlug: familySlug,
-                            ),
-                          ),
-                          child: Text(
-                            AppLocalizations.of(context)!.resource_filterApply,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                ],
-              ),
-            ),
-          );
-        },
+    final selection = await Navigator.of(context).push<_LadderFilterSelection>(
+      MaterialPageRoute(
+        fullscreenDialog: true,
+        builder: (_) => _LadderFilterPage(
+          data: data,
+          locations: widget.locations,
+          prefs: widget.prefs,
+          initialLocation: _locationFilter,
+          initialUgcVerifiedOnly: _ugcVerifiedOnly,
+          initialGroupCode: _groupCode,
+          initialFamilySlug: _familySlug,
+        ),
       ),
     );
     if (selection == null || !mounted) return;
@@ -323,10 +168,13 @@ class _InstituteLadderScreenState extends State<InstituteLadderScreen> {
         ),
         actions: [
           IconButton(
-            key: const Key('institute-location-button'),
-            tooltip: l10n.institute_locationFilterTooltip,
-            onPressed: _chooseLocation,
-            icon: const Icon(Icons.location_on_outlined),
+            key: const Key('ladder-filter-control'),
+            tooltip: l10n.resource_filterTooltip,
+            onPressed: () async {
+              final snapshot = await _data;
+              if (mounted) _showFilterSheet(snapshot);
+            },
+            icon: const Icon(Icons.tune_rounded),
           ),
         ],
       ),
@@ -414,26 +262,68 @@ class _InstituteLadderScreenState extends State<InstituteLadderScreen> {
         ),
         const SizedBox(height: AppSpacing.sm),
         Card(
-          key: const Key('ladder-filter-control'),
           child: ListTile(
-            leading: const Icon(Icons.tune_rounded),
-            title: Text(l10n.resource_filterTooltip),
+            leading: const Icon(Icons.layers_outlined),
+            title: Text(l10n.institute_groupLabel),
             subtitle: Text(
               l10n.institute_showingFilters(_activeFilterSummary(data)),
             ),
-            trailing: const Icon(Icons.chevron_right_rounded),
-            onTap: () => _showFilterSheet(data),
           ),
         ),
         const SizedBox(height: AppSpacing.md),
-        for (final rung in data.ladder)
-          _TierCard(
-            tier: rung.tier,
-            institutes: rung.institutes,
-            familiesBySlug: familiesBySlug,
-          ),
+        ..._groupCards(data, familiesBySlug),
       ],
     );
+  }
+
+  List<Widget> _groupCards(
+    _LadderData data,
+    Map<String, InstitutionFamily> familiesBySlug,
+  ) {
+    final l10n = AppLocalizations.of(context)!;
+    final counts = <String, int>{};
+    for (final rung in data.ladder) {
+      for (final listing in rung.institutes) {
+        final code = listing.classification?.groupCode;
+        if (code != null) counts[code] = (counts[code] ?? 0) + 1;
+      }
+    }
+    final groups = [
+      for (final group in data.groups)
+        if ((counts[group.code] ?? 0) > 0) group,
+    ];
+    if (groups.isEmpty) {
+      return [
+        Padding(
+          padding: const EdgeInsets.symmetric(vertical: AppSpacing.xl),
+          child: Center(child: Text(l10n.institute_noListedInTier)),
+        ),
+      ];
+    }
+    return [
+      for (final group in groups)
+        _GroupCard(
+          key: Key('ladder-group-${group.code}'),
+          group: group,
+          listedCount: counts[group.code]!,
+          tiers: [
+            for (final rung in data.ladder)
+              if (rung.institutes.any(
+                (listing) => listing.classification?.groupCode == group.code,
+              ))
+                (
+                  tier: rung.tier,
+                  institutes: rung.institutes
+                      .where(
+                        (listing) =>
+                            listing.classification?.groupCode == group.code,
+                      )
+                      .toList(growable: false),
+                ),
+          ],
+          familiesBySlug: familiesBySlug,
+        ),
+    ];
   }
 
   String? _groupName(_LadderData data) {
@@ -508,27 +398,6 @@ class _InstituteLadderScreenState extends State<InstituteLadderScreen> {
       ],
     );
   }
-
-  Widget _dropdown<T>({
-    required Key key,
-    required String label,
-    required T? value,
-    required List<DropdownMenuItem<T>> values,
-    required ValueChanged<T?> onChanged,
-  }) => DropdownButtonFormField<T>(
-    key: key,
-    initialValue: value,
-    isExpanded: true,
-    decoration: InputDecoration(labelText: label),
-    items: [
-      DropdownMenuItem<T>(
-        value: null,
-        child: Text(AppLocalizations.of(context)!.institute_allLabel(label)),
-      ),
-      ...values,
-    ],
-    onChanged: onChanged,
-  );
 }
 
 class _FilterSummary extends StatelessWidget {
@@ -586,6 +455,242 @@ class _FilterSummary extends StatelessWidget {
     );
   }
 }
+
+class _GroupCard extends StatelessWidget {
+  final InstitutionGroup group;
+  final int listedCount;
+  final List<LadderTier> tiers;
+  final Map<String, InstitutionFamily> familiesBySlug;
+
+  const _GroupCard({
+    super.key,
+    required this.group,
+    required this.listedCount,
+    required this.tiers,
+    required this.familiesBySlug,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
+    final colorScheme = Theme.of(context).colorScheme;
+    return Card(
+      margin: const EdgeInsets.only(bottom: AppSpacing.md),
+      clipBehavior: Clip.antiAlias,
+      child: ExpansionTile(
+        title: Text(group.name),
+        subtitle: Text(l10n.institute_coverageListed(listedCount)),
+        leading: CircleAvatar(
+          backgroundColor: colorScheme.primaryContainer,
+          child: const Icon(Icons.account_balance_outlined),
+        ),
+        children: [
+          for (final rung in tiers)
+            _TierCard(
+              tier: rung.tier,
+              institutes: rung.institutes,
+              familiesBySlug: familiesBySlug,
+            ),
+        ],
+      ),
+    );
+  }
+}
+
+class _LadderFilterPage extends StatefulWidget {
+  final _LadderData data;
+  final LocationService locations;
+  final SharedPreferences? prefs;
+  final InstituteLocationFilter initialLocation;
+  final bool initialUgcVerifiedOnly;
+  final String? initialGroupCode;
+  final String? initialFamilySlug;
+
+  const _LadderFilterPage({
+    required this.data,
+    required this.locations,
+    required this.prefs,
+    required this.initialLocation,
+    required this.initialUgcVerifiedOnly,
+    required this.initialGroupCode,
+    required this.initialFamilySlug,
+  });
+
+  @override
+  State<_LadderFilterPage> createState() => _LadderFilterPageState();
+}
+
+class _LadderFilterPageState extends State<_LadderFilterPage> {
+  late InstituteLocationFilter _location;
+  late bool _ugcVerifiedOnly;
+  late String? _groupCode;
+  late String? _familySlug;
+
+  @override
+  void initState() {
+    super.initState();
+    _location = widget.initialLocation;
+    _ugcVerifiedOnly = widget.initialUgcVerifiedOnly;
+    _groupCode = widget.initialGroupCode;
+    _familySlug = widget.initialFamilySlug;
+  }
+
+  Future<void> _chooseLocation() async {
+    final next = await showInstituteLocationFilterSheet(
+      context,
+      locations: widget.locations,
+      prefs: widget.prefs,
+      initial: _location,
+      persist: false,
+    );
+    if (next != null && mounted) setState(() => _location = next);
+  }
+
+  void _apply() => Navigator.pop(
+    context,
+    _LadderFilterSelection(
+      location: _location,
+      ugcVerifiedOnly: _ugcVerifiedOnly,
+      groupCode: _groupCode,
+      familySlug: _familySlug,
+    ),
+  );
+
+  void _clear() => setState(() {
+    _location = const InstituteLocationFilter();
+    _ugcVerifiedOnly = false;
+    _groupCode = null;
+    _familySlug = null;
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
+    final families = widget.data.families
+        .where((family) => _groupCode == null || family.groupCode == _groupCode)
+        .toList(growable: false);
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(l10n.resource_filterTooltip),
+        leading: IconButton(
+          tooltip: MaterialLocalizations.of(context).closeButtonTooltip,
+          onPressed: () => Navigator.pop(context),
+          icon: const Icon(Icons.close),
+        ),
+        actions: [
+          TextButton(
+            key: const Key('ladder-filter-apply'),
+            onPressed: _apply,
+            child: Text(l10n.resource_filterApply),
+          ),
+        ],
+      ),
+      body: ListView(
+        padding: AppSpacing.pagePadding,
+        children: [
+          Card(
+            child: ListTile(
+              leading: const Icon(Icons.location_on_outlined),
+              title: Text(_locationLabel(l10n)),
+              subtitle: Text(l10n.institute_locationFilterTooltip),
+              trailing: const Icon(Icons.chevron_right_rounded),
+              onTap: _chooseLocation,
+            ),
+          ),
+          const SizedBox(height: AppSpacing.sm),
+          Card(
+            child: SwitchListTile(
+              key: const Key('ugc-verified-only'),
+              title: Text(l10n.institute_hidePrivateWithoutUgc),
+              value: _ugcVerifiedOnly,
+              onChanged: (value) => setState(() => _ugcVerifiedOnly = value),
+            ),
+          ),
+          const SizedBox(height: AppSpacing.sm),
+          _filterDropdown<String>(
+            key: const Key('ladder-group-filter'),
+            label: l10n.institute_groupLabel,
+            allLabel: l10n.institute_allLabel(l10n.institute_groupLabel),
+            value: _groupCode,
+            values: [
+              for (final group in widget.data.groups)
+                DropdownMenuItem(value: group.code, child: Text(group.name)),
+            ],
+            onChanged: (value) => setState(() {
+              _groupCode = value;
+              if (_familySlug != null &&
+                  !widget.data.families.any(
+                    (family) =>
+                        family.slug == _familySlug &&
+                        (value == null || family.groupCode == value),
+                  )) {
+                _familySlug = null;
+              }
+            }),
+          ),
+          const SizedBox(height: AppSpacing.sm),
+          _filterDropdown<String>(
+            key: const Key('ladder-family-filter'),
+            label: l10n.institute_familyLabel,
+            allLabel: l10n.institute_allLabel(l10n.institute_familyLabel),
+            value: _familySlug,
+            values: [
+              for (final family in families)
+                DropdownMenuItem(value: family.slug, child: Text(family.name)),
+            ],
+            onChanged: (value) => setState(() => _familySlug = value),
+          ),
+          const SizedBox(height: AppSpacing.lg),
+          Row(
+            children: [
+              Expanded(
+                child: OutlinedButton(
+                  onPressed: _clear,
+                  child: Text(l10n.resource_filterClear),
+                ),
+              ),
+              const SizedBox(width: AppSpacing.sm),
+              Expanded(
+                child: FilledButton(
+                  key: const Key('ladder-filter-apply-bottom'),
+                  onPressed: _apply,
+                  child: Text(l10n.resource_filterApply),
+                ),
+              ),
+            ],
+          ),
+        ],
+      ),
+    );
+  }
+
+  String _locationLabel(AppLocalizations l10n) {
+    if (_location.onlineOnly) return l10n.institute_online;
+    if (_location.placeName != null) return _location.placeName!;
+    if (_location.districtName != null) return _location.districtName!;
+    if (_location.stateName != null) return _location.stateName!;
+    return l10n.institute_allIndia;
+  }
+}
+
+DropdownButtonFormField<T> _filterDropdown<T>({
+  required Key key,
+  required String label,
+  required String allLabel,
+  required T? value,
+  required List<DropdownMenuItem<T>> values,
+  required ValueChanged<T?> onChanged,
+}) => DropdownButtonFormField<T>(
+  key: key,
+  initialValue: value,
+  isExpanded: true,
+  decoration: InputDecoration(labelText: label),
+  items: [
+    DropdownMenuItem<T>(value: null, child: Text(allLabel)),
+    ...values,
+  ],
+  onChanged: onChanged,
+);
 
 class _TierCard extends StatelessWidget {
   final DomainTier tier;
