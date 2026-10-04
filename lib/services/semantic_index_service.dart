@@ -1,5 +1,4 @@
 import 'dart:convert';
-import 'dart:io';
 import 'dart:math' as math;
 
 import 'package:flutter/foundation.dart';
@@ -12,6 +11,7 @@ import 'career_data_service.dart';
 import 'gemini_key_service.dart';
 import 'institute_catalog_service.dart';
 import 'local_ai_grounding_service.dart';
+import 'semantic_index_storage.dart';
 
 /// One searchable item: its grounding text and chat source.
 class SemanticItem {
@@ -32,7 +32,7 @@ class SemanticItem {
 class SemanticIndexService {
   final GeminiKeyService _keyService;
   final http.Client _client;
-  final Future<Directory> Function() _directory;
+  final Future<Object?> Function() _directory;
   final Duration batchPause;
   final Duration retryPause;
 
@@ -46,7 +46,7 @@ class SemanticIndexService {
 
   SemanticIndexService({
     required GeminiKeyService keyService,
-    required Future<Directory> Function() directory,
+    required Future<Object?> Function() directory,
     http.Client? client,
     this.batchPause = AiProviderConfig.embeddingBatchPause,
     this.retryPause = const Duration(seconds: 30),
@@ -283,57 +283,21 @@ class SemanticIndexService {
     return Float32List.fromList([for (final v in doubles) v / norm]);
   }
 
-  // ── Storage: <dir>/ai_semantic_index.{json,bin} ─────────────────────────
-
-  Future<(File, File)> _files() async {
-    final dir = await _directory();
-    return (
-      File('${dir.path}/ai_semantic_index.json'),
-      File('${dir.path}/ai_semantic_index.bin'),
-    );
-  }
-
   Future<Map<String, (String, Float32List)>> _load() async {
-    try {
-      final (meta, data) = await _files();
-      if (!await meta.exists() || !await data.exists()) return {};
-      final entries = (jsonDecode(await meta.readAsString()) as List)
-          .cast<Map>();
-      final bytes = await data.readAsBytes();
-      final floats = Float32List.view(Uint8List.fromList(bytes).buffer);
-      const dims = AiProviderConfig.embeddingDimensions;
-      final result = <String, (String, Float32List)>{};
-      for (var i = 0; i < entries.length; i++) {
-        if ((i + 1) * dims > floats.length) break;
-        result[entries[i]['id'] as String] = (
-          entries[i]['hash'] as String,
-          Float32List.fromList(floats.sublist(i * dims, (i + 1) * dims)),
-        );
-      }
-      return result;
-    } on Object {
-      return {};
-    }
+    return loadSemanticIndex(
+      await _directory(),
+      dimensions: AiProviderConfig.embeddingDimensions,
+    );
   }
 
   Future<void> _save() async {
-    final (meta, data) = await _files();
-    final ids = _vectors.keys.toList();
-    final floats = Float32List(
-      ids.length * AiProviderConfig.embeddingDimensions,
-    );
-    for (var i = 0; i < ids.length; i++) {
-      floats.setAll(
-        i * AiProviderConfig.embeddingDimensions,
-        _vectors[ids[i]]!,
-      );
-    }
-    await data.writeAsBytes(floats.buffer.asUint8List(), flush: true);
-    await meta.writeAsString(
-      jsonEncode([
-        for (final id in ids) {'id': id, 'hash': _hash(_items[id]?.text ?? '')},
-      ]),
-      flush: true,
+    await saveSemanticIndex(
+      await _directory(),
+      {
+        for (final entry in _vectors.entries)
+          entry.key: (_hash(_items[entry.key]?.text ?? ''), entry.value),
+      },
+      dimensions: AiProviderConfig.embeddingDimensions,
     );
   }
 

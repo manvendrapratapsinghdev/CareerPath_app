@@ -16,7 +16,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
 # In Windows, build-name is used as the major, minor, and patch parts
 # of the product and file versions while build-number is used as the build suffix.
-version: 1.5.0+17
+version: 1.5.0+19
 
 environment:
   sdk: ^3.10.0-290.4.beta
@@ -53,6 +53,8 @@ dependencies:
   flutter_tts: ^4.2.5
   live_audio:
     path: packages/live_audio
+  # 1.2.0 requires Dart 3.12; keep this compatible with Dart 3.11.
+  sqflite_common_ffi_web: 1.1.1
 
 dev_dependencies:
   flutter_test:
@@ -65,7 +67,8 @@ dev_dependencies:
   # rules and activating additional ones.
   flutter_lints: ^6.0.0
   flutter_launcher_icons: ^0.14.3
-  sqflite_common_ffi: ^2.4.3
+  # 2.4.1+ requires Dart 3.12; keep this compatible with Dart 3.11.
+  sqflite_common_ffi: 2.4.0+3
 
 flutter_launcher_icons:
   android: true
@@ -87,6 +90,12 @@ flutter_native_splash:
   android: true
   ios: true
   web: true
+
+hooks:
+  user_defines:
+    sqlite3:
+      source: system
+      name_android: sqlite
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

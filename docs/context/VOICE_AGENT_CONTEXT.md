@@ -32,7 +32,7 @@
  AiVoiceServices.createController()                    lib/services/ai_voice_services.dart
    ▼
  LiveVoiceController (ChangeNotifier, state machine)   lib/controllers/live_voice_controller.dart
-   │ mic frames ─(24k→16k resample)─▶ GeminiLiveClient ─wss─▶ Gemini Live (BidiGenerateContent, v1alpha)
+   │ mic frames ─(24k→16k resample)─▶ GeminiLiveClient ─wss─▶ Gemini Live (BidiGenerateContent, v1beta)
    │ ◀─ audio(24k PCM) / transcripts / toolCall / turnComplete / interrupted / goAway ─
    │
    ├─ toolCall ─▶ LiveVoiceTools.execute()             lib/services/live_voice_tools.dart
@@ -79,7 +79,7 @@ Related non-voice (shared) pieces: `local_ai_grounding_service.dart` (retrieval)
 | Constant | Value | Notes |
 |---|---|---|
 | `liveModel` | `gemini-3.1-flash-live-preview` | override `--dart-define=GEMINI_LIVE_MODEL=` |
-| `liveFallbackModel` / `liveFallbackAfterFailures` | `gemini-2.5-flash-native-audio-preview-09-2025` / 2 | after 2 consecutive `1011` closes with no student transcript in between, `LiveVoiceController` switches to this model for the rest of the app run (override `GEMINI_LIVE_FALLBACK_MODEL`) |
+| `liveFallbackModel` / `liveFallbackAfterFailures` | `gemini-2.5-flash-native-audio-preview-12-2025` / 2 | after 2 consecutive `1011` closes with no student transcript in between, `LiveVoiceController` switches to this model for the rest of the app run (override `GEMINI_LIVE_FALLBACK_MODEL`) |
 | `model` (typed chat) | `gemini-2.5-flash` | override `GEMINI_MODEL` |
 | `voicePreviewModel` | `gemini-3.1-flash-tts-preview` | |
 | `defaultVoice` | `Leda` | 30 prebuilt voices in `voices` |
@@ -543,7 +543,7 @@ Fakes: the controller accepts injected `client` (`GeminiLiveClient`) and `audio`
 - `FUTURE_PLAN.md` §11 — voice is "in progress": missing transcript revealed in step with audio, rotating landing titles, animated hint text, Lottie loaders, auto-start voice after welcome.
 - Semantic search quota: the shared key allows ~100 embedded items/min; voice prefetch is capped at 3 query embeddings per turn for that reason.
 - API key from a public URL, held in memory: prototype-grade; do not log or persist it.
-- Gemini Live model is a **preview** (`gemini-3.1-flash-live-preview`) on `v1alpha` — expect API drift.
+- Gemini Live model is a **preview** (`gemini-3.1-flash-live-preview`) on `v1beta` — expect API drift.
 - `search_careers` sets `_holdSpeech`; changing tool order/names requires updating `LiveVoicePrompts` **and** controller hold/discard logic **and** tests.
 - Prompt says the model must never speak before `format_answer`; the controller is the safety net if it does.
 - Search assets must be rebuilt when their sources change: DB → `build_search_aliases.py`; never edit `search_aliases.json` by hand. The current generated asset rebuilds to 573 keys / 690 expansions with no diff. SQLite place aliases resolve during location matching but are not added to the spelling-correction vocabulary, so typo correction for a place alias remains a follow-up.

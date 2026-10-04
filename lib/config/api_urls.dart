@@ -25,7 +25,7 @@ class ApiUrls {
   /// Gemini Live realtime voice WebSocket (phone → Google directly).
   static const String geminiLiveWebSocket =
       'wss://generativelanguage.googleapis.com/ws/'
-      'google.ai.generativelanguage.v1alpha.GenerativeService.BidiGenerateContent';
+      'google.ai.generativelanguage.v1beta.GenerativeService.BidiGenerateContent';
 
   // ── Streams ────────────────────────────────────────────────────────────────
 

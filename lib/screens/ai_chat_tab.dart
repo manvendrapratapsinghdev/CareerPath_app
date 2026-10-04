@@ -367,10 +367,10 @@ class _AiChatTabState extends State<AiChatTab> {
       }
     }
     if (!mounted) return;
-    if (!_isSpeechInitialized) {
-      _showVoiceMessage(l.ai_voiceUnavailable);
-      return;
-    }
+    // Live Voice uses live_audio for PCM capture and Gemini Live for
+    // recognition. speech_to_text is used here only as a convenient way to
+    // request microphone permission; a device without a speech-recognition
+    // provider must not prevent the independent Live Voice path from starting.
     final voice = _voice ??=
         services.createController(streamId: () => widget.streamId)
           ..addListener(_onVoiceChanged)

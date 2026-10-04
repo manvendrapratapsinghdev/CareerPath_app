@@ -179,8 +179,9 @@ class LiveVoiceController extends ChangeNotifier {
         _client.sendText(LiveVoicePrompts.welcomeTrigger);
         _armTurnTimer();
       }
-    } on Object catch (error) {
-      debugPrint('[AI Guide voice] start failed (${error.runtimeType})');
+    } on Object catch (error, stackTrace) {
+      debugPrint('[AI Guide voice] start failed: $error');
+      debugPrintStack(stackTrace: stackTrace);
       await stop();
       rethrow;
     }

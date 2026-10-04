@@ -43,7 +43,7 @@ class AiProviderConfig {
   /// (close code 1011 before it understands anything, as on 2026-09-30).
   static const String liveFallbackModel = String.fromEnvironment(
     'GEMINI_LIVE_FALLBACK_MODEL',
-    defaultValue: 'gemini-2.5-flash-native-audio-preview-09-2025',
+    defaultValue: 'gemini-2.5-flash-native-audio-preview-12-2025',
   );
 
   /// Consecutive 1011 closes, with the student never understood in between,

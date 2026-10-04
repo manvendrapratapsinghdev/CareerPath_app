@@ -1,9 +1,5 @@
-import 'dart:io';
-
-import 'package:flutter/foundation.dart';
-import 'package:flutter/services.dart';
-import 'package:path/path.dart' as p;
 import 'package:sqflite/sqflite.dart';
+import 'package:flutter/foundation.dart';
 
 import '../models/domain.dart';
 import '../models/domain_tier.dart';
@@ -19,6 +15,7 @@ import '../models/institute_verification.dart';
 import '../models/institution_family.dart';
 import '../models/institution_group.dart';
 import '../models/state_region.dart';
+import 'local_database_platform.dart';
 
 /// Manages the bundled SQLite database lifecycle.
 /// Always copies from assets to ensure latest data.
@@ -39,19 +36,13 @@ class LocalDatabase {
 
   Future<void> init() async {
     _tables = null;
-    final dbDir = await getDatabasesPath();
-    final dbPath = p.join(dbDir, _dbFileName);
-
-    // Always copy from assets to ensure latest DB
-    await Directory(dbDir).create(recursive: true);
-    final data = await rootBundle.load(_assetPath);
-    final bytes = data.buffer.asUint8List(
-      data.offsetInBytes,
-      data.lengthInBytes,
+    // The platform helper uses a file on mobile/desktop and IndexedDB-backed
+    // SQLite WASM in a browser. Keeping dart:io out of this class is required
+    // for Flutter Web to finish startup and call runApp().
+    _db = await openBundledDatabase(
+      assetPath: _assetPath,
+      databaseName: _dbFileName,
     );
-    await File(dbPath).writeAsBytes(bytes, flush: true);
-
-    _db = await openDatabase(dbPath, readOnly: true);
   }
 
   Database get db {

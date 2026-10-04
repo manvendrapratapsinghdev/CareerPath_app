@@ -232,9 +232,10 @@ class AiChatController extends ChangeNotifier {
 
   String _newId() {
     final timestamp = DateTime.now().microsecondsSinceEpoch.toRadixString(36);
+    // Keep the bound below 2^32: on web, `1 << 32` overflows to zero.
     final random = List.generate(
       3,
-      (_) => _random.nextInt(1 << 32).toRadixString(36),
+      (_) => _random.nextInt(0x7fffffff).toRadixString(36),
     ).join();
     return '$timestamp-$random';
   }
